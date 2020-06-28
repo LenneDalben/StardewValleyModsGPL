@@ -1,0 +1,15 @@
+{
+  "Name": "Beer in Half the Time",
+  "Author": "LenneDalben",
+  "Version": "1.0",
+  "Description": "Crafting beers takes half the time.",
+  "UniqueID": "LenneDalben.redbeer",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": [ "Nexus:6006" ],
+  "Dependencies": [
+	  { "UniqueID": "Digus.ProducerFrameworkMod", "MinimumVersion": "1.1.0" }
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Digus.ProducerFrameworkMod"
+  }
+}

@@ -1,0 +1,13 @@
+[
+	{ //Beer
+		"ProducerName": "Keg",
+		"InputIdentifier": "262",
+		"MinutesUntilReady": 875,
+		"OutputIdentifier": "346",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "LightBlue"
+	},
+]

@@ -1,0 +1,79 @@
+{
+  "Format": "1.13.0",
+  "ConfigSchema": {
+	"OilMaker": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false,
+		},
+	"BeeHouse": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false,
+		},
+	"PreservesJar": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false,
+		},
+	"LightningRod": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false,
+		}
+		},
+  "Changes": [
+       //Oil Maker requires 20 slime instead of 50, and 10 hardwood instead of 20
+	   {
+          "Action": "EditData",
+          "Target": "Data/CraftingRecipes",
+          "Fields": {
+             "Oil Maker": {
+                "0": "766 20 709 10 336 1"
+             }
+		  },
+		    "When": {
+			"OilMaker": "true",
+			},
+       },
+	   //Bee House requires 3 coal instead of 8
+	   {
+          "Action": "EditData",
+          "Target": "Data/CraftingRecipes",
+          "Fields": {
+			 "Bee House": {
+			 "0": "388 40 382 3 335 1 724 1"
+			 },
+          },
+		    "When": {
+			"BeeHouse": "true",
+			},
+       },
+	   //Preserves Jar requires 3 coal instead of 8
+	   {
+          "Action": "EditData",
+          "Target": "Data/CraftingRecipes",
+          "Fields": {
+			 "Preserves Jar": {
+			 "0": "388 50 390 40 382 3"
+			 },
+          },
+		  	"When": {
+			"PreservesJar": "true",
+			},
+       },
+	   //Lightning Rod requires 1 bat wing instead of 5
+	   {
+          "Action": "EditData",
+          "Target": "Data/CraftingRecipes",
+          "Fields": {
+			 "Lightning Rod": {
+			 "0": "335 1 338 1 767 1"
+			 },
+          },
+		  	"When": {
+			"LightningRod": "true",
+			},
+       },
+    ]
+}
