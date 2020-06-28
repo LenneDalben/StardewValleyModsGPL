@@ -1,0 +1,26 @@
+[
+	{
+		"Id": "pierreplansaheadspringletter",
+		"Text": "Hey @,^^I have a new deal with my suppliers this month, so if I'm lucky, they might deliver the summer seeds early! Isn't that great?^^Although, that Draylon fellow said I might not get all of the summer seeds...or enough stock to have them available the whole week...^^^Come on down the shop this week to check, so you can plan ahead! Could be difficult, though!^^-Pierre",
+		"Repeatable": "true",
+		//Conditions for delivery
+		"Days": [22],
+		"Seasons": ["spring"],
+	},
+	{
+		"Id": "pierreplansaheadsummerletter",
+		"Text": "Hey @,^^I have a new deal with my suppliers this month, so if I'm lucky, they might deliver the fall seeds early! Isn't that great?^^Although, that Draylon fellow said I might not get all of the fall seeds...or enough stock to have them available the whole week...^^^Come on down the shop this week to check, so you can plan ahead! Could be difficult, though!^^-Pierre",
+		"Repeatable": "true",
+		//Conditions for delivery
+		"Days": [22],
+		"Seasons": ["summer"],
+	},
+	{
+		"Id": "pierreplansaheadwinterletter",
+		"Text": "Hey @,^^I have a new deal with my suppliers this month, so if I'm lucky, they might deliver the spring seeds early! Isn't that great?^^Although, that Draylon fellow said I might not get all of the spring seeds...or enough stock to have them available the whole week...^^^Come on down the shop this week to check, so you can plan ahead! Could be difficult, though!^^-Pierre",
+		"Repeatable": "true",
+		//Conditions for delivery
+		"Days": [22],
+		"Seasons": ["winter"],
+	},
+]

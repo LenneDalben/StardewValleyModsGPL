@@ -1,0 +1,12 @@
+{
+  "Name": "[STF] Joja Plans Ahead - 1 Day in Advance",
+  "Author": "LenneDalben",
+  "Version": "1.0",
+  "Description": "JojaMart sells the next season's seeds 1 day in advance.",
+  "UniqueID": "LenneDalben.JojaPlansAhead",
+  "MinimumApiVersion": "3.4.0",
+  "UpdateKeys": [ "Nexus:6273" ],
+  "ContentPackFor": {
+    "UniqueID": "Cherry.ShopTileFramework"
+  }
+}

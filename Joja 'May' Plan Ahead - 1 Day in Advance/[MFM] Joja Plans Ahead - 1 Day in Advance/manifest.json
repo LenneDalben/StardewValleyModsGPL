@@ -1,0 +1,17 @@
+﻿{
+	"Name": "Joja 'May' Plan Ahead - 1 Day in Advance MFM Component",
+	"Author": "LenneDalben",
+	"Version": "1.0",
+	"Description": "Joja mails you a letter advertising that they could potentially sell the next season's seeds 1 day early.",
+	"UniqueID": "LenneDalben.MFM.JojaPlansAhead",
+	"MinimumApiVersion": "3.4.0",
+	"UpdateKeys": [],
+	"Dependencies": [
+		{
+			"UniqueID": "LenneDalben.JojaPlansAhead"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod"
+	}
+}

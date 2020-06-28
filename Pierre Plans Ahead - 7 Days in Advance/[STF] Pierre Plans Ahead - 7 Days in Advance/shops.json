@@ -1,0 +1,281 @@
+{
+  "VanillaShops": [
+  //Last Day of Spring, Summer Seeds!
+	{
+      "ShopName": "PierreShop",
+	  "AddStockAboveVanilla": "True",
+      "ItemStocks": [
+        {
+          "ItemType": "Object",
+		  "StockPrice": "100",
+          "ItemNames": [
+            "Red Cabbage Seeds"
+          ],
+		"When": [
+        "!z spring/y 2/u 22 23 24 25 26 27 28", //available if it's `During Spring` AND `it's year 2 or later` AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+		]
+        },
+		{
+          "ItemType": "Object",
+		  "StockPrice": "80",
+          "ItemNames": [
+            "Blueberry Seeds",
+			"Melon Seeds"
+          ],
+		"When": [
+        "!z spring/u 22 23 24 25 26 27 28", //available if it's `During Spring` AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+		]
+        },
+		{
+          "ItemType": "Object",
+		  "StockPrice": "150",
+          "ItemNames": [
+			"Corn Seeds"
+          ],	
+		"When": [
+        "!z spring/u 22 23 24 25 26 27 28", //available if it's `During Spring` AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+		]		  
+        },
+		{
+          "ItemType": "Object",
+		  "StockPrice": "60",
+          "ItemNames": [
+			"Hops Starter"
+          ],
+		"When": [
+        "!z spring/u 22 23 24 25 26 27 28", //available if it's `During Spring` AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+		]		  
+        },
+		{
+          "ItemType": "Object",
+		  "StockPrice": "40",
+          "ItemNames": [
+			"Pepper Seeds",
+			"Radish Seeds"
+          ],	
+		"When": [
+        "!z spring/u 22 23 24 25 26 27 28", //available if it's `During Spring` AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+		]		  
+        },
+		{
+          "ItemType": "Object",
+		  "StockPrice": "100",
+          "ItemNames": [
+			"Poppy Seeds"
+          ],	
+		"When": [
+        "!z spring/u 22 23 24 25 26 27 28", //available if it's `During Spring` AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+		]		  
+        },
+		{
+          "ItemType": "Object",
+		  "StockPrice": "50",
+          "ItemNames": [
+			"Spangle Seeds",
+			"Tomato Seeds"
+          ],
+		"When": [
+        "!z spring/u 22 23 24 25 26 27 28", //available if it's `During Spring` AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+		]		  
+        },
+		{
+          "ItemType": "Object",
+		  "StockPrice": "200",
+          "ItemNames": [
+			"Sunflower Seeds"
+          ],	
+		"When": [
+        "!z spring/u 22 23 24 25 26 27 28", //available if it's `During Spring` AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+		]		  
+        },
+		{
+          "ItemType": "Object",
+		  "StockPrice": "10",
+          "ItemNames": [
+			"Wheat Seeds"
+          ],	
+		"When": [
+        "!z spring/u 22 23 24 25 26 27 28", //available if it's `During Spring` AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+		]		  
+        },
+      ]
+    },
+	//Last Day of Summer, Fall Seeds!
+	{
+      "ShopName": "PierreShop",
+	  "AddStockAboveVanilla": "True",
+      "ItemStocks": [
+        {
+          "ItemType": "Object",
+		  "StockPrice": "30",
+          "ItemNames": [
+            "Artichoke Seeds"
+          ],
+		"When": [
+        "!z summer/y 2/u 22 23 24 25 26 27 28", //available if it's `During Summer` AND `it's year 2 or later` AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+		]
+        },
+		{
+          "ItemType": "Object",
+		  "StockPrice": "70",
+          "ItemNames": [
+            "Amaranth Seeds"
+          ],		  
+		"When": [
+        "!z summer/u 22 23 24 25 26 27 28", //available if it's `During Summer` AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+		]
+        },
+		{
+          "ItemType": "Object",
+		  "StockPrice": "50",
+          "ItemNames": [
+			"Bok Choy Seeds"
+          ],		
+		"When": [
+        "!z summer/u 22 23 24 25 26 27 28", //available if it's `During Summer` AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+		]		  
+        },
+		{
+          "ItemType": "Object",
+		  "StockPrice": "240",
+          "ItemNames": [
+			"Cranberry Seeds"
+          ],	
+		"When": [
+        "!z summer/u 22 23 24 25 26 27 28", //available if it's `During Summer` AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+		]		  
+        },
+		{
+          "ItemType": "Object",
+		  "StockPrice": "20",
+          "ItemNames": [
+			"Eggplant Seeds"
+          ],		  
+		"When": [
+        "!z summer/u 22 23 24 25 26 27 28", //available if it's `During Summer` AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+		]
+        },
+		{
+          "ItemType": "Object",
+		  "StockPrice": "200",
+          "ItemNames": [
+			"Fairy Seeds",
+          ],
+		"When": [
+        "!z summer/u 22 23 24 25 26 27 28", //available if it's `During Summer` AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+		]		  
+        },
+		{
+          "ItemType": "Object",
+		  "StockPrice": "60",
+          "ItemNames": [
+			"Grape Starter",
+			"Yam Seeds"
+          ],
+		"When": [
+        "!z summer/u 22 23 24 25 26 27 28", //available if it's `During Summer` AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+		]		  
+        },
+		{
+          "ItemType": "Object",
+		  "StockPrice": "100",
+          "ItemNames": [
+			"Pumpkin Seeds"
+          ],
+		"When": [
+        "!z summer/u 22 23 24 25 26 27 28", //available if it's `During Summer` AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+		]		  
+        },
+      ],
+    },
+	//Last Day of Winter, Spring Seeds!
+	{
+      "ShopName": "PierreShop",
+	  "AddStockAboveVanilla": "True",
+      "ItemStocks": [
+		{
+          "ItemType": "Object",
+		  "StockPrice": "40",
+          "ItemNames": [
+            "Garlic Seeds"
+          ],
+		"When": [
+        "!z winter/y 2/u 22 23 24 25 26 27 28", //available if it's `During Winter` AND `it's year 2 or later` AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+		]
+        },
+		{
+          "ItemType": "Object",
+		  "StockPrice": "30",
+          "ItemNames": [
+            "Jazz Seeds"
+          ],
+		 "When": [
+        "!z winter/u 22 23 24 25 26 27 28", //available if it's `During Winter` AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+		]
+        },		
+		{
+          "ItemType": "Object",
+		  "StockPrice": "80",
+          "ItemNames": [
+			"Cauliflower Seeds"
+          ],
+		"When": [
+        "!z winter/u 22 23 24 25 26 27 28", //available if it's `During Winter` AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+		]
+        },
+		{
+          "ItemType": "Object",
+		  "StockPrice": "60",
+          "ItemNames": [
+			"Bean Starter"
+          ],
+		"When": [
+        "!z winter/u 22 23 24 25 26 27 28", //available if it's `During Winter` AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+		]
+        },
+		{
+          "ItemType": "Object",
+		  "StockPrice": "70",
+          "ItemNames": [
+			"Kale Seeds"
+          ],
+		"When": [
+        "!z winter/u 22 23 24 25 26 27 28", //available if it's `During Winter` AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+		]
+        },
+		{
+          "ItemType": "Object",
+		  "StockPrice": "20",
+          "ItemNames": [
+			"Parsnip Seeds",
+			"Tulip Bulb"
+          ],
+		"When": [
+        "!z winter/u 22 23 24 25 26 27 28", //available if it's `During Winter` AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+		]
+        },
+		{
+          "ItemType": "Object",
+		  "StockPrice": "50",
+          "ItemNames": [
+			"Potato Seeds"
+          ],
+		"When": [
+        "!z winter/u 22 23 24 25 26 27 28", //available if it's `During Winter` AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+		]
+        },
+		
+		{
+          "ItemType": "Object",
+		  "StockPrice": "40",
+          "ItemNames": [
+			"Rice Shoot"
+          ],
+		"When": [
+        "!z winter/u 22 23 24 25 26 27 28", //available if it's `During Winter` AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+		]
+        },
+      ],
+    },
+  ]
+}

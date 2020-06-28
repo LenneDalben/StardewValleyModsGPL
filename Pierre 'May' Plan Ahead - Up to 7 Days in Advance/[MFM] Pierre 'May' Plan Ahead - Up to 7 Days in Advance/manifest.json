@@ -1,0 +1,17 @@
+﻿{
+	"Name": "Pierre 'May' Plan Ahead - Up to 7 Days in Advance MFM Component",
+	"Author": "LenneDalben",
+	"Version": "1.0",
+	"Description": "Pierre mails you a letter advertising that he could potentially sell the next season's seeds up to 7 days early.",
+	"UniqueID": "LenneDalben.MFM.PierrePlansAhead",
+	"MinimumApiVersion": "3.4.0",
+	"UpdateKeys": [],
+	"Dependencies": [
+		{
+			"UniqueID": "LenneDalben.PierrePlansAhead"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod"
+	}
+}
