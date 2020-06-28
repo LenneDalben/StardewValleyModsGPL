@@ -1,5 +1,5 @@
 # StardewValleyMods
-Welcome to my respository for my mods for Stardew Valley!
+Welcome to the respository for my mods for Stardew Valley!
 
 <a href="https://github.com/LenneDalben/StardewValleyMods/tree/master/Pierre%20Plans%20Ahead%20-%20All#stf-pierre-plans-ahead">(STF) Pierre Plans Ahead</a> | Pierre sells the next season's seeds in advance. Options are 1 day, 3 days, and 7 days in advance.
 
