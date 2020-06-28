@@ -8,11 +8,13 @@ Have you ever wanted to plan ahead, just a little, and have your seeds ready to 
 -Pierre will send you a letter on the 28th of the month to let you know
 
 
+
 3 Days in Advance:
 
 -Pierre will sell the next season's seeds starting on the 26th of the month (so he'll sell them on the 26th, 27th, and 28th)
 
 -Pierre will send you a letter on the 26th of the month to let you know
+
 
 
 7 Days in Advance:
