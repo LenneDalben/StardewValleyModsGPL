@@ -11,7 +11,7 @@
 			"Tortilla"
           ],
 		"When": [
-        "!Hn jojaMember", //available at this price if you're not a Joja member
+        "!Hn JojaMember", //available at this price if you're not a Joja member
 		]
         },
 		{
@@ -21,7 +21,7 @@
 			"Tortilla"
           ],
 		"When": [
-        "Hn jojaMember", //available at this price if you are a Joja member
+        "Hn JojaMember", //available at this price if you are a Joja member
 		]
         },
 	//Oil
@@ -32,7 +32,7 @@
 			"Oil"
           ],
 		"When": [
-        "!Hn jojaMember", //available at this price if you're not a Joja member
+        "!Hn JojaMember", //available at this price if you're not a Joja member
 		]
         },
 		{
@@ -42,7 +42,7 @@
 			"Oil"
           ],
 		"When": [
-        "Hn jojaMember", //available at this price if you are a Joja member
+        "Hn JojaMember", //available at this price if you are a Joja member
 		]
         },
 	//Vinegar
@@ -53,7 +53,7 @@
 			"Vinegar"
           ],
 		"When": [
-        "!Hn jojaMember", //available at this price if you're not a Joja member
+        "!Hn JojaMember", //available at this price if you're not a Joja member
 		]
         },
 		{
@@ -63,7 +63,7 @@
 			"Vinegar"
           ],
 		"When": [
-        "Hn jojaMember", //available at this price if you are a Joja member
+        "Hn JojaMember", //available at this price if you are a Joja member
 		]
         },
 	//Coal - year 1
@@ -74,7 +74,7 @@
 			"Coal"
           ],
 		"When": [
-        "!Hn jojaMember/y 1", //available at this price if you're not a Joja member, and it's year 1
+        "!Hn JojaMember/y 1", //available at this price if you're not a Joja member, and it's year 1
 		]
         },
 		{
@@ -84,7 +84,7 @@
 			"Coal"
           ],
 		"When": [
-        "Hn jojaMember/y 1", //available at this price if you are a Joja member, and it's year 1
+        "Hn JojaMember/y 1", //available at this price if you are a Joja member, and it's year 1
 		]
         },
 	//Coal - year 2 or later
@@ -95,7 +95,7 @@
 			"Coal"
           ],
 		"When": [
-        "!Hn jojaMember/y 2", //available at this price if you're not a Joja member, and it's year 2 or later
+        "!Hn JojaMember/y 2", //available at this price if you're not a Joja member, and it's year 2 or later
 		]
         },
 		{
@@ -105,7 +105,7 @@
 			"Coal"
           ],
 		"When": [
-        "Hn jojaMember/y 2", //available at this price if you are a Joja member, and it's year 2 or later
+        "Hn JojaMember/y 2", //available at this price if you are a Joja member, and it's year 2 or later
 		]
         },
 	//Bait
@@ -116,7 +116,7 @@
 			"Bait"
           ],
 		"When": [
-        "!Hn jojaMember/SkillLevel fishing 2", //available at this price if you're not a Joja member, and your fishing skill is level 2
+        "!Hn JojaMember/SkillLevel fishing 2", //available at this price if you're not a Joja member, and your fishing skill is level 2
 		]
         },
 		{
@@ -126,7 +126,7 @@
 			"Bait"
           ],
 		"When": [
-        "Hn jojaMember/SkillLevel fishing 2", //available at this price if you are a Joja member, and your fishing skill is level 2
+        "Hn JojaMember/SkillLevel fishing 2", //available at this price if you are a Joja member, and your fishing skill is level 2
 		]
         },
 	//Spinner
@@ -137,7 +137,7 @@
 			"Spinner"
           ],
 		"When": [
-        "!Hn jojaMember/SkillLevel fishing 6", //available at this price if you're not a Joja member, and your fishing skill is level 6
+        "!Hn JojaMember/SkillLevel fishing 6", //available at this price if you're not a Joja member, and your fishing skill is level 6
 		]
         },
 		{
@@ -147,7 +147,7 @@
 			"Spinner"
           ],
 		"When": [
-        "Hn jojaMember/SkillLevel fishing 6", //available at this price if you are a Joja member, and your fishing skill is level 6
+        "Hn JojaMember/SkillLevel fishing 6", //available at this price if you are a Joja member, and your fishing skill is level 6
 		]
         },
 	//Trap Bobber
@@ -158,7 +158,7 @@
 			"Trap Bobber"
           ],
 		"When": [
-        "!Hn jojaMember/SkillLevel fishing 6", //available at this price if you're not a Joja member, and your fishing skill is level 6
+        "!Hn JojaMember/SkillLevel fishing 6", //available at this price if you're not a Joja member, and your fishing skill is level 6
 		]
         },
 		{
@@ -168,7 +168,7 @@
 			"Trap Bobber"
           ],
 		"When": [
-        "Hn jojaMember/SkillLevel fishing 6", //available at this price if you are a Joja member, and your fishing skill is level 6
+        "Hn JojaMember/SkillLevel fishing 6", //available at this price if you are a Joja member, and your fishing skill is level 6
 		]
         },
 	//Lead Bobber
@@ -179,7 +179,7 @@
 			"Lead Bobber"
           ],
 		"When": [
-        "!Hn jojaMember/SkillLevel fishing 6", //available at this price if you're not a Joja member, and your fishing skill is level 6
+        "!Hn JojaMember/SkillLevel fishing 6", //available at this price if you're not a Joja member, and your fishing skill is level 6
 		]
         },
 		{
@@ -189,7 +189,7 @@
 			"Lead Bobber"
           ],
 		"When": [
-        "Hn jojaMember/SkillLevel fishing 6", //available at this price if you are a Joja member, and your fishing skill is level 6
+        "Hn JojaMember/SkillLevel fishing 6", //available at this price if you are a Joja member, and your fishing skill is level 6
 		]
         },
 	//Treasure Hunter
@@ -200,7 +200,7 @@
 			"Treasure Hunter"
           ],
 		"When": [
-        "!Hn jojaMember/SkillLevel fishing 7", //available at this price if you're not a Joja member, and your fishing skill is level 7
+        "!Hn JojaMember/SkillLevel fishing 7", //available at this price if you're not a Joja member, and your fishing skill is level 7
 		]
         },
 		{
@@ -210,7 +210,7 @@
 			"Treasure Hunter"
           ],
 		"When": [
-        "Hn jojaMember/SkillLevel fishing 7", //available at this price if you are a Joja member, and your fishing skill is level 7
+        "Hn JojaMember/SkillLevel fishing 7", //available at this price if you are a Joja member, and your fishing skill is level 7
 		]
         },
 	//Cork Bobber
@@ -221,7 +221,7 @@
 			"Cork Bobber"
           ],
 		"When": [
-        "!Hn jojaMember/SkillLevel fishing 7", //available at this price if you're not a Joja member, and your fishing skill is level 7
+        "!Hn JojaMember/SkillLevel fishing 7", //available at this price if you're not a Joja member, and your fishing skill is level 7
 		]
         },
 		{
@@ -231,7 +231,7 @@
 			"Cork Bobber"
           ],
 		"When": [
-        "Hn jojaMember/SkillLevel fishing 7", //available at this price if you are a Joja member, and your fishing skill is level 7
+        "Hn JojaMember/SkillLevel fishing 7", //available at this price if you are a Joja member, and your fishing skill is level 7
 		]
         },
 	//Barbed Hook
@@ -242,7 +242,7 @@
 			"Barbed Hook"
           ],
 		"When": [
-        "!Hn jojaMember/SkillLevel fishing 8", //available at this price if you're not a Joja member, and your fishing skill is level 8
+        "!Hn JojaMember/SkillLevel fishing 8", //available at this price if you're not a Joja member, and your fishing skill is level 8
 		]
         },
 		{
@@ -252,7 +252,7 @@
 			"Barbed Hook"
           ],
 		"When": [
-        "Hn jojaMember/SkillLevel fishing 8", //available at this price if you are a Joja member, and your fishing skill is level 8
+        "Hn JojaMember/SkillLevel fishing 8", //available at this price if you are a Joja member, and your fishing skill is level 8
 		]
         },
 	//Dressed Spinner
@@ -263,7 +263,7 @@
 			"Dressed Spinner"
           ],
 		"When": [
-        "!Hn jojaMember/SkillLevel fishing 8", //available at this price if you're not a Joja member, and your fishing skill is level 8
+        "!Hn JojaMember/SkillLevel fishing 8", //available at this price if you're not a Joja member, and your fishing skill is level 8
 		]
         },
 		{
@@ -273,7 +273,7 @@
 			"Dressed Spinner"
           ],
 		"When": [
-        "Hn jojaMember/SkillLevel fishing 8", //available at this price if you are a Joja member, and your fishing skill is level 8
+        "Hn JojaMember/SkillLevel fishing 8", //available at this price if you are a Joja member, and your fishing skill is level 8
 		]
         },
 	//Magnet
@@ -284,7 +284,7 @@
 			"Magnet"
           ],
 		"When": [
-        "!Hn jojaMember/SkillLevel fishing 9", //available at this price if you're not a Joja member, and your fishing skill is level 9
+        "!Hn JojaMember/SkillLevel fishing 9", //available at this price if you're not a Joja member, and your fishing skill is level 9
 		]
         },
 		{
@@ -294,7 +294,7 @@
 			"Magnet"
           ],
 		"When": [
-        "Hn jojaMember/SkillLevel fishing 9", //available at this price if you are a Joja member, and your fishing skill is level 9
+        "Hn JojaMember/SkillLevel fishing 9", //available at this price if you are a Joja member, and your fishing skill is level 9
 		]
         },
       ]
