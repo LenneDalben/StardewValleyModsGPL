@@ -28,3 +28,7 @@ Craft the following machines with fewer resources: oil maker, bee house, preserv
 <a href="https://github.com/LenneDalben/StardewValleyMods/tree/master/%5BPFM%5D%20Beer%20in%20Half%20the%20Time#pfm-beer-in-half-the-time">(PFM) Beer in Half the Time</a> | <a href="https://www.nexusmods.com/stardewvalley/mods/6006">Nexus Download</a>
 
 Exactly what it says "on the tin," beer takes half the time to make.
+
+<a href="https://github.com/LenneDalben/StardewValleyMods/blob/master/Artisan%20Equipment%20for%20Sale/README.md#stf-artisan-equipment-for-sale">(STF) Artisan Equipment for Sale</a> | <a href="https://www.nexusmods.com/stardewvalley/mods/6354">Nexus Download</a>
+
+All the shop owners sell artisan equipment every Thursday, after you've unlocked it, and earned their friendship!
