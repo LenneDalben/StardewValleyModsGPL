@@ -1,0 +1,9 @@
+[
+	{
+		"Id": "artisanequipmentforsaleletter",
+		"Text": "Hi Farmer @,^It's a machinery mall, a machinery plaza, a cluster of-oh, I should quit while I'm ahead, shouldn't I? @, I'm writing to let you know that the shop owners in town (even in the desert!) may have special stock every Thursday! They have all sorts of equipment for sale, but I hear they only sell their special stock to their friends.^^Check out the shops on Thursdays!^-Mayor Lewis",
+		"Repeatable": "false",
+		//Conditions for delivery
+		"RandomChance": 1,
+	},
+]
