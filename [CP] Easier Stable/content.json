@@ -1,0 +1,40 @@
+{
+  "Format": "1.14.0",
+  "ConfigSchema": {
+	"StableOption": {
+			"AllowValues": "A, B, false",
+			"Default": "A",
+			"AllowBlank": false,
+		},
+		},
+  "Changes": [
+       //A Stable Option (easier), 75 wood and 3 iron bars, 7500 gold
+	   {
+          "Action": "EditData",
+          "Target": "Data/Blueprints",
+          "Fields": {
+             "Stable": {
+                "0": "709 75 335 3",
+				"17": 7500       ,
+             }
+		  },
+		    "When": {
+			"StableOption": "A",
+			},
+       },
+	   //B Stable Option (easiest), 50 wood and 2 iron bars, 5000 gold
+	   {
+          "Action": "EditData",
+          "Target": "Data/Blueprints",
+          "Fields": {
+			 "Stable": {
+			 "0": "709 50 335 2",
+			 "17": "5000",
+			 },
+          },
+		    "When": {
+			"StableOption": "B",
+			},
+       },
+    ]
+}

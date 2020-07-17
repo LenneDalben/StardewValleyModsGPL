@@ -1,0 +1,13 @@
+{
+   "Name": "Easier Stable",
+   "Author": "LenneDalben",
+   "Description": "The stable is a little bit cheaper and requires fewer materials, so you can get it earlier in the game!",
+   "Version": "1.0",
+   "UniqueID": "LenneDalben.Stable",
+   "MinimumApiVersion": "3.4.0",
+   "UpdateKeys": [ "Nexus:6482" ],
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher",
+	   "MinimumVersion": "1.14.0"
+    }   
+}
