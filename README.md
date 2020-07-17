@@ -1,6 +1,10 @@
 # LenneDalben's Stardew Valley Mods
 Welcome to the respository for my mods for Stardew Valley!
 
+<a href="https://github.com/LenneDalben/StardewValleyMods/tree/master/%5BCP%5D%20Easier%20Stable#cp-easier-stable">(CP) Easier Stable</a> | <a href="https://www.nexusmods.com/stardewvalley/mods/6482">Nexus Download</a>
+
+The stable is easier to build, with 2 options to choose from.
+
 <a href="https://github.com/LenneDalben/StardewValleyMods/blob/master/Artisan%20Equipment%20for%20Sale/README.md#stf-artisan-equipment-for-sale">(STF) Artisan Equipment for Sale</a> | <a href="https://www.nexusmods.com/stardewvalley/mods/6354">Nexus Download</a>
 
 All the shop owners sell artisan equipment every Thursday, after you've unlocked it, and earned their friendship!
