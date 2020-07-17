@@ -5,11 +5,11 @@ Configuration:
 
 You have options A, B, or false, to toggle off the mod if you like.
 
-Option A (default option)
+Option A (default option):
 75 wood and 3 iron bars
 7500 gold to build
 
-Option B
+Option B:
 50 wood and 2 iron bars
 5000 gold to build
 
