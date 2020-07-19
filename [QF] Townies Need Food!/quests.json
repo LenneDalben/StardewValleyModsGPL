@@ -1,0 +1,147 @@
+{
+  "Format": "1.0",
+  "Quests": [
+    { //Abigail blackberry cobbler spring
+      "Name": "abigail_blackberrycobblersp",
+      "Type": "ItemDelivery",
+      "Title": "Nothing quite like it!",
+      "Description": "I'm in the mood for blackberry cobbler, a real dessert! Can anyone bake me some?
+  -Abigail
+
+-780g on delivery
+-Makes Abigail happy",
+      "Objective": "Bring blackberry cobbler to Abigail",
+      "DaysLeft": 5,
+      "Reward": 780,
+      "Cancelable": true,
+      "Trigger": "Abigail 611",
+      "ReactionText": "This looks tasty, thanks @!"
+    },
+	{ //Abigail blackberry cobbler fall
+      "Name": "abigail_blackberrycobblerfa",
+      "Type": "ItemDelivery",
+      "Title": "Nothing quite like it!",
+      "Description": "I'm in the mood for blackberry cobbler, a real dessert! Can anyone bake me some?
+  -Abigail
+
+-780g on delivery
+-Makes Abigail happy",
+      "Objective": "Bring blackberry cobbler to Abigail",
+      "DaysLeft": 5,
+      "Reward": 780,
+      "Cancelable": true,
+      "Trigger": "Abigail 611",
+      "ReactionText": "This looks tasty, thanks @!"
+    },
+	{ //Alex complete breakfast
+      "Name": "alex_completebreakfast",
+      "Type": "ItemDelivery",
+      "Title": "Take on the world!",
+      "Description": "I need a pick-me-up today, and I think a complete breakfast will do the trick. Can someone whip one up?
+  -Alex
+
+-1050g on delivery
+-Alex will be thankful",
+      "Objective": "Bring complete breakfast to Alex",
+      "DaysLeft": 5,
+      "Reward": 1050,
+      "Cancelable": true,
+      "Trigger": "Alex 201",
+      "ReactionText": "This'll do the trick, thanks!"
+    },
+	{ //Caroline fish taco spring
+      "Name": "caroline_fishtacosp",
+      "Type": "ItemDelivery",
+      "Title": "Delicious tacos",
+      "Description": "I could really go for a fish taco. I'll pay you when you bring it.
+  -Caroline
+
+-1500g on delivery
+-Makes Caroline happy",
+      "Objective": "Bring fish taco to Caroline",
+      "DaysLeft": 5,
+      "Reward": 1500,
+      "Cancelable": true,
+      "Trigger": "Caroline 213",
+      "ReactionText": "Thank you, @! I appreciate it."
+    },
+	{ //Caroline fish taco
+      "Name": "caroline_fishtacosu",
+      "Type": "ItemDelivery",
+      "Title": "Delicious tacos",
+      "Description": "I could really go for a fish taco. I'll pay you when you bring it.
+  -Caroline
+
+-1500g on delivery
+-Makes Caroline happy",
+      "Objective": "Bring fish taco to Caroline",
+      "DaysLeft": 5,
+      "Reward": 1500,
+      "Cancelable": true,
+      "Trigger": "Caroline 213",
+      "ReactionText": "Thank you, @! I appreciate it."
+    },
+  ],
+  "Offers": [
+	{
+	  "QuestName": "abigail_blackberrycobblersp",
+      "OfferedBy": "Bulletinboard",  
+	  "When": {
+		"KnownCookingRecipe": "Blackberry Cobbler",
+		"Seasons": "spring",
+		"Random": "30",
+		"not:QuestAcceptedThisYear": "@self",
+	},
+	},
+	{
+	  "QuestName": "abigail_blackberrycobblerfa",
+      "OfferedBy": "Bulletinboard",  
+	  "When": {
+		"KnownCookingRecipe": "Blackberry Cobbler",
+		"Seasons": "fall",
+		"Random": "30",
+		"not:QuestAcceptedThisYear": "@self",
+	},
+	},
+	{
+	  "QuestName": "alex_completebreakfast",
+      "OfferedBy": "Bulletinboard",  
+	  "When": {
+		"KnownCookingRecipe": "Complete Breakfast",
+		"Seasons": "summer",
+		"Random": "30",
+		"not:QuestAcceptedThisYear": "@self",
+	},
+	},
+	{
+	  "QuestName": "alex_completebreakfast",
+      "OfferedBy": "Bulletinboard",  
+	  "When": {
+		"KnownCookingRecipe": "Complete Breakfast",
+		"Seasons": "winter",
+		"Random": "30",
+		"not:QuestAcceptedThisYear": "@self",
+	}
+	},
+	{
+	  "QuestName": "caroline_fishtacosp",
+      "OfferedBy": "Bulletinboard",  
+	  "When": {
+		"KnownCookingRecipe": "Fish Taco",
+		"Seasons": "spring",
+		"Random": "30",
+		"not:QuestAcceptedThisYear": "@self",
+	}
+	},
+	{
+	  "QuestName": "caroline_fishtacosu",
+      "OfferedBy": "Bulletinboard",  
+	  "When": {
+		"KnownCookingRecipe": "Fish Taco",
+		"Seasons": "summer",
+		"Random": "30",
+		"not:QuestAcceptedThisYear": "@self",
+	}
+	},
+	],
+}
