@@ -81,7 +81,7 @@
       "Trigger": "Caroline 213",
       "ReactionText": "Thank you, @! I appreciate it."
     },
-	{ //Caroline fish taco
+	{ //Caroline fish taco summer
       "Name": "caroline_fishtacosu",
       "Type": "ItemDelivery",
       "Title": "Delicious tacos",
