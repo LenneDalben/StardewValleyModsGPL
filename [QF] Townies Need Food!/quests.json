@@ -99,7 +99,7 @@
     },
   ],
   "Offers": [
-	{
+	{ //Abigail blackberry cobbler spring
 	  "QuestName": "abigail_blackberrycobblersp",
       "OfferedBy": "Bulletinboard",  
 	  "When": {
@@ -109,7 +109,7 @@
 		"not:QuestAcceptedThisYear": "@self",
 	},
 	},
-	{
+	{ //Abigail blackberry cobbler fall
 	  "QuestName": "abigail_blackberrycobblerfa",
       "OfferedBy": "Bulletinboard",  
 	  "When": {
@@ -119,7 +119,7 @@
 		"not:QuestAcceptedThisYear": "@self",
 	},
 	},
-	{
+	{ //Alex complete breakfast summer
 	  "QuestName": "alex_completebreakfastsu",
       "OfferedBy": "Bulletinboard",  
 	  "When": {
@@ -129,7 +129,7 @@
 		"not:QuestAcceptedThisYear": "@self",
 	},
 	},
-	{
+	{ //Alex complete breakfast winter
 	  "QuestName": "alex_completebreakfastwi",
       "OfferedBy": "Bulletinboard",  
 	  "When": {
@@ -139,7 +139,7 @@
 		"not:QuestAcceptedThisYear": "@self",
 	}
 	},
-	{
+	{ //Caroline fish taco spring
 	  "QuestName": "caroline_fishtacosp",
       "OfferedBy": "Bulletinboard",  
 	  "When": {
@@ -149,7 +149,7 @@
 		"not:QuestAcceptedThisYear": "@self",
 	}
 	},
-	{
+	{ //Caroline fish taco summer
 	  "QuestName": "caroline_fishtacosu",
       "OfferedBy": "Bulletinboard",  
 	  "When": {
