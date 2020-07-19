@@ -33,8 +33,24 @@
       "Trigger": "Abigail 611",
       "ReactionText": "This looks tasty, thanks @!"
     },
-	{ //Alex complete breakfast
-      "Name": "alex_completebreakfast",
+	{ //Alex complete breakfast summer
+      "Name": "alex_completebreakfastsu",
+      "Type": "ItemDelivery",
+      "Title": "Take on the world!",
+      "Description": "I need a pick-me-up today, and I think a complete breakfast will do the trick. Can someone whip one up?
+  -Alex
+
+-1050g on delivery
+-Alex will be thankful",
+      "Objective": "Bring complete breakfast to Alex",
+      "DaysLeft": 5,
+      "Reward": 1050,
+      "Cancelable": true,
+      "Trigger": "Alex 201",
+      "ReactionText": "This'll do the trick, thanks!"
+    },
+    { //Alex complete breakfast winter
+      "Name": "alex_completebreakfastwi",
       "Type": "ItemDelivery",
       "Title": "Take on the world!",
       "Description": "I need a pick-me-up today, and I think a complete breakfast will do the trick. Can someone whip one up?
@@ -104,7 +120,7 @@
 	},
 	},
 	{
-	  "QuestName": "alex_completebreakfast",
+	  "QuestName": "alex_completebreakfastsu",
       "OfferedBy": "Bulletinboard",  
 	  "When": {
 		"KnownCookingRecipe": "Complete Breakfast",
@@ -114,7 +130,7 @@
 	},
 	},
 	{
-	  "QuestName": "alex_completebreakfast",
+	  "QuestName": "alex_completebreakfastwi",
       "OfferedBy": "Bulletinboard",  
 	  "When": {
 		"KnownCookingRecipe": "Complete Breakfast",
