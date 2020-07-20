@@ -2,7 +2,7 @@
   "Format": "1.0",
   "Quests": [
     { //Haley fruit salad spring
-      "Name": "haley_fruitsaladsp",
+      "Name": "haley_fruitsalad",
       "Type": "ItemDelivery",
       "Title": "A delicious combo",
       "Description": "I'll < you forever if you put together a fruit salad for me!
@@ -17,8 +17,8 @@
       "Trigger": "Haley 610",
       "ReactionText": "$hThis looks great, thanks @!"
     },
-    { //Abigail blackberry cobbler spring
-      "Name": "abigail_blackberrycobblersp",
+    { //Abigail blackberry cobbler spring and fall
+      "Name": "abigail_blackberrycobbler",
       "Type": "ItemDelivery",
       "Title": "Nothing quite like it!",
       "Description": "I'm in the mood for blackberry cobbler, a real dessert! Can anyone bake me some?
@@ -33,24 +33,8 @@
       "Trigger": "Abigail 611",
       "ReactionText": "$hThis looks tasty, thanks @!"
     },
-	{ //Abigail blackberry cobbler fall
-      "Name": "abigail_blackberrycobblerfa",
-      "Type": "ItemDelivery",
-      "Title": "Nothing quite like it!",
-      "Description": "I'm in the mood for blackberry cobbler, a real dessert! Can anyone bake me some?
-  -Abigail
-
--780g on delivery
--Makes Abigail happy",
-      "Objective": "Bring blackberry cobbler to Abigail",
-      "DaysLeft": 5,
-      "Reward": 780,
-      "Cancelable": true,
-      "Trigger": "Abigail 611",
-      "ReactionText": "$hThis looks tasty, thanks @!"
-    },
-	{ //Alex complete breakfast summer
-      "Name": "alex_completebreakfastsu",
+	{ //Alex complete breakfast summer and winter
+      "Name": "alex_completebreakfast",
       "Type": "ItemDelivery",
       "Title": "Take on the world!",
       "Description": "I need a pick-me-up today, and I think a complete breakfast will do the trick. Can someone whip one up?
@@ -65,40 +49,8 @@
       "Trigger": "Alex 201",
       "ReactionText": "$hThis'll do the trick, thanks!"
     },
-    { //Alex complete breakfast winter
-      "Name": "alex_completebreakfastwi",
-      "Type": "ItemDelivery",
-      "Title": "Take on the world!",
-      "Description": "I need a pick-me-up today, and I think a complete breakfast will do the trick. Can someone whip one up?
-  -Alex
-
--1050g on delivery
--Alex will be thankful",
-      "Objective": "Bring complete breakfast to Alex",
-      "DaysLeft": 5,
-      "Reward": 1050,
-      "Cancelable": true,
-      "Trigger": "Alex 201",
-      "ReactionText": "$hThis'll do the trick, thanks!"
-    },
-	{ //Caroline fish taco spring
-      "Name": "caroline_fishtacosp",
-      "Type": "ItemDelivery",
-      "Title": "Delicious tacos",
-      "Description": "I could really go for a fish taco. I'll pay you when you bring it.
-  -Caroline
-
--1500g on delivery
--Caroline will be pleased",
-      "Objective": "Bring fish taco to Caroline",
-      "DaysLeft": 5,
-      "Reward": 1500,
-      "Cancelable": true,
-      "Trigger": "Caroline 213",
-      "ReactionText": "$hThank you, @! I appreciate it."
-    },
-	{ //Caroline fish taco summer
-      "Name": "caroline_fishtacosu",
+	{ //Caroline fish taco spring and summer
+      "Name": "caroline_fishtaco",
       "Type": "ItemDelivery",
       "Title": "Delicious tacos",
       "Description": "I could really go for a fish taco. I'll pay you when you bring it.
@@ -116,70 +68,43 @@
   ],
   "Offers": [
   { //Haley fruit salad spring
-  "QuestName": "haley_fruitsaladsp",
+  "QuestName": "haley_fruitsalad",
     "OfferedBy": "Bulletinboard",  
   "When": {
   //"KnownCookingRecipe": "Fruit Salad",
   "Days": "14",
   "Seasons": "spring",
-  "not:QuestAcceptedThisYear": "@self"
+  "not:QuestAcceptedInPeriod": "season year"
   }
   },
-	{ //Abigail blackberry cobbler spring
-	  "QuestName": "abigail_blackberrycobblersp",
+	{ //Abigail blackberry cobbler spring and fall
+	  "QuestName": "abigail_blackberrycobbler",
       "OfferedBy": "Bulletinboard",  
 	  "When": {
     //"KnownCookingRecipe": "Blackberry Cobbler",
     "Days": "3",
-		"Seasons": "spring",
-		"not:QuestAcceptedThisYear": "@self"
+		"Seasons": "spring fall",
+		"not:QuestAcceptedInPeriod": "season year"
 	}
 	},
-	{ //Abigail blackberry cobbler fall
-	  "QuestName": "abigail_blackberrycobblerfa",
-      "OfferedBy": "Bulletinboard",  
-	  "When": {
-		//"KnownCookingRecipe": "Blackberry Cobbler",
-		"Seasons": "fall",
-		"not:QuestAcceptedThisYear": "@self"
-	}
-	},
-	{ //Alex complete breakfast summer
-	  "QuestName": "alex_completebreakfastsu",
+	{ //Alex complete breakfast summer and winter
+	  "QuestName": "alex_completebreakfast",
       "OfferedBy": "Bulletinboard",  
 	  "When": {
 		//"KnownCookingRecipe": "Complete Breakfast",
-		"Seasons": "summer",
-		"not:QuestAcceptedThisYear": "@self"
+		"Seasons": "summer winter",
+		"not:QuestAcceptedInPeriod": "season year"
 	}
 	},
-	{ //Alex complete breakfast winter
-	  "QuestName": "alex_completebreakfastwi",
-      "OfferedBy": "Bulletinboard",  
-	  "When": {
-		//"KnownCookingRecipe": "Complete Breakfast",
-		"Seasons": "winter",
-		"not:QuestAcceptedThisYear": "@self"
-	}
-	},
-	{ //Caroline fish taco spring
-	  "QuestName": "caroline_fishtacosp",
+	{ //Caroline fish taco spring and summer
+	  "QuestName": "caroline_fishtaco",
       "OfferedBy": "Bulletinboard",  
 	  "When": {
     //"KnownCookingRecipe": "Fish Taco",
     "Days": "7",
-		"Seasons": "spring",
-		"not:QuestAcceptedThisYear": "@self"
+		"Seasons": "spring summer",
+		"not:QuestAcceptedInPeriod": "season year"
 	}
 	},
-	{ //Caroline fish taco summer
-	  "QuestName": "caroline_fishtacosu",
-      "OfferedBy": "Bulletinboard",  
-	  "When": {
-		//"KnownCookingRecipe": "Fish Taco",
-		"Seasons": "summer",
-		"not:QuestAcceptedThisYear": "@self"
-	}
-	},
-	],
+	]
 }
