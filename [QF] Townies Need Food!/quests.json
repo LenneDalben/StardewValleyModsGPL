@@ -15,7 +15,7 @@
       "Reward": 1350,
       "Cancelable": true,
       "Trigger": "Haley 610",
-      "ReactionText": "This looks great, thanks @!"
+      "ReactionText": "$hThis looks great, thanks @!"
     },
     { //Abigail blackberry cobbler spring
       "Name": "abigail_blackberrycobblersp",
@@ -31,7 +31,7 @@
       "Reward": 780,
       "Cancelable": true,
       "Trigger": "Abigail 611",
-      "ReactionText": "This looks tasty, thanks @!"
+      "ReactionText": "$hThis looks tasty, thanks @!"
     },
 	{ //Abigail blackberry cobbler fall
       "Name": "abigail_blackberrycobblerfa",
@@ -47,7 +47,7 @@
       "Reward": 780,
       "Cancelable": true,
       "Trigger": "Abigail 611",
-      "ReactionText": "This looks tasty, thanks @!"
+      "ReactionText": "$hThis looks tasty, thanks @!"
     },
 	{ //Alex complete breakfast summer
       "Name": "alex_completebreakfastsu",
@@ -63,7 +63,7 @@
       "Reward": 1050,
       "Cancelable": true,
       "Trigger": "Alex 201",
-      "ReactionText": "This'll do the trick, thanks!"
+      "ReactionText": "$hThis'll do the trick, thanks!"
     },
     { //Alex complete breakfast winter
       "Name": "alex_completebreakfastwi",
@@ -79,7 +79,7 @@
       "Reward": 1050,
       "Cancelable": true,
       "Trigger": "Alex 201",
-      "ReactionText": "This'll do the trick, thanks!"
+      "ReactionText": "$hThis'll do the trick, thanks!"
     },
 	{ //Caroline fish taco spring
       "Name": "caroline_fishtacosp",
@@ -95,7 +95,7 @@
       "Reward": 1500,
       "Cancelable": true,
       "Trigger": "Caroline 213",
-      "ReactionText": "Thank you, @! I appreciate it."
+      "ReactionText": "$hThank you, @! I appreciate it."
     },
 	{ //Caroline fish taco summer
       "Name": "caroline_fishtacosu",
@@ -111,7 +111,7 @@
       "Reward": 1500,
       "Cancelable": true,
       "Trigger": "Caroline 213",
-      "ReactionText": "Thank you, @! I appreciate it."
+      "ReactionText": "$hThank you, @! I appreciate it."
     },
   ],
   "Offers": [
@@ -119,7 +119,7 @@
   "QuestName": "haley_fruitsaladsp",
     "OfferedBy": "Bulletinboard",  
   "When": {
-  "KnownCookingRecipe": "Fruit Salad",
+  //"KnownCookingRecipe": "Fruit Salad",
   "Days": "14",
   "Seasons": "spring",
   "not:QuestAcceptedThisYear": "@self"
@@ -129,7 +129,7 @@
 	  "QuestName": "abigail_blackberrycobblersp",
       "OfferedBy": "Bulletinboard",  
 	  "When": {
-    "KnownCookingRecipe": "Blackberry Cobbler",
+    //"KnownCookingRecipe": "Blackberry Cobbler",
     "Days": "3",
 		"Seasons": "spring",
 		"not:QuestAcceptedThisYear": "@self"
@@ -139,7 +139,7 @@
 	  "QuestName": "abigail_blackberrycobblerfa",
       "OfferedBy": "Bulletinboard",  
 	  "When": {
-		"KnownCookingRecipe": "Blackberry Cobbler",
+		//"KnownCookingRecipe": "Blackberry Cobbler",
 		"Seasons": "fall",
 		"not:QuestAcceptedThisYear": "@self"
 	}
@@ -148,7 +148,7 @@
 	  "QuestName": "alex_completebreakfastsu",
       "OfferedBy": "Bulletinboard",  
 	  "When": {
-		"KnownCookingRecipe": "Complete Breakfast",
+		//"KnownCookingRecipe": "Complete Breakfast",
 		"Seasons": "summer",
 		"not:QuestAcceptedThisYear": "@self"
 	}
@@ -157,7 +157,7 @@
 	  "QuestName": "alex_completebreakfastwi",
       "OfferedBy": "Bulletinboard",  
 	  "When": {
-		"KnownCookingRecipe": "Complete Breakfast",
+		//"KnownCookingRecipe": "Complete Breakfast",
 		"Seasons": "winter",
 		"not:QuestAcceptedThisYear": "@self"
 	}
@@ -166,7 +166,7 @@
 	  "QuestName": "caroline_fishtacosp",
       "OfferedBy": "Bulletinboard",  
 	  "When": {
-    "KnownCookingRecipe": "Fish Taco",
+    //"KnownCookingRecipe": "Fish Taco",
     "Days": "7",
 		"Seasons": "spring",
 		"not:QuestAcceptedThisYear": "@self"
@@ -176,7 +176,7 @@
 	  "QuestName": "caroline_fishtacosu",
       "OfferedBy": "Bulletinboard",  
 	  "When": {
-		"KnownCookingRecipe": "Fish Taco",
+		//"KnownCookingRecipe": "Fish Taco",
 		"Seasons": "summer",
 		"not:QuestAcceptedThisYear": "@self"
 	}
