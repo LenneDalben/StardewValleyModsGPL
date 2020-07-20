@@ -1,6 +1,22 @@
 {
   "Format": "1.0",
   "Quests": [
+    { //Haley fruit salad spring
+      "Name": "haley_fruitsaladsp",
+      "Type": "ItemDelivery",
+      "Title": "A delicious combo",
+      "Description": "I'll < you forever if you put together a fruit salad for me!
+  -Haley
+
+-1350g on delivery
+-Haley will be thankful",
+      "Objective": "Bring fruit salad to Haley",
+      "DaysLeft": 5,
+      "Reward": 1350,
+      "Cancelable": true,
+      "Trigger": "Haley 610",
+      "ReactionText": "This looks great, thanks @!"
+    },
     { //Abigail blackberry cobbler spring
       "Name": "abigail_blackberrycobblersp",
       "Type": "ItemDelivery",
@@ -73,7 +89,7 @@
   -Caroline
 
 -1500g on delivery
--Makes Caroline happy",
+-Caroline will be pleased",
       "Objective": "Bring fish taco to Caroline",
       "DaysLeft": 5,
       "Reward": 1500,
@@ -89,7 +105,7 @@
   -Caroline
 
 -1500g on delivery
--Makes Caroline happy",
+-Caroline will be pleased",
       "Objective": "Bring fish taco to Caroline",
       "DaysLeft": 5,
       "Reward": 1500,
@@ -99,14 +115,25 @@
     },
   ],
   "Offers": [
+  { //Haley fruit salad spring
+  "QuestName": "haley_fruitsaladsp",
+    "OfferedBy": "Bulletinboard",  
+  "When": {
+  "KnownCookingRecipe": "Fruit Salad",
+  "Days": "14",
+  "Seasons": "spring",
+  "not:QuestAcceptedThisYear": "@self"
+  }
+  },
 	{ //Abigail blackberry cobbler spring
 	  "QuestName": "abigail_blackberrycobblersp",
       "OfferedBy": "Bulletinboard",  
 	  "When": {
-		"KnownCookingRecipe": "Blackberry Cobbler",
+    "KnownCookingRecipe": "Blackberry Cobbler",
+    "Days": "3",
 		"Seasons": "spring",
-		"not:QuestAcceptedThisYear": "@self",
-	},
+		"not:QuestAcceptedThisYear": "@self"
+	}
 	},
 	{ //Abigail blackberry cobbler fall
 	  "QuestName": "abigail_blackberrycobblerfa",
@@ -114,8 +141,8 @@
 	  "When": {
 		"KnownCookingRecipe": "Blackberry Cobbler",
 		"Seasons": "fall",
-		"not:QuestAcceptedThisYear": "@self",
-	},
+		"not:QuestAcceptedThisYear": "@self"
+	}
 	},
 	{ //Alex complete breakfast summer
 	  "QuestName": "alex_completebreakfastsu",
@@ -123,8 +150,8 @@
 	  "When": {
 		"KnownCookingRecipe": "Complete Breakfast",
 		"Seasons": "summer",
-		"not:QuestAcceptedThisYear": "@self",
-	},
+		"not:QuestAcceptedThisYear": "@self"
+	}
 	},
 	{ //Alex complete breakfast winter
 	  "QuestName": "alex_completebreakfastwi",
@@ -132,16 +159,17 @@
 	  "When": {
 		"KnownCookingRecipe": "Complete Breakfast",
 		"Seasons": "winter",
-		"not:QuestAcceptedThisYear": "@self",
+		"not:QuestAcceptedThisYear": "@self"
 	}
 	},
 	{ //Caroline fish taco spring
 	  "QuestName": "caroline_fishtacosp",
       "OfferedBy": "Bulletinboard",  
 	  "When": {
-		"KnownCookingRecipe": "Fish Taco",
+    "KnownCookingRecipe": "Fish Taco",
+    "Days": "7",
 		"Seasons": "spring",
-		"not:QuestAcceptedThisYear": "@self",
+		"not:QuestAcceptedThisYear": "@self"
 	}
 	},
 	{ //Caroline fish taco summer
@@ -150,7 +178,7 @@
 	  "When": {
 		"KnownCookingRecipe": "Fish Taco",
 		"Seasons": "summer",
-		"not:QuestAcceptedThisYear": "@self",
+		"not:QuestAcceptedThisYear": "@self"
 	}
 	},
 	],
