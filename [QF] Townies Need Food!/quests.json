@@ -15,7 +15,7 @@
       "Reward": 1350,
       "Cancelable": true,
       "Trigger": "Haley 610",
-      "ReactionText": "$hThis looks great, thanks @!"
+      "ReactionText": "$hThis fruit salad looks great, thanks @!"
     },
     { //Abigail blackberry cobbler spring and fall
       "Name": "abigail_blackberrycobbler",
@@ -31,7 +31,7 @@
       "Reward": 780,
       "Cancelable": true,
       "Trigger": "Abigail 611",
-      "ReactionText": "$hThis looks tasty, thanks @!"
+      "ReactionText": "$hThe cobbler looks tasty, thanks @!"
     },
 	{ //Alex complete breakfast summer and winter
       "Name": "alex_completebreakfast",
