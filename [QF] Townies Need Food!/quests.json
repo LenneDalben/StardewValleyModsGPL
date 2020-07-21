@@ -111,6 +111,22 @@
       "Trigger": "Pam 199",
       "ReactionText": "$hOh what's this now? Ha, thanks, @!"
     },
+    { //Robin radish salad spring and summer
+      "Name": "robin_radishsalad",
+      "Type": "ItemDelivery",
+      "Title": "Crisp radishes",
+      "Description": "I'd love a radish salad. Can anyone make me one? I'll pay you for it!
+  -Robin
+
+-900g on delivery
+-Makes Robin happy",
+      "Objective": "Bring radish salad to Robin",
+      "DaysLeft": 5,
+      "Reward": 900,
+      "Cancelable": true,
+      "Trigger": "Robin 609",
+      "ReactionText": "$hPerfect, thank you @!"
+    },
     { //Penny red plate spring and summer
       "Name": "penny_redplate",
       "Type": "ItemDelivery",
@@ -352,6 +368,17 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
+    { // Robin radish salad in spring
+      "QuestName": "robin_radishsalad",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Radish Salad",
+        "Days": "9",
+        "Seasons": "spring",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
     { //Penny poppyseed muffin in summer
       "QuestName": "penny_poppyseedmuffin",
       "OfferedBy": "Bulletinboard",  
@@ -370,6 +397,17 @@
         //"KnownCookingRecipe": "Red Plate",
         "Days": "28",
         "Seasons": "spring summer",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { // Robin radish salad in summer
+      "QuestName": "robin_radishsalad",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Radish Salad",
+        "Days": "5",
+        "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
               }
