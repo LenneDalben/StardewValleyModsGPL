@@ -63,6 +63,38 @@
       "Trigger": "Demetrius 233",
       "ReactionText": "$hThank you @, I'm looking forward to this ice cream."
     },
+    { //Leah salad spring, summer, and fall
+      "Name": "leah_salad",
+      "Type": "ItemDelivery",
+      "Title": "A garden salad",
+      "Description": "I've not had much luck getting all the ingredients for a salad. Could someone prepare me a salad?
+  -Leah
+
+-330g on delivery
+-Makes Leah happy",
+      "Objective": "Bring salad to Leah",
+      "DaysLeft": 5,
+      "Reward": 330,
+      "Cancelable": true,
+      "Trigger": "Leah 196",
+      "ReactionText": "$hAh perfect, thanks @!"
+    },
+    { //Leah stir fry spring and summer
+      "Name": "leah_stirfry",
+      "Type": "ItemDelivery",
+      "Title": "Julienned veggies",
+      "Description": "I'm in the mood for some stir fry. Anyone know how to julienne vegetables?
+  -Leah
+
+-1005g on delivery
+-Makes Leah happy",
+      "Objective": "Bring stir fry to Leah",
+      "DaysLeft": 5,
+      "Reward": 1005,
+      "Cancelable": true,
+      "Trigger": "Leah 606",
+      "ReactionText": "$hOooh these look great, thanks @!"
+    },
     { //Abigail blackberry cobbler spring and fall
       "Name": "abigail_blackberrycobbler",
       "Type": "ItemDelivery",
@@ -206,6 +238,36 @@
         //"KnownCookingRecipe": "Ice Cream",
         "Days": "17",
         "Seasons": "spring summer",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { //Leah salad in spring, summer, and fall
+      "QuestName": "leah_salad",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Salad",
+        "Days": "20",
+        "Seasons": "spring summer fall",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { //Leah stir fry in spring
+      "QuestName": "leah_stirfry",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Stir Fry",
+        "Days": "23",
+        "Seasons": "spring",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { //Leah stir fry in summer
+      "QuestName": "leah_stirfry",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Stir Fry",
+        "Days": "22",
+        "Seasons": "summer",
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
