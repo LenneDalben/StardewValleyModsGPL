@@ -21,7 +21,7 @@
       "Name": "harvey_supermeal",
       "Type": "ItemDelivery",
       "Title": "An energizing meal",
-      "Description": "I think a super meal would do wonders to raise my energy level. Can anyone make one for me?
+      "Description": "I think a super meal would do wonders to raise my energy level. Could someone make one for me?
   -Harvey
 
 -660g on delivery
@@ -32,6 +32,21 @@
       "Cancelable": true,
       "Trigger": "Harvey 237",
       "ReactionText": "$hI'm looking forward to this meal, thanks @!"
+    },
+    { //Demetrius bean hotpot spring and winter
+      "Name": "demetrius_beanhotpot",
+      "Type": "ItemDelivery",
+      "Title": "A healthy meal",
+      "Description": "Greetings! Demetrius here. I'm looking for an earthy taste to balance out dinner. Can anyone make a bean hotpot for me?
+
+-300g on delivery
+-Demetrius will be thankful",
+      "Objective": "Bring a bean hotpot to Demetrius",
+      "DaysLeft": 5,
+      "Reward": 300,
+      "Cancelable": true,
+      "Trigger": "Demetrius 207",
+      "ReactionText": "$hThank you @, I'm looking forward to these beans."
     },
     { //Abigail blackberry cobbler spring and fall
       "Name": "abigail_blackberrycobbler",
@@ -156,6 +171,16 @@
         //"KnownCookingRecipe": "Super Meal",
         "Days": "5",
         "Seasons": "spring",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { //Demetrius bean hotpot spring and winter
+      "QuestName": "demetrius_beanhotpot",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Bean Hotpot",
+        "Days": "11",
+        "Seasons": "spring winter",
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
