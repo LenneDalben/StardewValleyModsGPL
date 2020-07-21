@@ -1,6 +1,6 @@
 {
   "Format": "1.0",
-  "Quests": [
+"Quests": [
     { //Harvey coleslaw spring and summer
       "Name": "harvey_coleslaw",
       "Type": "ItemDelivery",
@@ -98,55 +98,85 @@
       "ReactionText": "$hThank you, @! I appreciate it."
     },
   ],
-  "Offers": [
-	{ //Abigail blackberry cobbler spring and fall
-	  "QuestName": "abigail_blackberrycobbler",
+"Offers": [
+	  { //Abigail blackberry cobbler spring
+      "QuestName": "abigail_blackberrycobbler",
       "OfferedBy": "Bulletinboard",  
-	  "When": {
-    //"KnownCookingRecipe": "Blackberry Cobbler",
-    "Days": "3",
-		"Seasons": "spring fall",
-		"not:QuestAcceptedInPeriod": "season year"
-	}
-  },
-  { //Haley fruit salad spring
-    "QuestName": "haley_fruitsalad",
+      "When": {
+        //"KnownCookingRecipe": "Blackberry Cobbler",
+        "Days": "3",
+        "Seasons": "spring",
+        "not:QuestAcceptedInPeriod": "season year"
+	            }
+    },
+    { //Abigail blackberry cobbler fall
+      "QuestName": "abigail_blackberrycobbler",
       "OfferedBy": "Bulletinboard",  
-    "When": {
-    //"KnownCookingRecipe": "Fruit Salad",
-    "Days": "14",
-    "Seasons": "spring",
-    "not:QuestAcceptedInPeriod": "season year"
-    }
+      "When": {
+        //"KnownCookingRecipe": "Blackberry Cobbler",
+        "Days": "12",
+        "Seasons": "fall",
+        "not:QuestAcceptedInPeriod": "season year"
+	            }
+    },
+    { //Haley fruit salad spring
+      "QuestName": "haley_fruitsalad",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Fruit Salad",
+        "Days": "14",
+        "Seasons": "spring",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
     },
     { //Harvey coleslaw spring and summer
       "QuestName": "harvey_coleslaw",
-        "OfferedBy": "Bulletinboard",  
+      "OfferedBy": "Bulletinboard",  
       "When": {
-      //"KnownCookingRecipe": "Coleslaw",
-      "Days": "1",
-      "Seasons": "spring summer",
-      "not:QuestAcceptedInPeriod": "season year"
-      }
-      },
-	{ //Alex complete breakfast summer and winter
-	  "QuestName": "alex_completebreakfast",
+        //"KnownCookingRecipe": "Coleslaw",
+        "Days": "1",
+        "Seasons": "spring summer",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { //Harvey super meal spring
+      "QuestName": "harvey_coleslaw",
       "OfferedBy": "Bulletinboard",  
-	  "When": {
-		//"KnownCookingRecipe": "Complete Breakfast",
-		"Seasons": "summer winter",
-		"not:QuestAcceptedInPeriod": "season year"
-	}
-	},
-	{ //Caroline fish taco spring and summer
-	  "QuestName": "caroline_fishtaco",
+      "When": {
+        //"KnownCookingRecipe": "Super Meal",
+        "Days": "5",
+        "Seasons": "spring",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { //Harvey super meal fall
+      "QuestName": "harvey_coleslaw",
       "OfferedBy": "Bulletinboard",  
-	  "When": {
-    //"KnownCookingRecipe": "Fish Taco",
-    "Days": "7",
-		"Seasons": "spring summer",
-		"not:QuestAcceptedInPeriod": "season year"
-	}
-  },
+      "When": {
+        //"KnownCookingRecipe": "Super Meal",
+        "Days": "20",
+        "Seasons": "fall",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+	  { //Alex complete breakfast summer and winter
+      "QuestName": "alex_completebreakfast",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Complete Breakfast",
+        "Seasons": "summer winter",
+        "not:QuestAcceptedInPeriod": "season year"
+	            }
+	  },
+	  { //Caroline fish taco spring and summer
+      "QuestName": "caroline_fishtaco",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Fish Taco",
+        "Days": "7",
+        "Seasons": "spring summer",
+        "not:QuestAcceptedInPeriod": "season year"
+	            }
+    },
 	]
 }
