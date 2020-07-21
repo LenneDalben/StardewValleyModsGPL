@@ -48,6 +48,21 @@
       "Trigger": "Demetrius 207",
       "ReactionText": "$hThank you @, I'm looking forward to these beans."
     },
+    { //Demetrius ice cream spring and summer
+      "Name": "demetrius_icecream",
+      "Type": "ItemDelivery",
+      "Title": "A sweet treat",
+      "Description": "Greetings! Demetrius here. I'm looking for a sweet treat. Can someone bring me some ice cream?
+
+-360g on delivery
+-Demetrius will be thankful",
+      "Objective": "Bring a bean hotpot to Demetrius",
+      "DaysLeft": 5,
+      "Reward": 360,
+      "Cancelable": true,
+      "Trigger": "Demetrius 233",
+      "ReactionText": "$hThank you @, I'm looking forward to this ice cream."
+    },
     { //Abigail blackberry cobbler spring and fall
       "Name": "abigail_blackberrycobbler",
       "Type": "ItemDelivery",
@@ -181,6 +196,16 @@
         //"KnownCookingRecipe": "Bean Hotpot",
         "Days": "11",
         "Seasons": "spring winter",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { //Demetrius ice cream spring and summer
+      "QuestName": "demetrius_icecream",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Ice Cream",
+        "Days": "17",
+        "Seasons": "spring summer",
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
