@@ -17,7 +17,7 @@
       "Trigger": "Harvey 648",
       "ReactionText": "$hI'm looking forward to this healthy side dish, thanks @!"
     },
-    { //Harvey super meal spring, summer, and fall
+    { //Harvey super meal spring and fall
       "Name": "harvey_supermeal",
       "Type": "ItemDelivery",
       "Title": "An energizing meal",
@@ -49,7 +49,7 @@
       "Trigger": "Abigail 611",
       "ReactionText": "$hThe cobbler looks tasty, thanks @!"
     },
-    { //Haley fruit salad spring
+    { //Haley fruit salad spring and summer
       "Name": "haley_fruitsalad",
       "Type": "ItemDelivery",
       "Title": "A delicious combo",
@@ -126,6 +126,16 @@
         //"KnownCookingRecipe": "Fruit Salad",
         "Days": "14",
         "Seasons": "spring",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { //Haley fruit salad summer
+      "QuestName": "haley_fruitsalad",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Fruit Salad",
+        "Days": "13",
+        "Seasons": "summer",
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
