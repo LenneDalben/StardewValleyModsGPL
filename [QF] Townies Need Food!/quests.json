@@ -1,6 +1,38 @@
 {
   "Format": "1.0",
   "Quests": [
+    { //Harvey coleslaw spring and summer
+      "Name": "harvey_coleslaw",
+      "Type": "ItemDelivery",
+      "Title": "Light and healthy",
+      "Description": "If someone could give me some coleslaw, I could put it to good use as a side dish.
+  -Harvey
+
+-1035g on delivery
+-Harvey will be thankful",
+      "Objective": "Bring coleslaw to Harvey",
+      "DaysLeft": 5,
+      "Reward": 1035,
+      "Cancelable": true,
+      "Trigger": "Harvey 648",
+      "ReactionText": "$hI'm looking forward to this healthy side dish, thanks @!"
+    },
+    { //Harvey super meal spring, summer, and fall
+      "Name": "harvey_supermeal",
+      "Type": "ItemDelivery",
+      "Title": "An energizing meal",
+      "Description": "I think a super meal would do wonders to raise my energy level. Can anyone make one for me?
+  -Harvey
+
+-660g on delivery
+-Harvey will be thankful",
+      "Objective": "Bring a super meal to Harvey",
+      "DaysLeft": 5,
+      "Reward": 660,
+      "Cancelable": true,
+      "Trigger": "Harvey 237",
+      "ReactionText": "$hI'm looking forward to this meal, thanks @!"
+    },
     { //Abigail blackberry cobbler spring and fall
       "Name": "abigail_blackberrycobbler",
       "Type": "ItemDelivery",
@@ -16,38 +48,6 @@
       "Cancelable": true,
       "Trigger": "Abigail 611",
       "ReactionText": "$hThe cobbler looks tasty, thanks @!"
-    },
-	{ //Alex complete breakfast summer and winter
-      "Name": "alex_completebreakfast",
-      "Type": "ItemDelivery",
-      "Title": "Take on the world!",
-      "Description": "I need a pick-me-up today, and I think a complete breakfast will do the trick. Can someone whip one up?
-  -Alex
-
--1050g on delivery
--Alex will be thankful",
-      "Objective": "Bring complete breakfast to Alex",
-      "DaysLeft": 5,
-      "Reward": 1050,
-      "Cancelable": true,
-      "Trigger": "Alex 201",
-      "ReactionText": "$hThis'll do the trick, thanks!"
-    },
-	{ //Caroline fish taco spring and summer
-      "Name": "caroline_fishtaco",
-      "Type": "ItemDelivery",
-      "Title": "Delicious tacos",
-      "Description": "I could really go for a fish taco. I'll pay you when you bring it.
-  -Caroline
-
--1500g on delivery
--Caroline will be pleased",
-      "Objective": "Bring fish taco to Caroline",
-      "DaysLeft": 5,
-      "Reward": 1500,
-      "Cancelable": true,
-      "Trigger": "Caroline 213",
-      "ReactionText": "$hThank you, @! I appreciate it."
     },
     { //Haley fruit salad spring
       "Name": "haley_fruitsalad",
@@ -65,6 +65,38 @@
       "Trigger": "Haley 610",
       "ReactionText": "$hThis fruit salad looks great, thanks @!"
     },
+	{ //Alex complete breakfast summer and winter
+      "Name": "alex_completebreakfast",
+      "Type": "ItemDelivery",
+      "Title": "Take on the world!",
+      "Description": "I need a pick-me-up today, and I think a complete breakfast will do the trick. Can someone whip one up?
+  -Alex
+
+-1050g on delivery
+-Alex will be thankful",
+      "Objective": "Bring a complete breakfast to Alex",
+      "DaysLeft": 5,
+      "Reward": 1050,
+      "Cancelable": true,
+      "Trigger": "Alex 201",
+      "ReactionText": "$hThanks, this'll do the trick!"
+    },
+	{ //Caroline fish taco spring and summer
+      "Name": "caroline_fishtaco",
+      "Type": "ItemDelivery",
+      "Title": "Delicious tacos",
+      "Description": "I could really go for a fish taco. I'll pay you when you bring it.
+  -Caroline
+
+-1500g on delivery
+-Caroline will be pleased",
+      "Objective": "Bring fish taco to Caroline",
+      "DaysLeft": 5,
+      "Reward": 1500,
+      "Cancelable": true,
+      "Trigger": "Caroline 213",
+      "ReactionText": "$hThank you, @! I appreciate it."
+    },
   ],
   "Offers": [
 	{ //Abigail blackberry cobbler spring and fall
@@ -76,7 +108,27 @@
 		"Seasons": "spring fall",
 		"not:QuestAcceptedInPeriod": "season year"
 	}
-	},
+  },
+  { //Haley fruit salad spring
+    "QuestName": "haley_fruitsalad",
+      "OfferedBy": "Bulletinboard",  
+    "When": {
+    //"KnownCookingRecipe": "Fruit Salad",
+    "Days": "14",
+    "Seasons": "spring",
+    "not:QuestAcceptedInPeriod": "season year"
+    }
+    },
+    { //Harvey coleslaw spring and summer
+      "QuestName": "harvey_coleslaw",
+        "OfferedBy": "Bulletinboard",  
+      "When": {
+      //"KnownCookingRecipe": "Coleslaw",
+      "Days": "1",
+      "Seasons": "spring summer",
+      "not:QuestAcceptedInPeriod": "season year"
+      }
+      },
 	{ //Alex complete breakfast summer and winter
 	  "QuestName": "alex_completebreakfast",
       "OfferedBy": "Bulletinboard",  
@@ -96,15 +148,5 @@
 		"not:QuestAcceptedInPeriod": "season year"
 	}
   },
-  { //Haley fruit salad spring
-    "QuestName": "haley_fruitsalad",
-      "OfferedBy": "Bulletinboard",  
-    "When": {
-    //"KnownCookingRecipe": "Fruit Salad",
-    "Days": "14",
-    "Seasons": "spring",
-    "not:QuestAcceptedInPeriod": "season year"
-    }
-    },
 	]
 }
