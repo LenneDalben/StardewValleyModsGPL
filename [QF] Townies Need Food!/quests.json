@@ -1,7 +1,7 @@
 {
   "Format": "1.0",
 "Quests": [
-    { //Harvey coleslaw spring and summer
+    { // Harvey coleslaw spring and summer
       "Name": "harvey_coleslaw",
       "Type": "ItemDelivery",
       "Title": "Light and healthy",
@@ -17,7 +17,7 @@
       "Trigger": "Harvey 648",
       "ReactionText": "$hI'm looking forward to this healthy side dish, thanks @!"
     },
-    { //Harvey super meal spring and fall
+    { // Harvey super meal spring and fall
       "Name": "harvey_supermeal",
       "Type": "ItemDelivery",
       "Title": "An energizing meal",
@@ -33,7 +33,7 @@
       "Trigger": "Harvey 237",
       "ReactionText": "$hI'm looking forward to this meal, thanks @!"
     },
-    { //Demetrius bean hotpot spring and winter
+    { // Demetrius bean hotpot spring and winter
       "Name": "demetrius_beanhotpot",
       "Type": "ItemDelivery",
       "Title": "A healthy meal",
@@ -48,7 +48,7 @@
       "Trigger": "Demetrius 207",
       "ReactionText": "$hThank you @, I'm looking forward to these beans."
     },
-    { //Demetrius ice cream spring and fall
+    { // Demetrius ice cream spring and fall
       "Name": "demetrius_icecream",
       "Type": "ItemDelivery",
       "Title": "A sweet treat",
@@ -63,7 +63,7 @@
       "Trigger": "Demetrius 233",
       "ReactionText": "$hThank you @, I'm looking forward to this ice cream."
     },
-    { //Leah salad spring, summer, and fall
+    { // Leah salad spring, summer, and fall
       "Name": "leah_salad",
       "Type": "ItemDelivery",
       "Title": "A garden salad",
@@ -79,7 +79,7 @@
       "Trigger": "Leah 196",
       "ReactionText": "$hAh perfect, thanks @!"
     },
-    { //Leah stir fry spring and summer
+    { // Leah stir fry spring and summer
       "Name": "leah_stirfry",
       "Type": "ItemDelivery",
       "Title": "Julienned veggies",
@@ -95,7 +95,7 @@
       "Trigger": "Leah 606",
       "ReactionText": "$hOooh these look great, thanks @!"
     },
-    { //Pam parsnip soup spring, fall, winter
+    { // Pam parsnip soup spring, fall, winter
       "Name": "pam_parsnipsoup",
       "Type": "ItemDelivery",
       "Title": "Fresh soup",
@@ -111,7 +111,7 @@
       "Trigger": "Pam 199",
       "ReactionText": "$hOh what's this now? Ha, thanks, @!"
     },
-    { //Robin radish salad spring and summer
+    { // Robin radish salad spring and summer
       "Name": "robin_radishsalad",
       "Type": "ItemDelivery",
       "Title": "Crisp radishes",
@@ -127,7 +127,7 @@
       "Trigger": "Robin 609",
       "ReactionText": "$hPerfect, thank you @!"
     },
-    { //Penny red plate spring and summer
+    { // Penny red plate spring and summer
       "Name": "penny_redplate",
       "Type": "ItemDelivery",
       "Title": "So many antioxidants!",
@@ -143,7 +143,7 @@
       "Trigger": "Penny 230",
       "ReactionText": "$hThis looks delicious, thanks @!"
     },
-    { //Penny poppyseed muffin spring and summer
+    { // Penny poppyseed muffin spring and summer
       "Name": "penny_poppyseedmuffin",
       "Type": "ItemDelivery",
       "Title": "A soothing effect",
@@ -159,7 +159,7 @@
       "Trigger": "Penny 651",
       "ReactionText": "$hThis is great, thanks @!"
     },
-    { //Abigail blackberry cobbler spring and fall
+    { // Abigail blackberry cobbler spring and fall
       "Name": "abigail_blackberrycobbler",
       "Type": "ItemDelivery",
       "Title": "Nothing quite like it!",
@@ -175,7 +175,7 @@
       "Trigger": "Abigail 611",
       "ReactionText": "$hThe cobbler looks tasty, thanks @!"
     },
-    { //Haley fruit salad spring and summer
+    { // Haley fruit salad spring and summer
       "Name": "haley_fruitsalad",
       "Type": "ItemDelivery",
       "Title": "A delicious combo",
@@ -191,7 +191,39 @@
       "Trigger": "Haley 610",
       "ReactionText": "$hThis fruit salad looks great, thanks @!"
     },
-	{ //Alex complete breakfast summer and winter
+    { // Clint artichoke dip summer and fall
+      "Name": "clint_artichokedip",
+      "Type": "ItemDelivery",
+      "Title": "A cool dip",
+      "Description": "Artichoke dip would go well with my chips. Can someone make me some? I'll pay you for the trouble!
+  -Clint
+
+-630g on delivery
+-Clint will be pleased",
+      "Objective": "Bring artichoke dip to Clint",
+      "DaysLeft": 5,
+      "Reward": 630,
+      "Cancelable": true,
+      "Trigger": "Clint 605",
+      "ReactionText": "$hAh, this looks great, thank you @!"
+    },
+    { // Linus blueberry tart in summer
+      "Name": "linus_blueberrytart",
+      "Type": "ItemDelivery",
+      "Title": "A subtle tart",
+      "Description": "I'd love a blueberry tart. Would someone in town be able to bake one for me?
+  -Linus
+
+-450g on delivery
+-Linus will be pleased",
+      "Objective": "Bring blueberry tart to Linus",
+      "DaysLeft": 5,
+      "Reward": 450,
+      "Cancelable": true,
+      "Trigger": "Linus 605",
+      "ReactionText": "$hI'm grateful for this, Farmer @."
+    },
+	{ // Alex complete breakfast summer and winter
       "Name": "alex_completebreakfast",
       "Type": "ItemDelivery",
       "Title": "Take on the world!",
@@ -207,7 +239,7 @@
       "Trigger": "Alex 201",
       "ReactionText": "$hThanks, this'll do the trick!"
     },
-	{ //Caroline fish taco spring and summer
+	{ // Caroline fish taco spring and summer
       "Name": "caroline_fishtaco",
       "Type": "ItemDelivery",
       "Title": "Delicious tacos",
@@ -225,7 +257,7 @@
     },
   ],
 "Offers": [
-	  { //Abigail blackberry cobbler spring
+	  { // Abigail blackberry cobbler spring
       "QuestName": "abigail_blackberrycobbler",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -236,7 +268,7 @@
         "not:QuestAcceptedInPeriod": "season year"
 	            }
     },
-    { //Abigail blackberry cobbler fall
+    { // Abigail blackberry cobbler fall
       "QuestName": "abigail_blackberrycobbler",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -247,7 +279,7 @@
         "not:QuestAcceptedInPeriod": "season year"
 	            }
     },
-    { //Haley fruit salad spring
+    { // Haley fruit salad spring
       "QuestName": "haley_fruitsalad",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -258,7 +290,7 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { //Haley fruit salad summer
+    { // Haley fruit salad summer
       "QuestName": "haley_fruitsalad",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -269,7 +301,7 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { //Harvey coleslaw spring and summer
+    { // Harvey coleslaw spring and summer
       "QuestName": "harvey_coleslaw",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -280,7 +312,7 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { //Harvey super meal spring
+    { // Harvey super meal spring
       "QuestName": "harvey_coleslaw",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -291,7 +323,7 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { //Demetrius bean hotpot spring and winter
+    { // Demetrius bean hotpot spring and winter
       "QuestName": "demetrius_beanhotpot",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -302,7 +334,7 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { //Demetrius ice cream spring and fall
+    { // Demetrius ice cream spring and fall
       "QuestName": "demetrius_icecream",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -313,7 +345,7 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { //Leah salad in spring, summer, and fall
+    { // Leah salad in spring, summer, and fall
       "QuestName": "leah_salad",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -335,7 +367,7 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { //Leah stir fry in summer
+    { // Leah stir fry in summer
       "QuestName": "leah_stirfry",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -346,7 +378,7 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { //Pam parsnip soup in spring and fall
+    { // Pam parsnip soup in spring and fall
       "QuestName": "pam_parsnipsoup",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -357,7 +389,7 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { //Pam parsnip soup in winter
+    { // Pam parsnip soup in winter
       "QuestName": "pam_parsnipsoup",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -379,7 +411,7 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { //Penny poppyseed muffin in summer
+    { // Penny poppyseed muffin in summer
       "QuestName": "penny_poppyseedmuffin",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -390,7 +422,7 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { //Penny red plate in spring and summer
+    { // Penny red plate in spring and summer
       "QuestName": "penny_redplate",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -412,7 +444,40 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { //Harvey super meal fall
+    { // Clint artickhoke dip in summer
+      "QuestName": "clint_artichokedip",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Artichoke Dip",
+        "Days": "15",
+        "Seasons": "summer",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { // Clint artickhoke dip in fall
+      "QuestName": "clint_artichokedip",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Artichoke Dip",
+        "Days": "9",
+        "Seasons": "fall",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { // Linus blueberry tart in summer
+      "QuestName": "linus_blueberrytart",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Blueberry Tart",
+        "Days": "17",
+        "Seasons": "summer",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { // Harvey super meal fall
       "QuestName": "harvey_coleslaw",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -423,7 +488,7 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-	  { //Alex complete breakfast summer and winter
+	  { // Alex complete breakfast summer and winter
       "QuestName": "alex_completebreakfast",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -433,7 +498,7 @@
         "not:QuestAcceptedInPeriod": "season year"
 	            }
 	  },
-	  { //Caroline fish taco spring and summer
+	  { // Caroline fish taco spring and summer
       "QuestName": "caroline_fishtaco",
       "OfferedBy": "Bulletinboard",  
       "When": {
