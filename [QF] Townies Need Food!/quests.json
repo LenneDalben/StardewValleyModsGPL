@@ -103,13 +103,45 @@
   -Pam
 
 -360g on delivery
--Makes Pam happy",
+-Pam will be thankful",
       "Objective": "Bring parsnip soup to Pam",
       "DaysLeft": 5,
       "Reward": 360,
       "Cancelable": true,
       "Trigger": "Pam 199",
       "ReactionText": "$hOh what's this now? Ha, thanks, @!"
+    },
+    { //Penny red plate spring and summer
+      "Name": "penny_redplate",
+      "Type": "ItemDelivery",
+      "Title": "So many antioxidants!",
+      "Description": "Hi, I'd love to have a red plate, it seems quite healthy. Could someone prepare one for me?
+  -Penny
+
+-1200g on delivery
+-Makes Penny happy",
+      "Objective": "Bring red plate to Penny",
+      "DaysLeft": 5,
+      "Reward": 1200,
+      "Cancelable": true,
+      "Trigger": "Penny 230",
+      "ReactionText": "$hThis looks delicious, thanks @!"
+    },
+    { //Penny poppyseed muffin spring and summer
+      "Name": "penny_poppyseedmuffin",
+      "Type": "ItemDelivery",
+      "Title": "A soothing effect",
+      "Description": "Hi, I'm interested in a poppyseed muffin. Does someone have one they could share with me?
+  -Penny
+
+-750g on delivery
+-Makes Penny happy",
+      "Objective": "Bring poppyseed muffin to Penny",
+      "DaysLeft": 5,
+      "Reward": 750,
+      "Cancelable": true,
+      "Trigger": "Penny 651",
+      "ReactionText": "$hThis is great, thanks @!"
     },
     { //Abigail blackberry cobbler spring and fall
       "Name": "abigail_blackberrycobbler",
@@ -316,6 +348,28 @@
         //"KnownCookingRecipe": "Parsnip Soup",
         "Days": "24",
         "Seasons": "winter",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { //Penny poppyseed muffin in summer
+      "QuestName": "penny_poppyseedmuffin",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Poppyseed Muffin",
+        "Days": "10",
+        "Seasons": "summer",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { //Penny red plate in spring and summer
+      "QuestName": "penny_redplate",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Red Plate",
+        "Days": "28",
+        "Seasons": "spring summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
               }
