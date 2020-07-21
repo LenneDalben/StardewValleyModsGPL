@@ -48,7 +48,7 @@
       "Trigger": "Demetrius 207",
       "ReactionText": "$hThank you @, I'm looking forward to these beans."
     },
-    { //Demetrius ice cream spring and summer
+    { //Demetrius ice cream spring and fall
       "Name": "demetrius_icecream",
       "Type": "ItemDelivery",
       "Title": "A sweet treat",
@@ -67,7 +67,7 @@
       "Name": "leah_salad",
       "Type": "ItemDelivery",
       "Title": "A garden salad",
-      "Description": "I've not had much luck getting all the ingredients for a salad. Could someone prepare me a salad?
+      "Description": "I've not had much luck getting the ingredients for my favorite dish. Could someone prepare me a salad?
   -Leah
 
 -330g on delivery
@@ -94,6 +94,22 @@
       "Cancelable": true,
       "Trigger": "Leah 606",
       "ReactionText": "$hOooh these look great, thanks @!"
+    },
+    { //Pam parsnip soup spring, fall, winter
+      "Name": "pam_parsnipsoup",
+      "Type": "ItemDelivery",
+      "Title": "Fresh soup",
+      "Description": "Howdy! I want to have parsnip soup but I'm fresh out of all the ingredients. Could someone in this town help me out and make me some?
+  -Pam
+
+-360g on delivery
+-Makes Pam happy",
+      "Objective": "Bring parsnip soup to Pam",
+      "DaysLeft": 5,
+      "Reward": 360,
+      "Cancelable": true,
+      "Trigger": "Pam 199",
+      "ReactionText": "$hOh what's this now? Ha, thanks, @!"
     },
     { //Abigail blackberry cobbler spring and fall
       "Name": "abigail_blackberrycobbler",
@@ -168,6 +184,7 @@
         //"KnownCookingRecipe": "Blackberry Cobbler",
         "Days": "3",
         "Seasons": "spring",
+        //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
 	            }
     },
@@ -178,6 +195,7 @@
         //"KnownCookingRecipe": "Blackberry Cobbler",
         "Days": "12",
         "Seasons": "fall",
+        //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
 	            }
     },
@@ -188,6 +206,7 @@
         //"KnownCookingRecipe": "Fruit Salad",
         "Days": "14",
         "Seasons": "spring",
+        //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
@@ -198,6 +217,7 @@
         //"KnownCookingRecipe": "Fruit Salad",
         "Days": "13",
         "Seasons": "summer",
+        //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
@@ -208,6 +228,7 @@
         //"KnownCookingRecipe": "Coleslaw",
         "Days": "1",
         "Seasons": "spring summer",
+        //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
@@ -218,6 +239,7 @@
         //"KnownCookingRecipe": "Super Meal",
         "Days": "5",
         "Seasons": "spring",
+        //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
@@ -228,16 +250,18 @@
         //"KnownCookingRecipe": "Bean Hotpot",
         "Days": "11",
         "Seasons": "spring winter",
+        //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { //Demetrius ice cream spring and summer
+    { //Demetrius ice cream spring and fall
       "QuestName": "demetrius_icecream",
       "OfferedBy": "Bulletinboard",  
       "When": {
         //"KnownCookingRecipe": "Ice Cream",
         "Days": "17",
-        "Seasons": "spring summer",
+        "Seasons": "spring fall",
+        //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
@@ -246,8 +270,9 @@
       "OfferedBy": "Bulletinboard",  
       "When": {
         //"KnownCookingRecipe": "Salad",
-        "Days": "20",
+        "Days": "19",
         "Seasons": "spring summer fall",
+        //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
@@ -258,6 +283,7 @@
         //"KnownCookingRecipe": "Stir Fry",
         "Days": "23",
         "Seasons": "spring",
+        //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
@@ -268,6 +294,29 @@
         //"KnownCookingRecipe": "Stir Fry",
         "Days": "22",
         "Seasons": "summer",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { //Pam parsnip soup in spring and fall
+      "QuestName": "pam_parsnipsoup",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Parsnip Soup",
+        "Days": "25",
+        "Seasons": "spring fall",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { //Pam parsnip soup in winter
+      "QuestName": "pam_parsnipsoup",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Parsnip Soup",
+        "Days": "24",
+        "Seasons": "winter",
+        //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
@@ -278,6 +327,7 @@
         //"KnownCookingRecipe": "Super Meal",
         "Days": "20",
         "Seasons": "fall",
+        //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
@@ -287,6 +337,7 @@
       "When": {
         //"KnownCookingRecipe": "Complete Breakfast",
         "Seasons": "summer winter",
+        //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
 	            }
 	  },
@@ -297,6 +348,7 @@
         //"KnownCookingRecipe": "Fish Taco",
         "Days": "7",
         "Seasons": "spring summer",
+        //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
 	            }
     },
