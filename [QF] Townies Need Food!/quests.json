@@ -63,7 +63,7 @@
       "Trigger": "George 727",
       "ReactionText": "$hThank you @, I'm looking forward to this soup."
     },
-    { // Demetrius ice cream spring and fall
+    { // Demetrius ice cream spring
       "Name": "demetrius_icecream",
       "Type": "ItemDelivery",
       "Title": "A sweet treat",
@@ -428,13 +428,13 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { // Demetrius ice cream spring and fall
+    { // Demetrius ice cream spring
       "QuestName": "demetrius_icecream",
       "OfferedBy": "Bulletinboard",  
       "When": {
         //"KnownCookingRecipe": "Ice Cream",
         "Days": "17",
-        "Seasons": "spring fall",
+        "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
               }
