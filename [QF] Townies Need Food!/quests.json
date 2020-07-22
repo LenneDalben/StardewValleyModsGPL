@@ -303,6 +303,22 @@
       "Trigger": "Caroline 730",
       "ReactionText": "$hAh, this looks excellent, @! I appreciate it."
     },
+    { // Pam glazed yams in fall and winter
+      "Name": "pam_glazedyams",
+      "Type": "ItemDelivery",
+      "Title": "Hint of caramel",
+      "Description": "Howdy! Glazed yams are perfect in this weather. Could someone in this town help me out and make me some?
+  -Pam
+
+-600g on delivery
+-Makes Pam happy",
+      "Objective": "Bring glazed yams to Pam",
+      "DaysLeft": 5,
+      "Reward": 600,
+      "Cancelable": true,
+      "Trigger": "Pam 208",
+      "ReactionText": "$hThese look perfect, thanks @!"
+    },
   ],
 "Offers": [
 	  { // Abigail blackberry cobbler spring
@@ -404,13 +420,13 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { // Pam parsnip soup in spring and fall
+    { // Pam parsnip soup in spring
       "QuestName": "pam_parsnipsoup",
       "OfferedBy": "Bulletinboard",  
       "When": {
         //"KnownCookingRecipe": "Parsnip Soup",
         "Days": "25",
-        "Seasons": "spring fall",
+        "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
               }
@@ -514,6 +530,17 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
+    { // Pam parsnip soup in fall
+      "QuestName": "pam_parsnipsoup",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Parsnip Soup",
+        "Days": "4",
+        "Seasons": "fall",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
     { // Lewis vegetable medley in fall
       "QuestName": "lewis_veggiemedley",
       "OfferedBy": "Bulletinboard",  
@@ -579,6 +606,17 @@
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
 	            }
+    },
+    { // Pam glazed yams in fall
+      "QuestName": "pam_glazedyams",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Glazed Yams",
+        "Days": "25",
+        "Seasons": "fall",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
     },
 	  { // Alex complete breakfast summer and winter (no specific day yet)
       "QuestName": "alex_completebreakfast",
