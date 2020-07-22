@@ -207,7 +207,7 @@
       "Trigger": "Caroline 213",
       "ReactionText": "$hThank you, @! I appreciate it."
     },
-	  { // Alex complete breakfast summer and winter
+	  { // Alex complete breakfast summer
       "Name": "alex_completebreakfast",
       "Type": "ItemDelivery",
       "Title": "Take on the world!",
@@ -650,12 +650,13 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-	  { // Alex complete breakfast summer and winter (no specific day yet)
+	  { // Alex complete breakfast summer
       "QuestName": "alex_completebreakfast",
       "OfferedBy": "Bulletinboard",  
       "When": {
         //"KnownCookingRecipe": "Complete Breakfast",
-        "Seasons": "summer winter",
+        "Days": "15",
+        "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
 	            }
