@@ -223,7 +223,7 @@
       "Trigger": "Linus 605",
       "ReactionText": "$hI'm grateful for this, Farmer @."
     },
-	{ // Alex complete breakfast summer and winter
+	  { // Alex complete breakfast summer and winter
       "Name": "alex_completebreakfast",
       "Type": "ItemDelivery",
       "Title": "Take on the world!",
@@ -239,7 +239,7 @@
       "Trigger": "Alex 201",
       "ReactionText": "$hThanks, this'll do the trick!"
     },
-	{ // Caroline fish taco spring and summer
+	  { // Caroline fish taco spring and summer
       "Name": "caroline_fishtaco",
       "Type": "ItemDelivery",
       "Title": "Delicious tacos",
@@ -268,17 +268,6 @@
         "not:QuestAcceptedInPeriod": "season year"
 	            }
     },
-    { // Abigail blackberry cobbler fall
-      "QuestName": "abigail_blackberrycobbler",
-      "OfferedBy": "Bulletinboard",  
-      "When": {
-        //"KnownCookingRecipe": "Blackberry Cobbler",
-        "Days": "12",
-        "Seasons": "fall",
-        //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
-	            }
-    },
     { // Haley fruit salad spring
       "QuestName": "haley_fruitsalad",
       "OfferedBy": "Bulletinboard",  
@@ -286,17 +275,6 @@
         //"KnownCookingRecipe": "Fruit Salad",
         "Days": "14",
         "Seasons": "spring",
-        //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
-              }
-    },
-    { // Haley fruit salad summer
-      "QuestName": "haley_fruitsalad",
-      "OfferedBy": "Bulletinboard",  
-      "When": {
-        //"KnownCookingRecipe": "Fruit Salad",
-        "Days": "13",
-        "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
               }
@@ -367,13 +345,13 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { // Leah stir fry in summer
-      "QuestName": "leah_stirfry",
+    { // Robin radish salad in spring
+      "QuestName": "robin_radishsalad",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Stir Fry",
-        "Days": "22",
-        "Seasons": "summer",
+        //"KnownCookingRecipe": "Radish Salad",
+        "Days": "9",
+        "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
               }
@@ -389,24 +367,13 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { // Pam parsnip soup in winter
-      "QuestName": "pam_parsnipsoup",
+    { // Haley fruit salad summer
+      "QuestName": "haley_fruitsalad",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Parsnip Soup",
-        "Days": "24",
-        "Seasons": "winter",
-        //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
-              }
-    },
-    { // Robin radish salad in spring
-      "QuestName": "robin_radishsalad",
-      "OfferedBy": "Bulletinboard",  
-      "When": {
-        //"KnownCookingRecipe": "Radish Salad",
-        "Days": "9",
-        "Seasons": "spring",
+        //"KnownCookingRecipe": "Fruit Salad",
+        "Days": "13",
+        "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
               }
@@ -433,6 +400,17 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
+    { // Leah stir fry in summer
+      "QuestName": "leah_stirfry",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Stir Fry",
+        "Days": "22",
+        "Seasons": "summer",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
     { // Robin radish salad in summer
       "QuestName": "robin_radishsalad",
       "OfferedBy": "Bulletinboard",  
@@ -455,17 +433,6 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { // Clint artickhoke dip in fall
-      "QuestName": "clint_artichokedip",
-      "OfferedBy": "Bulletinboard",  
-      "When": {
-        //"KnownCookingRecipe": "Artichoke Dip",
-        "Days": "9",
-        "Seasons": "fall",
-        //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
-              }
-    },
     { // Linus blueberry tart in summer
       "QuestName": "linus_blueberrytart",
       "OfferedBy": "Bulletinboard",  
@@ -476,6 +443,17 @@
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
               }
+    },
+    { // Abigail blackberry cobbler fall
+      "QuestName": "abigail_blackberrycobbler",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Blackberry Cobbler",
+        "Days": "12",
+        "Seasons": "fall",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+	            }
     },
     { // Harvey super meal fall
       "QuestName": "harvey_coleslaw",
@@ -488,7 +466,18 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-	  { // Alex complete breakfast summer and winter
+    { // Clint artickhoke dip in fall
+      "QuestName": "clint_artichokedip",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Artichoke Dip",
+        "Days": "9",
+        "Seasons": "fall",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+	  { // Alex complete breakfast summer and winter (no specific day yet)
       "QuestName": "alex_completebreakfast",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -508,6 +497,17 @@
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
 	            }
+    },
+    { // Pam parsnip soup in winter
+      "QuestName": "pam_parsnipsoup",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Parsnip Soup",
+        "Days": "24",
+        "Seasons": "winter",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
     },
 	]
 }
