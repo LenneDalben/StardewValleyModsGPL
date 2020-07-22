@@ -17,6 +17,22 @@
       "Trigger": "Harvey 648",
       "ReactionText": "$hI'm looking forward to this healthy side dish, thanks @!"
     },
+    { // Harvey triple shot espresso spring
+      "Name": "harvey_tripleshot",
+      "Type": "ItemDelivery",
+      "Title": "Coffee won't cut it",
+      "Description": "Coffee won't cut it; I'm in need of some triple shot espresso to raise my energy level. Could someone make one for me?
+  -Harvey
+
+-1350g on delivery
+-Harvey will be thankful",
+      "Objective": "Bring a triple shot espresso to Harvey",
+      "DaysLeft": 5,
+      "Reward": 1350,
+      "Cancelable": true,
+      "Trigger": "Harvey 253",
+      "ReactionText": "$hAh yes, this will perk me up. Thanks, @!"
+    },
     { // Harvey super meal fall
       "Name": "harvey_supermeal",
       "Type": "ItemDelivery",
@@ -428,6 +444,17 @@
         //"KnownCookingRecipe": "Coleslaw",
         "Days": "1",
         "Seasons": "spring summer",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { // Harvey triple shot espresso spring
+      "QuestName": "harvey_tripleshot",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Triple Shot Espresso",
+        "Days": "3",
+        "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
               }
