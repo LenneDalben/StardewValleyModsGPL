@@ -318,7 +318,7 @@
       "Trigger": "Caroline 730",
       "ReactionText": "$hAh, this looks excellent, @! I appreciate it."
     },
-    { // Pam glazed yams in fall and winter
+    { // Pam glazed yams in fall
       "Name": "pam_glazedyams",
       "Type": "ItemDelivery",
       "Title": "Hint of caramel",
@@ -334,7 +334,7 @@
       "Trigger": "Pam 208",
       "ReactionText": "$hThese look perfect, thanks @!"
     },
-    { // Sebastian pumpkin soup in fall and winter
+    { // Sebastian pumpkin soup in fall
       "Name": "sebastian_pumpkinsoup",
       "Type": "ItemDelivery",
       "Title": "Seasonal favorite",
@@ -347,7 +347,7 @@
       "DaysLeft": 5,
       "Reward": 900,
       "Cancelable": true,
-      "Trigger": "Pam 236",
+      "Trigger": "Sebastian 236",
       "ReactionText": "$lOh, you saw that request? Uh, thanks @!"
     },
     { // Evelyn stuffing in fall
@@ -381,6 +381,21 @@
       "Cancelable": true,
       "Trigger": "Wizard 238",
       "ReactionText": "$hOh @, this looks wonderful!"
+    },
+    { // George plum pudding in fall
+      "Name": "george_plumpudding",
+      "Type": "ItemDelivery",
+      "Title": "Holiday treat",
+      "Description": "I'm interested in some plum pudding but I don't want to trouble Evelyn. Could someone make me some?
+
+-780g on delivery
+-George will be thankful",
+      "Objective": "Bring plum pudding to George",
+      "DaysLeft": 5,
+      "Reward": 780,
+      "Cancelable": true,
+      "Trigger": "George 727",
+      "ReactionText": "$hThank you @, you've made an old man happy."
     },
   ],
 "Offers": [
@@ -687,6 +702,17 @@
       "When": {
         //"KnownCookingRecipe": "Cranberry Sauce",
         "Days": "19",
+        "Seasons": "fall",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { // George plum pudding in fall
+      "QuestName": "george_plumpudding",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Plum Pudding",
+        "Days": "17",
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
