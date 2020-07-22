@@ -319,6 +319,38 @@
       "Trigger": "Pam 208",
       "ReactionText": "$hThese look perfect, thanks @!"
     },
+    { // Sebastian pumpkin soup in fall and winter
+      "Name": "sebastian_pumpkinsoup",
+      "Type": "ItemDelivery",
+      "Title": "Seasonal favorite",
+      "Description": "Ugh, this is embarrassing but...I'm craving my mom's pumpkin soup and I don't think I could do it justice if I tried to make it myself. Could someone give it a try? I'll pay you for it, promise.
+  -Sebastian
+
+-900g on delivery
+-Makes Sebastian happy",
+      "Objective": "Bring pumpkin soup to Sebastian",
+      "DaysLeft": 5,
+      "Reward": 900,
+      "Cancelable": true,
+      "Trigger": "Pam 236",
+      "ReactionText": "$lOh, you saw that request? Uh, thanks @!"
+    },
+    { // Evelyn stuffing in fall and winter
+      "Name": "evelyn_stuffing",
+      "Type": "ItemDelivery",
+      "Title": "Bread and sage",
+      "Description": "I'm in need of stuffing to complete my meal, but I don't have time to make it. Could someone make it for me?
+  -Evelyn
+
+-495g on delivery
+-Makes Evelyn happy",
+      "Objective": "Bring stuffing to Evelyn",
+      "DaysLeft": 5,
+      "Reward": 495,
+      "Cancelable": true,
+      "Trigger": "Evelyn 239",
+      "ReactionText": "$h@, this stuffing looks great. Thanks!"
+    },
   ],
 "Offers": [
 	  { // Abigail blackberry cobbler spring
@@ -613,6 +645,28 @@
       "When": {
         //"KnownCookingRecipe": "Glazed Yams",
         "Days": "25",
+        "Seasons": "fall",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { //Sebastian pumpkin soup in fall
+      "QuestName": "sebastian_pumpkinsoup",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Pumpkin Soup",
+        "Days": "28",
+        "Seasons": "fall",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { //Evelyn stuffing in fall
+      "QuestName": "evelyn_stuffing",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Stuffing",
+        "Days": "1",
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
