@@ -63,7 +63,7 @@
       "Trigger": "Demetrius 233",
       "ReactionText": "$hThank you @, I'm looking forward to this ice cream."
     },
-    { // Leah salad spring, summer, and fall
+    { // Leah salad spring and summer
       "Name": "leah_salad",
       "Type": "ItemDelivery",
       "Title": "A garden salad",
@@ -335,7 +335,7 @@
       "Trigger": "Pam 236",
       "ReactionText": "$lOh, you saw that request? Uh, thanks @!"
     },
-    { // Evelyn stuffing in fall and winter
+    { // Evelyn stuffing in fall
       "Name": "evelyn_stuffing",
       "Type": "ItemDelivery",
       "Title": "Bread and sage",
@@ -350,6 +350,22 @@
       "Cancelable": true,
       "Trigger": "Evelyn 239",
       "ReactionText": "$h@, this stuffing looks great. Thanks!"
+    },
+    { // Wizard cranberry sauce in fall
+      "Name": "wizard_cransauce",
+      "Type": "ItemDelivery",
+      "Title": "A festive treat",
+      "Description": "Local wizard in search of some excellent cranberry sauce.
+  -M. Rasmodius =
+
+-360g on delivery
+-Makes Wizard happy",
+      "Objective": "Bring cranberry sauce to Wizard",
+      "DaysLeft": 5,
+      "Reward": 360,
+      "Cancelable": true,
+      "Trigger": "Wizard 238",
+      "ReactionText": "$hOh @, this looks wonderful!"
     },
   ],
 "Offers": [
@@ -408,13 +424,13 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { // Leah salad in spring, summer, and fall
+    { // Leah salad in spring and summer
       "QuestName": "leah_salad",
       "OfferedBy": "Bulletinboard",  
       "When": {
         //"KnownCookingRecipe": "Salad",
         "Days": "19",
-        "Seasons": "spring summer fall",
+        "Seasons": "spring summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
               }
@@ -645,6 +661,17 @@
       "When": {
         //"KnownCookingRecipe": "Stuffing",
         "Days": "1",
+        "Seasons": "fall",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { //Wizard cranberry sauce in fall
+      "QuestName": "wizard_cransauce",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Cranberry Sauce",
+        "Days": "19",
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
