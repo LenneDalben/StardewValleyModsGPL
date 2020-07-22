@@ -17,7 +17,7 @@
       "Trigger": "Harvey 648",
       "ReactionText": "$hI'm looking forward to this healthy side dish, thanks @!"
     },
-    { // Harvey super meal spring and fall
+    { // Harvey super meal fall
       "Name": "harvey_supermeal",
       "Type": "ItemDelivery",
       "Title": "An energizing meal",
@@ -33,7 +33,7 @@
       "Trigger": "Harvey 237",
       "ReactionText": "$hI'm looking forward to this meal, thanks @!"
     },
-    { // Demetrius bean hotpot spring and winter
+    { // Demetrius bean hotpot spring
       "Name": "demetrius_beanhotpot",
       "Type": "ItemDelivery",
       "Title": "A healthy meal",
@@ -47,6 +47,21 @@
       "Cancelable": true,
       "Trigger": "Demetrius 207",
       "ReactionText": "$hThank you @, I'm looking forward to these beans."
+    },
+    { // George chowder in spring
+      "Name": "george_chowder",
+      "Type": "ItemDelivery",
+      "Title": "Perfect warmth",
+      "Description": "I'm in need of something to warm my old bones. Could someone make me some chowder?
+
+-405g on delivery
+-George will be thankful",
+      "Objective": "Bring chowder to George",
+      "DaysLeft": 5,
+      "Reward": 405,
+      "Cancelable": true,
+      "Trigger": "George 727",
+      "ReactionText": "$hThank you @, I'm looking forward to this soup."
     },
     { // Demetrius ice cream spring and fall
       "Name": "demetrius_icecream",
@@ -380,6 +395,17 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
+    { // George chowder spring
+      "QuestName": "george_chowder",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Chowder",
+        "Days": "5",
+        "Seasons": "spring",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
     { // Harvey coleslaw spring and summer
       "QuestName": "harvey_coleslaw",
       "OfferedBy": "Bulletinboard",  
@@ -391,24 +417,13 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { // Harvey super meal spring
-      "QuestName": "harvey_coleslaw",
-      "OfferedBy": "Bulletinboard",  
-      "When": {
-        //"KnownCookingRecipe": "Super Meal",
-        "Days": "5",
-        "Seasons": "spring",
-        //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
-              }
-    },
-    { // Demetrius bean hotpot spring and winter
+    { // Demetrius bean hotpot spring
       "QuestName": "demetrius_beanhotpot",
       "OfferedBy": "Bulletinboard",  
       "When": {
         //"KnownCookingRecipe": "Bean Hotpot",
         "Days": "11",
-        "Seasons": "spring winter",
+        "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
               }
@@ -644,7 +659,7 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { //Sebastian pumpkin soup in fall
+    { // Sebastian pumpkin soup in fall
       "QuestName": "sebastian_pumpkinsoup",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -655,7 +670,7 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { //Evelyn stuffing in fall
+    { // Evelyn stuffing in fall
       "QuestName": "evelyn_stuffing",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -666,7 +681,7 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { //Wizard cranberry sauce in fall
+    { // Wizard cranberry sauce in fall
       "QuestName": "wizard_cransauce",
       "OfferedBy": "Bulletinboard",  
       "When": {
