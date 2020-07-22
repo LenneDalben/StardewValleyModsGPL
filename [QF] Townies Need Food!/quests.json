@@ -239,6 +239,22 @@
       "Trigger": "Lewis 200",
       "ReactionText": "$hI appreciate you helping me stay healthy, @!"
     },
+    { // Lewis autumn's bounty fall and winter
+      "Name": "lewis_autumnbounty",
+      "Type": "ItemDelivery",
+      "Title": "Taste of the season",
+      "Description": "I'd love to have some yams and pumpkins together. Could someone prepare the autumn's bounty dish for me? I'll pay you for it!
+  -Lewis
+
+-1050g on delivery
+-Lewis will be pleased",
+      "Objective": "Bring autumn's bounty to Lewis",
+      "DaysLeft": 5,
+      "Reward": 1050,
+      "Cancelable": true,
+      "Trigger": "Lewis 235",
+      "ReactionText": "$hI'm looking forward to this so-called 'taste of the season.' Thanks, @!"
+    },
     { // Caroline fish taco spring and summer
       "Name": "caroline_fishtaco",
       "Type": "ItemDelivery",
@@ -482,6 +498,28 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
+    { // Lewis vegetable medley in fall
+      "QuestName": "lewis_veggiemedley",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Vegetable Medley",
+        "Days": "6",
+        "Seasons": "fall",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { // Lewis autumn's bounty in fall
+      "QuestName": "lewis_autumnbounty",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Autumn's Bounty",
+        "Days": "15",
+        "Seasons": "fall",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
     { // Abigail blackberry cobbler fall
       "QuestName": "abigail_blackberrycobbler",
       "OfferedBy": "Bulletinboard",  
@@ -498,7 +536,7 @@
       "OfferedBy": "Bulletinboard",  
       "When": {
         //"KnownCookingRecipe": "Super Meal",
-        "Days": "20",
+        "Days": "21",
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
