@@ -191,6 +191,38 @@
       "Trigger": "Haley 610",
       "ReactionText": "$hThis fruit salad looks great, thanks @!"
     },
+    { // Caroline fish taco spring and summer
+      "Name": "caroline_fishtaco",
+      "Type": "ItemDelivery",
+      "Title": "Delicious tacos",
+      "Description": "I could really go for a fish taco. I'll pay you when you bring it.
+  -Caroline
+
+-1500g on delivery
+-Caroline will be pleased",
+      "Objective": "Bring fish taco to Caroline",
+      "DaysLeft": 5,
+      "Reward": 1500,
+      "Cancelable": true,
+      "Trigger": "Caroline 213",
+      "ReactionText": "$hThank you, @! I appreciate it."
+    },
+	  { // Alex complete breakfast summer and winter
+      "Name": "alex_completebreakfast",
+      "Type": "ItemDelivery",
+      "Title": "Take on the world!",
+      "Description": "I need a pick-me-up today, and I think a complete breakfast will do the trick. Can someone whip one up?
+  -Alex
+
+-1050g on delivery
+-Alex will be thankful",
+      "Objective": "Bring a complete breakfast to Alex",
+      "DaysLeft": 5,
+      "Reward": 1050,
+      "Cancelable": true,
+      "Trigger": "Alex 201",
+      "ReactionText": "$hThanks, this'll do the trick!"
+    },
     { // Clint artichoke dip summer and fall
       "Name": "clint_artichokedip",
       "Type": "ItemDelivery",
@@ -255,37 +287,21 @@
       "Trigger": "Lewis 235",
       "ReactionText": "$hI'm looking forward to this so-called 'taste of the season.' Thanks, @!"
     },
-    { // Caroline fish taco spring and summer
-      "Name": "caroline_fishtaco",
+    { // Caroline lobster bisque fall and winter
+      "Name": "caroline_lobsterbisque",
       "Type": "ItemDelivery",
-      "Title": "Delicious tacos",
-      "Description": "I could really go for a fish taco. I'll pay you when you bring it.
+      "Title": "A delicate soup",
+      "Description": "Willy is not sharing that secret recipe for lobster bisque. Did he share the recipe with someone who'd be willing to make it for me? I'll pay you good money for it!
   -Caroline
 
--1500g on delivery
+-615g on delivery
 -Caroline will be pleased",
-      "Objective": "Bring fish taco to Caroline",
+      "Objective": "Bring lobster bisque to Caroline",
       "DaysLeft": 5,
-      "Reward": 1500,
+      "Reward": 615,
       "Cancelable": true,
-      "Trigger": "Caroline 213",
-      "ReactionText": "$hThank you, @! I appreciate it."
-    },
-	  { // Alex complete breakfast summer and winter
-      "Name": "alex_completebreakfast",
-      "Type": "ItemDelivery",
-      "Title": "Take on the world!",
-      "Description": "I need a pick-me-up today, and I think a complete breakfast will do the trick. Can someone whip one up?
-  -Alex
-
--1050g on delivery
--Alex will be thankful",
-      "Objective": "Bring a complete breakfast to Alex",
-      "DaysLeft": 5,
-      "Reward": 1050,
-      "Cancelable": true,
-      "Trigger": "Alex 201",
-      "ReactionText": "$hThanks, this'll do the trick!"
+      "Trigger": "Caroline 730",
+      "ReactionText": "$hAh, this looks excellent, @! I appreciate it."
     },
   ],
 "Offers": [
@@ -552,6 +568,17 @@
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
               }
+    },
+    { // Caroline lobster bisque fall
+      "QuestName": "caroline_lobsterbisque",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Lobster Bisque",
+        "Days": "23",
+        "Seasons": "fall",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+	            }
     },
 	  { // Alex complete breakfast summer and winter (no specific day yet)
       "QuestName": "alex_completebreakfast",
