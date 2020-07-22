@@ -159,7 +159,7 @@
       "Trigger": "Penny 651",
       "ReactionText": "$hThis is great, thanks @!"
     },
-    { // Abigail blackberry cobbler spring and fall
+    { // Abigail blackberry cobbler fall
       "Name": "abigail_blackberrycobbler",
       "Type": "ItemDelivery",
       "Title": "Nothing quite like it!",
@@ -353,17 +353,6 @@
     },
   ],
 "Offers": [
-	  { // Abigail blackberry cobbler spring
-      "QuestName": "abigail_blackberrycobbler",
-      "OfferedBy": "Bulletinboard",  
-      "When": {
-        //"KnownCookingRecipe": "Blackberry Cobbler",
-        "Days": "3",
-        "Seasons": "spring",
-        //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
-	            }
-    },
     { // Haley fruit salad spring
       "QuestName": "haley_fruitsalad",
       "OfferedBy": "Bulletinboard",  
