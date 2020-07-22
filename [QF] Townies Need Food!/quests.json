@@ -212,7 +212,7 @@
       "Type": "ItemDelivery",
       "Title": "A subtle tart",
       "Description": "I'd love a blueberry tart. Would someone in town be able to bake one for me?
-  -Linus
+  -Linus =
 
 -450g on delivery
 -Linus will be pleased",
@@ -222,6 +222,22 @@
       "Cancelable": true,
       "Trigger": "Linus 605",
       "ReactionText": "$hI'm grateful for this, Farmer @."
+    },
+    { // Lewis vegetable medley in summer and fall
+      "Name": "lewis_veggiemedley",
+      "Type": "ItemDelivery",
+      "Title": "Nutritious medley",
+      "Description": "Hi Pelican Town, I haven't had a healthy meal in a while. Could someone scrounge up a vegetable medley for your favorite mayor?
+  -Lewis
+
+-360g on delivery
+-Lewis will be pleased",
+      "Objective": "Bring vegetable medley to Lewis",
+      "DaysLeft": 5,
+      "Reward": 360,
+      "Cancelable": true,
+      "Trigger": "Lewis 200",
+      "ReactionText": "$hI appreciate you helping me stay healthy, @!"
     },
     { // Caroline fish taco spring and summer
       "Name": "caroline_fishtaco",
@@ -439,6 +455,17 @@
       "When": {
         //"KnownCookingRecipe": "Blueberry Tart",
         "Days": "17",
+        "Seasons": "summer",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { // Lewis vegetable medley in summer
+      "QuestName": "lewis_veggiemedley",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Vegetable Medley",
+        "Days": "25",
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
