@@ -383,6 +383,28 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
+    { // Penny red plate in spring and summer
+      "QuestName": "penny_redplate",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Red Plate",
+        "Days": "27",
+        "Seasons": "spring summer",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { // Caroline fish taco spring and summer
+      "QuestName": "caroline_fishtaco",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Fish Taco",
+        "Days": "7",
+        "Seasons": "spring summer",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+	            }
+    },
     { // Haley fruit salad summer
       "QuestName": "haley_fruitsalad",
       "OfferedBy": "Bulletinboard",  
@@ -401,17 +423,6 @@
         //"KnownCookingRecipe": "Poppyseed Muffin",
         "Days": "10",
         "Seasons": "summer",
-        //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
-              }
-    },
-    { // Penny red plate in spring and summer
-      "QuestName": "penny_redplate",
-      "OfferedBy": "Bulletinboard",  
-      "When": {
-        //"KnownCookingRecipe": "Red Plate",
-        "Days": "28",
-        "Seasons": "spring summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
               }
@@ -438,7 +449,7 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { // Clint artickhoke dip in summer
+    { // Clint artichoke dip in summer
       "QuestName": "clint_artichokedip",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -514,17 +525,6 @@
         "not:QuestAcceptedInPeriod": "season year"
 	            }
 	  },
-	  { // Caroline fish taco spring and summer
-      "QuestName": "caroline_fishtaco",
-      "OfferedBy": "Bulletinboard",  
-      "When": {
-        //"KnownCookingRecipe": "Fish Taco",
-        "Days": "7",
-        "Seasons": "spring summer",
-        //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
-	            }
-    },
     { // Pam parsnip soup in winter
       "QuestName": "pam_parsnipsoup",
       "OfferedBy": "Bulletinboard",  
