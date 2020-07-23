@@ -142,7 +142,7 @@
       "Trigger": "Pam 199",
       "ReactionText": "$hOh what's this now? Ha, thanks, @!"
     },
-    { // Robin radish salad spring and summer
+    { // Robin radish salad summer
       "Name": "robin_radishsalad",
       "Type": "ItemDelivery",
       "Title": "Crisp radishes",
@@ -514,17 +514,6 @@
       "When": {
         //"KnownCookingRecipe": "Stir Fry",
         "Days": "23",
-        "Seasons": "spring",
-        //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
-              }
-    },
-    { // Robin radish salad in spring
-      "QuestName": "robin_radishsalad",
-      "OfferedBy": "Bulletinboard",  
-      "When": {
-        //"KnownCookingRecipe": "Radish Salad",
-        "Days": "9",
         "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
