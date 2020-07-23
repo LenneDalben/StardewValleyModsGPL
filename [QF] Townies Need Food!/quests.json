@@ -1,7 +1,7 @@
 {
   "Format": "1.0",
 "Quests": [
-    { // Harvey coleslaw spring and summer
+    { // Harvey coleslaw summer
       "Name": "harvey_coleslaw",
       "Type": "ItemDelivery",
       "Title": "Light and healthy",
@@ -126,7 +126,7 @@
       "Trigger": "Leah 606",
       "ReactionText": "$hOooh these look great, thanks @!"
     },
-    { // Pam parsnip soup spring and winter
+    { // Pam parsnip soup spring
       "Name": "pam_parsnipsoup",
       "Type": "ItemDelivery",
       "Title": "Fresh soup",
@@ -453,13 +453,13 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { // Harvey coleslaw in spring and summer
+    { // Harvey coleslaw in summer
       "QuestName": "harvey_coleslaw",
       "OfferedBy": "Bulletinboard",  
       "When": {
         //"KnownCookingRecipe": "Coleslaw",
-        "Days": "1",
-        "Seasons": "spring summer",
+        "Days": "25",
+        "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
               }
@@ -750,16 +750,5 @@
         "not:QuestAcceptedInPeriod": "season year"
 	            }
 	  },
-    { // Pam parsnip soup in winter
-      "QuestName": "pam_parsnipsoup",
-      "OfferedBy": "Bulletinboard",  
-      "When": {
-        //"KnownCookingRecipe": "Parsnip Soup",
-        "Days": "24",
-        "Seasons": "winter",
-        //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
-              }
-    },
 	]
 }
