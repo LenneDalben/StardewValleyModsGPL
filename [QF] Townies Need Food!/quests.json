@@ -445,6 +445,22 @@
       "Trigger": "Marnie 608",
       "ReactionText": "$hAh, thanks @! I'm looking forward to this pie!"
     },
+    { // Abigail spicy eel in winter
+      "Name": "abigail_spicyeel",
+      "Type": "ItemDelivery",
+      "Title": "It's really spicy!",
+      "Description": "Spicy eel would help keep me warm this winter! Can anyone make me some?
+  -Abigail
+
+-525g on delivery
+-Abigail will be pleased",
+      "Objective": "Bring spicy eel to Abigail",
+      "DaysLeft": 5,
+      "Reward": 525,
+      "Cancelable": true,
+      "Trigger": "Abigail 226",
+      "ReactionText": "$hI can smell the spice from here, thanks @!"
+    },
   ],
 "Offers": [
     { // George chowder in spring
@@ -739,6 +755,17 @@
       "When": {
         //"KnownCookingRecipe": "Pumpkin Pie",
         "Days": "1",
+        "Seasons": "winter",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { // Abigail spicy eel in winter
+      "QuestName": "abigail_spicyeel",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Spicy Eel",
+        "Days": "3",
         "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
