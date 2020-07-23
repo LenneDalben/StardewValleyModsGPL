@@ -1,7 +1,6 @@
 {
   "Format": "1.0",
-"Quests": [
-
+"Quests": [ 
     { // Harvey triple shot espresso spring
       "Name": "harvey_tripleshot",
       "Type": "ItemDelivery",
@@ -477,6 +476,22 @@
       "Trigger": "Elliott 218",
       "ReactionText": "$hI can't wait to enjoy this delectable delicacy, thank you @!"
     },
+    { // Emily shrimp cocktail in winter
+      "Name": "emily_shrimpcocktail",
+      "Type": "ItemDelivery",
+      "Title": "Sumptuous appetizer",
+      "Description": "Hello, it's Emily. I'd like to buy a shrimp cocktail from someone, to have an appetizer for my meal. Thanks!
+  -Emily
+
+-480g on delivery
+-Emily will be pleased",
+      "Objective": "Bring shrimp cocktail to Emily",
+      "DaysLeft": 5,
+      "Reward": 580,
+      "Cancelable": true,
+      "Trigger": "Emily 733",
+      "ReactionText": "$hGreat, thanks @!"
+    },
   ],
 "Offers": [
     { // George chowder in spring
@@ -804,6 +819,17 @@
       "When": {
         //"KnownCookingRecipe": "Tom Kha Soup",
         "Days": "5",
+        "Seasons": "winter",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { // Emily shrimp cocktail in winter
+      "QuestName": "emily_shrimpcocktail",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Shrimp Cocktail",
+        "Days": "7",
         "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
