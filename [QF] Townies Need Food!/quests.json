@@ -431,7 +431,7 @@
     },
   ],
 "Offers": [
-    { // Haley fruit salad spring
+    { // Haley fruit salad in spring
       "QuestName": "haley_fruitsalad",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -442,7 +442,7 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { // George chowder spring
+    { // George chowder in spring
       "QuestName": "george_chowder",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -453,7 +453,7 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { // Harvey coleslaw spring and summer
+    { // Harvey coleslaw in spring and summer
       "QuestName": "harvey_coleslaw",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -464,7 +464,7 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { // Harvey triple shot espresso spring
+    { // Harvey triple shot espresso in spring
       "QuestName": "harvey_tripleshot",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -475,7 +475,7 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { // Demetrius bean hotpot spring
+    { // Demetrius bean hotpot in spring
       "QuestName": "demetrius_beanhotpot",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -486,7 +486,7 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { // Demetrius ice cream spring
+    { // Demetrius ice cream in spring
       "QuestName": "demetrius_icecream",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -552,7 +552,7 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { // Caroline fish taco spring and summer
+    { // Caroline fish taco in spring and summer
       "QuestName": "caroline_fishtaco",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -563,7 +563,7 @@
         "not:QuestAcceptedInPeriod": "season year"
 	            }
     },
-    { // Haley fruit salad summer
+    { // Haley fruit salad in summer
       "QuestName": "haley_fruitsalad",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -651,7 +651,7 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { // Abigail blackberry cobbler fall
+    { // Abigail blackberry cobbler in fall
       "QuestName": "abigail_blackberrycobbler",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -662,7 +662,7 @@
         "not:QuestAcceptedInPeriod": "season year"
 	            }
     },
-    { // Harvey super meal fall
+    { // Harvey super meal in fall
       "QuestName": "harvey_coleslaw",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -684,7 +684,7 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { // Caroline lobster bisque fall
+    { // Caroline lobster bisque in fall
       "QuestName": "caroline_lobsterbisque",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -750,7 +750,7 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-	  { // Alex complete breakfast summer
+	  { // Alex complete breakfast in summer
       "QuestName": "alex_completebreakfast",
       "OfferedBy": "Bulletinboard",  
       "When": {
