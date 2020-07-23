@@ -174,7 +174,7 @@
       "Trigger": "Penny 230",
       "ReactionText": "$hThis looks delicious, thanks @!"
     },
-    { // Penny poppyseed muffin spring and summer
+    { // Penny poppyseed muffin summer
       "Name": "penny_poppyseedmuffin",
       "Type": "ItemDelivery",
       "Title": "A soothing effect",
@@ -206,7 +206,7 @@
       "Trigger": "Abigail 611",
       "ReactionText": "$hThe cobbler looks tasty, thanks @!"
     },
-    { // Haley fruit salad spring and summer
+    { // Haley fruit salad summer
       "Name": "haley_fruitsalad",
       "Type": "ItemDelivery",
       "Title": "A delicious combo",
@@ -222,7 +222,7 @@
       "Trigger": "Haley 610",
       "ReactionText": "$hThis fruit salad looks great, thanks @!"
     },
-    { // Caroline fish taco spring and summer
+    { // Caroline fish taco summer
       "Name": "caroline_fishtaco",
       "Type": "ItemDelivery",
       "Title": "Delicious tacos",
@@ -318,7 +318,7 @@
       "Trigger": "Lewis 200",
       "ReactionText": "$hI appreciate you helping me stay healthy, @!"
     },
-    { // Lewis autumn's bounty fall and winter
+    { // Lewis autumn's bounty fall
       "Name": "lewis_autumnbounty",
       "Type": "ItemDelivery",
       "Title": "Taste of the season",
@@ -334,7 +334,7 @@
       "Trigger": "Lewis 235",
       "ReactionText": "$hI'm looking forward to this so-called 'taste of the season.' Thanks, @!"
     },
-    { // Caroline lobster bisque fall and winter
+    { // Caroline lobster bisque fall
       "Name": "caroline_lobsterbisque",
       "Type": "ItemDelivery",
       "Title": "A delicate soup",
@@ -431,17 +431,6 @@
     },
   ],
 "Offers": [
-    { // Haley fruit salad in spring
-      "QuestName": "haley_fruitsalad",
-      "OfferedBy": "Bulletinboard",  
-      "When": {
-        //"KnownCookingRecipe": "Fruit Salad",
-        "Days": "14",
-        "Seasons": "spring",
-        //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
-              }
-    },
     { // George chowder in spring
       "QuestName": "george_chowder",
       "OfferedBy": "Bulletinboard",  
@@ -541,13 +530,13 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { // Caroline fish taco in spring and summer
+    { // Caroline fish taco in summer
       "QuestName": "caroline_fishtaco",
       "OfferedBy": "Bulletinboard",  
       "When": {
         //"KnownCookingRecipe": "Fish Taco",
         "Days": "7",
-        "Seasons": "spring summer",
+        "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
 	            }
