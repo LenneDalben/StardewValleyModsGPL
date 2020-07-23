@@ -642,7 +642,7 @@
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
-	      }
+	            }
     },
     { // Linus dish o' the sea in fall
       "QuestName": "linus_dishothesea",
