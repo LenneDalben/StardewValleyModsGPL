@@ -556,6 +556,17 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
+    { // Harvey coleslaw in spring; need to get day!
+      "QuestName": "harvey_coleslaw",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Coleslaw",
+        //"Days": "?", need to get day!
+        "Seasons": "spring",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
     { // Penny red plate in summer
       "QuestName": "penny_redplate",
       "OfferedBy": "Bulletinboard",  
@@ -622,7 +633,7 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-	  { // Alex complete breakfast in summer
+    { // Alex complete breakfast in summer
       "QuestName": "alex_completebreakfast",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -631,8 +642,8 @@
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
-	            }
-	  },
+	      }
+    },
     { // Linus dish o' the sea in fall
       "QuestName": "linus_dishothesea",
       "OfferedBy": "Bulletinboard",  
@@ -678,7 +689,7 @@
 	            }
     },
     { // Harvey super meal in fall
-      "QuestName": "harvey_coleslaw",
+      "QuestName": "harvey_supermeal",
       "OfferedBy": "Bulletinboard",  
       "When": {
         //"KnownCookingRecipe": "Super Meal",
