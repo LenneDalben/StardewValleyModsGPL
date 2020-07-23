@@ -539,7 +539,7 @@
       "Cancelable": true,
       "Trigger": "Jodi 231",
       "ReactionText": "$hThis will do, thanks @."
-    },    
+    },
 	  { // Kent roasted hazelnuts in winter
       "Name": "kent_roastedhazelnuts",
       "Type": "ItemDelivery",
@@ -555,6 +555,22 @@
       "Cancelable": true,
       "Trigger": "Kent 607",
       "ReactionText": "$hWhat? Oh, the hazelnuts I asked for. Thanks @."
+    },
+	  { // Shane pizza in winter
+      "Name": "shane_pizza",
+      "Type": "ItemDelivery",
+      "Title": "The right stuff",
+      "Description": "Could someone get me some pizza? I'll pay you for it, I swear.
+  -Shane
+
+-900g on delivery
+-Shane will be pleased",
+      "Objective": "Bring pizza to Shane",
+      "DaysLeft": 5,
+      "Reward": 900,
+      "Cancelable": true,
+      "Trigger": "Shane 206",
+      "ReactionText": "$hHa, I was just beginning to think no one would take me up on the offer. Thanks, @."
     },
   ],
 "Offers": [
@@ -938,6 +954,17 @@
       "When": {
         //"KnownCookingRecipe": "Roasted Hazelnuts",
         "Days": "15",
+        "Seasons": "winter",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { // Shane pizza in winter
+      "QuestName": "shane_pizza",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Pizza",
+        "Days": "17",
         "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
