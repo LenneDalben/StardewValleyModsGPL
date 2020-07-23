@@ -126,7 +126,7 @@
       "Trigger": "Leah 606",
       "ReactionText": "$hOooh these look great, thanks @!"
     },
-    { // Pam parsnip soup spring, fall, winter
+    { // Pam parsnip soup spring and winter
       "Name": "pam_parsnipsoup",
       "Type": "ItemDelivery",
       "Title": "Fresh soup",
@@ -286,7 +286,23 @@
       "Trigger": "Linus 605",
       "ReactionText": "$hI'm grateful for this, Farmer @."
     },
-    { // Lewis vegetable medley in summer and fall
+    { // Linus dish o' the sea fall
+      "Name": "linus_dishothesea",
+      "Type": "ItemDelivery",
+      "Title": "Warm in sea air",
+      "Description": "I'd love a dish o' the sea. Would someone in town be able to make some for me?
+  -Linus =
+
+-660g on delivery
+-Makes Linus happy",
+      "Objective": "Bring dish o' the sea to Linus",
+      "DaysLeft": 5,
+      "Reward": 660,
+      "Cancelable": true,
+      "Trigger": "Linus 242",
+      "ReactionText": "$hThis will help keep me warm. Thanks, Farmer @."
+    },
+    { // Lewis vegetable medley in fall
       "Name": "lewis_veggiemedley",
       "Type": "ItemDelivery",
       "Title": "Nutritious medley",
@@ -602,22 +618,11 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { // Lewis vegetable medley in summer
-      "QuestName": "lewis_veggiemedley",
+    { // Linus dish o' the sea in fall
+      "QuestName": "linus_dishothesea",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Vegetable Medley",
-        "Days": "25",
-        "Seasons": "summer",
-        //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
-              }
-    },
-    { // Pam parsnip soup in fall
-      "QuestName": "pam_parsnipsoup",
-      "OfferedBy": "Bulletinboard",  
-      "When": {
-        //"KnownCookingRecipe": "Parsnip Soup",
+        //"KnownCookingRecipe": "Dish o' The Sea",
         "Days": "4",
         "Seasons": "fall",
         //"Random": "30",
