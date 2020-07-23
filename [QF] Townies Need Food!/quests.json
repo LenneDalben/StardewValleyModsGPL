@@ -587,6 +587,22 @@
       "Trigger": "Marnie 240",
       "ReactionText": "$hHere's to hoping this really does 'keep me going,' thanks @!"
     },
+    { // Penny roots platter in winter
+      "Name": "penny_rootsplatter",
+      "Type": "ItemDelivery",
+      "Title": "Platter with roots",
+      "Description": "Hi, I'd love a roots platter. Could someone make me one, please?
+  -Penny
+
+-300g on delivery
+-Makes Penny happy",
+      "Objective": "Bring roots platter to Penny",
+      "DaysLeft": 5,
+      "Reward": 300,
+      "Cancelable": true,
+      "Trigger": "Penny 244",
+      "ReactionText": "$hThanks, @! I'm looking forward to this."
+    },
   ],
 "Offers": [
     { // George chowder in spring
@@ -991,6 +1007,17 @@
       "When": {
         //"KnownCookingRecipe": "Farmer's Lunch",
         "Days": "19",
+        "Seasons": "winter",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { // Penny roots platter in winter
+      "QuestName": "penny_rootsplatter",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Roots Platter",
+        "Days": "21",
         "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
