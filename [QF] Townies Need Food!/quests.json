@@ -430,6 +430,21 @@
       "Trigger": "George 727",
       "ReactionText": "$hThank you @, you've made an old man happy."
     },
+    { // Marnie pumpkin pie in winter
+      "Name": "marnie_pumpkinpie",
+      "Type": "ItemDelivery",
+      "Title": "Silky pumpkin pie",
+      "Description": "Howdy neighbors! I'm hankering for some pumpkin pie, but I don't have any pumpkins. Help?
+
+-810g on delivery
+-Makes Marnie happy",
+      "Objective": "Bring pumpkin pie to Marnie",
+      "DaysLeft": 5,
+      "Reward": 810,
+      "Cancelable": true,
+      "Trigger": "Marnie 608",
+      "ReactionText": "$hAh, thanks @! I'm looking forward to this pie!"
+    },
   ],
 "Offers": [
     { // George chowder in spring
@@ -714,6 +729,17 @@
         //"KnownCookingRecipe": "Plum Pudding",
         "Days": "17",
         "Seasons": "fall",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { // Marnie pumpkin pie in winter
+      "QuestName": "marnie_pumpkinpie",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Pumpkin Pie",
+        "Days": "1",
+        "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
               }
