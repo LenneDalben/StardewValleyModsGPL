@@ -487,10 +487,26 @@
 -Emily will be pleased",
       "Objective": "Bring shrimp cocktail to Emily",
       "DaysLeft": 5,
-      "Reward": 580,
+      "Reward": 480,
       "Cancelable": true,
       "Trigger": "Emily 733",
       "ReactionText": "$hGreat, thanks @!"
+    },
+    { // Willy trout soup in winter
+      "Name": "willy_troutsoup",
+      "Type": "ItemDelivery",
+      "Title": "A salty soup",
+      "Description": "Trying to combine keeping the art o' fishing and cooking alive, together! I'll pay whoever can make me some trout soup. Good luck!
+  -Willy
+
+-300g on delivery
+-Willy will be pleased",
+      "Objective": "Bring trout soup to Willy",
+      "DaysLeft": 5,
+      "Reward": 300,
+      "Cancelable": true,
+      "Trigger": "Willy 219",
+      "ReactionText": "$hThis looks like excellent soup, thanks @!"
     },
   ],
 "Offers": [
@@ -830,6 +846,17 @@
       "When": {
         //"KnownCookingRecipe": "Shrimp Cocktail",
         "Days": "7",
+        "Seasons": "winter",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { // Willy trout soup in winter
+      "QuestName": "willy_troutsoup",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Trout Soup",
+        "Days": "9",
         "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
