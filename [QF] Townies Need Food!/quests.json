@@ -158,7 +158,7 @@
       "Trigger": "Robin 609",
       "ReactionText": "$hPerfect, thank you @!"
     },
-    { // Penny red plate spring and summer
+    { // Penny red plate summer
       "Name": "penny_redplate",
       "Type": "ItemDelivery",
       "Title": "So many antioxidants!",
@@ -508,7 +508,7 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { //Leah stir fry in spring
+    { // Leah stir fry in spring
       "QuestName": "leah_stirfry",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -541,13 +541,13 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { // Penny red plate in spring and summer
+    { // Penny red plate in summer
       "QuestName": "penny_redplate",
       "OfferedBy": "Bulletinboard",  
       "When": {
         //"KnownCookingRecipe": "Red Plate",
         "Days": "27",
-        "Seasons": "spring summer",
+        "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
               }
