@@ -497,13 +497,13 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { // Leah salad in spring and summer
+    { // Leah salad in spring
       "QuestName": "leah_salad",
       "OfferedBy": "Bulletinboard",  
       "When": {
         //"KnownCookingRecipe": "Salad",
         "Days": "19",
-        "Seasons": "spring summer",
+        "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
               }
