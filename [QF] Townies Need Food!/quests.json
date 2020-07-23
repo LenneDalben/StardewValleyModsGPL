@@ -110,7 +110,7 @@
       "Trigger": "Leah 196",
       "ReactionText": "$hAh perfect, thanks @!"
     },
-    { // Leah stir fry spring and summer
+    { // Leah stir fry spring
       "Name": "leah_stirfry",
       "Type": "ItemDelivery",
       "Title": "Julienned veggies",
@@ -569,17 +569,6 @@
       "When": {
         //"KnownCookingRecipe": "Poppyseed Muffin",
         "Days": "10",
-        "Seasons": "summer",
-        //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
-              }
-    },
-    { // Leah stir fry in summer
-      "QuestName": "leah_stirfry",
-      "OfferedBy": "Bulletinboard",  
-      "When": {
-        //"KnownCookingRecipe": "Stir Fry",
-        "Days": "22",
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
