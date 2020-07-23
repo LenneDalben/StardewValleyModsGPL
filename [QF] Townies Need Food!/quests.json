@@ -1,22 +1,7 @@
 {
   "Format": "1.0",
 "Quests": [
-    { // Harvey coleslaw summer
-      "Name": "harvey_coleslaw",
-      "Type": "ItemDelivery",
-      "Title": "Light and healthy",
-      "Description": "If someone could give me some coleslaw, I could put it to good use as a side dish.
-  -Harvey
 
--1035g on delivery
--Harvey will be thankful",
-      "Objective": "Bring coleslaw to Harvey",
-      "DaysLeft": 5,
-      "Reward": 1035,
-      "Cancelable": true,
-      "Trigger": "Harvey 648",
-      "ReactionText": "$hI'm looking forward to this healthy side dish, thanks @!"
-    },
     { // Harvey triple shot espresso spring
       "Name": "harvey_tripleshot",
       "Type": "ItemDelivery",
@@ -32,22 +17,6 @@
       "Cancelable": true,
       "Trigger": "Harvey 253",
       "ReactionText": "$hAh yes, this will perk me up. Thanks, @!"
-    },
-    { // Harvey super meal fall
-      "Name": "harvey_supermeal",
-      "Type": "ItemDelivery",
-      "Title": "An energizing meal",
-      "Description": "I think a super meal would do wonders to raise my energy level. Could someone make one for me?
-  -Harvey
-
--660g on delivery
--Harvey will be thankful",
-      "Objective": "Bring a super meal to Harvey",
-      "DaysLeft": 5,
-      "Reward": 660,
-      "Cancelable": true,
-      "Trigger": "Harvey 237",
-      "ReactionText": "$hI'm looking forward to this meal, thanks @!"
     },
     { // Demetrius bean hotpot spring
       "Name": "demetrius_beanhotpot",
@@ -94,7 +63,7 @@
       "Trigger": "Demetrius 233",
       "ReactionText": "$hThank you @, I'm looking forward to this ice cream."
     },
-    { // Leah salad spring and summer
+    { // Leah salad spring
       "Name": "leah_salad",
       "Type": "ItemDelivery",
       "Title": "A garden salad",
@@ -190,21 +159,21 @@
       "Trigger": "Penny 651",
       "ReactionText": "$hThis is great, thanks @!"
     },
-    { // Abigail blackberry cobbler fall
-      "Name": "abigail_blackberrycobbler",
+    { // Harvey coleslaw summer
+      "Name": "harvey_coleslaw",
       "Type": "ItemDelivery",
-      "Title": "Nothing quite like it!",
-      "Description": "I'm in the mood for blackberry cobbler, a real dessert! Can anyone bake me some?
-  -Abigail
+      "Title": "Light and healthy",
+      "Description": "If someone could give me some coleslaw, I could put it to good use as a side dish.
+  -Harvey
 
--780g on delivery
--Makes Abigail happy",
-      "Objective": "Bring blackberry cobbler to Abigail",
+-1035g on delivery
+-Harvey will be thankful",
+      "Objective": "Bring coleslaw to Harvey",
       "DaysLeft": 5,
-      "Reward": 780,
+      "Reward": 1035,
       "Cancelable": true,
-      "Trigger": "Abigail 611",
-      "ReactionText": "$hThe cobbler looks tasty, thanks @!"
+      "Trigger": "Harvey 648",
+      "ReactionText": "$hI'm looking forward to this healthy side dish, thanks @!"
     },
     { // Haley fruit salad summer
       "Name": "haley_fruitsalad",
@@ -254,6 +223,22 @@
       "Trigger": "Alex 201",
       "ReactionText": "$hThanks, this'll do the trick!"
     },
+    { // Linus blueberry tart in summer
+      "Name": "linus_blueberrytart",
+      "Type": "ItemDelivery",
+      "Title": "A subtle tart",
+      "Description": "I'd love a blueberry tart. Would someone in town be able to bake one for me?
+  -Linus =
+
+-450g on delivery
+-Linus will be pleased",
+      "Objective": "Bring blueberry tart to Linus",
+      "DaysLeft": 5,
+      "Reward": 450,
+      "Cancelable": true,
+      "Trigger": "Linus 605",
+      "ReactionText": "$hI'm grateful for this, Farmer @."
+    },
     { // Clint artichoke dip fall
       "Name": "clint_artichokedip",
       "Type": "ItemDelivery",
@@ -270,21 +255,37 @@
       "Trigger": "Clint 605",
       "ReactionText": "$hAh, this looks great, thank you @!"
     },
-    { // Linus blueberry tart in summer
-      "Name": "linus_blueberrytart",
+    { // Abigail blackberry cobbler fall
+      "Name": "abigail_blackberrycobbler",
       "Type": "ItemDelivery",
-      "Title": "A subtle tart",
-      "Description": "I'd love a blueberry tart. Would someone in town be able to bake one for me?
-  -Linus =
+      "Title": "Nothing quite like it!",
+      "Description": "I'm in the mood for blackberry cobbler, a real dessert! Can anyone bake me some?
+  -Abigail
 
--450g on delivery
--Linus will be pleased",
-      "Objective": "Bring blueberry tart to Linus",
+-780g on delivery
+-Makes Abigail happy",
+      "Objective": "Bring blackberry cobbler to Abigail",
       "DaysLeft": 5,
-      "Reward": 450,
+      "Reward": 780,
       "Cancelable": true,
-      "Trigger": "Linus 605",
-      "ReactionText": "$hI'm grateful for this, Farmer @."
+      "Trigger": "Abigail 611",
+      "ReactionText": "$hThe cobbler looks tasty, thanks @!"
+    },
+    { // Harvey super meal fall
+      "Name": "harvey_supermeal",
+      "Type": "ItemDelivery",
+      "Title": "An energizing meal",
+      "Description": "I think a super meal would do wonders to raise my energy level. Could someone make one for me?
+  -Harvey
+
+-660g on delivery
+-Harvey will be thankful",
+      "Objective": "Bring a super meal to Harvey",
+      "DaysLeft": 5,
+      "Reward": 660,
+      "Cancelable": true,
+      "Trigger": "Harvey 237",
+      "ReactionText": "$hI'm looking forward to this meal, thanks @!"
     },
     { // Linus dish o' the sea fall
       "Name": "linus_dishothesea",
@@ -442,17 +443,6 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { // Harvey coleslaw in summer
-      "QuestName": "harvey_coleslaw",
-      "OfferedBy": "Bulletinboard",  
-      "When": {
-        //"KnownCookingRecipe": "Coleslaw",
-        "Days": "25",
-        "Seasons": "summer",
-        //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
-              }
-    },
     { // Harvey triple shot espresso in spring
       "QuestName": "harvey_tripleshot",
       "OfferedBy": "Bulletinboard",  
@@ -585,6 +575,17 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
+	  { // Alex complete breakfast in summer
+      "QuestName": "alex_completebreakfast",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Complete Breakfast",
+        "Days": "15",
+        "Seasons": "summer",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+	            }
+	  },
     { // Linus dish o' the sea in fall
       "QuestName": "linus_dishothesea",
       "OfferedBy": "Bulletinboard",  
@@ -717,16 +718,5 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-	  { // Alex complete breakfast in summer
-      "QuestName": "alex_completebreakfast",
-      "OfferedBy": "Bulletinboard",  
-      "When": {
-        //"KnownCookingRecipe": "Complete Breakfast",
-        "Days": "15",
-        "Seasons": "summer",
-        //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
-	            }
-	  },
 	]
 }
