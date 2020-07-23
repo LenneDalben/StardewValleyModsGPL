@@ -539,6 +539,22 @@
       "Cancelable": true,
       "Trigger": "Jodi 231",
       "ReactionText": "$hThis will do, thanks @."
+    },    
+	  { // Kent roasted hazelnuts in winter
+      "Name": "kent_roastedhazelnuts",
+      "Type": "ItemDelivery",
+      "Title": "Rich forest flavor",
+      "Description": "I'd like some roasted hazelnuts, please.
+  -Kent
+
+-810g on delivery
+-Kent will be pleased",
+      "Objective": "Bring roasted hazelnuts to Kent",
+      "DaysLeft": 5,
+      "Reward": 810,
+      "Cancelable": true,
+      "Trigger": "Kent 607",
+      "ReactionText": "$hWhat? Oh, the hazelnuts I asked for. Thanks @."
     },
   ],
 "Offers": [
@@ -904,13 +920,24 @@
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
               }
-    },    
+    },
     { // Jodi eggplant parmesan in winter
       "QuestName": "jodi_eggplantparmesan",
       "OfferedBy": "Bulletinboard",  
       "When": {
         //"KnownCookingRecipe": "Eggplant Parmesan",
         "Days": "13",
+        "Seasons": "winter",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { // Kent roasted hazelnuts in winter
+      "QuestName": "kent_roastedhazelnuts",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Roasted Hazelnuts",
+        "Days": "15",
         "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
