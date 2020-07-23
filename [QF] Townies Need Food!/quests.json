@@ -461,6 +461,22 @@
       "Trigger": "Abigail 226",
       "ReactionText": "$hI can smell the spice from here, thanks @!"
     },
+    { // Elliott tom kha soup in winter
+      "Name": "elliott_tomkhasoup",
+      "Type": "ItemDelivery",
+      "Title": "Incredible flavors!",
+      "Description": "You may have heard me wax poetic about tom kha soup, and it's been on my mind again! I'd be most grateful if someone could make some for me.
+  -Elliott
+
+-750g on delivery
+-Elliott will be pleased",
+      "Objective": "Bring tom kha soup to Elliott",
+      "DaysLeft": 5,
+      "Reward": 750,
+      "Cancelable": true,
+      "Trigger": "Elliott 218",
+      "ReactionText": "$hI can't wait to enjoy this delectable delicacy, thank you @!"
+    },
   ],
 "Offers": [
     { // George chowder in spring
@@ -766,6 +782,17 @@
       "When": {
         //"KnownCookingRecipe": "Spicy Eel",
         "Days": "3",
+        "Seasons": "winter",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { // Elliott tom kha soup in winter
+      "QuestName": "elliott_tomkhasoup",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Tom Kha Soup",
+        "Days": "5",
         "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
