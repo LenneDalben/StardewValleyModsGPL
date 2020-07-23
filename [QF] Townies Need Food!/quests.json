@@ -556,12 +556,12 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { // Harvey coleslaw in spring; need to get day!
+    { // Harvey coleslaw in spring
       "QuestName": "harvey_coleslaw",
       "OfferedBy": "Bulletinboard",  
       "When": {
         //"KnownCookingRecipe": "Coleslaw",
-        //"Days": "?", need to get day!
+        "Days": "25",
         "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
