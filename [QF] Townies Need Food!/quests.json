@@ -603,6 +603,22 @@
       "Trigger": "Penny 244",
       "ReactionText": "$hThanks, @! I'm looking forward to this."
     },
+    { // Sam tortilla in winter
+      "Name": "sam_tortilla",
+      "Type": "ItemDelivery",
+      "Title": "Key to a taco",
+      "Description": "I want to make a taco but I don't have a tortilla! Help? I'll pay!
+  -Sam
+
+-150g on delivery
+-Makes Sam happy",
+      "Objective": "Bring tortilla to Sam",
+      "DaysLeft": 5,
+      "Reward": 150,
+      "Cancelable": true,
+      "Trigger": "Sam 229",
+      "ReactionText": "$hThe key to a taco, thanks @!"
+    },
   ],
 "Offers": [
     { // George chowder in spring
@@ -1018,6 +1034,17 @@
       "When": {
         //"KnownCookingRecipe": "Roots Platter",
         "Days": "21",
+        "Seasons": "winter",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { // Sam tortilla in winter
+      "QuestName": "sam_tortilla",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Tortilla",
+        "Days": "23",
         "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
