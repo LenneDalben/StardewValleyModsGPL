@@ -508,6 +508,22 @@
       "Trigger": "Willy 219",
       "ReactionText": "$hThis looks like excellent soup, thanks @!"
     },
+	  { // Alex fried egg in winter
+      "Name": "alex_friedegg",
+      "Type": "ItemDelivery",
+      "Title": "Sunny-side up",
+      "Description": "A simple fried egg is the burst of protein I need. Could someone make me one?
+  -Alex
+
+-105g on delivery
+-Alex will be thankful",
+      "Objective": "Bring a fried egg to Alex",
+      "DaysLeft": 5,
+      "Reward": 105,
+      "Cancelable": true,
+      "Trigger": "Alex 194",
+      "ReactionText": "$hAlright! Sometimes a little protein is all I need. Thanks, @."
+    },
   ],
 "Offers": [
     { // George chowder in spring
@@ -857,6 +873,17 @@
       "When": {
         //"KnownCookingRecipe": "Trout Soup",
         "Days": "9",
+        "Seasons": "winter",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { // Alex fried egg in winter
+      "QuestName": "alex_friedegg",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Fried Egg",
+        "Days": "11",
         "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
