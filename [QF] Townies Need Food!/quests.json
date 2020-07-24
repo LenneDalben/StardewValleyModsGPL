@@ -637,23 +637,23 @@
     },
   ],
 "Offers": [
+     { // Harvey triple shot espresso in spring
+       "QuestName": "harvey_tripleshot",
+       "OfferedBy": "Bulletinboard",  
+       "When": {
+         //"KnownCookingRecipe": "Triple Shot Espresso",
+         "Days": "3",
+         "Seasons": "spring",
+         //"Random": "30",
+         "not:QuestAcceptedInPeriod": "season year"
+                }
+     },
     { // George chowder in spring
       "QuestName": "george_chowder",
       "OfferedBy": "Bulletinboard",  
       "When": {
         //"KnownCookingRecipe": "Chowder",
         "Days": "5",
-        "Seasons": "spring",
-        //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
-              }
-    },
-    { // Harvey triple shot espresso in spring
-      "QuestName": "harvey_tripleshot",
-      "OfferedBy": "Bulletinboard",  
-      "When": {
-        //"KnownCookingRecipe": "Triple Shot Espresso",
-        "Days": "3",
         "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
@@ -714,7 +714,7 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { // Harvey coleslaw in spring
+    { // Harvey coleslaw in spring AT THE SAME DAY AS PAM PARSNIP SOUP
       "QuestName": "harvey_coleslaw",
       "OfferedBy": "Bulletinboard",  
       "When": {
