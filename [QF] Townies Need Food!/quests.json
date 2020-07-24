@@ -923,7 +923,7 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { // Sebastian pumpkin soup in fall
+    { // Sebastian pumpkin soup in fall RIGHT BEFORE MARNIE ON WINTER 1
       "QuestName": "sebastian_pumpkinsoup",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -934,7 +934,7 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { // Marnie pumpkin pie in winter
+    { // Marnie pumpkin pie in winter RIGHT AFTER SEB ON FALL 28
       "QuestName": "marnie_pumpkinpie",
       "OfferedBy": "Bulletinboard",  
       "When": {
