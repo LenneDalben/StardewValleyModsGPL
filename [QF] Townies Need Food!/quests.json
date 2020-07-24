@@ -110,6 +110,22 @@
       "Trigger": "Pam 199",
       "ReactionText": "$hOh what's this now? Ha, thanks, @!"
     },
+    { // Harvey coleslaw spring
+      "Name": "harvey_coleslaw",
+      "Type": "ItemDelivery",
+      "Title": "Light and healthy",
+      "Description": "If someone could give me some coleslaw, I could put it to good use as a side dish.
+  -Harvey
+
+-1035g on delivery
+-Harvey will be thankful",
+      "Objective": "Bring coleslaw to Harvey",
+      "DaysLeft": 5,
+      "Reward": 1035,
+      "Cancelable": true,
+      "Trigger": "Harvey 648",
+      "ReactionText": "$hI'm looking forward to this healthy side dish, thanks @!"
+    },
     { // Robin radish salad summer
       "Name": "robin_radishsalad",
       "Type": "ItemDelivery",
@@ -157,22 +173,6 @@
       "Cancelable": true,
       "Trigger": "Penny 651",
       "ReactionText": "$hThis is great, thanks @!"
-    },
-    { // Harvey coleslaw summer
-      "Name": "harvey_coleslaw",
-      "Type": "ItemDelivery",
-      "Title": "Light and healthy",
-      "Description": "If someone could give me some coleslaw, I could put it to good use as a side dish.
-  -Harvey
-
--1035g on delivery
--Harvey will be thankful",
-      "Objective": "Bring coleslaw to Harvey",
-      "DaysLeft": 5,
-      "Reward": 1035,
-      "Cancelable": true,
-      "Trigger": "Harvey 648",
-      "ReactionText": "$hI'm looking forward to this healthy side dish, thanks @!"
     },
     { // Haley fruit salad summer
       "Name": "haley_fruitsalad",
@@ -670,7 +670,7 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { // Harvey coleslaw in spring AT THE SAME DAY AS PAM PARSNIP SOUP
+    { // Harvey coleslaw in spring
       "QuestName": "harvey_coleslaw",
       "OfferedBy": "Bulletinboard",  
       "When": {
