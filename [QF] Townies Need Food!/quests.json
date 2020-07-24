@@ -725,12 +725,12 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { // Penny red plate in summer
-      "QuestName": "penny_redplate",
+    { // Robin radish salad in summer
+      "QuestName": "robin_radishsalad",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Red Plate",
-        "Days": "27",
+        //"KnownCookingRecipe": "Radish Salad",
+        "Days": "5",
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
@@ -747,17 +747,6 @@
         "not:QuestAcceptedInPeriod": "season year"
 	            }
     },
-    { // Haley fruit salad in summer
-      "QuestName": "haley_fruitsalad",
-      "OfferedBy": "Bulletinboard",  
-      "When": {
-        //"KnownCookingRecipe": "Fruit Salad",
-        "Days": "13",
-        "Seasons": "summer",
-        //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
-              }
-    },
     { // Penny poppyseed muffin in summer
       "QuestName": "penny_poppyseedmuffin",
       "OfferedBy": "Bulletinboard",  
@@ -768,24 +757,13 @@
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
               }
-    },
-    { // Robin radish salad in summer
-      "QuestName": "robin_radishsalad",
+    }, 
+    { // Haley fruit salad in summer
+      "QuestName": "haley_fruitsalad",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Radish Salad",
-        "Days": "5",
-        "Seasons": "summer",
-        //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
-              }
-    },
-    { // Linus blueberry tart in summer
-      "QuestName": "linus_blueberrytart",
-      "OfferedBy": "Bulletinboard",  
-      "When": {
-        //"KnownCookingRecipe": "Blueberry Tart",
-        "Days": "17",
+        //"KnownCookingRecipe": "Fruit Salad",
+        "Days": "13",
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
@@ -801,6 +779,39 @@
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
 	            }
+    },
+    { // Linus blueberry tart in summer
+      "QuestName": "linus_blueberrytart",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Blueberry Tart",
+        "Days": "17",
+        "Seasons": "summer",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    }, 
+    { // Penny red plate in summer
+      "QuestName": "penny_redplate",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Red Plate",
+        "Days": "27",
+        "Seasons": "summer",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { // Evelyn stuffing in fall
+      "QuestName": "evelyn_stuffing",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Stuffing",
+        "Days": "1",
+        "Seasons": "fall",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
     },
     { // Linus dish o' the sea in fall
       "QuestName": "linus_dishothesea",
@@ -824,12 +835,12 @@
         "not:QuestAcceptedInPeriod": "season year"
               }
     },
-    { // Lewis autumn's bounty in fall
-      "QuestName": "lewis_autumnbounty",
+    { // Clint artickhoke dip in fall
+      "QuestName": "clint_artichokedip",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Autumn's Bounty",
-        "Days": "15",
+        //"KnownCookingRecipe": "Artichoke Dip",
+        "Days": "9",
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
@@ -844,7 +855,40 @@
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
-	            }
+	       }
+    }, 
+    { // Lewis autumn's bounty in fall
+      "QuestName": "lewis_autumnbounty",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Autumn's Bounty",
+        "Days": "15",
+        "Seasons": "fall",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { // George plum pudding in fall
+      "QuestName": "george_plumpudding",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Plum Pudding",
+        "Days": "17",
+        "Seasons": "fall",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { // Wizard cranberry sauce in fall
+      "QuestName": "wizard_cransauce",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Cranberry Sauce",
+        "Days": "19",
+        "Seasons": "fall",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
     },
     { // Harvey super meal in fall
       "QuestName": "harvey_supermeal",
@@ -852,17 +896,6 @@
       "When": {
         //"KnownCookingRecipe": "Super Meal",
         "Days": "21",
-        "Seasons": "fall",
-        //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
-              }
-    },
-    { // Clint artickhoke dip in fall
-      "QuestName": "clint_artichokedip",
-      "OfferedBy": "Bulletinboard",  
-      "When": {
-        //"KnownCookingRecipe": "Artichoke Dip",
-        "Days": "9",
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
@@ -896,39 +929,6 @@
       "When": {
         //"KnownCookingRecipe": "Pumpkin Soup",
         "Days": "28",
-        "Seasons": "fall",
-        //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
-              }
-    },
-    { // Evelyn stuffing in fall
-      "QuestName": "evelyn_stuffing",
-      "OfferedBy": "Bulletinboard",  
-      "When": {
-        //"KnownCookingRecipe": "Stuffing",
-        "Days": "1",
-        "Seasons": "fall",
-        //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
-              }
-    },
-    { // Wizard cranberry sauce in fall
-      "QuestName": "wizard_cransauce",
-      "OfferedBy": "Bulletinboard",  
-      "When": {
-        //"KnownCookingRecipe": "Cranberry Sauce",
-        "Days": "19",
-        "Seasons": "fall",
-        //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
-              }
-    },
-    { // George plum pudding in fall
-      "QuestName": "george_plumpudding",
-      "OfferedBy": "Bulletinboard",  
-      "When": {
-        //"KnownCookingRecipe": "Plum Pudding",
-        "Days": "17",
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
