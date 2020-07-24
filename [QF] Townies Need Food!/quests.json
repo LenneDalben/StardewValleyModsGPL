@@ -619,6 +619,22 @@
       "Trigger": "Sam 229",
       "ReactionText": "$hThe key to a taco, thanks @!"
     },
+    { // Maru cheese cauliflower in winter
+      "Name": "maru_cheesecauliflower",
+      "Type": "ItemDelivery",
+      "Title": "Cheesy goodness!",
+      "Description": "After all that holiday food, I'm in need of vegetables! Could someone make me some cheese cauliflower?
+  -Maru
+
+-900g on delivery
+-Makes Sam happy",
+      "Objective": "Bring cheese cauliflower to Maru",
+      "DaysLeft": 5,
+      "Reward": 900,
+      "Cancelable": true,
+      "Trigger": "Maru 197",
+      "ReactionText": "$hWoo, I';'ll enjoy this!"
+    },
   ],
 "Offers": [
     { // George chowder in spring
@@ -1045,6 +1061,17 @@
       "When": {
         //"KnownCookingRecipe": "Tortilla",
         "Days": "23",
+        "Seasons": "winter",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { // Maru cheese cauliflower in winter
+      "QuestName": "maru_cheesecauliflower",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Cheese Cauliflower",
+        "Days": "26",
         "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
