@@ -2,12 +2,12 @@
   "Name": "[QF] Townies Need Food!",
   "Author": "LenneDalben",
   "Version": "1.0.0",
-  "Description": "On the bulletin board, villagers will request cooked meals.",
+  "Description": "NPCs in town request cooked meals in the bulletin board, after you've unlocked the recipe!",
   "UniqueID": "LenneDalben.TowniesNeedFood",
-  "MinimumApiVersion": "3.6.0",
+  "MinimumApiVersion": "3.6.1",
   "UpdateKeys": [],
   "ContentPackFor": {
-    "UniqueID": "PurrplingCat.QuestFramework", // Quest Framework unique id must be here
-    "MinimumVersion": "1.0.0-alpha" // optional
+    "UniqueID": "PurrplingCat.QuestFramework",
+    "MinimumVersion": "1.0.0"
   }
 }
