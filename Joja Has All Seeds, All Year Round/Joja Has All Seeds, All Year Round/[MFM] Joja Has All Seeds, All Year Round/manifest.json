@@ -1,0 +1,17 @@
+﻿{
+	"Name": "Joja Has All Seeds, All Year Round MFM Component",
+	"Author": "LenneDalben",
+	"Version": "1.0",
+	"Description": "Joja mails you a letter advertising that they're selling all seeds, all year round.",
+	"UniqueID": "LenneDalben.MFM.JojaHasAllSeedsAllYearRound",
+	"MinimumApiVersion": "3.6.1",
+	"UpdateKeys": [],
+	"Dependencies": [
+		{
+			"UniqueID": "LenneDalben.JojaHasAllSeedsAllYearRound"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod"
+	}
+}
