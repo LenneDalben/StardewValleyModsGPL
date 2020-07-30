@@ -1,10 +1,71 @@
 {
   "VanillaShops": [
-    //The summer seeds offered all year round
     {
       "ShopName": "JojaShop",
       "AddStockAboveVanilla": "True",
       "ItemStocks": [
+//The spring seeds offered all year round
+        {
+          "ItemType": "Object",
+          "StockPrice": "50",
+          "ItemNames": [
+            "Garlic Seeds"
+          ],
+          "When": [
+            "y 2" //available if it's `it's year 2 or later`
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "StockPrice": "37",
+          "ItemNames": [
+            "Jazz Seeds"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "StockPrice": "100",
+          "ItemNames": [
+            "Cauliflower Seeds"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "StockPrice": "75",
+          "ItemNames": [
+            "Bean Starter"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "StockPrice": "87",
+          "ItemNames": [
+            "Kale Seeds"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "StockPrice": "25",
+          "ItemNames": [
+            "Parsnip Seeds",
+            "Tulip Bulb"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "StockPrice": "62",
+          "ItemNames": [
+            "Potato Seeds"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "StockPrice": "50",
+          "ItemNames": [
+            "Rice Shoot"
+          ]
+        },
+//The summer seeds offered all year round
         {
           "ItemType": "Object",
           "StockPrice": "100",
@@ -72,14 +133,8 @@
           "ItemNames": [
             "Wheat Seeds"
           ]
-        }
-      ]
-    },
-    //The fall seeds offered all year round
-    {
-      "ShopName": "JojaShop",
-      "AddStockAboveVanilla": "True",
-      "ItemStocks": [
+        },
+//The fall seeds offered all year round
         {
           "ItemType": "Object",
           "StockPrice": "38",
@@ -138,73 +193,6 @@
           "StockPrice": "125",
           "ItemNames": [
             "Pumpkin Seeds"
-          ]
-        }
-      ]
-    },
-    //The spring seeds offered all year round
-    {
-      "ShopName": "JojaShop",
-      "AddStockAboveVanilla": "True",
-      "ItemStocks": [
-        {
-          "ItemType": "Object",
-          "StockPrice": "50",
-          "ItemNames": [
-            "Garlic Seeds"
-          ],
-          "When": [
-            "y 2" //available if it's `it's year 2 or later`
-          ]
-        },
-        {
-          "ItemType": "Object",
-          "StockPrice": "37",
-          "ItemNames": [
-            "Jazz Seeds"
-          ]
-        },
-        {
-          "ItemType": "Object",
-          "StockPrice": "100",
-          "ItemNames": [
-            "Cauliflower Seeds"
-          ]
-        },
-        {
-          "ItemType": "Object",
-          "StockPrice": "75",
-          "ItemNames": [
-            "Bean Starter"
-          ]
-        },
-        {
-          "ItemType": "Object",
-          "StockPrice": "87",
-          "ItemNames": [
-            "Kale Seeds"
-          ]
-        },
-        {
-          "ItemType": "Object",
-          "StockPrice": "25",
-          "ItemNames": [
-            "Parsnip Seeds",
-            "Tulip Bulb"
-          ]
-        },
-        {
-          "ItemType": "Object",
-          "StockPrice": "62",
-          "ItemNames": [
-            "Potato Seeds"
-          ]
-        },
-        {
-          "ItemType": "Object",
-          "StockPrice": "50",
-          "ItemNames": [
-            "Rice Shoot"
           ]
         }
       ]

@@ -1,9 +1,9 @@
 {
-  "Name": "[STF] Joja Has All Seeds, All Year Round",
+  "Name": "[STF] Joja Always Has Seeds",
   "Author": "LenneDalben",
   "Version": "1.0",
   "Description": "Exactly what it says on the tin - JojaMart sells all seeds, all year round.",
-  "UniqueID": "LenneDalben.JojaHasAllSeedsAllYearRound",
+  "UniqueID": "LenneDalben.JojaAlwaysHasSeeds",
   "MinimumApiVersion": "3.6.0",
   "UpdateKeys": [  ], // ADD THE UPDATE KEYS!
   "ContentPackFor": {
