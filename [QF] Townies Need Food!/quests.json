@@ -254,6 +254,22 @@
       "Trigger": "George 205",
       "ReactionText": "$hI'm looking forward to this side dish, Farmer @."
     },
+    { // Sam pizza in summer
+      "Name": "sam_pizza",
+      "Type": "ItemDelivery",
+      "Title": "My favorite!",
+      "Description": "I'm working on a project and need some fuel. Can anyone bring me a pizza? I'll pay!
+  -Sam
+
+-900g on delivery
+-George will be thankful",
+      "Objective": "Bring pizza to Sam",
+      "DaysLeft": 5,
+      "Reward": 900,
+      "Cancelable": true,
+      "Trigger": "Sam 206",
+      "ReactionText": "$hAlright, @!"
+    },
     { // Clint artichoke dip fall
       "Name": "clint_artichokedip",
       "Type": "ItemDelivery",
@@ -821,12 +837,24 @@
         //"EPU": "FarmHouseUpgradeLevel 1"
 	            }
     },
+    { // Sam pizza in summer
+      "QuestName": "sam_pizza",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Pizza",
+        "Days": "17",
+        "Seasons": "summer",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
+              }
+    }, 
     { // Linus blueberry tart in summer
       "QuestName": "linus_blueberrytart",
       "OfferedBy": "Bulletinboard",  
       "When": {
         //"KnownCookingRecipe": "Blueberry Tart",
-        "Days": "17",
+        "Days": "20",
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
