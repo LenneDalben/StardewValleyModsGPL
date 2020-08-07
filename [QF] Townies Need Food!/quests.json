@@ -661,7 +661,8 @@
         "Days": "3",
         "Seasons": "spring",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
                }
     },
     { // George chowder in spring
@@ -672,7 +673,8 @@
         "Days": "5",
         "Seasons": "spring",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
               }
     },
     { // Demetrius bean hotpot in spring
@@ -683,7 +685,8 @@
         "Days": "11",
         "Seasons": "spring",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
               }
     },
     { // Harvey coleslaw in spring
@@ -694,7 +697,8 @@
         "Days": "14",
         "Seasons": "spring",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
               }
     },
     { // Demetrius ice cream in spring
@@ -705,7 +709,8 @@
         "Days": "17",
         "Seasons": "spring",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
               }
     },
     { // Leah salad in spring
@@ -716,7 +721,8 @@
         "Days": "19",
         "Seasons": "spring",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
               }
     },
     { // Leah stir fry in spring
@@ -727,7 +733,8 @@
         "Days": "23",
         "Seasons": "spring",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
               }
     },
     { // Pam parsnip soup in spring
@@ -738,7 +745,8 @@
         "Days": "25",
         "Seasons": "spring",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
               }
     },
     { // George fried mushroom in summer
@@ -749,7 +757,8 @@
         "Days": "3",
         "Seasons": "summer",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
               }
     },
     { // Robin radish salad in summer
@@ -760,7 +769,8 @@
         "Days": "5",
         "Seasons": "summer",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
               }
     },
     { // Caroline fish taco in summer
@@ -771,7 +781,8 @@
         "Days": "7",
         "Seasons": "summer",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
 	            }
     },
     { // Penny poppyseed muffin in summer
@@ -782,7 +793,8 @@
         "Days": "10",
         "Seasons": "summer",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
               }
     }, 
     { // Haley fruit salad in summer
@@ -793,7 +805,8 @@
         "Days": "13",
         "Seasons": "summer",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
               }
     },
     { // Alex complete breakfast in summer
@@ -804,7 +817,8 @@
         "Days": "15",
         "Seasons": "summer",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
 	            }
     },
     { // Linus blueberry tart in summer
@@ -815,7 +829,8 @@
         "Days": "17",
         "Seasons": "summer",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
               }
     }, 
     { // Penny red plate in summer
@@ -826,7 +841,8 @@
         "Days": "27",
         "Seasons": "summer",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
               }
     },
     { // Evelyn stuffing in fall
@@ -837,7 +853,8 @@
         "Days": "1",
         "Seasons": "fall",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
               }
     },
     { // Linus dish o' the sea in fall
@@ -848,7 +865,8 @@
         "Days": "4",
         "Seasons": "fall",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
               }
     },
     { // Lewis vegetable medley in fall
@@ -859,7 +877,8 @@
         "Days": "6",
         "Seasons": "fall",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
               }
     },
     { // Clint artickhoke dip in fall
@@ -870,7 +889,8 @@
         "Days": "9",
         "Seasons": "fall",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
               }
     },
     { // Abigail blackberry cobbler in fall
@@ -881,7 +901,8 @@
         "Days": "12",
         "Seasons": "fall",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
 	       }
     }, 
     { // Lewis autumn's bounty in fall
@@ -892,7 +913,8 @@
         "Days": "15",
         "Seasons": "fall",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
               }
     },
     { // George plum pudding in fall
@@ -903,7 +925,8 @@
         "Days": "17",
         "Seasons": "fall",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
               }
     },
     { // Wizard cranberry sauce in fall
@@ -914,7 +937,8 @@
         "Days": "19",
         "Seasons": "fall",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
               }
     },
     { // Harvey super meal in fall
@@ -925,7 +949,8 @@
         "Days": "21",
         "Seasons": "fall",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
               }
     },
     { // Caroline lobster bisque in fall
@@ -936,7 +961,8 @@
         "Days": "23",
         "Seasons": "fall",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
 	            }
     },
     { // Pam glazed yams in fall
@@ -947,7 +973,8 @@
         "Days": "25",
         "Seasons": "fall",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
               }
     },
     { // Sebastian pumpkin soup in fall RIGHT BEFORE MARNIE ON WINTER 1
@@ -958,7 +985,8 @@
         "Days": "28",
         "Seasons": "fall",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
               }
     },
     { // Marnie pumpkin pie in winter RIGHT AFTER SEB ON FALL 28
@@ -969,7 +997,8 @@
         "Days": "1",
         "Seasons": "winter",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
               }
     },
     { // Abigail spicy eel in winter
@@ -980,7 +1009,8 @@
         "Days": "3",
         "Seasons": "winter",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
               }
     },
     { // Elliott tom kha soup in winter
@@ -991,7 +1021,8 @@
         "Days": "5",
         "Seasons": "winter",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
               }
     },
     { // Emily shrimp cocktail in winter
@@ -1002,7 +1033,8 @@
         "Days": "7",
         "Seasons": "winter",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
               }
     },
     { // Willy trout soup in winter
@@ -1013,7 +1045,8 @@
         "Days": "9",
         "Seasons": "winter",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
               }
     },
     { // Alex fried egg in winter
@@ -1024,7 +1057,8 @@
         "Days": "11",
         "Seasons": "winter",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
               }
     },
     { // Jodi eggplant parmesan in winter
@@ -1035,7 +1069,8 @@
         "Days": "13",
         "Seasons": "winter",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
               }
     },
     { // Kent roasted hazelnuts in winter
@@ -1046,7 +1081,8 @@
         "Days": "15",
         "Seasons": "winter",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
               }
     },
     { // Shane pizza in winter
@@ -1057,7 +1093,8 @@
         "Days": "17",
         "Seasons": "winter",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
               }
     },
     { // Marnie farmer's lunch in winter
@@ -1068,7 +1105,8 @@
         "Days": "19",
         "Seasons": "winter",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
               }
     },
     { // Penny roots platter in winter
@@ -1079,7 +1117,8 @@
         "Days": "21",
         "Seasons": "winter",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
               }
     },
     { // Sam tortilla in winter
@@ -1090,7 +1129,8 @@
         "Days": "23",
         "Seasons": "winter",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
               }
     },
     { // Maru cheese cauliflower in winter
@@ -1101,7 +1141,8 @@
         "Days": "26",
         "Seasons": "winter",
         //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year"
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
               }
     },
 	]
