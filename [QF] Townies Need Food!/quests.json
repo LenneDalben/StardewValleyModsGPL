@@ -238,6 +238,22 @@
       "Trigger": "Linus 605",
       "ReactionText": "$hI'm grateful for this, Farmer @."
     },
+    { // George fried mushroom in summer
+      "Name": "george_friedmushroom",
+      "Type": "ItemDelivery",
+      "Title": "Earthy side dish",
+      "Description": "I'm interested in some fried mushrooms, but I don't want to trouble Evelyn. Anyone know the recipe?
+  -Linus
+
+-600g on delivery
+-George will be thankful",
+      "Objective": "Bring fried mushroom to George",
+      "DaysLeft": 5,
+      "Reward": 600,
+      "Cancelable": true,
+      "Trigger": "George 205",
+      "ReactionText": "$hI'm looking forward to this side dish, Farmer @."
+    },
     { // Clint artichoke dip fall
       "Name": "clint_artichokedip",
       "Type": "ItemDelivery",
@@ -721,6 +737,17 @@
         //"KnownCookingRecipe": "Parsnip Soup",
         "Days": "25",
         "Seasons": "spring",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year"
+              }
+    },
+    { // George fried mushroom in summer
+      "QuestName": "george_friedmushroom",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Fried Mushroom",
+        "Days": "3",
+        "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year"
               }
