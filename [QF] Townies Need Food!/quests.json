@@ -254,6 +254,22 @@
       "Trigger": "George 205",
       "ReactionText": "$hI'm looking forward to this side dish, Farmer @."
     },
+    { // Clint bread in summer
+      "Name": "clint_bread",
+      "Type": "ItemDelivery",
+      "Title": "Crusty baguette",
+      "Description": "I've got butter, but no bread. Can someone bring me bread? I'll pay!
+  -Clint
+
+-180g on delivery
+-Clint will be thankful",
+      "Objective": "Bring fried mushroom to George",
+      "DaysLeft": 5,
+      "Reward": 180,
+      "Cancelable": true,
+      "Trigger": "Clint 216",
+      "ReactionText": "$hThis looks great, thanks @."
+    },
     { // Sam pizza in summer
       "Name": "sam_pizza",
       "Type": "ItemDelivery",
@@ -760,6 +776,18 @@
         //"KnownCookingRecipe": "Parsnip Soup",
         "Days": "25",
         "Seasons": "spring",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
+              }
+    },
+    { // Clint bread in summer
+      "QuestName": "clint_bread",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Bread",
+        "Days": "1",
+        "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
         //"EPU": "FarmHouseUpgradeLevel 1"
