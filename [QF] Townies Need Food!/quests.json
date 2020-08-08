@@ -1,6 +1,23 @@
 {
   "Format": "1.0",
 "Quests": [ 
+    
+    { // Emily shrimp cocktail in spring
+      "Name": "emily_shrimpcocktail",
+      "Type": "ItemDelivery",
+      "Title": "Sumptuous appetizer",
+      "Description": "Hello, it's Emily. I'd like to buy a shrimp cocktail from someone, to have an appetizer for my meal. Thanks!
+-Emily
+
+-480g on delivery
+-Emily will be pleased",
+      "Objective": "Bring shrimp cocktail to Emily",
+      "DaysLeft": 5,
+      "Reward": 480,
+      "Cancelable": true,
+      "Trigger": "Emily 733",
+      "ReactionText": "$hGreat, thanks @!"
+    },
     { // Harvey triple shot espresso spring
       "Name": "harvey_tripleshot",
       "Type": "ItemDelivery",
@@ -524,22 +541,6 @@
       "Trigger": "Elliott 218",
       "ReactionText": "$hI can't wait to enjoy this delectable delicacy, thank you @!"
     },
-    { // Emily shrimp cocktail in winter
-      "Name": "emily_shrimpcocktail",
-      "Type": "ItemDelivery",
-      "Title": "Sumptuous appetizer",
-      "Description": "Hello, it's Emily. I'd like to buy a shrimp cocktail from someone, to have an appetizer for my meal. Thanks!
-  -Emily
-
--480g on delivery
--Emily will be pleased",
-      "Objective": "Bring shrimp cocktail to Emily",
-      "DaysLeft": 5,
-      "Reward": 480,
-      "Cancelable": true,
-      "Trigger": "Emily 733",
-      "ReactionText": "$hGreat, thanks @!"
-    },
     { // Willy trout soup in winter
       "Name": "willy_troutsoup",
       "Type": "ItemDelivery",
@@ -685,6 +686,19 @@
     },
   ],
 "Offers": [
+    
+    { // Emily shrimp cocktail in spring
+      "QuestName": "emily_shrimpcocktail",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Shrimp Cocktail",
+        "Days": "1",
+        "Seasons": "spring",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
+              }
+    },
     { // Harvey triple shot espresso in spring
       "QuestName": "harvey_tripleshot",
       "OfferedBy": "Bulletinboard",  
@@ -1075,18 +1089,6 @@
       "When": {
         //"KnownCookingRecipe": "Tom Kha Soup",
         "Days": "5",
-        "Seasons": "winter",
-        //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
-              }
-    },
-    { // Emily shrimp cocktail in winter
-      "QuestName": "emily_shrimpcocktail",
-      "OfferedBy": "Bulletinboard",  
-      "When": {
-        //"KnownCookingRecipe": "Shrimp Cocktail",
-        "Days": "7",
         "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
