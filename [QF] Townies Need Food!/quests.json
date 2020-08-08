@@ -143,6 +143,22 @@
       "Trigger": "Harvey 648",
       "ReactionText": "$hI'm looking forward to this healthy side dish, thanks @!"
     },
+    { // Sebastian sashimi spring
+      "Name": "sebastian_sashimi",
+      "Type": "ItemDelivery",
+      "Title": "It's sashimi",
+      "Description": "Ugh, this is embarrassing but...I'd love some sashimi but I don't think I've mastered those thin slices. Could someone give it a try? I'll pay you for it!
+  -Sebastian
+
+-225g on delivery
+-Sebastian will be pleased",
+      "Objective": "Bring sashimi to Sebastian",
+      "DaysLeft": 5,
+      "Reward": 225,
+      "Cancelable": true,
+      "Trigger": "Sebastian 227",
+      "ReactionText": "$lOh, hah... You made this for me? Thanks @!"
+    },
     { // Robin radish salad summer
       "Name": "robin_radishsalad",
       "Type": "ItemDelivery",
@@ -686,7 +702,6 @@
     },
   ],
 "Offers": [
-    
     { // Emily shrimp cocktail in spring
       "QuestName": "emily_shrimpcocktail",
       "OfferedBy": "Bulletinboard",  
@@ -717,6 +732,18 @@
       "When": {
         //"KnownCookingRecipe": "Chowder",
         "Days": "5",
+        "Seasons": "spring",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
+              }
+    },
+    { // Sebastian sashimi in spring
+      "QuestName": "sebastian_sashimi",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Sashimi",
+        "Days": "7",
         "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
