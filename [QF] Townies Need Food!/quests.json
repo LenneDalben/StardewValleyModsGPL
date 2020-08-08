@@ -1047,25 +1047,13 @@
         //"EPU": "FarmHouseUpgradeLevel 1"
               }
     },
-    { // Sebastian pumpkin soup in fall RIGHT BEFORE MARNIE ON WINTER 1
+    { // Sebastian pumpkin soup in fall
       "QuestName": "sebastian_pumpkinsoup",
       "OfferedBy": "Bulletinboard",  
       "When": {
         //"KnownCookingRecipe": "Pumpkin Soup",
         "Days": "28",
         "Seasons": "fall",
-        //"Random": "30",
-        "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
-              }
-    },
-    { // Marnie pumpkin pie in winter RIGHT AFTER SEB ON FALL 28
-      "QuestName": "marnie_pumpkinpie",
-      "OfferedBy": "Bulletinboard",  
-      "When": {
-        //"KnownCookingRecipe": "Pumpkin Pie",
-        "Days": "1",
-        "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
         //"EPU": "FarmHouseUpgradeLevel 1"
@@ -1089,6 +1077,19 @@
       "When": {
         //"KnownCookingRecipe": "Tom Kha Soup",
         "Days": "5",
+        "Seasons": "winter",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
+              }
+    },
+    
+    { // Marnie pumpkin pie in winter
+      "QuestName": "marnie_pumpkinpie",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Pumpkin Pie",
+        "Days": "7",
         "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
