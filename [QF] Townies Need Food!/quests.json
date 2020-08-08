@@ -175,6 +175,22 @@
       "Trigger": "Pam 210",
       "ReactionText": "$hWhatcha got there? Oh, this is for me, thanks, @!"
     },
+    { // Willy omelet in spring
+      "Name": "willy_omelet",
+      "Type": "ItemDelivery",
+      "Title": "Super fluffy",
+      "Description": "Sometimes an omelet is all you need. I'll pay whoever can make me one!
+  -Willy
+
+-375g on delivery
+-Willy will be pleased",
+      "Objective": "Bring omelet to Willy",
+      "DaysLeft": 5,
+      "Reward": 375,
+      "Cancelable": true,
+      "Trigger": "Willy 195",
+      "ReactionText": "$hThis looks excellent, thanks @!"
+    },
     { // Robin radish salad summer
       "Name": "robin_radishsalad",
       "Type": "ItemDelivery",
@@ -820,6 +836,18 @@
       "When": {
         //"KnownCookingRecipe": "Salad",
         "Days": "19",
+        "Seasons": "spring",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
+              }
+    },
+    { // Willy omelet in spring
+      "QuestName": "willy_omelet",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Omelet",
+        "Days": "21",
         "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
