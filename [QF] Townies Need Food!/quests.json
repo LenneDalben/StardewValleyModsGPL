@@ -191,6 +191,22 @@
       "Trigger": "Willy 195",
       "ReactionText": "$hThis looks excellent, thanks @!"
     },
+    { // Alex salmon dinner in spring
+      "Name": "alex_salmondinner",
+      "Type": "ItemDelivery",
+      "Title": "Lemon spritz",
+      "Description": "A salmon dinner is special to me. Can anyone make me some? I'll give you cash!
+  -Alex
+
+-900g on delivery
+-Alex will be pleased",
+      "Objective": "Bring salmon dinner to Alex",
+      "DaysLeft": 5,
+      "Reward": 900,
+      "Cancelable": true,
+      "Trigger": "Alex 212",
+      "ReactionText": "$hThis looks delicious, thanks @!"
+    },
     { // Robin radish salad summer
       "Name": "robin_radishsalad",
       "Type": "ItemDelivery",
@@ -872,6 +888,18 @@
       "When": {
         //"KnownCookingRecipe": "Parsnip Soup",
         "Days": "25",
+        "Seasons": "spring",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
+              }
+    },
+    { // Alex salmon dinner in spring
+      "QuestName": "alex_salmondinner",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Salmon Dinner",
+        "Days": "27",
         "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
