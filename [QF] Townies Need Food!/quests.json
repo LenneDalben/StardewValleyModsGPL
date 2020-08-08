@@ -159,6 +159,22 @@
       "Trigger": "Sebastian 227",
       "ReactionText": "$lOh, hah... You made this for me? Thanks @!"
     },
+    { // Pam hashbrowns spring
+      "Name": "pam_hashbrowns",
+      "Type": "ItemDelivery",
+      "Title": "Golden-brown crisp",
+      "Description": "Howdy! I'd love some hashbrowns. Could someone in this town help me out and make me some? There's money in it for you.
+  -Pam
+
+-360g on delivery
+-Pam will be thankful",
+      "Objective": "Bring hashbrowns to Pam",
+      "DaysLeft": 5,
+      "Reward": 360,
+      "Cancelable": true,
+      "Trigger": "Pam 210",
+      "ReactionText": "$hWhatcha got there? Oh, this is for me, thanks, @!"
+    },
     { // Robin radish salad summer
       "Name": "robin_radishsalad",
       "Type": "ItemDelivery",
@@ -744,6 +760,18 @@
       "When": {
         //"KnownCookingRecipe": "Sashimi",
         "Days": "7",
+        "Seasons": "spring",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
+              }
+    },
+    { // Pam hashbrowns in spring
+      "QuestName": "pam_hashbrowns",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Hashbrowns",
+        "Days": "9",
         "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
