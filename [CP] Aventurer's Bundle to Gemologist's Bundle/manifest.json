@@ -1,0 +1,13 @@
+{
+   "Name": "[CP] Aventurer's Bundle to Gemologist's Bundle",
+   "Author": "LenneDalben",
+   "Version": "1.0.0",
+   "Description": "Changes the Adventurer's Bundle to instead be the Gemologist's Bundle, requiring gemstones instead of monster loot.",
+  "UniqueID": "LenneDalben.AdventurerBundletoGemologistBundle",
+   "MinimumApiVersion": "3.6.2",
+  "UpdateKeys": [],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "1.15.0"
+   }
+}
