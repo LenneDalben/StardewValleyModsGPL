@@ -12,4 +12,5 @@ The configuration file is to toggle this mod on and off, so the only options are
 
 Note that the mod does not come packaged with a config file. The config file will be generated after you run the game with the mod installed at least once. 
 
-Nexus page here: TBD
+Nexus page here: https://www.nexusmods.com/stardewvalley/mods/6651
+
