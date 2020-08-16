@@ -1,6 +1,14 @@
 # LenneDalben's Stardew Valley Mods
 Welcome to the respository for my mods for Stardew Valley!
 
+<a href="https://github.com/LenneDalben/StardewValleyMods/tree/master/%5BCP%5D%20Adventurer's%20Bundle%20to%20Gemologist's%20Bundle">(CP) Adventurer's Bundle to Gemologist's Bundle</a> | <a href="https://www.nexusmods.com/stardewvalley/mods/6651">Nexus Download</a>
+
+Changes the Adventurer's Bundle to instead be the Gemologist's Bundle, requiring gemstones instead of monster loot.
+
+<a href="https://github.com/LenneDalben/StardewValleyMods/tree/master/Joja%20Always%20Has%20Seeds">(STF) Joja Always Has Seeds</a> | <a href="https://www.nexusmods.com/stardewvalley/mods/6560">Nexus Download</a>
+
+Joja has all seeds, all year round, because every season is Joja-season!
+
 <a href="https://github.com/LenneDalben/StardewValleyMods/tree/master/%5BCP%5D%20Easier%20Stable#cp-easier-stable">(CP) Easier Stable</a> | <a href="https://www.nexusmods.com/stardewvalley/mods/6482">Nexus Download</a>
 
 The stable is easier to build, with 2 options to choose from.
