@@ -217,7 +217,7 @@
 			"Target": "Characters/Dialogue/Pierre",
 			"Entries": {
 				"MobilePhoneGreeting": "Hey there {0}!",
-				"MobilePhoneGoodBye": "Bye, ope to see you at the shop soon!$h"
+				"MobilePhoneGoodBye": "Bye, hope to see you at the shop soon!$h"
 			}
 		},
 		//Sam mobile phone dialog changes
