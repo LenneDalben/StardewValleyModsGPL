@@ -1,0 +1,301 @@
+{
+	/*Hi
+Hi there
+Hello
+Hello there
+Yo
+What's up
+Howdy
+How are you doing
+
+Bye
+Goodbye
+Have a good one
+Have a nice day
+Enjoy your day
+See you later
+See you later, alligator
+See ya
+Take care*/
+	"Format": "1.15.0",
+	"Changes": [
+		//Abigail mobile phone dialog changes
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries": {
+				"MobilePhoneGreeting": "Hi!",
+				"MobilePhoneGoodBye": "Bye!$h"
+			}
+		},
+		//Alex mobile phone dialog changes
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex",
+			"Entries": {
+				"MobilePhoneGreeting": "Hey you!",
+				"MobilePhoneGoodBye": "See ya!$h"
+			}
+		},
+		//Caroline mobile phone dialog changes
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Caroline",
+			"Entries": {
+				"MobilePhoneGreeting": "Hi {0}, how are you doing?",
+				"MobilePhoneInvite": "Sure, what would you like to do?",
+				"MobilePhoneGoodBye": "Bye!$h"
+			}
+		},
+		//Clint mobile phone dialog changes
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Clint",
+			"Entries": {
+				"MobilePhoneGreeting": "Hello {0}!",
+				"MobilePhoneGoodBye": "Bye!"
+			}
+		},
+		//Demetrius mobile phone dialog changes
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Demetrius",
+			"Entries": {
+				"MobilePhoneGreeting": "Hello {0}! How are you doing on this fine day?",
+				"MobilePhoneInvite": "Sure, what would you like to do?",
+				"MobilePhoneGoodBye": "Goodbye @!"
+			}
+		},
+		//Elliott mobile phone dialog changes
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"Entries": {
+				"MobilePhoneGreeting": "Hello {0}, I'm doing alright, how are you?",
+				"MobilePhoneInvite": "Sure, what would you like to do?",
+				"MobilePhoneGoodBye": "Goodbye @!$h"
+			}
+		},
+		//Emily mobile phone dialog changes
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Emily",
+			"Entries": {
+				"MobilePhoneGreeting": "Hi @, I hope you're doing well!",
+				"MobilePhoneGoodBye": "Bye @, have a good one!$h"
+			}
+		},
+		//Evelyn mobile phone dialog changes
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Evelyn",
+			"Entries": {
+				"MobilePhoneGreeting": "Hi {0}, I hope you're doing well!",
+				"MobilePhoneGoodBye": "Have a nice day, dear.$h"
+			}
+		},
+		//George mobile phone dialog changes
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/George",
+			"Entries": {
+				"MobilePhoneGreeting": "Hello?",
+				"MobilePhoneGoodBye": "Goodbye."
+			}
+		},
+		//Gus mobile phone dialog changes
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gus",
+			"Entries": {
+				"MobilePhoneGreeting": "Hey there, {0}!",
+				"MobilePhoneInvite": "Sure, what do you want to do?",
+				"MobilePhoneGoodBye": "Bye!$h"
+			}
+		},
+		//Haley mobile phone dialog changes
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"Entries": {
+				"MobilePhoneGreeting": "Hi {0}!",
+				"MobilePhoneGoodBye": "Bye!$h"
+			}
+		},
+		//Harvey mobile phone dialog changes
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"Entries": {
+				"MobilePhoneGreeting": "Hey {0}!",
+				"MobilePhoneGoodBye": "Bye!$h"
+			}
+		},
+		//Jas mobile phone dialog changes
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jas",
+			"Entries": {
+				"MobilePhoneGreeting": "Hi {0}!",
+				"MobilePhoneGoodBye": "Okay see you goodbye!$h"
+			}
+		},
+		//Jodi mobile phone dialog changes
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jodi",
+			"Entries": {
+				"MobilePhoneGreeting": "Hello {0}!",
+				"MobilePhoneInvite": "I hope I have time, what do you want to do?",
+				"MobilePhoneGoodBye": "Bye @!$h"
+			}
+		},
+		//Kent mobile phone dialog changes
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Kent",
+			"Entries": {
+				"MobilePhoneGreeting": "...Hi.",
+				"MobilePhoneGoodBye": "Bye."
+			}
+		},
+		//Leah mobile phone dialog changes
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Leah",
+			"Entries": {
+				"MobilePhoneGreeting": "Hi {0}!",
+				"MobilePhoneGoodBye": "Bye!$h"
+			}
+		},
+		//Lewis mobile phone dialog changes
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Lewis",
+			"Entries": {
+				"MobilePhoneGreeting": "Hello {0}!",
+				"MobilePhoneInvite": "Sure, what do you want to do?",
+				"MobilePhoneGoodBye": "Bye @!$h"
+			}
+		},
+		//Linus mobile phone dialog changes
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Linus",
+			"Entries": {
+				"MobilePhoneGreeting": "Hello {0}!",
+				"MobilePhoneGoodBye": "Goodbye @!$h"
+			}
+		},
+		//Marnie mobile phone dialog changes
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Marnie",
+			"Entries": {
+				"MobilePhoneGreeting": "Howdy {0}!",
+				"MobilePhoneGoodBye": "Take care!$h"
+			}
+		},
+		//Maru mobile phone dialog changes
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Entries": {
+				"MobilePhoneGreeting": "Hi {0}!",
+				"MobilePhoneGoodBye": "Bye!$h"
+			}
+		},
+		//Pam mobile phone dialog changes
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Pam",
+			"Entries": {
+				"MobilePhoneGreeting": "Howdy {0}!",
+				"MobilePhoneGoodBye": "See ya later!"
+			}
+		},
+		//Penny mobile phone dialog changes
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Penny",
+			"Entries": {
+				"MobilePhoneGreeting": "Hello {0}.",
+				"MobilePhoneGoodBye": "Bye!"
+			}
+		},
+		//Pierre mobile phone dialog changes
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Pierre",
+			"Entries": {
+				"MobilePhoneGreeting": "Hi there {0}!",
+				"MobilePhoneGoodBye": "Bye!$h"
+			}
+		},
+		//Sam mobile phone dialog changes
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Entries": {
+				"MobilePhoneGreeting": "Yo!",
+				"MobilePhoneGoodBye": "See you later!$h"
+			}
+		},
+		//Sandy mobile phone dialog changes
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sandy",
+			"Entries": {
+				"MobilePhoneGreeting": "Hi {0}!",
+				"MobilePhoneGoodBye": "Bye, I hope you visit soon!$h"
+			}
+		},
+		//Sebastian mobile phone dialog changes
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Entries": {
+				"MobilePhoneGreeting": "What's up?",
+				"MobilePhoneGoodBye": "Bye!"
+			}
+		},
+		//Shane mobile phone dialog changes
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+				"MobilePhoneGreeting": "...Hey.",
+				"MobilePhoneGoodBye": "*click*"
+			}
+		},
+		//Vincent mobile phone dialog changes
+		// Test out "...$3#$b#%*click*" for Vincent's goodbye
+		// Test out "...Okay g-*click*$3" for Vincent's goodbye
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Vincent",
+			"Entries": {
+				"MobilePhoneGreeting": "Hi {0}!",
+				"MobilePhoneGoodBye": "See you later, alligator!$h"
+			}
+		},
+		//Willy mobile phone dialog changes
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Willy",
+			"Entries": {
+				"MobilePhoneGreeting": "Hello there {0}!",
+				"MobilePhoneGoodBye": "See you later!$h"
+			}
+		},
+		//Wizard mobile phone dialog changes
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			"Entries": {
+				"MobilePhoneGreeting": "Hello there {0}!",
+				"MobilePhoneGoodBye": "Enjoy your day."
+			}
+		}
+	]
+}
