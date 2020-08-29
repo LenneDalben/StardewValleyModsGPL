@@ -1,22 +1,4 @@
 {
-	/*Hi
-Hi there
-Hello
-Hello there
-Yo
-What's up
-Howdy
-How are you doing
-
-Bye
-Goodbye
-Have a good one
-Have a nice day
-Enjoy your day
-See you later
-See you later, alligator
-See ya
-Take care*/
 	"Format": "1.15.0",
 	"Changes": [
 		//Abigail mobile phone dialog changes
@@ -24,8 +6,8 @@ Take care*/
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Abigail",
 			"Entries": {
-				"MobilePhoneGreeting": "Hi!",
-				"MobilePhoneGoodBye": "Bye!$h"
+				"MobilePhoneGreeting": "Hi, what's new?",
+				"MobilePhoneGoodBye": "Talk to you later!$h"
 			}
 		},
 		//Alex mobile phone dialog changes
@@ -61,7 +43,7 @@ Take care*/
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Demetrius",
 			"Entries": {
-				"MobilePhoneGreeting": "Hello {0}! How are you doing on this fine day?",
+				"MobilePhoneGreeting": "Greetings {0}! Are you enjoying this fine day?",
 				"MobilePhoneInvite": "Sure, what would you like to do?",
 				"MobilePhoneGoodBye": "Goodbye @!"
 			}
@@ -71,7 +53,7 @@ Take care*/
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Elliott",
 			"Entries": {
-				"MobilePhoneGreeting": "Hello {0}, I'm doing alright, how are you?",
+				"MobilePhoneGreeting": "Hello {0}, are you well?",
 				"MobilePhoneInvite": "Sure, what would you like to do?",
 				"MobilePhoneGoodBye": "Goodbye @!$h"
 			}
@@ -81,7 +63,7 @@ Take care*/
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Emily",
 			"Entries": {
-				"MobilePhoneGreeting": "Hi @, I hope you're doing well!",
+				"MobilePhoneGreeting": "Hi @, how are things?",
 				"MobilePhoneGoodBye": "Bye @, have a good one!$h"
 			}
 		},
@@ -90,7 +72,8 @@ Take care*/
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Evelyn",
 			"Entries": {
-				"MobilePhoneGreeting": "Hi {0}, I hope you're doing well!",
+				"MobilePhoneGreeting": "Hello my dear, I hope you're doing well!",
+				"MobilePhoneInvite": "So kind of you to ask, dear. What do you want to do?",
 				"MobilePhoneGoodBye": "Have a nice day, dear.$h"
 			}
 		},
@@ -100,6 +83,7 @@ Take care*/
 			"Target": "Characters/Dialogue/George",
 			"Entries": {
 				"MobilePhoneGreeting": "Hello?",
+				"MobilePhoneInvite": "You want to spend time with an old geezer like me? Well okay, what do you want to do?",
 				"MobilePhoneGoodBye": "Goodbye."
 			}
 		},
@@ -108,7 +92,7 @@ Take care*/
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Gus",
 			"Entries": {
-				"MobilePhoneGreeting": "Hey there, {0}!",
+				"MobilePhoneGreeting": "Hi there, {0}!",
 				"MobilePhoneInvite": "Sure, what do you want to do?",
 				"MobilePhoneGoodBye": "Bye!$h"
 			}
@@ -118,7 +102,7 @@ Take care*/
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Haley",
 			"Entries": {
-				"MobilePhoneGreeting": "Hi {0}!",
+				"MobilePhoneGreeting": "Hi {0}. Anything exciting happening on your farm?",
 				"MobilePhoneGoodBye": "Bye!$h"
 			}
 		},
@@ -127,16 +111,18 @@ Take care*/
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Harvey",
 			"Entries": {
-				"MobilePhoneGreeting": "Hey {0}!",
-				"MobilePhoneGoodBye": "Bye!$h"
+				"MobilePhoneGreeting": "Hey {0}, how's it going?",
+				"MobilePhoneGoodBye": "Take care! Stay healthy."
 			}
 		},
 		//Jas mobile phone dialog changes
+		// Test out "...$3#$b#%*click*" for Jas' goodbye
+		// Test out "...Okay g-*click*$3" for Jas' goodbye
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Jas",
 			"Entries": {
-				"MobilePhoneGreeting": "Hi {0}!",
+				"MobilePhoneGreeting": "Hiya {0}!",
 				"MobilePhoneGoodBye": "Okay see you goodbye!$h"
 			}
 		},
@@ -145,9 +131,9 @@ Take care*/
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Jodi",
 			"Entries": {
-				"MobilePhoneGreeting": "Hello {0}!",
-				"MobilePhoneInvite": "I hope I have time, what do you want to do?",
-				"MobilePhoneGoodBye": "Bye @!$h"
+				"MobilePhoneGreeting": "Hi {0}, I have a minute to chat.",
+				"MobilePhoneInvite": "It'd be nice to take a break, what do you want to do?",
+				"MobilePhoneGoodBye": "I'd better get going, bye!"
 			}
 		},
 		//Kent mobile phone dialog changes
@@ -156,6 +142,7 @@ Take care*/
 			"Target": "Characters/Dialogue/Kent",
 			"Entries": {
 				"MobilePhoneGreeting": "...Hi.",
+				"MobilePhoneInvite": "Erm... okay. What do you want to do?",
 				"MobilePhoneGoodBye": "Bye."
 			}
 		},
@@ -164,7 +151,7 @@ Take care*/
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Leah",
 			"Entries": {
-				"MobilePhoneGreeting": "Hi {0}!",
+				"MobilePhoneGreeting": "Hey {0}! Staying busy with the farm?",
 				"MobilePhoneGoodBye": "Bye!$h"
 			}
 		},
@@ -173,17 +160,18 @@ Take care*/
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Lewis",
 			"Entries": {
-				"MobilePhoneGreeting": "Hello {0}!",
+				"MobilePhoneGreeting": "Hi there {0}! What have you been up to?",
 				"MobilePhoneInvite": "Sure, what do you want to do?",
 				"MobilePhoneGoodBye": "Bye @!$h"
 			}
 		},
-		//Linus mobile phone dialog changes
+		//Linus mobile phone dialog changes - left off here-
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Linus",
 			"Entries": {
-				"MobilePhoneGreeting": "Hello {0}!",
+				"MobilePhoneGreeting": "Greetings {0}!",
+				"MobilePhoneInvite": "It's nice of you to think about me, what do you want to do?",
 				"MobilePhoneGoodBye": "Goodbye @!$h"
 			}
 		},
@@ -201,7 +189,7 @@ Take care*/
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Maru",
 			"Entries": {
-				"MobilePhoneGreeting": "Hi {0}!",
+				"MobilePhoneGreeting": "Hi {0}! How's it going?",
 				"MobilePhoneGoodBye": "Bye!$h"
 			}
 		},
@@ -228,8 +216,8 @@ Take care*/
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Pierre",
 			"Entries": {
-				"MobilePhoneGreeting": "Hi there {0}!",
-				"MobilePhoneGoodBye": "Bye!$h"
+				"MobilePhoneGreeting": "Hey there {0}!",
+				"MobilePhoneGoodBye": "Bye, ope to see you at the shop soon!$h"
 			}
 		},
 		//Sam mobile phone dialog changes
@@ -246,7 +234,7 @@ Take care*/
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sandy",
 			"Entries": {
-				"MobilePhoneGreeting": "Hi {0}!",
+				"MobilePhoneGreeting": "Hello hello {0}!",
 				"MobilePhoneGoodBye": "Bye, I hope you visit soon!$h"
 			}
 		},
@@ -269,13 +257,11 @@ Take care*/
 			}
 		},
 		//Vincent mobile phone dialog changes
-		// Test out "...$3#$b#%*click*" for Vincent's goodbye
-		// Test out "...Okay g-*click*$3" for Vincent's goodbye
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Vincent",
 			"Entries": {
-				"MobilePhoneGreeting": "Hi {0}!",
+				"MobilePhoneGreeting": "Hihi {0}!",
 				"MobilePhoneGoodBye": "See you later, alligator!$h"
 			}
 		},
@@ -293,7 +279,7 @@ Take care*/
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Wizard",
 			"Entries": {
-				"MobilePhoneGreeting": "Hello there {0}!",
+				"MobilePhoneGreeting": "Can you feel the energy today, {0}?",
 				"MobilePhoneGoodBye": "Enjoy your day."
 			}
 		}
