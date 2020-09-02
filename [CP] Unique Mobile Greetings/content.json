@@ -35,6 +35,7 @@
 			"Target": "Characters/Dialogue/Clint",
 			"Entries": {
 				"MobilePhoneGreeting": "Hello {0}!",
+				"MobilePhoneInvite": "Um, okay. What do you want to do?",
 				"MobilePhoneGoodBye": "Bye!"
 			}
 		},
@@ -123,7 +124,8 @@
 			"Target": "Characters/Dialogue/Jas",
 			"Entries": {
 				"MobilePhoneGreeting": "Hiya {0}!",
-				"MobilePhoneGoodBye": "Okay see you goodbye!$h"
+				"MobilePhoneInvite": "Yay! What do you want to do?",
+				"MobilePhoneGoodBye": "...Okay g-*click*$3"
 			}
 		},
 		//Jodi mobile phone dialog changes
@@ -165,14 +167,14 @@
 				"MobilePhoneGoodBye": "Bye @!$h"
 			}
 		},
-		//Linus mobile phone dialog changes - left off here-
+		//Linus mobile phone dialog changes
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Linus",
 			"Entries": {
 				"MobilePhoneGreeting": "Greetings {0}!",
 				"MobilePhoneInvite": "It's nice of you to think about me, what do you want to do?",
-				"MobilePhoneGoodBye": "Goodbye @!$h"
+				"MobilePhoneGoodBye": "Go in peace.$h"
 			}
 		},
 		//Marnie mobile phone dialog changes
@@ -189,8 +191,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Maru",
 			"Entries": {
-				"MobilePhoneGreeting": "Hi {0}! How's it going?",
-				"MobilePhoneGoodBye": "Bye!$h"
+				"MobilePhoneGreeting": "Hey {0}! How's it going?",
+				"MobilePhoneGoodBye": "Bye, have fun working on the farm!$h"
 			}
 		},
 		//Pam mobile phone dialog changes
@@ -198,7 +200,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Pam",
 			"Entries": {
-				"MobilePhoneGreeting": "Howdy {0}!",
+				"MobilePhoneGreeting": "Hey, kid!",
 				"MobilePhoneGoodBye": "See ya later!"
 			}
 		},
@@ -207,8 +209,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Penny",
 			"Entries": {
-				"MobilePhoneGreeting": "Hello {0}.",
-				"MobilePhoneGoodBye": "Bye!"
+				"MobilePhoneGreeting": "Hi {0}.",
+				"MobilePhoneGoodBye": "Bye, nice talking to you!$h"
 			}
 		},
 		//Pierre mobile phone dialog changes
@@ -220,13 +222,22 @@
 				"MobilePhoneGoodBye": "Bye, hope to see you at the shop soon!$h"
 			}
 		},
+		//Robin mobile phone dialog changes
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Robin",
+			"Entries": {
+				"MobilePhoneGreeting": "Hi {0}!",
+				"MobilePhoneGoodBye": "Bye, have a good one!$h"
+			}
+		},
 		//Sam mobile phone dialog changes
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sam",
 			"Entries": {
 				"MobilePhoneGreeting": "Yo!",
-				"MobilePhoneGoodBye": "See you later!$h"
+				"MobilePhoneGoodBye": "Take it easy!$h"
 			}
 		},
 		//Sandy mobile phone dialog changes
@@ -235,6 +246,7 @@
 			"Target": "Characters/Dialogue/Sandy",
 			"Entries": {
 				"MobilePhoneGreeting": "Hello hello {0}!",
+				"MobilePhoneInvite": "Ooh... I'd love to; what do you want to do?",
 				"MobilePhoneGoodBye": "Bye, I hope you visit soon!$h"
 			}
 		},
@@ -262,6 +274,7 @@
 			"Target": "Characters/Dialogue/Vincent",
 			"Entries": {
 				"MobilePhoneGreeting": "Hihi {0}!",
+				"MobilePhoneInvite": "Yay! What do you want to do?",
 				"MobilePhoneGoodBye": "See you later, alligator!$h"
 			}
 		},
@@ -270,7 +283,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Willy",
 			"Entries": {
-				"MobilePhoneGreeting": "Hello there {0}!",
+				"MobilePhoneGreeting": "Ahoy there {0}!",
 				"MobilePhoneGoodBye": "See you later!$h"
 			}
 		},
@@ -280,7 +293,8 @@
 			"Target": "Characters/Dialogue/Wizard",
 			"Entries": {
 				"MobilePhoneGreeting": "Can you feel the energy today, {0}?",
-				"MobilePhoneGoodBye": "Enjoy your day."
+				"MobilePhoneInvite": "Hmm... I suppose I could accompany you, what do you want to do?",
+				"MobilePhoneGoodBye": "Farewell."
 			}
 		}
 	]
