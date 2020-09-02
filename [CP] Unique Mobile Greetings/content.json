@@ -7,7 +7,7 @@
 			"Target": "Characters/Dialogue/Abigail",
 			"Entries": {
 				"MobilePhoneGreeting": "Hi, what's new?",
-				"MobilePhoneGoodBye": "Talk to you later!$h"
+				"MobilePhoneGoodBye": "I'd better go, bye!$h"
 			}
 		},
 		//Alex mobile phone dialog changes
@@ -26,7 +26,7 @@
 			"Entries": {
 				"MobilePhoneGreeting": "Hi {0}, how are you doing?",
 				"MobilePhoneInvite": "Sure, what would you like to do?",
-				"MobilePhoneGoodBye": "Bye!$h"
+				"MobilePhoneGoodBye": "Talk to you later!$h"
 			}
 		},
 		//Clint mobile phone dialog changes
@@ -104,7 +104,7 @@
 			"Target": "Characters/Dialogue/Haley",
 			"Entries": {
 				"MobilePhoneGreeting": "Hi {0}. Anything exciting happening on your farm?",
-				"MobilePhoneGoodBye": "Bye!$h"
+				"MobilePhoneGoodBye": "Byeeeeee!$h"
 			}
 		},
 		//Harvey mobile phone dialog changes
@@ -118,6 +118,7 @@
 		},
 		//Jas mobile phone dialog changes
 		// Test out "...$3#$b#%*click*" for Jas' goodbye
+		// Test out "...$3#$b#Okay g-*click*$3" for Jas' goodbye
 		// Test out "...Okay g-*click*$3" for Jas' goodbye
 		{
 			"Action": "EditData",
@@ -125,7 +126,7 @@
 			"Entries": {
 				"MobilePhoneGreeting": "Hiya {0}!",
 				"MobilePhoneInvite": "Yay! What do you want to do?",
-				"MobilePhoneGoodBye": "...Okay g-*click*$3"
+				"MobilePhoneGoodBye": "...$3#$b#Okay g-*click*$3"
 			}
 		},
 		//Jodi mobile phone dialog changes
@@ -145,7 +146,7 @@
 			"Entries": {
 				"MobilePhoneGreeting": "...Hi.",
 				"MobilePhoneInvite": "Erm... okay. What do you want to do?",
-				"MobilePhoneGoodBye": "Bye."
+				"MobilePhoneGoodBye": "Bye..."
 			}
 		},
 		//Leah mobile phone dialog changes
@@ -154,7 +155,7 @@
 			"Target": "Characters/Dialogue/Leah",
 			"Entries": {
 				"MobilePhoneGreeting": "Hey {0}! Staying busy with the farm?",
-				"MobilePhoneGoodBye": "Bye!$h"
+				"MobilePhoneGoodBye": "See you soon!$h"
 			}
 		},
 		//Lewis mobile phone dialog changes
@@ -237,7 +238,7 @@
 			"Target": "Characters/Dialogue/Sam",
 			"Entries": {
 				"MobilePhoneGreeting": "Yo!",
-				"MobilePhoneGoodBye": "Take it easy!$h"
+				"MobilePhoneGoodBye": "Alright, take it easy!$h"
 			}
 		},
 		//Sandy mobile phone dialog changes
@@ -256,7 +257,7 @@
 			"Target": "Characters/Dialogue/Sebastian",
 			"Entries": {
 				"MobilePhoneGreeting": "What's up?",
-				"MobilePhoneGoodBye": "Bye!"
+				"MobilePhoneGoodBye": "Later!"
 			}
 		},
 		//Shane mobile phone dialog changes
@@ -265,7 +266,7 @@
 			"Target": "Characters/Dialogue/Shane",
 			"Entries": {
 				"MobilePhoneGreeting": "...Hey.",
-				"MobilePhoneGoodBye": "*click*"
+				"MobilePhoneGoodBye": "%*click*"
 			}
 		},
 		//Vincent mobile phone dialog changes
