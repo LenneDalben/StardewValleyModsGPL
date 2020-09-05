@@ -367,6 +367,22 @@
       "Trigger": "Sam 206",
       "ReactionText": "$hAlright, @!"
     },
+    { // Pierre bruschetta in fall
+      "Name": "pierre_bruschetta",
+      "Type": "ItemDelivery",
+      "Title": "Tomatoes and bread",
+      "Description": "Could someone make me some bruschetta? I'll pay!
+-Pierre
+
+-630g on delivery
+-Pierre will be pleased",
+      "Objective": "Bring bruschetta to Pierre",
+      "DaysLeft": 5,
+      "Reward": 630,
+      "Cancelable": true,
+      "Trigger": "Pierre 618",
+      "ReactionText": "$hThank you, @!"
+    },
     { // Emily survival burger in fall
       "Name": "emily_survivalburger",
       "Type": "ItemDelivery",
@@ -1037,6 +1053,18 @@
         //"KnownCookingRecipe": "Red Plate",
         "Days": "27",
         "Seasons": "summer",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
+              }
+    },
+    { // Pierre bruschetta in fall
+      "QuestName": "pierre_bruschetta",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Bruschetta",
+        "Days": "1",
+        "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
         //"EPU": "FarmHouseUpgradeLevel 1"
