@@ -1031,7 +1031,7 @@
       "OfferedBy": "Bulletinboard",  
       "When": {
         //"KnownCookingRecipe": "Stuffing",
-        "Days": "1",
+        "Days": "5",
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
@@ -1043,7 +1043,7 @@
       "OfferedBy": "Bulletinboard",  
       "When": {
         //"KnownCookingRecipe": "Dish o' The Sea",
-        "Days": "4",
+        "Days": "7",
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
@@ -1055,7 +1055,7 @@
       "OfferedBy": "Bulletinboard",  
       "When": {
         //"KnownCookingRecipe": "Vegetable Medley",
-        "Days": "6",
+        "Days": "9",
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
@@ -1067,7 +1067,7 @@
       "OfferedBy": "Bulletinboard",  
       "When": {
         //"KnownCookingRecipe": "Artichoke Dip",
-        "Days": "9",
+        "Days": "11",
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
@@ -1079,7 +1079,7 @@
       "OfferedBy": "Bulletinboard",  
       "When": {
         //"KnownCookingRecipe": "Blackberry Cobbler",
-        "Days": "12",
+        "Days": "13",
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
