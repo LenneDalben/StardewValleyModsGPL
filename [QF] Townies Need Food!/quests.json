@@ -991,7 +991,7 @@
       "OfferedBy": "Bulletinboard",  
       "When": {
         //"KnownCookingRecipe": "Poppyseed Muffin",
-        "Days": "10",
+        "Days": "9",
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
@@ -1003,7 +1003,7 @@
       "OfferedBy": "Bulletinboard",  
       "When": {
         //"KnownCookingRecipe": "Fruit Salad",
-        "Days": "13",
+        "Days": "12",
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
@@ -1015,7 +1015,7 @@
       "OfferedBy": "Bulletinboard",  
       "When": {
         //"KnownCookingRecipe": "Complete Breakfast",
-        "Days": "15",
+        "Days": "14",
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
@@ -1027,7 +1027,7 @@
       "OfferedBy": "Bulletinboard",  
       "When": {
         //"KnownCookingRecipe": "Pizza",
-        "Days": "17",
+        "Days": "16",
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
@@ -1039,7 +1039,7 @@
       "OfferedBy": "Bulletinboard",  
       "When": {
         //"KnownCookingRecipe": "Blueberry Tart",
-        "Days": "19",
+        "Days": "18",
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
