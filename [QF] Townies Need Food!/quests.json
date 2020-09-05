@@ -367,6 +367,22 @@
       "Trigger": "Sam 206",
       "ReactionText": "$hAlright, @!"
     },
+    { // Elliott crab  cakes in summer
+      "Name": "elliott_crabcakes",
+      "Type": "ItemDelivery",
+      "Title": "Golden brown patties",
+      "Description": "I find crab cakes wonderful this time of year. I'd be most grateful if someone could make some for me.
+  -Elliott
+
+-825g on delivery
+-Elliott will be pleased",
+      "Objective": "Bring crab cakes to Elliott",
+      "DaysLeft": 5,
+      "Reward": 825,
+      "Cancelable": true,
+      "Trigger": "Elliott 218",
+      "ReactionText": "$hI can't wait to enjoy these crab cakes, thank you @!"
+    },
     { // Pierre bruschetta in fall
       "Name": "pierre_bruschetta",
       "Type": "ItemDelivery",
@@ -1040,6 +1056,18 @@
       "When": {
         //"KnownCookingRecipe": "Blueberry Tart",
         "Days": "18",
+        "Seasons": "summer",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
+              }
+    }, 
+    { // Elliott crab cakes in summer
+      "QuestName": "elliott_crabcakes",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Crab Cakes",
+        "Days": "20",
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
