@@ -367,6 +367,22 @@
       "Trigger": "Sam 206",
       "ReactionText": "$hAlright, @!"
     },
+    { // Emily survival burger in fall
+      "Name": "emily_survivalburger",
+      "Type": "ItemDelivery",
+      "Title": "A convenient snack",
+      "Description": "Hello, it's Emily. I'd love a survival burger. Thanks!
+-Emily
+
+-540g on delivery
+-Emily will be pleased",
+      "Objective": "Bring survival burger to Emily",
+      "DaysLeft": 5,
+      "Reward": 540,
+      "Cancelable": true,
+      "Trigger": "Emily 241",
+      "ReactionText": "$hOooh, thanks @!"
+    },
     { // Clint artichoke dip fall
       "Name": "clint_artichokedip",
       "Type": "ItemDelivery",
@@ -1021,6 +1037,18 @@
         //"KnownCookingRecipe": "Red Plate",
         "Days": "27",
         "Seasons": "summer",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
+              }
+    },
+    { // Emily survival burger in fall
+      "QuestName": "emily_survivalburger",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Survival Burger",
+        "Days": "3",
+        "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
         //"EPU": "FarmHouseUpgradeLevel 1"
