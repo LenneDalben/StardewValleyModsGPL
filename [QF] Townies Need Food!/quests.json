@@ -891,6 +891,22 @@
       "Trigger": "Evelyn 220",
       "ReactionText": "$h@, this chocolate cake looks wonderful. Thanks, dear!"
     },
+    { // Krobus seafoam pudding in winter
+      "Name": "krobus_seafoampudding",
+      "Type": "ItemDelivery",
+      "Title": "Briny pudding",
+      "Description": "Chocolate cake would be a nice treat. Could someone make some for me?
+  -Krobus
+
+-900g on delivery
+-Makes Evelyn happy",
+      "Objective": "Bring seafoam pudding to Krobus",
+      "DaysLeft": 5,
+      "Reward": 900,
+      "Cancelable": true,
+      "Trigger": "Krobus 265",
+      "ReactionText": "$h@, this chocolate cake looks wonderful. Thanks, dear!"
+    },
   ],
 "Offers": [
     { // Emily shrimp cocktail in spring
@@ -1561,6 +1577,18 @@
         "Days": "26",
         "Seasons": "winter",
         //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
+              }
+    },
+    { // Krobus seafoam pudding in winter; decreased because spring 1 has a quest too
+      "QuestName": "krobus_seafoampudding",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Seafoam Pudding",
+        "Days": "28",
+        "Seasons": "winter",
+        //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
         //"EPU": "FarmHouseUpgradeLevel 1"
               }
