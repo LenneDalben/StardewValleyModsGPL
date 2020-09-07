@@ -1014,7 +1014,7 @@
         //"EPU": "FarmHouseUpgradeLevel 1"
               }
     }, 
-    { // Haley fruit salad in summer
+    { // Haley fruit salad in summer; it's the luau
       "QuestName": "haley_fruitsalad",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -1074,7 +1074,7 @@
         //"EPU": "FarmHouseUpgradeLevel 1"
               }
     }, 
-    { // Penny red plate in summer
+    { // Penny red plate in summer; it's the moonlight jellies
       "QuestName": "penny_redplate",
       "OfferedBy": "Bulletinboard",  
       "When": {
