@@ -1019,9 +1019,9 @@
       "OfferedBy": "Bulletinboard",  
       "When": {
         //"KnownCookingRecipe": "Fruit Salad",
-        "Days": "12",
+        "Days": "11",
         "Seasons": "summer",
-        //"Random": "30",
+        //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
         //"EPU": "FarmHouseUpgradeLevel 1"
               }
