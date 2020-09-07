@@ -895,17 +895,17 @@
       "Name": "krobus_seafoampudding",
       "Type": "ItemDelivery",
       "Title": "Briny pudding",
-      "Description": "Chocolate cake would be a nice treat. Could someone make some for me?
-  -Krobus
+      "Description": "Greetings, I'm interested in some seafoam pudding. Could someone in town drop some off at the sewer? I can pay!
+  -Krobus =
 
 -900g on delivery
--Makes Evelyn happy",
+-Makes Krobus happy",
       "Objective": "Bring seafoam pudding to Krobus",
       "DaysLeft": 5,
       "Reward": 900,
       "Cancelable": true,
       "Trigger": "Krobus 265",
-      "ReactionText": "$h@, this chocolate cake looks wonderful. Thanks, dear!"
+      "ReactionText": "$hOh @, you have my thanks!"
     },
   ],
 "Offers": [
