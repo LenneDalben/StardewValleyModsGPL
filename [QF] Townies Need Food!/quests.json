@@ -367,7 +367,7 @@
       "Trigger": "Sam 206",
       "ReactionText": "$hAlright, @!"
     },
-    { // Elliott crab  cakes in summer
+    { // Elliott crab cakes in summer
       "Name": "elliott_crabcakes",
       "Type": "ItemDelivery",
       "Title": "Golden brown patties",
@@ -382,6 +382,22 @@
       "Cancelable": true,
       "Trigger": "Elliott 218",
       "ReactionText": "$hI can't wait to enjoy these crab cakes, thank you @!"
+    },
+    { // Gus escargot in summer
+      "Name": "gus_escargot",
+      "Type": "ItemDelivery",
+      "Title": "Butter-soaked snails",
+      "Description": "Hi! I'd love some escargot. Drop some off at the saloon and I'll be very grateful.
+  -Gus
+
+-375g on delivery
+-Gus will be pleased",
+      "Objective": "Bring escargot to Gus",
+      "DaysLeft": 5,
+      "Reward": 375,
+      "Cancelable": true,
+      "Trigger": "Gus 729",
+      "ReactionText": "$hThis looks great, thank you @!"
     },
     { // Pierre bruschetta in fall
       "Name": "pierre_bruschetta",
@@ -1074,6 +1090,18 @@
         //"EPU": "FarmHouseUpgradeLevel 1"
               }
     }, 
+    { // Gus escargot in summer
+      "QuestName": "gus_escargot",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Escargot",
+        "Days": "20",
+        "Seasons": "summer",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
+              }
+    },
     { // Penny red plate in summer; it's the moonlight jellies
       "QuestName": "penny_redplate",
       "OfferedBy": "Bulletinboard",  
