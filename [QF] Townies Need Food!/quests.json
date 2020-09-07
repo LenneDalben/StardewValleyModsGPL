@@ -1081,7 +1081,7 @@
         //"KnownCookingRecipe": "Red Plate",
         "Days": "28",
         "Seasons": "summer",
-        //"Random": "30",
+        //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
         //"EPU": "FarmHouseUpgradeLevel 1"
               }
