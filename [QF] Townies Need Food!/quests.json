@@ -207,6 +207,22 @@
       "Trigger": "Alex 212",
       "ReactionText": "$hThis looks delicious, thanks @!"
     },
+	  { // Kent fiddlehead risotto in spring
+      "Name": "kent_fiddleheadrisotto",
+      "Type": "ItemDelivery",
+      "Title": "Creamy rice dish",
+      "Description": "I'd like some fiddlehead risotto, please.
+  -Kent
+
+-1050g on delivery
+-Kent will be pleased",
+      "Objective": "Bring fiddlehead risotto to Kent",
+      "DaysLeft": 5,
+      "Reward": 1050,
+      "Cancelable": true,
+      "Trigger": "Kent 649",
+      "ReactionText": "$hWhat? Oh, the risotto I asked for. Thanks @."
+    },
     { // Robin radish salad summer
       "Name": "robin_radishsalad",
       "Type": "ItemDelivery",
@@ -990,6 +1006,18 @@
         "Days": "23",
         "Seasons": "spring",
         //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
+              }
+    },
+    { // Kent fiddlehead risotto in spring; it's the flower dance
+      "QuestName": "kent_fiddleheadrisotto",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Fiddlehead Risotto",
+        "Days": "24",
+        "Seasons": "spring",
+        //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
         //"EPU": "FarmHouseUpgradeLevel 1"
               }
