@@ -431,6 +431,22 @@
       "Trigger": "Shane 215",
       "ReactionText": "$hAh, these are the best. Thanks, @."
     },
+    { // Caroline fried eel in summer
+      "Name": "caroline_friedeel",
+      "Type": "ItemDelivery",
+      "Title": "Flavorful dish",
+      "Description": "I could really go for some fried eel. I'll pay you when you bring it.
+  -Caroline
+
+-360g on delivery
+-Caroline will be pleased",
+      "Objective": "Bring fried eel to Caroline",
+      "DaysLeft": 5,
+      "Reward": 360,
+      "Cancelable": true,
+      "Trigger": "Caroline 225",
+      "ReactionText": "$hThank you, @! I appreciate it."
+    },
     { // Pierre bruschetta in fall
       "Name": "pierre_bruschetta",
       "Type": "ItemDelivery",
@@ -1152,6 +1168,18 @@
       "When": {
         //"KnownCookingRecipe": "Pepper Poppers",
         "Days": "24",
+        "Seasons": "summer",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
+              }
+    },
+    { // Caroline fried eel in summer
+      "QuestName": "caroline_friedeel",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Fried Eel",
+        "Days": "26",
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
