@@ -685,6 +685,22 @@
       "Trigger": "George 727",
       "ReactionText": "$hThank you @, you've made an old man happy."
     },
+    { // Wizard cookie in winter
+      "Name": "wizard_cookie",
+      "Type": "ItemDelivery",
+      "Title": "A chewy dessert",
+      "Description": "Local wizard in search of some excellent cookies. They have interesting properties, you know.
+  -M. Rasmodius =
+
+-420g on delivery
+-Makes Wizard happy",
+      "Objective": "Bring cookies to Wizard",
+      "DaysLeft": 5,
+      "Reward": 420,
+      "Cancelable": true,
+      "Trigger": "Wizard 223",
+      "ReactionText": "$hAh, @, these will do!"
+    },
     { // Marnie pumpkin pie in winter
       "Name": "marnie_pumpkinpie",
       "Type": "ItemDelivery",
@@ -1421,6 +1437,18 @@
         "Days": "28",
         "Seasons": "fall",
         //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
+              }
+    },
+    { // Wizard cookie in winter; decreased because fall 28 has a quest too
+      "QuestName": "wizard_cookie",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Cookie",
+        "Days": "1",
+        "Seasons": "winter",
+        //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
         //"EPU": "FarmHouseUpgradeLevel 1"
               }
