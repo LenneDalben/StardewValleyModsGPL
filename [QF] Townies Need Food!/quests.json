@@ -1,7 +1,6 @@
 {
   "Format": "1.0",
 "Quests": [ 
-    
     { // Emily shrimp cocktail in spring
       "Name": "emily_shrimpcocktail",
       "Type": "ItemDelivery",
