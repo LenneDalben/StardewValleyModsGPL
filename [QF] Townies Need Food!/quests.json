@@ -685,6 +685,21 @@
       "Trigger": "George 727",
       "ReactionText": "$hThank you @, you've made an old man happy."
     },
+    { // Demetrius rice pudding in winter
+      "Name": "demetrius_ricepudding",
+      "Type": "ItemDelivery",
+      "Title": "Fun to eat",
+      "Description": "Greetings! Demetrius here. I'm looking for an creamy, sweet dessert. Can anyone make some rice pudding for me?
+
+-780g on delivery
+-Demetrius will be thankful",
+      "Objective": "Bring rice pudding to Demetrius",
+      "DaysLeft": 5,
+      "Reward": 780,
+      "Cancelable": true,
+      "Trigger": "Demetrius 232",
+      "ReactionText": "$hThank you @, I'm looking forward to this pudding."
+    },
     { // Wizard cookie in winter
       "Name": "wizard_cookie",
       "Type": "ItemDelivery",
@@ -1569,6 +1584,18 @@
         "Days": "19",
         "Seasons": "winter",
         //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
+              }
+    },
+    { // Demetrius rice pudding in winter; decreased because there are quests on 19 and 21
+      "QuestName": "demetrius_ricepudding",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Rice Pudding",
+        "Days": "20",
+        "Seasons": "winter",
+        //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
         //"EPU": "FarmHouseUpgradeLevel 1"
               }
