@@ -875,6 +875,22 @@
       "Trigger": "Maru 197",
       "ReactionText": "$hWoo, I';'ll enjoy this!"
     },
+    { // Evelyn chocolate cake in winter
+      "Name": "evelyn_chocolatecake",
+      "Type": "ItemDelivery",
+      "Title": "Chocolate cake",
+      "Description": "Chocolate cake would be a nice treat. Could someone make some for me?
+  -Evelyn
+
+-600g on delivery
+-Makes Evelyn happy",
+      "Objective": "Bring chocolate cake to Evelyn",
+      "DaysLeft": 5,
+      "Reward": 600,
+      "Cancelable": true,
+      "Trigger": "Evelyn 220",
+      "ReactionText": "$h@, this chocolate cake looks wonderful. Thanks, dear!"
+    },
   ],
 "Offers": [
     { // Emily shrimp cocktail in spring
@@ -1425,6 +1441,18 @@
         "Days": "7",
         "Seasons": "winter",
         //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
+              }
+    },
+    { // Evelyn chocolate cake in winter; it's the ice festival
+      "QuestName": "evelyn_chocolatecake",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Chocolate Cake",
+        "Days": "8",
+        "Seasons": "winter",
+        //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
         //"EPU": "FarmHouseUpgradeLevel 1"
               }
