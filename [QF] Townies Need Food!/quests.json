@@ -399,6 +399,22 @@
       "Trigger": "Gus 729",
       "ReactionText": "$hThis looks great, thank you @!"
     },
+    { // Pierre fried calamari in summer
+      "Name": "pierre_friedcalamari",
+      "Type": "ItemDelivery",
+      "Title": "A chewy squid",
+      "Description": "Could someone make me some fried calamari? I'll pay!
+-Pierre
+
+-450g on delivery
+-Pierre will be pleased",
+      "Objective": "Bring fried calamari to Pierre",
+      "DaysLeft": 5,
+      "Reward": 450,
+      "Cancelable": true,
+      "Trigger": "Pierre 202",
+      "ReactionText": "$hIt's my favorite, you know. Thanks, @!"
+    },
     { // Pierre bruschetta in fall
       "Name": "pierre_bruschetta",
       "Type": "ItemDelivery",
@@ -1096,6 +1112,18 @@
       "When": {
         //"KnownCookingRecipe": "Escargot",
         "Days": "20",
+        "Seasons": "summer",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
+              }
+    },
+    { // Pierre fried calamari in summer
+      "QuestName": "pierre_friedcalamari",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Fried Calamari",
+        "Days": "22",
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
