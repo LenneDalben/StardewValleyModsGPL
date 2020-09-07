@@ -415,6 +415,22 @@
       "Trigger": "Pierre 202",
       "ReactionText": "$hIt's my favorite, you know. Thanks, @!"
     },
+	  { // Shane pepper poppers in summer
+      "Name": "shane_pepperpoppers",
+      "Type": "ItemDelivery",
+      "Title": "Spicy breaded peppers",
+      "Description": "Could someone make me some pepper poppers? I'll pay you for them, I swear.
+  -Shane
+
+-600g on delivery
+-Shane will be pleased",
+      "Objective": "Bring pizza to Shane",
+      "DaysLeft": 5,
+      "Reward": 600,
+      "Cancelable": true,
+      "Trigger": "Shane 215",
+      "ReactionText": "$hAh, these are the best. Thanks, @."
+    },
     { // Pierre bruschetta in fall
       "Name": "pierre_bruschetta",
       "Type": "ItemDelivery",
@@ -1124,6 +1140,18 @@
       "When": {
         //"KnownCookingRecipe": "Fried Calamari",
         "Days": "22",
+        "Seasons": "summer",
+        //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
+              }
+    },
+    { // Shane pepper poppers in summer
+      "QuestName": "shane_pepperpoppers",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Pepper Poppers",
+        "Days": "24",
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
