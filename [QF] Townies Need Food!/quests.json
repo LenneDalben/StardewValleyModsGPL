@@ -1043,7 +1043,7 @@
       "OfferedBy": "Bulletinboard",  
       "When": {
         //"KnownCookingRecipe": "Pizza",
-        "Days": "16",
+        "Days": "14",
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
