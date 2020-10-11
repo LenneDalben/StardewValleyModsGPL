@@ -8,20 +8,17 @@
   "UpdateKeys": [],
   "ContentPackFor": {
     "UniqueID": "PurrplingCat.QuestFramework",
-    "MinimumVersion": "1.0.0" // will need to change to 1.1.0 once it's available
+    "MinimumVersion": "1.0.0"
   },
   "Dependencies": [
     {
       "UniqueID": "Pathoschild.ContentPatcher",
       "IsRequired": true,
       "MinimumVersion": "1.18.0"
+    },
+    {
+      "UniqueID": "LenneDalben.CP.TowniesNeedFood",
+      "IsRequired": true
     }
   ]
-  /*Will need to add once 1.1.0 is available
-  "Dependencies": [
-    {
-    "UniqueID": "Cherry.ExpandedPreconditionsUtility",
-    "MinimumVersion": "1.0.0"
-    }
-  ]*/
 }
