@@ -685,6 +685,22 @@
       "Trigger": "George 727",
       "ReactionText": "$hThank you @, you've made an old man happy."
     },
+    { // Gus fish taco in fall
+      "Name": "gus_fishtaco",
+      "Type": "ItemDelivery",
+      "Title": "Tasy tacos",
+      "Description": "Hi! I'd love some fish tacos. Drop some off at the saloon and I'll be very grateful.
+  -Gus
+
+-1500g on delivery
+-Gus will be pleased",
+      "Objective": "Bring fish taco to Gus",
+      "DaysLeft": 5,
+      "Reward": 1500,
+      "Cancelable": true,
+      "Trigger": "Gus 213",
+      "ReactionText": "$hThis looks tasty, thank you @!"
+    },
     { // Demetrius rice pudding in winter
       "Name": "demetrius_ricepudding",
       "Type": "ItemDelivery",
@@ -1340,6 +1356,18 @@
         "Days": "3",
         "Seasons": "fall",
         //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year",
+        "EventSeen": "11102020"
+              }
+    },
+    { // Gus fish taco in fall
+      "QuestName": "gus_fishtaco",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Fish Taco",
+        "Days": "4",
+        "Seasons": "fall",
+        //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
