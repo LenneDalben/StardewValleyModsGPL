@@ -1,5 +1,11 @@
 {
   "Format": "1.18.0",
+  "DynamicTokens": [
+    {
+      "Name": "Lenne'sKitchenToken",
+      "Value": "true"
+    }
+  ],
   "Changes": [
     {
       "LogName": "Flag for having kitchen",
@@ -8,8 +14,7 @@
       "Entries": {
         "11102020/x QFHasKitchen": "null",
         "When": {
-          "FarmhouseUpgrade": "1",
-          "HasMod": "Froststar11.CustomFarmhouse, Allayna.Kitchen, burakmese.products"
+          "Query: {{FarmhouseUpgrade: 1}} OR {{HasMod: Froststar11.CustomFarmhouse, Allayna.Kitchen, burakmese.products}}": true
         }
       }
     }
