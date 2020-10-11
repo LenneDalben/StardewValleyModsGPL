@@ -3,7 +3,7 @@
   "Author": "LenneDalben",
   "Version": "0.1.0",
   "Description": "NPCs in town request cooked meals in the bulletin board, after you've unlocked the recipe!",
-  "UniqueID": "LenneDalben.TowniesNeedFood",
+  "UniqueID": "LenneDalben.QF.TowniesNeedFood",
   "MinimumApiVersion": "3.6.1",
   "UpdateKeys": [],
   "ContentPackFor": {
