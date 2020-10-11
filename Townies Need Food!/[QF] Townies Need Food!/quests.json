@@ -146,7 +146,7 @@
       "Name": "sebastian_sashimi",
       "Type": "ItemDelivery",
       "Title": "It's sashimi",
-      "Description": "This is embarrassing; I'd love some sashimi but I don't think I've mastered the thin slices. Could someone give it a try? I'll pay you!
+      "Description": "This is embarrassing; I love sashimi but I don't think I've mastered the thin slices. Could someone give it a try? I'll pay you!
   -Sebastian
 
 -225g on delivery
@@ -717,6 +717,22 @@
       "Trigger": "Haley 612",
       "ReactionText": "$hI can smell the sweetness, thanks @!"
     },
+	  { // Jodi crisoy bass in winter
+      "Name": "jodi_crispybass",
+      "Type": "ItemDelivery",
+      "Title": "Perfect breading",
+      "Description": "Hi everyone, I'd love some crispy bass, but I just don't have time to make it! Could someone in town spare the time to make it for me? I'll even pay you!
+  -Jodi
+
+-450g on delivery
+-Jodi will be pleased",
+      "Objective": "Bring crispy bass to Jodi",
+      "DaysLeft": 5,
+      "Reward": 450,
+      "Cancelable": true,
+      "Trigger": "Jodi 214",
+      "ReactionText": "$hThis will do, thanks @."
+    },
     { // Demetrius rice pudding in winter
       "Name": "demetrius_ricepudding",
       "Type": "ItemDelivery",
@@ -831,7 +847,7 @@
       "Name": "jodi_eggplantparmesan",
       "Type": "ItemDelivery",
       "Title": "Tangy and cheesy",
-      "Description": "Hi everyone, I'd love to have some eggplant parmesan for me and my boys, but I just don't have time to make it! Could someone in town spare the time to make it for me? I'll even pay you!
+      "Description": "Hi everyone, I'd love to have some eggplant parmesan for me and my boys. Could someone in town spare the time to make it for me? I'll even pay you!
   -Jodi
 
 -600g on delivery
