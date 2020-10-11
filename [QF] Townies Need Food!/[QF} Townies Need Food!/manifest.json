@@ -1,0 +1,27 @@
+{
+  "Name": "[QF] Townies Need Food!",
+  "Author": "LenneDalben",
+  "Version": "0.1.0",
+  "Description": "NPCs in town request cooked meals in the bulletin board, after you've unlocked the recipe!",
+  "UniqueID": "LenneDalben.TowniesNeedFood",
+  "MinimumApiVersion": "3.6.1",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "PurrplingCat.QuestFramework",
+    "MinimumVersion": "1.0.0" // will need to change to 1.1.0 once it's available
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "IsRequired": true,
+      "MinimumVersion": "1.18.0"
+    }
+  ]
+  /*Will need to add once 1.1.0 is available
+  "Dependencies": [
+    {
+    "UniqueID": "Cherry.ExpandedPreconditionsUtility",
+    "MinimumVersion": "1.0.0"
+    }
+  ]*/
+}

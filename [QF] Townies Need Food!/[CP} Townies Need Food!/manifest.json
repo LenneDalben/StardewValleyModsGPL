@@ -10,6 +10,13 @@
     "UniqueID": "PurrplingCat.QuestFramework",
     "MinimumVersion": "1.0.0" // will need to change to 1.1.0 once it's available
   },
+  "Dependencies": [
+    {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "IsRequired": true,
+      "MinimumVersion": "1.18.0"
+    }
+  ]
   /*Will need to add once 1.1.0 is available
   "Dependencies": [
     {
