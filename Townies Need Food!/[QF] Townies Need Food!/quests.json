@@ -1104,7 +1104,7 @@
         "EventSeen": "11102020"
               }
     },
-    { // Kent fiddlehead risotto in spring; it's the flower dance
+    { // Kent fiddlehead risotto in spring; decreased because it's the flower dance
       "QuestName": "kent_fiddleheadrisotto",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -1200,7 +1200,7 @@
         "EventSeen": "11102020"
               }
     }, 
-    { // Haley fruit salad in summer; it's the luau
+    { // Haley fruit salad in summer; decreased because it's the luau
       "QuestName": "haley_fruitsalad",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -1308,7 +1308,7 @@
         "EventSeen": "11102020"
               }
     },
-    { // Penny red plate in summer; it's the moonlight jellies
+    { // Penny red plate in summer; decreased because it's the moonlight jellies
       "QuestName": "penny_redplate",
       "OfferedBy": "Bulletinboard",  
       "When": {
@@ -1536,7 +1536,7 @@
         "EventSeen": "11102020"
               }
     },
-    { // Evelyn chocolate cake in winter; it's the ice festival
+    { // Evelyn chocolate cake in winter; decreased because it's the ice festival
       "QuestName": "evelyn_chocolatecake",
       "OfferedBy": "Bulletinboard",  
       "When": {
