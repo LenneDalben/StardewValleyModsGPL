@@ -701,6 +701,22 @@
       "Trigger": "Gus 213",
       "ReactionText": "$hThis looks tasty, thank you @!"
     },
+    { // Haley cranberry candy in fall
+      "Name": "haley_cranberrycandy",
+      "Type": "ItemDelivery",
+      "Title": "Sweet enough",
+      "Description": "I'll < you forever if you make me some cranberry candy!
+  -Haley
+
+-525g on delivery
+-Haley will be thankful",
+      "Objective": "Bring cranberry candy to Haley",
+      "DaysLeft": 5,
+      "Reward": 525,
+      "Cancelable": true,
+      "Trigger": "Haley 612",
+      "ReactionText": "$hI can smell the sweetness, thanks @!"
+    },
     { // Demetrius rice pudding in winter
       "Name": "demetrius_ricepudding",
       "Type": "ItemDelivery",
@@ -1416,6 +1432,18 @@
         "Days": "11",
         "Seasons": "fall",
         //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year",
+        "EventSeen": "11102020"
+              }
+    },
+    { // Haley cranberry candy in fall; decreased because there are quests on 11 and 13
+      "QuestName": "haley_cranberrycandy",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Cranberry Candy",
+        "Days": "12",
+        "Seasons": "fall",
+        //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
