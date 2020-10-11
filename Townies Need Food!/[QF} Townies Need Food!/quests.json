@@ -965,7 +965,7 @@
         "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Harvey triple shot espresso in spring
@@ -977,7 +977,7 @@
         "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
                }
     },
     { // George chowder in spring
@@ -989,7 +989,7 @@
         "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Sebastian sashimi in spring
@@ -1001,7 +1001,7 @@
         "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Pam hashbrowns in spring
@@ -1013,7 +1013,7 @@
         "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Demetrius bean hotpot in spring
@@ -1025,7 +1025,7 @@
         "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Harvey coleslaw in spring
@@ -1037,7 +1037,7 @@
         "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Demetrius ice cream in spring
@@ -1049,7 +1049,7 @@
         "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Leah salad in spring
@@ -1061,7 +1061,7 @@
         "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Willy omelet in spring
@@ -1073,7 +1073,7 @@
         "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Leah stir fry in spring
@@ -1085,7 +1085,7 @@
         "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Kent fiddlehead risotto in spring; it's the flower dance
@@ -1097,7 +1097,7 @@
         "Seasons": "spring",
         //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Pam parsnip soup in spring
@@ -1109,7 +1109,7 @@
         "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Alex salmon dinner in spring
@@ -1121,7 +1121,7 @@
         "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Clint bread in summer
@@ -1133,7 +1133,7 @@
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // George fried mushroom in summer
@@ -1145,7 +1145,7 @@
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Robin radish salad in summer
@@ -1157,7 +1157,7 @@
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Caroline fish taco in summer
@@ -1169,7 +1169,7 @@
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
 	            }
     },
     { // Penny poppyseed muffin in summer
@@ -1181,7 +1181,7 @@
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     }, 
     { // Haley fruit salad in summer; it's the luau
@@ -1193,7 +1193,7 @@
         "Seasons": "summer",
         //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Alex complete breakfast in summer
@@ -1205,7 +1205,7 @@
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
 	            }
     },
     { // Sam pizza in summer
@@ -1217,7 +1217,7 @@
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     }, 
     { // Linus blueberry tart in summer
@@ -1229,7 +1229,7 @@
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     }, 
     { // Elliott crab cakes in summer
@@ -1241,7 +1241,7 @@
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     }, 
     { // Gus escargot in summer
@@ -1253,7 +1253,7 @@
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Pierre fried calamari in summer
@@ -1265,7 +1265,7 @@
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Shane pepper poppers in summer
@@ -1277,7 +1277,7 @@
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Caroline fried eel in summer
@@ -1289,7 +1289,7 @@
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Penny red plate in summer; it's the moonlight jellies
@@ -1301,7 +1301,7 @@
         "Seasons": "summer",
         //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Pierre bruschetta in fall
@@ -1313,7 +1313,7 @@
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Emily survival burger in fall
@@ -1325,7 +1325,7 @@
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Evelyn stuffing in fall
@@ -1337,7 +1337,7 @@
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Linus dish o' the sea in fall
@@ -1349,7 +1349,7 @@
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Lewis vegetable medley in fall
@@ -1361,7 +1361,7 @@
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Clint artickhoke dip in fall
@@ -1373,7 +1373,7 @@
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Abigail blackberry cobbler in fall
@@ -1385,7 +1385,7 @@
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
 	       }
     }, 
     { // Lewis autumn's bounty in fall
@@ -1397,7 +1397,7 @@
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // George plum pudding in fall
@@ -1409,7 +1409,7 @@
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Wizard cranberry sauce in fall
@@ -1421,7 +1421,7 @@
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Harvey super meal in fall
@@ -1433,7 +1433,7 @@
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Caroline lobster bisque in fall
@@ -1445,7 +1445,7 @@
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
 	            }
     },
     { // Pam glazed yams in fall
@@ -1457,7 +1457,7 @@
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Sebastian pumpkin soup in fall
@@ -1469,7 +1469,7 @@
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Wizard cookie in winter; decreased because fall 28 has a quest too
@@ -1481,7 +1481,7 @@
         "Seasons": "winter",
         //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Abigail spicy eel in winter
@@ -1493,7 +1493,7 @@
         "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Elliott tom kha soup in winter
@@ -1505,7 +1505,7 @@
         "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Marnie pumpkin pie in winter
@@ -1517,7 +1517,7 @@
         "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Evelyn chocolate cake in winter; it's the ice festival
@@ -1529,7 +1529,7 @@
         "Seasons": "winter",
         //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Willy trout soup in winter
@@ -1541,7 +1541,7 @@
         "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Alex fried egg in winter
@@ -1553,7 +1553,7 @@
         "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Jodi eggplant parmesan in winter
@@ -1565,7 +1565,7 @@
         "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Elliott baked fish in winter; decreased because there are quests on 13 and 15
@@ -1577,7 +1577,7 @@
         "Seasons": "winter",
         //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Kent roasted hazelnuts in winter
@@ -1589,7 +1589,7 @@
         "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Shane pizza in winter
@@ -1601,7 +1601,7 @@
         "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Marnie farmer's lunch in winter
@@ -1613,7 +1613,7 @@
         "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Demetrius rice pudding in winter; decreased because there are quests on 19 and 21
@@ -1625,7 +1625,7 @@
         "Seasons": "winter",
         //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Penny roots platter in winter
@@ -1637,7 +1637,7 @@
         "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Sam tortilla in winter
@@ -1649,7 +1649,7 @@
         "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Maru cheese cauliflower in winter
@@ -1661,7 +1661,7 @@
         "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
     { // Krobus seafoam pudding in winter; decreased because spring 1 has a quest too
@@ -1673,7 +1673,7 @@
         "Seasons": "winter",
         //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
-        //"EPU": "FarmHouseUpgradeLevel 1"
+        "EventSeen": "11102020"
               }
     },
 	]

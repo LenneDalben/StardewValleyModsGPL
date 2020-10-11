@@ -1,11 +1,5 @@
 {
   "Format": "1.18.0",
-  "DynamicTokens": [
-    {
-      "Name": "Lenne'sKitchenToken",
-      "Value": "true"
-    }
-  ],
   "Changes": [
     {
       "LogName": "Flag for having kitchen",
