@@ -1,8 +1,8 @@
 {
-  "Name": "[CP] Townies Need Food!",
+  "Name": "Content Patcher Component for Townies Need Food!",
   "Author": "LenneDalben",
   "Version": "0.1.0",
-  "Description": "CP component to add flag for Townies Need Food!",
+  "Description": "CP component to add necessary flag for Townies Need Food!",
   "UniqueID": "LenneDalben.CP.TowniesNeedFood",
   "MinimumApiVersion": "3.6.1",
   "UpdateKeys": [],
