@@ -5,11 +5,13 @@
       "LogName": "Flag for having kitchen",
       "Action": "EditData",
       "Target": "Data/Events/Farm",
-      "Entries": "11102020/x QFHasKitchen": "null",
-      "When": {
-        "HasMod": "Froststar11.CustomFarmhouse, Allayna.Kitchen, burakmese.products"
+      "Entries": {
+        "11102020/x QFHasKitchen": "null",
+        "When": {
+          "FarmhouseUpgrade": "1",
+          "HasMod": "Froststar11.CustomFarmhouse, Allayna.Kitchen, burakmese.products"
+        }
       }
     }
   ]
-
 }
