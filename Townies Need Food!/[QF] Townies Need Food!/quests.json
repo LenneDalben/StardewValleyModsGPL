@@ -954,6 +954,22 @@
       "Trigger": "Elliott 198",
       "ReactionText": "$hI'm looking forward to these herbs, thank you @!"
     },
+    { // Robin carp surprise in winter
+      "Name": "robin_carpsurprise",
+      "Type": "ItemDelivery",
+      "Title": "Bland yet oily",
+      "Description": "It may be an acquired taste, but I like carp surprise! Can anyone make me some? I'll pay you for it!
+  -Robin
+
+-450g on delivery
+-Makes Robin happy",
+      "Objective": "Bring carp surprise to Robin",
+      "DaysLeft": 5,
+      "Reward": 450,
+      "Cancelable": true,
+      "Trigger": "Robin 209",
+      "ReactionText": "$hAh, thank you @!"
+    },
   ],
 "Offers": [
     { // Emily shrimp cocktail in spring
@@ -1660,6 +1676,18 @@
         "Days": "26",
         "Seasons": "winter",
         //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year",
+        "EventSeen": "11102020"
+              }
+    },
+    { // Robin carp surprise in winter; decreased because there are quests on 26 and 28
+      "QuestName": "robin_carpsurprise",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Carp Surprise",
+        "Days": "27",
+        "Seasons": "winter",
+        //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
