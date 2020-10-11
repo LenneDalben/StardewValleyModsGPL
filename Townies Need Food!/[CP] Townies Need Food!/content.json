@@ -7,10 +7,10 @@
       "Target": "Data/Events/Farm",
       "Entries": {
         "11102020/x QFHasKitchen": "null",
+      },
         "When": {
           "Query: {{FarmhouseUpgrade: 1}} OR {{HasMod: Froststar11.CustomFarmhouse, Allayna.Kitchen, burakmese.products}}": true
         }
       }
-    }
   ]
 }
