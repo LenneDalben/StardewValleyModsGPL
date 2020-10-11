@@ -938,6 +938,22 @@
       "Trigger": "Krobus 265",
       "ReactionText": "$hOh @, you have my thanks!"
     },
+    { // Elliott baked fish in winter
+      "Name": "elliott_bakedfish",
+      "Type": "ItemDelivery",
+      "Title": "Baked fish",
+      "Description": "I've been craving some baked fish, longing for the herbs! Could someone make some for me?
+  -Elliott
+
+-300g on delivery
+-Elliott will be pleased",
+      "Objective": "Bring baked fish to Elliott",
+      "DaysLeft": 5,
+      "Reward": 300,
+      "Cancelable": true,
+      "Trigger": "Elliott 198",
+      "ReactionText": "$hI'm looking forward to these herbs, thank you @!"
+    },
   ],
 "Offers": [
     { // Emily shrimp cocktail in spring
@@ -1548,6 +1564,18 @@
         "Days": "13",
         "Seasons": "winter",
         //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year",
+        //"EPU": "FarmHouseUpgradeLevel 1"
+              }
+    },
+    { // Elliott baked fish in winter; decreased because there are quests on 13 and 15
+      "QuestName": "elliott_bakedfish",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Baked Fish",
+        "Days": "14",
+        "Seasons": "winter",
+        //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
         //"EPU": "FarmHouseUpgradeLevel 1"
               }
