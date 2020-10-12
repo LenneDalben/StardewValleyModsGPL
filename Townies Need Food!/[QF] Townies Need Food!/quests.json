@@ -733,6 +733,22 @@
       "Trigger": "Jodi 214",
       "ReactionText": "$hThis will do, thanks @."
     },
+    { // Linus fish stew in fall
+      "Name": "linus_fishstew",
+      "Type": "ItemDelivery",
+      "Title": "Sea smell",
+      "Description": "I'd love some fish stew. Would someone in town be able to make some for me?
+  -Linus =
+
+-525g on delivery
+-Linus will be thankful",
+      "Objective": "Bring fish stew to Linus",
+      "DaysLeft": 5,
+      "Reward": 525,
+      "Cancelable": true,
+      "Trigger": "Linus 728",
+      "ReactionText": "$hI appreciate this, Farmer @."
+    },
     { // Demetrius rice pudding in winter
       "Name": "demetrius_ricepudding",
       "Type": "ItemDelivery",
@@ -1556,6 +1572,18 @@
         "Days": "25",
         "Seasons": "fall",
         //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year",
+        "EventSeen": "11102020"
+              }
+    },
+    { // Linus fish stew in fall; decreased because there's a quest on 25
+      "QuestName": "linus_fishstew",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Fish Stew",
+        "Days": "26",
+        "Seasons": "fall",
+        //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
