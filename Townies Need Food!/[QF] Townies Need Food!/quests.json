@@ -717,7 +717,7 @@
       "Trigger": "Haley 612",
       "ReactionText": "$hI can smell the sweetness, thanks @!"
     },
-	  { // Jodi crisoy bass in winter
+	  { // Jodi crispy bass in fall
       "Name": "jodi_crispybass",
       "Type": "ItemDelivery",
       "Title": "Perfect breading",
@@ -1508,6 +1508,18 @@
         "Days": "19",
         "Seasons": "fall",
         //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year",
+        "EventSeen": "11102020"
+              }
+    },
+    { // Jodi crispy bass in fall; decreased because there are quests on 19 and 21
+      "QuestName": "jodi_crispybass",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Crispy Bass",
+        "Days": "20",
+        "Seasons": "fall",
+        //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
