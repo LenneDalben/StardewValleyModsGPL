@@ -238,6 +238,21 @@
       "Trigger": "Jodi 211",
       "ReactionText": "$hThese look great, thanks @."
     },
+    { // Marnie pink cake in spring
+      "Name": "marnie_pinkcake",
+      "Type": "ItemDelivery",
+      "Title": "Pink cake",
+      "Description": "Howdy neighbors! I'd like to surprise Jas with some pink cake. Can someone make some? I'll pay!
+
+-1440g on delivery
+-Makes Marnie happy",
+      "Objective": "Bring pink cake to Marnie",
+      "DaysLeft": 5,
+      "Reward": 1440,
+      "Cancelable": true,
+      "Trigger": "Marnie 221",
+      "ReactionText": "$hThanks @! I expect Jas will love this."
+    },
     { // Robin radish salad in summer
       "Name": "robin_radishsalad",
       "Type": "ItemDelivery",
@@ -1132,6 +1147,18 @@
         "Days": "11",
         "Seasons": "spring",
         //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year",
+        "EventSeen": "11102020"
+              }
+    },
+    { // Marnie pink cake in spring; decreased because there's a quest on 11
+      "QuestName": "marnie_pinkcake",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Pink Cake",
+        "Days": "12",
+        "Seasons": "spring",
+        //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
