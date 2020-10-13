@@ -253,6 +253,22 @@
       "Trigger": "Marnie 221",
       "ReactionText": "$hThanks @! I expect Jas will love this."
     },
+    { // Maru miner's treat in spring
+      "Name": "maru_minerstreat",
+      "Type": "ItemDelivery",
+      "Title": "Energizing treat",
+      "Description": "Miner's treats are very energizing. Could someone make me some?
+  -Maru
+
+-600g on delivery
+-Makes Maru happy",
+      "Objective": "Bring miner's treat to Maru",
+      "DaysLeft": 5,
+      "Reward": 600,
+      "Cancelable": true,
+      "Trigger": "Maru 243",
+      "ReactionText": "$hThanks @, this will help me stay focused!"
+    },
     { // Robin radish salad in summer
       "Name": "robin_radishsalad",
       "Type": "ItemDelivery",
@@ -993,13 +1009,13 @@
   -Maru
 
 -900g on delivery
--Makes Sam happy",
+-Makes Maru happy",
       "Objective": "Bring cheese cauliflower to Maru",
       "DaysLeft": 5,
       "Reward": 900,
       "Cancelable": true,
       "Trigger": "Maru 197",
-      "ReactionText": "$hWoo, I';'ll enjoy this!"
+      "ReactionText": "$hWoo, I'll enjoy this!"
     },
     { // Evelyn chocolate cake in winter
       "Name": "evelyn_chocolatecake",
@@ -1171,6 +1187,18 @@
         "Days": "14",
         "Seasons": "spring",
         //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year",
+        "EventSeen": "11102020"
+              }
+    },
+    { // Maru miner's treat in spring; decreased because there's a quest on 17
+      "QuestName": "maru_minerstreat",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Miner's Treat",
+        "Days": "16",
+        "Seasons": "spring",
+        //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
