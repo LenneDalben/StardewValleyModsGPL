@@ -71,7 +71,7 @@
 
 -360g on delivery
 -Demetrius will be thankful",
-      "Objective": "Bring a bean hotpot to Demetrius",
+      "Objective": "Bring a ice cream to Demetrius",
       "DaysLeft": 5,
       "Reward": 360,
       "Cancelable": true,
@@ -278,18 +278,18 @@
 
 -1200g on delivery
 -Makes Maru happy",
-      "Objective": "Bring rhubarb to Maru",
+      "Objective": "Bring rhubarb pie to Maru",
       "DaysLeft": 5,
       "Reward": 1200,
       "Cancelable": true,
       "Trigger": "Maru 222",
-      "ReactionText": "$hThanks @!"
+      "ReactionText": "$hThanks @, looks tasty!"
     },
     { // Robin radish salad in summer
       "Name": "robin_radishsalad",
       "Type": "ItemDelivery",
       "Title": "Crisp radishes",
-      "Description": "I'd love a radish salad. Can anyone make me one? I'll pay you for it!
+      "Description": "I'd love a radish salad. Can anyone make me one?
   -Robin
 
 -900g on delivery
@@ -422,7 +422,7 @@
 
 -180g on delivery
 -Clint will be thankful",
-      "Objective": "Bring fried mushroom to George",
+      "Objective": "Bring bread to Clint",
       "DaysLeft": 5,
       "Reward": 180,
       "Cancelable": true,
@@ -433,11 +433,11 @@
       "Name": "sam_pizza",
       "Type": "ItemDelivery",
       "Title": "My favorite!",
-      "Description": "I'm working on a project and need some fuel. Can anyone bring me a pizza? I'll pay!
+      "Description": "I'm working on a project and need some fuel. Can anyone bring me a pizza?
   -Sam
 
 -900g on delivery
--George will be thankful",
+-Sam will be thankful",
       "Objective": "Bring pizza to Sam",
       "DaysLeft": 5,
       "Reward": 900,
@@ -502,7 +502,7 @@
 
 -600g on delivery
 -Shane will be pleased",
-      "Objective": "Bring pizza to Shane",
+      "Objective": "Bring pepper poppers to Shane",
       "DaysLeft": 5,
       "Reward": 600,
       "Cancelable": true,
@@ -751,7 +751,7 @@
     { // Gus fish taco in fall
       "Name": "gus_fishtaco",
       "Type": "ItemDelivery",
-      "Title": "Tasy tacos",
+      "Title": "Tasty tacos",
       "Description": "Hi! I'd love some fish tacos. Drop some off at the saloon and I'll be very grateful.
   -Gus
 
@@ -926,7 +926,7 @@
       "Name": "jodi_eggplantparmesan",
       "Type": "ItemDelivery",
       "Title": "Tangy and cheesy",
-      "Description": "Hi everyone, I'd love to have some eggplant parmesan for me and my boys. Could someone in town spare the time to make it for me? I'll even pay you!
+      "Description": "Hi everyone, I'd love to have some eggplant parmesan for me and my boys. Could someone in town spare the time to make it for me? I'll pay!
   -Jodi
 
 -600g on delivery
@@ -974,7 +974,7 @@
       "Name": "marnie_farmerslunch",
       "Type": "ItemDelivery",
       "Title": "Energy meal",
-      "Description": "Howdy neighbors! I think a farmer's lunch would help me power through my day with more energy. Could you make one and swing it by for me?
+      "Description": "Howdy neighbors! I think a farmer's lunch would help me power through my day with more energy. Could someone make one and swing it by for me?
 
 -450g on delivery
 -Makes Marnie happy",
@@ -1069,7 +1069,7 @@
       "Name": "elliott_bakedfish",
       "Type": "ItemDelivery",
       "Title": "Baked fish",
-      "Description": "I've been craving some baked fish, longing for the herbs! Could someone make some for me?
+      "Description": "I've been craving some baked fish, longing for the herb concerto! Could someone make some for me?
   -Elliott
 
 -300g on delivery
@@ -1085,7 +1085,7 @@
       "Name": "robin_carpsurprise",
       "Type": "ItemDelivery",
       "Title": "Bland yet oily",
-      "Description": "It may be an acquired taste, but I like carp surprise! Can anyone make me some? I'll pay you for it!
+      "Description": "It may be an acquired taste, but I like carp surprise! Can anyone make me some? I'll pay!
   -Robin
 
 -450g on delivery
