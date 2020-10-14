@@ -394,7 +394,7 @@
       "DaysLeft": 5,
       "Reward": 450,
       "Cancelable": true,
-      "Trigger": "Linus 605",
+      "Trigger": "Linus 234",
       "ReactionText": "$hI'm grateful for this, Farmer @."
     },
     { // George fried mushroom in summer
@@ -458,7 +458,7 @@
       "DaysLeft": 5,
       "Reward": 825,
       "Cancelable": true,
-      "Trigger": "Elliott 218",
+      "Trigger": "Elliott 732",
       "ReactionText": "$hI can't wait to enjoy these crab cakes, thank you @!"
     },
     { // Gus escargot in summer
@@ -745,7 +745,7 @@
       "DaysLeft": 5,
       "Reward": 780,
       "Cancelable": true,
-      "Trigger": "George 727",
+      "Trigger": "George 604",
       "ReactionText": "$hThank you @, you've made an old man happy."
     },
     { // Gus fish taco in fall
