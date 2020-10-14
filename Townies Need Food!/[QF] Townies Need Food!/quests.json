@@ -638,7 +638,7 @@
       "ReactionText": "$hI appreciate you helping me stay healthy, @!"
     },
     { // Lewis autumn's bounty in fall
-      "Name": "lewis_autumnbounty",
+      "Name": "lewis_autumnsbounty",
       "Type": "ItemDelivery",
       "Title": "Taste of the season",
       "Description": "I'd love to have some yams and pumpkins together. Could someone prepare the autumn's bounty dish for me? I'll pay you for it!
@@ -1604,7 +1604,7 @@
 	       }
     }, 
     { // Lewis autumn's bounty in fall
-      "QuestName": "lewis_autumnbounty",
+      "QuestName": "lewis_autumnsbounty",
       "OfferedBy": "Bulletinboard",  
       "When": {
         //"KnownCookingRecipe": "Autumn's Bounty",
