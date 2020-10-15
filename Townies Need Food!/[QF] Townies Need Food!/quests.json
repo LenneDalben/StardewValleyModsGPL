@@ -525,6 +525,22 @@
       "Trigger": "Caroline 225",
       "ReactionText": "$hThank you, @! I appreciate it."
     },
+    { // Robin spaghetti in summer
+      "Name": "robin_spaghetti",
+      "Type": "ItemDelivery",
+      "Title": "Old favorite",
+      "Description": "I'd love some spaghetti. Can anyone make me some?
+  -Robin
+
+-360g on delivery
+-Makes Robin happy",
+      "Objective": "Bring spaghetti to Robin",
+      "DaysLeft": 5,
+      "Reward": 360,
+      "Cancelable": true,
+      "Trigger": "Robin 224",
+      "ReactionText": "$hLooks great, thank you @!"
+    },
     { // Pierre bruschetta in fall
       "Name": "pierre_bruschetta",
       "Type": "ItemDelivery",
@@ -1407,6 +1423,18 @@
         "Days": "14",
         "Seasons": "summer",
         //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year",
+        "EventSeen": "11102020"
+              }
+    },
+    { // Robin spaghetti in summer; decreased because there are quests on 14 and 16
+      "QuestName": "robin_spaghetti",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Spaghetti",
+        "Days": "15",
+        "Seasons": "summer",
+        //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
