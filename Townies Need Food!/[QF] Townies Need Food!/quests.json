@@ -541,6 +541,22 @@
       "Trigger": "Robin 224",
       "ReactionText": "$hLooks great, thank you @!"
     },
+    { // Willy maki roll in summer
+      "Name": "willy_makiroll",
+      "Type": "ItemDelivery",
+      "Title": "Fish and rice",
+      "Description": "Maki rolls are a simple delicious meal. I'll pay whoever can make me some!
+  -Willy
+
+-660g on delivery
+-Makes Willy happy",
+      "Objective": "Bring maki roll to Willy",
+      "DaysLeft": 5,
+      "Reward": 660,
+      "Cancelable": true,
+      "Trigger": "Willy 228",
+      "ReactionText": "$hThese look great, thanks @!"
+    },
     { // Pierre bruschetta in fall
       "Name": "pierre_bruschetta",
       "Type": "ItemDelivery",
@@ -1382,6 +1398,18 @@
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
+    },
+    { // Willy maki roll in summer; decreased because there are quests on 5 and 7
+      "QuestName": "willy_makiroll",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Maki Roll",
+        "Days": "6",
+        "Seasons": "summer",
+        //"Random": "10",
+        "not:QuestAcceptedInPeriod": "season year",
+        "EventSeen": "11102020"
+	            }
     },
     { // Caroline fish taco in summer
       "QuestName": "caroline_fishtaco",
