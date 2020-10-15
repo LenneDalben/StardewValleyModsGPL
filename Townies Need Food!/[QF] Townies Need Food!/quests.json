@@ -1113,6 +1113,22 @@
       "Trigger": "Robin 209",
       "ReactionText": "$hAh, thank you @!"
     },
+    { // Sam maple bar in winter
+      "Name": "sam_maplebar",
+      "Type": "ItemDelivery",
+      "Title": "Sweet donut",
+      "Description": "Maple bars are the bomb! Could someone make me one?
+  -Sam
+
+-900g on delivery
+-Sam will be pleased",
+      "Objective": "Bring maple bar to Sam",
+      "DaysLeft": 5,
+      "Reward": 900,
+      "Cancelable": true,
+      "Trigger": "Sam 731",
+      "ReactionText": "$hAwesome, thanks @!"
+    },
   ],
 "Offers": [
     { // Emily shrimp cocktail in spring
@@ -1771,6 +1787,18 @@
         "Days": "5",
         "Seasons": "winter",
         //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year",
+        "EventSeen": "11102020"
+              }
+    },
+    { // Sam maple bar in winter; decreased because there are quests on 5 and 7
+      "QuestName": "sam_maplebar",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Maple Bar",
+        "Days": "6",
+        "Seasons": "winter",
+        //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
