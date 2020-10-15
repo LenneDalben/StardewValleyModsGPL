@@ -1172,7 +1172,8 @@
         "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Harvey triple shot espresso in spring
@@ -1184,7 +1185,8 @@
         "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
                }
     },
     { // George chowder in spring
@@ -1196,7 +1198,8 @@
         "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Jodi pancakes in spring; decreased because there are quests on 5 and 7
@@ -1208,7 +1211,8 @@
         "Seasons": "spring",
         //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Sebastian sashimi in spring
@@ -1220,7 +1224,8 @@
         "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Pam hashbrowns in spring
@@ -1232,7 +1237,8 @@
         "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Demetrius bean hotpot in spring
@@ -1244,7 +1250,8 @@
         "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Marnie pink cake in spring; decreased because there's a quest on 11
@@ -1256,7 +1263,8 @@
         "Seasons": "spring",
         //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Harvey coleslaw in spring
@@ -1268,7 +1276,8 @@
         "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Maru miner's treat in spring; decreased because there's a quest on 17
@@ -1280,7 +1289,8 @@
         "Seasons": "spring",
         //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Demetrius ice cream in spring
@@ -1292,7 +1302,8 @@
         "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Leah salad in spring
@@ -1304,7 +1315,8 @@
         "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Willy omelet in spring
@@ -1316,7 +1328,8 @@
         "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Leah stir fry in spring
@@ -1328,7 +1341,8 @@
         "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Kent fiddlehead risotto in spring; decreased because it's the flower dance
@@ -1340,7 +1354,8 @@
         "Seasons": "spring",
         //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Pam parsnip soup in spring
@@ -1352,7 +1367,8 @@
         "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Alex salmon dinner in spring
@@ -1364,7 +1380,8 @@
         "Seasons": "spring",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Maru rhubarb pie in spring; decreased because there are quests on spring 26 and summer 1
@@ -1376,7 +1393,8 @@
         "Seasons": "spring",
         //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Clint bread in summer
@@ -1388,7 +1406,8 @@
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // George fried mushroom in summer
@@ -1400,7 +1419,8 @@
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Robin radish salad in summer
@@ -1412,7 +1432,8 @@
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Willy maki roll in summer; decreased because there are quests on 5 and 7
@@ -1424,7 +1445,8 @@
         "Seasons": "summer",
         //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
 	            }
     },
     { // Caroline fish taco in summer
@@ -1436,7 +1458,8 @@
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
 	            }
     },
     { // Penny poppyseed muffin in summer
@@ -1448,7 +1471,8 @@
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     }, 
     { // Haley fruit salad in summer; decreased because it's the luau
@@ -1460,7 +1484,8 @@
         "Seasons": "summer",
         //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Alex complete breakfast in summer
@@ -1472,7 +1497,8 @@
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
 	            }
     },
     { // Sam pizza in summer
@@ -1484,7 +1510,8 @@
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Robin spaghetti in summer; decreased because there are quests on 14 and 16
@@ -1496,7 +1523,8 @@
         "Seasons": "summer",
         //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     }, 
     { // Linus blueberry tart in summer
@@ -1508,7 +1536,8 @@
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     }, 
     { // Elliott crab cakes in summer
@@ -1520,7 +1549,8 @@
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     }, 
     { // Gus escargot in summer
@@ -1532,7 +1562,8 @@
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Pierre fried calamari in summer
@@ -1544,7 +1575,8 @@
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Shane pepper poppers in summer
@@ -1556,7 +1588,8 @@
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Wizard lucky lunch in summer; decreased because there are quests on 24 and 26
@@ -1568,7 +1601,8 @@
         "Seasons": "summer",
         //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Caroline fried eel in summer
@@ -1580,7 +1614,8 @@
         "Seasons": "summer",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Penny red plate in summer; decreased because it's the moonlight jellies
@@ -1592,7 +1627,8 @@
         "Seasons": "summer",
         //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Pierre bruschetta in fall
@@ -1604,7 +1640,8 @@
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Emily survival burger in fall
@@ -1616,7 +1653,8 @@
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Gus fish taco in fall
@@ -1628,7 +1666,8 @@
         "Seasons": "fall",
         //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Evelyn stuffing in fall
@@ -1640,7 +1679,8 @@
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Linus dish o' the sea in fall
@@ -1652,7 +1692,8 @@
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Lewis vegetable medley in fall
@@ -1664,7 +1705,8 @@
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Clint artickhoke dip in fall
@@ -1676,7 +1718,8 @@
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Haley cranberry candy in fall; decreased because there are quests on 11 and 13
@@ -1688,7 +1731,8 @@
         "Seasons": "fall",
         //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Abigail blackberry cobbler in fall
@@ -1700,7 +1744,8 @@
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
 	       }
     }, 
     { // Lewis autumn's bounty in fall
@@ -1712,7 +1757,8 @@
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // George plum pudding in fall
@@ -1724,7 +1770,8 @@
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Wizard cranberry sauce in fall
@@ -1736,7 +1783,8 @@
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Jodi crispy bass in fall; decreased because there are quests on 19 and 21
@@ -1748,7 +1796,8 @@
         "Seasons": "fall",
         //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Harvey super meal in fall
@@ -1760,7 +1809,8 @@
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Caroline lobster bisque in fall
@@ -1772,7 +1822,8 @@
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
 	            }
     },
     { // Pam glazed yams in fall
@@ -1784,7 +1835,8 @@
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Linus fish stew in fall; decreased because there's a quest on 25
@@ -1796,7 +1848,8 @@
         "Seasons": "fall",
         //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Sebastian pumpkin soup in fall
@@ -1808,7 +1861,8 @@
         "Seasons": "fall",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Wizard cookie in winter; decreased because fall 28 has a quest too
@@ -1820,7 +1874,8 @@
         "Seasons": "winter",
         //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Abigail spicy eel in winter
@@ -1832,7 +1887,8 @@
         "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Elliott tom kha soup in winter
@@ -1844,7 +1900,8 @@
         "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Sam maple bar in winter; decreased because there are quests on 5 and 7
@@ -1856,7 +1913,8 @@
         "Seasons": "winter",
         //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Marnie pumpkin pie in winter
@@ -1868,7 +1926,8 @@
         "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Evelyn chocolate cake in winter; decreased because it's the ice festival
@@ -1880,7 +1939,8 @@
         "Seasons": "winter",
         //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Willy trout soup in winter
@@ -1892,7 +1952,8 @@
         "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Alex fried egg in winter
@@ -1904,7 +1965,8 @@
         "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Jodi eggplant parmesan in winter
@@ -1916,7 +1978,8 @@
         "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Elliott baked fish in winter; decreased because there are quests on 13 and 15
@@ -1928,7 +1991,8 @@
         "Seasons": "winter",
         //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Kent roasted hazelnuts in winter
@@ -1940,7 +2004,8 @@
         "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Shane pizza in winter
@@ -1952,7 +2017,8 @@
         "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Marnie farmer's lunch in winter
@@ -1964,7 +2030,8 @@
         "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Demetrius rice pudding in winter; decreased because there are quests on 19 and 21
@@ -1976,7 +2043,8 @@
         "Seasons": "winter",
         //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Penny roots platter in winter
@@ -1988,7 +2056,8 @@
         "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Sam tortilla in winter
@@ -2000,7 +2069,8 @@
         "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Maru cheese cauliflower in winter
@@ -2012,7 +2082,8 @@
         "Seasons": "winter",
         //"Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Robin carp surprise in winter; decreased because there are quests on 26 and 28
@@ -2024,7 +2095,8 @@
         "Seasons": "winter",
         //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
     { // Krobus seafoam pudding in winter; decreased because spring 1 has a quest too
@@ -2036,7 +2108,8 @@
         "Seasons": "winter",
         //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "11102020",
+        "QuestNeverCompleted": "yes"
               }
     },
 	]
