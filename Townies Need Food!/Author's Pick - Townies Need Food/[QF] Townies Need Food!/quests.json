@@ -1170,7 +1170,7 @@
         //"KnownCookingRecipe": "Shrimp Cocktail",
         "Days": "1",
         "Seasons": "spring",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1182,7 +1182,7 @@
         //"KnownCookingRecipe": "Triple Shot Espresso",
         "Days": "3",
         "Seasons": "spring",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
                }
@@ -1194,7 +1194,7 @@
         //"KnownCookingRecipe": "Chowder",
         "Days": "5",
         "Seasons": "spring",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1206,7 +1206,7 @@
         //"KnownCookingRecipe": "Pancakes",
         "Days": "6",
         "Seasons": "spring",
-        "Random": "10",
+        "Random": "40",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1218,7 +1218,7 @@
         //"KnownCookingRecipe": "Sashimi",
         "Days": "7",
         "Seasons": "spring",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1230,7 +1230,7 @@
         //"KnownCookingRecipe": "Hashbrowns",
         "Days": "9",
         "Seasons": "spring",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1242,7 +1242,7 @@
         //"KnownCookingRecipe": "Bean Hotpot",
         "Days": "11",
         "Seasons": "spring",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1254,7 +1254,7 @@
         //"KnownCookingRecipe": "Pink Cake",
         "Days": "12",
         "Seasons": "spring",
-        "Random": "10",
+        "Random": "40",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1266,7 +1266,7 @@
         //"KnownCookingRecipe": "Coleslaw",
         "Days": "14",
         "Seasons": "spring",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1278,7 +1278,7 @@
         //"KnownCookingRecipe": "Miner's Treat",
         "Days": "16",
         "Seasons": "spring",
-        "Random": "10",
+        "Random": "40",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1290,7 +1290,7 @@
         //"KnownCookingRecipe": "Ice Cream",
         "Days": "17",
         "Seasons": "spring",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1302,7 +1302,7 @@
         //"KnownCookingRecipe": "Salad",
         "Days": "19",
         "Seasons": "spring",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1314,7 +1314,7 @@
         //"KnownCookingRecipe": "Omelet",
         "Days": "21",
         "Seasons": "spring",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1326,7 +1326,7 @@
         //"KnownCookingRecipe": "Stir Fry",
         "Days": "23",
         "Seasons": "spring",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1338,7 +1338,7 @@
         //"KnownCookingRecipe": "Fiddlehead Risotto",
         "Days": "24",
         "Seasons": "spring",
-        "Random": "10",
+        "Random": "40",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1350,7 +1350,7 @@
         //"KnownCookingRecipe": "Parsnip Soup",
         "Days": "25",
         "Seasons": "spring",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1362,7 +1362,7 @@
         //"KnownCookingRecipe": "Salmon Dinner",
         "Days": "27",
         "Seasons": "spring",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1374,7 +1374,7 @@
         //"KnownCookingRecipe": "Rhubarb Pie",
         "Days": "28",
         "Seasons": "spring",
-        "Random": "10",
+        "Random": "40",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1386,7 +1386,7 @@
         //"KnownCookingRecipe": "Bread",
         "Days": "1",
         "Seasons": "summer",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1398,7 +1398,7 @@
         //"KnownCookingRecipe": "Fried Mushroom",
         "Days": "3",
         "Seasons": "summer",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1410,7 +1410,7 @@
         //"KnownCookingRecipe": "Radish Salad",
         "Days": "5",
         "Seasons": "summer",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1422,7 +1422,7 @@
         //"KnownCookingRecipe": "Maki Roll",
         "Days": "6",
         "Seasons": "summer",
-        "Random": "10",
+        "Random": "40",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
 	            }
@@ -1434,7 +1434,7 @@
         //"KnownCookingRecipe": "Fish Taco",
         "Days": "7",
         "Seasons": "summer",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
 	            }
@@ -1446,7 +1446,7 @@
         //"KnownCookingRecipe": "Poppyseed Muffin",
         "Days": "9",
         "Seasons": "summer",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1458,7 +1458,7 @@
         //"KnownCookingRecipe": "Fruit Salad",
         "Days": "11",
         "Seasons": "summer",
-        "Random": "10",
+        "Random": "40",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1470,7 +1470,7 @@
         //"KnownCookingRecipe": "Complete Breakfast",
         "Days": "12",
         "Seasons": "summer",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
 	            }
@@ -1482,7 +1482,7 @@
         //"KnownCookingRecipe": "Pizza",
         "Days": "14",
         "Seasons": "summer",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1494,7 +1494,7 @@
         //"KnownCookingRecipe": "Spaghetti",
         "Days": "15",
         "Seasons": "summer",
-        "Random": "10",
+        "Random": "40",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1506,7 +1506,7 @@
         //"KnownCookingRecipe": "Blueberry Tart",
         "Days": "16",
         "Seasons": "summer",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1518,7 +1518,7 @@
         //"KnownCookingRecipe": "Crab Cakes",
         "Days": "18",
         "Seasons": "summer",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1530,7 +1530,7 @@
         //"KnownCookingRecipe": "Escargot",
         "Days": "20",
         "Seasons": "summer",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1542,7 +1542,7 @@
         //"KnownCookingRecipe": "Fried Calamari",
         "Days": "22",
         "Seasons": "summer",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1554,7 +1554,7 @@
         //"KnownCookingRecipe": "Pepper Poppers",
         "Days": "24",
         "Seasons": "summer",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1566,7 +1566,7 @@
         //"KnownCookingRecipe": "Lucky Lunch",
         "Days": "25",
         "Seasons": "summer",
-        "Random": "10",
+        "Random": "40",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1578,7 +1578,7 @@
         //"KnownCookingRecipe": "Fried Eel",
         "Days": "26",
         "Seasons": "summer",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1590,7 +1590,7 @@
         //"KnownCookingRecipe": "Red Plate",
         "Days": "28",
         "Seasons": "summer",
-        "Random": "10",
+        "Random": "40",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1602,7 +1602,7 @@
         //"KnownCookingRecipe": "Bruschetta",
         "Days": "1",
         "Seasons": "fall",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1614,7 +1614,7 @@
         //"KnownCookingRecipe": "Survival Burger",
         "Days": "3",
         "Seasons": "fall",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1626,7 +1626,7 @@
         //"KnownCookingRecipe": "Fish Taco",
         "Days": "4",
         "Seasons": "fall",
-        "Random": "10",
+        "Random": "40",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1638,7 +1638,7 @@
         //"KnownCookingRecipe": "Stuffing",
         "Days": "5",
         "Seasons": "fall",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1650,7 +1650,7 @@
         //"KnownCookingRecipe": "Dish o' The Sea",
         "Days": "7",
         "Seasons": "fall",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1662,7 +1662,7 @@
         //"KnownCookingRecipe": "Vegetable Medley",
         "Days": "9",
         "Seasons": "fall",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1674,7 +1674,7 @@
         //"KnownCookingRecipe": "Artichoke Dip",
         "Days": "11",
         "Seasons": "fall",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1686,7 +1686,7 @@
         //"KnownCookingRecipe": "Cranberry Candy",
         "Days": "12",
         "Seasons": "fall",
-        "Random": "10",
+        "Random": "40",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1698,7 +1698,7 @@
         //"KnownCookingRecipe": "Blackberry Cobbler",
         "Days": "13",
         "Seasons": "fall",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
 	       }
@@ -1710,7 +1710,7 @@
         //"KnownCookingRecipe": "Autumn's Bounty",
         "Days": "15",
         "Seasons": "fall",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1722,7 +1722,7 @@
         //"KnownCookingRecipe": "Plum Pudding",
         "Days": "17",
         "Seasons": "fall",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1734,7 +1734,7 @@
         //"KnownCookingRecipe": "Cranberry Sauce",
         "Days": "19",
         "Seasons": "fall",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1746,7 +1746,7 @@
         //"KnownCookingRecipe": "Crispy Bass",
         "Days": "20",
         "Seasons": "fall",
-        "Random": "10",
+        "Random": "40",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1758,7 +1758,7 @@
         //"KnownCookingRecipe": "Super Meal",
         "Days": "21",
         "Seasons": "fall",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1770,7 +1770,7 @@
         //"KnownCookingRecipe": "Lobster Bisque",
         "Days": "23",
         "Seasons": "fall",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
 	            }
@@ -1782,7 +1782,7 @@
         //"KnownCookingRecipe": "Glazed Yams",
         "Days": "25",
         "Seasons": "fall",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1794,7 +1794,7 @@
         //"KnownCookingRecipe": "Fish Stew",
         "Days": "26",
         "Seasons": "fall",
-        "Random": "10",
+        "Random": "40",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1806,7 +1806,7 @@
         //"KnownCookingRecipe": "Pumpkin Soup",
         "Days": "28",
         "Seasons": "fall",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1818,7 +1818,7 @@
         //"KnownCookingRecipe": "Cookie",
         "Days": "1",
         "Seasons": "winter",
-        "Random": "10",
+        "Random": "40",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1830,7 +1830,7 @@
         //"KnownCookingRecipe": "Spicy Eel",
         "Days": "3",
         "Seasons": "winter",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1842,7 +1842,7 @@
         //"KnownCookingRecipe": "Tom Kha Soup",
         "Days": "5",
         "Seasons": "winter",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1854,7 +1854,7 @@
         //"KnownCookingRecipe": "Maple Bar",
         "Days": "6",
         "Seasons": "winter",
-        "Random": "10",
+        "Random": "40",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1866,7 +1866,7 @@
         //"KnownCookingRecipe": "Pumpkin Pie",
         "Days": "7",
         "Seasons": "winter",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1878,7 +1878,7 @@
         //"KnownCookingRecipe": "Chocolate Cake",
         "Days": "8",
         "Seasons": "winter",
-        "Random": "10",
+        "Random": "40",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1890,7 +1890,7 @@
         //"KnownCookingRecipe": "Trout Soup",
         "Days": "9",
         "Seasons": "winter",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1902,7 +1902,7 @@
         //"KnownCookingRecipe": "Fried Egg",
         "Days": "11",
         "Seasons": "winter",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1914,7 +1914,7 @@
         //"KnownCookingRecipe": "Eggplant Parmesan",
         "Days": "13",
         "Seasons": "winter",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1926,7 +1926,7 @@
         //"KnownCookingRecipe": "Baked Fish",
         "Days": "14",
         "Seasons": "winter",
-        "Random": "10",
+        "Random": "40",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1938,7 +1938,7 @@
         //"KnownCookingRecipe": "Roasted Hazelnuts",
         "Days": "15",
         "Seasons": "winter",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1950,7 +1950,7 @@
         //"KnownCookingRecipe": "Pizza",
         "Days": "17",
         "Seasons": "winter",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1962,7 +1962,7 @@
         //"KnownCookingRecipe": "Farmer's Lunch",
         "Days": "19",
         "Seasons": "winter",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1974,7 +1974,7 @@
         //"KnownCookingRecipe": "Rice Pudding",
         "Days": "20",
         "Seasons": "winter",
-        "Random": "10",
+        "Random": "40",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1986,7 +1986,7 @@
         //"KnownCookingRecipe": "Roots Platter",
         "Days": "21",
         "Seasons": "winter",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -1998,7 +1998,7 @@
         //"KnownCookingRecipe": "Tortilla",
         "Days": "23",
         "Seasons": "winter",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -2010,7 +2010,7 @@
         //"KnownCookingRecipe": "Cheese Cauliflower",
         "Days": "26",
         "Seasons": "winter",
-        "Random": "30",
+        "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -2022,7 +2022,7 @@
         //"KnownCookingRecipe": "Carp Surprise",
         "Days": "27",
         "Seasons": "winter",
-        "Random": "10",
+        "Random": "40",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
@@ -2034,7 +2034,7 @@
         //"KnownCookingRecipe": "Seafoam Pudding",
         "Days": "28",
         "Seasons": "winter",
-        "Random": "10",
+        "Random": "40",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
