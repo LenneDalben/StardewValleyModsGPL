@@ -557,6 +557,22 @@
       "Trigger": "Willy 228",
       "ReactionText": "$hThese look great, thanks @!"
     },
+    { // Wizard lucky lunch in summer
+      "Name": "wizard_luckylunch",
+      "Type": "ItemDelivery",
+      "Title": "A special meal",
+      "Description": "Local wizard in search of a magnificent lucky lunch. It has very interesting properties, you know.
+  -M. Rasmodius =
+
+-750g on delivery
+-Wizard will be thankful",
+      "Objective": "Bring lucky lunch to Wizard",
+      "DaysLeft": 5,
+      "Reward": 750,
+      "Cancelable": true,
+      "Trigger": "Wizard 204",
+      "ReactionText": "$hExcellent, thank you @!"
+    },
     { // Pierre bruschetta in fall
       "Name": "pierre_bruschetta",
       "Type": "ItemDelivery",
@@ -1539,6 +1555,18 @@
         "Days": "24",
         "Seasons": "summer",
         //"Random": "30",
+        "not:QuestAcceptedInPeriod": "season year",
+        "EventSeen": "11102020"
+              }
+    },
+    { // Wizard lucky lunch in summer; decreased because there are quests on 24 and 26
+      "QuestName": "wizard_luckylunch",
+      "OfferedBy": "Bulletinboard",  
+      "When": {
+        //"KnownCookingRecipe": "Lucky Lunch",
+        "Days": "25",
+        "Seasons": "summer",
+        //"Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
         "EventSeen": "11102020"
               }
