@@ -1,0 +1,36 @@
+{
+  "Format": "1.18.0",
+  "DynamicTokens": [
+    {
+      "Name": "PlayerHasKitchen",
+      "Value": "false"
+    },
+    {
+      "Name": "PlayerHasKitchen",
+      "Value": "true",
+      "When": {
+        "FarmhouseUpgrade": "1,2,3"
+      }
+    },
+    {
+      "Name": "PlayerHasKitchen",
+      "Value": "true",
+      "When": {
+        "HasMod": "Froststar11.CustomFarmhouse, Allayna.Kitchen, burakmese.products"
+      }
+    }
+  ],
+  "Changes": [
+    {
+      "LogName": "Flag for having kitchen",
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+      "Entries": {
+        "11102020/x QFHasKitchen": "null",
+      },
+        "When": {
+          "PlayerHasKitchen": true
+        }
+      }
+  ]
+}
