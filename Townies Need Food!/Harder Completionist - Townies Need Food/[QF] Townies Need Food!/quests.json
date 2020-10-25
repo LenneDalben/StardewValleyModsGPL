@@ -1167,7 +1167,7 @@
       "QuestName": "emily_shrimpcocktail",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Shrimp Cocktail",
+        "KnownCookingRecipe": "Shrimp Cocktail",
         "Days": "1",
         "Seasons": "spring",
         "Random": "30",
@@ -1180,7 +1180,7 @@
       "QuestName": "harvey_tripleshot",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Triple Shot Espresso",
+        "KnownCookingRecipe": "Triple Shot Espresso",
         "Days": "3",
         "Seasons": "spring",
         "Random": "30",
@@ -1193,7 +1193,7 @@
       "QuestName": "george_chowder",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Chowder",
+        "KnownCookingRecipe": "Chowder",
         "Days": "5",
         "Seasons": "spring",
         "Random": "30",
@@ -1206,7 +1206,7 @@
       "QuestName": "jodi_pancakes",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Pancakes",
+        "KnownCookingRecipe": "Pancakes",
         "Days": "6",
         "Seasons": "spring",
         "Random": "10",
@@ -1219,7 +1219,7 @@
       "QuestName": "sebastian_sashimi",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Sashimi",
+        "KnownCookingRecipe": "Sashimi",
         "Days": "7",
         "Seasons": "spring",
         "Random": "30",
@@ -1232,7 +1232,7 @@
       "QuestName": "pam_hashbrowns",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Hashbrowns",
+        "KnownCookingRecipe": "Hashbrowns",
         "Days": "9",
         "Seasons": "spring",
         "Random": "30",
@@ -1245,7 +1245,7 @@
       "QuestName": "demetrius_beanhotpot",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Bean Hotpot",
+        "KnownCookingRecipe": "Bean Hotpot",
         "Days": "11",
         "Seasons": "spring",
         "Random": "30",
@@ -1258,7 +1258,7 @@
       "QuestName": "marnie_pinkcake",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Pink Cake",
+        "KnownCookingRecipe": "Pink Cake",
         "Days": "12",
         "Seasons": "spring",
         "Random": "10",
@@ -1271,7 +1271,7 @@
       "QuestName": "harvey_coleslaw",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Coleslaw",
+        "KnownCookingRecipe": "Coleslaw",
         "Days": "14",
         "Seasons": "spring",
         "Random": "30",
@@ -1284,7 +1284,7 @@
       "QuestName": "maru_minerstreat",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Miner's Treat",
+        "KnownCookingRecipe": "Miner's Treat",
         "Days": "16",
         "Seasons": "spring",
         "Random": "10",
@@ -1297,7 +1297,7 @@
       "QuestName": "demetrius_icecream",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Ice Cream",
+        "KnownCookingRecipe": "Ice Cream",
         "Days": "17",
         "Seasons": "spring",
         "Random": "30",
@@ -1310,7 +1310,7 @@
       "QuestName": "leah_salad",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Salad",
+        "KnownCookingRecipe": "Salad",
         "Days": "19",
         "Seasons": "spring",
         "Random": "30",
@@ -1323,7 +1323,7 @@
       "QuestName": "willy_omelet",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Omelet",
+        "KnownCookingRecipe": "Omelet",
         "Days": "21",
         "Seasons": "spring",
         "Random": "30",
@@ -1336,7 +1336,7 @@
       "QuestName": "leah_stirfry",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Stir Fry",
+        "KnownCookingRecipe": "Stir Fry",
         "Days": "23",
         "Seasons": "spring",
         "Random": "30",
@@ -1349,7 +1349,7 @@
       "QuestName": "kent_fiddleheadrisotto",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Fiddlehead Risotto",
+        "KnownCookingRecipe": "Fiddlehead Risotto",
         "Days": "24",
         "Seasons": "spring",
         "Random": "10",
@@ -1362,7 +1362,7 @@
       "QuestName": "pam_parsnipsoup",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Parsnip Soup",
+        "KnownCookingRecipe": "Parsnip Soup",
         "Days": "25",
         "Seasons": "spring",
         "Random": "30",
@@ -1375,7 +1375,7 @@
       "QuestName": "alex_salmondinner",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Salmon Dinner",
+        "KnownCookingRecipe": "Salmon Dinner",
         "Days": "27",
         "Seasons": "spring",
         "Random": "30",
@@ -1388,7 +1388,7 @@
       "QuestName": "maru_rhubarbpie",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Rhubarb Pie",
+        "KnownCookingRecipe": "Rhubarb Pie",
         "Days": "28",
         "Seasons": "spring",
         "Random": "10",
@@ -1401,7 +1401,7 @@
       "QuestName": "clint_bread",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Bread",
+        "KnownCookingRecipe": "Bread",
         "Days": "1",
         "Seasons": "summer",
         "Random": "30",
@@ -1414,7 +1414,7 @@
       "QuestName": "george_friedmushroom",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Fried Mushroom",
+        "KnownCookingRecipe": "Fried Mushroom",
         "Days": "3",
         "Seasons": "summer",
         "Random": "30",
@@ -1427,7 +1427,7 @@
       "QuestName": "robin_radishsalad",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Radish Salad",
+        "KnownCookingRecipe": "Radish Salad",
         "Days": "5",
         "Seasons": "summer",
         "Random": "30",
@@ -1440,7 +1440,7 @@
       "QuestName": "willy_makiroll",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Maki Roll",
+        "KnownCookingRecipe": "Maki Roll",
         "Days": "6",
         "Seasons": "summer",
         "Random": "10",
@@ -1453,7 +1453,7 @@
       "QuestName": "caroline_fishtaco",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Fish Taco",
+        "KnownCookingRecipe": "Fish Taco",
         "Days": "7",
         "Seasons": "summer",
         "Random": "30",
@@ -1466,7 +1466,7 @@
       "QuestName": "penny_poppyseedmuffin",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Poppyseed Muffin",
+        "KnownCookingRecipe": "Poppyseed Muffin",
         "Days": "9",
         "Seasons": "summer",
         "Random": "30",
@@ -1479,7 +1479,7 @@
       "QuestName": "haley_fruitsalad",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Fruit Salad",
+        "KnownCookingRecipe": "Fruit Salad",
         "Days": "11",
         "Seasons": "summer",
         "Random": "10",
@@ -1492,7 +1492,7 @@
       "QuestName": "alex_completebreakfast",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Complete Breakfast",
+        "KnownCookingRecipe": "Complete Breakfast",
         "Days": "12",
         "Seasons": "summer",
         "Random": "30",
@@ -1505,7 +1505,7 @@
       "QuestName": "sam_pizza",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Pizza",
+        "KnownCookingRecipe": "Pizza",
         "Days": "14",
         "Seasons": "summer",
         "Random": "30",
@@ -1518,7 +1518,7 @@
       "QuestName": "robin_spaghetti",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Spaghetti",
+        "KnownCookingRecipe": "Spaghetti",
         "Days": "15",
         "Seasons": "summer",
         "Random": "10",
@@ -1531,7 +1531,7 @@
       "QuestName": "linus_blueberrytart",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Blueberry Tart",
+        "KnownCookingRecipe": "Blueberry Tart",
         "Days": "16",
         "Seasons": "summer",
         "Random": "30",
@@ -1544,7 +1544,7 @@
       "QuestName": "elliott_crabcakes",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Crab Cakes",
+        "KnownCookingRecipe": "Crab Cakes",
         "Days": "18",
         "Seasons": "summer",
         "Random": "30",
@@ -1557,7 +1557,7 @@
       "QuestName": "gus_escargot",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Escargot",
+        "KnownCookingRecipe": "Escargot",
         "Days": "20",
         "Seasons": "summer",
         "Random": "30",
@@ -1570,7 +1570,7 @@
       "QuestName": "pierre_friedcalamari",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Fried Calamari",
+        "KnownCookingRecipe": "Fried Calamari",
         "Days": "22",
         "Seasons": "summer",
         "Random": "30",
@@ -1583,7 +1583,7 @@
       "QuestName": "shane_pepperpoppers",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Pepper Poppers",
+        "KnownCookingRecipe": "Pepper Poppers",
         "Days": "24",
         "Seasons": "summer",
         "Random": "30",
@@ -1596,7 +1596,7 @@
       "QuestName": "wizard_luckylunch",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Lucky Lunch",
+        "KnownCookingRecipe": "Lucky Lunch",
         "Days": "25",
         "Seasons": "summer",
         "Random": "10",
@@ -1609,7 +1609,7 @@
       "QuestName": "caroline_friedeel",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Fried Eel",
+        "KnownCookingRecipe": "Fried Eel",
         "Days": "26",
         "Seasons": "summer",
         "Random": "30",
@@ -1622,7 +1622,7 @@
       "QuestName": "penny_redplate",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Red Plate",
+        "KnownCookingRecipe": "Red Plate",
         "Days": "28",
         "Seasons": "summer",
         "Random": "10",
@@ -1635,7 +1635,7 @@
       "QuestName": "pierre_bruschetta",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Bruschetta",
+        "KnownCookingRecipe": "Bruschetta",
         "Days": "1",
         "Seasons": "fall",
         "Random": "30",
@@ -1648,7 +1648,7 @@
       "QuestName": "emily_survivalburger",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Survival Burger",
+        "KnownCookingRecipe": "Survival Burger",
         "Days": "3",
         "Seasons": "fall",
         "Random": "30",
@@ -1661,7 +1661,7 @@
       "QuestName": "gus_fishtaco",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Fish Taco",
+        "KnownCookingRecipe": "Fish Taco",
         "Days": "4",
         "Seasons": "fall",
         "Random": "10",
@@ -1674,7 +1674,7 @@
       "QuestName": "evelyn_stuffing",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Stuffing",
+        "KnownCookingRecipe": "Stuffing",
         "Days": "5",
         "Seasons": "fall",
         "Random": "30",
@@ -1687,7 +1687,7 @@
       "QuestName": "linus_dishothesea",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Dish o' The Sea",
+        "KnownCookingRecipe": "Dish o' The Sea",
         "Days": "7",
         "Seasons": "fall",
         "Random": "30",
@@ -1700,7 +1700,7 @@
       "QuestName": "lewis_veggiemedley",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Vegetable Medley",
+        "KnownCookingRecipe": "Vegetable Medley",
         "Days": "9",
         "Seasons": "fall",
         "Random": "30",
@@ -1713,7 +1713,7 @@
       "QuestName": "clint_artichokedip",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Artichoke Dip",
+        "KnownCookingRecipe": "Artichoke Dip",
         "Days": "11",
         "Seasons": "fall",
         "Random": "30",
@@ -1726,7 +1726,7 @@
       "QuestName": "haley_cranberrycandy",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Cranberry Candy",
+        "KnownCookingRecipe": "Cranberry Candy",
         "Days": "12",
         "Seasons": "fall",
         "Random": "10",
@@ -1739,7 +1739,7 @@
       "QuestName": "abigail_blackberrycobbler",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Blackberry Cobbler",
+        "KnownCookingRecipe": "Blackberry Cobbler",
         "Days": "13",
         "Seasons": "fall",
         "Random": "30",
@@ -1752,7 +1752,7 @@
       "QuestName": "lewis_autumnsbounty",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Autumn's Bounty",
+        "KnownCookingRecipe": "Autumn's Bounty",
         "Days": "15",
         "Seasons": "fall",
         "Random": "30",
@@ -1765,7 +1765,7 @@
       "QuestName": "george_plumpudding",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Plum Pudding",
+        "KnownCookingRecipe": "Plum Pudding",
         "Days": "17",
         "Seasons": "fall",
         "Random": "30",
@@ -1778,7 +1778,7 @@
       "QuestName": "wizard_cransauce",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Cranberry Sauce",
+        "KnownCookingRecipe": "Cranberry Sauce",
         "Days": "19",
         "Seasons": "fall",
         "Random": "30",
@@ -1791,7 +1791,7 @@
       "QuestName": "jodi_crispybass",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Crispy Bass",
+        "KnownCookingRecipe": "Crispy Bass",
         "Days": "20",
         "Seasons": "fall",
         "Random": "10",
@@ -1804,7 +1804,7 @@
       "QuestName": "harvey_supermeal",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Super Meal",
+        "KnownCookingRecipe": "Super Meal",
         "Days": "21",
         "Seasons": "fall",
         "Random": "30",
@@ -1817,7 +1817,7 @@
       "QuestName": "caroline_lobsterbisque",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Lobster Bisque",
+        "KnownCookingRecipe": "Lobster Bisque",
         "Days": "23",
         "Seasons": "fall",
         "Random": "30",
@@ -1830,7 +1830,7 @@
       "QuestName": "pam_glazedyams",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Glazed Yams",
+        "KnownCookingRecipe": "Glazed Yams",
         "Days": "25",
         "Seasons": "fall",
         "Random": "30",
@@ -1843,7 +1843,7 @@
       "QuestName": "linus_fishstew",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Fish Stew",
+        "KnownCookingRecipe": "Fish Stew",
         "Days": "26",
         "Seasons": "fall",
         "Random": "10",
@@ -1856,7 +1856,7 @@
       "QuestName": "sebastian_pumpkinsoup",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Pumpkin Soup",
+        "KnownCookingRecipe": "Pumpkin Soup",
         "Days": "28",
         "Seasons": "fall",
         "Random": "30",
@@ -1869,7 +1869,7 @@
       "QuestName": "wizard_cookie",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Cookie",
+        "KnownCookingRecipe": "Cookie",
         "Days": "1",
         "Seasons": "winter",
         "Random": "10",
@@ -1882,7 +1882,7 @@
       "QuestName": "abigail_spicyeel",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Spicy Eel",
+        "KnownCookingRecipe": "Spicy Eel",
         "Days": "3",
         "Seasons": "winter",
         "Random": "30",
@@ -1895,7 +1895,7 @@
       "QuestName": "elliott_tomkhasoup",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Tom Kha Soup",
+        "KnownCookingRecipe": "Tom Kha Soup",
         "Days": "5",
         "Seasons": "winter",
         "Random": "30",
@@ -1908,7 +1908,7 @@
       "QuestName": "sam_maplebar",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Maple Bar",
+        "KnownCookingRecipe": "Maple Bar",
         "Days": "6",
         "Seasons": "winter",
         "Random": "10",
@@ -1921,7 +1921,7 @@
       "QuestName": "marnie_pumpkinpie",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Pumpkin Pie",
+        "KnownCookingRecipe": "Pumpkin Pie",
         "Days": "7",
         "Seasons": "winter",
         "Random": "30",
@@ -1934,7 +1934,7 @@
       "QuestName": "evelyn_chocolatecake",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Chocolate Cake",
+        "KnownCookingRecipe": "Chocolate Cake",
         "Days": "8",
         "Seasons": "winter",
         "Random": "10",
@@ -1947,7 +1947,7 @@
       "QuestName": "willy_troutsoup",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Trout Soup",
+        "KnownCookingRecipe": "Trout Soup",
         "Days": "9",
         "Seasons": "winter",
         "Random": "30",
@@ -1960,7 +1960,7 @@
       "QuestName": "alex_friedegg",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Fried Egg",
+        "KnownCookingRecipe": "Fried Egg",
         "Days": "11",
         "Seasons": "winter",
         "Random": "30",
@@ -1973,7 +1973,7 @@
       "QuestName": "jodi_eggplantparmesan",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Eggplant Parmesan",
+        "KnownCookingRecipe": "Eggplant Parmesan",
         "Days": "13",
         "Seasons": "winter",
         "Random": "30",
@@ -1986,7 +1986,7 @@
       "QuestName": "elliott_bakedfish",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Baked Fish",
+        "KnownCookingRecipe": "Baked Fish",
         "Days": "14",
         "Seasons": "winter",
         "Random": "10",
@@ -1999,7 +1999,7 @@
       "QuestName": "kent_roastedhazelnuts",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Roasted Hazelnuts",
+        "KnownCookingRecipe": "Roasted Hazelnuts",
         "Days": "15",
         "Seasons": "winter",
         "Random": "30",
@@ -2012,7 +2012,7 @@
       "QuestName": "shane_pizza",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Pizza",
+        "KnownCookingRecipe": "Pizza",
         "Days": "17",
         "Seasons": "winter",
         "Random": "30",
@@ -2025,7 +2025,7 @@
       "QuestName": "marnie_farmerslunch",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Farmer's Lunch",
+        "KnownCookingRecipe": "Farmer's Lunch",
         "Days": "19",
         "Seasons": "winter",
         "Random": "30",
@@ -2038,7 +2038,7 @@
       "QuestName": "demetrius_ricepudding",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Rice Pudding",
+        "KnownCookingRecipe": "Rice Pudding",
         "Days": "20",
         "Seasons": "winter",
         "Random": "10",
@@ -2051,7 +2051,7 @@
       "QuestName": "penny_rootsplatter",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Roots Platter",
+        "KnownCookingRecipe": "Roots Platter",
         "Days": "21",
         "Seasons": "winter",
         "Random": "30",
@@ -2064,7 +2064,7 @@
       "QuestName": "sam_tortilla",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Tortilla",
+        "KnownCookingRecipe": "Tortilla",
         "Days": "23",
         "Seasons": "winter",
         "Random": "30",
@@ -2077,7 +2077,7 @@
       "QuestName": "maru_cheesecauliflower",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Cheese Cauliflower",
+        "KnownCookingRecipe": "Cheese Cauliflower",
         "Days": "26",
         "Seasons": "winter",
         "Random": "30",
@@ -2090,7 +2090,7 @@
       "QuestName": "robin_carpsurprise",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Carp Surprise",
+        "KnownCookingRecipe": "Carp Surprise",
         "Days": "27",
         "Seasons": "winter",
         "Random": "10",
@@ -2103,7 +2103,7 @@
       "QuestName": "krobus_seafoampudding",
       "OfferedBy": "Bulletinboard",  
       "When": {
-        //"KnownCookingRecipe": "Seafoam Pudding",
+        "KnownCookingRecipe": "Seafoam Pudding",
         "Days": "28",
         "Seasons": "winter",
         "Random": "10",
