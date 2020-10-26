@@ -1,7 +1,7 @@
 {
-  "Name": "[QF] Author's Pick - Townies Need Food!",
+  "Name": "[QF] Main File - Townies Need Food!",
   "Author": "LenneDalben",
-  "Version": "0.1.0-authorspick",
+  "Version": "1.0",
   "Description": "NPCs in town request cooked meals in the bulletin board, after you've unlocked the recipe!",
   "UniqueID": "LenneDalben.QF.TowniesNeedFood",
   "MinimumApiVersion": "3.6.1",
