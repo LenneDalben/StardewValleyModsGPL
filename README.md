@@ -1,6 +1,10 @@
 # LenneDalben's Stardew Valley Mods (with GPL License)
 Welcome to the respository of my mods for Stardew Valley that have a GPL License!
 
+<a href="https://github.com/LenneDalben/StardewValleyModsGPL/blob/main/Townies%20Need%20Food!">(QF) Townies Need Food</a> | <a href="https://www.nexusmods.com/stardewvalley/mods/6534">Nexus Download</a>
+
+Villagers request cooked meals on the bulletin board, after you've learned the recipe and have a kitchen! Also checks if you have a mod that adds a kitchen to the first farmhouse.
+
 <a href="https://github.com/LenneDalben/StardewValleyMods/tree/master/%5BCP%5D%20Adventurer's%20Bundle%20to%20Gemologist's%20Bundle">(CP) Adventurer's Bundle to Gemologist's Bundle</a> | <a href="https://www.nexusmods.com/stardewvalley/mods/6651">Nexus Download</a>
 
 Changes the Adventurer's Bundle to instead be the Gemologist's Bundle, requiring gemstones instead of monster loot.
