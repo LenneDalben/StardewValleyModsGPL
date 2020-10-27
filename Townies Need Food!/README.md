@@ -1,2 +1,2 @@
 # (QF) Townies Need Food!
-This mod is in development. The idea is to have the villagers in town request cooked meals (via bulletin board, but potentially also mail). The rewards are they pay 3 times the sell price of the item, and also some friendship gain with the villager.
+Villagers request cooked meals on the bulletin board, after you've learned the recipe and have a kitchen! Also checks if you have a mod that adds a kitchen to the first farmhouse. <a href="https://www.nexusmods.com/stardewvalley/mods/6534">Nexus download</a>
