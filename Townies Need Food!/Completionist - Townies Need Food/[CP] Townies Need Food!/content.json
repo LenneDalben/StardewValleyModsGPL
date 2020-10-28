@@ -16,7 +16,7 @@
       "Name": "PlayerHasKitchen",
       "Value": "true",
       "When": {
-        "HasMod": "Froststar11.CustomFarmhouse, Allayna.Kitchen, burakmese.products, mabelsyrup.farmhouse, RedesignedGardenFarmhouseupgrade, KAYA.JAKitchenStationSet"
+        "HasMod": "Froststar11.CustomFarmhouse, Allayna.Kitchen, burakmese.products, mabelsyrup.farmhouse, RedesignedGardenFarmhouseupgrade, KAYA.JAKitchenStationSet, minervamaga.FR.BiggerFarmhouses"
       }
     }
   ],
