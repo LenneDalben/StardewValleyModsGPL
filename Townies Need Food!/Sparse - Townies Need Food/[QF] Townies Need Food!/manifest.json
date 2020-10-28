@@ -1,11 +1,11 @@
 {
   "Name": "[QF] Sparse Townies Need Food!",
   "Author": "LenneDalben",
-  "Version": "1.0 ",
+  "Version": "1.1.0 ",
   "Description": "NPCs in town request cooked meals in the bulletin board, after you've unlocked the recipe! This version has reduced chance.",
   "UniqueID": "LenneDalben.QF.TowniesNeedFood",
   "MinimumApiVersion": "3.6.1",
-  "UpdateKeys": [ "Nexus:6534" ],
+  "UpdateKeys": [ "Nexus:6534@Sparse" ],
   "ContentPackFor": {
     "UniqueID": "PurrplingCat.QuestFramework",
     "MinimumVersion": "1.0.0"
