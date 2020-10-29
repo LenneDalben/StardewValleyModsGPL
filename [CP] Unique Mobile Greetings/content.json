@@ -18,8 +18,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Abigail",
 			"Entries": {
-				"MobilePhoneGreeting": "Hi, what's new?",
-				"MobilePhoneGoodBye": "I'd better go, bye!$h"
+				"MobilePhoneGreeting": "Hi!",
+				"MobilePhoneGoodBye": "I gotta go sweetie, bye!$h"
 			},
 			"When": {
 				"Relationship:Abigail": "Engaged, Married"
@@ -35,6 +35,18 @@
 			},
 			"When": {
 				"Relationship:Alex": "Friendly"
+			}
+		},
+		//Alex mobile phone dialog changes - engaged, married
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex",
+			"Entries": {
+				"MobilePhoneGreeting": "Hey @!",
+				"MobilePhoneGoodBye": "See ya, my cutie!$h"
+			},
+			"When": {
+				"Relationship:Alex": "Engaged, Married"
 			}
 		},
 		//Caroline mobile phone dialog changes
@@ -90,7 +102,20 @@
 				"Relationship:Elliott": "Friendly"
 			}
 		},
-		//Emily mobile phone dialog changes
+		//Elliott mobile phone dialog changes - engaged, married
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"Entries": {
+				"MobilePhoneGreeting": "Hi {0}!",
+				"MobilePhoneInvite": "I'd love to, what would you like to do?",
+				"MobilePhoneGoodBye": "Bye my sweet!$h"
+			},
+			"When": {
+				"Relationship:Elliott": "Engaged, Married"
+			}
+		},
+		//Emily mobile phone dialog changes- friendly
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Emily",
@@ -100,6 +125,18 @@
 			},
 			"When": {
 				"Relationship:Emily": "Friendly"
+			}
+		},
+		//Emily mobile phone dialog changes- engaged, married
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Emily",
+			"Entries": {
+				"MobilePhoneGreeting": "Hi honey!",
+				"MobilePhoneGoodBye": "Bye honey!$h"
+			},
+			"When": {
+				"Relationship:Emily": "Engaged, Married"
 			}
 		},
 		//Evelyn mobile phone dialog changes
@@ -144,6 +181,18 @@
 				"Relationship:Haley": "Friendly"
 			}
 		},
+		//Haley mobile phone dialog changes - engaged, married
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"Entries": {
+				"MobilePhoneGreeting": "Hi!",
+				"MobilePhoneGoodBye": "Bye pookie!$h"
+			},
+			"When": {
+				"Relationship:Haley": "Engaged, Married"
+			}
+		},
 		//Harvey mobile phone dialog changes - friendly
 		{
 			"Action": "EditData",
@@ -154,6 +203,18 @@
 			},
 			"When": {
 				"Relationship:Harvey": "Friendly"
+			}
+		},
+		//Harvey mobile phone dialog changes - engaged, married
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"Entries": {
+				"MobilePhoneGreeting": "Hey, everything okay?",
+				"MobilePhoneGoodBye": "Take care, ducky.$h"
+			},
+			"When": {
+				"Relationship:Harvey": "Engaged, Married"
 			}
 		},
 		//Jas mobile phone dialog changes
@@ -207,6 +268,18 @@
 				"Relationship:Leah": "Friendly"
 			}
 		},
+		//Leah mobile phone dialog changes - engaged, married
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Leah",
+			"Entries": {
+				"MobilePhoneGreeting": "Hey, hot stuff!",
+				"MobilePhoneGoodBye": "See you later!$h"
+			},
+			"When": {
+				"Relationship:Leah": "Engaged, Married"
+			}
+		},
 		//Lewis mobile phone dialog changes
 		{
 			"Action": "EditData",
@@ -248,6 +321,18 @@
 				"Relationship:Maru": "Friendly"
 			}
 		},
+		//Maru mobile phone dialog changes - engaged, married
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Entries": {
+				"MobilePhoneGreeting": "Hey {0}!",
+				"MobilePhoneGoodBye": "Bye, darling!$h"
+			},
+			"When": {
+				"Relationship:Maru": "Engaged, Married"
+			}
+		},
 		//Pam mobile phone dialog changes
 		{
 			"Action": "EditData",
@@ -267,6 +352,18 @@
 			},
 			"When": {
 				"Relationship:Penny": "Friendly"
+			}
+		},
+		//Penny mobile phone dialog changes - engaged, married
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Penny",
+			"Entries": {
+				"MobilePhoneGreeting": "Hi {0}!",
+				"MobilePhoneGoodBye": "Can't wait to snuggle you, cuddlebug!$h"
+			},
+			"When": {
+				"Relationship:Penny": "Engaged, Married"
 			}
 		},
 		//Pierre mobile phone dialog changes
@@ -297,6 +394,18 @@
 			},
 			"When": {
 				"Relationship:Sam": "Friendly"
+			}
+		},
+		//Sam mobile phone dialog changes - engaged, married
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Entries": {
+				"MobilePhoneGreeting": "Hey cutie!",
+				"MobilePhoneGoodBye": "Alright, bye!$h"
+			},
+			"When": {
+				"Relationship:Sam": "Engaged, Married"
 			}
 		},
 		//Sandy mobile phone dialog changes
@@ -343,6 +452,18 @@
 			},
 			"When": {
 				"Relationship:Shane": "Friendly"
+			}
+		},
+		//Shane mobile phone dialog changes - engaged, married
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+				"MobilePhoneGreeting": "Hey babe.",
+				"MobilePhoneGoodBye": "See ya."
+			},
+			"When": {
+				"Relationship:Shane": "Engaged, Married"
 			}
 		},
 		//Vincent mobile phone dialog changes
