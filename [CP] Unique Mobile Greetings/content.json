@@ -42,7 +42,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Alex",
 			"Entries": {
-				"MobilePhoneGreeting": "Hey @!",
+				"MobilePhoneGreeting": "Hey {0}!",
 				"MobilePhoneGoodBye": "See ya, my cutie!$h"
 			},
 			"When": {
@@ -120,7 +120,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Emily",
 			"Entries": {
-				"MobilePhoneGreeting": "Hi @, how are things?",
+				"MobilePhoneGreeting": "Hi {0}, how are things?",
 				"MobilePhoneGoodBye": "Bye @, have a good one!$h"
 			},
 			"When": {
