@@ -4,7 +4,7 @@
    "Description": "NPCs use unique in-character greetings when contacted by phone.",
    "Version": "1.0",
    "UniqueID": "LenneDalben.CP.UniqueMobileGreetings",
-   "MinimumApiVersion": "3.4.0",
+   "MinimumApiVersion": "3.7.2",
    "UpdateKeys": [],
    "ContentPackFor": {
        "UniqueID": "Pathoschild.ContentPatcher",
