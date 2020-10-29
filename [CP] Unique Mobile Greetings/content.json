@@ -44,9 +44,19 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Demetrius",
 			"Entries": {
-				"MobilePhoneGreeting": "Greetings {0}! Are you enjoying this fine day?",
+				"MobilePhoneGreeting": "Hey.",
 				"MobilePhoneInvite": "Sure, what would you like to do?",
 				"MobilePhoneGoodBye": "Goodbye @!"
+			}
+		},
+		//Dwarf mobile phone dialog changes
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Dwarf",
+			"Entries": {
+				"MobilePhoneGreeting": "Greetings {0}! Are you enjoying this fine day?",
+				"MobilePhoneInvite": "Okay, what would you like to do?",
+				"MobilePhoneGoodBye": "Come by the shop soon."
 			}
 		},
 		//Elliott mobile phone dialog changes
@@ -144,6 +154,15 @@
 				"MobilePhoneGreeting": "...Hi.",
 				"MobilePhoneInvite": "Erm... okay. What do you want to do?",
 				"MobilePhoneGoodBye": "Bye..."
+			}
+		},
+		//Krobus mobile phone dialog changes
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Krobus",
+			"Entries": {
+				"MobilePhoneGreeting": "...Hello.",
+				"MobilePhoneGoodBye": "...Goodbye."
 			}
 		},
 		//Leah mobile phone dialog changes
