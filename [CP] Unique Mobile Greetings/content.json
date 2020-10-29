@@ -109,7 +109,7 @@
 			"Entries": {
 				"MobilePhoneGreeting": "Hi {0}!",
 				"MobilePhoneInvite": "I'd love to, what would you like to do?",
-				"MobilePhoneGoodBye": "Bye my sweet!$h"
+				"MobilePhoneGoodBye": "Goodbye, my sweet!$h"
 			},
 			"When": {
 				"Relationship:Elliott": "Engaged, Married"
