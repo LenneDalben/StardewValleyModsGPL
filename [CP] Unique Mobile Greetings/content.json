@@ -274,6 +274,21 @@
 			"Entries": {
 				"MobilePhoneGreeting": "What's up?",
 				"MobilePhoneGoodBye": "Later!"
+			},
+			"When": {
+				"Relationship:Sebastian": "Friendly"
+			}
+		},
+		//Sebastian mobile phone dialog changes
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Entries": {
+				"MobilePhoneGreeting": "Hey love!",
+				"MobilePhoneGoodBye": "See you later, %endearment!$h"
+			},
+			"When": {
+				"Relationship:Sebastian": "Married"
 			}
 		},
 		//Shane mobile phone dialog changes
