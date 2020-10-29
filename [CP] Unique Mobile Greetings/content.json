@@ -74,7 +74,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Demetrius",
 			"Entries": {
-				"MobilePhoneGreeting": "Hey.",
+				"MobilePhoneGreeting": "Greetings {0}! Are you enjoying this fine day?",
 				"MobilePhoneInvite": "Sure, what would you like to do?",
 				"MobilePhoneGoodBye": "Goodbye @!"
 			}
