@@ -285,7 +285,7 @@
 			"Target": "Characters/Dialogue/Sebastian",
 			"Entries": {
 				"MobilePhoneGreeting": "Hey love!",
-				"MobilePhoneGoodBye": "See you later, %endearment!$h"
+				"MobilePhoneGoodBye": "See you later, {0}}!$h"
 			},
 			"When": {
 				"Relationship:Sebastian": "Married"
