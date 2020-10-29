@@ -8,6 +8,9 @@
 			"Entries": {
 				"MobilePhoneGreeting": "Hi, what's new?",
 				"MobilePhoneGoodBye": "I'd better go, bye!$h"
+			},
+			"When": {
+				"Relationship:Abigail": "Friendly"
 			}
 		},
 		//Alex mobile phone dialog changes
@@ -17,6 +20,9 @@
 			"Entries": {
 				"MobilePhoneGreeting": "Hey you!",
 				"MobilePhoneGoodBye": "See ya!$h"
+			},
+			"When": {
+				"Relationship:Alex": "Friendly"
 			}
 		},
 		//Caroline mobile phone dialog changes
@@ -67,6 +73,9 @@
 				"MobilePhoneGreeting": "Hello {0}, are you well?",
 				"MobilePhoneInvite": "Sure, what would you like to do?",
 				"MobilePhoneGoodBye": "Goodbye @!$h"
+			},
+			"When": {
+				"Relationship:Elliott": "Friendly"
 			}
 		},
 		//Emily mobile phone dialog changes
@@ -76,6 +85,9 @@
 			"Entries": {
 				"MobilePhoneGreeting": "Hi @, how are things?",
 				"MobilePhoneGoodBye": "Bye @, have a good one!$h"
+			},
+			"When": {
+				"Relationship:Emily": "Friendly"
 			}
 		},
 		//Evelyn mobile phone dialog changes
@@ -115,6 +127,9 @@
 			"Entries": {
 				"MobilePhoneGreeting": "Hi {0}. Anything exciting happening on your farm?",
 				"MobilePhoneGoodBye": "Byeeeeee!$h"
+			},
+			"When": {
+				"Relationship:Haley": "Friendly"
 			}
 		},
 		//Harvey mobile phone dialog changes
@@ -124,6 +139,9 @@
 			"Entries": {
 				"MobilePhoneGreeting": "Hey {0}, how's it going?",
 				"MobilePhoneGoodBye": "Take care! Stay healthy."
+			},
+			"When": {
+				"Relationship:Harvey": "Friendly"
 			}
 		},
 		//Jas mobile phone dialog changes
@@ -172,6 +190,9 @@
 			"Entries": {
 				"MobilePhoneGreeting": "Hey {0}! Staying busy with the farm?",
 				"MobilePhoneGoodBye": "See you soon!$h"
+			},
+			"When": {
+				"Relationship:Leah": "Friendly"
 			}
 		},
 		//Lewis mobile phone dialog changes
@@ -210,6 +231,9 @@
 			"Entries": {
 				"MobilePhoneGreeting": "Hey {0}! How's it going?",
 				"MobilePhoneGoodBye": "Bye, have fun working on the farm!$h"
+			},
+			"When": {
+				"Relationship:Maru": "Friendly"
 			}
 		},
 		//Pam mobile phone dialog changes
@@ -228,6 +252,9 @@
 			"Entries": {
 				"MobilePhoneGreeting": "Hi {0}.",
 				"MobilePhoneGoodBye": "Nice talking to you!$h"
+			},
+			"When": {
+				"Relationship:Penny": "Friendly"
 			}
 		},
 		//Pierre mobile phone dialog changes
@@ -255,6 +282,9 @@
 			"Entries": {
 				"MobilePhoneGreeting": "Yo!",
 				"MobilePhoneGoodBye": "Alright, take it easy!$h"
+			},
+			"When": {
+				"Relationship:Sam": "Friendly"
 			}
 		},
 		//Sandy mobile phone dialog changes
@@ -284,8 +314,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sebastian",
 			"Entries": {
-				"MobilePhoneGreeting": "Hey love!",
-				"MobilePhoneGoodBye": "See you later, {0}}!$h"
+				"MobilePhoneGreeting": "Hey!",
+				"MobilePhoneGoodBye": "See you later, love!$h"
 			},
 			"When": {
 				"Relationship:Sebastian": "Married"
@@ -298,6 +328,9 @@
 			"Entries": {
 				"MobilePhoneGreeting": "...Hey.",
 				"MobilePhoneGoodBye": "*click*"
+			},
+			"When": {
+				"Relationship:Shane": "Friendly"
 			}
 		},
 		//Vincent mobile phone dialog changes
