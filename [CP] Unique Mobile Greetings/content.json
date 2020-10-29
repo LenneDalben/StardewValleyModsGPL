@@ -1,7 +1,7 @@
 {
 	"Format": "1.15.0",
 	"Changes": [
-		//Abigail mobile phone dialog changes
+		//Abigail mobile phone dialog changes - friendly
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Abigail",
@@ -13,7 +13,19 @@
 				"Relationship:Abigail": "Friendly"
 			}
 		},
-		//Alex mobile phone dialog changes
+		//Abigail mobile phone dialog changes - engaged, married
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries": {
+				"MobilePhoneGreeting": "Hi, what's new?",
+				"MobilePhoneGoodBye": "I'd better go, bye!$h"
+			},
+			"When": {
+				"Relationship:Abigail": "Engaged, Married"
+			}
+		},
+		//Alex mobile phone dialog changes - friendly
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Alex",
@@ -65,7 +77,7 @@
 				"MobilePhoneGoodBye": "Come by the shop soon."
 			}
 		},
-		//Elliott mobile phone dialog changes
+		//Elliott mobile phone dialog changes - friendly
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Elliott",
@@ -120,7 +132,7 @@
 				"MobilePhoneGoodBye": "Bye, don't be a stranger!$h"
 			}
 		},
-		//Haley mobile phone dialog changes
+		//Haley mobile phone dialog changes - friendly
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Haley",
@@ -132,7 +144,7 @@
 				"Relationship:Haley": "Friendly"
 			}
 		},
-		//Harvey mobile phone dialog changes
+		//Harvey mobile phone dialog changes - friendly
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Harvey",
@@ -183,7 +195,7 @@
 				"MobilePhoneGoodBye": "...Goodbye."
 			}
 		},
-		//Leah mobile phone dialog changes
+		//Leah mobile phone dialog changes - friendly
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Leah",
@@ -224,7 +236,7 @@
 				"MobilePhoneGoodBye": "Take care!$h"
 			}
 		},
-		//Maru mobile phone dialog changes
+		//Maru mobile phone dialog changes - friendly
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Maru",
@@ -245,7 +257,7 @@
 				"MobilePhoneGoodBye": "See ya later!"
 			}
 		},
-		//Penny mobile phone dialog changes
+		//Penny mobile phone dialog changes - friendly
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Penny",
@@ -275,7 +287,7 @@
 				"MobilePhoneGoodBye": "Have a good one!$h"
 			}
 		},
-		//Sam mobile phone dialog changes
+		//Sam mobile phone dialog changes - friendly
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sam",
@@ -297,7 +309,7 @@
 				"MobilePhoneGoodBye": "I hope you visit soon!$h"
 			}
 		},
-		//Sebastian mobile phone dialog changes
+		//Sebastian mobile phone dialog changes - friendly
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sebastian",
@@ -309,7 +321,7 @@
 				"Relationship:Sebastian": "Friendly"
 			}
 		},
-		//Sebastian mobile phone dialog changes
+		//Sebastian mobile phone dialog changes - engaged, married
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sebastian",
@@ -318,10 +330,10 @@
 				"MobilePhoneGoodBye": "See you later, love!$h"
 			},
 			"When": {
-				"Relationship:Sebastian": "Married"
+				"Relationship:Sebastian": "Engaged, Married"
 			}
 		},
-		//Shane mobile phone dialog changes
+		//Shane mobile phone dialog changes - friendly
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Shane",
