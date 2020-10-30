@@ -25,6 +25,18 @@
 				"Relationship:Abigail": "Engaged, Married"
 			}
 		},
+		//Abigail mobile phone dialog changes - divorced
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries": {
+				"MobilePhoneGreeting": "...",
+				"MobilePhoneGoodBye": "Stop calling me, jerk!$a"
+			},
+			"When": {
+				"Relationship:Abigail": "Divorced"
+			}
+		},
 		//Alex mobile phone dialog changes - friendly
 		{
 			"Action": "EditData",
@@ -47,6 +59,18 @@
 			},
 			"When": {
 				"Relationship:Alex": "Engaged, Married"
+			}
+		},
+		//Alex mobile phone dialog changes - divorced
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex",
+			"Entries": {
+				"MobilePhoneGreeting": "*sigh*",
+				"MobilePhoneGoodBye": "Lose my number.$a"
+			},
+			"When": {
+				"Relationship:Alex": "Divorced"
 			}
 		},
 		//Caroline mobile phone dialog changes
@@ -115,6 +139,18 @@
 				"Relationship:Elliott": "Engaged, Married"
 			}
 		},
+		//Elliott mobile phone dialog changes - divorced
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"Entries": {
+				"MobilePhoneGreeting": "What do you want?",
+				"MobilePhoneGoodBye": "I do not wish to hear from you again.$a"
+			},
+			"When": {
+				"Relationship:Elliott": "Divorced"
+			}
+		},
 		//Emily mobile phone dialog changes- friendly
 		{
 			"Action": "EditData",
@@ -137,6 +173,18 @@
 			},
 			"When": {
 				"Relationship:Emily": "Engaged, Married"
+			}
+		},
+		//Emily mobile phone dialog changes- divorced
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Emily",
+			"Entries": {
+				"MobilePhoneGreeting": "What?",
+				"MobilePhoneGoodBye": "Leave me alone, please.$a"
+			},
+			"When": {
+				"Relationship:Emily": "Divorced"
 			}
 		},
 		//Evelyn mobile phone dialog changes
@@ -193,6 +241,18 @@
 				"Relationship:Haley": "Engaged, Married"
 			}
 		},
+		//Haley mobile phone dialog changes - divorced
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"Entries": {
+				"MobilePhoneGreeting": "Ugh, what?",
+				"MobilePhoneGoodBye": "Buzz off.$a"
+			},
+			"When": {
+				"Relationship:Haley": "Divorced"
+			}
+		},
 		//Harvey mobile phone dialog changes - friendly
 		{
 			"Action": "EditData",
@@ -215,6 +275,18 @@
 			},
 			"When": {
 				"Relationship:Harvey": "Engaged, Married"
+			}
+		},
+		//Harvey mobile phone dialog changes - divorced
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"Entries": {
+				"MobilePhoneGreeting": "Why are you calling?",
+				"MobilePhoneGoodBye": "I shouldn't have picked up.$a"
+			},
+			"When": {
+				"Relationship:Harvey": "Divorced"
 			}
 		},
 		//Jas mobile phone dialog changes
@@ -280,6 +352,18 @@
 				"Relationship:Leah": "Engaged, Married"
 			}
 		},
+		//Leah mobile phone dialog changes - divorced
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Leah",
+			"Entries": {
+				"MobilePhoneGreeting": "What could you possibly want?",
+				"MobilePhoneGoodBye": "Feel free to never call me again.$a"
+			},
+			"When": {
+				"Relationship:Leah": "Divorced"
+			}
+		},
 		//Lewis mobile phone dialog changes
 		{
 			"Action": "EditData",
@@ -333,6 +417,18 @@
 				"Relationship:Maru": "Engaged, Married"
 			}
 		},
+		//Maru mobile phone dialog changes - divorced
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Entries": {
+				"MobilePhoneGreeting": "I thought the whole point of divorce was not talking to each other again.",
+				"MobilePhoneGoodBye": "%You can feel Maru rolling her eyes as she hangs up."
+			},
+			"When": {
+				"Relationship:Maru": "Divorced"
+			}
+		},
 		//Pam mobile phone dialog changes
 		{
 			"Action": "EditData",
@@ -364,6 +460,18 @@
 			},
 			"When": {
 				"Relationship:Penny": "Engaged, Married"
+			}
+		},
+		//Penny mobile phone dialog changes - divorced
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Penny",
+			"Entries": {
+				"MobilePhoneGreeting": "My day was going fine and then you called. What?",
+				"MobilePhoneGoodBye": "Leave me alone.$a"
+			},
+			"When": {
+				"Relationship:Penny": "Divorced"
 			}
 		},
 		//Pierre mobile phone dialog changes
@@ -408,6 +516,18 @@
 				"Relationship:Sam": "Engaged, Married"
 			}
 		},
+		//Sam mobile phone dialog changes - divorced
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Entries": {
+				"MobilePhoneGreeting": "Not cool of you to call.",
+				"MobilePhoneGoodBye": "*click*"
+			},
+			"When": {
+				"Relationship:Sam": "Divorced"
+			}
+		},
 		//Sandy mobile phone dialog changes
 		{
 			"Action": "EditData",
@@ -442,6 +562,18 @@
 				"Relationship:Sebastian": "Engaged, Married"
 			}
 		},
+		//Sebastian mobile phone dialog changes - divorced
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Entries": {
+				"MobilePhoneGreeting": "You've got to be kidding me. What do you want?",
+				"MobilePhoneGoodBye": "*sigh* I don't want to hear from you anymore.$a"
+			},
+			"When": {
+				"Relationship:Sebastian": "Divorced"
+			}
+		},
 		//Shane mobile phone dialog changes - friendly
 		{
 			"Action": "EditData",
@@ -464,6 +596,18 @@
 			},
 			"When": {
 				"Relationship:Shane": "Engaged, Married"
+			}
+		},
+		//Shane mobile phone dialog changes - divorced
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+				"MobilePhoneGreeting": "...Why are you bothering me?",
+				"MobilePhoneGoodBye": "Don't call again. *click*"
+			},
+			"When": {
+				"Relationship:Shane": "Divorced"
 			}
 		},
 		//Vincent mobile phone dialog changes
