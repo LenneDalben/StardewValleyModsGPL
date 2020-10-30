@@ -522,7 +522,7 @@
 			"Target": "Characters/Dialogue/Sam",
 			"Entries": {
 				"MobilePhoneGreeting": "Not cool of you to call.",
-				"MobilePhoneGoodBye": "*click*"
+				"MobilePhoneGoodBye": "*click*$a"
 			},
 			"When": {
 				"Relationship:Sam": "Divorced"
@@ -604,7 +604,7 @@
 			"Target": "Characters/Dialogue/Shane",
 			"Entries": {
 				"MobilePhoneGreeting": "...Why are you bothering me?",
-				"MobilePhoneGoodBye": "Don't call again. *click*"
+				"MobilePhoneGoodBye": "Don't call again. *click*$a"
 			},
 			"When": {
 				"Relationship:Shane": "Divorced"
