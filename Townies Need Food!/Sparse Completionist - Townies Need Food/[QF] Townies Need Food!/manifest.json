@@ -1,7 +1,7 @@
 {
   "Name": "[QF] Sparse Completionist Townies Need Food!",
   "Author": "LenneDalben",
-  "Version": "1.1.0",
+  "Version": "1.1.1",
   "Description": "NPCs in town request cooked meals in the bulletin board, after you've unlocked the recipe! Quests aren't repeatable in this version, and they have reduced chance.",
   "UniqueID": "LenneDalben.QF.TowniesNeedFood",
   "MinimumApiVersion": "3.6.1",
