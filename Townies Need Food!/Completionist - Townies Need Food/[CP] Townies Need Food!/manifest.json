@@ -1,7 +1,7 @@
 {
   "Name": "Content Patcher Component for Completionist Townies Need Food!",
   "Author": "LenneDalben",
-  "Version": "1.1.0",
+  "Version": "1.1.1",
   "Description": "CP component to add necessary flag for Townies Need Food!",
   "UniqueID": "LenneDalben.CP.TowniesNeedFood",
   "MinimumApiVersion": "3.6.1",
