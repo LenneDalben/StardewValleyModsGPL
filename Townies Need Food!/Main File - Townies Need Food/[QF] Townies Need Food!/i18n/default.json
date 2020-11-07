@@ -18,10 +18,13 @@
   "harvey_tripleshot.objective": "Bring a triple shot espresso to Harvey",
   "harvey_tripleshot.reactiontext": "$hAh yes, this will perk me up. Thanks, @!",
 // Demetrius bean hotpot in spring
-  "demetrius_beanhotpot.title": "",
-  "demetrius_beanhotpot.description": "",
-  "demetrius_beanhotpot.objective": "",
-  "demetrius_beanhotpot.reactiontext": "",
+  "demetrius_beanhotpot.title": "A healthy meal",
+  "demetrius_beanhotpot.description": "Greetings! Demetrius here. I'm looking for an earthy taste to balance out dinner. Can anyone make a bean hotpot for me?
+
+  -300g on delivery
+  -Demetrius will be thankful",
+  "demetrius_beanhotpot.objective": "Bring a bean hotpot to Demetrius",
+  "demetrius_beanhotpot.reactiontext": "$hThank you @, I'm looking forward to these beans.",
 // George chowder in spring
   ".title": "",
   ".description": "",

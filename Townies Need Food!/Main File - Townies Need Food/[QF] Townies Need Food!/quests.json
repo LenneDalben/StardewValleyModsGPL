@@ -28,17 +28,14 @@
     { // Demetrius bean hotpot in spring
       "Name": "demetrius_beanhotpot",
       "Type": "ItemDelivery",
-      "Title": "A healthy meal",
-      "Description": "Greetings! Demetrius here. I'm looking for an earthy taste to balance out dinner. Can anyone make a bean hotpot for me?
-
--300g on delivery
--Demetrius will be thankful",
-      "Objective": "Bring a bean hotpot to Demetrius",
+      "Title": "%i18n:demetrius_beanhotpot.title",
+      "Description": "%i18n:demetrius_beanhotpot.description",
+      "Objective": "%i18n:demetrius_beanhotpot.objective",
       "DaysLeft": 5,
       "Reward": 300,
       "Cancelable": true,
       "Trigger": "Demetrius 207",
-      "ReactionText": "$hThank you @, I'm looking forward to these beans."
+      "ReactionText": "%i18n:demetrius_beanhotpot.reactiontext"
     },
     { // George chowder in spring
       "Name": "george_chowder",
