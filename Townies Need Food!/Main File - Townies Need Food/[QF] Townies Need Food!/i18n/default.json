@@ -26,10 +26,13 @@
   "demetrius_beanhotpot.objective": "Bring a bean hotpot to Demetrius",
   "demetrius_beanhotpot.reactiontext": "$hThank you @, I'm looking forward to these beans.",
 // George chowder in spring
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+  "george_chowder.title": "Perfect warmth",
+  "george_chowder.description": "I'm in need of something to warm my old bones. Could someone make me some chowder?
+
+  -405g on delivery
+  -George will be thankful",
+  "george_chowder.objective": "Bring chowder to George",
+  "george_chowder.reactiontext": "$hThank you @, I'm looking forward to this soup.",
 // Demetrius ice cream in spring
   ".title": "",
   ".description": "",

@@ -40,17 +40,14 @@
     { // George chowder in spring
       "Name": "george_chowder",
       "Type": "ItemDelivery",
-      "Title": "Perfect warmth",
-      "Description": "I'm in need of something to warm my old bones. Could someone make me some chowder?
-
--405g on delivery
--George will be thankful",
-      "Objective": "Bring chowder to George",
+      "Title": "%i18n:george_chowder.title",
+      "Description": "%i18n:george_chowder.description",
+      "Objective": "%i18n:george_chowder.objective",
       "DaysLeft": 5,
       "Reward": 405,
       "Cancelable": true,
       "Trigger": "George 727",
-      "ReactionText": "$hThank you @, I'm looking forward to this soup."
+      "ReactionText": "%i18n:george_chowder.reactiontext"
     },
     { // Demetrius ice cream in spring
       "Name": "demetrius_icecream",
