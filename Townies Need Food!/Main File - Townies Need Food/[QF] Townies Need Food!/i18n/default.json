@@ -1,4 +1,5 @@
 {
+  // Emily shrimp cocktail in spring
   "emily_shrimpcocktail.title": "Sumptuous appetizer",
   "emily_shrimpcocktail.description": "Hello, it's Emily. I'd like to buy a shrimp cocktail from someone, to have an appetizer for my meal. Thanks!
   -Emily
@@ -6,6 +7,369 @@
   -480g on delivery
   -Emily will be thankful",
   "emily_shrimpcocktail.objective": "Bring shrimp cocktail to Emily",
-  "emily_shrimpcocktail.reactiontext": "$hGreat, thanks @!"
+  "emily_shrimpcocktail.reactiontext": "$hGreat, thanks @!",
+// Harvey triple shot espresso in spring
+  "harvey_tripleshot.title": "Coffee won't cut it",
+  "harvey_tripleshot.description": "Coffee won't cut it; I'm in need of some triple shot espresso to raise my energy level. Could someone make one for me?
+  -Harvey
 
+-1350g on delivery
+-Harvey will be thankful",
+  "harvey_tripleshot.objective": "Bring a triple shot espresso to Harvey",
+  "harvey_tripleshot.reactiontext": "$hAh yes, this will perk me up. Thanks, @!",
+// Demetrius bean hotpot in spring
+  "demetrius_beanhotpot.title": "",
+  "demetrius_beanhotpot.description": "",
+  "demetrius_beanhotpot.objective": "",
+  "demetrius_beanhotpot.reactiontext": "",
+// George chowder in spring
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Demetrius ice cream in spring
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Leah salad in spring
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Leah stir fry in spring
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Pam parsnip soup in spring
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Harvey coleslaw in spring
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Sebastian sashimi in spring
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Pam hashbrowns in spring
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Willy omelet in spring
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Alex salmon dinner in spring
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Kent fiddlehead risotto in spring
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Jodi pancakes in spring
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Marnie pink cake in spring
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Maru miner's treat in spring
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Maru rhubarb pie in spring
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Robin radish salad in summer
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Penny red plate in summer
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Penny poppyseed muffin in summer
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Haley fruit salad in summer
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Caroline fish taco in summer
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Alex complete breakfast in summer
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Linus blueberry tart in summer
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// George fried mushroom in summer
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Clint bread in summer
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Sam pizza in summer
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Elliott crab cakes in summer
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Gus escargot in summer
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Pierre fried calamari in summer
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Shane pepper poppers in summer
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Caroline fried eel in summer
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Robin spaghetti in summer
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Willy maki roll in summer
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Wizard lucky lunch in summer
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Pierre bruschetta in fall
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Emily survival burger in fall
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Clint artichoke dip in fall
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Abigail blackberry cobbler in fall
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Harvey super meal in fall
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Linus dish o' the sea in fall
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Lewis vegetable medley in fall
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Lewis autumn's bounty in fall
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Caroline lobster bisque in fall
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Pam glazed yams in fall
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Sebastian pumpkin soup in fall
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Evelyn stuffing in fall
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Wizard cranberry sauce in fall
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// George plum pudding in fall
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Gus fish taco in fall
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Haley cranberry candy in fall
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Jodi crispy bass in fall
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Linus fish stew in fall
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Demetrius rice pudding in winter
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Wizard cookie in winter
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Marnie pumpkin pie in winter
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Abigail spicy eel in winter
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Elliott tom kha soup in winter
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Willy trout soup in winter
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Alex fried egg in winter
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Jodi eggplant parmesan in winter
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Kent roasted hazelnuts in winter
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Shane pizza in winter
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Marnie farmer's lunch in winter
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Penny roots platter in winter
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Sam tortilla in winter
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Maru cheese cauliflower in winter
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Evelyn chocolate cake in winter
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Krobus seafoam pudding in winter
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Elliott baked fish in winter
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Robin carp surprise in winter
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
+// Sam maple bar in winter
+  ".title": "",
+  ".description": "",
+  ".objective": "",
+  ".reactiontext": "",
 }
