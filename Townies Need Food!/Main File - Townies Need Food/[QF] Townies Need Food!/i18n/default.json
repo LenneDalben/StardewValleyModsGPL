@@ -1,0 +1,11 @@
+{
+  "emily_shrimpcocktail.title": "Sumptuous appetizer",
+  "emily_shrimpcocktail.description": "Hello, it's Emily. I'd like to buy a shrimp cocktail from someone, to have an appetizer for my meal. Thanks!
+  -Emily
+  
+  -480g on delivery
+  -Emily will be thankful",
+  "emily_shrimpcocktail.objective": "Bring shrimp cocktail to Emily",
+  "emily_shrimpcocktail.reactiontext": "$hGreat, thanks @!"
+
+}

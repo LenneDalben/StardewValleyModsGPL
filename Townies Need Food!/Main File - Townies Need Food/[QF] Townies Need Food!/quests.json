@@ -4,18 +4,14 @@
     { // Emily shrimp cocktail in spring
       "Name": "emily_shrimpcocktail",
       "Type": "ItemDelivery",
-      "Title": "Sumptuous appetizer",
-      "Description": "Hello, it's Emily. I'd like to buy a shrimp cocktail from someone, to have an appetizer for my meal. Thanks!
--Emily
-
--480g on delivery
--Emily will be thankful",
-      "Objective": "Bring shrimp cocktail to Emily",
+      "Title": "%i18n:emily_shrimpcocktail.title",
+      "Description": "%i18n:emily_shrimpcocktail.description",
+      "Objective": "%i18n:emily_shrimpcocktail.objective",
       "DaysLeft": 5,
       "Reward": 480,
       "Cancelable": true,
       "Trigger": "Emily 733",
-      "ReactionText": "$hGreat, thanks @!"
+      "ReactionText": "%i18n:emily_shrimpcocktail.reactiontext"
     },
     { // Harvey triple shot espresso in spring
       "Name": "harvey_tripleshot",
