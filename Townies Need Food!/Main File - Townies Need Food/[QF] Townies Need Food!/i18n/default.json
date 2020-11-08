@@ -140,10 +140,14 @@
     "marnie_pinkcake.objective": "Bring pink cake to Marnie",
     "marnie_pinkcake.reactiontext": "$hThanks @! I expect Jas will love this.",
 // Maru miner's treat in spring
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "maru_minerstreat.title": "Energizing treat",
+    "maru_minerstreat.description": "Miner's treats are very energizing. Could someone make me some?
+    -Maru
+  
+  -600g on delivery
+  -Makes Maru happy",
+    "maru_minerstreat.objective": "Bring miner's treat to Maru",
+    "maru_minerstreat.reactiontext": "$hThanks @, this will help me stay focused!",
 // Maru rhubarb pie in spring
     ".title": "",
     ".description": "",

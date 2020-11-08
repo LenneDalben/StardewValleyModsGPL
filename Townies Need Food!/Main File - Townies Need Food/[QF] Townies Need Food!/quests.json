@@ -196,18 +196,14 @@
     { // Maru miner's treat in spring
       "Name": "maru_minerstreat",
       "Type": "ItemDelivery",
-      "Title": "Energizing treat",
-      "Description": "Miner's treats are very energizing. Could someone make me some?
-  -Maru
-
--600g on delivery
--Makes Maru happy",
-      "Objective": "Bring miner's treat to Maru",
+      "Title": "%i18n:maru_minerstreat.title",
+      "Description": "%i18n:maru_minerstreat.description",
+      "Objective": "%i18n:maru_minerstreat.objective",
       "DaysLeft": 5,
       "Reward": 600,
       "Cancelable": true,
       "Trigger": "Maru 243",
-      "ReactionText": "$hThanks @, this will help me stay focused!"
+      "ReactionText": "%i18n:maru_minerstreat.reactiontext"
     },
     { // Maru rhubarb pie in spring
       "Name": "maru_rhubarbpie",
