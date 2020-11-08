@@ -96,10 +96,14 @@
   "pam_hashbrowns.objective": "Bring hashbrowns to Pam",
   "pam_hashbrowns.reactiontext": "$hWhatcha got there? Oh, this is for me, thanks, @!",
 // Willy omelet in spring
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+  "willy_omelet.title": "Super fluffy",
+  "willy_omelet.description": "Sometimes an omelet is all you need. I'll pay whoever can make me one!
+  -Willy
+
+-375g on delivery
+-Makes Willy happy",
+  "willy_omelet.objective": "Bring omelet to Willy",
+  "willy_omelet.reactiontext": "$hThis looks excellent, thanks @!",
 // Alex salmon dinner in spring
   ".title": "",
   ".description": "",

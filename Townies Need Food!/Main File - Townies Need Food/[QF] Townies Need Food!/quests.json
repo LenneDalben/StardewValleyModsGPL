@@ -136,18 +136,14 @@
     { // Willy omelet in spring
       "Name": "willy_omelet",
       "Type": "ItemDelivery",
-      "Title": "Super fluffy",
-      "Description": "Sometimes an omelet is all you need. I'll pay whoever can make me one!
-  -Willy
-
--375g on delivery
--Makes Willy happy",
-      "Objective": "Bring omelet to Willy",
+      "Title": "%i18n:willy_omelet.title",
+      "Description": "%i18n:willy_omelet.description",
+      "Objective": "%i18n:willy_omelet.objective",
       "DaysLeft": 5,
       "Reward": 375,
       "Cancelable": true,
       "Trigger": "Willy 195",
-      "ReactionText": "$hThis looks excellent, thanks @!"
+      "ReactionText": "%i18n:willy_omelet.reactiontext"
     },
     { // Alex salmon dinner in spring
       "Name": "alex_salmondinner",
