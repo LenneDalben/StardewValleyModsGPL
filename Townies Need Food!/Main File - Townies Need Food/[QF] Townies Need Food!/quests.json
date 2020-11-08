@@ -208,18 +208,14 @@
     { // Maru rhubarb pie in spring
       "Name": "maru_rhubarbpie",
       "Type": "ItemDelivery",
-      "Title": "Tangy pie!",
-      "Description": "Could someone bring me rhubarb pie? Thanks!
-  -Maru
-
--1200g on delivery
--Makes Maru happy",
-      "Objective": "Bring rhubarb pie to Maru",
+      "Title": "%i18n:maru_rhubarbpie.title",
+      "Description": "%i18n:maru_rhubarbpie.description",
+      "Objective": "%i18n:maru_rhubarbpie.objective",
       "DaysLeft": 5,
       "Reward": 1200,
       "Cancelable": true,
       "Trigger": "Maru 222",
-      "ReactionText": "$hThanks @, looks tasty!"
+      "ReactionText": "%i18n:maru_rhubarbpie.reactiontext"
     },
     { // Robin radish salad in summer
       "Name": "robin_radishsalad",

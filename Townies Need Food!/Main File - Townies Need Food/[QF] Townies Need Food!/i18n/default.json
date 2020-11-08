@@ -149,10 +149,14 @@
     "maru_minerstreat.objective": "Bring miner's treat to Maru",
     "maru_minerstreat.reactiontext": "$hThanks @, this will help me stay focused!",
 // Maru rhubarb pie in spring
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "maru_rhubarbpie.title": "Tangy pie!",
+    "maru_rhubarbpie.description": "Could someone bring me rhubarb pie? Thanks!
+    -Maru
+  
+  -1200g on delivery
+  -Makes Maru happy",
+    "maru_rhubarbpie.objective": "Bring rhubarb pie to Maru",
+    "maru_rhubarbpie.reactiontext": "$hThanks @, looks tasty!",
 // Robin radish salad in summer
     ".title": "",
     ".description": "",
