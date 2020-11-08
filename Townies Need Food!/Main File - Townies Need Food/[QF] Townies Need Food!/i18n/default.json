@@ -87,10 +87,14 @@
   "sebastian_sashimi.objective": "Bring sashimi to Sebastian",
   "sebastian_sashimi.reactiontext": "$lOh, hah... You made this for me? Thanks @!",
 // Pam hashbrowns in spring
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+  "pam_hashbrowns.title": "Golden-brown crisp",
+  "pam_hashbrowns.description": "Howdy! I'd love some hashbrowns. Could someone in this town help me out and make me some? There's money in it for you.
+  -Pam
+
+-360g on delivery
+-Pam will be thankful",
+  "pam_hashbrowns.objective": "Bring hashbrowns to Pam",
+  "pam_hashbrowns.reactiontext": "$hWhatcha got there? Oh, this is for me, thanks, @!",
 // Willy omelet in spring
   ".title": "",
   ".description": "",

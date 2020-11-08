@@ -124,18 +124,14 @@
     { // Pam hashbrowns in spring
       "Name": "pam_hashbrowns",
       "Type": "ItemDelivery",
-      "Title": "Golden-brown crisp",
-      "Description": "Howdy! I'd love some hashbrowns. Could someone in this town help me out and make me some? There's money in it for you.
-  -Pam
-
--360g on delivery
--Pam will be thankful",
-      "Objective": "Bring hashbrowns to Pam",
+      "Title": "%i18n:pam_hashbrowns.title",
+      "Description": "%i18n:pam_hashbrowns.description",
+      "Objective": "%i18n:pam_hashbrowns.objective",
       "DaysLeft": 5,
       "Reward": 360,
       "Cancelable": true,
       "Trigger": "Pam 210",
-      "ReactionText": "$hWhatcha got there? Oh, this is for me, thanks, @!"
+      "ReactionText": "%i18n:pam_hashbrowns.reactiontext"
     },
     { // Willy omelet in spring
       "Name": "willy_omelet",
