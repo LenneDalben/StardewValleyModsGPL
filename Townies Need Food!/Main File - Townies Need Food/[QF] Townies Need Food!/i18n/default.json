@@ -158,10 +158,14 @@
     "maru_rhubarbpie.objective": "Bring rhubarb pie to Maru",
     "maru_rhubarbpie.reactiontext": "$hThanks @, looks tasty!",
 // Robin radish salad in summer
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "robin_radishsalad.title": "Crisp radishes",
+    "robin_radishsalad.description": "I'd love a radish salad. Can anyone make me one?
+    -Robin
+  
+  -900g on delivery
+  -Makes Robin happy",
+    "robin_radishsalad.objective": "Bring radish salad to Robin",
+    "robin_radishsalad.reactiontext": "$hPerfect, thank you @!",
 // Penny red plate in summer
     ".title": "",
     ".description": "",

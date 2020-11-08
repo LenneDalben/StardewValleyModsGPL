@@ -220,18 +220,14 @@
     { // Robin radish salad in summer
       "Name": "robin_radishsalad",
       "Type": "ItemDelivery",
-      "Title": "Crisp radishes",
-      "Description": "I'd love a radish salad. Can anyone make me one?
-  -Robin
-
--900g on delivery
--Makes Robin happy",
-      "Objective": "Bring radish salad to Robin",
+      "Title": "%i18n:robin_radishsalad.title",
+      "Description": "%i18n:robin_radishsalad.description",
+      "Objective": "%i18n:robin_radishsalad.objective",
       "DaysLeft": 5,
       "Reward": 900,
       "Cancelable": true,
       "Trigger": "Robin 609",
-      "ReactionText": "$hPerfect, thank you @!"
+      "ReactionText": "%i18n:robin_radishsalad.reactiontext"
     },
     { // Penny red plate in summer
       "Name": "penny_redplate",
