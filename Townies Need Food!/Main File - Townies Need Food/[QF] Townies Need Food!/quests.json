@@ -52,17 +52,14 @@
     { // Demetrius ice cream in spring
       "Name": "demetrius_icecream",
       "Type": "ItemDelivery",
-      "Title": "A sweet treat",
-      "Description": "Greetings! Demetrius here. I'm looking for a sweet treat. Can someone bring me some ice cream?
-
--360g on delivery
--Demetrius will be thankful",
-      "Objective": "Bring a ice cream to Demetrius",
+      "Title": "%i18n:demetrius_icecream.title",
+      "Description": "%i18n:demetrius_icecream.description",
+      "Objective": "%i18n:demetrius_icecream.objective",
       "DaysLeft": 5,
       "Reward": 360,
       "Cancelable": true,
       "Trigger": "Demetrius 233",
-      "ReactionText": "$hThank you @, I'm looking forward to this ice cream."
+      "ReactionText": "%i18n:demetrius_icecream.reactiontext"
     },
     { // Leah salad in spring
       "Name": "leah_salad",

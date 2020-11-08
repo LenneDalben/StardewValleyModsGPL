@@ -34,10 +34,13 @@
   "george_chowder.objective": "Bring chowder to George",
   "george_chowder.reactiontext": "$hThank you @, I'm looking forward to this soup.",
 // Demetrius ice cream in spring
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+  "demetrius_icecream.title": "A sweet treat",
+  "demetrius_icecream.description": "Greetings! Demetrius here. I'm looking for a sweet treat. Can someone bring me some ice cream?
+
+  -360g on delivery
+  -Demetrius will be thankful",
+  "demetrius_icecream.objective": "Bring a ice cream to Demetrius",
+  "demetrius_icecream.reactiontext": "$hThank you @, I'm looking forward to this ice cream.",
 // Leah salad in spring
   ".title": "",
   ".description": "",
