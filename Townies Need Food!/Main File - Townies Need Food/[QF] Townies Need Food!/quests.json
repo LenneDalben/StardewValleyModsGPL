@@ -172,18 +172,14 @@
 	  { // Jodi pancakes in spring
       "Name": "jodi_pancakes",
       "Type": "ItemDelivery",
-      "Title": "Fluffy stack",
-      "Description": "Hi everyone! Could someone in town spare the time to make some pancakes for me? I'll pay!
-  -Jodi
-
--240g on delivery
--Jodi will be pleased",
-      "Objective": "Bring pancakes to Jodi",
+      "Title": "%i18n:jodi_pancakes.title",
+      "Description": "%i18n:jodi_pancakes.description",
+      "Objective": "%i18n:jodi_pancakes.objective",
       "DaysLeft": 5,
       "Reward": 240,
       "Cancelable": true,
       "Trigger": "Jodi 211",
-      "ReactionText": "$hThese look great, thanks @."
+      "ReactionText": "%i18n:jodi_pancakes.reactiontext"
     },
     { // Marnie pink cake in spring
       "Name": "marnie_pinkcake",

@@ -123,10 +123,14 @@
   "kent_fiddleheadrisotto.objective": "Bring fiddlehead risotto to Kent",
   "kent_fiddleheadrisotto.reactiontext": "$hWhat? Oh, the risotto I asked for. Thanks @.",
 // Jodi pancakes in spring
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+  "jodi_pancakes.title": "Fluffy stack",
+  "jodi_pancakes.description": "Hi everyone! Could someone in town spare the time to make some pancakes for me? I'll pay!
+  -Jodi
+
+-240g on delivery
+-Jodi will be pleased",
+  "jodi_pancakes.objective": "Bring pancakes to Jodi",
+  "jodi_pancakes.reactiontext": "$hThese look great, thanks @.",
 // Marnie pink cake in spring
   ".title": "",
   ".description": "",
