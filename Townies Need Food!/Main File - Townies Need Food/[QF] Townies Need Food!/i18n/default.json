@@ -185,10 +185,14 @@
     "penny_poppyseedmuffin.objective": "Bring poppyseed muffin to Penny",
     "penny_poppyseedmuffin.reactiontext": "$hThis is great, thanks @!",
 // Haley fruit salad in summer
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "haley_fruitsalad.title": "A delicious combo",
+    "haley_fruitsalad.description": "I'll < you forever if you put together a fruit salad for me!
+    -Haley
+  
+  -1350g on delivery
+  -Haley will be thankful",
+    "haley_fruitsalad.objective": "Bring fruit salad to Haley",
+    "haley_fruitsalad.reactiontext": "$hThis fruit salad looks great, thanks @!",
 // Caroline fish taco in summer
     ".title": "",
     ".description": "",
