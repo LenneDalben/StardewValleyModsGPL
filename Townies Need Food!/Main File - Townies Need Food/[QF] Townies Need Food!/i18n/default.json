@@ -78,10 +78,14 @@
   "harvey_coleslaw.objective": "Bring coleslaw to Harvey",
   "harvey_coleslaw.reactiontext": "$hI'm looking forward to this healthy side dish, thanks @!",
 // Sebastian sashimi in spring
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+  "sebastian_sashimi.title": "It's sashimi",
+  "sebastian_sashimi.description": "This is embarrassing; I love sashimi but I don't think I've mastered the thin slices. Could someone give it a try? I'll pay you!
+  -Sebastian
+
+-225g on delivery
+-Makes Sebastian happy",
+  "sebastian_sashimi.objective": "Bring sashimi to Sebastian",
+  "sebastian_sashimi.reactiontext": "$lOh, hah... You made this for me? Thanks @!",
 // Pam hashbrowns in spring
   ".title": "",
   ".description": "",

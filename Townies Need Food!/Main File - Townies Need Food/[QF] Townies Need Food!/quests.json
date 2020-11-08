@@ -112,18 +112,14 @@
     { // Sebastian sashimi in spring
       "Name": "sebastian_sashimi",
       "Type": "ItemDelivery",
-      "Title": "It's sashimi",
-      "Description": "This is embarrassing; I love sashimi but I don't think I've mastered the thin slices. Could someone give it a try? I'll pay you!
-  -Sebastian
-
--225g on delivery
--Makes Sebastian happy",
-      "Objective": "Bring sashimi to Sebastian",
+      "Title": "%i18n:sebastian_sashimi.title",
+      "Description": "%i18n:sebastian_sashimi.description",
+      "Objective": "%i18n:sebastian_sashimi.objective",
       "DaysLeft": 5,
       "Reward": 225,
       "Cancelable": true,
       "Trigger": "Sebastian 227",
-      "ReactionText": "$lOh, hah... You made this for me? Thanks @!"
+      "ReactionText": "%i18n:sebastian_sashimi.reactiontext"
     },
     { // Pam hashbrowns in spring
       "Name": "pam_hashbrowns",
