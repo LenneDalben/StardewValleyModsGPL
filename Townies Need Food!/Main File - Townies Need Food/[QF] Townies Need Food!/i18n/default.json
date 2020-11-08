@@ -176,10 +176,14 @@
     "penny_redplate.objective": "Bring red plate to Penny",
     "penny_redplate.reactiontext": "$hThis looks delicious, thanks @!",
 // Penny poppyseed muffin in summer
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "penny_poppyseedmuffin.title": "A soothing effect",
+    "penny_poppyseedmuffin.description": "Hi, I'm interested in a poppyseed muffin. Does someone have one they could share with me?
+    -Penny
+  
+  -750g on delivery
+  -Makes Penny happy",
+    "penny_poppyseedmuffin.objective": "Bring poppyseed muffin to Penny",
+    "penny_poppyseedmuffin.reactiontext": "$hThis is great, thanks @!",
 // Haley fruit salad in summer
     ".title": "",
     ".description": "",

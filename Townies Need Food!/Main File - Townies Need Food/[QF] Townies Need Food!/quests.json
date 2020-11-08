@@ -244,18 +244,14 @@
     { // Penny poppyseed muffin in summer
       "Name": "penny_poppyseedmuffin",
       "Type": "ItemDelivery",
-      "Title": "A soothing effect",
-      "Description": "Hi, I'm interested in a poppyseed muffin. Does someone have one they could share with me?
-  -Penny
-
--750g on delivery
--Makes Penny happy",
-      "Objective": "Bring poppyseed muffin to Penny",
+      "Title": "%i18n:penny_poppyseedmuffin.title",
+      "Description": "%i18n:penny_poppyseedmuffin.description",
+      "Objective": "%i18n:penny_poppyseedmuffin.objective",
       "DaysLeft": 5,
       "Reward": 750,
       "Cancelable": true,
       "Trigger": "Penny 651",
-      "ReactionText": "$hThis is great, thanks @!"
+      "ReactionText": "%i18n:penny_poppyseedmuffin.reactiontext"
     },
     { // Haley fruit salad in summer
       "Name": "haley_fruitsalad",
