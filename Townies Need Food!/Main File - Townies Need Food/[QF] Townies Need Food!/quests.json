@@ -148,18 +148,14 @@
     { // Alex salmon dinner in spring
       "Name": "alex_salmondinner",
       "Type": "ItemDelivery",
-      "Title": "Lemon spritz",
-      "Description": "A salmon dinner is special to me. Can anyone make me some? I'll give you cash!
-  -Alex
-
--900g on delivery
--Alex will be thankful",
-      "Objective": "Bring salmon dinner to Alex",
+      "Title": "%i18n:alex_salmondinner.title",
+      "Description": "%i18n:alex_salmondinner.description",
+      "Objective": "%i18n:alex_salmondinner.objective",
       "DaysLeft": 5,
       "Reward": 900,
       "Cancelable": true,
       "Trigger": "Alex 212",
-      "ReactionText": "$hThis looks delicious, thanks @!"
+      "ReactionText": "%i18n:alex_salmondinner.reactiontext"
     },
 	  { // Kent fiddlehead risotto in spring
       "Name": "kent_fiddleheadrisotto",

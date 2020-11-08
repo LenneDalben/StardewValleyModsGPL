@@ -105,10 +105,14 @@
   "willy_omelet.objective": "Bring omelet to Willy",
   "willy_omelet.reactiontext": "$hThis looks excellent, thanks @!",
 // Alex salmon dinner in spring
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+  "alex_salmondinner.title": "Lemon spritz",
+  "alex_salmondinner.description": "A salmon dinner is special to me. Can anyone make me some? I'll give you cash!
+  -Alex
+
+-900g on delivery
+-Alex will be thankful",
+  "alex_salmondinner.objective": "Bring salmon dinner to Alex",
+  "alex_salmondinner.reactiontext": "$hThis looks delicious, thanks @!",
 // Kent fiddlehead risotto in spring
   ".title": "",
   ".description": "",
