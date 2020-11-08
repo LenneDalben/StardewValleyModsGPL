@@ -60,10 +60,14 @@
   "leah_stirfry.objective": "Bring stir fry to Leah",
   "leah_stirfry.reactiontext": "$hOooh these look great, thanks @!",
 // Pam parsnip soup in spring
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+  "pam_parsnipsoup.title": "Fresh soup",
+  "pam_parsnipsoup.description": "Howdy! I want some parsnip soup but I'm fresh out of all the ingredients. Could someone in this town help me out and make me some?
+  -Pam
+
+-360g on delivery
+-Pam will be thankful",
+  "pam_parsnipsoup.objective": "Bring parsnip soup to Pam",
+  "pam_parsnipsoup.reactiontext": "$hOh what's this now? Ha, thanks, @!",
 // Harvey coleslaw in spring
   ".title": "",
   ".description": "",

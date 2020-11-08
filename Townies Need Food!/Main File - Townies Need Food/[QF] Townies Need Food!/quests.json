@@ -88,18 +88,14 @@
     { // Pam parsnip soup in spring
       "Name": "pam_parsnipsoup",
       "Type": "ItemDelivery",
-      "Title": "Fresh soup",
-      "Description": "Howdy! I want some parsnip soup but I'm fresh out of all the ingredients. Could someone in this town help me out and make me some?
-  -Pam
-
--360g on delivery
--Pam will be thankful",
-      "Objective": "Bring parsnip soup to Pam",
+      "Title": "%i18n:pam_parsnipsoup.title",
+      "Description": "%i18n:pam_parsnipsoup.description",
+      "Objective": "%i18n:pam_parsnipsoup.objective",
       "DaysLeft": 5,
       "Reward": 360,
       "Cancelable": true,
       "Trigger": "Pam 199",
-      "ReactionText": "$hOh what's this now? Ha, thanks, @!"
+      "ReactionText": "%i18n:pam_parsnipsoup.reactiontext"
     },
     { // Harvey coleslaw in spring
       "Name": "harvey_coleslaw",
