@@ -42,10 +42,14 @@
   "demetrius_icecream.objective": "Bring a ice cream to Demetrius",
   "demetrius_icecream.reactiontext": "$hThank you @, I'm looking forward to this ice cream.",
 // Leah salad in spring
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+  "leah_salad.title": "A garden salad",
+  "leah_salad.description": "I've not had much luck getting the ingredients for my favorite dish. Could someone prepare me a salad?
+  -Leah
+
+-330g on delivery
+-Makes Leah happy",
+  "leah_salad.objective": "Bring salad to Leah",
+  "leah_salad.reactiontext": "$hAh perfect, thanks @!",
 // Leah stir fry in spring
   ".title": "",
   ".description": "",

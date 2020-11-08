@@ -64,18 +64,14 @@
     { // Leah salad in spring
       "Name": "leah_salad",
       "Type": "ItemDelivery",
-      "Title": "A garden salad",
-      "Description": "I've not had much luck getting the ingredients for my favorite dish. Could someone prepare me a salad?
-  -Leah
-
--330g on delivery
--Makes Leah happy",
-      "Objective": "Bring salad to Leah",
+      "Title": "%i18n:leah_salad.title",
+      "Description": "%i18n:leah_salad.description",
+      "Objective": "%i18n:leah_salad.objective",
       "DaysLeft": 5,
       "Reward": 330,
       "Cancelable": true,
       "Trigger": "Leah 196",
-      "ReactionText": "$hAh perfect, thanks @!"
+      "ReactionText": "%i18n:leah_salad.reactiontext"
     },
     { // Leah stir fry in spring
       "Name": "leah_stirfry",
