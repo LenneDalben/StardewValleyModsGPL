@@ -232,19 +232,15 @@
     { // Penny red plate in summer
       "Name": "penny_redplate",
       "Type": "ItemDelivery",
-      "Title": "So many antioxidants!",
-      "Description": "Hi, I'd love to have a red plate, it seems quite healthy. Could someone prepare one for me?
-  -Penny
-
--1200g on delivery
--Makes Penny happy",
-      "Objective": "Bring red plate to Penny",
+      "Title": "%i18n:penny_redplate.title",
+      "Description": "%i18n:penny_redplate.description",
+      "Objective": "%i18n:penny_redplate.objective",
       "DaysLeft": 5,
       "Reward": 1200,
       "Cancelable": true,
       "Trigger": "Penny 230",
-      "ReactionText": "$hThis looks delicious, thanks @!"
-    },
+      "ReactionText": "%i18n:penny_redplate.reactiontext"
+     },
     { // Penny poppyseed muffin in summer
       "Name": "penny_poppyseedmuffin",
       "Type": "ItemDelivery",

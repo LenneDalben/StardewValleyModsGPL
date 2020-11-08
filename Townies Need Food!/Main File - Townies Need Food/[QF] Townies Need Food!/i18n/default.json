@@ -167,10 +167,14 @@
     "robin_radishsalad.objective": "Bring radish salad to Robin",
     "robin_radishsalad.reactiontext": "$hPerfect, thank you @!",
 // Penny red plate in summer
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "penny_redplate.title": "So many antioxidants!",
+    "penny_redplate.description": "Hi, I'd love to have a red plate, it seems quite healthy. Could someone prepare one for me?
+    -Penny
+  
+  -1200g on delivery
+  -Makes Penny happy",
+    "penny_redplate.objective": "Bring red plate to Penny",
+    "penny_redplate.reactiontext": "$hThis looks delicious, thanks @!",
 // Penny poppyseed muffin in summer
     ".title": "",
     ".description": "",
