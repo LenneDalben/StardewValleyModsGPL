@@ -194,10 +194,14 @@
     "haley_fruitsalad.objective": "Bring fruit salad to Haley",
     "haley_fruitsalad.reactiontext": "$hThis fruit salad looks great, thanks @!",
 // Caroline fish taco in summer
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "caroline_fishtaco.title": "Delicious tacos",
+    "caroline_fishtaco.description": "I could really go for a fish taco. I'll pay you when you bring it.
+    -Caroline
+  
+  -1500g on delivery
+  -Caroline will be pleased",
+    "caroline_fishtaco.objective": "Bring fish taco to Caroline",
+    "caroline_fishtaco.reactiontext": "$hThank you, @! I appreciate it.",
 // Alex complete breakfast in summer
     ".title": "",
     ".description": "",
