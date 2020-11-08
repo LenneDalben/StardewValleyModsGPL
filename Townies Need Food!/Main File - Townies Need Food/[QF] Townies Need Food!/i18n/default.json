@@ -51,10 +51,14 @@
   "leah_salad.objective": "Bring salad to Leah",
   "leah_salad.reactiontext": "$hAh perfect, thanks @!",
 // Leah stir fry in spring
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+  "leah_stirfry.title": "Julienned veggies",
+  "leah_stirfry.description": "I'm in the mood for some stir fry. Anyone know how to julienne vegetables?
+  -Leah
+
+-1005g on delivery
+-Makes Leah happy",
+  "leah_stirfry.objective": "Bring stir fry to Leah",
+  "leah_stirfry.reactiontext": "$hOooh these look great, thanks @!",
 // Pam parsnip soup in spring
   ".title": "",
   ".description": "",

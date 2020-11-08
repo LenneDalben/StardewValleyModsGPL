@@ -76,18 +76,14 @@
     { // Leah stir fry in spring
       "Name": "leah_stirfry",
       "Type": "ItemDelivery",
-      "Title": "Julienned veggies",
-      "Description": "I'm in the mood for some stir fry. Anyone know how to julienne vegetables?
-  -Leah
-
--1005g on delivery
--Makes Leah happy",
-      "Objective": "Bring stir fry to Leah",
+      "Title": "%i18n:leah_stirfry.title",
+      "Description": "%i18n:leah_stirfry.description",
+      "Objective": "%i18n:leah_stirfry.objective",
       "DaysLeft": 5,
       "Reward": 1005,
       "Cancelable": true,
       "Trigger": "Leah 606",
-      "ReactionText": "$hOooh these look great, thanks @!"
+      "ReactionText": "%i18n:leah_stirfry.reactiontext"
     },
     { // Pam parsnip soup in spring
       "Name": "pam_parsnipsoup",
