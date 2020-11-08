@@ -160,18 +160,14 @@
 	  { // Kent fiddlehead risotto in spring
       "Name": "kent_fiddleheadrisotto",
       "Type": "ItemDelivery",
-      "Title": "Creamy rice dish",
-      "Description": "I'd like some fiddlehead risotto, please.
-  -Kent
-
--1050g on delivery
--Kent will be thankful",
-      "Objective": "Bring fiddlehead risotto to Kent",
+      "Title": "%i18n:kent_fiddleheadrisotto.title",
+      "Description": "%i18n:kent_fiddleheadrisotto.description",
+      "Objective": "%i18n:kent_fiddleheadrisotto.objective",
       "DaysLeft": 5,
       "Reward": 1050,
       "Cancelable": true,
       "Trigger": "Kent 649",
-      "ReactionText": "$hWhat? Oh, the risotto I asked for. Thanks @."
+      "ReactionText": "%i18n:kent_fiddleheadrisotto.reactiontext"
     },
 	  { // Jodi pancakes in spring
       "Name": "jodi_pancakes",

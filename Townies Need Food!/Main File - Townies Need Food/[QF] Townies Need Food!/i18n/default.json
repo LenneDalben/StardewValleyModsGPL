@@ -114,10 +114,14 @@
   "alex_salmondinner.objective": "Bring salmon dinner to Alex",
   "alex_salmondinner.reactiontext": "$hThis looks delicious, thanks @!",
 // Kent fiddlehead risotto in spring
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+  "kent_fiddleheadrisotto.title": "Creamy rice dish",
+  "kent_fiddleheadrisotto.description": "I'd like some fiddlehead risotto, please.
+  -Kent
+
+-1050g on delivery
+-Kent will be thankful",
+  "kent_fiddleheadrisotto.objective": "Bring fiddlehead risotto to Kent",
+  "kent_fiddleheadrisotto.reactiontext": "$hWhat? Oh, the risotto I asked for. Thanks @.",
 // Jodi pancakes in spring
   ".title": "",
   ".description": "",
