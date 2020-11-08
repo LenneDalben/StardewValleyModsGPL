@@ -1,424 +1,427 @@
 {
-  // Emily shrimp cocktail in spring
-  "emily_shrimpcocktail.title": "Sumptuous appetizer",
-  "emily_shrimpcocktail.description": "Hello, it's Emily. I'd like to buy a shrimp cocktail from someone, to have an appetizer for my meal. Thanks!
-  -Emily
-  
-  -480g on delivery
-  -Emily will be thankful",
-  "emily_shrimpcocktail.objective": "Bring shrimp cocktail to Emily",
-  "emily_shrimpcocktail.reactiontext": "$hGreat, thanks @!",
+// Emily shrimp cocktail in spring
+    "emily_shrimpcocktail.title": "Sumptuous appetizer",
+    "emily_shrimpcocktail.description": "Hello, it's Emily. I'd like to buy a shrimp cocktail from someone, to have an appetizer for my meal. Thanks!
+    -Emily
+    
+    -480g on delivery
+    -Emily will be thankful",
+    "emily_shrimpcocktail.objective": "Bring shrimp cocktail to Emily",
+    "emily_shrimpcocktail.reactiontext": "$hGreat, thanks @!",
 // Harvey triple shot espresso in spring
-  "harvey_tripleshot.title": "Coffee won't cut it",
-  "harvey_tripleshot.description": "Coffee won't cut it; I'm in need of some triple shot espresso to raise my energy level. Could someone make one for me?
-  -Harvey
+    "harvey_tripleshot.title": "Coffee won't cut it",
+    "harvey_tripleshot.description": "Coffee won't cut it; I'm in need of some triple shot espresso to raise my energy level. Could someone make one for me?
+    -Harvey
 
--1350g on delivery
--Harvey will be thankful",
-  "harvey_tripleshot.objective": "Bring a triple shot espresso to Harvey",
-  "harvey_tripleshot.reactiontext": "$hAh yes, this will perk me up. Thanks, @!",
+  -1350g on delivery
+  -Harvey will be thankful",
+    "harvey_tripleshot.objective": "Bring a triple shot espresso to Harvey",
+    "harvey_tripleshot.reactiontext": "$hAh yes, this will perk me up. Thanks, @!",
 // Demetrius bean hotpot in spring
-  "demetrius_beanhotpot.title": "A healthy meal",
-  "demetrius_beanhotpot.description": "Greetings! Demetrius here. I'm looking for an earthy taste to balance out dinner. Can anyone make a bean hotpot for me?
+    "demetrius_beanhotpot.title": "A healthy meal",
+    "demetrius_beanhotpot.description": "Greetings! Demetrius here. I'm looking for an earthy taste to balance out dinner. Can anyone make a bean hotpot for me?
 
-  -300g on delivery
-  -Demetrius will be thankful",
-  "demetrius_beanhotpot.objective": "Bring a bean hotpot to Demetrius",
-  "demetrius_beanhotpot.reactiontext": "$hThank you @, I'm looking forward to these beans.",
+    -300g on delivery
+    -Demetrius will be thankful",
+    "demetrius_beanhotpot.objective": "Bring a bean hotpot to Demetrius",
+    "demetrius_beanhotpot.reactiontext": "$hThank you @, I'm looking forward to these beans.",
 // George chowder in spring
-  "george_chowder.title": "Perfect warmth",
-  "george_chowder.description": "I'm in need of something to warm my old bones. Could someone make me some chowder?
+    "george_chowder.title": "Perfect warmth",
+    "george_chowder.description": "I'm in need of something to warm my old bones. Could someone make me some chowder?
 
-  -405g on delivery
-  -George will be thankful",
-  "george_chowder.objective": "Bring chowder to George",
-  "george_chowder.reactiontext": "$hThank you @, I'm looking forward to this soup.",
+    -405g on delivery
+    -George will be thankful",
+    "george_chowder.objective": "Bring chowder to George",
+    "george_chowder.reactiontext": "$hThank you @, I'm looking forward to this soup.",
 // Demetrius ice cream in spring
-  "demetrius_icecream.title": "A sweet treat",
-  "demetrius_icecream.description": "Greetings! Demetrius here. I'm looking for a sweet treat. Can someone bring me some ice cream?
+    "demetrius_icecream.title": "A sweet treat",
+    "demetrius_icecream.description": "Greetings! Demetrius here. I'm looking for a sweet treat. Can someone bring me some ice cream?
+
+    -360g on delivery
+    -Demetrius will be thankful",
+    "demetrius_icecream.objective": "Bring a ice cream to Demetrius",
+    "demetrius_icecream.reactiontext": "$hThank you @, I'm looking forward to this ice cream.",
+// Leah salad in spring
+    "leah_salad.title": "A garden salad",
+    "leah_salad.description": "I've not had much luck getting the ingredients for my favorite dish. Could someone prepare me a salad?
+    -Leah
+
+  -330g on delivery
+  -Makes Leah happy",
+    "leah_salad.objective": "Bring salad to Leah",
+    "leah_salad.reactiontext": "$hAh perfect, thanks @!",
+// Leah stir fry in spring
+    "leah_stirfry.title": "Julienned veggies",
+    "leah_stirfry.description": "I'm in the mood for some stir fry. Anyone know how to julienne vegetables?
+    -Leah
+
+  -1005g on delivery
+  -Makes Leah happy",
+    "leah_stirfry.objective": "Bring stir fry to Leah",
+    "leah_stirfry.reactiontext": "$hOooh these look great, thanks @!",
+// Pam parsnip soup in spring
+    "pam_parsnipsoup.title": "Fresh soup",
+    "pam_parsnipsoup.description": "Howdy! I want some parsnip soup but I'm fresh out of all the ingredients. Could someone in this town help me out and make me some?
+    -Pam
 
   -360g on delivery
-  -Demetrius will be thankful",
-  "demetrius_icecream.objective": "Bring a ice cream to Demetrius",
-  "demetrius_icecream.reactiontext": "$hThank you @, I'm looking forward to this ice cream.",
-// Leah salad in spring
-  "leah_salad.title": "A garden salad",
-  "leah_salad.description": "I've not had much luck getting the ingredients for my favorite dish. Could someone prepare me a salad?
-  -Leah
-
--330g on delivery
--Makes Leah happy",
-  "leah_salad.objective": "Bring salad to Leah",
-  "leah_salad.reactiontext": "$hAh perfect, thanks @!",
-// Leah stir fry in spring
-  "leah_stirfry.title": "Julienned veggies",
-  "leah_stirfry.description": "I'm in the mood for some stir fry. Anyone know how to julienne vegetables?
-  -Leah
-
--1005g on delivery
--Makes Leah happy",
-  "leah_stirfry.objective": "Bring stir fry to Leah",
-  "leah_stirfry.reactiontext": "$hOooh these look great, thanks @!",
-// Pam parsnip soup in spring
-  "pam_parsnipsoup.title": "Fresh soup",
-  "pam_parsnipsoup.description": "Howdy! I want some parsnip soup but I'm fresh out of all the ingredients. Could someone in this town help me out and make me some?
-  -Pam
-
--360g on delivery
--Pam will be thankful",
-  "pam_parsnipsoup.objective": "Bring parsnip soup to Pam",
-  "pam_parsnipsoup.reactiontext": "$hOh what's this now? Ha, thanks, @!",
+  -Pam will be thankful",
+    "pam_parsnipsoup.objective": "Bring parsnip soup to Pam",
+    "pam_parsnipsoup.reactiontext": "$hOh what's this now? Ha, thanks, @!",
 // Harvey coleslaw in spring
-  "harvey_coleslaw.title": "Light and healthy",
-  "harvey_coleslaw.description": "If someone could give me some coleslaw, I could put it to good use as a side dish.
-  -Harvey
+    "harvey_coleslaw.title": "Light and healthy",
+    "harvey_coleslaw.description": "If someone could give me some coleslaw, I could put it to good use as a side dish.
+    -Harvey
 
--1035g on delivery
--Harvey will be thankful",
-  "harvey_coleslaw.objective": "Bring coleslaw to Harvey",
-  "harvey_coleslaw.reactiontext": "$hI'm looking forward to this healthy side dish, thanks @!",
+  -1035g on delivery
+  -Harvey will be thankful",
+    "harvey_coleslaw.objective": "Bring coleslaw to Harvey",
+    "harvey_coleslaw.reactiontext": "$hI'm looking forward to this healthy side dish, thanks @!",
 // Sebastian sashimi in spring
-  "sebastian_sashimi.title": "It's sashimi",
-  "sebastian_sashimi.description": "This is embarrassing; I love sashimi but I don't think I've mastered the thin slices. Could someone give it a try? I'll pay you!
-  -Sebastian
+    "sebastian_sashimi.title": "It's sashimi",
+    "sebastian_sashimi.description": "This is embarrassing; I love sashimi but I don't think I've mastered the thin slices. Could someone give it a try? I'll pay you!
+    -Sebastian
 
--225g on delivery
--Makes Sebastian happy",
-  "sebastian_sashimi.objective": "Bring sashimi to Sebastian",
-  "sebastian_sashimi.reactiontext": "$lOh, hah... You made this for me? Thanks @!",
+  -225g on delivery
+  -Makes Sebastian happy",
+    "sebastian_sashimi.objective": "Bring sashimi to Sebastian",
+    "sebastian_sashimi.reactiontext": "$lOh, hah... You made this for me? Thanks @!",
 // Pam hashbrowns in spring
-  "pam_hashbrowns.title": "Golden-brown crisp",
-  "pam_hashbrowns.description": "Howdy! I'd love some hashbrowns. Could someone in this town help me out and make me some? There's money in it for you.
-  -Pam
+    "pam_hashbrowns.title": "Golden-brown crisp",
+    "pam_hashbrowns.description": "Howdy! I'd love some hashbrowns. Could someone in this town help me out and make me some? There's money in it for you.
+    -Pam
 
--360g on delivery
--Pam will be thankful",
-  "pam_hashbrowns.objective": "Bring hashbrowns to Pam",
-  "pam_hashbrowns.reactiontext": "$hWhatcha got there? Oh, this is for me, thanks, @!",
+  -360g on delivery
+  -Pam will be thankful",
+    "pam_hashbrowns.objective": "Bring hashbrowns to Pam",
+    "pam_hashbrowns.reactiontext": "$hWhatcha got there? Oh, this is for me, thanks, @!",
 // Willy omelet in spring
-  "willy_omelet.title": "Super fluffy",
-  "willy_omelet.description": "Sometimes an omelet is all you need. I'll pay whoever can make me one!
-  -Willy
+    "willy_omelet.title": "Super fluffy",
+    "willy_omelet.description": "Sometimes an omelet is all you need. I'll pay whoever can make me one!
+    -Willy
 
--375g on delivery
--Makes Willy happy",
-  "willy_omelet.objective": "Bring omelet to Willy",
-  "willy_omelet.reactiontext": "$hThis looks excellent, thanks @!",
+  -375g on delivery
+  -Makes Willy happy",
+    "willy_omelet.objective": "Bring omelet to Willy",
+    "willy_omelet.reactiontext": "$hThis looks excellent, thanks @!",
 // Alex salmon dinner in spring
-  "alex_salmondinner.title": "Lemon spritz",
-  "alex_salmondinner.description": "A salmon dinner is special to me. Can anyone make me some? I'll give you cash!
-  -Alex
+    "alex_salmondinner.title": "Lemon spritz",
+    "alex_salmondinner.description": "A salmon dinner is special to me. Can anyone make me some? I'll give you cash!
+    -Alex
 
--900g on delivery
--Alex will be thankful",
-  "alex_salmondinner.objective": "Bring salmon dinner to Alex",
-  "alex_salmondinner.reactiontext": "$hThis looks delicious, thanks @!",
+  -900g on delivery
+  -Alex will be thankful",
+    "alex_salmondinner.objective": "Bring salmon dinner to Alex",
+    "alex_salmondinner.reactiontext": "$hThis looks delicious, thanks @!",
 // Kent fiddlehead risotto in spring
-  "kent_fiddleheadrisotto.title": "Creamy rice dish",
-  "kent_fiddleheadrisotto.description": "I'd like some fiddlehead risotto, please.
-  -Kent
+    "kent_fiddleheadrisotto.title": "Creamy rice dish",
+    "kent_fiddleheadrisotto.description": "I'd like some fiddlehead risotto, please.
+    -Kent
 
--1050g on delivery
--Kent will be thankful",
-  "kent_fiddleheadrisotto.objective": "Bring fiddlehead risotto to Kent",
-  "kent_fiddleheadrisotto.reactiontext": "$hWhat? Oh, the risotto I asked for. Thanks @.",
+  -1050g on delivery
+  -Kent will be thankful",
+    "kent_fiddleheadrisotto.objective": "Bring fiddlehead risotto to Kent",
+    "kent_fiddleheadrisotto.reactiontext": "$hWhat? Oh, the risotto I asked for. Thanks @.",
 // Jodi pancakes in spring
-  "jodi_pancakes.title": "Fluffy stack",
-  "jodi_pancakes.description": "Hi everyone! Could someone in town spare the time to make some pancakes for me? I'll pay!
-  -Jodi
+    "jodi_pancakes.title": "Fluffy stack",
+    "jodi_pancakes.description": "Hi everyone! Could someone in town spare the time to make some pancakes for me? I'll pay!
+    -Jodi
 
--240g on delivery
--Jodi will be pleased",
-  "jodi_pancakes.objective": "Bring pancakes to Jodi",
-  "jodi_pancakes.reactiontext": "$hThese look great, thanks @.",
+  -240g on delivery
+  -Jodi will be pleased",
+    "jodi_pancakes.objective": "Bring pancakes to Jodi",
+    "jodi_pancakes.reactiontext": "$hThese look great, thanks @.",
 // Marnie pink cake in spring
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    "marnie_pinkcake.title": "Pink cake",
+    "marnie_pinkcake.description": "Howdy neighbors! I'd like to surprise Jas with some pink cake. Can someone make some? I'll pay!
+
+    -1440g on delivery
+    -Makes Marnie happy",
+    "marnie_pinkcake.objective": "Bring pink cake to Marnie",
+    "marnie_pinkcake.reactiontext": "$hThanks @! I expect Jas will love this.",
 // Maru miner's treat in spring
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Maru rhubarb pie in spring
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Robin radish salad in summer
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Penny red plate in summer
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Penny poppyseed muffin in summer
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Haley fruit salad in summer
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Caroline fish taco in summer
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Alex complete breakfast in summer
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Linus blueberry tart in summer
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // George fried mushroom in summer
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Clint bread in summer
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Sam pizza in summer
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Elliott crab cakes in summer
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Gus escargot in summer
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Pierre fried calamari in summer
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Shane pepper poppers in summer
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Caroline fried eel in summer
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Robin spaghetti in summer
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Willy maki roll in summer
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Wizard lucky lunch in summer
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Pierre bruschetta in fall
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Emily survival burger in fall
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Clint artichoke dip in fall
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Abigail blackberry cobbler in fall
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Harvey super meal in fall
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Linus dish o' the sea in fall
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Lewis vegetable medley in fall
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Lewis autumn's bounty in fall
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Caroline lobster bisque in fall
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Pam glazed yams in fall
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Sebastian pumpkin soup in fall
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Evelyn stuffing in fall
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Wizard cranberry sauce in fall
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // George plum pudding in fall
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Gus fish taco in fall
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Haley cranberry candy in fall
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Jodi crispy bass in fall
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Linus fish stew in fall
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Demetrius rice pudding in winter
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Wizard cookie in winter
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Marnie pumpkin pie in winter
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Abigail spicy eel in winter
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Elliott tom kha soup in winter
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Willy trout soup in winter
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Alex fried egg in winter
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Jodi eggplant parmesan in winter
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Kent roasted hazelnuts in winter
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Shane pizza in winter
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Marnie farmer's lunch in winter
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Penny roots platter in winter
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Sam tortilla in winter
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Maru cheese cauliflower in winter
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Evelyn chocolate cake in winter
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Krobus seafoam pudding in winter
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Elliott baked fish in winter
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Robin carp surprise in winter
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 // Sam maple bar in winter
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+    ".title": "",
+    ".description": "",
+    ".objective": "",
+    ".reactiontext": "",
 }

@@ -184,17 +184,14 @@
     { // Marnie pink cake in spring
       "Name": "marnie_pinkcake",
       "Type": "ItemDelivery",
-      "Title": "Pink cake",
-      "Description": "Howdy neighbors! I'd like to surprise Jas with some pink cake. Can someone make some? I'll pay!
-
--1440g on delivery
--Makes Marnie happy",
-      "Objective": "Bring pink cake to Marnie",
+      "Title": "%i18n:marnie_pinkcake.title",
+      "Description": "%i18n:marnie_pinkcake.description",
+      "Objective": "%i18n:marnie_pinkcake.objective",
       "DaysLeft": 5,
       "Reward": 1440,
       "Cancelable": true,
       "Trigger": "Marnie 221",
-      "ReactionText": "$hThanks @! I expect Jas will love this."
+      "ReactionText": "%i18n:marnie_pinkcake.reactiontext"
     },
     { // Maru miner's treat in spring
       "Name": "maru_minerstreat",
