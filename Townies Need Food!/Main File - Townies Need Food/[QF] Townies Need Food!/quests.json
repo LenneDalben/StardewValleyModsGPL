@@ -100,18 +100,14 @@
     { // Harvey coleslaw in spring
       "Name": "harvey_coleslaw",
       "Type": "ItemDelivery",
-      "Title": "Light and healthy",
-      "Description": "If someone could give me some coleslaw, I could put it to good use as a side dish.
-  -Harvey
-
--1035g on delivery
--Harvey will be thankful",
-      "Objective": "Bring coleslaw to Harvey",
+      "Title": "%i18n:harvey_coleslaw.title",
+      "Description": "%i18n:harvey_coleslaw.description",
+      "Objective": "%i18n:harvey_coleslaw.objective",
       "DaysLeft": 5,
       "Reward": 1035,
       "Cancelable": true,
       "Trigger": "Harvey 648",
-      "ReactionText": "$hI'm looking forward to this healthy side dish, thanks @!"
+      "ReactionText": "%i18n:harvey_coleslaw.reactiontext"
     },
     { // Sebastian sashimi in spring
       "Name": "sebastian_sashimi",

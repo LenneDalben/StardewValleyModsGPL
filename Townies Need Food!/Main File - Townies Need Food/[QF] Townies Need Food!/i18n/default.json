@@ -69,10 +69,14 @@
   "pam_parsnipsoup.objective": "Bring parsnip soup to Pam",
   "pam_parsnipsoup.reactiontext": "$hOh what's this now? Ha, thanks, @!",
 // Harvey coleslaw in spring
-  ".title": "",
-  ".description": "",
-  ".objective": "",
-  ".reactiontext": "",
+  "harvey_coleslaw.title": "Light and healthy",
+  "harvey_coleslaw.description": "If someone could give me some coleslaw, I could put it to good use as a side dish.
+  -Harvey
+
+-1035g on delivery
+-Harvey will be thankful",
+  "harvey_coleslaw.objective": "Bring coleslaw to Harvey",
+  "harvey_coleslaw.reactiontext": "$hI'm looking forward to this healthy side dish, thanks @!",
 // Sebastian sashimi in spring
   ".title": "",
   ".description": "",
