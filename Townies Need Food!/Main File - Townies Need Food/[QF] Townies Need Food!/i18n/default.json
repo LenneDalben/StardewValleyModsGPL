@@ -284,10 +284,14 @@
     "shane_pepperpoppers.objective": "Bring pepper poppers to Shane",
     "shane_pepperpoppers.reactiontext": "$hAh, these are the best. Thanks, @.",
 // Caroline fried eel in summer
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "caroline_friedeel.title": "Flavorful dish",
+    "caroline_friedeel.description": "I could really go for some fried eel. I'll pay you when you bring it.
+    -Caroline
+  
+  -360g on delivery
+  -Caroline will be pleased",
+    "caroline_friedeel.objective": "Bring fried eel to Caroline",
+    "caroline_friedeel.reactiontext": "$hThank you, @! I appreciate it.",
 // Robin spaghetti in summer
     ".title": "",
     ".description": "",

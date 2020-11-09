@@ -388,18 +388,14 @@
     { // Caroline fried eel in summer
       "Name": "caroline_friedeel",
       "Type": "ItemDelivery",
-      "Title": "Flavorful dish",
-      "Description": "I could really go for some fried eel. I'll pay you when you bring it.
-  -Caroline
-
--360g on delivery
--Caroline will be pleased",
-      "Objective": "Bring fried eel to Caroline",
+      "Title": "%i18n:caroline_friedeel.title",
+      "Description": "%i18n:caroline_friedeel.description",
+      "Objective": "%i18n:caroline_friedeel.objective",
       "DaysLeft": 5,
       "Reward": 360,
       "Cancelable": true,
       "Trigger": "Caroline 225",
-      "ReactionText": "$hThank you, @! I appreciate it."
+      "ReactionText": "%i18n:caroline_friedeel.reactiontext"
     },
     { // Robin spaghetti in summer
       "Name": "robin_spaghetti",
