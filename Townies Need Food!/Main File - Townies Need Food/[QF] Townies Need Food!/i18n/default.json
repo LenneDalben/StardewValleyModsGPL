@@ -266,10 +266,14 @@
     "gus_escargot.objective": "Bring escargot to Gus",
     "gus_escargot.reactiontext": "$hThis looks great, thank you @!",
 // Pierre fried calamari in summer
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "pierre_friedcalamari.title": "A chewy squid",
+    "pierre_friedcalamari.description": "Could someone make me some fried calamari? I'll pay!
+    -Pierre
+    
+    -450g on delivery
+    -Pierre will be pleased",
+    "pierre_friedcalamari.objective": "Bring fried calamari to Pierre",
+    "pierre_friedcalamari.reactiontext": "$hIt's my favorite, you know. Thanks, @!",
 // Shane pepper poppers in summer
     ".title": "",
     ".description": "",

@@ -364,18 +364,14 @@
     { // Pierre fried calamari in summer
       "Name": "pierre_friedcalamari",
       "Type": "ItemDelivery",
-      "Title": "A chewy squid",
-      "Description": "Could someone make me some fried calamari? I'll pay!
--Pierre
-
--450g on delivery
--Pierre will be pleased",
-      "Objective": "Bring fried calamari to Pierre",
+      "Title": "%i18n:pierre_friedcalamari.title",
+      "Description": "%i18n:pierre_friedcalamari.description",
+      "Objective": "%i18n:pierre_friedcalamari.objective",
       "DaysLeft": 5,
       "Reward": 450,
       "Cancelable": true,
       "Trigger": "Pierre 202",
-      "ReactionText": "$hIt's my favorite, you know. Thanks, @!"
+      "ReactionText": "%i18n:pierre_friedcalamari.reactiontext"
     },
 	  { // Shane pepper poppers in summer
       "Name": "shane_pepperpoppers",
