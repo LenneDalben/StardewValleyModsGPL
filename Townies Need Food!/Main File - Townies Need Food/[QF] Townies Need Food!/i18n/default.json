@@ -302,10 +302,14 @@
     "robin_spaghetti.objective": "Bring spaghetti to Robin",
     "robin_spaghetti.reactiontext": "$hLooks great, thank you @!",
 // Willy maki roll in summer
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "willy_makiroll.title": "Fish and rice",
+    "willy_makiroll.description": "Maki rolls are a simple delicious meal. I'll pay whoever can make me some!
+    -Willy
+  
+  -660g on delivery
+  -Makes Willy happy",
+    "willy_makiroll.objective": "Bring maki roll to Willy",
+    "willy_makiroll.reactiontext": "$hThese look great, thanks @!",
 // Wizard lucky lunch in summer
     ".title": "",
     ".description": "",

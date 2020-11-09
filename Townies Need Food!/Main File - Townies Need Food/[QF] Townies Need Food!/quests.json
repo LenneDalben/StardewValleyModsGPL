@@ -412,18 +412,14 @@
     { // Willy maki roll in summer
       "Name": "willy_makiroll",
       "Type": "ItemDelivery",
-      "Title": "Fish and rice",
-      "Description": "Maki rolls are a simple delicious meal. I'll pay whoever can make me some!
-  -Willy
-
--660g on delivery
--Makes Willy happy",
-      "Objective": "Bring maki roll to Willy",
+      "Title": "%i18n:willy_makiroll.title",
+      "Description": "%i18n:willy_makiroll.description",
+      "Objective": "%i18n:willy_makiroll.objective",
       "DaysLeft": 5,
       "Reward": 660,
       "Cancelable": true,
       "Trigger": "Willy 228",
-      "ReactionText": "$hThese look great, thanks @!"
+      "ReactionText": "%i18n:willy_makiroll.reactiontext"
     },
     { // Wizard lucky lunch in summer
       "Name": "wizard_luckylunch",
