@@ -304,18 +304,14 @@
     { // George fried mushroom in summer
       "Name": "george_friedmushroom",
       "Type": "ItemDelivery",
-      "Title": "Earthy side dish",
-      "Description": "I'm interested in some fried mushrooms, but I don't want to trouble Evelyn. Anyone know the recipe?
-  -George
-
--600g on delivery
--George will be thankful",
-      "Objective": "Bring fried mushroom to George",
+      "Title": "%i18n:george_friedmushroom.title",
+      "Description": "%i18n:george_friedmushroom.description",
+      "Objective": "%i18n:george_friedmushroom.objective",
       "DaysLeft": 5,
       "Reward": 600,
       "Cancelable": true,
       "Trigger": "George 205",
-      "ReactionText": "$hI'm looking forward to this side dish, Farmer @."
+      "ReactionText": "%i18n:george_friedmushroom.reactiontext"
     },
     { // Clint bread in summer
       "Name": "clint_bread",

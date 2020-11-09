@@ -221,10 +221,14 @@
     "linus_blueberrytart.objective": "Bring blueberry tart to Linus",
     "linus_blueberrytart.reactiontext": "$hI'm grateful for this, Farmer @.",
 // George fried mushroom in summer
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "george_friedmushroom.title": "Earthy side dish",
+    "george_friedmushroom.description": "I'm interested in some fried mushrooms, but I don't want to trouble Evelyn. Anyone know the recipe?
+    -George
+  
+  -600g on delivery
+  -George will be thankful",
+    "george_friedmushroom.objective": "Bring fried mushroom to George",
+    "george_friedmushroom.reactiontext": "$hI'm looking forward to this side dish, Farmer @.",
 // Clint bread in summer
     ".title": "",
     ".description": "",
