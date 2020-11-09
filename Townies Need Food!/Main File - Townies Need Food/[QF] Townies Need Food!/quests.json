@@ -328,18 +328,14 @@
     { // Sam pizza in summer
       "Name": "sam_pizza",
       "Type": "ItemDelivery",
-      "Title": "My favorite!",
-      "Description": "I'm working on a project and need some fuel. Can anyone bring me a pizza?
-  -Sam
-
--900g on delivery
--Sam will be thankful",
-      "Objective": "Bring pizza to Sam",
+      "Title": "%i18n:sam_pizza.title",
+      "Description": "%i18n:sam_pizza.description",
+      "Objective": "%i18n:sam_pizza.objective",
       "DaysLeft": 5,
       "Reward": 900,
       "Cancelable": true,
       "Trigger": "Sam 206",
-      "ReactionText": "$hAlright, @!"
+      "ReactionText": "%i18n:sam_pizza.reactiontext"
     },
     { // Elliott crab cakes in summer
       "Name": "elliott_crabcakes",

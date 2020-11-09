@@ -239,10 +239,14 @@
     "clint_bread.objective": "Bring bread to Clint",
     "clint_bread.reactiontext": "$hThis looks great, thanks @.",
 // Sam pizza in summer
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "sam_pizza.title": "My favorite!",
+    "sam_pizza.description": "I'm working on a project and need some fuel. Can anyone bring me a pizza?
+    -Sam
+  
+  -900g on delivery
+  -Sam will be thankful",
+    "sam_pizza.objective": "Bring pizza to Sam",
+    "sam_pizza.reactiontext": "$hAlright, @!",
 // Elliott crab cakes in summer
     ".title": "",
     ".description": "",
