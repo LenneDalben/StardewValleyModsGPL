@@ -203,10 +203,14 @@
     "caroline_fishtaco.objective": "Bring fish taco to Caroline",
     "caroline_fishtaco.reactiontext": "$hThank you, @! I appreciate it.",
 // Alex complete breakfast in summer
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "alex_completebreakfast.title": "Take on the world!",
+    "alex_completebreakfast.description": "I need a pick-me-up today, and I think a complete breakfast will do the trick. Can someone whip one up?
+    -Alex
+  
+  -1050g on delivery
+  -Alex will be thankful",
+    "alex_completebreakfast.objective": "Bring a complete breakfast to Alex",
+    "alex_completebreakfast.reactiontext": "$hThanks, this'll do the trick!",
 // Linus blueberry tart in summer
     ".title": "",
     ".description": "",

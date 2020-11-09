@@ -280,18 +280,14 @@
 	  { // Alex complete breakfast in summer
       "Name": "alex_completebreakfast",
       "Type": "ItemDelivery",
-      "Title": "Take on the world!",
-      "Description": "I need a pick-me-up today, and I think a complete breakfast will do the trick. Can someone whip one up?
-  -Alex
-
--1050g on delivery
--Alex will be thankful",
-      "Objective": "Bring a complete breakfast to Alex",
+      "Title": "%i18n:alex_completebreakfast.title",
+      "Description": "%i18n:alex_completebreakfast.description",
+      "Objective": "%i18n:alex_completebreakfast.objective",
       "DaysLeft": 5,
       "Reward": 1050,
       "Cancelable": true,
       "Trigger": "Alex 201",
-      "ReactionText": "$hThanks, this'll do the trick!"
+      "ReactionText": "%i18n:alex_completebreakfast.reactiontext"
     },
     { // Linus blueberry tart in summer
       "Name": "linus_blueberrytart",
