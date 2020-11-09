@@ -212,10 +212,14 @@
     "alex_completebreakfast.objective": "Bring a complete breakfast to Alex",
     "alex_completebreakfast.reactiontext": "$hThanks, this'll do the trick!",
 // Linus blueberry tart in summer
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "linus_blueberrytart.title": "A subtle tart",
+    "linus_blueberrytart.description": "I'd love a blueberry tart. Would someone in town be able to bake one for me?
+    -Linus =
+  
+  -450g on delivery
+  -Linus will be pleased",
+    "linus_blueberrytart.objective": "Bring blueberry tart to Linus",
+    "linus_blueberrytart.reactiontext": "$hI'm grateful for this, Farmer @.",
 // George fried mushroom in summer
     ".title": "",
     ".description": "",

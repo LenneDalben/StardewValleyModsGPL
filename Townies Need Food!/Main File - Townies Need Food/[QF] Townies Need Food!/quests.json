@@ -292,18 +292,14 @@
     { // Linus blueberry tart in summer
       "Name": "linus_blueberrytart",
       "Type": "ItemDelivery",
-      "Title": "A subtle tart",
-      "Description": "I'd love a blueberry tart. Would someone in town be able to bake one for me?
-  -Linus =
-
--450g on delivery
--Linus will be pleased",
-      "Objective": "Bring blueberry tart to Linus",
+      "Title": "%i18n:linus_blueberrytart.title",
+      "Description": "%i18n:linus_blueberrytart.description",
+      "Objective": "%i18n:linus_blueberrytart.objective",
       "DaysLeft": 5,
       "Reward": 450,
       "Cancelable": true,
       "Trigger": "Linus 234",
-      "ReactionText": "$hI'm grateful for this, Farmer @."
+      "ReactionText": "%i18n:linus_blueberrytart.reactiontext"
     },
     { // George fried mushroom in summer
       "Name": "george_friedmushroom",
