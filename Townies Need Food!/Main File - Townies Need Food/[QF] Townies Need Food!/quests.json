@@ -316,18 +316,14 @@
     { // Clint bread in summer
       "Name": "clint_bread",
       "Type": "ItemDelivery",
-      "Title": "Crusty baguette",
-      "Description": "I've got butter, but no bread. Can someone bring me bread? I'll pay!
-  -Clint
-
--180g on delivery
--Clint will be thankful",
-      "Objective": "Bring bread to Clint",
+      "Title": "%i18n:clint_bread.title",
+      "Description": "%i18n:clint_bread.description",
+      "Objective": "%i18n:clint_bread.objective",
       "DaysLeft": 5,
       "Reward": 180,
       "Cancelable": true,
       "Trigger": "Clint 216",
-      "ReactionText": "$hThis looks great, thanks @."
+      "ReactionText": "%i18n:clint_bread.reactiontext"
     },
     { // Sam pizza in summer
       "Name": "sam_pizza",

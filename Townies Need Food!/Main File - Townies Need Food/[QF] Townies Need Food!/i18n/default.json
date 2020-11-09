@@ -230,10 +230,14 @@
     "george_friedmushroom.objective": "Bring fried mushroom to George",
     "george_friedmushroom.reactiontext": "$hI'm looking forward to this side dish, Farmer @.",
 // Clint bread in summer
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "clint_bread.title": "Crusty baguette",
+    "clint_bread.description": "I've got butter, but no bread. Can someone bring me bread? I'll pay!
+    -Clint
+  
+  -180g on delivery
+  -Clint will be thankful",
+    "clint_bread.objective": "Bring bread to Clint",
+    "clint_bread.reactiontext": "$hThis looks great, thanks @.",
 // Sam pizza in summer
     ".title": "",
     ".description": "",
