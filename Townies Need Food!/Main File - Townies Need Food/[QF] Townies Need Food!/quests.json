@@ -352,18 +352,14 @@
     { // Gus escargot in summer
       "Name": "gus_escargot",
       "Type": "ItemDelivery",
-      "Title": "Butter-soaked snails",
-      "Description": "Hi! I'd love some escargot. Drop some off at the saloon and I'll be very grateful.
-  -Gus
-
--375g on delivery
--Gus will be pleased",
-      "Objective": "Bring escargot to Gus",
+      "Title": "%i18n:gus_escargot.title",
+      "Description": "%i18n:gus_escargot.description",
+      "Objective": "%i18n:gus_escargot.objective",
       "DaysLeft": 5,
       "Reward": 375,
       "Cancelable": true,
       "Trigger": "Gus 729",
-      "ReactionText": "$hThis looks great, thank you @!"
+      "ReactionText": "%i18n:gus_escargot.reactiontext"
     },
     { // Pierre fried calamari in summer
       "Name": "pierre_friedcalamari",
