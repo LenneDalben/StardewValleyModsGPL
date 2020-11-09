@@ -293,10 +293,14 @@
     "caroline_friedeel.objective": "Bring fried eel to Caroline",
     "caroline_friedeel.reactiontext": "$hThank you, @! I appreciate it.",
 // Robin spaghetti in summer
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "robin_spaghetti.title": "Old favorite",
+    "robin_spaghetti.description": "I'd love some spaghetti. Can anyone make me some?
+    -Robin
+  
+  -360g on delivery
+  -Makes Robin happy",
+    "robin_spaghetti.objective": "Bring spaghetti to Robin",
+    "robin_spaghetti.reactiontext": "$hLooks great, thank you @!",
 // Willy maki roll in summer
     ".title": "",
     ".description": "",
