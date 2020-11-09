@@ -424,18 +424,14 @@
     { // Wizard lucky lunch in summer
       "Name": "wizard_luckylunch",
       "Type": "ItemDelivery",
-      "Title": "A special meal",
-      "Description": "Local wizard in search of a magnificent lucky lunch. It has very interesting properties, you know.
-  -M. Rasmodius =
-
--750g on delivery
--Wizard will be thankful",
-      "Objective": "Bring lucky lunch to Wizard",
+      "Title": "%i18n:wizard_luckylunch.title",
+      "Description": "%i18n:wizard_luckylunch.description",
+      "Objective": "%i18n:wizard_luckylunch.objective",
       "DaysLeft": 5,
       "Reward": 750,
       "Cancelable": true,
       "Trigger": "Wizard 204",
-      "ReactionText": "$hExcellent, thank you @!"
+      "ReactionText": "%i18n:wizard_luckylunch.reactiontext"
     },
     { // Pierre bruschetta in fall
       "Name": "pierre_bruschetta",

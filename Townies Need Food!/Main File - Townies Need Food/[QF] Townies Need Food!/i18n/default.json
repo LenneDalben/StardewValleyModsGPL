@@ -311,10 +311,14 @@
     "willy_makiroll.objective": "Bring maki roll to Willy",
     "willy_makiroll.reactiontext": "$hThese look great, thanks @!",
 // Wizard lucky lunch in summer
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "wizard_luckylunch.title": "A special meal",
+    "wizard_luckylunch.description": "Local wizard in search of a magnificent lucky lunch. It has very interesting properties, you know.
+    -M. Rasmodius =
+  
+  -750g on delivery
+  -Wizard will be thankful",
+    "wizard_luckylunch.objective": "Bring lucky lunch to Wizard",
+    "wizard_luckylunch.reactiontext": "$hExcellent, thank you @!",
 // Pierre bruschetta in fall
     ".title": "",
     ".description": "",
