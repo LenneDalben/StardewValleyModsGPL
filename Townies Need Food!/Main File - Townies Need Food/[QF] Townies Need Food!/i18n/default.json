@@ -248,10 +248,14 @@
     "sam_pizza.objective": "Bring pizza to Sam",
     "sam_pizza.reactiontext": "$hAlright, @!",
 // Elliott crab cakes in summer
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "elliott_crabcakes.title": "Golden brown patties",
+    "elliott_crabcakes.description": "I find crab cakes wonderful this time of year. I'd be most grateful if someone could make some for me.
+    -Elliott
+  
+  -825g on delivery
+  -Elliott will be pleased",
+    "elliott_crabcakes.objective": "Bring crab cakes to Elliott",
+    "elliott_crabcakes.reactiontext": "$hI can't wait to enjoy these crab cakes, thank you @!",
 // Gus escargot in summer
     ".title": "",
     ".description": "",

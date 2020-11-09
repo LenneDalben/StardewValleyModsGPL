@@ -340,18 +340,14 @@
     { // Elliott crab cakes in summer
       "Name": "elliott_crabcakes",
       "Type": "ItemDelivery",
-      "Title": "Golden brown patties",
-      "Description": "I find crab cakes wonderful this time of year. I'd be most grateful if someone could make some for me.
-  -Elliott
-
--825g on delivery
--Elliott will be pleased",
-      "Objective": "Bring crab cakes to Elliott",
+      "Title": "%i18n:elliott_crabcakes.title",
+      "Description": "%i18n:elliott_crabcakes.description",
+      "Objective": "%i18n:elliott_crabcakes.objective",
       "DaysLeft": 5,
       "Reward": 825,
       "Cancelable": true,
       "Trigger": "Elliott 732",
-      "ReactionText": "$hI can't wait to enjoy these crab cakes, thank you @!"
+      "ReactionText": "%i18n:elliott_crabcakes.reactiontext"
     },
     { // Gus escargot in summer
       "Name": "gus_escargot",
