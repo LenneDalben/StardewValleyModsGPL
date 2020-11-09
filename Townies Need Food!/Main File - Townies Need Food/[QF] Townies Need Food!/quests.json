@@ -376,18 +376,14 @@
 	  { // Shane pepper poppers in summer
       "Name": "shane_pepperpoppers",
       "Type": "ItemDelivery",
-      "Title": "Spicy breaded peppers",
-      "Description": "Could someone make me some pepper poppers? I'll pay you for them, I swear.
-  -Shane
-
--600g on delivery
--Shane will be pleased",
-      "Objective": "Bring pepper poppers to Shane",
+      "Title": "%i18n:shane_pepperpoppers.title",
+      "Description": "%i18n:shane_pepperpoppers.description",
+      "Objective": "%i18n:shane_pepperpoppers.objective",
       "DaysLeft": 5,
       "Reward": 600,
       "Cancelable": true,
       "Trigger": "Shane 215",
-      "ReactionText": "$hAh, these are the best. Thanks, @."
+      "ReactionText": "%i18n:shane_pepperpoppers.reactiontext"
     },
     { // Caroline fried eel in summer
       "Name": "caroline_friedeel",

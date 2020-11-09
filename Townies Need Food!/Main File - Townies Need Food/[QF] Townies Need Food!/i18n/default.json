@@ -275,10 +275,14 @@
     "pierre_friedcalamari.objective": "Bring fried calamari to Pierre",
     "pierre_friedcalamari.reactiontext": "$hIt's my favorite, you know. Thanks, @!",
 // Shane pepper poppers in summer
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "shane_pepperpoppers.title": "Spicy breaded peppers",
+    "shane_pepperpoppers.description": "Could someone make me some pepper poppers? I'll pay you for them, I swear.
+    -Shane
+  
+  -600g on delivery
+  -Shane will be pleased",
+    "shane_pepperpoppers.objective": "Bring pepper poppers to Shane",
+    "shane_pepperpoppers.reactiontext": "$hAh, these are the best. Thanks, @.",
 // Caroline fried eel in summer
     ".title": "",
     ".description": "",
