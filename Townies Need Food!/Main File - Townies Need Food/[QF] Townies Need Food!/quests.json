@@ -448,18 +448,14 @@
     { // Emily survival burger in fall
       "Name": "emily_survivalburger",
       "Type": "ItemDelivery",
-      "Title": "A convenient snack",
-      "Description": "Hello, it's Emily. I'd love a survival burger. Thanks!
--Emily
-
--540g on delivery
--Emily will be pleased",
-      "Objective": "Bring survival burger to Emily",
+      "Title": "%i18n:emily_survivalburger.title",
+      "Description": "%i18n:emily_survivalburger.description",
+      "Objective": "%i18n:emily_survivalburger.objective",
       "DaysLeft": 5,
       "Reward": 540,
       "Cancelable": true,
       "Trigger": "Emily 241",
-      "ReactionText": "$hOooh, thanks @!"
+      "ReactionText": "%i18n:emily_survivalburger.reactiontext"
     },
     { // Clint artichoke dip in fall
       "Name": "clint_artichokedip",

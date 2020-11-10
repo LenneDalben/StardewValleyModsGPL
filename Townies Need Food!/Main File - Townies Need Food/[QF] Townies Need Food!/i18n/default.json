@@ -329,10 +329,14 @@
     "pierre_bruschetta.objective": "Bring bruschetta to Pierre",
     "pierre_bruschetta.reactiontext": "$hThank you, @!",
 // Emily survival burger in fall
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "emily_survivalburger.title": "A convenient snack",
+    "emily_survivalburger.description": "Hello, it's Emily. I'd love a survival burger. Thanks!
+    -Emily
+    
+    -540g on delivery
+    -Emily will be pleased",
+    "emily_survivalburger.objective": "Bring survival burger to Emily",
+    "emily_survivalburger.reactiontext": "$hOooh, thanks @!",
 // Clint artichoke dip in fall
     ".title": "",
     ".description": "",
