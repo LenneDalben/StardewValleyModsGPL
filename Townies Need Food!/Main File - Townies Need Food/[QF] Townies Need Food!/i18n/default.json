@@ -320,10 +320,14 @@
     "wizard_luckylunch.objective": "Bring lucky lunch to Wizard",
     "wizard_luckylunch.reactiontext": "$hExcellent, thank you @!",
 // Pierre bruschetta in fall
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "pierre_bruschetta.title": "Tomatoes and bread",
+    "pierre_bruschetta.description": "Could someone make me some bruschetta? I'll pay!
+    -Pierre
+    
+    -630g on delivery
+    -Pierre will be pleased",
+    "pierre_bruschetta.objective": "Bring bruschetta to Pierre",
+    "pierre_bruschetta.reactiontext": "$hThank you, @!",
 // Emily survival burger in fall
     ".title": "",
     ".description": "",

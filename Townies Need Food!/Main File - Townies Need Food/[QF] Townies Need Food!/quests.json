@@ -436,18 +436,14 @@
     { // Pierre bruschetta in fall
       "Name": "pierre_bruschetta",
       "Type": "ItemDelivery",
-      "Title": "Tomatoes and bread",
-      "Description": "Could someone make me some bruschetta? I'll pay!
--Pierre
-
--630g on delivery
--Pierre will be pleased",
-      "Objective": "Bring bruschetta to Pierre",
+      "Title": "%i18n:pierre_bruschetta.title",
+      "Description": "%i18n:pierre_bruschetta.description",
+      "Objective": "%i18n:pierre_bruschetta.objective",
       "DaysLeft": 5,
       "Reward": 630,
       "Cancelable": true,
       "Trigger": "Pierre 618",
-      "ReactionText": "$hThank you, @!"
+      "ReactionText": "%i18n:pierre_bruschetta.reactiontext"
     },
     { // Emily survival burger in fall
       "Name": "emily_survivalburger",
