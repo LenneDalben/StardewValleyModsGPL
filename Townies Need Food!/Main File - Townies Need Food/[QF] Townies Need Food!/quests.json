@@ -460,18 +460,14 @@
     { // Clint artichoke dip in fall
       "Name": "clint_artichokedip",
       "Type": "ItemDelivery",
-      "Title": "A cool dip",
-      "Description": "Artichoke dip would go well with my chips. Can someone make me some? I'll pay you for the trouble!
-  -Clint
-
--630g on delivery
--Clint will be pleased",
-      "Objective": "Bring artichoke dip to Clint",
+      "Title": "%i18n:clint_artichokedip.title",
+      "Description": "%i18n:clint_artichokedip.description",
+      "Objective": "%i18n:clint_artichokedip.objective",
       "DaysLeft": 5,
       "Reward": 630,
       "Cancelable": true,
       "Trigger": "Clint 605",
-      "ReactionText": "$hAh, this looks great, thank you @!"
+      "ReactionText": "%i18n:clint_artichokedip.reactiontext"
     },
     { // Abigail blackberry cobbler in fall
       "Name": "abigail_blackberrycobbler",

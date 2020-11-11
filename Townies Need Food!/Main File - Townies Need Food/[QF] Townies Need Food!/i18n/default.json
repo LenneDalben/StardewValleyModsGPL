@@ -338,10 +338,14 @@
     "emily_survivalburger.objective": "Bring survival burger to Emily",
     "emily_survivalburger.reactiontext": "$hOooh, thanks @!",
 // Clint artichoke dip in fall
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "clint_artichokedip.title": "A cool dip",
+    "clint_artichokedip.description": "Artichoke dip would go well with my chips. Can someone make me some? I'll pay you for the trouble!
+    -Clint
+  
+  -630g on delivery
+  -Clint will be pleased",
+    "clint_artichokedip.objective": "Bring artichoke dip to Clint",
+    "clint_artichokedip.reactiontext": "$hAh, this looks great, thank you @!",
 // Abigail blackberry cobbler in fall
     ".title": "",
     ".description": "",
