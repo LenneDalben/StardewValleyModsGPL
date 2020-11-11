@@ -347,10 +347,14 @@
     "clint_artichokedip.objective": "Bring artichoke dip to Clint",
     "clint_artichokedip.reactiontext": "$hAh, this looks great, thank you @!",
 // Abigail blackberry cobbler in fall
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "abigail_blackberrycobbler.title": "Nothing quite like it!",
+    "abigail_blackberrycobbler.description": "I'm in the mood for blackberry cobbler, a real dessert! Can anyone bake me some?
+    -Abigail
+  
+  -780g on delivery
+  -Makes Abigail happy",
+    "abigail_blackberrycobbler.objective": "Bring blackberry cobbler to Abigail",
+    "abigail_blackberrycobbler.reactiontext": "$hThe cobbler looks tasty, thanks @!",
 // Harvey super meal in fall
     ".title": "",
     ".description": "",

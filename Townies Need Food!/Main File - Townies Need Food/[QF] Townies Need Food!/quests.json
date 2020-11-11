@@ -472,18 +472,14 @@
     { // Abigail blackberry cobbler in fall
       "Name": "abigail_blackberrycobbler",
       "Type": "ItemDelivery",
-      "Title": "Nothing quite like it!",
-      "Description": "I'm in the mood for blackberry cobbler, a real dessert! Can anyone bake me some?
-  -Abigail
-
--780g on delivery
--Makes Abigail happy",
-      "Objective": "Bring blackberry cobbler to Abigail",
+      "Title": "%i18n:abigail_blackberrycobbler.title",
+      "Description": "%i18n:abigail_blackberrycobbler.description",
+      "Objective": "%i18n:abigail_blackberrycobbler.objective",
       "DaysLeft": 5,
       "Reward": 780,
       "Cancelable": true,
       "Trigger": "Abigail 611",
-      "ReactionText": "$hThe cobbler looks tasty, thanks @!"
+      "ReactionText": "%i18n:abigail_blackberrycobbler.reactiontext"
     },
     { // Harvey super meal in fall
       "Name": "harvey_supermeal",
