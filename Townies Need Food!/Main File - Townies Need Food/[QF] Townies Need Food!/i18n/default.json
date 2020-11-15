@@ -437,10 +437,13 @@
     "wizard_cransauce.objective": "Bring cranberry sauce to Wizard",
     "wizard_cransauce.reactiontext": "$hOh @, this looks wonderful!",
 // George plum pudding in fall
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "george_plumpudding.title": "Holiday treat",
+    "george_plumpudding.description": "I'm interested in some plum pudding but I don't want to trouble Evelyn. Could someone make me some?
+
+    -780g on delivery
+    -George will be thankful",
+    "george_plumpudding.objective": "Bring plum pudding to George",
+    "george_plumpudding.reactiontext": "$hThank you @, you've made an old man happy.",
 // Gus fish taco in fall
     ".title": "",
     ".description": "",

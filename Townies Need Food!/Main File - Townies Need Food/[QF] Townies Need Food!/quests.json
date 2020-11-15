@@ -592,17 +592,14 @@
     { // George plum pudding in fall
       "Name": "george_plumpudding",
       "Type": "ItemDelivery",
-      "Title": "Holiday treat",
-      "Description": "I'm interested in some plum pudding but I don't want to trouble Evelyn. Could someone make me some?
-
--780g on delivery
--George will be thankful",
-      "Objective": "Bring plum pudding to George",
+      "Title": "%i18n:george_plumpudding.title",
+      "Description": "%i18n:george_plumpudding.description",
+      "Objective": "%i18n:george_plumpudding.objective",
       "DaysLeft": 5,
       "Reward": 780,
       "Cancelable": true,
       "Trigger": "George 604",
-      "ReactionText": "$hThank you @, you've made an old man happy."
+      "ReactionText": "%i18n:george_plumpudding.reactiontext"
     },
     { // Gus fish taco in fall
       "Name": "gus_fishtaco",
