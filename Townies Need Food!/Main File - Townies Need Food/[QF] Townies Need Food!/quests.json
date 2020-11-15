@@ -604,18 +604,14 @@
     { // Gus fish taco in fall
       "Name": "gus_fishtaco",
       "Type": "ItemDelivery",
-      "Title": "Tasty tacos",
-      "Description": "Hi! I'd love some fish tacos. Drop some off at the saloon and I'll be very grateful.
-  -Gus
-
--1500g on delivery
--Gus will be pleased",
-      "Objective": "Bring fish taco to Gus",
+      "Title": "%i18n:gus_fishtaco.title",
+      "Description": "%i18n:gus_fishtaco.description",
+      "Objective": "%i18n:gus_fishtaco.objective",
       "DaysLeft": 5,
       "Reward": 1500,
       "Cancelable": true,
       "Trigger": "Gus 213",
-      "ReactionText": "$hThis looks tasty, thank you @!"
+      "ReactionText": "%i18n:gus_fishtaco.reactiontext"
     },
     { // Haley cranberry candy in fall
       "Name": "haley_cranberrycandy",

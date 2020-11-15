@@ -445,10 +445,14 @@
     "george_plumpudding.objective": "Bring plum pudding to George",
     "george_plumpudding.reactiontext": "$hThank you @, you've made an old man happy.",
 // Gus fish taco in fall
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "gus_fishtaco.title": "Tasty tacos",
+    "gus_fishtaco.description": "Hi! I'd love some fish tacos. Drop some off at the saloon and I'll be very grateful.
+    -Gus
+  
+  -1500g on delivery
+  -Gus will be pleased",
+    "gus_fishtaco.objective": "Bring fish taco to Gus",
+    "gus_fishtaco.reactiontext": "$hThis looks tasty, thank you @!",
 // Haley cranberry candy in fall
     ".title": "",
     ".description": "",
