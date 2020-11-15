@@ -520,18 +520,14 @@
     { // Lewis autumn's bounty in fall
       "Name": "lewis_autumnsbounty",
       "Type": "ItemDelivery",
-      "Title": "Taste of the season",
-      "Description": "I'd love to have some yams and pumpkins together. Could someone prepare the autumn's bounty dish for me? I'll pay you for it!
-  -Lewis
-
--1050g on delivery
--Lewis will be pleased",
-      "Objective": "Bring autumn's bounty to Lewis",
+      "Title": "%i18n:lewis_autumnsbounty.title",
+      "Description": "%i18n:lewis_autumnsbounty.description",
+      "Objective": "%i18n:lewis_autumnsbounty.objective",
       "DaysLeft": 5,
       "Reward": 1050,
       "Cancelable": true,
       "Trigger": "Lewis 235",
-      "ReactionText": "$hI'm looking forward to this so-called 'taste of the season.' Thanks, @!"
+      "ReactionText": "%i18n:lewis_autumnsbounty.reactiontext"
     },
     { // Caroline lobster bisque in fall
       "Name": "caroline_lobsterbisque",

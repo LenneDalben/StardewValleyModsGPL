@@ -383,10 +383,14 @@
     "lewis_veggiemedley.objective": "Bring vegetable medley to Lewis",
     "lewis_veggiemedley.reactiontext": "$hI appreciate you helping me stay healthy, @!",
 // Lewis autumn's bounty in fall
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "lewis_autumnsbounty.title": "Taste of the season",
+    "lewis_autumnsbounty.description": "I'd love to have some yams and pumpkins together. Could someone prepare the autumn's bounty dish for me? I'll pay you for it!
+    -Lewis
+  
+  -1050g on delivery
+  -Lewis will be pleased",
+    "lewis_autumnsbounty.objective": "Bring autumn's bounty to Lewis",
+    "lewis_autumnsbounty.reactiontext": "$hI'm looking forward to this so-called 'taste of the season.' Thanks, @!",
 // Caroline lobster bisque in fall
     ".title": "",
     ".description": "",
