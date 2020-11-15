@@ -410,10 +410,14 @@
     "pam_glazedyams.objective": "Bring glazed yams to Pam",
     "pam_glazedyams.reactiontext": "$hThese look perfect, thanks @!",
 // Sebastian pumpkin soup in fall
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "sebastian_pumpkinsoup.title": "Seasonal favorite",
+    "sebastian_pumpkinsoup.description": "Ugh, this is embarrassing but...I'm craving my mom's pumpkin soup and I don't think I could do it justice if I tried to make it myself. Could someone give it a try? I'll pay you for it, promise.
+    -Sebastian
+  
+  -900g on delivery
+  -Makes Sebastian happy",
+    "sebastian_pumpkinsoup.objective": "Bring pumpkin soup to Sebastian",
+    "sebastian_pumpkinsoup.reactiontext": "$lOh, you saw that request? Uh, thanks @!",
 // Evelyn stuffing in fall
     ".title": "",
     ".description": "",

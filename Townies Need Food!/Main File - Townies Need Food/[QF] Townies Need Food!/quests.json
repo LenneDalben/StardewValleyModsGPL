@@ -556,18 +556,14 @@
     { // Sebastian pumpkin soup in fall
       "Name": "sebastian_pumpkinsoup",
       "Type": "ItemDelivery",
-      "Title": "Seasonal favorite",
-      "Description": "Ugh, this is embarrassing but...I'm craving my mom's pumpkin soup and I don't think I could do it justice if I tried to make it myself. Could someone give it a try? I'll pay you for it, promise.
-  -Sebastian
-
--900g on delivery
--Makes Sebastian happy",
-      "Objective": "Bring pumpkin soup to Sebastian",
+      "Title": "%i18n:sebastian_pumpkinsoup.title",
+      "Description": "%i18n:sebastian_pumpkinsoup.description",
+      "Objective": "%i18n:sebastian_pumpkinsoup.objective",
       "DaysLeft": 5,
       "Reward": 900,
       "Cancelable": true,
       "Trigger": "Sebastian 236",
-      "ReactionText": "$lOh, you saw that request? Uh, thanks @!"
+      "ReactionText": "%i18n:sebastian_pumpkinsoup.reactiontext"
     },
     { // Evelyn stuffing in fall
       "Name": "evelyn_stuffing",
