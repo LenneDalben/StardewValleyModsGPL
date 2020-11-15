@@ -419,10 +419,14 @@
     "sebastian_pumpkinsoup.objective": "Bring pumpkin soup to Sebastian",
     "sebastian_pumpkinsoup.reactiontext": "$lOh, you saw that request? Uh, thanks @!",
 // Evelyn stuffing in fall
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "evelyn_stuffing.title": "Bread and sage",
+    "evelyn_stuffing.description": "I'm in need of stuffing to complete my meal, but I don't have time to make it. Could someone make it for me?
+    -Evelyn
+  
+  -495g on delivery
+  -Makes Evelyn happy",
+    "evelyn_stuffing.objective": "Bring stuffing to Evelyn",
+    "evelyn_stuffing.reactiontext": "$h@, this stuffing looks great. Thanks!",
 // Wizard cranberry sauce in fall
     ".title": "",
     ".description": "",

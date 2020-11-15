@@ -568,18 +568,14 @@
     { // Evelyn stuffing in fall
       "Name": "evelyn_stuffing",
       "Type": "ItemDelivery",
-      "Title": "Bread and sage",
-      "Description": "I'm in need of stuffing to complete my meal, but I don't have time to make it. Could someone make it for me?
-  -Evelyn
-
--495g on delivery
--Makes Evelyn happy",
-      "Objective": "Bring stuffing to Evelyn",
+      "Title": "%i18n:evelyn_stuffing.title",
+      "Description": "%i18n:evelyn_stuffing.description",
+      "Objective": "%i18n:evelyn_stuffing.objective",
       "DaysLeft": 5,
       "Reward": 495,
       "Cancelable": true,
       "Trigger": "Evelyn 239",
-      "ReactionText": "$h@, this stuffing looks great. Thanks!"
+      "ReactionText": "%i18n:evelyn_stuffing.reactiontext"
     },
     { // Wizard cranberry sauce in fall
       "Name": "wizard_cransauce",
