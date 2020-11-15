@@ -532,18 +532,14 @@
     { // Caroline lobster bisque in fall
       "Name": "caroline_lobsterbisque",
       "Type": "ItemDelivery",
-      "Title": "A delicate soup",
-      "Description": "Willy is not sharing that secret recipe for lobster bisque. Did he share the recipe with someone who'd be willing to make it for me? I'll pay you good money for it!
-  -Caroline
-
--615g on delivery
--Caroline will be pleased",
-      "Objective": "Bring lobster bisque to Caroline",
+      "Title": "%i18n:caroline_lobsterbisque.title",
+      "Description": "%i18n:caroline_lobsterbisque.description",
+      "Objective": "%i18n:caroline_lobsterbisque.objective",
       "DaysLeft": 5,
       "Reward": 615,
       "Cancelable": true,
       "Trigger": "Caroline 730",
-      "ReactionText": "$hAh, this looks excellent, @! I appreciate it."
+      "ReactionText": "%i18n:caroline_lobsterbisque.reactiontext"
     },
     { // Pam glazed yams in fall
       "Name": "pam_glazedyams",
