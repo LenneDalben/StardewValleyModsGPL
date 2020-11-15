@@ -374,10 +374,14 @@
     "linus_dishothesea.objective": "Bring dish o' the sea to Linus",
     "linus_dishothesea.reactiontext": "$hThis will help keep me warm. Thanks, Farmer @.",
 // Lewis vegetable medley in fall
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "lewis_veggiemedley.title": "Nutritious medley",
+    "lewis_veggiemedley.description": "Hi Pelican Town, I haven't had a healthy meal in a while. Could someone scrounge up a vegetable medley for your favorite mayor?
+    -Lewis
+  
+  -360g on delivery
+  -Lewis will be pleased",
+    "lewis_veggiemedley.objective": "Bring vegetable medley to Lewis",
+    "lewis_veggiemedley.reactiontext": "$hI appreciate you helping me stay healthy, @!",
 // Lewis autumn's bounty in fall
     ".title": "",
     ".description": "",

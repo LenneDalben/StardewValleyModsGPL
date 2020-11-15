@@ -508,18 +508,14 @@
     { // Lewis vegetable medley in fall
       "Name": "lewis_veggiemedley",
       "Type": "ItemDelivery",
-      "Title": "Nutritious medley",
-      "Description": "Hi Pelican Town, I haven't had a healthy meal in a while. Could someone scrounge up a vegetable medley for your favorite mayor?
-  -Lewis
-
--360g on delivery
--Lewis will be pleased",
-      "Objective": "Bring vegetable medley to Lewis",
+      "Title": "%i18n:lewis_veggiemedley.title",
+      "Description": "%i18n:lewis_veggiemedley.description",
+      "Objective": "%i18n:lewis_veggiemedley.objective",
       "DaysLeft": 5,
       "Reward": 360,
       "Cancelable": true,
       "Trigger": "Lewis 200",
-      "ReactionText": "$hI appreciate you helping me stay healthy, @!"
+      "ReactionText": "%i18n:lewis_veggiemedley.reactiontext"
     },
     { // Lewis autumn's bounty in fall
       "Name": "lewis_autumnsbounty",
