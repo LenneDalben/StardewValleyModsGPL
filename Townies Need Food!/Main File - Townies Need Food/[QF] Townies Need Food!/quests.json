@@ -640,18 +640,14 @@
     { // Linus fish stew in fall
       "Name": "linus_fishstew",
       "Type": "ItemDelivery",
-      "Title": "Sea smell",
-      "Description": "I'd love some fish stew. Would someone in town be able to make some for me?
-  -Linus =
-
--525g on delivery
--Linus will be thankful",
-      "Objective": "Bring fish stew to Linus",
+      "Title": "%i18n:linus_fishstew.title",
+      "Description": "%i18n:linus_fishstew.description",
+      "Objective": "%i18n:linus_fishstew.objective",
       "DaysLeft": 5,
       "Reward": 525,
       "Cancelable": true,
       "Trigger": "Linus 728",
-      "ReactionText": "$hI appreciate this, Farmer @."
+      "ReactionText": "%i18n:linus_fishstew.reactiontext"
     },
     { // Demetrius rice pudding in winter
       "Name": "demetrius_ricepudding",

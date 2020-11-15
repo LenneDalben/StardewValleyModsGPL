@@ -472,10 +472,14 @@
     "jodi_crispybass.objective": "Bring crispy bass to Jodi",
     "jodi_crispybass.reactiontext": "$hThis will do, thanks @.",
 // Linus fish stew in fall
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "linus_fishstew.title": "Sea smell",
+    "linus_fishstew.description": "I'd love some fish stew. Would someone in town be able to make some for me?
+    -Linus =
+  
+  -525g on delivery
+  -Linus will be thankful",
+    "linus_fishstew.objective": "Bring fish stew to Linus",
+    "linus_fishstew.reactiontext": "$hI appreciate this, Farmer @.",
 // Demetrius rice pudding in winter
     ".title": "",
     ".description": "",
