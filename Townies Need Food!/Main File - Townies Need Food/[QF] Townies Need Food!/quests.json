@@ -484,18 +484,14 @@
     { // Harvey super meal in fall
       "Name": "harvey_supermeal",
       "Type": "ItemDelivery",
-      "Title": "An energizing meal",
-      "Description": "I think a super meal would do wonders to raise my energy level. Could someone make one for me?
-  -Harvey
-
--660g on delivery
--Harvey will be thankful",
-      "Objective": "Bring a super meal to Harvey",
+      "Title": "%i18n:harvey_supermeal.title",
+      "Description": "%i18n:harvey_supermeal.description",
+      "Objective": "%i18n:harvey_supermeal.objective",
       "DaysLeft": 5,
       "Reward": 660,
       "Cancelable": true,
       "Trigger": "Harvey 237",
-      "ReactionText": "$hI'm looking forward to this meal, thanks @!"
+      "ReactionText": "%i18n:harvey_supermeal.reactiontext"
     },
     { // Linus dish o' the sea in fall
       "Name": "linus_dishothesea",

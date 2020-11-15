@@ -356,10 +356,14 @@
     "abigail_blackberrycobbler.objective": "Bring blackberry cobbler to Abigail",
     "abigail_blackberrycobbler.reactiontext": "$hThe cobbler looks tasty, thanks @!",
 // Harvey super meal in fall
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "harvey_supermeal.title": "An energizing meal",
+    "harvey_supermeal.description": "I think a super meal would do wonders to raise my energy level. Could someone make one for me?
+    -Harvey
+  
+  -660g on delivery
+  -Harvey will be thankful",
+    "harvey_supermeal.objective": "Bring a super meal to Harvey",
+    "harvey_supermeal.reactiontext": "$hI'm looking forward to this meal, thanks @!",
 // Linus dish o' the sea in fall
     ".title": "",
     ".description": "",
