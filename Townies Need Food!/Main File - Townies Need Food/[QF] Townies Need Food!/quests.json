@@ -496,18 +496,14 @@
     { // Linus dish o' the sea in fall
       "Name": "linus_dishothesea",
       "Type": "ItemDelivery",
-      "Title": "Warm in sea air",
-      "Description": "I'd love a dish o' the sea. Would someone in town be able to make some for me?
-  -Linus =
-
--660g on delivery
--Makes Linus happy",
-      "Objective": "Bring dish o' the sea to Linus",
+      "Title": "%i18n:linus_dishothesea.title",
+      "Description": "%i18n:linus_dishothesea.description",
+      "Objective": "%i18n:linus_dishothesea.objective",
       "DaysLeft": 5,
       "Reward": 660,
       "Cancelable": true,
       "Trigger": "Linus 242",
-      "ReactionText": "$hThis will help keep me warm. Thanks, Farmer @."
+      "ReactionText": "%i18n:linus_dishothesea.reactiontext"
     },
     { // Lewis vegetable medley in fall
       "Name": "lewis_veggiemedley",

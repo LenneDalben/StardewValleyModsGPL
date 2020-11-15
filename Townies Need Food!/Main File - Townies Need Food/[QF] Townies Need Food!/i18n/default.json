@@ -365,10 +365,14 @@
     "harvey_supermeal.objective": "Bring a super meal to Harvey",
     "harvey_supermeal.reactiontext": "$hI'm looking forward to this meal, thanks @!",
 // Linus dish o' the sea in fall
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "linus_dishothesea.title": "Warm in sea air",
+    "linus_dishothesea.description": "I'd love a dish o' the sea. Would someone in town be able to make some for me?
+    -Linus =
+  
+  -660g on delivery
+  -Makes Linus happy",
+    "linus_dishothesea.objective": "Bring dish o' the sea to Linus",
+    "linus_dishothesea.reactiontext": "$hThis will help keep me warm. Thanks, Farmer @.",
 // Lewis vegetable medley in fall
     ".title": "",
     ".description": "",
