@@ -580,18 +580,14 @@
     { // Wizard cranberry sauce in fall
       "Name": "wizard_cransauce",
       "Type": "ItemDelivery",
-      "Title": "A festive treat",
-      "Description": "Local wizard in search of some excellent cranberry sauce.
-  -M. Rasmodius =
-
--360g on delivery
--Makes Wizard happy",
-      "Objective": "Bring cranberry sauce to Wizard",
+      "Title": "%i18n:wizard_cransauce.title",
+      "Description": "%i18n:wizard_cransauce.description",
+      "Objective": "%i18n:wizard_cransauce.objective",
       "DaysLeft": 5,
       "Reward": 360,
       "Cancelable": true,
       "Trigger": "Wizard 238",
-      "ReactionText": "$hOh @, this looks wonderful!"
+      "ReactionText": "%i18n:wizard_cransauce.reactiontext"
     },
     { // George plum pudding in fall
       "Name": "george_plumpudding",

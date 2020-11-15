@@ -428,10 +428,14 @@
     "evelyn_stuffing.objective": "Bring stuffing to Evelyn",
     "evelyn_stuffing.reactiontext": "$h@, this stuffing looks great. Thanks!",
 // Wizard cranberry sauce in fall
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "wizard_cransauce.title": "A festive treat",
+    "wizard_cransauce.description": "Local wizard in search of some excellent cranberry sauce.
+    -M. Rasmodius =
+  
+  -360g on delivery
+  -Makes Wizard happy",
+    "wizard_cransauce.objective": "Bring cranberry sauce to Wizard",
+    "wizard_cransauce.reactiontext": "$hOh @, this looks wonderful!",
 // George plum pudding in fall
     ".title": "",
     ".description": "",
