@@ -463,10 +463,14 @@
     "haley_cranberrycandy.objective": "Bring cranberry candy to Haley",
     "haley_cranberrycandy.reactiontext": "$hI can smell the sweetness, thanks @!",
 // Jodi crispy bass in fall
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "jodi_crispybass.title": "Perfect breading",
+    "jodi_crispybass.description": "Hi everyone, I'd love some crispy bass, but I just don't have time to make it! Could someone in town spare the time to make it for me? I'll even pay you!
+    -Jodi
+  
+  -450g on delivery
+  -Jodi will be pleased",
+    "jodi_crispybass.objective": "Bring crispy bass to Jodi",
+    "jodi_crispybass.reactiontext": "$hThis will do, thanks @.",
 // Linus fish stew in fall
     ".title": "",
     ".description": "",

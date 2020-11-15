@@ -628,18 +628,14 @@
 	  { // Jodi crispy bass in fall
       "Name": "jodi_crispybass",
       "Type": "ItemDelivery",
-      "Title": "Perfect breading",
-      "Description": "Hi everyone, I'd love some crispy bass, but I just don't have time to make it! Could someone in town spare the time to make it for me? I'll even pay you!
-  -Jodi
-
--450g on delivery
--Jodi will be pleased",
-      "Objective": "Bring crispy bass to Jodi",
+      "Title": "%i18n:jodi_crispybass.title",
+      "Description": "%i18n:jodi_crispybass.description",
+      "Objective": "%i18n:jodi_crispybass.objective",
       "DaysLeft": 5,
       "Reward": 450,
       "Cancelable": true,
       "Trigger": "Jodi 214",
-      "ReactionText": "$hThis will do, thanks @."
+      "ReactionText": "%i18n:jodi_crispybass.reactiontext"
     },
     { // Linus fish stew in fall
       "Name": "linus_fishstew",
