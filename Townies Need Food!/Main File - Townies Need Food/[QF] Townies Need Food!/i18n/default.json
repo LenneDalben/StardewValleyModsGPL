@@ -401,10 +401,14 @@
     "caroline_lobsterbisque.objective": "Bring lobster bisque to Caroline",
     "caroline_lobsterbisque.reactiontext": "$hAh, this looks excellent, @! I appreciate it",
 // Pam glazed yams in fall
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "pam_glazedyams.title": "Hint of caramel",
+    "pam_glazedyams.description": "Howdy! Glazed yams are perfect in this weather. Could someone in this town help me out and make me some?
+    -Pam
+  
+  -600g on delivery
+  -Makes Pam happy",
+    "pam_glazedyams.objective": "Bring glazed yams to Pam",
+    "pam_glazedyams.reactiontext": "$hThese look perfect, thanks @!",
 // Sebastian pumpkin soup in fall
     ".title": "",
     ".description": "",

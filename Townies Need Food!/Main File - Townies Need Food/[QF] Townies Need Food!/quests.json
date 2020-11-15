@@ -544,18 +544,14 @@
     { // Pam glazed yams in fall
       "Name": "pam_glazedyams",
       "Type": "ItemDelivery",
-      "Title": "Hint of caramel",
-      "Description": "Howdy! Glazed yams are perfect in this weather. Could someone in this town help me out and make me some?
-  -Pam
-
--600g on delivery
--Makes Pam happy",
-      "Objective": "Bring glazed yams to Pam",
+      "Title": "%i18n:pam_glazedyams.title",
+      "Description": "%i18n:pam_glazedyams.description",
+      "Objective": "%i18n:pam_glazedyams.objective",
       "DaysLeft": 5,
       "Reward": 600,
       "Cancelable": true,
       "Trigger": "Pam 208",
-      "ReactionText": "$hThese look perfect, thanks @!"
+      "ReactionText": "%i18n:pam_glazedyams.reactiontext"
     },
     { // Sebastian pumpkin soup in fall
       "Name": "sebastian_pumpkinsoup",
