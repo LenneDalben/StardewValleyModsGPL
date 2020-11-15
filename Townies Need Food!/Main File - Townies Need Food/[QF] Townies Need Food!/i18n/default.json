@@ -454,10 +454,14 @@
     "gus_fishtaco.objective": "Bring fish taco to Gus",
     "gus_fishtaco.reactiontext": "$hThis looks tasty, thank you @!",
 // Haley cranberry candy in fall
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "haley_cranberrycandy.title": "Sweet enough",
+    "haley_cranberrycandy.description": "I'll < you forever if you make me some cranberry candy!
+    -Haley
+  
+  -525g on delivery
+  -Haley will be thankful",
+    "haley_cranberrycandy.objective": "Bring cranberry candy to Haley",
+    "haley_cranberrycandy.reactiontext": "$hI can smell the sweetness, thanks @!",
 // Jodi crispy bass in fall
     ".title": "",
     ".description": "",

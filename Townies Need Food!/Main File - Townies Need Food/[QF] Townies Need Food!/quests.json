@@ -616,18 +616,14 @@
     { // Haley cranberry candy in fall
       "Name": "haley_cranberrycandy",
       "Type": "ItemDelivery",
-      "Title": "Sweet enough",
-      "Description": "I'll < you forever if you make me some cranberry candy!
-  -Haley
-
--525g on delivery
--Haley will be thankful",
-      "Objective": "Bring cranberry candy to Haley",
+      "Title": "%i18n:haley_cranberrycandy.title",
+      "Description": "%i18n:haley_cranberrycandy.description",
+      "Objective": "%i18n:haley_cranberrycandy.objective",
       "DaysLeft": 5,
       "Reward": 525,
       "Cancelable": true,
       "Trigger": "Haley 612",
-      "ReactionText": "$hI can smell the sweetness, thanks @!"
+      "ReactionText": "%i18n:haley_cranberrycandy.reactiontext"
     },
 	  { // Jodi crispy bass in fall
       "Name": "jodi_crispybass",
