@@ -664,18 +664,14 @@
     { // Wizard cookie in winter
       "Name": "wizard_cookie",
       "Type": "ItemDelivery",
-      "Title": "A chewy dessert",
-      "Description": "Local wizard in search of some excellent cookies. They have interesting properties, you know.
-  -M. Rasmodius =
-
--420g on delivery
--Wizard will be thankful",
-      "Objective": "Bring cookies to Wizard",
+      "Title": "%i18n:wizard_cookie.title",
+      "Description": "%i18n:wizard_cookie.description",
+      "Objective": "%i18n:wizard_cookie.objective",
       "DaysLeft": 5,
       "Reward": 420,
       "Cancelable": true,
       "Trigger": "Wizard 223",
-      "ReactionText": "$hAh, @, these will do!"
+      "ReactionText": "%i18n:wizard_cookie.reactiontext"
     },
     { // Marnie pumpkin pie in winter
       "Name": "marnie_pumpkinpie",

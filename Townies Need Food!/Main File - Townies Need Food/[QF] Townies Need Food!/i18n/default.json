@@ -489,10 +489,14 @@
     "demetrius_ricepudding.objective": "Bring rice pudding to Demetrius",
     "demetrius_ricepudding.reactiontext": "$hThank you @, I'm looking forward to this pudding.",
 // Wizard cookie in winter
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "wizard_cookie.title": "A chewy dessert",
+    "wizard_cookie.description": "Local wizard in search of some excellent cookies. They have interesting properties, you know.
+    -M. Rasmodius =
+  
+  -420g on delivery
+  -Wizard will be thankful",
+    "wizard_cookie.objective": "Bring cookies to Wizard",
+    "wizard_cookie.reactiontext": "$hAh, @, these will do!",
 // Marnie pumpkin pie in winter
     ".title": "",
     ".description": "",
