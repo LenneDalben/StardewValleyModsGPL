@@ -700,14 +700,14 @@
     { // Elliott tom kha soup in winter
       "Name": "elliott_tomkhasoup",
       "Type": "ItemDelivery",
-      "Title": "%i18n:",
-      "Description": "%i18n:",
-      "Objective": "%i18n:",
+      "Title": "%i18n:elliott_tomkhasoup.title",
+      "Description": "%i18n:elliott_tomkhasoup.description",
+      "Objective": "%i18n:elliott_tomkhasoup.objective",
       "DaysLeft": 5,
       "Reward": 750,
       "Cancelable": true,
       "Trigger": "Elliott 218",
-      "ReactionText": "%i18n:"
+      "ReactionText": "%i18n:elliott_tomkhasoup.reactiontext"
     },
     { // Willy trout soup in winter
       "Name": "willy_troutsoup",
