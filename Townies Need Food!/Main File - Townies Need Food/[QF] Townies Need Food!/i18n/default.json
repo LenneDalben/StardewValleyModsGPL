@@ -533,10 +533,14 @@
     "willy_troutsoup.objective": "Bring trout soup to Willy",
     "willy_troutsoup.reactiontext": "$hThis looks like excellent soup, thanks @!",
 // Alex fried egg in winter
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "alex_friedegg.title": "Sunny-side up",
+    "alex_friedegg.description": "A simple fried egg is the burst of protein I need. Could someone make me one?
+    -Alex
+  
+  -105g on delivery
+  -Alex will be thankful",
+    "alex_friedegg.objective": "Bring a fried egg to Alex",
+    "alex_friedegg.reactiontext": "$hAlright! Sometimes a little protein is all I need. Thanks, @.",
 // Jodi eggplant parmesan in winter
     ".title": "",
     ".description": "",
