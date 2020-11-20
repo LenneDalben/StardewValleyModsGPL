@@ -524,10 +524,14 @@
     "elliott_tomkhasoup.objective": "Bring tom kha soup to Elliott",
     "elliott_tomkhasoup.reactiontext": "$hI can't wait to enjoy this delectable delicacy, thank you @!",
 // Willy trout soup in winter
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "willy_troutsoup.title": "A salty soup",
+    "willy_troutsoup.description": "Trying to combine keeping the art o' fishing and cooking alive, together! I'll pay whoever can make me some trout soup. Good luck!
+    -Willy
+  
+  -300g on delivery
+  -Willy will be pleased",
+    "willy_troutsoup.objective": "Bring trout soup to Willy",
+    "willy_troutsoup.reactiontext": "$hThis looks like excellent soup, thanks @!",
 // Alex fried egg in winter
     ".title": "",
     ".description": "",

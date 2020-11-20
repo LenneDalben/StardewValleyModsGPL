@@ -712,18 +712,14 @@
     { // Willy trout soup in winter
       "Name": "willy_troutsoup",
       "Type": "ItemDelivery",
-      "Title": "A salty soup",
-      "Description": "Trying to combine keeping the art o' fishing and cooking alive, together! I'll pay whoever can make me some trout soup. Good luck!
-  -Willy
-
--300g on delivery
--Willy will be pleased",
-      "Objective": "Bring trout soup to Willy",
+      "Title": "%i18n:willy_troutsoup.title",
+      "Description": "%i18n:willy_troutsoup.description",
+      "Objective": "%i18n:willy_troutsoup.objective",
       "DaysLeft": 5,
       "Reward": 300,
       "Cancelable": true,
       "Trigger": "Willy 219",
-      "ReactionText": "$hThis looks like excellent soup, thanks @!"
+      "ReactionText": "%i18n:willy_troutsoup.reactiontext"
     },
 	  { // Alex fried egg in winter
       "Name": "alex_friedegg",
