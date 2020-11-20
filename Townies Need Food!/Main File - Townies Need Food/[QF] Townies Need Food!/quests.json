@@ -688,18 +688,14 @@
     { // Abigail spicy eel in winter
       "Name": "abigail_spicyeel",
       "Type": "ItemDelivery",
-      "Title": "It's really spicy!",
-      "Description": "Spicy eel would help keep me warm this winter! Can anyone make me some?
-  -Abigail
-
--525g on delivery
--Abigail will be pleased",
-      "Objective": "Bring spicy eel to Abigail",
+      "Title": "abigail_spicyeel.title",
+      "Description": "abigail_spicyeel.description",
+      "Objective": "abigail_spicyeel.objective",
       "DaysLeft": 5,
       "Reward": 525,
       "Cancelable": true,
       "Trigger": "Abigail 226",
-      "ReactionText": "$hI can smell the spice from here, thanks @!"
+      "ReactionText": "abigail_spicyeel.reactiontext"
     },
     { // Elliott tom kha soup in winter
       "Name": "elliott_tomkhasoup",

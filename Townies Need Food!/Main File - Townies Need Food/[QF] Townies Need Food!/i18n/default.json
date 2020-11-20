@@ -506,10 +506,14 @@
     "marnie_pumpkinpie.objective": "Bring pumpkin pie to Marnie",
     "marnie_pumpkinpie.reactiontext": "$hAh, thanks @! I'm looking forward to this pie!",
 // Abigail spicy eel in winter
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "abigail_spicyeel.title": "It's really spicy!",
+    "abigail_spicyeel.description": "Spicy eel would help keep me warm this winter! Can anyone make me some?
+    -Abigail
+  
+  -525g on delivery
+  -Abigail will be pleased",
+    "abigail_spicyeel.objective": "Bring spicy eel to Abigail",
+    "abigail_spicyeel.reactiontext": "$hI can smell the spice from here, thanks @!",
 // Elliott tom kha soup in winter
     ".title": "",
     ".description": "",
