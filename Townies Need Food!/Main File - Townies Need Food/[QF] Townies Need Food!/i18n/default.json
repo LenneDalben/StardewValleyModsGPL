@@ -515,10 +515,14 @@
     "abigail_spicyeel.objective": "Bring spicy eel to Abigail",
     "abigail_spicyeel.reactiontext": "$hI can smell the spice from here, thanks @!",
 // Elliott tom kha soup in winter
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "elliott_tomkhasoup.title": "Incredible flavors!",
+    "elliott_tomkhasoup.description": "You may have heard me wax poetic about tom kha soup, and it's been on my mind again! I'd be most grateful if someone could make some for me.
+    -Elliott
+  
+  -750g on delivery
+  -Elliott will be pleased",
+    "elliott_tomkhasoup.objective": "Bring tom kha soup to Elliott",
+    "elliott_tomkhasoup.reactiontext": "$hI can't wait to enjoy this delectable delicacy, thank you @!",
 // Willy trout soup in winter
     ".title": "",
     ".description": "",
