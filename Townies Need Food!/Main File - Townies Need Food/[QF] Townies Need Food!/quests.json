@@ -676,17 +676,14 @@
     { // Marnie pumpkin pie in winter
       "Name": "marnie_pumpkinpie",
       "Type": "ItemDelivery",
-      "Title": "Silky pumpkin pie",
-      "Description": "Howdy neighbors! I'm hankering for some pumpkin pie, but I don't have any pumpkins. Help?
-
--810g on delivery
--Marnie will be thankful",
-      "Objective": "Bring pumpkin pie to Marnie",
+      "Title": "marnie_pumpkinpie.title",
+      "Description": "marnie_pumpkinpie.description",
+      "Objective": "marnie_pumpkinpie.objective",
       "DaysLeft": 5,
       "Reward": 810,
       "Cancelable": true,
       "Trigger": "Marnie 608",
-      "ReactionText": "$hAh, thanks @! I'm looking forward to this pie!"
+      "ReactionText": "marnie_pumpkinpie.reactiontext"
     },
     { // Abigail spicy eel in winter
       "Name": "abigail_spicyeel",

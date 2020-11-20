@@ -498,10 +498,13 @@
     "wizard_cookie.objective": "Bring cookies to Wizard",
     "wizard_cookie.reactiontext": "$hAh, @, these will do!",
 // Marnie pumpkin pie in winter
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "marnie_pumpkinpie.title": "Silky pumpkin pie",
+    "marnie_pumpkinpie.description": "Howdy neighbors! I'm hankering for some pumpkin pie, but I don't have any pumpkins. Help?
+
+    -810g on delivery
+    -Marnie will be thankful",
+    "marnie_pumpkinpie.objective": "Bring pumpkin pie to Marnie",
+    "marnie_pumpkinpie.reactiontext": "$hAh, thanks @! I'm looking forward to this pie!",
 // Abigail spicy eel in winter
     ".title": "",
     ".description": "",
