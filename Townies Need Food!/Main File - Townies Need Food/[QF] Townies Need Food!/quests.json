@@ -736,18 +736,14 @@
 	  { // Jodi eggplant parmesan in winter
       "Name": "jodi_eggplantparmesan",
       "Type": "ItemDelivery",
-      "Title": "Tangy and cheesy",
-      "Description": "Hi everyone, I'd love to have some eggplant parmesan for me and my boys. Could someone in town spare the time to make it for me? I'll pay!
-  -Jodi
-
--600g on delivery
--Jodi will be pleased",
-      "Objective": "Bring eggplant parmesan to Jodi",
+      "Title": "%i18n:jodi_eggplantparmesan.title",
+      "Description": "%i18n:jodi_eggplantparmesan.description",
+      "Objective": "%i18n:jodi_eggplantparmesan.objective",
       "DaysLeft": 5,
       "Reward": 600,
       "Cancelable": true,
       "Trigger": "Jodi 231",
-      "ReactionText": "$hThis will do, thanks @."
+      "ReactionText": "%i18n:jodi_eggplantparmesan.reactiontext"
     },
 	  { // Kent roasted hazelnuts in winter
       "Name": "kent_roastedhazelnuts",
