@@ -551,10 +551,14 @@
     "jodi_eggplantparmesan.objective": "Bring eggplant parmesan to Jodi",
     "jodi_eggplantparmesan.reactiontext": "$hThis will do, thanks @.",
 // Kent roasted hazelnuts in winter
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "kent_roastedhazelnuts.title": "Rich forest flavor",
+    "kent_roastedhazelnuts.description": "I'd like some roasted hazelnuts, please.
+    -Kent
+  
+  -810g on delivery
+  -Kent will be pleased",
+    "kent_roastedhazelnuts.objective": "Bring roasted hazelnuts to Kent",
+    "kent_roastedhazelnuts.reactiontext": "$hWhat? Oh, the hazelnuts I asked for. Thanks @.",
 // Shane pizza in winter
     ".title": "",
     ".description": "",

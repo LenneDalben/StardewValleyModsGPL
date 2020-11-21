@@ -748,18 +748,14 @@
 	  { // Kent roasted hazelnuts in winter
       "Name": "kent_roastedhazelnuts",
       "Type": "ItemDelivery",
-      "Title": "Rich forest flavor",
-      "Description": "I'd like some roasted hazelnuts, please.
-  -Kent
-
--810g on delivery
--Kent will be pleased",
-      "Objective": "Bring roasted hazelnuts to Kent",
+      "Title": "%i18n:kent_roastedhazelnuts.title",
+      "Description": "%i18n:kent_roastedhazelnuts.description",
+      "Objective": "%i18n:kent_roastedhazelnuts.objective",
       "DaysLeft": 5,
       "Reward": 810,
       "Cancelable": true,
       "Trigger": "Kent 607",
-      "ReactionText": "$hWhat? Oh, the hazelnuts I asked for. Thanks @."
+      "ReactionText": "%i18n:kent_roastedhazelnuts.reactiontext"
     },
 	  { // Shane pizza in winter
       "Name": "shane_pizza",
