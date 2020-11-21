@@ -784,18 +784,14 @@
     { // Penny roots platter in winter
       "Name": "penny_rootsplatter",
       "Type": "ItemDelivery",
-      "Title": "Platter with roots",
-      "Description": "Hi, I'd love a roots platter. Could someone make me one, please?
-  -Penny
-
--300g on delivery
--Makes Penny happy",
-      "Objective": "Bring roots platter to Penny",
+      "Title": "%i18n:penny_rootsplatter.title",
+      "Description": "%i18n:penny_rootsplatter.description",
+      "Objective": "%i18n:penny_rootsplatter.objective",
       "DaysLeft": 5,
       "Reward": 300,
       "Cancelable": true,
       "Trigger": "Penny 244",
-      "ReactionText": "$hThanks, @! I'm looking forward to this."
+      "ReactionText": "%i18n:penny_rootsplatter.reactiontext"
     },
     { // Sam tortilla in winter
       "Name": "sam_tortilla",

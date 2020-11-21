@@ -577,10 +577,14 @@
     "marnie_farmerslunch.objective": "Bring farmer's lunch to Marnie",
     "marnie_farmerslunch.reactiontext": "$hHere's to hoping this really does 'keep me going,' thanks @!",
 // Penny roots platter in winter
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "penny_rootsplatter.title": "Platter with roots",
+    "penny_rootsplatter.description": "Hi, I'd love a roots platter. Could someone make me one, please?
+    -Penny
+  
+  -300g on delivery
+  -Makes Penny happy",
+    "penny_rootsplatter.objective": "Bring roots platter to Penny",
+    "penny_rootsplatter.reactiontext": "$hThanks, @! I'm looking forward to this.",
 // Sam tortilla in winter
     ".title": "",
     ".description": "",
