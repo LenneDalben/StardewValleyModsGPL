@@ -760,18 +760,14 @@
 	  { // Shane pizza in winter
       "Name": "shane_pizza",
       "Type": "ItemDelivery",
-      "Title": "The right stuff",
-      "Description": "Could someone get me some pizza? I'll pay you for it, I swear.
-  -Shane
-
--900g on delivery
--Shane will be pleased",
-      "Objective": "Bring pizza to Shane",
+      "Title": "%i18n:shane_pizza.title",
+      "Description": "%i18n:shane_pizza.description",
+      "Objective": "%i18n:shane_pizza.objective",
       "DaysLeft": 5,
       "Reward": 900,
       "Cancelable": true,
       "Trigger": "Shane 206",
-      "ReactionText": "$hHa, I wasn't sure anyone would take me up on the offer. Thanks, @."
+      "ReactionText": "%i18n:shane_pizza.reactiontext"
     },
     { // Marnie farmer's lunch in winter
       "Name": "marnie_farmerslunch",

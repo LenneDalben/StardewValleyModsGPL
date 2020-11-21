@@ -560,10 +560,14 @@
     "kent_roastedhazelnuts.objective": "Bring roasted hazelnuts to Kent",
     "kent_roastedhazelnuts.reactiontext": "$hWhat? Oh, the hazelnuts I asked for. Thanks @.",
 // Shane pizza in winter
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "shane_pizza.title": "The right stuff",
+    "shane_pizza.description": "Could someone get me some pizza? I'll pay you for it, I swear.
+    -Shane
+  
+  -900g on delivery
+  -Shane will be pleased",
+    "shane_pizza.objective": "Bring pizza to Shane",
+    "shane_pizza.reactiontext": "$hHa, I wasn't sure anyone would take me up on the offer. Thanks, @.",
 // Marnie farmer's lunch in winter
     ".title": "",
     ".description": "",
