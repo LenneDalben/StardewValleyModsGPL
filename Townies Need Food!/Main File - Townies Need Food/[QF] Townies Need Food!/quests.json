@@ -772,17 +772,14 @@
     { // Marnie farmer's lunch in winter
       "Name": "marnie_farmerslunch",
       "Type": "ItemDelivery",
-      "Title": "Energy meal",
-      "Description": "Howdy neighbors! I think a farmer's lunch would help me power through my day with more energy. Could someone make one and swing it by for me?
-
--450g on delivery
--Makes Marnie happy",
-      "Objective": "Bring farmer's lunch to Marnie",
+      "Title": "%i18n:marnie_farmerslunch.title",
+      "Description": "%i18n:marnie_farmerslunch.description",
+      "Objective": "%i18n:marnie_farmerslunch.objective",
       "DaysLeft": 5,
       "Reward": 450,
       "Cancelable": true,
       "Trigger": "Marnie 240",
-      "ReactionText": "$hHere's to hoping this really does 'keep me going,' thanks @!"
+      "ReactionText": "%i18n:marnie_farmerslunch.reactiontext"
     },
     { // Penny roots platter in winter
       "Name": "penny_rootsplatter",

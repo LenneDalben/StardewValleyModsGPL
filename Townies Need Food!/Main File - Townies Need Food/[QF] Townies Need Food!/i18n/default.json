@@ -569,10 +569,13 @@
     "shane_pizza.objective": "Bring pizza to Shane",
     "shane_pizza.reactiontext": "$hHa, I wasn't sure anyone would take me up on the offer. Thanks, @.",
 // Marnie farmer's lunch in winter
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "marnie_farmerslunch.title": "Energy meal",
+    "marnie_farmerslunch.description": "Howdy neighbors! I think a farmer's lunch would help me power through my day with more energy. Could someone make one and swing it by for me?
+
+    -450g on delivery
+    -Makes Marnie happy",
+    "marnie_farmerslunch.objective": "Bring farmer's lunch to Marnie",
+    "marnie_farmerslunch.reactiontext": "$hHere's to hoping this really does 'keep me going,' thanks @!",
 // Penny roots platter in winter
     ".title": "",
     ".description": "",
