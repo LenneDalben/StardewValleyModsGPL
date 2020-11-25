@@ -613,10 +613,14 @@
     "evelyn_chocolatecake.objective": "Bring chocolate cake to Evelyn",
     "evelyn_chocolatecake.reactiontext": "$h@, this chocolate cake looks wonderful. Thanks, dear!",
 // Krobus seafoam pudding in winter
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "krobus_seafoampudding.title": "Briny pudding",
+    "krobus_seafoampudding.description": "Greetings, I'm interested in some seafoam pudding. Could someone in town drop some off at the sewer? I can pay!
+    -Krobus =
+  
+  -900g on delivery
+  -Makes Krobus happy",
+    "krobus_seafoampudding.objective": "Bring seafoam pudding to Krobus",
+    "krobus_seafoampudding.reactiontext": "$hOh @, you have my thanks!",
 // Elliott baked fish in winter
     ".title": "",
     ".description": "",

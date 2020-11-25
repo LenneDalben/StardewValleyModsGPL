@@ -832,18 +832,14 @@
     { // Krobus seafoam pudding in winter
       "Name": "krobus_seafoampudding",
       "Type": "ItemDelivery",
-      "Title": "Briny pudding",
-      "Description": "Greetings, I'm interested in some seafoam pudding. Could someone in town drop some off at the sewer? I can pay!
-  -Krobus =
-
--900g on delivery
--Makes Krobus happy",
-      "Objective": "Bring seafoam pudding to Krobus",
+      "Title": "%i18n:krobus_seafoampudding.title",
+      "Description": "%i18n:krobus_seafoampudding.description",
+      "Objective": "%i18n:krobus_seafoampudding.objective",
       "DaysLeft": 5,
       "Reward": 900,
       "Cancelable": true,
       "Trigger": "Krobus 265",
-      "ReactionText": "$hOh @, you have my thanks!"
+      "ReactionText": "%i18n:krobus_seafoampudding.reactiontext"
     },
     { // Elliott baked fish in winter
       "Name": "elliott_bakedfish",
