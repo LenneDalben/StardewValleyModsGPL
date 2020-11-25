@@ -631,10 +631,14 @@
     "elliott_bakedfish.objective": "Bring baked fish to Elliott",
     "elliott_bakedfish.reactiontext": "$hI'm looking forward to these herbs, thank you @!",
 // Robin carp surprise in winter
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "robin_carpsurprise.title": "Bland yet oily",
+    "robin_carpsurprise.description": "It may be an acquired taste, but I like carp surprise! Can anyone make me some? I'll pay!
+    -Robin
+  
+  -450g on delivery
+  -Makes Robin happy",
+    "robin_carpsurprise.objective": "Bring carp surprise to Robin",
+    "robin_carpsurprise.reactiontext": "$hAh, thank you @!",
 // Sam maple bar in winter
     ".title": "",
     ".description": "",

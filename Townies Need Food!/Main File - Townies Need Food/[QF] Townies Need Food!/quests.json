@@ -856,18 +856,14 @@
     { // Robin carp surprise in winter
       "Name": "robin_carpsurprise",
       "Type": "ItemDelivery",
-      "Title": "Bland yet oily",
-      "Description": "It may be an acquired taste, but I like carp surprise! Can anyone make me some? I'll pay!
-  -Robin
-
--450g on delivery
--Makes Robin happy",
-      "Objective": "Bring carp surprise to Robin",
+      "Title": "%i18n:robin_carpsurprise.title",
+      "Description": "%i18n:robin_carpsurprise.description",
+      "Objective": "%i18n:robin_carpsurprise.objective",
       "DaysLeft": 5,
       "Reward": 450,
       "Cancelable": true,
       "Trigger": "Robin 209",
-      "ReactionText": "$hAh, thank you @!"
+      "ReactionText": "%i18n:robin_carpsurprise.reactiontext"
     },
     { // Sam maple bar in winter
       "Name": "sam_maplebar",
