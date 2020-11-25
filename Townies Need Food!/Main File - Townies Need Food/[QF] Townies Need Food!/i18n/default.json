@@ -219,7 +219,7 @@
   -450g on delivery
   -Linus will be pleased",
     "linus_blueberrytart.objective": "Bring blueberry tart to Linus",
-    "linus_blueberrytart.reactiontext": "$hI'm grateful for this, Farmer @.",
+    "linus_blueberrytart.reactiontext": "$hI'm grateful for this, @.",
 // George fried mushroom in summer
     "george_friedmushroom.title": "Earthy side dish",
     "george_friedmushroom.description": "I'm interested in some fried mushrooms, but I don't want to trouble Evelyn. Anyone know the recipe?
@@ -228,7 +228,7 @@
   -600g on delivery
   -George will be thankful",
     "george_friedmushroom.objective": "Bring fried mushroom to George",
-    "george_friedmushroom.reactiontext": "$hI'm looking forward to this side dish, Farmer @.",
+    "george_friedmushroom.reactiontext": "$hI'm looking forward to this side dish, @.",
 // Clint bread in summer
     "clint_bread.title": "Crusty baguette",
     "clint_bread.description": "I've got butter, but no bread. Can someone bring me bread? I'll pay!
@@ -372,7 +372,7 @@
   -660g on delivery
   -Makes Linus happy",
     "linus_dishothesea.objective": "Bring dish o' the sea to Linus",
-    "linus_dishothesea.reactiontext": "$hThis will help keep me warm. Thanks, Farmer @.",
+    "linus_dishothesea.reactiontext": "$hThis will help keep me warm. Thanks, @.",
 // Lewis vegetable medley in fall
     "lewis_veggiemedley.title": "Nutritious medley",
     "lewis_veggiemedley.description": "Hi Pelican Town, I haven't had a healthy meal in a while. Could someone scrounge up a vegetable medley for your favorite mayor?
@@ -479,7 +479,7 @@
   -525g on delivery
   -Linus will be thankful",
     "linus_fishstew.objective": "Bring fish stew to Linus",
-    "linus_fishstew.reactiontext": "$hI appreciate this, Farmer @.",
+    "linus_fishstew.reactiontext": "$hI appreciate this, @.",
 // Demetrius rice pudding in winter
     "demetrius_ricepudding.title": "Fun to eat",
     "demetrius_ricepudding.description": "Greetings! Demetrius here. I'm looking for a creamy, sweet dessert. Can anyone make some rice pudding for me?
