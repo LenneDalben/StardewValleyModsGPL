@@ -622,10 +622,14 @@
     "krobus_seafoampudding.objective": "Bring seafoam pudding to Krobus",
     "krobus_seafoampudding.reactiontext": "$hOh @, you have my thanks!",
 // Elliott baked fish in winter
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "elliott_bakedfish.title": "Baked fish",
+    "elliott_bakedfish.description": "I've been craving some baked fish, longing for the herb concerto! Could someone make some for me?
+    -Elliott
+  
+  -300g on delivery
+  -Elliott will be pleased",
+    "elliott_bakedfish.objective": "Bring baked fish to Elliott",
+    "elliott_bakedfish.reactiontext": "$hI'm looking forward to these herbs, thank you @!",
 // Robin carp surprise in winter
     ".title": "",
     ".description": "",

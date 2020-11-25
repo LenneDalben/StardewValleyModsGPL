@@ -844,18 +844,14 @@
     { // Elliott baked fish in winter
       "Name": "elliott_bakedfish",
       "Type": "ItemDelivery",
-      "Title": "Baked fish",
-      "Description": "I've been craving some baked fish, longing for the herb concerto! Could someone make some for me?
-  -Elliott
-
--300g on delivery
--Elliott will be pleased",
-      "Objective": "Bring baked fish to Elliott",
+      "Title": "%i18n:elliott_bakedfish.title",
+      "Description": "%i18n:elliott_bakedfish.description",
+      "Objective": "%i18n:elliott_bakedfish.objective",
       "DaysLeft": 5,
       "Reward": 300,
       "Cancelable": true,
       "Trigger": "Elliott 198",
-      "ReactionText": "$hI'm looking forward to these herbs, thank you @!"
+      "ReactionText": "%i18n:elliott_bakedfish.reactiontext"
     },
     { // Robin carp surprise in winter
       "Name": "robin_carpsurprise",
