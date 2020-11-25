@@ -604,10 +604,14 @@
     "maru_cheesecauliflower.objective": "Bring cheese cauliflower to Maru",
     "maru_cheesecauliflower.reactiontext": "$hWoo, I'll enjoy this!",
 // Evelyn chocolate cake in winter
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "evelyn_chocolatecake.title": "Chocolate cake",
+    "evelyn_chocolatecake.description": "Chocolate cake would be a nice treat. Could someone make some for me?
+    -Evelyn
+  
+  -600g on delivery
+  -Makes Evelyn happy",
+    "evelyn_chocolatecake.objective": "Bring chocolate cake to Evelyn",
+    "evelyn_chocolatecake.reactiontext": "$h@, this chocolate cake looks wonderful. Thanks, dear!",
 // Krobus seafoam pudding in winter
     ".title": "",
     ".description": "",

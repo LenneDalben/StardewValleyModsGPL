@@ -820,18 +820,14 @@
     { // Evelyn chocolate cake in winter
       "Name": "evelyn_chocolatecake",
       "Type": "ItemDelivery",
-      "Title": "Chocolate cake",
-      "Description": "Chocolate cake would be a nice treat. Could someone make some for me?
-  -Evelyn
-
--600g on delivery
--Makes Evelyn happy",
-      "Objective": "Bring chocolate cake to Evelyn",
+      "Title": "%i18n:evelyn_chocolatecake.title",
+      "Description": "%i18n:evelyn_chocolatecake.description",
+      "Objective": "%i18n:evelyn_chocolatecake.objective",
       "DaysLeft": 5,
       "Reward": 600,
       "Cancelable": true,
       "Trigger": "Evelyn 220",
-      "ReactionText": "$h@, this chocolate cake looks wonderful. Thanks, dear!"
+      "ReactionText": "%i18n:evelyn_chocolatecake.reactiontext"
     },
     { // Krobus seafoam pudding in winter
       "Name": "krobus_seafoampudding",
