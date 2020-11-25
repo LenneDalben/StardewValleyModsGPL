@@ -808,18 +808,14 @@
     { // Maru cheese cauliflower in winter
       "Name": "maru_cheesecauliflower",
       "Type": "ItemDelivery",
-      "Title": "Cheesy goodness!",
-      "Description": "After all that holiday food, I'm in need of vegetables! Could someone make me some cheese cauliflower?
-  -Maru
-
--900g on delivery
--Makes Maru happy",
-      "Objective": "Bring cheese cauliflower to Maru",
+      "Title": "%i18n:maru_cheesecauliflower.title",
+      "Description": "%i18n:maru_cheesecauliflower.description",
+      "Objective": "%i18n:maru_cheesecauliflower.objective",
       "DaysLeft": 5,
       "Reward": 900,
       "Cancelable": true,
       "Trigger": "Maru 197",
-      "ReactionText": "$hWoo, I'll enjoy this!"
+      "ReactionText": "%i18n:maru_cheesecauliflower.reactiontext"
     },
     { // Evelyn chocolate cake in winter
       "Name": "evelyn_chocolatecake",

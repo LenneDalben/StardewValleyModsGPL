@@ -595,10 +595,14 @@
     "sam_tortilla.objective": "Bring tortilla to Sam",
     "sam_tortilla.reactiontext": "$hThe key to a taco, thanks @!",
 // Maru cheese cauliflower in winter
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "maru_cheesecauliflower.title": "Cheesy goodness!",
+    "maru_cheesecauliflower.description": "After all that holiday food, I'm in need of vegetables! Could someone make me some cheese cauliflower?
+    -Maru
+  
+  -900g on delivery
+  -Makes Maru happy",
+    "maru_cheesecauliflower.objective": "Bring cheese cauliflower to Maru",
+    "maru_cheesecauliflower.reactiontext": "$hWoo, I'll enjoy this!",
 // Evelyn chocolate cake in winter
     ".title": "",
     ".description": "",
