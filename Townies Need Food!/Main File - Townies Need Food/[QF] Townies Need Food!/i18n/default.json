@@ -586,10 +586,14 @@
     "penny_rootsplatter.objective": "Bring roots platter to Penny",
     "penny_rootsplatter.reactiontext": "$hThanks, @! I'm looking forward to this.",
 // Sam tortilla in winter
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "sam_tortilla.title": "Key to a taco",
+    "sam_tortilla.description": "I want to make a taco but I don't have a tortilla! Help? I'll pay!
+    -Sam
+  
+  -150g on delivery
+  -Makes Sam happy",
+    "sam_tortilla.objective": "Bring tortilla to Sam",
+    "sam_tortilla.reactiontext": "$hThe key to a taco, thanks @!",
 // Maru cheese cauliflower in winter
     ".title": "",
     ".description": "",
