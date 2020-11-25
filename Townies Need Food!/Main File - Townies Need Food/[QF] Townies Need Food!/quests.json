@@ -868,18 +868,14 @@
     { // Sam maple bar in winter
       "Name": "sam_maplebar",
       "Type": "ItemDelivery",
-      "Title": "Sweet donut",
-      "Description": "Maple bars are the bomb! Could someone make me one?
-  -Sam
-
--900g on delivery
--Sam will be pleased",
-      "Objective": "Bring maple bar to Sam",
+      "Title": "%i18n:sam_maplebar.title",
+      "Description": "%i18n:sam_maplebar.description",
+      "Objective": "%i18n:sam_maplebar.objective",
       "DaysLeft": 5,
       "Reward": 900,
       "Cancelable": true,
       "Trigger": "Sam 731",
-      "ReactionText": "$hAwesome, thanks @!"
+      "ReactionText": "%i18n:sam_maplebar.reactiontext"
     },
   ],
 "Offers": [

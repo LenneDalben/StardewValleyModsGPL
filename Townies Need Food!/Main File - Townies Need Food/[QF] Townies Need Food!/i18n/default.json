@@ -640,8 +640,12 @@
     "robin_carpsurprise.objective": "Bring carp surprise to Robin",
     "robin_carpsurprise.reactiontext": "$hAh, thank you @!",
 // Sam maple bar in winter
-    ".title": "",
-    ".description": "",
-    ".objective": "",
-    ".reactiontext": "",
+    "sam_maplebar.title": "Sweet donut",
+    "sam_maplebar.description": "Maple bars are the bomb! Could someone make me one?
+    -Sam
+  
+  -900g on delivery
+  -Sam will be pleased",
+    "sam_maplebar.objective": "Bring maple bar to Sam",
+    "sam_maplebar.reactiontext": "$hAwesome, thanks @!",
 }
