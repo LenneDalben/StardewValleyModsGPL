@@ -393,13 +393,13 @@
     "lewis_autumnsbounty.reactiontext": "$hI'm looking forward to this so-called 'taste of the season.' Thanks, @!",
 // Caroline lobster bisque in fall
     "caroline_lobsterbisque.title": "A delicate soup",
-    "caroline_lobsterbisque.description": "Willy is not sharing that secret recipe for lobster bisque. Did he share the recipe with someone who'd be willing to make it for me? I'll pay you good money for it!
+    "caroline_lobsterbisque.description": "Willy is not sharing that secret recipe for lobster bisque. Did he share it with someone who'd be willing to make it for me? I'll pay you good money for it!
     -Caroline
   
   -615g on delivery
   -Caroline will be pleased",
     "caroline_lobsterbisque.objective": "Bring lobster bisque to Caroline",
-    "caroline_lobsterbisque.reactiontext": "$hAh, this looks excellent, @! I appreciate it",
+    "caroline_lobsterbisque.reactiontext": "$hAh, this looks excellent, @! I appreciate it.",
 // Pam glazed yams in fall
     "pam_glazedyams.title": "Hint of caramel",
     "pam_glazedyams.description": "Howdy! Glazed yams are perfect in this weather. Could someone in this town help me out and make me some?
