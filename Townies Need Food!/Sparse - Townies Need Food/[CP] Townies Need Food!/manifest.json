@@ -22,6 +22,18 @@
     {
       "UniqueID": "burakmese.products",
       "IsRequired": false
+    },
+    {
+      "UniqueID": "mabelsyrup.farmhouse",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "KAYA.JAKitchenStationSet",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "minervamaga.FR.BiggerFarmhouses",
+      "IsRequired": false
     }
   ]
 }
