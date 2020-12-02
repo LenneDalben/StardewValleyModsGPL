@@ -8,7 +8,7 @@
   "UpdateKeys": [ "Nexus:6534@Comp" ],
   "ContentPackFor": {
     "UniqueID": "PurrplingCat.QuestFramework",
-    "MinimumVersion": "1.0.0"
+    "MinimumVersion": "1.1.0"
   },
   "Dependencies": [
     {
