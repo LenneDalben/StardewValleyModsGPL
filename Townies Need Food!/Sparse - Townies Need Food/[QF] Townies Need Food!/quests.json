@@ -1,1166 +1,882 @@
 {
   "Format": "1.0",
 "Quests": [ 
-    { // Emily shrimp cocktail in spring
-      "Name": "emily_shrimpcocktail",
-      "Type": "ItemDelivery",
-      "Title": "Sumptuous appetizer",
-      "Description": "Hello, it's Emily. I'd like to buy a shrimp cocktail from someone, to have an appetizer for my meal. Thanks!
--Emily
-
--480g on delivery
--Emily will be thankful",
-      "Objective": "Bring shrimp cocktail to Emily",
-      "DaysLeft": 5,
-      "Reward": 480,
-      "Cancelable": true,
-      "Trigger": "Emily 733",
-      "ReactionText": "$hGreat, thanks @!"
-    },
-    { // Harvey triple shot espresso in spring
-      "Name": "harvey_tripleshot",
-      "Type": "ItemDelivery",
-      "Title": "Coffee won't cut it",
-      "Description": "Coffee won't cut it; I'm in need of some triple shot espresso to raise my energy level. Could someone make one for me?
-  -Harvey
-
--1350g on delivery
--Harvey will be thankful",
-      "Objective": "Bring a triple shot espresso to Harvey",
-      "DaysLeft": 5,
-      "Reward": 1350,
-      "Cancelable": true,
-      "Trigger": "Harvey 253",
-      "ReactionText": "$hAh yes, this will perk me up. Thanks, @!"
-    },
-    { // Demetrius bean hotpot in spring
-      "Name": "demetrius_beanhotpot",
-      "Type": "ItemDelivery",
-      "Title": "A healthy meal",
-      "Description": "Greetings! Demetrius here. I'm looking for an earthy taste to balance out dinner. Can anyone make a bean hotpot for me?
-
--300g on delivery
--Demetrius will be thankful",
-      "Objective": "Bring a bean hotpot to Demetrius",
-      "DaysLeft": 5,
-      "Reward": 300,
-      "Cancelable": true,
-      "Trigger": "Demetrius 207",
-      "ReactionText": "$hThank you @, I'm looking forward to these beans."
-    },
-    { // George chowder in spring
-      "Name": "george_chowder",
-      "Type": "ItemDelivery",
-      "Title": "Perfect warmth",
-      "Description": "I'm in need of something to warm my old bones. Could someone make me some chowder?
-
--405g on delivery
--George will be thankful",
-      "Objective": "Bring chowder to George",
-      "DaysLeft": 5,
-      "Reward": 405,
-      "Cancelable": true,
-      "Trigger": "George 727",
-      "ReactionText": "$hThank you @, I'm looking forward to this soup."
-    },
-    { // Demetrius ice cream in spring
-      "Name": "demetrius_icecream",
-      "Type": "ItemDelivery",
-      "Title": "A sweet treat",
-      "Description": "Greetings! Demetrius here. I'm looking for a sweet treat. Can someone bring me some ice cream?
-
--360g on delivery
--Demetrius will be thankful",
-      "Objective": "Bring a ice cream to Demetrius",
-      "DaysLeft": 5,
-      "Reward": 360,
-      "Cancelable": true,
-      "Trigger": "Demetrius 233",
-      "ReactionText": "$hThank you @, I'm looking forward to this ice cream."
-    },
-    { // Leah salad in spring
-      "Name": "leah_salad",
-      "Type": "ItemDelivery",
-      "Title": "A garden salad",
-      "Description": "I've not had much luck getting the ingredients for my favorite dish. Could someone prepare me a salad?
-  -Leah
-
--330g on delivery
--Makes Leah happy",
-      "Objective": "Bring salad to Leah",
-      "DaysLeft": 5,
-      "Reward": 330,
-      "Cancelable": true,
-      "Trigger": "Leah 196",
-      "ReactionText": "$hAh perfect, thanks @!"
-    },
-    { // Leah stir fry in spring
-      "Name": "leah_stirfry",
-      "Type": "ItemDelivery",
-      "Title": "Julienned veggies",
-      "Description": "I'm in the mood for some stir fry. Anyone know how to julienne vegetables?
-  -Leah
-
--1005g on delivery
--Makes Leah happy",
-      "Objective": "Bring stir fry to Leah",
-      "DaysLeft": 5,
-      "Reward": 1005,
-      "Cancelable": true,
-      "Trigger": "Leah 606",
-      "ReactionText": "$hOooh these look great, thanks @!"
-    },
-    { // Pam parsnip soup in spring
-      "Name": "pam_parsnipsoup",
-      "Type": "ItemDelivery",
-      "Title": "Fresh soup",
-      "Description": "Howdy! I want some parsnip soup but I'm fresh out of all the ingredients. Could someone in this town help me out and make me some?
-  -Pam
-
--360g on delivery
--Pam will be thankful",
-      "Objective": "Bring parsnip soup to Pam",
-      "DaysLeft": 5,
-      "Reward": 360,
-      "Cancelable": true,
-      "Trigger": "Pam 199",
-      "ReactionText": "$hOh what's this now? Ha, thanks, @!"
-    },
-    { // Harvey coleslaw in spring
-      "Name": "harvey_coleslaw",
-      "Type": "ItemDelivery",
-      "Title": "Light and healthy",
-      "Description": "If someone could give me some coleslaw, I could put it to good use as a side dish.
-  -Harvey
-
--1035g on delivery
--Harvey will be thankful",
-      "Objective": "Bring coleslaw to Harvey",
-      "DaysLeft": 5,
-      "Reward": 1035,
-      "Cancelable": true,
-      "Trigger": "Harvey 648",
-      "ReactionText": "$hI'm looking forward to this healthy side dish, thanks @!"
-    },
-    { // Sebastian sashimi in spring
-      "Name": "sebastian_sashimi",
-      "Type": "ItemDelivery",
-      "Title": "It's sashimi",
-      "Description": "This is embarrassing; I love sashimi but I don't think I've mastered the thin slices. Could someone give it a try? I'll pay you!
-  -Sebastian
-
--225g on delivery
--Makes Sebastian happy",
-      "Objective": "Bring sashimi to Sebastian",
-      "DaysLeft": 5,
-      "Reward": 225,
-      "Cancelable": true,
-      "Trigger": "Sebastian 227",
-      "ReactionText": "$lOh, hah... You made this for me? Thanks @!"
-    },
-    { // Pam hashbrowns in spring
-      "Name": "pam_hashbrowns",
-      "Type": "ItemDelivery",
-      "Title": "Golden-brown crisp",
-      "Description": "Howdy! I'd love some hashbrowns. Could someone in this town help me out and make me some? There's money in it for you.
-  -Pam
-
--360g on delivery
--Pam will be thankful",
-      "Objective": "Bring hashbrowns to Pam",
-      "DaysLeft": 5,
-      "Reward": 360,
-      "Cancelable": true,
-      "Trigger": "Pam 210",
-      "ReactionText": "$hWhatcha got there? Oh, this is for me, thanks, @!"
-    },
-    { // Willy omelet in spring
-      "Name": "willy_omelet",
-      "Type": "ItemDelivery",
-      "Title": "Super fluffy",
-      "Description": "Sometimes an omelet is all you need. I'll pay whoever can make me one!
-  -Willy
-
--375g on delivery
--Makes Willy happy",
-      "Objective": "Bring omelet to Willy",
-      "DaysLeft": 5,
-      "Reward": 375,
-      "Cancelable": true,
-      "Trigger": "Willy 195",
-      "ReactionText": "$hThis looks excellent, thanks @!"
-    },
-    { // Alex salmon dinner in spring
-      "Name": "alex_salmondinner",
-      "Type": "ItemDelivery",
-      "Title": "Lemon spritz",
-      "Description": "A salmon dinner is special to me. Can anyone make me some? I'll give you cash!
-  -Alex
-
--900g on delivery
--Alex will be thankful",
-      "Objective": "Bring salmon dinner to Alex",
-      "DaysLeft": 5,
-      "Reward": 900,
-      "Cancelable": true,
-      "Trigger": "Alex 212",
-      "ReactionText": "$hThis looks delicious, thanks @!"
-    },
-	  { // Kent fiddlehead risotto in spring
-      "Name": "kent_fiddleheadrisotto",
-      "Type": "ItemDelivery",
-      "Title": "Creamy rice dish",
-      "Description": "I'd like some fiddlehead risotto, please.
-  -Kent
-
--1050g on delivery
--Kent will be thankful",
-      "Objective": "Bring fiddlehead risotto to Kent",
-      "DaysLeft": 5,
-      "Reward": 1050,
-      "Cancelable": true,
-      "Trigger": "Kent 649",
-      "ReactionText": "$hWhat? Oh, the risotto I asked for. Thanks @."
-    },
-	  { // Jodi pancakes in spring
-      "Name": "jodi_pancakes",
-      "Type": "ItemDelivery",
-      "Title": "Fluffy stack",
-      "Description": "Hi everyone! Could someone in town spare the time to make some pancakes for me? I'll pay!
-  -Jodi
-
--240g on delivery
--Jodi will be pleased",
-      "Objective": "Bring pancakes to Jodi",
-      "DaysLeft": 5,
-      "Reward": 240,
-      "Cancelable": true,
-      "Trigger": "Jodi 211",
-      "ReactionText": "$hThese look great, thanks @."
-    },
-    { // Marnie pink cake in spring
-      "Name": "marnie_pinkcake",
-      "Type": "ItemDelivery",
-      "Title": "Pink cake",
-      "Description": "Howdy neighbors! I'd like to surprise Jas with some pink cake. Can someone make some? I'll pay!
-
--1440g on delivery
--Makes Marnie happy",
-      "Objective": "Bring pink cake to Marnie",
-      "DaysLeft": 5,
-      "Reward": 1440,
-      "Cancelable": true,
-      "Trigger": "Marnie 221",
-      "ReactionText": "$hThanks @! I expect Jas will love this."
-    },
-    { // Maru miner's treat in spring
-      "Name": "maru_minerstreat",
-      "Type": "ItemDelivery",
-      "Title": "Energizing treat",
-      "Description": "Miner's treats are very energizing. Could someone make me some?
-  -Maru
-
--600g on delivery
--Makes Maru happy",
-      "Objective": "Bring miner's treat to Maru",
-      "DaysLeft": 5,
-      "Reward": 600,
-      "Cancelable": true,
-      "Trigger": "Maru 243",
-      "ReactionText": "$hThanks @, this will help me stay focused!"
-    },
-    { // Maru rhubarb pie in spring
-      "Name": "maru_rhubarbpie",
-      "Type": "ItemDelivery",
-      "Title": "Tangy pie!",
-      "Description": "Could someone bring me rhubarb pie? Thanks!
-  -Maru
-
--1200g on delivery
--Makes Maru happy",
-      "Objective": "Bring rhubarb pie to Maru",
-      "DaysLeft": 5,
-      "Reward": 1200,
-      "Cancelable": true,
-      "Trigger": "Maru 222",
-      "ReactionText": "$hThanks @, looks tasty!"
-    },
-    { // Robin radish salad in summer
-      "Name": "robin_radishsalad",
-      "Type": "ItemDelivery",
-      "Title": "Crisp radishes",
-      "Description": "I'd love a radish salad. Can anyone make me one?
-  -Robin
-
--900g on delivery
--Makes Robin happy",
-      "Objective": "Bring radish salad to Robin",
-      "DaysLeft": 5,
-      "Reward": 900,
-      "Cancelable": true,
-      "Trigger": "Robin 609",
-      "ReactionText": "$hPerfect, thank you @!"
-    },
-    { // Penny red plate in summer
-      "Name": "penny_redplate",
-      "Type": "ItemDelivery",
-      "Title": "So many antioxidants!",
-      "Description": "Hi, I'd love to have a red plate, it seems quite healthy. Could someone prepare one for me?
-  -Penny
-
--1200g on delivery
--Makes Penny happy",
-      "Objective": "Bring red plate to Penny",
-      "DaysLeft": 5,
-      "Reward": 1200,
-      "Cancelable": true,
-      "Trigger": "Penny 230",
-      "ReactionText": "$hThis looks delicious, thanks @!"
-    },
-    { // Penny poppyseed muffin in summer
-      "Name": "penny_poppyseedmuffin",
-      "Type": "ItemDelivery",
-      "Title": "A soothing effect",
-      "Description": "Hi, I'm interested in a poppyseed muffin. Does someone have one they could share with me?
-  -Penny
-
--750g on delivery
--Makes Penny happy",
-      "Objective": "Bring poppyseed muffin to Penny",
-      "DaysLeft": 5,
-      "Reward": 750,
-      "Cancelable": true,
-      "Trigger": "Penny 651",
-      "ReactionText": "$hThis is great, thanks @!"
-    },
-    { // Haley fruit salad in summer
-      "Name": "haley_fruitsalad",
-      "Type": "ItemDelivery",
-      "Title": "A delicious combo",
-      "Description": "I'll < you forever if you put together a fruit salad for me!
-  -Haley
-
--1350g on delivery
--Haley will be thankful",
-      "Objective": "Bring fruit salad to Haley",
-      "DaysLeft": 5,
-      "Reward": 1350,
-      "Cancelable": true,
-      "Trigger": "Haley 610",
-      "ReactionText": "$hThis fruit salad looks great, thanks @!"
-    },
-    { // Caroline fish taco in summer
-      "Name": "caroline_fishtaco",
-      "Type": "ItemDelivery",
-      "Title": "Delicious tacos",
-      "Description": "I could really go for a fish taco. I'll pay you when you bring it.
-  -Caroline
-
--1500g on delivery
--Caroline will be pleased",
-      "Objective": "Bring fish taco to Caroline",
-      "DaysLeft": 5,
-      "Reward": 1500,
-      "Cancelable": true,
-      "Trigger": "Caroline 213",
-      "ReactionText": "$hThank you, @! I appreciate it."
-    },
-	  { // Alex complete breakfast in summer
-      "Name": "alex_completebreakfast",
-      "Type": "ItemDelivery",
-      "Title": "Take on the world!",
-      "Description": "I need a pick-me-up today, and I think a complete breakfast will do the trick. Can someone whip one up?
-  -Alex
-
--1050g on delivery
--Alex will be thankful",
-      "Objective": "Bring a complete breakfast to Alex",
-      "DaysLeft": 5,
-      "Reward": 1050,
-      "Cancelable": true,
-      "Trigger": "Alex 201",
-      "ReactionText": "$hThanks, this'll do the trick!"
-    },
-    { // Linus blueberry tart in summer
-      "Name": "linus_blueberrytart",
-      "Type": "ItemDelivery",
-      "Title": "A subtle tart",
-      "Description": "I'd love a blueberry tart. Would someone in town be able to bake one for me?
-  -Linus =
-
--450g on delivery
--Linus will be pleased",
-      "Objective": "Bring blueberry tart to Linus",
-      "DaysLeft": 5,
-      "Reward": 450,
-      "Cancelable": true,
-      "Trigger": "Linus 234",
-      "ReactionText": "$hI'm grateful for this, Farmer @."
-    },
-    { // George fried mushroom in summer
-      "Name": "george_friedmushroom",
-      "Type": "ItemDelivery",
-      "Title": "Earthy side dish",
-      "Description": "I'm interested in some fried mushrooms, but I don't want to trouble Evelyn. Anyone know the recipe?
-  -George
-
--600g on delivery
--George will be thankful",
-      "Objective": "Bring fried mushroom to George",
-      "DaysLeft": 5,
-      "Reward": 600,
-      "Cancelable": true,
-      "Trigger": "George 205",
-      "ReactionText": "$hI'm looking forward to this side dish, Farmer @."
-    },
-    { // Clint bread in summer
-      "Name": "clint_bread",
-      "Type": "ItemDelivery",
-      "Title": "Crusty baguette",
-      "Description": "I've got butter, but no bread. Can someone bring me bread? I'll pay!
-  -Clint
-
--180g on delivery
--Clint will be thankful",
-      "Objective": "Bring bread to Clint",
-      "DaysLeft": 5,
-      "Reward": 180,
-      "Cancelable": true,
-      "Trigger": "Clint 216",
-      "ReactionText": "$hThis looks great, thanks @."
-    },
-    { // Sam pizza in summer
-      "Name": "sam_pizza",
-      "Type": "ItemDelivery",
-      "Title": "My favorite!",
-      "Description": "I'm working on a project and need some fuel. Can anyone bring me a pizza?
-  -Sam
-
--900g on delivery
--Sam will be thankful",
-      "Objective": "Bring pizza to Sam",
-      "DaysLeft": 5,
-      "Reward": 900,
-      "Cancelable": true,
-      "Trigger": "Sam 206",
-      "ReactionText": "$hAlright, @!"
-    },
-    { // Elliott crab cakes in summer
-      "Name": "elliott_crabcakes",
-      "Type": "ItemDelivery",
-      "Title": "Golden brown patties",
-      "Description": "I find crab cakes wonderful this time of year. I'd be most grateful if someone could make some for me.
-  -Elliott
-
--825g on delivery
--Elliott will be pleased",
-      "Objective": "Bring crab cakes to Elliott",
-      "DaysLeft": 5,
-      "Reward": 825,
-      "Cancelable": true,
-      "Trigger": "Elliott 732",
-      "ReactionText": "$hI can't wait to enjoy these crab cakes, thank you @!"
-    },
-    { // Gus escargot in summer
-      "Name": "gus_escargot",
-      "Type": "ItemDelivery",
-      "Title": "Butter-soaked snails",
-      "Description": "Hi! I'd love some escargot. Drop some off at the saloon and I'll be very grateful.
-  -Gus
-
--375g on delivery
--Gus will be pleased",
-      "Objective": "Bring escargot to Gus",
-      "DaysLeft": 5,
-      "Reward": 375,
-      "Cancelable": true,
-      "Trigger": "Gus 729",
-      "ReactionText": "$hThis looks great, thank you @!"
-    },
-    { // Pierre fried calamari in summer
-      "Name": "pierre_friedcalamari",
-      "Type": "ItemDelivery",
-      "Title": "A chewy squid",
-      "Description": "Could someone make me some fried calamari? I'll pay!
--Pierre
-
--450g on delivery
--Pierre will be pleased",
-      "Objective": "Bring fried calamari to Pierre",
-      "DaysLeft": 5,
-      "Reward": 450,
-      "Cancelable": true,
-      "Trigger": "Pierre 202",
-      "ReactionText": "$hIt's my favorite, you know. Thanks, @!"
-    },
-	  { // Shane pepper poppers in summer
-      "Name": "shane_pepperpoppers",
-      "Type": "ItemDelivery",
-      "Title": "Spicy breaded peppers",
-      "Description": "Could someone make me some pepper poppers? I'll pay you for them, I swear.
-  -Shane
-
--600g on delivery
--Shane will be pleased",
-      "Objective": "Bring pepper poppers to Shane",
-      "DaysLeft": 5,
-      "Reward": 600,
-      "Cancelable": true,
-      "Trigger": "Shane 215",
-      "ReactionText": "$hAh, these are the best. Thanks, @."
-    },
-    { // Caroline fried eel in summer
-      "Name": "caroline_friedeel",
-      "Type": "ItemDelivery",
-      "Title": "Flavorful dish",
-      "Description": "I could really go for some fried eel. I'll pay you when you bring it.
-  -Caroline
-
--360g on delivery
--Caroline will be pleased",
-      "Objective": "Bring fried eel to Caroline",
-      "DaysLeft": 5,
-      "Reward": 360,
-      "Cancelable": true,
-      "Trigger": "Caroline 225",
-      "ReactionText": "$hThank you, @! I appreciate it."
-    },
-    { // Robin spaghetti in summer
-      "Name": "robin_spaghetti",
-      "Type": "ItemDelivery",
-      "Title": "Old favorite",
-      "Description": "I'd love some spaghetti. Can anyone make me some?
-  -Robin
-
--360g on delivery
--Makes Robin happy",
-      "Objective": "Bring spaghetti to Robin",
-      "DaysLeft": 5,
-      "Reward": 360,
-      "Cancelable": true,
-      "Trigger": "Robin 224",
-      "ReactionText": "$hLooks great, thank you @!"
-    },
-    { // Willy maki roll in summer
-      "Name": "willy_makiroll",
-      "Type": "ItemDelivery",
-      "Title": "Fish and rice",
-      "Description": "Maki rolls are a simple delicious meal. I'll pay whoever can make me some!
-  -Willy
-
--660g on delivery
--Makes Willy happy",
-      "Objective": "Bring maki roll to Willy",
-      "DaysLeft": 5,
-      "Reward": 660,
-      "Cancelable": true,
-      "Trigger": "Willy 228",
-      "ReactionText": "$hThese look great, thanks @!"
-    },
-    { // Wizard lucky lunch in summer
-      "Name": "wizard_luckylunch",
-      "Type": "ItemDelivery",
-      "Title": "A special meal",
-      "Description": "Local wizard in search of a magnificent lucky lunch. It has very interesting properties, you know.
-  -M. Rasmodius =
-
--750g on delivery
--Wizard will be thankful",
-      "Objective": "Bring lucky lunch to Wizard",
-      "DaysLeft": 5,
-      "Reward": 750,
-      "Cancelable": true,
-      "Trigger": "Wizard 204",
-      "ReactionText": "$hExcellent, thank you @!"
-    },
-    { // Pierre bruschetta in fall
-      "Name": "pierre_bruschetta",
-      "Type": "ItemDelivery",
-      "Title": "Tomatoes and bread",
-      "Description": "Could someone make me some bruschetta? I'll pay!
--Pierre
-
--630g on delivery
--Pierre will be pleased",
-      "Objective": "Bring bruschetta to Pierre",
-      "DaysLeft": 5,
-      "Reward": 630,
-      "Cancelable": true,
-      "Trigger": "Pierre 618",
-      "ReactionText": "$hThank you, @!"
-    },
-    { // Emily survival burger in fall
-      "Name": "emily_survivalburger",
-      "Type": "ItemDelivery",
-      "Title": "A convenient snack",
-      "Description": "Hello, it's Emily. I'd love a survival burger. Thanks!
--Emily
-
--540g on delivery
--Emily will be pleased",
-      "Objective": "Bring survival burger to Emily",
-      "DaysLeft": 5,
-      "Reward": 540,
-      "Cancelable": true,
-      "Trigger": "Emily 241",
-      "ReactionText": "$hOooh, thanks @!"
-    },
-    { // Clint artichoke dip in fall
-      "Name": "clint_artichokedip",
-      "Type": "ItemDelivery",
-      "Title": "A cool dip",
-      "Description": "Artichoke dip would go well with my chips. Can someone make me some? I'll pay you for the trouble!
-  -Clint
-
--630g on delivery
--Clint will be pleased",
-      "Objective": "Bring artichoke dip to Clint",
-      "DaysLeft": 5,
-      "Reward": 630,
-      "Cancelable": true,
-      "Trigger": "Clint 605",
-      "ReactionText": "$hAh, this looks great, thank you @!"
-    },
-    { // Abigail blackberry cobbler in fall
-      "Name": "abigail_blackberrycobbler",
-      "Type": "ItemDelivery",
-      "Title": "Nothing quite like it!",
-      "Description": "I'm in the mood for blackberry cobbler, a real dessert! Can anyone bake me some?
-  -Abigail
-
--780g on delivery
--Makes Abigail happy",
-      "Objective": "Bring blackberry cobbler to Abigail",
-      "DaysLeft": 5,
-      "Reward": 780,
-      "Cancelable": true,
-      "Trigger": "Abigail 611",
-      "ReactionText": "$hThe cobbler looks tasty, thanks @!"
-    },
-    { // Harvey super meal in fall
-      "Name": "harvey_supermeal",
-      "Type": "ItemDelivery",
-      "Title": "An energizing meal",
-      "Description": "I think a super meal would do wonders to raise my energy level. Could someone make one for me?
-  -Harvey
-
--660g on delivery
--Harvey will be thankful",
-      "Objective": "Bring a super meal to Harvey",
-      "DaysLeft": 5,
-      "Reward": 660,
-      "Cancelable": true,
-      "Trigger": "Harvey 237",
-      "ReactionText": "$hI'm looking forward to this meal, thanks @!"
-    },
-    { // Linus dish o' the sea in fall
-      "Name": "linus_dishothesea",
-      "Type": "ItemDelivery",
-      "Title": "Warm in sea air",
-      "Description": "I'd love a dish o' the sea. Would someone in town be able to make some for me?
-  -Linus =
-
--660g on delivery
--Makes Linus happy",
-      "Objective": "Bring dish o' the sea to Linus",
-      "DaysLeft": 5,
-      "Reward": 660,
-      "Cancelable": true,
-      "Trigger": "Linus 242",
-      "ReactionText": "$hThis will help keep me warm. Thanks, Farmer @."
-    },
-    { // Lewis vegetable medley in fall
-      "Name": "lewis_veggiemedley",
-      "Type": "ItemDelivery",
-      "Title": "Nutritious medley",
-      "Description": "Hi Pelican Town, I haven't had a healthy meal in a while. Could someone scrounge up a vegetable medley for your favorite mayor?
-  -Lewis
-
--360g on delivery
--Lewis will be pleased",
-      "Objective": "Bring vegetable medley to Lewis",
-      "DaysLeft": 5,
-      "Reward": 360,
-      "Cancelable": true,
-      "Trigger": "Lewis 200",
-      "ReactionText": "$hI appreciate you helping me stay healthy, @!"
-    },
-    { // Lewis autumn's bounty in fall
-      "Name": "lewis_autumnsbounty",
-      "Type": "ItemDelivery",
-      "Title": "Taste of the season",
-      "Description": "I'd love to have some yams and pumpkins together. Could someone prepare the autumn's bounty dish for me? I'll pay you for it!
-  -Lewis
-
--1050g on delivery
--Lewis will be pleased",
-      "Objective": "Bring autumn's bounty to Lewis",
-      "DaysLeft": 5,
-      "Reward": 1050,
-      "Cancelable": true,
-      "Trigger": "Lewis 235",
-      "ReactionText": "$hI'm looking forward to this so-called 'taste of the season.' Thanks, @!"
-    },
-    { // Caroline lobster bisque in fall
-      "Name": "caroline_lobsterbisque",
-      "Type": "ItemDelivery",
-      "Title": "A delicate soup",
-      "Description": "Willy is not sharing that secret recipe for lobster bisque. Did he share the recipe with someone who'd be willing to make it for me? I'll pay you good money for it!
-  -Caroline
-
--615g on delivery
--Caroline will be pleased",
-      "Objective": "Bring lobster bisque to Caroline",
-      "DaysLeft": 5,
-      "Reward": 615,
-      "Cancelable": true,
-      "Trigger": "Caroline 730",
-      "ReactionText": "$hAh, this looks excellent, @! I appreciate it."
-    },
-    { // Pam glazed yams in fall
-      "Name": "pam_glazedyams",
-      "Type": "ItemDelivery",
-      "Title": "Hint of caramel",
-      "Description": "Howdy! Glazed yams are perfect in this weather. Could someone in this town help me out and make me some?
-  -Pam
-
--600g on delivery
--Makes Pam happy",
-      "Objective": "Bring glazed yams to Pam",
-      "DaysLeft": 5,
-      "Reward": 600,
-      "Cancelable": true,
-      "Trigger": "Pam 208",
-      "ReactionText": "$hThese look perfect, thanks @!"
-    },
-    { // Sebastian pumpkin soup in fall
-      "Name": "sebastian_pumpkinsoup",
-      "Type": "ItemDelivery",
-      "Title": "Seasonal favorite",
-      "Description": "Ugh, this is embarrassing but...I'm craving my mom's pumpkin soup and I don't think I could do it justice if I tried to make it myself. Could someone give it a try? I'll pay you for it, promise.
-  -Sebastian
-
--900g on delivery
--Makes Sebastian happy",
-      "Objective": "Bring pumpkin soup to Sebastian",
-      "DaysLeft": 5,
-      "Reward": 900,
-      "Cancelable": true,
-      "Trigger": "Sebastian 236",
-      "ReactionText": "$lOh, you saw that request? Uh, thanks @!"
-    },
-    { // Evelyn stuffing in fall
-      "Name": "evelyn_stuffing",
-      "Type": "ItemDelivery",
-      "Title": "Bread and sage",
-      "Description": "I'm in need of stuffing to complete my meal, but I don't have time to make it. Could someone make it for me?
-  -Evelyn
-
--495g on delivery
--Makes Evelyn happy",
-      "Objective": "Bring stuffing to Evelyn",
-      "DaysLeft": 5,
-      "Reward": 495,
-      "Cancelable": true,
-      "Trigger": "Evelyn 239",
-      "ReactionText": "$h@, this stuffing looks great. Thanks!"
-    },
-    { // Wizard cranberry sauce in fall
-      "Name": "wizard_cransauce",
-      "Type": "ItemDelivery",
-      "Title": "A festive treat",
-      "Description": "Local wizard in search of some excellent cranberry sauce.
-  -M. Rasmodius =
-
--360g on delivery
--Makes Wizard happy",
-      "Objective": "Bring cranberry sauce to Wizard",
-      "DaysLeft": 5,
-      "Reward": 360,
-      "Cancelable": true,
-      "Trigger": "Wizard 238",
-      "ReactionText": "$hOh @, this looks wonderful!"
-    },
-    { // George plum pudding in fall
-      "Name": "george_plumpudding",
-      "Type": "ItemDelivery",
-      "Title": "Holiday treat",
-      "Description": "I'm interested in some plum pudding but I don't want to trouble Evelyn. Could someone make me some?
-
--780g on delivery
--George will be thankful",
-      "Objective": "Bring plum pudding to George",
-      "DaysLeft": 5,
-      "Reward": 780,
-      "Cancelable": true,
-      "Trigger": "George 604",
-      "ReactionText": "$hThank you @, you've made an old man happy."
-    },
-    { // Gus fish taco in fall
-      "Name": "gus_fishtaco",
-      "Type": "ItemDelivery",
-      "Title": "Tasty tacos",
-      "Description": "Hi! I'd love some fish tacos. Drop some off at the saloon and I'll be very grateful.
-  -Gus
-
--1500g on delivery
--Gus will be pleased",
-      "Objective": "Bring fish taco to Gus",
-      "DaysLeft": 5,
-      "Reward": 1500,
-      "Cancelable": true,
-      "Trigger": "Gus 213",
-      "ReactionText": "$hThis looks tasty, thank you @!"
-    },
-    { // Haley cranberry candy in fall
-      "Name": "haley_cranberrycandy",
-      "Type": "ItemDelivery",
-      "Title": "Sweet enough",
-      "Description": "I'll < you forever if you make me some cranberry candy!
-  -Haley
-
--525g on delivery
--Haley will be thankful",
-      "Objective": "Bring cranberry candy to Haley",
-      "DaysLeft": 5,
-      "Reward": 525,
-      "Cancelable": true,
-      "Trigger": "Haley 612",
-      "ReactionText": "$hI can smell the sweetness, thanks @!"
-    },
-	  { // Jodi crispy bass in fall
-      "Name": "jodi_crispybass",
-      "Type": "ItemDelivery",
-      "Title": "Perfect breading",
-      "Description": "Hi everyone, I'd love some crispy bass, but I just don't have time to make it! Could someone in town spare the time to make it for me? I'll even pay you!
-  -Jodi
-
--450g on delivery
--Jodi will be pleased",
-      "Objective": "Bring crispy bass to Jodi",
-      "DaysLeft": 5,
-      "Reward": 450,
-      "Cancelable": true,
-      "Trigger": "Jodi 214",
-      "ReactionText": "$hThis will do, thanks @."
-    },
-    { // Linus fish stew in fall
-      "Name": "linus_fishstew",
-      "Type": "ItemDelivery",
-      "Title": "Sea smell",
-      "Description": "I'd love some fish stew. Would someone in town be able to make some for me?
-  -Linus =
-
--525g on delivery
--Linus will be thankful",
-      "Objective": "Bring fish stew to Linus",
-      "DaysLeft": 5,
-      "Reward": 525,
-      "Cancelable": true,
-      "Trigger": "Linus 728",
-      "ReactionText": "$hI appreciate this, Farmer @."
-    },
-    { // Demetrius rice pudding in winter
-      "Name": "demetrius_ricepudding",
-      "Type": "ItemDelivery",
-      "Title": "Fun to eat",
-      "Description": "Greetings! Demetrius here. I'm looking for an creamy, sweet dessert. Can anyone make some rice pudding for me?
-
--780g on delivery
--Demetrius will be thankful",
-      "Objective": "Bring rice pudding to Demetrius",
-      "DaysLeft": 5,
-      "Reward": 780,
-      "Cancelable": true,
-      "Trigger": "Demetrius 232",
-      "ReactionText": "$hThank you @, I'm looking forward to this pudding."
-    },
-    { // Wizard cookie in winter
-      "Name": "wizard_cookie",
-      "Type": "ItemDelivery",
-      "Title": "A chewy dessert",
-      "Description": "Local wizard in search of some excellent cookies. They have interesting properties, you know.
-  -M. Rasmodius =
-
--420g on delivery
--Wizard will be thankful",
-      "Objective": "Bring cookies to Wizard",
-      "DaysLeft": 5,
-      "Reward": 420,
-      "Cancelable": true,
-      "Trigger": "Wizard 223",
-      "ReactionText": "$hAh, @, these will do!"
-    },
-    { // Marnie pumpkin pie in winter
-      "Name": "marnie_pumpkinpie",
-      "Type": "ItemDelivery",
-      "Title": "Silky pumpkin pie",
-      "Description": "Howdy neighbors! I'm hankering for some pumpkin pie, but I don't have any pumpkins. Help?
-
--810g on delivery
--Marnie will be thankful",
-      "Objective": "Bring pumpkin pie to Marnie",
-      "DaysLeft": 5,
-      "Reward": 810,
-      "Cancelable": true,
-      "Trigger": "Marnie 608",
-      "ReactionText": "$hAh, thanks @! I'm looking forward to this pie!"
-    },
-    { // Abigail spicy eel in winter
-      "Name": "abigail_spicyeel",
-      "Type": "ItemDelivery",
-      "Title": "It's really spicy!",
-      "Description": "Spicy eel would help keep me warm this winter! Can anyone make me some?
-  -Abigail
-
--525g on delivery
--Abigail will be pleased",
-      "Objective": "Bring spicy eel to Abigail",
-      "DaysLeft": 5,
-      "Reward": 525,
-      "Cancelable": true,
-      "Trigger": "Abigail 226",
-      "ReactionText": "$hI can smell the spice from here, thanks @!"
-    },
-    { // Elliott tom kha soup in winter
-      "Name": "elliott_tomkhasoup",
-      "Type": "ItemDelivery",
-      "Title": "Incredible flavors!",
-      "Description": "You may have heard me wax poetic about tom kha soup, and it's been on my mind again! I'd be most grateful if someone could make some for me.
-  -Elliott
-
--750g on delivery
--Elliott will be pleased",
-      "Objective": "Bring tom kha soup to Elliott",
-      "DaysLeft": 5,
-      "Reward": 750,
-      "Cancelable": true,
-      "Trigger": "Elliott 218",
-      "ReactionText": "$hI can't wait to enjoy this delectable delicacy, thank you @!"
-    },
-    { // Willy trout soup in winter
-      "Name": "willy_troutsoup",
-      "Type": "ItemDelivery",
-      "Title": "A salty soup",
-      "Description": "Trying to combine keeping the art o' fishing and cooking alive, together! I'll pay whoever can make me some trout soup. Good luck!
-  -Willy
-
--300g on delivery
--Willy will be pleased",
-      "Objective": "Bring trout soup to Willy",
-      "DaysLeft": 5,
-      "Reward": 300,
-      "Cancelable": true,
-      "Trigger": "Willy 219",
-      "ReactionText": "$hThis looks like excellent soup, thanks @!"
-    },
-	  { // Alex fried egg in winter
-      "Name": "alex_friedegg",
-      "Type": "ItemDelivery",
-      "Title": "Sunny-side up",
-      "Description": "A simple fried egg is the burst of protein I need. Could someone make me one?
-  -Alex
-
--105g on delivery
--Alex will be thankful",
-      "Objective": "Bring a fried egg to Alex",
-      "DaysLeft": 5,
-      "Reward": 105,
-      "Cancelable": true,
-      "Trigger": "Alex 194",
-      "ReactionText": "$hAlright! Sometimes a little protein is all I need. Thanks, @."
-    },
-	  { // Jodi eggplant parmesan in winter
-      "Name": "jodi_eggplantparmesan",
-      "Type": "ItemDelivery",
-      "Title": "Tangy and cheesy",
-      "Description": "Hi everyone, I'd love to have some eggplant parmesan for me and my boys. Could someone in town spare the time to make it for me? I'll pay!
-  -Jodi
-
--600g on delivery
--Jodi will be pleased",
-      "Objective": "Bring eggplant parmesan to Jodi",
-      "DaysLeft": 5,
-      "Reward": 600,
-      "Cancelable": true,
-      "Trigger": "Jodi 231",
-      "ReactionText": "$hThis will do, thanks @."
-    },
-	  { // Kent roasted hazelnuts in winter
-      "Name": "kent_roastedhazelnuts",
-      "Type": "ItemDelivery",
-      "Title": "Rich forest flavor",
-      "Description": "I'd like some roasted hazelnuts, please.
-  -Kent
-
--810g on delivery
--Kent will be pleased",
-      "Objective": "Bring roasted hazelnuts to Kent",
-      "DaysLeft": 5,
-      "Reward": 810,
-      "Cancelable": true,
-      "Trigger": "Kent 607",
-      "ReactionText": "$hWhat? Oh, the hazelnuts I asked for. Thanks @."
-    },
-	  { // Shane pizza in winter
-      "Name": "shane_pizza",
-      "Type": "ItemDelivery",
-      "Title": "The right stuff",
-      "Description": "Could someone get me some pizza? I'll pay you for it, I swear.
-  -Shane
-
--900g on delivery
--Shane will be pleased",
-      "Objective": "Bring pizza to Shane",
-      "DaysLeft": 5,
-      "Reward": 900,
-      "Cancelable": true,
-      "Trigger": "Shane 206",
-      "ReactionText": "$hHa, I wasn't sure anyone would take me up on the offer. Thanks, @."
-    },
-    { // Marnie farmer's lunch in winter
-      "Name": "marnie_farmerslunch",
-      "Type": "ItemDelivery",
-      "Title": "Energy meal",
-      "Description": "Howdy neighbors! I think a farmer's lunch would help me power through my day with more energy. Could someone make one and swing it by for me?
-
--450g on delivery
--Makes Marnie happy",
-      "Objective": "Bring farmer's lunch to Marnie",
-      "DaysLeft": 5,
-      "Reward": 450,
-      "Cancelable": true,
-      "Trigger": "Marnie 240",
-      "ReactionText": "$hHere's to hoping this really does 'keep me going,' thanks @!"
-    },
-    { // Penny roots platter in winter
-      "Name": "penny_rootsplatter",
-      "Type": "ItemDelivery",
-      "Title": "Platter with roots",
-      "Description": "Hi, I'd love a roots platter. Could someone make me one, please?
-  -Penny
-
--300g on delivery
--Makes Penny happy",
-      "Objective": "Bring roots platter to Penny",
-      "DaysLeft": 5,
-      "Reward": 300,
-      "Cancelable": true,
-      "Trigger": "Penny 244",
-      "ReactionText": "$hThanks, @! I'm looking forward to this."
-    },
-    { // Sam tortilla in winter
-      "Name": "sam_tortilla",
-      "Type": "ItemDelivery",
-      "Title": "Key to a taco",
-      "Description": "I want to make a taco but I don't have a tortilla! Help? I'll pay!
-  -Sam
-
--150g on delivery
--Makes Sam happy",
-      "Objective": "Bring tortilla to Sam",
-      "DaysLeft": 5,
-      "Reward": 150,
-      "Cancelable": true,
-      "Trigger": "Sam 229",
-      "ReactionText": "$hThe key to a taco, thanks @!"
-    },
-    { // Maru cheese cauliflower in winter
-      "Name": "maru_cheesecauliflower",
-      "Type": "ItemDelivery",
-      "Title": "Cheesy goodness!",
-      "Description": "After all that holiday food, I'm in need of vegetables! Could someone make me some cheese cauliflower?
-  -Maru
-
--900g on delivery
--Makes Maru happy",
-      "Objective": "Bring cheese cauliflower to Maru",
-      "DaysLeft": 5,
-      "Reward": 900,
-      "Cancelable": true,
-      "Trigger": "Maru 197",
-      "ReactionText": "$hWoo, I'll enjoy this!"
-    },
-    { // Evelyn chocolate cake in winter
-      "Name": "evelyn_chocolatecake",
-      "Type": "ItemDelivery",
-      "Title": "Chocolate cake",
-      "Description": "Chocolate cake would be a nice treat. Could someone make some for me?
-  -Evelyn
-
--600g on delivery
--Makes Evelyn happy",
-      "Objective": "Bring chocolate cake to Evelyn",
-      "DaysLeft": 5,
-      "Reward": 600,
-      "Cancelable": true,
-      "Trigger": "Evelyn 220",
-      "ReactionText": "$h@, this chocolate cake looks wonderful. Thanks, dear!"
-    },
-    { // Krobus seafoam pudding in winter
-      "Name": "krobus_seafoampudding",
-      "Type": "ItemDelivery",
-      "Title": "Briny pudding",
-      "Description": "Greetings, I'm interested in some seafoam pudding. Could someone in town drop some off at the sewer? I can pay!
-  -Krobus =
-
--900g on delivery
--Makes Krobus happy",
-      "Objective": "Bring seafoam pudding to Krobus",
-      "DaysLeft": 5,
-      "Reward": 900,
-      "Cancelable": true,
-      "Trigger": "Krobus 265",
-      "ReactionText": "$hOh @, you have my thanks!"
-    },
-    { // Elliott baked fish in winter
-      "Name": "elliott_bakedfish",
-      "Type": "ItemDelivery",
-      "Title": "Baked fish",
-      "Description": "I've been craving some baked fish, longing for the herb concerto! Could someone make some for me?
-  -Elliott
-
--300g on delivery
--Elliott will be pleased",
-      "Objective": "Bring baked fish to Elliott",
-      "DaysLeft": 5,
-      "Reward": 300,
-      "Cancelable": true,
-      "Trigger": "Elliott 198",
-      "ReactionText": "$hI'm looking forward to these herbs, thank you @!"
-    },
-    { // Robin carp surprise in winter
-      "Name": "robin_carpsurprise",
-      "Type": "ItemDelivery",
-      "Title": "Bland yet oily",
-      "Description": "It may be an acquired taste, but I like carp surprise! Can anyone make me some? I'll pay!
-  -Robin
-
--450g on delivery
--Makes Robin happy",
-      "Objective": "Bring carp surprise to Robin",
-      "DaysLeft": 5,
-      "Reward": 450,
-      "Cancelable": true,
-      "Trigger": "Robin 209",
-      "ReactionText": "$hAh, thank you @!"
-    },
-    { // Sam maple bar in winter
-      "Name": "sam_maplebar",
-      "Type": "ItemDelivery",
-      "Title": "Sweet donut",
-      "Description": "Maple bars are the bomb! Could someone make me one?
-  -Sam
-
--900g on delivery
--Sam will be pleased",
-      "Objective": "Bring maple bar to Sam",
-      "DaysLeft": 5,
-      "Reward": 900,
-      "Cancelable": true,
-      "Trigger": "Sam 731",
-      "ReactionText": "$hAwesome, thanks @!"
-    },
+  { // Emily shrimp cocktail in spring
+    "Name": "emily_shrimpcocktail",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:emily_shrimpcocktail.title",
+    "Description": "%i18n:emily_shrimpcocktail.description",
+    "Objective": "%i18n:emily_shrimpcocktail.objective",
+    "DaysLeft": 5,
+    "Reward": 480,
+    "Cancelable": true,
+    "Trigger": "Emily 733",
+    "ReactionText": "%i18n:emily_shrimpcocktail.reactiontext"
+  },
+  { // Harvey triple shot espresso in spring
+    "Name": "harvey_tripleshot",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:harvey_tripleshot.title",
+    "Description": "%i18n:harvey_tripleshot.description",
+    "Objective": "%i18n:harvey_tripleshot.objective",
+    "DaysLeft": 5,
+    "Reward": 1350,
+    "Cancelable": true,
+    "Trigger": "Harvey 253",
+    "ReactionText": "%i18n:harvey_tripleshot.reactiontext"
+  },
+  { // Demetrius bean hotpot in spring
+    "Name": "demetrius_beanhotpot",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:demetrius_beanhotpot.title",
+    "Description": "%i18n:demetrius_beanhotpot.description",
+    "Objective": "%i18n:demetrius_beanhotpot.objective",
+    "DaysLeft": 5,
+    "Reward": 300,
+    "Cancelable": true,
+    "Trigger": "Demetrius 207",
+    "ReactionText": "%i18n:demetrius_beanhotpot.reactiontext"
+  },
+  { // George chowder in spring
+    "Name": "george_chowder",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:george_chowder.title",
+    "Description": "%i18n:george_chowder.description",
+    "Objective": "%i18n:george_chowder.objective",
+    "DaysLeft": 5,
+    "Reward": 405,
+    "Cancelable": true,
+    "Trigger": "George 727",
+    "ReactionText": "%i18n:george_chowder.reactiontext"
+  },
+  { // Demetrius ice cream in spring
+    "Name": "demetrius_icecream",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:demetrius_icecream.title",
+    "Description": "%i18n:demetrius_icecream.description",
+    "Objective": "%i18n:demetrius_icecream.objective",
+    "DaysLeft": 5,
+    "Reward": 360,
+    "Cancelable": true,
+    "Trigger": "Demetrius 233",
+    "ReactionText": "%i18n:demetrius_icecream.reactiontext"
+  },
+  { // Leah salad in spring
+    "Name": "leah_salad",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:leah_salad.title",
+    "Description": "%i18n:leah_salad.description",
+    "Objective": "%i18n:leah_salad.objective",
+    "DaysLeft": 5,
+    "Reward": 330,
+    "Cancelable": true,
+    "Trigger": "Leah 196",
+    "ReactionText": "%i18n:leah_salad.reactiontext"
+  },
+  { // Leah stir fry in spring
+    "Name": "leah_stirfry",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:leah_stirfry.title",
+    "Description": "%i18n:leah_stirfry.description",
+    "Objective": "%i18n:leah_stirfry.objective",
+    "DaysLeft": 5,
+    "Reward": 1005,
+    "Cancelable": true,
+    "Trigger": "Leah 606",
+    "ReactionText": "%i18n:leah_stirfry.reactiontext"
+  },
+  { // Pam parsnip soup in spring
+    "Name": "pam_parsnipsoup",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:pam_parsnipsoup.title",
+    "Description": "%i18n:pam_parsnipsoup.description",
+    "Objective": "%i18n:pam_parsnipsoup.objective",
+    "DaysLeft": 5,
+    "Reward": 360,
+    "Cancelable": true,
+    "Trigger": "Pam 199",
+    "ReactionText": "%i18n:pam_parsnipsoup.reactiontext"
+  },
+  { // Harvey coleslaw in spring
+    "Name": "harvey_coleslaw",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:harvey_coleslaw.title",
+    "Description": "%i18n:harvey_coleslaw.description",
+    "Objective": "%i18n:harvey_coleslaw.objective",
+    "DaysLeft": 5,
+    "Reward": 1035,
+    "Cancelable": true,
+    "Trigger": "Harvey 648",
+    "ReactionText": "%i18n:harvey_coleslaw.reactiontext"
+  },
+  { // Sebastian sashimi in spring
+    "Name": "sebastian_sashimi",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:sebastian_sashimi.title",
+    "Description": "%i18n:sebastian_sashimi.description",
+    "Objective": "%i18n:sebastian_sashimi.objective",
+    "DaysLeft": 5,
+    "Reward": 225,
+    "Cancelable": true,
+    "Trigger": "Sebastian 227",
+    "ReactionText": "%i18n:sebastian_sashimi.reactiontext"
+  },
+  { // Pam hashbrowns in spring
+    "Name": "pam_hashbrowns",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:pam_hashbrowns.title",
+    "Description": "%i18n:pam_hashbrowns.description",
+    "Objective": "%i18n:pam_hashbrowns.objective",
+    "DaysLeft": 5,
+    "Reward": 360,
+    "Cancelable": true,
+    "Trigger": "Pam 210",
+    "ReactionText": "%i18n:pam_hashbrowns.reactiontext"
+  },
+  { // Willy omelet in spring
+    "Name": "willy_omelet",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:willy_omelet.title",
+    "Description": "%i18n:willy_omelet.description",
+    "Objective": "%i18n:willy_omelet.objective",
+    "DaysLeft": 5,
+    "Reward": 375,
+    "Cancelable": true,
+    "Trigger": "Willy 195",
+    "ReactionText": "%i18n:willy_omelet.reactiontext"
+  },
+  { // Alex salmon dinner in spring
+    "Name": "alex_salmondinner",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:alex_salmondinner.title",
+    "Description": "%i18n:alex_salmondinner.description",
+    "Objective": "%i18n:alex_salmondinner.objective",
+    "DaysLeft": 5,
+    "Reward": 900,
+    "Cancelable": true,
+    "Trigger": "Alex 212",
+    "ReactionText": "%i18n:alex_salmondinner.reactiontext"
+  },
+  { // Kent fiddlehead risotto in spring
+    "Name": "kent_fiddleheadrisotto",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:kent_fiddleheadrisotto.title",
+    "Description": "%i18n:kent_fiddleheadrisotto.description",
+    "Objective": "%i18n:kent_fiddleheadrisotto.objective",
+    "DaysLeft": 5,
+    "Reward": 1050,
+    "Cancelable": true,
+    "Trigger": "Kent 649",
+    "ReactionText": "%i18n:kent_fiddleheadrisotto.reactiontext"
+  },
+  { // Jodi pancakes in spring
+    "Name": "jodi_pancakes",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:jodi_pancakes.title",
+    "Description": "%i18n:jodi_pancakes.description",
+    "Objective": "%i18n:jodi_pancakes.objective",
+    "DaysLeft": 5,
+    "Reward": 240,
+    "Cancelable": true,
+    "Trigger": "Jodi 211",
+    "ReactionText": "%i18n:jodi_pancakes.reactiontext"
+  },
+  { // Marnie pink cake in spring
+    "Name": "marnie_pinkcake",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:marnie_pinkcake.title",
+    "Description": "%i18n:marnie_pinkcake.description",
+    "Objective": "%i18n:marnie_pinkcake.objective",
+    "DaysLeft": 5,
+    "Reward": 1440,
+    "Cancelable": true,
+    "Trigger": "Marnie 221",
+    "ReactionText": "%i18n:marnie_pinkcake.reactiontext"
+  },
+  { // Maru miner's treat in spring
+    "Name": "maru_minerstreat",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:maru_minerstreat.title",
+    "Description": "%i18n:maru_minerstreat.description",
+    "Objective": "%i18n:maru_minerstreat.objective",
+    "DaysLeft": 5,
+    "Reward": 600,
+    "Cancelable": true,
+    "Trigger": "Maru 243",
+    "ReactionText": "%i18n:maru_minerstreat.reactiontext"
+  },
+  { // Maru rhubarb pie in spring
+    "Name": "maru_rhubarbpie",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:maru_rhubarbpie.title",
+    "Description": "%i18n:maru_rhubarbpie.description",
+    "Objective": "%i18n:maru_rhubarbpie.objective",
+    "DaysLeft": 5,
+    "Reward": 1200,
+    "Cancelable": true,
+    "Trigger": "Maru 222",
+    "ReactionText": "%i18n:maru_rhubarbpie.reactiontext"
+  },
+  { // Robin radish salad in summer
+    "Name": "robin_radishsalad",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:robin_radishsalad.title",
+    "Description": "%i18n:robin_radishsalad.description",
+    "Objective": "%i18n:robin_radishsalad.objective",
+    "DaysLeft": 5,
+    "Reward": 900,
+    "Cancelable": true,
+    "Trigger": "Robin 609",
+    "ReactionText": "%i18n:robin_radishsalad.reactiontext"
+  },
+  { // Penny red plate in summer
+    "Name": "penny_redplate",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:penny_redplate.title",
+    "Description": "%i18n:penny_redplate.description",
+    "Objective": "%i18n:penny_redplate.objective",
+    "DaysLeft": 5,
+    "Reward": 1200,
+    "Cancelable": true,
+    "Trigger": "Penny 230",
+    "ReactionText": "%i18n:penny_redplate.reactiontext"
+   },
+  { // Penny poppyseed muffin in summer
+    "Name": "penny_poppyseedmuffin",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:penny_poppyseedmuffin.title",
+    "Description": "%i18n:penny_poppyseedmuffin.description",
+    "Objective": "%i18n:penny_poppyseedmuffin.objective",
+    "DaysLeft": 5,
+    "Reward": 750,
+    "Cancelable": true,
+    "Trigger": "Penny 651",
+    "ReactionText": "%i18n:penny_poppyseedmuffin.reactiontext"
+  },
+  { // Haley fruit salad in summer
+    "Name": "haley_fruitsalad",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:haley_fruitsalad.title",
+    "Description": "%i18n:haley_fruitsalad.description",
+    "Objective": "%i18n:haley_fruitsalad.objective",
+    "DaysLeft": 5,
+    "Reward": 1350,
+    "Cancelable": true,
+    "Trigger": "Haley 610",
+    "ReactionText": "%i18n:haley_fruitsalad.reactiontext"
+  },
+  { // Caroline fish taco in summer
+    "Name": "caroline_fishtaco",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:caroline_fishtaco.title",
+    "Description": "%i18n:caroline_fishtaco.description",
+    "Objective": "%i18n:caroline_fishtaco.objective",
+    "DaysLeft": 5,
+    "Reward": 1500,
+    "Cancelable": true,
+    "Trigger": "Caroline 213",
+    "ReactionText": "%i18n:caroline_fishtaco.reactiontext"
+  },
+  { // Alex complete breakfast in summer
+    "Name": "alex_completebreakfast",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:alex_completebreakfast.title",
+    "Description": "%i18n:alex_completebreakfast.description",
+    "Objective": "%i18n:alex_completebreakfast.objective",
+    "DaysLeft": 5,
+    "Reward": 1050,
+    "Cancelable": true,
+    "Trigger": "Alex 201",
+    "ReactionText": "%i18n:alex_completebreakfast.reactiontext"
+  },
+  { // Linus blueberry tart in summer
+    "Name": "linus_blueberrytart",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:linus_blueberrytart.title",
+    "Description": "%i18n:linus_blueberrytart.description",
+    "Objective": "%i18n:linus_blueberrytart.objective",
+    "DaysLeft": 5,
+    "Reward": 450,
+    "Cancelable": true,
+    "Trigger": "Linus 234",
+    "ReactionText": "%i18n:linus_blueberrytart.reactiontext"
+  },
+  { // George fried mushroom in summer
+    "Name": "george_friedmushroom",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:george_friedmushroom.title",
+    "Description": "%i18n:george_friedmushroom.description",
+    "Objective": "%i18n:george_friedmushroom.objective",
+    "DaysLeft": 5,
+    "Reward": 600,
+    "Cancelable": true,
+    "Trigger": "George 205",
+    "ReactionText": "%i18n:george_friedmushroom.reactiontext"
+  },
+  { // Clint bread in summer
+    "Name": "clint_bread",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:clint_bread.title",
+    "Description": "%i18n:clint_bread.description",
+    "Objective": "%i18n:clint_bread.objective",
+    "DaysLeft": 5,
+    "Reward": 180,
+    "Cancelable": true,
+    "Trigger": "Clint 216",
+    "ReactionText": "%i18n:clint_bread.reactiontext"
+  },
+  { // Sam pizza in summer
+    "Name": "sam_pizza",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:sam_pizza.title",
+    "Description": "%i18n:sam_pizza.description",
+    "Objective": "%i18n:sam_pizza.objective",
+    "DaysLeft": 5,
+    "Reward": 900,
+    "Cancelable": true,
+    "Trigger": "Sam 206",
+    "ReactionText": "%i18n:sam_pizza.reactiontext"
+  },
+  { // Elliott crab cakes in summer
+    "Name": "elliott_crabcakes",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:elliott_crabcakes.title",
+    "Description": "%i18n:elliott_crabcakes.description",
+    "Objective": "%i18n:elliott_crabcakes.objective",
+    "DaysLeft": 5,
+    "Reward": 825,
+    "Cancelable": true,
+    "Trigger": "Elliott 732",
+    "ReactionText": "%i18n:elliott_crabcakes.reactiontext"
+  },
+  { // Gus escargot in summer
+    "Name": "gus_escargot",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:gus_escargot.title",
+    "Description": "%i18n:gus_escargot.description",
+    "Objective": "%i18n:gus_escargot.objective",
+    "DaysLeft": 5,
+    "Reward": 375,
+    "Cancelable": true,
+    "Trigger": "Gus 729",
+    "ReactionText": "%i18n:gus_escargot.reactiontext"
+  },
+  { // Pierre fried calamari in summer
+    "Name": "pierre_friedcalamari",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:pierre_friedcalamari.title",
+    "Description": "%i18n:pierre_friedcalamari.description",
+    "Objective": "%i18n:pierre_friedcalamari.objective",
+    "DaysLeft": 5,
+    "Reward": 450,
+    "Cancelable": true,
+    "Trigger": "Pierre 202",
+    "ReactionText": "%i18n:pierre_friedcalamari.reactiontext"
+  },
+  { // Shane pepper poppers in summer
+    "Name": "shane_pepperpoppers",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:shane_pepperpoppers.title",
+    "Description": "%i18n:shane_pepperpoppers.description",
+    "Objective": "%i18n:shane_pepperpoppers.objective",
+    "DaysLeft": 5,
+    "Reward": 600,
+    "Cancelable": true,
+    "Trigger": "Shane 215",
+    "ReactionText": "%i18n:shane_pepperpoppers.reactiontext"
+  },
+  { // Caroline fried eel in summer
+    "Name": "caroline_friedeel",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:caroline_friedeel.title",
+    "Description": "%i18n:caroline_friedeel.description",
+    "Objective": "%i18n:caroline_friedeel.objective",
+    "DaysLeft": 5,
+    "Reward": 360,
+    "Cancelable": true,
+    "Trigger": "Caroline 225",
+    "ReactionText": "%i18n:caroline_friedeel.reactiontext"
+  },
+  { // Robin spaghetti in summer
+    "Name": "robin_spaghetti",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:robin_spaghetti.title",
+    "Description": "%i18n:robin_spaghetti.description",
+    "Objective": "%i18n:robin_spaghetti.objective",
+    "DaysLeft": 5,
+    "Reward": 360,
+    "Cancelable": true,
+    "Trigger": "Robin 224",
+    "ReactionText": "%i18n:robin_spaghetti.reactiontext"
+  },
+  { // Willy maki roll in summer
+    "Name": "willy_makiroll",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:willy_makiroll.title",
+    "Description": "%i18n:willy_makiroll.description",
+    "Objective": "%i18n:willy_makiroll.objective",
+    "DaysLeft": 5,
+    "Reward": 660,
+    "Cancelable": true,
+    "Trigger": "Willy 228",
+    "ReactionText": "%i18n:willy_makiroll.reactiontext"
+  },
+  { // Wizard lucky lunch in summer
+    "Name": "wizard_luckylunch",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:wizard_luckylunch.title",
+    "Description": "%i18n:wizard_luckylunch.description",
+    "Objective": "%i18n:wizard_luckylunch.objective",
+    "DaysLeft": 5,
+    "Reward": 750,
+    "Cancelable": true,
+    "Trigger": "Wizard 204",
+    "ReactionText": "%i18n:wizard_luckylunch.reactiontext"
+  },
+  { // Pierre bruschetta in fall
+    "Name": "pierre_bruschetta",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:pierre_bruschetta.title",
+    "Description": "%i18n:pierre_bruschetta.description",
+    "Objective": "%i18n:pierre_bruschetta.objective",
+    "DaysLeft": 5,
+    "Reward": 630,
+    "Cancelable": true,
+    "Trigger": "Pierre 618",
+    "ReactionText": "%i18n:pierre_bruschetta.reactiontext"
+  },
+  { // Emily survival burger in fall
+    "Name": "emily_survivalburger",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:emily_survivalburger.title",
+    "Description": "%i18n:emily_survivalburger.description",
+    "Objective": "%i18n:emily_survivalburger.objective",
+    "DaysLeft": 5,
+    "Reward": 540,
+    "Cancelable": true,
+    "Trigger": "Emily 241",
+    "ReactionText": "%i18n:emily_survivalburger.reactiontext"
+  },
+  { // Clint artichoke dip in fall
+    "Name": "clint_artichokedip",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:clint_artichokedip.title",
+    "Description": "%i18n:clint_artichokedip.description",
+    "Objective": "%i18n:clint_artichokedip.objective",
+    "DaysLeft": 5,
+    "Reward": 630,
+    "Cancelable": true,
+    "Trigger": "Clint 605",
+    "ReactionText": "%i18n:clint_artichokedip.reactiontext"
+  },
+  { // Abigail blackberry cobbler in fall
+    "Name": "abigail_blackberrycobbler",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:abigail_blackberrycobbler.title",
+    "Description": "%i18n:abigail_blackberrycobbler.description",
+    "Objective": "%i18n:abigail_blackberrycobbler.objective",
+    "DaysLeft": 5,
+    "Reward": 780,
+    "Cancelable": true,
+    "Trigger": "Abigail 611",
+    "ReactionText": "%i18n:abigail_blackberrycobbler.reactiontext"
+  },
+  { // Harvey super meal in fall
+    "Name": "harvey_supermeal",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:harvey_supermeal.title",
+    "Description": "%i18n:harvey_supermeal.description",
+    "Objective": "%i18n:harvey_supermeal.objective",
+    "DaysLeft": 5,
+    "Reward": 660,
+    "Cancelable": true,
+    "Trigger": "Harvey 237",
+    "ReactionText": "%i18n:harvey_supermeal.reactiontext"
+  },
+  { // Linus dish o' the sea in fall
+    "Name": "linus_dishothesea",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:linus_dishothesea.title",
+    "Description": "%i18n:linus_dishothesea.description",
+    "Objective": "%i18n:linus_dishothesea.objective",
+    "DaysLeft": 5,
+    "Reward": 660,
+    "Cancelable": true,
+    "Trigger": "Linus 242",
+    "ReactionText": "%i18n:linus_dishothesea.reactiontext"
+  },
+  { // Lewis vegetable medley in fall
+    "Name": "lewis_veggiemedley",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:lewis_veggiemedley.title",
+    "Description": "%i18n:lewis_veggiemedley.description",
+    "Objective": "%i18n:lewis_veggiemedley.objective",
+    "DaysLeft": 5,
+    "Reward": 360,
+    "Cancelable": true,
+    "Trigger": "Lewis 200",
+    "ReactionText": "%i18n:lewis_veggiemedley.reactiontext"
+  },
+  { // Lewis autumn's bounty in fall
+    "Name": "lewis_autumnsbounty",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:lewis_autumnsbounty.title",
+    "Description": "%i18n:lewis_autumnsbounty.description",
+    "Objective": "%i18n:lewis_autumnsbounty.objective",
+    "DaysLeft": 5,
+    "Reward": 1050,
+    "Cancelable": true,
+    "Trigger": "Lewis 235",
+    "ReactionText": "%i18n:lewis_autumnsbounty.reactiontext"
+  },
+  { // Caroline lobster bisque in fall
+    "Name": "caroline_lobsterbisque",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:caroline_lobsterbisque.title",
+    "Description": "%i18n:caroline_lobsterbisque.description",
+    "Objective": "%i18n:caroline_lobsterbisque.objective",
+    "DaysLeft": 5,
+    "Reward": 615,
+    "Cancelable": true,
+    "Trigger": "Caroline 730",
+    "ReactionText": "%i18n:caroline_lobsterbisque.reactiontext"
+  },
+  { // Pam glazed yams in fall
+    "Name": "pam_glazedyams",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:pam_glazedyams.title",
+    "Description": "%i18n:pam_glazedyams.description",
+    "Objective": "%i18n:pam_glazedyams.objective",
+    "DaysLeft": 5,
+    "Reward": 600,
+    "Cancelable": true,
+    "Trigger": "Pam 208",
+    "ReactionText": "%i18n:pam_glazedyams.reactiontext"
+  },
+  { // Sebastian pumpkin soup in fall
+    "Name": "sebastian_pumpkinsoup",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:sebastian_pumpkinsoup.title",
+    "Description": "%i18n:sebastian_pumpkinsoup.description",
+    "Objective": "%i18n:sebastian_pumpkinsoup.objective",
+    "DaysLeft": 5,
+    "Reward": 900,
+    "Cancelable": true,
+    "Trigger": "Sebastian 236",
+    "ReactionText": "%i18n:sebastian_pumpkinsoup.reactiontext"
+  },
+  { // Evelyn stuffing in fall
+    "Name": "evelyn_stuffing",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:evelyn_stuffing.title",
+    "Description": "%i18n:evelyn_stuffing.description",
+    "Objective": "%i18n:evelyn_stuffing.objective",
+    "DaysLeft": 5,
+    "Reward": 495,
+    "Cancelable": true,
+    "Trigger": "Evelyn 239",
+    "ReactionText": "%i18n:evelyn_stuffing.reactiontext"
+  },
+  { // Wizard cranberry sauce in fall
+    "Name": "wizard_cransauce",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:wizard_cransauce.title",
+    "Description": "%i18n:wizard_cransauce.description",
+    "Objective": "%i18n:wizard_cransauce.objective",
+    "DaysLeft": 5,
+    "Reward": 360,
+    "Cancelable": true,
+    "Trigger": "Wizard 238",
+    "ReactionText": "%i18n:wizard_cransauce.reactiontext"
+  },
+  { // George plum pudding in fall
+    "Name": "george_plumpudding",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:george_plumpudding.title",
+    "Description": "%i18n:george_plumpudding.description",
+    "Objective": "%i18n:george_plumpudding.objective",
+    "DaysLeft": 5,
+    "Reward": 780,
+    "Cancelable": true,
+    "Trigger": "George 604",
+    "ReactionText": "%i18n:george_plumpudding.reactiontext"
+  },
+  { // Gus fish taco in fall
+    "Name": "gus_fishtaco",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:gus_fishtaco.title",
+    "Description": "%i18n:gus_fishtaco.description",
+    "Objective": "%i18n:gus_fishtaco.objective",
+    "DaysLeft": 5,
+    "Reward": 1500,
+    "Cancelable": true,
+    "Trigger": "Gus 213",
+    "ReactionText": "%i18n:gus_fishtaco.reactiontext"
+  },
+  { // Haley cranberry candy in fall
+    "Name": "haley_cranberrycandy",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:haley_cranberrycandy.title",
+    "Description": "%i18n:haley_cranberrycandy.description",
+    "Objective": "%i18n:haley_cranberrycandy.objective",
+    "DaysLeft": 5,
+    "Reward": 525,
+    "Cancelable": true,
+    "Trigger": "Haley 612",
+    "ReactionText": "%i18n:haley_cranberrycandy.reactiontext"
+  },
+  { // Jodi crispy bass in fall
+    "Name": "jodi_crispybass",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:jodi_crispybass.title",
+    "Description": "%i18n:jodi_crispybass.description",
+    "Objective": "%i18n:jodi_crispybass.objective",
+    "DaysLeft": 5,
+    "Reward": 450,
+    "Cancelable": true,
+    "Trigger": "Jodi 214",
+    "ReactionText": "%i18n:jodi_crispybass.reactiontext"
+  },
+  { // Linus fish stew in fall
+    "Name": "linus_fishstew",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:linus_fishstew.title",
+    "Description": "%i18n:linus_fishstew.description",
+    "Objective": "%i18n:linus_fishstew.objective",
+    "DaysLeft": 5,
+    "Reward": 525,
+    "Cancelable": true,
+    "Trigger": "Linus 728",
+    "ReactionText": "%i18n:linus_fishstew.reactiontext"
+  },
+  { // Demetrius rice pudding in winter
+    "Name": "demetrius_ricepudding",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:demetrius_ricepudding.title",
+    "Description": "%i18n:demetrius_ricepudding.description",
+    "Objective": "%i18n:demetrius_ricepudding.objective",
+    "DaysLeft": 5,
+    "Reward": 780,
+    "Cancelable": true,
+    "Trigger": "Demetrius 232",
+    "ReactionText": "%i18n:demetrius_ricepudding.reactiontext"
+  },
+  { // Wizard cookie in winter
+    "Name": "wizard_cookie",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:wizard_cookie.title",
+    "Description": "%i18n:wizard_cookie.description",
+    "Objective": "%i18n:wizard_cookie.objective",
+    "DaysLeft": 5,
+    "Reward": 420,
+    "Cancelable": true,
+    "Trigger": "Wizard 223",
+    "ReactionText": "%i18n:wizard_cookie.reactiontext"
+  },
+  { // Marnie pumpkin pie in winter
+    "Name": "marnie_pumpkinpie",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:marnie_pumpkinpie.title",
+    "Description": "%i18n:marnie_pumpkinpie.description",
+    "Objective": "%i18n:marnie_pumpkinpie.objective",
+    "DaysLeft": 5,
+    "Reward": 810,
+    "Cancelable": true,
+    "Trigger": "Marnie 608",
+    "ReactionText": "%i18n:marnie_pumpkinpie.reactiontext"
+  },
+  { // Abigail spicy eel in winter
+    "Name": "abigail_spicyeel",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:abigail_spicyeel.title",
+    "Description": "%i18n:abigail_spicyeel.description",
+    "Objective": "%i18n:abigail_spicyeel.objective",
+    "DaysLeft": 5,
+    "Reward": 525,
+    "Cancelable": true,
+    "Trigger": "Abigail 226",
+    "ReactionText": "%i18n:abigail_spicyeel.reactiontext"
+  },
+  { // Elliott tom kha soup in winter
+    "Name": "elliott_tomkhasoup",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:elliott_tomkhasoup.title",
+    "Description": "%i18n:elliott_tomkhasoup.description",
+    "Objective": "%i18n:elliott_tomkhasoup.objective",
+    "DaysLeft": 5,
+    "Reward": 750,
+    "Cancelable": true,
+    "Trigger": "Elliott 218",
+    "ReactionText": "%i18n:elliott_tomkhasoup.reactiontext"
+  },
+  { // Willy trout soup in winter
+    "Name": "willy_troutsoup",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:willy_troutsoup.title",
+    "Description": "%i18n:willy_troutsoup.description",
+    "Objective": "%i18n:willy_troutsoup.objective",
+    "DaysLeft": 5,
+    "Reward": 300,
+    "Cancelable": true,
+    "Trigger": "Willy 219",
+    "ReactionText": "%i18n:willy_troutsoup.reactiontext"
+  },
+  { // Alex fried egg in winter
+    "Name": "alex_friedegg",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:alex_friedegg.title",
+    "Description": "%i18n:alex_friedegg.description",
+    "Objective": "%i18n:alex_friedegg.objective",
+    "DaysLeft": 5,
+    "Reward": 105,
+    "Cancelable": true,
+    "Trigger": "Alex 194",
+    "ReactionText": "%i18n:alex_friedegg.reactiontext"
+  },
+  { // Jodi eggplant parmesan in winter
+    "Name": "jodi_eggplantparmesan",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:jodi_eggplantparmesan.title",
+    "Description": "%i18n:jodi_eggplantparmesan.description",
+    "Objective": "%i18n:jodi_eggplantparmesan.objective",
+    "DaysLeft": 5,
+    "Reward": 600,
+    "Cancelable": true,
+    "Trigger": "Jodi 231",
+    "ReactionText": "%i18n:jodi_eggplantparmesan.reactiontext"
+  },
+  { // Kent roasted hazelnuts in winter
+    "Name": "kent_roastedhazelnuts",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:kent_roastedhazelnuts.title",
+    "Description": "%i18n:kent_roastedhazelnuts.description",
+    "Objective": "%i18n:kent_roastedhazelnuts.objective",
+    "DaysLeft": 5,
+    "Reward": 810,
+    "Cancelable": true,
+    "Trigger": "Kent 607",
+    "ReactionText": "%i18n:kent_roastedhazelnuts.reactiontext"
+  },
+  { // Shane pizza in winter
+    "Name": "shane_pizza",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:shane_pizza.title",
+    "Description": "%i18n:shane_pizza.description",
+    "Objective": "%i18n:shane_pizza.objective",
+    "DaysLeft": 5,
+    "Reward": 900,
+    "Cancelable": true,
+    "Trigger": "Shane 206",
+    "ReactionText": "%i18n:shane_pizza.reactiontext"
+  },
+  { // Marnie farmer's lunch in winter
+    "Name": "marnie_farmerslunch",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:marnie_farmerslunch.title",
+    "Description": "%i18n:marnie_farmerslunch.description",
+    "Objective": "%i18n:marnie_farmerslunch.objective",
+    "DaysLeft": 5,
+    "Reward": 450,
+    "Cancelable": true,
+    "Trigger": "Marnie 240",
+    "ReactionText": "%i18n:marnie_farmerslunch.reactiontext"
+  },
+  { // Penny roots platter in winter
+    "Name": "penny_rootsplatter",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:penny_rootsplatter.title",
+    "Description": "%i18n:penny_rootsplatter.description",
+    "Objective": "%i18n:penny_rootsplatter.objective",
+    "DaysLeft": 5,
+    "Reward": 300,
+    "Cancelable": true,
+    "Trigger": "Penny 244",
+    "ReactionText": "%i18n:penny_rootsplatter.reactiontext"
+  },
+  { // Sam tortilla in winter
+    "Name": "sam_tortilla",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:sam_tortilla.title",
+    "Description": "%i18n:sam_tortilla.description",
+    "Objective": "%i18n:sam_tortilla.objective",
+    "DaysLeft": 5,
+    "Reward": 150,
+    "Cancelable": true,
+    "Trigger": "Sam 229",
+    "ReactionText": "%i18n:sam_tortilla.reactiontext"
+  },
+  { // Maru cheese cauliflower in winter
+    "Name": "maru_cheesecauliflower",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:maru_cheesecauliflower.title",
+    "Description": "%i18n:maru_cheesecauliflower.description",
+    "Objective": "%i18n:maru_cheesecauliflower.objective",
+    "DaysLeft": 5,
+    "Reward": 900,
+    "Cancelable": true,
+    "Trigger": "Maru 197",
+    "ReactionText": "%i18n:maru_cheesecauliflower.reactiontext"
+  },
+  { // Evelyn chocolate cake in winter
+    "Name": "evelyn_chocolatecake",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:evelyn_chocolatecake.title",
+    "Description": "%i18n:evelyn_chocolatecake.description",
+    "Objective": "%i18n:evelyn_chocolatecake.objective",
+    "DaysLeft": 5,
+    "Reward": 600,
+    "Cancelable": true,
+    "Trigger": "Evelyn 220",
+    "ReactionText": "%i18n:evelyn_chocolatecake.reactiontext"
+  },
+  { // Krobus seafoam pudding in winter
+    "Name": "krobus_seafoampudding",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:krobus_seafoampudding.title",
+    "Description": "%i18n:krobus_seafoampudding.description",
+    "Objective": "%i18n:krobus_seafoampudding.objective",
+    "DaysLeft": 5,
+    "Reward": 900,
+    "Cancelable": true,
+    "Trigger": "Krobus 265",
+    "ReactionText": "%i18n:krobus_seafoampudding.reactiontext"
+  },
+  { // Elliott baked fish in winter
+    "Name": "elliott_bakedfish",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:elliott_bakedfish.title",
+    "Description": "%i18n:elliott_bakedfish.description",
+    "Objective": "%i18n:elliott_bakedfish.objective",
+    "DaysLeft": 5,
+    "Reward": 300,
+    "Cancelable": true,
+    "Trigger": "Elliott 198",
+    "ReactionText": "%i18n:elliott_bakedfish.reactiontext"
+  },
+  { // Robin carp surprise in winter
+    "Name": "robin_carpsurprise",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:robin_carpsurprise.title",
+    "Description": "%i18n:robin_carpsurprise.description",
+    "Objective": "%i18n:robin_carpsurprise.objective",
+    "DaysLeft": 5,
+    "Reward": 450,
+    "Cancelable": true,
+    "Trigger": "Robin 209",
+    "ReactionText": "%i18n:robin_carpsurprise.reactiontext"
+  },
+  { // Sam maple bar in winter
+    "Name": "sam_maplebar",
+    "Type": "ItemDelivery",
+    "Title": "%i18n:sam_maplebar.title",
+    "Description": "%i18n:sam_maplebar.description",
+    "Objective": "%i18n:sam_maplebar.objective",
+    "DaysLeft": 5,
+    "Reward": 900,
+    "Cancelable": true,
+    "Trigger": "Sam 731",
+    "ReactionText": "%i18n:sam_maplebar.reactiontext"
+  }
   ],
 "Offers": [
     { // Emily shrimp cocktail in spring
