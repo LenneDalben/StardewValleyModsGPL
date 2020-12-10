@@ -1,0 +1,13 @@
+{
+   "Name": "[CP] LenneDalben's Community Center Bundles",
+   "Author": "LenneDalben",
+   "Description": "This mod changes the community center bundles to add some Json Assets (JA) items, with 3 options: vanilla-twist, vanilla-lite, and vanilla-plus.",
+   "Version": "1.0.0",
+   "UniqueID": "LenneDalben.CommunityCenterBundles",
+   "MinimumApiVersion": "3.7.0",
+   "UpdateKeys": [  ],
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher",
+	   "MinimumVersion": "1.18.0"
+    }   
+}
