@@ -1,5 +1,5 @@
 {
-	"Format": "1.18.0",
+	"Format": "1.19.0",
 	"ConfigSchema": {
 		"ModFlavor": {
 			"AllowValues": "vanilla-twist, vanilla-lite, vanilla-plus, false",

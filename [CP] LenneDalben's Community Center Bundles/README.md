@@ -3,7 +3,7 @@ This mod changes the community center bundles to add some Json Assets (JA) items
 
 Configuration:
 
-You have options vanilla-twist, vanilla-lite, and vanilla-plus, or false, to toggle off the mod if you like.
+You have the options vanilla-twist, vanilla-lite, and vanilla-plus, or false, to toggle off the mod if you like.
 
 Vanilla-twist:
 These are most like the base game (vanilla) bundles, but with some items swapped for JA items.
