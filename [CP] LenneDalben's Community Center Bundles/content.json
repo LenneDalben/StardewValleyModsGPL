@@ -92,12 +92,6 @@
 				"Pantry/3": "Quality Crops/BO 15 1/24 5 2 254 5 2 276 5 2 270 5 2/6/3",
 				"Pantry/4": "Animal/BO 16 1/186 1 0 182 1 0 174 1 0 438 1 0 440 1 0 442 1 0 639 1 0 640 1 0 641 1 0 642 1 0 643 1 0/4/5",
 				"Pantry/5": "Artisan/BO 12 1/432 1 0 428 1 0 426 1 0 424 1 0 340 1 0 344 1 0 613 1 0 634 1 0 635 1 0 636 1 0 637 1 0 638 1 0/1/6",
-				"Crafts Room/13": "Spring Foraging/O 495 30/16 1 0 18 1 0 20 1 0 22 1 0/0",
-				"Crafts Room/14": "Summer Foraging/O 496 30/396 1 0 398 1 0 402 1 0/3",
-				"Crafts Room/15": "Fall Foraging/O 497 30/404 1 0 406 1 0 408 1 0 410 1 0/2",
-				"Crafts Room/16": "Winter Foraging/O 498 30/412 1 0 414 1 0 416 1 0 418 1 0/6",
-				"Crafts Room/17": "Construction/BO 114 1/388 99 0 388 99 0 390 99 0 709 10 0/4",
-				"Crafts Room/19": "Exotic Foraging/O 235 5/88 1 0 90 1 0 78 1 0 420 1 0 422 1 0 724 1 0 725 1 0 726 1 0 257 1 0/1/5",
 				"Bulletin Board/31": "Chef's/O 221 3/724 1 0 259 1 0 430 1 0 376 1 0 228 1 0 194 1 0/4",
 				"Bulletin Board/32": "Field Research/BO 20 1/422 1 0 392 1 0 702 1 0 536 1 0/5",
 				"Bulletin Board/33": "Enchanter's/O 336 5/725 1 0 348 1 0 446 1 0 637 1 0/1",
@@ -261,13 +255,12 @@
 				"Extras:AnimalBundle": "true"
 			}
 		},
-			// Crafts Room Spring Foraging Bundle
 		{
 			"LogName": "Crafts Room: Spring Foraging Bundle",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/0": "" // This definitely isn't the right number
+				"Crafts Room/13": "Spring Foraging/O 495 30/16 1 0 18 1 0 20 1 0 22 1 0/0"
 			},
 			"When": {
 				"Extras:CraftsRoom:SpringForaging": "true"
@@ -279,7 +272,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/0": "" // This definitely isn't the right number
+				"Crafts Room/14": "Summer Foraging/O 496 30/396 1 0 398 1 0 402 1 0/3"
 			},
 			"When": {
 				"Extras:CraftsRoom:SummerForaging": "true"
@@ -291,7 +284,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/0": "" // This definitely isn't the right number
+				"Crafts Room/15": "Fall Foraging/O 497 30/404 1 0 406 1 0 408 1 0 410 1 0/2"
 			},
 			"When": {
 				"Extras:CraftsRoom:FallForaging": "true"
@@ -303,7 +296,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/0": "" // This definitely isn't the right number
+				"Crafts Room/16": "Winter Foraging/O 498 30/412 1 0 414 1 0 416 1 0 418 1 0/6"
 			},
 			"When": {
 				"Extras:CraftsRoom:WinterForaging": "true"
@@ -315,7 +308,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/0": "" // This definitely isn't the right number
+				"Crafts Room/19": "Exotic Foraging/O 235 5/88 1 0 90 1 0 78 1 0 420 1 0 422 1 0 724 1 0 725 1 0 726 1 0 257 1 0/1/5"
 			},
 			"When": {
 				"Extras:CraftsRoom:ExoticForaging": "true"
@@ -327,7 +320,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/0": "" // This definitely isn't the right number
+				"Crafts Room/17": "Construction and Crafting/BO 114 1/388 99 0 388 99 0 390 99 0 709 10 0/4"
 			},
 			"When": {
 				"Extras:CraftsRoom:ConstructionandCrafting": "true"
@@ -370,7 +363,7 @@
 				"Extras:BoilerRoom:Gemologist": "true"
 			}
 		},
-			// Boiler Room Gemologist's Bundle Data Change
+				// Boiler Room Gemologist's Bundle Data Change
 		{
 			"LogName": "Boiler Room: Gemologist's Bundle",
 			"Action": "EditData",
@@ -381,7 +374,54 @@
 			"When": {
 				"Extras:BoilerRoom:Gemologist": "true"
 			}
-		}
-
+		},
+			// Vault 2,500 Bundle
+		{
+			"LogName": "Vault: 2,500 Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/0": "" // This definitely isn't the right number
+			},
+			"When": {
+				"Extras:Vault:2500": "true"
+			}
+		},
+			// Vault 5000 Bundle
+		{
+			"LogName": "Vault: 5000 Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/0": "" // This definitely isn't the right number
+			},
+			"When": {
+				"Extras:Vault:5000": "true"
+			}
+		},
+			// Vault 10000 Bundle
+		{
+			"LogName": "Vault: 10000 Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/0": "" // This definitely isn't the right number
+			},
+			"When": {
+				"Extras:Vault:10000": "true"
+			}
+		},
+			// Vault 25000 Bundle
+		{
+			"LogName": "Vault: 25000 Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/0": "" // This definitely isn't the right number
+			},
+			"When": {
+				"Extras:Vault:25000": "true"
+			}
+		},
 	]
 }
