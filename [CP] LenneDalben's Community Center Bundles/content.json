@@ -255,6 +255,7 @@
 				"Extras:AnimalBundle": "true"
 			}
 		},
+			// Crafts Room Spring Foraging Bundle
 		{
 			"LogName": "Crafts Room: Spring Foraging Bundle",
 			"Action": "EditData",
