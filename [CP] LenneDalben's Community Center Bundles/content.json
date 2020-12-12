@@ -51,6 +51,11 @@
 			"Default": "true",
 			"AllowBlank": false
 		},
+		"Extras:BoilerRoom:GemologistRingReward": {
+			"AllowValues": "slime, magnet",
+			"Default": "slime",
+			"AllowBlank": false
+		},
 		"Extras:BoilerRoom:Gemologist": {
 			"AllowValues": "true, false",
 			"Default": "false",
@@ -364,16 +369,30 @@
 				"Extras:BoilerRoom:Gemologist": "true"
 			}
 		},
-				// Boiler Room Gemologist's Bundle Data Change
+				// Boiler Room Gemologist's Bundle - Magnet Ring
 		{
 			"LogName": "Boiler Room: Gemologist's Bundle",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Boiler Room/22": "Gemologist's/R 518 1/68 3 0 60 3 0 64 1 0 72 1 0/1/2", // ARE YOU CHANGING THE REWARD?
+				"Boiler Room/22": "Gemologist's/R 519 1/68 3 0 60 3 0 64 1 0 72 1 0/1/2"
 			},
 			"When": {
-				"Extras:BoilerRoom:Gemologist": "true"
+				"Extras:BoilerRoom:Gemologist": "true",
+				"Extras:BoilerRoom:GemologistRingReward": "magnet"
+			}
+		},
+				// Boiler Room Gemologist's Bundle - Slime Charmer Ring
+		{
+			"LogName": "Boiler Room: Gemologist's Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Boiler Room/22": "Gemologist's/R 520 1/68 3 0 60 3 0 64 1 0 72 1 0/1/2"
+			},
+			"When": {
+				"Extras:BoilerRoom:Gemologist": "true",
+				"Extras:BoilerRoom:GemologistRingReward": "slime"
 			}
 		},
 			// Vault 2,500 Bundle
