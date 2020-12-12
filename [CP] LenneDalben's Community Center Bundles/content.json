@@ -2,14 +2,86 @@
 	"Format": "1.19.0",
 	"ConfigSchema": {
 		"ModFlavor": {
-			"AllowValues": "vanilla-twist, vanilla-lite, vanilla-plus, false",
-			"Default": "vanilla-lite",
+			"AllowValues": "vanilla-twistA, vanilla-liteA, vanilla-plusA, vanilla-twistB, vanilla-liteB, vanilla-plusB, false",
+			"Default": "vanilla-liteA",
+			"AllowBlank": false
+		},
+		"Extras:AnimalBundle": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false
+		},
+		"Extras:CraftsRoom:SpringForaging": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false
+		},
+		"Extras:CraftsRoom:SummerForaging": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false
+		},
+		"Extras:CraftsRoom:FallForaging": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false
+		},
+		"Extras:CraftsRoom:WinterForaging": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false
+		},
+		"Extras:CraftsRoom:ExoticForaging": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false
+		},
+		"Extras:CraftsRoom:ConstructionandCrafting": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false
+		},
+		"Extras:BoilerRoom:Blacksmith": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false
+		},
+		"Extras:BoilerRoom:Geologist": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false
+		},
+		"Extras:BoilerRoom:Gemologist": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"AllowBlank": false
+		},
+		"Extras:Vault:2500": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false
+		},
+		"Extras:Vault:5000": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false
+		},
+		"Extras:Vault:10000": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false
+		},
+		"Extras:Vault:25000": {
+			"AllowValues": "true, false",
+			"Default": "true",
 			"AllowBlank": false
 		}
+		// ADD IN THE FISHIES
 	},
 	"Changes": [
-		// Vanilla-twist: These are most like the base game (vanilla) bundles, but with some items swapped for JA items.
+		// Vanilla-twistA: These are most like the base game (vanilla) bundles, but with some items swapped for JA items. The rewards for some bundles have also been adjusted.
 		{
+			"LogName": "Vanilla-twistA Bundles",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
@@ -33,11 +105,12 @@
 				"Bulletin Board/35": "Fodder/BO 104 1/262 10 0 178 10 0 613 3 0/3"
 			},
 			"When": {
-				"ModFlavor": "vanilla-twist"
+				"ModFlavor": "vanilla-twistA"
 			}
 		},
-		// Vanilla-lite: These are the vanilla bundles with some options for JA items, so it's a little bit easier.
+		// Vanilla-liteA: These are the vanilla bundles with some options for JA items, so it's a little bit easier. The rewards for some bundles have also been adjusted.
 		{
+			"LogName": "Vanilla-liteA Bundles",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
@@ -60,11 +133,12 @@
 				"Bulletin Board/35": ""
 			},
 			"When": {
-				"ModFlavor": "vanilla-lite"
+				"ModFlavor": "vanilla-liteA"
 			}
 		},
-		// Vanilla-plus: These are the vanilla bundles with some requirements for JA items, so it's a little bit harder.
+		// Vanilla-plusA: These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The rewards for some bundles have also been adjusted.
 		{
+			"LogName": "Vanilla-plusA Bundles",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
@@ -87,8 +161,227 @@
 				"Bulletin Board/35": ""
 			},
 			"When": {
-				"ModFlavor": "vanilla-plus"
+				"ModFlavor": "vanilla-plusA"
+			}
+		},
+		// Vanilla-twistB: These are most like the base game (vanilla) bundles, but with some items swapped for JA items. The rewards for the bundles have NOT been adjusted, so they are the same as vanilla.
+		{
+			"LogName": "Vanilla-twistB Bundles",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/0": "",
+				"Pantry/1": "",
+				"Pantry/2": "",
+				"Pantry/3": "",
+				"Pantry/4": "",
+				"Pantry/5": "",
+				"Crafts Room/13": "",
+				"Crafts Room/14": "",
+				"Crafts Room/15": "",
+				"Crafts Room/16": "",
+				"Crafts Room/17": "",
+				"Crafts Room/19": "",
+				"Bulletin Board/31": "",
+				"Bulletin Board/32": "",
+				"Bulletin Board/33": "",
+				"Bulletin Board/34": "",
+				"Bulletin Board/35": ""
+			},
+			"When": {
+				"ModFlavor": "vanilla-twistB"
+			}
+		},
+		// Vanilla-liteB: These are the vanilla bundles with some options for JA items, so it's a little bit easier. The rewards for the bundles have NOT been adjusted, so they are the same as vanilla.
+		{
+			"LogName": "Vanilla-liteB Bundles",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/0": "",
+				"Pantry/1": "",
+				"Pantry/2": "",
+				"Pantry/3": "",
+				"Pantry/4": "",
+				"Pantry/5": "",
+				"Crafts Room/13": "",
+				"Crafts Room/14": "",
+				"Crafts Room/15": "",
+				"Crafts Room/16": "",
+				"Crafts Room/17": "",
+				"Crafts Room/19": "",
+				"Bulletin Board/31": "",
+				"Bulletin Board/32": "",
+				"Bulletin Board/33": "",
+				"Bulletin Board/34": "",
+				"Bulletin Board/35": ""
+			},
+			"When": {
+				"ModFlavor": "vanilla-liteB"
+			}
+		},
+		// Vanilla-plusB: These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The rewards for the bundles have NOT been adjusted, so they are the same as vanilla.
+		{
+			"LogName": "Vanilla-plusB Bundles",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/0": "",
+				"Pantry/1": "",
+				"Pantry/2": "",
+				"Pantry/3": "",
+				"Pantry/4": "",
+				"Pantry/5": "",
+				"Crafts Room/13": "",
+				"Crafts Room/14": "",
+				"Crafts Room/15": "",
+				"Crafts Room/16": "",
+				"Crafts Room/17": "",
+				"Crafts Room/19": "",
+				"Bulletin Board/31": "",
+				"Bulletin Board/32": "",
+				"Bulletin Board/33": "",
+				"Bulletin Board/34": "",
+				"Bulletin Board/35": ""
+			},
+			"When": {
+				"ModFlavor": "vanilla-plusB"
+			}
+		},
+		// Extras Section
+			// Pantry Animal Bundle
+		{
+			"LogName": "Pantry: Animal Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/0": "" // This probably isn't the right number
+			},
+			"When": {
+				"Extras:AnimalBundle": "true"
+			}
+		},
+			// Crafts Room Spring Foraging Bundle
+		{
+			"LogName": "Crafts Room: Spring Foraging Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/0": "" // This definitely isn't the right number
+			},
+			"When": {
+				"Extras:CraftsRoom:SpringForaging": "true"
+			}
+		},
+			// Crafts Room Summer Foraging Bundle
+		{
+			"LogName": "Crafts Room: Summer Foraging Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/0": "" // This definitely isn't the right number
+			},
+			"When": {
+				"Extras:CraftsRoom:SummerForaging": "true"
+			}
+		},
+			// Crafts Room Fall Foraging Bundle
+		{
+			"LogName": "Crafts Room: Fall Foraging Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/0": "" // This definitely isn't the right number
+			},
+			"When": {
+				"Extras:CraftsRoom:FallForaging": "true"
+			}
+		},
+			// Crafts Room Winter Foraging Bundle
+		{
+			"LogName": "Crafts Room: Winter Foraging Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/0": "" // This definitely isn't the right number
+			},
+			"When": {
+				"Extras:CraftsRoom:WinterForaging": "true"
+			}
+		},
+			// Crafts Room Exotic Foraging Bundle
+		{
+			"LogName": "Crafts Room: Exotic Foraging Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/0": "" // This definitely isn't the right number
+			},
+			"When": {
+				"Extras:CraftsRoom:ExoticForaging": "true"
+			}
+		},
+			// Crafts Room Construction and Crafting Bundle
+		{
+			"LogName": "Crafts Room: Construction and Crafting Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/0": "" // This definitely isn't the right number
+			},
+			"When": {
+				"Extras:CraftsRoom:ConstructionandCrafting": "true"
+			}
+		},
+			// Boiler Room Blacksmith's Bundle
+		{
+			"LogName": "Boiler Room: Blacksmith's Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/0": "" // This definitely isn't the right number
+			},
+			"When": {
+				"Extras:BoilerRoom:Blacksmith": "true"
+			}
+		},
+			// Boiler Room Geologist's Bundle
+		{
+			"LogName": "Boiler Room: Geologist's Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/0": "" // This definitely isn't the right number
+			},
+			"When": {
+				"Extras:BoilerRoom:Geologist": "true"
+			}
+		},
+			// Boiler Room Gemologist's Bundle
+				// Boiler Room Gemologist's Bundle Graphic Change
+		{ 
+			"LogName": "Boiler Room: Gemologist's Bundle Graphic Change",
+			"Action": "EditImage",
+			"Target": "LooseSprites/JunimoNote",
+			"FromFile": "assets/Gemstone.png",
+			"FromArea": { "X": 64, "Y": 212, "Width": 32, "Height": 32},
+			"ToArea": { "X": 64, "Y": 212, "Width": 32, "Height": 32},
+			"When": {
+				"Extras:BoilerRoom:Gemologist": "true"
+			}
+		},
+			// Boiler Room Gemologist's Bundle Data Change
+		{
+			"LogName": "Boiler Room: Gemologist's Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Boiler Room/22": "Gemologist's/R 518 1/68 3 0 60 3 0 64 1 0 72 1 0/1/2", // ARE YOU CHANGING THE REWARD?
+			},
+			"When": {
+				"Extras:BoilerRoom:Gemologist": "true"
 			}
 		}
+
 	]
 }
