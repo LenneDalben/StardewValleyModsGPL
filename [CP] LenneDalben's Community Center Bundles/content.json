@@ -189,13 +189,13 @@
 		}
 	},
 	"Changes": [
-		// twistA: These are most like the base game (vanilla) bundles, but with some items swapped for JA items. The rewards for some bundles have also been adjusted.
+		/* twistA: These are most like the base game (vanilla) bundles, but with some items swapped for JA items. The rewards for some bundles have also been adjusted.
 		{
 			"LogName": "twistA Bundles",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				// Example "Pantry/0": "<Bundle Name>/<reward object ID #>/<bundle items #needed>/<color index>/<# of items needed, max 12, if left blank, all will be required>",
+				 Example "Pantry/0": "<Bundle Name>/<reward object ID #>/<bundle items #needed>/<color index>/<# of items needed, max 12, if left blank, all will be required>",
 				"Pantry/0": "Spring Crops/O 465 20/24 1 0 188 1 0 190 1 0 192 1 0/0",
 				"Pantry/1": "Summer Crops/O 621 1/256 1 0 260 1 0 258 1 0 254 1 0/3",
 				"Pantry/2": "Fall Crops/BO 10 1/270 1 0 272 1 0 276 1 0 280 1 0/2",
@@ -210,7 +210,213 @@
 			"When": {
 				"ModFlavor": "twistA"
 			}
-		},
+		}, */
+		        //FIX THE SPACING OMG WHY Pantry Spring Crops TwistA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
+{
+    "LogName": "Pantry: Spring Crops TwistA Bundle",
+    "Action": "EditData",
+    "Target": "Data/Bundles",
+    "Entries": {
+        // Example "Pantry/0": "<Bundle Name>/<reward object ID #>/<bundle items #needed>/<color index>/<# of items needed, max 12, if left blank, all will be required>",
+        "Pantry/0": "Spring Crops/O 465 20/24 1 0 188 1 0 190 1 0 192 1 0/0"
+    },
+    "When": {
+        "Main:Pantry:SpringCrops": "twistA"
+    }
+},
+        // Pantry Summer Crops TwistA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
+{
+    "LogName": "Pantry: Summer Crops TwistA Bundle",
+    "Action": "EditData",
+    "Target": "Data/Bundles",
+    "Entries": {
+        "Pantry/1": "Summer Crops/O 621 1/256 1 0 260 1 0 258 1 0 254 1 0/3"
+    },
+    "When": {
+        "Main:Pantry:SummerCrops": "twistA"
+    }
+},
+        // Pantry Fall Crops TwistA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
+{
+    "LogName": "Pantry: Fall Crops TwistA Bundle",
+    "Action": "EditData",
+    "Target": "Data/Bundles",
+    "Entries": {
+        "Pantry/2": "Fall Crops/BO 10 1/270 1 0 272 1 0 276 1 0 280 1 0/2"
+    },
+    "When": {
+        "Main:Pantry:FallCrops": "twistA"
+    }
+},
+        // Pantry Quality Crops TwistA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
+        {
+            "LogName": "Pantry: Quality Crops TwistA Bundle",
+            "Action": "EditData",
+            "Target": "Data/Bundles",
+            "Entries": {
+                "Pantry/3": "Quality Crops/BO 15 1/24 5 2 254 5 2 276 5 2 270 5 2/6/3"
+            },
+            "When": {
+                "Main:Pantry:QualityCrops": "twistA"
+            }
+        },
+        // Pantry Artisan Twist Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+        {
+            "LogName": "Pantry: Artisan Twist Bundle",
+            "Action": "EditData",
+            "Target": "Data/Bundles",
+            "Entries": {
+                "Pantry/5": "Artisan/BO 12 1/432 1 0 428 1 0 426 1 0 424 1 0 340 1 0 344 1 0 613 1 0 634 1 0 635 1 0 636 1 0 637 1 0 638 1 0/1/6"
+            },
+            "When": {
+                "Main:Pantry:Artisan": "twist"
+            }
+        },
+        // Pantry Spring Crops TwistB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+        {
+            "LogName": "Pantry: Spring Crops TwistB Bundle",
+            "Action": "EditData",
+            "Target": "Data/Bundles",
+            "Entries": {
+                // Example "Pantry/0": "<Bundle Name>/<reward object ID #>/<bundle items #needed>/<color index>/<# of items needed, max 12, if left blank, all will be required>",
+                "Pantry/0": "Spring Crops/O 465 20/24 1 0 188 1 0 190 1 0 192 1 0/0"
+            },
+            "When": {
+                "Main:Pantry:SpringCrops": "twistB"
+            }
+        },
+                // Pantry Summer Crops TwistB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+        {
+            "LogName": "Pantry: Summer Crops TwistB Bundle",
+            "Action": "EditData",
+            "Target": "Data/Bundles",
+            "Entries": {
+                "Pantry/1": "Summer Crops/O 621 1/256 1 0 260 1 0 258 1 0 254 1 0/3"
+            },
+            "When": {
+                "Main:Pantry:SummerCrops": "twistB"
+            }
+        },
+                // Pantry Fall Crops TwistB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+        {
+            "LogName": "Pantry: Fall Crops TwistB Bundle",
+            "Action": "EditData",
+            "Target": "Data/Bundles",
+            "Entries": {
+                "Pantry/2": "Fall Crops/BO 10 1/270 1 0 272 1 0 276 1 0 280 1 0/2"
+            },
+            "When": {
+                "Main:Pantry:FallCrops": "twistB"
+            }
+        },
+                // Pantry Quality Crops TwistB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+                {
+                    "LogName": "Pantry: Quality Crops TwistB Bundle",
+                    "Action": "EditData",
+                    "Target": "Data/Bundles",
+                    "Entries": {
+                        "Pantry/3": "Quality Crops/BO 15 1/24 5 2 254 5 2 276 5 2 270 5 2/6/3"
+                    },
+                    "When": {
+                        "Main:Pantry:QualityCrops": "twistB"
+                    }
+                },
+        // Bulletin Board Chef's TwistA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
+        {
+            "LogName": "Bulletin Board: Chef's TwistA Bundle",
+            "Action": "EditData",
+            "Target": "Data/Bundles",
+            "Entries": {
+                "Bulletin Board/31": "Chef's/O 221 3/724 1 0 259 1 0 430 1 0 376 1 0 228 1 0 194 1 0/4"
+            },
+            "When": {
+                "Main:BulletinBoard:Chef": "twistA"
+            }
+        },
+        // Bulletin Board Dye Bundle Twist. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+        {
+            "LogName": "Bulletin Board: Dye Twist Bundle",
+            "Action": "EditData",
+            "Target": "Data/Bundles",
+            "Entries": {
+                "Bulletin Board/34": "Dye/BO 25 1/420 1 0 397 1 0 421 1 0 444 1 0 62 1 0 266 1 0/6"
+            },
+            "When": {
+                "Main:BulletinBoard:Dye": "twist"
+            }
+        },
+// Bulletin Board Field Research Bundle Twist. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+{
+    "LogName": "Bulletin Board: Field Research Twist Bundle",
+    "Action": "EditData",
+    "Target": "Data/Bundles",
+    "Entries": {
+        "Bulletin Board/32": "Field Research/BO 20 1/422 1 0 392 1 0 702 1 0 536 1 0/5"
+    },
+    "When": {
+        "Main:BulletinBoard:FieldResearch": "twist"
+    }
+},
+// Bulletin Board Fodder TwistA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
+{
+    "LogName": "Bulletin Board: Fodder TwistA Bundle",
+    "Action": "EditData",
+    "Target": "Data/Bundles",
+    "Entries": {
+        "Bulletin Board/35": "Fodder/BO 104 1/262 10 0 178 10 0 613 3 0/3"
+    },
+    "When": {
+        "Main:BulletinBoard:Fodder": "twistA"
+    }
+},
+// Bulletin Board Enchanter's TwistA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
+{
+    "LogName": "Bulletin Board: Enchanter's TwistA Bundle",
+    "Action": "EditData",
+    "Target": "Data/Bundles",
+    "Entries": {
+        "Bulletin Board/33": "Enchanter's/O 336 5/725 1 0 348 1 0 446 1 0 637 1 0/1"
+    },
+    "When": {
+        "Main:BulletinBoard:Enchanter": "twistA"
+    }
+},
+        // Bulletin Board Chef's TwistB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+        {
+            "LogName": "Bulletin Board: Chef's TwistB Bundle",
+            "Action": "EditData",
+            "Target": "Data/Bundles",
+            "Entries": {
+                "Bulletin Board/31": "Chef's/O 221 3/724 1 0 259 1 0 430 1 0 376 1 0 228 1 0 194 1 0/4"
+            },
+            "When": {
+                "Main:BulletinBoard:Chef": "twistB"
+            }
+        },
+// Bulletin Board Fodder TwistB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+{
+    "LogName": "Bulletin Board: Fodder TwistB Bundle",
+    "Action": "EditData",
+    "Target": "Data/Bundles",
+    "Entries": {
+        "Bulletin Board/35": "Fodder/BO 104 1/262 10 0 178 10 0 613 3 0/3"
+    },
+    "When": {
+        "Main:BulletinBoard:Fodder": "twistB"
+    }
+},
+// Bulletin Board Enchanter's TwistB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items.The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+{
+    "LogName": "Bulletin Board: Enchanter's TwistB Bundle",
+    "Action": "EditData",
+    "Target": "Data/Bundles",
+    "Entries": {
+        "Bulletin Board/33": "Enchanter's/O 336 5/725 1 0 348 1 0 446 1 0 637 1 0/1"
+    },
+    "When": {
+        "Main:BulletinBoard:Enchanter": "twistB"
+    }
+},
 		// liteA: These are the vanilla bundles with some options for JA items, so it's a little bit easier. The rewards for some bundles have also been adjusted.
 		{
 			"LogName": "liteA Bundles",
@@ -263,33 +469,6 @@
 			},
 			"When": {
 				"ModFlavor": "plusA"
-			}
-		},
-		// twistB: These are most like the base game (vanilla) bundles, but with some items swapped for JA items. The rewards for the bundles have NOT been adjusted, so they are the same as vanilla.
-		{
-			"LogName": "twistB Bundles",
-			"Action": "EditData",
-			"Target": "Data/Bundles",
-			"Entries": {
-				"Pantry/0": "",
-				"Pantry/1": "",
-				"Pantry/2": "",
-				"Pantry/3": "",
-				"Pantry/5": "",
-				"Crafts Room/13": "",
-				"Crafts Room/14": "",
-				"Crafts Room/15": "",
-				"Crafts Room/16": "",
-				"Crafts Room/17": "",
-				"Crafts Room/19": "",
-				"Bulletin Board/31": "",
-				"Bulletin Board/32": "",
-				"Bulletin Board/33": "",
-				"Bulletin Board/34": "",
-				"Bulletin Board/35": ""
-			},
-			"When": {
-				"ModFlavor": "twistB"
 			}
 		},
 		// liteB: These are the vanilla bundles with some options for JA items, so it's a little bit easier. The rewards for the bundles have NOT been adjusted, so they are the same as vanilla.
