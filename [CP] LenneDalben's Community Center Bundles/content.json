@@ -27,33 +27,33 @@
 			"AllowBlank": false
 		},
 		"Extras:Pantry:AnimalBundle": {
-			"AllowValues": "A, B, false",
-			"Default": "A",
+			"AllowValues": "true, false",
+			"Default": "true",
 			"AllowBlank": false
 		},
 		"Extras:CraftsRoom:SpringForaging": {
-			"AllowValues": "A, B, false",
-			"Default": "A",
+			"AllowValues": "true, false",
+			"Default": "true",
 			"AllowBlank": false
 		},
 		"Extras:CraftsRoom:SummerForaging": {
-			"AllowValues": "A, B, false",
-			"Default": "A",
+			"AllowValues": "true, false",
+			"Default": "true",
 			"AllowBlank": false
 		},
 		"Extras:CraftsRoom:FallForaging": {
-			"AllowValues": "A, B, false",
-			"Default": "A",
+			"AllowValues": "true, false",
+			"Default": "true",
 			"AllowBlank": false
 		},
 		"Extras:CraftsRoom:WinterForaging": {
-			"AllowValues": "A, B, false",
-			"Default": "A",
+			"AllowValues": "true, false",
+			"Default": "true",
 			"AllowBlank": false
 		},
 		"Extras:CraftsRoom:ExoticForaging": {
-			"AllowValues": "A, B, false",
-			"Default": "A",
+			"AllowValues": "true, false",
+			"Default": "true",
 			"AllowBlank": false
 		},
 		"Extras:CraftsRoom:ConstructionandCrafting": {
@@ -77,7 +77,7 @@
 			"AllowBlank": false
 		},
 		"Extras:BoilerRoom:GemologistRingReward": {
-			"AllowValues": "slime, magnet",
+			"AllowValues": "slime, magnet, N/A",
 			"Default": "slime",
 			"AllowBlank": false
 		},
@@ -291,19 +291,19 @@
 			}
 		},
 		// Extras Section
-			// Pantry Animal Bundle
+			// Pantry Animal Bundle. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Pantry: Animal Bundle",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/4": "Animal/BO 16 1/186 1 0 182 1 0 174 1 0 438 1 0 440 1 0 442 1 0 639 1 0 640 1 0 641 1 0 642 1 0 643 1 0/4/5",
+				"Pantry/4": "Animal/BO 16 1/186 1 0 182 1 0 174 1 0 438 1 0 440 1 0 442 1 0 639 1 0 640 1 0 641 1 0 642 1 0 643 1 0/4/5"
 			},
 			"When": {
 				"Extras:Pantry:AnimalBundle": "true"
 			}
 		},
-			// Crafts Room Spring Foraging Bundle
+			// Crafts Room Spring Foraging Bundle. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Crafts Room: Spring Foraging Bundle",
 			"Action": "EditData",
@@ -315,7 +315,7 @@
 				"Extras:CraftsRoom:SpringForaging": "true"
 			}
 		},
-			// Crafts Room Summer Foraging Bundle
+			// Crafts Room Summer Foraging Bundle. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Crafts Room: Summer Foraging Bundle",
 			"Action": "EditData",
@@ -327,7 +327,7 @@
 				"Extras:CraftsRoom:SummerForaging": "true"
 			}
 		},
-			// Crafts Room Fall Foraging Bundle
+			// Crafts Room Fall Foraging Bundle. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Crafts Room: Fall Foraging Bundle",
 			"Action": "EditData",
@@ -339,7 +339,7 @@
 				"Extras:CraftsRoom:FallForaging": "true"
 			}
 		},
-			// Crafts Room Winter Foraging Bundle
+			// Crafts Room Winter Foraging Bundle. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Crafts Room: Winter Foraging Bundle",
 			"Action": "EditData",
@@ -351,7 +351,7 @@
 				"Extras:CraftsRoom:WinterForaging": "true"
 			}
 		},
-			// Crafts Room Exotic Foraging Bundle
+			// Crafts Room Exotic Foraging Bundle. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Crafts Room: Exotic Foraging Bundle",
 			"Action": "EditData",
@@ -363,78 +363,78 @@
 				"Extras:CraftsRoom:ExoticForaging": "true"
 			}
 		},
-			// Crafts Room Construction and Crafting Bundle
+			// Crafts Room Construction and Crafting Bundle A. The reward for the bundle has been adjusted.
 		{
-			"LogName": "Crafts Room: Construction and Crafting Bundle",
+			"LogName": "Crafts Room: Construction and Crafting Bundle A",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
 				"Crafts Room/17": "Construction and Crafting/BO 114 1/388 99 0 388 99 0 390 99 0 709 10 0/4"
 			},
 			"When": {
-				"Extras:CraftsRoom:ConstructionandCrafting": "true"
+				"Extras:CraftsRoom:ConstructionandCrafting": "A"
 			}
 		},
-			// Boiler Room Blacksmith's Bundle
+			// Boiler Room Blacksmith's Bundle A. The reward for the bundle has been adjusted.
 		{
-			"LogName": "Boiler Room: Blacksmith's Bundle",
+			"LogName": "Boiler Room: Blacksmith's Bundle A",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
 				"Pantry/0": "" // This definitely isn't the right number
 			},
 			"When": {
-				"Extras:BoilerRoom:Blacksmith": "true"
+				"Extras:BoilerRoom:Blacksmith": "A"
 			}
 		},
-			// Boiler Room Geologist's Bundle
+			// Boiler Room Geologist's Bundle A. The reward for the bundle has been adjusted.
 		{
-			"LogName": "Boiler Room: Geologist's Bundle",
+			"LogName": "Boiler Room: Geologist's Bundle A",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
 				"Pantry/0": "" // This definitely isn't the right number
 			},
 			"When": {
-				"Extras:BoilerRoom:Geologist": "true"
+				"Extras:BoilerRoom:Geologist": "A"
 			}
 		},
-			// Boiler Room Gemologist's Bundle
-				// Boiler Room Gemologist's Bundle Graphic Change
+			// DON'T FORGET YOU WANTED TO GET FANCY WITH IT Boiler Room Gemologist's Bundle. The reward for the bundle has been adjusted.
+				// Boiler Room Gemologist's Bundle Graphic Change (A or B)
 		{ 
-			"LogName": "Boiler Room: Gemologist's Bundle Graphic Change",
+			"LogName": "Boiler Room: Gemologist's Bundle Graphic Change (A or B)",
 			"Action": "EditImage",
 			"Target": "LooseSprites/JunimoNote",
 			"FromFile": "assets/Gemstone.png",
 			"FromArea": { "X": 64, "Y": 212, "Width": 32, "Height": 32},
 			"ToArea": { "X": 64, "Y": 212, "Width": 32, "Height": 32},
 			"When": {
-				"Extras:BoilerRoom:Gemologist": "true"
+				"Extras:BoilerRoom:Gemologist": "A, B"
 			}
 		},
-				// Boiler Room Gemologist's Bundle - Magnet Ring
+				// Boiler Room Gemologist's Bundle A - Magnet Ring
 		{
-			"LogName": "Boiler Room: Gemologist's Bundle",
+			"LogName": "Boiler Room: Gemologist's Bundle A Magnet Ring",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
 				"Boiler Room/22": "Gemologist's/R 519 1/68 3 0 60 3 0 64 1 0 72 1 0/1/2"
 			},
 			"When": {
-				"Extras:BoilerRoom:Gemologist": "true",
+				"Extras:BoilerRoom:Gemologist": "A",
 				"Extras:BoilerRoom:GemologistRingReward": "magnet"
 			}
 		},
-				// Boiler Room Gemologist's Bundle - Slime Charmer Ring
+				// Boiler Room Gemologist's Bundle A - Slime Charmer Ring
 		{
-			"LogName": "Boiler Room: Gemologist's Bundle",
+			"LogName": "Boiler Room: Gemologist's Bundle A Slime Charmer Ring",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
 				"Boiler Room/22": "Gemologist's/R 520 1/68 3 0 60 3 0 64 1 0 72 1 0/1/2"
 			},
 			"When": {
-				"Extras:BoilerRoom:Gemologist": "true",
+				"Extras:BoilerRoom:Gemologist": "A",
 				"Extras:BoilerRoom:GemologistRingReward": "slime"
 			}
 		},
@@ -486,76 +486,196 @@
 				"Extras:Vault:25000": "true"
 			}
 		},
-			// Fishing Tank Beginner Fish Bundle
+			// Fishing Tank Beginner Fish Bundle A. The reward for the bundle has been adjusted.
 		{
-			"LogName": "Fishing Tank: Beginner Fish Bundle",
+			"LogName": "Fishing Tank: Beginner Fish Bundle A",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
 				"Pantry/0": "" // This definitely isn't the right number
 			},
 			"When": {
-				"Extras:FishTank:BeginnerFish": "true"
+				"Extras:FishTank:BeginnerFish": "A"
 			}
 		},
-			// Fishing Tank Intermediate Fish Bundle
+			// Fishing Tank Intermediate Fish Bundle A. The reward for the bundle has been adjusted.
 		{
-			"LogName": "Fishing Tank: Intermediate Fish Bundle",
+			"LogName": "Fishing Tank: Intermediate Fish Bundle A",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
 				"Pantry/0": "" // This definitely isn't the right number
 			},
 			"When": {
-				"Extras:FishTank:IntermediateFish": "true"
+				"Extras:FishTank:IntermediateFish": "A"
 			}
 		},
-			// Fishing Tank Advanced Fish Bundle
+			// Fishing Tank Advanced Fish Bundle A. The reward for the bundle has been adjusted.
 		{
-			"LogName": "Fishing Tank: Advanced Fish Bundle",
+			"LogName": "Fishing Tank: Advanced Fish Bundle A",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
 				"Pantry/0": "" // This definitely isn't the right number
 			},
 			"When": {
-				"Extras:FishTank:AdvancedFish": "true"
+				"Extras:FishTank:AdvancedFish": "A"
 			}
 		},
-			// Fishing Tank Night Fish Bundle
+			// Fishing Tank Night Fish Bundle A. The reward for the bundle has been adjusted.
 		{
-			"LogName": "Fishing Tank: Night Fish Bundle",
+			"LogName": "Fishing Tank: Night Fish Bundle A",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
 				"Pantry/0": "" // This definitely isn't the right number
 			},
 			"When": {
-				"Extras:FishTank:NightFish": "true"
+				"Extras:FishTank:NightFish": "A"
 			}
 		},
-			// Fishing Tank Crab Pot Bundle
+			// Fishing Tank Crab Pot Bundle A. The reward for the bundle has been adjusted.
 		{
-			"LogName": "Fishing Tank: Crab Pot Bundle",
+			"LogName": "Fishing Tank: Crab Pot Bundle A",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
 				"Pantry/0": "" // This definitely isn't the right number
 			},
 			"When": {
-				"Extras:FishTank:CrabPot": "true"
+				"Extras:FishTank:CrabPot": "A"
 			}
 		},
-			// Fishing Tank Specialty Fish Bundle
+			// Fishing Tank Specialty Fish Bundle A. The reward for the bundle has been adjusted.
 		{
-			"LogName": "Fishing Tank: Specialty Fish Bundle",
+			"LogName": "Fishing Tank: Specialty Fish Bundle A",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
 				"Pantry/0": "" // This definitely isn't the right number
 			},
 			"When": {
-				"Extras:FishTank:SpecialtyFish": "true"
+				"Extras:FishTank:SpecialtyFish": "A"
+			}
+		},
+			// Crafts Room Construction and Crafting Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+		{
+			"LogName": "Crafts Room: Construction and Crafting Bundle B",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Crafts Room/17": "Construction and Crafting/BO 114 1/388 99 0 388 99 0 390 99 0 709 10 0/4"
+			},
+			"When": {
+				"Extras:CraftsRoom:ConstructionandCrafting": "B"
+			}
+		},
+			// Boiler Room Blacksmith's Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+		{
+			"LogName": "Boiler Room: Blacksmith's Bundle B",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+			"Pantry/0": "" // This definitely isn't the right number
+			},
+			"When": {
+				"Extras:BoilerRoom:Blacksmith": "B"
+			}
+		},
+			// Boiler Room Geologist's Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+		{
+			"LogName": "Boiler Room: Geologist's Bundle B",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/0": "" // This definitely isn't the right number
+			},
+			"When": {
+				"Extras:BoilerRoom:Geologist": "B"
+			}
+		},
+			// Boiler Room Gemologist's Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+		{
+			"LogName": "Boiler Room: Gemologist's Bundle B",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Boiler Room/22": "Gemologist's/R 518 1/68 3 0 60 3 0 64 1 0 72 1 0/1/2"
+			},
+			"When": {
+				"Extras:BoilerRoom:Gemologist": "B"
+			}
+		},
+			// Fishing Tank Beginner Fish Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+		{
+			"LogName": "Fishing Tank: Beginner Fish Bundle B",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/0": "" // This definitely isn't the right number
+			},
+			"When": {
+				"Extras:FishTank:BeginnerFish": "B"
+			}
+		},
+			// Fishing Tank Intermediate Fish Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+		{
+			"LogName": "Fishing Tank: Intermediate Fish Bundle B",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/0": "" // This definitely isn't the right number
+			},
+			"When": {
+				"Extras:FishTank:IntermediateFish": "B"
+			}
+		},
+			// Fishing Tank Advanced Fish Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+		{
+			"LogName": "Fishing Tank: Advanced Fish Bundle B",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/0": "" // This definitely isn't the right number
+			},
+			"When": {
+				"Extras:FishTank:AdvancedFish": "B"
+			}
+		},
+			// Fishing Tank Night Fish Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+		{
+			"LogName": "Fishing Tank: Night Fish Bundle B",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/0": "" // This definitely isn't the right number
+			},
+			"When": {
+				"Extras:FishTank:NightFish": "B"
+			}
+		},
+			// Fishing Tank Crab Pot Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+		{
+			"LogName": "Fishing Tank: Crab Pot Bundle B",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/0": "" // This definitely isn't the right number
+			},
+			"When": {
+				"Extras:FishTank:CrabPot": "B"
+			}
+		},
+			// Fishing Tank Specialty Fish Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+		{
+			"LogName": "Fishing Tank: Specialty Fish Bundle B",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/0": "" // This definitely isn't the right number
+			},
+			"When": {
+				"Extras:FishTank:SpecialtyFish": "B"
 			}
 		}
 	]
