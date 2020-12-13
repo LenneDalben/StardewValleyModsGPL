@@ -26,112 +26,163 @@
 			"AllowBlank": false
 		},
 		"Main:Pantry:Artisan": {
+			"Description": "Choose between twist, lite, plus, or false. Twist replaces some items with JA items. Lite adds options for JA items. Plus requires JA items. All options have vanilla rewards (unadjusted).",
+			"AllowValues": "twist, lite, plus, false",
+			"Default": "liteA",
+			"AllowBlank": false
+		}, // ADD THE BULLETIN BOARD OPTIONS!!!!!
+		"Main:BulletinBoard:Chef": {
+			"Description": "Choose between twistA, liteA, plusA, twistB, liteB, plusB, or false. Twist replaces some items with JA items. Lite adds options for JA items. Plus requires JA items. Options with A have adjusted rewards. Options with B have vanilla rewards (unadjusted).",
+			"AllowValues": "twistA, liteA, plusA, twistB, liteB, plusB, false",
+			"Default": "liteA",
+			"AllowBlank": false
+		},
+		"Main:BulletinBoard:Dye": {
+			"Description": "Choose between twist, lite, plus, or false. Twist replaces some items with JA items. Lite adds options for JA items. Plus requires JA items. All options have vanilla rewards (unadjusted).",
+			"AllowValues": "twist, lite, plus, false",
+			"Default": "liteA",
+			"AllowBlank": false
+		},
+		"Main:BulletinBoard:FieldResearch": {
+			"Description": "Choose between twist, lite, plus, or false. Twist replaces some items with JA items. Lite adds options for JA items. Plus requires JA items. All options have vanilla rewards (unadjusted).",
+			"AllowValues": "twist, lite, plus, false",
+			"Default": "liteA",
+			"AllowBlank": false
+		},
+		"Main:BulletinBoard:Fodder": {
+			"Description": "Choose between twistA, liteA, plusA, twistB, liteB, plusB, or false. Twist replaces some items with JA items. Lite adds options for JA items. Plus requires JA items. Options with A have adjusted rewards. Options with B have vanilla rewards (unadjusted).",
+			"AllowValues": "twistA, liteA, plusA, twistB, liteB, plusB, false",
+			"Default": "liteA",
+			"AllowBlank": false
+		},
+		"Main:BulletinBoard:Enchanter": {
 			"Description": "Choose between twistA, liteA, plusA, twistB, liteB, plusB, or false. Twist replaces some items with JA items. Lite adds options for JA items. Plus requires JA items. Options with A have adjusted rewards. Options with B have vanilla rewards (unadjusted).",
 			"AllowValues": "twistA, liteA, plusA, twistB, liteB, plusB, false",
 			"Default": "liteA",
 			"AllowBlank": false
 		},
 		"Extras:Pantry:AnimalBundle": {
+			"Description": "Choose true (activated) or false. The reward is the same as vanilla (unadjusted).",
 			"AllowValues": "true, false",
 			"Default": "true",
 			"AllowBlank": false
 		},
 		"Extras:CraftsRoom:SpringForaging": {
+			"Description": "Choose true (activated) or false (deactivated). The reward is the same as vanilla (unadjusted).",
 			"AllowValues": "true, false",
 			"Default": "true",
 			"AllowBlank": false
 		},
 		"Extras:CraftsRoom:SummerForaging": {
+			"Description": "Choose true (activated) or false (deactivated). The reward is the same as vanilla (unadjusted).",
 			"AllowValues": "true, false",
 			"Default": "true",
 			"AllowBlank": false
 		},
 		"Extras:CraftsRoom:FallForaging": {
+			"Description": "Choose true (activated) or false (deactivated). The reward is the same as vanilla (unadjusted).",
 			"AllowValues": "true, false",
 			"Default": "true",
 			"AllowBlank": false
 		},
 		"Extras:CraftsRoom:WinterForaging": {
+			"Description": "Choose true (activated) or false (deactivated). The reward is the same as vanilla (unadjusted).",
 			"AllowValues": "true, false",
 			"Default": "true",
 			"AllowBlank": false
 		},
 		"Extras:CraftsRoom:ExoticForaging": {
+			"Description": "Choose true (activated) or false (deactivated). The reward is the same as vanilla (unadjusted).",
 			"AllowValues": "true, false",
 			"Default": "true",
 			"AllowBlank": false
 		},
 		"Extras:CraftsRoom:ConstructionandCrafting": {
+			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false (deactivated).",
 			"AllowValues": "A, B, false",
 			"Default": "A",
 			"AllowBlank": false
 		},
 		"Extras:BoilerRoom:Blacksmith": {
+			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false (deactivated).",
 			"AllowValues": "A, B, false",
 			"Default": "A",
 			"AllowBlank": false
 		},
 		"Extras:BoilerRoom:Geologist": {
+			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false (deactivated).",
 			"AllowValues": "A, B, false",
 			"Default": "A",
 			"AllowBlank": false
 		},
 		"Extras:BoilerRoom:Gemologist": {
+			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false (deactivated).",
 			"AllowValues": "A, B, false",
 			"Default": "A",
 			"AllowBlank": false
 		},
 		"Extras:BoilerRoom:GemologistRingReward": {
+			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false (deactivated).",
 			"AllowValues": "slime, magnet, N/A", // will N/A work?
 			"Default": "slime",
 			"AllowBlank": false
 		},
 		"Extras:Vault:2500": {
+			"Description": "Choose true (activated, adjusted reward) or false (deactivated).",
 			"AllowValues": "true, false",
 			"Default": "true",
 			"AllowBlank": false
 		},
 		"Extras:Vault:5000": {
+			"Description": "Choose true (activated, adjusted reward) or false (deactivated).",
 			"AllowValues": "true, false",
 			"Default": "true",
 			"AllowBlank": false
 		},
 		"Extras:Vault:10000": {
+			"Description": "Choose true (activated, adjusted reward) or false (deactivated).",
 			"AllowValues": "true, false",
 			"Default": "true",
 			"AllowBlank": false
 		},
 		"Extras:Vault:25000": {
+			"Description": "Choose true (activated, adjusted reward) or false (deactivated).",
 			"AllowValues": "true, false",
 			"Default": "true",
 			"AllowBlank": false
 		},
 		"Extras:FishTank:BeginnerFish": {
+			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false (deactivated).",
 			"AllowValues": "A, B, false",
 			"Default": "A",
 			"AllowBlank": false
 		},
 		"Extras:FishTank:IntermediateFish": {
+			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false (deactivated).",
 			"AllowValues": "A, B, false",
 			"Default": "A",
 			"AllowBlank": false
 		},
 		"Extras:FishTank:AdvancedFish": {
+			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false (deactivated).",
 			"AllowValues": "A, B, false",
 			"Default": "A",
 			"AllowBlank": false
 		},
 		"Extras:FishTank:NightFish": {
+			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false (deactivated).",
 			"AllowValues": "A, B, false",
 			"Default": "A",
 			"AllowBlank": false
 		},
 		"Extras:FishTank:CrabPot": {
+			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false (deactivated).",
 			"AllowValues": "A, B, false",
 			"Default": "A",
 			"AllowBlank": false
 		},
 		"Extras:FishTank:SpecialtyFish": {
+			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false (deactivated).",
 			"AllowValues": "A, B, false",
 			"Default": "A",
 			"AllowBlank": false
