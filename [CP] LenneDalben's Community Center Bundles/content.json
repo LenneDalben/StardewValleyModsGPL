@@ -1,60 +1,79 @@
 {
 	"Format": "1.19.0",
 	"ConfigSchema": {
-		/* For max modularity, do I want to break up ModFlavor? I: */
-		"ModFlavor": {
+		"Main:Pantry:SpringCrops": {
 			"AllowValues": "vanilla-twistA, vanilla-liteA, vanilla-plusA, vanilla-twistB, vanilla-liteB, vanilla-plusB, false",
 			"Default": "vanilla-liteA",
 			"AllowBlank": false
 		},
-		"Extras:AnimalBundle": {
-			"AllowValues": "true, false",
-			"Default": "true",
+		"Main:Pantry:SummerCrops": {
+			"AllowValues": "vanilla-twistA, vanilla-liteA, vanilla-plusA, vanilla-twistB, vanilla-liteB, vanilla-plusB, false",
+			"Default": "vanilla-liteA",
+			"AllowBlank": false
+		},
+		"Main:Pantry:FallCrops": {
+			"AllowValues": "vanilla-twistA, vanilla-liteA, vanilla-plusA, vanilla-twistB, vanilla-liteB, vanilla-plusB, false",
+			"Default": "vanilla-liteA",
+			"AllowBlank": false
+		},
+		"Main:Pantry:QualityCrops": {
+			"AllowValues": "vanilla-twistA, vanilla-liteA, vanilla-plusA, vanilla-twistB, vanilla-liteB, vanilla-plusB, false",
+			"Default": "vanilla-liteA",
+			"AllowBlank": false
+		},
+		"Main:Pantry:Artisan": {
+			"AllowValues": "vanilla-twistA, vanilla-liteA, vanilla-plusA, vanilla-twistB, vanilla-liteB, vanilla-plusB, false",
+			"Default": "vanilla-liteA",
+			"AllowBlank": false
+		},
+		"Extras:Pantry:AnimalBundle": {
+			"AllowValues": "A, B, false",
+			"Default": "A",
 			"AllowBlank": false
 		},
 		"Extras:CraftsRoom:SpringForaging": {
-			"AllowValues": "true, false",
-			"Default": "true",
+			"AllowValues": "A, B, false",
+			"Default": "A",
 			"AllowBlank": false
 		},
 		"Extras:CraftsRoom:SummerForaging": {
-			"AllowValues": "true, false",
-			"Default": "true",
+			"AllowValues": "A, B, false",
+			"Default": "A",
 			"AllowBlank": false
 		},
 		"Extras:CraftsRoom:FallForaging": {
-			"AllowValues": "true, false",
-			"Default": "true",
+			"AllowValues": "A, B, false",
+			"Default": "A",
 			"AllowBlank": false
 		},
 		"Extras:CraftsRoom:WinterForaging": {
-			"AllowValues": "true, false",
-			"Default": "true",
+			"AllowValues": "A, B, false",
+			"Default": "A",
 			"AllowBlank": false
 		},
 		"Extras:CraftsRoom:ExoticForaging": {
-			"AllowValues": "true, false",
-			"Default": "true",
+			"AllowValues": "A, B, false",
+			"Default": "A",
 			"AllowBlank": false
 		},
 		"Extras:CraftsRoom:ConstructionandCrafting": {
-			"AllowValues": "true, false",
-			"Default": "true",
+			"AllowValues": "A, B, false",
+			"Default": "A",
 			"AllowBlank": false
 		},
 		"Extras:BoilerRoom:Blacksmith": {
-			"AllowValues": "true, false",
-			"Default": "true",
+			"AllowValues": "A, B, false",
+			"Default": "A",
 			"AllowBlank": false
 		},
 		"Extras:BoilerRoom:Geologist": {
-			"AllowValues": "true, false",
-			"Default": "true",
+			"AllowValues": "A, B, false",
+			"Default": "A",
 			"AllowBlank": false
 		},
 		"Extras:BoilerRoom:Gemologist": {
-			"AllowValues": "true, false",
-			"Default": "false",
+			"AllowValues": "A, B, false",
+			"Default": "A",
 			"AllowBlank": false
 		},
 		"Extras:BoilerRoom:GemologistRingReward": {
@@ -83,36 +102,35 @@
 			"AllowBlank": false
 		},
 		"Extras:FishTank:BeginnerFish": {
-			"AllowValues": "true, false",
-			"Default": "true",
+			"AllowValues": "A, B, false",
+			"Default": "A",
 			"AllowBlank": false
 		},
 		"Extras:FishTank:IntermediateFish": {
-			"AllowValues": "true, false",
-			"Default": "true",
+			"AllowValues": "A, B, false",
+			"Default": "A",
 			"AllowBlank": false
 		},
 		"Extras:FishTank:AdvancedFish": {
-			"AllowValues": "true, false",
-			"Default": "true",
+			"AllowValues": "A, B, false",
+			"Default": "A",
 			"AllowBlank": false
 		},
 		"Extras:FishTank:NightFish": {
-			"AllowValues": "true, false",
-			"Default": "true",
+			"AllowValues": "A, B, false",
+			"Default": "A",
 			"AllowBlank": false
 		},
 		"Extras:FishTank:CrabPot": {
-			"AllowValues": "true, false",
-			"Default": "true",
+			"AllowValues": "A, B, false",
+			"Default": "A",
 			"AllowBlank": false
 		},
 		"Extras:FishTank:SpecialtyFish": {
-			"AllowValues": "true, false",
-			"Default": "true",
+			"AllowValues": "A, B, false",
+			"Default": "A",
 			"AllowBlank": false
 		}
-		// ADD IN THE FISHIES!!!!!!!!
 	},
 	"Changes": [
 		// Vanilla-twistA: These are most like the base game (vanilla) bundles, but with some items swapped for JA items. The rewards for some bundles have also been adjusted.
@@ -282,7 +300,7 @@
 				"Pantry/4": "Animal/BO 16 1/186 1 0 182 1 0 174 1 0 438 1 0 440 1 0 442 1 0 639 1 0 640 1 0 641 1 0 642 1 0 643 1 0/4/5",
 			},
 			"When": {
-				"Extras:AnimalBundle": "true"
+				"Extras:Pantry:AnimalBundle": "true"
 			}
 		},
 			// Crafts Room Spring Foraging Bundle
