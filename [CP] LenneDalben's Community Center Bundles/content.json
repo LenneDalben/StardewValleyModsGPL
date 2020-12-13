@@ -4,215 +4,162 @@
 		"Main:Pantry:SpringCrops": {
 			"Description": "Choose between twistA, liteA, plusA, twistB, liteB, plusB, or false. Twist replaces some items with JA items. Lite adds options for JA items. Plus requires JA items. Options with A have adjusted rewards. Options with B have vanilla rewards (unadjusted).",
 			"AllowValues": "twistA, liteA, plusA, twistB, liteB, plusB, false",
-			"Default": "liteA",
-			"AllowBlank": false
+			"Default": "liteA"
 		},
 		"Main:Pantry:SummerCrops": {
 			"Description": "Choose between twistA, liteA, plusA, twistB, liteB, plusB, or false. Twist replaces some items with JA items. Lite adds options for JA items. Plus requires JA items. Options with A have adjusted rewards. Options with B have vanilla rewards (unadjusted).",
 			"AllowValues": "twistA, liteA, plusA, twistB, liteB, plusB, false",
-			"Default": "liteA",
-			"AllowBlank": false
+			"Default": "liteA"
 		},
 		"Main:Pantry:FallCrops": {
 			"Description": "Choose between twistA, liteA, plusA, twistB, liteB, plusB, or false. Twist replaces some items with JA items. Lite adds options for JA items. Plus requires JA items. Options with A have adjusted rewards. Options with B have vanilla rewards (unadjusted).",
 			"AllowValues": "twistA, liteA, plusA, twistB, liteB, plusB, false",
-			"Default": "liteA",
-			"AllowBlank": false
+			"Default": "liteA"
 		},
 		"Main:Pantry:QualityCrops": {
 			"Description": "Choose between twistA, liteA, plusA, twistB, liteB, plusB, or false. Twist replaces some items with JA items. Lite adds options for JA items. Plus requires JA items. Options with A have adjusted rewards. Options with B have vanilla rewards (unadjusted).",
 			"AllowValues": "twistA, liteA, plusA, twistB, liteB, plusB, false",
-			"Default": "liteA",
-			"AllowBlank": false
+			"Default": "liteA"
 		},
 		"Main:Pantry:Artisan": {
 			"Description": "Choose between twist, lite, plus, or false. Twist replaces some items with JA items. Lite adds options for JA items. Plus requires JA items. All options have vanilla rewards (unadjusted).",
 			"AllowValues": "twist, lite, plus, false",
-			"Default": "liteA",
-			"AllowBlank": false
+			"Default": "liteA"
 		},
 		"Main:BulletinBoard:Chef": {
 			"Description": "Choose between twistA, liteA, plusA, twistB, liteB, plusB, or false. Twist replaces some items with JA items. Lite adds options for JA items. Plus requires JA items. Options with A have adjusted rewards. Options with B have vanilla rewards (unadjusted).",
 			"AllowValues": "twistA, liteA, plusA, twistB, liteB, plusB, false",
-			"Default": "liteA",
-			"AllowBlank": false
+			"Default": "liteA"
 		},
 		"Main:BulletinBoard:Dye": {
 			"Description": "Choose between twist, lite, plus, or false. Twist replaces some items with JA items. Lite adds options for JA items. Plus requires JA items. All options have vanilla rewards (unadjusted).",
 			"AllowValues": "twist, lite, plus, false",
-			"Default": "liteA",
-			"AllowBlank": false
+			"Default": "liteA"
 		},
 		"Main:BulletinBoard:FieldResearch": {
 			"Description": "Choose between twist, lite, plus, or false. Twist replaces some items with JA items. Lite adds options for JA items. Plus requires JA items. All options have vanilla rewards (unadjusted).",
 			"AllowValues": "twist, lite, plus, false",
-			"Default": "liteA",
-			"AllowBlank": false
+			"Default": "liteA"
 		},
 		"Main:BulletinBoard:Fodder": {
 			"Description": "Choose between twistA, liteA, plusA, twistB, liteB, plusB, or false. Twist replaces some items with JA items. Lite adds options for JA items. Plus requires JA items. Options with A have adjusted rewards. Options with B have vanilla rewards (unadjusted).",
 			"AllowValues": "twistA, liteA, plusA, twistB, liteB, plusB, false",
-			"Default": "liteA",
-			"AllowBlank": false
+			"Default": "liteA"
 		},
 		"Main:BulletinBoard:Enchanter": {
 			"Description": "Choose between twistA, liteA, plusA, twistB, liteB, plusB, or false. Twist replaces some items with JA items. Lite adds options for JA items. Plus requires JA items. Options with A have adjusted rewards. Options with B have vanilla rewards (unadjusted).",
 			"AllowValues": "twistA, liteA, plusA, twistB, liteB, plusB, false",
-			"Default": "liteA",
-			"AllowBlank": false
+			"Default": "liteA"
 		},
 		"Extras:Pantry:AnimalBundle": {
 			"Description": "Choose true (activated) or false. The reward is the same as vanilla (unadjusted).",
 			"AllowValues": "true, false",
-			"Default": "true",
-			"AllowBlank": false
+			"Default": "true"
 		},
 		"Extras:CraftsRoom:SpringForaging": {
 			"Description": "Choose true (activated) or false (deactivated). The reward is the same as vanilla (unadjusted).",
 			"AllowValues": "true, false",
-			"Default": "true",
-			"AllowBlank": false
+			"Default": "true"
 		},
 		"Extras:CraftsRoom:SummerForaging": {
 			"Description": "Choose true (activated) or false (deactivated). The reward is the same as vanilla (unadjusted).",
 			"AllowValues": "true, false",
-			"Default": "true",
-			"AllowBlank": false
+			"Default": "true"
 		},
 		"Extras:CraftsRoom:FallForaging": {
 			"Description": "Choose true (activated) or false (deactivated). The reward is the same as vanilla (unadjusted).",
 			"AllowValues": "true, false",
-			"Default": "true",
-			"AllowBlank": false
+			"Default": "true"
 		},
 		"Extras:CraftsRoom:WinterForaging": {
 			"Description": "Choose true (activated) or false (deactivated). The reward is the same as vanilla (unadjusted).",
 			"AllowValues": "true, false",
-			"Default": "true",
-			"AllowBlank": false
+			"Default": "true"
 		},
 		"Extras:CraftsRoom:ExoticForaging": {
 			"Description": "Choose true (activated) or false (deactivated). The reward is the same as vanilla (unadjusted).",
 			"AllowValues": "true, false",
-			"Default": "true",
-			"AllowBlank": false
+			"Default": "true"
 		},
 		"Extras:CraftsRoom:ConstructionandCrafting": {
 			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false (deactivated).",
 			"AllowValues": "A, B, false",
-			"Default": "A",
-			"AllowBlank": false
+			"Default": "A"
 		},
 		"Extras:BoilerRoom:Blacksmith": {
 			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false (deactivated).",
 			"AllowValues": "A, B, false",
-			"Default": "A",
-			"AllowBlank": false
+			"Default": "A"
 		},
 		"Extras:BoilerRoom:Geologist": {
 			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false (deactivated).",
 			"AllowValues": "A, B, false",
-			"Default": "A",
-			"AllowBlank": false
+			"Default": "A"
 		},
 		"Extras:BoilerRoom:Gemologist": {
 			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false (deactivated).",
 			"AllowValues": "A, B, false",
-			"Default": "A",
-			"AllowBlank": false
+			"Default": "A"
 		},
 		"Extras:BoilerRoom:GemologistRingReward": {
 			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false (deactivated).",
 			"AllowValues": "slime, magnet, N/A", // will N/A work?
-			"Default": "slime",
-			"AllowBlank": false
+			"Default": "slime"
 		},
 		"Extras:Vault:2500": {
 			"Description": "Choose true (activated, adjusted reward) or false (deactivated).",
 			"AllowValues": "true, false",
-			"Default": "true",
-			"AllowBlank": false
+			"Default": "true"
 		},
 		"Extras:Vault:5000": {
 			"Description": "Choose true (activated, adjusted reward) or false (deactivated).",
 			"AllowValues": "true, false",
-			"Default": "true",
-			"AllowBlank": false
+			"Default": "true"
 		},
 		"Extras:Vault:10000": {
 			"Description": "Choose true (activated, adjusted reward) or false (deactivated).",
 			"AllowValues": "true, false",
-			"Default": "true",
-			"AllowBlank": false
+			"Default": "true"
 		},
 		"Extras:Vault:25000": {
 			"Description": "Choose true (activated, adjusted reward) or false (deactivated).",
 			"AllowValues": "true, false",
-			"Default": "true",
-			"AllowBlank": false
+			"Default": "true"
 		},
 		"Extras:FishTank:BeginnerFish": {
 			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false (deactivated).",
 			"AllowValues": "A, B, false",
-			"Default": "A",
-			"AllowBlank": false
+			"Default": "A"
 		},
 		"Extras:FishTank:IntermediateFish": {
 			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false (deactivated).",
 			"AllowValues": "A, B, false",
-			"Default": "A",
-			"AllowBlank": false
+			"Default": "A"
 		},
 		"Extras:FishTank:AdvancedFish": {
 			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false (deactivated).",
 			"AllowValues": "A, B, false",
-			"Default": "A",
-			"AllowBlank": false
+			"Default": "A"
 		},
 		"Extras:FishTank:NightFish": {
 			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false (deactivated).",
 			"AllowValues": "A, B, false",
-			"Default": "A",
-			"AllowBlank": false
+			"Default": "A"
 		},
 		"Extras:FishTank:CrabPot": {
 			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false (deactivated).",
 			"AllowValues": "A, B, false",
-			"Default": "A",
-			"AllowBlank": false
+			"Default": "A"
 		},
 		"Extras:FishTank:SpecialtyFish": {
 			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false (deactivated).",
 			"AllowValues": "A, B, false",
-			"Default": "A",
-			"AllowBlank": false
+			"Default": "A"
 		}
 	},
 	"Changes": [
-		/* twistA: These are most like the base game (vanilla) bundles, but with some items swapped for JA items. The rewards for some bundles have also been adjusted.
-		{
-			"LogName": "twistA Bundles",
-			"Action": "EditData",
-			"Target": "Data/Bundles",
-			"Entries": {
-				 Example "Pantry/0": "<Bundle Name>/<reward object ID #>/<bundle items #needed>/<color index>/<# of items needed, max 12, if left blank, all will be required>",
-				"Pantry/0": "Spring Crops/O 465 20/24 1 0 188 1 0 190 1 0 192 1 0/0",
-				"Pantry/1": "Summer Crops/O 621 1/256 1 0 260 1 0 258 1 0 254 1 0/3",
-				"Pantry/2": "Fall Crops/BO 10 1/270 1 0 272 1 0 276 1 0 280 1 0/2",
-				"Pantry/3": "Quality Crops/BO 15 1/24 5 2 254 5 2 276 5 2 270 5 2/6/3",
-				"Pantry/5": "Artisan/BO 12 1/432 1 0 428 1 0 426 1 0 424 1 0 340 1 0 344 1 0 613 1 0 634 1 0 635 1 0 636 1 0 637 1 0 638 1 0/1/6",
-				"Bulletin Board/31": "Chef's/O 221 3/724 1 0 259 1 0 430 1 0 376 1 0 228 1 0 194 1 0/4",
-				"Bulletin Board/32": "Field Research/BO 20 1/422 1 0 392 1 0 702 1 0 536 1 0/5",
-				"Bulletin Board/33": "Enchanter's/O 336 5/725 1 0 348 1 0 446 1 0 637 1 0/1",
-				"Bulletin Board/34": "Dye/BO 25 1/420 1 0 397 1 0 421 1 0 444 1 0 62 1 0 266 1 0/6",
-				"Bulletin Board/35": "Fodder/BO 104 1/262 10 0 178 10 0 613 3 0/3"
-			},
-			"When": {
-				"ModFlavor": "twistA"
-			}
-		}, */
 
-//  **********Main Section: Spring, Summer, Fall, and Quality Crops, Artisan, Chef's, Dye, Field Research, Fodder, and Enchanter**********
+//	**********Main Section: Spring, Summer, Fall, and Quality Crops, Artisan, Chef's, Dye, Field Research, Fodder, and Enchanter**********
 
 				/*Twist Type*/
 // Pantry Spring Crops TwistA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
@@ -420,6 +367,7 @@
 				"Main:BulletinBoard:Enchanter": "twistB"
 			}
 		},
+
 				/*Lite Type*/
 // Pantry Spring Crops LiteA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
 		{
@@ -625,90 +573,215 @@
 				"Main:BulletinBoard:Enchanter": "liteB"
 			}
 		},
-// plusA: These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The rewards for some bundles have also been adjusted.
+
+				/*Plus Type*/
+// Pantry Spring Crops PlusA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
 		{
-			"LogName": "plusA Bundles",
-			"Action": "EditData",
-			"Target": "Data/Bundles",
-			"Entries": {
-				"Pantry/0": "",
-				"Pantry/1": "",
-				"Pantry/2": "",
-				"Pantry/3": "",
-				"Pantry/5": "",
-				"Crafts Room/13": "",
-				"Crafts Room/14": "",
-				"Crafts Room/15": "",
-				"Crafts Room/16": "",
-				"Crafts Room/17": "",
-				"Crafts Room/19": "",
-				"Bulletin Board/31": "",
-				"Bulletin Board/32": "",
-				"Bulletin Board/33": "",
-				"Bulletin Board/34": "",
-				"Bulletin Board/35": ""
+		"LogName": "Pantry: Spring Crops PlusA Bundle",
+		"Action": "EditData",
+		"Target": "Data/Bundles",
+		"Entries": {
+			"Pantry/0": "Spring Crops/O 465 20/24 1 0 188 1 0 190 1 0 192 1 0/0"
 			},
 			"When": {
-				"ModFlavor": "plusA"
+				"Main:Pantry:SpringCrops": "plusA"
 			}
 		},
-// liteB: These are the vanilla bundles with some options for JA items, so it's a little bit easier. The rewards for the bundles have NOT been adjusted, so they are the same as vanilla.
+// Pantry Summer Crops PlusA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
 		{
-			"LogName": "liteB Bundles",
-			"Action": "EditData",
-			"Target": "Data/Bundles",
-			"Entries": {
-				"Pantry/0": "",
-				"Pantry/1": "",
-				"Pantry/2": "",
-				"Pantry/3": "",
-				"Pantry/5": "",
-				"Crafts Room/13": "",
-				"Crafts Room/14": "",
-				"Crafts Room/15": "",
-				"Crafts Room/16": "",
-				"Crafts Room/17": "",
-				"Crafts Room/19": "",
-				"Bulletin Board/31": "",
-				"Bulletin Board/32": "",
-				"Bulletin Board/33": "",
-				"Bulletin Board/34": "",
-				"Bulletin Board/35": ""
-			},
-			"When": {
-				"ModFlavor": "liteB"
-			}
+		"LogName": "Pantry: Summer Crops PlusA Bundle",
+		"Action": "EditData",
+		"Target": "Data/Bundles",
+		"Entries": {
+			"Pantry/1": "Summer Crops/O 621 1/256 1 0 260 1 0 258 1 0 254 1 0/3"
 		},
-// plusB: These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The rewards for the bundles have NOT been adjusted, so they are the same as vanilla.
+		"When": {
+			"Main:Pantry:SummerCrops": "plusA"
+		}
+		},
+// Pantry Fall Crops PlusA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
 		{
-			"LogName": "plusB Bundles",
-			"Action": "EditData",
-			"Target": "Data/Bundles",
-			"Entries": {
-				"Pantry/0": "",
-				"Pantry/1": "",
-				"Pantry/2": "",
-				"Pantry/3": "",
-				"Pantry/5": "",
-				"Crafts Room/13": "",
-				"Crafts Room/14": "",
-				"Crafts Room/15": "",
-				"Crafts Room/16": "",
-				"Crafts Room/17": "",
-				"Crafts Room/19": "",
-				"Bulletin Board/31": "",
-				"Bulletin Board/32": "",
-				"Bulletin Board/33": "",
-				"Bulletin Board/34": "",
-				"Bulletin Board/35": ""
-			},
-			"When": {
-				"ModFlavor": "plusB"
-			}
+		"LogName": "Pantry: Fall Crops PlusA Bundle",
+		"Action": "EditData",
+		"Target": "Data/Bundles",
+		"Entries": {
+			"Pantry/2": "Fall Crops/BO 10 1/270 1 0 272 1 0 276 1 0 280 1 0/2"
+		},
+		"When": {
+			"Main:Pantry:FallCrops": "plusA"
+		}
+		},
+// Pantry Quality Crops PlusA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
+		{
+		"LogName": "Pantry: Quality Crops PlusA Bundle",
+		"Action": "EditData",
+		"Target": "Data/Bundles",
+		"Entries": {
+			"Pantry/3": "Quality Crops/BO 15 1/24 5 2 254 5 2 276 5 2 270 5 2/6/3"
+		},
+		"When": {
+			"Main:Pantry:QualityCrops": "plusA"
+		}
+		},
+// Pantry Artisan Plus Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+		{
+		"LogName": "Pantry: Artisan Plus Bundle",
+		"Action": "EditData",
+		"Target": "Data/Bundles",
+		"Entries": {
+			"Pantry/5": "Artisan/BO 12 1/432 1 0 428 1 0 426 1 0 424 1 0 340 1 0 344 1 0 613 1 0 634 1 0 635 1 0 636 1 0 637 1 0 638 1 0/1/6"
+		},
+		"When": {
+			"Main:Pantry:Artisan": "plus"
+		}
+		},
+// Pantry Spring Crops PlusB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+		{
+		"LogName": "Pantry: Spring Crops PlusB Bundle",
+		"Action": "EditData",
+		"Target": "Data/Bundles",
+		"Entries": {
+			"Pantry/0": "Spring Crops/O 465 20/24 1 0 188 1 0 190 1 0 192 1 0/0"
+		},
+		"When": {
+			"Main:Pantry:SpringCrops": "plusB"
+		}
+		},
+// Pantry Summer Crops PlusB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+		{
+		"LogName": "Pantry: Summer Crops PlusB Bundle",
+		"Action": "EditData",
+		"Target": "Data/Bundles",
+		"Entries": {
+			"Pantry/1": "Summer Crops/O 621 1/256 1 0 260 1 0 258 1 0 254 1 0/3"
+		},
+		"When": {
+			"Main:Pantry:SummerCrops": "plusB"
+		}
+		},
+// Pantry Fall Crops PlusB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+		{
+		"LogName": "Pantry: Fall Crops PlusB Bundle",
+		"Action": "EditData",
+		"Target": "Data/Bundles",
+		"Entries": {
+			"Pantry/2": "Fall Crops/BO 10 1/270 1 0 272 1 0 276 1 0 280 1 0/2"
+		},
+		"When": {
+			"Main:Pantry:FallCrops": "plusB"
+		}
+		},
+// Pantry Quality Crops PlusB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+		{
+		"LogName": "Pantry: Quality Crops PlusB Bundle",
+		"Action": "EditData",
+		"Target": "Data/Bundles",
+		"Entries": {
+			"Pantry/3": "Quality Crops/BO 15 1/24 5 2 254 5 2 276 5 2 270 5 2/6/3"
+		},
+		"When": {
+			"Main:Pantry:QualityCrops": "plusB"
+		}
+		},
+// Bulletin Board Chef's PlusA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
+		{
+		"LogName": "Bulletin Board: Chef's PlusA Bundle",
+		"Action": "EditData",
+		"Target": "Data/Bundles",
+		"Entries": {
+			"Bulletin Board/31": "Chef's/O 221 3/724 1 0 259 1 0 430 1 0 376 1 0 228 1 0 194 1 0/4"
+		},
+		"When": {
+			"Main:BulletinBoard:Chef": "plusA"
+		}
+		},
+// Bulletin Board Dye Bundle Plus. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+		{
+		"LogName": "Bulletin Board: Dye Plus Bundle",
+		"Action": "EditData",
+		"Target": "Data/Bundles",
+		"Entries": {
+			"Bulletin Board/34": "Dye/BO 25 1/420 1 0 397 1 0 421 1 0 444 1 0 62 1 0 266 1 0/6"
+		},
+		"When": {
+			"Main:BulletinBoard:Dye": "plus"
+		}
+		},
+// Bulletin Board Field Research Bundle Plus. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+		{
+		"LogName": "Bulletin Board: Field Research Plus Bundle",
+		"Action": "EditData",
+		"Target": "Data/Bundles",
+		"Entries": {
+			"Bulletin Board/32": "Field Research/BO 20 1/422 1 0 392 1 0 702 1 0 536 1 0/5"
+		},
+		"When": {
+			"Main:BulletinBoard:FieldResearch": "plus"
+		}
+		},
+// Bulletin Board Fodder PlusA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
+		{
+		"LogName": "Bulletin Board: Fodder PlusA Bundle",
+		"Action": "EditData",
+		"Target": "Data/Bundles",
+		"Entries": {
+			"Bulletin Board/35": "Fodder/BO 104 1/262 10 0 178 10 0 613 3 0/3"
+		},
+		"When": {
+			"Main:BulletinBoard:Fodder": "plusA"
+		}
+		},
+// Bulletin Board Enchanter's PlusA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
+		{
+		"LogName": "Bulletin Board: Enchanter's PlusA Bundle",
+		"Action": "EditData",
+		"Target": "Data/Bundles",
+		"Entries": {
+			"Bulletin Board/33": "Enchanter's/O 336 5/725 1 0 348 1 0 446 1 0 637 1 0/1"
+		},
+		"When": {
+			"Main:BulletinBoard:Enchanter": "plusA"
+		}
+		},
+// Bulletin Board Chef's PlusB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+		{
+		"LogName": "Bulletin Board: Chef's PlusB Bundle",
+		"Action": "EditData",
+		"Target": "Data/Bundles",
+		"Entries": {
+			"Bulletin Board/31": "Chef's/O 221 3/724 1 0 259 1 0 430 1 0 376 1 0 228 1 0 194 1 0/4"
+		},
+		"When": {
+			"Main:BulletinBoard:Chef": "plusB"
+		}
+		},
+// Bulletin Board Fodder PlusB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+		{
+		"LogName": "Bulletin Board: Fodder PlusB Bundle",
+		"Action": "EditData",
+		"Target": "Data/Bundles",
+		"Entries": {
+			"Bulletin Board/35": "Fodder/BO 104 1/262 10 0 178 10 0 613 3 0/3"
+		},
+		"When": {
+			"Main:BulletinBoard:Fodder": "plusB"
+		}
+		},
+// Bulletin Board Enchanter's PlusB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items.The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+		{
+		"LogName": "Bulletin Board: Enchanter's PlusB Bundle",
+		"Action": "EditData",
+		"Target": "Data/Bundles",
+		"Entries": {
+			"Bulletin Board/33": "Enchanter's/O 336 5/725 1 0 348 1 0 446 1 0 637 1 0/1"
+		},
+		"When": {
+			"Main:BulletinBoard:Enchanter": "plusB"
+		}
 		},
 
 
-//                  **********Extras Section: Animal, Crafts Room, Boiler Room, Vault, and Fish Tank**********
+//				**********Extras Section: Animal, Crafts Room, Boiler Room, Vault, and Fish Tank**********
 
 
 // Pantry Animal Bundle. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
