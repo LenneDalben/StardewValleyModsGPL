@@ -80,6 +80,36 @@
 			"AllowValues": "true, false",
 			"Default": "true",
 			"AllowBlank": false
+		},
+		"Extras:FishTank:BeginnerFish": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false
+		},
+		"Extras:FishTank:IntermediateFish": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false
+		},
+		"Extras:FishTank:AdvancedFish": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false
+		},
+		"Extras:FishTank:NightFish": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false
+		},
+		"Extras:FishTank:CrabPot": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false
+		},
+		"Extras:FishTank:SpecialtyFish": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false
 		}
 		// ADD IN THE FISHIES!!!!!!!!
 	},
@@ -437,5 +467,77 @@
 				"Extras:Vault:25000": "true"
 			}
 		},
+			// Fishing Tank Beginner Fish Bundle
+		{
+			"LogName": "Fishing Tank: Beginner Fish Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/0": "" // This definitely isn't the right number
+			},
+			"When": {
+				"Extras:FishTank:BeginnerFish": "true"
+			}
+		},
+			// Fishing Tank Intermediate Fish Bundle
+		{
+			"LogName": "Fishing Tank: Intermediate Fish Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/0": "" // This definitely isn't the right number
+			},
+			"When": {
+				"Extras:FishTank:IntermediateFish": "true"
+			}
+		},
+			// Fishing Tank Advanced Fish Bundle
+		{
+			"LogName": "Fishing Tank: Advanced Fish Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/0": "" // This definitely isn't the right number
+			},
+			"When": {
+				"Extras:FishTank:AdvancedFish": "true"
+			}
+		},
+			// Fishing Tank Night Fish Bundle
+		{
+			"LogName": "Fishing Tank: Night Fish Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/0": "" // This definitely isn't the right number
+			},
+			"When": {
+				"Extras:FishTank:NightFish": "true"
+			}
+		},
+			// Fishing Tank Crab Pot Bundle
+		{
+			"LogName": "Fishing Tank: Crab Pot Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/0": "" // This definitely isn't the right number
+			},
+			"When": {
+				"Extras:FishTank:CrabPot": "true"
+			}
+		},
+			// Fishing Tank Specialty Fish Bundle
+		{
+			"LogName": "Fishing Tank: Specialty Fish Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/0": "" // This definitely isn't the right number
+			},
+			"When": {
+				"Extras:FishTank:SpecialtyFish": "true"
+			}
+		}
 	]
 }
