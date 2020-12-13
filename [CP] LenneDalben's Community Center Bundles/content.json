@@ -1,6 +1,7 @@
 {
 	"Format": "1.19.0",
 	"ConfigSchema": {
+		/* For max modularity, do I want to break up ModFlavor? I: */
 		"ModFlavor": {
 			"AllowValues": "vanilla-twistA, vanilla-liteA, vanilla-plusA, vanilla-twistB, vanilla-liteB, vanilla-plusB, false",
 			"Default": "vanilla-liteA",
