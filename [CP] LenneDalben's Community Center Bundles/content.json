@@ -2,28 +2,29 @@
 	"Format": "1.19.0",
 	"ConfigSchema": {
 		"Main:Pantry:SpringCrops": {
-			"AllowValues": "vanilla-twistA, vanilla-liteA, vanilla-plusA, vanilla-twistB, vanilla-liteB, vanilla-plusB, false",
-			"Default": "vanilla-liteA",
+			"Description": "Choose between twistA, liteA, ",
+			"AllowValues": "twistA, liteA, plusA, twistB, liteB, plusB, false",
+			"Default": "liteA",
 			"AllowBlank": false
 		},
 		"Main:Pantry:SummerCrops": {
-			"AllowValues": "vanilla-twistA, vanilla-liteA, vanilla-plusA, vanilla-twistB, vanilla-liteB, vanilla-plusB, false",
-			"Default": "vanilla-liteA",
+			"AllowValues": "twistA, liteA, plusA, twistB, liteB, plusB, false",
+			"Default": "liteA",
 			"AllowBlank": false
 		},
 		"Main:Pantry:FallCrops": {
-			"AllowValues": "vanilla-twistA, vanilla-liteA, vanilla-plusA, vanilla-twistB, vanilla-liteB, vanilla-plusB, false",
-			"Default": "vanilla-liteA",
+			"AllowValues": "twistA, liteA, plusA, twistB, liteB, plusB, false",
+			"Default": "liteA",
 			"AllowBlank": false
 		},
 		"Main:Pantry:QualityCrops": {
-			"AllowValues": "vanilla-twistA, vanilla-liteA, vanilla-plusA, vanilla-twistB, vanilla-liteB, vanilla-plusB, false",
-			"Default": "vanilla-liteA",
+			"AllowValues": "twistA, liteA, plusA, twistB, liteB, plusB, false",
+			"Default": "liteA",
 			"AllowBlank": false
 		},
 		"Main:Pantry:Artisan": {
-			"AllowValues": "vanilla-twistA, vanilla-liteA, vanilla-plusA, vanilla-twistB, vanilla-liteB, vanilla-plusB, false",
-			"Default": "vanilla-liteA",
+			"AllowValues": "twistA, liteA, plusA, twistB, liteB, plusB, false",
+			"Default": "liteA",
 			"AllowBlank": false
 		},
 		"Extras:Pantry:AnimalBundle": {
@@ -77,7 +78,7 @@
 			"AllowBlank": false
 		},
 		"Extras:BoilerRoom:GemologistRingReward": {
-			"AllowValues": "slime, magnet, N/A",
+			"AllowValues": "slime, magnet, N/A", // will N/A work?
 			"Default": "slime",
 			"AllowBlank": false
 		},
@@ -133,9 +134,9 @@
 		}
 	},
 	"Changes": [
-		// Vanilla-twistA: These are most like the base game (vanilla) bundles, but with some items swapped for JA items. The rewards for some bundles have also been adjusted.
+		// twistA: These are most like the base game (vanilla) bundles, but with some items swapped for JA items. The rewards for some bundles have also been adjusted.
 		{
-			"LogName": "Vanilla-twistA Bundles",
+			"LogName": "twistA Bundles",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
@@ -152,12 +153,12 @@
 				"Bulletin Board/35": "Fodder/BO 104 1/262 10 0 178 10 0 613 3 0/3"
 			},
 			"When": {
-				"ModFlavor": "vanilla-twistA"
+				"ModFlavor": "twistA"
 			}
 		},
-		// Vanilla-liteA: These are the vanilla bundles with some options for JA items, so it's a little bit easier. The rewards for some bundles have also been adjusted.
+		// liteA: These are the vanilla bundles with some options for JA items, so it's a little bit easier. The rewards for some bundles have also been adjusted.
 		{
-			"LogName": "Vanilla-liteA Bundles",
+			"LogName": "liteA Bundles",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
@@ -179,12 +180,12 @@
 				"Bulletin Board/35": ""
 			},
 			"When": {
-				"ModFlavor": "vanilla-liteA"
+				"ModFlavor": "liteA"
 			}
 		},
-		// Vanilla-plusA: These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The rewards for some bundles have also been adjusted.
+		// plusA: These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The rewards for some bundles have also been adjusted.
 		{
-			"LogName": "Vanilla-plusA Bundles",
+			"LogName": "plusA Bundles",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
@@ -206,12 +207,12 @@
 				"Bulletin Board/35": ""
 			},
 			"When": {
-				"ModFlavor": "vanilla-plusA"
+				"ModFlavor": "plusA"
 			}
 		},
-		// Vanilla-twistB: These are most like the base game (vanilla) bundles, but with some items swapped for JA items. The rewards for the bundles have NOT been adjusted, so they are the same as vanilla.
+		// twistB: These are most like the base game (vanilla) bundles, but with some items swapped for JA items. The rewards for the bundles have NOT been adjusted, so they are the same as vanilla.
 		{
-			"LogName": "Vanilla-twistB Bundles",
+			"LogName": "twistB Bundles",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
@@ -233,12 +234,12 @@
 				"Bulletin Board/35": ""
 			},
 			"When": {
-				"ModFlavor": "vanilla-twistB"
+				"ModFlavor": "twistB"
 			}
 		},
-		// Vanilla-liteB: These are the vanilla bundles with some options for JA items, so it's a little bit easier. The rewards for the bundles have NOT been adjusted, so they are the same as vanilla.
+		// liteB: These are the vanilla bundles with some options for JA items, so it's a little bit easier. The rewards for the bundles have NOT been adjusted, so they are the same as vanilla.
 		{
-			"LogName": "Vanilla-liteB Bundles",
+			"LogName": "liteB Bundles",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
@@ -260,12 +261,12 @@
 				"Bulletin Board/35": ""
 			},
 			"When": {
-				"ModFlavor": "vanilla-liteB"
+				"ModFlavor": "liteB"
 			}
 		},
-		// Vanilla-plusB: These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The rewards for the bundles have NOT been adjusted, so they are the same as vanilla.
+		// plusB: These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The rewards for the bundles have NOT been adjusted, so they are the same as vanilla.
 		{
-			"LogName": "Vanilla-plusB Bundles",
+			"LogName": "plusB Bundles",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
@@ -287,7 +288,7 @@
 				"Bulletin Board/35": ""
 			},
 			"When": {
-				"ModFlavor": "vanilla-plusB"
+				"ModFlavor": "plusB"
 			}
 		},
 		// Extras Section
