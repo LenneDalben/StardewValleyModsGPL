@@ -1,19 +1,23 @@
 # (CP) Lenne's Community Center Bundles
-This mod changes the community center bundles to add some Json Assets (JA) items, with 3 options: vanilla-twist (closest to the vanilla bundles, but with some items swapped for JA items), vanilla-lite (slightly easier with JA items), and vanilla-plus (slightly more difficult with JA items).
+This mod changes the community center bundles to add some Json Assets (JA) items, and each individual bundle can be toggled on or off, and has multiple options. There are 6 main options: twist (closest to the vanilla bundles, with some items swapped for JA items), lite (slightly easier with JA items), and plus (slightly more difficult with JA items). Each of those have A and B variants: twistA, liteA, plusA, twistB, liteB, and plusB. Options with A have adjusted rewards. Options with B have vanilla rewards (unadjusted). I didn't adjust the rewards for 100% of the bundles because several seemed fine to me. There are also 21 extra options, with A and B variants. Similar to the main options, I didn't adjust all the rewards for each bundle, several seemed fine to me.
 
 Configuration:
 
-You have the options vanilla-twist, vanilla-lite, and vanilla-plus, or false, to toggle off the mod if you like.
+Main Options
+You have the options twistA, twistB, liteA, liteB, plusA, plusB, or false, to toggle off the mod if you like. Options with A have adjusted rewards. Options with B have vanilla rewards (unadjusted).
 
-Vanilla-twist:
+Twist:
 These are most like the base game (vanilla) bundles, but with some items swapped for JA items.
 
-Vanilla-lite:
+Lite:
 These are the vanilla bundles with some options for JA items, so it's a little bit easier.
 
-Vanilla-plus:
+Plus:
 These are the vanilla bundles with some requirements for JA items, so it's a little bit harder.
 
-Note that the mod does not come packaged with a config file. The config file will be generated after you run the game with the mod installed at least once. 
+Extra Options
+These are bundles that don't require JA items, but the requirements have been adjusted, and some of the rewards have been adjusted as well. There are A (adjusted rewards) and B (vanilla rewards) options, and each can be toggled on or off. Some have only true or false options in the config.
+
+Note that the mod does not come packaged with a config file. The config file will be generated after you run the game with the mod installed at least once.
 
 Nexus page TBD
