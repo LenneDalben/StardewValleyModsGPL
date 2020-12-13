@@ -51,14 +51,14 @@
 			"Default": "true",
 			"AllowBlank": false
 		},
-		"Extras:BoilerRoom:GemologistRingReward": {
-			"AllowValues": "slime, magnet",
-			"Default": "slime",
-			"AllowBlank": false
-		},
 		"Extras:BoilerRoom:Gemologist": {
 			"AllowValues": "true, false",
 			"Default": "false",
+			"AllowBlank": false
+		},
+		"Extras:BoilerRoom:GemologistRingReward": {
+			"AllowValues": "slime, magnet",
+			"Default": "slime",
 			"AllowBlank": false
 		},
 		"Extras:Vault:2500": {
