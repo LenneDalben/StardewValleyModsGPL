@@ -211,213 +211,215 @@
 				"ModFlavor": "twistA"
 			}
 		}, */
-		        //FIX THE SPACING OMG WHY Pantry Spring Crops TwistA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
-{
-    "LogName": "Pantry: Spring Crops TwistA Bundle",
-    "Action": "EditData",
-    "Target": "Data/Bundles",
-    "Entries": {
-        // Example "Pantry/0": "<Bundle Name>/<reward object ID #>/<bundle items #needed>/<color index>/<# of items needed, max 12, if left blank, all will be required>",
-        "Pantry/0": "Spring Crops/O 465 20/24 1 0 188 1 0 190 1 0 192 1 0/0"
-    },
-    "When": {
-        "Main:Pantry:SpringCrops": "twistA"
-    }
-},
-        // Pantry Summer Crops TwistA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
-{
-    "LogName": "Pantry: Summer Crops TwistA Bundle",
-    "Action": "EditData",
-    "Target": "Data/Bundles",
-    "Entries": {
-        "Pantry/1": "Summer Crops/O 621 1/256 1 0 260 1 0 258 1 0 254 1 0/3"
-    },
-    "When": {
-        "Main:Pantry:SummerCrops": "twistA"
-    }
-},
-        // Pantry Fall Crops TwistA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
-{
-    "LogName": "Pantry: Fall Crops TwistA Bundle",
-    "Action": "EditData",
-    "Target": "Data/Bundles",
-    "Entries": {
-        "Pantry/2": "Fall Crops/BO 10 1/270 1 0 272 1 0 276 1 0 280 1 0/2"
-    },
-    "When": {
-        "Main:Pantry:FallCrops": "twistA"
-    }
-},
-        // Pantry Quality Crops TwistA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
-        {
-            "LogName": "Pantry: Quality Crops TwistA Bundle",
-            "Action": "EditData",
-            "Target": "Data/Bundles",
-            "Entries": {
-                "Pantry/3": "Quality Crops/BO 15 1/24 5 2 254 5 2 276 5 2 270 5 2/6/3"
-            },
-            "When": {
-                "Main:Pantry:QualityCrops": "twistA"
-            }
-        },
-        // Pantry Artisan Twist Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
-        {
-            "LogName": "Pantry: Artisan Twist Bundle",
-            "Action": "EditData",
-            "Target": "Data/Bundles",
-            "Entries": {
-                "Pantry/5": "Artisan/BO 12 1/432 1 0 428 1 0 426 1 0 424 1 0 340 1 0 344 1 0 613 1 0 634 1 0 635 1 0 636 1 0 637 1 0 638 1 0/1/6"
-            },
-            "When": {
-                "Main:Pantry:Artisan": "twist"
-            }
-        },
-        // Pantry Spring Crops TwistB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
-        {
-            "LogName": "Pantry: Spring Crops TwistB Bundle",
-            "Action": "EditData",
-            "Target": "Data/Bundles",
-            "Entries": {
-                // Example "Pantry/0": "<Bundle Name>/<reward object ID #>/<bundle items #needed>/<color index>/<# of items needed, max 12, if left blank, all will be required>",
-                "Pantry/0": "Spring Crops/O 465 20/24 1 0 188 1 0 190 1 0 192 1 0/0"
-            },
-            "When": {
-                "Main:Pantry:SpringCrops": "twistB"
-            }
-        },
-                // Pantry Summer Crops TwistB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
-        {
-            "LogName": "Pantry: Summer Crops TwistB Bundle",
-            "Action": "EditData",
-            "Target": "Data/Bundles",
-            "Entries": {
-                "Pantry/1": "Summer Crops/O 621 1/256 1 0 260 1 0 258 1 0 254 1 0/3"
-            },
-            "When": {
-                "Main:Pantry:SummerCrops": "twistB"
-            }
-        },
-                // Pantry Fall Crops TwistB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
-        {
-            "LogName": "Pantry: Fall Crops TwistB Bundle",
-            "Action": "EditData",
-            "Target": "Data/Bundles",
-            "Entries": {
-                "Pantry/2": "Fall Crops/BO 10 1/270 1 0 272 1 0 276 1 0 280 1 0/2"
-            },
-            "When": {
-                "Main:Pantry:FallCrops": "twistB"
-            }
-        },
-                // Pantry Quality Crops TwistB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
-                {
-                    "LogName": "Pantry: Quality Crops TwistB Bundle",
-                    "Action": "EditData",
-                    "Target": "Data/Bundles",
-                    "Entries": {
-                        "Pantry/3": "Quality Crops/BO 15 1/24 5 2 254 5 2 276 5 2 270 5 2/6/3"
-                    },
-                    "When": {
-                        "Main:Pantry:QualityCrops": "twistB"
-                    }
-                },
-        // Bulletin Board Chef's TwistA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
-        {
-            "LogName": "Bulletin Board: Chef's TwistA Bundle",
-            "Action": "EditData",
-            "Target": "Data/Bundles",
-            "Entries": {
-                "Bulletin Board/31": "Chef's/O 221 3/724 1 0 259 1 0 430 1 0 376 1 0 228 1 0 194 1 0/4"
-            },
-            "When": {
-                "Main:BulletinBoard:Chef": "twistA"
-            }
-        },
-        // Bulletin Board Dye Bundle Twist. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
-        {
-            "LogName": "Bulletin Board: Dye Twist Bundle",
-            "Action": "EditData",
-            "Target": "Data/Bundles",
-            "Entries": {
-                "Bulletin Board/34": "Dye/BO 25 1/420 1 0 397 1 0 421 1 0 444 1 0 62 1 0 266 1 0/6"
-            },
-            "When": {
-                "Main:BulletinBoard:Dye": "twist"
-            }
-        },
+
+//  **********Main Section: Spring, Summer, Fall, and Quality Crops, Artisan, Chef's, Dye, Field Research, Fodder, and Enchanter**********
+
+// Pantry Spring Crops TwistA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
+		{
+			"LogName": "Pantry: Spring Crops TwistA Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				// Example "Pantry/0": "<Bundle Name>/<reward object ID #>/<bundle items #needed>/<color index>/<# of items needed, max 12, if left blank, all will be required>",
+				"Pantry/0": "Spring Crops/O 465 20/24 1 0 188 1 0 190 1 0 192 1 0/0"
+				},
+				"When": {
+					"Main:Pantry:SpringCrops": "twistA"
+				}
+		},
+// Pantry Summer Crops TwistA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
+		{
+			"LogName": "Pantry: Summer Crops TwistA Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/1": "Summer Crops/O 621 1/256 1 0 260 1 0 258 1 0 254 1 0/3"
+			},
+			"When": {
+				"Main:Pantry:SummerCrops": "twistA"
+			}
+		},
+// Pantry Fall Crops TwistA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
+		{
+			"LogName": "Pantry: Fall Crops TwistA Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/2": "Fall Crops/BO 10 1/270 1 0 272 1 0 276 1 0 280 1 0/2"
+			},
+			"When": {
+				"Main:Pantry:FallCrops": "twistA"
+			}
+		},
+// Pantry Quality Crops TwistA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
+		{
+			"LogName": "Pantry: Quality Crops TwistA Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/3": "Quality Crops/BO 15 1/24 5 2 254 5 2 276 5 2 270 5 2/6/3"
+			},
+			"When": {
+				"Main:Pantry:QualityCrops": "twistA"
+			}
+		},
+// Pantry Artisan Twist Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+		{
+			"LogName": "Pantry: Artisan Twist Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/5": "Artisan/BO 12 1/432 1 0 428 1 0 426 1 0 424 1 0 340 1 0 344 1 0 613 1 0 634 1 0 635 1 0 636 1 0 637 1 0 638 1 0/1/6"
+			},
+			"When": {
+				"Main:Pantry:Artisan": "twist"
+			}
+		},
+// Pantry Spring Crops TwistB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+		{
+			"LogName": "Pantry: Spring Crops TwistB Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/0": "Spring Crops/O 465 20/24 1 0 188 1 0 190 1 0 192 1 0/0"
+			},
+			"When": {
+				"Main:Pantry:SpringCrops": "twistB"
+			}
+		},
+// Pantry Summer Crops TwistB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+		{
+			"LogName": "Pantry: Summer Crops TwistB Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/1": "Summer Crops/O 621 1/256 1 0 260 1 0 258 1 0 254 1 0/3"
+			},
+			"When": {
+				"Main:Pantry:SummerCrops": "twistB"
+			}
+		},
+// Pantry Fall Crops TwistB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+		{
+			"LogName": "Pantry: Fall Crops TwistB Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/2": "Fall Crops/BO 10 1/270 1 0 272 1 0 276 1 0 280 1 0/2"
+			},
+			"When": {
+				"Main:Pantry:FallCrops": "twistB"
+			}
+		},
+// Pantry Quality Crops TwistB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+		{
+			"LogName": "Pantry: Quality Crops TwistB Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/3": "Quality Crops/BO 15 1/24 5 2 254 5 2 276 5 2 270 5 2/6/3"
+			},
+			"When": {
+				"Main:Pantry:QualityCrops": "twistB"
+			}
+		},
+// Bulletin Board Chef's TwistA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
+		{
+			"LogName": "Bulletin Board: Chef's TwistA Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Bulletin Board/31": "Chef's/O 221 3/724 1 0 259 1 0 430 1 0 376 1 0 228 1 0 194 1 0/4"
+			},
+			"When": {
+				"Main:BulletinBoard:Chef": "twistA"
+			}
+		},
+// Bulletin Board Dye Bundle Twist. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+		{
+			"LogName": "Bulletin Board: Dye Twist Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Bulletin Board/34": "Dye/BO 25 1/420 1 0 397 1 0 421 1 0 444 1 0 62 1 0 266 1 0/6"
+			},
+			"When": {
+				"Main:BulletinBoard:Dye": "twist"
+			}
+		},
 // Bulletin Board Field Research Bundle Twist. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
-{
-    "LogName": "Bulletin Board: Field Research Twist Bundle",
-    "Action": "EditData",
-    "Target": "Data/Bundles",
-    "Entries": {
-        "Bulletin Board/32": "Field Research/BO 20 1/422 1 0 392 1 0 702 1 0 536 1 0/5"
-    },
-    "When": {
-        "Main:BulletinBoard:FieldResearch": "twist"
-    }
-},
+		{
+			"LogName": "Bulletin Board: Field Research Twist Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Bulletin Board/32": "Field Research/BO 20 1/422 1 0 392 1 0 702 1 0 536 1 0/5"
+			},
+			"When": {
+				"Main:BulletinBoard:FieldResearch": "twist"
+			}
+		},
 // Bulletin Board Fodder TwistA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
-{
-    "LogName": "Bulletin Board: Fodder TwistA Bundle",
-    "Action": "EditData",
-    "Target": "Data/Bundles",
-    "Entries": {
-        "Bulletin Board/35": "Fodder/BO 104 1/262 10 0 178 10 0 613 3 0/3"
-    },
-    "When": {
-        "Main:BulletinBoard:Fodder": "twistA"
-    }
-},
+		{
+			"LogName": "Bulletin Board: Fodder TwistA Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Bulletin Board/35": "Fodder/BO 104 1/262 10 0 178 10 0 613 3 0/3"
+			},
+			"When": {
+				"Main:BulletinBoard:Fodder": "twistA"
+			}
+		},
 // Bulletin Board Enchanter's TwistA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
-{
-    "LogName": "Bulletin Board: Enchanter's TwistA Bundle",
-    "Action": "EditData",
-    "Target": "Data/Bundles",
-    "Entries": {
-        "Bulletin Board/33": "Enchanter's/O 336 5/725 1 0 348 1 0 446 1 0 637 1 0/1"
-    },
-    "When": {
-        "Main:BulletinBoard:Enchanter": "twistA"
-    }
-},
-        // Bulletin Board Chef's TwistB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
-        {
-            "LogName": "Bulletin Board: Chef's TwistB Bundle",
-            "Action": "EditData",
-            "Target": "Data/Bundles",
-            "Entries": {
-                "Bulletin Board/31": "Chef's/O 221 3/724 1 0 259 1 0 430 1 0 376 1 0 228 1 0 194 1 0/4"
-            },
-            "When": {
-                "Main:BulletinBoard:Chef": "twistB"
-            }
-        },
+		{
+			"LogName": "Bulletin Board: Enchanter's TwistA Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Bulletin Board/33": "Enchanter's/O 336 5/725 1 0 348 1 0 446 1 0 637 1 0/1"
+			},
+			"When": {
+				"Main:BulletinBoard:Enchanter": "twistA"
+			}
+		},
+// Bulletin Board Chef's TwistB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+		{
+			"LogName": "Bulletin Board: Chef's TwistB Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Bulletin Board/31": "Chef's/O 221 3/724 1 0 259 1 0 430 1 0 376 1 0 228 1 0 194 1 0/4"
+			},
+			"When": {
+				"Main:BulletinBoard:Chef": "twistB"
+			}
+		},
 // Bulletin Board Fodder TwistB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
-{
-    "LogName": "Bulletin Board: Fodder TwistB Bundle",
-    "Action": "EditData",
-    "Target": "Data/Bundles",
-    "Entries": {
-        "Bulletin Board/35": "Fodder/BO 104 1/262 10 0 178 10 0 613 3 0/3"
-    },
-    "When": {
-        "Main:BulletinBoard:Fodder": "twistB"
-    }
-},
+		{
+			"LogName": "Bulletin Board: Fodder TwistB Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Bulletin Board/35": "Fodder/BO 104 1/262 10 0 178 10 0 613 3 0/3"
+			},
+			"When": {
+				"Main:BulletinBoard:Fodder": "twistB"
+			}
+		},
 // Bulletin Board Enchanter's TwistB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items.The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
-{
-    "LogName": "Bulletin Board: Enchanter's TwistB Bundle",
-    "Action": "EditData",
-    "Target": "Data/Bundles",
-    "Entries": {
-        "Bulletin Board/33": "Enchanter's/O 336 5/725 1 0 348 1 0 446 1 0 637 1 0/1"
-    },
-    "When": {
-        "Main:BulletinBoard:Enchanter": "twistB"
-    }
-},
-		// liteA: These are the vanilla bundles with some options for JA items, so it's a little bit easier. The rewards for some bundles have also been adjusted.
+		{
+			"LogName": "Bulletin Board: Enchanter's TwistB Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Bulletin Board/33": "Enchanter's/O 336 5/725 1 0 348 1 0 446 1 0 637 1 0/1"
+			},
+			"When": {
+				"Main:BulletinBoard:Enchanter": "twistB"
+			}
+		},
+// liteA: These are the vanilla bundles with some options for JA items, so it's a little bit easier. The rewards for some bundles have also been adjusted.
 		{
 			"LogName": "liteA Bundles",
 			"Action": "EditData",
@@ -444,7 +446,7 @@
 				"ModFlavor": "liteA"
 			}
 		},
-		// plusA: These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The rewards for some bundles have also been adjusted.
+// plusA: These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The rewards for some bundles have also been adjusted.
 		{
 			"LogName": "plusA Bundles",
 			"Action": "EditData",
@@ -471,7 +473,7 @@
 				"ModFlavor": "plusA"
 			}
 		},
-		// liteB: These are the vanilla bundles with some options for JA items, so it's a little bit easier. The rewards for the bundles have NOT been adjusted, so they are the same as vanilla.
+// liteB: These are the vanilla bundles with some options for JA items, so it's a little bit easier. The rewards for the bundles have NOT been adjusted, so they are the same as vanilla.
 		{
 			"LogName": "liteB Bundles",
 			"Action": "EditData",
@@ -498,7 +500,7 @@
 				"ModFlavor": "liteB"
 			}
 		},
-		// plusB: These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The rewards for the bundles have NOT been adjusted, so they are the same as vanilla.
+// plusB: These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The rewards for the bundles have NOT been adjusted, so they are the same as vanilla.
 		{
 			"LogName": "plusB Bundles",
 			"Action": "EditData",
@@ -525,8 +527,12 @@
 				"ModFlavor": "plusB"
 			}
 		},
-		// Extras Section
-			// Pantry Animal Bundle. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+
+
+//                  **********Extras Section: Animal, Crafts Room, Boiler Room, Vault, and Fish Tank**********
+
+
+// Pantry Animal Bundle. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Pantry: Animal Bundle",
 			"Action": "EditData",
@@ -538,7 +544,7 @@
 				"Extras:Pantry:AnimalBundle": "true"
 			}
 		},
-			// Crafts Room Spring Foraging Bundle. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Crafts Room Spring Foraging Bundle. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Crafts Room: Spring Foraging Bundle",
 			"Action": "EditData",
@@ -550,7 +556,7 @@
 				"Extras:CraftsRoom:SpringForaging": "true"
 			}
 		},
-			// Crafts Room Summer Foraging Bundle. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Crafts Room Summer Foraging Bundle. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Crafts Room: Summer Foraging Bundle",
 			"Action": "EditData",
@@ -562,7 +568,7 @@
 				"Extras:CraftsRoom:SummerForaging": "true"
 			}
 		},
-			// Crafts Room Fall Foraging Bundle. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Crafts Room Fall Foraging Bundle. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Crafts Room: Fall Foraging Bundle",
 			"Action": "EditData",
@@ -574,7 +580,7 @@
 				"Extras:CraftsRoom:FallForaging": "true"
 			}
 		},
-			// Crafts Room Winter Foraging Bundle. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Crafts Room Winter Foraging Bundle. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Crafts Room: Winter Foraging Bundle",
 			"Action": "EditData",
@@ -586,7 +592,7 @@
 				"Extras:CraftsRoom:WinterForaging": "true"
 			}
 		},
-			// Crafts Room Exotic Foraging Bundle. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Crafts Room Exotic Foraging Bundle. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Crafts Room: Exotic Foraging Bundle",
 			"Action": "EditData",
@@ -598,7 +604,7 @@
 				"Extras:CraftsRoom:ExoticForaging": "true"
 			}
 		},
-			// Crafts Room Construction and Crafting Bundle A. The reward for the bundle has been adjusted.
+// Crafts Room Construction and Crafting Bundle A. The reward for the bundle has been adjusted.
 		{
 			"LogName": "Crafts Room: Construction and Crafting Bundle A",
 			"Action": "EditData",
@@ -610,7 +616,7 @@
 				"Extras:CraftsRoom:ConstructionandCrafting": "A"
 			}
 		},
-			// Boiler Room Blacksmith's Bundle A. The reward for the bundle has been adjusted.
+// Boiler Room Blacksmith's Bundle A. The reward for the bundle has been adjusted.
 		{
 			"LogName": "Boiler Room: Blacksmith's Bundle A",
 			"Action": "EditData",
@@ -622,7 +628,7 @@
 				"Extras:BoilerRoom:Blacksmith": "A"
 			}
 		},
-			// Boiler Room Geologist's Bundle A. The reward for the bundle has been adjusted.
+// Boiler Room Geologist's Bundle A. The reward for the bundle has been adjusted.
 		{
 			"LogName": "Boiler Room: Geologist's Bundle A",
 			"Action": "EditData",
@@ -634,8 +640,8 @@
 				"Extras:BoilerRoom:Geologist": "A"
 			}
 		},
-			// DON'T FORGET YOU WANTED TO GET FANCY WITH IT Boiler Room Gemologist's Bundle. The reward for the bundle has been adjusted.
-				// Boiler Room Gemologist's Bundle Graphic Change (A or B)
+// DON'T FORGET YOU WANTED TO GET FANCY WITH IT Boiler Room Gemologist's Bundle. The reward for the bundle has been adjusted.
+		// Boiler Room Gemologist's Bundle Graphic Change (A or B)
 		{ 
 			"LogName": "Boiler Room: Gemologist's Bundle Graphic Change (A or B)",
 			"Action": "EditImage",
@@ -647,7 +653,7 @@
 				"Extras:BoilerRoom:Gemologist": "A, B"
 			}
 		},
-				// Boiler Room Gemologist's Bundle A - Magnet Ring
+		// Boiler Room Gemologist's Bundle A - Magnet Ring
 		{
 			"LogName": "Boiler Room: Gemologist's Bundle A Magnet Ring",
 			"Action": "EditData",
@@ -660,7 +666,7 @@
 				"Extras:BoilerRoom:GemologistRingReward": "magnet"
 			}
 		},
-				// Boiler Room Gemologist's Bundle A - Slime Charmer Ring
+		// Boiler Room Gemologist's Bundle A - Slime Charmer Ring
 		{
 			"LogName": "Boiler Room: Gemologist's Bundle A Slime Charmer Ring",
 			"Action": "EditData",
@@ -673,7 +679,7 @@
 				"Extras:BoilerRoom:GemologistRingReward": "slime"
 			}
 		},
-			// Vault 2,500 Bundle
+// Vault 2,500 Bundle
 		{
 			"LogName": "Vault: 2,500 Bundle",
 			"Action": "EditData",
@@ -685,7 +691,7 @@
 				"Extras:Vault:2500": "true"
 			}
 		},
-			// Vault 5000 Bundle
+// Vault 5000 Bundle
 		{
 			"LogName": "Vault: 5000 Bundle",
 			"Action": "EditData",
@@ -697,7 +703,7 @@
 				"Extras:Vault:5000": "true"
 			}
 		},
-			// Vault 10000 Bundle
+// Vault 10000 Bundle
 		{
 			"LogName": "Vault: 10000 Bundle",
 			"Action": "EditData",
@@ -709,7 +715,7 @@
 				"Extras:Vault:10000": "true"
 			}
 		},
-			// Vault 25000 Bundle
+// Vault 25000 Bundle
 		{
 			"LogName": "Vault: 25000 Bundle",
 			"Action": "EditData",
@@ -721,7 +727,7 @@
 				"Extras:Vault:25000": "true"
 			}
 		},
-			// Fishing Tank Beginner Fish Bundle A. The reward for the bundle has been adjusted.
+// Fishing Tank Beginner Fish Bundle A. The reward for the bundle has been adjusted.
 		{
 			"LogName": "Fishing Tank: Beginner Fish Bundle A",
 			"Action": "EditData",
@@ -733,7 +739,7 @@
 				"Extras:FishTank:BeginnerFish": "A"
 			}
 		},
-			// Fishing Tank Intermediate Fish Bundle A. The reward for the bundle has been adjusted.
+// Fishing Tank Intermediate Fish Bundle A. The reward for the bundle has been adjusted.
 		{
 			"LogName": "Fishing Tank: Intermediate Fish Bundle A",
 			"Action": "EditData",
@@ -745,7 +751,7 @@
 				"Extras:FishTank:IntermediateFish": "A"
 			}
 		},
-			// Fishing Tank Advanced Fish Bundle A. The reward for the bundle has been adjusted.
+// Fishing Tank Advanced Fish Bundle A. The reward for the bundle has been adjusted.
 		{
 			"LogName": "Fishing Tank: Advanced Fish Bundle A",
 			"Action": "EditData",
@@ -757,7 +763,7 @@
 				"Extras:FishTank:AdvancedFish": "A"
 			}
 		},
-			// Fishing Tank Night Fish Bundle A. The reward for the bundle has been adjusted.
+// Fishing Tank Night Fish Bundle A. The reward for the bundle has been adjusted.
 		{
 			"LogName": "Fishing Tank: Night Fish Bundle A",
 			"Action": "EditData",
@@ -769,7 +775,7 @@
 				"Extras:FishTank:NightFish": "A"
 			}
 		},
-			// Fishing Tank Crab Pot Bundle A. The reward for the bundle has been adjusted.
+// Fishing Tank Crab Pot Bundle A. The reward for the bundle has been adjusted.
 		{
 			"LogName": "Fishing Tank: Crab Pot Bundle A",
 			"Action": "EditData",
@@ -781,7 +787,7 @@
 				"Extras:FishTank:CrabPot": "A"
 			}
 		},
-			// Fishing Tank Specialty Fish Bundle A. The reward for the bundle has been adjusted.
+// Fishing Tank Specialty Fish Bundle A. The reward for the bundle has been adjusted.
 		{
 			"LogName": "Fishing Tank: Specialty Fish Bundle A",
 			"Action": "EditData",
@@ -793,7 +799,7 @@
 				"Extras:FishTank:SpecialtyFish": "A"
 			}
 		},
-			// Crafts Room Construction and Crafting Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Crafts Room Construction and Crafting Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Crafts Room: Construction and Crafting Bundle B",
 			"Action": "EditData",
@@ -805,7 +811,7 @@
 				"Extras:CraftsRoom:ConstructionandCrafting": "B"
 			}
 		},
-			// Boiler Room Blacksmith's Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Boiler Room Blacksmith's Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Boiler Room: Blacksmith's Bundle B",
 			"Action": "EditData",
@@ -817,7 +823,7 @@
 				"Extras:BoilerRoom:Blacksmith": "B"
 			}
 		},
-			// Boiler Room Geologist's Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Boiler Room Geologist's Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Boiler Room: Geologist's Bundle B",
 			"Action": "EditData",
@@ -829,7 +835,7 @@
 				"Extras:BoilerRoom:Geologist": "B"
 			}
 		},
-			// Boiler Room Gemologist's Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Boiler Room Gemologist's Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Boiler Room: Gemologist's Bundle B",
 			"Action": "EditData",
@@ -841,7 +847,7 @@
 				"Extras:BoilerRoom:Gemologist": "B"
 			}
 		},
-			// Fishing Tank Beginner Fish Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Fishing Tank Beginner Fish Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Fishing Tank: Beginner Fish Bundle B",
 			"Action": "EditData",
@@ -853,7 +859,7 @@
 				"Extras:FishTank:BeginnerFish": "B"
 			}
 		},
-			// Fishing Tank Intermediate Fish Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Fishing Tank Intermediate Fish Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Fishing Tank: Intermediate Fish Bundle B",
 			"Action": "EditData",
@@ -865,7 +871,7 @@
 				"Extras:FishTank:IntermediateFish": "B"
 			}
 		},
-			// Fishing Tank Advanced Fish Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Fishing Tank Advanced Fish Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Fishing Tank: Advanced Fish Bundle B",
 			"Action": "EditData",
@@ -877,7 +883,7 @@
 				"Extras:FishTank:AdvancedFish": "B"
 			}
 		},
-			// Fishing Tank Night Fish Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Fishing Tank Night Fish Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Fishing Tank: Night Fish Bundle B",
 			"Action": "EditData",
@@ -889,7 +895,7 @@
 				"Extras:FishTank:NightFish": "B"
 			}
 		},
-			// Fishing Tank Crab Pot Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Fishing Tank Crab Pot Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Fishing Tank: Crab Pot Bundle B",
 			"Action": "EditData",
@@ -901,7 +907,7 @@
 				"Extras:FishTank:CrabPot": "B"
 			}
 		},
-			// Fishing Tank Specialty Fish Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Fishing Tank Specialty Fish Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Fishing Tank: Specialty Fish Bundle B",
 			"Action": "EditData",
