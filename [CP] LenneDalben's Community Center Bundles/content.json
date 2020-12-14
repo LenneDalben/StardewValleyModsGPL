@@ -169,7 +169,7 @@
 			"Target": "Data/Bundles",
 			"Entries": {
 				// Example "Pantry/0": "<Bundle Name>/<reward object ID #>/<bundle items #needed>/<color index>/<# of items needed, max 12, if left blank, all will be required>",
-				"Pantry/0": "Spring Crops/O 465 20/24 1 0 188 1 0 190 1 0 192 1 0/0"
+				"Pantry/0": "Spring Crops/O 465 20/{{spacechase0.jsonAssets/ObjectId:Passion Fruit}} 1 0 188 1 0 190 1 0 192 1 0/0"
 				},
 				"When": {
 					"MainPantrySpringCrops": "twistA"
