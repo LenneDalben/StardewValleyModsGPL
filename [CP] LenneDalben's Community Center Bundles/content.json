@@ -99,7 +99,7 @@
 		"ExtrasBoilerRoomGemologist": {
 			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false (deactivated).",
 			"AllowValues": "A, B, false",
-			"Default": "A"
+			"Default": "false"
 		},
 		"ExtrasBoilerRoomGemologistRingReward": {
 			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false (deactivated).",
