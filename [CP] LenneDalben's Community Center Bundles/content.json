@@ -7,8 +7,8 @@
 			"Default": "liteA"
 		},
 		"MainPantrySummerCrops": {
-			"Description": "Choose between twistA, liteA, plusA, twistB, liteB, plusB, or false. Twist replaces some items with JA items. Lite adds options for JA items. Plus requires JA items. Options with A have adjusted rewards. Options with B have vanilla rewards (unadjusted).",
-			"AllowValues": "twistA, liteA, plusA, twistB, liteB, plusB, false",
+			"Description": "Choose between twistA1, twistA2, liteA, plusA, twistB1, twistB2, liteB, plusB, or false. Twist replaces some items with JA items. Lite adds options for JA items. Plus requires JA items. Options with A have adjusted rewards. Options with B have vanilla rewards (unadjusted).",
+			"AllowValues": "twistA1, twistA2, liteA, plusA, twistB1, twistB2, liteB, plusB, false",
 			"Default": "liteA"
 		},
 		"MainPantryFallCrops": {
@@ -175,16 +175,28 @@
 					"MainPantrySpringCrops": "twistA"
 				}
 		},
-// Pantry Summer Crops TwistA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
+// Pantry Summer Crops TwistA1 Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted. A1 has raspberry, which can't be obtained until year 2.
 		{
-			"LogName": "Pantry: Summer Crops TwistA Bundle",
+			"LogName": "Pantry: Summer Crops TwistA1 Bundle",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/1": "Summer Crops/O 621 1/256 1 0 260 1 0 258 1 0 254 1 0/3"
+				"Pantry/1": "Summer Crops/BO 17 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Raspberry} 1 0/3"
 			},
 			"When": {
-				"MainPantrySummerCrops": "twistA"
+				"MainPantrySummerCrops": "twistA1"
+			}
+		},
+// Pantry Summer Crops TwistA2 Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted. A2 has wasabi root instead of raspberry.
+		{
+			"LogName": "Pantry: Summer Crops TwistA2 Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/1": "Summer Crops/BO 17 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Wasabi Root} 1 0/3"
+			},
+			"When": {
+				"MainPantrySummerCrops": "twistA2"
 			}
 		},
 // Pantry Fall Crops TwistA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
@@ -235,16 +247,28 @@
 				"MainPantrySpringCrops": "twistB"
 			}
 		},
-// Pantry Summer Crops TwistB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Pantry Summer Crops TwistB1 Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla. A1 has raspberry, which can't be obtained until year 2.
 		{
-			"LogName": "Pantry: Summer Crops TwistB Bundle",
+			"LogName": "Pantry: Summer Crops TwistB1 Bundle",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/1": "Summer Crops/O 621 1/256 1 0 260 1 0 258 1 0 254 1 0/3"
+				"Pantry/1": "Summer Crops/BO 17 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Raspberry} 1 0/3"
 			},
 			"When": {
-				"MainPantrySummerCrops": "twistB"
+				"MainPantrySummerCrops": "twistB1"
+			}
+		},
+// Pantry Summer Crops TwistB2 Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla. B2 has wasabi root instead of raspberry.
+		{
+			"LogName": "Pantry: Summer Crops TwistB2 Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/1": "Summer Crops/BO 17 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Wasabi Root} 1 0/3"
+			},
+			"When": {
+				"MainPantrySummerCrops": "twistB2"
 			}
 		},
 // Pantry Fall Crops TwistB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -369,7 +393,7 @@
 		},
 
 				/*Lite Type*/
-// Pantry Spring Crops LiteA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
+// Pantry Spring Crops LiteA Bundle. These are the vanilla bundles with some options for JA items, so it's a little bit easier. The reward for the bundle has been adjusted.
 		{
 			"LogName": "Pantry: Spring Crops LiteA Bundle",
 			"Action": "EditData",
@@ -381,19 +405,31 @@
 				"MainPantrySpringCrops": "liteA"
 			}
 		},
-// Pantry Summer Crops LiteA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
-		{
-			"LogName": "Pantry: Summer Crops LiteA Bundle",
-			"Action": "EditData",
-			"Target": "Data/Bundles",
-			"Entries": {
-				"Pantry/1": "Summer Crops/O 621 1/256 1 0 260 1 0 258 1 0 254 1 0/3"
-			},
-			"When": {
-				"MainPantrySummerCrops": "liteA"
-			}
-		},
-// Pantry Fall Crops LiteA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
+// Pantry Summer Crops LiteA1 Bundle. These are the vanilla bundles with some options for JA items, so it's a little bit easier. The reward for the bundle has been adjusted. A1 has raspberry, which can't be obtained until year 2.
+{
+	"LogName": "Pantry: Summer Crops LiteA1 Bundle",
+	"Action": "EditData",
+	"Target": "Data/Bundles",
+	"Entries": {
+		"Pantry/1": "Summer Crops/BO 17 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Raspberry} 1 0/3"
+	},
+	"When": {
+		"MainPantrySummerCrops": "LiteA1"
+	}
+},
+// Pantry Summer Crops LiteA2 Bundle. These are the vanilla bundles with some options for JA items, so it's a little bit easier. The reward for the bundle has been adjusted. A2 has wasabi root instead of raspberry.
+{
+	"LogName": "Pantry: Summer Crops LiteA2 Bundle",
+	"Action": "EditData",
+	"Target": "Data/Bundles",
+	"Entries": {
+		"Pantry/1": "Summer Crops/BO 17 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Wasabi Root} 1 0/3"
+	},
+	"When": {
+		"MainPantrySummerCrops": "LiteA2"
+	}
+},
+// Pantry Fall Crops LiteA Bundle. These are the vanilla bundles with some options for JA items, so it's a little bit easier. The reward for the bundle has been adjusted.
 		{
 			"LogName": "Pantry: Fall Crops LiteA Bundle",
 			"Action": "EditData",
@@ -405,7 +441,7 @@
 				"MainPantryFallCrops": "liteA"
 			}
 		},
-// Pantry Quality Crops LiteA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
+// Pantry Quality Crops LiteA Bundle. These are the vanilla bundles with some options for JA items, so it's a little bit easier. The reward for the bundle has been adjusted.
 		{
 			"LogName": "Pantry: Quality Crops LiteA Bundle",
 			"Action": "EditData",
@@ -417,7 +453,7 @@
 				"MainPantryQualityCrops": "liteA"
 			}
 		},
-// Pantry Artisan Lite Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Pantry Artisan Lite Bundle. These are the vanilla bundles with some options for JA items, so it's a little bit easier. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Pantry: Artisan Lite Bundle",
 			"Action": "EditData",
@@ -429,7 +465,7 @@
 				"MainPantryArtisan": "lite"
 			}
 		},
-// Pantry Spring Crops LiteB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Pantry Spring Crops LiteB Bundle. These are the vanilla bundles with some options for JA items, so it's a little bit easier. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Pantry: Spring Crops LiteB Bundle",
 			"Action": "EditData",
@@ -441,7 +477,7 @@
 				"MainPantrySpringCrops": "liteB"
 			}
 		},
-// Pantry Summer Crops LiteB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Pantry Summer Crops LiteB Bundle. These are the vanilla bundles with some options for JA items, so it's a little bit easier. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Pantry: Summer Crops LiteB Bundle",
 			"Action": "EditData",
@@ -453,7 +489,7 @@
 				"MainPantrySummerCrops": "liteB"
 			}
 		},
-// Pantry Fall Crops LiteB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Pantry Fall Crops LiteB Bundle. These are the vanilla bundles with some options for JA items, so it's a little bit easier. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Pantry: Fall Crops LiteB Bundle",
 			"Action": "EditData",
@@ -465,7 +501,7 @@
 				"MainPantryFallCrops": "liteB"
 			}
 		},
-// Pantry Quality Crops LiteB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Pantry Quality Crops LiteB Bundle. These are the vanilla bundles with some options for JA items, so it's a little bit easier. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Pantry: Quality Crops LiteB Bundle",
 			"Action": "EditData",
@@ -477,7 +513,7 @@
 				"MainPantryQualityCrops": "liteB"
 			}
 		},
-// Bulletin Board Chef's LiteA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
+// Bulletin Board Chef's LiteA Bundle. These are the vanilla bundles with some options for JA items, so it's a little bit easier. The reward for the bundle has been adjusted.
 		{
 			"LogName": "Bulletin Board: Chef's LiteA Bundle",
 			"Action": "EditData",
@@ -489,7 +525,7 @@
 				"MainBulletinBoardChef": "liteA"
 			}
 		},
-// Bulletin Board Dye Bundle Lite. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Bulletin Board Dye Bundle Lite. These are the vanilla bundles with some options for JA items, so it's a little bit easier. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Bulletin Board: Dye Lite Bundle",
 			"Action": "EditData",
@@ -501,7 +537,7 @@
 				"MainBulletinBoardDye": "lite"
 			}
 		},
-// Bulletin Board Field Research Bundle Lite. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Bulletin Board Field Research Bundle Lite. These are the vanilla bundles with some options for JA items, so it's a little bit easier. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Bulletin Board: Field Research Lite Bundle",
 			"Action": "EditData",
@@ -513,7 +549,7 @@
 				"MainBulletinBoardFieldResearch": "lite"
 			}
 		},
-// Bulletin Board Fodder LiteA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
+// Bulletin Board Fodder LiteA Bundle. These are the vanilla bundles with some options for JA items, so it's a little bit easier. The reward for the bundle has been adjusted.
 		{
 			"LogName": "Bulletin Board: Fodder LiteA Bundle",
 			"Action": "EditData",
@@ -525,7 +561,7 @@
 				"MainBulletinBoardFodder": "liteA"
 			}
 		},
-// Bulletin Board Enchanter's LiteA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
+// Bulletin Board Enchanter's LiteA Bundle. These are the vanilla bundles with some options for JA items, so it's a little bit easier. The reward for the bundle has been adjusted.
 		{
 			"LogName": "Bulletin Board: Enchanter's LiteA Bundle",
 			"Action": "EditData",
@@ -537,7 +573,7 @@
 				"MainBulletinBoardEnchanter": "liteA"
 			}
 		},
-// Bulletin Board Chef's LiteB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Bulletin Board Chef's LiteB Bundle. These are the vanilla bundles with some options for JA items, so it's a little bit easier. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Bulletin Board: Chef's LiteB Bundle",
 			"Action": "EditData",
@@ -549,7 +585,7 @@
 				"MainBulletinBoardChef": "liteB"
 			}
 		},
-// Bulletin Board Fodder LiteB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Bulletin Board Fodder LiteB Bundle. These are the vanilla bundles with some options for JA items, so it's a little bit easier. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Bulletin Board: Fodder LiteB Bundle",
 			"Action": "EditData",
@@ -561,7 +597,7 @@
 				"MainBulletinBoardFodder": "liteB"
 			}
 		},
-// Bulletin Board Enchanter's LiteB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items.The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Bulletin Board Enchanter's LiteB Bundle. These are the vanilla bundles with some options for JA items, so it's a little bit easier. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Bulletin Board: Enchanter's LiteB Bundle",
 			"Action": "EditData",
@@ -575,7 +611,7 @@
 		},
 
 				/*Plus Type*/
-// Pantry Spring Crops PlusA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
+// Pantry Spring Crops PlusA Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has been adjusted.
 		{
 		"LogName": "Pantry: Spring Crops PlusA Bundle",
 		"Action": "EditData",
@@ -587,7 +623,7 @@
 				"MainPantrySpringCrops": "plusA"
 			}
 		},
-// Pantry Summer Crops PlusA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
+// Pantry Summer Crops PlusA Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has been adjusted.
 		{
 		"LogName": "Pantry: Summer Crops PlusA Bundle",
 		"Action": "EditData",
@@ -599,7 +635,7 @@
 			"MainPantrySummerCrops": "plusA"
 		}
 		},
-// Pantry Fall Crops PlusA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
+// Pantry Fall Crops PlusA Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has been adjusted.
 		{
 		"LogName": "Pantry: Fall Crops PlusA Bundle",
 		"Action": "EditData",
@@ -611,7 +647,7 @@
 			"MainPantryFallCrops": "plusA"
 		}
 		},
-// Pantry Quality Crops PlusA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
+// Pantry Quality Crops PlusA Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has been adjusted.
 		{
 		"LogName": "Pantry: Quality Crops PlusA Bundle",
 		"Action": "EditData",
@@ -623,7 +659,7 @@
 			"MainPantryQualityCrops": "plusA"
 		}
 		},
-// Pantry Artisan Plus Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Pantry Artisan Plus Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 		"LogName": "Pantry: Artisan Plus Bundle",
 		"Action": "EditData",
@@ -635,7 +671,7 @@
 			"MainPantryArtisan": "plus"
 		}
 		},
-// Pantry Spring Crops PlusB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Pantry Spring Crops PlusB Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 		"LogName": "Pantry: Spring Crops PlusB Bundle",
 		"Action": "EditData",
@@ -647,7 +683,7 @@
 			"MainPantrySpringCrops": "plusB"
 		}
 		},
-// Pantry Summer Crops PlusB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Pantry Summer Crops PlusB Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 		"LogName": "Pantry: Summer Crops PlusB Bundle",
 		"Action": "EditData",
@@ -659,7 +695,7 @@
 			"MainPantrySummerCrops": "plusB"
 		}
 		},
-// Pantry Fall Crops PlusB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Pantry Fall Crops PlusB Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 		"LogName": "Pantry: Fall Crops PlusB Bundle",
 		"Action": "EditData",
@@ -671,7 +707,7 @@
 			"MainPantryFallCrops": "plusB"
 		}
 		},
-// Pantry Quality Crops PlusB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Pantry Quality Crops PlusB Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 		"LogName": "Pantry: Quality Crops PlusB Bundle",
 		"Action": "EditData",
@@ -683,7 +719,7 @@
 			"MainPantryQualityCrops": "plusB"
 		}
 		},
-// Bulletin Board Chef's PlusA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
+// Bulletin Board Chef's PlusA Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has been adjusted.
 		{
 		"LogName": "Bulletin Board: Chef's PlusA Bundle",
 		"Action": "EditData",
@@ -695,7 +731,7 @@
 			"MainBulletinBoardChef": "plusA"
 		}
 		},
-// Bulletin Board Dye Bundle Plus. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Bulletin Board Dye Bundle Plus. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 		"LogName": "Bulletin Board: Dye Plus Bundle",
 		"Action": "EditData",
@@ -707,7 +743,7 @@
 			"MainBulletinBoardDye": "plus"
 		}
 		},
-// Bulletin Board Field Research Bundle Plus. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Bulletin Board Field Research Bundle Plus. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 		"LogName": "Bulletin Board: Field Research Plus Bundle",
 		"Action": "EditData",
@@ -719,7 +755,7 @@
 			"MainBulletinBoardFieldResearch": "plus"
 		}
 		},
-// Bulletin Board Fodder PlusA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
+// Bulletin Board Fodder PlusA Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has been adjusted.
 		{
 		"LogName": "Bulletin Board: Fodder PlusA Bundle",
 		"Action": "EditData",
@@ -731,7 +767,7 @@
 			"MainBulletinBoardFodder": "plusA"
 		}
 		},
-// Bulletin Board Enchanter's PlusA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
+// Bulletin Board Enchanter's PlusA Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has been adjusted.
 		{
 		"LogName": "Bulletin Board: Enchanter's PlusA Bundle",
 		"Action": "EditData",
@@ -743,7 +779,7 @@
 			"MainBulletinBoardEnchanter": "plusA"
 		}
 		},
-// Bulletin Board Chef's PlusB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Bulletin Board Chef's PlusB Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 		"LogName": "Bulletin Board: Chef's PlusB Bundle",
 		"Action": "EditData",
@@ -755,7 +791,7 @@
 			"MainBulletinBoardChef": "plusB"
 		}
 		},
-// Bulletin Board Fodder PlusB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Bulletin Board Fodder PlusB Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 		"LogName": "Bulletin Board: Fodder PlusB Bundle",
 		"Action": "EditData",
@@ -767,7 +803,7 @@
 			"MainBulletinBoardFodder": "plusB"
 		}
 		},
-// Bulletin Board Enchanter's PlusB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items.The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Bulletin Board Enchanter's PlusB Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 		"LogName": "Bulletin Board: Enchanter's PlusB Bundle",
 		"Action": "EditData",
