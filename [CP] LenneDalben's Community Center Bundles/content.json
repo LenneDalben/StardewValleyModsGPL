@@ -24,7 +24,7 @@
 		"MainPantryArtisan": {
 			"Description": "Choose between twist, lite, plus, or false. Twist replaces some items with JA items. Lite adds options for JA items. Plus requires JA items. All options have vanilla rewards (unadjusted).",
 			"AllowValues": "twist, lite, plus, false",
-			"Default": "liteA"
+			"Default": "lite"
 		},
 		"MainBulletinBoardChef": {
 			"Description": "Choose between twistA, liteA, plusA, twistB, liteB, plusB, or false. Twist replaces some items with JA items. Lite adds options for JA items. Plus requires JA items. Options with A have adjusted rewards. Options with B have vanilla rewards (unadjusted).",
@@ -34,12 +34,12 @@
 		"MainBulletinBoardDye": {
 			"Description": "Choose between twist, lite, plus, or false. Twist replaces some items with JA items. Lite adds options for JA items. Plus requires JA items. All options have vanilla rewards (unadjusted).",
 			"AllowValues": "twist, lite, plus, false",
-			"Default": "liteA"
+			"Default": "lite"
 		},
 		"MainBulletinBoardFieldResearch": {
 			"Description": "Choose between twist, lite, plus, or false. Twist replaces some items with JA items. Lite adds options for JA items. Plus requires JA items. All options have vanilla rewards (unadjusted).",
 			"AllowValues": "twist, lite, plus, false",
-			"Default": "liteA"
+			"Default": "lite"
 		},
 		"MainBulletinBoardFodder": {
 			"Description": "Choose between twistA, liteA, plusA, twistB, liteB, plusB, or false. Twist replaces some items with JA items. Lite adds options for JA items. Plus requires JA items. Options with A have adjusted rewards. Options with B have vanilla rewards (unadjusted).",
