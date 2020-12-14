@@ -874,7 +874,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/0": "" // This definitely isn't the right number
+				"Boiler Room/20": "Blacksmith's/BO 13 1/334 1 0 335 1 0 336 1 0/2"
 			},
 			"When": {
 				"Extras:BoilerRoom:Blacksmith": "A"
@@ -886,7 +886,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/0": "" // This definitely isn't the right number
+				"Boiler Room/21": "Geologist's/O 749 5/80 1 0 86 1 0 84 1 0 82 1 0/1"
 			},
 			"When": {
 				"Extras:BoilerRoom:Geologist": "A"
@@ -937,7 +937,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/0": "" // This definitely isn't the right number
+				"Vault/23": "2,500g/O 220 3/-1 2500 2500/4"
 			},
 			"When": {
 				"Extras:Vault:2500": "true"
@@ -949,7 +949,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/0": "" // This definitely isn't the right number
+				"Vault/24": "5,000g/O 369 30/-1 5000 5000/2"
 			},
 			"When": {
 				"Extras:Vault:5000": "true"
@@ -961,7 +961,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/0": "" // This definitely isn't the right number
+				"Vault/25": "10,000g/BO 9 1/-1 10000 10000/3"
 			},
 			"When": {
 				"Extras:Vault:10000": "true"
@@ -973,7 +973,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/0": "" // This definitely isn't the right number
+				"Vault/26": "25,000g/BO 21 1/-1 25000 25000/1"
 			},
 			"When": {
 				"Extras:Vault:25000": "true"
@@ -985,7 +985,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/0": "" // This definitely isn't the right number
+				"Fish Tank/6": "River Fish/O 685 30/145 1 0 143 1 0 706 1 0 699 1 0/6"
 			},
 			"When": {
 				"Extras:FishTank:BeginnerFish": "A"
@@ -997,7 +997,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/0": "" // This definitely isn't the right number
+				"Fish Tank/7": "Lake Fish/O 687 1/136 1 0 142 1 0 700 1 0 698 1 0/0"
 			},
 			"When": {
 				"Extras:FishTank:IntermediateFish": "A"
@@ -1009,7 +1009,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/0": "" // This definitely isn't the right number
+				"Fish Tank/8": "Ocean Fish/O 690 5/131 1 0 130 1 0 150 1 0 701 1 0/5"
 			},
 			"When": {
 				"Extras:FishTank:AdvancedFish": "A"
@@ -1021,7 +1021,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/0": "" // This definitely isn't the right number
+				"Fish Tank/9": "Night Fishing/R 516 1/140 1 0 132 1 0 148 1 0/1"
 			},
 			"When": {
 				"Extras:FishTank:NightFish": "A"
@@ -1033,7 +1033,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/0": "" // This definitely isn't the right number
+				"Fish Tank/11": "Crab Pot/O 710 3/715 1 0 716 1 0 717 1 0 718 1 0 719 1 0 720 1 0 721 1 0 722 1 0 723 1 0 372 1 0/1/5"
 			},
 			"When": {
 				"Extras:FishTank:CrabPot": "A"
@@ -1045,7 +1045,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/0": "" // This definitely isn't the right number
+				"Fish Tank/10": "Specialty Fish/O 242 5/128 1 0 156 1 0 164 1 0 734 1 0/4"
 			},
 			"When": {
 				"Extras:FishTank:SpecialtyFish": "A"
