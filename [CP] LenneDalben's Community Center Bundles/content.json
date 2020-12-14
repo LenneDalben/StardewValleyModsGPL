@@ -102,8 +102,8 @@
 			"Default": "false"
 		},
 		"ExtrasBoilerRoomGemologistRingReward": {
-			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false (deactivated).",
-			"AllowValues": "slime, magnet, N/A", // will N/A work?
+			"Description": "If Gemologist option A is toggled, choose slime or magnet. If Gemologist option B is toggled, or Gemologist is not toggled (false), choose N/A.",
+			"AllowValues": "slime, magnet, N/A",
 			"Default": "N/A"
 		},
 		"ExtrasVault2500": {
