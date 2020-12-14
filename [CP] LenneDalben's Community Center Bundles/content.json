@@ -477,16 +477,28 @@
 				"MainPantrySpringCrops": "liteB"
 			}
 		},
-// Pantry Summer Crops LiteB Bundle. These are the vanilla bundles with some options for JA items, so it's a little bit easier. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Pantry Summer Crops LiteB1 Bundle. These are the vanilla bundles with some options for JA items, so it's a little bit easier. The reward for the bundle has NOT been adjusted, so it's the same as vanilla. A1 has raspberry, which can't be obtained until year 2.
 		{
-			"LogName": "Pantry: Summer Crops LiteB Bundle",
+			"LogName": "Pantry: Summer Crops LiteB1 Bundle",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/1": "Summer Crops/O 621 1/256 1 0 260 1 0 258 1 0 254 1 0/3"
+				"Pantry/1": "Summer Crops/BO 17 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Raspberry} 1 0/3"
 			},
 			"When": {
-				"MainPantrySummerCrops": "liteB"
+				"MainPantrySummerCrops": "liteB1"
+			}
+		},
+// Pantry Summer Crops LiteB2 Bundle. These are the vanilla bundles with some options for JA items, so it's a little bit easier. The reward for the bundle has NOT been adjusted, so it's the same as vanilla. B2 has wasabi root instead of raspberry.
+		{
+			"LogName": "Pantry: Summer Crops LiteB2 Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/1": "Summer Crops/BO 17 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Wasabi Root} 1 0/3"
+			},
+			"When": {
+				"MainPantrySummerCrops": "liteB2"
 			}
 		},
 // Pantry Fall Crops LiteB Bundle. These are the vanilla bundles with some options for JA items, so it's a little bit easier. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
