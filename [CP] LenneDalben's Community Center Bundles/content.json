@@ -156,7 +156,7 @@
 
 //	**********Main Section: Spring, Summer, Fall, and Quality Crops, Artisan, Chef's, Dye, Field Research, Fodder, and Enchanter**********
 
-				/*Twist Type*/
+				/**********Twist Type***********/
 // Pantry Spring Crops TwistA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
 		{
 			"LogName": "Pantry: Spring Crops TwistA Bundle",
@@ -375,7 +375,7 @@
 			}
 		},
 
-				/*Lite Type*/
+				/**********Lite Type**********/
 // Pantry Spring Crops LiteA Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has been adjusted.
 		{
 			"LogName": "Pantry: Spring Crops LiteA Bundle",
@@ -581,7 +581,7 @@
 			}
 		},
 
-				/*Plus Type*/
+				/**********Plus Type**********/
 // Pantry Spring Crops PlusA Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has been adjusted.
 		{
 			"LogName": "Pantry: Spring Crops PlusA Bundle",
