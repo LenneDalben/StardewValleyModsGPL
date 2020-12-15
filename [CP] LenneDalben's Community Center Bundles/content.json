@@ -386,7 +386,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/0": "Spring Crops/O 465 20/24 1 0 188 1 0 190 1 0 192 1 0/0"
+				"Pantry/0": "Spring Crops/O 369 15/24 1 0 {{spacechase0.jsonAssets/ObjectId:Passion Fruit}} 1 0 188 1 0 {{spacechase0.jsonAssets/ObjectId:Onion}} 1 0 190 1 0 192 1 0/0/5"
 			},
 			"When": {
 				"MainPantrySpringCrops": "liteA"
@@ -398,7 +398,7 @@
 	"Action": "EditData",
 	"Target": "Data/Bundles",
 	"Entries": {
-		"Pantry/1": "Summer Crops/BO 17 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Raspberry}} 1 0/3"
+		"Pantry/1": "Summer Crops/BO 17 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Raspberry}} 1 0 254 1 0 260 1 0/3/4"
 	},
 	"When": {
 		"MainPantrySummerCrops": "liteA1"
