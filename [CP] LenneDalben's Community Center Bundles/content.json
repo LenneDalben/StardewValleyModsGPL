@@ -689,7 +689,7 @@
 		"Action": "EditData",
 		"Target": "Data/Bundles",
 		"Entries": {
-			"Pantry/2": "Fall Crops/BO 15 1/270 1 0 {{spacechase0.jsonAssets/ObjectId:Sweet Potato}} 1 0 276 1 0 280 1 0 {{spacechase0.jsonAssets/ObjectId:Kiwi}} 1 0 272 1 0/2"
+			"Pantry/2": "Fall Crops/BO 10 1/270 1 0 {{spacechase0.jsonAssets/ObjectId:Sweet Potato}} 1 0 276 1 0 280 1 0 {{spacechase0.jsonAssets/ObjectId:Kiwi}} 1 0 272 1 0/2"
 		},
 		"When": {
 			"MainPantryFallCrops": "plusB"
