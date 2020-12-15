@@ -10,10 +10,10 @@ Twist:
 These are most like the base game (vanilla) bundles, but with some items swapped for JA items.
 
 Lite:
-These are the vanilla bundles with some options for JA items, so it's a little bit easier than the Plus version.
+These are similar to the vanilla bundles with some options for JA items, so it's a little bit easier than the Plus version.
 
 Plus:
-These are the vanilla bundles with some requirements for JA items, so it's a little bit harder than the Lite version.
+These are similar to the vanilla bundles with some requirements for JA items, so it's a little bit harder than the Lite version.
 
 Extra Options
 These are bundles that don't require JA items, but the requirements have been adjusted, and some of the rewards have been adjusted as well. There are A (adjusted rewards) and B (vanilla rewards) options, and each can be toggled on or off. Some have only true or false options in the config.
