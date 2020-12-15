@@ -9,7 +9,7 @@
 		"MainPantrySummerCrops": {
 			"Description": "Choose between twistA1, twistA2, liteA1, liteA2, plusA1, plusA2, twistB1, twistB2, liteB1, liteB2, plusB1, plusB2, or false. Twist replaces some items with JA items. Lite adds options for JA items. Plus requires JA items. Options with A have adjusted rewards. Options with B have vanilla rewards (unadjusted). Option 1 is for raspberry (available starting in year 2). Option 2 is for wasabi root.",
 			"AllowValues": "twistA1, twistA2, liteA1, liteA2, plusA1, plusA2, twistB1, twistB2, liteB1, liteB2, plusB1, plusB2, false",
-			"Default": "liteA"
+			"Default": "liteA1"
 		},
 		"MainPantryFallCrops": {
 			"Description": "Choose between twistA, liteA, plusA, twistB, liteB, plusB, or false. Twist replaces some items with JA items. Lite adds options for JA items. Plus requires JA items. Options with A have adjusted rewards. Options with B have vanilla rewards (unadjusted).",
@@ -57,47 +57,47 @@
 			"Default": "true"
 		},
 		"ExtrasCraftsRoomSpringForaging": {
-			"Description": "Choose true (activated) or false (deactivated). The reward is the same as vanilla (unadjusted).",
+			"Description": "Choose true (activated) or false. The reward is the same as vanilla (unadjusted).",
 			"AllowValues": "true, false",
 			"Default": "true"
 		},
 		"ExtrasCraftsRoomSummerForaging": {
-			"Description": "Choose true (activated) or false (deactivated). The reward is the same as vanilla (unadjusted).",
+			"Description": "Choose true (activated) or false. The reward is the same as vanilla (unadjusted).",
 			"AllowValues": "true, false",
 			"Default": "true"
 		},
 		"ExtrasCraftsRoomFallForaging": {
-			"Description": "Choose true (activated) or false (deactivated). The reward is the same as vanilla (unadjusted).",
+			"Description": "Choose true (activated) or false. The reward is the same as vanilla (unadjusted).",
 			"AllowValues": "true, false",
 			"Default": "true"
 		},
 		"ExtrasCraftsRoomWinterForaging": {
-			"Description": "Choose true (activated) or false (deactivated). The reward is the same as vanilla (unadjusted).",
+			"Description": "Choose true (activated) or false. The reward is the same as vanilla (unadjusted).",
 			"AllowValues": "true, false",
 			"Default": "true"
 		},
 		"ExtrasCraftsRoomExoticForaging": {
-			"Description": "Choose true (activated) or false (deactivated). The reward is the same as vanilla (unadjusted).",
+			"Description": "Choose true (activated) or false. The reward is the same as vanilla (unadjusted).",
 			"AllowValues": "true, false",
 			"Default": "true"
 		},
 		"ExtrasCraftsRoomConstructionandCrafting": {
-			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false (deactivated).",
+			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false.",
 			"AllowValues": "A, B, false",
 			"Default": "A"
 		},
 		"ExtrasBoilerRoomBlacksmith": {
-			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false (deactivated).",
+			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false.",
 			"AllowValues": "A, B, false",
 			"Default": "A"
 		},
 		"ExtrasBoilerRoomGeologist": {
-			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false (deactivated).",
+			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false.",
 			"AllowValues": "A, B, false",
 			"Default": "A"
 		},
 		"ExtrasBoilerRoomGemologist": {
-			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false (deactivated).",
+			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false.",
 			"AllowValues": "A, B, false",
 			"Default": "false"
 		},
@@ -107,47 +107,47 @@
 			"Default": "N/A"
 		},
 		"ExtrasVault2500": {
-			"Description": "Choose true (activated, adjusted reward) or false (deactivated).",
+			"Description": "Choose true (activated, adjusted reward) or false.",
 			"AllowValues": "true, false",
 			"Default": "true"
 		},
 		"ExtrasVault5000": {
-			"Description": "Choose true (activated, adjusted reward) or false (deactivated).",
+			"Description": "Choose true (activated, adjusted reward) or false.",
 			"AllowValues": "true, false",
 			"Default": "true"
 		},
 		"ExtrasVault10000": {
-			"Description": "Choose true (activated, adjusted reward) or false (deactivated).",
+			"Description": "Choose true (activated, adjusted reward) or false.",
 			"AllowValues": "true, false",
 			"Default": "true"
 		},
 		"ExtrasFishTankBeginnerFish": {
-			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false (deactivated).",
+			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false.",
 			"AllowValues": "A, B, false",
 			"Default": "A"
 		},
 		"ExtrasFishTankIntermediateFish": {
-			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false (deactivated).",
+			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false.",
 			"AllowValues": "A, B, false",
 			"Default": "A"
 		},
 		"ExtrasFishTankAdvancedFish": {
-			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false (deactivated).",
+			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false.",
 			"AllowValues": "A, B, false",
 			"Default": "A"
 		},
 		"ExtrasFishTankNightFish": {
-			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false (deactivated).",
+			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false.",
 			"AllowValues": "A, B, false",
 			"Default": "A"
 		},
 		"ExtrasFishTankCrabPot": {
-			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false (deactivated).",
+			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false.",
 			"AllowValues": "A, B, false",
 			"Default": "A"
 		},
 		"ExtrasFishTankSpecialtyFish": {
-			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false (deactivated).",
+			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false.",
 			"AllowValues": "A, B, false",
 			"Default": "A"
 		}
