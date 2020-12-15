@@ -22,9 +22,9 @@
 			"Default": "liteA"
 		},
 		"MainPantryArtisan": {
-			"Description": "Choose between twist, lite, plus, or false. Twist replaces some items with JA items. Lite adds options for JA items. Plus requires JA items. All options have vanilla rewards (unadjusted).",
-			"AllowValues": "twist, lite, plus, false",
-			"Default": "lite"
+			"Description": "Choose true (activated with some JA items) or false. The reward is the same as vanilla (unadjusted).",
+			"AllowValues": "true, false",
+			"Default": "true"
 		},
 		"MainBulletinBoardChef": {
 			"Description": "Choose between twistA, liteA, plusA, twistB, liteB, plusB, or false. Twist replaces some items with JA items. Lite adds options for JA items. Plus requires JA items. Options with A have adjusted rewards. Options with B have vanilla rewards (unadjusted).",
@@ -223,16 +223,16 @@
 				"MainPantryQualityCrops": "twistA"
 			}
 		},
-// Pantry Artisan Twist Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Pantry Artisan Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
-			"LogName": "Pantry: Artisan Twist Bundle",
+			"LogName": "Pantry: Artisan Bundle",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
 				"Pantry/5": "Artisan/BO 12 1/432 1 0 428 1 0 426 1 0 {{spacechase0.jsonAssets/ObjectId:Brown Sugar}} 1 0 340 1 0 344 1 0 {{spacechase0.jsonAssets/ObjectId:Granny Smith Apple}} 1 0 634 1 0 {{spacechase0.jsonAssets/ObjectId:Papaya}} 1 0 636 1 0 {{spacechase0.jsonAssets/ObjectId:Walnut}} 1 0 638 1 0/1/6"
 			},
 			"When": {
-				"MainPantryArtisan": "twist"
+				"MainPantryArtisan": "true"
 			}
 		},
 // Pantry Spring Crops TwistB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -345,7 +345,7 @@
 		},
 // Bulletin Board Enchanter's Twist Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
-			"LogName": "Bulletin Board: Enchanter's TwistA Bundle",
+			"LogName": "Bulletin Board: Enchanter's Twist Bundle",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
@@ -379,6 +379,7 @@
 				"MainBulletinBoardFodder": "twistB"
 			}
 		},
+
 				/*Lite Type*/
 // Pantry Spring Crops LiteA Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has been adjusted.
 		{
@@ -422,7 +423,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/2": "Fall Crops/BO 10 1/270 1 0 272 1 0 276 1 0 280 1 0/2"
+				"Pantry/2": "Fall Crops/BO 15 1/270 1 0 {{spacechase0.jsonAssets/ObjectId:Sweet Potato}} 1 0 276 1 0 280 1 0 {{spacechase0.jsonAssets/ObjectId:Kiwi}} 1 0 272 1 0/2/5"
 			},
 			"When": {
 				"MainPantryFallCrops": "liteA"
@@ -434,22 +435,10 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/3": "Quality Crops/BO 15 1/24 5 2 254 5 2 276 5 2 270 5 2/6/3"
+				"Pantry/3": "Quality Crops/BO 19 1/24 5 2 {{spacechase0.jsonAssets/ObjectId:Passion Fruit}} 5 2 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 5 2 254 5 2 276 5 2 270 5 2/6/4"
 			},
 			"When": {
 				"MainPantryQualityCrops": "liteA"
-			}
-		},
-// Pantry Artisan Lite Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
-		{
-			"LogName": "Pantry: Artisan Lite Bundle",
-			"Action": "EditData",
-			"Target": "Data/Bundles",
-			"Entries": {
-				"Pantry/5": "Artisan/BO 12 1/432 1 0 428 1 0 426 1 0 424 1 0 340 1 0 344 1 0 613 1 0 634 1 0 635 1 0 636 1 0 637 1 0 638 1 0/1/6"
-			},
-			"When": {
-				"MainPantryArtisan": "lite"
 			}
 		},
 // Pantry Spring Crops LiteB Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -458,7 +447,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/0": "Spring Crops/O 465 20/24 1 0 188 1 0 190 1 0 192 1 0/0"
+				"Pantry/0": "Spring Crops/O 465 20/24 1 0 {{spacechase0.jsonAssets/ObjectId:Passion Fruit}} 1 0 188 1 0 {{spacechase0.jsonAssets/ObjectId:Onion}} 1 0 190 1 0 192 1 0/0/5"
 			},
 			"When": {
 				"MainPantrySpringCrops": "liteB"
@@ -470,7 +459,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/1": "Summer Crops/BO 17 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Raspberry}} 1 0/3"
+				"Pantry/1": "Summer Crops/O 621 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Raspberry}} 1 0 254 1 0 260 1 0/3/5"
 			},
 			"When": {
 				"MainPantrySummerCrops": "liteB1"
@@ -482,7 +471,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/1": "Summer Crops/BO 17 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Wasabi Root}} 1 0/3"
+				"Pantry/1": "Summer Crops/O 621 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Wasabi Root}} 1 0 254 1 0 260 1 0/3/5"
 			},
 			"When": {
 				"MainPantrySummerCrops": "liteB2"
@@ -494,7 +483,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/2": "Fall Crops/BO 10 1/270 1 0 272 1 0 276 1 0 280 1 0/2"
+				"Pantry/2": "Fall Crops/BO 10 1/270 1 0 {{spacechase0.jsonAssets/ObjectId:Sweet Potato}} 1 0 276 1 0 280 1 0 {{spacechase0.jsonAssets/ObjectId:Kiwi}} 1 0 272 1 0/2/5"
 			},
 			"When": {
 				"MainPantryFallCrops": "liteB"
@@ -506,7 +495,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/3": "Quality Crops/BO 15 1/24 5 2 254 5 2 276 5 2 270 5 2/6/3"
+				"Pantry/3": "Quality Crops/BO 15 1/24 5 2 {{spacechase0.jsonAssets/ObjectId:Passion Fruit}} 5 2 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 5 2 254 5 2 276 5 2 270 5 2/6/4"
 			},
 			"When": {
 				"MainPantryQualityCrops": "liteB"
@@ -518,7 +507,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Bulletin Board/31": "Chef's/O 221 3/724 1 0 259 1 0 430 1 0 376 1 0 228 1 0 194 1 0/4"
+				"Bulletin Board/31": "Chef's/O {{spacechase0.jsonAssets/ObjectId:Chef Salad}} 3/724 1 0 {{spacechase0.jsonAssets/ObjectId:Banana Pudding}} 1 0 430 1 0 {{spacechase0.jsonAssets/ObjectId:Sweet Potato Fries}} 1 0 228 1 0 {{spacechase0.jsonAssets/ObjectId:Cranberry Pomegranata Tea}} 1 0 259 1 0 {{spacechase0.jsonAssets/ObjectId:Spice Tea}} 1 0 376 1 0 194 1 0 306 1 0/4/6"
 			},
 			"When": {
 				"MainBulletinBoardChef": "liteA"
@@ -530,7 +519,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Bulletin Board/34": "Dye/BO 25 1/420 1 0 397 1 0 421 1 0 444 1 0 62 1 0 266 1 0/6"
+				"Bulletin Board/34": "Dye/BO 25 1/420 1 0 {{spacechase0.jsonAssets/ObjectId:Summmer Rose}} 1 0 421 1 0 {{spacechase0.jsonAssets/ObjectId:Passion Flower}} 1 0 266 1 0 {{spacechase0.jsonAssets/ObjectId:Spinach}} 1 0 444 1 0 62 1 0 {{spacechase0.jsonAssets/ObjectId:Gooseberry}} 1 0 397 1 0/6/6"
 			},
 			"When": {
 				"MainBulletinBoardDye": "lite"
@@ -542,7 +531,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Bulletin Board/32": "Field Research/BO 20 1/422 1 0 392 1 0 702 1 0 536 1 0/5"
+				"Bulletin Board/32": "Field Research/BO 20 1/422 1 0 {{spacechase0.jsonAssets/ObjectId:Chamomile Tea}} 1 0 392 1 0 702 1 0 536 1 0/5/4"
 			},
 			"When": {
 				"MainBulletinBoardFieldResearch": "lite"
@@ -554,22 +543,22 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Bulletin Board/35": "Fodder/BO 104 1/262 10 0 178 10 0 613 3 0/3"
+				"Bulletin Board/35": "Fodder/BO 10 1/262 10 0 {{spacechase0.jsonAssets/ObjectId:Barley}} 10 0 178 10 0 {{spacechase0.jsonAssets/ObjectId:Asian Pear}} 3 0 613 3 0/3/4"
 			},
 			"When": {
 				"MainBulletinBoardFodder": "liteA"
 			}
 		},
-// Bulletin Board Enchanter's LiteA Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has been adjusted.
+// Bulletin Board Enchanter's Lite Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
-			"LogName": "Bulletin Board: Enchanter's LiteA Bundle",
+			"LogName": "Bulletin Board: Enchanter's Lite Bundle",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Bulletin Board/33": "Enchanter's/O 336 5/725 1 0 348 1 0 446 1 0 637 1 0/1"
+				"Bulletin Board/33": "Enchanter's/O 336 5/725 1 0 {{spacechase0.jsonAssets/ObjectId:Fragrant Wisteria}} 1 0 446 1 0 637 1 0 {{spacechase0.jsonAssets/ObjectId:Dragon Fruit}} 1 0 348 1 0/1/5"
 			},
 			"When": {
-				"MainBulletinBoardEnchanter": "liteA"
+				"MainBulletinBoardEnchanter": "lite"
 			}
 		},
 // Bulletin Board Chef's LiteB Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -578,7 +567,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Bulletin Board/31": "Chef's/O 221 3/724 1 0 259 1 0 430 1 0 376 1 0 228 1 0 194 1 0/4"
+				"Bulletin Board/31": "Chef's/O 221 3/724 1 0 {{spacechase0.jsonAssets/ObjectId:Banana Pudding}} 1 0 430 1 0 {{spacechase0.jsonAssets/ObjectId:Sweet Potato Fries}} 1 0 228 1 0 {{spacechase0.jsonAssets/ObjectId:Cranberry Pomegranata Tea}} 1 0 259 1 0 {{spacechase0.jsonAssets/ObjectId:Spice Tea}} 1 0 376 1 0 194 1 0 306 1 0/4/6"
 			},
 			"When": {
 				"MainBulletinBoardChef": "liteB"
@@ -590,22 +579,10 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Bulletin Board/35": "Fodder/BO 104 1/262 10 0 178 10 0 613 3 0/3"
+				"Bulletin Board/35": "Fodder/BO 104 1/262 10 0 {{spacechase0.jsonAssets/ObjectId:Barley}} 10 0 178 10 0 {{spacechase0.jsonAssets/ObjectId:Asian Pear}} 3 0 613 3 0/3/4"
 			},
 			"When": {
 				"MainBulletinBoardFodder": "liteB"
-			}
-		},
-// Bulletin Board Enchanter's LiteB Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
-		{
-			"LogName": "Bulletin Board: Enchanter's LiteB Bundle",
-			"Action": "EditData",
-			"Target": "Data/Bundles",
-			"Entries": {
-				"Bulletin Board/33": "Enchanter's/O 336 5/725 1 0 348 1 0 446 1 0 637 1 0/1"
-			},
-			"When": {
-				"MainBulletinBoardEnchanter": "liteB"
 			}
 		},
 
@@ -668,18 +645,6 @@
 		},
 		"When": {
 			"MainPantryQualityCrops": "plusA"
-		}
-		},
-// Pantry Artisan Plus Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
-		{
-		"LogName": "Pantry: Artisan Plus Bundle",
-		"Action": "EditData",
-		"Target": "Data/Bundles",
-		"Entries": {
-			"Pantry/5": "Artisan/BO 12 1/432 1 0 428 1 0 426 1 0 424 1 0 340 1 0 344 1 0 613 1 0 634 1 0 635 1 0 636 1 0 637 1 0 638 1 0/1/6"
-		},
-		"When": {
-			"MainPantryArtisan": "plus"
 		}
 		},
 // Pantry Spring Crops PlusB Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
