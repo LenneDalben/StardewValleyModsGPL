@@ -513,7 +513,7 @@
 				"MainBulletinBoardChef": "liteA"
 			}
 		},
-// Bulletin Board Dye Bundle Lite. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Bulletin Board Dye Lite Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Bulletin Board: Dye Lite Bundle",
 			"Action": "EditData",
@@ -525,7 +525,7 @@
 				"MainBulletinBoardDye": "lite"
 			}
 		},
-// Bulletin Board Field Research Bundle Lite. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Bulletin Board Field Research Lite Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Bulletin Board: Field Research Lite Bundle",
 			"Action": "EditData",
@@ -719,7 +719,7 @@
 			"MainBulletinBoardChef": "plusA"
 		}
 		},
-// Bulletin Board Dye Bundle Plus. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Bulletin Board Dye Plus Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 		"LogName": "Bulletin Board: Dye Plus Bundle",
 		"Action": "EditData",
@@ -731,7 +731,7 @@
 			"MainBulletinBoardDye": "plus"
 		}
 		},
-// Bulletin Board Field Research Bundle Plus. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Bulletin Board Field Research Plus Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 		"LogName": "Bulletin Board: Field Research Plus Bundle",
 		"Action": "EditData",
