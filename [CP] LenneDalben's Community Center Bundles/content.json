@@ -307,7 +307,7 @@
 				"MainBulletinBoardChef": "twistA"
 			}
 		},
-// Bulletin Board Dye Bundle Twist. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Bulletin Board Dye Twist Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Bulletin Board: Dye Twist Bundle",
 			"Action": "EditData",
@@ -319,7 +319,7 @@
 				"MainBulletinBoardDye": "twist"
 			}
 		},
-// Bulletin Board Field Research Bundle Twist. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Bulletin Board Field Research Twist Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Bulletin Board: Field Research Twist Bundle",
 			"Action": "EditData",
