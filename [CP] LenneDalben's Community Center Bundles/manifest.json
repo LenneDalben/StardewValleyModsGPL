@@ -12,6 +12,10 @@
     },
     "Dependencies": [
         {
+            "UniqueID": "spacechase0.jsonAssets",
+            "IsRequired": "true"
+        },
+        {
             "UniqueID": "ppja.fruitsandveggies",
             "IsRequired": "true"
         },
