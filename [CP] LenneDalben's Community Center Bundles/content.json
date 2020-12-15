@@ -394,29 +394,29 @@
 			}
 		},
 // Pantry Summer Crops LiteA1 Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has been adjusted. A1 has raspberry, which can't be obtained until year 2.
-{
-	"LogName": "Pantry: Summer Crops LiteA1 Bundle",
-	"Action": "EditData",
-	"Target": "Data/Bundles",
-	"Entries": {
-		"Pantry/1": "Summer Crops/BO 17 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Raspberry}} 1 0 254 1 0 260 1 0/3/5"
-	},
-	"When": {
-		"MainPantrySummerCrops": "liteA1"
-	}
-},
+		{
+			"LogName": "Pantry: Summer Crops LiteA1 Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/1": "Summer Crops/BO 17 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Raspberry}} 1 0 254 1 0 260 1 0/3/5"
+			},
+			"When": {
+				"MainPantrySummerCrops": "liteA1"
+			}
+		},
 // Pantry Summer Crops LiteA2 Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has been adjusted. A2 has wasabi root instead of raspberry.
-{
-	"LogName": "Pantry: Summer Crops LiteA2 Bundle",
-	"Action": "EditData",
-	"Target": "Data/Bundles",
-	"Entries": {
-		"Pantry/1": "Summer Crops/BO 17 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Wasabi Root}} 1 0 254 1 0 260 1 0/3/5"
-	},
-	"When": {
-		"MainPantrySummerCrops": "liteA2"
-	}
-},
+		{
+			"LogName": "Pantry: Summer Crops LiteA2 Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/1": "Summer Crops/BO 17 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Wasabi Root}} 1 0 254 1 0 260 1 0/3/5"
+			},
+			"When": {
+				"MainPantrySummerCrops": "liteA2"
+			}
+		},
 // Pantry Fall Crops LiteA Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has been adjusted.
 		{
 			"LogName": "Pantry: Fall Crops LiteA Bundle",
@@ -589,11 +589,11 @@
 				/*Plus Type*/
 // Pantry Spring Crops PlusA Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has been adjusted.
 		{
-		"LogName": "Pantry: Spring Crops PlusA Bundle",
-		"Action": "EditData",
-		"Target": "Data/Bundles",
-		"Entries": {
-			"Pantry/0": "Spring Crops/O 369 15/24 1 0 {{spacechase0.jsonAssets/ObjectId:Passion Fruit}} 1 0 188 1 0 {{spacechase0.jsonAssets/ObjectId:Onion}} 1 0 190 1 0 192 1 0/0"
+			"LogName": "Pantry: Spring Crops PlusA Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/0": "Spring Crops/O 369 15/24 1 0 {{spacechase0.jsonAssets/ObjectId:Passion Fruit}} 1 0 188 1 0 {{spacechase0.jsonAssets/ObjectId:Onion}} 1 0 190 1 0 192 1 0/0"
 			},
 			"When": {
 				"MainPantrySpringCrops": "plusA"
@@ -611,7 +611,7 @@
 				"MainPantrySummerCrops": "plusA1"
 			}
 		},
-		// Pantry Summer Crops PlusA2 Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has been adjusted. A2 has wasabi root instead of raspberry.
+// Pantry Summer Crops PlusA2 Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has been adjusted. A2 has wasabi root instead of raspberry.
 		{
 			"LogName": "Pantry: Summer Crops PlusA2 Bundle",
 			"Action": "EditData",
@@ -625,39 +625,39 @@
 		},
 // Pantry Fall Crops PlusA Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has been adjusted.
 		{
-		"LogName": "Pantry: Fall Crops PlusA Bundle",
-		"Action": "EditData",
-		"Target": "Data/Bundles",
-		"Entries": {
-			"Pantry/2": "Fall Crops/BO 15 1/270 1 0 {{spacechase0.jsonAssets/ObjectId:Sweet Potato}} 1 0 276 1 0 280 1 0 {{spacechase0.jsonAssets/ObjectId:Kiwi}} 1 0 272 1 0/2"
-		},
+			"LogName": "Pantry: Fall Crops PlusA Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/2": "Fall Crops/BO 15 1/270 1 0 {{spacechase0.jsonAssets/ObjectId:Sweet Potato}} 1 0 276 1 0 280 1 0 {{spacechase0.jsonAssets/ObjectId:Kiwi}} 1 0 272 1 0/2"
+			},
 		"When": {
 			"MainPantryFallCrops": "plusA"
-		}
+			}
 		},
 // Pantry Quality Crops PlusA Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has been adjusted.
 		{
-		"LogName": "Pantry: Quality Crops PlusA Bundle",
-		"Action": "EditData",
-		"Target": "Data/Bundles",
-		"Entries": {
-			"Pantry/3": "Quality Crops/BO 19 1/24 5 2 {{spacechase0.jsonAssets/ObjectId:Passion Fruit}} 5 2 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 5 2 254 5 2 276 5 2 270 5 2/6"
-		},
+			"LogName": "Pantry: Quality Crops PlusA Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/3": "Quality Crops/BO 19 1/24 5 2 {{spacechase0.jsonAssets/ObjectId:Passion Fruit}} 5 2 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 5 2 254 5 2 276 5 2 270 5 2/6"
+			},
 		"When": {
 			"MainPantryQualityCrops": "plusA"
-		}
+			}
 		},
 // Pantry Spring Crops PlusB Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
-		"LogName": "Pantry: Spring Crops PlusB Bundle",
-		"Action": "EditData",
-		"Target": "Data/Bundles",
-		"Entries": {
-			"Pantry/0": "Spring Crops/O 465 20/24 1 0 {{spacechase0.jsonAssets/ObjectId:Passion Fruit}} 1 0 188 1 0 {{spacechase0.jsonAssets/ObjectId:Onion}} 1 0 190 1 0 192 1 0/0"
-		},
+			"LogName": "Pantry: Spring Crops PlusB Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/0": "Spring Crops/O 465 20/24 1 0 {{spacechase0.jsonAssets/ObjectId:Passion Fruit}} 1 0 188 1 0 {{spacechase0.jsonAssets/ObjectId:Onion}} 1 0 190 1 0 192 1 0/0"
+			},
 		"When": {
 			"MainPantrySpringCrops": "plusB"
-		}
+			}
 		},
 // Pantry Summer Crops PlusB1 Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has NOT been adjusted, so it's the same as vanilla. A1 has raspberry, which can't be obtained until year 2.
 		{
@@ -685,111 +685,111 @@
 		},
 // Pantry Fall Crops PlusB Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
-		"LogName": "Pantry: Fall Crops PlusB Bundle",
-		"Action": "EditData",
-		"Target": "Data/Bundles",
-		"Entries": {
-			"Pantry/2": "Fall Crops/BO 10 1/270 1 0 {{spacechase0.jsonAssets/ObjectId:Sweet Potato}} 1 0 276 1 0 280 1 0 {{spacechase0.jsonAssets/ObjectId:Kiwi}} 1 0 272 1 0/2"
-		},
-		"When": {
-			"MainPantryFallCrops": "plusB"
-		}
+			"LogName": "Pantry: Fall Crops PlusB Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/2": "Fall Crops/BO 10 1/270 1 0 {{spacechase0.jsonAssets/ObjectId:Sweet Potato}} 1 0 276 1 0 280 1 0 {{spacechase0.jsonAssets/ObjectId:Kiwi}} 1 0 272 1 0/2"
+			},
+			"When": {
+				"MainPantryFallCrops": "plusB"
+			}
 		},
 // Pantry Quality Crops PlusB Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
-		"LogName": "Pantry: Quality Crops PlusB Bundle",
-		"Action": "EditData",
-		"Target": "Data/Bundles",
-		"Entries": {
-			"Pantry/3": "Quality Crops/BO 15 1/24 5 2 {{spacechase0.jsonAssets/ObjectId:Passion Fruit}} 5 2 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 5 2 254 5 2 276 5 2 270 5 2/6"
-		},
-		"When": {
-			"MainPantryQualityCrops": "plusB"
-		}
+			"LogName": "Pantry: Quality Crops PlusB Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Pantry/3": "Quality Crops/BO 15 1/24 5 2 {{spacechase0.jsonAssets/ObjectId:Passion Fruit}} 5 2 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 5 2 254 5 2 276 5 2 270 5 2/6"
+			},
+			"When": {
+				"MainPantryQualityCrops": "plusB"
+			}
 		},
 // Bulletin Board Chef's PlusA Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has been adjusted.
 		{
-		"LogName": "Bulletin Board: Chef's PlusA Bundle",
-		"Action": "EditData",
-		"Target": "Data/Bundles",
-		"Entries": {
-			"Bulletin Board/31": "Chef's/O {{spacechase0.jsonAssets/ObjectId:Chef Salad}} 3/724 1 0 {{spacechase0.jsonAssets/ObjectId:Banana Pudding}} 1 0 430 1 0 {{spacechase0.jsonAssets/ObjectId:Sweet Potato Fries}} 1 0 228 1 0 {{spacechase0.jsonAssets/ObjectId:Cranberry Pomegranate Tea}} 1 0 259 1 0 {{spacechase0.jsonAssets/ObjectId:Spice Tea}} 1 0 376 1 0 194 1 0 306 1 0/4/10"
-		},
-		"When": {
-			"MainBulletinBoardChef": "plusA"
-		}
+			"LogName": "Bulletin Board: Chef's PlusA Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Bulletin Board/31": "Chef's/O {{spacechase0.jsonAssets/ObjectId:Chef Salad}} 3/724 1 0 {{spacechase0.jsonAssets/ObjectId:Banana Pudding}} 1 0 430 1 0 {{spacechase0.jsonAssets/ObjectId:Sweet Potato Fries}} 1 0 228 1 0 {{spacechase0.jsonAssets/ObjectId:Cranberry Pomegranate Tea}} 1 0 259 1 0 {{spacechase0.jsonAssets/ObjectId:Spice Tea}} 1 0 376 1 0 194 1 0 306 1 0/4/10"
+			},
+			"When": {
+				"MainBulletinBoardChef": "plusA"
+			}
 		},
 // Bulletin Board Dye Plus Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
-		"LogName": "Bulletin Board: Dye Plus Bundle",
-		"Action": "EditData",
-		"Target": "Data/Bundles",
-		"Entries": {
-			"Bulletin Board/34": "Dye/BO 25 1/420 1 0 {{spacechase0.jsonAssets/ObjectId:Summmer Rose}} 1 0 421 1 0 {{spacechase0.jsonAssets/ObjectId:Passion Flower}} 1 0 266 1 0 {{spacechase0.jsonAssets/ObjectId:Spinach}} 1 0 444 1 0 62 1 0 {{spacechase0.jsonAssets/ObjectId:Gooseberry}} 1 0 397 1 0/6"
-		},
-		"When": {
-			"MainBulletinBoardDye": "plus"
-		}
+			"LogName": "Bulletin Board: Dye Plus Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Bulletin Board/34": "Dye/BO 25 1/420 1 0 {{spacechase0.jsonAssets/ObjectId:Summmer Rose}} 1 0 421 1 0 {{spacechase0.jsonAssets/ObjectId:Passion Flower}} 1 0 266 1 0 {{spacechase0.jsonAssets/ObjectId:Spinach}} 1 0 444 1 0 62 1 0 {{spacechase0.jsonAssets/ObjectId:Gooseberry}} 1 0 397 1 0/6"
+			},
+			"When": {
+				"MainBulletinBoardDye": "plus"
+			}
 		},
 // Bulletin Board Field Research Plus Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
-		"LogName": "Bulletin Board: Field Research Plus Bundle",
-		"Action": "EditData",
-		"Target": "Data/Bundles",
-		"Entries": {
-			"Bulletin Board/32": "Field Research/BO 20 1/422 1 0 {{spacechase0.jsonAssets/ObjectId:Chamomile Tea}} 1 0 392 1 0 702 1 0 536 1 0/5"
-		},
-		"When": {
-			"MainBulletinBoardFieldResearch": "plus"
-		}
+			"LogName": "Bulletin Board: Field Research Plus Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Bulletin Board/32": "Field Research/BO 20 1/422 1 0 {{spacechase0.jsonAssets/ObjectId:Chamomile Tea}} 1 0 392 1 0 702 1 0 536 1 0/5"
+			},
+			"When": {
+				"MainBulletinBoardFieldResearch": "plus"
+			}
 		},
 // Bulletin Board Fodder PlusA Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has been adjusted.
 		{
-		"LogName": "Bulletin Board: Fodder PlusA Bundle",
-		"Action": "EditData",
-		"Target": "Data/Bundles",
-		"Entries": {
-			"Bulletin Board/35": "Fodder/BO 10 1/262 10 0 {{spacechase0.jsonAssets/ObjectId:Barley}} 10 0 178 10 0 {{spacechase0.jsonAssets/ObjectId:Asian Pear}} 3 0 613 3 0/3/4"
-		},
-		"When": {
-			"MainBulletinBoardFodder": "plusA"
-		}
+			"LogName": "Bulletin Board: Fodder PlusA Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Bulletin Board/35": "Fodder/BO 10 1/262 10 0 {{spacechase0.jsonAssets/ObjectId:Barley}} 10 0 178 10 0 {{spacechase0.jsonAssets/ObjectId:Asian Pear}} 3 0 613 3 0/3/4"
+			},
+			"When": {
+				"MainBulletinBoardFodder": "plusA"
+			}
 		},
 // Bulletin Board Enchanter's Plus Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has been adjusted.
 		{
-		"LogName": "Bulletin Board: Enchanter's Plus Bundle",
-		"Action": "EditData",
-		"Target": "Data/Bundles",
-		"Entries": {
-			"Bulletin Board/33": "Enchanter's/O 336 5/725 1 0 {{spacechase0.jsonAssets/ObjectId:Fragrant Wisteria}} 1 0 446 1 0 637 1 0 {{spacechase0.jsonAssets/ObjectId:Dragon Fruit}} 1 0 348 1 0/1"
-		},
-		"When": {
-			"MainBulletinBoardEnchanter": "plus"
-		}
+			"LogName": "Bulletin Board: Enchanter's Plus Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Bulletin Board/33": "Enchanter's/O 336 5/725 1 0 {{spacechase0.jsonAssets/ObjectId:Fragrant Wisteria}} 1 0 446 1 0 637 1 0 {{spacechase0.jsonAssets/ObjectId:Dragon Fruit}} 1 0 348 1 0/1"
+			},
+			"When": {
+				"MainBulletinBoardEnchanter": "plus"
+			}
 		},
 // Bulletin Board Chef's PlusB Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
-		"LogName": "Bulletin Board: Chef's PlusB Bundle",
-		"Action": "EditData",
-		"Target": "Data/Bundles",
-		"Entries": {
-			"Bulletin Board/31": "Chef's/O 221 3/724 1 0 {{spacechase0.jsonAssets/ObjectId:Banana Pudding}} 1 0 430 1 0 {{spacechase0.jsonAssets/ObjectId:Sweet Potato Fries}} 1 0 228 1 0 {{spacechase0.jsonAssets/ObjectId:Cranberry Pomegranate Tea}} 1 0 259 1 0 {{spacechase0.jsonAssets/ObjectId:Spice Tea}} 1 0 376 1 0 194 1 0 306 1 0/4/10"
-		},
-		"When": {
+			"LogName": "Bulletin Board: Chef's PlusB Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Bulletin Board/31": "Chef's/O 221 3/724 1 0 {{spacechase0.jsonAssets/ObjectId:Banana Pudding}} 1 0 430 1 0 {{spacechase0.jsonAssets/ObjectId:Sweet Potato Fries}} 1 0 228 1 0 {{spacechase0.jsonAssets/ObjectId:Cranberry Pomegranate Tea}} 1 0 259 1 0 {{spacechase0.jsonAssets/ObjectId:Spice Tea}} 1 0 376 1 0 194 1 0 306 1 0/4/10"
+			},
+			"When": {
 			"MainBulletinBoardChef": "plusB"
-		}
+			}
 		},
 // Bulletin Board Fodder PlusB Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
-		"LogName": "Bulletin Board: Fodder PlusB Bundle",
-		"Action": "EditData",
-		"Target": "Data/Bundles",
-		"Entries": {
-			"Bulletin Board/35": "Fodder/BO 104 1/262 10 0 {{spacechase0.jsonAssets/ObjectId:Barley}} 10 0 178 10 0 {{spacechase0.jsonAssets/ObjectId:Asian Pear}} 3 0 613 3 0/3"
-		},
-		"When": {
-			"MainBulletinBoardFodder": "plusB"
-		}
+			"LogName": "Bulletin Board: Fodder PlusB Bundle",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"Entries": {
+				"Bulletin Board/35": "Fodder/BO 104 1/262 10 0 {{spacechase0.jsonAssets/ObjectId:Barley}} 10 0 178 10 0 {{spacechase0.jsonAssets/ObjectId:Asian Pear}} 3 0 613 3 0/3"
+			},
+			"When": {
+				"MainBulletinBoardFodder": "plusB"
+			}
 		},
 
 
