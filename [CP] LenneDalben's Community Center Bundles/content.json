@@ -47,9 +47,9 @@
 			"Default": "liteA"
 		},
 		"MainBulletinBoardEnchanter": {
-			"Description": "Choose between twistA, liteA, plusA, twistB, liteB, plusB, or false. Twist replaces some items with JA items. Lite adds options for JA items. Plus requires JA items. Options with A have adjusted rewards. Options with B have vanilla rewards (unadjusted).",
-			"AllowValues": "twistA, liteA, plusA, twistB, liteB, plusB, false",
-			"Default": "liteA"
+			"Description": "Choose between twist, lite, plus, or false. Twist replaces some items with JA items. Lite adds options for JA items. Plus requires JA items. All options have vanilla rewards (unadjusted).",
+			"AllowValues": "twist, lite, plus, false",
+			"Default": "lite"
 		},
 		"ExtrasPantryAnimalBundle": {
 			"Description": "Choose true (activated) or false. The reward is the same as vanilla (unadjusted).",
@@ -343,7 +343,7 @@
 				"MainBulletinBoardFodder": "twistA"
 			}
 		},
-// Bulletin Board Enchanter's TwistA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
+// Bulletin Board Enchanter's Twist Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
 		{
 			"LogName": "Bulletin Board: Enchanter's TwistA Bundle",
 			"Action": "EditData",
@@ -352,7 +352,7 @@
 				"Bulletin Board/33": "Enchanter's/O 336 5/725 1 0 {{spacechase0.jsonAssets/ObjectId:Fragrant Wisteria}} 1 0 348 1 0 {{spacechase0.jsonAssets/ObjectId:Dragon Fruit}} 1 0/1"
 			},
 			"When": {
-				"MainBulletinBoardEnchanter": "twistA"
+				"MainBulletinBoardEnchanter": "twist"
 			}
 		},
 // Bulletin Board Chef's TwistB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -361,7 +361,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Bulletin Board/31": "Chef's/O 221 3/724 1 0 259 1 0 430 1 0 376 1 0 228 1 0 194 1 0/4"
+				"Bulletin Board/31": "Chef's/O 221 3/{{spacechase0.jsonAssets/ObjectId:Banana Pudding}} 1 0 228 1 0 {{spacechase0.jsonAssets/ObjectId:Cranberry Pomegranata Tea}} 1 0 194 1 0 {{spacechase0.jsonAssets/ObjectId:Spice Tea}} 1 0 306 1 0 {{spacechase0.jsonAssets/ObjectId:Sweet Potato Fries}} 1 0/4/6"
 			},
 			"When": {
 				"MainBulletinBoardChef": "twistB"
@@ -373,25 +373,12 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Bulletin Board/35": "Fodder/BO 104 1/262 10 0 178 10 0 613 3 0/3"
+				"Bulletin Board/35": "Fodder/BO 104 1/262 10 0 {{spacechase0.jsonAssets/ObjectId:Barley}} 10 0 {{spacechase0.jsonAssets/ObjectId:Asian Pear}} 3 0/3"
 			},
 			"When": {
 				"MainBulletinBoardFodder": "twistB"
 			}
 		},
-// Bulletin Board Enchanter's TwistB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items.The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
-		{
-			"LogName": "Bulletin Board: Enchanter's TwistB Bundle",
-			"Action": "EditData",
-			"Target": "Data/Bundles",
-			"Entries": {
-				"Bulletin Board/33": "Enchanter's/O 336 5/725 1 0 348 1 0 446 1 0 637 1 0/1"
-			},
-			"When": {
-				"MainBulletinBoardEnchanter": "twistB"
-			}
-		},
-
 				/*Lite Type*/
 // Pantry Spring Crops LiteA Bundle. These are the vanilla bundles with some options for JA items, so it's a little bit easier. The reward for the bundle has been adjusted.
 		{
