@@ -1,6 +1,11 @@
 {
 	"Format": "1.19.0",
 	"ConfigSchema": {
+		"ModToggled": {
+			"Description": "Allows you to turn the entire mod off, so you don't have to individually set everything to false. Leave this 'on' to use the mod.",
+			"AllowValues": "on, off",
+			"Default": "on"
+		},
 		"MainPantrySpringCrops": {
 			"Description": "Choose between twistA, liteA, plusA, twistB, liteB, plusB, or false. Twist replaces some items with JA items. Lite adds options for JA items. Plus requires JA items. Options with A have adjusted rewards. Options with B have vanilla rewards (unadjusted).",
 			"AllowValues": "twistA, liteA, plusA, twistB, liteB, plusB, false",
@@ -167,7 +172,8 @@
 				"Pantry/0": "Spring Crops/O 369 15/{{spacechase0.jsonAssets/ObjectId:Passion Fruit}} 1 0 190 1 0 {{spacechase0.jsonAssets/ObjectId:Onion}} 1 0 192 1 0/0"
 				},
 				"When": {
-					"MainPantrySpringCrops": "twistA"
+					"MainPantrySpringCrops": "twistA",
+					"ModToggled": "on"
 				}
 		},
 // Pantry Summer Crops TwistA1 Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted. A1 has raspberry, which can't be obtained until year 2.
@@ -179,7 +185,8 @@
 				"Pantry/1": "Summer Crops/BO 17 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Raspberry}} 1 0/3"
 			},
 			"When": {
-				"MainPantrySummerCrops": "twistA1"
+				"MainPantrySummerCrops": "twistA1",
+				"ModToggled": "on"
 			}
 		},
 // Pantry Summer Crops TwistA2 Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted. A2 has wasabi root instead of raspberry.
@@ -191,7 +198,8 @@
 				"Pantry/1": "Summer Crops/BO 17 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Wasabi Root}} 1 0/3"
 			},
 			"When": {
-				"MainPantrySummerCrops": "twistA2"
+				"MainPantrySummerCrops": "twistA2",
+				"ModToggled": "on"
 			}
 		},
 // Pantry Fall Crops TwistA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
@@ -203,7 +211,8 @@
 				"Pantry/2": "Fall Crops/BO 15 1/270 1 0 {{spacechase0.jsonAssets/ObjectId:Sweet Potato}} 1 0 276 1 0 {{spacechase0.jsonAssets/ObjectId:Kiwi}} 1 0/2"
 			},
 			"When": {
-				"MainPantryFallCrops": "twistA"
+				"MainPantryFallCrops": "twistA",
+				"ModToggled": "on"
 			}
 		},
 // Pantry Quality Crops TwistA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
@@ -215,7 +224,8 @@
 				"Pantry/3": "Quality Crops/BO 19 1/{{spacechase0.jsonAssets/ObjectId:Passion Fruit}} 5 2 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 5 2 276 5 2 270 5 2/6/3"
 			},
 			"When": {
-				"MainPantryQualityCrops": "twistA"
+				"MainPantryQualityCrops": "twistA",
+				"ModToggled": "on"
 			}
 		},
 // Pantry Artisan Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -227,7 +237,8 @@
 				"Pantry/5": "Artisan/BO 12 1/432 1 0 428 1 0 426 1 0 {{spacechase0.jsonAssets/ObjectId:Brown Sugar}} 1 0 340 1 0 344 1 0 {{spacechase0.jsonAssets/ObjectId:Granny Smith Apple}} 1 0 634 1 0 {{spacechase0.jsonAssets/ObjectId:Papaya}} 1 0 636 1 0 {{spacechase0.jsonAssets/ObjectId:Walnut}} 1 0 638 1 0/1/6"
 			},
 			"When": {
-				"MainPantryArtisan": "true"
+				"MainPantryArtisan": "true",
+				"ModToggled": "on"
 			}
 		},
 // Pantry Spring Crops TwistB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -239,7 +250,8 @@
 				"Pantry/0": "Spring Crops/O 465 20/{{spacechase0.jsonAssets/ObjectId:Passion Fruit}} 1 0 190 1 0 {{spacechase0.jsonAssets/ObjectId:Onion}} 1 0 192 1 0/0"
 			},
 			"When": {
-				"MainPantrySpringCrops": "twistB"
+				"MainPantrySpringCrops": "twistB",
+				"ModToggled": "on"
 			}
 		},
 // Pantry Summer Crops TwistB1 Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla. A1 has raspberry, which can't be obtained until year 2.
@@ -251,7 +263,8 @@
 				"Pantry/1": "Summer Crops/O 621 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Raspberry}} 1 0/3"
 			},
 			"When": {
-				"MainPantrySummerCrops": "twistB1"
+				"MainPantrySummerCrops": "twistB1",
+				"ModToggled": "on"
 			}
 		},
 // Pantry Summer Crops TwistB2 Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla. B2 has wasabi root instead of raspberry.
@@ -263,7 +276,8 @@
 				"Pantry/1": "Summer Crops/O 621 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Wasabi Root}} 1 0/3"
 			},
 			"When": {
-				"MainPantrySummerCrops": "twistB2"
+				"MainPantrySummerCrops": "twistB2",
+				"ModToggled": "on"
 			}
 		},
 // Pantry Fall Crops TwistB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -275,7 +289,8 @@
 				"Pantry/2": "Fall Crops/BO 10 1/270 1 0 {{spacechase0.jsonAssets/ObjectId:Sweet Potato}} 1 0 276 1 0 {{spacechase0.jsonAssets/ObjectId:Kiwi}} 1 0/2"
 			},
 			"When": {
-				"MainPantryFallCrops": "twistB"
+				"MainPantryFallCrops": "twistB",
+				"ModToggled": "on"
 			}
 		},
 // Pantry Quality Crops TwistB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -287,7 +302,8 @@
 				"Pantry/3": "Quality Crops/BO 15 1/{{spacechase0.jsonAssets/ObjectId:Passion Fruit}} 5 2 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 5 2 276 5 2 270 5 2/6/3"
 			},
 			"When": {
-				"MainPantryQualityCrops": "twistB"
+				"MainPantryQualityCrops": "twistB",
+				"ModToggled": "on"
 			}
 		},
 // Bulletin Board Chef's TwistA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
@@ -299,7 +315,8 @@
 				"Bulletin Board/31": "Chef's/O {{spacechase0.jsonAssets/ObjectId:Chef Salad}} 3/{{spacechase0.jsonAssets/ObjectId:Banana Pudding}} 1 0 228 1 0 {{spacechase0.jsonAssets/ObjectId:Cranberry Pomegranate Tea}} 1 0 194 1 0 {{spacechase0.jsonAssets/ObjectId:Spice Tea}} 1 0 306 1 0 {{spacechase0.jsonAssets/ObjectId:Sweet Potato Fries}} 1 0/4/6"
 			},
 			"When": {
-				"MainBulletinBoardChef": "twistA"
+				"MainBulletinBoardChef": "twistA",
+				"ModToggled": "on"
 			}
 		},
 // Bulletin Board Dye Twist Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -311,7 +328,8 @@
 				"Bulletin Board/34": "Dye/BO 25 1/{{spacechase0.jsonAssets/ObjectId:Summmer Rose}} 1 0 {{spacechase0.jsonAssets/ObjectId:Passion Flower}} 1 0 421 1 0 {{spacechase0.jsonAssets/ObjectId:Spinach}} 1 0 62 1 0 {{spacechase0.jsonAssets/ObjectId:Gooseberry}} 1 0/6"
 			},
 			"When": {
-				"MainBulletinBoardDye": "twist"
+				"MainBulletinBoardDye": "twist",
+				"ModToggled": "on"
 			}
 		},
 // Bulletin Board Field Research Twist Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -323,7 +341,8 @@
 				"Bulletin Board/32": "Field Research/BO 20 1/422 1 0 392 1 0 {{spacechase0.jsonAssets/ObjectId:Chamomile Tea}} 1 0 536 1 0/5"
 			},
 			"When": {
-				"MainBulletinBoardFieldResearch": "twist"
+				"MainBulletinBoardFieldResearch": "twist",
+				"ModToggled": "on"
 			}
 		},
 // Bulletin Board Fodder TwistA Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted.
@@ -335,7 +354,8 @@
 				"Bulletin Board/35": "Fodder/BO 10 1/262 10 0 {{spacechase0.jsonAssets/ObjectId:Barley}} 10 0 {{spacechase0.jsonAssets/ObjectId:Asian Pear}} 3 0/3"
 			},
 			"When": {
-				"MainBulletinBoardFodder": "twistA"
+				"MainBulletinBoardFodder": "twistA",
+				"ModToggled": "on"
 			}
 		},
 // Bulletin Board Enchanter's Twist Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -347,7 +367,8 @@
 				"Bulletin Board/33": "Enchanter's/O 336 5/725 1 0 {{spacechase0.jsonAssets/ObjectId:Fragrant Wisteria}} 1 0 348 1 0 {{spacechase0.jsonAssets/ObjectId:Dragon Fruit}} 1 0/1"
 			},
 			"When": {
-				"MainBulletinBoardEnchanter": "twist"
+				"MainBulletinBoardEnchanter": "twist",
+				"ModToggled": "on"
 			}
 		},
 // Bulletin Board Chef's TwistB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -359,7 +380,8 @@
 				"Bulletin Board/31": "Chef's/O 221 3/{{spacechase0.jsonAssets/ObjectId:Banana Pudding}} 1 0 228 1 0 {{spacechase0.jsonAssets/ObjectId:Cranberry Pomegranate Tea}} 1 0 194 1 0 {{spacechase0.jsonAssets/ObjectId:Spice Tea}} 1 0 306 1 0 {{spacechase0.jsonAssets/ObjectId:Sweet Potato Fries}} 1 0/4/6"
 			},
 			"When": {
-				"MainBulletinBoardChef": "twistB"
+				"MainBulletinBoardChef": "twistB",
+				"ModToggled": "on"
 			}
 		},
 // Bulletin Board Fodder TwistB Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -371,7 +393,8 @@
 				"Bulletin Board/35": "Fodder/BO 104 1/262 10 0 {{spacechase0.jsonAssets/ObjectId:Barley}} 10 0 {{spacechase0.jsonAssets/ObjectId:Asian Pear}} 3 0/3"
 			},
 			"When": {
-				"MainBulletinBoardFodder": "twistB"
+				"MainBulletinBoardFodder": "twistB",
+				"ModToggled": "on"
 			}
 		},
 
@@ -385,7 +408,8 @@
 				"Pantry/0": "Spring Crops/O 369 15/24 1 0 {{spacechase0.jsonAssets/ObjectId:Passion Fruit}} 1 0 188 1 0 {{spacechase0.jsonAssets/ObjectId:Onion}} 1 0 190 1 0 192 1 0/0/5"
 			},
 			"When": {
-				"MainPantrySpringCrops": "liteA"
+				"MainPantrySpringCrops": "liteA",
+				"ModToggled": "on"
 			}
 		},
 // Pantry Summer Crops LiteA1 Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has been adjusted. A1 has raspberry, which can't be obtained until year 2.
@@ -397,7 +421,8 @@
 				"Pantry/1": "Summer Crops/BO 17 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Raspberry}} 1 0 254 1 0 260 1 0/3/5"
 			},
 			"When": {
-				"MainPantrySummerCrops": "liteA1"
+				"MainPantrySummerCrops": "liteA1",
+				"ModToggled": "on"
 			}
 		},
 // Pantry Summer Crops LiteA2 Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has been adjusted. A2 has wasabi root instead of raspberry.
@@ -409,7 +434,8 @@
 				"Pantry/1": "Summer Crops/BO 17 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Wasabi Root}} 1 0 254 1 0 260 1 0/3/5"
 			},
 			"When": {
-				"MainPantrySummerCrops": "liteA2"
+				"MainPantrySummerCrops": "liteA2",
+				"ModToggled": "on"
 			}
 		},
 // Pantry Fall Crops LiteA Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has been adjusted.
@@ -421,7 +447,8 @@
 				"Pantry/2": "Fall Crops/BO 15 1/270 1 0 {{spacechase0.jsonAssets/ObjectId:Sweet Potato}} 1 0 276 1 0 280 1 0 {{spacechase0.jsonAssets/ObjectId:Kiwi}} 1 0 272 1 0/2/5"
 			},
 			"When": {
-				"MainPantryFallCrops": "liteA"
+				"MainPantryFallCrops": "liteA",
+				"ModToggled": "on"
 			}
 		},
 // Pantry Quality Crops LiteA Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has been adjusted.
@@ -433,7 +460,8 @@
 				"Pantry/3": "Quality Crops/BO 19 1/24 5 2 {{spacechase0.jsonAssets/ObjectId:Passion Fruit}} 5 2 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 5 2 254 5 2 276 5 2 270 5 2/6/4"
 			},
 			"When": {
-				"MainPantryQualityCrops": "liteA"
+				"MainPantryQualityCrops": "liteA",
+				"ModToggled": "on"
 			}
 		},
 // Pantry Spring Crops LiteB Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -445,7 +473,8 @@
 				"Pantry/0": "Spring Crops/O 465 20/24 1 0 {{spacechase0.jsonAssets/ObjectId:Passion Fruit}} 1 0 188 1 0 {{spacechase0.jsonAssets/ObjectId:Onion}} 1 0 190 1 0 192 1 0/0/5"
 			},
 			"When": {
-				"MainPantrySpringCrops": "liteB"
+				"MainPantrySpringCrops": "liteB",
+				"ModToggled": "on"
 			}
 		},
 // Pantry Summer Crops LiteB1 Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla. A1 has raspberry, which can't be obtained until year 2.
@@ -457,7 +486,8 @@
 				"Pantry/1": "Summer Crops/O 621 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Raspberry}} 1 0 254 1 0 260 1 0/3/5"
 			},
 			"When": {
-				"MainPantrySummerCrops": "liteB1"
+				"MainPantrySummerCrops": "liteB1",
+				"ModToggled": "on"
 			}
 		},
 // Pantry Summer Crops LiteB2 Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla. B2 has wasabi root instead of raspberry.
@@ -469,7 +499,8 @@
 				"Pantry/1": "Summer Crops/O 621 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Wasabi Root}} 1 0 254 1 0 260 1 0/3/5"
 			},
 			"When": {
-				"MainPantrySummerCrops": "liteB2"
+				"MainPantrySummerCrops": "liteB2",
+				"ModToggled": "on"
 			}
 		},
 // Pantry Fall Crops LiteB Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -481,7 +512,8 @@
 				"Pantry/2": "Fall Crops/BO 10 1/270 1 0 {{spacechase0.jsonAssets/ObjectId:Sweet Potato}} 1 0 276 1 0 280 1 0 {{spacechase0.jsonAssets/ObjectId:Kiwi}} 1 0 272 1 0/2/5"
 			},
 			"When": {
-				"MainPantryFallCrops": "liteB"
+				"MainPantryFallCrops": "liteB",
+				"ModToggled": "on"
 			}
 		},
 // Pantry Quality Crops LiteB Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -493,7 +525,8 @@
 				"Pantry/3": "Quality Crops/BO 15 1/24 5 2 {{spacechase0.jsonAssets/ObjectId:Passion Fruit}} 5 2 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 5 2 254 5 2 276 5 2 270 5 2/6/4"
 			},
 			"When": {
-				"MainPantryQualityCrops": "liteB"
+				"MainPantryQualityCrops": "liteB",
+				"ModToggled": "on"
 			}
 		},
 // Bulletin Board Chef's LiteA Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has been adjusted.
@@ -505,7 +538,8 @@
 				"Bulletin Board/31": "Chef's/O {{spacechase0.jsonAssets/ObjectId:Chef Salad}} 3/724 1 0 {{spacechase0.jsonAssets/ObjectId:Banana Pudding}} 1 0 430 1 0 {{spacechase0.jsonAssets/ObjectId:Sweet Potato Fries}} 1 0 228 1 0 {{spacechase0.jsonAssets/ObjectId:Cranberry Pomegranate Tea}} 1 0 259 1 0 {{spacechase0.jsonAssets/ObjectId:Spice Tea}} 1 0 376 1 0 194 1 0 306 1 0/4/6"
 			},
 			"When": {
-				"MainBulletinBoardChef": "liteA"
+				"MainBulletinBoardChef": "liteA",
+				"ModToggled": "on"
 			}
 		},
 // Bulletin Board Dye Lite Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -517,7 +551,8 @@
 				"Bulletin Board/34": "Dye/BO 25 1/420 1 0 {{spacechase0.jsonAssets/ObjectId:Summmer Rose}} 1 0 421 1 0 {{spacechase0.jsonAssets/ObjectId:Passion Flower}} 1 0 266 1 0 {{spacechase0.jsonAssets/ObjectId:Spinach}} 1 0 444 1 0 62 1 0 {{spacechase0.jsonAssets/ObjectId:Gooseberry}} 1 0 397 1 0/6/6"
 			},
 			"When": {
-				"MainBulletinBoardDye": "lite"
+				"MainBulletinBoardDye": "lite",
+				"ModToggled": "on"
 			}
 		},
 // Bulletin Board Field Research Lite Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -529,7 +564,8 @@
 				"Bulletin Board/32": "Field Research/BO 20 1/422 1 0 {{spacechase0.jsonAssets/ObjectId:Chamomile Tea}} 1 0 392 1 0 702 1 0 536 1 0/5/4"
 			},
 			"When": {
-				"MainBulletinBoardFieldResearch": "lite"
+				"MainBulletinBoardFieldResearch": "lite",
+				"ModToggled": "on"
 			}
 		},
 // Bulletin Board Fodder LiteA Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has been adjusted.
@@ -541,7 +577,8 @@
 				"Bulletin Board/35": "Fodder/BO 10 1/262 10 0 {{spacechase0.jsonAssets/ObjectId:Barley}} 10 0 178 10 0 {{spacechase0.jsonAssets/ObjectId:Asian Pear}} 3 0 613 3 0/3/4"
 			},
 			"When": {
-				"MainBulletinBoardFodder": "liteA"
+				"MainBulletinBoardFodder": "liteA",
+				"ModToggled": "on"
 			}
 		},
 // Bulletin Board Enchanter's Lite Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -553,7 +590,8 @@
 				"Bulletin Board/33": "Enchanter's/O 336 5/725 1 0 {{spacechase0.jsonAssets/ObjectId:Fragrant Wisteria}} 1 0 446 1 0 637 1 0 {{spacechase0.jsonAssets/ObjectId:Dragon Fruit}} 1 0 348 1 0/1/5"
 			},
 			"When": {
-				"MainBulletinBoardEnchanter": "lite"
+				"MainBulletinBoardEnchanter": "lite",
+				"ModToggled": "on"
 			}
 		},
 // Bulletin Board Chef's LiteB Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -565,7 +603,8 @@
 				"Bulletin Board/31": "Chef's/O 221 3/724 1 0 {{spacechase0.jsonAssets/ObjectId:Banana Pudding}} 1 0 430 1 0 {{spacechase0.jsonAssets/ObjectId:Sweet Potato Fries}} 1 0 228 1 0 {{spacechase0.jsonAssets/ObjectId:Cranberry Pomegranate Tea}} 1 0 259 1 0 {{spacechase0.jsonAssets/ObjectId:Spice Tea}} 1 0 376 1 0 194 1 0 306 1 0/4/6"
 			},
 			"When": {
-				"MainBulletinBoardChef": "liteB"
+				"MainBulletinBoardChef": "liteB",
+				"ModToggled": "on"
 			}
 		},
 // Bulletin Board Fodder LiteB Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -577,7 +616,8 @@
 				"Bulletin Board/35": "Fodder/BO 104 1/262 10 0 {{spacechase0.jsonAssets/ObjectId:Barley}} 10 0 178 10 0 {{spacechase0.jsonAssets/ObjectId:Asian Pear}} 3 0 613 3 0/3/4"
 			},
 			"When": {
-				"MainBulletinBoardFodder": "liteB"
+				"MainBulletinBoardFodder": "liteB",
+				"ModToggled": "on"
 			}
 		},
 
@@ -591,7 +631,8 @@
 				"Pantry/0": "Spring Crops/O 369 15/24 1 0 {{spacechase0.jsonAssets/ObjectId:Passion Fruit}} 1 0 188 1 0 {{spacechase0.jsonAssets/ObjectId:Onion}} 1 0 190 1 0 192 1 0/0"
 			},
 			"When": {
-				"MainPantrySpringCrops": "plusA"
+				"MainPantrySpringCrops": "plusA",
+				"ModToggled": "on"
 			}
 		},
 // Pantry Summer Crops PlusA1 Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has been adjusted. A1 has raspberry, which can't be obtained until year 2.
@@ -603,7 +644,8 @@
 				"Pantry/1": "Summer Crops/BO 17 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Raspberry}} 1 0 254 1 0 260 1 0/3"
 			},
 			"When": {
-				"MainPantrySummerCrops": "plusA1"
+				"MainPantrySummerCrops": "plusA1",
+				"ModToggled": "on"
 			}
 		},
 // Pantry Summer Crops PlusA2 Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has been adjusted. A2 has wasabi root instead of raspberry.
@@ -615,7 +657,8 @@
 				"Pantry/1": "Summer Crops/BO 17 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Wasabi Root}} 1 0 254 1 0 260 1 0/3"
 			},
 			"When": {
-				"MainPantrySummerCrops": "plusA2"
+				"MainPantrySummerCrops": "plusA2",
+				"ModToggled": "on"
 			}
 		},
 // Pantry Fall Crops PlusA Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has been adjusted.
@@ -627,7 +670,8 @@
 				"Pantry/2": "Fall Crops/BO 15 1/270 1 0 {{spacechase0.jsonAssets/ObjectId:Sweet Potato}} 1 0 276 1 0 280 1 0 {{spacechase0.jsonAssets/ObjectId:Kiwi}} 1 0 272 1 0/2"
 			},
 		"When": {
-			"MainPantryFallCrops": "plusA"
+			"MainPantryFallCrops": "plusA",
+			"ModToggled": "on"
 			}
 		},
 // Pantry Quality Crops PlusA Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has been adjusted.
@@ -639,7 +683,8 @@
 				"Pantry/3": "Quality Crops/BO 19 1/24 5 2 {{spacechase0.jsonAssets/ObjectId:Passion Fruit}} 5 2 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 5 2 254 5 2 276 5 2 270 5 2/6"
 			},
 		"When": {
-			"MainPantryQualityCrops": "plusA"
+			"MainPantryQualityCrops": "plusA",
+			"ModToggled": "on"
 			}
 		},
 // Pantry Spring Crops PlusB Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -651,7 +696,8 @@
 				"Pantry/0": "Spring Crops/O 465 20/24 1 0 {{spacechase0.jsonAssets/ObjectId:Passion Fruit}} 1 0 188 1 0 {{spacechase0.jsonAssets/ObjectId:Onion}} 1 0 190 1 0 192 1 0/0"
 			},
 		"When": {
-			"MainPantrySpringCrops": "plusB"
+			"MainPantrySpringCrops": "plusB",
+			"ModToggled": "on"
 			}
 		},
 // Pantry Summer Crops PlusB1 Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has NOT been adjusted, so it's the same as vanilla. A1 has raspberry, which can't be obtained until year 2.
@@ -663,7 +709,8 @@
 				"Pantry/1": "Summer Crops/O 621 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Raspberry}} 1 0 254 1 0 260 1 0/3"
 			},
 			"When": {
-				"MainPantrySummerCrops": "plusB1"
+				"MainPantrySummerCrops": "plusB1",
+				"ModToggled": "on"
 			}
 		},
 // Pantry Summer Crops PlusB2 Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has NOT been adjusted, so it's the same as vanilla. B2 has wasabi root instead of raspberry.
@@ -675,7 +722,8 @@
 				"Pantry/1": "Summer Crops/O 621 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Wasabi Root}} 1 0 254 1 0 260 1 0/3"
 			},
 			"When": {
-				"MainPantrySummerCrops": "plusB2"
+				"MainPantrySummerCrops": "plusB2",
+				"ModToggled": "on"
 			}
 		},
 // Pantry Fall Crops PlusB Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -687,7 +735,8 @@
 				"Pantry/2": "Fall Crops/BO 10 1/270 1 0 {{spacechase0.jsonAssets/ObjectId:Sweet Potato}} 1 0 276 1 0 280 1 0 {{spacechase0.jsonAssets/ObjectId:Kiwi}} 1 0 272 1 0/2"
 			},
 			"When": {
-				"MainPantryFallCrops": "plusB"
+				"MainPantryFallCrops": "plusB",
+				"ModToggled": "on"
 			}
 		},
 // Pantry Quality Crops PlusB Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -699,7 +748,8 @@
 				"Pantry/3": "Quality Crops/BO 15 1/24 5 2 {{spacechase0.jsonAssets/ObjectId:Passion Fruit}} 5 2 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 5 2 254 5 2 276 5 2 270 5 2/6"
 			},
 			"When": {
-				"MainPantryQualityCrops": "plusB"
+				"MainPantryQualityCrops": "plusB",
+				"ModToggled": "on"
 			}
 		},
 // Bulletin Board Chef's PlusA Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has been adjusted.
@@ -711,7 +761,8 @@
 				"Bulletin Board/31": "Chef's/O {{spacechase0.jsonAssets/ObjectId:Chef Salad}} 3/724 1 0 {{spacechase0.jsonAssets/ObjectId:Banana Pudding}} 1 0 430 1 0 {{spacechase0.jsonAssets/ObjectId:Sweet Potato Fries}} 1 0 228 1 0 {{spacechase0.jsonAssets/ObjectId:Cranberry Pomegranate Tea}} 1 0 259 1 0 {{spacechase0.jsonAssets/ObjectId:Spice Tea}} 1 0 376 1 0 194 1 0 306 1 0/4/10"
 			},
 			"When": {
-				"MainBulletinBoardChef": "plusA"
+				"MainBulletinBoardChef": "plusA",
+				"ModToggled": "on"
 			}
 		},
 // Bulletin Board Dye Plus Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -723,7 +774,8 @@
 				"Bulletin Board/34": "Dye/BO 25 1/420 1 0 {{spacechase0.jsonAssets/ObjectId:Summmer Rose}} 1 0 421 1 0 {{spacechase0.jsonAssets/ObjectId:Passion Flower}} 1 0 266 1 0 {{spacechase0.jsonAssets/ObjectId:Spinach}} 1 0 444 1 0 62 1 0 {{spacechase0.jsonAssets/ObjectId:Gooseberry}} 1 0 397 1 0/6"
 			},
 			"When": {
-				"MainBulletinBoardDye": "plus"
+				"MainBulletinBoardDye": "plus",
+				"ModToggled": "on"
 			}
 		},
 // Bulletin Board Field Research Plus Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -735,7 +787,8 @@
 				"Bulletin Board/32": "Field Research/BO 20 1/422 1 0 {{spacechase0.jsonAssets/ObjectId:Chamomile Tea}} 1 0 392 1 0 702 1 0 536 1 0/5"
 			},
 			"When": {
-				"MainBulletinBoardFieldResearch": "plus"
+				"MainBulletinBoardFieldResearch": "plus",
+				"ModToggled": "on"
 			}
 		},
 // Bulletin Board Fodder PlusA Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has been adjusted.
@@ -747,7 +800,8 @@
 				"Bulletin Board/35": "Fodder/BO 10 1/262 10 0 {{spacechase0.jsonAssets/ObjectId:Barley}} 10 0 178 10 0 {{spacechase0.jsonAssets/ObjectId:Asian Pear}} 3 0 613 3 0/3/4"
 			},
 			"When": {
-				"MainBulletinBoardFodder": "plusA"
+				"MainBulletinBoardFodder": "plusA",
+				"ModToggled": "on"
 			}
 		},
 // Bulletin Board Enchanter's Plus Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has been adjusted.
@@ -759,7 +813,8 @@
 				"Bulletin Board/33": "Enchanter's/O 336 5/725 1 0 {{spacechase0.jsonAssets/ObjectId:Fragrant Wisteria}} 1 0 446 1 0 637 1 0 {{spacechase0.jsonAssets/ObjectId:Dragon Fruit}} 1 0 348 1 0/1"
 			},
 			"When": {
-				"MainBulletinBoardEnchanter": "plus"
+				"MainBulletinBoardEnchanter": "plus",
+				"ModToggled": "on"
 			}
 		},
 // Bulletin Board Chef's PlusB Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -771,7 +826,8 @@
 				"Bulletin Board/31": "Chef's/O 221 3/724 1 0 {{spacechase0.jsonAssets/ObjectId:Banana Pudding}} 1 0 430 1 0 {{spacechase0.jsonAssets/ObjectId:Sweet Potato Fries}} 1 0 228 1 0 {{spacechase0.jsonAssets/ObjectId:Cranberry Pomegranate Tea}} 1 0 259 1 0 {{spacechase0.jsonAssets/ObjectId:Spice Tea}} 1 0 376 1 0 194 1 0 306 1 0/4/10"
 			},
 			"When": {
-			"MainBulletinBoardChef": "plusB"
+			"MainBulletinBoardChef": "plusB",
+			"ModToggled": "on"
 			}
 		},
 // Bulletin Board Fodder PlusB Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -783,7 +839,8 @@
 				"Bulletin Board/35": "Fodder/BO 104 1/262 10 0 {{spacechase0.jsonAssets/ObjectId:Barley}} 10 0 178 10 0 {{spacechase0.jsonAssets/ObjectId:Asian Pear}} 3 0 613 3 0/3"
 			},
 			"When": {
-				"MainBulletinBoardFodder": "plusB"
+				"MainBulletinBoardFodder": "plusB",
+				"ModToggled": "on"
 			}
 		},
 
@@ -800,7 +857,8 @@
 				"Pantry/4": "Animal/BO 16 1/186 1 0 182 1 0 174 1 0 438 1 0 440 1 0 442 1 0 639 1 0 640 1 0 641 1 0 642 1 0 643 1 0/4/5"
 			},
 			"When": {
-				"ExtrasPantryAnimalBundle": "true"
+				"ExtrasPantryAnimalBundle": "true",
+				"ModToggled": "on"
 			}
 		},
 // Crafts Room Spring Foraging Bundle. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -812,7 +870,8 @@
 				"Crafts Room/13": "Spring Foraging/O 495 30/16 1 0 18 1 0 20 1 0 22 1 0/0"
 			},
 			"When": {
-				"ExtrasCraftsRoomSpringForaging": "true"
+				"ExtrasCraftsRoomSpringForaging": "true",
+				"ModToggled": "on"
 			}
 		},
 // Crafts Room Summer Foraging Bundle. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -824,7 +883,8 @@
 				"Crafts Room/14": "Summer Foraging/O 496 30/396 1 0 398 1 0 402 1 0/3"
 			},
 			"When": {
-				"ExtrasCraftsRoomSummerForaging": "true"
+				"ExtrasCraftsRoomSummerForaging": "true",
+				"ModToggled": "on"
 			}
 		},
 // Crafts Room Fall Foraging Bundle. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -836,7 +896,8 @@
 				"Crafts Room/15": "Fall Foraging/O 497 30/404 1 0 406 1 0 408 1 0 410 1 0/2"
 			},
 			"When": {
-				"ExtrasCraftsRoomFallForaging": "true"
+				"ExtrasCraftsRoomFallForaging": "true",
+				"ModToggled": "on"
 			}
 		},
 // Crafts Room Winter Foraging Bundle. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -848,7 +909,8 @@
 				"Crafts Room/16": "Winter Foraging/O 498 30/412 1 0 414 1 0 416 1 0 418 1 0/6"
 			},
 			"When": {
-				"ExtrasCraftsRoomWinterForaging": "true"
+				"ExtrasCraftsRoomWinterForaging": "true",
+				"ModToggled": "on"
 			}
 		},
 // Crafts Room Exotic Foraging Bundle. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -860,7 +922,8 @@
 				"Crafts Room/19": "Exotic Foraging/O 235 5/88 1 0 90 1 0 78 1 0 420 1 0 422 1 0 724 1 0 725 1 0 726 1 0 257 1 0/1/5"
 			},
 			"When": {
-				"ExtrasCraftsRoomExoticForaging": "true"
+				"ExtrasCraftsRoomExoticForaging": "true",
+				"ModToggled": "on"
 			}
 		},
 // Crafts Room Construction and Crafting Bundle A. The reward for the bundle has been adjusted.
@@ -872,7 +935,8 @@
 				"Crafts Room/17": "Construction and Crafting/BO 105 1/388 99 0 388 99 0 390 99 0 709 10 0/4"
 			},
 			"When": {
-				"ExtrasCraftsRoomConstructionandCrafting": "A"
+				"ExtrasCraftsRoomConstructionandCrafting": "A",
+				"ModToggled": "on"
 			}
 		},
 // Boiler Room Blacksmith's Bundle A. The reward for the bundle has been adjusted.
@@ -884,7 +948,8 @@
 				"Boiler Room/20": "Blacksmith's/BO 114 1/334 1 0 335 1 0 336 1 0/2"
 			},
 			"When": {
-				"ExtrasBoilerRoomBlacksmith": "A"
+				"ExtrasBoilerRoomBlacksmith": "A",
+				"ModToggled": "on"
 			}
 		},
 // Boiler Room Geologist's Bundle A. The reward for the bundle has been adjusted.
@@ -896,7 +961,8 @@
 				"Boiler Room/21": "Geologist's/O 288 10/80 1 0 86 1 0 84 1 0 82 1 0/1"
 			},
 			"When": {
-				"ExtrasBoilerRoomGeologist": "A"
+				"ExtrasBoilerRoomGeologist": "A",
+				"ModToggled": "on"
 			}
 		},
 // DON'T FORGET YOU WANTED TO GET FANCY WITH IT Boiler Room Gemologist's Bundle. The reward for the bundle has been adjusted.
@@ -909,7 +975,8 @@
 			"FromArea": { "X": 64, "Y": 212, "Width": 32, "Height": 32},
 			"ToArea": { "X": 64, "Y": 212, "Width": 32, "Height": 32},
 			"When": {
-				"ExtrasBoilerRoomGemologist": "A, B"
+				"ExtrasBoilerRoomGemologist": "A, B",
+				"ModToggled": "on"
 			}
 		},
 		// Boiler Room Gemologist's Bundle A - Magnet Ring
@@ -922,7 +989,8 @@
 			},
 			"When": {
 				"ExtrasBoilerRoomGemologist": "A",
-				"ExtrasBoilerRoomGemologistRingReward": "magnet"
+				"ExtrasBoilerRoomGemologistRingReward": "magnet",
+				"ModToggled": "on"
 			}
 		},
 		// Boiler Room Gemologist's Bundle A - Slime Charmer Ring
@@ -935,7 +1003,8 @@
 			},
 			"When": {
 				"ExtrasBoilerRoomGemologist": "A",
-				"ExtrasBoilerRoomGemologistRingReward": "slime"
+				"ExtrasBoilerRoomGemologistRingReward": "slime",
+				"ModToggled": "on"
 			}
 		},
 // Vault 2,500 Bundle
@@ -947,7 +1016,8 @@
 				"Vault/23": "2,500g/O {{spacechase0.jsonAssets/ObjectId:Sun Tea}} 1/-1 2500 2500/4"
 			},
 			"When": {
-				"ExtrasVault2500": "true"
+				"ExtrasVault2500": "true",
+				"ModToggled": "on"
 			}
 		},
 // Vault 5000 Bundle
@@ -959,7 +1029,8 @@
 				"Vault/24": "5,000g/O 9 1/-1 5000 5000/2"
 			},
 			"When": {
-				"ExtrasVault5000": "true"
+				"ExtrasVault5000": "true",
+				"ModToggled": "on"
 			}
 		},
 // Vault 10000 Bundle
@@ -971,7 +1042,8 @@
 				"Vault/25": "10,000g/O {{spacechase0.jsonAssets/ObjectId:Lime Sapling}} 2/-1 10000 10000/3"
 			},
 			"When": {
-				"ExtrasVault10000": "true"
+				"ExtrasVault10000": "true",
+				"ModToggled": "on"
 			}
 		},
 // Fishing Tank Beginner Fish Bundle A. The reward for the bundle has been adjusted.
@@ -983,7 +1055,8 @@
 				"Fish Tank/6": "River Fish/O 710 3/145 1 0 143 1 0 706 1 0 699 1 0/6"
 			},
 			"When": {
-				"ExtrasFishTankBeginnerFish": "A"
+				"ExtrasFishTankBeginnerFish": "A",
+				"ModToggled": "on"
 			}
 		},
 // Fishing Tank Intermediate Fish Bundle A. The reward for the bundle has been adjusted.
@@ -995,7 +1068,8 @@
 				"Fish Tank/7": "Lake Fish/O 685 150/136 1 0 142 1 0 700 1 0 698 1 0/0"
 			},
 			"When": {
-				"ExtrasFishTankIntermediateFish": "A"
+				"ExtrasFishTankIntermediateFish": "A",
+				"ModToggled": "on"
 			}
 		},
 // Fishing Tank Advanced Fish Bundle A. The reward for the bundle has been adjusted.
@@ -1007,7 +1081,8 @@
 				"Fish Tank/8": "Ocean Fish/O 242 5/131 1 0 130 1 0 150 1 0 701 1 0/5"
 			},
 			"When": {
-				"ExtrasFishTankAdvancedFish": "A"
+				"ExtrasFishTankAdvancedFish": "A",
+				"ModToggled": "on"
 			}
 		},
 // Fishing Tank Night Fish Bundle A. The reward for the bundle has been adjusted.
@@ -1019,7 +1094,8 @@
 				"Fish Tank/9": "Night Fishing/O 694 5/140 1 0 132 1 0 148 1 0/1"
 			},
 			"When": {
-				"ExtrasFishTankNightFish": "A"
+				"ExtrasFishTankNightFish": "A",
+				"ModToggled": "on"
 			}
 		},
 // Fishing Tank Crab Pot Bundle A. The reward for the bundle has been adjusted.
@@ -1031,7 +1107,8 @@
 				"Fish Tank/11": "Crab Pot/R 517 1/715 1 0 716 1 0 717 1 0 718 1 0 719 1 0 720 1 0 721 1 0 722 1 0 723 1 0 372 1 0/1/5"
 			},
 			"When": {
-				"ExtrasFishTankCrabPot": "A"
+				"ExtrasFishTankCrabPot": "A",
+				"ModToggled": "on"
 			}
 		},
 // Fishing Tank Specialty Fish Bundle A. The reward for the bundle has been adjusted.
@@ -1043,7 +1120,8 @@
 				"Fish Tank/10": "Specialty Fish/O 687 5/128 1 0 156 1 0 164 1 0 734 1 0/4"
 			},
 			"When": {
-				"ExtrasFishTankSpecialtyFish": "A"
+				"ExtrasFishTankSpecialtyFish": "A",
+				"ModToggled": "on"
 			}
 		},
 // Crafts Room Construction and Crafting Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -1055,7 +1133,8 @@
 				"Crafts Room/17": "Construction and Crafting/BO 114 1/388 99 0 388 99 0 390 99 0 709 10 0/4"
 			},
 			"When": {
-				"ExtrasCraftsRoomConstructionandCrafting": "B"
+				"ExtrasCraftsRoomConstructionandCrafting": "B",
+				"ModToggled": "on"
 			}
 		},
 // Boiler Room Blacksmith's Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -1067,7 +1146,8 @@
 				"Boiler Room/20": "Blacksmith's/BO 13 1/334 1 0 335 1 0 336 1 0/2"
 			},
 			"When": {
-				"ExtrasBoilerRoomBlacksmith": "B"
+				"ExtrasBoilerRoomBlacksmith": "B",
+				"ModToggled": "on"
 			}
 		},
 // Boiler Room Geologist's Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -1079,7 +1159,8 @@
 				"Boiler Room/21": "Geologist's/O 749 5/80 1 0 86 1 0 84 1 0 82 1 0/1"
 			},
 			"When": {
-				"ExtrasBoilerRoomGeologist": "B"
+				"ExtrasBoilerRoomGeologist": "B",
+				"ModToggled": "on"
 			}
 		},
 // DON'T FORGET YOU WANTED TO GET FANCY WITH IT Boiler Room Gemologist's Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -1091,7 +1172,8 @@
 				"Boiler Room/22": "Gemologist's/R 518 1/68 3 0 60 3 0 64 1 0 72 1 0/1/2"
 			},
 			"When": {
-				"ExtrasBoilerRoomGemologist": "B"
+				"ExtrasBoilerRoomGemologist": "B",
+				"ModToggled": "on"
 			}
 		},
 // Fishing Tank Beginner Fish Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -1103,7 +1185,8 @@
 				"Fish Tank/6": "River Fish/O 685 30/145 1 0 143 1 0 706 1 0 699 1 0/6"
 			},
 			"When": {
-				"ExtrasFishTankBeginnerFish": "B"
+				"ExtrasFishTankBeginnerFish": "B",
+				"ModToggled": "on"
 			}
 		},
 // Fishing Tank Intermediate Fish Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -1115,7 +1198,8 @@
 				"Fish Tank/7": "Lake Fish/O 687 1/136 1 0 142 1 0 700 1 0 698 1 0/0"
 			},
 			"When": {
-				"ExtrasFishTankIntermediateFish": "B"
+				"ExtrasFishTankIntermediateFish": "B",
+				"ModToggled": "on"
 			}
 		},
 // Fishing Tank Advanced Fish Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -1127,7 +1211,8 @@
 				"Fish Tank/8": "Ocean Fish/O 690 5/131 1 0 130 1 0 150 1 0 701 1 0/5"
 			},
 			"When": {
-				"ExtrasFishTankAdvancedFish": "B"
+				"ExtrasFishTankAdvancedFish": "B",
+				"ModToggled": "on"
 			}
 		},
 // Fishing Tank Night Fish Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -1139,7 +1224,8 @@
 				"Fish Tank/9": "Night Fishing/R 516 1/140 1 0 132 1 0 148 1 0/1"
 			},
 			"When": {
-				"ExtrasFishTankNightFish": "B"
+				"ExtrasFishTankNightFish": "B",
+				"ModToggled": "on"
 			}
 		},
 // Fishing Tank Crab Pot Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -1151,7 +1237,8 @@
 				"Fish Tank/11": "Crab Pot/O 710 3/715 1 0 716 1 0 717 1 0 718 1 0 719 1 0 720 1 0 721 1 0 722 1 0 723 1 0 372 1 0/1/5"
 			},
 			"When": {
-				"ExtrasFishTankCrabPot": "B"
+				"ExtrasFishTankCrabPot": "B",
+				"ModToggled": "on"
 			}
 		},
 // Fishing Tank Specialty Fish Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
@@ -1163,7 +1250,8 @@
 				"Fish Tank/10": "Specialty Fish/O 242 5/128 1 0 156 1 0 164 1 0 734 1 0/4"
 			},
 			"When": {
-				"ExtrasFishTankSpecialtyFish": "B"
+				"ExtrasFishTankSpecialtyFish": "B",
+				"ModToggled": "on"
 			}
 		}
 	]
