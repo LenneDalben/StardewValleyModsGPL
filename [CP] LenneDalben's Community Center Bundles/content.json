@@ -1073,7 +1073,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Fish Tank/9": "Night Fishing/O 694 5/140 1 0 132 1 0 148 1 0/1"
+				"Fish Tank/9": "Night Fishing/O 694 5/140 1 0 132 1 0 148 1 0 269 1 0/1/3"
 			},
 			"When": {
 				"ExtrasFishTankNightFish": "A",
@@ -1203,7 +1203,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Fish Tank/9": "Night Fishing/R 516 1/140 1 0 132 1 0 148 1 0/1"
+				"Fish Tank/9": "Night Fishing/R 516 1/140 1 0 132 1 0 148 1 0 269 1 0/1/3"
 			},
 			"When": {
 				"ExtrasFishTankNightFish": "B",
