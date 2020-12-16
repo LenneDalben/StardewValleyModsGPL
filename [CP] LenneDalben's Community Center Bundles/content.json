@@ -1034,7 +1034,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Fish Tank/6": "River Fish/O 710 3/145 1 0 143 1 0 706 1 0 699 1 0/6"
+				"Fish Tank/6": "Beginner Fish/O 710 3/142 1 0 145 1 0 131 1 0 137 1 0 129 1 0 141 1 0/6/4"
 			},
 			"When": {
 				"ExtrasFishTankBeginnerFish": "A",
@@ -1164,7 +1164,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Fish Tank/6": "River Fish/O 685 30/145 1 0 143 1 0 706 1 0 699 1 0/6"
+				"Fish Tank/6": "Beginner Fish/O 685 30/142 1 0 145 1 0 131 1 0 137 1 0 129 1 0 141 1 0/6/4"
 			},
 			"When": {
 				"ExtrasFishTankBeginnerFish": "B",
