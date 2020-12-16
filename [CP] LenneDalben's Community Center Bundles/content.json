@@ -71,11 +71,6 @@
 			"AllowValues": "true, false",
 			"Default": "true"
 		},
-		"ExtrasCraftsRoomFallForaging": {
-			"Description": "Choose true (activated) or false. The reward is the same as vanilla (unadjusted).",
-			"AllowValues": "true, false",
-			"Default": "true"
-		},
 		"ExtrasCraftsRoomWinterForaging": {
 			"Description": "Choose true (activated) or false. The reward is the same as vanilla (unadjusted).",
 			"AllowValues": "true, false",
@@ -867,7 +862,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Crafts Room/13": "Spring Foraging/O 495 30/16 1 0 18 1 0 20 1 0 22 1 0/0"
+				"Crafts Room/13": "Spring Foraging/O 495 30/16 1 0 18 1 0 20 1 0 22 1 0 399 1 0 296 1 0/0"
 			},
 			"When": {
 				"ExtrasCraftsRoomSpringForaging": "true",
@@ -880,23 +875,10 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Crafts Room/14": "Summer Foraging/O 496 30/396 1 0 398 1 0 402 1 0/3"
+				"Crafts Room/14": "Summer Foraging/O 496 30/396 1 0 398 1 0 402 1 0 394 1 0/3"
 			},
 			"When": {
 				"ExtrasCraftsRoomSummerForaging": "true",
-				"ModToggled": "on"
-			}
-		},
-// Crafts Room Fall Foraging Bundle. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
-		{
-			"LogName": "Crafts Room: Fall Foraging Bundle",
-			"Action": "EditData",
-			"Target": "Data/Bundles",
-			"Entries": {
-				"Crafts Room/15": "Fall Foraging/O 497 30/404 1 0 406 1 0 408 1 0 410 1 0/2"
-			},
-			"When": {
-				"ExtrasCraftsRoomFallForaging": "true",
 				"ModToggled": "on"
 			}
 		},
@@ -906,7 +888,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Crafts Room/16": "Winter Foraging/O 498 30/412 1 0 414 1 0 416 1 0 418 1 0/6"
+				"Crafts Room/16": "Winter Foraging/O 498 30/412 1 0 414 1 0 416 1 0 418 1 0 283 1 0 392 1 0/6"
 			},
 			"When": {
 				"ExtrasCraftsRoomWinterForaging": "true",
@@ -919,7 +901,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Crafts Room/19": "Exotic Foraging/O 235 5/88 1 0 90 1 0 78 1 0 420 1 0 422 1 0 724 1 0 725 1 0 726 1 0 257 1 0/1/5"
+				"Crafts Room/19": "Exotic Foraging/O 235 5/88 1 0 90 1 0 78 1 0 420 1 0 422 1 0 724 1 0 725 1 0 726 1 0 257 1 0 281 1 0/1/5"
 			},
 			"When": {
 				"ExtrasCraftsRoomExoticForaging": "true",
@@ -932,7 +914,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Crafts Room/17": "Construction and Crafting/BO 105 1/388 99 0 388 99 0 390 99 0 709 10 0/4"
+				"Crafts Room/17": "Construction and Crafting/BO 105 1/388 99 0 390 99 0 709 10 0 771 5 0 92 5 0 330 5 0 309 5 0 310 5 0 311 5 0/4/7"
 			},
 			"When": {
 				"ExtrasCraftsRoomConstructionandCrafting": "A",
@@ -1130,7 +1112,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Crafts Room/17": "Construction and Crafting/BO 114 1/388 99 0 388 99 0 390 99 0 709 10 0/4"
+				"Crafts Room/17": "Construction and Crafting/BO 114 1/388 99 0 390 99 0 709 10 0 771 5 0 92 5 0 330 5 0 309 5 0 310 5 0 311 5 0/4/7"
 			},
 			"When": {
 				"ExtrasCraftsRoomConstructionandCrafting": "B",
