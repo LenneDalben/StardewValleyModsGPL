@@ -1060,7 +1060,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Fish Tank/8": "Ocean Fish/O 242 5/131 1 0 130 1 0 150 1 0 701 1 0/5"
+				"Fish Tank/8": "Advanced Fish/O 242 5/708 1 0 267 1 0 146 1 0 699 1 0 705 1 0 144 1 0 130 1 0 143 1 0 698 1 0/5/4"
 			},
 			"When": {
 				"ExtrasFishTankAdvancedFish": "A",
@@ -1190,7 +1190,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Fish Tank/8": "Ocean Fish/O 690 5/131 1 0 130 1 0 150 1 0 701 1 0/5"
+				"Fish Tank/8": "Advanced Fish/O 690 5/708 1 0 267 1 0 146 1 0 699 1 0 705 1 0 144 1 0 130 1 0 143 1 0 698 1 0/5/4"
 			},
 			"When": {
 				"ExtrasFishTankAdvancedFish": "B",
