@@ -1177,7 +1177,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Fish Tank/7": "Intermediate Fish/O 687 1/150 1 0 154 1 0 706 1 0 700 1 0 138 1 0 136 1 0 701 1 0 212 1 0/0/4"
+				"Fish Tank/7": "Intermediate Fish/O 687 1/150 1 0 154 1 0 706 1 0 700 1 0 138 1 0 136 1 0 701 1 0 139 1 0/0/4"
 			},
 			"When": {
 				"ExtrasFishTankIntermediateFish": "B",
