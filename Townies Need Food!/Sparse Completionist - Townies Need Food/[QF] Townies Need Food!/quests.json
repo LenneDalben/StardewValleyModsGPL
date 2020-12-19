@@ -1070,7 +1070,7 @@
         "Seasons": "spring",
         "Random": "10",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020",
+        "EventSeen": "63 11102020",
         "QuestNeverCompleted": "yes"
               }
     },
@@ -1720,7 +1720,7 @@
         "Seasons": "winter",
         "Random": "30",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020",
+        "EventSeen": "63 11102020",
         "QuestNeverCompleted": "yes"
               }
     },
