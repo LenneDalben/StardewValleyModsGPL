@@ -1056,7 +1056,7 @@
         "Seasons": "spring",
         "Random": "40",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "63, 11102020"
               }
     },
     { // Pam parsnip soup in spring
@@ -1656,7 +1656,7 @@
         "Seasons": "winter",
         "Random": "60",
         "not:QuestAcceptedInPeriod": "season year",
-        "EventSeen": "11102020"
+        "EventSeen": "63, 11102020"
               }
     },
     { // Shane pizza in winter
