@@ -12,7 +12,7 @@
 			"Default": "liteA"
 		},
 		"PantrySummerCrops": {
-			"Description": "Choose between twistA1, twistA2, liteA1, liteA2, plusA1, plusA2, twistB1, twistB2, liteB1, liteB2, plusB1, plusB2, or false. Twist replaces some items with JA items. Lite adds options for JA items. Plus requires JA items. Options with A have adjusted rewards. Options with B have vanilla rewards (unadjusted). Option 1 is for raspberry (available starting in year 2). Option 2 is for oregano.",
+			"Description": "Choose between twistA1, twistA2, liteA1, liteA2, plusA1, plusA2, twistB1, twistB2, liteB1, liteB2, plusB1, plusB2, or false. Twist replaces some items with JA items. Lite adds options for JA items. Plus requires JA items. Options with A have adjusted rewards. Options with B have vanilla rewards (unadjusted). Option 1 is for raspberry (available starting in year 2). Option 2 is for wasabi root.",
 			"AllowValues": "twistA1, twistA2, liteA1, liteA2, plusA1, plusA2, twistB1, twistB2, liteB1, liteB2, plusB1, plusB2, false",
 			"Default": "liteA1"
 		},
@@ -184,13 +184,13 @@
 				"ModToggled": "on"
 			}
 		},
-// Pantry Summer Crops TwistA2 Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted. A2 has oregano instead of raspberry.
+// Pantry Summer Crops TwistA2 Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has been adjusted. A2 has wasabi root instead of raspberry.
 		{
 			"LogName": "Pantry: Summer Crops TwistA2 Bundle",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/1": "Summer Crops/BO 17 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Oregano}} 1 0/3"
+				"Pantry/1": "Summer Crops/BO 17 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Wasabi Root}} 1 0/3"
 			},
 			"When": {
 				"PantrySummerCrops": "twistA2",
@@ -262,13 +262,13 @@
 				"ModToggled": "on"
 			}
 		},
-// Pantry Summer Crops TwistB2 Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla. B2 has oregano instead of raspberry.
+// Pantry Summer Crops TwistB2 Bundle. Most like the base game (vanilla) bundles, but with some items swapped for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla. B2 has wasabi root instead of raspberry.
 		{
 			"LogName": "Pantry: Summer Crops TwistB2 Bundle",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/1": "Summer Crops/O 621 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Oregano}} 1 0/3"
+				"Pantry/1": "Summer Crops/O 621 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Wasabi Root}} 1 0/3"
 			},
 			"When": {
 				"PantrySummerCrops": "twistB2",
@@ -420,7 +420,7 @@
 				"ModToggled": "on"
 			}
 		},
-// Pantry Summer Crops LiteA2 Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has been adjusted. A2 has oregano instead of raspberry.
+// Pantry Summer Crops LiteA2 Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has been adjusted. A2 has wasabi root instead of raspberry.
 		{
 			"LogName": "Pantry: Summer Crops LiteA2 Bundle",
 			"Action": "EditData",
@@ -485,13 +485,13 @@
 				"ModToggled": "on"
 			}
 		},
-// Pantry Summer Crops LiteB2 Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla. B2 has oregano instead of raspberry.
+// Pantry Summer Crops LiteB2 Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has NOT been adjusted, so it's the same as vanilla. B2 has wasabi root instead of raspberry.
 		{
 			"LogName": "Pantry: Summer Crops LiteB2 Bundle",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/1": "Summer Crops/O 621 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Oregano}} 1 0 254 1 0 260 1 0/3/5"
+				"Pantry/1": "Summer Crops/O 621 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Wasabi Root}} 1 0 254 1 0 260 1 0/3/5"
 			},
 			"When": {
 				"PantrySummerCrops": "liteB2",
@@ -643,13 +643,13 @@
 				"ModToggled": "on"
 			}
 		},
-// Pantry Summer Crops PlusA2 Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has been adjusted. A2 has oregano instead of raspberry.
+// Pantry Summer Crops PlusA2 Bundle. This is similar to the vanilla bundle with some options for JA items. The reward for the bundle has been adjusted. A2 has wasabi root instead of raspberry.
 		{
 			"LogName": "Pantry: Summer Crops PlusA2 Bundle",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/1": "Summer Crops/BO 17 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Oregano}} 1 0 254 1 0 260 1 0/3"
+				"Pantry/1": "Summer Crops/BO 17 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Wasabi Root}} 1 0 254 1 0 260 1 0/3"
 			},
 			"When": {
 				"PantrySummerCrops": "plusA2",
@@ -708,13 +708,13 @@
 				"ModToggled": "on"
 			}
 		},
-// Pantry Summer Crops PlusB2 Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has NOT been adjusted, so it's the same as vanilla. B2 has oregano instead of raspberry.
+// Pantry Summer Crops PlusB2 Bundle. These are the vanilla bundles with some requirements for JA items, so it's a little bit harder. The reward for the bundle has NOT been adjusted, so it's the same as vanilla. B2 has wasabi root instead of raspberry.
 		{
 			"LogName": "Pantry: Summer Crops PlusB2 Bundle",
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/1": "Summer Crops/O 621 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Oregano}} 1 0 254 1 0 260 1 0/3"
+				"Pantry/1": "Summer Crops/O 621 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Wasabi Root}} 1 0 254 1 0 260 1 0/3"
 			},
 			"When": {
 				"PantrySummerCrops": "plusB2",
