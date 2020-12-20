@@ -947,7 +947,7 @@
 				"BoilerRoomGeologist": "A"
 			}
 		},
-// DON'T FORGET YOU WANTED TO GET FANCY WITH IT Boiler Room Gemologist's Bundle. The reward for the bundle has been adjusted.
+// Boiler Room Gemologist's Bundle. The reward for the bundle has been adjusted. Auto-detects if you have Adventurer's Bundle to Gemologist's Bundle, and if you do, this patch doesn't load.
 		// Boiler Room Gemologist's Bundle Graphic Change (A or B)
 		{ 
 			"LogName": "Boiler Room: Gemologist's Bundle Graphic Change (A or B)",
@@ -962,7 +962,7 @@
 				"HasMod |contains=LenneDalben.AdventurerBundletoGemologistBundle": "false"
 			}
 		},
-		// Boiler Room Gemologist's Bundle A - Magnet Ring
+		// Boiler Room Gemologist's Bundle A - Magnet Ring. Auto-detects if you have Adventurer's Bundle to Gemologist's Bundle, and if you do, this patch doesn't load.
 		{
 			"LogName": "Boiler Room: Gemologist's Bundle A Magnet Ring",
 			"Action": "EditData",
@@ -977,7 +977,7 @@
 				"HasMod |contains=LenneDalben.AdventurerBundletoGemologistBundle": "false"
 			}
 		},
-		// Boiler Room Gemologist's Bundle A - Slime Charmer Ring
+		// Boiler Room Gemologist's Bundle A - Slime Charmer Ring. Auto-detects if you have Adventurer's Bundle to Gemologist's Bundle, and if you do, this patch doesn't load.
 		{
 			"LogName": "Boiler Room: Gemologist's Bundle A Slime Charmer Ring",
 			"Action": "EditData",
@@ -1148,7 +1148,7 @@
 				"ModToggled": "on"
 			}
 		},
-// DON'T FORGET YOU WANTED TO GET FANCY WITH IT Boiler Room Gemologist's Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
+// Boiler Room Gemologist's Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla. Auto-detects if you have Adventurer's Bundle to Gemologist's Bundle, and if you do, this patch doesn't load.
 		{
 			"LogName": "Boiler Room: Gemologist's Bundle B",
 			"Action": "EditData",
