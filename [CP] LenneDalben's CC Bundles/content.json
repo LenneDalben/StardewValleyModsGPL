@@ -426,7 +426,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Pantry/1": "Summer Crops/BO 17 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Wasabi_Root}} 1 0 254 1 0 260 1 0/3/5"
+				"Pantry/1": "Summer Crops/BO 17 1/256 1 0 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 1 0 258 1 0 {{spacechase0.jsonAssets/ObjectId:Wasabi Root}} 1 0 254 1 0 260 1 0/3/5"
 			},
 			"When": {
 				"PantrySummerCrops": "liteA2",
