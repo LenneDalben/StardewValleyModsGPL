@@ -958,7 +958,8 @@
 			"ToArea": { "X": 64, "Y": 212, "Width": 32, "Height": 32},
 			"When": {
 				"ModToggled": "on",
-				"BoilerRoomGemologist": "A, B"
+				"BoilerRoomGemologist": "A, B",
+				"HasMod |contains=LenneDalben.AdventurerBundletoGemologistBundle": "false"
 			}
 		},
 		// Boiler Room Gemologist's Bundle A - Magnet Ring
@@ -972,7 +973,8 @@
 			"When": {
 				"ModToggled": "on",
 				"BoilerRoomGemologist": "A",
-				"BoilerRoomGemologistRingReward": "magnet"
+				"BoilerRoomGemologistRingReward": "magnet",
+				"HasMod |contains=LenneDalben.AdventurerBundletoGemologistBundle": "false"
 			}
 		},
 		// Boiler Room Gemologist's Bundle A - Slime Charmer Ring
@@ -986,7 +988,8 @@
 			"When": {
 				"ModToggled": "on",
 				"BoilerRoomGemologist": "A",
-				"BoilerRoomGemologistRingReward": "slime"
+				"BoilerRoomGemologistRingReward": "slime",
+				"HasMod |contains=LenneDalben.AdventurerBundletoGemologistBundle": "false"
 			}
 		},
 // Vault 2,500 Bundle
@@ -1155,7 +1158,8 @@
 			},
 			"When": {
 				"ModToggled": "on",
-				"BoilerRoomGemologist": "B"
+				"BoilerRoomGemologist": "B",
+				"HasMod |contains=LenneDalben.AdventurerBundletoGemologistBundle": "false"
 				
 			}
 		},
