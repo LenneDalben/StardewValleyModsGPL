@@ -99,12 +99,12 @@
 		"BoilerRoomGemologist": {
 			"Description": "Choose A (activated, adjusted reward), B (activated unadjusted reward, so same as vanilla), or false.",
 			"AllowValues": "A, B, false",
-			"Default": "false"
+			"Default": "A"
 		},
 		"BoilerRoomGemologistRingReward": {
 			"Description": "If Gemologist option A is toggled, choose slime or magnet. If Gemologist option B is toggled, or Gemologist is not toggled (false), choose N/A.",
 			"AllowValues": "slime, magnet, N/A",
-			"Default": "N/A"
+			"Default": "slime"
 		},
 		"Vault2500": {
 			"Description": "Choose true (activated, adjusted reward) or false.",
