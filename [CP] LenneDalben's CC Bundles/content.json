@@ -1154,8 +1154,9 @@
 				"Boiler Room/22": "Gemologist's/R 518 1/68 3 0 60 3 0 64 1 0 72 1 0/1/2"
 			},
 			"When": {
-				"BoilerRoomGemologist": "B",
-				"ModToggled": "on"
+				"ModToggled": "on",
+				"BoilerRoomGemologist": "B"
+				
 			}
 		},
 // Fishing Tank Beginner Fish Bundle B. The reward for the bundle has NOT been adjusted, so it's the same as vanilla.
