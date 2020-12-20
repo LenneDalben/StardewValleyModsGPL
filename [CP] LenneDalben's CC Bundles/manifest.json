@@ -1,9 +1,9 @@
 {
-   "Name": "[CP] LenneDalben's Community Center Bundles",
+   "Name": "[CP] LenneDalben's CC Bundles",
    "Author": "LenneDalben",
    "Description": "This mod changes the community center bundles to add some Json Assets (JA) items, and it's highly configurable.",
    "Version": "0.0.1",
-   "UniqueID": "LenneDalben.CommunityCenterBundles",
+   "UniqueID": "LenneDalben.CCBundles",
    "MinimumApiVersion": "3.7.5",
    "UpdateKeys": [  ],
    "ContentPackFor": {
