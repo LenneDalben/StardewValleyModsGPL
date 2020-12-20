@@ -940,7 +940,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Boiler Room/21": "Geologist's/O 288 10/80 1 0 86 1 0 84 1 0 82 1 0 571 1 0 566 1 0 522 1 0 555 1 0/1/6"
+				"Boiler Room/21": "Geologist's/O 288 10/80 1 0 86 1 0 84 1 0 82 1 0 571 1 0 566 1 0 552 1 0 555 1 0/1/6"
 			},
 			"When": {
 				"BoilerRoomGeologist": "A",
@@ -1138,7 +1138,7 @@
 			"Action": "EditData",
 			"Target": "Data/Bundles",
 			"Entries": {
-				"Boiler Room/21": "Geologist's/O 749 5/80 1 0 86 1 0 84 1 0 82 1 0 571 1 0 566 1 0 522 1 0 555 1 0/1/6"
+				"Boiler Room/21": "Geologist's/O 749 5/80 1 0 86 1 0 84 1 0 82 1 0 571 1 0 566 1 0 552 1 0 555 1 0/1/6"
 			},
 			"When": {
 				"BoilerRoomGeologist": "B",
