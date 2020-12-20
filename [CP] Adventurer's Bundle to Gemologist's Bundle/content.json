@@ -7,7 +7,7 @@
 			"Default": "on"
 			},
 		"RewardModified": {
-			"Description": "Choose true if you want to have a modified reward, and select RingReward options below. Choose false if you want to have the vanilla reward (small magnet ring).",
+			"Description": "Choose true if you want to have a modified reward, and select RingReward option below. Choose false if you want to have the vanilla reward (small magnet ring).",
 			"AllowValues": "true, false",
 			"Default": "true"
 			},
