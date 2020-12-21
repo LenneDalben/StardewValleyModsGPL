@@ -71,7 +71,7 @@
 			"Pumpkin Seeds"
           ],
 		"When": [
-        "!z summer/u 28", //available if it's `During Summer` AND `it's the 28th` AND `player does not have the PierreStocklist flag`
+        "!z summer/u 28/l PierreStocklist", //available if it's `During Summer` AND `it's the 28th` AND `player does not have the PierreStocklist flag`
 		]		  
         },
       ],

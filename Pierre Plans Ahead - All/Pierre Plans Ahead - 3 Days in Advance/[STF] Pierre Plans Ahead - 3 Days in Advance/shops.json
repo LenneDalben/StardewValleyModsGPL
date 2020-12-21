@@ -12,7 +12,7 @@
             "Red Cabbage Seeds"
           ],
 		"When": [
-        "!z spring/y 2/u 26 27 28", //available if it's `During Spring` AND `it's year 2 or later` AND `it's the 26th, 27th, and 28th`
+        "!z spring/y 2/u 26 27 28/l PierreStocklist", //available if it's `During Spring` AND `it's year 2 or later` AND `it's the 26th, 27th, and 28th`
 		]
         },
 		{
@@ -23,7 +23,7 @@
 			"Melon Seeds"
           ],
 		"When": [
-        "!z spring/u 26 27 28", //available if it's `During Spring` AND `it's the 26th, 27th, and 28th`
+        "!z spring/u 26 27 28/l PierreStocklist", //available if it's `During Spring` AND `it's the 26th, 27th, and 28th`
 		]
         },
 		{
@@ -33,7 +33,7 @@
 			"Corn Seeds"
           ],	
 		"When": [
-        "!z spring/u 26 27 28", //available if it's `During Spring` AND `it's the 26th, 27th, and 28th`
+        "!z spring/u 26 27 28/l PierreStocklist", //available if it's `During Spring` AND `it's the 26th, 27th, and 28th`
 		]		  
         },
 		{
@@ -43,7 +43,7 @@
 			"Hops Starter"
           ],
 		"When": [
-        "!z spring/u 26 27 28", //available if it's `During Spring` AND `it's the 26th, 27th, and 28th`
+        "!z spring/u 26 27 28/l PierreStocklist", //available if it's `During Spring` AND `it's the 26th, 27th, and 28th`
 		]		  
         },
 		{
@@ -54,7 +54,7 @@
 			"Radish Seeds"
           ],	
 		"When": [
-        "!z spring/u 26 27 28", //available if it's `During Spring` AND `it's the 26th, 27th, and 28th`
+        "!z spring/u 26 27 28/l PierreStocklist", //available if it's `During Spring` AND `it's the 26th, 27th, and 28th`
 		]		  
         },
 		{
@@ -64,7 +64,7 @@
 			"Poppy Seeds"
           ],	
 		"When": [
-        "!z spring/u 26 27 28", //available if it's `During Spring` AND `it's the 26th, 27th, and 28th`
+        "!z spring/u 26 27 28/l PierreStocklist", //available if it's `During Spring` AND `it's the 26th, 27th, and 28th`
 		]		  
         },
 		{
@@ -75,7 +75,7 @@
 			"Tomato Seeds"
           ],
 		"When": [
-        "!z spring/u 26 27 28", //available if it's `During Spring` AND `it's the 26th, 27th, and 28th`
+        "!z spring/u 26 27 28/l PierreStocklist", //available if it's `During Spring` AND `it's the 26th, 27th, and 28th`
 		]		  
         },
 		{
@@ -85,7 +85,7 @@
 			"Sunflower Seeds"
           ],	
 		"When": [
-        "!z spring/u 26 27 28", //available if it's `During Spring` AND `it's the 26th, 27th, and 28th`
+        "!z spring/u 26 27 28/l PierreStocklist", //available if it's `During Spring` AND `it's the 26th, 27th, and 28th`
 		]		  
         },
 		{
@@ -95,7 +95,7 @@
 			"Wheat Seeds"
           ],	
 		"When": [
-        "!z spring/u 26 27 28", //available if it's `During Spring` AND `it's the 26th, 27th, and 28th`
+        "!z spring/u 26 27 28/l PierreStocklist", //available if it's `During Spring` AND `it's the 26th, 27th, and 28th`
 		]		  
         },
       ]
@@ -112,7 +112,7 @@
             "Artichoke Seeds"
           ],
 		"When": [
-        "!z summer/y 2/u 26 27 28", //available if it's `During Summer` AND `it's year 2 or later` AND `it's the 26th, 27th, and 28th`
+        "!z summer/y 2/u 26 27 28/l PierreStocklist", //available if it's `During Summer` AND `it's year 2 or later` AND `it's the 26th, 27th, and 28th`
 		]
         },
 		{
@@ -122,7 +122,7 @@
             "Amaranth Seeds"
           ],		  
 		"When": [
-        "!z summer/u 26 27 28", //available if it's `During Summer` AND `it's the 26th, 27th, and 28th`
+        "!z summer/u 26 27 28/l PierreStocklist", //available if it's `During Summer` AND `it's the 26th, 27th, and 28th`
 		]
         },
 		{
@@ -132,7 +132,7 @@
 			"Bok Choy Seeds"
           ],		
 		"When": [
-        "!z summer/u 26 27 28", //available if it's `During Summer` AND `it's the 26th, 27th, and 28th`
+        "!z summer/u 26 27 28/l PierreStocklist", //available if it's `During Summer` AND `it's the 26th, 27th, and 28th`
 		]		  
         },
 		{
@@ -142,7 +142,7 @@
 			"Cranberry Seeds"
           ],	
 		"When": [
-        "!z summer/u 26 27 28", //available if it's `During Summer` AND `it's the 26th, 27th, and 28th`
+        "!z summer/u 26 27 28/l PierreStocklist", //available if it's `During Summer` AND `it's the 26th, 27th, and 28th`
 		]		  
         },
 		{
@@ -152,7 +152,7 @@
 			"Eggplant Seeds"
           ],		  
 		"When": [
-        "!z summer/u 26 27 28", //available if it's `During Summer` AND `it's the 26th, 27th, and 28th`
+        "!z summer/u 26 27 28/l PierreStocklist", //available if it's `During Summer` AND `it's the 26th, 27th, and 28th`
 		]
         },
 		{
@@ -162,7 +162,7 @@
 			"Fairy Seeds",
           ],
 		"When": [
-        "!z summer/u 26 27 28", //available if it's `During Summer` AND `it's the 26th, 27th, and 28th`
+        "!z summer/u 26 27 28/l PierreStocklist", //available if it's `During Summer` AND `it's the 26th, 27th, and 28th`
 		]		  
         },
 		{
@@ -173,7 +173,7 @@
 			"Yam Seeds"
           ],
 		"When": [
-        "!z summer/u 26 27 28", //available if it's `During Summer` AND `it's the 26th, 27th, and 28th`
+        "!z summer/u 26 27 28/l PierreStocklist", //available if it's `During Summer` AND `it's the 26th, 27th, and 28th`
 		]		  
         },
 		{
@@ -183,7 +183,7 @@
 			"Pumpkin Seeds"
           ],
 		"When": [
-        "!z summer/u 26 27 28", //available if it's `During Summer` AND `it's the 26th, 27th, and 28th`
+        "!z summer/u 26 27 28/l PierreStocklist", //available if it's `During Summer` AND `it's the 26th, 27th, and 28th`
 		]		  
         },
       ],
@@ -200,7 +200,7 @@
             "Garlic Seeds"
           ],
 		"When": [
-        "!z winter/y 2/u 26 27 28", //available if it's `During Winter` AND `it's year 2 or later` AND `it's the 26th, 27th, and 28th`
+        "!z winter/y 2/u 26 27 28/l PierreStocklist", //available if it's `During Winter` AND `it's year 2 or later` AND `it's the 26th, 27th, and 28th`
 		]
         },
 		{
@@ -210,7 +210,7 @@
             "Jazz Seeds"
           ],
 		 "When": [
-        "!z winter/u 26 27 28", //available if it's `During Winter` AND `it's the 26th, 27th, and 28th`
+        "!z winter/u 26 27 28/l PierreStocklist", //available if it's `During Winter` AND `it's the 26th, 27th, and 28th`
 		]
         },		
 		{
@@ -220,7 +220,7 @@
 			"Cauliflower Seeds"
           ],
 		"When": [
-        "!z winter/u 26 27 28", //available if it's `During Winter` AND `it's the 26th, 27th, and 28th`
+        "!z winter/u 26 27 28/l PierreStocklist", //available if it's `During Winter` AND `it's the 26th, 27th, and 28th`
 		]
         },
 		{
@@ -230,7 +230,7 @@
 			"Bean Starter"
           ],
 		"When": [
-        "!z winter/u 26 27 28", //available if it's `During Winter` AND `it's the 26th, 27th, and 28th`
+        "!z winter/u 26 27 28/l PierreStocklist", //available if it's `During Winter` AND `it's the 26th, 27th, and 28th`
 		]
         },
 		{
@@ -240,7 +240,7 @@
 			"Kale Seeds"
           ],
 		"When": [
-        "!z winter/u 26 27 28", //available if it's `During Winter` AND `it's the 26th, 27th, and 28th`
+        "!z winter/u 26 27 28/l PierreStocklist", //available if it's `During Winter` AND `it's the 26th, 27th, and 28th`
 		]
         },
 		{
@@ -251,7 +251,7 @@
 			"Tulip Bulb"
           ],
 		"When": [
-        "!z winter/u 26 27 28", //available if it's `During Winter` AND `it's the 26th, 27th, and 28th`
+        "!z winter/u 26 27 28/l PierreStocklist", //available if it's `During Winter` AND `it's the 26th, 27th, and 28th`
 		]
         },
 		{
@@ -261,7 +261,7 @@
 			"Potato Seeds"
           ],
 		"When": [
-        "!z winter/u 26 27 28", //available if it's `During Winter` AND `it's the 26th, 27th, and 28th`
+        "!z winter/u 26 27 28/l PierreStocklist", //available if it's `During Winter` AND `it's the 26th, 27th, and 28th`
 		]
         },
 		
@@ -272,7 +272,7 @@
 			"Rice Shoot"
           ],
 		"When": [
-        "!z winter/u 26 27 28", //available if it's `During Winter` AND `it's the 26th, 27th, and 28th`
+        "!z winter/u 26 27 28/l PierreStocklist", //available if it's `During Winter` AND `it's the 26th, 27th, and 28th`
 		]
         },
       ],
