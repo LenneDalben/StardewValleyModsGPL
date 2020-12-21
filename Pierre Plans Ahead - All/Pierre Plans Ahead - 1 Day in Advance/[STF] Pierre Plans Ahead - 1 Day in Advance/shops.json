@@ -11,7 +11,7 @@
             "Red Cabbage Seeds"
           ],
 		"When": [
-        "!z spring/y 2/u 28", //available if it's `During Spring` AND `it's year 2 or later` AND `it's the 28th`
+        "!z spring/y 2/u 28/l PierreStocklist", //available if it's `During Spring` AND `it's year 2 or later` AND `it's the 28th` AND `player does not have the PierreStocklist flag`
 		]
         },
 		{
@@ -21,7 +21,7 @@
 			"Sunflower Seeds"
           ],	
 		"When": [
-        "!z spring/u 28", //available if it's `During Spring` AND `it's the 28th`
+        "!z spring/u 28/l PierreStocklist", //available if it's `During Spring` AND `it's the 28th` AND `player does not have the PierreStocklist flag`
 		]		  
         },
         {
@@ -39,7 +39,7 @@
 			"Wheat Seeds"
           ],	
 		"When": [
-        "!z spring/u 28", //available if it's `During Spring` AND `it's the 28th`
+        "!z spring/u 28/l PierreStocklist", //available if it's `During Spring` AND `it's the 28th` AND `player does not have the PierreStocklist flag`
 		]		  
         },
       ]
@@ -55,7 +55,7 @@
             "Artichoke Seeds"
           ],
 		"When": [
-        "!z summer/y 2/u 28", //available if it's `During Summer` AND `it's year 2 or later` AND `it's the 28th`
+        "!z summer/y 2/u 28/l PierreStocklist", //available if it's `During Summer` AND `it's year 2 or later` AND `it's the 28th` AND `player does not have the PierreStocklist flag`
 		]
         },
 		{
@@ -71,7 +71,7 @@
 			"Pumpkin Seeds"
           ],
 		"When": [
-        "!z summer/u 28", //available if it's `During Summer` AND `it's the 28th`
+        "!z summer/u 28", //available if it's `During Summer` AND `it's the 28th` AND `player does not have the PierreStocklist flag`
 		]		  
         },
       ],
@@ -87,7 +87,7 @@
             "Garlic Seeds"
           ],
 		"When": [
-        "!z winter/y 2/u 28", //available if it's `During Winter` AND `it's year 2 or later` AND `it's the 28th`
+        "!z winter/y 2/u 28/l PierreStocklist", //available if it's `During Winter` AND `it's year 2 or later` AND `it's the 28th` AND `player does not have the PierreStocklist flag`
 		]
         },
 		{
@@ -103,7 +103,7 @@
 			"Rice Shoot"
           ],
 		"When": [
-        "!z winter/u 28", //available if it's `During Winter` AND `it's the 28th`
+        "!z winter/u 28/l PierreStocklist", //available if it's `During Winter` AND `it's the 28th` AND `player does not have the PierreStocklist flag`
 		]
         },
       ],
