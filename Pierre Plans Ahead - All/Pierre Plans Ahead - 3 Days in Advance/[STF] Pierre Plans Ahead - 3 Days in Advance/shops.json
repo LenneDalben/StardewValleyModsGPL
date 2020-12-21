@@ -7,76 +7,30 @@
       "ItemStocks": [
         {
           "ItemType": "Object",
-		  "StockPrice": "100",
           "ItemNames": [
             "Red Cabbage Seeds"
           ],
 		"When": [
-        "!z spring/y 2/u 26 27 28/l PierreStocklist", //available if it's `During Spring` AND `it's year 2 or later` AND `it's the 26th, 27th, and 28th`
+        "!z spring/y 2/u 26 27 28/l PierreStocklist" //available if it's `During Spring` AND `it's year 2 or later` AND `it's the 26th, 27th, and 28th` AND `player does not have the PierreStocklist flag`
 		]
         },
 		{
           "ItemType": "Object",
-		  "StockPrice": "80",
           "ItemNames": [
             "Blueberry Seeds",
-			"Melon Seeds"
+            "Melon Seeds",
+            "Corn Seeds",
+            "Hops Starter",
+            "Pepper Seeds",
+            "Radish Seeds",
+            "Poppy Seeds",
+            "Spangle Seeds",
+            "Tomato Seeds",
+            "Wheat Seeds"
           ],
 		"When": [
-        "!z spring/u 26 27 28/l PierreStocklist", //available if it's `During Spring` AND `it's the 26th, 27th, and 28th`
+        "!z spring/u 26 27 28/l PierreStocklist" //available if it's `During Spring` AND `it's the 26th, 27th, and 28th` AND `player does not have the PierreStocklist flag`
 		]
-        },
-		{
-          "ItemType": "Object",
-		  "StockPrice": "150",
-          "ItemNames": [
-			"Corn Seeds"
-          ],	
-		"When": [
-        "!z spring/u 26 27 28/l PierreStocklist", //available if it's `During Spring` AND `it's the 26th, 27th, and 28th`
-		]		  
-        },
-		{
-          "ItemType": "Object",
-		  "StockPrice": "60",
-          "ItemNames": [
-			"Hops Starter"
-          ],
-		"When": [
-        "!z spring/u 26 27 28/l PierreStocklist", //available if it's `During Spring` AND `it's the 26th, 27th, and 28th`
-		]		  
-        },
-		{
-          "ItemType": "Object",
-		  "StockPrice": "40",
-          "ItemNames": [
-			"Pepper Seeds",
-			"Radish Seeds"
-          ],	
-		"When": [
-        "!z spring/u 26 27 28/l PierreStocklist", //available if it's `During Spring` AND `it's the 26th, 27th, and 28th`
-		]		  
-        },
-		{
-          "ItemType": "Object",
-		  "StockPrice": "100",
-          "ItemNames": [
-			"Poppy Seeds"
-          ],	
-		"When": [
-        "!z spring/u 26 27 28/l PierreStocklist", //available if it's `During Spring` AND `it's the 26th, 27th, and 28th`
-		]		  
-        },
-		{
-          "ItemType": "Object",
-		  "StockPrice": "50",
-          "ItemNames": [
-			"Spangle Seeds",
-			"Tomato Seeds"
-          ],
-		"When": [
-        "!z spring/u 26 27 28/l PierreStocklist", //available if it's `During Spring` AND `it's the 26th, 27th, and 28th`
-		]		  
         },
 		{
           "ItemType": "Object",
@@ -85,19 +39,9 @@
 			"Sunflower Seeds"
           ],	
 		"When": [
-        "!z spring/u 26 27 28/l PierreStocklist", //available if it's `During Spring` AND `it's the 26th, 27th, and 28th`
+        "!z spring/u 26 27 28/l PierreStocklist" //available if it's `During Spring` AND `it's the 26th, 27th, and 28th` AND `player does not have the PierreStocklist flag`
 		]		  
-        },
-		{
-          "ItemType": "Object",
-		  "StockPrice": "10",
-          "ItemNames": [
-			"Wheat Seeds"
-          ],	
-		"When": [
-        "!z spring/u 26 27 28/l PierreStocklist", //available if it's `During Spring` AND `it's the 26th, 27th, and 28th`
-		]		  
-        },
+        }
       ]
     },
 	//Last Day of Summer, Fall Seeds!
@@ -107,86 +51,22 @@
       "ItemStocks": [
         {
           "ItemType": "Object",
-		  "StockPrice": "30",
           "ItemNames": [
-            "Artichoke Seeds"
+            "Artichoke Seeds",
+            "Amaranth Seeds",
+            "Bok Choy Seeds",
+            "Cranberry Seeds",
+            "Eggplant Seeds",
+            "Fairy Seeds",
+            "Grape Starter",
+            "Yam Seeds",
+            "Pumpkin Seeds"
           ],
 		"When": [
-        "!z summer/y 2/u 26 27 28/l PierreStocklist", //available if it's `During Summer` AND `it's year 2 or later` AND `it's the 26th, 27th, and 28th`
+        "!z summer/y 2/u 26 27 28/l PierreStocklist" //available if it's `During Summer` AND `it's year 2 or later` AND `it's the 26th, 27th, and 28th` AND `player does not have the PierreStocklist flag`
 		]
-        },
-		{
-          "ItemType": "Object",
-		  "StockPrice": "70",
-          "ItemNames": [
-            "Amaranth Seeds"
-          ],		  
-		"When": [
-        "!z summer/u 26 27 28/l PierreStocklist", //available if it's `During Summer` AND `it's the 26th, 27th, and 28th`
-		]
-        },
-		{
-          "ItemType": "Object",
-		  "StockPrice": "50",
-          "ItemNames": [
-			"Bok Choy Seeds"
-          ],		
-		"When": [
-        "!z summer/u 26 27 28/l PierreStocklist", //available if it's `During Summer` AND `it's the 26th, 27th, and 28th`
-		]		  
-        },
-		{
-          "ItemType": "Object",
-		  "StockPrice": "240",
-          "ItemNames": [
-			"Cranberry Seeds"
-          ],	
-		"When": [
-        "!z summer/u 26 27 28/l PierreStocklist", //available if it's `During Summer` AND `it's the 26th, 27th, and 28th`
-		]		  
-        },
-		{
-          "ItemType": "Object",
-		  "StockPrice": "20",
-          "ItemNames": [
-			"Eggplant Seeds"
-          ],		  
-		"When": [
-        "!z summer/u 26 27 28/l PierreStocklist", //available if it's `During Summer` AND `it's the 26th, 27th, and 28th`
-		]
-        },
-		{
-          "ItemType": "Object",
-		  "StockPrice": "200",
-          "ItemNames": [
-			"Fairy Seeds",
-          ],
-		"When": [
-        "!z summer/u 26 27 28/l PierreStocklist", //available if it's `During Summer` AND `it's the 26th, 27th, and 28th`
-		]		  
-        },
-		{
-          "ItemType": "Object",
-		  "StockPrice": "60",
-          "ItemNames": [
-			"Grape Starter",
-			"Yam Seeds"
-          ],
-		"When": [
-        "!z summer/u 26 27 28/l PierreStocklist", //available if it's `During Summer` AND `it's the 26th, 27th, and 28th`
-		]		  
-        },
-		{
-          "ItemType": "Object",
-		  "StockPrice": "100",
-          "ItemNames": [
-			"Pumpkin Seeds"
-          ],
-		"When": [
-        "!z summer/u 26 27 28/l PierreStocklist", //available if it's `During Summer` AND `it's the 26th, 27th, and 28th`
-		]		  
-        },
-      ],
+        }
+      ]
     },
 	//Last Day of Winter, Spring Seeds!
 	{
@@ -195,87 +75,22 @@
       "ItemStocks": [
 		{
           "ItemType": "Object",
-		  "StockPrice": "40",
           "ItemNames": [
-            "Garlic Seeds"
+            "Garlic Seeds",
+            "Jazz Seeds",
+            "Cauliflower Seeds",
+            "Bean Starter",
+            "Kale Seeds",
+            "Parsnip Seeds",
+            "Tulip Bulb",
+            "Potato Seeds",
+            "Rice Shoot"
           ],
 		"When": [
-        "!z winter/y 2/u 26 27 28/l PierreStocklist", //available if it's `During Winter` AND `it's year 2 or later` AND `it's the 26th, 27th, and 28th`
+        "!z winter/y 2/u 26 27 28/l PierreStocklist" //available if it's `During Winter` AND `it's year 2 or later` AND `it's the 26th, 27th, and 28th` AND `player does not have the PierreStocklist flag`
 		]
-        },
-		{
-          "ItemType": "Object",
-		  "StockPrice": "30",
-          "ItemNames": [
-            "Jazz Seeds"
-          ],
-		 "When": [
-        "!z winter/u 26 27 28/l PierreStocklist", //available if it's `During Winter` AND `it's the 26th, 27th, and 28th`
-		]
-        },		
-		{
-          "ItemType": "Object",
-		  "StockPrice": "80",
-          "ItemNames": [
-			"Cauliflower Seeds"
-          ],
-		"When": [
-        "!z winter/u 26 27 28/l PierreStocklist", //available if it's `During Winter` AND `it's the 26th, 27th, and 28th`
-		]
-        },
-		{
-          "ItemType": "Object",
-		  "StockPrice": "60",
-          "ItemNames": [
-			"Bean Starter"
-          ],
-		"When": [
-        "!z winter/u 26 27 28/l PierreStocklist", //available if it's `During Winter` AND `it's the 26th, 27th, and 28th`
-		]
-        },
-		{
-          "ItemType": "Object",
-		  "StockPrice": "70",
-          "ItemNames": [
-			"Kale Seeds"
-          ],
-		"When": [
-        "!z winter/u 26 27 28/l PierreStocklist", //available if it's `During Winter` AND `it's the 26th, 27th, and 28th`
-		]
-        },
-		{
-          "ItemType": "Object",
-		  "StockPrice": "20",
-          "ItemNames": [
-			"Parsnip Seeds",
-			"Tulip Bulb"
-          ],
-		"When": [
-        "!z winter/u 26 27 28/l PierreStocklist", //available if it's `During Winter` AND `it's the 26th, 27th, and 28th`
-		]
-        },
-		{
-          "ItemType": "Object",
-		  "StockPrice": "50",
-          "ItemNames": [
-			"Potato Seeds"
-          ],
-		"When": [
-        "!z winter/u 26 27 28/l PierreStocklist", //available if it's `During Winter` AND `it's the 26th, 27th, and 28th`
-		]
-        },
-		
-		{
-          "ItemType": "Object",
-		  "StockPrice": "40",
-          "ItemNames": [
-			"Rice Shoot"
-          ],
-		"When": [
-        "!z winter/u 26 27 28/l PierreStocklist", //available if it's `During Winter` AND `it's the 26th, 27th, and 28th`
-		]
-        },
-      ],
-    },
+        }
+      ]
+    }
   ]
 }
