@@ -1,110 +1,110 @@
 {
   "VanillaShops": [
-  //Last Day of Spring, Summer Seeds!
-	{
+    //Last Day of Spring, Summer Seeds!
+    {
       "ShopName": "PierreShop",
-	  "AddStockAboveVanilla": "True",
+      "AddStockAboveVanilla": "True",
       "ItemStocks": [
-	  {
+        {
           "ItemType": "Object",
-		  "ItemNames": [
+          "ItemNames": [
             "Red Cabbage Seeds"
           ],
-		"When": [
-        "!z spring/y 2/u 28/l PierreStocklist" //available if it's `During Spring` AND `it's year 2 or later` AND `it's the 28th` AND `player does not have the PierreStocklist flag`
-		]
-        },
-		{
-          "ItemType": "Object",
-		  "StockPrice": "200",
-          "ItemNames": [   
-			"Sunflower Seeds"
-          ],	
-		"When": [
-        "!z spring/u 28/l PierreStocklist" //available if it's `During Spring` AND `it's the 28th` AND `player does not have the PierreStocklist flag`
-		]		  
+          "When": [
+            "!z spring/y 2/u 28/l PierreStocklist" //available if it's `During Spring` AND `it's year 2 or later` AND `it's the 28th` AND `player does not have the PierreStocklist flag`
+          ]
         },
         {
           "ItemType": "Object",
-          "ItemNames": [        
+          "StockPrice": "200",
+          "ItemNames": [
+            "Sunflower Seeds"
+          ],
+          "When": [
+            "!z spring/u 28/l PierreStocklist" //available if it's `During Spring` AND `it's the 28th` AND `player does not have the PierreStocklist flag`
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "ItemNames": [
             "Blueberry Seeds",
-			"Melon Seeds",
-			"Corn Seeds",
-			"Hops Starter",
-			"Pepper Seeds",
-			"Radish Seeds",
-			"Poppy Seeds",
-			"Spangle Seeds",
-			"Tomato Seeds",
-			"Wheat Seeds"
-          ],	
-		"When": [
-        "!z spring/u 28/l PierreStocklist" //available if it's `During Spring` AND `it's the 28th` AND `player does not have the PierreStocklist flag`
-		]		  
+            "Melon Seeds",
+            "Corn Seeds",
+            "Hops Starter",
+            "Pepper Seeds",
+            "Radish Seeds",
+            "Poppy Seeds",
+            "Spangle Seeds",
+            "Tomato Seeds",
+            "Wheat Seeds"
+          ],
+          "When": [
+            "!z spring/u 28/l PierreStocklist" //available if it's `During Spring` AND `it's the 28th` AND `player does not have the PierreStocklist flag`
+          ]
         }
       ]
     },
-	//Last Day of Summer, Fall Seeds!
-	{
+    //Last Day of Summer, Fall Seeds!
+    {
       "ShopName": "PierreShop",
-	  "AddStockAboveVanilla": "True",
+      "AddStockAboveVanilla": "True",
       "ItemStocks": [
         {
           "ItemType": "Object",
           "ItemNames": [
             "Artichoke Seeds"
           ],
-		"When": [
-        "!z summer/y 2/u 28/l PierreStocklist" //available if it's `During Summer` AND `it's year 2 or later` AND `it's the 28th` AND `player does not have the PierreStocklist flag`
-		]
+          "When": [
+            "!z summer/y 2/u 28/l PierreStocklist" //available if it's `During Summer` AND `it's year 2 or later` AND `it's the 28th` AND `player does not have the PierreStocklist flag`
+          ]
         },
-		{
+        {
           "ItemType": "Object",
           "ItemNames": [
             "Amaranth Seeds",
-			"Bok Choy Seeds",
-			"Cranberry Seeds",
-			"Eggplant Seeds",
-			"Fairy Seeds",
-			"Grape Starter",
-			"Yam Seeds",
-			"Pumpkin Seeds"
+            "Bok Choy Seeds",
+            "Cranberry Seeds",
+            "Eggplant Seeds",
+            "Fairy Seeds",
+            "Grape Starter",
+            "Yam Seeds",
+            "Pumpkin Seeds"
           ],
-		"When": [
-        "!z summer/u 28/l PierreStocklist" //available if it's `During Summer` AND `it's the 28th` AND `player does not have the PierreStocklist flag`
-		]		  
+          "When": [
+            "!z summer/u 28/l PierreStocklist" //available if it's `During Summer` AND `it's the 28th` AND `player does not have the PierreStocklist flag`
+          ]
         }
       ]
     },
-	//Last Day of Winter, Spring Seeds!
-	{
+    //Last Day of Winter, Spring Seeds!
+    {
       "ShopName": "PierreShop",
-	  "AddStockAboveVanilla": "True",
+      "AddStockAboveVanilla": "True",
       "ItemStocks": [
-		{
+        {
           "ItemType": "Object",
           "ItemNames": [
             "Garlic Seeds"
           ],
-		"When": [
-        "!z winter/y 2/u 28/l PierreStocklist" //available if it's `During Winter` AND `it's year 2 or later` AND `it's the 28th` AND `player does not have the PierreStocklist flag`
-		]
+          "When": [
+            "!z winter/y 2/u 28/l PierreStocklist" //available if it's `During Winter` AND `it's year 2 or later` AND `it's the 28th` AND `player does not have the PierreStocklist flag`
+          ]
         },
-		{
+        {
           "ItemType": "Object",
           "ItemNames": [
             "Jazz Seeds",
-			"Cauliflower Seeds",
-			"Bean Starter",
-			"Kale Seeds",
-			"Parsnip Seeds",
-			"Tulip Bulb",
-			"Potato Seeds",
-			"Rice Shoot"
+            "Cauliflower Seeds",
+            "Bean Starter",
+            "Kale Seeds",
+            "Parsnip Seeds",
+            "Tulip Bulb",
+            "Potato Seeds",
+            "Rice Shoot"
           ],
-		"When": [
-        "!z winter/u 28/l PierreStocklist" //available if it's `During Winter` AND `it's the 28th` AND `player does not have the PierreStocklist flag`
-		]
+          "When": [
+            "!z winter/u 28/l PierreStocklist" //available if it's `During Winter` AND `it's the 28th` AND `player does not have the PierreStocklist flag`
+          ]
         }
       ]
     }
