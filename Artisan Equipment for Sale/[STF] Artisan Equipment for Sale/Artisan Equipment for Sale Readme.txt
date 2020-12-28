@@ -119,3 +119,8 @@ Oil Maker          |     10000      | Learn recipe and 5 hearts with Sandy
 |   Machine        | Purchase Price | Requirements
 Recycling Machine  |      5500      | Learn recipe and 5 hearts with Willy
 Worm Bin           |      6925      | Learn recipe and 6 hearts with Willy
+
+
+
+
+Oh, hello, you made it down here. You see, I had a brief fix to remove 2 square brackets from default.json and add them in mail.json, and of course, updating the version numbers in the 2 manifest.json files (for MFM and for STF). I doubted Nexus would let these small edits go by, because they are known for "eating" small edits to text files. In order to ensure (hope, really) that this update makes it to Nexus instead of getting lost to the void, I'm adding this blurb here.
