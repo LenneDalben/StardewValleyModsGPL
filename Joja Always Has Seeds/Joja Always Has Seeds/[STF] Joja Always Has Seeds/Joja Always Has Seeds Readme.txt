@@ -28,3 +28,8 @@ Optional: if you'd like to receive the letter, you'll also need to install MFMï»
 
 Uninstallation
 Delete the folders for this mod from your Stardew Valley/Mods folder.
+
+
+
+
+Oh, hello, you made it down here. You see, I had a brief fix to remove 2 square brackets from default.json and add them in mail.json, and of course, updating the version numbers in the 2 manifest.json files (for MFM and for STF). I doubted Nexus would let these small edits go by, because they are known for "eating" small edits to text files. In order to ensure (hope, really) that this update makes it to Nexus instead of getting lost to the void, I'm adding this blurb here.
