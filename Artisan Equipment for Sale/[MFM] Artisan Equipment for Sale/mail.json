@@ -1,3 +1,4 @@
+[
 	{
 		"Id": "artisanequipmentforsaleletter",
 		"Text": "artisanequipmentforsaleletter.text",
@@ -5,3 +6,4 @@
 		//Conditions for delivery
 		"RandomChance": 1
 	}
+]
