@@ -11,7 +11,7 @@
                         "Red Cabbage Seeds"
                     ],
                     "When": [
-                        "!z spring/y 2/r 0.33/u 22 23 24 25 26 27 28" //available if it's `During Spring` AND `it's year 2 or later` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+                        "!z spring/y 2/r 0.33/u 22 23 24 25 26 27 28/l PierreStocklist" //available if it's `During Spring` AND `it's year 2 or later` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th` AND `player does not have the PierreStocklist flag`
                     ]
                 },
                 {
@@ -21,7 +21,7 @@
                         "Melon Seeds"
                     ],
                     "When": [
-                        "!z spring/r 0.33/u 22 23 24 25 26 27 28" //available if it's `During Spring` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+                        "!z spring/r 0.33/u 22 23 24 25 26 27 28/l PierreStocklist" //available if it's `During Spring` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th` AND `player does not have the PierreStocklist flag`
                     ]
                 },
                 {
@@ -30,7 +30,7 @@
                         "Corn Seeds"
                     ],
                     "When": [
-                        "!z spring/r 0.33/u 22 23 24 25 26 27 28" //available if it's `During Spring` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+                        "!z spring/r 0.33/u 22 23 24 25 26 27 28/l PierreStocklist" //available if it's `During Spring` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th` AND `player does not have the PierreStocklist flag`
                     ]
                 },
                 {
@@ -39,7 +39,7 @@
                         "Hops Starter"
                     ],
                     "When": [
-                        "!z spring/r 0.33/u 22 23 24 25 26 27 28" //available if it's `During Spring` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+                        "!z spring/r 0.33/u 22 23 24 25 26 27 28/l PierreStocklist" //available if it's `During Spring` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th` AND `player does not have the PierreStocklist flag`
                     ]
                 },
                 {
@@ -49,7 +49,7 @@
                         "Radish Seeds"
                     ],
                     "When": [
-                        "!z spring/r 0.33/u 22 23 24 25 26 27 28" //available if it's `During Spring` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+                        "!z spring/r 0.33/u 22 23 24 25 26 27 28/l PierreStocklist" //available if it's `During Spring` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th` AND `player does not have the PierreStocklist flag`
                     ]
                 },
                 {
@@ -58,7 +58,7 @@
                         "Poppy Seeds"
                     ],
                     "When": [
-                        "!z spring/r 0.33/u 22 23 24 25 26 27 28" //available if it's `During Spring` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+                        "!z spring/r 0.33/u 22 23 24 25 26 27 28/l PierreStocklist" //available if it's `During Spring` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th` AND `player does not have the PierreStocklist flag`
                     ]
                 },
                 {
@@ -68,7 +68,7 @@
                         "Tomato Seeds"
                     ],
                     "When": [
-                        "!z spring/r 0.33/u 22 23 24 25 26 27 28" //available if it's `During Spring` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+                        "!z spring/r 0.33/u 22 23 24 25 26 27 28/l PierreStocklist" //available if it's `During Spring` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th` AND `player does not have the PierreStocklist flag`
                     ]
                 },
                 {
@@ -78,7 +78,7 @@
                         "Sunflower Seeds"
                     ],
                     "When": [
-                        "!z spring/r 0.33/u 22 23 24 25 26 27 28" //available if it's `During Spring` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+                        "!z spring/r 0.33/u 22 23 24 25 26 27 28/l PierreStocklist" //available if it's `During Spring` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th` AND `player does not have the PierreStocklist flag`
                     ]
                 },
                 {
@@ -87,7 +87,7 @@
                         "Wheat Seeds"
                     ],
                     "When": [
-                        "!z spring/r 0.33/u 22 23 24 25 26 27 28" //available if it's `During Spring` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+                        "!z spring/r 0.33/u 22 23 24 25 26 27 28/l PierreStocklist" //available if it's `During Spring` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th` AND `player does not have the PierreStocklist flag`
                     ]
                 },
             ]
@@ -103,7 +103,7 @@
                         "Artichoke Seeds"
                     ],
                     "When": [
-                        "!z summer/y 2/r 0.33/u 22 23 24 25 26 27 28" //available if it's `During Summer` AND `it's year 2 or later` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+                        "!z summer/y 2/r 0.33/u 22 23 24 25 26 27 28/l PierreStocklist" //available if it's `During Summer` AND `it's year 2 or later` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th` AND `player does not have the PierreStocklist flag`
                     ]
                 },
                 {
@@ -112,7 +112,7 @@
                         "Amaranth Seeds"
                     ],
                     "When": [
-                        "!z summer/r 0.33/u 22 23 24 25 26 27 28" //available if it's `During Summer` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+                        "!z summer/r 0.33/u 22 23 24 25 26 27 28/l PierreStocklist" //available if it's `During Summer` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th` AND `player does not have the PierreStocklist flag`
                     ]
                 },
                 {
@@ -121,7 +121,7 @@
                         "Bok Choy Seeds"
                     ],
                     "When": [
-                        "!z summer/r 0.33/u 22 23 24 25 26 27 28" //available if it's `During Summer` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+                        "!z summer/r 0.33/u 22 23 24 25 26 27 28/l PierreStocklist" //available if it's `During Summer` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th` AND `player does not have the PierreStocklist flag`
                     ]
                 },
                 {
@@ -130,7 +130,7 @@
                         "Cranberry Seeds"
                     ],
                     "When": [
-                        "!z summer/r 0.33/u 22 23 24 25 26 27 28" //available if it's `During Summer` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+                        "!z summer/r 0.33/u 22 23 24 25 26 27 28/l PierreStocklist" //available if it's `During Summer` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
                     ]
                 },
                 {
@@ -139,7 +139,7 @@
                         "Eggplant Seeds"
                     ],
                     "When": [
-                        "!z summer/r 0.33/u 22 23 24 25 26 27 28" //available if it's `During Summer` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+                        "!z summer/r 0.33/u 22 23 24 25 26 27 28/l PierreStocklist" //available if it's `During Summer` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th` AND `player does not have the PierreStocklist flag`
                     ]
                 },
                 {
@@ -148,7 +148,7 @@
                         "Fairy Seeds"
                     ],
                     "When": [
-                        "!z summer/r 0.33/u 22 23 24 25 26 27 28" //available if it's `During Summer` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+                        "!z summer/r 0.33/u 22 23 24 25 26 27 28/l PierreStocklist" //available if it's `During Summer` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th` AND `player does not have the PierreStocklist flag`
                     ]
                 },
                 {
@@ -158,7 +158,7 @@
                         "Yam Seeds"
                     ],
                     "When": [
-                        "!z summer/r 0.33/u 22 23 24 25 26 27 28" //available if it's `During Summer` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+                        "!z summer/r 0.33/u 22 23 24 25 26 27 28/l PierreStocklist" //available if it's `During Summer` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th` AND `player does not have the PierreStocklist flag`
                     ]
                 },
                 {
@@ -167,7 +167,7 @@
                         "Pumpkin Seeds"
                     ],
                     "When": [
-                        "!z summer/r 0.33/u 22 23 24 25 26 27 28" //available if it's `During Summer` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+                        "!z summer/r 0.33/u 22 23 24 25 26 27 28/l PierreStocklist" //available if it's `During Summer` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th` AND `player does not have the PierreStocklist flag`
                     ]
                 },
             ],
@@ -183,7 +183,7 @@
                         "Garlic Seeds"
                     ],
                     "When": [
-                        "!z winter/y 2/r 0.33/u 22 23 24 25 26 27 28" //available if it's `During Winter` AND `it's year 2 or later` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+                        "!z winter/y 2/r 0.33/u 22 23 24 25 26 27 28/l PierreStocklist" //available if it's `During Winter` AND `it's year 2 or later` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th` AND `player does not have the PierreStocklist flag`
                     ]
                 },
                 {
@@ -192,7 +192,7 @@
                         "Jazz Seeds"
                     ],
                     "When": [
-                        "!z winter/r 0.33/u 22 23 24 25 26 27 28" //available if it's `During Winter` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+                        "!z winter/r 0.33/u 22 23 24 25 26 27 28/l PierreStocklist" //available if it's `During Winter` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th` AND `player does not have the PierreStocklist flag`
                     ]
                 },
                 {
@@ -201,7 +201,7 @@
                         "Cauliflower Seeds"
                     ],
                     "When": [
-                        "!z winter/r 0.33/u 22 23 24 25 26 27 28" //available if it's `During Winter` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+                        "!z winter/r 0.33/u 22 23 24 25 26 27 28/l PierreStocklist" //available if it's `During Winter` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th` AND `player does not have the PierreStocklist flag`
                     ]
                 },
                 {
@@ -210,7 +210,7 @@
                         "Bean Starter"
                     ],
                     "When": [
-                        "!z winter/r 0.33/u 22 23 24 25 26 27 28" //available if it's `During Winter` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+                        "!z winter/r 0.33/u 22 23 24 25 26 27 28/l PierreStocklist" //available if it's `During Winter` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th` AND `player does not have the PierreStocklist flag`
                     ]
                 },
                 {
@@ -219,7 +219,7 @@
                         "Kale Seeds"
                     ],
                     "When": [
-                        "!z winter/r 0.33/u 22 23 24 25 26 27 28" //available if it's `During Winter` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+                        "!z winter/r 0.33/u 22 23 24 25 26 27 28/l PierreStocklist" //available if it's `During Winter` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th` AND `player does not have the PierreStocklist flag`
                     ]
                 },
                 {
@@ -229,7 +229,7 @@
                         "Tulip Bulb"
                     ],
                     "When": [
-                        "!z winter/r 0.33/u 22 23 24 25 26 27 28" //available if it's `During Winter` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+                        "!z winter/r 0.33/u 22 23 24 25 26 27 28/l PierreStocklist" //available if it's `During Winter` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th` AND `player does not have the PierreStocklist flag`
                     ]
                 },
                 {
@@ -238,7 +238,7 @@
                         "Potato Seeds"
                     ],
                     "When": [
-                        "!z winter/r 0.33/u 22 23 24 25 26 27 28" //available if it's `During Winter` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+                        "!z winter/r 0.33/u 22 23 24 25 26 27 28/l PierreStocklist" //available if it's `During Winter` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th` AND `player does not have the PierreStocklist flag`
                     ]
                 },
                 {
@@ -247,7 +247,7 @@
                         "Rice Shoot"
                     ],
                     "When": [
-                        "!z winter/r 0.33/u 22 23 24 25 26 27 28" //available if it's `During Winter` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th`
+                        "!z winter/r 0.33/u 22 23 24 25 26 27 28/l PierreStocklist" //available if it's `During Winter` AND '33% chance' AND `it's the 22nd, 23rd, 24th, 25th, 26th, 27th, and 28th` AND `player does not have the PierreStocklist flag`
                     ]
                 },
             ],
