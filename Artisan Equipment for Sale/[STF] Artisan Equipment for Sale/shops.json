@@ -76,7 +76,7 @@
         },
 		], //end of Krobus item stock
 		},
-//Artisan Equipment at Marlon's! Different versions depending on whether or not you have Befriend Marlon and Gunther vs. SVE vs. vanilla!
+//Artisan Equipment at Marlon's! Different versions depending on whether or not you have Befriend Marlon and Gunther vs. SVE vs. Make Marlon Real vs. vanilla!
 	//Befriend Marlon and Gunther version
 	{
 	"ShopName": "MarlonShop",
@@ -135,6 +135,35 @@
         },
 		], //end of Marlon item stock
 		},
+	//Make Marlon Real version
+	{
+		"ShopName": "MarlonShop",
+		  "AddStockAboveVanilla": "True",
+		  "ItemStocks": [
+			{
+			  "ItemType": "BigCraftable",
+			  "StockPrice": "8000",
+			  "ItemNames": [
+				"Slime Egg-Press"
+			  ],	
+			"Stock": 1,
+			"When": [
+			"HasMod YWolf.Marlon/u 4 11 18 25/HasCraftingRecipe Slime-Egg-Press/f Marlon 1500", //available if `every Thursday` AND `you've learned the Slime Egg-Press recipe` AND `6 hearts with Marlon`
+			]
+			},
+			{
+			  "ItemType": "BigCraftable",
+			  "StockPrice": "20000",
+			  "ItemNames": [
+				"Slime Incubator"
+			  ],	
+			"Stock": 1,
+			"When": [
+			"HasMod Wolf.Marlon/u 4 11 18 25/HasCraftingRecipe Slime-Incubator/f Marlon 1750", //available if `every Thursday` AND `you've learned the Slime Incubator recipe` AND `7 hearts with Marlon`
+			]
+			},
+			], //end of Marlon item stock
+			},
 	//Vanilla version
 	{
 	"ShopName": "MarlonShop",
