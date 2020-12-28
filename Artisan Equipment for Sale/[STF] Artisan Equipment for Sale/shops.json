@@ -13,7 +13,7 @@
 					],
 					"Stock": 2,
 					"When": [
-						"u 4 11 18 25/HasCraftingRecipe Charcoal-Kiln/f Clint 1250", //available if `every Thursday` AND `you have learned the Charcoal Kiln recipe` AND `5 hearts with Clint`
+						"u 4 11 18 25/HasCraftingRecipe Charcoal-Kiln/f Clint 1250" //available if `every Thursday` AND `you have learned the Charcoal Kiln recipe` AND `5 hearts with Clint`
 					]
 				},
 				{
@@ -24,7 +24,7 @@
 					],
 					"Stock": 2,
 					"When": [
-						"u 4 11 18 25/HasCraftingRecipe Furnace/f Clint 1000", //available if `every Thursday` AND `you've received the furnace recipe from Clint` AND `4 hearts with Clint`
+						"u 4 11 18 25/HasCraftingRecipe Furnace/f Clint 1000" //available if `every Thursday` AND `you've received the furnace recipe from Clint` AND `4 hearts with Clint`
 					]
 				},
 				{
@@ -35,10 +35,10 @@
 					],
 					"Stock": 2,
 					"When": [
-						"u 4 11 18 25/HasCraftingRecipe Lightning-Rod/f Clint 1000", //available if `every Thursday` AND `you've learned the Lightning Rod recipe` AND `4 hearts with Clint`
+						"u 4 11 18 25/HasCraftingRecipe Lightning-Rod/f Clint 1000" //available if `every Thursday` AND `you've learned the Lightning Rod recipe` AND `4 hearts with Clint`
 					]
-				},
-			], //end of Clint item stock
+				}
+			] //end of Clint item stock
 		},
 		//Artisan Equipment at Dwarf's!
 		{
@@ -53,10 +53,10 @@
 					],
 					"Stock": 1,
 					"When": [
-						"u 4 11 18 25/HasCraftingRecipe Crystalarium/f Dwarf 2000", //available if `every Thursday` AND `you've learned the Crystalarium recipe` AND `8 hearts with Dwarf`
+						"u 4 11 18 25/HasCraftingRecipe Crystalarium/f Dwarf 2000" //available if `every Thursday` AND `you've learned the Crystalarium recipe` AND `8 hearts with Dwarf`
 					]
-				},
-			], //end of Dwarf item stock
+				}
+			] //end of Dwarf item stock
 		},
 		//Artisan Equipment at Krobus'!
 		{
@@ -71,10 +71,10 @@
 					],
 					"Stock": 2,
 					"When": [
-						"u 4 11 18 25/HasCraftingRecipe Bee-House/f Krobus 1250", //available if `every Thursday` AND `you've learned the Bee House recipe` AND `5 hearts with Krobus`
+						"u 4 11 18 25/HasCraftingRecipe Bee-House/f Krobus 1250" //available if `every Thursday` AND `you've learned the Bee House recipe` AND `5 hearts with Krobus`
 					]
-				},
-			], //end of Krobus item stock
+				}
+			] //end of Krobus item stock
 		},
 		//Artisan Equipment at Marlon's! Different versions depending on whether or not you have Befriend Marlon and Gunther vs. SVE vs. Make Marlon Real vs. vanilla!
 		//Befriend Marlon and Gunther version
@@ -90,7 +90,7 @@
 					],
 					"Stock": 1,
 					"When": [
-						"HasMod Yoshimax.BefriendMarlon/u 4 11 18 25/HasCraftingRecipe Slime-Egg-Press/f Marlon 1500", //available if `every Thursday` AND `you've learned the Slime Egg-Press recipe` AND `6 hearts with Marlon`
+						"HasMod Yoshimax.BefriendMarlon/u 4 11 18 25/HasCraftingRecipe Slime-Egg-Press/f Marlon 1500" //available if `every Thursday` AND `you've learned the Slime Egg-Press recipe` AND `6 hearts with Marlon`
 					]
 				},
 				{
@@ -101,10 +101,10 @@
 					],
 					"Stock": 1,
 					"When": [
-						"HasMod Yoshimax.BefriendMarlon/u 4 11 18 25/HasCraftingRecipe Slime-Incubator/f Marlon 1750", //available if `every Thursday` AND `you've learned the Slime Incubator recipe` AND `7 hearts with Marlon`
+						"HasMod Yoshimax.BefriendMarlon/u 4 11 18 25/HasCraftingRecipe Slime-Incubator/f Marlon 1750" //available if `every Thursday` AND `you've learned the Slime Incubator recipe` AND `7 hearts with Marlon`
 					]
-				},
-			], //end of Marlon item stock
+				}
+			] //end of Marlon item stock
 		},
 		//Stardew Valley Expanded version
 		{
@@ -119,7 +119,7 @@
 					],
 					"Stock": 1,
 					"When": [
-						"HasMod FlashShifter.StardewValleyExpandedCP/u 4 11 18 25/HasCraftingRecipe Slime-Egg-Press/f MarlonFay 1500", //available if `every Thursday` AND `you've learned the Slime Egg-Press recipe` AND `6 hearts with Marlon`
+						"HasMod FlashShifter.StardewValleyExpandedCP/u 4 11 18 25/HasCraftingRecipe Slime-Egg-Press/f MarlonFay 1500" //available if `every Thursday` AND `you've learned the Slime Egg-Press recipe` AND `6 hearts with Marlon`
 					]
 				},
 				{
@@ -130,10 +130,10 @@
 					],
 					"Stock": 1,
 					"When": [
-						"HasMod FlashShifter.StardewValleyExpandedCP/u 4 11 18 25/HasCraftingRecipe Slime-Incubator/f MarlonFay 1750", //available if `every Thursday` AND `you've learned the Slime Incubator recipe` AND `7 hearts with Marlon`
+						"HasMod FlashShifter.StardewValleyExpandedCP/u 4 11 18 25/HasCraftingRecipe Slime-Incubator/f MarlonFay 1750" //available if `every Thursday` AND `you've learned the Slime Incubator recipe` AND `7 hearts with Marlon`
 					]
-				},
-			], //end of Marlon item stock
+				}
+			] //end of Marlon item stock
 		},
 		//Make Marlon Real version
 		{
@@ -148,7 +148,7 @@
 					],
 					"Stock": 1,
 					"When": [
-						"HasMod YWolf.Marlon/u 4 11 18 25/HasCraftingRecipe Slime-Egg-Press/f Marlon 1500", //available if `every Thursday` AND `you've learned the Slime Egg-Press recipe` AND `6 hearts with Marlon`
+						"HasMod YWolf.Marlon/u 4 11 18 25/HasCraftingRecipe Slime-Egg-Press/f Marlon 1500" //available if `every Thursday` AND `you've learned the Slime Egg-Press recipe` AND `6 hearts with Marlon`
 					]
 				},
 				{
@@ -159,10 +159,10 @@
 					],
 					"Stock": 1,
 					"When": [
-						"HasMod Wolf.Marlon/u 4 11 18 25/HasCraftingRecipe Slime-Incubator/f Marlon 1750", //available if `every Thursday` AND `you've learned the Slime Incubator recipe` AND `7 hearts with Marlon`
+						"HasMod Wolf.Marlon/u 4 11 18 25/HasCraftingRecipe Slime-Incubator/f Marlon 1750" //available if `every Thursday` AND `you've learned the Slime Incubator recipe` AND `7 hearts with Marlon`
 					]
-				},
-			], //end of Marlon item stock
+				}
+			] //end of Marlon item stock
 		},
 		//Vanilla version
 		{
@@ -177,7 +177,7 @@
 					],
 					"Stock": 1,
 					"When": [
-						"!HasMod Yoshimax.BefriendMarlon/!HasMod FlashShifter.StardewValleyExpandedCP/u 4 11 18 25/HasCraftingRecipe Slime-Egg-Press/b 1", //available if `every Thursday` AND `you've learned the Slime Egg-Press recipe` AND `you've reached the bottom of the mines once`
+						"!HasMod Yoshimax.BefriendMarlon/!HasMod FlashShifter.StardewValleyExpandedCP/u 4 11 18 25/HasCraftingRecipe Slime-Egg-Press/b 1" //available if `every Thursday` AND `you've learned the Slime Egg-Press recipe` AND `you've reached the bottom of the mines once`
 					]
 				},
 				{
@@ -188,10 +188,10 @@
 					],
 					"Stock": 1,
 					"When": [
-						"!HasMod Yoshimax.BefriendMarlon/!HasMod FlashShifter.StardewValleyExpandedCP/u 4 11 18 25/HasCraftingRecipe Slime-Incubator/b 1", //available if `every Thursday` AND `you've learned the Slime Incubator recipe` AND `you've reached the bottom of the mines once`
+						"!HasMod Yoshimax.BefriendMarlon/!HasMod FlashShifter.StardewValleyExpandedCP/u 4 11 18 25/HasCraftingRecipe Slime-Incubator/b 1" //available if `every Thursday` AND `you've learned the Slime Incubator recipe` AND `you've reached the bottom of the mines once`
 					]
-				},
-			], //end of Marlon item stock
+				}
+			] //end of Marlon item stock
 		},
 		//Artisan Equipment at Marnie's!
 		{
@@ -206,7 +206,7 @@
 					],
 					"Stock": 2,
 					"When": [
-						"u 4 11 18 25/HasCraftingRecipe Cheese-Press/f Marnie 1250", //available if `every Thursday` AND `you've learned the Cheese Press recipe` AND `5 hearts with Marnie`
+						"u 4 11 18 25/HasCraftingRecipe Cheese-Press/f Marnie 1250" //available if `every Thursday` AND `you've learned the Cheese Press recipe` AND `5 hearts with Marnie`
 					]
 				},
 				{
@@ -217,7 +217,7 @@
 					],
 					"Stock": 2,
 					"When": [
-						"u 4 11 18 25/HasCraftingRecipe Loom/f Marnie 1750", //available if `every Thursday` AND `you've learned the Loom recipe` AND `7 hearts with Marnie`
+						"u 4 11 18 25/HasCraftingRecipe Loom/f Marnie 1750" //available if `every Thursday` AND `you've learned the Loom recipe` AND `7 hearts with Marnie`
 					]
 				},
 				{
@@ -228,10 +228,10 @@
 					],
 					"Stock": 2,
 					"When": [
-						"u 4 11 18 25/HasCraftingRecipe Mayonnaise-Machine/f Marnie 1000", //available if `every Thursday` AND `you've learned the Mayonnaise Machine recipe` AND `4 hearts with Marnie`
+						"u 4 11 18 25/HasCraftingRecipe Mayonnaise-Machine/f Marnie 1000" //available if `every Thursday` AND `you've learned the Mayonnaise Machine recipe` AND `4 hearts with Marnie`
 					]
-				},
-			], //end of Marnie item stock
+				}
+			] //end of Marnie item stock
 		},
 		//Artisan Equipment at Pierre's!
 		{
@@ -246,7 +246,7 @@
 					],
 					"Stock": 1,
 					"When": [
-						"u 4 11 18 25/HasCraftingRecipe Seed-Maker/f Pierre 1250", //available if `every Thursday` AND `you've learned the Seed Maker recipe` AND `5 hearts with Pierre`
+						"u 4 11 18 25/HasCraftingRecipe Seed-Maker/f Pierre 1250" //available if `every Thursday` AND `you've learned the Seed Maker recipe` AND `5 hearts with Pierre`
 					]
 				},
 				{
@@ -257,7 +257,7 @@
 					],
 					"Stock": 2,
 					"When": [
-						"u 4 11 18 25/HasCraftingRecipe Quality-Sprinkler/f Pierre 750", //available if `every Thursday` AND `you've learned the Quality Sprinkler recipe` AND `3 hearts with Pierre`
+						"u 4 11 18 25/HasCraftingRecipe Quality-Sprinkler/f Pierre 750" //available if `every Thursday` AND `you've learned the Quality Sprinkler recipe` AND `3 hearts with Pierre`
 					]
 				},
 				{
@@ -268,10 +268,10 @@
 					],
 					"Stock": 2,
 					"When": [
-						"u 4 11 18 25/HasCraftingRecipe Scarecrow/f Pierre 500", //available if `every Thursday` AND `you've learned the Scarecrow recipe` AND `2 hearts with Pierre`
+						"u 4 11 18 25/HasCraftingRecipe Scarecrow/f Pierre 500" //available if `every Thursday` AND `you've learned the Scarecrow recipe` AND `2 hearts with Pierre`
 					]
-				},
-			], //end of Pierre item stock
+				}
+			] //end of Pierre item stock
 		},
 		//Artisan Equipment at Robin's!
 		{
@@ -286,7 +286,7 @@
 					],
 					"Stock": 2,
 					"When": [
-						"u 4 11 18 25/HasCraftingRecipe Cask/f Robin 1750", //available if `every Thursday` AND `you've learned the Cask recipe` AND `7 hearts with Robin`
+						"u 4 11 18 25/HasCraftingRecipe Cask/f Robin 1750" //available if `every Thursday` AND `you've learned the Cask recipe` AND `7 hearts with Robin`
 					]
 				},
 				{
@@ -297,7 +297,7 @@
 					],
 					"Stock": 2,
 					"When": [
-						"u 4 11 18 25/HasCraftingRecipe Keg/f Robin 1250", //available if `every Thursday` AND `you've learned the Keg recipe` AND `5 hearts with Robin`
+						"u 4 11 18 25/HasCraftingRecipe Keg/f Robin 1250" //available if `every Thursday` AND `you've learned the Keg recipe` AND `5 hearts with Robin`
 					]
 				},
 				{
@@ -308,7 +308,7 @@
 					],
 					"Stock": 2,
 					"When": [
-						"u 4 11 18 25/HasCraftingRecipe Preserves-Jar/f Robin 1000", //available if `every Thursday` AND `you've learned the Preserves Jar recipe` AND `4 hearts with Robin`
+						"u 4 11 18 25/HasCraftingRecipe Preserves-Jar/f Robin 1000" //available if `every Thursday` AND `you've learned the Preserves Jar recipe` AND `4 hearts with Robin`
 					]
 				},
 				{
@@ -319,10 +319,10 @@
 					],
 					"Stock": 2,
 					"When": [
-						"u 4 11 18 25/HasCraftingRecipe Tapper/f Robin 1000", //available if `every Thursday` AND `you've learned the Tapper recipe` AND `4 hearts with Robin`
+						"u 4 11 18 25/HasCraftingRecipe Tapper/f Robin 1000" //available if `every Thursday` AND `you've learned the Tapper recipe` AND `4 hearts with Robin`
 					]
-				},
-			], //end of Robin item stock
+				}
+			] //end of Robin item stock
 		},
 		//Artisan Equipment at Sandy's!
 		{
@@ -337,7 +337,7 @@
 					],
 					"Stock": 2,
 					"When": [
-						"u 4 11 18 25/HasCraftingRecipe Oil-Maker/f Sandy 1250", //available if `every Thursday` AND `you've learned the Oil Maker recipe` AND `5 hearts with Sandy`
+						"u 4 11 18 25/HasCraftingRecipe Oil-Maker/f Sandy 1250" //available if `every Thursday` AND `you've learned the Oil Maker recipe` AND `5 hearts with Sandy`
 					]
 				},
 				{
@@ -348,10 +348,10 @@
 					],
 					"Stock": 3,
 					"When": [
-						"u 4 11 18 25/HasCraftingRecipe Garden-Pot/f Sandy 750", //available if `every Thursday` AND `you've received the recipe for the garden pot from Evelyn` AND `3 hearts with Sandy`
+						"u 4 11 18 25/HasCraftingRecipe Garden-Pot/f Sandy 750" //available if `every Thursday` AND `you've received the recipe for the garden pot from Evelyn` AND `3 hearts with Sandy`
 					]
-				},
-			], //end of Sandy item stock
+				}
+			] //end of Sandy item stock
 		},
 		//Artisan Equipment at Willy's!
 		{
@@ -366,7 +366,7 @@
 					],
 					"Stock": 2,
 					"When": [
-						"u 4 11 18 25/HasCraftingRecipe Recycling-Machine/f Willy 1250", //available if `every Thursday` AND `you've learned the Recycling Machine recipe` AND `5 hearts with Willy`
+						"u 4 11 18 25/HasCraftingRecipe Recycling-Machine/f Willy 1250" //available if `every Thursday` AND `you've learned the Recycling Machine recipe` AND `5 hearts with Willy`
 					]
 				},
 				{
@@ -377,7 +377,7 @@
 					],
 					"Stock": 2,
 					"When": [
-						"u 4 11 18 25/HasCraftingRecipe Worm-Bin/f Willy 1500", //available if `every Thursday` AND `you've learned the Worm Bin recipe` AND `6 hearts with Willy`
+						"u 4 11 18 25/HasCraftingRecipe Worm-Bin/f Willy 1500" //available if `every Thursday` AND `you've learned the Worm Bin recipe` AND `6 hearts with Willy`
 					]
 				}
 			] //end of Willy item stock
