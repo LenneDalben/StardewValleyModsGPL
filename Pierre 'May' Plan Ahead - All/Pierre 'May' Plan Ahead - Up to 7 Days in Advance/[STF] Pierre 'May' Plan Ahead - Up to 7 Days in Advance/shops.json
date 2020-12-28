@@ -13,7 +13,7 @@
 					"When": [
 						"!z spring/y 2/u 22 23 24 25 26 27 28/SeededRandom 1 Season 0 0.25",
 						"!z spring/y 2/u 26 27 28/SeededRandom 1 Season 0.25 0.50",
-						"!z spring/y 2/u 28/SeededRandom 1 Season 0.50 0.75",
+						"!z spring/y 2/u 28/SeededRandom 1 Season 0.50 0.75"
 						//available if it's`During Spring` AND `year 2 or later` AND MAYBE `on the 22nd-28th, 26th-28th, or just the 28th`
 					]
 				},
@@ -26,7 +26,7 @@
 					"When": [
 						"!z spring/u 22 23 24 25 26 27 28/SeededRandom 1 Season 0 0.25",
 						"!z spring/u 26 27 28/SeededRandom 1 Season 0.25 0.50",
-						"!z spring/u 28/SeededRandom 1 Season 0.50 0.75",
+						"!z spring/u 28/SeededRandom 1 Season 0.50 0.75"
 						//available if it's`During Spring` AND MAYBE `on the 22nd-28th, 26th-28th, or just the 28th`
 					]
 				},
@@ -47,7 +47,7 @@
 					"When": [
 						"!z spring/u 22 23 24 25 26 27 28/SeededRandom 1 Season 0 0.25",
 						"!z spring/u 26 27 28/SeededRandom 1 Season 0.25 0.50",
-						"!z spring/u 28/SeededRandom 1 Season 0.50 0.75",
+						"!z spring/u 28/SeededRandom 1 Season 0.50 0.75"
 						//available if it's`During Spring` AND MAYBE `on the 22nd-28th, 26th-28th, or just the 28th``
 					]
 				},
@@ -66,7 +66,7 @@
 					"When": [
 						"!z summer/y 2/u 22 23 24 25 26 27 28/SeededRandom 1 Season 0 0.25",
 						"!z summer/y 2/u 26 27 28/SeededRandom 1 Season 0.25 0.50",
-						"!z summer/y 2/u 28/SeededRandom 1 Season 0.50 0.75",
+						"!z summer/y 2/u 28/SeededRandom 1 Season 0.50 0.75"
 						//available if it's`During Summer` AND `year 2 or later` AND MAYBE `on the 22nd-28th, 26th-28th, or just the 28th`
 					]
 				},
@@ -85,7 +85,7 @@
 					"When": [
 						"!z summer/u 22 23 24 25 26 27 28/SeededRandom 1 Season 0 0.25",
 						"!z summer/u 26 27 28/SeededRandom 1 Season 0.25 0.50",
-						"!z summer/u 28/SeededRandom 1 Season 0.50 0.75",
+						"!z summer/u 28/SeededRandom 1 Season 0.50 0.75"
 						//available if it's`During Summer` AND MAYBE `on the 22nd-28th, 26th-28th, or just the 28th`
 					]
 				},
@@ -104,7 +104,7 @@
 					"When": [
 						"!z winter/y 2/u 22 23 24 25 26 27 28/SeededRandom 1 Season 0 0.25",
 						"!z winter/y 2/u 26 27 28/SeededRandom 1 Season 0.25 0.50",
-						"!z winter/y 2/u 28/SeededRandom 1 Season 0.50 0.75",
+						"!z winter/y 2/u 28/SeededRandom 1 Season 0.50 0.75"
 						//available if it's`During Winter` AND `year 2 or later` AND MAYBE `on the 22nd-28th, 26th-28th, or just the 28th`
 					]
 				},
@@ -123,7 +123,7 @@
 					"When": [
 						"!z winter/u 22 23 24 25 26 27 28/SeededRandom 1 Season 0 0.25",
 						"!z winter/u 26 27 28/SeededRandom 1 Season 0.25 0.50",
-						"!z winter/u 28/SeededRandom 1 Season 0.50 0.75",
+						"!z winter/u 28/SeededRandom 1 Season 0.50 0.75"
 						//available if it's`During Winter` AND MAYBE `on the 22nd-28th, 26th-28th, or just the 28th`
 					]
 				},
