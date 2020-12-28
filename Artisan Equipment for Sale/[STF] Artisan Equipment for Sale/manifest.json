@@ -8,6 +8,6 @@
   "UpdateKeys": [ "Nexus:6354" ],
   "ContentPackFor": {
     "UniqueID": "Cherry.ShopTileFramework",
-	"MinimumVersion": "1.0.5"
+    	"MinimumVersion": "1.0.5"
   }
 }
