@@ -1,6 +1,10 @@
 # LenneDalben's Stardew Valley Mods (with GPL License)
 Welcome to the respository of my mods for Stardew Valley that have a GPL License!
 
+<a href="https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/%5BCP%5D%20Easier%20Farm%20Totem">Easier Farm Totem</a> | <a href="https://www.nexusmods.com/stardewvalley/mods/7601">Nexus Download</a>
+
+ Farm totems are easier to craft, with lower foraging skill and different resources.
+
 <a href="https://github.com/LenneDalben/StardewValleyModsGPL/blob/main/Townies%20Need%20Food!">(QF) Townies Need Food</a> | <a href="https://www.nexusmods.com/stardewvalley/mods/6534">Nexus Download</a>
 
 Villagers request cooked meals on the bulletin board, after you've learned the recipe and have a kitchen! Also checks if you have a mod that adds a kitchen to the first farmhouse.
