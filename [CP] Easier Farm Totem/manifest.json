@@ -4,7 +4,7 @@
    "Description": "Craft the farm totem with Foraging skill 3, 20 fiber, 10 wood, and 1 red mushroom (or 10 stone), instead of Foraging skill 8, 20 fiber, 1 hardwood, and 1 honey.",
    "Version": "1.0.0",
    "UniqueID": "LenneDalben.easierfarmtotem",
-   "UpdateKeys": [  ],
+   "UpdateKeys": [ "Nexus:7601" ],
    "ContentPackFor": {
        "UniqueID": "Pathoschild.ContentPatcher",
        "MinimumVersion": "1.19.2"
