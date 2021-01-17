@@ -7,7 +7,7 @@ https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/Joja%20Always%20Ha
 
 
 Description
-Have you ever wondered why JojaMart, an alleged super-powered grocery store, doesn't even sell all seeds year round? Well, wonder no more, because now they do!
+Have you ever wondered why JojaMart, an alleged super-powered grocery store, doesn't even sell seeds year round? Well, wonder no more, because now they do!
 
 As it says on the tin, with Joja Always Has Seeds, Joja will sell seeds all year round. You'll receive a one-time letter from Morris when you install the mod advertising the change in stock.
 
