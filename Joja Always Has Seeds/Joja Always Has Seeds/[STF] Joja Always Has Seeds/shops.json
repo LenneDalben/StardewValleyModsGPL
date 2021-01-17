@@ -4,13 +4,12 @@
       "ShopName": "JojaShop",
       "AddStockAboveVanilla": "True",
       "ItemStocks": [
-        //The spring seeds offered all year round
+//The spring seeds offered all year round
         {
           "ItemType": "Object",
           "StockPrice": "50",
           "ItemNames": [
-            "Garlic Seeds",
-            "Rice Shoot"
+            "Garlic Seeds"
           ],
           "When": [
             "y 2" //available if it's `it's year 2 or later`
@@ -18,20 +17,55 @@
         },
         {
           "ItemType": "Object",
+          "StockPrice": "37",
           "ItemNames": [
-            "Jazz Seeds",
-            "Cauliflower Seeds",
-            "Bean Starter",
-            "Kale Seeds",
-            "Parsnip Seeds",
-            "Tulip Bulb",
-            "Potato Seeds"
-          ],
-          "When": [
-            "z spring"
+            "Jazz Seeds"
           ]
         },
-        //The summer seeds offered all year round
+        {
+          "ItemType": "Object",
+          "StockPrice": "100",
+          "ItemNames": [
+            "Cauliflower Seeds"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "StockPrice": "75",
+          "ItemNames": [
+            "Bean Starter"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "StockPrice": "87",
+          "ItemNames": [
+            "Kale Seeds"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "StockPrice": "25",
+          "ItemNames": [
+            "Parsnip Seeds",
+            "Tulip Bulb"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "StockPrice": "62",
+          "ItemNames": [
+            "Potato Seeds"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "StockPrice": "50",
+          "ItemNames": [
+            "Rice Shoot"
+          ]
+        },
+//The summer seeds offered all year round
         {
           "ItemType": "Object",
           "StockPrice": "100",
@@ -44,32 +78,63 @@
         },
         {
           "ItemType": "Object",
-          "StockPrice": "125",
+          "StockPrice": "100",
           "ItemNames": [
-            "Sunflower Seeds"
-          ],
-          "When": [
-            "z summer"
+            "Melon Seeds"
           ]
         },
         {
           "ItemType": "Object",
+          "StockPrice": "187",
           "ItemNames": [
-            "Melon Seeds",
-            "Corn Seeds",
-            "Hops Starter",
-            "Pepper Seeds",
-            "Radish Seeds",
-            "Poppy Seeds",
-            "Spangle Seeds",
-            "Tomato Seeds",
-            "Wheat Seeds"
-          ],
-          "When": [
-            "z summer"
+            "Corn Seeds"
           ]
         },
-        //The fall seeds offered all year round
+        {
+          "ItemType": "Object",
+          "StockPrice": "75",
+          "ItemNames": [
+            "Hops Starter"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "StockPrice": "50",
+          "ItemNames": [
+            "Pepper Seeds",
+            "Radish Seeds"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "StockPrice": "125",
+          "ItemNames": [
+            "Poppy Seeds"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "StockPrice": "62",
+          "ItemNames": [
+            "Spangle Seeds",
+            "Tomato Seeds"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "StockPrice": "125",
+          "ItemNames": [
+            "Sunflower Seeds"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "StockPrice": "12",
+          "ItemNames": [
+            "Wheat Seeds"
+          ]
+        },
+//The fall seeds offered all year round
         {
           "ItemType": "Object",
           "StockPrice": "38",
@@ -82,18 +147,52 @@
         },
         {
           "ItemType": "Object",
+          "StockPrice": "87",
           "ItemNames": [
-            "Amaranth Seeds",
-            "Bok Choy Seeds",
-            "Cranberry Seeds",
-            "Eggplant Seeds",
-            "Fairy Seeds",
+            "Amaranth Seeds"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "StockPrice": "62",
+          "ItemNames": [
+            "Bok Choy Seeds"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "StockPrice": "300",
+          "ItemNames": [
+            "Cranberry Seeds"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "StockPrice": "25",
+          "ItemNames": [
+            "Eggplant Seeds"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "StockPrice": "250",
+          "ItemNames": [
+            "Fairy Seeds"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "StockPrice": "75",
+          "ItemNames": [
             "Grape Starter",
-            "Yam Seeds",
+            "Yam Seeds"
+          ]
+        },
+        {
+          "ItemType": "Object",
+          "StockPrice": "125",
+          "ItemNames": [
             "Pumpkin Seeds"
-          ],
-          "When": [
-            "z fall"
           ]
         }
       ]
