@@ -44,6 +44,16 @@
         },
         {
           "ItemType": "Object",
+          "StockPrice": "125",
+          "ItemNames": [
+            "Sunflower Seeds"
+          ],
+          "When": [
+            "z summer"
+          ]
+        },
+        {
+          "ItemType": "Object",
           "ItemNames": [
             "Melon Seeds",
             "Corn Seeds",
@@ -53,7 +63,6 @@
             "Poppy Seeds",
             "Spangle Seeds",
             "Tomato Seeds",
-            "Sunflower Seeds",
             "Wheat Seeds"
           ],
           "When": [
