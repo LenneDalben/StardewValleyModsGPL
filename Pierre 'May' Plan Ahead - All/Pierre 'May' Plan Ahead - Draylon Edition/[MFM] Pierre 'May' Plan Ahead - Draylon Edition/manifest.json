@@ -1,7 +1,7 @@
 ﻿{
 	"Name": "Pierre May Plan Ahead - Draylon Edition - MFM Component",
 	"Author": "LenneDalben",
-	"Version": "1.1.0",
+	"Version": "1.2.0",
 	"Description": "Pierre mails you a letter advertising that he may be selling the next season's seeds up to 7 days early, and even then, it's not guaranteed he'll sell them the rest of that week, or even sell all of the next season's seeds. Enjoy the randomness!",
 	"UniqueID": "LenneDalben.MFM.PierrePlansAhead",
 	"MinimumApiVersion": "3.8.1",

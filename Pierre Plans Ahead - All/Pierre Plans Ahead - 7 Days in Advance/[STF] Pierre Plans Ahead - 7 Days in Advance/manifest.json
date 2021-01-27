@@ -1,11 +1,11 @@
 {
   "Name": "[STF] Pierre Plans Ahead - 7 Days in Advance",
   "Author": "LenneDalben",
-  "Version": "1.1.0",
+  "Version": "1.2.0",
   "Description": "Pierre sells the next season's seeds 7 days in advance.",
   "UniqueID": "LenneDalben.PierrePlansAhead",
   "MinimumApiVersion": "3.8.1",
-  "UpdateKeys": [ "Nexus:6272" ],
+  "UpdateKeys": [ "Nexus:6272@PSeven" ],
   "ContentPackFor": {
     "UniqueID": "Cherry.ShopTileFramework",
     "MinimumVersion": "1.0.9"
