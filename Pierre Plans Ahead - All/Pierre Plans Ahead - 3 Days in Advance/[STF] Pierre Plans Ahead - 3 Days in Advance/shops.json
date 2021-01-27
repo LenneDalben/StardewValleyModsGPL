@@ -52,7 +52,21 @@
                 {
                     "ItemType": "Object",
                     "ItemNames": [
-                        "Artichoke Seeds",
+                        "Artichoke Seeds"
+                    ],
+                    "When": [
+                        "!z summer/y 2/u 26 27 28/l PierreStocklist" //available if it's `During Summer` AND `it's year 2 or later` AND `it's the 26th, 27th, and 28th` AND `player does not have the PierreStocklist flag`
+                    ]
+                }
+            ]
+        },
+        {
+            "ShopName": "PierreShop",
+            "AddStockAboveVanilla": "True",
+            "ItemStocks": [
+                {
+                    "ItemType": "Object",
+                    "ItemNames": [
                         "Amaranth Seeds",
                         "Bok Choy Seeds",
                         "Cranberry Seeds",
@@ -63,7 +77,7 @@
                         "Pumpkin Seeds"
                     ],
                     "When": [
-                        "!z summer/y 2/u 26 27 28/l PierreStocklist" //available if it's `During Summer` AND `it's year 2 or later` AND `it's the 26th, 27th, and 28th` AND `player does not have the PierreStocklist flag`
+                        "!z summer/u 26 27 28/l PierreStocklist" //available if it's `During Summer` AND `it's the 26th, 27th, and 28th` AND `player does not have the PierreStocklist flag`
                     ]
                 }
             ]
@@ -76,7 +90,21 @@
                 {
                     "ItemType": "Object",
                     "ItemNames": [
-                        "Garlic Seeds",
+                        "Garlic Seeds"
+                    ],
+                    "When": [
+                        "!z winter/y 2/u 26 27 28/l PierreStocklist" //available if it's `During Winter` AND `it's year 2 or later` AND `it's the 26th, 27th, and 28th` AND `player does not have the PierreStocklist flag`
+                    ]
+                }
+            ]
+        },
+        {
+            "ShopName": "PierreShop",
+            "AddStockAboveVanilla": "True",
+            "ItemStocks": [
+                {
+                    "ItemType": "Object",
+                    "ItemNames": [
                         "Jazz Seeds",
                         "Cauliflower Seeds",
                         "Bean Starter",
@@ -87,7 +115,7 @@
                         "Rice Shoot"
                     ],
                     "When": [
-                        "!z winter/y 2/u 26 27 28/l PierreStocklist" //available if it's `During Winter` AND `it's year 2 or later` AND `it's the 26th, 27th, and 28th` AND `player does not have the PierreStocklist flag`
+                        "!z winter/u 26 27 28/l PierreStocklist" //available if it's `During Winter` AND `it's the 26th, 27th, and 28th` AND `player does not have the PierreStocklist flag`
                     ]
                 }
             ]
