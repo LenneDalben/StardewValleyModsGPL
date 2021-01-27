@@ -1,26 +1,26 @@
 [
 	{
 		"Id": "pierreplansaheadspringletter",
-		"Text": "Hey @,^^I have a new deal with my suppliers this month, so if I'm lucky, they might deliver the summer seeds a day early! Isn't that great?^^Come on down the shop tomorrow to check, so you can plan ahead!^^-Pierre",
+		"Text": "pierreplansaheadspringletter.text",
 		"Repeatable": "true",
 		//Conditions for delivery
 		"Days": [27],
-		"Seasons": ["spring"],
+		"Seasons": ["spring"]
 	},
 	{
 		"Id": "pierreplansaheadsummerletter",
-		"Text": "Hey @,^^I have a new deal with my suppliers this month, so if I'm lucky, they might deliver the fall seeds a day early! Isn't that great?^^Come on down the shop tomorrow to check, so you can plan ahead!^^-Pierre",
+		"Text": "pierreplansaheadsummerletter.text",
 		"Repeatable": "true",
 		//Conditions for delivery
 		"Days": [27],
-		"Seasons": ["summer"],
+		"Seasons": ["summer"]
 	},
 	{
 		"Id": "pierreplansaheadwinterletter",
-		"Text": "Hey @,^^I have a new deal with my suppliers this month, so if I'm lucky, they might deliver the spring seeds a day early! Isn't that great?^^Come on down the shop tomorrow to check, so you can plan ahead!^^-Pierre",
+		"Text": "pierreplansaheadwinterletter.text",
 		"Repeatable": "true",
 		//Conditions for delivery
 		"Days": [27],
-		"Seasons": ["winter"],
-	},
+		"Seasons": ["winter"]
+	}
 ]
