@@ -1,5 +1,172 @@
 {
 	"Format": "1.20.0",
+	"ConfigSchema": {
+		"AbigailChanges": {
+			"Description": "Toggle greetings for Abigail.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"AlexChanges": {
+			"Description": "Toggle greetings for Alex.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"CarolineChanges": {
+			"Description": "Toggle greetings for Caroline.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"ClintChanges": {
+			"Description": "Toggle greetings for Clint.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"DemetriusChanges": {
+			"Description": "Toggle greetings for Demetrius.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"DwarfChanges": {
+			"Description": "Toggle greetings for Dwarf.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"ElliottChanges": {
+			"Description": "Toggle greetings for Elliott.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"EmilyChanges": {
+			"Description": "Toggle greetings for Emily.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"EvelynChanges": {
+			"Description": "Toggle greetings for Evelyn.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"GeorgeChanges": {
+			"Description": "Toggle greetings for George.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"GusChanges": {
+			"Description": "Toggle greetings for Gus.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"HaleyChanges": {
+			"Description": "Toggle greetings for Haley.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"HarveyChanges": {
+			"Description": "Toggle greetings for Harvey.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"JasChanges": {
+			"Description": "Toggle greetings for Jas.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"JodiChanges": {
+			"Description": "Toggle greetings for Jodi.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"KentChanges": {
+			"Description": "Toggle greetings for Kent.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"KrobusChanges": {
+			"Description": "Toggle greetings for Krobus.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"LeahChanges": {
+			"Description": "Toggle greetings for Leah.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"LewisChanges": {
+			"Description": "Toggle greetings for Lewis.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"LinusChanges": {
+			"Description": "Toggle greetings for Linus.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"MarnieChanges": {
+			"Description": "Toggle greetings for Marnie.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"MaruChanges": {
+			"Description": "Toggle greetings for Maru.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"PamChanges": {
+			"Description": "Toggle greetings for Pam.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"PennyChanges": {
+			"Description": "Toggle greetings for Penny.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"PierreChanges": {
+			"Description": "Toggle greetings for Pierre.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"RobinChanges": {
+			"Description": "Toggle greetings for Robin.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"SamChanges": {
+			"Description": "Toggle greetings for Sam.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"SandyChanges": {
+			"Description": "Toggle greetings for Sandy.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"SebastianChanges": {
+			"Description": "Toggle greetings for Sebastian.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"ShaneChanges": {
+			"Description": "Toggle greetings for Shane.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"VincentChanges": {
+			"Description": "Toggle greetings for Vincent.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"WillyChanges": {
+			"Description": "Toggle greetings for Willy.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"WizardChanges": {
+			"Description": "Toggle greetings for Wizard.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		}
+	},
 	"Changes": [
 		//Abigail mobile phone dialog changes - friendly
 		{
