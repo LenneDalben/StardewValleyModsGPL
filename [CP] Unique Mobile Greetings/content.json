@@ -177,7 +177,8 @@
 				"MobilePhoneGoodBye": "I'd better go, bye!$h"
 			},
 			"When": {
-				"Relationship:Abigail": "Friendly"
+				"Relationship:Abigail": "Friendly",
+				"AbigailChanges": true
 			}
 		},
 		//Abigail mobile phone dialog changes - dating, engaged, married
@@ -189,7 +190,8 @@
 				"MobilePhoneGoodBye": "I gotta go sweetie, bye!$h"
 			},
 			"When": {
-				"Relationship:Abigail": "Dating, Engaged, Married"
+				"Relationship:Abigail": "Dating, Engaged, Married",
+				"AbigailChanges": true
 			}
 		},
 		//Abigail mobile phone dialog changes - divorced
@@ -201,7 +203,8 @@
 				"MobilePhoneGoodBye": "Stop calling me, jerk!$a"
 			},
 			"When": {
-				"Relationship:Abigail": "Divorced"
+				"Relationship:Abigail": "Divorced",
+				"AbigailChanges": true
 			}
 		},
 		//Alex mobile phone dialog changes - friendly
@@ -213,7 +216,8 @@
 				"MobilePhoneGoodBye": "See ya!$h"
 			},
 			"When": {
-				"Relationship:Alex": "Friendly"
+				"Relationship:Alex": "Friendly",
+				"AlexChanges": true
 			}
 		},
 		//Alex mobile phone dialog changes - dating, engaged, married
@@ -225,7 +229,8 @@
 				"MobilePhoneGoodBye": "See ya, my cutie!$h"
 			},
 			"When": {
-				"Relationship:Alex": "Dating, Engaged, Married"
+				"Relationship:Alex": "Dating, Engaged, Married",
+				"AlexChanges": true
 			}
 		},
 		//Alex mobile phone dialog changes - divorced
@@ -237,7 +242,8 @@
 				"MobilePhoneGoodBye": "Lose my number.$s"
 			},
 			"When": {
-				"Relationship:Alex": "Divorced"
+				"Relationship:Alex": "Divorced",
+				"AlexChanges": true
 			}
 		},
 		//Caroline mobile phone dialog changes
@@ -248,6 +254,9 @@
 				"MobilePhoneGreeting": "Hi {0}, how are you doing?",
 				"MobilePhoneInvite": "Sure, what would you like to do?",
 				"MobilePhoneGoodBye": "Talk to you later!$h"
+			},
+			"When": {
+				"CarolineChanges": true
 			}
 		},
 		//Clint mobile phone dialog changes
@@ -258,6 +267,9 @@
 				"MobilePhoneGreeting": "Hello {0}!",
 				"MobilePhoneInvite": "Um, okay. What do you want to do?",
 				"MobilePhoneGoodBye": "Bye!"
+			},
+			"When": {
+				"ClintChanges": true
 			}
 		},
 		//Demetrius mobile phone dialog changes
@@ -268,6 +280,9 @@
 				"MobilePhoneGreeting": "Greetings {0}! Are you enjoying this fine day?",
 				"MobilePhoneInvite": "Sure, what would you like to do?",
 				"MobilePhoneGoodBye": "Goodbye @!"
+			},
+			"When": {
+				"DemetriusChanges": true
 			}
 		},
 		//Dwarf mobile phone dialog changes
@@ -278,6 +293,9 @@
 				"MobilePhoneGreeting": "Greetings {0}! Are you enjoying this fine day?",
 				"MobilePhoneInvite": "Okay, what would you like to do?",
 				"MobilePhoneGoodBye": "Come by the shop soon."
+			},
+			"When": {
+				"DwarfChanges": true
 			}
 		},
 		//Elliott mobile phone dialog changes - friendly
@@ -290,7 +308,8 @@
 				"MobilePhoneGoodBye": "Goodbye @!$h"
 			},
 			"When": {
-				"Relationship:Elliott": "Friendly"
+				"Relationship:Elliott": "Friendly",
+				"ElliottChanges": true
 			}
 		},
 		//Elliott mobile phone dialog changes - dating, engaged, married
@@ -303,7 +322,8 @@
 				"MobilePhoneGoodBye": "Goodbye, my sweet!$h"
 			},
 			"When": {
-				"Relationship:Elliott": "Dating, Engaged, Married"
+				"Relationship:Elliott": "Dating, Engaged, Married",
+				"ElliottChanges": true
 			}
 		},
 		//Elliott mobile phone dialog changes - divorced
@@ -315,7 +335,8 @@
 				"MobilePhoneGoodBye": "I do not wish to hear from you again.$s"
 			},
 			"When": {
-				"Relationship:Elliott": "Divorced"
+				"Relationship:Elliott": "Divorced",
+				"ElliottChanges": true
 			}
 		},
 		//Emily mobile phone dialog changes- friendly
@@ -327,7 +348,8 @@
 				"MobilePhoneGoodBye": "Bye @, have a good one!$h"
 			},
 			"When": {
-				"Relationship:Emily": "Friendly"
+				"Relationship:Emily": "Friendly",
+				"EmilyChanges": true
 			}
 		},
 		//Emily mobile phone dialog changes- dating, engaged, married
@@ -339,7 +361,8 @@
 				"MobilePhoneGoodBye": "Bye honey!$h"
 			},
 			"When": {
-				"Relationship:Emily": "Dating, Engaged, Married"
+				"Relationship:Emily": "Dating, Engaged, Married",
+				"EmilyChanges": true
 			}
 		},
 		//Emily mobile phone dialog changes- divorced
@@ -351,7 +374,8 @@
 				"MobilePhoneGoodBye": "Leave me alone, please.$s"
 			},
 			"When": {
-				"Relationship:Emily": "Divorced"
+				"Relationship:Emily": "Divorced",
+				"EmilyChanges": true
 			}
 		},
 		//Evelyn mobile phone dialog changes
@@ -362,6 +386,9 @@
 				"MobilePhoneGreeting": "Hello my dear, I hope you're doing well!",
 				"MobilePhoneInvite": "So kind of you to ask, dear. What do you want to do?",
 				"MobilePhoneGoodBye": "Have a nice day, dear.$h"
+			},
+			"When": {
+				"EvelynChanges": true
 			}
 		},
 		//George mobile phone dialog changes
@@ -372,6 +399,9 @@
 				"MobilePhoneGreeting": "Hello?",
 				"MobilePhoneInvite": "You want to spend time with an old geezer like me? Well okay, what do you want to do?",
 				"MobilePhoneGoodBye": "Goodbye."
+			},
+			"When": {
+				"GeorgeChanges": true
 			}
 		},
 		//Gus mobile phone dialog changes
@@ -382,6 +412,9 @@
 				"MobilePhoneGreeting": "Hi there, {0}!",
 				"MobilePhoneInvite": "Sure, what do you want to do?",
 				"MobilePhoneGoodBye": "Bye, don't be a stranger!$h"
+			},
+			"When": {
+				"GusChanges": true
 			}
 		},
 		//Haley mobile phone dialog changes - friendly
@@ -393,7 +426,8 @@
 				"MobilePhoneGoodBye": "Byeeeeee!$h"
 			},
 			"When": {
-				"Relationship:Haley": "Friendly"
+				"Relationship:Haley": "Friendly",
+				"HaleyChanges": true
 			}
 		},
 		//Haley mobile phone dialog changes - dating, engaged, married
@@ -405,7 +439,8 @@
 				"MobilePhoneGoodBye": "Bye pookie!$h"
 			},
 			"When": {
-				"Relationship:Haley": "Dating, Engaged, Married"
+				"Relationship:Haley": "Dating, Engaged, Married",
+				"HaleyChanges": true
 			}
 		},
 		//Haley mobile phone dialog changes - divorced
@@ -417,7 +452,8 @@
 				"MobilePhoneGoodBye": "Buzz off.$7"
 			},
 			"When": {
-				"Relationship:Haley": "Divorced"
+				"Relationship:Haley": "Divorced",
+				"HaleyChanges": true
 			}
 		},
 		//Harvey mobile phone dialog changes - friendly
@@ -429,7 +465,8 @@
 				"MobilePhoneGoodBye": "Take care! Stay healthy."
 			},
 			"When": {
-				"Relationship:Harvey": "Friendly"
+				"Relationship:Harvey": "Friendly",
+				"HarveyChanges": true
 			}
 		},
 		//Harvey mobile phone dialog changes - dating, engaged, married
@@ -441,7 +478,8 @@
 				"MobilePhoneGoodBye": "Take care, ducky.$h"
 			},
 			"When": {
-				"Relationship:Harvey": "Dating, Engaged, Married"
+				"Relationship:Harvey": "Dating, Engaged, Married",
+				"HarveyChanges": true
 			}
 		},
 		//Harvey mobile phone dialog changes - divorced
@@ -453,7 +491,8 @@
 				"MobilePhoneGoodBye": "I shouldn't have picked up.$s"
 			},
 			"When": {
-				"Relationship:Harvey": "Divorced"
+				"Relationship:Harvey": "Divorced",
+				"HarveyChanges": true
 			}
 		},
 		//Jas mobile phone dialog changes
@@ -464,6 +503,9 @@
 				"MobilePhoneGreeting": "Hiya {0}!",
 				"MobilePhoneInvite": "Yay! What do you want to do?",
 				"MobilePhoneGoodBye": "...$3#$b#Okay g-*click*$h"
+			},
+			"When": {
+				"JasChanges": true
 			}
 		},
 		//Jodi mobile phone dialog changes
@@ -474,6 +516,9 @@
 				"MobilePhoneGreeting": "Hi {0}, I have a minute to chat.",
 				"MobilePhoneInvite": "It'd be nice to take a break, what do you want to do?",
 				"MobilePhoneGoodBye": "I'd better get going, bye!"
+			},
+			"When": {
+				"JodiChanges": true
 			}
 		},
 		//Kent mobile phone dialog changes
@@ -484,6 +529,9 @@
 				"MobilePhoneGreeting": "...Hi.",
 				"MobilePhoneInvite": "Erm... okay. What do you want to do?",
 				"MobilePhoneGoodBye": "Bye..."
+			},
+			"When": {
+				"KentChanges": true
 			}
 		},
 		//Krobus mobile phone dialog changes
@@ -493,6 +541,9 @@
 			"Entries": {
 				"MobilePhoneGreeting": "...Hello.",
 				"MobilePhoneGoodBye": "...Goodbye."
+			},
+			"When": {
+				"KrobusChanges": true
 			}
 		},
 		//Leah mobile phone dialog changes - friendly
@@ -504,7 +555,8 @@
 				"MobilePhoneGoodBye": "See you soon!$h"
 			},
 			"When": {
-				"Relationship:Leah": "Friendly"
+				"Relationship:Leah": "Friendly",
+				"LeahChanges": true
 			}
 		},
 		//Leah mobile phone dialog changes - dating, engaged, married
@@ -516,7 +568,8 @@
 				"MobilePhoneGoodBye": "See you later!$h"
 			},
 			"When": {
-				"Relationship:Leah": "Dating, Engaged, Married"
+				"Relationship:Leah": "Dating, Engaged, Married",
+				"LeahChanges": true
 			}
 		},
 		//Leah mobile phone dialog changes - divorced
@@ -528,7 +581,8 @@
 				"MobilePhoneGoodBye": "Feel free to never call me again.$u"
 			},
 			"When": {
-				"Relationship:Leah": "Divorced"
+				"Relationship:Leah": "Divorced",
+				"LeahChanges": true
 			}
 		},
 		//Lewis mobile phone dialog changes
@@ -539,6 +593,9 @@
 				"MobilePhoneGreeting": "Hi there {0}! What have you been up to?",
 				"MobilePhoneInvite": "Sure, what do you want to do?",
 				"MobilePhoneGoodBye": "Bye @!$h"
+			},
+			"When": {
+				"KrobusChanges": true
 			}
 		},
 		//Linus mobile phone dialog changes
@@ -549,6 +606,9 @@
 				"MobilePhoneGreeting": "Greetings {0}!",
 				"MobilePhoneInvite": "It's nice of you to think about me, what do you want to do?",
 				"MobilePhoneGoodBye": "Go in peace.$h"
+			},
+			"When": {
+				"KrobusChanges": true
 			}
 		},
 		//Marnie mobile phone dialog changes
@@ -558,6 +618,9 @@
 			"Entries": {
 				"MobilePhoneGreeting": "Howdy {0}!",
 				"MobilePhoneGoodBye": "Take care!$h"
+			},
+			"When": {
+				"KrobusChanges": true
 			}
 		},
 		//Maru mobile phone dialog changes - friendly
@@ -569,7 +632,8 @@
 				"MobilePhoneGoodBye": "Bye, have fun working on the farm!$h"
 			},
 			"When": {
-				"Relationship:Maru": "Friendly"
+				"Relationship:Maru": "Friendly",
+				"MaruChanges": true
 			}
 		},
 		//Maru mobile phone dialog changes - dating, engaged, married
@@ -581,7 +645,8 @@
 				"MobilePhoneGoodBye": "Bye, darling!$h"
 			},
 			"When": {
-				"Relationship:Maru": "Dating, Engaged, Married"
+				"Relationship:Maru": "Dating, Engaged, Married",
+				"MaruChanges": true
 			}
 		},
 		//Maru mobile phone dialog changes - divorced
@@ -593,7 +658,8 @@
 				"MobilePhoneGoodBye": "%You can feel Maru rolling her eyes as she hangs up."
 			},
 			"When": {
-				"Relationship:Maru": "Divorced"
+				"Relationship:Maru": "Divorced",
+				"MaruChanges": true
 			}
 		},
 		//Pam mobile phone dialog changes
@@ -603,6 +669,9 @@
 			"Entries": {
 				"MobilePhoneGreeting": "Hey, kid!",
 				"MobilePhoneGoodBye": "See ya later!"
+			},
+			"When": {
+				"PamChanges": true
 			}
 		},
 		//Penny mobile phone dialog changes - friendly
@@ -614,7 +683,8 @@
 				"MobilePhoneGoodBye": "Nice talking to you!$h"
 			},
 			"When": {
-				"Relationship:Penny": "Friendly"
+				"Relationship:Penny": "Friendly",
+				"PennyChanges": true
 			}
 		},
 		//Penny mobile phone dialog changes - dating, engaged, married
@@ -626,7 +696,8 @@
 				"MobilePhoneGoodBye": "Can't wait to snuggle you, cuddlebug!$h"
 			},
 			"When": {
-				"Relationship:Penny": "Dating, Engaged, Married"
+				"Relationship:Penny": "Dating, Engaged, Married",
+				"PennyChanges": true
 			}
 		},
 		//Penny mobile phone dialog changes - divorced
@@ -638,7 +709,8 @@
 				"MobilePhoneGoodBye": "Leave me alone.$s"
 			},
 			"When": {
-				"Relationship:Penny": "Divorced"
+				"Relationship:Penny": "Divorced",
+				"PennyChanges": true
 			}
 		},
 		//Pierre mobile phone dialog changes
@@ -648,6 +720,9 @@
 			"Entries": {
 				"MobilePhoneGreeting": "Hey there {0}!",
 				"MobilePhoneGoodBye": "Hope to see you at the shop soon!$h"
+			},
+			"When": {
+				"PierreChanges": true
 			}
 		},
 		//Robin mobile phone dialog changes
@@ -657,6 +732,9 @@
 			"Entries": {
 				"MobilePhoneGreeting": "Hi {0}!",
 				"MobilePhoneGoodBye": "Have a good one!$h"
+			},
+			"When": {
+				"RobinChanges": true
 			}
 		},
 		//Sam mobile phone dialog changes - friendly
@@ -668,7 +746,8 @@
 				"MobilePhoneGoodBye": "Alright, take it easy!$h"
 			},
 			"When": {
-				"Relationship:Sam": "Friendly"
+				"Relationship:Sam": "Friendly",
+				"SamChanges": true
 			}
 		},
 		//Sam mobile phone dialog changes - dating, engaged, married
@@ -680,7 +759,8 @@
 				"MobilePhoneGoodBye": "Alright, bye!$h"
 			},
 			"When": {
-				"Relationship:Sam": "Dating, Engaged, Married"
+				"Relationship:Sam": "Dating, Engaged, Married",
+				"SamChanges": true
 			}
 		},
 		//Sam mobile phone dialog changes - divorced
@@ -692,7 +772,8 @@
 				"MobilePhoneGoodBye": "*click*$s"
 			},
 			"When": {
-				"Relationship:Sam": "Divorced"
+				"Relationship:Sam": "Divorced",
+				"SamChanges": true
 			}
 		},
 		//Sandy mobile phone dialog changes
@@ -703,6 +784,9 @@
 				"MobilePhoneGreeting": "Hello hello {0}!",
 				"MobilePhoneInvite": "Ooh... I'd love to; what do you want to do?",
 				"MobilePhoneGoodBye": "I hope you visit soon!$h"
+			},
+			"When": {
+				"SandyChanges": true
 			}
 		},
 		//Sebastian mobile phone dialog changes - friendly
@@ -714,7 +798,8 @@
 				"MobilePhoneGoodBye": "Later!"
 			},
 			"When": {
-				"Relationship:Sebastian": "Friendly"
+				"Relationship:Sebastian": "Friendly",
+				"SebastianChanges": true
 			}
 		},
 		//Sebastian mobile phone dialog changes - dating, engaged, married
@@ -726,7 +811,8 @@
 				"MobilePhoneGoodBye": "See you later, love!$h"
 			},
 			"When": {
-				"Relationship:Sebastian": "Dating, Engaged, Married"
+				"Relationship:Sebastian": "Dating, Engaged, Married",
+				"SebastianChanges": true
 			}
 		},
 		//Sebastian mobile phone dialog changes - divorced
@@ -738,7 +824,8 @@
 				"MobilePhoneGoodBye": "*sigh* I don't want to hear from you anymore.$s"
 			},
 			"When": {
-				"Relationship:Sebastian": "Divorced"
+				"Relationship:Sebastian": "Divorced",
+				"SebastianChanges": true
 			}
 		},
 		//Shane mobile phone dialog changes - friendly
@@ -750,7 +837,8 @@
 				"MobilePhoneGoodBye": "*click*"
 			},
 			"When": {
-				"Relationship:Shane": "Friendly"
+				"Relationship:Shane": "Friendly",
+				"ShaneChanges": true
 			}
 		},
 		//Shane mobile phone dialog changes - dating, engaged, married
@@ -762,7 +850,8 @@
 				"MobilePhoneGoodBye": "See ya."
 			},
 			"When": {
-				"Relationship:Shane": "Dating, Engaged, Married"
+				"Relationship:Shane": "Dating, Engaged, Married",
+				"ShaneChanges": true
 			}
 		},
 		//Shane mobile phone dialog changes - divorced
@@ -774,7 +863,8 @@
 				"MobilePhoneGoodBye": "Don't call again. *click*$a"
 			},
 			"When": {
-				"Relationship:Shane": "Divorced"
+				"Relationship:Shane": "Divorced",
+				"ShaneChanges": true
 			}
 		},
 		//Vincent mobile phone dialog changes
@@ -785,6 +875,9 @@
 				"MobilePhoneGreeting": "Hihi {0}!",
 				"MobilePhoneInvite": "Yay! What do you want to do?",
 				"MobilePhoneGoodBye": "See you later, alligator!$h"
+			},
+			"When": {
+				"VincentChanges": true
 			}
 		},
 		//Willy mobile phone dialog changes
@@ -794,6 +887,9 @@
 			"Entries": {
 				"MobilePhoneGreeting": "Ahoy there {0}!",
 				"MobilePhoneGoodBye": "See you later!$h"
+			},
+			"When": {
+				"WillyChanges": true
 			}
 		},
 		//Wizard mobile phone dialog changes
@@ -804,6 +900,9 @@
 				"MobilePhoneGreeting": "Can you feel the energy today, {0}?",
 				"MobilePhoneInvite": "Hmm... I suppose I could accompany you, what do you want to do?",
 				"MobilePhoneGoodBye": "Farewell."
+			},
+			"When": {
+				"WizardChanges": true
 			}
 		}
 	]
