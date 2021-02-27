@@ -13,7 +13,7 @@
 				"Relationship:Abigail": "Friendly"
 			}
 		},
-		//Abigail mobile phone dialog changes - engaged, married
+		//Abigail mobile phone dialog changes - dating, engaged, married
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Abigail",
@@ -22,7 +22,7 @@
 				"MobilePhoneGoodBye": "I gotta go sweetie, bye!$h"
 			},
 			"When": {
-				"Relationship:Abigail": "Engaged, Married"
+				"Relationship:Abigail": "Dating, Engaged, Married"
 			}
 		},
 		//Abigail mobile phone dialog changes - divorced
@@ -49,7 +49,7 @@
 				"Relationship:Alex": "Friendly"
 			}
 		},
-		//Alex mobile phone dialog changes - engaged, married
+		//Alex mobile phone dialog changes - dating, engaged, married
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Alex",
@@ -58,7 +58,7 @@
 				"MobilePhoneGoodBye": "See ya, my cutie!$h"
 			},
 			"When": {
-				"Relationship:Alex": "Engaged, Married"
+				"Relationship:Alex": "Dating, Engaged, Married"
 			}
 		},
 		//Alex mobile phone dialog changes - divorced
@@ -126,7 +126,7 @@
 				"Relationship:Elliott": "Friendly"
 			}
 		},
-		//Elliott mobile phone dialog changes - engaged, married
+		//Elliott mobile phone dialog changes - dating, engaged, married
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Elliott",
@@ -136,7 +136,7 @@
 				"MobilePhoneGoodBye": "Goodbye, my sweet!$h"
 			},
 			"When": {
-				"Relationship:Elliott": "Engaged, Married"
+				"Relationship:Elliott": "Dating, Engaged, Married"
 			}
 		},
 		//Elliott mobile phone dialog changes - divorced
@@ -163,7 +163,7 @@
 				"Relationship:Emily": "Friendly"
 			}
 		},
-		//Emily mobile phone dialog changes- engaged, married
+		//Emily mobile phone dialog changes- dating, engaged, married
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Emily",
@@ -172,7 +172,7 @@
 				"MobilePhoneGoodBye": "Bye honey!$h"
 			},
 			"When": {
-				"Relationship:Emily": "Engaged, Married"
+				"Relationship:Emily": "Dating, Engaged, Married"
 			}
 		},
 		//Emily mobile phone dialog changes- divorced
@@ -229,7 +229,7 @@
 				"Relationship:Haley": "Friendly"
 			}
 		},
-		//Haley mobile phone dialog changes - engaged, married
+		//Haley mobile phone dialog changes - dating, engaged, married
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Haley",
@@ -238,7 +238,7 @@
 				"MobilePhoneGoodBye": "Bye pookie!$h"
 			},
 			"When": {
-				"Relationship:Haley": "Engaged, Married"
+				"Relationship:Haley": "Dating, Engaged, Married"
 			}
 		},
 		//Haley mobile phone dialog changes - divorced
@@ -265,7 +265,7 @@
 				"Relationship:Harvey": "Friendly"
 			}
 		},
-		//Harvey mobile phone dialog changes - engaged, married
+		//Harvey mobile phone dialog changes - dating, engaged, married
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Harvey",
@@ -274,7 +274,7 @@
 				"MobilePhoneGoodBye": "Take care, ducky.$h"
 			},
 			"When": {
-				"Relationship:Harvey": "Engaged, Married"
+				"Relationship:Harvey": "Dating, Engaged, Married"
 			}
 		},
 		//Harvey mobile phone dialog changes - divorced
@@ -340,7 +340,7 @@
 				"Relationship:Leah": "Friendly"
 			}
 		},
-		//Leah mobile phone dialog changes - engaged, married
+		//Leah mobile phone dialog changes - dating, engaged, married
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Leah",
@@ -349,7 +349,7 @@
 				"MobilePhoneGoodBye": "See you later!$h"
 			},
 			"When": {
-				"Relationship:Leah": "Engaged, Married"
+				"Relationship:Leah": "Dating, Engaged, Married"
 			}
 		},
 		//Leah mobile phone dialog changes - divorced
@@ -405,7 +405,7 @@
 				"Relationship:Maru": "Friendly"
 			}
 		},
-		//Maru mobile phone dialog changes - engaged, married
+		//Maru mobile phone dialog changes - dating, engaged, married
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Maru",
@@ -414,7 +414,7 @@
 				"MobilePhoneGoodBye": "Bye, darling!$h"
 			},
 			"When": {
-				"Relationship:Maru": "Engaged, Married"
+				"Relationship:Maru": "Dating, Engaged, Married"
 			}
 		},
 		//Maru mobile phone dialog changes - divorced
@@ -450,7 +450,7 @@
 				"Relationship:Penny": "Friendly"
 			}
 		},
-		//Penny mobile phone dialog changes - engaged, married
+		//Penny mobile phone dialog changes - dating, engaged, married
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Penny",
@@ -459,7 +459,7 @@
 				"MobilePhoneGoodBye": "Can't wait to snuggle you, cuddlebug!$h"
 			},
 			"When": {
-				"Relationship:Penny": "Engaged, Married"
+				"Relationship:Penny": "Dating, Engaged, Married"
 			}
 		},
 		//Penny mobile phone dialog changes - divorced
@@ -504,7 +504,7 @@
 				"Relationship:Sam": "Friendly"
 			}
 		},
-		//Sam mobile phone dialog changes - engaged, married
+		//Sam mobile phone dialog changes - dating, engaged, married
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sam",
@@ -513,7 +513,7 @@
 				"MobilePhoneGoodBye": "Alright, bye!$h"
 			},
 			"When": {
-				"Relationship:Sam": "Engaged, Married"
+				"Relationship:Sam": "Dating, Engaged, Married"
 			}
 		},
 		//Sam mobile phone dialog changes - divorced
@@ -550,7 +550,7 @@
 				"Relationship:Sebastian": "Friendly"
 			}
 		},
-		//Sebastian mobile phone dialog changes - engaged, married
+		//Sebastian mobile phone dialog changes - dating, engaged, married
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sebastian",
@@ -559,7 +559,7 @@
 				"MobilePhoneGoodBye": "See you later, love!$h"
 			},
 			"When": {
-				"Relationship:Sebastian": "Engaged, Married"
+				"Relationship:Sebastian": "Dating, Engaged, Married"
 			}
 		},
 		//Sebastian mobile phone dialog changes - divorced
@@ -586,7 +586,7 @@
 				"Relationship:Shane": "Friendly"
 			}
 		},
-		//Shane mobile phone dialog changes - engaged, married
+		//Shane mobile phone dialog changes - dating, engaged, married
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Shane",
@@ -595,7 +595,7 @@
 				"MobilePhoneGoodBye": "See ya."
 			},
 			"When": {
-				"Relationship:Shane": "Engaged, Married"
+				"Relationship:Shane": "Dating, Engaged, Married"
 			}
 		},
 		//Shane mobile phone dialog changes - divorced
