@@ -51,3 +51,5 @@ If you'd like to switch from the mod version you have to another one, you can si
 
 Uninstallation:
 Delete the folders for this mod from your Stardew Valley/Mods folder.
+
+For 1.2.1 update to Pierre Plans Ahead - 3 Days in Advance, the fix was pretty small, simply adding .text to the end of the winter letter in the MFM component (thank you Quirinea for reporting!). Because the change was so small, Nexus is likely to eat the update so I'm writing this blurb here in the hopes that Nexus doesn't eat the update and it actually goes through. Please nexus, bear with us even though SDV modding consists of small text files and updates sometimes really are small tweaks to text files.
