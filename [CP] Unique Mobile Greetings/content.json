@@ -67,7 +67,7 @@
 			"Target": "Characters/Dialogue/Alex",
 			"Entries": {
 				"MobilePhoneGreeting": "*sigh*",
-				"MobilePhoneGoodBye": "Lose my number.$a"
+				"MobilePhoneGoodBye": "Lose my number.$s"
 			},
 			"When": {
 				"Relationship:Alex": "Divorced"
@@ -145,7 +145,7 @@
 			"Target": "Characters/Dialogue/Elliott",
 			"Entries": {
 				"MobilePhoneGreeting": "What do you want?",
-				"MobilePhoneGoodBye": "I do not wish to hear from you again.$a"
+				"MobilePhoneGoodBye": "I do not wish to hear from you again.$s"
 			},
 			"When": {
 				"Relationship:Elliott": "Divorced"
@@ -181,7 +181,7 @@
 			"Target": "Characters/Dialogue/Emily",
 			"Entries": {
 				"MobilePhoneGreeting": "What?",
-				"MobilePhoneGoodBye": "Leave me alone, please.$a"
+				"MobilePhoneGoodBye": "Leave me alone, please.$s"
 			},
 			"When": {
 				"Relationship:Emily": "Divorced"
@@ -247,7 +247,7 @@
 			"Target": "Characters/Dialogue/Haley",
 			"Entries": {
 				"MobilePhoneGreeting": "Ugh, what?",
-				"MobilePhoneGoodBye": "Buzz off.$a"
+				"MobilePhoneGoodBye": "Buzz off.$7"
 			},
 			"When": {
 				"Relationship:Haley": "Divorced"
@@ -283,7 +283,7 @@
 			"Target": "Characters/Dialogue/Harvey",
 			"Entries": {
 				"MobilePhoneGreeting": "Why are you calling?",
-				"MobilePhoneGoodBye": "I shouldn't have picked up.$a"
+				"MobilePhoneGoodBye": "I shouldn't have picked up.$s"
 			},
 			"When": {
 				"Relationship:Harvey": "Divorced"
@@ -358,7 +358,7 @@
 			"Target": "Characters/Dialogue/Leah",
 			"Entries": {
 				"MobilePhoneGreeting": "What could you possibly want?",
-				"MobilePhoneGoodBye": "Feel free to never call me again.$a"
+				"MobilePhoneGoodBye": "Feel free to never call me again.$u"
 			},
 			"When": {
 				"Relationship:Leah": "Divorced"
@@ -468,7 +468,7 @@
 			"Target": "Characters/Dialogue/Penny",
 			"Entries": {
 				"MobilePhoneGreeting": "My day was going fine and then you called. What?",
-				"MobilePhoneGoodBye": "Leave me alone.$a"
+				"MobilePhoneGoodBye": "Leave me alone.$s"
 			},
 			"When": {
 				"Relationship:Penny": "Divorced"
@@ -522,7 +522,7 @@
 			"Target": "Characters/Dialogue/Sam",
 			"Entries": {
 				"MobilePhoneGreeting": "Not cool of you to call.",
-				"MobilePhoneGoodBye": "*click*$a"
+				"MobilePhoneGoodBye": "*click*$s"
 			},
 			"When": {
 				"Relationship:Sam": "Divorced"
@@ -568,7 +568,7 @@
 			"Target": "Characters/Dialogue/Sebastian",
 			"Entries": {
 				"MobilePhoneGreeting": "You've got to be kidding me. What do you want?",
-				"MobilePhoneGoodBye": "*sigh* I don't want to hear from you anymore.$a"
+				"MobilePhoneGoodBye": "*sigh* I don't want to hear from you anymore.$s"
 			},
 			"When": {
 				"Relationship:Sebastian": "Divorced"
