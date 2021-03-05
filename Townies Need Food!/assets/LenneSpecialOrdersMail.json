@@ -1,11 +1,11 @@
 {
   "Changes": [
     {
-      "LogName": "First One Special Order Mail",
+      "LogName": "Abigail Sweet and Spicy Special Order Mail",
       "Action": "EditData",
       "Target": "Data/Mail",
       "Entries": {
-        "LenneDalben_SpecialOrders_FirstOne_Mail": "{{i18n:LenneDalben_SpecialOrders_FirstOne_Mail}}"
+        "LenneDalben_Abigail_SweetandSpicy_Mail": "{{i18n:LenneDalben_Abigail_SweetandSpicy_Mail}}"
       }
     }
   ]

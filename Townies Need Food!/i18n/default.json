@@ -1,11 +1,11 @@
 {
   // First One Special Order Strings
-  "LenneDalben_SpecialOrders_FirstOne_Name": "Rock Rejuvenation",
-  "LenneDalben_SpecialOrders_FirstOne_Text": "Hey! I'm going to invite some friends over to do a \"rock rejuvenation\" ceremony, but I'll need some crystals to channel the right energies. Do you think you could lend me a hand?",
-  "LenneDalben_SpecialOrders_FirstOne_Objective_0_Text": "Deliver a Ruby to Emily",
-  "LenneDalben_SpecialOrders_FirstOne_Objective_1_Text": "Deliver a Topaz to Emily",
-  "LenneDalben_SpecialOrders_FirstOne_Objective_2_Text": "Deliver an Emerald to Emily",
-  "LenneDalben_SpecialOrders_FirstOne_Objective_3_Text": "Deliver a Jade to Emily",
+  "LenneDalben_Abigail_SweetandSpicy_Name": "Rock Rejuvenation",
+  "LenneDalben_Abigail_SweetandSpicy_Text": "Hey! I'm going to invite some friends over to do a \"rock rejuvenation\" ceremony, but I'll need some crystals to channel the right energies. Do you think you could lend me a hand?",
+  "LenneDalben_Abigail_SweetandSpicy_Objective_0_Text": "Deliver a Ruby to Emily",
+  "LenneDalben_Abigail_SweetandSpicy_Objective_1_Text": "Deliver a Topaz to Emily",
+  "LenneDalben_Abigail_SweetandSpicy_Objective_2_Text": "Deliver an Emerald to Emily",
+  "LenneDalben_Abigail_SweetandSpicy_Objective_3_Text": "Deliver a Jade to Emily",
   // First One Special Order Mail
-  "LenneDalben_SpecialOrders_FirstOne_Mail": "Hi @,^^Thanks again for the wonderful gemstones.^These will be perfect for my energy re-alignment work!^I wanted to thank you with this special gift. I hope you create some wonderful items with it!^^-Emily%item bigobject 247 %%[#]Emily's Gemstones"
+  "LenneDalben_Abigail_SweetandSpicy_Mail": "Hi @,^^Thanks again for the wonderful gemstones.^These will be perfect for my energy re-alignment work!^I wanted to thank you with this special gift. I hope you create some wonderful items with it!^^-Emily%item bigobject 247 %%[#]Emily's Gemstones"
 }
