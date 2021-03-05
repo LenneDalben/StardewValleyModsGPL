@@ -24,7 +24,7 @@
               "Text": "[LenneDalben_Abigail_SweetandSpicy_Objective_0_Text]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_blackberrycobbler", // check this
+                "AcceptedContextTags": "item_blackberry_cobbler", // check this
                 "TargetName": "Abigail"
               }
             },
@@ -33,7 +33,7 @@
               "Text": "[LenneDalben_Abigail_SweetandSpicy_Objective_1_Text]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_spicyeel", // check this
+                "AcceptedContextTags": "item_spicy_eel", // check this
                 "TargetName": "Abigail"
               }
             }
