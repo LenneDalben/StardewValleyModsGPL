@@ -1,49 +1,40 @@
 {
   "Changes": [
-    // First One Repeatable
+    // Abigail Sweet and Spicy Repeatable
     {
-      "LogName": "First One Special Order Listing - Repeatable",
+      "LogName": "Abigail Sweet and Spicy Special Order - Repeatable",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "LenneDalben_SpecialOrders_FirstOne": {
-          "Name": "[LenneDalben_SpecialOrders_FirstOne_Name]",
-          "Requester": "Emily",
+        "LenneDalben_Abigail_SweetandSpicy": {
+          "Name": "[LenneDalben_Abigail_SweetandSpicy_Name]",
+          "Requester": "Abigail",
           "Duration": "Week",
           "Repeatable": "True",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[LenneDalben_SpecialOrders_FirstOne_Text]",
+          "Text": "[LenneDalben_Abigail_SweetandSpicy_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[LenneDalben_SpecialOrders_FirstOne_Objective_0_Text]",
+              "Text": "[LenneDalben_Abigail_SweetandSpicy_Objective_0_Text]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_ruby",
-                "TargetName": "Emily"
+                "AcceptedContextTags": "item_blackberrycobbler", // check this
+                "TargetName": "Abigail"
               }
             },
             {
               "Type": "Deliver",
-              "Text": "[LenneDalben_SpecialOrders_FirstOne_Objective_1_Text]",
+              "Text": "[LenneDalben_Abigail_SweetandSpicy_Objective_1_Text]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_topaz",
-                "TargetName": "Emily"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[LenneDalben_SpecialOrders_FirstOne_Objective_2_Text]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_emerald",
-                "TargetName": "Emily"
+                "AcceptedContextTags": "item_spicyeel", // check this
+                "TargetName": "Abigail"
               }
             }
           ],
@@ -51,7 +42,7 @@
             {
               "Type": "Money",
               "Data": {
-                "Amount": "1000"
+                "Amount": "1305"
               }
             },
             {
@@ -61,7 +52,7 @@
             {
               "Type": "Mail",
               "Data": {
-                "MailReceived": "LenneDalben_SpecialOrders_FirstOne_Mail",
+                "MailReceived": "LenneDalben_Abigail_SweetandSpicy_Mail",
                 "NoLetter": "false"
               }
             }
@@ -73,50 +64,41 @@
         }
       }
     },
-    // First One Not Repeatable
+    // Abigail Sweet and Spicy Not Repeatable
     {
-      "LogName": "First One Special Order Listing - Not Repeatable",
+      "LogName": "Abigail Sweet and Spicy Special Order - Not Repeatable",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "LenneDalben_SpecialOrders_FirstOne": {
-          "Name": "[LenneDalben_SpecialOrders_FirstOne_Name]",
-          "Requester": "Emily",
+        "LenneDalben_Abigail_SweetandSpicy": {
+          "Name": "[LenneDalben_Abigail_SweetandSpicy_Name]",
+          "Requester": "Abigail",
           "Duration": "Week",
           "Repeatable": "False",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[LenneDalben_SpecialOrders_FirstOne_Text]",
+          "Text": "[LenneDalben_Abigail_SweetandSpicy_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[LenneDalben_SpecialOrders_FirstOne_Objective_0_Text]",
+              "Text": "[LenneDalben_Abigail_SweetandSpicy_Objective_0_Text]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_ruby",
-                "TargetName": "Emily"
+                "AcceptedContextTags": "item_blackberrycobbler", // check this
+                "TargetName": "Abigail"
               }
             },
             {
               "Type": "Deliver",
-              "Text": "[LenneDalben_SpecialOrders_FirstOne_Objective_1_Text]",
+              "Text": "[LenneDalben_Abigail_SweetandSpicy_Objective_1_Text]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_topaz",
-                "TargetName": "Emily"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[LenneDalben_SpecialOrders_FirstOne_Objective_2_Text]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_emerald",
-                "TargetName": "Emily"
+                "AcceptedContextTags": "item_spicyeel", // check this
+                "TargetName": "Abigail"
               }
             }
           ],
@@ -124,7 +106,7 @@
             {
               "Type": "Money",
               "Data": {
-                "Amount": "1000"
+                "Amount": "1305"
               }
             },
             {
@@ -134,7 +116,7 @@
             {
               "Type": "Mail",
               "Data": {
-                "MailReceived": "LenneDalben_SpecialOrders_FirstOne_Mail",
+                "MailReceived": "LenneDalben_Abigail_SweetandSpicy_Mail",
                 "NoLetter": "false"
               }
             }
