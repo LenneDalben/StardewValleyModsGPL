@@ -1,0 +1,63 @@
+{
+  "Format": "1.20.0",
+  "ConfigSchema": {
+    "Repeatable": {
+      "Description": "Specify if you want the special orders to be repeatable (yes, no). Default is yes.",
+      "AllowValues": "yes, no",
+      "Default": "yes",
+      "AllowBlank": false,
+      "AllowMultiple": false
+    }
+  },
+  "DynamicTokens": [
+    {
+      "Name": "PlayerHasKitchen",
+      "Value": "false"
+    },
+    {
+      "Name": "PlayerHasKitchen",
+      "Value": "true",
+      "When": {
+        "FarmhouseUpgrade": "1,2,3"
+      }
+    },
+    {
+      "Name": "PlayerHasKitchen",
+      "Value": "true",
+      "When": {
+        "HasMod": "Froststar11.CustomFarmhouse, Allayna.Kitchen, burakmese.products, mabelsyrup.farmhouse, KAYA.JAKitchenStationSet, minervamaga.FR.BiggerFarmhouses"
+      }
+    }
+  ],
+  "Changes": [  
+    // Include Files
+    {
+      "LogName": "Include",
+      "Action": "Include",
+      "FromFile": "assets/LenneSpecialOrders.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/LenneSpecialOrdersMail.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/LenneSpecialOrdersStrings.json"
+    },
+    /* DO I WANT TO DELETE THIS?
+    Not Repeatable Includes
+    {
+      "LogName": "Include Not Repeatable",
+      "Action": "Include",
+      "FromFile": "assets/LenneSpecialOrdersNotRepeatable.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/LenneSpecialOrdersNotRepeatableMail.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/LenneSpecialOrdersRepeatableStrings.json"
+    }*/
+  ]
+}

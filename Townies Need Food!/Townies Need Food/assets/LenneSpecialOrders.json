@@ -1,0 +1,150 @@
+{
+  "Changes": [
+    // First One Repeatable
+    {
+      "LogName": "First One Special Order Listing - Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "LenneDalben_SpecialOrders_FirstOne": {
+          "Name": "[LenneDalben_SpecialOrders_FirstOne_Name]",
+          "Requester": "Emily",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[LenneDalben_SpecialOrders_FirstOne_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[LenneDalben_SpecialOrders_FirstOne_Objective_0_Text]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_ruby",
+                "TargetName": "Emily"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[LenneDalben_SpecialOrders_FirstOne_Objective_1_Text]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_topaz",
+                "TargetName": "Emily"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[LenneDalben_SpecialOrders_FirstOne_Objective_2_Text]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_emerald",
+                "TargetName": "Emily"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1000"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "LenneDalben_SpecialOrders_FirstOne_Mail",
+                "NoLetter": "false"
+              }
+            }
+          ]
+        },
+        "When": {
+          "Repeatable": "yes",
+          "PlayerHasKitchen": true
+        }
+      }
+    },
+    // First One Not Repeatable
+    {
+      "LogName": "First One Special Order Listing - Not Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "LenneDalben_SpecialOrders_FirstOne": {
+          "Name": "[LenneDalben_SpecialOrders_FirstOne_Name]",
+          "Requester": "Emily",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[LenneDalben_SpecialOrders_FirstOne_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[LenneDalben_SpecialOrders_FirstOne_Objective_0_Text]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_ruby",
+                "TargetName": "Emily"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[LenneDalben_SpecialOrders_FirstOne_Objective_1_Text]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_topaz",
+                "TargetName": "Emily"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[LenneDalben_SpecialOrders_FirstOne_Objective_2_Text]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_emerald",
+                "TargetName": "Emily"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1000"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "LenneDalben_SpecialOrders_FirstOne_Mail",
+                "NoLetter": "false"
+              }
+            }
+          ]
+        },
+        "When": {
+          "Repeatable": "no",
+          "PlayerHasKitchen": true
+        }
+      }
+    }
+  ]
+}

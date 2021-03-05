@@ -1,0 +1,12 @@
+{
+  "Changes": [
+    {
+      "LogName": "First One Special Order Mail",
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "Entries": {
+        "LenneDalben_SpecialOrders_FirstOne_Mail": "{{i18n:LenneDalben_SpecialOrders_FirstOne_Mail}}"
+      }
+    }
+  ]
+}

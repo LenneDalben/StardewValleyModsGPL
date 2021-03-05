@@ -1,0 +1,17 @@
+{
+  "Changes": [
+    {
+      "LogName": "First One Special Order Strings",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "LenneDalben_SpecialOrders_FirstOne_Name": "{{i18n:LenneDalben_SpecialOrders_FirstOne_Name}}",
+        "LenneDalben_SpecialOrders_FirstOne_Text": "{{i18n:LenneDalben_SpecialOrders_FirstOne_Text}}",
+        "LenneDalben_SpecialOrders_FirstOne_Objective_0_Text": "{{i18n:LenneDalben_SpecialOrders_FirstOne_Objective_0_Text}}",
+        "LenneDalben_SpecialOrders_FirstOne_Objective_1_Text": "{{i18n:LenneDalben_SpecialOrders_FirstOne_Objective_1_Text}}",
+        "LenneDalben_SpecialOrders_FirstOne_Objective_2_Text": "{{i18n:LenneDalben_SpecialOrders_FirstOne_Objective_2_Text}}",
+        "LenneDalben_SpecialOrders_FirstOne_Objective_3_Text": "{{i18n:LenneDalben_SpecialOrders_FirstOne_Objective_3_Text}}"
+      }
+    }
+  ]
+}
