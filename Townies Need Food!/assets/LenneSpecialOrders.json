@@ -24,7 +24,8 @@
               "Text": "[LenneDalben_Abigail_SweetandSpicy_Objective_0_Text]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_blackberry_cobbler", // check this
+                "AcceptedContextTags": "item_blackberry_cobbler",
+                "Message": "[LenneDalben_Abigail_SweetandSpicy_0_Message]",
                 "TargetName": "Abigail"
               }
             },
@@ -33,7 +34,8 @@
               "Text": "[LenneDalben_Abigail_SweetandSpicy_Objective_1_Text]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_spicy_eel", // check this
+                "AcceptedContextTags": "item_spicy_eel",
+                "Message": "[LenneDalben_Abigail_SweetandSpicy_1_Message]",
                 "TargetName": "Abigail"
               }
             }
@@ -49,13 +51,13 @@
               "Type": "Friendship",
               "Data": {}
             },
-            {
+            /*{
               "Type": "Mail",
               "Data": {
                 "MailReceived": "LenneDalben_Abigail_SweetandSpicy_Mail",
                 "NoLetter": "false"
               }
-            }
+            }*/
           ]
         },
         "When": {
@@ -88,7 +90,8 @@
               "Text": "[LenneDalben_Abigail_SweetandSpicy_Objective_0_Text]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_blackberrycobbler", // check this
+                "AcceptedContextTags": "item_blackberry_cobbler",
+                "Message": "[LenneDalben_Abigail_SweetandSpicy_0_Message]",
                 "TargetName": "Abigail"
               }
             },
@@ -97,7 +100,8 @@
               "Text": "[LenneDalben_Abigail_SweetandSpicy_Objective_1_Text]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_spicyeel", // check this
+                "AcceptedContextTags": "item_spicy_eel",
+                "Message": "[LenneDalben_Abigail_SweetandSpicy_1_Message]",
                 "TargetName": "Abigail"
               }
             }
@@ -113,13 +117,13 @@
               "Type": "Friendship",
               "Data": {}
             },
-            {
+            /*{
               "Type": "Mail",
               "Data": {
                 "MailReceived": "LenneDalben_Abigail_SweetandSpicy_Mail",
                 "NoLetter": "false"
               }
-            }
+            }*/
           ]
         },
         "When": {
