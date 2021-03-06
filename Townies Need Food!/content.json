@@ -38,26 +38,7 @@
     },
     {
       "Action": "Include",
-      "FromFile": "assets/LenneSpecialOrdersMail.json"
-    },
-    {
-      "Action": "Include",
       "FromFile": "assets/LenneSpecialOrdersStrings.json"
-    },
-    /* DO I WANT TO DELETE THIS?
-    Not Repeatable Includes
-    {
-      "LogName": "Include Not Repeatable",
-      "Action": "Include",
-      "FromFile": "assets/LenneSpecialOrdersNotRepeatable.json"
-    },
-    {
-      "Action": "Include",
-      "FromFile": "assets/LenneSpecialOrdersNotRepeatableMail.json"
-    },
-    {
-      "Action": "Include",
-      "FromFile": "assets/LenneSpecialOrdersRepeatableStrings.json"
-    }*/
+    }
   ]
 }
