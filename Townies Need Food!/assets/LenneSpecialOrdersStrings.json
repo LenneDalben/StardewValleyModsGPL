@@ -1,5 +1,6 @@
 {
   "Changes": [
+    // Abigail Sweet and Spicy Special Order Strings
     {
       "LogName": "Abigail Sweet and Spicy Special Order Strings",
       "Action": "EditData",
@@ -15,6 +16,7 @@
         "TowniesNeedFood_Abigail_SweetandSpicy_Message_1": "{{i18n:TowniesNeedFood_Abigail_SweetandSpicy_Message_1}}"
       }
     },
+    // Abigail Creamy Dessert Special Order Strings
     {
       "LogName": "Abigail Creamy Dessert Special Order Strings",
       "Action": "EditData",
@@ -27,6 +29,22 @@
         "TowniesNeedFood_Abigail_CreamyDessert_Objective_Text_0": "{{i18n:TowniesNeedFood_Abigail_CreamyDessert_Objective_Text_0}}",
         "TowniesNeedFood_Abigail_CreamyDessert_Message_0": "{{i18n:TowniesNeedFood_Abigail_CreamyDessert_Message_0}}"
       }
-    }
+    },
+    // Alex Good Eating Special Order Strings
+    {
+      "LogName": "Alex Good Eating Special Order Strings",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Alex_GoodEating_Name": "{{i18n:TowniesNeedFood_Alex_GoodEating_Name}}",
+        "TowniesNeedFood_Alex_GoodEating_Text": "{{i18n:TowniesNeedFood_Alex_GoodEating_Text}}",
+        "TowniesNeedFood_Alex_GoodEating_RE_Text_0": "{{i18n:TowniesNeedFood_Alex_GoodEating_RE_Text_0}}",
+        "TowniesNeedFood_Alex_GoodEating_RE_Text_1": "{{i18n:TowniesNeedFood_Alex_GoodEating_RE_Text_1}}",
+        "TowniesNeedFood_Alex_GoodEating_Objective_Text_0": "{{i18n:TowniesNeedFood_Alex_GoodEating_Objective_Text_0}}",
+        "TowniesNeedFood_Alex_GoodEating_Objective_Text_1": "{{i18n:TowniesNeedFood_Alex_GoodEating_Objective_Text_1}}",
+        "TowniesNeedFood_Alex_GoodEating_Message_0": "{{i18n:TowniesNeedFood_Alex_GoodEating_Message_0}}",
+        "TowniesNeedFood_Alex_GoodEating_Message_1": "{{i18n:TowniesNeedFood_Alex_GoodEating_Message_1}}"
+      }
+    },
   ]
 }
