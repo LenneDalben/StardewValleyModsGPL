@@ -73,6 +73,70 @@
         }
       }
     },
+    // Abigail Creamy Dessert Repeatable
+    {
+      "LogName": "Abigail Creamy Dessert Special Order - Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "LenneDalben_Abigail_CreamyDessert": {
+          "Name": "[LenneDalben_Abigail_CreamyDessert_Name]",
+          "Requester": "Abigail",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[LenneDalben_Abigail_CreamyDessert_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": [
+					  {
+						"Name": "Text",
+						"Values": [
+						  {
+							"RequiredTags": "",
+							"Value": "[LenneDalben_Abigail_CreamyDessert_RE_Text_0]"
+						  },
+						  {
+							"RequiredTags": "",
+							"Value": "[LenneDalben_Abigail_CreamyDessert_RE_Text_1]"
+						  }
+						]
+					  }
+					],
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[LenneDalben_Abigail_CreamyDessert_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_banana_pudding",
+                "Message": "[LenneDalben_Abigail_CreamyDessert_Message_0]",
+                "TargetName": "Abigail"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "780"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        },
+        "When": {
+          "Repeatable": "yes",
+          "PlayerHasKitchen": true,
+          "HasFlag": "Visited_Island"
+        }
+      }
+    },
     // Abigail Sweet and Spicy Not Repeatable
     {
       "LogName": "Abigail Sweet and Spicy Special Order - Not Repeatable",
@@ -131,6 +195,71 @@
           "PlayerHasKitchen": true
         }
       }
-    }
+    },
+    
+    // Abigail Creamy Dessert Not Repeatable
+    {
+      "LogName": "Abigail Creamy Dessert Special Order - Not Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "LenneDalben_Abigail_CreamyDessert": {
+          "Name": "[LenneDalben_Abigail_CreamyDessert_Name]",
+          "Requester": "Abigail",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[LenneDalben_Abigail_CreamyDessert_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": [
+					  {
+						"Name": "Text",
+						"Values": [
+						  {
+							"RequiredTags": "",
+							"Value": "[LenneDalben_Abigail_CreamyDessert_RE_Text_0]"
+						  },
+						  {
+							"RequiredTags": "",
+							"Value": "[LenneDalben_Abigail_CreamyDessert_RE_Text_1]"
+						  }
+						]
+					  }
+					],
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[LenneDalben_Abigail_CreamyDessert_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_banana_pudding",
+                "Message": "[LenneDalben_Abigail_CreamyDessert_Message_0]",
+                "TargetName": "Abigail"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "780"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        },
+        "When": {
+          "Repeatable": "yes",
+          "PlayerHasKitchen": true,
+          "HasFlag": "Visited_Island"
+        }
+      }
+    },
   ]
 }

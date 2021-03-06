@@ -7,5 +7,12 @@
   "LenneDalben_Abigail_SweetandSpicy_Objective_Text_0": "Deliver Blackberry Cobbler to Abigail",
   "LenneDalben_Abigail_SweetandSpicy_Objective_Text_1": "Deliver Spicy Eel to Abigail",
   "LenneDalben_Abigail_SweetandSpicy_Message_0": "The cobbler looks tasty, thanks @!$h",
-  "LenneDalben_Abigail_SweetandSpicy_Message_1": "I can smell the spice from here, thanks @!$h"
+  "LenneDalben_Abigail_SweetandSpicy_Message_1": "I can smell the spice from here, thanks @!$h",
+  // Abigail Creamy Dessert Special Order Strings
+  "LenneDalben_Abigail_CreamyDessert_Name": "Creamy Dessert",
+  "LenneDalben_Abigail_CreamyDessert_Text": "I'd love to have a tropical dessert but I don't know how to make any. Could someone whip up some banana pudding for me?",
+  "LenneDalben_Abigail_CreamyDessert_RE_Text_0": "I wonder if dad could get bananas imported somehow...",
+  "LenneDalben_Abigail_CreamyDessert_RE_Text_1": "Gus should totally start selling banana pudding.",
+  "LenneDalben_Abigail_CreamyDessert_Objective_Text_0": "Deliver Banana Pudding to Abigail",
+  "LenneDalben_Abigail_CreamyDessert_Message_0": "Thank you, this is awesome!$h"
 }
