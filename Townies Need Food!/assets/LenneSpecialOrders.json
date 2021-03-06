@@ -215,21 +215,7 @@
           "Text": "[TowniesNeedFood_Abigail_CreamyDessert_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
-          "RandomizedElements": [
-            {
-              "Name": "Text",
-              "Values": [
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Abigail_CreamyDessert_RE_Text_0]"
-                },
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Abigail_CreamyDessert_RE_Text_1]"
-                }
-              ]
-            }
-          ],
+          "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
@@ -256,7 +242,7 @@
           ]
         },
         "When": {
-          "Repeatable": "yes",
+          "Repeatable": "no",
           "PlayerHasKitchen": true,
           "HasFlag": "Visited_Island"
         }
