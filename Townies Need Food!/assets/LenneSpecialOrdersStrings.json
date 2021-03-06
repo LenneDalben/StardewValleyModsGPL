@@ -46,5 +46,21 @@
         "TowniesNeedFood_Alex_GoodEating_Message_1": "{{i18n:TowniesNeedFood_Alex_GoodEating_Message_1}}"
       }
     },
+    // Caroline Seafood Bonanza Special Order Strings
+    {
+      "LogName": "Caroline Seafood Bonanza Special Order Strings",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Caroline_SeafoodBonanza_Name": "{{i18n:TowniesNeedFood_Caroline_SeafoodBonanza_Name}}",
+        "TowniesNeedFood_Caroline_SeafoodBonanza_Text": "{{i18n:TowniesNeedFood_Caroline_SeafoodBonanza_Text}}",
+        "TowniesNeedFood_Caroline_SeafoodBonanza_RE_Text_0": "{{i18n:TowniesNeedFood_Caroline_SeafoodBonanza_RE_Text_0}}",
+        "TowniesNeedFood_Caroline_SeafoodBonanza_RE_Text_1": "{{i18n:TowniesNeedFood_Caroline_SeafoodBonanza_RE_Text_1}}",
+        "TowniesNeedFood_Caroline_SeafoodBonanza_Objective_Text_0": "{{i18n:TowniesNeedFood_Caroline_SeafoodBonanza_Objective_Text_0}}",
+        "TowniesNeedFood_Caroline_SeafoodBonanza_Objective_Text_1": "{{i18n:TowniesNeedFood_Caroline_SeafoodBonanza_Objective_Text_1}}",
+        "TowniesNeedFood_Caroline_SeafoodBonanza_Message_0": "{{i18n:TowniesNeedFood_Caroline_SeafoodBonanza_Message_0}}",
+        "TowniesNeedFood_Caroline_SeafoodBonanza_Message_1": "{{i18n:TowniesNeedFood_Caroline_SeafoodBonanza_Message_1}}"
+      }
+    },
   ]
 }

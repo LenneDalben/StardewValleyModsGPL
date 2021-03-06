@@ -140,77 +140,160 @@
     },
     // Alex Good Eating Repeatable
     {
-        "LogName": "Alex Good Eating Special Order - Repeatable",
-        "Action": "EditData",
-        "Target": "Data/SpecialOrders",
-        "Entries": {
-          "TowniesNeedFood_Alex_GoodEating": {
-            "Name": "[TowniesNeedFood_Alex_GoodEating_Name]",
-            "Requester": "Alex",
-            "Duration": "Week",
-            "Repeatable": "True",
-            "RequiredTags": "",
-            "OrderType": "",
-            "SpecialRule": "",
-            "Text": "[TowniesNeedFood_Alex_GoodEating_Text]",
-            "ItemToRemoveOnEnd": null,
-            "MailToRemoveOnEnd": null,
-            "RandomizedElements": [
-              {
-                "Name": "Text",
-                "Values": [
-                  {
-                    "RequiredTags": "",
-                    "Value": "[TowniesNeedFood_Alex_GoodEating_RE_Text_0]"
-                  },
-                  {
-                    "RequiredTags": "",
-                    "Value": "[TowniesNeedFood_Alex_GoodEating_RE_Text_1]"
-                  }
-                ]
-              }
-            ],
-            "Objectives": [
-              {
-                "Type": "Deliver",
-                "Text": "[TowniesNeedFood_Alex_GoodEating_Objective_Text_0]",
-                "RequiredCount": "1",
-                "Data": {
-                  "AcceptedContextTags": "item_complete_breakfast",
-                  "Message": "[TowniesNeedFood_Alex_GoodEating_Message_0]",
-                  "TargetName": "Alex"
+      "LogName": "Alex Good Eating Special Order - Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Alex_GoodEating": {
+          "Name": "[TowniesNeedFood_Alex_GoodEating_Name]",
+          "Requester": "Alex",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Alex_GoodEating_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": [
+            {
+              "Name": "Text",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Alex_GoodEating_RE_Text_0]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Alex_GoodEating_RE_Text_1]"
                 }
-              },
-              {
-                "Type": "Deliver",
-                "Text": "[TowniesNeedFood_Alex_GoodEating_Objective_Text_1]",
-                "RequiredCount": "1",
-                "Data": {
-                  "AcceptedContextTags": "item_salmon_dinner",
-                  "Message": "[TowniesNeedFood_Alex_GoodEating_Message_1]",
-                  "TargetName": "Alex"
-                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Alex_GoodEating_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_complete_breakfast",
+                "Message": "[TowniesNeedFood_Alex_GoodEating_Message_0]",
+                "TargetName": "Alex"
               }
-            ],
-            "Rewards": [
-              {
-                "Type": "Money",
-                "Data": {
-                  "Amount": "1950"
-                }
-              },
-              {
-                "Type": "Friendship",
-                "Data": {}
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Alex_GoodEating_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_salmon_dinner",
+                "Message": "[TowniesNeedFood_Alex_GoodEating_Message_1]",
+                "TargetName": "Alex"
               }
-            ]
-          },
-          "When": {
-            "Repeatable": "yes",
-            "PlayerHasKitchen": true
-          }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1950"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        },
+        "When": {
+          "Repeatable": "yes",
+          "PlayerHasKitchen": true
         }
-      },
+      }
+    },
+    // Caroline Seafood Bonanza Repeatable
+    {
+      "LogName": "Caroline Seafood Bonanza Special Order - Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Caroline_SeafoodBonanza": {
+          "Name": "[TowniesNeedFood_Caroline_SeafoodBonanza_Name]",
+          "Requester": "Caroline",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Caroline_SeafoodBonanza_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": [
+            {
+              "Name": "Text",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Caroline_SeafoodBonanza_RE_Text_0]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Caroline_SeafoodBonanza_RE_Text_1]"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Caroline_SeafoodBonanza_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_fish_taco",
+                "Message": "[TowniesNeedFood_Caroline_SeafoodBonanza_Message_0]",
+                "TargetName": "Caroline"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Caroline_SeafoodBonanza_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_fried_eel",
+                "Message": "[TowniesNeedFood_Caroline_SeafoodBonanza_Message_1]",
+                "TargetName": "Caroline"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Caroline_SeafoodBonanza_Objective_Text_2]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_lobster_bisque",
+                "Message": "[TowniesNeedFood_Caroline_SeafoodBonanza_Message_2]",
+                "TargetName": "Caroline"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "2475"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        },
+        "When": {
+          "Repeatable": "yes",
+          "PlayerHasKitchen": true
+        }
+      }
+    },
     // Not Repeatable special orders listed below
     // Abigail Sweet and Spicy Not Repeatable
     {
@@ -323,76 +406,159 @@
     },
     // Alex Good Eating Not Repeatable
     {
-        "LogName": "Alex Good Eating Special Order - Not Repeatable",
-        "Action": "EditData",
-        "Target": "Data/SpecialOrders",
-        "Entries": {
-          "TowniesNeedFood_Alex_GoodEating": {
-            "Name": "[TowniesNeedFood_Alex_GoodEating_Name]",
-            "Requester": "Alex",
-            "Duration": "Week",
-            "Repeatable": "False",
-            "RequiredTags": "",
-            "OrderType": "",
-            "SpecialRule": "",
-            "Text": "[TowniesNeedFood_Alex_GoodEating_Text]",
-            "ItemToRemoveOnEnd": null,
-            "MailToRemoveOnEnd": null,
-            "RandomizedElements": [
-              {
-                "Name": "Text",
-                "Values": [
-                  {
-                    "RequiredTags": "",
-                    "Value": "[TowniesNeedFood_Alex_GoodEating_RE_Text_0]"
-                  },
-                  {
-                    "RequiredTags": "",
-                    "Value": "[TowniesNeedFood_Alex_GoodEating_RE_Text_1]"
-                  }
-                ]
-              }
-            ],
-            "Objectives": [
-              {
-                "Type": "Deliver",
-                "Text": "[TowniesNeedFood_Alex_GoodEating_Objective_Text_0]",
-                "RequiredCount": "1",
-                "Data": {
-                  "AcceptedContextTags": "item_complete_breakfast",
-                  "Message": "[TowniesNeedFood_Alex_GoodEating_Message_0]",
-                  "TargetName": "Alex"
+      "LogName": "Alex Good Eating Special Order - Not Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Alex_GoodEating": {
+          "Name": "[TowniesNeedFood_Alex_GoodEating_Name]",
+          "Requester": "Alex",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Alex_GoodEating_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": [
+            {
+              "Name": "Text",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Alex_GoodEating_RE_Text_0]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Alex_GoodEating_RE_Text_1]"
                 }
-              },
-              {
-                "Type": "Deliver",
-                "Text": "[TowniesNeedFood_Alex_GoodEating_Objective_Text_1]",
-                "RequiredCount": "1",
-                "Data": {
-                  "AcceptedContextTags": "item_salmon_dinner",
-                  "Message": "[TowniesNeedFood_Alex_GoodEating_Message_1]",
-                  "TargetName": "Alex"
-                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Alex_GoodEating_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_complete_breakfast",
+                "Message": "[TowniesNeedFood_Alex_GoodEating_Message_0]",
+                "TargetName": "Alex"
               }
-            ],
-            "Rewards": [
-              {
-                "Type": "Money",
-                "Data": {
-                  "Amount": "1950"
-                }
-              },
-              {
-                "Type": "Friendship",
-                "Data": {}
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Alex_GoodEating_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_salmon_dinner",
+                "Message": "[TowniesNeedFood_Alex_GoodEating_Message_1]",
+                "TargetName": "Alex"
               }
-            ]
-          },
-          "When": {
-            "Repeatable": "no",
-            "PlayerHasKitchen": true
-          }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1950"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        },
+        "When": {
+          "Repeatable": "no",
+          "PlayerHasKitchen": true
         }
-      },
+      }
+    },
+    // Caroline Seafood Bonanza Not Repeatable
+    {
+      "LogName": "Caroline Seafood Bonanza Special Order - NOt Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Caroline_SeafoodBonanza": {
+          "Name": "[TowniesNeedFood_Caroline_SeafoodBonanza_Name]",
+          "Requester": "Caroline",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Caroline_SeafoodBonanza_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": [
+            {
+              "Name": "Text",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Caroline_SeafoodBonanza_RE_Text_0]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Caroline_SeafoodBonanza_RE_Text_1]"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Caroline_SeafoodBonanza_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_fish_taco",
+                "Message": "[TowniesNeedFood_Caroline_SeafoodBonanza_Message_0]",
+                "TargetName": "Caroline"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Caroline_SeafoodBonanza_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_fried_eel",
+                "Message": "[TowniesNeedFood_Caroline_SeafoodBonanza_Message_1]",
+                "TargetName": "Caroline"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Caroline_SeafoodBonanza_Objective_Text_2]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_lobster_bisque",
+                "Message": "[TowniesNeedFood_Caroline_SeafoodBonanza_Message_2]",
+                "TargetName": "Caroline"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "2475"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        },
+        "When": {
+          "Repeatable": "no",
+          "PlayerHasKitchen": true
+        }
+      }
+    },
   ]
 }
