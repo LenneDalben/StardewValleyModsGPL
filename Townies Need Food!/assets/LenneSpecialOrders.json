@@ -64,14 +64,7 @@
             {
               "Type": "Friendship",
               "Data": {}
-            },
-            /*{
-              "Type": "Mail",
-              "Data": {
-                "MailReceived": "LenneDalben_Abigail_SweetandSpicy_Mail",
-                "NoLetter": "false"
-              }
-            }*/
+            }
           ]
         },
         "When": {
@@ -130,14 +123,7 @@
             {
               "Type": "Friendship",
               "Data": {}
-            },
-            /*{
-              "Type": "Mail",
-              "Data": {
-                "MailReceived": "LenneDalben_Abigail_SweetandSpicy_Mail",
-                "NoLetter": "false"
-              }
-            }*/
+            }
           ]
         },
         "When": {
