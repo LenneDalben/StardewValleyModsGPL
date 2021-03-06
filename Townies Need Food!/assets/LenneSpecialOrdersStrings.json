@@ -60,7 +60,24 @@
         "TowniesNeedFood_Caroline_SeafoodBonanza_Objective_Text_1": "{{i18n:TowniesNeedFood_Caroline_SeafoodBonanza_Objective_Text_1}}",
         "TowniesNeedFood_Caroline_SeafoodBonanza_Objective_Text_2": "{{i18n:TowniesNeedFood_Caroline_SeafoodBonanza_Objective_Text_2}}",
         "TowniesNeedFood_Caroline_SeafoodBonanza_Message_0": "{{i18n:TowniesNeedFood_Caroline_SeafoodBonanza_Message_0}}",
-        "TowniesNeedFood_Caroline_SeafoodBonanza_Message_1": "{{i18n:TowniesNeedFood_Caroline_SeafoodBonanza_Message_1}}","TowniesNeedFood_Caroline_SeafoodBonanza_Message_2": "{{i18n:TowniesNeedFood_Caroline_SeafoodBonanza_Message_2}}"
+        "TowniesNeedFood_Caroline_SeafoodBonanza_Message_1": "{{i18n:TowniesNeedFood_Caroline_SeafoodBonanza_Message_1}}",
+        "TowniesNeedFood_Caroline_SeafoodBonanza_Message_2": "{{i18n:TowniesNeedFood_Caroline_SeafoodBonanza_Message_2}}"
+      }
+    },
+    // Clint Mild Snack Special Order Strings
+    {
+      "LogName": "Clint Mild Snack Special Order Strings",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Clint_MildSnack_Name": "{{i18n:TowniesNeedFood_Clint_MildSnack_Name}}",
+        "TowniesNeedFood_Clint_MildSnack_Text": "{{i18n:TowniesNeedFood_Clint_MildSnack_Text}}",
+        "TowniesNeedFood_Clint_MildSnack_RE_Text_0": "{{i18n:TowniesNeedFood_Clint_MildSnack_RE_Text_0}}",
+        "TowniesNeedFood_Clint_MildSnack_RE_Text_1": "{{i18n:TowniesNeedFood_Clint_MildSnack_RE_Text_1}}",
+        "TowniesNeedFood_Clint_MildSnack_Objective_Text_0": "{{i18n:TowniesNeedFood_Clint_MildSnack_Objective_Text_0}}",
+        "TowniesNeedFood_Clint_MildSnack_Objective_Text_1": "{{i18n:TowniesNeedFood_Clint_MildSnack_Objective_Text_1}}",
+        "TowniesNeedFood_Clint_MildSnack_Message_0": "{{i18n:TowniesNeedFood_Clint_MildSnack_Message_0}}",
+        "TowniesNeedFood_Clint_MildSnack_Message_1": "{{i18n:TowniesNeedFood_Clint_MildSnack_Message_1}}"
       }
     },
   ]

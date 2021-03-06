@@ -294,6 +294,79 @@
         }
       }
     },
+    // Clint Mild Snack Repeatable
+    {
+      "LogName": "Clint Mild Snack Special Order - Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Clint_MildSnack": {
+          "Name": "[TowniesNeedFood_Clint_MildSnack_Name]",
+          "Requester": "Clint",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Clint_MildSnack_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": [
+            {
+              "Name": "Text",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Clint_MildSnack_RE_Text_0]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Clint_MildSnack_RE_Text_1]"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Clint_MildSnack_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_bread",
+                "Message": "[TowniesNeedFood_Clint_MildSnack_Message_0]",
+                "TargetName": "Clint"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Clint_MildSnack_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_artichoke_dip",
+                "Message": "[TowniesNeedFood_Clint_MildSnack_Message_1]",
+                "TargetName": "Clint"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "810"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        },
+        "When": {
+          "Repeatable": "yes",
+          "PlayerHasKitchen": true
+        }
+      }
+    },
     // Not Repeatable special orders listed below
     // Abigail Sweet and Spicy Not Repeatable
     {
@@ -518,6 +591,65 @@
               "Type": "Money",
               "Data": {
                 "Amount": "2475"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        },
+        "When": {
+          "Repeatable": "no",
+          "PlayerHasKitchen": true
+        }
+      }
+    },
+    // Clint Mild Snack Not Repeatable
+    {
+      "LogName": "Clint Mild Snack Special Order - Not Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Clint_MildSnack": {
+          "Name": "[TowniesNeedFood_Clint_MildSnack_Name]",
+          "Requester": "Clint",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Clint_MildSnack_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Clint_MildSnack_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_bread",
+                "Message": "[TowniesNeedFood_Clint_MildSnack_Message_0]",
+                "TargetName": "Clint"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Clint_MildSnack_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_artichoke_dip",
+                "Message": "[TowniesNeedFood_Clint_MildSnack_Message_1]",
+                "TargetName": "Clint"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "810"
               }
             },
             {
