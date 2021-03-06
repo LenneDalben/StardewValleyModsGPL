@@ -17,25 +17,39 @@
           "Text": "[LenneDalben_Abigail_SweetandSpicy_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
+          "RandomizedElements": [
+					  {
+						"Name": "Text",
+						"Values": [
+						  {
+							"RequiredTags": "",
+							"Value": "[LenneDalben_Abigail_SweetandSpicy_RE_Text_0]"
+						  },
+						  {
+							"RequiredTags": "",
+							"Value": "[LenneDalben_Abigail_SweetandSpicy_RE_Text_1]"
+						  }
+						]
+					  }
+					],
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[LenneDalben_Abigail_SweetandSpicy_Objective_0_Text]",
+              "Text": "[LenneDalben_Abigail_SweetandSpicy_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
                 "AcceptedContextTags": "item_blackberry_cobbler",
-                "Message": "[LenneDalben_Abigail_SweetandSpicy_0_Message]",
+                "Message": "[LenneDalben_Abigail_SweetandSpicy_Message_0]",
                 "TargetName": "Abigail"
               }
             },
             {
               "Type": "Deliver",
-              "Text": "[LenneDalben_Abigail_SweetandSpicy_Objective_1_Text]",
+              "Text": "[LenneDalben_Abigail_SweetandSpicy_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
                 "AcceptedContextTags": "item_spicy_eel",
-                "Message": "[LenneDalben_Abigail_SweetandSpicy_1_Message]",
+                "Message": "[LenneDalben_Abigail_SweetandSpicy_Message_1]",
                 "TargetName": "Abigail"
               }
             }
@@ -87,21 +101,21 @@
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[LenneDalben_Abigail_SweetandSpicy_Objective_0_Text]",
+              "Text": "[LenneDalben_Abigail_SweetandSpicy_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
                 "AcceptedContextTags": "item_blackberry_cobbler",
-                "Message": "[LenneDalben_Abigail_SweetandSpicy_0_Message]",
+                "Message": "[LenneDalben_Abigail_SweetandSpicy_Message_0]",
                 "TargetName": "Abigail"
               }
             },
             {
               "Type": "Deliver",
-              "Text": "[LenneDalben_Abigail_SweetandSpicy_Objective_1_Text]",
+              "Text": "[LenneDalben_Abigail_SweetandSpicy_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
                 "AcceptedContextTags": "item_spicy_eel",
-                "Message": "[LenneDalben_Abigail_SweetandSpicy_1_Message]",
+                "Message": "[LenneDalben_Abigail_SweetandSpicy_Message_1]",
                 "TargetName": "Abigail"
               }
             }
