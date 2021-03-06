@@ -58,8 +58,9 @@
         "TowniesNeedFood_Caroline_SeafoodBonanza_RE_Text_1": "{{i18n:TowniesNeedFood_Caroline_SeafoodBonanza_RE_Text_1}}",
         "TowniesNeedFood_Caroline_SeafoodBonanza_Objective_Text_0": "{{i18n:TowniesNeedFood_Caroline_SeafoodBonanza_Objective_Text_0}}",
         "TowniesNeedFood_Caroline_SeafoodBonanza_Objective_Text_1": "{{i18n:TowniesNeedFood_Caroline_SeafoodBonanza_Objective_Text_1}}",
+        "TowniesNeedFood_Caroline_SeafoodBonanza_Objective_Text_2": "{{i18n:TowniesNeedFood_Caroline_SeafoodBonanza_Objective_Text_2}}",
         "TowniesNeedFood_Caroline_SeafoodBonanza_Message_0": "{{i18n:TowniesNeedFood_Caroline_SeafoodBonanza_Message_0}}",
-        "TowniesNeedFood_Caroline_SeafoodBonanza_Message_1": "{{i18n:TowniesNeedFood_Caroline_SeafoodBonanza_Message_1}}"
+        "TowniesNeedFood_Caroline_SeafoodBonanza_Message_1": "{{i18n:TowniesNeedFood_Caroline_SeafoodBonanza_Message_1}}","TowniesNeedFood_Caroline_SeafoodBonanza_Message_2": "{{i18n:TowniesNeedFood_Caroline_SeafoodBonanza_Message_2}}"
       }
     },
   ]
