@@ -421,21 +421,7 @@
           "Text": "[TowniesNeedFood_Alex_GoodEating_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
-          "RandomizedElements": [
-            {
-              "Name": "Text",
-              "Values": [
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Alex_GoodEating_RE_Text_0]"
-                },
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Alex_GoodEating_RE_Text_1]"
-                }
-              ]
-            }
-          ],
+          "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
@@ -494,21 +480,7 @@
           "Text": "[TowniesNeedFood_Caroline_SeafoodBonanza_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
-          "RandomizedElements": [
-            {
-              "Name": "Text",
-              "Values": [
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Caroline_SeafoodBonanza_RE_Text_0]"
-                },
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Caroline_SeafoodBonanza_RE_Text_1]"
-                }
-              ]
-            }
-          ],
+          "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
