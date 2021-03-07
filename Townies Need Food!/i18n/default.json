@@ -60,4 +60,16 @@
   "TowniesNeedFood_Demetrius_Dinnerand2Desserts_Message_0": "Thank you @, I'm looking forward to these beans.$h",
   "TowniesNeedFood_Demetrius_Dinnerand2Desserts_Message_1": "Ice cream is my favorite, thank you.$h",
   "TowniesNeedFood_Demetrius_Dinnerand2Desserts_Message_2": "I love rice pudding, it's fun to eat. Thank you.$h",
+  //
+  // Elliott Meal Planning Special Order Strings
+  "TowniesNeedFood_Elliott_MealPlanning_Name": "Meal Planning",
+  "TowniesNeedFood_Elliott_MealPlanning_Text": "I'd be most grateful if someone could me with meal planning. I am in need of crab cakes, tom kha soup, and baked fish.",
+  "TowniesNeedFood_Elliott_MealPlanning_RE_Text_0": "I'd like to have a different dinner for three nights in a row.",
+  "TowniesNeedFood_Elliott_MealPlanning_RE_Text_1": "Meal planning went well last time.$h",
+  "TowniesNeedFood_Elliott_MealPlanning_Objective_Text_0": "Deliver Crab Cake to Elliott",
+  "TowniesNeedFood_Elliott_MealPlanning_Objective_Text_1": "Deliver Tom Kha Soup to Elliott",
+  "TowniesNeedFood_Elliott_MealPlanning_Objective_Text_2": "Deliver Baked Fish to Elliott",
+  "TowniesNeedFood_Elliott_MealPlanning_Message_0": "I can't wait to enjoy these crab cakes, thank you @!$h",
+  "TowniesNeedFood_Elliott_MealPlanning_Message_1": "Thank you, I'm looking forward to this delectable delicacy!$h",
+  "TowniesNeedFood_Elliott_MealPlanning_Message_2": "Ah, I can smell the herb concerto!$h",
 }

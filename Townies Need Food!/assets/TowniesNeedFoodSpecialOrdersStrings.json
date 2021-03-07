@@ -98,5 +98,23 @@
         "TowniesNeedFood_Demetrius_Dinnerand2Desserts_Message_2": "{{i18n:TowniesNeedFood_Demetrius_Dinnerand2Desserts_Message_2}}"
       }
     },
+    // Elliott Meal Planning Special Order Strings
+    {
+      "LogName": "Elliott Meal Planning Special Order Strings",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Elliott_MealPlanning_Name": "{{i18n:TowniesNeedFood_Elliott_MealPlanning_Name}}",
+        "TowniesNeedFood_Elliott_MealPlanning_Text": "{{i18n:TowniesNeedFood_Elliott_MealPlanning_Text}}",
+        "TowniesNeedFood_Elliott_MealPlanning_RE_Text_0": "{{i18n:TowniesNeedFood_Elliott_MealPlanning_RE_Text_0}}",
+        "TowniesNeedFood_Elliott_MealPlanning_RE_Text_1": "{{i18n:TowniesNeedFood_Elliott_MealPlanning_RE_Text_1}}",
+        "TowniesNeedFood_Elliott_MealPlanning_Objective_Text_0": "{{i18n:TowniesNeedFood_Elliott_MealPlanning_Objective_Text_0}}",
+        "TowniesNeedFood_Elliott_MealPlanning_Objective_Text_1": "{{i18n:TowniesNeedFood_Elliott_MealPlanning_Objective_Text_1}}",
+        "TowniesNeedFood_Elliott_MealPlanning_Objective_Text_2": "{{i18n:TowniesNeedFood_Elliott_MealPlanning_Objective_Text_2}}",
+        "TowniesNeedFood_Elliott_MealPlanning_Message_0": "{{i18n:TowniesNeedFood_Elliott_MealPlanning_Message_0}}",
+        "TowniesNeedFood_Elliott_MealPlanning_Message_1": "{{i18n:TowniesNeedFood_Elliott_MealPlanning_Message_1}}",
+        "TowniesNeedFood_Elliott_MealPlanning_Message_2": "{{i18n:TowniesNeedFood_Elliott_MealPlanning_Message_2}}"
+      }
+    },
   ]
 }
