@@ -80,5 +80,23 @@
         "TowniesNeedFood_Clint_MildSnack_Message_1": "{{i18n:TowniesNeedFood_Clint_MildSnack_Message_1}}"
       }
     },
+    // Demetrius Dinner and 2 Desserts Special Order Strings
+    {
+      "LogName": "Demetrius Dinner and 2 Desserts Special Order Strings",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Demetrius_Dinnerand2Desserts_Name": "{{i18n:TowniesNeedFood_Demetrius_Dinnerand2Desserts_Name}}",
+        "TowniesNeedFood_Demetrius_Dinnerand2Desserts_Text": "{{i18n:TowniesNeedFood_Demetrius_Dinnerand2Desserts_Text}}",
+        "TowniesNeedFood_Demetrius_Dinnerand2Desserts_RE_Text_0": "{{i18n:TowniesNeedFood_Demetrius_Dinnerand2Desserts_RE_Text_0}}",
+        "TowniesNeedFood_Demetrius_Dinnerand2Desserts_RE_Text_1": "{{i18n:TowniesNeedFood_Demetrius_Dinnerand2Desserts_RE_Text_1}}",
+        "TowniesNeedFood_Demetrius_Dinnerand2Desserts_Objective_Text_0": "{{i18n:TowniesNeedFood_Demetrius_Dinnerand2Desserts_Objective_Text_0}}",
+        "TowniesNeedFood_Demetrius_Dinnerand2Desserts_Objective_Text_1": "{{i18n:TowniesNeedFood_Demetrius_Dinnerand2Desserts_Objective_Text_1}}",
+        "TowniesNeedFood_Demetrius_Dinnerand2Desserts_Objective_Text_2": "{{i18n:TowniesNeedFood_Demetrius_Dinnerand2Desserts_Objective_Text_2}}",
+        "TowniesNeedFood_Demetrius_Dinnerand2Desserts_Message_0": "{{i18n:TowniesNeedFood_Demetrius_Dinnerand2Desserts_Message_0}}",
+        "TowniesNeedFood_Demetrius_Dinnerand2Desserts_Message_1": "{{i18n:TowniesNeedFood_Demetrius_Dinnerand2Desserts_Message_1}}",
+        "TowniesNeedFood_Demetrius_Dinnerand2Desserts_Message_2": "{{i18n:TowniesNeedFood_Demetrius_Dinnerand2Desserts_Message_2}}"
+      }
+    },
   ]
 }

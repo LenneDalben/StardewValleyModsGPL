@@ -367,6 +367,89 @@
         }
       }
     },
+    // Demetrius Dinner and 2 Desserts Repeatable
+    {
+      "LogName": "Demetrius Dinner and 2 Desserts Special Order - Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Demetrius_Dinnerand2Desserts": {
+          "Name": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_Name]",
+          "Requester": "Demetrius",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": [
+            {
+              "Name": "Text",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_RE_Text_0]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_RE_Text_1]"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_bean_hotpot",
+                "Message": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_Message_0]",
+                "TargetName": "Demetrius"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_ice_cream",
+                "Message": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_Message_1]",
+                "TargetName": "Demetrius"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_Objective_Text_2]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_rice_pudding",
+                "Message": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_Message_2]",
+                "TargetName": "Demetrius"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1440"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        },
+        "When": {
+          "Repeatable": "yes",
+          "PlayerHasKitchen": true
+        }
+      }
+    },
     // Not Repeatable special orders listed below
     // Abigail Sweet and Spicy Not Repeatable
     {
@@ -650,6 +733,89 @@
               "Type": "Money",
               "Data": {
                 "Amount": "810"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        },
+        "When": {
+          "Repeatable": "no",
+          "PlayerHasKitchen": true
+        }
+      }
+    },
+    // Demetrius Dinner and 2 Desserts Not Repeatable
+    {
+      "LogName": "Demetrius Dinner and 2 Desserts Special Order - Not Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Demetrius_Dinnerand2Desserts": {
+          "Name": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_Name]",
+          "Requester": "Demetrius",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": [
+            {
+              "Name": "Text",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_RE_Text_0]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_RE_Text_1]"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_bean_hotpot",
+                "Message": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_Message_0]",
+                "TargetName": "Demetrius"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_ice_cream",
+                "Message": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_Message_1]",
+                "TargetName": "Demetrius"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_Objective_Text_2]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_rice_pudding",
+                "Message": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_Message_2]",
+                "TargetName": "Demetrius"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1440"
               }
             },
             {
