@@ -32,11 +32,12 @@
   "Changes": [  
     // Include Files
     {
-      "LogName": "Include",
+      "LogName": "Include Townies Need Food Orders",
       "Action": "Include",
       "FromFile": "assets/TowniesNeedFoodSpecialOrders.json"
     },
     {
+      "LogName": "Include Townies Need Food Strings",
       "Action": "Include",
       "FromFile": "assets/TowniesNeedFoodSpecialOrdersStrings.json"
     }
