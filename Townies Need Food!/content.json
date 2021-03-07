@@ -34,11 +34,11 @@
     {
       "LogName": "Include",
       "Action": "Include",
-      "FromFile": "assets/LenneSpecialOrders.json"
+      "FromFile": "assets/TowniesNeedFoodSpecialOrders.json"
     },
     {
       "Action": "Include",
-      "FromFile": "assets/LenneSpecialOrdersStrings.json"
+      "FromFile": "assets/TowniesNeedFoodSpecialOrdersStrings.json"
     }
   ]
 }
