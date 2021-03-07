@@ -764,21 +764,7 @@
           "Text": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
-          "RandomizedElements": [
-            {
-              "Name": "Text",
-              "Values": [
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_RE_Text_0]"
-                },
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_RE_Text_1]"
-                }
-              ]
-            }
-          ],
+          "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
