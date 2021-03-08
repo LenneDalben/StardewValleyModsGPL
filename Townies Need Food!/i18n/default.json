@@ -72,4 +72,14 @@
   "TowniesNeedFood_Elliott_MealPlanning_Message_0": "I can't wait to enjoy these crab cakes, thank you @!$h",
   "TowniesNeedFood_Elliott_MealPlanning_Message_1": "Thank you, I'm looking forward to this delectable delicacy!$h",
   "TowniesNeedFood_Elliott_MealPlanning_Message_2": "Ah, I can smell the herb concerto!$h",
+  //
+  // Emily Appetizer and Dinner Strings
+  "TowniesNeedFood_Emily_AppetizerandDinner_Name": "Appetizer and Dinner",
+  "TowniesNeedFood_Emily_AppetizerandDinner_Text": "Shrimp cocktail followed by survival burger may seem like a strange combination, but I'm interested!",
+  "TowniesNeedFood_Emily_AppetizerandDinner_RE_Text_0": "I think a shrimp cocktail appetizer will class up dinner.",
+  "TowniesNeedFood_Emily_AppetizerandDinner_RE_Text_1": "I enjoyed the shrimp cocktail and survival burger combination so much I'd like to try it again!",
+  "TowniesNeedFood_Emily_AppetizerandDinner_Objective_Text_0": "Deliver Shrimp Cocktail to Emily",
+  "TowniesNeedFood_Emily_AppetizerandDinner_Objective_Text_1": "Deliver Survival Burger to Emily",
+  "TowniesNeedFood_Emily_AppetizerandDinner_Message_0": "Great, thanks @!$h",
+  "TowniesNeedFood_Emily_AppetizerandDinner_Message_1": "Oooh, thanks @!$h",
 }

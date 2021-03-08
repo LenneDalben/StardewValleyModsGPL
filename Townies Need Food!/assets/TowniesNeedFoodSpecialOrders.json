@@ -298,7 +298,7 @@
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "Hearts:Linus": "7, 8, 9, 10",
-        "Hearts:George":"3, 4, 5, 6, 7, 8, 9, 10"
+        "Hearts:George": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
     // Clint Mild Snack Repeatable
@@ -545,6 +545,81 @@
         "Hearts:Sandy": "7, 8, 9, 10"
       }
     },
+    // Emily Appetizer and Dinner Repeatable
+    {
+      "LogName": "Emily Appetizer and Dinner - Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Emily_AppetizerandDinner": {
+          "Name": "[TowniesNeedFood_Emily_AppetizerandDinner_Name]",
+          "Requester": "Emily",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Emily_AppetizerandDinner_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": [
+            {
+              "Name": "Text",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Emily_AppetizerandDinner_RE_Text_0]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Emily_AppetizerandDinner_RE_Text_1]"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Emily_AppetizerandDinner_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_shrimp_cocktail",
+                "Message": "[TowniesNeedFood_Emily_AppetizerandDinner_Message_0]",
+                "TargetName": "Emily"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Emily_AppetizerandDinner_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_survival_burger",
+                "Message": "[TowniesNeedFood_Emily_AppetizerandDinner_Message_1]",
+                "TargetName": "Emily"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1020"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "yes",
+        "PlayerHasKitchen": true,
+        "Year | contains=1": false,
+        "SkillLevel:Foraging": "2, 3, 4, 5, 6, 7, 8, 9, 10"
+      }
+    },
     //
     // Not Repeatable special orders listed below (the same kind of order, just with Repeatable set to false)
     //
@@ -789,7 +864,7 @@
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "Hearts:Linus": "7, 8, 9, 10",
-        "Hearts:George":"3, 4, 5, 6, 7, 8, 9, 10"
+        "Hearts:George": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
     // Clint Mild Snack Not Repeatable
@@ -992,6 +1067,67 @@
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "Hearts:Sandy": "7, 8, 9, 10"
+      }
+    },
+    // Emily Appetizer and Dinner Not Repeatable
+    {
+      "LogName": "Emily Appetizer and Dinner - Not Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Emily_AppetizerandDinner": {
+          "Name": "[TowniesNeedFood_Emily_AppetizerandDinner_Name]",
+          "Requester": "Emily",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Emily_AppetizerandDinner_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Emily_AppetizerandDinner_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_shrimp_cocktail",
+                "Message": "[TowniesNeedFood_Emily_AppetizerandDinner_Message_0]",
+                "TargetName": "Emily"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Emily_AppetizerandDinner_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_survival_burger",
+                "Message": "[TowniesNeedFood_Emily_AppetizerandDinner_Message_1]",
+                "TargetName": "Emily"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1020"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "no",
+        "PlayerHasKitchen": true,
+        "Year | contains=1": false,
+        "SkillLevel:Foraging": "2, 3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
   ]

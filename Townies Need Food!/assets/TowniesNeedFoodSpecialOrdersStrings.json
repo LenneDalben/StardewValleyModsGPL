@@ -116,5 +116,21 @@
         "TowniesNeedFood_Elliott_MealPlanning_Message_2": "{{i18n:TowniesNeedFood_Elliott_MealPlanning_Message_2}}"
       }
     },
+    // Emily Appetizer and Dinner Strings
+    {
+      "LogName": "Emily Appetizer and Dinner Strings",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Emily_AppetizerandDinner_Name": "{{i18n:TowniesNeedFood_Emily_AppetizerandDinner_Name}}",
+        "TowniesNeedFood_Emily_AppetizerandDinner_Text": "{{i18n:TowniesNeedFood_Emily_AppetizerandDinner_Text}}",
+        "TowniesNeedFood_Emily_AppetizerandDinner_RE_Text_0": "{{i18n:TowniesNeedFood_Emily_AppetizerandDinner_RE_Text_0}}",
+        "TowniesNeedFood_Emily_AppetizerandDinner_RE_Text_1": "{{i18n:TowniesNeedFood_Emily_AppetizerandDinner_RE_Text_1}}",
+        "TowniesNeedFood_Emily_AppetizerandDinner_Objective_Text_0": "{{i18n:TowniesNeedFood_Emily_AppetizerandDinner_Objective_Text_0}}",
+        "TowniesNeedFood_Emily_AppetizerandDinner_Objective_Text_1": "{{i18n:TowniesNeedFood_Emily_AppetizerandDinner_Objective_Text_1}}",
+        "TowniesNeedFood_Emily_AppetizerandDinner_Message_0": "{{i18n:TowniesNeedFood_Emily_AppetizerandDinner_Message_0}}",
+        "TowniesNeedFood_Emily_AppetizerandDinner_Message_1": "{{i18n:TowniesNeedFood_Emily_AppetizerandDinner_Message_1}}"
+      }
+    },
   ]
 }
