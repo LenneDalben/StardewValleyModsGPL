@@ -104,4 +104,15 @@
   "TowniesNeedFood_George_SomeFavorites_Message_0": "I'm looking forward to this side dish, @.$h",
   "TowniesNeedFood_George_SomeFavorites_Message_1": "Thank you @, I'm looking forward to this soup.$h",
   "TowniesNeedFood_George_SomeFavorites_Message_2": "Thank you @, you've made an old man happy.$h",
+  //
+  // Gus Unique Delicacies Strings
+  "TowniesNeedFood_Gus_UniqueDelicacies_Name": "Unique Delicacies",
+  "TowniesNeedFood_Gus_UniqueDelicacies_Text": "I'd love some escargot and fish tacos. Drop some off at the saloon and I'll be very grateful.",
+  "TowniesNeedFood_Gus_UniqueDelicacies_RE_Text_0": "Fish tacos are tasty.#b#Escargot is tasty too! Who can say no to butter?$h",
+  "TowniesNeedFood_Gus_UniqueDelicacies_RE_Text_1": "I believe fish tacos and escargot are unique delicacies.",
+  "TowniesNeedFood_Gus_UniqueDelicacies_Objective_Text_0": "Deliver Escargot to Gus",
+  "TowniesNeedFood_Gus_UniqueDelicacies_Objective_Text_1": "Deliver Fish Taco to Gus",
+  "TowniesNeedFood_Gus_UniqueDelicacies_Message_0": "This looks great, thank you @!$h",
+  "TowniesNeedFood_Gus_UniqueDelicacies_Message_1": "This looks tasty, thank you @!$h",
+  //
 }

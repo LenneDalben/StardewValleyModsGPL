@@ -166,5 +166,21 @@
         "TowniesNeedFood_George_SomeFavorites_Message_2": "{{i18n:TowniesNeedFood_George_SomeFavorites_Message_2}}"
       }
     },
+    // Gus Unique Delicacies Strings
+    {
+      "LogName": "Gus Unique Delicacies Strings",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Gus_UniqueDelicacies_Name": "{{i18n:TowniesNeedFood_Gus_UniqueDelicacies_Name}}",
+        "TowniesNeedFood_Gus_UniqueDelicacies_Text": "{{i18n:TowniesNeedFood_Gus_UniqueDelicacies_Text}}",
+        "TowniesNeedFood_Gus_UniqueDelicacies_RE_Text_0": "{{i18n:TowniesNeedFood_Gus_UniqueDelicacies_RE_Text_0}}",
+        "TowniesNeedFood_Gus_UniqueDelicacies_RE_Text_1": "{{i18n:TowniesNeedFood_Gus_UniqueDelicacies_RE_Text_1}}",
+        "TowniesNeedFood_Gus_UniqueDelicacies_Objective_Text_0": "{{i18n:TowniesNeedFood_Gus_UniqueDelicacies_Objective_Text_0}}",
+        "TowniesNeedFood_Gus_UniqueDelicacies_Objective_Text_1": "{{i18n:TowniesNeedFood_Gus_UniqueDelicacies_Objective_Text_1}}",
+        "TowniesNeedFood_Gus_UniqueDelicacies_Message_0": "{{i18n:TowniesNeedFood_Gus_UniqueDelicacies_Message_0}}",
+        "TowniesNeedFood_Gus_UniqueDelicacies_Message_1": "{{i18n:TowniesNeedFood_Gus_UniqueDelicacies_Message_1}}"
+      }
+    },
   ]
 }

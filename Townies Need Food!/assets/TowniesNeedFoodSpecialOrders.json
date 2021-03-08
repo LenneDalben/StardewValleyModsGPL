@@ -780,6 +780,81 @@
         "Hearts:Willy": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
+    // Gus Unique Delicacies Repeatable
+    {
+      "LogName": "Gus Unique Delicacies - Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Gus_UniqueDelicacies": {
+          "Name": "[TowniesNeedFood_Gus_UniqueDelicacies_Name]",
+          "Requester": "Gus",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Gus_UniqueDelicacies_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": [
+            {
+              "Name": "Text",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Gus_UniqueDelicacies_RE_Text_0]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Gus_UniqueDelicacies_RE_Text_1]"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Gus_UniqueDelicacies_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_escargot",
+                "Message": "[TowniesNeedFood_Gus_UniqueDelicacies_Message_0]",
+                "TargetName": "Gus"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Gus_UniqueDelicacies_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_fish_taco",
+                "Message": "[TowniesNeedFood_Gus_UniqueDelicacies_Message_1]",
+                "TargetName": "Gus"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1875"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "yes",
+        "PlayerHasKitchen": true,
+        "Hearts:Willy": "5, 6, 7, 8, 9, 10",
+        "Hearts:Linus": "7, 8, 9, 10"
+      }
+    },
     //
     // Not Repeatable special orders listed below (the same kind of order, just with Repeatable set to false)
     //
@@ -1420,6 +1495,67 @@
         "PlayerHasKitchen": true,
         "Hearts:Demetrius": "3, 4, 5, 6, 7, 8, 9, 10",
         "Hearts:Willy": "3, 4, 5, 6, 7, 8, 9, 10"
+      }
+    },
+    // Gus Unique Delicacies Not Repeatable
+    {
+      "LogName": "Gus Unique Delicacies - Not Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Gus_UniqueDelicacies": {
+          "Name": "[TowniesNeedFood_Gus_UniqueDelicacies_Name]",
+          "Requester": "Gus",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Gus_UniqueDelicacies_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Gus_UniqueDelicacies_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_escargot",
+                "Message": "[TowniesNeedFood_Gus_UniqueDelicacies_Message_0]",
+                "TargetName": "Gus"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Gus_UniqueDelicacies_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_fish_taco",
+                "Message": "[TowniesNeedFood_Gus_UniqueDelicacies_Message_1]",
+                "TargetName": "Gus"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1875"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "no",
+        "PlayerHasKitchen": true,
+        "Hearts:Willy": "5, 6, 7, 8, 9, 10",
+        "Hearts:Linus": "7, 8, 9, 10"
       }
     },
   ]
