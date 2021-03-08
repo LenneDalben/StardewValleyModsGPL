@@ -132,5 +132,21 @@
         "TowniesNeedFood_Emily_AppetizerandDinner_Message_1": "{{i18n:TowniesNeedFood_Emily_AppetizerandDinner_Message_1}}"
       }
     },
+    // Evelyn Side and Dessert Strings
+    {
+        "LogName": "Evelyn Side and Dessert Strings",
+        "Action": "EditData",
+        "Target": "Strings/SpecialOrderStrings",
+        "Entries": {
+          "TowniesNeedFood_Evelyn_SideandDessert_Name": "{{i18n:TowniesNeedFood_Evelyn_SideandDessert_Name}}",
+          "TowniesNeedFood_Evelyn_SideandDessert_Text": "{{i18n:TowniesNeedFood_Evelyn_SideandDessert_Text}}",
+          "TowniesNeedFood_Evelyn_SideandDessert_RE_Text_0": "{{i18n:TowniesNeedFood_Evelyn_SideandDessert_RE_Text_0}}",
+          "TowniesNeedFood_Evelyn_SideandDessert_RE_Text_1": "{{i18n:TowniesNeedFood_Evelyn_SideandDessert_RE_Text_1}}",
+          "TowniesNeedFood_Evelyn_SideandDessert_Objective_Text_0": "{{i18n:TowniesNeedFood_Evelyn_SideandDessert_Objective_Text_0}}",
+          "TowniesNeedFood_Evelyn_SideandDessert_Objective_Text_1": "{{i18n:TowniesNeedFood_Evelyn_SideandDessert_Objective_Text_1}}",
+          "TowniesNeedFood_Evelyn_SideandDessert_Message_0": "{{i18n:TowniesNeedFood_Evelyn_SideandDessert_Message_0}}",
+          "TowniesNeedFood_Evelyn_SideandDessert_Message_1": "{{i18n:TowniesNeedFood_Evelyn_SideandDessert_Message_1}}"
+        }
+      },
   ]
 }

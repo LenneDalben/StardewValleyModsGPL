@@ -82,4 +82,14 @@
   "TowniesNeedFood_Emily_AppetizerandDinner_Objective_Text_1": "Deliver Survival Burger to Emily",
   "TowniesNeedFood_Emily_AppetizerandDinner_Message_0": "Great, thanks @!$h",
   "TowniesNeedFood_Emily_AppetizerandDinner_Message_1": "Oooh, thanks @!$h",
+  //
+  // Evelyn Side and Dessert Strings
+  "TowniesNeedFood_Evelyn_SideandDessert_Name": "Side and Dessert",
+  "TowniesNeedFood_Evelyn_SideandDessert_Text": "I'm in need of a side and and a sweet treat to complete my meal. Could someone make stuffing and chocolate for me? Thanks!",
+  "TowniesNeedFood_Evelyn_SideandDessert_RE_Text_0": "I think meals are better with a side and dessert, don't you?",
+  "TowniesNeedFood_Evelyn_SideandDessert_RE_Text_1": "Stuffing and chocolate cake was a good pairing last time, so I'd like to try it again.",
+  "TowniesNeedFood_Evelyn_SideandDessert_Objective_Text_0": "Deliver Stuffing to Evelyn",
+  "TowniesNeedFood_Evelyn_SideandDessert_Objective_Text_1": "Deliver Chocolate Cake to Evelyn",
+  "TowniesNeedFood_Evelyn_SideandDessert_Message_0": "This stuffing looks great. Thanks, @!$h",
+  "TowniesNeedFood_Evelyn_SideandDessert_Message_1": "@, this chocolate cake looks wonderful. Thanks, dear!$h",
 }

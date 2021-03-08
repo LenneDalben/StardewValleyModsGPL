@@ -620,6 +620,81 @@
         "SkillLevel:Foraging": "2, 3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
+    // Evelyn Side and Dessert Repeatable
+    {
+      "LogName": "Evelyn Side and Dessert - Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Evelyn_SideandDessert": {
+          "Name": "[TowniesNeedFood_Evelyn_SideandDessert_Name]",
+          "Requester": "Evelyn",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Evelyn_SideandDessert_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": [
+            {
+              "Name": "Text",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Evelyn_SideandDessert_RE_Text_0]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Evelyn_SideandDessert_RE_Text_1]"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Evelyn_SideandDessert_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_stuffing",
+                "Message": "[TowniesNeedFood_Evelyn_SideandDessert_Message_0]",
+                "TargetName": "Evelyn"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Evelyn_SideandDessert_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_chocolate_cake",
+                "Message": "[TowniesNeedFood_Evelyn_SideandDessert_Message_1]",
+                "TargetName": "Evelyn"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1095"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "yes",
+        "PlayerHasKitchen": true,
+        "Hearts:Pam": "7, 8, 9, 10",
+        "Season": "Fall, Winter"
+      }
+    },
     //
     // Not Repeatable special orders listed below (the same kind of order, just with Repeatable set to false)
     //
@@ -1128,6 +1203,67 @@
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "SkillLevel:Foraging": "2, 3, 4, 5, 6, 7, 8, 9, 10"
+      }
+    },
+    // Evelyn Side and Dessert Not Repeatable
+    {
+      "LogName": "Evelyn Side and Dessert - Not Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Evelyn_SideandDessert": {
+          "Name": "[TowniesNeedFood_Evelyn_SideandDessert_Name]",
+          "Requester": "Evelyn",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Evelyn_SideandDessert_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Evelyn_SideandDessert_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_stuffing",
+                "Message": "[TowniesNeedFood_Evelyn_SideandDessert_Message_0]",
+                "TargetName": "Evelyn"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Evelyn_SideandDessert_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_chocolate_cake",
+                "Message": "[TowniesNeedFood_Evelyn_SideandDessert_Message_1]",
+                "TargetName": "Evelyn"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1095"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "no",
+        "PlayerHasKitchen": true,
+        "Hearts:Pam": "7, 8, 9, 10",
+        "Season": "Fall, Winter"
       }
     },
   ]
