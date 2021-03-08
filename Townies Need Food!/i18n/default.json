@@ -49,17 +49,17 @@
   "TowniesNeedFood_Clint_MildSnack_Message_0": "This looks great, thanks @.$h",
   "TowniesNeedFood_Clint_MildSnack_Message_1": "Thank you!$h",
   //
-  // Demetrius Dinner and 2 Desserts Strings
-  "TowniesNeedFood_Demetrius_Dinnerand2Desserts_Name": "Dinner and 2 Desserts",
-  "TowniesNeedFood_Demetrius_Dinnerand2Desserts_Text": "Greetings! I'd love to provide some options at dinner tonight. Could someone bring me bean hotpot, ice cream, and rice pudding? Thanks!",
-  "TowniesNeedFood_Demetrius_Dinnerand2Desserts_RE_Text_0": "I thought it was a good idea to mix things up and have variety for dessert.",
-  "TowniesNeedFood_Demetrius_Dinnerand2Desserts_RE_Text_1": "Dinner and 2 desserts was a hit, so I'm trying it out again.$h",
-  "TowniesNeedFood_Demetrius_Dinnerand2Desserts_Objective_Text_0": "Deliver Bean Hotpot to Demetrius",
-  "TowniesNeedFood_Demetrius_Dinnerand2Desserts_Objective_Text_1": "Deliver Ice Cream to Demetrius",
-  "TowniesNeedFood_Demetrius_Dinnerand2Desserts_Objective_Text_2": "Deliver Rice Pudding to Demetrius",
-  "TowniesNeedFood_Demetrius_Dinnerand2Desserts_Message_0": "Thank you @, I'm looking forward to these beans.$h",
-  "TowniesNeedFood_Demetrius_Dinnerand2Desserts_Message_1": "Ice cream is my favorite, thank you.$h",
-  "TowniesNeedFood_Demetrius_Dinnerand2Desserts_Message_2": "I love rice pudding, it's fun to eat. Thank you.$h",
+  // Demetrius Dinner and Two Desserts Strings
+  "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Name": "Dinner and 2 Desserts",
+  "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Text": "Greetings! I'd love to provide some options at dinner tonight. Could someone bring me bean hotpot, ice cream, and rice pudding? Thanks!",
+  "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_RE_Text_0": "I thought it was a good idea to mix things up and have variety for dessert.",
+  "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_RE_Text_1": "Dinner and 2 desserts was a hit, so I'm trying it out again.$h",
+  "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Objective_Text_0": "Deliver Bean Hotpot to Demetrius",
+  "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Objective_Text_1": "Deliver Ice Cream to Demetrius",
+  "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Objective_Text_2": "Deliver Rice Pudding to Demetrius",
+  "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Message_0": "Thank you @, I'm looking forward to these beans.$h",
+  "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Message_1": "Ice cream is my favorite, thank you.$h",
+  "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Message_2": "I love rice pudding, it's fun to eat. Thank you.$h",
   //
   // Elliott Meal Planning Strings
   "TowniesNeedFood_Elliott_MealPlanning_Name": "Meal Planning",
@@ -144,4 +144,16 @@
   "TowniesNeedFood_Harvey_Pickmeup_Message_0": "I'm looking forward to this meal, thanks @!$h",
   "TowniesNeedFood_Harvey_Pickmeup_Message_1": "I'm looking forward to this healthy side dish, thanks @!$h",
   "TowniesNeedFood_Harvey_Pickmeup_Message_2": "Ah yes, this will perk me up. Thanks, @!$h",
+  //
+  // Jodi Three Square Meals Strings
+  "TowniesNeedFood_Jodi_ThreeSquareMeals_Name": "Three Square Meals",
+  "TowniesNeedFood_Jodi_ThreeSquareMeals_Text": "This week is tough. Could someone help me by making pancakes, crispy bass, and eggplant parmesan for me?",
+  "TowniesNeedFood_Jodi_ThreeSquareMeals_RE_Text_0": "Meal planning is good.",
+  "TowniesNeedFood_Jodi_ThreeSquareMeals_RE_Text_1": "Eating three meals a day is good for you.$h",
+  "TowniesNeedFood_Jodi_ThreeSquareMeals_Objective_Text_0": "Deliver Pancakes to Jodi",
+  "TowniesNeedFood_Jodi_ThreeSquareMeals_Objective_Text_1": "Deliver Crispy Bass to Jodi",
+  "TowniesNeedFood_Jodi_ThreeSquareMeals_Objective_Text_2": "Deliver Eggplant Parmesan to Jodi",
+  "TowniesNeedFood_Jodi_ThreeSquareMeals_Message_0": "These look great, thanks @.",
+  "TowniesNeedFood_Jodi_ThreeSquareMeals_Message_1": "This looks good, thanks @.",
+  "TowniesNeedFood_Jodi_ThreeSquareMeals_Message_2": "This will do, thanks @.",
 }

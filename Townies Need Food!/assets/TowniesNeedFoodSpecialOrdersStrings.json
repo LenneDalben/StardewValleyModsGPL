@@ -80,22 +80,22 @@
         "TowniesNeedFood_Clint_MildSnack_Message_1": "{{i18n:TowniesNeedFood_Clint_MildSnack_Message_1}}"
       }
     },
-    // Demetrius Dinner and 2 Desserts Strings
+    // Demetrius Dinner and Two Desserts Strings
     {
-      "LogName": "Demetrius Dinner and 2 Desserts Strings",
+      "LogName": "Demetrius Dinner and Two Desserts Strings",
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
-        "TowniesNeedFood_Demetrius_Dinnerand2Desserts_Name": "{{i18n:TowniesNeedFood_Demetrius_Dinnerand2Desserts_Name}}",
-        "TowniesNeedFood_Demetrius_Dinnerand2Desserts_Text": "{{i18n:TowniesNeedFood_Demetrius_Dinnerand2Desserts_Text}}",
-        "TowniesNeedFood_Demetrius_Dinnerand2Desserts_RE_Text_0": "{{i18n:TowniesNeedFood_Demetrius_Dinnerand2Desserts_RE_Text_0}}",
-        "TowniesNeedFood_Demetrius_Dinnerand2Desserts_RE_Text_1": "{{i18n:TowniesNeedFood_Demetrius_Dinnerand2Desserts_RE_Text_1}}",
-        "TowniesNeedFood_Demetrius_Dinnerand2Desserts_Objective_Text_0": "{{i18n:TowniesNeedFood_Demetrius_Dinnerand2Desserts_Objective_Text_0}}",
-        "TowniesNeedFood_Demetrius_Dinnerand2Desserts_Objective_Text_1": "{{i18n:TowniesNeedFood_Demetrius_Dinnerand2Desserts_Objective_Text_1}}",
-        "TowniesNeedFood_Demetrius_Dinnerand2Desserts_Objective_Text_2": "{{i18n:TowniesNeedFood_Demetrius_Dinnerand2Desserts_Objective_Text_2}}",
-        "TowniesNeedFood_Demetrius_Dinnerand2Desserts_Message_0": "{{i18n:TowniesNeedFood_Demetrius_Dinnerand2Desserts_Message_0}}",
-        "TowniesNeedFood_Demetrius_Dinnerand2Desserts_Message_1": "{{i18n:TowniesNeedFood_Demetrius_Dinnerand2Desserts_Message_1}}",
-        "TowniesNeedFood_Demetrius_Dinnerand2Desserts_Message_2": "{{i18n:TowniesNeedFood_Demetrius_Dinnerand2Desserts_Message_2}}"
+        "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Name": "{{i18n:TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Name}}",
+        "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Text": "{{i18n:TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Text}}",
+        "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_RE_Text_0": "{{i18n:TowniesNeedFood_Demetrius_DinnerandTwoDesserts_RE_Text_0}}",
+        "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_RE_Text_1": "{{i18n:TowniesNeedFood_Demetrius_DinnerandTwoDesserts_RE_Text_1}}",
+        "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Objective_Text_0": "{{i18n:TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Objective_Text_0}}",
+        "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Objective_Text_1": "{{i18n:TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Objective_Text_1}}",
+        "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Objective_Text_2": "{{i18n:TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Objective_Text_2}}",
+        "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Message_0": "{{i18n:TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Message_0}}",
+        "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Message_1": "{{i18n:TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Message_1}}",
+        "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Message_2": "{{i18n:TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Message_2}}"
       }
     },
     // Elliott Meal Planning Strings
@@ -228,6 +228,24 @@
         "TowniesNeedFood_Harvey_Pickmeup_Message_0": "{{i18n:TowniesNeedFood_Harvey_Pickmeup_Message_0}}",
         "TowniesNeedFood_Harvey_Pickmeup_Message_1": "{{i18n:TowniesNeedFood_Harvey_Pickmeup_Message_1}}",
         "TowniesNeedFood_Harvey_Pickmeup_Message_2": "{{i18n:TowniesNeedFood_Harvey_Pickmeup_Message_2}}"
+      }
+    },
+    // Jodi Three Square Meals Strings
+    {
+      "LogName": "Jodi Three Square Meals Strings",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Jodi_ThreeSquareMeals_Name": "{{i18n:TowniesNeedFood_Jodi_ThreeSquareMeals_Name}}",
+        "TowniesNeedFood_Jodi_ThreeSquareMeals_Text": "{{i18n:TowniesNeedFood_Jodi_ThreeSquareMeals_Text}}",
+        "TowniesNeedFood_Jodi_ThreeSquareMeals_RE_Text_0": "{{i18n:TowniesNeedFood_Jodi_ThreeSquareMeals_RE_Text_0}}",
+        "TowniesNeedFood_Jodi_ThreeSquareMeals_RE_Text_1": "{{i18n:TowniesNeedFood_Jodi_ThreeSquareMeals_RE_Text_1}}",
+        "TowniesNeedFood_Jodi_ThreeSquareMeals_Objective_Text_0": "{{i18n:TowniesNeedFood_Jodi_ThreeSquareMeals_Objective_Text_0}}",
+        "TowniesNeedFood_Jodi_ThreeSquareMeals_Objective_Text_1": "{{i18n:TowniesNeedFood_Jodi_ThreeSquareMeals_Objective_Text_1}}",
+        "TowniesNeedFood_Jodi_ThreeSquareMeals_Objective_Text_2": "{{i18n:TowniesNeedFood_Jodi_ThreeSquareMeals_Objective_Text_2}}",
+        "TowniesNeedFood_Jodi_ThreeSquareMeals_Message_0": "{{i18n:TowniesNeedFood_Jodi_ThreeSquareMeals_Message_0}}",
+        "TowniesNeedFood_Jodi_ThreeSquareMeals_Message_1": "{{i18n:TowniesNeedFood_Jodi_ThreeSquareMeals_Message_1}}",
+        "TowniesNeedFood_Jodi_ThreeSquareMeals_Message_2": "{{i18n:TowniesNeedFood_Jodi_ThreeSquareMeals_Message_2}}"
       }
     },
   ]

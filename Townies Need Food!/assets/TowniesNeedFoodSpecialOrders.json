@@ -374,21 +374,21 @@
         "PlayerHasKitchen": true
       }
     },
-    // Demetrius Dinner and 2 Desserts Repeatable
+    // Demetrius Dinner and Two Desserts Repeatable
     {
-      "LogName": "Demetrius Dinner and 2 Desserts - Repeatable",
+      "LogName": "Demetrius Dinner and Two Desserts - Repeatable",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesNeedFood_Demetrius_Dinnerand2Desserts": {
-          "Name": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_Name]",
+        "TowniesNeedFood_Demetrius_DinnerandTwoDesserts": {
+          "Name": "[TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Name]",
           "Requester": "Demetrius",
           "Duration": "Week",
           "Repeatable": "True",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_Text]",
+          "Text": "[TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": [
@@ -397,11 +397,11 @@
               "Values": [
                 {
                   "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_RE_Text_0]"
+                  "Value": "[TowniesNeedFood_Demetrius_DinnerandTwoDesserts_RE_Text_0]"
                 },
                 {
                   "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_RE_Text_1]"
+                  "Value": "[TowniesNeedFood_Demetrius_DinnerandTwoDesserts_RE_Text_1]"
                 }
               ]
             }
@@ -409,31 +409,31 @@
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_Objective_Text_0]",
+              "Text": "[TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
                 "AcceptedContextTags": "item_bean_hotpot",
-                "Message": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_Message_0]",
+                "Message": "[TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Message_0]",
                 "TargetName": "Demetrius"
               }
             },
             {
               "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_Objective_Text_1]",
+              "Text": "[TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
                 "AcceptedContextTags": "item_ice_cream",
-                "Message": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_Message_1]",
+                "Message": "[TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Message_1]",
                 "TargetName": "Demetrius"
               }
             },
             {
               "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_Objective_Text_2]",
+              "Text": "[TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Objective_Text_2]",
               "RequiredCount": "1",
               "Data": {
                 "AcceptedContextTags": "item_rice_pudding",
-                "Message": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_Message_2]",
+                "Message": "[TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Message_2]",
                 "TargetName": "Demetrius"
               }
             }
@@ -1077,6 +1077,91 @@
         "Hearts:Kent": "7, 8, 9, 10"
       }
     },
+    // Jodi Three Square Meals Repeatable
+    {
+      "LogName": "Jodi Three Square Meals - Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Jodi_ThreeSquareMeals": {
+          "Name": "[TowniesNeedFood_Jodi_ThreeSquareMeals_Name]",
+          "Requester": "Jodi",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Jodi_ThreeSquareMeals_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": [
+            {
+              "Name": "Text",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Jodi_ThreeSquareMeals_RE_Text_0]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Jodi_ThreeSquareMeals_RE_Text_1]"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Jodi_ThreeSquareMeals_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_pancakes",
+                "Message": "[TowniesNeedFood_Jodi_ThreeSquareMeals_Message_0]",
+                "TargetName": "Jodi"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Jodi_ThreeSquareMeals_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_crispy_bass",
+                "Message": "[TowniesNeedFood_Jodi_ThreeSquareMeals_Message_1]",
+                "TargetName": "Jodi"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Jodi_ThreeSquareMeals_Objective_Text_2]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_eggplant_parmesan",
+                "Message": "[TowniesNeedFood_Jodi_ThreeSquareMeals_Message_2]",
+                "TargetName": "Jodi"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1290"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "yes",
+        "PlayerHasKitchen": true,
+        "Hearts:Lewis": "7, 8, 9, 10",
+        "Hearts:Kent": "3, 4, 5, 6, 7, 8, 9, 10"
+      }
+    },
     //
     // Not Repeatable special orders listed below (the same kind of order, just with Repeatable set to false)
     //
@@ -1389,46 +1474,46 @@
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesNeedFood_Demetrius_Dinnerand2Desserts": {
-          "Name": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_Name]",
+        "TowniesNeedFood_Demetrius_DinnerandTwoDesserts": {
+          "Name": "[TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Name]",
           "Requester": "Demetrius",
           "Duration": "Week",
           "Repeatable": "False",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_Text]",
+          "Text": "[TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_Objective_Text_0]",
+              "Text": "[TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
                 "AcceptedContextTags": "item_bean_hotpot",
-                "Message": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_Message_0]",
+                "Message": "[TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Message_0]",
                 "TargetName": "Demetrius"
               }
             },
             {
               "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_Objective_Text_1]",
+              "Text": "[TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
                 "AcceptedContextTags": "item_ice_cream",
-                "Message": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_Message_1]",
+                "Message": "[TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Message_1]",
                 "TargetName": "Demetrius"
               }
             },
             {
               "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_Objective_Text_2]",
+              "Text": "[TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Objective_Text_2]",
               "RequiredCount": "1",
               "Data": {
                 "AcceptedContextTags": "item_rice_pudding",
-                "Message": "[TowniesNeedFood_Demetrius_Dinnerand2Desserts_Message_2]",
+                "Message": "[TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Message_2]",
                 "TargetName": "Demetrius"
               }
             }
@@ -1958,6 +2043,91 @@
         "Repeatable": "yes",
         "PlayerHasKitchen": true,
         "Hearts:Kent": "7, 8, 9, 10"
+      }
+    },
+    // Jodi Three Square Meals Not Repeatable
+    {
+      "LogName": "Jodi Three Square Meals - Not Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Jodi_ThreeSquareMeals": {
+          "Name": "[TowniesNeedFood_Jodi_ThreeSquareMeals_Name]",
+          "Requester": "Jodi",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Jodi_ThreeSquareMeals_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": [
+            {
+              "Name": "Text",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Jodi_ThreeSquareMeals_RE_Text_0]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Jodi_ThreeSquareMeals_RE_Text_1]"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Jodi_ThreeSquareMeals_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_pancakes",
+                "Message": "[TowniesNeedFood_Jodi_ThreeSquareMeals_Message_0]",
+                "TargetName": "Jodi"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Jodi_ThreeSquareMeals_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_crispy_bass",
+                "Message": "[TowniesNeedFood_Jodi_ThreeSquareMeals_Message_1]",
+                "TargetName": "Jodi"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Jodi_ThreeSquareMeals_Objective_Text_2]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_eggplant_parmesan",
+                "Message": "[TowniesNeedFood_Jodi_ThreeSquareMeals_Message_2]",
+                "TargetName": "Jodi"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1290"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "no",
+        "PlayerHasKitchen": true,
+        "Hearts:Lewis": "7, 8, 9, 10",
+        "Hearts:Kent": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
   ]
