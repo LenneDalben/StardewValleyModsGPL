@@ -1,5 +1,5 @@
 {
-  // Abigail Sweet and Spicy Special Order Strings
+  // Abigail Sweet and Spicy Strings
   "TowniesNeedFood_Abigail_SweetandSpicy_Name": "Sweet and Spicy",
   "TowniesNeedFood_Abigail_SweetandSpicy_Text": "Hey! I'm in the mood for a sweet and spicy combination. Can anyone make me some blackberry cobbler and spicy eel?",
   "TowniesNeedFood_Abigail_SweetandSpicy_RE_Text_0": "You agree that sweet and spicy is a great combination in a meal, right, @?",
@@ -9,7 +9,7 @@
   "TowniesNeedFood_Abigail_SweetandSpicy_Message_0": "The cobbler looks tasty, thanks @!$h",
   "TowniesNeedFood_Abigail_SweetandSpicy_Message_1": "I can smell the spice from here, thanks @!$h",
   //
-  // Abigail Creamy Dessert Special Order Strings
+  // Abigail Creamy Dessert Strings
   "TowniesNeedFood_Abigail_CreamyDessert_Name": "Creamy Dessert",
   "TowniesNeedFood_Abigail_CreamyDessert_Text": "I'd love to have a tropical dessert but I don't know how to make any. Could someone whip up some banana pudding for me?",
   "TowniesNeedFood_Abigail_CreamyDessert_RE_Text_0": "I wonder if dad could get bananas imported somehow...",
@@ -17,7 +17,7 @@
   "TowniesNeedFood_Abigail_CreamyDessert_Objective_Text_0": "Deliver Banana Pudding to Abigail",
   "TowniesNeedFood_Abigail_CreamyDessert_Message_0": "Thank you, this is awesome!$h",
   //
-  // Alex Good Eating Special Order Strings
+  // Alex Good Eating Strings
   "TowniesNeedFood_Alex_GoodEating_Name": "Good Eating",
   "TowniesNeedFood_Alex_GoodEating_Text": "A complete breakfast and salmon dinner will set me up for a good day. Could someone make these for me?",
   "TowniesNeedFood_Alex_GoodEating_RE_Text_0": "I feel like I can take on the world after a complete breakfast, don't you?#$b#With salmon dinner in the evening, that's some good eating.$h",
@@ -27,7 +27,7 @@
   "TowniesNeedFood_Alex_GoodEating_Message_0": "Thanks, this'll do the trick!$h",
   "TowniesNeedFood_Alex_GoodEating_Message_1": "This looks delicious, thanks @!$h",
   //
-  // Caroline Seafood Bonanza Special Order Strings
+  // Caroline Seafood Bonanza Strings
   "TowniesNeedFood_Caroline_SeafoodBonanza_Name": "Seafood Bonanza",
   "TowniesNeedFood_Caroline_SeafoodBonanza_Text": "Abigail might call it a 'seafood bonanza', but seafood is good for you! Could someone make me fish taco, fried eel, and lobster bisque please?",
   "TowniesNeedFood_Caroline_SeafoodBonanza_RE_Text_0": "Seafood is healthy, but it can be tasty too.",
@@ -39,7 +39,7 @@
   "TowniesNeedFood_Caroline_SeafoodBonanza_Message_1": "I'm looking forward to this flavorful dish, thanks!",
   "TowniesNeedFood_Caroline_SeafoodBonanza_Message_2": "Ah, this looks excellent, @!#b#I'm glad to see Willy shared the recipe with someone.$h",
   //
-  // Clint Mild Snack Special Order Strings
+  // Clint Mild Snack Strings
   "TowniesNeedFood_Clint_MildSnack_Name": "Mild Snack",
   "TowniesNeedFood_Clint_MildSnack_Text": "I'm all out of snacks. Could someone bring me bread and artichoke dip?",
   "TowniesNeedFood_Clint_MildSnack_RE_Text_0": "Bread and artichoke dip seemed like a good snack to try.#b#I suppose I could also try spreading the dip on the bread.",
@@ -49,7 +49,7 @@
   "TowniesNeedFood_Clint_MildSnack_Message_0": "This looks great, thanks @.$h",
   "TowniesNeedFood_Clint_MildSnack_Message_1": "Thank you!$h",
   //
-  // Demetrius Dinner and 2 Desserts Special Order Strings
+  // Demetrius Dinner and 2 Desserts Strings
   "TowniesNeedFood_Demetrius_Dinnerand2Desserts_Name": "Dinner and 2 Desserts",
   "TowniesNeedFood_Demetrius_Dinnerand2Desserts_Text": "Greetings! I'd love to provide some options at dinner tonight. Could someone bring me bean hotpot, ice cream, and rice pudding? Thanks!",
   "TowniesNeedFood_Demetrius_Dinnerand2Desserts_RE_Text_0": "I thought it was a good idea to mix things up and have variety for dessert.",
@@ -61,7 +61,7 @@
   "TowniesNeedFood_Demetrius_Dinnerand2Desserts_Message_1": "Ice cream is my favorite, thank you.$h",
   "TowniesNeedFood_Demetrius_Dinnerand2Desserts_Message_2": "I love rice pudding, it's fun to eat. Thank you.$h",
   //
-  // Elliott Meal Planning Special Order Strings
+  // Elliott Meal Planning Strings
   "TowniesNeedFood_Elliott_MealPlanning_Name": "Meal Planning",
   "TowniesNeedFood_Elliott_MealPlanning_Text": "I'd be most grateful if someone could me with meal planning. I am in need of crab cakes, tom kha soup, and baked fish.",
   "TowniesNeedFood_Elliott_MealPlanning_RE_Text_0": "I'd like to have a different dinner for three nights in a row.",

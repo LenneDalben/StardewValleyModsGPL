@@ -1,8 +1,8 @@
 {
   "Changes": [
-    // Abigail Sweet and Spicy Special Order Strings
+    // Abigail Sweet and Spicy Strings
     {
-      "LogName": "Abigail Sweet and Spicy Special Order Strings",
+      "LogName": "Abigail Sweet and Spicy Strings",
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
@@ -16,9 +16,9 @@
         "TowniesNeedFood_Abigail_SweetandSpicy_Message_1": "{{i18n:TowniesNeedFood_Abigail_SweetandSpicy_Message_1}}"
       }
     },
-    // Abigail Creamy Dessert Special Order Strings
+    // Abigail Creamy Dessert Strings
     {
-      "LogName": "Abigail Creamy Dessert Special Order Strings",
+      "LogName": "Abigail Creamy Dessert Strings",
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
@@ -30,9 +30,9 @@
         "TowniesNeedFood_Abigail_CreamyDessert_Message_0": "{{i18n:TowniesNeedFood_Abigail_CreamyDessert_Message_0}}"
       }
     },
-    // Alex Good Eating Special Order Strings
+    // Alex Good Eating Strings
     {
-      "LogName": "Alex Good Eating Special Order Strings",
+      "LogName": "Alex Good Eating Strings",
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
@@ -46,9 +46,9 @@
         "TowniesNeedFood_Alex_GoodEating_Message_1": "{{i18n:TowniesNeedFood_Alex_GoodEating_Message_1}}"
       }
     },
-    // Caroline Seafood Bonanza Special Order Strings
+    // Caroline Seafood Bonanza Strings
     {
-      "LogName": "Caroline Seafood Bonanza Special Order Strings",
+      "LogName": "Caroline Seafood Bonanza Strings",
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
@@ -64,9 +64,9 @@
         "TowniesNeedFood_Caroline_SeafoodBonanza_Message_2": "{{i18n:TowniesNeedFood_Caroline_SeafoodBonanza_Message_2}}"
       }
     },
-    // Clint Mild Snack Special Order Strings
+    // Clint Mild Snack Strings
     {
-      "LogName": "Clint Mild Snack Special Order Strings",
+      "LogName": "Clint Mild Snack Strings",
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
@@ -80,9 +80,9 @@
         "TowniesNeedFood_Clint_MildSnack_Message_1": "{{i18n:TowniesNeedFood_Clint_MildSnack_Message_1}}"
       }
     },
-    // Demetrius Dinner and 2 Desserts Special Order Strings
+    // Demetrius Dinner and 2 Desserts Strings
     {
-      "LogName": "Demetrius Dinner and 2 Desserts Special Order Strings",
+      "LogName": "Demetrius Dinner and 2 Desserts Strings",
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
@@ -98,9 +98,9 @@
         "TowniesNeedFood_Demetrius_Dinnerand2Desserts_Message_2": "{{i18n:TowniesNeedFood_Demetrius_Dinnerand2Desserts_Message_2}}"
       }
     },
-    // Elliott Meal Planning Special Order Strings
+    // Elliott Meal Planning Strings
     {
-      "LogName": "Elliott Meal Planning Special Order Strings",
+      "LogName": "Elliott Meal Planning Strings",
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
