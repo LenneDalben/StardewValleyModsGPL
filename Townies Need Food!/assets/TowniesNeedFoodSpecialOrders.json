@@ -1468,9 +1468,9 @@
         "PlayerHasKitchen": true
       }
     },
-    // Demetrius Dinner and 2 Desserts Not Repeatable
+    // Demetrius Dinner and Two Desserts Not Repeatable
     {
-      "LogName": "Demetrius Dinner and 2 Desserts - Not Repeatable",
+      "LogName": "Demetrius Dinner and Two Desserts - Not Repeatable",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
