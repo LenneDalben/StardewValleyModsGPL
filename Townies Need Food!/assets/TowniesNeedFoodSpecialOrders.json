@@ -695,6 +695,91 @@
         "Season": "Fall, Winter"
       }
     },
+    // George Some Favorites Repeatable
+    {
+      "LogName": "George Some Favorites - Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_George_SomeFavorites": {
+          "Name": "[TowniesNeedFood_George_SomeFavorites_Name]",
+          "Requester": "George",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_George_SomeFavorites_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": [
+            {
+              "Name": "Text",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_George_SomeFavorites_RE_Text_0]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_George_SomeFavorites_RE_Text_1]"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_George_SomeFavorites_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_fried_mushroom",
+                "Message": "[TowniesNeedFood_George_SomeFavorites_Message_0]",
+                "TargetName": "George"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_George_SomeFavorites_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_chowder",
+                "Message": "[TowniesNeedFood_George_SomeFavorites_Message_1]",
+                "TargetName": "George"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_George_SomeFavorites_Objective_Text_2]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_plum_pudding",
+                "Message": "[TowniesNeedFood_George_SomeFavorites_Message_2]",
+                "TargetName": "George"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1785"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "yes",
+        "PlayerHasKitchen": true,
+        "Hearts:Demetrius": "3, 4, 5, 6, 7, 8, 9, 10",
+        "Hearts:Willy": "3, 4, 5, 6, 7, 8, 9, 10"
+      }
+    },
     //
     // Not Repeatable special orders listed below (the same kind of order, just with Repeatable set to false)
     //
@@ -1264,6 +1349,77 @@
         "PlayerHasKitchen": true,
         "Hearts:Pam": "7, 8, 9, 10",
         "Season": "Fall, Winter"
+      }
+    },
+    // George Some Favorites Not Repeatable
+    {
+      "LogName": "George Some Favorites - Not Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_George_SomeFavorites": {
+          "Name": "[TowniesNeedFood_George_SomeFavorites_Name]",
+          "Requester": "George",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_George_SomeFavorites_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_George_SomeFavorites_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_fried_mushroom",
+                "Message": "[TowniesNeedFood_George_SomeFavorites_Message_0]",
+                "TargetName": "George"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_George_SomeFavorites_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_chowder",
+                "Message": "[TowniesNeedFood_George_SomeFavorites_Message_1]",
+                "TargetName": "George"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_George_SomeFavorites_Objective_Text_2]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_plum_pudding",
+                "Message": "[TowniesNeedFood_George_SomeFavorites_Message_2]",
+                "TargetName": "George"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1785"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "no",
+        "PlayerHasKitchen": true,
+        "Hearts:Demetrius": "3, 4, 5, 6, 7, 8, 9, 10",
+        "Hearts:Willy": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
   ]

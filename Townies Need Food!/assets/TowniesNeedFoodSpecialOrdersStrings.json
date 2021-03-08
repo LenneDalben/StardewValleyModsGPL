@@ -134,19 +134,37 @@
     },
     // Evelyn Side and Dessert Strings
     {
-        "LogName": "Evelyn Side and Dessert Strings",
-        "Action": "EditData",
-        "Target": "Strings/SpecialOrderStrings",
-        "Entries": {
-          "TowniesNeedFood_Evelyn_SideandDessert_Name": "{{i18n:TowniesNeedFood_Evelyn_SideandDessert_Name}}",
-          "TowniesNeedFood_Evelyn_SideandDessert_Text": "{{i18n:TowniesNeedFood_Evelyn_SideandDessert_Text}}",
-          "TowniesNeedFood_Evelyn_SideandDessert_RE_Text_0": "{{i18n:TowniesNeedFood_Evelyn_SideandDessert_RE_Text_0}}",
-          "TowniesNeedFood_Evelyn_SideandDessert_RE_Text_1": "{{i18n:TowniesNeedFood_Evelyn_SideandDessert_RE_Text_1}}",
-          "TowniesNeedFood_Evelyn_SideandDessert_Objective_Text_0": "{{i18n:TowniesNeedFood_Evelyn_SideandDessert_Objective_Text_0}}",
-          "TowniesNeedFood_Evelyn_SideandDessert_Objective_Text_1": "{{i18n:TowniesNeedFood_Evelyn_SideandDessert_Objective_Text_1}}",
-          "TowniesNeedFood_Evelyn_SideandDessert_Message_0": "{{i18n:TowniesNeedFood_Evelyn_SideandDessert_Message_0}}",
-          "TowniesNeedFood_Evelyn_SideandDessert_Message_1": "{{i18n:TowniesNeedFood_Evelyn_SideandDessert_Message_1}}"
-        }
-      },
+      "LogName": "Evelyn Side and Dessert Strings",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Evelyn_SideandDessert_Name": "{{i18n:TowniesNeedFood_Evelyn_SideandDessert_Name}}",
+        "TowniesNeedFood_Evelyn_SideandDessert_Text": "{{i18n:TowniesNeedFood_Evelyn_SideandDessert_Text}}",
+        "TowniesNeedFood_Evelyn_SideandDessert_RE_Text_0": "{{i18n:TowniesNeedFood_Evelyn_SideandDessert_RE_Text_0}}",
+        "TowniesNeedFood_Evelyn_SideandDessert_RE_Text_1": "{{i18n:TowniesNeedFood_Evelyn_SideandDessert_RE_Text_1}}",
+        "TowniesNeedFood_Evelyn_SideandDessert_Objective_Text_0": "{{i18n:TowniesNeedFood_Evelyn_SideandDessert_Objective_Text_0}}",
+        "TowniesNeedFood_Evelyn_SideandDessert_Objective_Text_1": "{{i18n:TowniesNeedFood_Evelyn_SideandDessert_Objective_Text_1}}",
+        "TowniesNeedFood_Evelyn_SideandDessert_Message_0": "{{i18n:TowniesNeedFood_Evelyn_SideandDessert_Message_0}}",
+        "TowniesNeedFood_Evelyn_SideandDessert_Message_1": "{{i18n:TowniesNeedFood_Evelyn_SideandDessert_Message_1}}"
+      }
+    },
+    // George Some Favorites Strings
+    {
+      "LogName": "George Some Favorites Strings",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_George_SomeFavorites_Name": "{{i18n:TowniesNeedFood_George_SomeFavorites_Name}}",
+        "TowniesNeedFood_George_SomeFavorites_Text": "{{i18n:TowniesNeedFood_George_SomeFavorites_Text}}",
+        "TowniesNeedFood_George_SomeFavorites_RE_Text_0": "{{i18n:TowniesNeedFood_George_SomeFavorites_RE_Text_0}}",
+        "TowniesNeedFood_George_SomeFavorites_RE_Text_1": "{{i18n:TowniesNeedFood_George_SomeFavorites_RE_Text_1}}",
+        "TowniesNeedFood_George_SomeFavorites_Objective_Text_0": "{{i18n:TowniesNeedFood_George_SomeFavorites_Objective_Text_0}}",
+        "TowniesNeedFood_George_SomeFavorites_Objective_Text_1": "{{i18n:TowniesNeedFood_George_SomeFavorites_Objective_Text_1}}",
+        "TowniesNeedFood_George_SomeFavorites_Objective_Text_2": "{{i18n:TowniesNeedFood_George_SomeFavorites_Objective_Text_2}}",
+        "TowniesNeedFood_George_SomeFavorites_Message_0": "{{i18n:TowniesNeedFood_George_SomeFavorites_Message_0}}",
+        "TowniesNeedFood_George_SomeFavorites_Message_1": "{{i18n:TowniesNeedFood_George_SomeFavorites_Message_1}}",
+        "TowniesNeedFood_George_SomeFavorites_Message_2": "{{i18n:TowniesNeedFood_George_SomeFavorites_Message_2}}"
+      }
+    },
   ]
 }
