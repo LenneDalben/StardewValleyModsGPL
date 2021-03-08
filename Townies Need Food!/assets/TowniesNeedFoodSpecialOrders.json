@@ -67,11 +67,11 @@
               "Data": {}
             }
           ]
-        },
-        "When": {
-          "Repeatable": "yes",
-          "PlayerHasKitchen": true
         }
+      },
+      "When": {
+        "Repeatable": "yes",
+        "PlayerHasKitchen": true
       }
     },
     // Abigail Creamy Dessert Repeatable
@@ -130,12 +130,12 @@
               "Data": {}
             }
           ]
-        },
-        "When": {
-          "Repeatable": "yes",
-          "PlayerHasKitchen": true,
-          "HasFlag": "Island_UpgradeHouse"
         }
+      },
+      "When": {
+        "Repeatable": "yes",
+        "PlayerHasKitchen": true,
+        "HasFlag": "Island_UpgradeHouse"
       }
     },
     // Alex Good Eating Repeatable
