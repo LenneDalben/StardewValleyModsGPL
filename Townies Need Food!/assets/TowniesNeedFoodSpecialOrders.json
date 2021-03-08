@@ -296,7 +296,9 @@
       "When": {
         "Repeatable": "yes",
         "PlayerHasKitchen": true,
-        "Year | contains=1": false
+        "Year | contains=1": false,
+        "Hearts:Linus": "7, 8, 9, 10",
+        "Hearts:George":"3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
     // Clint Mild Snack Repeatable
@@ -782,7 +784,9 @@
       "When": {
         "Repeatable": "no",
         "PlayerHasKitchen": true,
-        "Year | contains=1": false
+        "Year | contains=1": false,
+        "Hearts:Linus": "7, 8, 9, 10",
+        "Hearts:George":"3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
     // Clint Mild Snack Not Repeatable
