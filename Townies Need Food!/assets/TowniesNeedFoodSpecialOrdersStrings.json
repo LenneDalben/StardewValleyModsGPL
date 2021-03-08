@@ -182,5 +182,19 @@
         "TowniesNeedFood_Gus_UniqueDelicacies_Message_1": "{{i18n:TowniesNeedFood_Gus_UniqueDelicacies_Message_1}}"
       }
     },
+    // Gus Fragrant Curry Strings
+    {
+      "LogName": "Gus Fragrant Curry Strings",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Gus_FragrantCurry_Name": "{{i18n:TowniesNeedFood_Gus_FragrantCurry_Name}}",
+        "TowniesNeedFood_Gus_FragrantCurry_Text": "{{i18n:TowniesNeedFood_Gus_FragrantCurry_Text}}",
+        "TowniesNeedFood_Gus_FragrantCurry_RE_Text_0": "{{i18n:TowniesNeedFood_Gus_FragrantCurry_RE_Text_0}}",
+        "TowniesNeedFood_Gus_FragrantCurry_RE_Text_1": "{{i18n:TowniesNeedFood_Gus_FragrantCurry_RE_Text_1}}",
+        "TowniesNeedFood_Gus_FragrantCurry_Objective_Text_0": "{{i18n:TowniesNeedFood_Gus_FragrantCurry_Objective_Text_0}}",
+        "TowniesNeedFood_Gus_FragrantCurry_Message_0": "{{i18n:TowniesNeedFood_Gus_FragrantCurry_Message_0}}"
+      }
+    },
   ]
 }

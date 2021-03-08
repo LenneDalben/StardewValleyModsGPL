@@ -855,6 +855,70 @@
         "Hearts:Linus": "7, 8, 9, 10"
       }
     },
+    // Gus Fragrant Curry Repeatable
+    {
+      "LogName": "Gus Fragrant Curry - Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Gus_FragrantCurry": {
+          "Name": "[TowniesNeedFood_Gus_FragrantCurry_Name]",
+          "Requester": "Gus",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Gus_FragrantCurry_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": [
+            {
+              "Name": "Text",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Gus_FragrantCurry_RE_Text_0]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Gus_FragrantCurry_RE_Text_1]"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Gus_FragrantCurry_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_tropical_curry",
+                "Message": "[TowniesNeedFood_Gus_FragrantCurry_Message_0]",
+                "TargetName": "Gus"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1500"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "yes",
+        "PlayerHasKitchen": true,
+        "HasFlag": "Island_Resort"
+      }
+    },
     //
     // Not Repeatable special orders listed below (the same kind of order, just with Repeatable set to false)
     //
@@ -1556,6 +1620,56 @@
         "PlayerHasKitchen": true,
         "Hearts:Willy": "5, 6, 7, 8, 9, 10",
         "Hearts:Linus": "7, 8, 9, 10"
+      }
+    },
+    // Gus Fragrant Curry Not Repeatable
+    {
+      "LogName": "Gus Fragrant Curry - Not Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Gus_FragrantCurry": {
+          "Name": "[TowniesNeedFood_Gus_FragrantCurry_Name]",
+          "Requester": "Gus",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Gus_FragrantCurry_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Gus_FragrantCurry_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_tropical_curry",
+                "Message": "[TowniesNeedFood_Gus_FragrantCurry_Message_0]",
+                "TargetName": "Gus"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1500"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "no",
+        "PlayerHasKitchen": true,
+        "HasFlag": "Island_Resort"
       }
     },
   ]
