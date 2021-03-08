@@ -2040,7 +2040,7 @@
         }
       },
       "When": {
-        "Repeatable": "yes",
+        "Repeatable": "no",
         "PlayerHasKitchen": true,
         "Hearts:Kent": "7, 8, 9, 10"
       }
@@ -2062,21 +2062,7 @@
           "Text": "[TowniesNeedFood_Jodi_ThreeSquareMeals_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
-          "RandomizedElements": [
-            {
-              "Name": "Text",
-              "Values": [
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Jodi_ThreeSquareMeals_RE_Text_0]"
-                },
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Jodi_ThreeSquareMeals_RE_Text_1]"
-                }
-              ]
-            }
-          ],
+          "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
