@@ -72,7 +72,8 @@
       "When": {
         "Repeatable": "yes",
         "PlayerHasKitchen": true,
-        "Year | contains=1": false
+        "Year | contains=1": false,
+        "Hearts:George": "7, 8, 9, 10"
       }
     },
     // Abigail Creamy Dessert Repeatable
@@ -598,7 +599,8 @@
       "When": {
         "Repeatable": "no",
         "PlayerHasKitchen": true,
-        "Year | contains=1": false
+        "Year | contains=1": false,
+        "Hearts:George": "7, 8, 9, 10"
       }
     },
     // Abigail Creamy Dessert Not Repeatable
