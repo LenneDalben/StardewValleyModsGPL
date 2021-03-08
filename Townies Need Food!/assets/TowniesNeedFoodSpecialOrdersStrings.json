@@ -212,5 +212,23 @@
         "TowniesNeedFood_Haley_MostlyHealthy_Message_1": "{{i18n:TowniesNeedFood_Haley_MostlyHealthy_Message_1}}"
       }
     },
+    // Harvey Pick-me-up Strings
+    {
+      "LogName": "Harvey Pick-me-up Strings",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Harvey_Pickmeup_Name": "{{i18n:TowniesNeedFood_Harvey_Pickmeup_Name}}",
+        "TowniesNeedFood_Harvey_Pickmeup_Text": "{{i18n:TowniesNeedFood_Harvey_Pickmeup_Text}}",
+        "TowniesNeedFood_Harvey_Pickmeup_RE_Text_0": "{{i18n:TowniesNeedFood_Harvey_Pickmeup_RE_Text_0}}",
+        "TowniesNeedFood_Harvey_Pickmeup_RE_Text_1": "{{i18n:TowniesNeedFood_Harvey_Pickmeup_RE_Text_1}}",
+        "TowniesNeedFood_Harvey_Pickmeup_Objective_Text_0": "{{i18n:TowniesNeedFood_Harvey_Pickmeup_Objective_Text_0}}",
+        "TowniesNeedFood_Harvey_Pickmeup_Objective_Text_1": "{{i18n:TowniesNeedFood_Harvey_Pickmeup_Objective_Text_1}}",
+        "TowniesNeedFood_Harvey_Pickmeup_Objective_Text_2": "{{i18n:TowniesNeedFood_Harvey_Pickmeup_Objective_Text_2}}",
+        "TowniesNeedFood_Harvey_Pickmeup_Message_0": "{{i18n:TowniesNeedFood_Harvey_Pickmeup_Message_0}}",
+        "TowniesNeedFood_Harvey_Pickmeup_Message_1": "{{i18n:TowniesNeedFood_Harvey_Pickmeup_Message_1}}",
+        "TowniesNeedFood_Harvey_Pickmeup_Message_2": "{{i18n:TowniesNeedFood_Harvey_Pickmeup_Message_2}}"
+      }
+    },
   ]
 }

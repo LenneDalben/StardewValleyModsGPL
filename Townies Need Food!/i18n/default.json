@@ -133,4 +133,15 @@
   "TowniesNeedFood_Haley_MostlyHealthy_Message_0": "This fruit salad looks great, thanks @!$h",
   "TowniesNeedFood_Haley_MostlyHealthy_Message_1": "I can smell the sweetness, thanks @!$h",
   //
+  // Harvey Pick-me-up Strings
+  "TowniesNeedFood_Harvey_Pickmeup_Name": "Pick-me-up",
+  "TowniesNeedFood_Harvey_Pickmeup_Text": "I'm looking to raise my energy levels. Could someone bring me super meal, coleslaw, and triple shot espresso?",
+  "TowniesNeedFood_Harvey_Pickmeup_RE_Text_0": "It's good to get some vegetables in.#b#The espresso is a splurge.$h",
+  "TowniesNeedFood_Harvey_Pickmeup_RE_Text_1": "Sometimes it takes me a combination of vegetables and caffeine to feel energized.",
+  "TowniesNeedFood_Harvey_Pickmeup_Objective_Text_0": "Deliver Super Meal to Harvey",
+  "TowniesNeedFood_Harvey_Pickmeup_Objective_Text_1": "Deliver Coleslaw to Harvey",
+  "TowniesNeedFood_Harvey_Pickmeup_Objective_Text_2": "Deliver Triple Shot Espresso to Harvey",
+  "TowniesNeedFood_Harvey_Pickmeup_Message_0": "I'm looking forward to this meal, thanks @!$h",
+  "TowniesNeedFood_Harvey_Pickmeup_Message_1": "I'm looking forward to this healthy side dish, thanks @!$h",
+  "TowniesNeedFood_Harvey_Pickmeup_Message_2": "Ah yes, this will perk me up. Thanks, @!$h",
 }

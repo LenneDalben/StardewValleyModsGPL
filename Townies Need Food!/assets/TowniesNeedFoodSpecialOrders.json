@@ -993,6 +993,90 @@
         "Year | contains=1": false
       }
     },
+    // Harvey Pick-me-up Repeatable
+    {
+      "LogName": "Harvey Pick-me-up - Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Harvey_Pickmeup": {
+          "Name": "[TowniesNeedFood_Harvey_Pickmeup_Name]",
+          "Requester": "Harvey",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Harvey_Pickmeup_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": [
+            {
+              "Name": "Text",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Harvey_Pickmeup_RE_Text_0]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Harvey_Pickmeup_RE_Text_1]"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Harvey_Pickmeup_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_super_meal",
+                "Message": "[TowniesNeedFood_Harvey_Pickmeup_Message_0]",
+                "TargetName": "Harvey"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Harvey_Pickmeup_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_coleslaw",
+                "Message": "[TowniesNeedFood_Harvey_Pickmeup_Message_1]",
+                "TargetName": "Harvey"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Harvey_Pickmeup_Objective_Text_2]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_triple_shot_espresso",
+                "Message": "[TowniesNeedFood_Harvey_Pickmeup_Message_2]",
+                "TargetName": "Harvey"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "3045"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "yes",
+        "PlayerHasKitchen": true,
+        "Hearts:Kent": "7, 8, 9, 10"
+      }
+    },
     //
     // Not Repeatable special orders listed below (the same kind of order, just with Repeatable set to false)
     //
@@ -1804,6 +1888,76 @@
         "Repeatable": "no",
         "PlayerHasKitchen": true,
         "Year | contains=1": false
+      }
+    },
+    // Harvey Pick-me-up Not Repeatable
+    {
+      "LogName": "Harvey Pick-me-up - Not Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Harvey_Pickmeup": {
+          "Name": "[TowniesNeedFood_Harvey_Pickmeup_Name]",
+          "Requester": "Harvey",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Harvey_Pickmeup_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Harvey_Pickmeup_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_super_meal",
+                "Message": "[TowniesNeedFood_Harvey_Pickmeup_Message_0]",
+                "TargetName": "Harvey"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Harvey_Pickmeup_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_coleslaw",
+                "Message": "[TowniesNeedFood_Harvey_Pickmeup_Message_1]",
+                "TargetName": "Harvey"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Harvey_Pickmeup_Objective_Text_2]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_triple_shot_espresso",
+                "Message": "[TowniesNeedFood_Harvey_Pickmeup_Message_2]",
+                "TargetName": "Harvey"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "3045"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "yes",
+        "PlayerHasKitchen": true,
+        "Hearts:Kent": "7, 8, 9, 10"
       }
     },
   ]
