@@ -3,7 +3,7 @@
     // Repeatable special orders are listed first
     // Abigail Sweet and Spicy Repeatable
     {
-      "LogName": "Abigail Sweet and Spicy Special Order - Repeatable",
+      "LogName": "Abigail Sweet and Spicy - Repeatable",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -76,7 +76,7 @@
     },
     // Abigail Creamy Dessert Repeatable
     {
-      "LogName": "Abigail Creamy Dessert Special Order - Repeatable",
+      "LogName": "Abigail Creamy Dessert - Repeatable",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -140,7 +140,7 @@
     },
     // Alex Good Eating Repeatable
     {
-      "LogName": "Alex Good Eating Special Order - Repeatable",
+      "LogName": "Alex Good Eating - Repeatable",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -213,7 +213,7 @@
     },
     // Caroline Seafood Bonanza Repeatable
     {
-      "LogName": "Caroline Seafood Bonanza Special Order - Repeatable",
+      "LogName": "Caroline Seafood Bonanza - Repeatable",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -296,7 +296,7 @@
     },
     // Clint Mild Snack Repeatable
     {
-      "LogName": "Clint Mild Snack Special Order - Repeatable",
+      "LogName": "Clint Mild Snack - Repeatable",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -369,7 +369,7 @@
     },
     // Demetrius Dinner and 2 Desserts Repeatable
     {
-      "LogName": "Demetrius Dinner and 2 Desserts Special Order - Repeatable",
+      "LogName": "Demetrius Dinner and 2 Desserts - Repeatable",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -452,7 +452,7 @@
     },
     // Elliott Meal Planning Repeatable
     {
-      "LogName": "Elliott Meal Planning Special Order - Repeatable",
+      "LogName": "Elliott Meal Planning - Repeatable",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -537,7 +537,7 @@
     // Not Repeatable special orders listed below (the same kind of order, just with Repeatable set to false)
     // Abigail Sweet and Spicy Not Repeatable
     {
-      "LogName": "Abigail Sweet and Spicy Special Order - Not Repeatable",
+      "LogName": "Abigail Sweet and Spicy - Not Repeatable",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -596,7 +596,7 @@
     },
     // Abigail Creamy Dessert Not Repeatable
     {
-      "LogName": "Abigail Creamy Dessert Special Order - Not Repeatable",
+      "LogName": "Abigail Creamy Dessert - Not Repeatable",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -646,7 +646,7 @@
     },
     // Alex Good Eating Not Repeatable
     {
-      "LogName": "Alex Good Eating Special Order - Not Repeatable",
+      "LogName": "Alex Good Eating - Not Repeatable",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -705,7 +705,7 @@
     },
     // Caroline Seafood Bonanza Not Repeatable
     {
-      "LogName": "Caroline Seafood Bonanza Special Order - NOt Repeatable",
+      "LogName": "Caroline Seafood Bonanza - Not Repeatable",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -774,7 +774,7 @@
     },
     // Clint Mild Snack Not Repeatable
     {
-      "LogName": "Clint Mild Snack Special Order - Not Repeatable",
+      "LogName": "Clint Mild Snack - Not Repeatable",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -833,7 +833,7 @@
     },
     // Demetrius Dinner and 2 Desserts Not Repeatable
     {
-      "LogName": "Demetrius Dinner and 2 Desserts Special Order - Not Repeatable",
+      "LogName": "Demetrius Dinner and 2 Desserts - Not Repeatable",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -902,7 +902,7 @@
     },
     // Elliott Meal Planning Not Repeatable
     {
-      "LogName": "Elliott Meal Planning Special Order - Not Repeatable",
+      "LogName": "Elliott Meal Planning - Not Repeatable",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {

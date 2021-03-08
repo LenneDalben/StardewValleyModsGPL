@@ -741,7 +741,7 @@
     },
     // Caroline Seafood Bonanza Not Repeatable
     {
-      "LogName": "Caroline Seafood Bonanza Special Order - NOt Repeatable",
+      "LogName": "Caroline Seafood Bonanza Special Order - Not Repeatable",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
