@@ -541,8 +541,8 @@
       "When": {
         "Repeatable": "yes",
         "PlayerHasKitchen": true,
-        "HasSeenEvent": "67",
-        "Year | contains=1": false
+        "Year | contains=1": false,
+        "Hearts:Sandy": "7, 8, 9, 10"
       }
     },
     //
@@ -990,8 +990,8 @@
       "When": {
         "Repeatable": "no",
         "PlayerHasKitchen": true,
-        "HasSeenEvent": "67",
-        "Year | contains=1": false
+        "Year | contains=1": false,
+        "Hearts:Sandy": "7, 8, 9, 10"
       }
     },
   ]
