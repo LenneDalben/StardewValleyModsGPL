@@ -919,6 +919,80 @@
         "HasFlag": "Island_Resort"
       }
     },
+    // Haley Mostly Healthy Repeatable
+    {
+      "LogName": "Haley Mostly Healthy - Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Haley_MostlyHealthy": {
+          "Name": "[TowniesNeedFood_Haley_MostlyHealthy_Name]",
+          "Requester": "Haley",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Haley_MostlyHealthy_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": [
+            {
+              "Name": "Text",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Haley_MostlyHealthy_RE_Text_0]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Haley_MostlyHealthy_RE_Text_1]"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Haley_MostlyHealthy_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_fruit_salad",
+                "Message": "[TowniesNeedFood_Haley_MostlyHealthy_Message_0]",
+                "TargetName": "Haley"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Haley_MostlyHealthy_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_cranberry_candy",
+                "Message": "[TowniesNeedFood_Haley_MostlyHealthy_Message_1]",
+                "TargetName": "Haley"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1875"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "yes",
+        "PlayerHasKitchen": true,
+        "Year | contains=1": false
+      }
+    },
     //
     // Not Repeatable special orders listed below (the same kind of order, just with Repeatable set to false)
     //
@@ -1670,6 +1744,66 @@
         "Repeatable": "no",
         "PlayerHasKitchen": true,
         "HasFlag": "Island_Resort"
+      }
+    },
+    // Haley Mostly Healthy Not Repeatable
+    {
+      "LogName": "Haley Mostly Healthy - Not Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Haley_MostlyHealthy": {
+          "Name": "[TowniesNeedFood_Haley_MostlyHealthy_Name]",
+          "Requester": "Haley",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Haley_MostlyHealthy_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Haley_MostlyHealthy_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_fruit_salad",
+                "Message": "[TowniesNeedFood_Haley_MostlyHealthy_Message_0]",
+                "TargetName": "Haley"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Haley_MostlyHealthy_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_cranberry_candy",
+                "Message": "[TowniesNeedFood_Haley_MostlyHealthy_Message_1]",
+                "TargetName": "Haley"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1875"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "no",
+        "PlayerHasKitchen": true,
+        "Year | contains=1": false
       }
     },
   ]

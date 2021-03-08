@@ -196,5 +196,21 @@
         "TowniesNeedFood_Gus_FragrantCurry_Message_0": "{{i18n:TowniesNeedFood_Gus_FragrantCurry_Message_0}}"
       }
     },
+    // Haley Mostly Healthy Strings
+    {
+      "LogName": "Haley Mostly Healthy Strings",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Haley_MostlyHealthy_Name": "{{i18n:TowniesNeedFood_Haley_MostlyHealthy_Name}}",
+        "TowniesNeedFood_Haley_MostlyHealthy_Text": "{{i18n:TowniesNeedFood_Haley_MostlyHealthy_Text}}",
+        "TowniesNeedFood_Haley_MostlyHealthy_RE_Text_0": "{{i18n:TowniesNeedFood_Haley_MostlyHealthy_RE_Text_0}}",
+        "TowniesNeedFood_Haley_MostlyHealthy_RE_Text_1": "{{i18n:TowniesNeedFood_Haley_MostlyHealthy_RE_Text_1}}",
+        "TowniesNeedFood_Haley_MostlyHealthy_Objective_Text_0": "{{i18n:TowniesNeedFood_Haley_MostlyHealthy_Objective_Text_0}}",
+        "TowniesNeedFood_Haley_MostlyHealthy_Objective_Text_1": "{{i18n:TowniesNeedFood_Haley_MostlyHealthy_Objective_Text_1}}",
+        "TowniesNeedFood_Haley_MostlyHealthy_Message_0": "{{i18n:TowniesNeedFood_Haley_MostlyHealthy_Message_0}}",
+        "TowniesNeedFood_Haley_MostlyHealthy_Message_1": "{{i18n:TowniesNeedFood_Haley_MostlyHealthy_Message_1}}"
+      }
+    },
   ]
 }

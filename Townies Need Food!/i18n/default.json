@@ -123,4 +123,14 @@
   "TowniesNeedFood_Gus_FragrantCurry_Objective_Text_0": "Deliver Tropical Curry to Gus",
   "TowniesNeedFood_Gus_FragrantCurry_Message_0": "This is fragrant, indeed. Thank you!$h",
   //
+  // Haley Mostly Healthy Strings
+  "TowniesNeedFood_Haley_MostlyHealthy_Name": "Mostly Healthy",
+  "TowniesNeedFood_Haley_MostlyHealthy_Text": "I'll < you forever if you make a fruit salad and cranberry candy for me!",
+  "TowniesNeedFood_Haley_MostlyHealthy_RE_Text_0": "I like sweet foods, do you?",
+  "TowniesNeedFood_Haley_MostlyHealthy_RE_Text_1": "Both fruit salad and cranberry candy make good snacks.$h",
+  "TowniesNeedFood_Haley_MostlyHealthy_Objective_Text_0": "Deliver Fruit Salad to Haley",
+  "TowniesNeedFood_Haley_MostlyHealthy_Objective_Text_1": "Deliver Cranberry Candy to Haley",
+  "TowniesNeedFood_Haley_MostlyHealthy_Message_0": "This fruit salad looks great, thanks @!$h",
+  "TowniesNeedFood_Haley_MostlyHealthy_Message_1": "I can smell the sweetness, thanks @!$h",
+  //
 }
