@@ -71,7 +71,8 @@
       },
       "When": {
         "Repeatable": "yes",
-        "PlayerHasKitchen": true
+        "PlayerHasKitchen": true,
+        "Year | contains=1": false
       }
     },
     // Abigail Creamy Dessert Repeatable
@@ -208,7 +209,8 @@
       },
       "When": {
         "Repeatable": "yes",
-        "PlayerHasKitchen": true
+        "PlayerHasKitchen": true,
+        "Year | contains=1": false
       }
     },
     // Caroline Seafood Bonanza Repeatable
@@ -291,7 +293,8 @@
       },
       "When": {
         "Repeatable": "yes",
-        "PlayerHasKitchen": true
+        "PlayerHasKitchen": true,
+        "Year | contains=1": false
       }
     },
     // Clint Mild Snack Repeatable
@@ -531,7 +534,8 @@
       "When": {
         "Repeatable": "yes",
         "PlayerHasKitchen": true,
-        "HasSeenEvent": "67"
+        "HasSeenEvent": "67",
+        "Year | contains=1": false
       }
     },
     //
@@ -593,7 +597,8 @@
       },
       "When": {
         "Repeatable": "no",
-        "PlayerHasKitchen": true
+        "PlayerHasKitchen": true,
+        "Year | contains=1": false
       }
     },
     // Abigail Creamy Dessert Not Repeatable
@@ -702,7 +707,8 @@
       },
       "When": {
         "Repeatable": "no",
-        "PlayerHasKitchen": true
+        "PlayerHasKitchen": true,
+        "Year | contains=1": false
       }
     },
     // Caroline Seafood Bonanza Not Repeatable
@@ -771,7 +777,8 @@
       },
       "When": {
         "Repeatable": "no",
-        "PlayerHasKitchen": true
+        "PlayerHasKitchen": true,
+        "Year | contains=1": false
       }
     },
     // Clint Mild Snack Not Repeatable
@@ -969,7 +976,8 @@
       "When": {
         "Repeatable": "no",
         "PlayerHasKitchen": true,
-        "HasSeenEvent": "67"
+        "HasSeenEvent": "67",
+        "Year | contains=1": false
       }
     },
   ]
