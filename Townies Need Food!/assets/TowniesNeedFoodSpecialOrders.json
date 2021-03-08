@@ -1162,6 +1162,80 @@
         "Hearts:Kent": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
+    // Kent Dinner and a Snack Repeatable
+    {
+      "LogName": "Kent Dinner and a Snack - Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Kent_DinnerandaSnack": {
+          "Name": "[TowniesNeedFood_Kent_DinnerandaSnack_Name]",
+          "Requester": "Kent",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Kent_DinnerandaSnack_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": [
+            {
+              "Name": "Text",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Kent_DinnerandaSnack_RE_Text_0]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Kent_DinnerandaSnack_RE_Text_1]"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Kent_DinnerandaSnack_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_fiddlehead_risotto",
+                "Message": "[TowniesNeedFood_Kent_DinnerandaSnack_Message_0]",
+                "TargetName": "Kent"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Kent_DinnerandaSnack_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_roasted_hazelnuts",
+                "Message": "[TowniesNeedFood_Kent_DinnerandaSnack_Message_1]",
+                "TargetName": "Kent"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1860"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "yes",
+        "PlayerHasKitchen": true,
+        "HasSeenEvent": "63"
+      }
+    },
     //
     // Not Repeatable special orders listed below (the same kind of order, just with Repeatable set to false)
     //
@@ -2114,6 +2188,66 @@
         "PlayerHasKitchen": true,
         "Hearts:Lewis": "7, 8, 9, 10",
         "Hearts:Kent": "3, 4, 5, 6, 7, 8, 9, 10"
+      }
+    },
+    // Kent Dinner and a Snack Not Repeatable
+    {
+      "LogName": "Kent Dinner and a Snack - Not Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Kent_DinnerandaSnack": {
+          "Name": "[TowniesNeedFood_Kent_DinnerandaSnack_Name]",
+          "Requester": "Kent",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Kent_DinnerandaSnack_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Kent_DinnerandaSnack_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_fiddlehead_risotto",
+                "Message": "[TowniesNeedFood_Kent_DinnerandaSnack_Message_0]",
+                "TargetName": "Kent"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Kent_DinnerandaSnack_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_roasted_hazelnuts",
+                "Message": "[TowniesNeedFood_Kent_DinnerandaSnack_Message_1]",
+                "TargetName": "Kent"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1860"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "no",
+        "PlayerHasKitchen": true,
+        "HasSeenEvent": "63"
       }
     },
   ]

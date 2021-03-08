@@ -248,5 +248,21 @@
         "TowniesNeedFood_Jodi_ThreeSquareMeals_Message_2": "{{i18n:TowniesNeedFood_Jodi_ThreeSquareMeals_Message_2}}"
       }
     },
+    // Kent Dinner and a Snack Strings
+    {
+      "LogName": "Kent Dinner and a Snack Strings",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Kent_DinnerandaSnack_Name": "{{i18n:TowniesNeedFood_Kent_DinnerandaSnack_Name}}",
+        "TowniesNeedFood_Kent_DinnerandaSnack_Text": "{{i18n:TowniesNeedFood_Kent_DinnerandaSnack_Text}}",
+        "TowniesNeedFood_Kent_DinnerandaSnack_RE_Text_0": "{{i18n:TowniesNeedFood_Kent_DinnerandaSnack_RE_Text_0}}",
+        "TowniesNeedFood_Kent_DinnerandaSnack_RE_Text_1": "{{i18n:TowniesNeedFood_Kent_DinnerandaSnack_RE_Text_1}}",
+        "TowniesNeedFood_Kent_DinnerandaSnack_Objective_Text_0": "{{i18n:TowniesNeedFood_Kent_DinnerandaSnack_Objective_Text_0}}",
+        "TowniesNeedFood_Kent_DinnerandaSnack_Objective_Text_1": "{{i18n:TowniesNeedFood_Kent_DinnerandaSnack_Objective_Text_1}}",
+        "TowniesNeedFood_Kent_DinnerandaSnack_Message_0": "{{i18n:TowniesNeedFood_Kent_DinnerandaSnack_Message_0}}",
+        "TowniesNeedFood_Kent_DinnerandaSnack_Message_1": "{{i18n:TowniesNeedFood_Kent_DinnerandaSnack_Message_1}}"
+      }
+    },
   ]
 }
