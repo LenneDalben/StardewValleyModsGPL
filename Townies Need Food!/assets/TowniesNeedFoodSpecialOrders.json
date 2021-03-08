@@ -454,7 +454,10 @@
       },
       "When": {
         "Repeatable": "yes",
-        "PlayerHasKitchen": true
+        "PlayerHasKitchen": true,
+        "Hearts:Clint": "7, 8, 9, 10",
+        "Hearts:Jodi": "7, 8, 9, 10",
+        "Hearts:Evelyn": "7, 8, 9, 10"
       }
     },
     // Elliott Meal Planning Repeatable
@@ -914,7 +917,10 @@
       },
       "When": {
         "Repeatable": "no",
-        "PlayerHasKitchen": true
+        "PlayerHasKitchen": true,
+        "Hearts:Clint": "7, 8, 9, 10",
+        "Hearts:Jodi": "7, 8, 9, 10",
+        "Hearts:Evelyn": "7, 8, 9, 10"
       }
     },
     // Elliott Meal Planning Not Repeatable
