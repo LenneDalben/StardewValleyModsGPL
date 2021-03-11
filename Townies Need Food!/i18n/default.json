@@ -184,4 +184,10 @@
   "TowniesNeedFood_Leah_FreshVeggies_Objective_Text_1": "Deliver Stir Fry to Leah",
   "TowniesNeedFood_Leah_FreshVeggies_Message_0": "Ah perfect, thanks @!$h",
   "TowniesNeedFood_Leah_FreshVeggies_Message_1": "Oooh these look great, thanks @!$h",
+  //
+  // Leo Sweet! Strings
+  "TowniesNeedFood_Leo_Sweet_Name": "Sweet!",
+  "TowniesNeedFood_Leo_Sweet_Text": "Would someone in town be able to bring poi to Leo? I think he'd really enjoy it. - Linus =",
+  "TowniesNeedFood_Leo_Sweet_Objective_Text_0": "Deliver Poi to Leo",
+  "TowniesNeedFood_Leo_Sweet_Message_0": "...$2#b#Thanks!$h",
 }

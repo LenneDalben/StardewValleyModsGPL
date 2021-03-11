@@ -294,5 +294,17 @@
         "TowniesNeedFood_Leah_FreshVeggies_Message_1": "{{i18n:TowniesNeedFood_Leah_FreshVeggies_Message_1}}"
       }
     },
+    // Leo Sweet! Strings
+    {
+      "LogName": "Leo Sweet! Strings",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Leo_Sweet_Name": "{{i18n:TowniesNeedFood_Leo_Sweet_Name}}",
+        "TowniesNeedFood_Leo_Sweet_Text": "{{i18n:TowniesNeedFood_Leo_Sweet_Text}}",
+        "TowniesNeedFood_Leo_Sweet_Objective_Text_0": "{{i18n:TowniesNeedFood_Leo_Sweet_Objective_Text_0}}",
+        "TowniesNeedFood_Leo_Sweet_Message_0": "{{i18n:TowniesNeedFood_Leo_Sweet_Message_0}}"
+      }
+    },
   ]
 }

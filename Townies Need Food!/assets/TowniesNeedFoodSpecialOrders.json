@@ -1375,6 +1375,56 @@
         "Hearts:Emily": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
       }
     },
+    // Leo Sweet! Repeatable
+    {
+      "LogName": "Leo Sweet! - Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Leo_Sweet": {
+          "Name": "[TowniesNeedFood_Leo_Sweet_Name]",
+          "Requester": "Linus",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Leo_Sweet_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Leo_Sweet_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_poi",
+                "Message": "[TowniesNeedFood_Leo_Sweet_Message_0]",
+                "TargetName": "Leo"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1200"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "yes",
+        "PlayerHasKitchen": true,
+        "Hearts:Leo": "3, 4, 5, 6, 7, 8, 9, 10"
+      }
+    },
     //
     // Not Repeatable special orders listed below (the same kind of order, just with Repeatable set to false)
     //
@@ -2498,6 +2548,56 @@
         "Repeatable": "no",
         "PlayerHasKitchen": true,
         "Hearts:Emily": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+      }
+    },
+    // Leo Sweet! Not Repeatable
+    {
+      "LogName": "Leo Sweet! - Not Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Leo_Sweet": {
+          "Name": "[TowniesNeedFood_Leo_Sweet_Name]",
+          "Requester": "Linus",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Leo_Sweet_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Leo_Sweet_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_poi",
+                "Message": "[TowniesNeedFood_Leo_Sweet_Message_0]",
+                "TargetName": "Leo"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1200"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "no",
+        "PlayerHasKitchen": true,
+        "Hearts:Leo": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
   ]
