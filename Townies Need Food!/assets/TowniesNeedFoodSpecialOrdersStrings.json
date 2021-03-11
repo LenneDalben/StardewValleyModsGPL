@@ -264,5 +264,19 @@
         "TowniesNeedFood_Kent_DinnerandaSnack_Message_1": "{{i18n:TowniesNeedFood_Kent_DinnerandaSnack_Message_1}}"
       }
     },
+    // Krobus Briny Pudding Strings
+    {
+      "LogName": "Krobus Briny Pudding Strings",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Krobus_BrinyPudding_Name": "{{i18n:TowniesNeedFood_Krobus_BrinyPudding_Name}}",
+        "TowniesNeedFood_Krobus_BrinyPudding_Text": "{{i18n:TowniesNeedFood_Krobus_BrinyPudding_Text}}",
+        "TowniesNeedFood_Krobus_BrinyPudding_RE_Text_0": "{{i18n:TowniesNeedFood_Krobus_BrinyPudding_RE_Text_0}}",
+        "TowniesNeedFood_Krobus_BrinyPudding_RE_Text_1": "{{i18n:TowniesNeedFood_Krobus_BrinyPudding_RE_Text_1}}",
+        "TowniesNeedFood_Krobus_BrinyPudding_Objective_Text_0": "{{i18n:TowniesNeedFood_Krobus_BrinyPudding_Objective_Text_0}}",
+        "TowniesNeedFood_Krobus_BrinyPudding_Message_0": "{{i18n:TowniesNeedFood_Krobus_BrinyPudding_Message_0}}"
+      }
+    },
   ]
 }

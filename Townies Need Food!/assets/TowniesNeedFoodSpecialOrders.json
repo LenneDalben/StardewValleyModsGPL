@@ -1236,6 +1236,71 @@
         "HasSeenEvent": "63"
       }
     },
+    // Krobus Briny Pudding Repeatable
+    {
+      "LogName": "Krobus Briny Pudding - Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Krobus_BrinyPudding": {
+          "Name": "[TowniesNeedFood_Krobus_BrinyPudding_Name]",
+          "Requester": "Krobus",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Krobus_BrinyPudding_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": [
+            {
+              "Name": "Text",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Krobus_BrinyPudding_RE_Text_0]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Krobus_BrinyPudding_RE_Text_1]"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Krobus_BrinyPudding_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_seafoam_pudding",
+                "Message": "[TowniesNeedFood_Krobus_BrinyPudding_Message_0]",
+                "TargetName": "Krobus"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "900"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "yes",
+        "PlayerHasKitchen": true,
+        "HasSeenEvent": "66",
+        "SkillLevel:Fishing": "9, 10"
+      }
+    },
     //
     // Not Repeatable special orders listed below (the same kind of order, just with Repeatable set to false)
     //
@@ -2248,6 +2313,57 @@
         "Repeatable": "no",
         "PlayerHasKitchen": true,
         "HasSeenEvent": "63"
+      }
+    },
+    // Krobus Briny Pudding Not Repeatable
+    {
+      "LogName": "Krobus Briny Pudding - Not Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Krobus_BrinyPudding": {
+          "Name": "[TowniesNeedFood_Krobus_BrinyPudding_Name]",
+          "Requester": "Krobus",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Krobus_BrinyPudding_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Krobus_BrinyPudding_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_seafoam_pudding",
+                "Message": "[TowniesNeedFood_Krobus_BrinyPudding_Message_0]",
+                "TargetName": "Krobus"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "900"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "no",
+        "PlayerHasKitchen": true,
+        "HasSeenEvent": "66",
+        "SkillLevel:Fishing": "9, 10"
       }
     },
   ]

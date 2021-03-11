@@ -166,4 +166,12 @@
   "TowniesNeedFood_Kent_DinnerandaSnack_Objective_Text_1": "Deliver Roasted Hazelnuts to Kent",
   "TowniesNeedFood_Kent_DinnerandaSnack_Message_0": "What? Oh, the risotto I asked for. Thanks @.$h",
   "TowniesNeedFood_Kent_DinnerandaSnack_Message_1": "These hazelnuts look good. Thanks!$h",
+  //
+  // Krobus Briny Pudding Strings
+  "TowniesNeedFood_Krobus_BrinyPudding_Name": "Briny Pudding",
+  "TowniesNeedFood_Krobus_BrinyPudding_Text": "Greetings, I'm interested in some seafoam pudding. Could someone in town drop some off at the sewer?",
+  "TowniesNeedFood_Krobus_BrinyPudding_RE_Text_0": "I enjoy briny pudding.",
+  "TowniesNeedFood_Krobus_BrinyPudding_RE_Text_1": "Seafoam pudding is very tasty.$h",
+  "TowniesNeedFood_Krobus_BrinyPudding_Objective_Text_0": "Deliver Seafoam Pudding to Krobus",
+  "TowniesNeedFood_Krobus_BrinyPudding_Message_0": "Oh @, you have my thanks!$h",
 }
