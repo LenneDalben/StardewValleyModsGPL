@@ -174,4 +174,14 @@
   "TowniesNeedFood_Krobus_BrinyPudding_RE_Text_1": "Seafoam pudding is very tasty.$h",
   "TowniesNeedFood_Krobus_BrinyPudding_Objective_Text_0": "Deliver Seafoam Pudding to Krobus",
   "TowniesNeedFood_Krobus_BrinyPudding_Message_0": "Oh @, you have my thanks!$h",
+  //
+  // Leah Fresh Veggies Strings
+  "TowniesNeedFood_Leah_FreshVeggies_Name": "Fresh Veggies",
+  "TowniesNeedFood_Leah_FreshVeggies_Text": "I've not had much luck getting the ingredients for my favorite dishes. Could someone make salad and stir fry for me?",
+  "TowniesNeedFood_Leah_FreshVeggies_RE_Text_0": "I feel so good after eating fresh vegetables.",
+  "TowniesNeedFood_Leah_FreshVeggies_RE_Text_1": "I should probably get around to learning how to julienne vegetables.#b#Good thing the special board exists.$h",
+  "TowniesNeedFood_Leah_FreshVeggies_Objective_Text_0": "Deliver Salad to Leah",
+  "TowniesNeedFood_Leah_FreshVeggies_Objective_Text_1": "Deliver Stir Fry to Leah",
+  "TowniesNeedFood_Leah_FreshVeggies_Message_0": "Ah perfect, thanks @!$h",
+  "TowniesNeedFood_Leah_FreshVeggies_Message_1": "Oooh these look great, thanks @!$h",
 }

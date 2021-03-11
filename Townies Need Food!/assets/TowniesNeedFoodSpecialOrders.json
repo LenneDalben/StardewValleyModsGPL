@@ -1301,6 +1301,80 @@
         "SkillLevel:Fishing": "9, 10"
       }
     },
+    // Leah Fresh Veggies Repeatable
+    {
+      "LogName": "Leah Fresh Veggies - Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Leah_FreshVeggies": {
+          "Name": "[TowniesNeedFood_Leah_FreshVeggies_Name]",
+          "Requester": "Leah",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Leah_FreshVeggies_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": [
+            {
+              "Name": "Text",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Leah_FreshVeggies_RE_Text_0]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Leah_FreshVeggies_RE_Text_1]"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Leah_FreshVeggies_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_salad",
+                "Message": "[TowniesNeedFood_Leah_FreshVeggies_Message_0]",
+                "TargetName": "Leah"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Leah_FreshVeggies_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_stir_fry",
+                "Message": "[TowniesNeedFood_Leah_FreshVeggies_Message_1]",
+                "TargetName": "Leah"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1335"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "yes",
+        "PlayerHasKitchen": true,
+        "Hearts:Emily": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+      }
+    },
     //
     // Not Repeatable special orders listed below (the same kind of order, just with Repeatable set to false)
     //
@@ -2364,6 +2438,66 @@
         "PlayerHasKitchen": true,
         "HasSeenEvent": "66",
         "SkillLevel:Fishing": "9, 10"
+      }
+    },
+    // Leah Fresh Veggies Not Repeatable
+    {
+      "LogName": "Leah Fresh Veggies - Not Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Leah_FreshVeggies": {
+          "Name": "[TowniesNeedFood_Leah_FreshVeggies_Name]",
+          "Requester": "Leah",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Leah_FreshVeggies_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Leah_FreshVeggies_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_salad",
+                "Message": "[TowniesNeedFood_Leah_FreshVeggies_Message_0]",
+                "TargetName": "Leah"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Leah_FreshVeggies_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_stir_fry",
+                "Message": "[TowniesNeedFood_Leah_FreshVeggies_Message_1]",
+                "TargetName": "Leah"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1335"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "no",
+        "PlayerHasKitchen": true,
+        "Hearts:Emily": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
       }
     },
   ]

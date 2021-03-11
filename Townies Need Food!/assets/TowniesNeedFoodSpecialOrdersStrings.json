@@ -278,5 +278,21 @@
         "TowniesNeedFood_Krobus_BrinyPudding_Message_0": "{{i18n:TowniesNeedFood_Krobus_BrinyPudding_Message_0}}"
       }
     },
+    // Leah Fresh Veggies Strings
+    {
+      "LogName": "Leah Fresh Veggies Strings",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Leah_FreshVeggies_Name": "{{i18n:TowniesNeedFood_Leah_FreshVeggies_Name}}",
+        "TowniesNeedFood_Leah_FreshVeggies_Text": "{{i18n:TowniesNeedFood_Leah_FreshVeggies_Text}}",
+        "TowniesNeedFood_Leah_FreshVeggies_RE_Text_0": "{{i18n:TowniesNeedFood_Leah_FreshVeggies_RE_Text_0}}",
+        "TowniesNeedFood_Leah_FreshVeggies_RE_Text_1": "{{i18n:TowniesNeedFood_Leah_FreshVeggies_RE_Text_1}}",
+        "TowniesNeedFood_Leah_FreshVeggies_Objective_Text_0": "{{i18n:TowniesNeedFood_Leah_FreshVeggies_Objective_Text_0}}",
+        "TowniesNeedFood_Leah_FreshVeggies_Objective_Text_1": "{{i18n:TowniesNeedFood_Leah_FreshVeggies_Objective_Text_1}}",
+        "TowniesNeedFood_Leah_FreshVeggies_Message_0": "{{i18n:TowniesNeedFood_Leah_FreshVeggies_Message_0}}",
+        "TowniesNeedFood_Leah_FreshVeggies_Message_1": "{{i18n:TowniesNeedFood_Leah_FreshVeggies_Message_1}}"
+      }
+    },
   ]
 }
