@@ -190,4 +190,14 @@
   "TowniesNeedFood_Leo_Sweet_Text": "Would someone in town be able to bring poi to Leo? I think he'd really enjoy it. - Linus =",
   "TowniesNeedFood_Leo_Sweet_Objective_Text_0": "Deliver Poi to Leo",
   "TowniesNeedFood_Leo_Sweet_Message_0": "...$2#b#Thanks!$h",
+  //
+  // Lewis Hearty Veggies Strings
+  "TowniesNeedFood_Lewis_HeartyVeggies_Name": "Hearty Veggies",
+  "TowniesNeedFood_Lewis_HeartyVeggies_Text": "Hi Pelican Town, I haven't had a healthy meal in a while. Could someone scrounge up autumn's bounty and vegetable medley for your favorite mayor?",
+  "TowniesNeedFood_Lewis_HeartyVeggies_RE_Text_0": "I'm looking forward to some nutrious meals.$h",
+  "TowniesNeedFood_Lewis_HeartyVeggies_RE_Text_1": "I'm in the mood for hearty veggies again.$h",
+  "TowniesNeedFood_Lewis_HeartyVeggies_Objective_Text_0": "Deliver Autumn's Bounty to Lewis",
+  "TowniesNeedFood_Lewis_HeartyVeggies_Objective_Text_1": "Deliver Vegetable Medley to Lewis",
+  "TowniesNeedFood_Lewis_HeartyVeggies_Message_0": "I'm looking forward to this so-called 'taste of the season.' Thanks, @!$h",
+  "TowniesNeedFood_Lewis_HeartyVeggies_Message_1": "I appreciate you helping me stay healthy, @!$h",
 }

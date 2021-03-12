@@ -306,5 +306,21 @@
         "TowniesNeedFood_Leo_Sweet_Message_0": "{{i18n:TowniesNeedFood_Leo_Sweet_Message_0}}"
       }
     },
+    // Lewis Hearty Veggies Strings
+    {
+      "LogName": "Lewis Hearty Veggies Strings",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Lewis_HeartyVeggies_Name": "{{i18n:TowniesNeedFood_Lewis_HeartyVeggies_Name}}",
+        "TowniesNeedFood_Lewis_HeartyVeggies_Text": "{{i18n:TowniesNeedFood_Lewis_HeartyVeggies_Text}}",
+        "TowniesNeedFood_Lewis_HeartyVeggies_RE_Text_0": "{{i18n:TowniesNeedFood_Lewis_HeartyVeggies_RE_Text_0}}",
+        "TowniesNeedFood_Lewis_HeartyVeggies_RE_Text_1": "{{i18n:TowniesNeedFood_Lewis_HeartyVeggies_RE_Text_1}}",
+        "TowniesNeedFood_Lewis_HeartyVeggies_Objective_Text_0": "{{i18n:TowniesNeedFood_Lewis_HeartyVeggies_Objective_Text_0}}",
+        "TowniesNeedFood_Lewis_HeartyVeggies_Objective_Text_1": "{{i18n:TowniesNeedFood_Lewis_HeartyVeggies_Objective_Text_1}}",
+        "TowniesNeedFood_Lewis_HeartyVeggies_Message_0": "{{i18n:TowniesNeedFood_Lewis_HeartyVeggies_Message_0}}",
+        "TowniesNeedFood_Lewis_HeartyVeggies_Message_1": "{{i18n:TowniesNeedFood_Lewis_HeartyVeggies_Message_1}}"
+      }
+    },
   ]
 }
