@@ -1500,6 +1500,92 @@
         "Hearts:Caroline": "7, 8, 9, 10"
       }
     },
+    // Linus Two Meals and One Dessert Repeatable
+    {
+      "LogName": "Linus Two Meals and One Dessert - Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Linus_TwoMealsandOneDessert": {
+          "Name": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_Name]",
+          "Requester": "Linus",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": [
+            {
+              "Name": "Text",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_RE_Text_0]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_RE_Text_1]"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_fish_stew",
+                "Message": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_Message_0]",
+                "TargetName": "Linus"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_dish_o_the_sea",
+                "Message": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_Message_1]",
+                "TargetName": "Linus"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_Objective_Text_2]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_blueberry_tart",
+                "Message": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_Message_2]",
+                "TargetName": "Linus"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1635"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "yes",
+        "PlayerHasKitchen": true,
+        "Hearts:Willy": "7, 8, 9, 10",
+        "Hearts:Pierre": "3, 4, 5, 6, 7, 8, 9, 10",
+        "SkillLevel:Fishing": "3, 4, 5, 6, 7, 8, 9, 10"
+      }
+    },
     //
     // Not Repeatable special orders listed below (the same kind of order, just with Repeatable set to false)
     //
@@ -2734,6 +2820,78 @@
         "PlayerHasKitchen": true,
         "Hearts:Demetrius": "7, 8, 9, 10",
         "Hearts:Caroline": "7, 8, 9, 10"
+      }
+    },
+    // Linus Two Meals and One Dessert Not Repeatable
+    {
+      "LogName": "Linus Two Meals and One Dessert - Not Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Linus_TwoMealsandOneDessert": {
+          "Name": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_Name]",
+          "Requester": "Linus",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_blueberry_tart",
+                "Message": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_Message_0]",
+                "TargetName": "Linus"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_dish_o_the_sea",
+                "Message": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_Message_1]",
+                "TargetName": "Linus"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_Objective_Text_2]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_fish_stew",
+                "Message": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_Message_2]",
+                "TargetName": "Linus"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1635"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "no",
+        "PlayerHasKitchen": true,
+        "Hearts:Willy": "7, 8, 9, 10",
+        "Hearts:Pierre": "3, 4, 5, 6, 7, 8, 9, 10",
+        "SkillLevel:Fishing": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
   ]

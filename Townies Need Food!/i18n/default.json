@@ -200,4 +200,16 @@
   "TowniesNeedFood_Lewis_HeartyVeggies_Objective_Text_1": "Deliver Vegetable Medley to Lewis",
   "TowniesNeedFood_Lewis_HeartyVeggies_Message_0": "I'm looking forward to this so-called 'taste of the season.' Thanks, @!$h",
   "TowniesNeedFood_Lewis_HeartyVeggies_Message_1": "I appreciate you helping me stay healthy, @!$h",
+  //
+  // Linus Two Meals and One Dessert Strings
+  "TowniesNeedFood_Linus_TwoMealsandOneDessert_Name": "Two Meals and One Dessert",
+  "TowniesNeedFood_Linus_TwoMealsandOneDessert_Text": "I'd love some fish stew, dish o' the sea, and a blueberry tart. Could someone make some for me? =",
+  "TowniesNeedFood_Linus_TwoMealsandOneDessert_RE_Text_0": "Fish-based meals are healthy, but sometimes it's still nice to have a sweet treat.$h",
+  "TowniesNeedFood_Linus_TwoMealsandOneDessert_RE_Text_1": "I'm in the mood for fish and blueberries again.$h",
+  "TowniesNeedFood_Linus_TwoMealsandOneDessert_Objective_Text_0": "Deliver Fish Stew to Linus",
+  "TowniesNeedFood_Linus_TwoMealsandOneDessert_Objective_Text_1": "Deliver Dish o' The Sea to Linus",
+  "TowniesNeedFood_Linus_TwoMealsandOneDessert_Objective_Text_2": "Deliver Blueberry Tart to Linus",
+  "TowniesNeedFood_Linus_TwoMealsandOneDessert_Message_0": "I appreciate this, @.$h",
+  "TowniesNeedFood_Linus_TwoMealsandOneDessert_Message_1": "This will help keep me warm. Thanks, @.$h",
+  "TowniesNeedFood_Linus_TwoMealsandOneDessert_Message_2": "I'm grateful for this, @.$h",
 }
