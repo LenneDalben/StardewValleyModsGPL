@@ -358,5 +358,23 @@
         "TowniesNeedFood_Marnie_LunchandTwoDesserts_Message_2": "{{i18n:TowniesNeedFood_Marnie_LunchandTwoDesserts_Message_2}}"
       }
     },
+    // Maru My Favorite Foodstuffs Strings
+    {
+      "LogName": "Maru My Favorite Foodstuffs Strings",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Name": "{{i18n:TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Name}}",
+        "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Text": "{{i18n:TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Text}}",
+        "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_RE_Text_0": "{{i18n:TowniesNeedFood_Maru_MyFavoriteFoodstuffs_RE_Text_0}}",
+        "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_RE_Text_1": "{{i18n:TowniesNeedFood_Maru_MyFavoriteFoodstuffs_RE_Text_1}}",
+        "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Objective_Text_0": "{{i18n:TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Objective_Text_0}}",
+        "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Objective_Text_1": "{{i18n:TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Objective_Text_1}}",
+        "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Objective_Text_2": "{{i18n:TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Objective_Text_2}}",
+        "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Message_0": "{{i18n:TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Message_0}}",
+        "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Message_1": "{{i18n:TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Message_1}}",
+        "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Message_2": "{{i18n:TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Message_2}}"
+      }
+    },
   ]
 }
