@@ -212,4 +212,19 @@
   "TowniesNeedFood_Linus_TwoMealsandOneDessert_Message_0": "I appreciate this, @.$h",
   "TowniesNeedFood_Linus_TwoMealsandOneDessert_Message_1": "This will help keep me warm. Thanks, @.$h",
   "TowniesNeedFood_Linus_TwoMealsandOneDessert_Message_2": "I'm grateful for this, @.$h",
+  //
+  // Marnie Lunch and Two Desserts Strings
+  "TowniesNeedFood_Marnie_LunchandTwoDesserts_Name": "Lunch and 2 Desserts",
+  "TowniesNeedFood_Marnie_LunchandTwoDesserts_Text": "Howdy neighbors! A farmer's lunch will help me power through my day, and some pink cake and pumpkin pie will provide some sweets for Jas and I (and Shane, if he's quick enough)! Help?",
+      // Energy meal. "Howdy neighbors! I think a farmer's lunch would help me power through my day with more energy
+    // Pink cake. Howdy neighbors! I'd like to surprise Jas with some pink cake.
+  // Silky pumpkin pie. "Howdy neighbors! I'm hankering for some pumpkin pie, but I don't have any pumpkins.to this pie!",
+  "TowniesNeedFood_Marnie_LunchandTwoDesserts_RE_Text_0": "The farmer's lunch and pumpkin pie are for me, but I'd like to surprise Jas with pink cake.",
+  "TowniesNeedFood_Marnie_LunchandTwoDesserts_RE_Text_1": "The farmer's lunch and 2 desserts was a hit, so I'm trying it out again.$h",
+  "TowniesNeedFood_Marnie_LunchandTwoDesserts_Objective_Text_0": "Deliver Farmer's Lunch to Marnie",
+  "TowniesNeedFood_Marnie_LunchandTwoDesserts_Objective_Text_1": "Deliver Pink Cake to Marnie",
+  "TowniesNeedFood_Marnie_LunchandTwoDesserts_Objective_Text_2": "Deliver Pumpkin Pie to Marnie",
+  "TowniesNeedFood_Marnie_LunchandTwoDesserts_Message_0": "Here's to hoping this really does 'keep me going,' thanks @!$h",
+  "TowniesNeedFood_Marnie_LunchandTwoDesserts_Message_1": "Thanks @! I expect Jas will love this.$h",
+  "TowniesNeedFood_Marnie_LunchandTwoDesserts_Message_2": "Ah, thanks @! I'm looking forward to this pie!$h",
 }

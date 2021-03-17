@@ -1586,6 +1586,91 @@
         "SkillLevel:Fishing": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
+    // Marnie Lunch and Two Desserts Repeatable
+    {
+      "LogName": "Marnie Lunch and Two Desserts - Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Marnie_LunchandTwoDesserts": {
+          "Name": "[TowniesNeedFood_Marnie_LunchandTwoDesserts_Name]",
+          "Requester": "Marnie",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Marnie_LunchandTwoDesserts_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": [
+            {
+              "Name": "Text",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Marnie_LunchandTwoDesserts_RE_Text_0]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Marnie_LunchandTwoDesserts_RE_Text_1]"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Marnie_LunchandTwoDesserts_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_farmers_lunch",
+                "Message": "[TowniesNeedFood_Marnie_LunchandTwoDesserts_Message_0]",
+                "TargetName": "Marnie"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Marnie_LunchandTwoDesserts_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_pink_cake",
+                "Message": "[TowniesNeedFood_Marnie_LunchandTwoDesserts_Message_1]",
+                "TargetName": "Marnie"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Marnie_LunchandTwoDesserts_Objective_Text_2]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_pumpkin_pie",
+                "Message": "[TowniesNeedFood_Marnie_LunchandTwoDesserts_Message_2]",
+                "TargetName": "Marnie"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "2700"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "yes",
+        "PlayerHasKitchen": true,
+        "Year | contains=1": false,
+        "Hearts:Pierre": "3, 4, 5, 6, 7, 8, 9, 10"
+      }
+    },
     //
     // Not Repeatable special orders listed below (the same kind of order, just with Repeatable set to false)
     //
@@ -2892,6 +2977,77 @@
         "Hearts:Willy": "7, 8, 9, 10",
         "Hearts:Pierre": "3, 4, 5, 6, 7, 8, 9, 10",
         "SkillLevel:Fishing": "3, 4, 5, 6, 7, 8, 9, 10"
+      }
+    },
+    // Marnie Lunch and Two Desserts Not Repeatable
+    {
+      "LogName": "Marnie Lunch and Two Desserts - Not Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Marnie_LunchandTwoDesserts": {
+          "Name": "[TowniesNeedFood_Marnie_LunchandTwoDesserts_Name]",
+          "Requester": "Marnie",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Marnie_LunchandTwoDesserts_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Marnie_LunchandTwoDesserts_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_farmers_lunch",
+                "Message": "[TowniesNeedFood_Marnie_LunchandTwoDesserts_Message_0]",
+                "TargetName": "Marnie"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Marnie_LunchandTwoDesserts_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_pink_cake",
+                "Message": "[TowniesNeedFood_Marnie_LunchandTwoDesserts_Message_1]",
+                "TargetName": "Marnie"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Marnie_LunchandTwoDesserts_Objective_Text_2]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_pumpkin_pie",
+                "Message": "[TowniesNeedFood_Marnie_LunchandTwoDesserts_Message_2]",
+                "TargetName": "Marnie"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "2700"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "no",
+        "PlayerHasKitchen": true,
+        "Year | contains=1": false,
+        "Hearts:Pierre": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
   ]
