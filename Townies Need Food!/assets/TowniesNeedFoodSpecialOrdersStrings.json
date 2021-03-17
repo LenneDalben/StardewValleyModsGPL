@@ -376,5 +376,23 @@
         "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Message_2": "{{i18n:TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Message_2}}"
       }
     },
+    // Pam Roots Strings
+    {
+      "LogName": "Pam Roots Strings",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Pam_Roots_Name": "{{i18n:TowniesNeedFood_Pam_Roots_Name}}",
+        "TowniesNeedFood_Pam_Roots_Text": "{{i18n:TowniesNeedFood_Pam_Roots_Text}}",
+        "TowniesNeedFood_Pam_Roots_RE_Text_0": "{{i18n:TowniesNeedFood_Pam_Roots_RE_Text_0}}",
+        "TowniesNeedFood_Pam_Roots_RE_Text_1": "{{i18n:TowniesNeedFood_Pam_Roots_RE_Text_1}}",
+        "TowniesNeedFood_Pam_Roots_Objective_Text_0": "{{i18n:TowniesNeedFood_Pam_Roots_Objective_Text_0}}",
+        "TowniesNeedFood_Pam_Roots_Objective_Text_1": "{{i18n:TowniesNeedFood_Pam_Roots_Objective_Text_1}}",
+        "TowniesNeedFood_Pam_Roots_Objective_Text_2": "{{i18n:TowniesNeedFood_Pam_Roots_Objective_Text_2}}",
+        "TowniesNeedFood_Pam_Roots_Message_0": "{{i18n:TowniesNeedFood_Pam_Roots_Message_0}}",
+        "TowniesNeedFood_Pam_Roots_Message_1": "{{i18n:TowniesNeedFood_Pam_Roots_Message_1}}",
+        "TowniesNeedFood_Pam_Roots_Message_2": "{{i18n:TowniesNeedFood_Pam_Roots_Message_2}}"
+      }
+    },
   ]
 }

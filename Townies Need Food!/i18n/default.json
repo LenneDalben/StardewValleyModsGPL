@@ -236,4 +236,16 @@
   "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Message_0": "Woo, I'll enjoy this cheesy goodness!$h",
   "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Message_1": "Thanks @, this will help me stay focused!$h",
   "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Message_2": "Thanks @, looks tasty!$h",
+  //
+  // Pam Roots Strings
+  "TowniesNeedFood_Pam_Roots_Name": "Roots",
+  "TowniesNeedFood_Pam_Roots_Text": "Howdy! I'm craving some starch. Could someone in this town help me out and make me some glazed yams, parsnip soup, and hashbrowns?",
+  "TowniesNeedFood_Pam_Roots_RE_Text_0": "Hint of caramel, fresh soup, and golden brown crisp...$0#$b#What? Food's on my mind I guess.$h",
+  "TowniesNeedFood_Pam_Roots_RE_Text_1": "I'm craving some starch again.$h",
+  "TowniesNeedFood_Pam_Roots_Objective_Text_0": "Deliver Glazed Yams to Pam",
+  "TowniesNeedFood_Pam_Roots_Objective_Text_1": "Deliver Parsnip Soup to Pam",
+  "TowniesNeedFood_Pam_Roots_Objective_Text_2": "Deliver Hashbrowns to Pam",
+  "TowniesNeedFood_Pam_Roots_Message_0": "These look perfect, thanks @!$h",
+  "TowniesNeedFood_Pam_Roots_Message_1": "Oh what's this now? Ha, thanks, @!$h",
+  "TowniesNeedFood_Pam_Roots_Message_2": "Whatcha got there? Oh, this is for me, thanks, @!$h",
 }

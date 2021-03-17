@@ -1757,6 +1757,91 @@
         "SkillLevel:Mining": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
+    // Pam Roots Repeatable
+    {
+      "LogName": "Pam Roots - Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Pam_Roots": {
+          "Name": "[TowniesNeedFood_Pam_Roots_Name]",
+          "Requester": "Pam",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Pam_Roots_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": [
+            {
+              "Name": "Text",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Pam_Roots_RE_Text_0]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Pam_Roots_RE_Text_1]"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Pam_Roots_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_glazed_yams",
+                "Message": "[TowniesNeedFood_Pam_Roots_Message_0]",
+                "TargetName": "Pam"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Pam_Roots_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_parsnip_soup",
+                "Message": "[TowniesNeedFood_Pam_Roots_Message_1]",
+                "TargetName": "Pam"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Pam_Roots_Objective_Text_2]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_hashbrowns",
+                "Message": "[TowniesNeedFood_Pam_Roots_Message_2]",
+                "TargetName": "Pam"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1320"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "yes",
+        "PlayerHasKitchen": true,
+        "Year | contains=1": false,
+        "Hearts:Caroline": "3, 4, 5, 6, 7, 8, 9, 10"
+      }
+    },
     //
     // Not Repeatable special orders listed below (the same kind of order, just with Repeatable set to false)
     //
@@ -3206,6 +3291,77 @@
         "Hearts:Pam": "3, 4, 5, 6, 7, 8, 9, 10",
         "Hearts:Marnie": "7, 8, 9, 10",
         "SkillLevel:Mining": "3, 4, 5, 6, 7, 8, 9, 10"
+      }
+    },
+    // Pam Roots Not Repeatable
+    {
+      "LogName": "Pam Roots - Not Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Pam_Roots": {
+          "Name": "[TowniesNeedFood_Pam_Roots_Name]",
+          "Requester": "Pam",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Pam_Roots_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Pam_Roots_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_glazed_yams",
+                "Message": "[TowniesNeedFood_Pam_Roots_Message_0]",
+                "TargetName": "Pam"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Pam_Roots_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_parsnip_soup",
+                "Message": "[TowniesNeedFood_Pam_Roots_Message_1]",
+                "TargetName": "Pam"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Pam_Roots_Objective_Text_2]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_hashbrowns",
+                "Message": "[TowniesNeedFood_Pam_Roots_Message_2]",
+                "TargetName": "Pam"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1320"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "no",
+        "PlayerHasKitchen": true,
+        "Year | contains=1": false,
+        "Hearts:Caroline": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
   ]
