@@ -248,4 +248,16 @@
   "TowniesNeedFood_Pam_Roots_Message_0": "These look perfect, thanks @!$h",
   "TowniesNeedFood_Pam_Roots_Message_1": "Oh what's this now? Ha, thanks, @!$h",
   "TowniesNeedFood_Pam_Roots_Message_2": "Whatcha got there? Oh, this is for me, thanks, @!$h",
+  //
+  // Penny A Day's Meals Strings
+  "TowniesNeedFood_Penny_ADaysMeals_Name": "A Day's Meals",
+  "TowniesNeedFood_Penny_ADaysMeals_Text": "Hi, I'd love to plan one day's worth of meals. Could someone bring me poppyseed muffin, red plate, and roots platter, please?",
+  "TowniesNeedFood_Penny_ADaysMeals_RE_Text_0": "Red plate has so many antioxidants.",
+  "TowniesNeedFood_Penny_ADaysMeals_RE_Text_1": "I'd like to plan out one day's worth of meals again.$h",
+  "TowniesNeedFood_Penny_ADaysMeals_Objective_Text_0": "Deliver Poppyseed Muffin to Penny",
+  "TowniesNeedFood_Penny_ADaysMeals_Objective_Text_1": "Deliver Red Plate to Penny",
+  "TowniesNeedFood_Penny_ADaysMeals_Objective_Text_2": "Deliver Roots Platter to Penny",
+  "TowniesNeedFood_Penny_ADaysMeals_Message_0": "This is great, thanks @!$h",
+  "TowniesNeedFood_Penny_ADaysMeals_Message_1": "This looks delicious, thanks @!$h",
+  "TowniesNeedFood_Penny_ADaysMeals_Message_2": "Thanks, @! I'm looking forward to this.$h",
 }

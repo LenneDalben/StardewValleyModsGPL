@@ -1842,6 +1842,92 @@
         "Hearts:Caroline": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
+    // Penny A Day's Meals Repeatable
+    {
+      "LogName": "Penny A Day's Meals - Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Penny_ADaysMeals": {
+          "Name": "[TowniesNeedFood_Penny_ADaysMeals_Name]",
+          "Requester": "Penny",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Penny_ADaysMeals_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": [
+            {
+              "Name": "Text",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Penny_ADaysMeals_RE_Text_0]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Penny_ADaysMeals_RE_Text_1]"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Penny_ADaysMeals_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_poppyseed_muffin",
+                "Message": "[TowniesNeedFood_Penny_ADaysMeals_Message_0]",
+                "TargetName": "Penny"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Penny_ADaysMeals_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_red_plate",
+                "Message": "[TowniesNeedFood_Penny_ADaysMeals_Message_1]",
+                "TargetName": "Penny"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Penny_ADaysMeals_Objective_Text_2]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_roots_platter",
+                "Message": "[TowniesNeedFood_Penny_ADaysMeals_Message_2]",
+                "TargetName": "Penny"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "2250"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "yes",
+        "PlayerHasKitchen": true,
+        "Year | contains=1": false,
+        "Hearts:Emily": "7, 8, 9, 10, 11, 12, 13, 14",
+        "SkillLevel:Combat": "3, 4, 5, 6, 7, 8, 9, 10"
+      }
+    },
     //
     // Not Repeatable special orders listed below (the same kind of order, just with Repeatable set to false)
     //
@@ -3362,6 +3448,78 @@
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "Hearts:Caroline": "3, 4, 5, 6, 7, 8, 9, 10"
+      }
+    },
+    // Penny A Day's Meals Not Repeatable
+    {
+      "LogName": "Penny A Day's Meals - Not Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Penny_ADaysMeals": {
+          "Name": "[TowniesNeedFood_Penny_ADaysMeals_Name]",
+          "Requester": "Penny",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Penny_ADaysMeals_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Penny_ADaysMeals_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_poppyseed_muffin",
+                "Message": "[TowniesNeedFood_Penny_ADaysMeals_Message_0]",
+                "TargetName": "Penny"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Penny_ADaysMeals_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_red_plate",
+                "Message": "[TowniesNeedFood_Penny_ADaysMeals_Message_1]",
+                "TargetName": "Penny"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Penny_ADaysMeals_Objective_Text_2]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_roots_platter",
+                "Message": "[TowniesNeedFood_Penny_ADaysMeals_Message_2]",
+                "TargetName": "Penny"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "2250"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "no",
+        "PlayerHasKitchen": true,
+        "Year | contains=1": false,
+        "Hearts:Emily": "7, 8, 9, 10, 11, 12, 13, 14",
+        "SkillLevel:Combat": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
   ]

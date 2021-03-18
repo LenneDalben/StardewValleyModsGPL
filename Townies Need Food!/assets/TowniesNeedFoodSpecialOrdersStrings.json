@@ -394,5 +394,23 @@
         "TowniesNeedFood_Pam_Roots_Message_2": "{{i18n:TowniesNeedFood_Pam_Roots_Message_2}}"
       }
     },
+    // Penny A Day's Meals Strings
+    {
+      "LogName": "Penny A Day's Meals Strings",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Penny_ADaysMeals_Name": "{{i18n:TowniesNeedFood_Penny_ADaysMeals_Name}}",
+        "TowniesNeedFood_Penny_ADaysMeals_Text": "{{i18n:TowniesNeedFood_Penny_ADaysMeals_Text}}",
+        "TowniesNeedFood_Penny_ADaysMeals_RE_Text_0": "{{i18n:TowniesNeedFood_Penny_ADaysMeals_RE_Text_0}}",
+        "TowniesNeedFood_Penny_ADaysMeals_RE_Text_1": "{{i18n:TowniesNeedFood_Penny_ADaysMeals_RE_Text_1}}",
+        "TowniesNeedFood_Penny_ADaysMeals_Objective_Text_0": "{{i18n:TowniesNeedFood_Penny_ADaysMeals_Objective_Text_0}}",
+        "TowniesNeedFood_Penny_ADaysMeals_Objective_Text_1": "{{i18n:TowniesNeedFood_Penny_ADaysMeals_Objective_Text_1}}",
+        "TowniesNeedFood_Penny_ADaysMeals_Objective_Text_2": "{{i18n:TowniesNeedFood_Penny_ADaysMeals_Objective_Text_2}}",
+        "TowniesNeedFood_Penny_ADaysMeals_Message_0": "{{i18n:TowniesNeedFood_Penny_ADaysMeals_Message_0}}",
+        "TowniesNeedFood_Penny_ADaysMeals_Message_1": "{{i18n:TowniesNeedFood_Penny_ADaysMeals_Message_1}}",
+        "TowniesNeedFood_Penny_ADaysMeals_Message_2": "{{i18n:TowniesNeedFood_Penny_ADaysMeals_Message_2}}"
+      }
+    },
   ]
 }
