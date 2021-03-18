@@ -412,5 +412,21 @@
         "TowniesNeedFood_Penny_ADaysMeals_Message_2": "{{i18n:TowniesNeedFood_Penny_ADaysMeals_Message_2}}"
       }
     },
+    // Pierre Appetizer and Entree Strings
+    {
+      "LogName": "Pierre Appetizer and Entree Strings",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Pierre_AppetizerandEntree_Name": "{{i18n:TowniesNeedFood_Pierre_AppetizerandEntree_Name}}",
+        "TowniesNeedFood_Pierre_AppetizerandEntree_Text": "{{i18n:TowniesNeedFood_Pierre_AppetizerandEntree_Text}}",
+        "TowniesNeedFood_Pierre_AppetizerandEntree_RE_Text_0": "{{i18n:TowniesNeedFood_Pierre_AppetizerandEntree_RE_Text_0}}",
+        "TowniesNeedFood_Pierre_AppetizerandEntree_RE_Text_1": "{{i18n:TowniesNeedFood_Pierre_AppetizerandEntree_RE_Text_1}}",
+        "TowniesNeedFood_Pierre_AppetizerandEntree_Objective_Text_0": "{{i18n:TowniesNeedFood_Pierre_AppetizerandEntree_Objective_Text_0}}",
+        "TowniesNeedFood_Pierre_AppetizerandEntree_Objective_Text_1": "{{i18n:TowniesNeedFood_Pierre_AppetizerandEntree_Objective_Text_1}}",
+        "TowniesNeedFood_Pierre_AppetizerandEntree_Message_0": "{{i18n:TowniesNeedFood_Pierre_AppetizerandEntree_Message_0}}",
+        "TowniesNeedFood_Pierre_AppetizerandEntree_Message_1": "{{i18n:TowniesNeedFood_Pierre_AppetizerandEntree_Message_1}}"
+      }
+    },
   ]
 }

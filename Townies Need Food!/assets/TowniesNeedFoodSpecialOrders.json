@@ -1928,6 +1928,81 @@
         "SkillLevel:Combat": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
+    // Pierre Appetizer and Entree Repeatable
+    {
+      "LogName": "Pierre Appetizer and Entree - Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Pierre_AppetizerandEntree": {
+          "Name": "[TowniesNeedFood_Pierre_AppetizerandEntree_Name]",
+          "Requester": "Pierre",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Pierre_AppetizerandEntree_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": [
+            {
+              "Name": "Text",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Pierre_AppetizerandEntree_RE_Text_0]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Pierre_AppetizerandEntree_RE_Text_1]"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Pierre_AppetizerandEntree_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_fried_calamari",
+                "Message": "[TowniesNeedFood_Pierre_AppetizerandEntree_Message_0]",
+                "TargetName": "Pierre"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Pierre_AppetizerandEntree_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_bruschetta",
+                "Message": "[TowniesNeedFood_Pierre_AppetizerandEntree_Message_1]",
+                "TargetName": "Pierre"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1080"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "yes",
+        "PlayerHasKitchen": true,
+        "Year | contains=1": false,
+        "Hearts:Jodi": "3, 4, 5, 6, 7, 8, 9, 10"
+      }
+    },
     //
     // Not Repeatable special orders listed below (the same kind of order, just with Repeatable set to false)
     //
@@ -3520,6 +3595,67 @@
         "Year | contains=1": false,
         "Hearts:Emily": "7, 8, 9, 10, 11, 12, 13, 14",
         "SkillLevel:Combat": "3, 4, 5, 6, 7, 8, 9, 10"
+      }
+    },
+    // Pierre Appetizer and Entree Not Repeatable
+    {
+      "LogName": "Pierre Appetizer and Entree - Not Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Pierre_AppetizerandEntree": {
+          "Name": "[TowniesNeedFood_Pierre_AppetizerandEntree_Name]",
+          "Requester": "Pierre",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Pierre_AppetizerandEntree_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Pierre_AppetizerandEntree_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_fried_calamari",
+                "Message": "[TowniesNeedFood_Pierre_AppetizerandEntree_Message_0]",
+                "TargetName": "Pierre"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Pierre_AppetizerandEntree_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_bruschetta",
+                "Message": "[TowniesNeedFood_Pierre_AppetizerandEntree_Message_1]",
+                "TargetName": "Pierre"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1080"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "no",
+        "PlayerHasKitchen": true,
+        "Year | contains=1": false,
+        "Hearts:Jodi": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
   ]

@@ -260,4 +260,14 @@
   "TowniesNeedFood_Penny_ADaysMeals_Message_0": "This is great, thanks @!$h",
   "TowniesNeedFood_Penny_ADaysMeals_Message_1": "This looks delicious, thanks @!$h",
   "TowniesNeedFood_Penny_ADaysMeals_Message_2": "Thanks, @! I'm looking forward to this.$h",
+  //
+  // Pierre Appetizer and Entree Strings
+  "TowniesNeedFood_Pierre_AppetizerandEntree_Name": "Appetizer and Entrée",
+  "TowniesNeedFood_Pierre_AppetizerandEntree_Text": "Could anyone make me some fried calamari and bruschetta?",
+  "TowniesNeedFood_Pierre_AppetizerandEntree_RE_Text_0": "Some people think calamari is chewy but I love it!$h",
+  "TowniesNeedFood_Pierre_AppetizerandEntree_RE_Text_1": "You wouldn't think calamari and bruschetta would go well together, but they do.$h",
+  "TowniesNeedFood_Pierre_AppetizerandEntree_Objective_Text_0": "Deliver Fried Calamari to Pierre",
+  "TowniesNeedFood_Pierre_AppetizerandEntree_Objective_Text_1": "Deliver Bruschetta to Pierre",
+  "TowniesNeedFood_Pierre_AppetizerandEntree_Message_0": "It's my favorite, you know. Thanks, @!$h",
+  "TowniesNeedFood_Pierre_AppetizerandEntree_Message_1": "Thank you, @!$h",
 }
