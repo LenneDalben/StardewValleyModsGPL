@@ -70,7 +70,7 @@
         }
       },
       "When": {
-        "Repeatable": "yes",
+        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "Hearts:George": "7, 8, 9, 10"
@@ -135,7 +135,7 @@
         }
       },
       "When": {
-        "Repeatable": "yes",
+        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "HasFlag": "Island_UpgradeHouse"
       }
@@ -209,7 +209,7 @@
         }
       },
       "When": {
-        "Repeatable": "yes",
+        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "Hearts:Gus": "3, 4, 5, 6, 7, 8, 9, 10"
@@ -294,7 +294,7 @@
         }
       },
       "When": {
-        "Repeatable": "yes",
+        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "Hearts:Linus": "7, 8, 9, 10",
@@ -370,7 +370,7 @@
         }
       },
       "When": {
-        "Repeatable": "yes",
+        "Repeatable": "true",
         "PlayerHasKitchen": true
       }
     },
@@ -453,7 +453,7 @@
         }
       },
       "When": {
-        "Repeatable": "yes",
+        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Hearts:Clint": "7, 8, 9, 10",
         "Hearts:Jodi": "7, 8, 9, 10",
@@ -539,7 +539,7 @@
         }
       },
       "When": {
-        "Repeatable": "yes",
+        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "Hearts:Sandy": "7, 8, 9, 10"
@@ -614,7 +614,7 @@
         }
       },
       "When": {
-        "Repeatable": "yes",
+        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "SkillLevel:Foraging": "2, 3, 4, 5, 6, 7, 8, 9, 10"
@@ -689,7 +689,7 @@
         }
       },
       "When": {
-        "Repeatable": "yes",
+        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Hearts:Pam": "7, 8, 9, 10",
         "Season": "Fall, Winter"
@@ -774,7 +774,7 @@
         }
       },
       "When": {
-        "Repeatable": "yes",
+        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Hearts:Demetrius": "3, 4, 5, 6, 7, 8, 9, 10",
         "Hearts:Willy": "3, 4, 5, 6, 7, 8, 9, 10"
@@ -849,7 +849,7 @@
         }
       },
       "When": {
-        "Repeatable": "yes",
+        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Hearts:Willy": "5, 6, 7, 8, 9, 10",
         "Hearts:Linus": "7, 8, 9, 10"
@@ -914,7 +914,7 @@
         }
       },
       "When": {
-        "Repeatable": "yes",
+        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "HasFlag": "Island_Resort"
       }
@@ -988,7 +988,7 @@
         }
       },
       "When": {
-        "Repeatable": "yes",
+        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Year | contains=1": false
       }
@@ -1072,7 +1072,7 @@
         }
       },
       "When": {
-        "Repeatable": "yes",
+        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Hearts:Kent": "7, 8, 9, 10"
       }
@@ -1156,7 +1156,7 @@
         }
       },
       "When": {
-        "Repeatable": "yes",
+        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Hearts:Lewis": "7, 8, 9, 10",
         "Hearts:Kent": "3, 4, 5, 6, 7, 8, 9, 10"
@@ -1231,7 +1231,7 @@
         }
       },
       "When": {
-        "Repeatable": "yes",
+        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "HasSeenEvent": "63"
       }
@@ -1295,7 +1295,7 @@
         }
       },
       "When": {
-        "Repeatable": "yes",
+        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "HasSeenEvent": "66",
         "SkillLevel:Fishing": "9, 10"
@@ -1370,7 +1370,7 @@
         }
       },
       "When": {
-        "Repeatable": "yes",
+        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Hearts:Emily": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
       }
@@ -1420,7 +1420,7 @@
         }
       },
       "When": {
-        "Repeatable": "yes",
+        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Hearts:Leo": "3, 4, 5, 6, 7, 8, 9, 10"
       }
@@ -1494,7 +1494,7 @@
         }
       },
       "When": {
-        "Repeatable": "yes",
+        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Hearts:Demetrius": "7, 8, 9, 10",
         "Hearts:Caroline": "7, 8, 9, 10"
@@ -1579,7 +1579,7 @@
         }
       },
       "When": {
-        "Repeatable": "yes",
+        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Hearts:Willy": "7, 8, 9, 10",
         "Hearts:Pierre": "3, 4, 5, 6, 7, 8, 9, 10",
@@ -1665,7 +1665,7 @@
         }
       },
       "When": {
-        "Repeatable": "yes",
+        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "Hearts:Pierre": "3, 4, 5, 6, 7, 8, 9, 10"
@@ -1750,7 +1750,7 @@
         }
       },
       "When": {
-        "Repeatable": "yes",
+        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Hearts:Pam": "3, 4, 5, 6, 7, 8, 9, 10",
         "Hearts:Marnie": "7, 8, 9, 10",
@@ -1836,7 +1836,7 @@
         }
       },
       "When": {
-        "Repeatable": "yes",
+        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "Hearts:Caroline": "3, 4, 5, 6, 7, 8, 9, 10"
@@ -1921,7 +1921,7 @@
         }
       },
       "When": {
-        "Repeatable": "yes",
+        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "Hearts:Emily": "7, 8, 9, 10, 11, 12, 13, 14",
@@ -1997,7 +1997,7 @@
         }
       },
       "When": {
-        "Repeatable": "yes",
+        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "Hearts:Jodi": "3, 4, 5, 6, 7, 8, 9, 10"
@@ -2061,7 +2061,7 @@
         }
       },
       "When": {
-        "Repeatable": "no",
+        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "Hearts:George": "7, 8, 9, 10"
@@ -2112,7 +2112,7 @@
         }
       },
       "When": {
-        "Repeatable": "no",
+        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "HasFlag": "Island_UpgradeHouse"
       }
@@ -2172,7 +2172,7 @@
         }
       },
       "When": {
-        "Repeatable": "no",
+        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "Hearts:Gus": "3, 4, 5, 6, 7, 8, 9, 10"
@@ -2243,7 +2243,7 @@
         }
       },
       "When": {
-        "Repeatable": "no",
+        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "Hearts:Linus": "7, 8, 9, 10",
@@ -2305,7 +2305,7 @@
         }
       },
       "When": {
-        "Repeatable": "no",
+        "Repeatable": "false",
         "PlayerHasKitchen": true
       }
     },
@@ -2374,7 +2374,7 @@
         }
       },
       "When": {
-        "Repeatable": "no",
+        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Hearts:Clint": "7, 8, 9, 10",
         "Hearts:Jodi": "7, 8, 9, 10",
@@ -2446,7 +2446,7 @@
         }
       },
       "When": {
-        "Repeatable": "no",
+        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "Hearts:Sandy": "7, 8, 9, 10"
@@ -2507,7 +2507,7 @@
         }
       },
       "When": {
-        "Repeatable": "no",
+        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "SkillLevel:Foraging": "2, 3, 4, 5, 6, 7, 8, 9, 10"
@@ -2568,7 +2568,7 @@
         }
       },
       "When": {
-        "Repeatable": "no",
+        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Hearts:Pam": "7, 8, 9, 10",
         "Season": "Fall, Winter"
@@ -2639,7 +2639,7 @@
         }
       },
       "When": {
-        "Repeatable": "no",
+        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Hearts:Demetrius": "3, 4, 5, 6, 7, 8, 9, 10",
         "Hearts:Willy": "3, 4, 5, 6, 7, 8, 9, 10"
@@ -2700,7 +2700,7 @@
         }
       },
       "When": {
-        "Repeatable": "no",
+        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Hearts:Willy": "5, 6, 7, 8, 9, 10",
         "Hearts:Linus": "7, 8, 9, 10"
@@ -2751,7 +2751,7 @@
         }
       },
       "When": {
-        "Repeatable": "no",
+        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "HasFlag": "Island_Resort"
       }
@@ -2811,7 +2811,7 @@
         }
       },
       "When": {
-        "Repeatable": "no",
+        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Year | contains=1": false
       }
@@ -2881,7 +2881,7 @@
         }
       },
       "When": {
-        "Repeatable": "no",
+        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Hearts:Kent": "7, 8, 9, 10"
       }
@@ -2951,7 +2951,7 @@
         }
       },
       "When": {
-        "Repeatable": "no",
+        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Hearts:Lewis": "7, 8, 9, 10",
         "Hearts:Kent": "3, 4, 5, 6, 7, 8, 9, 10"
@@ -3012,7 +3012,7 @@
         }
       },
       "When": {
-        "Repeatable": "no",
+        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "HasSeenEvent": "63"
       }
@@ -3062,7 +3062,7 @@
         }
       },
       "When": {
-        "Repeatable": "no",
+        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "HasSeenEvent": "66",
         "SkillLevel:Fishing": "9, 10"
@@ -3123,7 +3123,7 @@
         }
       },
       "When": {
-        "Repeatable": "no",
+        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Hearts:Emily": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
       }
@@ -3173,7 +3173,7 @@
         }
       },
       "When": {
-        "Repeatable": "no",
+        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Hearts:Leo": "3, 4, 5, 6, 7, 8, 9, 10"
       }
@@ -3233,7 +3233,7 @@
         }
       },
       "When": {
-        "Repeatable": "no",
+        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Hearts:Demetrius": "7, 8, 9, 10",
         "Hearts:Caroline": "7, 8, 9, 10"
@@ -3304,7 +3304,7 @@
         }
       },
       "When": {
-        "Repeatable": "no",
+        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Hearts:Willy": "7, 8, 9, 10",
         "Hearts:Pierre": "3, 4, 5, 6, 7, 8, 9, 10",
@@ -3376,7 +3376,7 @@
         }
       },
       "When": {
-        "Repeatable": "no",
+        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "Hearts:Pierre": "3, 4, 5, 6, 7, 8, 9, 10"
@@ -3447,7 +3447,7 @@
         }
       },
       "When": {
-        "Repeatable": "no",
+        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Hearts:Pam": "3, 4, 5, 6, 7, 8, 9, 10",
         "Hearts:Marnie": "7, 8, 9, 10",
@@ -3519,7 +3519,7 @@
         }
       },
       "When": {
-        "Repeatable": "no",
+        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "Hearts:Caroline": "3, 4, 5, 6, 7, 8, 9, 10"
@@ -3590,7 +3590,7 @@
         }
       },
       "When": {
-        "Repeatable": "no",
+        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "Hearts:Emily": "7, 8, 9, 10, 11, 12, 13, 14",
@@ -3652,7 +3652,7 @@
         }
       },
       "When": {
-        "Repeatable": "no",
+        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "Hearts:Jodi": "3, 4, 5, 6, 7, 8, 9, 10"

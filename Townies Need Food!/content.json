@@ -3,8 +3,8 @@
   "ConfigSchema": {
     "Repeatable": {
       "Description": "Specify if you want the special orders to be repeatable (yes, no). Default is yes.",
-      "AllowValues": "yes, no",
-      "Default": "yes",
+      "AllowValues": "true, false",
+      "Default": "true",
       "AllowBlank": false,
       "AllowMultiple": false
     }
