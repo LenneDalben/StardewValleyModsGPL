@@ -2,7 +2,14 @@
   "Format": "1.20.0",
   "ConfigSchema": {
     "Repeatable": {
-      "Description": "Specify if you want the special orders to be repeatable (yes, no). Default is yes.",
+      "Description": "Specify if you want the special orders to be repeatable (true, false). Default is true.",
+      "AllowValues": "true, false",
+      "Default": "true",
+      "AllowBlank": false,
+      "AllowMultiple": false
+    },
+    "IncludeIslandContent": {
+      "Description": "Specify if you want to include the island content special orders (true, false). Default is true.",
       "AllowValues": "true, false",
       "Default": "true",
       "AllowBlank": false,

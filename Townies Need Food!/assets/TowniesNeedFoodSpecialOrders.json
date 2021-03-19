@@ -136,6 +136,7 @@
       },
       "When": {
         "Repeatable": "true",
+        "IncludeIslandContent": "true",
         "PlayerHasKitchen": true,
         "HasFlag": "Island_UpgradeHouse"
       }
@@ -2235,6 +2236,58 @@
         "PlayerHasKitchen": true
       }
     },
+    // Sandy Sweet Mango and Coconut Repeatable
+    {
+      "LogName": "Sandy Sweet Mango and Coconut - Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Sandy_SweetMangoandCoconut": {
+          "Name": "[TowniesNeedFood_Sandy_SweetMangoandCoconut_Name]",
+          "Requester": "Emily",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "island",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Sandy_SweetMangoandCoconut_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Sandy_SweetMangoandCoconut_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_mango_sticky_rice",
+                "Message": "[TowniesNeedFood_Sandy_SweetMangoandCoconut_Message_0]",
+                "TargetName": "Sandy"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "750"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "true",
+        "IncludeIslandContent": "true",
+        "PlayerHasKitchen": true,
+        "HasSeenEvent": "67",
+        "Hearts:Leo": "7, 8, 9, 10"
+      }
+    },
     //
     // Not Repeatable special orders listed below (the same kind of order, just with Repeatable set to false)
     //
@@ -4078,6 +4131,58 @@
       "When": {
         "Repeatable": "false",
         "PlayerHasKitchen": true
+      }
+    },
+    // Sandy Sweet Mango and Coconut Not Repeatable
+    {
+      "LogName": "Sandy Sweet Mango and Coconut - Not Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Sandy_SweetMangoandCoconut": {
+          "Name": "[TowniesNeedFood_Sandy_SweetMangoandCoconut_Name]",
+          "Requester": "Emily",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "island",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Sandy_SweetMangoandCoconut_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Sandy_SweetMangoandCoconut_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_mango_sticky_rice",
+                "Message": "[TowniesNeedFood_Sandy_SweetMangoandCoconut_Message_0]",
+                "TargetName": "Sandy"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "750"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "false",
+        "IncludeIslandContent": "true",
+        "PlayerHasKitchen": true,
+        "HasSeenEvent": "67",
+        "Hearts:Leo": "7, 8, 9, 10"
       }
     },
   ]

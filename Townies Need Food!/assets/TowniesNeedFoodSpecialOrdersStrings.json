@@ -478,5 +478,19 @@
         "TowniesNeedFood_Sam_EggWrap_Message_1": "{{i18n:TowniesNeedFood_Sam_EggWrap_Message_1}}"
       }
     },
+    // Sandy Sweet Mango and Coconut Strings
+    {
+      "LogName": "Sandy Sweet Mango and Coconut Strings",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Sandy_SweetMangoandCoconut_Name": "{{i18n:TowniesNeedFood_Sandy_SweetMangoandCoconut_Name}}",
+        "TowniesNeedFood_Sandy_SweetMangoandCoconut_Text": "{{i18n:TowniesNeedFood_Sandy_SweetMangoandCoconut_Text}}",
+        "TowniesNeedFood_Sandy_SweetMangoandCoconut_RE_Text_0": "{{i18n:TowniesNeedFood_Sandy_SweetMangoandCoconut_RE_Text_0}}",
+        "TowniesNeedFood_Sandy_SweetMangoandCoconut_RE_Text_1": "{{i18n:TowniesNeedFood_Sandy_SweetMangoandCoconut_RE_Text_1}}",
+        "TowniesNeedFood_Sandy_SweetMangoandCoconut_Objective_Text_0": "{{i18n:TowniesNeedFood_Sandy_SweetMangoandCoconut_Objective_Text_0}}",
+        "TowniesNeedFood_Sandy_SweetMangoandCoconut_Message_0": "{{i18n:TowniesNeedFood_Sandy_SweetMangoandCoconut_Message_0}}"
+      }
+    },
   ]
 }

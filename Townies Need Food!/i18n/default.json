@@ -282,6 +282,7 @@
   "TowniesNeedFood_Robin_FamilyBuffet_Message_0": "Looks great, thank you @!$h",
   "TowniesNeedFood_Robin_FamilyBuffet_Message_1": "Perfect, thank you @!$h",
   "TowniesNeedFood_Robin_FamilyBuffet_Message_2": "Ah, thank you @!$h",
+  //
   // Sam Slice and Dessert Strings
   "TowniesNeedFood_Sam_SliceandDessert_Name": "Slice and Dessert",
   "TowniesNeedFood_Sam_SliceandDessert_Text": "I'm working on a project and need some fuel. Could someone bring me pizza and maple bar?",
@@ -291,6 +292,7 @@
   "TowniesNeedFood_Sam_SliceandDessert_Objective_Text_1": "Deliver Maple Bar to Sam",
   "TowniesNeedFood_Sam_SliceandDessert_Message_0": "Alright, @!$h",
   "TowniesNeedFood_Sam_SliceandDessert_Message_1": "Maple bars are the bomb, thanks @!$h",
+  //
   // Sam Egg Wrap Strings
   "TowniesNeedFood_Sam_EggWrap_Name": "Egg Wrap",
   "TowniesNeedFood_Sam_EggWrap_Text": "Not quite an egg sandwich, but if someone could bring me fried egg and tortilla, I'd like to combine them.",
@@ -300,4 +302,10 @@
   "TowniesNeedFood_Sam_EggWrap_Objective_Text_1": "Deliver Fried Egg to Sam",
   "TowniesNeedFood_Sam_EggWrap_Message_0": "Heh, thanks @! Looking forward to combining this with the egg.$h",
   "TowniesNeedFood_Sam_EggWrap_Message_1": "The center of my wrap, thanks!$h",
+  //
+  // Sandy Sweet Mango and Coconut Strings
+  "TowniesNeedFood_Sandy_SweetMangoandCoconut_Name": "Sweet Mango and Coconut",
+  "TowniesNeedFood_Sandy_SweetMangoandCoconut_Text": "I think Sandy would enjoy mango sticky rice. Could someone bring some to her? - Emily",
+  "TowniesNeedFood_Sandy_SweetMangoandCoconut_Objective_Text_0": "Deliver Mango Sticky Rice to Sandy",
+  "TowniesNeedFood_Sandy_SweetMangoandCoconut_Message_0": "Lovely, thank you @!$h",
 }
