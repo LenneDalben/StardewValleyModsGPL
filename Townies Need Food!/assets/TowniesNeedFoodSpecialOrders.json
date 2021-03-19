@@ -136,7 +136,6 @@
       },
       "When": {
         "Repeatable": "true",
-        "IncludeIslandContent": "true",
         "PlayerHasKitchen": true,
         "HasFlag": "Island_UpgradeHouse"
       }
@@ -916,7 +915,6 @@
       },
       "When": {
         "Repeatable": "true",
-        "IncludeIslandContent": "true",
         "PlayerHasKitchen": true,
         "HasFlag": "Island_Resort"
       }
@@ -2283,7 +2281,6 @@
       },
       "When": {
         "Repeatable": "true",
-        "IncludeIslandContent": "true",
         "PlayerHasKitchen": true,
         "HasSeenEvent": "67",
         "Hearts:Leo": "7, 8, 9, 10"
@@ -3038,7 +3035,6 @@
       },
       "When": {
         "Repeatable": "false",
-        "IncludeIslandContent": "true",
         "PlayerHasKitchen": true,
         "HasFlag": "Island_Resort"
       }
@@ -4181,7 +4177,6 @@
       },
       "When": {
         "Repeatable": "false",
-        "IncludeIslandContent": "true",
         "PlayerHasKitchen": true,
         "HasSeenEvent": "67",
         "Hearts:Leo": "7, 8, 9, 10"

@@ -7,13 +7,6 @@
       "Default": "true",
       "AllowBlank": false,
       "AllowMultiple": false
-    },
-    "IncludeIslandContent": {
-      "Description": "Specify if you want to include the island content special orders (true, false). Default is true.",
-      "AllowValues": "true, false",
-      "Default": "true",
-      "AllowBlank": false,
-      "AllowMultiple": false
     }
   },
   "DynamicTokens": [
