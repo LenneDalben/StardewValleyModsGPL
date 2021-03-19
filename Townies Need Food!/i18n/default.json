@@ -308,4 +308,14 @@
   "TowniesNeedFood_Sandy_SweetMangoandCoconut_Text": "I think Sandy would enjoy mango sticky rice. Could someone bring some to her? - Emily",
   "TowniesNeedFood_Sandy_SweetMangoandCoconut_Objective_Text_0": "Deliver Mango Sticky Rice to Sandy",
   "TowniesNeedFood_Sandy_SweetMangoandCoconut_Message_0": "Lovely, thank you @!$h",
+  //
+  // Sebastian Lunch and Dinner Strings
+  "TowniesNeedFood_Sebastian_LunchandDinner_Name": "Lunch and Dinner",
+  "TowniesNeedFood_Sebastian_LunchandDinner_Text": "This is embarrassing; I love sashimi and pumpkin soup but I don't think I've mastered the recipes. Could someone bring me some?",
+  "TowniesNeedFood_Sebastian_LunchandDinner_RE_Text_0": "Sashimi and pumpkin soup are some of my favorite foods.$h#$b#What do you like to eat?$7",
+  "TowniesNeedFood_Sebastian_LunchandDinner_RE_Text_1": "Sashimi and pumpkin soup help get me through the day.$h",
+  "TowniesNeedFood_Sebastian_LunchandDinner_Objective_Text_0": "Deliver Sashimi to Sebastian",
+  "TowniesNeedFood_Sebastian_LunchandDinner_Objective_Text_1": "Deliver Pumpkin Soup to Sebastian",
+  "TowniesNeedFood_Sebastian_LunchandDinner_Message_0": "Oh, hah... You made this for me? Thanks @!$l",
+  "TowniesNeedFood_Sebastian_LunchandDinner_Message_1": "Oh, you saw that request? Uh, thanks @!$l",
 }

@@ -2286,6 +2286,81 @@
         "Hearts:Leo": "7, 8, 9, 10"
       }
     },
+    // Sebastian Lunch and Dinner Repeatable
+    {
+      "LogName": "Sebastian Lunch and Dinner - Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Sebastian_LunchandDinner": {
+          "Name": "[TowniesNeedFood_Sebastian_LunchandDinner_Name]",
+          "Requester": "Sebastian",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Sebastian_LunchandDinner_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": [
+            {
+              "Name": "Text",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Sebastian_LunchandDinner_RE_Text_0]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Sebastian_LunchandDinner_RE_Text_1]"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Sebastian_LunchandDinner_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_sashimi",
+                "Message": "[TowniesNeedFood_Sebastian_LunchandDinner_Message_0]",
+                "TargetName": "Sebastian"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Sebastian_LunchandDinner_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_pumpkin_soup",
+                "Message": "[TowniesNeedFood_Sebastian_LunchandDinner_Message_1]",
+                "TargetName": "Sebastian"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1125"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "true",
+        "PlayerHasKitchen": true,
+        "Hearts:Robin": "7, 8, 9, 10",
+        "Hearts:Linus": "3, 4, 5, 6, 7, 8, 9, 10"
+      }
+    },
     //
     // Not Repeatable special orders listed below (the same kind of order, just with Repeatable set to false)
     //
@@ -4180,6 +4255,67 @@
         "PlayerHasKitchen": true,
         "HasSeenEvent": "67",
         "Hearts:Leo": "7, 8, 9, 10"
+      }
+    },
+    // Sebastian Lunch and Dinner Not Repeatable
+    {
+      "LogName": "Sebastian Lunch and Dinner - Not Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Sebastian_LunchandDinner": {
+          "Name": "[TowniesNeedFood_Sebastian_LunchandDinner_Name]",
+          "Requester": "Sebastian",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Sebastian_LunchandDinner_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Sebastian_LunchandDinner_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_sashimi",
+                "Message": "[TowniesNeedFood_Sebastian_LunchandDinner_Message_0]",
+                "TargetName": "Sebastian"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Sebastian_LunchandDinner_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_pumpkin_soup",
+                "Message": "[TowniesNeedFood_Sebastian_LunchandDinner_Message_1]",
+                "TargetName": "Sebastian"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1125"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "false",
+        "PlayerHasKitchen": true,
+        "Hearts:Robin": "7, 8, 9, 10",
+        "Hearts:Linus": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
   ]

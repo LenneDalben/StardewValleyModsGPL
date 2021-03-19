@@ -492,5 +492,21 @@
         "TowniesNeedFood_Sandy_SweetMangoandCoconut_Message_0": "{{i18n:TowniesNeedFood_Sandy_SweetMangoandCoconut_Message_0}}"
       }
     },
+    // Sebastian Lunch and Dinner Strings
+    {
+      "LogName": "Sebastian Lunch and Dinner Strings",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Sebastian_LunchandDinner_Name": "{{i18n:TowniesNeedFood_Sebastian_LunchandDinner_Name}}",
+        "TowniesNeedFood_Sebastian_LunchandDinner_Text": "{{i18n:TowniesNeedFood_Sebastian_LunchandDinner_Text}}",
+        "TowniesNeedFood_Sebastian_LunchandDinner_RE_Text_0": "{{i18n:TowniesNeedFood_Sebastian_LunchandDinner_RE_Text_0}}",
+        "TowniesNeedFood_Sebastian_LunchandDinner_RE_Text_1": "{{i18n:TowniesNeedFood_Sebastian_LunchandDinner_RE_Text_1}}",
+        "TowniesNeedFood_Sebastian_LunchandDinner_Objective_Text_0": "{{i18n:TowniesNeedFood_Sebastian_LunchandDinner_Objective_Text_0}}",
+        "TowniesNeedFood_Sebastian_LunchandDinner_Objective_Text_1": "{{i18n:TowniesNeedFood_Sebastian_LunchandDinner_Objective_Text_1}}",
+        "TowniesNeedFood_Sebastian_LunchandDinner_Message_0": "{{i18n:TowniesNeedFood_Sebastian_LunchandDinner_Message_0}}",
+        "TowniesNeedFood_Sebastian_LunchandDinner_Message_1": "{{i18n:TowniesNeedFood_Sebastian_LunchandDinner_Message_1}}"
+      }
+    },
   ]
 }
