@@ -2232,8 +2232,7 @@
       },
       "When": {
         "Repeatable": "true",
-        "PlayerHasKitchen": true,
-        "Year | contains=1": false
+        "PlayerHasKitchen": true
       }
     },
     //
@@ -4078,8 +4077,7 @@
       },
       "When": {
         "Repeatable": "false",
-        "PlayerHasKitchen": true,
-        "Year | contains=1": false
+        "PlayerHasKitchen": true
       }
     },
   ]
