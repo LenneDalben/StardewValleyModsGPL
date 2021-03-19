@@ -916,6 +916,7 @@
       },
       "When": {
         "Repeatable": "true",
+        "IncludeIslandContent": "true",
         "PlayerHasKitchen": true,
         "HasFlag": "Island_Resort"
       }
@@ -3037,6 +3038,7 @@
       },
       "When": {
         "Repeatable": "false",
+        "IncludeIslandContent": "true",
         "PlayerHasKitchen": true,
         "HasFlag": "Island_Resort"
       }
