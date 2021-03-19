@@ -2003,6 +2003,91 @@
         "Hearts:Jodi": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
+    // Robin Family Buffet Repeatable
+    {
+      "LogName": "Robin Family Buffet - Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Robin_FamilyBuffet": {
+          "Name": "[TowniesNeedFood_Robin_FamilyBuffet_Name]",
+          "Requester": "Robin",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Robin_FamilyBuffet_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": [
+            {
+              "Name": "Text",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Robin_FamilyBuffet_RE_Text_0]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Robin_FamilyBuffet_RE_Text_1]"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Robin_FamilyBuffet_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_spaghetti",
+                "Message": "[TowniesNeedFood_Robin_FamilyBuffet_Message_0]",
+                "TargetName": "Robin"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Robin_FamilyBuffet_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_radish_salad",
+                "Message": "[TowniesNeedFood_Robin_FamilyBuffet_Message_1]",
+                "TargetName": "Robin"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Robin_FamilyBuffet_Objective_Text_2]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_carp_surprise",
+                "Message": "[TowniesNeedFood_Robin_FamilyBuffet_Message_2]",
+                "TargetName": "Robin"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1710"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "true",
+        "PlayerHasKitchen": true,
+        "Year | contains=1": false,
+        "Hearts:Lewis": "3, 4, 5, 6, 7, 8, 9, 10"
+      }
+    },
     //
     // Not Repeatable special orders listed below (the same kind of order, just with Repeatable set to false)
     //
@@ -3656,6 +3741,77 @@
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "Hearts:Jodi": "3, 4, 5, 6, 7, 8, 9, 10"
+      }
+    },
+    // Robin Family Buffet Not Repeatable
+    {
+      "LogName": "Robin Family Buffet - Not Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Robin_FamilyBuffet": {
+          "Name": "[TowniesNeedFood_Robin_FamilyBuffet_Name]",
+          "Requester": "Robin",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Robin_FamilyBuffet_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Robin_FamilyBuffet_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_spaghetti",
+                "Message": "[TowniesNeedFood_Robin_FamilyBuffet_Message_0]",
+                "TargetName": "Robin"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Robin_FamilyBuffet_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_radish_salad",
+                "Message": "[TowniesNeedFood_Robin_FamilyBuffet_Message_1]",
+                "TargetName": "Robin"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Robin_FamilyBuffet_Objective_Text_2]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_carp_surprise",
+                "Message": "[TowniesNeedFood_Robin_FamilyBuffet_Message_2]",
+                "TargetName": "Robin"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1710"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "false",
+        "PlayerHasKitchen": true,
+        "Year | contains=1": false,
+        "Hearts:Lewis": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
   ]

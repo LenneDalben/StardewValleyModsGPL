@@ -428,5 +428,23 @@
         "TowniesNeedFood_Pierre_AppetizerandEntree_Message_1": "{{i18n:TowniesNeedFood_Pierre_AppetizerandEntree_Message_1}}"
       }
     },
+    // Robin Family Buffet Strings
+    {
+      "LogName": "Robin Family Buffet Strings",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Robin_FamilyBuffet_Name": "{{i18n:TowniesNeedFood_Robin_FamilyBuffet_Name}}",
+        "TowniesNeedFood_Robin_FamilyBuffet_Text": "{{i18n:TowniesNeedFood_Robin_FamilyBuffet_Text}}",
+        "TowniesNeedFood_Robin_FamilyBuffet_RE_Text_0": "{{i18n:TowniesNeedFood_Robin_FamilyBuffet_RE_Text_0}}",
+        "TowniesNeedFood_Robin_FamilyBuffet_RE_Text_1": "{{i18n:TowniesNeedFood_Robin_FamilyBuffet_RE_Text_1}}",
+        "TowniesNeedFood_Robin_FamilyBuffet_Objective_Text_0": "{{i18n:TowniesNeedFood_Robin_FamilyBuffet_Objective_Text_0}}",
+        "TowniesNeedFood_Robin_FamilyBuffet_Objective_Text_1": "{{i18n:TowniesNeedFood_Robin_FamilyBuffet_Objective_Text_1}}",
+        "TowniesNeedFood_Robin_FamilyBuffet_Objective_Text_2": "{{i18n:TowniesNeedFood_Robin_FamilyBuffet_Objective_Text_2}}",
+        "TowniesNeedFood_Robin_FamilyBuffet_Message_0": "{{i18n:TowniesNeedFood_Robin_FamilyBuffet_Message_0}}",
+        "TowniesNeedFood_Robin_FamilyBuffet_Message_1": "{{i18n:TowniesNeedFood_Robin_FamilyBuffet_Message_1}}",
+        "TowniesNeedFood_Robin_FamilyBuffet_Message_2": "{{i18n:TowniesNeedFood_Robin_FamilyBuffet_Message_2}}"
+      }
+    },
   ]
 }
