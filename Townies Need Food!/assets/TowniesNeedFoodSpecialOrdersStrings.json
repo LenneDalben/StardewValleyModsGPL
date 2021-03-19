@@ -462,5 +462,21 @@
         "TowniesNeedFood_Sam_SliceandDessert_Message_1": "{{i18n:TowniesNeedFood_Sam_SliceandDessert_Message_1}}"
       }
     },
+    // Sam Egg Tortilla Strings
+    {
+      "LogName": "Sam Egg Tortilla Strings",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Sam_EggWrap_Name": "{{i18n:TowniesNeedFood_Sam_EggWrap_Name}}",
+        "TowniesNeedFood_Sam_EggWrap_Text": "{{i18n:TowniesNeedFood_Sam_EggWrap_Text}}",
+        "TowniesNeedFood_Sam_EggWrap_RE_Text_0": "{{i18n:TowniesNeedFood_Sam_EggWrap_RE_Text_0}}",
+        "TowniesNeedFood_Sam_EggWrap_RE_Text_1": "{{i18n:TowniesNeedFood_Sam_EggWrap_RE_Text_1}}",
+        "TowniesNeedFood_Sam_EggWrap_Objective_Text_0": "{{i18n:TowniesNeedFood_Sam_EggWrap_Objective_Text_0}}",
+        "TowniesNeedFood_Sam_EggWrap_Objective_Text_1": "{{i18n:TowniesNeedFood_Sam_EggWrap_Objective_Text_1}}",
+        "TowniesNeedFood_Sam_EggWrap_Message_0": "{{i18n:TowniesNeedFood_Sam_EggWrap_Message_0}}",
+        "TowniesNeedFood_Sam_EggWrap_Message_1": "{{i18n:TowniesNeedFood_Sam_EggWrap_Message_1}}"
+      }
+    },
   ]
 }

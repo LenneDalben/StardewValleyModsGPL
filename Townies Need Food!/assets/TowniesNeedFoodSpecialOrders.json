@@ -2162,6 +2162,80 @@
         "Year | contains=1": false
       }
     },
+    // Sam Egg Wrap Repeatable
+    {
+      "LogName": "Sam Egg Wrap - Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Sam_EggWrap": {
+          "Name": "[TowniesNeedFood_Sam_EggWrap_Name]",
+          "Requester": "Sam",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Sam_EggWrap_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": [
+            {
+              "Name": "Text",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Sam_EggWrap_RE_Text_0]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Sam_EggWrap_RE_Text_1]"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Sam_EggWrap_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_fried_egg",
+                "Message": "[TowniesNeedFood_Sam_EggWrap_Message_0]",
+                "TargetName": "Sam"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Sam_EggWrap_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_tortilla",
+                "Message": "[TowniesNeedFood_Sam_EggWrap_Message_1]",
+                "TargetName": "Sam"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1800"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "true",
+        "PlayerHasKitchen": true,
+        "Year | contains=1": false
+      }
+    },
     //
     // Not Repeatable special orders listed below (the same kind of order, just with Repeatable set to false)
     //
@@ -3924,6 +3998,66 @@
               "Data": {
                 "AcceptedContextTags": "item_maple_bar",
                 "Message": "[TowniesNeedFood_Sam_SliceandDessert_Message_1]",
+                "TargetName": "Sam"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1800"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "false",
+        "PlayerHasKitchen": true,
+        "Year | contains=1": false
+      }
+    },
+    // Sam Egg Wrap Not Repeatable
+    {
+      "LogName": "Sam Egg Wrap - Not Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Sam_EggWrap": {
+          "Name": "[TowniesNeedFood_Sam_EggWrap_Name]",
+          "Requester": "Sam",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Sam_EggWrap_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Sam_EggWrap_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_fried_egg",
+                "Message": "[TowniesNeedFood_Sam_EggWrap_Message_0]",
+                "TargetName": "Sam"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Sam_EggWrap_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_tortilla",
+                "Message": "[TowniesNeedFood_Sam_EggWrap_Message_1]",
                 "TargetName": "Sam"
               }
             }

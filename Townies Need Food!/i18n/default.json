@@ -291,4 +291,13 @@
   "TowniesNeedFood_Sam_SliceandDessert_Objective_Text_1": "Deliver Maple Bar to Sam",
   "TowniesNeedFood_Sam_SliceandDessert_Message_0": "Alright, @!$h",
   "TowniesNeedFood_Sam_SliceandDessert_Message_1": "Maple bars are the bomb, thanks @!$h",
+  // Sam Egg Wrap Strings
+  "TowniesNeedFood_Sam_EggWrap_Name": "Egg Wrap",
+  "TowniesNeedFood_Sam_EggWrap_Text": "Not quite an egg sandwich, but if someone could bring me fried egg and tortilla, I'd like to combine them.",
+  "TowniesNeedFood_Sam_EggWrap_RE_Text_0": "I figured I'd branch out and combine some low effort food.",
+  "TowniesNeedFood_Sam_EggWrap_RE_Text_1": "Egg and tortilla, good combination.$3",
+  "TowniesNeedFood_Sam_EggWrap_Objective_Text_0": "Deliver Tortilla to Sam",
+  "TowniesNeedFood_Sam_EggWrap_Objective_Text_1": "Deliver Fried Egg to Sam",
+  "TowniesNeedFood_Sam_EggWrap_Message_0": "Heh, thanks @! Looking forward to combining this with the egg.$h",
+  "TowniesNeedFood_Sam_EggWrap_Message_1": "The center of my wrap, thanks!$h",
 }
