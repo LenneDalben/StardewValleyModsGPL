@@ -2088,6 +2088,80 @@
         "Hearts:Lewis": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
+    // Sam Slice and Dessert Repeatable
+    {
+      "LogName": "Sam Slice and Dessert - Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Sam_SliceandDessert": {
+          "Name": "[TowniesNeedFood_Sam_SliceandDessert_Name]",
+          "Requester": "Sam",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Sam_SliceandDessert_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": [
+            {
+              "Name": "Text",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Sam_SliceandDessert_RE_Text_0]"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "[TowniesNeedFood_Sam_SliceandDessert_RE_Text_1]"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Sam_SliceandDessert_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_pizza",
+                "Message": "[TowniesNeedFood_Sam_SliceandDessert_Message_0]",
+                "TargetName": "Sam"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Sam_SliceandDessert_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_maple_bar",
+                "Message": "[TowniesNeedFood_Sam_SliceandDessert_Message_1]",
+                "TargetName": "Sam"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1800"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "true",
+        "PlayerHasKitchen": true,
+        "Year | contains=1": false
+      }
+    },
     //
     // Not Repeatable special orders listed below (the same kind of order, just with Repeatable set to false)
     //
@@ -3812,6 +3886,66 @@
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "Hearts:Lewis": "3, 4, 5, 6, 7, 8, 9, 10"
+      }
+    },
+    // Sam Slice and Dessert Not Repeatable
+    {
+      "LogName": "Sam Slice and Dessert - Not Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Sam_SliceandDessert": {
+          "Name": "[TowniesNeedFood_Sam_SliceandDessert_Name]",
+          "Requester": "Sam",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Sam_SliceandDessert_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Sam_SliceandDessert_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_pizza",
+                "Message": "[TowniesNeedFood_Sam_SliceandDessert_Message_0]",
+                "TargetName": "Sam"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Sam_SliceandDessert_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_maple_bar",
+                "Message": "[TowniesNeedFood_Sam_SliceandDessert_Message_1]",
+                "TargetName": "Sam"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1800"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "false",
+        "PlayerHasKitchen": true,
+        "Year | contains=1": false
       }
     },
   ]

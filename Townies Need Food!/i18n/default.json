@@ -282,4 +282,13 @@
   "TowniesNeedFood_Robin_FamilyBuffet_Message_0": "Looks great, thank you @!$h",
   "TowniesNeedFood_Robin_FamilyBuffet_Message_1": "Perfect, thank you @!$h",
   "TowniesNeedFood_Robin_FamilyBuffet_Message_2": "Ah, thank you @!$h",
+  // Sam Slice and Dessert Strings
+  "TowniesNeedFood_Sam_SliceandDessert_Name": "Slice and Dessert",
+  "TowniesNeedFood_Sam_SliceandDessert_Text": "I'm working on a project and need some fuel. Could someone bring me pizza and maple bar?",
+  "TowniesNeedFood_Sam_SliceandDessert_RE_Text_0": "Pizza is great brain food.$h#$b#And maple bars are the best donut.$h",
+  "TowniesNeedFood_Sam_SliceandDessert_RE_Text_1": "Slice and dessert, can't beat that combination.$h",
+  "TowniesNeedFood_Sam_SliceandDessert_Objective_Text_0": "Deliver Pizza to Sam",
+  "TowniesNeedFood_Sam_SliceandDessert_Objective_Text_1": "Deliver Maple Bar to Sam",
+  "TowniesNeedFood_Sam_SliceandDessert_Message_0": "Alright, @!$h",
+  "TowniesNeedFood_Sam_SliceandDessert_Message_1": "Maple bars are the bomb, thanks @!$h",
 }

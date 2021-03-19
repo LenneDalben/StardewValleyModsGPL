@@ -446,5 +446,21 @@
         "TowniesNeedFood_Robin_FamilyBuffet_Message_2": "{{i18n:TowniesNeedFood_Robin_FamilyBuffet_Message_2}}"
       }
     },
+    // Sam Slice and Dessert Strings
+    {
+      "LogName": "Sam Slice and Dessert Strings",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Sam_SliceandDessert_Name": "{{i18n:TowniesNeedFood_Sam_SliceandDessert_Name}}",
+        "TowniesNeedFood_Sam_SliceandDessert_Text": "{{i18n:TowniesNeedFood_Sam_SliceandDessert_Text}}",
+        "TowniesNeedFood_Sam_SliceandDessert_RE_Text_0": "{{i18n:TowniesNeedFood_Sam_SliceandDessert_RE_Text_0}}",
+        "TowniesNeedFood_Sam_SliceandDessert_RE_Text_1": "{{i18n:TowniesNeedFood_Sam_SliceandDessert_RE_Text_1}}",
+        "TowniesNeedFood_Sam_SliceandDessert_Objective_Text_0": "{{i18n:TowniesNeedFood_Sam_SliceandDessert_Objective_Text_0}}",
+        "TowniesNeedFood_Sam_SliceandDessert_Objective_Text_1": "{{i18n:TowniesNeedFood_Sam_SliceandDessert_Objective_Text_1}}",
+        "TowniesNeedFood_Sam_SliceandDessert_Message_0": "{{i18n:TowniesNeedFood_Sam_SliceandDessert_Message_0}}",
+        "TowniesNeedFood_Sam_SliceandDessert_Message_1": "{{i18n:TowniesNeedFood_Sam_SliceandDessert_Message_1}}"
+      }
+    },
   ]
 }
