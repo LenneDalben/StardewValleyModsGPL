@@ -508,5 +508,21 @@
         "TowniesNeedFood_Sebastian_LunchandDinner_Message_1": "{{i18n:TowniesNeedFood_Sebastian_LunchandDinner_Message_1}}"
       }
     },
+    // Shane Peppers and Pizza Strings
+    {
+      "LogName": "Shane Peppers and Pizza Strings",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Shane_PeppersandPizza_Name": "{{i18n:TowniesNeedFood_Shane_PeppersandPizza_Name}}",
+        "TowniesNeedFood_Shane_PeppersandPizza_Text": "{{i18n:TowniesNeedFood_Shane_PeppersandPizza_Text}}",
+        "TowniesNeedFood_Shane_PeppersandPizza_RE_Text_0": "{{i18n:TowniesNeedFood_Shane_PeppersandPizza_RE_Text_0}}",
+        "TowniesNeedFood_Shane_PeppersandPizza_RE_Text_1": "{{i18n:TowniesNeedFood_Shane_PeppersandPizza_RE_Text_1}}",
+        "TowniesNeedFood_Shane_PeppersandPizza_Objective_Text_0": "{{i18n:TowniesNeedFood_Shane_PeppersandPizza_Objective_Text_0}}",
+        "TowniesNeedFood_Shane_PeppersandPizza_Objective_Text_1": "{{i18n:TowniesNeedFood_Shane_PeppersandPizza_Objective_Text_1}}",
+        "TowniesNeedFood_Shane_PeppersandPizza_Message_0": "{{i18n:TowniesNeedFood_Shane_PeppersandPizza_Message_0}}",
+        "TowniesNeedFood_Shane_PeppersandPizza_Message_1": "{{i18n:TowniesNeedFood_Shane_PeppersandPizza_Message_1}}"
+      }
+    },
   ]
 }
