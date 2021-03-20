@@ -2,36 +2,28 @@
   // Abigail Sweet and Spicy Strings
   "TowniesNeedFood_Abigail_SweetandSpicy_Name": "Sweet and Spicy",
   "TowniesNeedFood_Abigail_SweetandSpicy_Text": "Hey! I'm in the mood for a sweet and spicy combination. Can anyone make me some blackberry cobbler and spicy eel?",
-  "TowniesNeedFood_Abigail_SweetandSpicy_RE_Text_0": "You agree that sweet and spicy is a great combination in a meal, right, @?",
-  "TowniesNeedFood_Abigail_SweetandSpicy_RE_Text_1": "I'm in the mood for that sweet and spicy combination again.",
   "TowniesNeedFood_Abigail_SweetandSpicy_Objective_Text_0": "Deliver Blackberry Cobbler to Abigail",
   "TowniesNeedFood_Abigail_SweetandSpicy_Objective_Text_1": "Deliver Spicy Eel to Abigail",
-  "TowniesNeedFood_Abigail_SweetandSpicy_Message_0": "The cobbler looks tasty, thanks @!$h",
+  "TowniesNeedFood_Abigail_SweetandSpicy_Message_0": "The cobbler looks tasty, thanks @!$h#$b#You agree that sweet and spicy is a great combination in a meal, right?",
   "TowniesNeedFood_Abigail_SweetandSpicy_Message_1": "I can smell the spice from here, thanks @!$h",
   //
   // Abigail Creamy Dessert Strings
   "TowniesNeedFood_Abigail_CreamyDessert_Name": "Creamy Dessert",
   "TowniesNeedFood_Abigail_CreamyDessert_Text": "I'd love to have a tropical dessert but I don't know how to make any. Could someone whip up some banana pudding for me?",
-  "TowniesNeedFood_Abigail_CreamyDessert_RE_Text_0": "I wonder if dad could get bananas imported somehow...",
-  "TowniesNeedFood_Abigail_CreamyDessert_RE_Text_1": "Gus should totally start selling banana pudding.$3",
   "TowniesNeedFood_Abigail_CreamyDessert_Objective_Text_0": "Deliver Banana Pudding to Abigail",
-  "TowniesNeedFood_Abigail_CreamyDessert_Message_0": "Thank you, this is awesome!$h",
+  "TowniesNeedFood_Abigail_CreamyDessert_Message_0": "Thank you, this is awesome!$h#$b#I wonder if dad could get bananas imported somehow...I'd be willing to learn this recipe.$3",
   //
   // Alex Good Eating Strings
   "TowniesNeedFood_Alex_GoodEating_Name": "Good Eating",
   "TowniesNeedFood_Alex_GoodEating_Text": "A complete breakfast and salmon dinner will set me up for a good day. Could someone make these for me?",
-  "TowniesNeedFood_Alex_GoodEating_RE_Text_0": "I feel like I can take on the world after a complete breakfast, don't you?#$b#With salmon dinner in the evening, that's some good eating.$h",
-  "TowniesNeedFood_Alex_GoodEating_RE_Text_1": "I wish I could always have a complete breakfast and salmon dinner.#$b#That's good eating.$h",
   "TowniesNeedFood_Alex_GoodEating_Objective_Text_0": "Deliver Complete Breakfast to Alex",
   "TowniesNeedFood_Alex_GoodEating_Objective_Text_1": "Deliver Salmon Dinner to Alex",
-  "TowniesNeedFood_Alex_GoodEating_Message_0": "Thanks, this'll do the trick!$h",
-  "TowniesNeedFood_Alex_GoodEating_Message_1": "This looks delicious, thanks @!$h",
+  "TowniesNeedFood_Alex_GoodEating_Message_0": "I feel like I can take on the world after a complete breakfast, don't you?#$b#Thanks, this'll do the trick!$h",
+  "TowniesNeedFood_Alex_GoodEating_Message_1": "Salmon dinner is some good eating, thanks @!$h",
   //
   // Caroline Seafood Bonanza Strings
   "TowniesNeedFood_Caroline_SeafoodBonanza_Name": "Seafood Bonanza",
   "TowniesNeedFood_Caroline_SeafoodBonanza_Text": "Abigail might call it a 'seafood bonanza', but seafood is good for you! Could someone make me fish taco, fried eel, and lobster bisque please?",
-  "TowniesNeedFood_Caroline_SeafoodBonanza_RE_Text_0": "Seafood is healthy, but it can be tasty too.",
-  "TowniesNeedFood_Caroline_SeafoodBonanza_RE_Text_1": "I suppose it's 'seafood bonanza' again.$h",
   "TowniesNeedFood_Caroline_SeafoodBonanza_Objective_Text_0": "Deliver Fish Taco to Caroline",
   "TowniesNeedFood_Caroline_SeafoodBonanza_Objective_Text_1": "Deliver Fried Eel to Caroline",
   "TowniesNeedFood_Caroline_SeafoodBonanza_Objective_Text_2": "Deliver Lobster Bisque to Caroline",
@@ -42,18 +34,14 @@
   // Clint Mild Snack Strings
   "TowniesNeedFood_Clint_MildSnack_Name": "Mild Snack",
   "TowniesNeedFood_Clint_MildSnack_Text": "I'm all out of snacks. Could someone bring me bread and artichoke dip?",
-  "TowniesNeedFood_Clint_MildSnack_RE_Text_0": "Bread and artichoke dip seemed like a good snack to try.#$b#I suppose I could also try spreading the dip on the bread.",
-  "TowniesNeedFood_Clint_MildSnack_RE_Text_1": "Artichoke dip and bread was such a good combination I'm in the mood for it again.$h",
   "TowniesNeedFood_Clint_MildSnack_Objective_Text_0": "Deliver Bread to Clint",
   "TowniesNeedFood_Clint_MildSnack_Objective_Text_1": "Deliver Artichoke Dip to Clint",
   "TowniesNeedFood_Clint_MildSnack_Message_0": "This looks great, thanks @.$h",
-  "TowniesNeedFood_Clint_MildSnack_Message_1": "Thank you!$h",
+  "TowniesNeedFood_Clint_MildSnack_Message_1": "Thank you!$h#$b#I suppose I could try spreading the dip on the bread.#$b#I'm not limited to literally dipping the bread.$h",
   //
   // Demetrius Dinner and Two Desserts Strings
   "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Name": "Dinner and Two Desserts",
   "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Text": "Greetings! I'd love to provide some options at dinner tonight. Could someone bring me bean hotpot, ice cream, and rice pudding? Thanks!",
-  "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_RE_Text_0": "I thought it was a good idea to mix things up and have variety for dessert.",
-  "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_RE_Text_1": "Dinner and 2 desserts was a hit, so I'm trying it out again.$h",
   "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Objective_Text_0": "Deliver Bean Hotpot to Demetrius",
   "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Objective_Text_1": "Deliver Ice Cream to Demetrius",
   "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Objective_Text_2": "Deliver Rice Pudding to Demetrius",
@@ -64,8 +52,6 @@
   // Elliott Meal Planning Strings
   "TowniesNeedFood_Elliott_MealPlanning_Name": "Meal Planning",
   "TowniesNeedFood_Elliott_MealPlanning_Text": "I'd be most grateful if someone could me with meal planning. I am in need of crab cakes, tom kha soup, and baked fish.",
-  "TowniesNeedFood_Elliott_MealPlanning_RE_Text_0": "I'd like to have a different dinner for three nights in a row.",
-  "TowniesNeedFood_Elliott_MealPlanning_RE_Text_1": "Meal planning went well last time.$h",
   "TowniesNeedFood_Elliott_MealPlanning_Objective_Text_0": "Deliver Crab Cake to Elliott",
   "TowniesNeedFood_Elliott_MealPlanning_Objective_Text_1": "Deliver Tom Kha Soup to Elliott",
   "TowniesNeedFood_Elliott_MealPlanning_Objective_Text_2": "Deliver Baked Fish to Elliott",
@@ -76,18 +62,14 @@
   // Emily Appetizer and Dinner Strings
   "TowniesNeedFood_Emily_AppetizerandDinner_Name": "Appetizer and Dinner",
   "TowniesNeedFood_Emily_AppetizerandDinner_Text": "Shrimp cocktail followed by survival burger may seem like a strange combination, but I'm interested!",
-  "TowniesNeedFood_Emily_AppetizerandDinner_RE_Text_0": "I think a shrimp cocktail appetizer will class up dinner.",
-  "TowniesNeedFood_Emily_AppetizerandDinner_RE_Text_1": "I enjoyed the shrimp cocktail and survival burger combination so much I'd like to try it again!",
   "TowniesNeedFood_Emily_AppetizerandDinner_Objective_Text_0": "Deliver Shrimp Cocktail to Emily",
   "TowniesNeedFood_Emily_AppetizerandDinner_Objective_Text_1": "Deliver Survival Burger to Emily",
-  "TowniesNeedFood_Emily_AppetizerandDinner_Message_0": "Great, thanks @!$h",
+  "TowniesNeedFood_Emily_AppetizerandDinner_Message_0": "I think a shrimp cocktail appetizer will class up dinner.#$b#Thanks @!$h",
   "TowniesNeedFood_Emily_AppetizerandDinner_Message_1": "Oooh, thanks @!$h",
   //
   // Evelyn Side and Dessert Strings
   "TowniesNeedFood_Evelyn_SideandDessert_Name": "Side and Dessert",
   "TowniesNeedFood_Evelyn_SideandDessert_Text": "I'm in need of a side and and a sweet treat to complete my meal. Could someone make stuffing and chocolate for me? Thanks!",
-  "TowniesNeedFood_Evelyn_SideandDessert_RE_Text_0": "I think meals are better with a side and dessert, don't you?",
-  "TowniesNeedFood_Evelyn_SideandDessert_RE_Text_1": "Stuffing and chocolate cake was a good pairing last time, so I'd like to try it again.",
   "TowniesNeedFood_Evelyn_SideandDessert_Objective_Text_0": "Deliver Stuffing to Evelyn",
   "TowniesNeedFood_Evelyn_SideandDessert_Objective_Text_1": "Deliver Chocolate Cake to Evelyn",
   "TowniesNeedFood_Evelyn_SideandDessert_Message_0": "This stuffing looks great. Thanks, @!$h",
@@ -96,38 +78,30 @@
   // George Some Favorites Strings
   "TowniesNeedFood_George_SomeFavorites_Name": "Some Favorites",
   "TowniesNeedFood_George_SomeFavorites_Text": "I'm interested in some of my favorite dishes, but I don't want to trouble Evelyn. Could someone bring me fried mushroom, chowder, and plum pudding?",
-  "TowniesNeedFood_George_SomeFavorites_RE_Text_0": "Evelyn does so much for me, but I'm hopeless in the kitchen.",
-  "TowniesNeedFood_George_SomeFavorites_RE_Text_1": "These special orders are great!$h",
   "TowniesNeedFood_George_SomeFavorites_Objective_Text_0": "Deliver Fried Mushroom to George",
   "TowniesNeedFood_George_SomeFavorites_Objective_Text_1": "Deliver Chowder to George",
   "TowniesNeedFood_George_SomeFavorites_Objective_Text_2": "Deliver Plum Pudding to George",
-  "TowniesNeedFood_George_SomeFavorites_Message_0": "I'm looking forward to this side dish, @.$h",
-  "TowniesNeedFood_George_SomeFavorites_Message_1": "Thank you @, I'm looking forward to this soup.$h",
+  "TowniesNeedFood_George_SomeFavorites_Message_0": "Evelyn does so much for me, but I'm hopeless in the kitchen.$2#$b#I'm looking forward to this side dish, @.$h",
+  "TowniesNeedFood_George_SomeFavorites_Message_1": "Thank you @, this soup should warm me up.$h",
   "TowniesNeedFood_George_SomeFavorites_Message_2": "Thank you @, you've made an old man happy.$h",
   //
   // Gus Unique Delicacies Strings
   "TowniesNeedFood_Gus_UniqueDelicacies_Name": "Unique Delicacies",
   "TowniesNeedFood_Gus_UniqueDelicacies_Text": "I'd love some escargot and fish tacos. Drop some off at the saloon and I'll be very grateful.",
-  "TowniesNeedFood_Gus_UniqueDelicacies_RE_Text_0": "Fish tacos are tasty.#$b#Escargot is tasty too! Who can say no to butter?$h",
-  "TowniesNeedFood_Gus_UniqueDelicacies_RE_Text_1": "I believe fish tacos and escargot are unique delicacies.",
   "TowniesNeedFood_Gus_UniqueDelicacies_Objective_Text_0": "Deliver Escargot to Gus",
   "TowniesNeedFood_Gus_UniqueDelicacies_Objective_Text_1": "Deliver Fish Taco to Gus",
-  "TowniesNeedFood_Gus_UniqueDelicacies_Message_0": "This looks great, thank you @!$h",
+  "TowniesNeedFood_Gus_UniqueDelicacies_Message_0": "Escargot is a unique delicacy! Who can say no to butter?$h#$b#Thank you @!$h",
   "TowniesNeedFood_Gus_UniqueDelicacies_Message_1": "This looks tasty, thank you @!$h",
   //
   // Gus Fragrant Curry Strings
   "TowniesNeedFood_Gus_FragrantCurry_Name": "Fragrant Curry",
   "TowniesNeedFood_Gus_FragrantCurry_Text": "I'd love tropical curry. Drop some off at the saloon and I'll be very grateful.",
-  "TowniesNeedFood_Gus_FragrantCurry_RE_Text_0": "Pineapple bowls are inventive, aren't they?",
-  "TowniesNeedFood_Gus_FragrantCurry_RE_Text_1": "I'm looking forward to another tropical curry$h.",
   "TowniesNeedFood_Gus_FragrantCurry_Objective_Text_0": "Deliver Tropical Curry to Gus",
   "TowniesNeedFood_Gus_FragrantCurry_Message_0": "This is fragrant, indeed. Thank you!$h",
   //
   // Haley Mostly Healthy Strings
   "TowniesNeedFood_Haley_MostlyHealthy_Name": "Mostly Healthy",
   "TowniesNeedFood_Haley_MostlyHealthy_Text": "I'll < you forever if you make a fruit salad and cranberry candy for me!",
-  "TowniesNeedFood_Haley_MostlyHealthy_RE_Text_0": "I like sweet foods, do you?",
-  "TowniesNeedFood_Haley_MostlyHealthy_RE_Text_1": "Both fruit salad and cranberry candy make good snacks.$h",
   "TowniesNeedFood_Haley_MostlyHealthy_Objective_Text_0": "Deliver Fruit Salad to Haley",
   "TowniesNeedFood_Haley_MostlyHealthy_Objective_Text_1": "Deliver Cranberry Candy to Haley",
   "TowniesNeedFood_Haley_MostlyHealthy_Message_0": "This fruit salad looks great, thanks @!$h",
@@ -136,32 +110,26 @@
   // Harvey Pick-me-up Strings
   "TowniesNeedFood_Harvey_Pickmeup_Name": "Pick-me-up",
   "TowniesNeedFood_Harvey_Pickmeup_Text": "I'm looking to raise my energy levels. Could someone bring me super meal, coleslaw, and triple shot espresso?",
-  "TowniesNeedFood_Harvey_Pickmeup_RE_Text_0": "It's good to get some vegetables in.#$b#The espresso is a splurge.$h",
-  "TowniesNeedFood_Harvey_Pickmeup_RE_Text_1": "Sometimes it takes me a combination of vegetables and caffeine to feel energized.",
   "TowniesNeedFood_Harvey_Pickmeup_Objective_Text_0": "Deliver Super Meal to Harvey",
   "TowniesNeedFood_Harvey_Pickmeup_Objective_Text_1": "Deliver Coleslaw to Harvey",
   "TowniesNeedFood_Harvey_Pickmeup_Objective_Text_2": "Deliver Triple Shot Espresso to Harvey",
-  "TowniesNeedFood_Harvey_Pickmeup_Message_0": "I'm looking forward to this meal, thanks @!$h",
+  "TowniesNeedFood_Harvey_Pickmeup_Message_0": "I'm looking forward to this energizing meal, thanks @!$h",
   "TowniesNeedFood_Harvey_Pickmeup_Message_1": "I'm looking forward to this healthy side dish, thanks @!$h",
   "TowniesNeedFood_Harvey_Pickmeup_Message_2": "Ah yes, this will perk me up. Thanks, @!$h",
   //
   // Jodi Three Square Meals Strings
   "TowniesNeedFood_Jodi_ThreeSquareMeals_Name": "Three Square Meals",
   "TowniesNeedFood_Jodi_ThreeSquareMeals_Text": "This week is tough. Could someone help me by making pancakes, crispy bass, and eggplant parmesan for me?",
-  "TowniesNeedFood_Jodi_ThreeSquareMeals_RE_Text_0": "Meal planning is good.",
-  "TowniesNeedFood_Jodi_ThreeSquareMeals_RE_Text_1": "Eating three meals a day is good for you.$h",
   "TowniesNeedFood_Jodi_ThreeSquareMeals_Objective_Text_0": "Deliver Pancakes to Jodi",
   "TowniesNeedFood_Jodi_ThreeSquareMeals_Objective_Text_1": "Deliver Crispy Bass to Jodi",
   "TowniesNeedFood_Jodi_ThreeSquareMeals_Objective_Text_2": "Deliver Eggplant Parmesan to Jodi",
-  "TowniesNeedFood_Jodi_ThreeSquareMeals_Message_0": "These look great, thanks @.",
+  "TowniesNeedFood_Jodi_ThreeSquareMeals_Message_0": "The boys will love this, thanks @.",
   "TowniesNeedFood_Jodi_ThreeSquareMeals_Message_1": "This looks good, thanks @.",
   "TowniesNeedFood_Jodi_ThreeSquareMeals_Message_2": "This will do, thanks @.",
   //
   // Kent Dinner and a Snack Strings
   "TowniesNeedFood_Kent_DinnerandaSnack_Name": "Dinner and a Snack",
   "TowniesNeedFood_Kent_DinnerandaSnack_Text": "I'd like some fiddlehead risotto and roasted hazelnuts, please.",
-  "TowniesNeedFood_Kent_DinnerandaSnack_RE_Text_0": "Fiddlehead risotto and roasted hazelnuts are my favorite things.",
-  "TowniesNeedFood_Kent_DinnerandaSnack_RE_Text_1": "Pairing fiddlehead risotto and roasted hazelnuts was a good choice.$h",
   "TowniesNeedFood_Kent_DinnerandaSnack_Objective_Text_0": "Deliver Fiddlehead Risotto to Kent",
   "TowniesNeedFood_Kent_DinnerandaSnack_Objective_Text_1": "Deliver Roasted Hazelnuts to Kent",
   "TowniesNeedFood_Kent_DinnerandaSnack_Message_0": "What? Oh, the risotto I asked for. Thanks @.$h",
@@ -170,20 +138,16 @@
   // Krobus Briny Pudding Strings
   "TowniesNeedFood_Krobus_BrinyPudding_Name": "Briny Pudding",
   "TowniesNeedFood_Krobus_BrinyPudding_Text": "Greetings, I'm interested in some seafoam pudding. Could someone in town drop some off at the sewer?",
-  "TowniesNeedFood_Krobus_BrinyPudding_RE_Text_0": "I enjoy briny pudding.",
-  "TowniesNeedFood_Krobus_BrinyPudding_RE_Text_1": "Seafoam pudding is very tasty.$h",
   "TowniesNeedFood_Krobus_BrinyPudding_Objective_Text_0": "Deliver Seafoam Pudding to Krobus",
   "TowniesNeedFood_Krobus_BrinyPudding_Message_0": "Oh @, you have my thanks!$h",
   //
   // Leah Fresh Veggies Strings
   "TowniesNeedFood_Leah_FreshVeggies_Name": "Fresh Veggies",
   "TowniesNeedFood_Leah_FreshVeggies_Text": "I've not had much luck getting the ingredients for my favorite dishes. Could someone make salad and stir fry for me?",
-  "TowniesNeedFood_Leah_FreshVeggies_RE_Text_0": "I feel so good after eating fresh vegetables.",
-  "TowniesNeedFood_Leah_FreshVeggies_RE_Text_1": "I should probably get around to learning how to julienne vegetables.#$b#Good thing the special board exists.$h",
   "TowniesNeedFood_Leah_FreshVeggies_Objective_Text_0": "Deliver Salad to Leah",
   "TowniesNeedFood_Leah_FreshVeggies_Objective_Text_1": "Deliver Stir Fry to Leah",
-  "TowniesNeedFood_Leah_FreshVeggies_Message_0": "Ah perfect, thanks @!$h",
-  "TowniesNeedFood_Leah_FreshVeggies_Message_1": "Oooh these look great, thanks @!$h",
+  "TowniesNeedFood_Leah_FreshVeggies_Message_0": "I love eating fresh vegetables, thanks @!$h",
+  "TowniesNeedFood_Leah_FreshVeggies_Message_1": "I should probably get around to learning how to julienne vegetables.#$b#Good thing the special board exists.$h#$b#These look great, thanks @!$h",
   //
   // Leo Sweet! Strings
   "TowniesNeedFood_Leo_Sweet_Name": "Sweet!",
@@ -194,8 +158,6 @@
   // Lewis Hearty Veggies Strings
   "TowniesNeedFood_Lewis_HeartyVeggies_Name": "Hearty Veggies",
   "TowniesNeedFood_Lewis_HeartyVeggies_Text": "Hi Pelican Town, I haven't had a healthy meal in a while. Could someone scrounge up autumn's bounty and vegetable medley for your favorite mayor?",
-  "TowniesNeedFood_Lewis_HeartyVeggies_RE_Text_0": "I'm looking forward to some nutrious meals.$h",
-  "TowniesNeedFood_Lewis_HeartyVeggies_RE_Text_1": "I'm in the mood for hearty vegetables again.$h",
   "TowniesNeedFood_Lewis_HeartyVeggies_Objective_Text_0": "Deliver Autumn's Bounty to Lewis",
   "TowniesNeedFood_Lewis_HeartyVeggies_Objective_Text_1": "Deliver Vegetable Medley to Lewis",
   "TowniesNeedFood_Lewis_HeartyVeggies_Message_0": "I'm looking forward to this so-called 'taste of the season.' Thanks, @!$h",
@@ -204,20 +166,16 @@
   // Linus Two Meals and One Dessert Strings
   "TowniesNeedFood_Linus_TwoMealsandOneDessert_Name": "Two Meals and One Dessert",
   "TowniesNeedFood_Linus_TwoMealsandOneDessert_Text": "I'd love some fish stew, dish o' the sea, and a blueberry tart. Could someone make some for me? =",
-  "TowniesNeedFood_Linus_TwoMealsandOneDessert_RE_Text_0": "Fish-based meals are healthy, but sometimes it's still nice to have a sweet treat.$h",
-  "TowniesNeedFood_Linus_TwoMealsandOneDessert_RE_Text_1": "I'm in the mood for fish and blueberries again.$h",
   "TowniesNeedFood_Linus_TwoMealsandOneDessert_Objective_Text_0": "Deliver Fish Stew to Linus",
   "TowniesNeedFood_Linus_TwoMealsandOneDessert_Objective_Text_1": "Deliver Dish o' The Sea to Linus",
   "TowniesNeedFood_Linus_TwoMealsandOneDessert_Objective_Text_2": "Deliver Blueberry Tart to Linus",
-  "TowniesNeedFood_Linus_TwoMealsandOneDessert_Message_0": "I appreciate this, @.$h",
+  "TowniesNeedFood_Linus_TwoMealsandOneDessert_Message_0": "I appreciate this, @. Fish-based meals are healthy.$h",
   "TowniesNeedFood_Linus_TwoMealsandOneDessert_Message_1": "This will help keep me warm. Thanks, @.$h",
   "TowniesNeedFood_Linus_TwoMealsandOneDessert_Message_2": "I'm grateful for this, @.$h",
   //
   // Marnie Lunch and Two Desserts Strings
   "TowniesNeedFood_Marnie_LunchandTwoDesserts_Name": "Lunch and 2 Desserts",
   "TowniesNeedFood_Marnie_LunchandTwoDesserts_Text": "Howdy neighbors! A farmer's lunch will help me power through my day, and some pink cake and pumpkin pie will provide some sweets for Jas and I (and Shane, if he's quick enough)! Help?",
-  "TowniesNeedFood_Marnie_LunchandTwoDesserts_RE_Text_0": "The farmer's lunch and pumpkin pie are for me, but I'd like to surprise Jas with pink cake.",
-  "TowniesNeedFood_Marnie_LunchandTwoDesserts_RE_Text_1": "The farmer's lunch and 2 desserts went over well, so I'm trying it out again.$h",
   "TowniesNeedFood_Marnie_LunchandTwoDesserts_Objective_Text_0": "Deliver Farmer's Lunch to Marnie",
   "TowniesNeedFood_Marnie_LunchandTwoDesserts_Objective_Text_1": "Deliver Pink Cake to Marnie",
   "TowniesNeedFood_Marnie_LunchandTwoDesserts_Objective_Text_2": "Deliver Pumpkin Pie to Marnie",
@@ -228,8 +186,6 @@
   // Maru My Favorite Foodstuffs Strings
   "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Name": "My Favorite Foodstuffs",
   "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Text": "I'm in the mood for some focus food. Could someone bring me cheese cauliflower, miner's treat, and rhubarb pie?",
-  "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_RE_Text_0": "Miner's treats are very energizing, cheese cauliflower is technically healthy...#$b#But rhubarb pie is just sweet.$h",
-  "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_RE_Text_1": "I'm in the mood for my focus food again.$h",
   "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Objective_Text_0": "Deliver Cheese Cauliflower to Maru",
   "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Objective_Text_1": "Deliver Miner's Treat to Maru",
   "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Objective_Text_2": "Deliver Rhubarb Pie to Maru",
@@ -240,8 +196,6 @@
   // Pam Roots Strings
   "TowniesNeedFood_Pam_Roots_Name": "Roots",
   "TowniesNeedFood_Pam_Roots_Text": "Howdy! I'm craving some starch. Could someone in this town help me out and make me some glazed yams, parsnip soup, and hashbrowns?",
-  "TowniesNeedFood_Pam_Roots_RE_Text_0": "Hint of caramel, fresh soup, and golden brown crisp...$0#$b#What? Food's on my mind I guess.$h",
-  "TowniesNeedFood_Pam_Roots_RE_Text_1": "I'm craving some starch again.$h",
   "TowniesNeedFood_Pam_Roots_Objective_Text_0": "Deliver Glazed Yams to Pam",
   "TowniesNeedFood_Pam_Roots_Objective_Text_1": "Deliver Parsnip Soup to Pam",
   "TowniesNeedFood_Pam_Roots_Objective_Text_2": "Deliver Hashbrowns to Pam",
@@ -252,42 +206,34 @@
   // Penny A Day's Meals Strings
   "TowniesNeedFood_Penny_ADaysMeals_Name": "A Day's Meals",
   "TowniesNeedFood_Penny_ADaysMeals_Text": "Hi, I'd love to plan one day's worth of meals. Could someone bring me poppyseed muffin, red plate, and roots platter, please?",
-  "TowniesNeedFood_Penny_ADaysMeals_RE_Text_0": "Red plate has so many antioxidants.",
-  "TowniesNeedFood_Penny_ADaysMeals_RE_Text_1": "I'd like to plan out one day's worth of meals again.$h",
   "TowniesNeedFood_Penny_ADaysMeals_Objective_Text_0": "Deliver Poppyseed Muffin to Penny",
   "TowniesNeedFood_Penny_ADaysMeals_Objective_Text_1": "Deliver Red Plate to Penny",
   "TowniesNeedFood_Penny_ADaysMeals_Objective_Text_2": "Deliver Roots Platter to Penny",
   "TowniesNeedFood_Penny_ADaysMeals_Message_0": "This is great, thanks @!$h",
-  "TowniesNeedFood_Penny_ADaysMeals_Message_1": "This looks delicious, thanks @!$h",
+  "TowniesNeedFood_Penny_ADaysMeals_Message_1": "Red plate has so many antioxidants.#$b#It also looks delicious, thanks @!$h",
   "TowniesNeedFood_Penny_ADaysMeals_Message_2": "Thanks, @! I'm looking forward to this.$h",
   //
   // Pierre Appetizer and Entree Strings
   "TowniesNeedFood_Pierre_AppetizerandEntree_Name": "Appetizer and Entrée",
   "TowniesNeedFood_Pierre_AppetizerandEntree_Text": "Could anyone make me some fried calamari and bruschetta?",
-  "TowniesNeedFood_Pierre_AppetizerandEntree_RE_Text_0": "Some people think calamari is chewy but I love it!$h",
-  "TowniesNeedFood_Pierre_AppetizerandEntree_RE_Text_1": "You wouldn't think calamari and bruschetta would go well together, but they do.$h",
   "TowniesNeedFood_Pierre_AppetizerandEntree_Objective_Text_0": "Deliver Fried Calamari to Pierre",
   "TowniesNeedFood_Pierre_AppetizerandEntree_Objective_Text_1": "Deliver Bruschetta to Pierre",
-  "TowniesNeedFood_Pierre_AppetizerandEntree_Message_0": "It's my favorite, you know. Thanks, @!$h",
+  "TowniesNeedFood_Pierre_AppetizerandEntree_Message_0": "Some people think calamari is chewy but I love it. Thanks, @!$h",
   "TowniesNeedFood_Pierre_AppetizerandEntree_Message_1": "Thank you, @!$h",
   //
   // Robin Family Buffet Strings
   "TowniesNeedFood_Robin_FamilyBuffet_Name": "Family Buffet",
   "TowniesNeedFood_Robin_FamilyBuffet_Text": "I'd love to have some options at dinner. Could someone make me spaghetti, radish salad, and carp surprise?",
-  "TowniesNeedFood_Robin_FamilyBuffet_RE_Text_0": "Demetrius has mentioned having variety is good at dinner.",
-  "TowniesNeedFood_Robin_FamilyBuffet_RE_Text_1": "Family buffet night was a success, so I'm trying it out again.$h",
   "TowniesNeedFood_Robin_FamilyBuffet_Objective_Text_0": "Deliver Spaghetti to Robin",
   "TowniesNeedFood_Robin_FamilyBuffet_Objective_Text_1": "Deliver Radish Salad to Robin",
   "TowniesNeedFood_Robin_FamilyBuffet_Objective_Text_2": "Deliver Carp Surprise to Robin",
-  "TowniesNeedFood_Robin_FamilyBuffet_Message_0": "Looks great, thank you @!$h",
+  "TowniesNeedFood_Robin_FamilyBuffet_Message_0": "This is an old favorite, thank you @!$h",
   "TowniesNeedFood_Robin_FamilyBuffet_Message_1": "Perfect, thank you @!$h",
-  "TowniesNeedFood_Robin_FamilyBuffet_Message_2": "Ah, thank you @!$h",
+  "TowniesNeedFood_Robin_FamilyBuffet_Message_2": "It might be an acquired taste, but I love it.$h#$b#Thank you @!$h",
   //
   // Sam Slice and Dessert Strings
   "TowniesNeedFood_Sam_SliceandDessert_Name": "Slice and Dessert",
   "TowniesNeedFood_Sam_SliceandDessert_Text": "I'm working on a project and need some fuel. Could someone bring me pizza and maple bar?",
-  "TowniesNeedFood_Sam_SliceandDessert_RE_Text_0": "Pizza is great brain food.$h#$b#And maple bars are the best donut.$h",
-  "TowniesNeedFood_Sam_SliceandDessert_RE_Text_1": "Slice and dessert, can't beat that combination.$h",
   "TowniesNeedFood_Sam_SliceandDessert_Objective_Text_0": "Deliver Pizza to Sam",
   "TowniesNeedFood_Sam_SliceandDessert_Objective_Text_1": "Deliver Maple Bar to Sam",
   "TowniesNeedFood_Sam_SliceandDessert_Message_0": "Alright, @!$h",
@@ -296,8 +242,6 @@
   // Sam Egg Wrap Strings
   "TowniesNeedFood_Sam_EggWrap_Name": "Egg Wrap",
   "TowniesNeedFood_Sam_EggWrap_Text": "Not quite an egg sandwich, but if someone could bring me fried egg and tortilla, I'd like to combine them.",
-  "TowniesNeedFood_Sam_EggWrap_RE_Text_0": "I figured I'd branch out and combine some low effort food.",
-  "TowniesNeedFood_Sam_EggWrap_RE_Text_1": "Egg and tortilla, good combination.$3",
   "TowniesNeedFood_Sam_EggWrap_Objective_Text_0": "Deliver Tortilla to Sam",
   "TowniesNeedFood_Sam_EggWrap_Objective_Text_1": "Deliver Fried Egg to Sam",
   "TowniesNeedFood_Sam_EggWrap_Message_0": "Heh, thanks @! Looking forward to combining this with the egg.$h",
@@ -312,8 +256,6 @@
   // Sebastian Lunch and Dinner Strings
   "TowniesNeedFood_Sebastian_LunchandDinner_Name": "Lunch and Dinner",
   "TowniesNeedFood_Sebastian_LunchandDinner_Text": "This is embarrassing; I love sashimi and pumpkin soup but I don't think I've mastered the recipes. Could someone bring me some?",
-  "TowniesNeedFood_Sebastian_LunchandDinner_RE_Text_0": "Sashimi and pumpkin soup are some of my favorite foods.$h#$b#What do you like to eat?$7",
-  "TowniesNeedFood_Sebastian_LunchandDinner_RE_Text_1": "Sashimi and pumpkin soup help get me through the day.$h",
   "TowniesNeedFood_Sebastian_LunchandDinner_Objective_Text_0": "Deliver Sashimi to Sebastian",
   "TowniesNeedFood_Sebastian_LunchandDinner_Objective_Text_1": "Deliver Pumpkin Soup to Sebastian",
   "TowniesNeedFood_Sebastian_LunchandDinner_Message_0": "Oh, hah... You made this for me? Thanks @!$l",
@@ -325,7 +267,5 @@
   "TowniesNeedFood_Shane_PeppersandPizza_Objective_Text_0": "Deliver Pepper Poppers to Shane",
   "TowniesNeedFood_Shane_PeppersandPizza_Objective_Text_1": "Deliver Pizza to Shane",
   "TowniesNeedFood_Shane_PeppersandPizza_Message_0": "Ah, these are the best. Thanks, @.$h",
-  "TowniesNeedFood_Shane_PeppersandPizza_RE_Message_0": "My favorite. Thanks @!$h",
   "TowniesNeedFood_Shane_PeppersandPizza_Message_1": "Ha, I wasn't sure anyone would take me up on the offer. Thanks, @.$h",
-  "TowniesNeedFood_Shane_PeppersandPizza_RE_Message_1": "I think the pizza will ease the burn of the peppers...$3#$b#Thanks @!$h",
 }
