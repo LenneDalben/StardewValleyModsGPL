@@ -60,7 +60,7 @@
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "Hearts:George": "7, 8, 9, 10",
-        "Season":"Fall"
+        "Season": "Fall"
       }
     },
     // Abigail Creamy Dessert Repeatable
@@ -173,7 +173,7 @@
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "Hearts:Gus": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Season":"Spring, Fall"
+        "Season": "Spring, Fall"
       }
     },
     // Caroline Seafood Bonanza Repeatable
@@ -246,7 +246,7 @@
         "Year | contains=1": false,
         "Hearts:Linus": "7, 8, 9, 10",
         "Hearts:George": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Season":"Spring, Fall"
+        "Season": "Spring, Fall"
       }
     },
     // Clint Mild Snack Repeatable
@@ -305,7 +305,8 @@
       },
       "When": {
         "Repeatable": "true",
-        "PlayerHasKitchen": true
+        "PlayerHasKitchen": true,
+        "Season": "Fall"
       }
     },
     // Demetrius Dinner and Two Desserts Repeatable
@@ -1126,7 +1127,7 @@
         "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Hearts:Emily": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14",
-        "Season":"Spring"
+        "Season": "Spring"
       }
     },
     // Leo Sweet! Repeatable
@@ -2278,7 +2279,7 @@
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "Hearts:George": "7, 8, 9, 10",
-        "Season":"Fall"
+        "Season": "Fall"
       }
     },
     // Abigail Creamy Dessert Not Repeatable
@@ -2391,7 +2392,7 @@
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "Hearts:Gus": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Season":"Spring, Fall"
+        "Season": "Spring, Fall"
       }
     },
     // Caroline Seafood Bonanza Not Repeatable
@@ -2464,7 +2465,7 @@
         "Year | contains=1": false,
         "Hearts:Linus": "7, 8, 9, 10",
         "Hearts:George": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Season":"Spring, Fall"
+        "Season": "Spring, Fall"
       }
     },
     // Clint Mild Snack Not Repeatable
@@ -2523,7 +2524,8 @@
       },
       "When": {
         "Repeatable": "false",
-        "PlayerHasKitchen": true
+        "PlayerHasKitchen": true,
+        "Season": "Fall"
       }
     },
     // Demetrius Dinner and Two Desserts Not Repeatable
@@ -3344,7 +3346,7 @@
         "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Hearts:Emily": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14",
-        "Season":"Spring"
+        "Season": "Spring"
       }
     },
     // Leo Sweet! Not Repeatable
