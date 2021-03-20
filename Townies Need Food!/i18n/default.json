@@ -268,4 +268,14 @@
   "TowniesNeedFood_Shane_PeppersandPizza_Objective_Text_1": "Deliver Pizza to Shane",
   "TowniesNeedFood_Shane_PeppersandPizza_Message_0": "Ah, these are the best. Thanks, @.$h",
   "TowniesNeedFood_Shane_PeppersandPizza_Message_1": "Ha, I wasn't sure anyone would take me up on the offer. Thanks, @.$h",
+  //
+  // Willy Daily Sustenance Strings
+  "TowniesNeedFood_Willy_DailySustenance_Name": "Daily Sustenance",
+  "TowniesNeedFood_Willy_DailySustenance_Text": "If someone could bring me omelet, maki roll, and trout soup, I'd appreciate it!",
+  "TowniesNeedFood_Willy_DailySustenance_Objective_Text_0": "Deliver Omelet to Willy",
+  "TowniesNeedFood_Willy_DailySustenance_Objective_Text_1": "Deliver Maki Roll to Willy",
+  "TowniesNeedFood_Willy_DailySustenance_Objective_Text_2": "Deliver Troup Soup to Willy",
+  "TowniesNeedFood_Willy_DailySustenance_Message_0": "Sometimes an omelet is all you need. Thanks @!$h",
+  "TowniesNeedFood_Willy_DailySustenance_Message_1": "Thanks @! Maki rolls are a simple delicious meal.$h",
+  "TowniesNeedFood_Willy_DailySustenance_Message_2": "This looks like excellent soup, thanks @!$h",
 }

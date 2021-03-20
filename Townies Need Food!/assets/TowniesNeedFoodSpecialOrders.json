@@ -2020,6 +2020,75 @@
         "Hearts:Shane": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
       }
     },
+    // Willy Daily Sustenance Repeatable
+    {
+      "LogName": "Willy Daily Sustenance - Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Willy_DailySustenance": {
+          "Name": "[TowniesNeedFood_Willy_DailySustenance_Name]",
+          "Requester": "Willy",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Willy_DailySustenance_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Willy_DailySustenance_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_omelet",
+                "Message": "[TowniesNeedFood_Willy_DailySustenance_Message_0]",
+                "TargetName": "Willy"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Willy_DailySustenance_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_maki_roll",
+                "Message": "[TowniesNeedFood_Willy_DailySustenance_Message_1]",
+                "TargetName": "Willy"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Willy_DailySustenance_Objective_Text_2]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_trout_soup",
+                "Message": "[TowniesNeedFood_Willy_DailySustenance_Message_2]",
+                "TargetName": "Willy"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1335"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "true",
+        "PlayerHasKitchen": true
+      }
+    },
     //
     // Not Repeatable special orders listed below (the same kind of order, just with Repeatable set to false)
     //
@@ -4040,6 +4109,75 @@
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "Hearts:Shane": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+      }
+    },
+    // Willy Daily Sustenance Not Repeatable
+    {
+      "LogName": "Willy Daily Sustenance - Not Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Willy_DailySustenance": {
+          "Name": "[TowniesNeedFood_Willy_DailySustenance_Name]",
+          "Requester": "Willy",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Willy_DailySustenance_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Willy_DailySustenance_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_omelet",
+                "Message": "[TowniesNeedFood_Willy_DailySustenance_Message_0]",
+                "TargetName": "Willy"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Willy_DailySustenance_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_maki_roll",
+                "Message": "[TowniesNeedFood_Willy_DailySustenance_Message_1]",
+                "TargetName": "Willy"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Willy_DailySustenance_Objective_Text_2]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_trout_soup",
+                "Message": "[TowniesNeedFood_Willy_DailySustenance_Message_2]",
+                "TargetName": "Willy"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1335"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "false",
+        "PlayerHasKitchen": true
       }
     },
   ]
