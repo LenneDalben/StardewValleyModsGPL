@@ -643,7 +643,8 @@
         "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Hearts:Demetrius": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Hearts:Willy": "3, 4, 5, 6, 7, 8, 9, 10"
+        "Hearts:Willy": "3, 4, 5, 6, 7, 8, 9, 10",
+        "Season": "Fall, Winter"
       }
     },
     // Gus Unique Delicacies Repeatable
@@ -2863,7 +2864,8 @@
         "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Hearts:Demetrius": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Hearts:Willy": "3, 4, 5, 6, 7, 8, 9, 10"
+        "Hearts:Willy": "3, 4, 5, 6, 7, 8, 9, 10",
+        "Season": "Fall, Winter"
       }
     },
     // Gus Unique Delicacies Not Repeatable
