@@ -478,5 +478,21 @@
         "TowniesNeedFood_Willy_DailySustenance_Message_2": "{{i18n:TowniesNeedFood_Willy_DailySustenance_Message_2}}"
       }
     },
+    // Wizard Luck and Sweets Strings
+    {
+      "LogName": "Wizard Luck and Sweets Strings",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Wizard_LuckandSweets_Name": "{{i18n:TowniesNeedFood_Wizard_LuckandSweets_Name}}",
+        "TowniesNeedFood_Wizard_LuckandSweets_Text": "{{i18n:TowniesNeedFood_Wizard_LuckandSweets_Text}}",
+        "TowniesNeedFood_Wizard_LuckandSweets_Objective_Text_0": "{{i18n:TowniesNeedFood_Wizard_LuckandSweets_Objective_Text_0}}",
+        "TowniesNeedFood_Wizard_LuckandSweets_Objective_Text_1": "{{i18n:TowniesNeedFood_Wizard_LuckandSweets_Objective_Text_1}}",
+        "TowniesNeedFood_Wizard_LuckandSweets_Objective_Text_2": "{{i18n:TowniesNeedFood_Wizard_LuckandSweets_Objective_Text_2}}",
+        "TowniesNeedFood_Wizard_LuckandSweets_Message_0": "{{i18n:TowniesNeedFood_Wizard_LuckandSweets_Message_0}}",
+        "TowniesNeedFood_Wizard_LuckandSweets_Message_1": "{{i18n:TowniesNeedFood_Wizard_LuckandSweets_Message_1}}",
+        "TowniesNeedFood_Wizard_LuckandSweets_Message_2": "{{i18n:TowniesNeedFood_Wizard_LuckandSweets_Message_2}}"
+      }
+    },
   ]
 }

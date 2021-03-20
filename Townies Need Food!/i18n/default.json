@@ -278,4 +278,14 @@
   "TowniesNeedFood_Willy_DailySustenance_Message_0": "Sometimes an omelet is all you need. Thanks @!$h",
   "TowniesNeedFood_Willy_DailySustenance_Message_1": "Thanks @! Maki rolls are a simple delicious meal.$h",
   "TowniesNeedFood_Willy_DailySustenance_Message_2": "This looks like excellent soup, thanks @!$h",
+  //
+  // Wizard Luck and Sweets Strings
+  "TowniesNeedFood_Wizard_LuckandSweets_Name": "Luck and Sweets",
+  "TowniesNeedFood_Wizard_LuckandSweets_Text": "Local wizard in search of a magnificent lucky lunch, cookies, and cranberry sauce. They have very interesting properties, you know.",
+  "TowniesNeedFood_Wizard_LuckandSweets_Objective_Text_0": "Deliver Lucky Lunch to Wizard",
+  "TowniesNeedFood_Wizard_LuckandSweets_Objective_Text_1": "Deliver Cookies to Wizard",
+  "TowniesNeedFood_Wizard_LuckandSweets_Objective_Text_2": "Deliver Cranberry Sauce to Wizard",
+  "TowniesNeedFood_Wizard_LuckandSweets_Message_0": "Excellent, thank you @!$h",
+  "TowniesNeedFood_Wizard_LuckandSweets_Message_1": "Ah, @, these will do!$h",
+  "TowniesNeedFood_Wizard_LuckandSweets_Message_2": "Oh @, this looks wonderful!$h",
 }
