@@ -172,7 +172,8 @@
         "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
-        "Hearts:Gus": "3, 4, 5, 6, 7, 8, 9, 10"
+        "Hearts:Gus": "3, 4, 5, 6, 7, 8, 9, 10",
+        "Season":"Spring, Fall"
       }
     },
     // Caroline Seafood Bonanza Repeatable
@@ -2388,7 +2389,8 @@
         "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
-        "Hearts:Gus": "3, 4, 5, 6, 7, 8, 9, 10"
+        "Hearts:Gus": "3, 4, 5, 6, 7, 8, 9, 10",
+        "Season":"Spring, Fall"
       }
     },
     // Caroline Seafood Bonanza Not Repeatable
