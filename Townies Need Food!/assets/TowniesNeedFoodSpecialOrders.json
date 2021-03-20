@@ -705,7 +705,8 @@
         "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Hearts:Willy": "5, 6, 7, 8, 9, 10",
-        "Hearts:Linus": "7, 8, 9, 10"
+        "Hearts:Linus": "7, 8, 9, 10",
+        "Season": "Spring"
       }
     },
     // Gus Fragrant Curry Repeatable
@@ -2926,7 +2927,8 @@
         "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Hearts:Willy": "5, 6, 7, 8, 9, 10",
-        "Hearts:Linus": "7, 8, 9, 10"
+        "Hearts:Linus": "7, 8, 9, 10",
+        "Season": "Spring"
       }
     },
     // Gus Fragrant Curry Not Repeatable
