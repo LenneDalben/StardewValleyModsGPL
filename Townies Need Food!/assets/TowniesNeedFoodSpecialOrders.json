@@ -2208,7 +2208,7 @@
       "When": {
         "Repeatable": "true",
         "PlayerHasKitchen": true,
-        "SkillLevelCombat": "9, 10"
+        "SkillLevel:Combat": "9, 10"
       }
     },
     //
@@ -4421,7 +4421,7 @@
       "When": {
         "Repeatable": "false",
         "PlayerHasKitchen": true,
-        "SkillLevelCombat": "9, 10"
+        "SkillLevel:Combat": "9, 10"
       }
     },
   ]
