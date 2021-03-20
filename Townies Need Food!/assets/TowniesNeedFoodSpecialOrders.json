@@ -2106,7 +2106,8 @@
       },
       "When": {
         "Repeatable": "true",
-        "PlayerHasKitchen": true
+        "PlayerHasKitchen": true,
+        "Season": "Summer"
       }
     },
     // Wizard Luck and Sweets Repeatable
@@ -4339,7 +4340,8 @@
       },
       "When": {
         "Repeatable": "false",
-        "PlayerHasKitchen": true
+        "PlayerHasKitchen": true,
+        "Season": "Summer"
       }
     },
     // Wizard Luck and Sweets Not Repeatable
