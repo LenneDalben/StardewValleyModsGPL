@@ -7,6 +7,13 @@
       "Default": "true",
       "AllowBlank": false,
       "AllowMultiple": false
+    },
+    "IncludeIslandContent": {
+      "Description": "Specify if you want the special orders to include recipes from the island (true, false). Default is true.",
+      "AllowValues": "true, false",
+      "Default": "true",
+      "AllowBlank": false,
+      "AllowMultiple": false
     }
   },
   "DynamicTokens": [
