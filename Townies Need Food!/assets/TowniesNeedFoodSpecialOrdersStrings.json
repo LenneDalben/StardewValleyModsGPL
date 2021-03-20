@@ -8,8 +8,6 @@
       "Entries": {
         "TowniesNeedFood_Abigail_SweetandSpicy_Name": "{{i18n:TowniesNeedFood_Abigail_SweetandSpicy_Name}}",
         "TowniesNeedFood_Abigail_SweetandSpicy_Text": "{{i18n:TowniesNeedFood_Abigail_SweetandSpicy_Text}}",
-        "TowniesNeedFood_Abigail_SweetandSpicy_RE_Text_0": "{{i18n:TowniesNeedFood_Abigail_SweetandSpicy_RE_Text_0}}",
-        "TowniesNeedFood_Abigail_SweetandSpicy_RE_Text_1": "{{i18n:TowniesNeedFood_Abigail_SweetandSpicy_RE_Text_1}}",
         "TowniesNeedFood_Abigail_SweetandSpicy_Objective_Text_0": "{{i18n:TowniesNeedFood_Abigail_SweetandSpicy_Objective_Text_0}}",
         "TowniesNeedFood_Abigail_SweetandSpicy_Objective_Text_1": "{{i18n:TowniesNeedFood_Abigail_SweetandSpicy_Objective_Text_1}}",
         "TowniesNeedFood_Abigail_SweetandSpicy_Message_0": "{{i18n:TowniesNeedFood_Abigail_SweetandSpicy_Message_0}}",
@@ -24,8 +22,6 @@
       "Entries": {
         "TowniesNeedFood_Abigail_CreamyDessert_Name": "{{i18n:TowniesNeedFood_Abigail_CreamyDessert_Name}}",
         "TowniesNeedFood_Abigail_CreamyDessert_Text": "{{i18n:TowniesNeedFood_Abigail_CreamyDessert_Text}}",
-        "TowniesNeedFood_Abigail_CreamyDessert_RE_Text_0": "{{i18n:TowniesNeedFood_Abigail_CreamyDessert_RE_Text_0}}",
-        "TowniesNeedFood_Abigail_CreamyDessert_RE_Text_1": "{{i18n:TowniesNeedFood_Abigail_CreamyDessert_RE_Text_1}}",
         "TowniesNeedFood_Abigail_CreamyDessert_Objective_Text_0": "{{i18n:TowniesNeedFood_Abigail_CreamyDessert_Objective_Text_0}}",
         "TowniesNeedFood_Abigail_CreamyDessert_Message_0": "{{i18n:TowniesNeedFood_Abigail_CreamyDessert_Message_0}}"
       }
@@ -38,8 +34,6 @@
       "Entries": {
         "TowniesNeedFood_Alex_GoodEating_Name": "{{i18n:TowniesNeedFood_Alex_GoodEating_Name}}",
         "TowniesNeedFood_Alex_GoodEating_Text": "{{i18n:TowniesNeedFood_Alex_GoodEating_Text}}",
-        "TowniesNeedFood_Alex_GoodEating_RE_Text_0": "{{i18n:TowniesNeedFood_Alex_GoodEating_RE_Text_0}}",
-        "TowniesNeedFood_Alex_GoodEating_RE_Text_1": "{{i18n:TowniesNeedFood_Alex_GoodEating_RE_Text_1}}",
         "TowniesNeedFood_Alex_GoodEating_Objective_Text_0": "{{i18n:TowniesNeedFood_Alex_GoodEating_Objective_Text_0}}",
         "TowniesNeedFood_Alex_GoodEating_Objective_Text_1": "{{i18n:TowniesNeedFood_Alex_GoodEating_Objective_Text_1}}",
         "TowniesNeedFood_Alex_GoodEating_Message_0": "{{i18n:TowniesNeedFood_Alex_GoodEating_Message_0}}",
@@ -54,8 +48,6 @@
       "Entries": {
         "TowniesNeedFood_Caroline_SeafoodBonanza_Name": "{{i18n:TowniesNeedFood_Caroline_SeafoodBonanza_Name}}",
         "TowniesNeedFood_Caroline_SeafoodBonanza_Text": "{{i18n:TowniesNeedFood_Caroline_SeafoodBonanza_Text}}",
-        "TowniesNeedFood_Caroline_SeafoodBonanza_RE_Text_0": "{{i18n:TowniesNeedFood_Caroline_SeafoodBonanza_RE_Text_0}}",
-        "TowniesNeedFood_Caroline_SeafoodBonanza_RE_Text_1": "{{i18n:TowniesNeedFood_Caroline_SeafoodBonanza_RE_Text_1}}",
         "TowniesNeedFood_Caroline_SeafoodBonanza_Objective_Text_0": "{{i18n:TowniesNeedFood_Caroline_SeafoodBonanza_Objective_Text_0}}",
         "TowniesNeedFood_Caroline_SeafoodBonanza_Objective_Text_1": "{{i18n:TowniesNeedFood_Caroline_SeafoodBonanza_Objective_Text_1}}",
         "TowniesNeedFood_Caroline_SeafoodBonanza_Objective_Text_2": "{{i18n:TowniesNeedFood_Caroline_SeafoodBonanza_Objective_Text_2}}",
@@ -72,8 +64,6 @@
       "Entries": {
         "TowniesNeedFood_Clint_MildSnack_Name": "{{i18n:TowniesNeedFood_Clint_MildSnack_Name}}",
         "TowniesNeedFood_Clint_MildSnack_Text": "{{i18n:TowniesNeedFood_Clint_MildSnack_Text}}",
-        "TowniesNeedFood_Clint_MildSnack_RE_Text_0": "{{i18n:TowniesNeedFood_Clint_MildSnack_RE_Text_0}}",
-        "TowniesNeedFood_Clint_MildSnack_RE_Text_1": "{{i18n:TowniesNeedFood_Clint_MildSnack_RE_Text_1}}",
         "TowniesNeedFood_Clint_MildSnack_Objective_Text_0": "{{i18n:TowniesNeedFood_Clint_MildSnack_Objective_Text_0}}",
         "TowniesNeedFood_Clint_MildSnack_Objective_Text_1": "{{i18n:TowniesNeedFood_Clint_MildSnack_Objective_Text_1}}",
         "TowniesNeedFood_Clint_MildSnack_Message_0": "{{i18n:TowniesNeedFood_Clint_MildSnack_Message_0}}",
@@ -88,8 +78,6 @@
       "Entries": {
         "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Name": "{{i18n:TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Name}}",
         "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Text": "{{i18n:TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Text}}",
-        "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_RE_Text_0": "{{i18n:TowniesNeedFood_Demetrius_DinnerandTwoDesserts_RE_Text_0}}",
-        "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_RE_Text_1": "{{i18n:TowniesNeedFood_Demetrius_DinnerandTwoDesserts_RE_Text_1}}",
         "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Objective_Text_0": "{{i18n:TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Objective_Text_0}}",
         "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Objective_Text_1": "{{i18n:TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Objective_Text_1}}",
         "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Objective_Text_2": "{{i18n:TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Objective_Text_2}}",
@@ -106,8 +94,6 @@
       "Entries": {
         "TowniesNeedFood_Elliott_MealPlanning_Name": "{{i18n:TowniesNeedFood_Elliott_MealPlanning_Name}}",
         "TowniesNeedFood_Elliott_MealPlanning_Text": "{{i18n:TowniesNeedFood_Elliott_MealPlanning_Text}}",
-        "TowniesNeedFood_Elliott_MealPlanning_RE_Text_0": "{{i18n:TowniesNeedFood_Elliott_MealPlanning_RE_Text_0}}",
-        "TowniesNeedFood_Elliott_MealPlanning_RE_Text_1": "{{i18n:TowniesNeedFood_Elliott_MealPlanning_RE_Text_1}}",
         "TowniesNeedFood_Elliott_MealPlanning_Objective_Text_0": "{{i18n:TowniesNeedFood_Elliott_MealPlanning_Objective_Text_0}}",
         "TowniesNeedFood_Elliott_MealPlanning_Objective_Text_1": "{{i18n:TowniesNeedFood_Elliott_MealPlanning_Objective_Text_1}}",
         "TowniesNeedFood_Elliott_MealPlanning_Objective_Text_2": "{{i18n:TowniesNeedFood_Elliott_MealPlanning_Objective_Text_2}}",
@@ -124,8 +110,6 @@
       "Entries": {
         "TowniesNeedFood_Emily_AppetizerandDinner_Name": "{{i18n:TowniesNeedFood_Emily_AppetizerandDinner_Name}}",
         "TowniesNeedFood_Emily_AppetizerandDinner_Text": "{{i18n:TowniesNeedFood_Emily_AppetizerandDinner_Text}}",
-        "TowniesNeedFood_Emily_AppetizerandDinner_RE_Text_0": "{{i18n:TowniesNeedFood_Emily_AppetizerandDinner_RE_Text_0}}",
-        "TowniesNeedFood_Emily_AppetizerandDinner_RE_Text_1": "{{i18n:TowniesNeedFood_Emily_AppetizerandDinner_RE_Text_1}}",
         "TowniesNeedFood_Emily_AppetizerandDinner_Objective_Text_0": "{{i18n:TowniesNeedFood_Emily_AppetizerandDinner_Objective_Text_0}}",
         "TowniesNeedFood_Emily_AppetizerandDinner_Objective_Text_1": "{{i18n:TowniesNeedFood_Emily_AppetizerandDinner_Objective_Text_1}}",
         "TowniesNeedFood_Emily_AppetizerandDinner_Message_0": "{{i18n:TowniesNeedFood_Emily_AppetizerandDinner_Message_0}}",
@@ -140,8 +124,6 @@
       "Entries": {
         "TowniesNeedFood_Evelyn_SideandDessert_Name": "{{i18n:TowniesNeedFood_Evelyn_SideandDessert_Name}}",
         "TowniesNeedFood_Evelyn_SideandDessert_Text": "{{i18n:TowniesNeedFood_Evelyn_SideandDessert_Text}}",
-        "TowniesNeedFood_Evelyn_SideandDessert_RE_Text_0": "{{i18n:TowniesNeedFood_Evelyn_SideandDessert_RE_Text_0}}",
-        "TowniesNeedFood_Evelyn_SideandDessert_RE_Text_1": "{{i18n:TowniesNeedFood_Evelyn_SideandDessert_RE_Text_1}}",
         "TowniesNeedFood_Evelyn_SideandDessert_Objective_Text_0": "{{i18n:TowniesNeedFood_Evelyn_SideandDessert_Objective_Text_0}}",
         "TowniesNeedFood_Evelyn_SideandDessert_Objective_Text_1": "{{i18n:TowniesNeedFood_Evelyn_SideandDessert_Objective_Text_1}}",
         "TowniesNeedFood_Evelyn_SideandDessert_Message_0": "{{i18n:TowniesNeedFood_Evelyn_SideandDessert_Message_0}}",
@@ -156,8 +138,6 @@
       "Entries": {
         "TowniesNeedFood_George_SomeFavorites_Name": "{{i18n:TowniesNeedFood_George_SomeFavorites_Name}}",
         "TowniesNeedFood_George_SomeFavorites_Text": "{{i18n:TowniesNeedFood_George_SomeFavorites_Text}}",
-        "TowniesNeedFood_George_SomeFavorites_RE_Text_0": "{{i18n:TowniesNeedFood_George_SomeFavorites_RE_Text_0}}",
-        "TowniesNeedFood_George_SomeFavorites_RE_Text_1": "{{i18n:TowniesNeedFood_George_SomeFavorites_RE_Text_1}}",
         "TowniesNeedFood_George_SomeFavorites_Objective_Text_0": "{{i18n:TowniesNeedFood_George_SomeFavorites_Objective_Text_0}}",
         "TowniesNeedFood_George_SomeFavorites_Objective_Text_1": "{{i18n:TowniesNeedFood_George_SomeFavorites_Objective_Text_1}}",
         "TowniesNeedFood_George_SomeFavorites_Objective_Text_2": "{{i18n:TowniesNeedFood_George_SomeFavorites_Objective_Text_2}}",
@@ -174,8 +154,6 @@
       "Entries": {
         "TowniesNeedFood_Gus_UniqueDelicacies_Name": "{{i18n:TowniesNeedFood_Gus_UniqueDelicacies_Name}}",
         "TowniesNeedFood_Gus_UniqueDelicacies_Text": "{{i18n:TowniesNeedFood_Gus_UniqueDelicacies_Text}}",
-        "TowniesNeedFood_Gus_UniqueDelicacies_RE_Text_0": "{{i18n:TowniesNeedFood_Gus_UniqueDelicacies_RE_Text_0}}",
-        "TowniesNeedFood_Gus_UniqueDelicacies_RE_Text_1": "{{i18n:TowniesNeedFood_Gus_UniqueDelicacies_RE_Text_1}}",
         "TowniesNeedFood_Gus_UniqueDelicacies_Objective_Text_0": "{{i18n:TowniesNeedFood_Gus_UniqueDelicacies_Objective_Text_0}}",
         "TowniesNeedFood_Gus_UniqueDelicacies_Objective_Text_1": "{{i18n:TowniesNeedFood_Gus_UniqueDelicacies_Objective_Text_1}}",
         "TowniesNeedFood_Gus_UniqueDelicacies_Message_0": "{{i18n:TowniesNeedFood_Gus_UniqueDelicacies_Message_0}}",
@@ -190,8 +168,6 @@
       "Entries": {
         "TowniesNeedFood_Gus_FragrantCurry_Name": "{{i18n:TowniesNeedFood_Gus_FragrantCurry_Name}}",
         "TowniesNeedFood_Gus_FragrantCurry_Text": "{{i18n:TowniesNeedFood_Gus_FragrantCurry_Text}}",
-        "TowniesNeedFood_Gus_FragrantCurry_RE_Text_0": "{{i18n:TowniesNeedFood_Gus_FragrantCurry_RE_Text_0}}",
-        "TowniesNeedFood_Gus_FragrantCurry_RE_Text_1": "{{i18n:TowniesNeedFood_Gus_FragrantCurry_RE_Text_1}}",
         "TowniesNeedFood_Gus_FragrantCurry_Objective_Text_0": "{{i18n:TowniesNeedFood_Gus_FragrantCurry_Objective_Text_0}}",
         "TowniesNeedFood_Gus_FragrantCurry_Message_0": "{{i18n:TowniesNeedFood_Gus_FragrantCurry_Message_0}}"
       }
@@ -204,8 +180,6 @@
       "Entries": {
         "TowniesNeedFood_Haley_MostlyHealthy_Name": "{{i18n:TowniesNeedFood_Haley_MostlyHealthy_Name}}",
         "TowniesNeedFood_Haley_MostlyHealthy_Text": "{{i18n:TowniesNeedFood_Haley_MostlyHealthy_Text}}",
-        "TowniesNeedFood_Haley_MostlyHealthy_RE_Text_0": "{{i18n:TowniesNeedFood_Haley_MostlyHealthy_RE_Text_0}}",
-        "TowniesNeedFood_Haley_MostlyHealthy_RE_Text_1": "{{i18n:TowniesNeedFood_Haley_MostlyHealthy_RE_Text_1}}",
         "TowniesNeedFood_Haley_MostlyHealthy_Objective_Text_0": "{{i18n:TowniesNeedFood_Haley_MostlyHealthy_Objective_Text_0}}",
         "TowniesNeedFood_Haley_MostlyHealthy_Objective_Text_1": "{{i18n:TowniesNeedFood_Haley_MostlyHealthy_Objective_Text_1}}",
         "TowniesNeedFood_Haley_MostlyHealthy_Message_0": "{{i18n:TowniesNeedFood_Haley_MostlyHealthy_Message_0}}",
@@ -220,8 +194,6 @@
       "Entries": {
         "TowniesNeedFood_Harvey_Pickmeup_Name": "{{i18n:TowniesNeedFood_Harvey_Pickmeup_Name}}",
         "TowniesNeedFood_Harvey_Pickmeup_Text": "{{i18n:TowniesNeedFood_Harvey_Pickmeup_Text}}",
-        "TowniesNeedFood_Harvey_Pickmeup_RE_Text_0": "{{i18n:TowniesNeedFood_Harvey_Pickmeup_RE_Text_0}}",
-        "TowniesNeedFood_Harvey_Pickmeup_RE_Text_1": "{{i18n:TowniesNeedFood_Harvey_Pickmeup_RE_Text_1}}",
         "TowniesNeedFood_Harvey_Pickmeup_Objective_Text_0": "{{i18n:TowniesNeedFood_Harvey_Pickmeup_Objective_Text_0}}",
         "TowniesNeedFood_Harvey_Pickmeup_Objective_Text_1": "{{i18n:TowniesNeedFood_Harvey_Pickmeup_Objective_Text_1}}",
         "TowniesNeedFood_Harvey_Pickmeup_Objective_Text_2": "{{i18n:TowniesNeedFood_Harvey_Pickmeup_Objective_Text_2}}",
@@ -238,8 +210,6 @@
       "Entries": {
         "TowniesNeedFood_Jodi_ThreeSquareMeals_Name": "{{i18n:TowniesNeedFood_Jodi_ThreeSquareMeals_Name}}",
         "TowniesNeedFood_Jodi_ThreeSquareMeals_Text": "{{i18n:TowniesNeedFood_Jodi_ThreeSquareMeals_Text}}",
-        "TowniesNeedFood_Jodi_ThreeSquareMeals_RE_Text_0": "{{i18n:TowniesNeedFood_Jodi_ThreeSquareMeals_RE_Text_0}}",
-        "TowniesNeedFood_Jodi_ThreeSquareMeals_RE_Text_1": "{{i18n:TowniesNeedFood_Jodi_ThreeSquareMeals_RE_Text_1}}",
         "TowniesNeedFood_Jodi_ThreeSquareMeals_Objective_Text_0": "{{i18n:TowniesNeedFood_Jodi_ThreeSquareMeals_Objective_Text_0}}",
         "TowniesNeedFood_Jodi_ThreeSquareMeals_Objective_Text_1": "{{i18n:TowniesNeedFood_Jodi_ThreeSquareMeals_Objective_Text_1}}",
         "TowniesNeedFood_Jodi_ThreeSquareMeals_Objective_Text_2": "{{i18n:TowniesNeedFood_Jodi_ThreeSquareMeals_Objective_Text_2}}",
@@ -256,8 +226,6 @@
       "Entries": {
         "TowniesNeedFood_Kent_DinnerandaSnack_Name": "{{i18n:TowniesNeedFood_Kent_DinnerandaSnack_Name}}",
         "TowniesNeedFood_Kent_DinnerandaSnack_Text": "{{i18n:TowniesNeedFood_Kent_DinnerandaSnack_Text}}",
-        "TowniesNeedFood_Kent_DinnerandaSnack_RE_Text_0": "{{i18n:TowniesNeedFood_Kent_DinnerandaSnack_RE_Text_0}}",
-        "TowniesNeedFood_Kent_DinnerandaSnack_RE_Text_1": "{{i18n:TowniesNeedFood_Kent_DinnerandaSnack_RE_Text_1}}",
         "TowniesNeedFood_Kent_DinnerandaSnack_Objective_Text_0": "{{i18n:TowniesNeedFood_Kent_DinnerandaSnack_Objective_Text_0}}",
         "TowniesNeedFood_Kent_DinnerandaSnack_Objective_Text_1": "{{i18n:TowniesNeedFood_Kent_DinnerandaSnack_Objective_Text_1}}",
         "TowniesNeedFood_Kent_DinnerandaSnack_Message_0": "{{i18n:TowniesNeedFood_Kent_DinnerandaSnack_Message_0}}",
@@ -272,8 +240,6 @@
       "Entries": {
         "TowniesNeedFood_Krobus_BrinyPudding_Name": "{{i18n:TowniesNeedFood_Krobus_BrinyPudding_Name}}",
         "TowniesNeedFood_Krobus_BrinyPudding_Text": "{{i18n:TowniesNeedFood_Krobus_BrinyPudding_Text}}",
-        "TowniesNeedFood_Krobus_BrinyPudding_RE_Text_0": "{{i18n:TowniesNeedFood_Krobus_BrinyPudding_RE_Text_0}}",
-        "TowniesNeedFood_Krobus_BrinyPudding_RE_Text_1": "{{i18n:TowniesNeedFood_Krobus_BrinyPudding_RE_Text_1}}",
         "TowniesNeedFood_Krobus_BrinyPudding_Objective_Text_0": "{{i18n:TowniesNeedFood_Krobus_BrinyPudding_Objective_Text_0}}",
         "TowniesNeedFood_Krobus_BrinyPudding_Message_0": "{{i18n:TowniesNeedFood_Krobus_BrinyPudding_Message_0}}"
       }
@@ -286,8 +252,6 @@
       "Entries": {
         "TowniesNeedFood_Leah_FreshVeggies_Name": "{{i18n:TowniesNeedFood_Leah_FreshVeggies_Name}}",
         "TowniesNeedFood_Leah_FreshVeggies_Text": "{{i18n:TowniesNeedFood_Leah_FreshVeggies_Text}}",
-        "TowniesNeedFood_Leah_FreshVeggies_RE_Text_0": "{{i18n:TowniesNeedFood_Leah_FreshVeggies_RE_Text_0}}",
-        "TowniesNeedFood_Leah_FreshVeggies_RE_Text_1": "{{i18n:TowniesNeedFood_Leah_FreshVeggies_RE_Text_1}}",
         "TowniesNeedFood_Leah_FreshVeggies_Objective_Text_0": "{{i18n:TowniesNeedFood_Leah_FreshVeggies_Objective_Text_0}}",
         "TowniesNeedFood_Leah_FreshVeggies_Objective_Text_1": "{{i18n:TowniesNeedFood_Leah_FreshVeggies_Objective_Text_1}}",
         "TowniesNeedFood_Leah_FreshVeggies_Message_0": "{{i18n:TowniesNeedFood_Leah_FreshVeggies_Message_0}}",
@@ -314,8 +278,6 @@
       "Entries": {
         "TowniesNeedFood_Lewis_HeartyVeggies_Name": "{{i18n:TowniesNeedFood_Lewis_HeartyVeggies_Name}}",
         "TowniesNeedFood_Lewis_HeartyVeggies_Text": "{{i18n:TowniesNeedFood_Lewis_HeartyVeggies_Text}}",
-        "TowniesNeedFood_Lewis_HeartyVeggies_RE_Text_0": "{{i18n:TowniesNeedFood_Lewis_HeartyVeggies_RE_Text_0}}",
-        "TowniesNeedFood_Lewis_HeartyVeggies_RE_Text_1": "{{i18n:TowniesNeedFood_Lewis_HeartyVeggies_RE_Text_1}}",
         "TowniesNeedFood_Lewis_HeartyVeggies_Objective_Text_0": "{{i18n:TowniesNeedFood_Lewis_HeartyVeggies_Objective_Text_0}}",
         "TowniesNeedFood_Lewis_HeartyVeggies_Objective_Text_1": "{{i18n:TowniesNeedFood_Lewis_HeartyVeggies_Objective_Text_1}}",
         "TowniesNeedFood_Lewis_HeartyVeggies_Message_0": "{{i18n:TowniesNeedFood_Lewis_HeartyVeggies_Message_0}}",
@@ -330,8 +292,6 @@
       "Entries": {
         "TowniesNeedFood_Linus_TwoMealsandOneDessert_Name": "{{i18n:TowniesNeedFood_Linus_TwoMealsandOneDessert_Name}}",
         "TowniesNeedFood_Linus_TwoMealsandOneDessert_Text": "{{i18n:TowniesNeedFood_Linus_TwoMealsandOneDessert_Text}}",
-        "TowniesNeedFood_Linus_TwoMealsandOneDessert_RE_Text_0": "{{i18n:TowniesNeedFood_Linus_TwoMealsandOneDessert_RE_Text_0}}",
-        "TowniesNeedFood_Linus_TwoMealsandOneDessert_RE_Text_1": "{{i18n:TowniesNeedFood_Linus_TwoMealsandOneDessert_RE_Text_1}}",
         "TowniesNeedFood_Linus_TwoMealsandOneDessert_Objective_Text_0": "{{i18n:TowniesNeedFood_Linus_TwoMealsandOneDessert_Objective_Text_0}}",
         "TowniesNeedFood_Linus_TwoMealsandOneDessert_Objective_Text_1": "{{i18n:TowniesNeedFood_Linus_TwoMealsandOneDessert_Objective_Text_1}}",
         "TowniesNeedFood_Linus_TwoMealsandOneDessert_Objective_Text_2": "{{i18n:TowniesNeedFood_Linus_TwoMealsandOneDessert_Objective_Text_2}}",
@@ -348,8 +308,6 @@
       "Entries": {
         "TowniesNeedFood_Marnie_LunchandTwoDesserts_Name": "{{i18n:TowniesNeedFood_Marnie_LunchandTwoDesserts_Name}}",
         "TowniesNeedFood_Marnie_LunchandTwoDesserts_Text": "{{i18n:TowniesNeedFood_Marnie_LunchandTwoDesserts_Text}}",
-        "TowniesNeedFood_Marnie_LunchandTwoDesserts_RE_Text_0": "{{i18n:TowniesNeedFood_Marnie_LunchandTwoDesserts_RE_Text_0}}",
-        "TowniesNeedFood_Marnie_LunchandTwoDesserts_RE_Text_1": "{{i18n:TowniesNeedFood_Marnie_LunchandTwoDesserts_RE_Text_1}}",
         "TowniesNeedFood_Marnie_LunchandTwoDesserts_Objective_Text_0": "{{i18n:TowniesNeedFood_Marnie_LunchandTwoDesserts_Objective_Text_0}}",
         "TowniesNeedFood_Marnie_LunchandTwoDesserts_Objective_Text_1": "{{i18n:TowniesNeedFood_Marnie_LunchandTwoDesserts_Objective_Text_1}}",
         "TowniesNeedFood_Marnie_LunchandTwoDesserts_Objective_Text_2": "{{i18n:TowniesNeedFood_Marnie_LunchandTwoDesserts_Objective_Text_2}}",
@@ -366,8 +324,6 @@
       "Entries": {
         "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Name": "{{i18n:TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Name}}",
         "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Text": "{{i18n:TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Text}}",
-        "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_RE_Text_0": "{{i18n:TowniesNeedFood_Maru_MyFavoriteFoodstuffs_RE_Text_0}}",
-        "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_RE_Text_1": "{{i18n:TowniesNeedFood_Maru_MyFavoriteFoodstuffs_RE_Text_1}}",
         "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Objective_Text_0": "{{i18n:TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Objective_Text_0}}",
         "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Objective_Text_1": "{{i18n:TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Objective_Text_1}}",
         "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Objective_Text_2": "{{i18n:TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Objective_Text_2}}",
@@ -384,8 +340,6 @@
       "Entries": {
         "TowniesNeedFood_Pam_Roots_Name": "{{i18n:TowniesNeedFood_Pam_Roots_Name}}",
         "TowniesNeedFood_Pam_Roots_Text": "{{i18n:TowniesNeedFood_Pam_Roots_Text}}",
-        "TowniesNeedFood_Pam_Roots_RE_Text_0": "{{i18n:TowniesNeedFood_Pam_Roots_RE_Text_0}}",
-        "TowniesNeedFood_Pam_Roots_RE_Text_1": "{{i18n:TowniesNeedFood_Pam_Roots_RE_Text_1}}",
         "TowniesNeedFood_Pam_Roots_Objective_Text_0": "{{i18n:TowniesNeedFood_Pam_Roots_Objective_Text_0}}",
         "TowniesNeedFood_Pam_Roots_Objective_Text_1": "{{i18n:TowniesNeedFood_Pam_Roots_Objective_Text_1}}",
         "TowniesNeedFood_Pam_Roots_Objective_Text_2": "{{i18n:TowniesNeedFood_Pam_Roots_Objective_Text_2}}",
@@ -402,8 +356,6 @@
       "Entries": {
         "TowniesNeedFood_Penny_ADaysMeals_Name": "{{i18n:TowniesNeedFood_Penny_ADaysMeals_Name}}",
         "TowniesNeedFood_Penny_ADaysMeals_Text": "{{i18n:TowniesNeedFood_Penny_ADaysMeals_Text}}",
-        "TowniesNeedFood_Penny_ADaysMeals_RE_Text_0": "{{i18n:TowniesNeedFood_Penny_ADaysMeals_RE_Text_0}}",
-        "TowniesNeedFood_Penny_ADaysMeals_RE_Text_1": "{{i18n:TowniesNeedFood_Penny_ADaysMeals_RE_Text_1}}",
         "TowniesNeedFood_Penny_ADaysMeals_Objective_Text_0": "{{i18n:TowniesNeedFood_Penny_ADaysMeals_Objective_Text_0}}",
         "TowniesNeedFood_Penny_ADaysMeals_Objective_Text_1": "{{i18n:TowniesNeedFood_Penny_ADaysMeals_Objective_Text_1}}",
         "TowniesNeedFood_Penny_ADaysMeals_Objective_Text_2": "{{i18n:TowniesNeedFood_Penny_ADaysMeals_Objective_Text_2}}",
@@ -420,8 +372,6 @@
       "Entries": {
         "TowniesNeedFood_Pierre_AppetizerandEntree_Name": "{{i18n:TowniesNeedFood_Pierre_AppetizerandEntree_Name}}",
         "TowniesNeedFood_Pierre_AppetizerandEntree_Text": "{{i18n:TowniesNeedFood_Pierre_AppetizerandEntree_Text}}",
-        "TowniesNeedFood_Pierre_AppetizerandEntree_RE_Text_0": "{{i18n:TowniesNeedFood_Pierre_AppetizerandEntree_RE_Text_0}}",
-        "TowniesNeedFood_Pierre_AppetizerandEntree_RE_Text_1": "{{i18n:TowniesNeedFood_Pierre_AppetizerandEntree_RE_Text_1}}",
         "TowniesNeedFood_Pierre_AppetizerandEntree_Objective_Text_0": "{{i18n:TowniesNeedFood_Pierre_AppetizerandEntree_Objective_Text_0}}",
         "TowniesNeedFood_Pierre_AppetizerandEntree_Objective_Text_1": "{{i18n:TowniesNeedFood_Pierre_AppetizerandEntree_Objective_Text_1}}",
         "TowniesNeedFood_Pierre_AppetizerandEntree_Message_0": "{{i18n:TowniesNeedFood_Pierre_AppetizerandEntree_Message_0}}",
@@ -436,8 +386,6 @@
       "Entries": {
         "TowniesNeedFood_Robin_FamilyBuffet_Name": "{{i18n:TowniesNeedFood_Robin_FamilyBuffet_Name}}",
         "TowniesNeedFood_Robin_FamilyBuffet_Text": "{{i18n:TowniesNeedFood_Robin_FamilyBuffet_Text}}",
-        "TowniesNeedFood_Robin_FamilyBuffet_RE_Text_0": "{{i18n:TowniesNeedFood_Robin_FamilyBuffet_RE_Text_0}}",
-        "TowniesNeedFood_Robin_FamilyBuffet_RE_Text_1": "{{i18n:TowniesNeedFood_Robin_FamilyBuffet_RE_Text_1}}",
         "TowniesNeedFood_Robin_FamilyBuffet_Objective_Text_0": "{{i18n:TowniesNeedFood_Robin_FamilyBuffet_Objective_Text_0}}",
         "TowniesNeedFood_Robin_FamilyBuffet_Objective_Text_1": "{{i18n:TowniesNeedFood_Robin_FamilyBuffet_Objective_Text_1}}",
         "TowniesNeedFood_Robin_FamilyBuffet_Objective_Text_2": "{{i18n:TowniesNeedFood_Robin_FamilyBuffet_Objective_Text_2}}",
@@ -454,8 +402,6 @@
       "Entries": {
         "TowniesNeedFood_Sam_SliceandDessert_Name": "{{i18n:TowniesNeedFood_Sam_SliceandDessert_Name}}",
         "TowniesNeedFood_Sam_SliceandDessert_Text": "{{i18n:TowniesNeedFood_Sam_SliceandDessert_Text}}",
-        "TowniesNeedFood_Sam_SliceandDessert_RE_Text_0": "{{i18n:TowniesNeedFood_Sam_SliceandDessert_RE_Text_0}}",
-        "TowniesNeedFood_Sam_SliceandDessert_RE_Text_1": "{{i18n:TowniesNeedFood_Sam_SliceandDessert_RE_Text_1}}",
         "TowniesNeedFood_Sam_SliceandDessert_Objective_Text_0": "{{i18n:TowniesNeedFood_Sam_SliceandDessert_Objective_Text_0}}",
         "TowniesNeedFood_Sam_SliceandDessert_Objective_Text_1": "{{i18n:TowniesNeedFood_Sam_SliceandDessert_Objective_Text_1}}",
         "TowniesNeedFood_Sam_SliceandDessert_Message_0": "{{i18n:TowniesNeedFood_Sam_SliceandDessert_Message_0}}",
@@ -470,8 +416,6 @@
       "Entries": {
         "TowniesNeedFood_Sam_EggWrap_Name": "{{i18n:TowniesNeedFood_Sam_EggWrap_Name}}",
         "TowniesNeedFood_Sam_EggWrap_Text": "{{i18n:TowniesNeedFood_Sam_EggWrap_Text}}",
-        "TowniesNeedFood_Sam_EggWrap_RE_Text_0": "{{i18n:TowniesNeedFood_Sam_EggWrap_RE_Text_0}}",
-        "TowniesNeedFood_Sam_EggWrap_RE_Text_1": "{{i18n:TowniesNeedFood_Sam_EggWrap_RE_Text_1}}",
         "TowniesNeedFood_Sam_EggWrap_Objective_Text_0": "{{i18n:TowniesNeedFood_Sam_EggWrap_Objective_Text_0}}",
         "TowniesNeedFood_Sam_EggWrap_Objective_Text_1": "{{i18n:TowniesNeedFood_Sam_EggWrap_Objective_Text_1}}",
         "TowniesNeedFood_Sam_EggWrap_Message_0": "{{i18n:TowniesNeedFood_Sam_EggWrap_Message_0}}",
@@ -486,8 +430,6 @@
       "Entries": {
         "TowniesNeedFood_Sandy_SweetMangoandCoconut_Name": "{{i18n:TowniesNeedFood_Sandy_SweetMangoandCoconut_Name}}",
         "TowniesNeedFood_Sandy_SweetMangoandCoconut_Text": "{{i18n:TowniesNeedFood_Sandy_SweetMangoandCoconut_Text}}",
-        "TowniesNeedFood_Sandy_SweetMangoandCoconut_RE_Text_0": "{{i18n:TowniesNeedFood_Sandy_SweetMangoandCoconut_RE_Text_0}}",
-        "TowniesNeedFood_Sandy_SweetMangoandCoconut_RE_Text_1": "{{i18n:TowniesNeedFood_Sandy_SweetMangoandCoconut_RE_Text_1}}",
         "TowniesNeedFood_Sandy_SweetMangoandCoconut_Objective_Text_0": "{{i18n:TowniesNeedFood_Sandy_SweetMangoandCoconut_Objective_Text_0}}",
         "TowniesNeedFood_Sandy_SweetMangoandCoconut_Message_0": "{{i18n:TowniesNeedFood_Sandy_SweetMangoandCoconut_Message_0}}"
       }
@@ -500,8 +442,6 @@
       "Entries": {
         "TowniesNeedFood_Sebastian_LunchandDinner_Name": "{{i18n:TowniesNeedFood_Sebastian_LunchandDinner_Name}}",
         "TowniesNeedFood_Sebastian_LunchandDinner_Text": "{{i18n:TowniesNeedFood_Sebastian_LunchandDinner_Text}}",
-        "TowniesNeedFood_Sebastian_LunchandDinner_RE_Text_0": "{{i18n:TowniesNeedFood_Sebastian_LunchandDinner_RE_Text_0}}",
-        "TowniesNeedFood_Sebastian_LunchandDinner_RE_Text_1": "{{i18n:TowniesNeedFood_Sebastian_LunchandDinner_RE_Text_1}}",
         "TowniesNeedFood_Sebastian_LunchandDinner_Objective_Text_0": "{{i18n:TowniesNeedFood_Sebastian_LunchandDinner_Objective_Text_0}}",
         "TowniesNeedFood_Sebastian_LunchandDinner_Objective_Text_1": "{{i18n:TowniesNeedFood_Sebastian_LunchandDinner_Objective_Text_1}}",
         "TowniesNeedFood_Sebastian_LunchandDinner_Message_0": "{{i18n:TowniesNeedFood_Sebastian_LunchandDinner_Message_0}}",
@@ -519,9 +459,7 @@
         "TowniesNeedFood_Shane_PeppersandPizza_Objective_Text_0": "{{i18n:TowniesNeedFood_Shane_PeppersandPizza_Objective_Text_0}}",
         "TowniesNeedFood_Shane_PeppersandPizza_Objective_Text_1": "{{i18n:TowniesNeedFood_Shane_PeppersandPizza_Objective_Text_1}}",
         "TowniesNeedFood_Shane_PeppersandPizza_Message_0": "{{i18n:TowniesNeedFood_Shane_PeppersandPizza_Message_0}}",
-        "TowniesNeedFood_Shane_PeppersandPizza_RE_Message_0": "{{i18n:TowniesNeedFood_Shane_PeppersandPizza_RE_Text_0}}",
-        "TowniesNeedFood_Shane_PeppersandPizza_Message_1": "{{i18n:TowniesNeedFood_Shane_PeppersandPizza_Message_1}}",
-        "TowniesNeedFood_Shane_PeppersandPizza_RE_Message_1": "{{i18n:TowniesNeedFood_Shane_PeppersandPizza_RE_Text_1}}"
+        "TowniesNeedFood_Shane_PeppersandPizza_Message_1": "{{i18n:TowniesNeedFood_Shane_PeppersandPizza_Message_1}}"
       }
     },
   ]
