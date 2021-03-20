@@ -1462,7 +1462,8 @@
         "PlayerHasKitchen": true,
         "Hearts:Pam": "3, 4, 5, 6, 7, 8, 9, 10",
         "Hearts:Marnie": "7, 8, 9, 10",
-        "SkillLevel:Mining": "3, 4, 5, 6, 7, 8, 9, 10"
+        "SkillLevel:Mining": "3, 4, 5, 6, 7, 8, 9, 10",
+        "Season": "Spring"
       }
     },
     // Pam Roots Repeatable
@@ -3688,7 +3689,8 @@
         "PlayerHasKitchen": true,
         "Hearts:Pam": "3, 4, 5, 6, 7, 8, 9, 10",
         "Hearts:Marnie": "7, 8, 9, 10",
-        "SkillLevel:Mining": "3, 4, 5, 6, 7, 8, 9, 10"
+        "SkillLevel:Mining": "3, 4, 5, 6, 7, 8, 9, 10",
+        "Season": "Spring"
       }
     },
     // Pam Roots Not Repeatable
