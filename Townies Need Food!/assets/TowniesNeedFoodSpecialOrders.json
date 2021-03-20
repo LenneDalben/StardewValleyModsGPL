@@ -1237,52 +1237,52 @@
         "Hearts:Caroline": "7, 8, 9, 10"
       }
     },
-    // Linus Two Meals and One Dessert Repeatable
+    // Linus Fish and Dessert Repeatable
     {
-      "LogName": "Linus Two Meals and One Dessert - Repeatable",
+      "LogName": "Linus Fish and Dessert - Repeatable",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesNeedFood_Linus_TwoMealsandOneDessert": {
-          "Name": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_Name]",
+        "TowniesNeedFood_Linus_FishandDessert": {
+          "Name": "[TowniesNeedFood_Linus_FishandDessert_Name]",
           "Requester": "Linus",
           "Duration": "Week",
           "Repeatable": "True",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_Text]",
+          "Text": "[TowniesNeedFood_Linus_FishandDessert_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_Objective_Text_0]",
+              "Text": "[TowniesNeedFood_Linus_FishandDessert_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
                 "AcceptedContextTags": "item_fish_stew",
-                "Message": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_Message_0]",
+                "Message": "[TowniesNeedFood_Linus_FishandDessert_Message_0]",
                 "TargetName": "Linus"
               }
             },
             {
               "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_Objective_Text_1]",
+              "Text": "[TowniesNeedFood_Linus_FishandDessert_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
                 "AcceptedContextTags": "item_dish_o_the_sea",
-                "Message": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_Message_1]",
+                "Message": "[TowniesNeedFood_Linus_FishandDessert_Message_1]",
                 "TargetName": "Linus"
               }
             },
             {
               "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_Objective_Text_2]",
+              "Text": "[TowniesNeedFood_Linus_FishandDessert_Objective_Text_2]",
               "RequiredCount": "1",
               "Data": {
                 "AcceptedContextTags": "item_blueberry_tart",
-                "Message": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_Message_2]",
+                "Message": "[TowniesNeedFood_Linus_FishandDessert_Message_2]",
                 "TargetName": "Linus"
               }
             }
@@ -3450,52 +3450,52 @@
         "Hearts:Caroline": "7, 8, 9, 10"
       }
     },
-    // Linus Two Meals and One Dessert Not Repeatable
+    // Linus Fish and Dessert Not Repeatable
     {
-      "LogName": "Linus Two Meals and One Dessert - Not Repeatable",
+      "LogName": "Linus Fish and Dessert - Not Repeatable",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesNeedFood_Linus_TwoMealsandOneDessert": {
-          "Name": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_Name]",
+        "TowniesNeedFood_Linus_FishandDessert": {
+          "Name": "[TowniesNeedFood_Linus_FishandDessert_Name]",
           "Requester": "Linus",
           "Duration": "Week",
           "Repeatable": "False",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_Text]",
+          "Text": "[TowniesNeedFood_Linus_FishandDessert_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_Objective_Text_0]",
+              "Text": "[TowniesNeedFood_Linus_FishandDessert_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
                 "AcceptedContextTags": "item_blueberry_tart",
-                "Message": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_Message_0]",
+                "Message": "[TowniesNeedFood_Linus_FishandDessert_Message_0]",
                 "TargetName": "Linus"
               }
             },
             {
               "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_Objective_Text_1]",
+              "Text": "[TowniesNeedFood_Linus_FishandDessert_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
                 "AcceptedContextTags": "item_dish_o_the_sea",
-                "Message": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_Message_1]",
+                "Message": "[TowniesNeedFood_Linus_FishandDessert_Message_1]",
                 "TargetName": "Linus"
               }
             },
             {
               "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_Objective_Text_2]",
+              "Text": "[TowniesNeedFood_Linus_FishandDessert_Objective_Text_2]",
               "RequiredCount": "1",
               "Data": {
                 "AcceptedContextTags": "item_fish_stew",
-                "Message": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_Message_2]",
+                "Message": "[TowniesNeedFood_Linus_FishandDessert_Message_2]",
                 "TargetName": "Linus"
               }
             }

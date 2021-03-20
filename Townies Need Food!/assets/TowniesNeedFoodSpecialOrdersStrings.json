@@ -284,20 +284,20 @@
         "TowniesNeedFood_Lewis_HeartyVeggies_Message_1": "{{i18n:TowniesNeedFood_Lewis_HeartyVeggies_Message_1}}"
       }
     },
-    // Linus Two Meals and One Dessert Strings
+    // Linus Fish and Dessert Strings
     {
-      "LogName": "Linus Two Meals and One Dessert Strings",
+      "LogName": "Linus Fish and Dessert Strings",
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
-        "TowniesNeedFood_Linus_TwoMealsandOneDessert_Name": "{{i18n:TowniesNeedFood_Linus_TwoMealsandOneDessert_Name}}",
-        "TowniesNeedFood_Linus_TwoMealsandOneDessert_Text": "{{i18n:TowniesNeedFood_Linus_TwoMealsandOneDessert_Text}}",
-        "TowniesNeedFood_Linus_TwoMealsandOneDessert_Objective_Text_0": "{{i18n:TowniesNeedFood_Linus_TwoMealsandOneDessert_Objective_Text_0}}",
-        "TowniesNeedFood_Linus_TwoMealsandOneDessert_Objective_Text_1": "{{i18n:TowniesNeedFood_Linus_TwoMealsandOneDessert_Objective_Text_1}}",
-        "TowniesNeedFood_Linus_TwoMealsandOneDessert_Objective_Text_2": "{{i18n:TowniesNeedFood_Linus_TwoMealsandOneDessert_Objective_Text_2}}",
-        "TowniesNeedFood_Linus_TwoMealsandOneDessert_Message_0": "{{i18n:TowniesNeedFood_Linus_TwoMealsandOneDessert_Message_0}}",
-        "TowniesNeedFood_Linus_TwoMealsandOneDessert_Message_1": "{{i18n:TowniesNeedFood_Linus_TwoMealsandOneDessert_Message_1}}",
-        "TowniesNeedFood_Linus_TwoMealsandOneDessert_Message_2": "{{i18n:TowniesNeedFood_Linus_TwoMealsandOneDessert_Message_2}}"
+        "TowniesNeedFood_Linus_FishandDessert_Name": "{{i18n:TowniesNeedFood_Linus_FishandDessert_Name}}",
+        "TowniesNeedFood_Linus_FishandDessert_Text": "{{i18n:TowniesNeedFood_Linus_FishandDessert_Text}}",
+        "TowniesNeedFood_Linus_FishandDessert_Objective_Text_0": "{{i18n:TowniesNeedFood_Linus_FishandDessert_Objective_Text_0}}",
+        "TowniesNeedFood_Linus_FishandDessert_Objective_Text_1": "{{i18n:TowniesNeedFood_Linus_FishandDessert_Objective_Text_1}}",
+        "TowniesNeedFood_Linus_FishandDessert_Objective_Text_2": "{{i18n:TowniesNeedFood_Linus_FishandDessert_Objective_Text_2}}",
+        "TowniesNeedFood_Linus_FishandDessert_Message_0": "{{i18n:TowniesNeedFood_Linus_FishandDessert_Message_0}}",
+        "TowniesNeedFood_Linus_FishandDessert_Message_1": "{{i18n:TowniesNeedFood_Linus_FishandDessert_Message_1}}",
+        "TowniesNeedFood_Linus_FishandDessert_Message_2": "{{i18n:TowniesNeedFood_Linus_FishandDessert_Message_2}}"
       }
     },
     // Marnie Lunch and Two Desserts Strings
