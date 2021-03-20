@@ -18,21 +18,7 @@
           "Text": "[TowniesNeedFood_Abigail_SweetandSpicy_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
-          "RandomizedElements": [
-            {
-              "Name": "Text",
-              "Values": [
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Abigail_SweetandSpicy_RE_Text_0]"
-                },
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Abigail_SweetandSpicy_RE_Text_1]"
-                }
-              ]
-            }
-          ],
+          "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
@@ -93,21 +79,7 @@
           "Text": "[TowniesNeedFood_Abigail_CreamyDessert_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
-          "RandomizedElements": [
-            {
-              "Name": "Text",
-              "Values": [
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Abigail_CreamyDessert_RE_Text_0]"
-                },
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Abigail_CreamyDessert_RE_Text_1]"
-                }
-              ]
-            }
-          ],
+          "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
@@ -157,21 +129,7 @@
           "Text": "[TowniesNeedFood_Alex_GoodEating_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
-          "RandomizedElements": [
-            {
-              "Name": "Text",
-              "Values": [
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Alex_GoodEating_RE_Text_0]"
-                },
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Alex_GoodEating_RE_Text_1]"
-                }
-              ]
-            }
-          ],
+          "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
@@ -232,21 +190,7 @@
           "Text": "[TowniesNeedFood_Caroline_SeafoodBonanza_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
-          "RandomizedElements": [
-            {
-              "Name": "Text",
-              "Values": [
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Caroline_SeafoodBonanza_RE_Text_0]"
-                },
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Caroline_SeafoodBonanza_RE_Text_1]"
-                }
-              ]
-            }
-          ],
+          "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
@@ -318,21 +262,7 @@
           "Text": "[TowniesNeedFood_Clint_MildSnack_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
-          "RandomizedElements": [
-            {
-              "Name": "Text",
-              "Values": [
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Clint_MildSnack_RE_Text_0]"
-                },
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Clint_MildSnack_RE_Text_1]"
-                }
-              ]
-            }
-          ],
+          "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
@@ -391,21 +321,7 @@
           "Text": "[TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
-          "RandomizedElements": [
-            {
-              "Name": "Text",
-              "Values": [
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Demetrius_DinnerandTwoDesserts_RE_Text_0]"
-                },
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Demetrius_DinnerandTwoDesserts_RE_Text_1]"
-                }
-              ]
-            }
-          ],
+          "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
@@ -477,21 +393,7 @@
           "Text": "[TowniesNeedFood_Elliott_MealPlanning_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
-          "RandomizedElements": [
-            {
-              "Name": "Text",
-              "Values": [
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Elliott_MealPlanning_RE_Text_0]"
-                },
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Elliott_MealPlanning_RE_Text_1]"
-                }
-              ]
-            }
-          ],
+          "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
@@ -562,21 +464,7 @@
           "Text": "[TowniesNeedFood_Emily_AppetizerandDinner_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
-          "RandomizedElements": [
-            {
-              "Name": "Text",
-              "Values": [
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Emily_AppetizerandDinner_RE_Text_0]"
-                },
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Emily_AppetizerandDinner_RE_Text_1]"
-                }
-              ]
-            }
-          ],
+          "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
@@ -637,21 +525,7 @@
           "Text": "[TowniesNeedFood_Evelyn_SideandDessert_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
-          "RandomizedElements": [
-            {
-              "Name": "Text",
-              "Values": [
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Evelyn_SideandDessert_RE_Text_0]"
-                },
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Evelyn_SideandDessert_RE_Text_1]"
-                }
-              ]
-            }
-          ],
+          "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
@@ -712,21 +586,7 @@
           "Text": "[TowniesNeedFood_George_SomeFavorites_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
-          "RandomizedElements": [
-            {
-              "Name": "Text",
-              "Values": [
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_George_SomeFavorites_RE_Text_0]"
-                },
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_George_SomeFavorites_RE_Text_1]"
-                }
-              ]
-            }
-          ],
+          "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
@@ -797,21 +657,7 @@
           "Text": "[TowniesNeedFood_Gus_UniqueDelicacies_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
-          "RandomizedElements": [
-            {
-              "Name": "Text",
-              "Values": [
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Gus_UniqueDelicacies_RE_Text_0]"
-                },
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Gus_UniqueDelicacies_RE_Text_1]"
-                }
-              ]
-            }
-          ],
+          "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
@@ -872,21 +718,7 @@
           "Text": "[TowniesNeedFood_Gus_FragrantCurry_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
-          "RandomizedElements": [
-            {
-              "Name": "Text",
-              "Values": [
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Gus_FragrantCurry_RE_Text_0]"
-                },
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Gus_FragrantCurry_RE_Text_1]"
-                }
-              ]
-            }
-          ],
+          "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
@@ -936,21 +768,7 @@
           "Text": "[TowniesNeedFood_Haley_MostlyHealthy_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
-          "RandomizedElements": [
-            {
-              "Name": "Text",
-              "Values": [
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Haley_MostlyHealthy_RE_Text_0]"
-                },
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Haley_MostlyHealthy_RE_Text_1]"
-                }
-              ]
-            }
-          ],
+          "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
@@ -1010,21 +828,7 @@
           "Text": "[TowniesNeedFood_Harvey_Pickmeup_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
-          "RandomizedElements": [
-            {
-              "Name": "Text",
-              "Values": [
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Harvey_Pickmeup_RE_Text_0]"
-                },
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Harvey_Pickmeup_RE_Text_1]"
-                }
-              ]
-            }
-          ],
+          "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
@@ -1094,21 +898,7 @@
           "Text": "[TowniesNeedFood_Jodi_ThreeSquareMeals_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
-          "RandomizedElements": [
-            {
-              "Name": "Text",
-              "Values": [
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Jodi_ThreeSquareMeals_RE_Text_0]"
-                },
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Jodi_ThreeSquareMeals_RE_Text_1]"
-                }
-              ]
-            }
-          ],
+          "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
@@ -1179,21 +969,7 @@
           "Text": "[TowniesNeedFood_Kent_DinnerandaSnack_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
-          "RandomizedElements": [
-            {
-              "Name": "Text",
-              "Values": [
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Kent_DinnerandaSnack_RE_Text_0]"
-                },
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Kent_DinnerandaSnack_RE_Text_1]"
-                }
-              ]
-            }
-          ],
+          "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
@@ -1253,21 +1029,7 @@
           "Text": "[TowniesNeedFood_Krobus_BrinyPudding_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
-          "RandomizedElements": [
-            {
-              "Name": "Text",
-              "Values": [
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Krobus_BrinyPudding_RE_Text_0]"
-                },
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Krobus_BrinyPudding_RE_Text_1]"
-                }
-              ]
-            }
-          ],
+          "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
@@ -1318,21 +1080,7 @@
           "Text": "[TowniesNeedFood_Leah_FreshVeggies_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
-          "RandomizedElements": [
-            {
-              "Name": "Text",
-              "Values": [
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Leah_FreshVeggies_RE_Text_0]"
-                },
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Leah_FreshVeggies_RE_Text_1]"
-                }
-              ]
-            }
-          ],
+          "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
@@ -1442,21 +1190,7 @@
           "Text": "[TowniesNeedFood_Lewis_HeartyVeggies_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
-          "RandomizedElements": [
-            {
-              "Name": "Text",
-              "Values": [
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Lewis_HeartyVeggies_RE_Text_0]"
-                },
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Lewis_HeartyVeggies_RE_Text_1]"
-                }
-              ]
-            }
-          ],
+          "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
@@ -1517,21 +1251,7 @@
           "Text": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
-          "RandomizedElements": [
-            {
-              "Name": "Text",
-              "Values": [
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_RE_Text_0]"
-                },
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Linus_TwoMealsandOneDessert_RE_Text_1]"
-                }
-              ]
-            }
-          ],
+          "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
@@ -1603,21 +1323,7 @@
           "Text": "[TowniesNeedFood_Marnie_LunchandTwoDesserts_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
-          "RandomizedElements": [
-            {
-              "Name": "Text",
-              "Values": [
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Marnie_LunchandTwoDesserts_RE_Text_0]"
-                },
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Marnie_LunchandTwoDesserts_RE_Text_1]"
-                }
-              ]
-            }
-          ],
+          "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
@@ -1688,21 +1394,7 @@
           "Text": "[TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
-          "RandomizedElements": [
-            {
-              "Name": "Text",
-              "Values": [
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Maru_MyFavoriteFoodstuffs_RE_Text_0]"
-                },
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Maru_MyFavoriteFoodstuffs_RE_Text_1]"
-                }
-              ]
-            }
-          ],
+          "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
@@ -1774,21 +1466,7 @@
           "Text": "[TowniesNeedFood_Pam_Roots_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
-          "RandomizedElements": [
-            {
-              "Name": "Text",
-              "Values": [
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Pam_Roots_RE_Text_0]"
-                },
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Pam_Roots_RE_Text_1]"
-                }
-              ]
-            }
-          ],
+          "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
@@ -1859,21 +1537,7 @@
           "Text": "[TowniesNeedFood_Penny_ADaysMeals_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
-          "RandomizedElements": [
-            {
-              "Name": "Text",
-              "Values": [
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Penny_ADaysMeals_RE_Text_0]"
-                },
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Penny_ADaysMeals_RE_Text_1]"
-                }
-              ]
-            }
-          ],
+          "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
@@ -1945,21 +1609,7 @@
           "Text": "[TowniesNeedFood_Pierre_AppetizerandEntree_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
-          "RandomizedElements": [
-            {
-              "Name": "Text",
-              "Values": [
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Pierre_AppetizerandEntree_RE_Text_0]"
-                },
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Pierre_AppetizerandEntree_RE_Text_1]"
-                }
-              ]
-            }
-          ],
+          "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
@@ -2020,21 +1670,7 @@
           "Text": "[TowniesNeedFood_Robin_FamilyBuffet_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
-          "RandomizedElements": [
-            {
-              "Name": "Text",
-              "Values": [
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Robin_FamilyBuffet_RE_Text_0]"
-                },
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Robin_FamilyBuffet_RE_Text_1]"
-                }
-              ]
-            }
-          ],
+          "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
@@ -2105,21 +1741,7 @@
           "Text": "[TowniesNeedFood_Sam_SliceandDessert_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
-          "RandomizedElements": [
-            {
-              "Name": "Text",
-              "Values": [
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Sam_SliceandDessert_RE_Text_0]"
-                },
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Sam_SliceandDessert_RE_Text_1]"
-                }
-              ]
-            }
-          ],
+          "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
@@ -2179,21 +1801,7 @@
           "Text": "[TowniesNeedFood_Sam_EggWrap_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
-          "RandomizedElements": [
-            {
-              "Name": "Text",
-              "Values": [
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Sam_EggWrap_RE_Text_0]"
-                },
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Sam_EggWrap_RE_Text_1]"
-                }
-              ]
-            }
-          ],
+          "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
@@ -2303,21 +1911,7 @@
           "Text": "[TowniesNeedFood_Sebastian_LunchandDinner_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
-          "RandomizedElements": [
-            {
-              "Name": "Text",
-              "Values": [
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Sebastian_LunchandDinner_RE_Text_0]"
-                },
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Sebastian_LunchandDinner_RE_Text_1]"
-                }
-              ]
-            }
-          ],
+          "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
@@ -2378,21 +1972,7 @@
           "Text": "[TowniesNeedFood_Shane_PeppersandPizza_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
-          "RandomizedElements": [
-            {
-              "Name": "Message",
-              "Values": [
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Shane_PeppersandPizza_RE_Message_0]"
-                },
-                {
-                  "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Shane_PeppersandPizza_RE_Message_1]"
-                }
-              ]
-            }
-          ],
+          "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
