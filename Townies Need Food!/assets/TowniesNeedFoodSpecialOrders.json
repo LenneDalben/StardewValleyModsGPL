@@ -2161,6 +2161,56 @@
         "Hearts:Gus": "7, 8, 9, 10"
       }
     },
+    // Wizard Protective Pasta Repeatable
+    {
+      "LogName": "Wizard Protective Pasta - Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Wizard_ProtectivePasta": {
+          "Name": "[TowniesNeedFood_Wizard_ProtectivePasta_Name]",
+          "Requester": "Wizard",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Wizard_ProtectivePasta_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Wizard_ProtectivePasta_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_squid_ink_ravioli",
+                "Message": "[TowniesNeedFood_Wizard_ProtectivePasta_Message_0]",
+                "TargetName": "Wizard"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "450"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "true",
+        "PlayerHasKitchen": true,
+        "SkillLevelCombat": "9, 10"
+      }
+    },
     //
     // Not Repeatable special orders listed below (the same kind of order, just with Repeatable set to false)
     //
@@ -4322,6 +4372,56 @@
         "Year | contains=1": false,
         "HasSeenEvent": "19",
         "Hearts:Gus": "7, 8, 9, 10"
+      }
+    },
+    // Wizard Protective Pasta Not Repeatable
+    {
+      "LogName": "Wizard Protective Pasta - Not Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Wizard_ProtectivePasta": {
+          "Name": "[TowniesNeedFood_Wizard_ProtectivePasta_Name]",
+          "Requester": "Wizard",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Wizard_ProtectivePasta_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Wizard_ProtectivePasta_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_squid_ink_ravioli",
+                "Message": "[TowniesNeedFood_Wizard_ProtectivePasta_Message_0]",
+                "TargetName": "Wizard"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "450"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "false",
+        "PlayerHasKitchen": true,
+        "SkillLevelCombat": "9, 10"
       }
     },
   ]

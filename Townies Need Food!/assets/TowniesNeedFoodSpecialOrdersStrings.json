@@ -494,5 +494,17 @@
         "TowniesNeedFood_Wizard_LuckandSweets_Message_2": "{{i18n:TowniesNeedFood_Wizard_LuckandSweets_Message_2}}"
       }
     },
+    // Wizard Protective Pasta Strings
+    {
+      "LogName": "Wizard Protective Pasta Strings",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Wizard_ProtectivePasta_Name": "{{i18n:TowniesNeedFood_Wizard_ProtectivePasta_Name}}",
+        "TowniesNeedFood_Wizard_ProtectivePasta_Text": "{{i18n:TowniesNeedFood_Wizard_ProtectivePasta_Text}}",
+        "TowniesNeedFood_Wizard_ProtectivePasta_Objective_Text_0": "{{i18n:TowniesNeedFood_Wizard_ProtectivePasta_Objective_Text_0}}",
+        "TowniesNeedFood_Wizard_ProtectivePasta_Message_0": "{{i18n:TowniesNeedFood_Wizard_ProtectivePasta_Message_0}}"
+      }
+    },
   ]
 }
