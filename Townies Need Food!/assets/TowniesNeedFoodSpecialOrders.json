@@ -59,7 +59,8 @@
         "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
-        "Hearts:George": "7, 8, 9, 10"
+        "Hearts:George": "7, 8, 9, 10",
+        "Season":"Fall"
       }
     },
     // Abigail Creamy Dessert Repeatable
@@ -2274,7 +2275,8 @@
         "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
-        "Hearts:George": "7, 8, 9, 10"
+        "Hearts:George": "7, 8, 9, 10",
+        "Season":"Fall"
       }
     },
     // Abigail Creamy Dessert Not Repeatable
