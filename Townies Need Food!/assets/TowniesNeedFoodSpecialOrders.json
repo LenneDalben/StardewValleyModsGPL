@@ -1389,7 +1389,8 @@
         "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
-        "Hearts:Pierre": "3, 4, 5, 6, 7, 8, 9, 10"
+        "Hearts:Pierre": "3, 4, 5, 6, 7, 8, 9, 10",
+        "Season": "Spring, Fall"
       }
     },
     // Maru My Favorite Foodstuffs Repeatable
@@ -3614,7 +3615,8 @@
         "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
-        "Hearts:Pierre": "3, 4, 5, 6, 7, 8, 9, 10"
+        "Hearts:Pierre": "3, 4, 5, 6, 7, 8, 9, 10",
+        "Season": "Spring, Fall"
       }
     },
     // Maru My Favorite Foodstuffs Not Repeatable
