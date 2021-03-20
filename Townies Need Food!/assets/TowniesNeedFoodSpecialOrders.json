@@ -378,7 +378,8 @@
         "PlayerHasKitchen": true,
         "Hearts:Clint": "7, 8, 9, 10",
         "Hearts:Jodi": "7, 8, 9, 10",
-        "Hearts:Evelyn": "7, 8, 9, 10"
+        "Hearts:Evelyn": "7, 8, 9, 10",
+        "Season": "Spring"
       }
     },
     // Elliott Meal Planning Repeatable
@@ -2597,7 +2598,8 @@
         "PlayerHasKitchen": true,
         "Hearts:Clint": "7, 8, 9, 10",
         "Hearts:Jodi": "7, 8, 9, 10",
-        "Hearts:Evelyn": "7, 8, 9, 10"
+        "Hearts:Evelyn": "7, 8, 9, 10",
+        "Season": "Spring"
       }
     },
     // Elliott Meal Planning Not Repeatable
