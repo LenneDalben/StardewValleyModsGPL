@@ -174,14 +174,14 @@
   "TowniesNeedFood_Linus_TwoMealsandOneDessert_Message_2": "I'm grateful for this, @.$h",
   //
   // Marnie Lunch and Two Desserts Strings
-  "TowniesNeedFood_Marnie_LunchandTwoDesserts_Name": "Lunch and 2 Desserts",
+  "TowniesNeedFood_Marnie_LunchandTwoDesserts_Name": "Lunch and Two Desserts",
   "TowniesNeedFood_Marnie_LunchandTwoDesserts_Text": "Howdy neighbors! A farmer's lunch will help me power through my day, and some pink cake and pumpkin pie will provide some sweets for Jas and I (and Shane, if he's quick enough)! Help?",
   "TowniesNeedFood_Marnie_LunchandTwoDesserts_Objective_Text_0": "Deliver Farmer's Lunch to Marnie",
   "TowniesNeedFood_Marnie_LunchandTwoDesserts_Objective_Text_1": "Deliver Pink Cake to Marnie",
   "TowniesNeedFood_Marnie_LunchandTwoDesserts_Objective_Text_2": "Deliver Pumpkin Pie to Marnie",
   "TowniesNeedFood_Marnie_LunchandTwoDesserts_Message_0": "Here's to hoping this really does 'keep me going,' thanks @!$h",
   "TowniesNeedFood_Marnie_LunchandTwoDesserts_Message_1": "Thanks @! I expect Jas will love this.$h",
-  "TowniesNeedFood_Marnie_LunchandTwoDesserts_Message_2": "Ah, thanks @! I'm looking forward to this pie!$h",
+  "TowniesNeedFood_Marnie_LunchandTwoDesserts_Message_2": "Thanks @! I'm looking forward to this pie!$h#$b#I could save a piece for Shane, too.#$b#Ok, fine, I will.$h",
   //
   // Maru My Favorite Foodstuffs Strings
   "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Name": "My Favorite Foodstuffs",
