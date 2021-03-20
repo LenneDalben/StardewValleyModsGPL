@@ -3474,7 +3474,7 @@
               "Text": "[TowniesNeedFood_Linus_FishandDessert_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_blueberry_tart",
+                "AcceptedContextTags": "item_fish_stew",
                 "Message": "[TowniesNeedFood_Linus_FishandDessert_Message_0]",
                 "TargetName": "Linus"
               }
@@ -3494,7 +3494,7 @@
               "Text": "[TowniesNeedFood_Linus_FishandDessert_Objective_Text_2]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_fish_stew",
+                "AcceptedContextTags": "item_blueberry_tart",
                 "Message": "[TowniesNeedFood_Linus_FishandDessert_Message_2]",
                 "TargetName": "Linus"
               }
