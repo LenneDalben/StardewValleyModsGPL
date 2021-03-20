@@ -1669,7 +1669,8 @@
         "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
-        "Hearts:Jodi": "3, 4, 5, 6, 7, 8, 9, 10"
+        "Hearts:Jodi": "3, 4, 5, 6, 7, 8, 9, 10",
+        "Season": "Summer, Winter"
       }
     },
     // Robin Family Buffet Repeatable
@@ -1740,7 +1741,8 @@
         "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
-        "Hearts:Lewis": "3, 4, 5, 6, 7, 8, 9, 10"
+        "Hearts:Lewis": "3, 4, 5, 6, 7, 8, 9, 10",
+        "Season": "Summer"
       }
     },
     // Sam Slice and Dessert Repeatable
@@ -3898,7 +3900,8 @@
         "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
-        "Hearts:Jodi": "3, 4, 5, 6, 7, 8, 9, 10"
+        "Hearts:Jodi": "3, 4, 5, 6, 7, 8, 9, 10",
+        "Season": "Summer, Winter"
       }
     },
     // Robin Family Buffet Not Repeatable
@@ -3969,7 +3972,8 @@
         "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
-        "Hearts:Lewis": "3, 4, 5, 6, 7, 8, 9, 10"
+        "Hearts:Lewis": "3, 4, 5, 6, 7, 8, 9, 10",
+        "Season": "Summer"
       }
     },
     // Sam Slice and Dessert Not Repeatable
