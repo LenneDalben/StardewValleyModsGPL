@@ -2380,15 +2380,15 @@
           "MailToRemoveOnEnd": null,
           "RandomizedElements": [
             {
-              "Name": "Text",
+              "Name": "Message",
               "Values": [
                 {
                   "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Shane_PeppersandPizza_RE_Text_0]"
+                  "Value": "[TowniesNeedFood_Shane_PeppersandPizza_RE_Message_0]"
                 },
                 {
                   "RequiredTags": "",
-                  "Value": "[TowniesNeedFood_Shane_PeppersandPizza_RE_Text_1]"
+                  "Value": "[TowniesNeedFood_Shane_PeppersandPizza_RE_Message_1]"
                 }
               ]
             }

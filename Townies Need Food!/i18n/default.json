@@ -322,10 +322,10 @@
   // Shane Peppers and Pizza Strings
   "TowniesNeedFood_Shane_PeppersandPizza_Name": "Peppers and Pizza",
   "TowniesNeedFood_Shane_PeppersandPizza_Text": "Could someone make me pepper poppers and pizza? I'll pay!",
-  "TowniesNeedFood_Shane_PeppersandPizza_RE_Text_0": "I think the pizza will ease the burn of the peppers...$3",
-  "TowniesNeedFood_Shane_PeppersandPizza_RE_Text_1": "Thanks, peppers and pizza was a good combination.$h",
   "TowniesNeedFood_Shane_PeppersandPizza_Objective_Text_0": "Deliver Pepper Poppers to Shane",
   "TowniesNeedFood_Shane_PeppersandPizza_Objective_Text_1": "Deliver Pizza to Shane",
   "TowniesNeedFood_Shane_PeppersandPizza_Message_0": "Ah, these are the best. Thanks, @.$h",
+  "TowniesNeedFood_Shane_PeppersandPizza_RE_Message_0": "My favorite. Thanks @!$h",
   "TowniesNeedFood_Shane_PeppersandPizza_Message_1": "Ha, I wasn't sure anyone would take me up on the offer. Thanks, @.$h",
+  "TowniesNeedFood_Shane_PeppersandPizza_RE_Message_1": "I think the pizza will ease the burn of the peppers...$3#$b#Thanks @!$h",
 }
