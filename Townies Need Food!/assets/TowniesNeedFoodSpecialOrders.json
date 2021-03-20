@@ -757,7 +757,8 @@
         "Repeatable": "true",
         "IncludeIslandContent": "true",
         "PlayerHasKitchen": true,
-        "HasFlag": "Island_Resort"
+        "HasFlag": "Island_Resort",
+        "Season": "Spring"
       }
     },
     // Haley Mostly Healthy Repeatable
@@ -2979,7 +2980,8 @@
         "Repeatable": "false",
         "IncludeIslandContent": "true",
         "PlayerHasKitchen": true,
-        "HasFlag": "Island_Resort"
+        "HasFlag": "Island_Resort",
+        "Season": "Summer"
       }
     },
     // Haley Mostly Healthy Not Repeatable
