@@ -2123,7 +2123,7 @@
               "Text": "[TowniesNeedFood_Wizard_LuckandSweets_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_cookies",
+                "AcceptedContextTags": "item_cookie",
                 "Message": "[TowniesNeedFood_Wizard_LuckandSweets_Message_1]",
                 "TargetName": "Wizard"
               }
