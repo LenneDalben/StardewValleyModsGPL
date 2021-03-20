@@ -888,7 +888,8 @@
       "When": {
         "Repeatable": "true",
         "PlayerHasKitchen": true,
-        "Hearts:Kent": "7, 8, 9, 10"
+        "Hearts:Kent": "7, 8, 9, 10",
+        "Season": "Fall"
       }
     },
     // Jodi Three Square Meals Repeatable
@@ -3111,7 +3112,8 @@
       "When": {
         "Repeatable": "false",
         "PlayerHasKitchen": true,
-        "Hearts:Kent": "7, 8, 9, 10"
+        "Hearts:Kent": "7, 8, 9, 10",
+        "Season": "Fall"
       }
     },
     // Jodi Three Square Meals Not Repeatable
