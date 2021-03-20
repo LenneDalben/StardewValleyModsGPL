@@ -1607,7 +1607,8 @@
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "Hearts:Emily": "7, 8, 9, 10, 11, 12, 13, 14",
-        "SkillLevel:Combat": "3, 4, 5, 6, 7, 8, 9, 10"
+        "SkillLevel:Combat": "3, 4, 5, 6, 7, 8, 9, 10",
+        "Season": "Summer, Winter"
       }
     },
     // Pierre Appetizer and Entree Repeatable
@@ -3835,7 +3836,8 @@
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "Hearts:Emily": "7, 8, 9, 10, 11, 12, 13, 14",
-        "SkillLevel:Combat": "3, 4, 5, 6, 7, 8, 9, 10"
+        "SkillLevel:Combat": "3, 4, 5, 6, 7, 8, 9, 10",
+        "Season": "Summer, Winter"
       }
     },
     // Pierre Appetizer and Entree Not Repeatable
