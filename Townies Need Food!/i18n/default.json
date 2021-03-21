@@ -119,7 +119,7 @@
   "TowniesNeedFood_Jas_HolidayTreat_Name": "Holiday Treat",
   "TowniesNeedFood_Jas_HolidayTreat_Text": "I think Jas would really enjoy plum pudding. Could someone give her some?     - Shane",
   "TowniesNeedFood_Jas_HolidayTreat_Objective_Text_0": "Deliver Plum Pudding to Jas",
-  "TowniesNeedFood_Jas_HolidayTreat_Message_0": "Is that... for me?$3#$b#*gasp*Thank you, I love it!$h",
+  "TowniesNeedFood_Jas_HolidayTreat_Message_0": "Is that... for me?$3#$b#*gasp*Thank you, I love it!$h#$b#Shane asked you to bring me plum pudding?#$b#I'll thank him too!$h",
   //
   // Jodi Three Square Meals Strings
   "TowniesNeedFood_Jodi_ThreeSquareMeals_Name": "Three Square Meals",
