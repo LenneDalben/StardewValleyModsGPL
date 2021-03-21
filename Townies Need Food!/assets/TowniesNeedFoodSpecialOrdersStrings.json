@@ -140,10 +140,8 @@
         "TowniesNeedFood_George_SomeFavorites_Text": "{{i18n:TowniesNeedFood_George_SomeFavorites_Text}}",
         "TowniesNeedFood_George_SomeFavorites_Objective_Text_0": "{{i18n:TowniesNeedFood_George_SomeFavorites_Objective_Text_0}}",
         "TowniesNeedFood_George_SomeFavorites_Objective_Text_1": "{{i18n:TowniesNeedFood_George_SomeFavorites_Objective_Text_1}}",
-        "TowniesNeedFood_George_SomeFavorites_Objective_Text_2": "{{i18n:TowniesNeedFood_George_SomeFavorites_Objective_Text_2}}",
         "TowniesNeedFood_George_SomeFavorites_Message_0": "{{i18n:TowniesNeedFood_George_SomeFavorites_Message_0}}",
-        "TowniesNeedFood_George_SomeFavorites_Message_1": "{{i18n:TowniesNeedFood_George_SomeFavorites_Message_1}}",
-        "TowniesNeedFood_George_SomeFavorites_Message_2": "{{i18n:TowniesNeedFood_George_SomeFavorites_Message_2}}"
+        "TowniesNeedFood_George_SomeFavorites_Message_1": "{{i18n:TowniesNeedFood_George_SomeFavorites_Message_1}}"
       }
     },
     // Gus Unique Delicacies Strings

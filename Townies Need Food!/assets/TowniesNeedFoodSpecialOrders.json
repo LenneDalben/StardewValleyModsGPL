@@ -613,23 +613,13 @@
                 "Message": "[TowniesNeedFood_George_SomeFavorites_Message_1]",
                 "TargetName": "George"
               }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_George_SomeFavorites_Objective_Text_2]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_plum_pudding",
-                "Message": "[TowniesNeedFood_George_SomeFavorites_Message_2]",
-                "TargetName": "George"
-              }
             }
           ],
           "Rewards": [
             {
               "Type": "Money",
               "Data": {
-                "Amount": "1785"
+                "Amount": "1005"
               }
             },
             {
@@ -2848,23 +2838,13 @@
                 "Message": "[TowniesNeedFood_George_SomeFavorites_Message_1]",
                 "TargetName": "George"
               }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_George_SomeFavorites_Objective_Text_2]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_plum_pudding",
-                "Message": "[TowniesNeedFood_George_SomeFavorites_Message_2]",
-                "TargetName": "George"
-              }
             }
           ],
           "Rewards": [
             {
               "Type": "Money",
               "Data": {
-                "Amount": "1785"
+                "Amount": "1005"
               }
             },
             {

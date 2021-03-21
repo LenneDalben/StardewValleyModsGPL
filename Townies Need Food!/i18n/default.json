@@ -77,13 +77,11 @@
   //
   // George Some Favorites Strings
   "TowniesNeedFood_George_SomeFavorites_Name": "Some Favorites",
-  "TowniesNeedFood_George_SomeFavorites_Text": "I'm interested in some of my favorite dishes, but I don't want to trouble Evelyn. Could someone bring me fried mushroom, chowder, and plum pudding?",
+  "TowniesNeedFood_George_SomeFavorites_Text": "I'm interested in some of my favorite dishes, but I don't want to trouble Evelyn. Could someone bring me fried mushroom and chowder?",
   "TowniesNeedFood_George_SomeFavorites_Objective_Text_0": "Deliver Fried Mushroom to George",
   "TowniesNeedFood_George_SomeFavorites_Objective_Text_1": "Deliver Chowder to George",
-  "TowniesNeedFood_George_SomeFavorites_Objective_Text_2": "Deliver Plum Pudding to George",
   "TowniesNeedFood_George_SomeFavorites_Message_0": "Evelyn does so much for me, but I'm hopeless in the kitchen.$2#$b#I'm looking forward to this side dish, @.$h",
   "TowniesNeedFood_George_SomeFavorites_Message_1": "Thank you @, this soup should warm me up.$h",
-  "TowniesNeedFood_George_SomeFavorites_Message_2": "Thank you @, you've made an old man happy.$h",
   //
   // Gus Unique Delicacies Strings
   "TowniesNeedFood_Gus_UniqueDelicacies_Name": "Unique Delicacies",
