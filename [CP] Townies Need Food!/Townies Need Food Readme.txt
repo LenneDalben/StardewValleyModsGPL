@@ -17,6 +17,8 @@ IncludeIslandContent: true or false, default is true (toggle special orders requ
 
 With regards to the "sparseness" of the orders: the game picks from a pool of the available orders, so if you'd prefer to get through some of the vanilla special orders first, install this mod later in your playthrough. I also added some season requirements to help spread out the orders a bit.
 
+Note that the mod does not come packaged with a config file. The config file will be generated after you run the game with the mod installed at least once. 
+
 
 ||Compatibility||
 Townies Need Food will recognize if you have one of the following mods installed, so special orders will show up on the special orders board before you have the first house upgrade:
