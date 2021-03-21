@@ -200,6 +200,18 @@
         "TowniesNeedFood_Harvey_Pickmeup_Message_2": "{{i18n:TowniesNeedFood_Harvey_Pickmeup_Message_2}}"
       }
     },
+    // Jas Holiday Treat Strings
+    {
+      "LogName": "Jas Holiday Treat Strings",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Jas_HolidayTreat_Name": "{{i18n:TowniesNeedFood_Jas_HolidayTreat_Name}}",
+        "TowniesNeedFood_Jas_HolidayTreat_Text": "{{i18n:TowniesNeedFood_Jas_HolidayTreat_Text}}",
+        "TowniesNeedFood_Jas_HolidayTreat_Objective_Text_0": "{{i18n:TowniesNeedFood_Jas_HolidayTreat_Objective_Text_0}}",
+        "TowniesNeedFood_Jas_HolidayTreat_Message_0": "{{i18n:TowniesNeedFood_Jas_HolidayTreat_Message_0}}"
+      }
+    },
     // Jodi Three Square Meals Strings
     {
       "LogName": "Jodi Three Square Meals Strings",
@@ -256,16 +268,16 @@
         "TowniesNeedFood_Leah_FreshVeggies_Message_1": "{{i18n:TowniesNeedFood_Leah_FreshVeggies_Message_1}}"
       }
     },
-    // Leo Sweet! Strings
+    // Leo Sweet Flavor Strings
     {
-      "LogName": "Leo Sweet! Strings",
+      "LogName": "Leo Sweet Flavor Strings",
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
-        "TowniesNeedFood_Leo_Sweet_Name": "{{i18n:TowniesNeedFood_Leo_Sweet_Name}}",
-        "TowniesNeedFood_Leo_Sweet_Text": "{{i18n:TowniesNeedFood_Leo_Sweet_Text}}",
-        "TowniesNeedFood_Leo_Sweet_Objective_Text_0": "{{i18n:TowniesNeedFood_Leo_Sweet_Objective_Text_0}}",
-        "TowniesNeedFood_Leo_Sweet_Message_0": "{{i18n:TowniesNeedFood_Leo_Sweet_Message_0}}"
+        "TowniesNeedFood_Leo_SweetFlavor_Name": "{{i18n:TowniesNeedFood_Leo_SweetFlavor_Name}}",
+        "TowniesNeedFood_Leo_SweetFlavor_Text": "{{i18n:TowniesNeedFood_Leo_SweetFlavor_Text}}",
+        "TowniesNeedFood_Leo_SweetFlavor_Objective_Text_0": "{{i18n:TowniesNeedFood_Leo_SweetFlavor_Objective_Text_0}}",
+        "TowniesNeedFood_Leo_SweetFlavor_Message_0": "{{i18n:TowniesNeedFood_Leo_SweetFlavor_Message_0}}"
       }
     },
     // Lewis Hearty Veggies Strings

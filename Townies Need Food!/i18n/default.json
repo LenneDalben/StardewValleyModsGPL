@@ -115,6 +115,12 @@
   "TowniesNeedFood_Harvey_Pickmeup_Message_1": "This is a healthy side dish, thanks @!$h",
   "TowniesNeedFood_Harvey_Pickmeup_Message_2": "Ah yes, this will perk me up. Thanks, @!$h",
   //
+  // Jas Holiday Treat Strings
+  "TowniesNeedFood_Jas_HolidayTreat_Name": "Holiday Treat",
+  "TowniesNeedFood_Jas_HolidayTreat_Text": "I think Jas would really enjoy plum pudding. Could someone give her some?     - Shane",
+  "TowniesNeedFood_Jas_HolidayTreat_Objective_Text_0": "Deliver Plum Pudding to Jas",
+  "TowniesNeedFood_Jas_HolidayTreat_Message_0": "Is that... for me?$3#$b#*gasp*Thank you, I love it!$h",
+  //
   // Jodi Three Square Meals Strings
   "TowniesNeedFood_Jodi_ThreeSquareMeals_Name": "Three Square Meals",
   "TowniesNeedFood_Jodi_ThreeSquareMeals_Text": "This week is tough. Could someone help me by making pancakes, crispy bass, and eggplant parmesan for me?",
@@ -147,11 +153,11 @@
   "TowniesNeedFood_Leah_FreshVeggies_Message_0": "I love eating fresh vegetables, thanks @!$h",
   "TowniesNeedFood_Leah_FreshVeggies_Message_1": "I should probably get around to learning how to julienne vegetables.#$b#Good thing the special board exists. These look great, thanks @!$h",
   //
-  // Leo Sweet! Strings
-  "TowniesNeedFood_Leo_Sweet_Name": "Sweet!",
-  "TowniesNeedFood_Leo_Sweet_Text": "Would someone in town be able to bring poi to Leo? I think he'd really enjoy it. - Linus =",
-  "TowniesNeedFood_Leo_Sweet_Objective_Text_0": "Deliver Poi to Leo",
-  "TowniesNeedFood_Leo_Sweet_Message_0": "...$2#$b#Thanks!$h",
+  // Leo Sweet Flavor Strings
+  "TowniesNeedFood_Leo_SweetFlavor_Name": "Sweet Flavor",
+  "TowniesNeedFood_Leo_SweetFlavor_Text": "Would someone in town be able to bring poi to Leo? I think he'd really enjoy it.     - Linus =",
+  "TowniesNeedFood_Leo_SweetFlavor_Objective_Text_0": "Deliver Poi to Leo",
+  "TowniesNeedFood_Leo_SweetFlavor_Message_0": "...$2#$b#Thanks!$h",
   //
   // Lewis Hearty Veggies Strings
   "TowniesNeedFood_Lewis_HeartyVeggies_Name": "Hearty Veggies",

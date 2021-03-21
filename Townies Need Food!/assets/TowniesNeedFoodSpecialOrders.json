@@ -882,6 +882,57 @@
         "Season": "Fall"
       }
     },
+    // Jas Holiday Treat Repeatable
+    {
+      "LogName": "Jas Holiday Treat - Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Jas_HolidayTreat": {
+          "Name": "[TowniesNeedFood_Jas_HolidayTreat_Name]",
+          "Requester": "Shane",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Jas_HolidayTreat_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Jas_HolidayTreat_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_plum_pudding",
+                "Message": "[TowniesNeedFood_Jas_HolidayTreat_Message_0]",
+                "TargetName": "Jas"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "780"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "true",
+        "Year | contains=1": false,
+        "PlayerHasKitchen": true,
+        "Season": "Fall, Winter"
+      }
+    },
     // Jodi Three Square Meals Repeatable
     {
       "LogName": "Jodi Three Square Meals - Repeatable",
@@ -1126,32 +1177,32 @@
         "Season": "Spring"
       }
     },
-    // Leo Sweet! Repeatable
+    // Leo Sweet Flavor Repeatable
     {
-      "LogName": "Leo Sweet! - Repeatable",
+      "LogName": "Leo Sweet Flavor - Repeatable",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesNeedFood_Leo_Sweet": {
-          "Name": "[TowniesNeedFood_Leo_Sweet_Name]",
+        "TowniesNeedFood_Leo_SweetFlavor": {
+          "Name": "[TowniesNeedFood_Leo_SweetFlavor_Name]",
           "Requester": "Linus",
           "Duration": "Week",
           "Repeatable": "True",
           "RequiredTags": "island",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesNeedFood_Leo_Sweet_Text]",
+          "Text": "[TowniesNeedFood_Leo_SweetFlavor_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Leo_Sweet_Objective_Text_0]",
+              "Text": "[TowniesNeedFood_Leo_SweetFlavor_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
                 "AcceptedContextTags": "item_poi",
-                "Message": "[TowniesNeedFood_Leo_Sweet_Message_0]",
+                "Message": "[TowniesNeedFood_Leo_SweetFlavor_Message_0]",
                 "TargetName": "Leo"
               }
             }
@@ -3107,6 +3158,57 @@
         "Season": "Fall"
       }
     },
+    // Jas Holiday Treat Not Repeatable
+    {
+      "LogName": "Jas Holiday Treat - Not Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Jas_HolidayTreat": {
+          "Name": "[TowniesNeedFood_Jas_HolidayTreat_Name]",
+          "Requester": "Shane",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Jas_HolidayTreat_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Jas_HolidayTreat_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_plum_pudding",
+                "Message": "[TowniesNeedFood_Jas_HolidayTreat_Message_0]",
+                "TargetName": "Jas"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "780"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "false",
+        "Year | contains=1": false,
+        "PlayerHasKitchen": true,
+        "Season": "Fall, Winter"
+      }
+    },
     // Jodi Three Square Meals Not Repeatable
     {
       "LogName": "Jodi Three Square Meals - Not Repeatable",
@@ -3351,32 +3453,32 @@
         "Season": "Spring"
       }
     },
-    // Leo Sweet! Not Repeatable
+    // Leo Sweet Flavor Not Repeatable
     {
-      "LogName": "Leo Sweet! - Not Repeatable",
+      "LogName": "Leo Sweet Flavor - Not Repeatable",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesNeedFood_Leo_Sweet": {
-          "Name": "[TowniesNeedFood_Leo_Sweet_Name]",
+        "TowniesNeedFood_Leo_SweetFlavor": {
+          "Name": "[TowniesNeedFood_Leo_SweetFlavor_Name]",
           "Requester": "Linus",
           "Duration": "Week",
           "Repeatable": "False",
           "RequiredTags": "island",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesNeedFood_Leo_Sweet_Text]",
+          "Text": "[TowniesNeedFood_Leo_SweetFlavor_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Leo_Sweet_Objective_Text_0]",
+              "Text": "[TowniesNeedFood_Leo_SweetFlavor_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
                 "AcceptedContextTags": "item_poi",
-                "Message": "[TowniesNeedFood_Leo_Sweet_Message_0]",
+                "Message": "[TowniesNeedFood_Leo_SweetFlavor_Message_0]",
                 "TargetName": "Leo"
               }
             }
