@@ -3,7 +3,7 @@
     // Repeatable special orders are listed first
     // Abigail Sweet and Spicy Repeatable
     {
-      "LogName": "Abigail Sweet and Spicy - Repeatable",
+      "LogName": "Repeatable Abigail Sweet and Spicy",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -65,7 +65,7 @@
     },
     // Abigail Creamy Dessert Repeatable
     {
-      "LogName": "Abigail Creamy Dessert - Repeatable",
+      "LogName": "Repeatable Abigail Creamy Dessert",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -116,7 +116,7 @@
     },
     // Alex Good Eating Repeatable
     {
-      "LogName": "Alex Good Eating - Repeatable",
+      "LogName": "Repeatable Alex Good Eating",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -178,7 +178,7 @@
     },
     // Caroline Seafood Bonanza Repeatable
     {
-      "LogName": "Caroline Seafood Bonanza - Repeatable",
+      "LogName": "Repeatable Caroline Seafood Bonanza",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -251,7 +251,7 @@
     },
     // Clint Mild Snack Repeatable
     {
-      "LogName": "Clint Mild Snack - Repeatable",
+      "LogName": "Repeatable Clint Mild Snack",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -311,7 +311,7 @@
     },
     // Demetrius Dinner and Two Desserts Repeatable
     {
-      "LogName": "Demetrius Dinner and Two Desserts - Repeatable",
+      "LogName": "Repeatable Demetrius Dinner and Two Desserts",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -384,7 +384,7 @@
     },
     // Elliott Meal Planning Repeatable
     {
-      "LogName": "Elliott Meal Planning - Repeatable",
+      "LogName": "Repeatable Elliott Meal Planning",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -455,7 +455,7 @@
     },
     // Emily Appetizer and Dinner Repeatable
     {
-      "LogName": "Emily Appetizer and Dinner - Repeatable",
+      "LogName": "Repeatable Emily Appetizer and Dinner",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -516,7 +516,7 @@
     },
     // Evelyn Side and Dessert Repeatable
     {
-      "LogName": "Evelyn Side and Dessert - Repeatable",
+      "LogName": "Repeatable Evelyn Side and Dessert",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -577,7 +577,7 @@
     },
     // George Some Favorites Repeatable
     {
-      "LogName": "George Some Favorites - Repeatable",
+      "LogName": "Repeatable George Some Favorites",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -639,7 +639,7 @@
     },
     // Gus Unique Delicacies Repeatable
     {
-      "LogName": "Gus Unique Delicacies - Repeatable",
+      "LogName": "Repeatable Gus Unique Delicacies",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -701,7 +701,7 @@
     },
     // Gus Fragrant Curry Repeatable
     {
-      "LogName": "Gus Fragrant Curry - Repeatable",
+      "LogName": "Repeatable Gus Fragrant Curry",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -753,7 +753,7 @@
     },
     // Haley Mostly Healthy Repeatable
     {
-      "LogName": "Haley Mostly Healthy - Repeatable",
+      "LogName": "Repeatable Haley Mostly Healthy",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -813,7 +813,7 @@
     },
     // Harvey Pick-me-up Repeatable
     {
-      "LogName": "Harvey Pick-me-up - Repeatable",
+      "LogName": "Repeatable Harvey Pick-me-up",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -884,7 +884,7 @@
     },
     // Jas Holiday Treat Repeatable
     {
-      "LogName": "Jas Holiday Treat - Repeatable",
+      "LogName": "Repeatable Jas Holiday Treat",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -935,7 +935,7 @@
     },
     // Jodi Three Square Meals Repeatable
     {
-      "LogName": "Jodi Three Square Meals - Repeatable",
+      "LogName": "Repeatable Jodi Three Square Meals",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1007,7 +1007,7 @@
     },
     // Kent Dinner and a Snack Repeatable
     {
-      "LogName": "Kent Dinner and a Snack - Repeatable",
+      "LogName": "Repeatable Kent Dinner and a Snack",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1067,7 +1067,7 @@
     },
     // Krobus Briny Pudding Repeatable
     {
-      "LogName": "Krobus Briny Pudding - Repeatable",
+      "LogName": "Repeatable Krobus Briny Pudding",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1118,7 +1118,7 @@
     },
     // Leah Fresh Veggies Repeatable
     {
-      "LogName": "Leah Fresh Veggies - Repeatable",
+      "LogName": "Repeatable Leah Fresh Veggies",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1179,7 +1179,7 @@
     },
     // Leo Sweet Flavor Repeatable
     {
-      "LogName": "Leo Sweet Flavor - Repeatable",
+      "LogName": "Repeatable Leo Sweet Flavor",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1230,7 +1230,7 @@
     },
     // Lewis Hearty Veggies Repeatable
     {
-      "LogName": "Lewis Hearty Veggies - Repeatable",
+      "LogName": "Repeatable Lewis Hearty Veggies",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1292,7 +1292,7 @@
     },
     // Linus Fish and Dessert Repeatable
     {
-      "LogName": "Linus Fish and Dessert - Repeatable",
+      "LogName": "Repeatable Linus Fish and Dessert",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1364,7 +1364,7 @@
     },
     // Marnie Lunch and Two Desserts Repeatable
     {
-      "LogName": "Marnie Lunch and Two Desserts - Repeatable",
+      "LogName": "Repeatable Marnie Lunch and Two Desserts",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1436,7 +1436,7 @@
     },
     // Maru My Favorite Foodstuffs Repeatable
     {
-      "LogName": "Maru My Favorite Foodstuffs - Repeatable",
+      "LogName": "Repeatable Maru My Favorite Foodstuffs",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1509,7 +1509,7 @@
     },
     // Pam Roots Repeatable
     {
-      "LogName": "Pam Roots - Repeatable",
+      "LogName": "Repeatable Pam Roots",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1581,7 +1581,7 @@
     },
     // Penny A Day's Meals Repeatable
     {
-      "LogName": "Penny A Day's Meals - Repeatable",
+      "LogName": "Repeatable Penny A Day's Meals",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1654,7 +1654,7 @@
     },
     // Pierre Appetizer and Entree Repeatable
     {
-      "LogName": "Pierre Appetizer and Entree - Repeatable",
+      "LogName": "Repeatable Pierre Appetizer and Entree",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1716,7 +1716,7 @@
     },
     // Robin Family Buffet Repeatable
     {
-      "LogName": "Robin Family Buffet - Repeatable",
+      "LogName": "Repeatable Robin Family Buffet",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1788,7 +1788,7 @@
     },
     // Sam Slice and Dessert Repeatable
     {
-      "LogName": "Sam Slice and Dessert - Repeatable",
+      "LogName": "Repeatable Sam Slice and Dessert",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1848,7 +1848,7 @@
     },
     // Sam Egg Wrap Repeatable
     {
-      "LogName": "Sam Egg Wrap - Repeatable",
+      "LogName": "Repeatable Sam Egg Wrap",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1907,7 +1907,7 @@
     },
     // Sandy Sweet Mango and Coconut Repeatable
     {
-      "LogName": "Sandy Sweet Mango and Coconut - Repeatable",
+      "LogName": "Repeatable Sandy Sweet Mango and Coconut",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1959,7 +1959,7 @@
     },
     // Sebastian Lunch and Dinner Repeatable
     {
-      "LogName": "Sebastian Lunch and Dinner - Repeatable",
+      "LogName": "Repeatable Sebastian Lunch and Dinner",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -2021,7 +2021,7 @@
     },
     // Shane Peppers and Pizza Repeatable
     {
-      "LogName": "Shane Peppers and Pizza - Repeatable",
+      "LogName": "Repeatable Shane Peppers and Pizza",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -2083,7 +2083,7 @@
     },
     // Vincent Fizzy and Soothing Repeatable
     {
-      "LogName": "Vincent Fizzy and Soothing - Repeatable",
+      "LogName": "Repeatable Vincent Fizzy and Soothing",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -2134,7 +2134,7 @@
     },
     // Willy Daily Sustenance Repeatable
     {
-      "LogName": "Willy Daily Sustenance - Repeatable",
+      "LogName": "Repeatable Willy Daily Sustenance",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -2204,7 +2204,7 @@
     },
     // Wizard Luck and Sweets Repeatable
     {
-      "LogName": "Wizard Luck and Sweets - Repeatable",
+      "LogName": "Repeatable Wizard Luck and Sweets",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -2277,7 +2277,7 @@
     },
     // Wizard Protective Pasta Repeatable
     {
-      "LogName": "Wizard Protective Pasta - Repeatable",
+      "LogName": "Repeatable Wizard Protective Pasta",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -2330,7 +2330,7 @@
     //
     // Abigail Sweet and Spicy Not Repeatable
     {
-      "LogName": "Abigail Sweet and Spicy - Not Repeatable",
+      "LogName": "Not Repeatable Abigail Sweet and Spicy",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -2392,7 +2392,7 @@
     },
     // Abigail Creamy Dessert Not Repeatable
     {
-      "LogName": "Abigail Creamy Dessert - Not Repeatable",
+      "LogName": "Not Repeatable Abigail Creamy Dessert",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -2443,7 +2443,7 @@
     },
     // Alex Good Eating Not Repeatable
     {
-      "LogName": "Alex Good Eating - Not Repeatable",
+      "LogName": "Not Repeatable Alex Good Eating",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -2505,7 +2505,7 @@
     },
     // Caroline Seafood Bonanza Not Repeatable
     {
-      "LogName": "Caroline Seafood Bonanza - Not Repeatable",
+      "LogName": "Not Repeatable Caroline Seafood Bonanza",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -2578,7 +2578,7 @@
     },
     // Clint Mild Snack Not Repeatable
     {
-      "LogName": "Clint Mild Snack - Not Repeatable",
+      "LogName": "Not Repeatable Clint Mild Snack",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -2638,7 +2638,7 @@
     },
     // Demetrius Dinner and Two Desserts Not Repeatable
     {
-      "LogName": "Demetrius Dinner and Two Desserts - Not Repeatable",
+      "LogName": "Not Repeatable Demetrius Dinner and Two Desserts",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -2711,7 +2711,7 @@
     },
     // Elliott Meal Planning Not Repeatable
     {
-      "LogName": "Elliott Meal Planning - Not Repeatable",
+      "LogName": "Not Repeatable Elliott Meal Planning",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -2782,7 +2782,7 @@
     },
     // Emily Appetizer and Dinner Not Repeatable
     {
-      "LogName": "Emily Appetizer and Dinner - Not Repeatable",
+      "LogName": "Not Repeatable Emily Appetizer and Dinner",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -2843,7 +2843,7 @@
     },
     // Evelyn Side and Dessert Not Repeatable
     {
-      "LogName": "Evelyn Side and Dessert - Not Repeatable",
+      "LogName": "Not Repeatable Evelyn Side and Dessert",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -2904,7 +2904,7 @@
     },
     // George Some Favorites Not Repeatable
     {
-      "LogName": "George Some Favorites - Not Repeatable",
+      "LogName": "Not Repeatable George Some Favorites",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -2966,7 +2966,7 @@
     },
     // Gus Unique Delicacies Not Repeatable
     {
-      "LogName": "Gus Unique Delicacies - Not Repeatable",
+      "LogName": "Not Repeatable Gus Unique Delicacies",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -3028,7 +3028,7 @@
     },
     // Gus Fragrant Curry Not Repeatable
     {
-      "LogName": "Gus Fragrant Curry - Not Repeatable",
+      "LogName": "Not Repeatable Gus Fragrant Curry",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -3080,7 +3080,7 @@
     },
     // Haley Mostly Healthy Not Repeatable
     {
-      "LogName": "Haley Mostly Healthy - Not Repeatable",
+      "LogName": "Not Repeatable Haley Mostly Healthy",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -3140,7 +3140,7 @@
     },
     // Harvey Pick-me-up Not Repeatable
     {
-      "LogName": "Harvey Pick-me-up - Not Repeatable",
+      "LogName": "Not Repeatable Harvey Pick-me-up",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -3211,7 +3211,7 @@
     },
     // Jas Holiday Treat Not Repeatable
     {
-      "LogName": "Jas Holiday Treat - Not Repeatable",
+      "LogName": "Not Repeatable Jas Holiday Treat",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -3262,7 +3262,7 @@
     },
     // Jodi Three Square Meals Not Repeatable
     {
-      "LogName": "Jodi Three Square Meals - Not Repeatable",
+      "LogName": "Not Repeatable Jodi Three Square Meals",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -3334,7 +3334,7 @@
     },
     // Kent Dinner and a Snack Not Repeatable
     {
-      "LogName": "Kent Dinner and a Snack - Not Repeatable",
+      "LogName": "Not Repeatable Kent Dinner and a Snack",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -3394,7 +3394,7 @@
     },
     // Krobus Briny Pudding Not Repeatable
     {
-      "LogName": "Krobus Briny Pudding - Not Repeatable",
+      "LogName": "Not Repeatable Krobus Briny Pudding",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -3445,7 +3445,7 @@
     },
     // Leah Fresh Veggies Not Repeatable
     {
-      "LogName": "Leah Fresh Veggies - Not Repeatable",
+      "LogName": "Not Repeatable Leah Fresh Veggies",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -3506,7 +3506,7 @@
     },
     // Leo Sweet Flavor Not Repeatable
     {
-      "LogName": "Leo Sweet Flavor - Not Repeatable",
+      "LogName": "Not Repeatable Leo Sweet Flavor",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -3557,7 +3557,7 @@
     },
     // Lewis Hearty Veggies Not Repeatable
     {
-      "LogName": "Lewis Hearty Veggies - Not Repeatable",
+      "LogName": "Not Repeatable Lewis Hearty Veggies",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -3619,7 +3619,7 @@
     },
     // Linus Fish and Dessert Not Repeatable
     {
-      "LogName": "Linus Fish and Dessert - Not Repeatable",
+      "LogName": "Not Repeatable Linus Fish and Dessert",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -3691,7 +3691,7 @@
     },
     // Marnie Lunch and Two Desserts Not Repeatable
     {
-      "LogName": "Marnie Lunch and Two Desserts - Not Repeatable",
+      "LogName": "Not Repeatable Marnie Lunch and Two Desserts",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -3763,7 +3763,7 @@
     },
     // Maru My Favorite Foodstuffs Not Repeatable
     {
-      "LogName": "Maru My Favorite Foodstuffs - Not Repeatable",
+      "LogName": "Not Repeatable Maru My Favorite Foodstuffs",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -3836,7 +3836,7 @@
     },
     // Pam Roots Not Repeatable
     {
-      "LogName": "Pam Roots - Not Repeatable",
+      "LogName": "Not Repeatable Pam Roots",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -3908,7 +3908,7 @@
     },
     // Penny A Day's Meals Not Repeatable
     {
-      "LogName": "Penny A Day's Meals - Not Repeatable",
+      "LogName": "Not Repeatable Penny A Day's Meals",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -3981,7 +3981,7 @@
     },
     // Pierre Appetizer and Entree Not Repeatable
     {
-      "LogName": "Pierre Appetizer and Entree - Not Repeatable",
+      "LogName": "Not Repeatable Pierre Appetizer and Entree",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -4043,7 +4043,7 @@
     },
     // Robin Family Buffet Not Repeatable
     {
-      "LogName": "Robin Family Buffet - Not Repeatable",
+      "LogName": "Not Repeatable Robin Family Buffet",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -4115,7 +4115,7 @@
     },
     // Sam Slice and Dessert Not Repeatable
     {
-      "LogName": "Sam Slice and Dessert - Not Repeatable",
+      "LogName": "Not Repeatable Sam Slice and Dessert",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -4175,7 +4175,7 @@
     },
     // Sam Egg Wrap Not Repeatable
     {
-      "LogName": "Sam Egg Wrap - Not Repeatable",
+      "LogName": "Not Repeatable Sam Egg Wrap",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -4234,7 +4234,7 @@
     },
     // Sandy Sweet Mango and Coconut Not Repeatable
     {
-      "LogName": "Sandy Sweet Mango and Coconut - Not Repeatable",
+      "LogName": "Not Repeatable Sandy Sweet Mango and Coconut",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -4286,7 +4286,7 @@
     },
     // Sebastian Lunch and Dinner Not Repeatable
     {
-      "LogName": "Sebastian Lunch and Dinner - Not Repeatable",
+      "LogName": "Not Repeatable Sebastian Lunch and Dinner",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -4348,7 +4348,7 @@
     },
     // Shane Peppers and Pizza Not Repeatable
     {
-      "LogName": "Shane Peppers and Pizza - Not Repeatable",
+      "LogName": "Not Repeatable Shane Peppers and Pizza",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -4410,7 +4410,7 @@
     },
     // Vincent Fizzy and Soothing Not Repeatable
     {
-      "LogName": "Vincent Fizzy and Soothing - Not Repeatable",
+      "LogName": "Not Repeatable Vincent Fizzy and Soothing",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -4461,7 +4461,7 @@
     },
     // Willy Daily Sustenance Not Repeatable
     {
-      "LogName": "Willy Daily Sustenance - Not Repeatable",
+      "LogName": "Not Repeatable Willy Daily Sustenance",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -4531,7 +4531,7 @@
     },
     // Wizard Luck and Sweets Not Repeatable
     {
-      "LogName": "Wizard Luck and Sweets - Not Repeatable",
+      "LogName": "Not Repeatable Wizard Luck and Sweets",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -4604,7 +4604,7 @@
     },
     // Wizard Protective Pasta Not Repeatable
     {
-      "LogName": "Wizard Protective Pasta - Not Repeatable",
+      "LogName": "Not Repeatable Wizard Protective Pasta",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
