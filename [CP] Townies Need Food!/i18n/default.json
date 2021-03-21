@@ -51,7 +51,7 @@
   //
   // Elliott Meal Planning Strings
   "TowniesNeedFood_Elliott_MealPlanning_Name": "Meal Planning",
-  "TowniesNeedFood_Elliott_MealPlanning_Text": "I'd be most grateful if someone could me with meal planning. I am in need of crab cakes, tom kha soup, and baked fish.",
+  "TowniesNeedFood_Elliott_MealPlanning_Text": "I'd be most grateful if someone could help me with meal planning. I am in need of crab cakes, tom kha soup, and baked fish.",
   "TowniesNeedFood_Elliott_MealPlanning_Objective_Text_0": "Deliver Crab Cake to Elliott",
   "TowniesNeedFood_Elliott_MealPlanning_Objective_Text_1": "Deliver Tom Kha Soup to Elliott",
   "TowniesNeedFood_Elliott_MealPlanning_Objective_Text_2": "Deliver Baked Fish to Elliott",
@@ -155,7 +155,7 @@
   //
   // Leo Sweet Flavor Strings
   "TowniesNeedFood_Leo_SweetFlavor_Name": "Sweet Flavor",
-  "TowniesNeedFood_Leo_SweetFlavor_Text": "Would someone in town be able to bring poi to Leo? I think he'd really enjoy it.     - Linus =",
+  "TowniesNeedFood_Leo_SweetFlavor_Text": "Would someone in town be able to bring poi to Leo? I think he'd really appreciate it.     - Linus =",
   "TowniesNeedFood_Leo_SweetFlavor_Objective_Text_0": "Deliver Poi to Leo",
   "TowniesNeedFood_Leo_SweetFlavor_Message_0": "...$2#$b#Thanks!$h",
   //
