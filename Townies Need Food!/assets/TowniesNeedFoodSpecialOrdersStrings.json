@@ -472,6 +472,18 @@
         "TowniesNeedFood_Shane_PeppersandPizza_Message_1": "{{i18n:TowniesNeedFood_Shane_PeppersandPizza_Message_1}}"
       }
     },
+    // Vincent Fizzy and Soothing Strings
+    {
+      "LogName": "Vincent Fizzy and Soothing Strings",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Vincent_FizzyandSoothing_Name": "{{i18n:TowniesNeedFood_Vincent_FizzyandSoothing_Name}}",
+        "TowniesNeedFood_Vincent_FizzyandSoothing_Text": "{{i18n:TowniesNeedFood_Vincent_FizzyandSoothing_Text}}",
+        "TowniesNeedFood_Vincent_FizzyandSoothing_Objective_Text_0": "{{i18n:TowniesNeedFood_Vincent_FizzyandSoothing_Objective_Text_0}}",
+        "TowniesNeedFood_Vincent_FizzyandSoothing_Message_0": "{{i18n:TowniesNeedFood_Vincent_FizzyandSoothing_Message_0}}"
+      }
+    },
     // Willy Daily Sustenance Strings
     {
       "LogName": "Willy Daily Sustenance Strings",

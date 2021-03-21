@@ -2081,6 +2081,57 @@
         "Season": "Summer"
       }
     },
+    // Vincent Fizzy and Soothing Repeatable
+    {
+      "LogName": "Vincent Fizzy and Soothing - Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Vincent_FizzyandSoothing": {
+          "Name": "[TowniesNeedFood_Vincent_FizzyandSoothing_Name]",
+          "Requester": "Jodi",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "island",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Vincent_FizzyandSoothing_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Vincent_FizzyandSoothing_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_ginger_ale",
+                "Message": "[TowniesNeedFood_Vincent_FizzyandSoothing_Message_0]",
+                "TargetName": "Vincent"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "600"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "true",
+        "IncludeIslandContent": "true",
+        "PlayerHasKitchen": true,
+        "HasFlag": "reachedCaldera"
+      }
+    },
     // Willy Daily Sustenance Repeatable
     {
       "LogName": "Willy Daily Sustenance - Repeatable",
@@ -4355,6 +4406,57 @@
         "Year | contains=1": false,
         "Hearts:Shane": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14",
         "Season": "Summer"
+      }
+    },
+    // Vincent Fizzy and Soothing Not Repeatable
+    {
+      "LogName": "Vincent Fizzy and Soothing - Not Repeatable",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Vincent_FizzyandSoothing": {
+          "Name": "[TowniesNeedFood_Vincent_FizzyandSoothing_Name]",
+          "Requester": "Jodi",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "island",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Vincent_FizzyandSoothing_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Vincent_FizzyandSoothing_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_ginger_ale",
+                "Message": "[TowniesNeedFood_Vincent_FizzyandSoothing_Message_0]",
+                "TargetName": "Vincent"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "600"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "false",
+        "IncludeIslandContent": "true",
+        "PlayerHasKitchen": true,
+        "HasFlag": "reachedCaldera"
       }
     },
     // Willy Daily Sustenance Not Repeatable

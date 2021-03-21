@@ -273,6 +273,12 @@
   "TowniesNeedFood_Shane_PeppersandPizza_Message_0": "Ah, these are the best. Thanks, @.$h",
   "TowniesNeedFood_Shane_PeppersandPizza_Message_1": "Ha, I wasn't sure anyone would take me up on the offer. Thanks, @.$h",
   //
+  // Vincent Fizzy and Soothing Strings
+  "TowniesNeedFood_Vincent_FizzyandSoothing_Name": "Fizzy & Soothing",
+  "TowniesNeedFood_Vincent_FizzyandSoothing_Text": "I think Vincent would appreciate ginger ale. Could someone bring him some?     - Sam",
+  "TowniesNeedFood_Vincent_FizzyandSoothing_Objective_Text_0": "Deliver Ginger Ale to Vincent",
+  "TowniesNeedFood_Vincent_FizzyandSoothing_Message_0": "Cool, thanks @!$h#$b#Sam told you to get me this?$3#$b#I'll thank him too!$h",
+  //
   // Willy Daily Sustenance Strings
   "TowniesNeedFood_Willy_DailySustenance_Name": "Daily Sustenance",
   "TowniesNeedFood_Willy_DailySustenance_Text": "If someone could bring me omelet, maki roll, and trout soup, I'd appreciate it!",
