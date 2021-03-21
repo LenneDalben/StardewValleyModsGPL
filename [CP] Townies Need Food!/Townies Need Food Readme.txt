@@ -45,3 +45,5 @@ Note: TNF no longer requires Quest Framework (QF). If TNF was the only mod you h
 
 ||Un-installation||
 ⚠️⚠️⚠️Make sure you complete or cancel any quests (from versions 1.x) or special orders (from versions 2.x) you had in your journal from TNF first.⚠️⚠️⚠️Once you've done that, delete the folders for this mod from your Stardew Valley/Mods folder.
+
+I'm adding this little blurb here because I epically did not catch 2 very obvious typos (there's a screenshot of one of them!) and then later I went through each of the text (both the text in the order/journal plus the dialog) and found a few more lines to tweak. All in all, it was a total of 6 minor text tweaks. In light of Nexus occasionally "eating" small text changes, this blurb here should help the update actually go through, since this is a bigger text change than the 6 minor text tweaks I actually needed. HERE'S TO HOPING!
