@@ -36,7 +36,7 @@ Minerva's Bigger Farmhouses﻿ by minervamaga
 4. Play the game using SMAPI!
 
 
-}}Updating||
+||Updating||
 ⚠️⚠️⚠️ATTENTION: Version 2.0.0 of TNF is a COMPLETE REWRITE. Make sure you complete or cancel any quests you had in your journal from TNF first. Then, completely delete all the folders TNF (you cannot overwrite).⚠️⚠️⚠️Once you've done that, then you can update TNF by following the install instructions above.
 
 
