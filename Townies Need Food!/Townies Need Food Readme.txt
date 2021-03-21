@@ -13,7 +13,7 @@ With Townies Need Food, villagers will ask for cooked meals you can make in the 
 ||Configuration||
 There is now a config option for Repeatable (true or false, default is true). There is also a config option for toggling special orders requiring recipes from the island, IncludeIslandContent (true or false, default is true).
 
-With regards to the "sparseness" of the orders: the game picks from a pool of the available orders, so if you'd prefer to get through some of the vanilla special orders first, install this mod later in your playthrough. Do note that most of the orders have some requirements for friendship or completed certain milestones of 1.5 content. This is because while I am unable to directly check for whether the player has the recipe, for the recipes in which there is a friendship requirement or milestone completion requirement, the mod can check for that. For example, that you learn how to make sashimi after you have 3 hearts with Linus.
+With regards to the "sparseness" of the orders: the game picks from a pool of the available orders, so if you'd prefer to get through some of the vanilla special orders first, install this mod later in your playthrough. I also added some seasonal requirements to help spread out the orders a bit. Do note that most of the orders have some requirements for friendship or completed certain milestones of 1.5 content. This is because while I am unable to directly check for whether the player has the recipe, for the recipes in which there is a friendship requirement or milestone completion requirement, the mod can check for that. For example, that you learn how to make sashimi after you have 3 hearts with Linus.
 
 
 ||Compatibility||
