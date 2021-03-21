@@ -7,7 +7,7 @@ Source code is on GitHub: https://github.com/LenneDalben/StardewValleyModsGPL/tr
 
 
 ||Description||
-With Townies Need Food, villagers will ask for cooked meals you can make in the kitchen, and reward you with gold and friendship. You'll have 7 days to complete the special orders. For the special orders to show up on the special orders board, you must have a kitchen, either from the first house upgrade, or from one of the mods listed in the Compatibility section. There are also friendship requirements, milestone requirements (for orders involving the island recipes), and seasonal requirements. For the full specifics, refer to the spoiler guide under Miscellaneous Files.
+With Townies Need Food (TNF), villagers will ask for cooked meals you can make in the kitchen, and reward you with gold and friendship. You'll have 7 days to complete the special orders. For the special orders to show up on the special orders board, you must have a kitchen, either from the first house upgrade, or from one of the mods listed in the Compatibility section. There are also friendship requirements, milestone requirements (for orders involving the island recipes), and seasonal requirements. For the full specifics, refer to the spoiler guide under Miscellaneous Files.
 
 
 ||Configuration||
@@ -34,6 +34,7 @@ Minerva's Bigger Farmhouses﻿ by minervamaga
 2. Install Content Patcher (CP)  (version 1.20.0 or higher)
 3. Unzip the mod folder of your choosing into Stardew Valley/Mods.
 4. Play the game using SMAPI!
+Note: TNF no longer requires Quest Framework (QF). If TNF was the only mod you had for QF, you can remove QF.
 
 
 ||Updating||
