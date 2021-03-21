@@ -7,7 +7,7 @@ Source code is on GitHub: https://github.com/LenneDalben/StardewValleyModsGPL/tr
 
 
 ||Description||
-With Townies Need Food, villagers will ask for cooked meals you can make in the kitchen, and reward you with gold! Like with vanilla special orders, you will also gain friendship with them on completing the special order. You'll have 7 days to complete the special orders. For the special orders to show up on the special orders board, you must have a kitchen, either from the first house upgrade, or from one of the mods listed in the Compatibility section. Content Patcher (CP) unfortunately does not have a direct way to check for whether the player knows a recipe, so instead I have checks for friendship, for recipes that require specific heart levels, checks for several milestones for 1.5 content, and check for "not year 1" for recipes available year 2 or later. For the full breakdown, refer to the guide under Miscellaneous Files.
+With Townies Need Food, villagers will ask for cooked meals you can make in the kitchen, and reward you with gold and friendship. You'll have 7 days to complete the special orders. For the special orders to show up on the special orders board, you must have a kitchen, either from the first house upgrade, or from one of the mods listed in the Compatibility section. Content Patcher (CP) unfortunately does not have a direct way to check for whether the player knows a recipe, so instead I have checks for friendship, for recipes that require specific heart levels, checks for several milestones for 1.5 content, and check for "not year 1" for recipes available year 2 or later. For the full breakdown, refer to the guide under Miscellaneous Files.
 
 
 ||Configuration||
