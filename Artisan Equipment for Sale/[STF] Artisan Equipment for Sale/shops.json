@@ -358,28 +358,6 @@
 			"ItemStocks": [
 				{
 					"ItemType": "BigCraftable",
-					"StockPrice": "2500",
-					"ItemNames": [
-						"Cask"
-					],
-					"Stock": 2,
-					"When": [
-						"u 4 11 18 25/HasCraftingRecipe Cask/f Robin 1750" //available if `every Thursday` AND `you've learned the Cask recipe` AND `7 hearts with Robin`
-					]
-				},
-				{
-					"ItemType": "BigCraftable",
-					"StockPrice": "7500",
-					"ItemNames": [
-						"Keg"
-					],
-					"Stock": 2,
-					"When": [
-						"u 4 11 18 25/HasCraftingRecipe Keg/f Robin 1250" //available if `every Thursday` AND `you've learned the Keg recipe` AND `5 hearts with Robin`
-					]
-				},
-				{
-					"ItemType": "BigCraftable",
 					"StockPrice": "7500",
 					"ItemNames": [
 						"Preserves Jar"
@@ -402,6 +380,28 @@
 				},
 				{
 					"ItemType": "BigCraftable",
+					"StockPrice": "7500",
+					"ItemNames": [
+						"Keg"
+					],
+					"Stock": 2,
+					"When": [
+						"u 4 11 18 25/HasCraftingRecipe Keg/f Robin 1250" //available if `every Thursday` AND `you've learned the Keg recipe` AND `5 hearts with Robin`
+					]
+				},
+				{
+					"ItemType": "BigCraftable",
+					"StockPrice": "2500",
+					"ItemNames": [
+						"Cask"
+					],
+					"Stock": 2,
+					"When": [
+						"u 4 11 18 25/HasCraftingRecipe Cask/f Robin 1750" //available if `every Thursday` AND `you've learned the Cask recipe` AND `7 hearts with Robin`
+					]
+				},
+				{
+					"ItemType": "BigCraftable",
 					"StockPrice": "6150",
 					"ItemNames": [
 						"Heavy Tapper"
@@ -420,17 +420,6 @@
 			"ItemStocks": [
 				{
 					"ItemType": "BigCraftable",
-					"StockPrice": "1000",
-					"ItemNames": [
-						"Oil Maker"
-					],
-					"Stock": 2,
-					"When": [
-						"u 4 11 18 25/HasCraftingRecipe Oil-Maker/f Sandy 1250" //available if `every Thursday` AND `you've learned the Oil Maker recipe` AND `5 hearts with Sandy`
-					]
-				},
-				{
-					"ItemType": "BigCraftable",
 					"StockPrice": "1320",
 					"ItemNames": [
 						"Garden Pot"
@@ -438,6 +427,17 @@
 					"Stock": 3,
 					"When": [
 						"u 4 11 18 25/HasCraftingRecipe Garden-Pot/f Sandy 750" //available if `every Thursday` AND `you've received the recipe for the garden pot from Evelyn` AND `3 hearts with Sandy`
+					]
+				},
+				{
+					"ItemType": "BigCraftable",
+					"StockPrice": "1000",
+					"ItemNames": [
+						"Oil Maker"
+					],
+					"Stock": 2,
+					"When": [
+						"u 4 11 18 25/HasCraftingRecipe Oil-Maker/f Sandy 1250" //available if `every Thursday` AND `you've learned the Oil Maker recipe` AND `5 hearts with Sandy`
 					]
 				}
 			] //end of Sandy item stock
