@@ -14,7 +14,7 @@
 					],
 					"Stock": 2,
 					"When": [
-						"u 4 11 18 25/HasCraftingRecipe Lightning-Rod/f Clint 1000" //available if `every Thursday` AND `you've learned the Lightning Rod recipe` AND `4 hearts with Clint`
+						"u 4 11 18 25/HasCraftingRecipe Lightning-Rod/f Clint 750" //available if `every Thursday` AND `you've learned the Lightning Rod recipe` AND `3 hearts with Clint`
 					]
 				},
 				{
