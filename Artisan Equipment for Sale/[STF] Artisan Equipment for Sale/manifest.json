@@ -1,13 +1,13 @@
 {
   "Name": "[STF] Artisan Equipment for Sale!",
   "Author": "LenneDalben",
-  "Version": "1.0.6",
+  "Version": "1.1.0",
   "Description": "All the shop owners sell artisan equipment once a week, after you've unlocked it, and earned their friendship.",
   "UniqueID": "LenneDalben.ArtisanEquipmentforSale",
-  "MinimumApiVersion": "3.4.0",
+  "MinimumApiVersion": "3.9.0",
   "UpdateKeys": [ "Nexus:6354" ],
   "ContentPackFor": {
     "UniqueID": "Cherry.ShopTileFramework",
-    	"MinimumVersion": "1.0.5"
+    	"MinimumVersion": "1.0.9"
   }
 }
