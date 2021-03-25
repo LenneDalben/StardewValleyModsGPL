@@ -12,7 +12,7 @@ Mayor Lewis will send you a letter to let you know that on every Thursday, the s
 
 Installation
 1. Install SMAPI﻿ (version 3.9.0 or higher)
-2. Install STF (version 1.0.6 or higher)
+2. Install STF (version 1.0.9 or higher)
 --if you'd like to receive the letters, you'll also need MFM﻿, but this is optional
 3. Unzip the mod folder into Stardew Valley/Mods (if you don't want the letters or don't use MFM, delete the folder beginning with [MFM]).
 4. Play the game using SMAPI!
