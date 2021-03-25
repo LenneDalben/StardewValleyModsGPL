@@ -96,6 +96,17 @@
 			"ItemStocks": [
 				{
 					"ItemType": "BigCraftable",
+					"StockPrice": "2180",
+					"ItemNames": [
+						"Bone Mill"
+					],
+					"Stock": 1,
+					"When": [
+						"HasMod Yoshimax.BefriendMarlon/u 4 11 18 25/HasCraftingRecipe Bone-Mill/f Marlon 750" //available if `every Thursday` AND `you've learned the Slime Egg-Press recipe` AND `3 hearts with Marlon`
+					]
+				},
+				{
+					"ItemType": "BigCraftable",
 					"StockPrice": "8000",
 					"ItemNames": [
 						"Slime Egg-Press"
@@ -123,6 +134,17 @@
 			"ShopName": "MarlonShop",
 			"AddStockAboveVanilla": "True",
 			"ItemStocks": [
+				{
+					"ItemType": "BigCraftable",
+					"StockPrice": "2180",
+					"ItemNames": [
+						"Bone Mill"
+					],
+					"Stock": 1,
+					"When": [
+						"HasMod FlashShifter.StardewValleyExpandedCP/u 4 11 18 25/HasCraftingRecipe Bone-Mill/f MarlonFay 750" //available if `every Thursday` AND `you've learned the Slime Egg-Press recipe` AND `3 hearts with Marlon`
+					]
+				},
 				{
 					"ItemType": "BigCraftable",
 					"StockPrice": "8000",
@@ -154,6 +176,17 @@
 			"ItemStocks": [
 				{
 					"ItemType": "BigCraftable",
+					"StockPrice": "2180",
+					"ItemNames": [
+						"Bone Mill"
+					],
+					"Stock": 1,
+					"When": [
+						"HasMod YWolf.Marlon/u 4 11 18 25/HasCraftingRecipe Bone-Mill/f Marlon 750" //available if `every Thursday` AND `you've learned the Slime Egg-Press recipe` AND `3 hearts with Marlon`
+					]
+				},
+				{
+					"ItemType": "BigCraftable",
 					"StockPrice": "8000",
 					"ItemNames": [
 						"Slime Egg-Press"
@@ -183,13 +216,24 @@
 			"ItemStocks": [
 				{
 					"ItemType": "BigCraftable",
+					"StockPrice": "2180",
+					"ItemNames": [
+						"Bone Mill"
+					],
+					"Stock": 1,
+					"When": [
+						"!HasMod Yoshimax.BefriendMarlon/!HasMod FlashShifter.StardewValleyExpandedCP/!HasMod YWolf.Marlon/u 4 11 18 25/HasCraftingRecipe Bone-Mill/b 1" //available if `every Thursday` AND `you've learned the Slime Egg-Press recipe` AND `you've reached the bottom of the mines once`
+					]
+				},
+				{
+					"ItemType": "BigCraftable",
 					"StockPrice": "8000",
 					"ItemNames": [
 						"Slime Egg-Press"
 					],
 					"Stock": 1,
 					"When": [
-						"!HasMod Yoshimax.BefriendMarlon/!HasMod FlashShifter.StardewValleyExpandedCP/u 4 11 18 25/HasCraftingRecipe Slime-Egg-Press/b 1" //available if `every Thursday` AND `you've learned the Slime Egg-Press recipe` AND `you've reached the bottom of the mines once`
+						"!HasMod Yoshimax.BefriendMarlon/!HasMod FlashShifter.StardewValleyExpandedCP/!HasMod YWolf.Marlon/u 4 11 18 25/HasCraftingRecipe Slime-Egg-Press/b 1" //available if `every Thursday` AND `you've learned the Slime Egg-Press recipe` AND `you've reached the bottom of the mines once`
 					]
 				},
 				{
@@ -200,7 +244,7 @@
 					],
 					"Stock": 1,
 					"When": [
-						"!HasMod Yoshimax.BefriendMarlon/!HasMod FlashShifter.StardewValleyExpandedCP/u 4 11 18 25/HasCraftingRecipe Slime-Incubator/b 1" //available if `every Thursday` AND `you've learned the Slime Incubator recipe` AND `you've reached the bottom of the mines once`
+						"!HasMod Yoshimax.BefriendMarlon/!HasMod FlashShifter.StardewValleyExpandedCP/!HasMod YWolf.Marlon/u 4 11 18 25/HasCraftingRecipe Slime-Incubator/b 1" //available if `every Thursday` AND `you've learned the Slime Incubator recipe` AND `you've reached the bottom of the mines once`
 					]
 				}
 			] //end of Marlon item stock
