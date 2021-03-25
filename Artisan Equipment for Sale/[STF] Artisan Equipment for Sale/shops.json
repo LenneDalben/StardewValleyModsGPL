@@ -256,6 +256,17 @@
 			"ItemStocks": [
 				{
 					"ItemType": "BigCraftable",
+					"StockPrice": "6630",
+					"ItemNames": [
+						"Mayonnaise Machine"
+					],
+					"Stock": 2,
+					"When": [
+						"u 4 11 18 25/HasCraftingRecipe Mayonnaise-Machine/f Marnie 1000" //available if `every Thursday` AND `you've learned the Mayonnaise Machine recipe` AND `4 hearts with Marnie`
+					]
+				}
+				{
+					"ItemType": "BigCraftable",
 					"StockPrice": "8300",
 					"ItemNames": [
 						"Cheese Press"
@@ -278,13 +289,13 @@
 				},
 				{
 					"ItemType": "BigCraftable",
-					"StockPrice": "6630",
+					"StockPrice": "26600",
 					"ItemNames": [
-						"Mayonnaise Machine"
+						"Ostrich Incubator"
 					],
-					"Stock": 2,
+					"Stock": 1,
 					"When": [
-						"u 4 11 18 25/HasCraftingRecipe Mayonnaise-Machine/f Marnie 1000" //available if `every Thursday` AND `you've learned the Mayonnaise Machine recipe` AND `4 hearts with Marnie`
+						"u 4 11 18 25/HasCraftingRecipe Ostrich-Incubator/f Marnie 2250" //available if `every Thursday` AND `you've learned the Ostrich Incubator recipe` AND `9 hearts with Marnie`
 					]
 				}
 			] //end of Marnie item stock
@@ -296,13 +307,13 @@
 			"ItemStocks": [
 				{
 					"ItemType": "BigCraftable",
-					"StockPrice": "10000",
+					"StockPrice": "3000",
 					"ItemNames": [
-						"Seed Maker"
+						"Scarecrow"
 					],
-					"Stock": 1,
+					"Stock": 2,
 					"When": [
-						"u 4 11 18 25/HasCraftingRecipe Seed-Maker/f Pierre 1250" //available if `every Thursday` AND `you've learned the Seed Maker recipe` AND `5 hearts with Pierre`
+						"u 4 11 18 25/HasCraftingRecipe Scarecrow/f Pierre 500" //available if `every Thursday` AND `you've learned the Scarecrow recipe` AND `2 hearts with Pierre`
 					]
 				},
 				{
@@ -318,15 +329,26 @@
 				},
 				{
 					"ItemType": "BigCraftable",
-					"StockPrice": "3000",
+					"StockPrice": "10000",
 					"ItemNames": [
-						"Scarecrow"
+						"Seed Maker"
 					],
-					"Stock": 2,
+					"Stock": 1,
 					"When": [
-						"u 4 11 18 25/HasCraftingRecipe Scarecrow/f Pierre 500" //available if `every Thursday` AND `you've learned the Scarecrow recipe` AND `2 hearts with Pierre`
+						"u 4 11 18 25/HasCraftingRecipe Seed-Maker/f Pierre 1250" //available if `every Thursday` AND `you've learned the Seed Maker recipe` AND `5 hearts with Pierre`
 					]
-				}
+				},
+				{
+					"ItemType": "BigCraftable",
+					"StockPrice": "30500",
+					"ItemNames": [
+						"Solar Panel"
+					],
+					"Stock": 1,
+					"When": [
+						"u 4 11 18 25/HasCraftingRecipe Solar-Panel/f Pierre 2250" //available if `every Thursday` AND `you've learned the Solar Panel recipe` AND `9 hearts with Pierre`
+					]
+				},
 			] //end of Pierre item stock
 		},
 		//Artisan Equipment at Robin's!
