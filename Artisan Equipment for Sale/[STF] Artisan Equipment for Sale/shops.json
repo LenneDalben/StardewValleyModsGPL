@@ -102,7 +102,7 @@
 					],
 					"Stock": 1,
 					"When": [
-						"HasMod Yoshimax.BefriendMarlon/u 4 11 18 25/HasCraftingRecipe Bone-Mill/f Marlon 750" //available if `every Thursday` AND `you've learned the Slime Egg-Press recipe` AND `3 hearts with Marlon`
+						"HasMod Yoshimax.BefriendMarlon/u 4 11 18 25/HasCraftingRecipe Bone-Mill/f Marlon 750" //available if `every Thursday` AND `you've learned the Bone Mill recipe` AND `3 hearts with Marlon`
 					]
 				},
 				{
@@ -142,7 +142,7 @@
 					],
 					"Stock": 1,
 					"When": [
-						"HasMod FlashShifter.StardewValleyExpandedCP/u 4 11 18 25/HasCraftingRecipe Bone-Mill/f MarlonFay 750" //available if `every Thursday` AND `you've learned the Slime Egg-Press recipe` AND `3 hearts with Marlon`
+						"HasMod FlashShifter.StardewValleyExpandedCP/u 4 11 18 25/HasCraftingRecipe Bone-Mill/f MarlonFay 750" //available if `every Thursday` AND `you've learned the Bone Mill recipe` AND `3 hearts with Marlon`
 					]
 				},
 				{
@@ -182,7 +182,7 @@
 					],
 					"Stock": 1,
 					"When": [
-						"HasMod YWolf.Marlon/u 4 11 18 25/HasCraftingRecipe Bone-Mill/f Marlon 750" //available if `every Thursday` AND `you've learned the Slime Egg-Press recipe` AND `3 hearts with Marlon`
+						"HasMod YWolf.Marlon/u 4 11 18 25/HasCraftingRecipe Bone-Mill/f Marlon 750" //available if `every Thursday` AND `you've learned the Bone Mill recipe` AND `3 hearts with Marlon`
 					]
 				},
 				{
@@ -222,7 +222,7 @@
 					],
 					"Stock": 1,
 					"When": [
-						"!HasMod Yoshimax.BefriendMarlon/!HasMod FlashShifter.StardewValleyExpandedCP/!HasMod YWolf.Marlon/u 4 11 18 25/HasCraftingRecipe Bone-Mill/b 1" //available if `every Thursday` AND `you've learned the Slime Egg-Press recipe` AND `you've reached the bottom of the mines once`
+						"!HasMod Yoshimax.BefriendMarlon/!HasMod FlashShifter.StardewValleyExpandedCP/!HasMod YWolf.Marlon/u 4 11 18 25/HasCraftingRecipe Bone-Mill/b 1" //available if `every Thursday` AND `you've learned the Bone Mill recipe` AND `you've reached the bottom of the mines once`
 					]
 				},
 				{
