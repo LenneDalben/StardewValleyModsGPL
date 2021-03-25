@@ -377,6 +377,17 @@
 					"When": [
 						"u 4 11 18 25/HasCraftingRecipe Tapper/f Robin 1000" //available if `every Thursday` AND `you've learned the Tapper recipe` AND `4 hearts with Robin`
 					]
+				},
+				{
+					"ItemType": "BigCraftable",
+					"StockPrice": "6150",
+					"ItemNames": [
+						"Heavy Tapper"
+					],
+					"Stock": 2,
+					"When": [
+						"u 4 11 18 25/HasCraftingRecipe Heavy-Tapper/f Robin 2250" //available if `every Thursday` AND `you've learned the Heavy Tapper recipe` AND `9 hearts with Robin`
+					]
 				}
 			] //end of Robin item stock
 		},
