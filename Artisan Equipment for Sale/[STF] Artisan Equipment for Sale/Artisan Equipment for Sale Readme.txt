@@ -11,8 +11,8 @@ All the shop owners sell artisan equipment, after you've unlocked it, and earned
 Mayor Lewis will send you a letter to let you know that on every Thursday, the shop owners in the valley (and in the desert) will sell artisan equipment, but only to their friends.
 
 Installation
-1. Install SMAPI﻿ (version 3.4 or higher)
-2. Install STF (version 1.0.5 or higher)
+1. Install SMAPI﻿ (version 3.9.0 or higher)
+2. Install STF (version 1.0.6 or higher)
 --if you'd like to receive the letters, you'll also need MFM﻿, but this is optional
 3. Unzip the mod folder into Stardew Valley/Mods (if you don't want the letters or don't use MFM, delete the folder beginning with [MFM]).
 4. Play the game using SMAPI!
@@ -119,8 +119,3 @@ Oil Maker          |     10000      | Learn recipe and 5 hearts with Sandy
 |   Machine        | Purchase Price | Requirements
 Recycling Machine  |      5500      | Learn recipe and 5 hearts with Willy
 Worm Bin           |      6925      | Learn recipe and 6 hearts with Willy
-
-
-
-
-Oh, hello, you made it down here. You see, I had a brief fix to remove 2 square brackets from default.json and add them in mail.json, and of course, updating the version numbers in the 2 manifest.json files (for MFM and for STF). I doubted Nexus would let these small edits go by, because they are known for "eating" small edits to text files. In order to ensure (hope, really) that this update makes it to Nexus instead of getting lost to the void, I'm adding this blurb here.
