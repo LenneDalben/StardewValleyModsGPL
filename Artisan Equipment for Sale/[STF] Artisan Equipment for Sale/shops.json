@@ -264,7 +264,7 @@
 					"When": [
 						"u 4 11 18 25/HasCraftingRecipe Mayonnaise-Machine/f Marnie 1000" //available if `every Thursday` AND `you've learned the Mayonnaise Machine recipe` AND `4 hearts with Marnie`
 					]
-				}
+				},
 				{
 					"ItemType": "BigCraftable",
 					"StockPrice": "8300",
@@ -348,7 +348,7 @@
 					"When": [
 						"u 4 11 18 25/HasCraftingRecipe Solar-Panel/f Pierre 2250" //available if `every Thursday` AND `you've learned the Solar Panel recipe` AND `9 hearts with Pierre`
 					]
-				},
+				}
 			] //end of Pierre item stock
 		},
 		//Artisan Equipment at Robin's!
