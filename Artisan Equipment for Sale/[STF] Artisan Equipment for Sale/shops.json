@@ -47,7 +47,7 @@
 					],
 					"Stock": 2,
 					"When": [
-						"u 4 11 18 25/HasCraftingRecipe Geode-Crusher/f Clint 1000" //available if `every Thursday` AND `you've received the furnace recipe from Clint` AND `4 hearts with Clint`
+						"u 4 11 18 25/HasCraftingRecipe Geode-Crusher/f Clint 1000" //available if `every Thursday` AND `you have learned the Geode Crusher recipe` AND `4 hearts with Clint`
 					]
 				}
 			] //end of Clint item stock
