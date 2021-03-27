@@ -3,7 +3,7 @@ Author: LenneDalben
 
 LICENSE: This work is licensed under GNU GPL3.0: https://www.gnu.org/licenses/gpl-3.0.html
 Source code is on GitHub,
-https://github.com/LenneDalben/StardewValleyMods/tree/master/Artisan%20Equipment%20for%20Sale
+https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/Artisan%20Equipment%20for%20Sale
 
 Description
 All the shop owners sell artisan equipment, after you've unlocked it, and earned their friendship.
