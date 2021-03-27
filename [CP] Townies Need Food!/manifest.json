@@ -38,6 +38,10 @@
     {
       "UniqueID": "muscat.FarmHouse12",
       "IsRequired": false
+    },
+    {
+      "UniqueID": "DexMods.CozierDefaultFarmhouses",
+      "IsRequired": false
     }
   ]
 }
