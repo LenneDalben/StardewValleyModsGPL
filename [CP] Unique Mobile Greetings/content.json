@@ -422,7 +422,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Haley",
 			"Entries": {
-				"MobilePhoneGreeting": "Hi {0}. Anything exciting happening on your farm?",
+				"MobilePhoneGreeting": "Hi {0}. Anything exciting happening?",
 				"MobilePhoneGoodBye": "Byeeeeee!$h"
 			},
 			"When": {
@@ -551,7 +551,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Leah",
 			"Entries": {
-				"MobilePhoneGreeting": "Hey {0}! Staying busy with the farm?",
+				"MobilePhoneGreeting": "Hey {0}! Staying busy?",
 				"MobilePhoneGoodBye": "See you soon!$h"
 			},
 			"When": {
@@ -629,7 +629,7 @@
 			"Target": "Characters/Dialogue/Maru",
 			"Entries": {
 				"MobilePhoneGreeting": "Hey {0}! How's it going?",
-				"MobilePhoneGoodBye": "Bye, have fun working on the farm!$h"
+				"MobilePhoneGoodBye": "Bye, have fun!$h"
 			},
 			"When": {
 				"Relationship:Maru": "Friendly",
