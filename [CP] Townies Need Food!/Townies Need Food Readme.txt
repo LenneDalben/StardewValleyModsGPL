@@ -29,6 +29,7 @@ Seasonal Garden Farmhouse V2﻿ by DustBeauty
 CCS Kitchen Station Set﻿ by jina2ya
 Minerva's Bigger Farmhouses﻿ by minervamaga
 1.5 FarmHouse1, 2 with Bathroom by muscat (CP version)
+Cozier Default Farmhouses by DexMods
 
 
 ||Installation||
