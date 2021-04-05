@@ -25,7 +25,7 @@
               "Text": "[TowniesSeekArtisanGoods_Abigail_PumpkinJuice_Objective_Text_0]",
               "RequiredCount": "3",
               "Data": {
-                "AcceptedContextTags": "item_pumpkin_juicer",
+                "AcceptedContextTags": "item_pumpkin_juice",
                 "Message": "[TowniesSeekArtisanGoods_Abigail_PumpkinJuice_Message_0]",
                 "TargetName": "Abigail"
               }
@@ -47,6 +47,7 @@
       },
       "When": {
         "Repeatable": "true",
+        "OrderType": "juice",
         "Season": "Fall"
       }
     },
