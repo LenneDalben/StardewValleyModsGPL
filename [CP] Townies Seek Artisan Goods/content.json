@@ -64,6 +64,20 @@
         "TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Message_0": "{{i18n:TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Message_0}}",
         "TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Message_1": "{{i18n:TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Message_1}}"
       }
-    }
+    },
+    // Strings Caroline Juicy Electrolytes
+    {
+      "LogName": "Strings Caroline Juicy Electrolytes",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Name": "{{i18n:TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Name}}",
+        "TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Text": "{{i18n:TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Text}}",
+        "TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Objective_Text_0": "{{i18n:TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Objective_Text_0}}",
+        "TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Objective_Text_1": "{{i18n:TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Objective_Text_1}}",
+        "TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Message_0": "{{i18n:TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Message_0}}",
+        "TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Message_1": "{{i18n:TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Message_1}}"
+      }
+    },
   ]
 }

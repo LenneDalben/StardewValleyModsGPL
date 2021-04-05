@@ -51,6 +51,55 @@
         "Season": "Fall"
       }
     },
+    // Caroline Juicy Electrolytes Repeatable
+    {
+      "LogName": "Repeatable Caroline Juicy Electrolytes",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes": {
+          "Name": "[TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Name]",
+          "Requester": "Caroline",
+          "Duration": "Month",
+          "Repeatable": "True",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Objective_Text_0]",
+              "RequiredCount": "15",
+              "Data": {
+                "AcceptedContextTags": "juice_item",
+                "Message": "[TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Message_0]",
+                "TargetName": "Caroline"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "10800"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "true",
+        "OrderType": "juice"
+      }
+    },
     //
     // Not Repeatable special orders listed below (the same kind of order, just with Repeatable set to false)
     //
@@ -102,6 +151,55 @@
         "Repeatable": "false",
         "OrderType": "juice",
         "Season": "Fall"
+      }
+    },
+    // Caroline Juicy Electrolytes Not Repeatable
+    {
+      "LogName": "Not Repeatable Caroline Juicy Electrolytes",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes": {
+          "Name": "[TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Name]",
+          "Requester": "Caroline",
+          "Duration": "Month",
+          "Repeatable": "false",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Objective_Text_0]",
+              "RequiredCount": "15",
+              "Data": {
+                "AcceptedContextTags": "juice_item",
+                "Message": "[TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Message_0]",
+                "TargetName": "Caroline"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "10800"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "false",
+        "OrderType": "juice"
       }
     },
   ]

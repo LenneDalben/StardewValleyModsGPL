@@ -3,7 +3,12 @@
   "TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Name": "Sweet Pumpkin",
   "TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Text": "I'd love some pumpkin juice. Could someone bring me 3 bottles?",
   "TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Objective_Text_0": "Deliver 3 Pumpkin Juice to Abigail",
-  "TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Message_0": "This will be sweet and nutritious, thanks @!$h"
+  "TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Message_0": "This will be sweet and nutritious, thanks @!$h",
   //
-  // 
+  //
+  // Caroline Juicy Electrolytes Strings
+  "TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Name": "Juicy Electrolytes",
+  "TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Text": "I think the ladies at aerobics class would love some juice for hydration. Could someone bring me 15 bottles?",
+  "TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Objective_Text_0": "Deliver 15 Juice Juice to Caroline",
+  "TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Message_0": "This will help replenish electrolytes, thanks @!",
 }
