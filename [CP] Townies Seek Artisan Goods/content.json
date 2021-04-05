@@ -14,6 +14,13 @@
       "Default": "true",
       "AllowBlank": false,
       "AllowMultiple": false
+    },
+    "Type": {
+      "Description": "Specify which types of special orders you'd like (jelly, pickle, alcohol, juice, roe, animal, machines). By default, all are toggled.",
+      "AllowValues": "jelly, pickle, alcohol, juice, roe, animal, machines",
+      "Default": "",
+      "AllowMultiple": true,
+      "AllowBlank": false
     }
   },
   "DynamicTokens": [

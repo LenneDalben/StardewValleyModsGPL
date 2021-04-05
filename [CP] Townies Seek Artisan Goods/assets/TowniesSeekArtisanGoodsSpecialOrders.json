@@ -1,42 +1,32 @@
 {
   "Changes": [
     // Repeatable special orders are listed first
-    // Abigail Sweet and Spicy Repeatable
+    // Abigail Pumpkin Juice Repeatable
     {
-      "LogName": "Repeatable Abigail Sweet and Spicy",
+      "LogName": "Repeatable Abigail Pumpkin Juice",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesSeekArtisanGoods_Abigail_SweetandSpicy": {
-          "Name": "[TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Name]",
+        "TowniesSeekArtisanGoods_Abigail_PumpkinJuice": {
+          "Name": "[TowniesSeekArtisanGoods_Abigail_PumpkinJuice_Name]",
           "Requester": "Abigail",
           "Duration": "Week",
           "Repeatable": "True",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Text]",
+          "Text": "[TowniesSeekArtisanGoods_Abigail_PumpkinJuice_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Objective_Text_0]",
-              "RequiredCount": "1",
+              "Text": "[TowniesSeekArtisanGoods_Abigail_PumpkinJuice_Objective_Text_0]",
+              "RequiredCount": "3",
               "Data": {
-                "AcceptedContextTags": "item_blackberry_cobbler",
-                "Message": "[TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Message_0]",
-                "TargetName": "Abigail"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Objective_Text_1]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_spicy_eel",
-                "Message": "[TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Message_1]",
+                "AcceptedContextTags": "item_pumpkin_juicer",
+                "Message": "[TowniesSeekArtisanGoods_Abigail_PumpkinJuice_Message_0]",
                 "TargetName": "Abigail"
               }
             }
@@ -57,8 +47,6 @@
       },
       "When": {
         "Repeatable": "true",
-        "Year | contains=1": false,
-        "Hearts:George": "7, 8, 9, 10",
         "Season": "Fall"
       }
     },
@@ -71,36 +59,36 @@
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesSeekArtisanGoods_Abigail_SweetandSpicy": {
-          "Name": "[TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Name]",
+        "TowniesSeekArtisanGoods_Abigail_PumpkinJuice": {
+          "Name": "[TowniesSeekArtisanGoods_Abigail_PumpkinJuice_Name]",
           "Requester": "Abigail",
           "Duration": "Week",
           "Repeatable": "False",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Text]",
+          "Text": "[TowniesSeekArtisanGoods_Abigail_PumpkinJuice_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Objective_Text_0]",
+              "Text": "[TowniesSeekArtisanGoods_Abigail_PumpkinJuice_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
                 "AcceptedContextTags": "item_blackberry_cobbler",
-                "Message": "[TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Message_0]",
+                "Message": "[TowniesSeekArtisanGoods_Abigail_PumpkinJuice_Message_0]",
                 "TargetName": "Abigail"
               }
             },
             {
               "Type": "Deliver",
-              "Text": "[TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Objective_Text_1]",
+              "Text": "[TowniesSeekArtisanGoods_Abigail_PumpkinJuice_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
                 "AcceptedContextTags": "item_spicy_eel",
-                "Message": "[TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Message_1]",
+                "Message": "[TowniesSeekArtisanGoods_Abigail_PumpkinJuice_Message_1]",
                 "TargetName": "Abigail"
               }
             }
