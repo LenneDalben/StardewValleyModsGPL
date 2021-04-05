@@ -51,18 +51,18 @@
       "FromFile": "assets/TowniesSeekArtisanGoodsSpecialOrders.json"
     },
     // Strings below
-    // Strings Abigail Sweet and Spicy
+    // Strings Abigail Sweet Pumpkin
     {
-      "LogName": "Strings Abigail Sweet and Spicy",
+      "LogName": "Strings Abigail Sweet Pumpkin",
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
-        "TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Name": "{{i18n:TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Name}}",
-        "TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Text": "{{i18n:TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Text}}",
-        "TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Objective_Text_0": "{{i18n:TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Objective_Text_0}}",
-        "TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Objective_Text_1": "{{i18n:TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Objective_Text_1}}",
-        "TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Message_0": "{{i18n:TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Message_0}}",
-        "TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Message_1": "{{i18n:TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Message_1}}"
+        "TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Name": "{{i18n:TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Name}}",
+        "TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Text": "{{i18n:TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Text}}",
+        "TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Objective_Text_0": "{{i18n:TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Objective_Text_0}}",
+        "TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Objective_Text_1": "{{i18n:TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Objective_Text_1}}",
+        "TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Message_0": "{{i18n:TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Message_0}}",
+        "TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Message_1": "{{i18n:TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Message_1}}"
       }
     }
   ]

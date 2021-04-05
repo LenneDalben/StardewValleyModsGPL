@@ -1,11 +1,9 @@
 {
-  // Abigail Sweet and Spicy Strings
-  "TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Name": "Sweet & Spicy",
-  "TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Text": "Hey! I'm in the mood for a sweet and spicy combination. Can anyone make me some blackberry cobbler and spicy eel?",
-  "TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Objective_Text_0": "Deliver Blackberry Cobbler to Abigail",
-  "TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Objective_Text_1": "Deliver Spicy Eel to Abigail",
-  "TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Message_0": "The cobbler looks tasty, thanks @!$h",
-  "TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Message_1": "I can smell the spice from here, thanks @!$h",
+  // Abigail Sweet Pumpkin Strings
+  "TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Name": "Sweet Pumpkin",
+  "TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Text": "I'd love some pumpkin juice. Could someone bring me 3 bottles?",
+  "TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Objective_Text_0": "Deliver 3 Pumpkin Juice to Abigail",
+  "TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Message_0": "This will be sweet and nutritious, thanks @!$h"
   //
   // 
 }
