@@ -1,0 +1,132 @@
+{
+  "Changes": [
+    // Repeatable special orders are listed first
+    // Abigail Sweet and Spicy Repeatable
+    {
+      "LogName": "Repeatable Abigail Sweet and Spicy",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesSeekArtisanGoods_Abigail_SweetandSpicy": {
+          "Name": "[TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Name]",
+          "Requester": "Abigail",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_blackberry_cobbler",
+                "Message": "[TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Message_0]",
+                "TargetName": "Abigail"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_spicy_eel",
+                "Message": "[TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Message_1]",
+                "TargetName": "Abigail"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1305"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "true",
+        "PlayerHasKitchen": true,
+        "Year | contains=1": false,
+        "Hearts:George": "7, 8, 9, 10",
+        "Season": "Fall"
+      }
+    },
+    //
+    // Not Repeatable special orders listed below (the same kind of order, just with Repeatable set to false)
+    //
+    // Abigail Sweet and Spicy Not Repeatable
+    {
+      "LogName": "Not Repeatable Abigail Sweet and Spicy",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesSeekArtisanGoods_Abigail_SweetandSpicy": {
+          "Name": "[TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Name]",
+          "Requester": "Abigail",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_blackberry_cobbler",
+                "Message": "[TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Message_0]",
+                "TargetName": "Abigail"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_spicy_eel",
+                "Message": "[TowniesSeekArtisanGoods_Abigail_SweetandSpicy_Message_1]",
+                "TargetName": "Abigail"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1305"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "false",
+        "PlayerHasKitchen": true,
+        "Year | contains=1": false,
+        "Hearts:George": "7, 8, 9, 10",
+        "Season": "Fall"
+      }
+    }
+  ]
+}
