@@ -54,9 +54,9 @@
     //
     // Not Repeatable special orders listed below (the same kind of order, just with Repeatable set to false)
     //
-    // Abigail Sweet Pumpkin Repeatable
+    // Abigail Sweet Pumpkin Not Repeatable
     {
-      "LogName": "Repeatable Abigail Sweet Pumpkin",
+      "LogName": "Not Repeatable Abigail Sweet Pumpkin",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
