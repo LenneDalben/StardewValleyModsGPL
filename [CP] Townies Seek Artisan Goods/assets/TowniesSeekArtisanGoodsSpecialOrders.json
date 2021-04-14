@@ -251,8 +251,9 @@
       },
       "When": {
         "Repeatable": "false",
-        "OrderType": "juice",
-        "Season": "Fall"
+        "OrderType": "wine",
+        "Season": "Fall, Winter",
+        "PlayerHasCellarOrQAP": "true"
       }
     },
     // Caroline Juicy Electrolytes Not Repeatable
