@@ -35,7 +35,57 @@
             {
               "Type": "Money",
               "Data": {
-                "Amount": "2160"
+                "Amount": "3021"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "true",
+        "OrderType": "juice",
+        "Season": "Fall"
+      }
+    },
+    // Alex Sweet Apple Repeatable
+    {
+      "LogName": "Repeatable Alex Sweet Apple",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesSeekArtisanGoods_Alex_SweetApple": {
+          "Name": "[TowniesSeekArtisanGoods_Alex_SweetApple_Name]",
+          "Requester": "Alex",
+          "Duration": "Month",
+          "Repeatable": "True",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesSeekArtisanGoods_Alex_SweetApple_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesSeekArtisanGoods_Alex_SweetApple_Objective_Text_0]",
+              "RequiredCount": "7",
+              "Data": {
+                "AcceptedContextTags": "item_apple_wine, quality_gold/quality_iridium",
+                "Message": "[TowniesSeekArtisanGoods_Alex_SweetApple_Message_0]",
+                "TargetName": "Alex"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "3021"
               }
             },
             {
@@ -85,7 +135,7 @@
             {
               "Type": "Money",
               "Data": {
-                "Amount": "10800"
+                "Amount": "3150"
               }
             },
             {
@@ -97,7 +147,8 @@
       },
       "When": {
         "Repeatable": "true",
-        "OrderType": "juice"
+        "OrderType": "juice",
+        "SkillLevel:Farming": "8, 9, 10"
       }
     },
     //
@@ -137,7 +188,57 @@
             {
               "Type": "Money",
               "Data": {
-                "Amount": "2160"
+                "Amount": "3021"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "false",
+        "OrderType": "juice",
+        "Season": "Fall"
+      }
+    },
+    // Alex Sweet Apple Not Repeatable
+    {
+      "LogName": "Not Repeatable Alex Sweet Apple",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesSeekArtisanGoods_Alex_SweetApple": {
+          "Name": "[TowniesSeekArtisanGoods_Alex_SweetApple_Name]",
+          "Requester": "Alex",
+          "Duration": "Month",
+          "Repeatable": "False",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesSeekArtisanGoods_Alex_SweetApple_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesSeekArtisanGoods_Alex_SweetApple_Objective_Text_0]",
+              "RequiredCount": "7",
+              "Data": {
+                "AcceptedContextTags": "item_apple_wine, quality_gold/quality_iridium",
+                "Message": "[TowniesSeekArtisanGoods_Alex_SweetApple_Message_0]",
+                "TargetName": "Alex"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "3021"
               }
             },
             {
@@ -187,7 +288,7 @@
             {
               "Type": "Money",
               "Data": {
-                "Amount": "10800"
+                "Amount": "3150"
               }
             },
             {
@@ -199,7 +300,8 @@
       },
       "When": {
         "Repeatable": "false",
-        "OrderType": "juice"
+        "OrderType": "juice",
+        "SkillLevel:Farming": "8, 9, 10"
       }
     },
   ]
