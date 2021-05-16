@@ -1,7 +1,7 @@
 {
   "Name": "Townies Need Food! Main",
   "Author": "LenneDalben",
-  "Version": "2.0.3",
+  "Version": "2.1.0",
   "Description": "NPCs in town request cooked meals in the special orders board! This is the main version, without friendship requirements.",
   "UniqueID": "LenneDalben.TowniesNeedFood",
   "MinimumApiVersion": "3.9.0",
