@@ -7,7 +7,7 @@ Source code is on GitHub: https://github.com/LenneDalben/StardewValleyModsGPL/tr
 
 
 ||Description||
-With Townies Need Food (TNF), villagers will ask for cooked meals you can make in the kitchen, and reward you with gold and friendship. You'll have 7 days to complete the special orders. For the special orders to show up on the special orders board, you must have a kitchen, either from the first house upgrade, or from one of the mods listed in the Compatibility section. There are also friendship requirements, milestone requirements (for orders involving the island recipes), and seasonal requirements. For the full specifics, refer to the spoiler guide under Miscellaneous Files.
+With Townies Need Food (TNF), villagers will ask for cooked meals you can make in the kitchen, and reward you with gold and friendship. You'll have 7 days to complete the special orders. For the special orders to show up on the special orders board, you must have a kitchen, either from the first house upgrade, or from one of the mods listed in the Compatibility section. There are also milestone requirements (for orders involving the island recipes). In the Main version, there are no friendship requirements. In the Optional version, there are friendship requirements. For the full specifics, refer to the spoiler guide under Miscellaneous Files.
 
 
 ||Configuration||
@@ -15,9 +15,9 @@ Config Options
 Repeatable: true or false, default is true
 IncludeIslandContent: true or false, default is true (toggle special orders requiring recipes from the island)
 
-With regards to the "sparseness" of the orders: the game picks from a pool of the available orders, so if you'd prefer to get through some of the vanilla special orders first, install this mod later in your playthrough. I also added some season requirements to help spread out the orders a bit.
+With regards to the "sparseness" of the orders: the game picks from a pool of the available orders, so if you'd prefer to get through some of the vanilla special orders first, install this mod later in your playthrough.
 
-Note that the mod does not come packaged with a config file. The config file will be generated after you run the game with the mod installed at least once. 
+Note that the mod does not come packaged with a config file. The config file will be generated after you run the game with the mod installed at least once. Due to a limitation with the way that the game reads modifications to the special orders, I recommend changing the config before you start your save. Then, once you start using this mod, don't change the config again.
 
 
 ||Compatibility||
