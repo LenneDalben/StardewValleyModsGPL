@@ -19,7 +19,7 @@ With regards to the "sparseness" of the orders: the game picks from a pool of th
 
 Note that the mod does not come packaged with a config file. The config file will be generated after you run the game with the mod installed at least once.
 
-In the Main version, there are no friendship requirements. In the Optional version, there are friendship requirements. Due to a limitation with the way the game reads modifications to the special orders, if your friendship decays enough that you no longer meet the requirement, you could get a crash. The Optional version of the mod still has friendship requirements because if you use a mod to remove friendship decay (like Friends Forever, or the specific option in CJB Cheats Menu), you won't be affected by this.
+In the Main version, there are no friendship requirements. In the Optional version, there are friendship requirements. Due to a limitation with the way the game reads modifications to the special orders, if your friendship decays enough that you no longer meet the requirement, you could get a crash. The Optional version of the mod still has friendship requirements because if you use a mod to remove friendship decay (like Friends Forever, or the specific option in CJB Cheats Menu), you won't be affected by this and can use the main file. If you do not use a mod to remove friendship decay, and you don't want to risk a crash, use the Main file.
 
 ||Compatibility||
 Townies Need Food will recognize if you have one of the following mods installed, so special orders will show up on the special orders board before you have the first house upgrade:
