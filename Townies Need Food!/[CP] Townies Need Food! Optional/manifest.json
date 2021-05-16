@@ -5,7 +5,7 @@
   "Description": "NPCs in town request cooked meals in the special orders board! This is the optional version, which does have friendship requirements.",
   "UniqueID": "LenneDalben.TowniesNeedFood",
   "MinimumApiVersion": "3.9.0",
-  "UpdateKeys": [ "Nexus:6534" ],
+  "UpdateKeys": [ "Nexus:6534@Optional" ],
   "ContentPackFor": {
     "UniqueID": "Pathoschild.ContentPatcher",
     "MinimumVersion": "1.20.0"
