@@ -1,7 +1,5 @@
 {
   "Changes": [
-    // Repeatable special orders are listed first
-    // Abigail Sweet and Spicy Repeatable
     {
       "LogName": "Repeatable Abigail Sweet and Spicy",
       "Action": "EditData",
@@ -59,8 +57,7 @@
         "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
-        "Hearts:George": "7, 8, 9, 10",
-        "Season": "Fall"
+        "Hearts:George": "7, 8, 9, 10"
       }
     },
     // Abigail Creamy Dessert Repeatable
@@ -172,8 +169,7 @@
         "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
-        "Hearts:Gus": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Season": "Spring, Fall"
+        "Hearts:Gus": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
     // Caroline Seafood Bonanza Repeatable
@@ -245,8 +241,7 @@
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "Hearts:Linus": "7, 8, 9, 10",
-        "Hearts:George": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Season": "Spring, Fall"
+        "Hearts:George": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
     // Clint Mild Snack Repeatable
@@ -305,8 +300,7 @@
       },
       "When": {
         "Repeatable": "true",
-        "PlayerHasKitchen": true,
-        "Season": "Fall"
+        "PlayerHasKitchen": true
       }
     },
     // Demetrius Dinner and Two Desserts Repeatable
@@ -378,8 +372,7 @@
         "PlayerHasKitchen": true,
         "Hearts:Clint": "7, 8, 9, 10",
         "Hearts:Jodi": "7, 8, 9, 10",
-        "Hearts:Evelyn": "7, 8, 9, 10",
-        "Season": "Spring"
+        "Hearts:Evelyn": "7, 8, 9, 10"
       }
     },
     // Elliott Meal Planning Repeatable
@@ -571,8 +564,7 @@
       "When": {
         "Repeatable": "true",
         "PlayerHasKitchen": true,
-        "Hearts:Pam": "7, 8, 9, 10",
-        "Season": "Fall, Winter"
+        "Hearts:Pam": "7, 8, 9, 10"
       }
     },
     // George Some Favorites Repeatable
@@ -633,8 +625,7 @@
         "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Hearts:Demetrius": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Hearts:Willy": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Season": "Fall, Winter"
+        "Hearts:Willy": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
     // Gus Unique Delicacies Repeatable
@@ -695,8 +686,7 @@
         "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Hearts:Willy": "5, 6, 7, 8, 9, 10",
-        "Hearts:Linus": "7, 8, 9, 10",
-        "Season": "Spring"
+        "Hearts:Linus": "7, 8, 9, 10"
       }
     },
     // Gus Fragrant Curry Repeatable
@@ -747,8 +737,7 @@
         "Repeatable": "true",
         "IncludeIslandContent": "true",
         "PlayerHasKitchen": true,
-        "HasFlag": "Island_Resort",
-        "Season": "Spring"
+        "HasFlag": "Island_Resort"
       }
     },
     // Haley Mostly Healthy Repeatable
@@ -878,8 +867,7 @@
       "When": {
         "Repeatable": "true",
         "PlayerHasKitchen": true,
-        "Hearts:Kent": "7, 8, 9, 10",
-        "Season": "Fall"
+        "Hearts:Kent": "7, 8, 9, 10"
       }
     },
     // Jas Holiday Treat Repeatable
@@ -929,8 +917,7 @@
       "When": {
         "Repeatable": "true",
         "Year | contains=1": false,
-        "PlayerHasKitchen": true,
-        "Season": "Fall, Winter"
+        "PlayerHasKitchen": true
       }
     },
     // Jodi Three Square Meals Repeatable
@@ -1001,8 +988,7 @@
         "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Hearts:Lewis": "7, 8, 9, 10",
-        "Hearts:Kent": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Season": "Summer, Fall"
+        "Hearts:Kent": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
     // Kent Dinner and a Snack Repeatable
@@ -1173,8 +1159,7 @@
       "When": {
         "Repeatable": "true",
         "PlayerHasKitchen": true,
-        "Hearts:Emily": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14",
-        "Season": "Spring"
+        "Hearts:Emily": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
       }
     },
     // Leo Sweet Flavor Repeatable
@@ -1286,8 +1271,7 @@
         "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Hearts:Demetrius": "7, 8, 9, 10",
-        "Hearts:Caroline": "7, 8, 9, 10",
-        "Season": "Summer, Fall"
+        "Hearts:Caroline": "7, 8, 9, 10"
       }
     },
     // Linus Fish and Dessert Repeatable
@@ -1430,8 +1414,7 @@
         "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
-        "Hearts:Pierre": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Season": "Spring, Fall"
+        "Hearts:Pierre": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
     // Maru My Favorite Foodstuffs Repeatable
@@ -1503,8 +1486,7 @@
         "PlayerHasKitchen": true,
         "Hearts:Pam": "3, 4, 5, 6, 7, 8, 9, 10",
         "Hearts:Marnie": "7, 8, 9, 10",
-        "SkillLevel:Mining": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Season": "Spring"
+        "SkillLevel:Mining": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
     // Pam Roots Repeatable
@@ -1575,8 +1557,7 @@
         "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
-        "Hearts:Caroline": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Season": "Spring, Fall"
+        "Hearts:Caroline": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
     // Penny A Day's Meals Repeatable
@@ -1648,8 +1629,7 @@
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "Hearts:Emily": "7, 8, 9, 10, 11, 12, 13, 14",
-        "SkillLevel:Combat": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Season": "Summer, Winter"
+        "SkillLevel:Combat": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
     // Pierre Appetizer and Entree Repeatable
@@ -1710,8 +1690,7 @@
         "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
-        "Hearts:Jodi": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Season": "Summer, Winter"
+        "Hearts:Jodi": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
     // Robin Family Buffet Repeatable
@@ -1782,8 +1761,7 @@
         "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
-        "Hearts:Lewis": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Season": "Summer"
+        "Hearts:Lewis": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
     // Sam Slice and Dessert Repeatable
@@ -2015,8 +1993,7 @@
         "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Hearts:Robin": "7, 8, 9, 10",
-        "Hearts:Linus": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Season": "Fall, Winter"
+        "Hearts:Linus": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
     // Shane Peppers and Pizza Repeatable
@@ -2077,8 +2054,7 @@
         "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
-        "Hearts:Shane": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14",
-        "Season": "Summer"
+        "Hearts:Shane": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
       }
     },
     // Vincent Fizzy and Soothing Repeatable
@@ -2198,8 +2174,7 @@
       },
       "When": {
         "Repeatable": "true",
-        "PlayerHasKitchen": true,
-        "Season": "Summer"
+        "PlayerHasKitchen": true
       }
     },
     // Wizard Luck and Sweets Repeatable
@@ -2271,8 +2246,7 @@
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "HasSeenEvent": "19",
-        "Hearts:Gus": "7, 8, 9, 10",
-        "Season": "Winter"
+        "Hearts:Gus": "7, 8, 9, 10"
       }
     },
     // Wizard Protective Pasta Repeatable
@@ -2386,8 +2360,7 @@
         "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
-        "Hearts:George": "7, 8, 9, 10",
-        "Season": "Fall"
+        "Hearts:George": "7, 8, 9, 10"
       }
     },
     // Abigail Creamy Dessert Not Repeatable
@@ -2499,8 +2472,7 @@
         "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
-        "Hearts:Gus": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Season": "Spring, Fall"
+        "Hearts:Gus": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
     // Caroline Seafood Bonanza Not Repeatable
@@ -2572,8 +2544,7 @@
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "Hearts:Linus": "7, 8, 9, 10",
-        "Hearts:George": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Season": "Spring, Fall"
+        "Hearts:George": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
     // Clint Mild Snack Not Repeatable
@@ -2632,8 +2603,7 @@
       },
       "When": {
         "Repeatable": "false",
-        "PlayerHasKitchen": true,
-        "Season": "Fall"
+        "PlayerHasKitchen": true
       }
     },
     // Demetrius Dinner and Two Desserts Not Repeatable
@@ -2705,8 +2675,7 @@
         "PlayerHasKitchen": true,
         "Hearts:Clint": "7, 8, 9, 10",
         "Hearts:Jodi": "7, 8, 9, 10",
-        "Hearts:Evelyn": "7, 8, 9, 10",
-        "Season": "Spring"
+        "Hearts:Evelyn": "7, 8, 9, 10"
       }
     },
     // Elliott Meal Planning Not Repeatable
@@ -2898,8 +2867,7 @@
       "When": {
         "Repeatable": "false",
         "PlayerHasKitchen": true,
-        "Hearts:Pam": "7, 8, 9, 10",
-        "Season": "Fall, Winter"
+        "Hearts:Pam": "7, 8, 9, 10"
       }
     },
     // George Some Favorites Not Repeatable
@@ -2960,8 +2928,7 @@
         "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Hearts:Demetrius": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Hearts:Willy": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Season": "Fall, Winter"
+        "Hearts:Willy": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
     // Gus Unique Delicacies Not Repeatable
@@ -3022,8 +2989,7 @@
         "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Hearts:Willy": "5, 6, 7, 8, 9, 10",
-        "Hearts:Linus": "7, 8, 9, 10",
-        "Season": "Spring"
+        "Hearts:Linus": "7, 8, 9, 10"
       }
     },
     // Gus Fragrant Curry Not Repeatable
@@ -3074,8 +3040,7 @@
         "Repeatable": "false",
         "IncludeIslandContent": "true",
         "PlayerHasKitchen": true,
-        "HasFlag": "Island_Resort",
-        "Season": "Summer"
+        "HasFlag": "Island_Resort"
       }
     },
     // Haley Mostly Healthy Not Repeatable
@@ -3205,8 +3170,7 @@
       "When": {
         "Repeatable": "false",
         "PlayerHasKitchen": true,
-        "Hearts:Kent": "7, 8, 9, 10",
-        "Season": "Fall"
+        "Hearts:Kent": "7, 8, 9, 10"
       }
     },
     // Jas Holiday Treat Not Repeatable
@@ -3256,8 +3220,7 @@
       "When": {
         "Repeatable": "false",
         "Year | contains=1": false,
-        "PlayerHasKitchen": true,
-        "Season": "Fall, Winter"
+        "PlayerHasKitchen": true
       }
     },
     // Jodi Three Square Meals Not Repeatable
@@ -3328,8 +3291,7 @@
         "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Hearts:Lewis": "7, 8, 9, 10",
-        "Hearts:Kent": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Season": "Summer, Fall"
+        "Hearts:Kent": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
     // Kent Dinner and a Snack Not Repeatable
@@ -3500,8 +3462,7 @@
       "When": {
         "Repeatable": "false",
         "PlayerHasKitchen": true,
-        "Hearts:Emily": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14",
-        "Season": "Spring"
+        "Hearts:Emily": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
       }
     },
     // Leo Sweet Flavor Not Repeatable
@@ -3613,8 +3574,7 @@
         "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Hearts:Demetrius": "7, 8, 9, 10",
-        "Hearts:Caroline": "7, 8, 9, 10",
-        "Season": "Summer, Fall"
+        "Hearts:Caroline": "7, 8, 9, 10"
       }
     },
     // Linus Fish and Dessert Not Repeatable
@@ -3757,8 +3717,7 @@
         "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
-        "Hearts:Pierre": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Season": "Spring, Fall"
+        "Hearts:Pierre": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
     // Maru My Favorite Foodstuffs Not Repeatable
@@ -3830,8 +3789,7 @@
         "PlayerHasKitchen": true,
         "Hearts:Pam": "3, 4, 5, 6, 7, 8, 9, 10",
         "Hearts:Marnie": "7, 8, 9, 10",
-        "SkillLevel:Mining": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Season": "Spring"
+        "SkillLevel:Mining": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
     // Pam Roots Not Repeatable
@@ -3902,8 +3860,7 @@
         "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
-        "Hearts:Caroline": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Season": "Spring, Fall"
+        "Hearts:Caroline": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
     // Penny A Day's Meals Not Repeatable
@@ -3975,8 +3932,7 @@
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "Hearts:Emily": "7, 8, 9, 10, 11, 12, 13, 14",
-        "SkillLevel:Combat": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Season": "Summer, Winter"
+        "SkillLevel:Combat": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
     // Pierre Appetizer and Entree Not Repeatable
@@ -4037,8 +3993,7 @@
         "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
-        "Hearts:Jodi": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Season": "Summer, Winter"
+        "Hearts:Jodi": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
     // Robin Family Buffet Not Repeatable
@@ -4109,8 +4064,7 @@
         "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
-        "Hearts:Lewis": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Season": "Summer"
+        "Hearts:Lewis": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
     // Sam Slice and Dessert Not Repeatable
@@ -4342,8 +4296,7 @@
         "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Hearts:Robin": "7, 8, 9, 10",
-        "Hearts:Linus": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Season": "Fall, Winter"
+        "Hearts:Linus": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
     // Shane Peppers and Pizza Not Repeatable
@@ -4404,8 +4357,7 @@
         "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
-        "Hearts:Shane": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14",
-        "Season": "Summer"
+        "Hearts:Shane": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
       }
     },
     // Vincent Fizzy and Soothing Not Repeatable
@@ -4525,8 +4477,7 @@
       },
       "When": {
         "Repeatable": "false",
-        "PlayerHasKitchen": true,
-        "Season": "Summer"
+        "PlayerHasKitchen": true
       }
     },
     // Wizard Luck and Sweets Not Repeatable
@@ -4598,8 +4549,7 @@
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "HasSeenEvent": "19",
-        "Hearts:Gus": "7, 8, 9, 10",
-        "Season": "Winter"
+        "Hearts:Gus": "7, 8, 9, 10"
       }
     },
     // Wizard Protective Pasta Not Repeatable
