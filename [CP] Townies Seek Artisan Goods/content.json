@@ -79,6 +79,20 @@
         "TowniesSeekArtisanGoods_Alex_SweetApple_Message_1": "{{i18n:TowniesSeekArtisanGoods_Alex_SweetApple_Message_1}}"
       }
     },
+    // Strings Alex Training Diet
+    {
+      "LogName": "Strings Alex Training Diet",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesSeekArtisanGoods_Alex_TrainingDiet_Name": "{{i18n:TowniesSeekArtisanGoods_Alex_TrainingDiet_Name}}",
+        "TowniesSeekArtisanGoods_Alex_TrainingDiet_Text": "{{i18n:TowniesSeekArtisanGoods_Alex_TrainingDiet_Text}}",
+        "TowniesSeekArtisanGoods_Alex_TrainingDiet_Objective_Text_0": "{{i18n:TowniesSeekArtisanGoods_Alex_TrainingDiet_Objective_Text_0}}",
+        "TowniesSeekArtisanGoods_Alex_TrainingDiet_Objective_Text_1": "{{i18n:TowniesSeekArtisanGoods_Alex_TrainingDiet_Objective_Text_1}}",
+        "TowniesSeekArtisanGoods_Alex_TrainingDiet_Message_0": "{{i18n:TowniesSeekArtisanGoods_Alex_TrainingDiet_Message_0}}",
+        "TowniesSeekArtisanGoods_Alex_TrainingDiet_Message_1": "{{i18n:TowniesSeekArtisanGoods_Alex_TrainingDiet_Message_1}}"
+      }
+    },
     // Strings Caroline Juicy Electrolytes
     {
       "LogName": "Strings Caroline Juicy Electrolytes",
