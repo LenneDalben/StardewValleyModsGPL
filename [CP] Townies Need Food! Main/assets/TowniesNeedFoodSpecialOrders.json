@@ -975,7 +975,8 @@
       },
       "When": {
         "Repeatable": "true",
-        "PlayerHasKitchen": true
+        "PlayerHasKitchen": true,
+        "HasSeenEvent": "63"
       }
     },
     // Kent Dinner and a Snack Repeatable
@@ -3245,7 +3246,8 @@
       },
       "When": {
         "Repeatable": "false",
-        "PlayerHasKitchen": true
+        "PlayerHasKitchen": true,
+        "HasSeenEvent": "63"
       }
     },
     // Kent Dinner and a Snack Not Repeatable
