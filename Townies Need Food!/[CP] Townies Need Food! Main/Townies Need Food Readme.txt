@@ -4,7 +4,7 @@ Author: LenneDalben
 
 LICENSE: This work is licensed under GNU GPL3.0: https://www.gnu.org/licenses/gpl-3.0.html
 Source code is on GitHub: https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/Townies%20Need%20Food!
-
+(the exclamation point is part of the URL)
 
 ||Description||
 With Townies Need Food (TNF), villagers will ask for cooked meals you can make in the kitchen, and reward you with gold and friendship. You'll have 7 days to complete the special orders. For the special orders to show up on the special orders board, you must have a kitchen, either from the first house upgrade, or from one of the mods listed in the Compatibility section. There are also milestone requirements (for orders involving the island recipes). In the Main version, there are no friendship requirements. In the Optional version, there are friendship requirements. For the full specifics, refer to the spoiler guide under Miscellaneous Files.
@@ -19,7 +19,7 @@ With regards to the "sparseness" of the orders: the game picks from a pool of th
 
 Note that the mod does not come packaged with a config file. The config file will be generated after you run the game with the mod installed at least once.
 
-In the Main version, there are no friendship requirements. In the Optional version, there are friendship requirements. Due to a limitation with the way that the game reads modifications to the special orders, if your friendship decays enough that you no longer meet the requirement, you could get a crash. This is why it's in the Optional section. If you use a mod to remove friendship decay (like Friends Forever, or the specific option in CJB Cheats Menu), you can use the Optional version.
+In the Main version, there are no friendship requirements. In the Optional version, there are friendship requirements. Due to a limitation with the way the game reads modifications to the special orders, if your friendship decays enough that you no longer meet the requirement, you could get a crash. The Optional version of the mod still has friendship requirements because if you use a mod to remove friendship decay (like Friends Forever, or the specific option in CJB Cheats Menu), you won't be affected by this.
 
 ||Compatibility||
 Townies Need Food will recognize if you have one of the following mods installed, so special orders will show up on the special orders board before you have the first house upgrade:
