@@ -855,7 +855,8 @@
       },
       "When": {
         "Repeatable": "true",
-        "PlayerHasKitchen": true
+        "PlayerHasKitchen": true,
+        "HasSeenEvent": "63"
       }
     },
     // Jas Holiday Treat Repeatable
@@ -3124,7 +3125,8 @@
       },
       "When": {
         "Repeatable": "false",
-        "PlayerHasKitchen": true
+        "PlayerHasKitchen": true,
+        "HasSeenEvent": "63"
       }
     },
     // Jas Holiday Treat Not Repeatable
