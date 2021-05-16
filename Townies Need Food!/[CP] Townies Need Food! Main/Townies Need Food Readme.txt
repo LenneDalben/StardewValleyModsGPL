@@ -3,7 +3,7 @@ Author: LenneDalben
 
 
 LICENSE: This work is licensed under GNU GPL3.0: https://www.gnu.org/licenses/gpl-3.0.html
-Source code is on GitHub: https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/%5BCP%5D%20Townies%20Need%20Food!
+Source code is on GitHub: https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/Townies%20Need%20Food!
 
 
 ||Description||
