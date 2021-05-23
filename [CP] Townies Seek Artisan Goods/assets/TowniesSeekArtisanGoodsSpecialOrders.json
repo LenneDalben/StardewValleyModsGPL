@@ -48,7 +48,6 @@
       "When": {
         "Repeatable": "true",
         "OrderType": "juice",
-        "Season": "Fall",
         "SkillLevel:Farming": "8, 9, 10"
       }
     },
@@ -99,7 +98,6 @@
       "When": {
         "Repeatable": "true",
         "OrderType": "wine",
-        "Season": "Fall, Winter",
         "PlayerHasCellarOrQAP": "true"
       }
     },
@@ -252,8 +250,7 @@
       },
       "When": {
         "Repeatable": "false",
-        "OrderType": "juice",
-        "Season": "Fall"
+        "OrderType": "juice"
       }
     },
     // Alex Sweet Apple Not Repeatable
@@ -303,7 +300,6 @@
       "When": {
         "Repeatable": "false",
         "OrderType": "wine",
-        "Season": "Fall, Winter",
         "PlayerHasCellarOrQAP": "true"
       }
     },
