@@ -121,5 +121,19 @@
         "TowniesSeekArtisanGoods_Caroline_SpangleHoney_Message_1": "{{i18n:TowniesSeekArtisanGoods_Caroline_SpangleHoney_Message_1}}"
       }
     },
+    // Strings Clint Pickled Artichokes
+    {
+      "LogName": "Strings Clint Pickled Artichokes",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesSeekArtisanGoods_Clint_PickledArtichokes_Name": "{{i18n:TowniesSeekArtisanGoods_Clint_PickledArtichokes_Name}}",
+        "TowniesSeekArtisanGoods_Clint_PickledArtichokes_Text": "{{i18n:TowniesSeekArtisanGoods_Clint_PickledArtichokes_Text}}",
+        "TowniesSeekArtisanGoods_Clint_PickledArtichokes_Objective_Text_0": "{{i18n:TowniesSeekArtisanGoods_Clint_PickledArtichokes_Objective_Text_0}}",
+        "TowniesSeekArtisanGoods_Clint_PickledArtichokes_Objective_Text_1": "{{i18n:TowniesSeekArtisanGoods_Clint_PickledArtichokes_Objective_Text_1}}",
+        "TowniesSeekArtisanGoods_Clint_PickledArtichokes_Message_0": "{{i18n:TowniesSeekArtisanGoods_Clint_PickledArtichokes_Message_0}}",
+        "TowniesSeekArtisanGoods_Clint_PickledArtichokes_Message_1": "{{i18n:TowniesSeekArtisanGoods_Clint_PickledArtichokes_Message_1}}"
+      }
+    },
   ]
 }

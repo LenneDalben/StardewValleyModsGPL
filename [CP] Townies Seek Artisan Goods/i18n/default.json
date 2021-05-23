@@ -30,4 +30,11 @@
   "TowniesSeekArtisanGoods_Caroline_SpangleHoney_Text": "I'd love some summer spangle honey to go with my green tea. Could someone bring me 8 jars?",
   "TowniesSeekArtisanGoods_Caroline_SpangleHoney_Objective_Text_0": "Deliver 8 Summer Spangle Honey to Caroline",
   "TowniesSeekArtisanGoods_Caroline_SpangleHoney_Message_0": "Lovely, thanks @!",
+  //
+  //
+  // Clint Pickled Artichokes Strings
+  "TowniesSeekArtisanGoods_Clint_PickledArtichokes_Name": "Pickled Artichokes",
+  "TowniesSeekArtisanGoods_Clint_PickledArtichokes_Text": "Pickled Artichokesare a good side dish. Could someone bring me 7 jars?",
+  "TowniesSeekArtisanGoods_Clint_PickledArtichokes_Objective_Text_0": "Deliver 7 Summer Pickled Artichokes to Clint",
+  "TowniesSeekArtisanGoods_Clint_PickledArtichokes_Message_0": "Thanks @!",
 }
