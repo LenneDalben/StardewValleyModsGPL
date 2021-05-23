@@ -3,17 +3,18 @@ Author: LenneDalben
 
 
 LICENSE: This work is licensed under GNU GPL3.0: https://www.gnu.org/licenses/gpl-3.0.html
-Source code is on GitHub: https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/%5BCP%5D%20Townies%20Need%20Food!
+Source code is on GitHub: https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/%5BCP%5D%20Townies%20Seek%20Artisan%20Goods
 
 
 ||Description||
-With Townies Seek Artisan Goods (TNF), villagers will ask for cooked meals you can make in the kitchen, and reward you with gold and friendship. You'll have 7 days to complete the special orders. For the special orders to show up on the special orders board, you must have a kitchen, either from the first house upgrade, or from one of the mods listed in the Compatibility section. There are also friendship requirements, milestone requirements (for orders involving the island recipes), and seasonal requirements. For the full specifics, refer to the spoiler guide under Miscellaneous Files.
+With Townies Seek Artisan Goods (TSAG), villagers will ask for artisan goods, and reward you with gold and friendship. You'll have variable time to complete the special orders. For the full specifics, refer to the spoiler guide under Miscellaneous Files.
 
 
 ||Configuration||
 Config Options
 Repeatable: true or false, default is true
 IncludeIslandContent: true or false, default is true (toggle special orders requiring recipes from the island)
+OrderType: specify which types of special orders you'd like. By default, all are toggled: jelly, pickle, alcohol, juice, roe, animal, machines. Alcohol includes wine, beer, mead, and pale ale.
 
 With regards to the "sparseness" of the orders: the game picks from a pool of the available orders, so if you'd prefer to get through some of the vanilla special orders first, install this mod later in your playthrough. I also added some season requirements to help spread out the orders a bit.
 
