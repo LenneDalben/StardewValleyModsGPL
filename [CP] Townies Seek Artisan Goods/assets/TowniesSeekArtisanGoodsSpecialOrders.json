@@ -553,9 +553,9 @@
         "SkillLevel:Farming": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
-    // Clint Pickled Artichokes Repeatable
+    // Clint Pickled Artichokes Not Repeatable
     {
-      "LogName": "Repeatable Clint Pickled Artichokes",
+      "LogName": "Not Repeatable Clint Pickled Artichokes",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -563,7 +563,7 @@
           "Name": "[TowniesSeekArtisanGoods_Clint_PickledArtichokes_Name]",
           "Requester": "Clint",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "False",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
