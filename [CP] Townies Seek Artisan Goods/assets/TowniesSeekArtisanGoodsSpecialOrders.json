@@ -201,6 +201,56 @@
         "SkillLevel:Farming": "8, 9, 10"
       }
     },
+    // Caroline Spangle Honey Repeatable
+    {
+      "LogName": "Repeatable Caroline Spangle Honey",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesSeekArtisanGoods_Caroline_SpangleHoney": {
+          "Name": "[TowniesSeekArtisanGoods_Caroline_SpangleHoney_Name]",
+          "Requester": "Caroline",
+          "Duration": "TwoWeek",
+          "Repeatable": "True",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesSeekArtisanGoods_Caroline_SpangleHoney_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesSeekArtisanGoods_Caroline_SpangleHoney_Objective_Text_0]",
+              "RequiredCount": "8",
+              "Data": {
+                "AcceptedContextTags": "item_summer_spangle_honey",
+                "Message": "[TowniesSeekArtisanGoods_Caroline_SpangleHoney_Message_0]",
+                "TargetName": "Caroline"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "3136"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "true",
+        "OrderType": "honey",
+        "SkillLevel:Farming": "3, 4, 5, 6, 7, 8, 9, 10"
+      }
+    },
     //
     // Not Repeatable special orders listed below (the same kind of order, just with Repeatable set to false)
     //
@@ -401,6 +451,56 @@
         "Repeatable": "false",
         "OrderType": "juice",
         "SkillLevel:Farming": "8, 9, 10"
+      }
+    },
+    // Caroline Spangle Honey Not Repeatable
+    {
+      "LogName": "Not Repeatable Caroline Spangle Honey",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesSeekArtisanGoods_Caroline_SpangleHoney": {
+          "Name": "[TowniesSeekArtisanGoods_Caroline_SpangleHoney_Name]",
+          "Requester": "Caroline",
+          "Duration": "TwoWeek",
+          "Repeatable": "False",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesSeekArtisanGoods_Caroline_SpangleHoney_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesSeekArtisanGoods_Caroline_SpangleHoney_Objective_Text_0]",
+              "RequiredCount": "8",
+              "Data": {
+                "AcceptedContextTags": "item_summer_spangle_honey",
+                "Message": "[TowniesSeekArtisanGoods_Caroline_SpangleHoney_Message_0]",
+                "TargetName": "Caroline"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "3136"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "true",
+        "OrderType": "honey",
+        "SkillLevel:Farming": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
   ]

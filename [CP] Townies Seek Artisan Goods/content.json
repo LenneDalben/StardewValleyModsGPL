@@ -107,5 +107,19 @@
         "TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Message_1": "{{i18n:TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Message_1}}"
       }
     },
+    // Strings Caroline Spangle Honey
+    {
+      "LogName": "Strings Caroline Spangle Honey",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesSeekArtisanGoods_Caroline_SpangleHoney_Name": "{{i18n:TowniesSeekArtisanGoods_Caroline_SpangleHoney_Name}}",
+        "TowniesSeekArtisanGoods_Caroline_SpangleHoney_Text": "{{i18n:TowniesSeekArtisanGoods_Caroline_SpangleHoney_Text}}",
+        "TowniesSeekArtisanGoods_Caroline_SpangleHoney_Objective_Text_0": "{{i18n:TowniesSeekArtisanGoods_Caroline_SpangleHoney_Objective_Text_0}}",
+        "TowniesSeekArtisanGoods_Caroline_SpangleHoney_Objective_Text_1": "{{i18n:TowniesSeekArtisanGoods_Caroline_SpangleHoney_Objective_Text_1}}",
+        "TowniesSeekArtisanGoods_Caroline_SpangleHoney_Message_0": "{{i18n:TowniesSeekArtisanGoods_Caroline_SpangleHoney_Message_0}}",
+        "TowniesSeekArtisanGoods_Caroline_SpangleHoney_Message_1": "{{i18n:TowniesSeekArtisanGoods_Caroline_SpangleHoney_Message_1}}"
+      }
+    },
   ]
 }

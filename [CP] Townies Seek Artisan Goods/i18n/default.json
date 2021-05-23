@@ -23,4 +23,11 @@
   "TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Text": "I think the ladies at aerobics class would love some juice for hydration. Could someone bring me 15 bottles?",
   "TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Objective_Text_0": "Deliver 15 Juice Juice to Caroline",
   "TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Message_0": "This will help replenish electrolytes, thanks @!",
+  //
+  //
+  // Caroline Spangle Honey Strings
+  "TowniesSeekArtisanGoods_Caroline_SpangleHoney_Name": "Spangle Honey",
+  "TowniesSeekArtisanGoods_Caroline_SpangleHoney_Text": "I'd love some summer spangle honey to go with my green tea. Could someone bring me 8 jars?",
+  "TowniesSeekArtisanGoods_Caroline_SpangleHoney_Objective_Text_0": "Deliver 8 Summer Spangle Honey to Caroline",
+  "TowniesSeekArtisanGoods_Caroline_SpangleHoney_Message_0": "Lovely, thanks @!",
 }
