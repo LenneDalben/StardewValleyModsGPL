@@ -123,9 +123,9 @@
             {
               "Type": "Deliver",
               "Text": "[TowniesSeekArtisanGoods_Alex_TrainingDiet_Objective_Text_0]",
-              "RequiredCount": "7",
+              "RequiredCount": "8",
               "Data": {
-                "AcceptedContextTags": "item_apple_wine, quality_gold/quality_iridium",
+                "AcceptedContextTags": "item_aged_salmon_roe",
                 "Message": "[TowniesSeekArtisanGoods_Alex_TrainingDiet_Message_0]",
                 "TargetName": "Alex"
               }
@@ -249,6 +249,56 @@
         "Repeatable": "true",
         "OrderType": "honey",
         "SkillLevel:Farming": "3, 4, 5, 6, 7, 8, 9, 10"
+      }
+    },
+    // Clint Pickled Artichokes Repeatable
+    {
+      "LogName": "Repeatable Clint Pickled Artichokes",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesSeekArtisanGoods_Clint_PickledArtichokes": {
+          "Name": "[TowniesSeekArtisanGoods_Clint_PickledArtichokes_Name]",
+          "Requester": "Clint",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesSeekArtisanGoods_Clint_PickledArtichokes_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesSeekArtisanGoods_Clint_PickledArtichokes_Objective_Text_0]",
+              "RequiredCount": "7",
+              "Data": {
+                "AcceptedContextTags": "item_pickled_artichoke",
+                "Message": "[TowniesSeekArtisanGoods_Clint_PickledArtichokes_Message_0]",
+                "TargetName": "Clint"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "3626"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "Repeatable": "true",
+        "OrderType": "pickles",
+        "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10"
       }
     },
     //
