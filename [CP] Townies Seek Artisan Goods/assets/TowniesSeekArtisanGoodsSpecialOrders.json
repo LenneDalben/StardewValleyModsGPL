@@ -425,9 +425,9 @@
             {
               "Type": "Deliver",
               "Text": "[TowniesSeekArtisanGoods_Alex_TrainingDiet_Objective_Text_0]",
-              "RequiredCount": "7",
+              "RequiredCount": "8",
               "Data": {
-                "AcceptedContextTags": "item_apple_wine, quality_gold/quality_iridium",
+                "AcceptedContextTags": "item_aged_salmon_roe",
                 "Message": "[TowniesSeekArtisanGoods_Alex_TrainingDiet_Message_0]",
                 "TargetName": "Alex"
               }
