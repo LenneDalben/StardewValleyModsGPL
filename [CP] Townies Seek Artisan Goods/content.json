@@ -177,5 +177,30 @@
         "TowniesSeekArtisanGoods_Elliott_ElegantQuill_Message_1": "{{i18n:TowniesSeekArtisanGoods_Elliott_ElegantQuill_Message_1}}"
       }
     },
+    // Strings Emily Rainbow
+    {
+      "LogName": "Strings Emily Rainbow",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesSeekArtisanGoods_Emily_Rainbow_Name": "{{i18n:TowniesSeekArtisanGoods_Emily_Rainbow_Name}}",
+        "TowniesSeekArtisanGoods_Emily_Rainbow_Text": "{{i18n:TowniesSeekArtisanGoods_Emily_Rainbow_Text}}",
+        "TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_0": "{{i18n:TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_0}}",
+        "TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_1": "{{i18n:TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_1}}",
+        "TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_2": "{{i18n:TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_2}}",
+        "TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_3": "{{i18n:TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_3}}",
+        "TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_4": "{{i18n:TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_4}}",
+        "TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_5": "{{i18n:TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_5}}",
+        "TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_6": "{{i18n:TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_6}}",
+        "TowniesSeekArtisanGoods_Emily_Rainbow_Message_0": "{{i18n:TowniesSeekArtisanGoods_Emily_Rainbow_Message_0}}",
+        "TowniesSeekArtisanGoods_Emily_Rainbow_Message_1": "{{i18n:TowniesSeekArtisanGoods_Emily_Rainbow_Message_1}}",
+        "TowniesSeekArtisanGoods_Emily_Rainbow_Message_2": "{{i18n:TowniesSeekArtisanGoods_Emily_Rainbow_Message_2}}",
+        "TowniesSeekArtisanGoods_Emily_Rainbow_Message_3": "{{i18n:TowniesSeekArtisanGoods_Emily_Rainbow_Message_3}}",
+        "TowniesSeekArtisanGoods_Emily_Rainbow_Message_4": "{{i18n:TowniesSeekArtisanGoods_Emily_Rainbow_Message_4}}",
+        "TowniesSeekArtisanGoods_Emily_Rainbow_Message_5": "{{i18n:TowniesSeekArtisanGoods_Emily_Rainbow_Message_5}}",
+        "TowniesSeekArtisanGoods_Emily_Rainbow_Message_6": "{{i18n:TowniesSeekArtisanGoods_Emily_Rainbow_Message_6}}",
+        "TowniesSeekArtisanGoods_Emily_Rainbow_Message_7": "{{i18n:TowniesSeekArtisanGoods_Emily_Rainbow_Message_7}}"
+      }
+    },
   ]
 }

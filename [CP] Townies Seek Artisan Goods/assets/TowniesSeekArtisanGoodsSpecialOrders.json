@@ -440,5 +440,124 @@
         "OrderType": "animal"
       }
     },
+    // Emily Rainbow
+    {
+      "LogName": "Emily Rainbow",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesSeekArtisanGoods_Emily_Rainbow": {
+          "Name": "[TowniesSeekArtisanGoods_Emily_Rainbow_Name]",
+          "Requester": "Emily",
+          "Duration": "Month",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesSeekArtisanGoods_Emily_Rainbow_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_hot_pepper_jelly",
+                "Message": "[TowniesSeekArtisanGoods_Emily_Rainbow_Message_0]",
+                "TargetName": "Emily"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_orange_jelly",
+                "Message": "[TowniesSeekArtisanGoods_Emily_Rainbow_Message_1]",
+                "TargetName": "Emily"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_2]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_sunflower_honey",
+                "Message": "[TowniesSeekArtisanGoods_Emily_Rainbow_Message_2]",
+                "TargetName": "Emily"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_3]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_green_tea",
+                "Message": "[TowniesSeekArtisanGoods_Emily_Rainbow_Message_3]",
+                "TargetName": "Emily"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_4]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_blueberry_wine",
+                "Message": "[TowniesSeekArtisanGoods_Emily_Rainbow_Message_4]",
+                "TargetName": "Emily"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_5]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_pickled_eggplant",
+                "Message": "[TowniesSeekArtisanGoods_Emily_Rainbow_Message_5]",
+                "TargetName": "Emily"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_6]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_melon_wine",
+                "Message": "[TowniesSeekArtisanGoods_Emily_Rainbow_Message_6]",
+                "TargetName": "Emily"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_7]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_goat_cheese",
+                "Message": "[TowniesSeekArtisanGoods_Emily_Rainbow_Message_7]",
+                "TargetName": "Emily"
+              }
+            },
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "3033"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "jelly, honey, pickles, wine, animal",
+        "SkillLevel:Farming": "8, 9, 10"
+      }
+    },
   ]
 }

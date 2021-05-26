@@ -55,4 +55,25 @@
   "TowniesSeekArtisanGoods_Elliott_ElegantQuill_Text": "New quills would help inspire my writing. Could someone bring me 2 duck feathers?",
   "TowniesSeekArtisanGoods_Elliott_ElegantQuill_Objective_Text_0": "Deliver 2 Duck Feathers to Elliott",
   "TowniesSeekArtisanGoods_Elliott_ElegantQuill_Message_0": "Quality apple wine is fantastic. Thanks @!$h",
+  //
+  // Emily Rainbow Strings
+  "TowniesSeekArtisanGoods_Emily_Rainbow_Name": "Rainbow!",
+  "TowniesSeekArtisanGoods_Emily_Rainbow_Text": "I'd like to make my own version of a rainbow of colors! Could someone bring me 1 duck mayonnaise?",
+  "TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_0": "Red: Deliver 1 Hot Pepper Jelly to Emily",
+  "TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_1": "Orange: Deliver 1 Orange Jelly to Emily",
+  "TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_2": "Yellow: Deliver 1 Sunflower Honey to Emily",
+  "TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_3": "Green: Deliver 1 Green Tea to Emily",
+  "TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_4": "Blue: Deliver 1 Blueberry Wine to Emily",
+  "TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_5": "Purple: Deliver 1 Pickled Eggplant to Emily",
+  "TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_6": "Pink: Deliver 1 Melon Wine to Emily",
+  "TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_7": "White: Deliver 1 Goat Cheese to Emily",
+  "TowniesSeekArtisanGoods_Emily_Rainbow_Message_0": "Spicy and red,, thanks @!",
+  "TowniesSeekArtisanGoods_Emily_Rainbow_Message_1": "Tangy and orange, thanks @!",
+  "TowniesSeekArtisanGoods_Emily_Rainbow_Message_2": "Uniquely yellow, thanks @!",
+  "TowniesSeekArtisanGoods_Emily_Rainbow_Message_3": "Green tea is great, isn't it?#$b#Thanks @!",
+  "TowniesSeekArtisanGoods_Emily_Rainbow_Message_4": "Savory blue, thanks @!",
+  "TowniesSeekArtisanGoods_Emily_Rainbow_Message_5": "Pickled purple, thanks @!",
+  "TowniesSeekArtisanGoods_Emily_Rainbow_Message_6": "Tart pink, thanks @!",
+  "TowniesSeekArtisanGoods_Emily_Rainbow_Message_7": "Cheesy white, thanks @!",
+}
 }
