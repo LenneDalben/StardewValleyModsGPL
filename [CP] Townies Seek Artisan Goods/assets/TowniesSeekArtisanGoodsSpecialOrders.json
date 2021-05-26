@@ -1,9 +1,8 @@
 {
   "Changes": [
-    // Repeatable special orders are listed first
-    // Abigail Sweet Pumpkin Repeatable
+    // Abigail Sweet Pumpkin
     {
-      "LogName": "Repeatable Abigail Sweet Pumpkin",
+      "LogName": "Abigail Sweet Pumpkin",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -50,9 +49,9 @@
         "SkillLevel:Farming": "8, 9, 10"
       }
     },
-    // Alex Sweet Apple Repeatable
+    // Alex Sweet Apple
     {
-      "LogName": "Repeatable Alex Sweet Apple",
+      "LogName": "Alex Sweet Apple",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -60,7 +59,7 @@
           "Name": "[TowniesSeekArtisanGoods_Alex_SweetApple_Name]",
           "Requester": "Alex",
           "Duration": "Month",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -100,9 +99,9 @@
         "PlayerHasCellarOrQAP": "true"
       }
     },
-    // Alex Training Diet Repeatable
+    // Alex Training Diet
     {
-      "LogName": "Repeatable Alex Training Diet",
+      "LogName": "Alex Training Diet",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -110,7 +109,7 @@
           "Name": "[TowniesSeekArtisanGoods_Alex_TrainingDiet_Name]",
           "Requester": "Alex",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -150,9 +149,9 @@
         "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10"
       }
     },
-    // Caroline Juicy Electrolytes Repeatable
+    // Caroline Juicy Electrolytes
     {
-      "LogName": "Repeatable Caroline Juicy Electrolytes",
+      "LogName": "Caroline Juicy Electrolytes",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -160,7 +159,7 @@
           "Name": "[TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Name]",
           "Requester": "Caroline",
           "Duration": "Month",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -200,9 +199,9 @@
         "SkillLevel:Farming": "8, 9, 10"
       }
     },
-    // Caroline Spangle Honey Repeatable
+    // Caroline Spangle Honey
     {
-      "LogName": "Repeatable Caroline Spangle Honey",
+      "LogName": "Caroline Spangle Honey",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -210,7 +209,7 @@
           "Name": "[TowniesSeekArtisanGoods_Caroline_SpangleHoney_Name]",
           "Requester": "Caroline",
           "Duration": "TwoWeek",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -250,9 +249,9 @@
         "SkillLevel:Farming": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
-    // Clint Pickled Artichokes Repeatable
+    // Clint Pickled Artichokes
     {
-      "LogName": "Repeatable Clint Pickled Artichokes",
+      "LogName": "Clint Pickled Artichokes",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -260,309 +259,7 @@
           "Name": "[TowniesSeekArtisanGoods_Clint_PickledArtichokes_Name]",
           "Requester": "Clint",
           "Duration": "Week",
-          "Repeatable": "True",
-          "RequiredTags": "",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesSeekArtisanGoods_Clint_PickledArtichokes_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesSeekArtisanGoods_Clint_PickledArtichokes_Objective_Text_0]",
-              "RequiredCount": "7",
-              "Data": {
-                "AcceptedContextTags": "item_pickled_artichoke",
-                "Message": "[TowniesSeekArtisanGoods_Clint_PickledArtichokes_Message_0]",
-                "TargetName": "Clint"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "3626"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "Repeatable": "true",
-        "OrderType": "pickles",
-        "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10"
-      }
-    },
-    //
-    // Not Repeatable special orders listed below (the same kind of order, just with Repeatable set to false)
-    //
-    // Abigail Sweet Pumpkin Not Repeatable
-    /*{
-      "LogName": "Not Repeatable Abigail Sweet Pumpkin",
-      "Action": "EditData",
-      "Target": "Data/SpecialOrders",
-      "Entries": {
-        "TowniesSeekArtisanGoods_Abigail_SweetPumpkin": {
-          "Name": "[TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Name]",
-          "Requester": "Abigail",
-          "Duration": "Week",
-          "Repeatable": "False",
-          "RequiredTags": "",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Objective_Text_0]",
-              "RequiredCount": "3",
-              "Data": {
-                "AcceptedContextTags": "item_pumpkin_juice",
-                "Message": "[TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Message_0]",
-                "TargetName": "Abigail"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "3021"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "Repeatable": "false",
-        "OrderType": "juice"
-      }
-    },*/
-    // Alex Sweet Apple Not Repeatable
-    {
-      "LogName": "Not Repeatable Alex Sweet Apple",
-      "Action": "EditData",
-      "Target": "Data/SpecialOrders",
-      "Entries": {
-        "TowniesSeekArtisanGoods_Alex_SweetApple": {
-          "Name": "[TowniesSeekArtisanGoods_Alex_SweetApple_Name]",
-          "Requester": "Alex",
-          "Duration": "Month",
-          "Repeatable": "False",
-          "RequiredTags": "",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesSeekArtisanGoods_Alex_SweetApple_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesSeekArtisanGoods_Alex_SweetApple_Objective_Text_0]",
-              "RequiredCount": "7",
-              "Data": {
-                "AcceptedContextTags": "item_apple_wine, quality_gold/quality_iridium",
-                "Message": "[TowniesSeekArtisanGoods_Alex_SweetApple_Message_0]",
-                "TargetName": "Alex"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "3021"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "Repeatable": "false",
-        "OrderType": "wine",
-        "PlayerHasCellarOrQAP": "true"
-      }
-    },
-    // Alex Training Diet Not Repeatable
-    {
-      "LogName": "Repeatable Alex Not Training Diet",
-      "Action": "EditData",
-      "Target": "Data/SpecialOrders",
-      "Entries": {
-        "TowniesSeekArtisanGoods_Alex_TrainingDiet": {
-          "Name": "[TowniesSeekArtisanGoods_Alex_TrainingDiet_Name]",
-          "Requester": "Alex",
-          "Duration": "Week",
-          "Repeatable": "False",
-          "RequiredTags": "",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesSeekArtisanGoods_Alex_TrainingDiet_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesSeekArtisanGoods_Alex_TrainingDiet_Objective_Text_0]",
-              "RequiredCount": "8",
-              "Data": {
-                "AcceptedContextTags": "item_aged_salmon_roe",
-                "Message": "[TowniesSeekArtisanGoods_Alex_TrainingDiet_Message_0]",
-                "TargetName": "Alex"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "1501"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "Repeatable": "false",
-        "OrderType": "roe",
-        "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10"
-      }
-    },
-    // Caroline Juicy Electrolytes Not Repeatable
-    {
-      "LogName": "Not Repeatable Caroline Juicy Electrolytes",
-      "Action": "EditData",
-      "Target": "Data/SpecialOrders",
-      "Entries": {
-        "TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes": {
-          "Name": "[TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Name]",
-          "Requester": "Caroline",
-          "Duration": "Month",
-          "Repeatable": "False",
-          "RequiredTags": "",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Objective_Text_0]",
-              "RequiredCount": "15",
-              "Data": {
-                "AcceptedContextTags": "juice_item",
-                "Message": "[TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Message_0]",
-                "TargetName": "Caroline"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "3150"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "Repeatable": "false",
-        "OrderType": "juice",
-        "SkillLevel:Farming": "8, 9, 10"
-      }
-    },
-    // Caroline Spangle Honey Not Repeatable
-    {
-      "LogName": "Not Repeatable Caroline Spangle Honey",
-      "Action": "EditData",
-      "Target": "Data/SpecialOrders",
-      "Entries": {
-        "TowniesSeekArtisanGoods_Caroline_SpangleHoney": {
-          "Name": "[TowniesSeekArtisanGoods_Caroline_SpangleHoney_Name]",
-          "Requester": "Caroline",
-          "Duration": "TwoWeek",
-          "Repeatable": "False",
-          "RequiredTags": "",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesSeekArtisanGoods_Caroline_SpangleHoney_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesSeekArtisanGoods_Caroline_SpangleHoney_Objective_Text_0]",
-              "RequiredCount": "8",
-              "Data": {
-                "AcceptedContextTags": "item_summer_spangle_honey",
-                "Message": "[TowniesSeekArtisanGoods_Caroline_SpangleHoney_Message_0]",
-                "TargetName": "Caroline"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "3136"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "Repeatable": "true",
-        "OrderType": "honey",
-        "SkillLevel:Farming": "3, 4, 5, 6, 7, 8, 9, 10"
-      }
-    },
-    // Clint Pickled Artichokes Not Repeatable
-    {
-      "LogName": "Not Repeatable Clint Pickled Artichokes",
-      "Action": "EditData",
-      "Target": "Data/SpecialOrders",
-      "Entries": {
-        "TowniesSeekArtisanGoods_Clint_PickledArtichokes": {
-          "Name": "[TowniesSeekArtisanGoods_Clint_PickledArtichokes_Name]",
-          "Requester": "Clint",
-          "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
