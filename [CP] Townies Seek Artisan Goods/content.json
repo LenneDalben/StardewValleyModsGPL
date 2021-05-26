@@ -60,9 +60,7 @@
         "TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Name": "{{i18n:TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Name}}",
         "TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Text": "{{i18n:TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Text}}",
         "TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Objective_Text_0": "{{i18n:TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Objective_Text_0}}",
-        "TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Objective_Text_1": "{{i18n:TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Objective_Text_1}}",
-        "TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Message_0": "{{i18n:TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Message_0}}",
-        "TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Message_1": "{{i18n:TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Message_1}}"
+        "TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Message_0": "{{i18n:TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Message_0}}"
       }
     },
     // Strings Abigail Yellow Mayo
@@ -74,9 +72,7 @@
         "TowniesSeekArtisanGoods_Abigail_YellowMayo_Name": "{{i18n:TowniesSeekArtisanGoods_Abigail_YellowMayo_Name}}",
         "TowniesSeekArtisanGoods_Abigail_YellowMayo_Text": "{{i18n:TowniesSeekArtisanGoods_Abigail_YellowMayo_Text}}",
         "TowniesSeekArtisanGoods_Abigail_YellowMayo_Objective_Text_0": "{{i18n:TowniesSeekArtisanGoods_Abigail_YellowMayo_Objective_Text_0}}",
-        "TowniesSeekArtisanGoods_Abigail_YellowMayo_Objective_Text_1": "{{i18n:TowniesSeekArtisanGoods_Abigail_YellowMayo_Objective_Text_1}}",
-        "TowniesSeekArtisanGoods_Abigail_YellowMayo_Message_0": "{{i18n:TowniesSeekArtisanGoods_Abigail_YellowMayo_Message_0}}",
-        "TowniesSeekArtisanGoods_Abigail_YellowMayo_Message_1": "{{i18n:TowniesSeekArtisanGoods_Abigail_YellowMayo_Message_1}}"
+        "TowniesSeekArtisanGoods_Abigail_YellowMayo_Message_0": "{{i18n:TowniesSeekArtisanGoods_Abigail_YellowMayo_Message_0}}"
       }
     },
     // Strings Alex Sweet Apple
@@ -88,9 +84,7 @@
         "TowniesSeekArtisanGoods_Alex_SweetApple_Name": "{{i18n:TowniesSeekArtisanGoods_Alex_SweetApple_Name}}",
         "TowniesSeekArtisanGoods_Alex_SweetApple_Text": "{{i18n:TowniesSeekArtisanGoods_Alex_SweetApple_Text}}",
         "TowniesSeekArtisanGoods_Alex_SweetApple_Objective_Text_0": "{{i18n:TowniesSeekArtisanGoods_Alex_SweetApple_Objective_Text_0}}",
-        "TowniesSeekArtisanGoods_Alex_SweetApple_Objective_Text_1": "{{i18n:TowniesSeekArtisanGoods_Alex_SweetApple_Objective_Text_1}}",
-        "TowniesSeekArtisanGoods_Alex_SweetApple_Message_0": "{{i18n:TowniesSeekArtisanGoods_Alex_SweetApple_Message_0}}",
-        "TowniesSeekArtisanGoods_Alex_SweetApple_Message_1": "{{i18n:TowniesSeekArtisanGoods_Alex_SweetApple_Message_1}}"
+        "TowniesSeekArtisanGoods_Alex_SweetApple_Message_0": "{{i18n:TowniesSeekArtisanGoods_Alex_SweetApple_Message_0}}"
       }
     },
     // Strings Alex Training Diet
@@ -102,9 +96,7 @@
         "TowniesSeekArtisanGoods_Alex_TrainingDiet_Name": "{{i18n:TowniesSeekArtisanGoods_Alex_TrainingDiet_Name}}",
         "TowniesSeekArtisanGoods_Alex_TrainingDiet_Text": "{{i18n:TowniesSeekArtisanGoods_Alex_TrainingDiet_Text}}",
         "TowniesSeekArtisanGoods_Alex_TrainingDiet_Objective_Text_0": "{{i18n:TowniesSeekArtisanGoods_Alex_TrainingDiet_Objective_Text_0}}",
-        "TowniesSeekArtisanGoods_Alex_TrainingDiet_Objective_Text_1": "{{i18n:TowniesSeekArtisanGoods_Alex_TrainingDiet_Objective_Text_1}}",
-        "TowniesSeekArtisanGoods_Alex_TrainingDiet_Message_0": "{{i18n:TowniesSeekArtisanGoods_Alex_TrainingDiet_Message_0}}",
-        "TowniesSeekArtisanGoods_Alex_TrainingDiet_Message_1": "{{i18n:TowniesSeekArtisanGoods_Alex_TrainingDiet_Message_1}}"
+        "TowniesSeekArtisanGoods_Alex_TrainingDiet_Message_0": "{{i18n:TowniesSeekArtisanGoods_Alex_TrainingDiet_Message_0}}"
       }
     },
     // Strings Caroline Juicy Electrolytes
