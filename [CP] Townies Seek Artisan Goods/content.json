@@ -135,5 +135,19 @@
         "TowniesSeekArtisanGoods_Clint_PickledArtichokes_Message_1": "{{i18n:TowniesSeekArtisanGoods_Clint_PickledArtichokes_Message_1}}"
       }
     },
+    // Strings Demetrius Oil Makers
+    {
+      "LogName": "Strings Demetrius Oil Makers",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesSeekArtisanGoods_Demetrius_OilMakers_Name": "{{i18n:TowniesSeekArtisanGoods_Demetrius_OilMakers_Name}}",
+        "TowniesSeekArtisanGoods_Demetrius_OilMakers_Text": "{{i18n:TowniesSeekArtisanGoods_Demetrius_OilMakers_Text}}",
+        "TowniesSeekArtisanGoods_Demetrius_OilMakers_Objective_Text_0": "{{i18n:TowniesSeekArtisanGoods_Demetrius_OilMakers_Objective_Text_0}}",
+        "TowniesSeekArtisanGoods_Demetrius_OilMakers_Objective_Text_1": "{{i18n:TowniesSeekArtisanGoods_Demetrius_OilMakers_Objective_Text_1}}",
+        "TowniesSeekArtisanGoods_Demetrius_OilMakers_Message_0": "{{i18n:TowniesSeekArtisanGoods_Demetrius_OilMakers_Message_0}}",
+        "TowniesSeekArtisanGoods_Demetrius_OilMakers_Message_1": "{{i18n:TowniesSeekArtisanGoods_Demetrius_OilMakers_Message_1}}"
+      }
+    },
   ]
 }

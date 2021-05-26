@@ -37,4 +37,10 @@
   "TowniesSeekArtisanGoods_Clint_PickledArtichokes_Text": "Pickled Artichokes are a good side dish. Could someone bring me 7 jars?",
   "TowniesSeekArtisanGoods_Clint_PickledArtichokes_Objective_Text_0": "Deliver 7 Pickled Artichokes to Clint",
   "TowniesSeekArtisanGoods_Clint_PickledArtichokes_Message_0": "Thanks @!",
+  //
+  // Demetrius Oil Makers Strings
+  "TowniesSeekArtisanGoods_Demetrius_OilMakers_Name": "Oil Makers",
+  "TowniesSeekArtisanGoods_Demetrius_OilMakers_Text": "Greetings, Demetrius here. My distillation system is broken and I need some replacement parts. Could someone bring me 3 oil makers?",
+  "TowniesSeekArtisanGoods_Demetrius_OilMakers_Objective_Text_0": "Deliver 3 Oil Makers to Demetrius",
+  "TowniesSeekArtisanGoods_Demetrius_OilMakers_Message_0": "These should make enough replacement parts, thanks @!$h",
 }

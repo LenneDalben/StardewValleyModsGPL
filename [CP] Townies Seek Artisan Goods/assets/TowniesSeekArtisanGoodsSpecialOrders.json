@@ -294,5 +294,54 @@
         "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10"
       }
     },
+    // Demetrius Oil Makers
+    {
+      "LogName": "Demetrius Oil Makers",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesSeekArtisanGoods_Demetrius_OilMakers": {
+          "Name": "[TowniesSeekArtisanGoods_Demetrius_OilMakers_Name]",
+          "Requester": "Demetrius",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesSeekArtisanGoods_Demetrius_OilMakers_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesSeekArtisanGoods_Demetrius_OilMakers_Objective_Text_0]",
+              "RequiredCount": "3",
+              "Data": {
+                "AcceptedContextTags": "item_oil_maker",
+                "Message": "[TowniesSeekArtisanGoods_Demetrius_OilMakers_Message_0]",
+                "TargetName": "Demetrius"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "16800"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "machines",
+        "SkillLevel:Farming": "8, 9, 10"
+      }
+    },
   ]
 }
