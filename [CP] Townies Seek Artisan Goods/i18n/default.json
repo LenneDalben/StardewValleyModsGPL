@@ -43,4 +43,10 @@
   "TowniesSeekArtisanGoods_Demetrius_OilMakers_Text": "Greetings, Demetrius here. My distillation system is broken and I need some replacement parts. Could someone bring me 3 oil makers?",
   "TowniesSeekArtisanGoods_Demetrius_OilMakers_Objective_Text_0": "Deliver 3 Oil Makers to Demetrius",
   "TowniesSeekArtisanGoods_Demetrius_OilMakers_Message_0": "These should make enough replacement parts, thanks @!$h",
+  //
+  // Elliott Elegant Quill Strings
+  "TowniesSeekArtisanGoods_Elliott_ElegantQuill_Name": "Elegant Quill",
+  "TowniesSeekArtisanGoods_Elliott_ElegantQuill_Text": "New quills would help inspire my writing. Could someone bring me 2 duck feathers?",
+  "TowniesSeekArtisanGoods_Elliott_ElegantQuill_Objective_Text_0": "Deliver 2 Duck Feathers to Elliott",
+  "TowniesSeekArtisanGoods_Elliott_ElegantQuill_Message_0": "Quality apple wine is fantastic. Thanks @!$h",
 }

@@ -343,5 +343,53 @@
         "SkillLevel:Farming": "8, 9, 10"
       }
     },
+    // Elliott Elegant Quill
+    {
+      "LogName": "Elliott Elegant Quill",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesSeekArtisanGoods_Elliott_ElegantQuill": {
+          "Name": "[TowniesSeekArtisanGoods_Elliott_ElegantQuill_Name]",
+          "Requester": "Elliott",
+          "Duration": "TwoWeek",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesSeekArtisanGoods_Elliott_ElegantQuill_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesSeekArtisanGoods_Elliott_ElegantQuill_Objective_Text_0]",
+              "RequiredCount": "2",
+              "Data": {
+                "AcceptedContextTags": "item_duck_feather",
+                "Message": "[TowniesSeekArtisanGoods_Elliott_ElegantQuill_Message_0]",
+                "TargetName": "Elliott"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "600"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "animal"
+      }
+    },
   ]
 }

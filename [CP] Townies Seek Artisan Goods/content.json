@@ -149,5 +149,19 @@
         "TowniesSeekArtisanGoods_Demetrius_OilMakers_Message_1": "{{i18n:TowniesSeekArtisanGoods_Demetrius_OilMakers_Message_1}}"
       }
     },
+    // Strings Elliott Elegant Quill
+    {
+      "LogName": "Strings Elliott Elegant Quill",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesSeekArtisanGoods_Elliott_ElegantQuill_Name": "{{i18n:TowniesSeekArtisanGoods_Elliott_ElegantQuill_Name}}",
+        "TowniesSeekArtisanGoods_Elliott_ElegantQuill_Text": "{{i18n:TowniesSeekArtisanGoods_Elliott_ElegantQuill_Text}}",
+        "TowniesSeekArtisanGoods_Elliott_ElegantQuill_Objective_Text_0": "{{i18n:TowniesSeekArtisanGoods_Elliott_ElegantQuill_Objective_Text_0}}",
+        "TowniesSeekArtisanGoods_Elliott_ElegantQuill_Objective_Text_1": "{{i18n:TowniesSeekArtisanGoods_Elliott_ElegantQuill_Objective_Text_1}}",
+        "TowniesSeekArtisanGoods_Elliott_ElegantQuill_Message_0": "{{i18n:TowniesSeekArtisanGoods_Elliott_ElegantQuill_Message_0}}",
+        "TowniesSeekArtisanGoods_Elliott_ElegantQuill_Message_1": "{{i18n:TowniesSeekArtisanGoods_Elliott_ElegantQuill_Message_1}}"
+      }
+    },
   ]
 }
