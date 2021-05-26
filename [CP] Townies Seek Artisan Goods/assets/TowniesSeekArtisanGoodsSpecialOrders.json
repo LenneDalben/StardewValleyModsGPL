@@ -49,6 +49,55 @@
         "SkillLevel:Farming": "8, 9, 10"
       }
     },
+    // Abigail Yellow Mayo
+    {
+      "LogName": "Abigail Yellow Mayo",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesSeekArtisanGoods_Abigail_YellowMayo": {
+          "Name": "[TowniesSeekArtisanGoods_Abigail_YellowMayo_Name]",
+          "Requester": "Abigail",
+          "Duration": "ThreeDays",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesSeekArtisanGoods_Abigail_YellowMayo_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesSeekArtisanGoods_Abigail_YellowMayo_Objective_Text_0]",
+              "RequiredCount": "3",
+              "Data": {
+                "AcceptedContextTags": "item_duck_mayonnaise",
+                "Message": "[TowniesSeekArtisanGoods_Abigail_YellowMayo_Message_0]",
+                "TargetName": "Abigail"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "525"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "animal",
+        "SkillLevel:Farming": "2, 3, 4, 5, 6, 7, 8, 9, 10"
+      }
+    },
     // Alex Sweet Apple
     {
       "LogName": "Alex Sweet Apple",

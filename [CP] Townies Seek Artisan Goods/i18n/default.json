@@ -5,6 +5,12 @@
   "TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Objective_Text_0": "Deliver 3 Pumpkin Juice to Abigail",
   "TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Message_0": "This will be sweet and nutritious, thanks @!$h",
   //
+  // Abigail Yellow Mayo Strings
+  "TowniesSeekArtisanGoods_Abigail_YellowMayo_Name": "Yellow Mayo",
+  "TowniesSeekArtisanGoods_Abigail_YellowMayo_Text": "I'd like to pull a special prank. Could someone bring me 1 duck mayonnaise?",
+  "TowniesSeekArtisanGoods_Abigail_YellowMayo_Objective_Text_0": "Deliver 1 Duck Mayonnaise to Abigail",
+  "TowniesSeekArtisanGoods_Abigail_YellowMayo_Message_0": "Ha, this will get Sam and Sebastian good, thanks @!$h",
+  //
   // Alex Sweet Apple Strings
   "TowniesSeekArtisanGoods_Alex_SweetApple_Name": "Sweet Apple",
   "TowniesSeekArtisanGoods_Alex_SweetApple_Text": "Apple wine is special to me. Could someone bring me 7 bottles? Gold or iridium quality, please.",

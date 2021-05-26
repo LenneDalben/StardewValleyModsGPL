@@ -65,6 +65,20 @@
         "TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Message_1": "{{i18n:TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Message_1}}"
       }
     },
+    // Strings Abigail Yellow Mayo
+    {
+      "LogName": "Strings Abigail Yellow Mayo",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesSeekArtisanGoods_Abigail_YellowMayo_Name": "{{i18n:TowniesSeekArtisanGoods_Abigail_YellowMayo_Name}}",
+        "TowniesSeekArtisanGoods_Abigail_YellowMayo_Text": "{{i18n:TowniesSeekArtisanGoods_Abigail_YellowMayo_Text}}",
+        "TowniesSeekArtisanGoods_Abigail_YellowMayo_Objective_Text_0": "{{i18n:TowniesSeekArtisanGoods_Abigail_YellowMayo_Objective_Text_0}}",
+        "TowniesSeekArtisanGoods_Abigail_YellowMayo_Objective_Text_1": "{{i18n:TowniesSeekArtisanGoods_Abigail_YellowMayo_Objective_Text_1}}",
+        "TowniesSeekArtisanGoods_Abigail_YellowMayo_Message_0": "{{i18n:TowniesSeekArtisanGoods_Abigail_YellowMayo_Message_0}}",
+        "TowniesSeekArtisanGoods_Abigail_YellowMayo_Message_1": "{{i18n:TowniesSeekArtisanGoods_Abigail_YellowMayo_Message_1}}"
+      }
+    },
     // Strings Alex Sweet Apple
     {
       "LogName": "Strings Alex Sweet Apple",
