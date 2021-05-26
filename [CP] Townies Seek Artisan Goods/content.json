@@ -17,8 +17,8 @@
     },
     "OrderType": {
       "Description": "Specify which types of special orders you'd like (jelly, pickle, beer, wine, mead, juice, roe, animal, machines). By default, all are toggled.",
-      "AllowValues": "jelly, pickle, beer, wine, honey, mead, juice, roe, animal, machines",
-      "Default": "jelly, pickle, beer, wine, mead, honey, juice, roe, animal, machines",
+      "AllowValues": "jelly, pickles, beer, wine, honey, mead, juice, roe, animal, machines",
+      "Default": "jelly, pickles, beer, wine, mead, honey, juice, roe, animal, machines",
       "AllowMultiple": true,
       "AllowBlank": false
     }
