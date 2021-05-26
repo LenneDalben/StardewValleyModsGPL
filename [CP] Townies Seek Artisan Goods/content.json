@@ -2,9 +2,9 @@
   "Format": "1.20.0",
   "ConfigSchema": {
     "RepeatableConfig": {
-      "Description": "Specify if you want the special orders to be repeatable (True, False). Default is True.",
-      "AllowValues": "True, False",
-      "Default": "True",
+      "Description": "Specify if you want the special orders to be repeatable (true, false). Default is true.",
+      "AllowValues": "true, false",
+      "Default": true,
       "AllowBlank": false,
       "AllowMultiple": false
     },
@@ -16,7 +16,7 @@
       "AllowMultiple": false
     },
     "OrderType": {
-      "Description": "Specify which types of special orders you'd like (jelly, pickle, beer, wine, mead, juice, roe, animal, machines). By default, all are toggled.",
+      "Description": "Specify which types of special orders you'd like (jelly, pickles, beer, wine, honey, mead, juice, roe, animal, machines). By default, all are toggled.",
       "AllowValues": "jelly, pickles, beer, wine, honey, mead, juice, roe, animal, machines",
       "Default": "jelly, pickles, beer, wine, mead, honey, juice, roe, animal, machines",
       "AllowMultiple": true,
