@@ -1,9 +1,9 @@
 {
   "Changes": [
-    // Repeatable special orders are listed first
-    // Abigail Sweet and Spicy Repeatable
+    // Special orders with no friendship requirements listed first
+    // Abigail Sweet and Spicy
     {
-      "LogName": "Repeatable Abigail Sweet and Spicy",
+      "LogName": "No Friendship Abigail Sweet and Spicy",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -11,7 +11,7 @@
           "Name": "[TowniesNeedFood_Abigail_SweetandSpicy_Name]",
           "Requester": "Abigail",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -56,14 +56,13 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Year | contains=1": false
       }
     },
-    // Abigail Creamy Dessert Repeatable
+    // Abigail Creamy Dessert
     {
-      "LogName": "Repeatable Abigail Creamy Dessert",
+      "LogName": "No Friendship Abigail Creamy Dessert",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -71,7 +70,7 @@
           "Name": "[TowniesNeedFood_Abigail_CreamyDessert_Name]",
           "Requester": "Abigail",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "island",
           "OrderType": "",
           "SpecialRule": "",
@@ -106,15 +105,14 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "IncludeIslandContent": "true",
         "PlayerHasKitchen": true,
         "HasFlag": "Island_UpgradeHouse"
       }
     },
-    // Alex Good Eating Repeatable
+    // Alex Good Eating
     {
-      "LogName": "Repeatable Alex Good Eating",
+      "LogName": "No Friendship Alex Good Eating",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -122,7 +120,7 @@
           "Name": "[TowniesNeedFood_Alex_GoodEating_Name]",
           "Requester": "Alex",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -167,14 +165,13 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Year | contains=1": false
       }
     },
-    // Caroline Seafood Bonanza Repeatable
+    // Caroline Seafood Bonanza
     {
-      "LogName": "Repeatable Caroline Seafood Bonanza",
+      "LogName": "No Friendship Caroline Seafood Bonanza",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -182,7 +179,7 @@
           "Name": "[TowniesNeedFood_Caroline_SeafoodBonanza_Name]",
           "Requester": "Caroline",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -237,14 +234,13 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Year | contains=1": false
       }
     },
-    // Clint Mild Snack Repeatable
+    // Clint Mild Snack
     {
-      "LogName": "Repeatable Clint Mild Snack",
+      "LogName": "No Friendship Clint Mild Snack",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -252,7 +248,7 @@
           "Name": "[TowniesNeedFood_Clint_MildSnack_Name]",
           "Requester": "Clint",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -297,13 +293,12 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "PlayerHasKitchen": true
       }
     },
-    // Demetrius Dinner and Two Desserts Repeatable
+    // Demetrius Dinner and Two Desserts
     {
-      "LogName": "Repeatable Demetrius Dinner and Two Desserts",
+      "LogName": "No Friendship Demetrius Dinner and Two Desserts",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -311,7 +306,7 @@
           "Name": "[TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Name]",
           "Requester": "Demetrius",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -366,13 +361,12 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "PlayerHasKitchen": true
       }
     },
-    // Elliott Meal Planning Repeatable
+    // Elliott Meal Planning
     {
-      "LogName": "Repeatable Elliott Meal Planning",
+      "LogName": "No Friendship Elliott Meal Planning",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -380,7 +374,7 @@
           "Name": "[TowniesNeedFood_Elliott_MealPlanning_Name]",
           "Requester": "Elliott",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -435,14 +429,13 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Year | contains=1": false
       }
     },
-    // Emily Appetizer and Dinner Repeatable
+    // Emily Appetizer and Dinner
     {
-      "LogName": "Repeatable Emily Appetizer and Dinner",
+      "LogName": "No Friendship Emily Appetizer and Dinner",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -450,7 +443,7 @@
           "Name": "[TowniesNeedFood_Emily_AppetizerandDinner_Name]",
           "Requester": "Emily",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -495,15 +488,14 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "SkillLevel:Foraging": "2, 3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
-    // Evelyn Side and Dessert Repeatable
+    // Evelyn Side and Dessert
     {
-      "LogName": "Repeatable Evelyn Side and Dessert",
+      "LogName": "No Friendship Evelyn Side and Dessert",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -511,7 +503,7 @@
           "Name": "[TowniesNeedFood_Evelyn_SideandDessert_Name]",
           "Requester": "Evelyn",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -556,13 +548,12 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "PlayerHasKitchen": true
       }
     },
-    // George Some Favorites Repeatable
+    // George Some Favorites
     {
-      "LogName": "Repeatable George Some Favorites",
+      "LogName": "No Friendship George Some Favorites",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -570,7 +561,7 @@
           "Name": "[TowniesNeedFood_George_SomeFavorites_Name]",
           "Requester": "George",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -615,13 +606,12 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "PlayerHasKitchen": true
       }
     },
-    // Gus Unique Delicacies Repeatable
+    // Gus Unique Delicacies
     {
-      "LogName": "Repeatable Gus Unique Delicacies",
+      "LogName": "No Friendship Gus Unique Delicacies",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -629,7 +619,7 @@
           "Name": "[TowniesNeedFood_Gus_UniqueDelicacies_Name]",
           "Requester": "Gus",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -674,13 +664,12 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "PlayerHasKitchen": true
       }
     },
-    // Gus Fragrant Curry Repeatable
+    // Gus Fragrant Curry
     {
-      "LogName": "Repeatable Gus Fragrant Curry",
+      "LogName": "No Friendship Gus Fragrant Curry",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -688,7 +677,7 @@
           "Name": "[TowniesNeedFood_Gus_FragrantCurry_Name]",
           "Requester": "Gus",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "island",
           "OrderType": "",
           "SpecialRule": "",
@@ -723,15 +712,14 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "IncludeIslandContent": "true",
         "PlayerHasKitchen": true,
         "HasFlag": "Island_Resort"
       }
     },
-    // Haley Mostly Healthy Repeatable
+    // Haley Mostly Healthy
     {
-      "LogName": "Repeatable Haley Mostly Healthy",
+      "LogName": "No Friendship Haley Mostly Healthy",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -739,7 +727,7 @@
           "Name": "[TowniesNeedFood_Haley_MostlyHealthy_Name]",
           "Requester": "Haley",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -784,14 +772,13 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Year | contains=1": false
       }
     },
-    // Harvey Pick-me-up Repeatable
+    // Harvey Pick-me-up
     {
-      "LogName": "Repeatable Harvey Pick-me-up",
+      "LogName": "No Friendship Harvey Pick-me-up",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -799,7 +786,7 @@
           "Name": "[TowniesNeedFood_Harvey_Pickmeup_Name]",
           "Requester": "Harvey",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -854,14 +841,13 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "HasSeenEvent": "63"
       }
     },
-    // Jas Holiday Treat Repeatable
+    // Jas Holiday Treat
     {
-      "LogName": "Repeatable Jas Holiday Treat",
+      "LogName": "No Friendship Jas Holiday Treat",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -869,7 +855,7 @@
           "Name": "[TowniesNeedFood_Jas_HolidayTreat_Name]",
           "Requester": "Shane",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -904,14 +890,13 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "Year | contains=1": false,
         "PlayerHasKitchen": true
       }
     },
-    // Jodi Three Square Meals Repeatable
+    // Jodi Three Square Meals
     {
-      "LogName": "Repeatable Jodi Three Square Meals",
+      "LogName": "No Friendship Jodi Three Square Meals",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -919,7 +904,7 @@
           "Name": "[TowniesNeedFood_Jodi_ThreeSquareMeals_Name]",
           "Requester": "Jodi",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -974,14 +959,13 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "HasSeenEvent": "63"
       }
     },
-    // Kent Dinner and a Snack Repeatable
+    // Kent Dinner and a Snack
     {
-      "LogName": "Repeatable Kent Dinner and a Snack",
+      "LogName": "No Friendship Kent Dinner and a Snack",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -989,7 +973,7 @@
           "Name": "[TowniesNeedFood_Kent_DinnerandaSnack_Name]",
           "Requester": "Kent",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -1034,14 +1018,13 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "HasSeenEvent": "63"
       }
     },
-    // Krobus Briny Pudding Repeatable
+    // Krobus Briny Pudding
     {
-      "LogName": "Repeatable Krobus Briny Pudding",
+      "LogName": "No Friendship Krobus Briny Pudding",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1049,7 +1032,7 @@
           "Name": "[TowniesNeedFood_Krobus_BrinyPudding_Name]",
           "Requester": "Krobus",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -1084,15 +1067,14 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "HasSeenEvent": "66",
         "SkillLevel:Fishing": "9, 10"
       }
     },
-    // Leah Fresh Veggies Repeatable
+    // Leah Fresh Veggies
     {
-      "LogName": "Repeatable Leah Fresh Veggies",
+      "LogName": "No Friendship Leah Fresh Veggies",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1100,7 +1082,7 @@
           "Name": "[TowniesNeedFood_Leah_FreshVeggies_Name]",
           "Requester": "Leah",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -1145,13 +1127,12 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "PlayerHasKitchen": true
       }
     },
-    // Leo Sweet Flavor Repeatable
+    // Leo Sweet Flavor
     {
-      "LogName": "Repeatable Leo Sweet Flavor",
+      "LogName": "No Friendship Leo Sweet Flavor",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1159,7 +1140,7 @@
           "Name": "[TowniesNeedFood_Leo_SweetFlavor_Name]",
           "Requester": "Linus",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "island",
           "OrderType": "",
           "SpecialRule": "",
@@ -1194,14 +1175,13 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "IncludeIslandContent": "true",
         "PlayerHasKitchen": true
       }
     },
-    // Lewis Hearty Veggies Repeatable
+    // Lewis Hearty Veggies
     {
-      "LogName": "Repeatable Lewis Hearty Veggies",
+      "LogName": "No Friendship Lewis Hearty Veggies",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1209,7 +1189,7 @@
           "Name": "[TowniesNeedFood_Lewis_HeartyVeggies_Name]",
           "Requester": "Lewis",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -1254,13 +1234,12 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "PlayerHasKitchen": true
       }
     },
-    // Linus Fish and Dessert Repeatable
+    // Linus Fish and Dessert
     {
-      "LogName": "Repeatable Linus Fish and Dessert",
+      "LogName": "No Friendship Linus Fish and Dessert",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1268,7 +1247,7 @@
           "Name": "[TowniesNeedFood_Linus_FishandDessert_Name]",
           "Requester": "Linus",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -1323,14 +1302,13 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "SkillLevel:Fishing": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
-    // Marnie Lunch and Two Desserts Repeatable
+    // Marnie Lunch and Two Desserts
     {
-      "LogName": "Repeatable Marnie Lunch and Two Desserts",
+      "LogName": "No Friendship Marnie Lunch and Two Desserts",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1338,7 +1316,7 @@
           "Name": "[TowniesNeedFood_Marnie_LunchandTwoDesserts_Name]",
           "Requester": "Marnie",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -1393,14 +1371,13 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Year | contains=1": false
       }
     },
-    // Maru My Favorite Foodstuffs Repeatable
+    // Maru My Favorite Foodstuffs
     {
-      "LogName": "Repeatable Maru My Favorite Foodstuffs",
+      "LogName": "No Friendship Maru My Favorite Foodstuffs",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1408,7 +1385,7 @@
           "Name": "[TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Name]",
           "Requester": "Maru",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -1463,14 +1440,13 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "SkillLevel:Mining": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
-    // Pam Roots Repeatable
+    // Pam Roots
     {
-      "LogName": "Repeatable Pam Roots",
+      "LogName": "No Friendship Pam Roots",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1478,7 +1454,7 @@
           "Name": "[TowniesNeedFood_Pam_Roots_Name]",
           "Requester": "Pam",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -1533,14 +1509,13 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Year | contains=1": false
       }
     },
-    // Penny A Day's Meals Repeatable
+    // Penny A Day's Meals
     {
-      "LogName": "Repeatable Penny A Day's Meals",
+      "LogName": "No Friendship Penny A Day's Meals",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1548,7 +1523,7 @@
           "Name": "[TowniesNeedFood_Penny_ADaysMeals_Name]",
           "Requester": "Penny",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -1603,15 +1578,14 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "SkillLevel:Combat": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
-    // Pierre Appetizer and Entree Repeatable
+    // Pierre Appetizer and Entree
     {
-      "LogName": "Repeatable Pierre Appetizer and Entree",
+      "LogName": "No Friendship Pierre Appetizer and Entree",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1619,7 +1593,7 @@
           "Name": "[TowniesNeedFood_Pierre_AppetizerandEntree_Name]",
           "Requester": "Pierre",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -1664,14 +1638,13 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Year | contains=1": false
       }
     },
-    // Robin Family Buffet Repeatable
+    // Robin Family Buffet
     {
-      "LogName": "Repeatable Robin Family Buffet",
+      "LogName": "No Friendship Robin Family Buffet",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1679,7 +1652,7 @@
           "Name": "[TowniesNeedFood_Robin_FamilyBuffet_Name]",
           "Requester": "Robin",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -1734,14 +1707,13 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Year | contains=1": false
       }
     },
-    // Sam Slice and Dessert Repeatable
+    // Sam Slice and Dessert
     {
-      "LogName": "Repeatable Sam Slice and Dessert",
+      "LogName": "No Friendship Sam Slice and Dessert",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1749,7 +1721,7 @@
           "Name": "[TowniesNeedFood_Sam_SliceandDessert_Name]",
           "Requester": "Sam",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -1794,14 +1766,13 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Year | contains=1": false
       }
     },
-    // Sam Egg Wrap Repeatable
+    // Sam Egg Wrap
     {
-      "LogName": "Repeatable Sam Egg Wrap",
+      "LogName": "No Friendship Sam Egg Wrap",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1809,7 +1780,7 @@
           "Name": "[TowniesNeedFood_Sam_EggWrap_Name]",
           "Requester": "Sam",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -1854,13 +1825,12 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "PlayerHasKitchen": true
       }
     },
-    // Sandy Sweet Mango and Coconut Repeatable
+    // Sandy Sweet Mango and Coconut
     {
-      "LogName": "Repeatable Sandy Sweet Mango and Coconut",
+      "LogName": "No Friendship Sandy Sweet Mango and Coconut",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1868,7 +1838,7 @@
           "Name": "[TowniesNeedFood_Sandy_SweetMangoandCoconut_Name]",
           "Requester": "Emily",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "island",
           "OrderType": "",
           "SpecialRule": "",
@@ -1903,15 +1873,14 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "IncludeIslandContent": "true",
         "PlayerHasKitchen": true,
         "HasSeenEvent": "67"
       }
     },
-    // Sebastian Lunch and Dinner Repeatable
+    // Sebastian Lunch and Dinner
     {
-      "LogName": "Repeatable Sebastian Lunch and Dinner",
+      "LogName": "No Friendship Sebastian Lunch and Dinner",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1919,7 +1888,7 @@
           "Name": "[TowniesNeedFood_Sebastian_LunchandDinner_Name]",
           "Requester": "Sebastian",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -1964,13 +1933,12 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "PlayerHasKitchen": true
       }
     },
-    // Shane Peppers and Pizza Repeatable
+    // Shane Peppers and Pizza
     {
-      "LogName": "Repeatable Shane Peppers and Pizza",
+      "LogName": "No Friendship Shane Peppers and Pizza",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1978,7 +1946,7 @@
           "Name": "[TowniesNeedFood_Shane_PeppersandPizza_Name]",
           "Requester": "Shane",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -2023,14 +1991,13 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Year | contains=1": false
       }
     },
-    // Vincent Fizzy and Soothing Repeatable
+    // Vincent Fizzy and Soothing
     {
-      "LogName": "Repeatable Vincent Fizzy and Soothing",
+      "LogName": "No Friendship Vincent Fizzy and Soothing",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -2038,7 +2005,7 @@
           "Name": "[TowniesNeedFood_Vincent_FizzyandSoothing_Name]",
           "Requester": "Jodi",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "island",
           "OrderType": "",
           "SpecialRule": "",
@@ -2073,15 +2040,14 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "IncludeIslandContent": "true",
         "PlayerHasKitchen": true,
         "HasFlag": "reachedCaldera"
       }
     },
-    // Willy Daily Sustenance Repeatable
+    // Willy Daily Sustenance
     {
-      "LogName": "Repeatable Willy Daily Sustenance",
+      "LogName": "No Friendship Willy Daily Sustenance",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -2089,7 +2055,7 @@
           "Name": "[TowniesNeedFood_Willy_DailySustenance_Name]",
           "Requester": "Willy",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -2144,13 +2110,12 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "PlayerHasKitchen": true
       }
     },
-    // Wizard Luck and Sweets Repeatable
+    // Wizard Luck and Sweets
     {
-      "LogName": "Repeatable Wizard Luck and Sweets",
+      "LogName": "No Friendship Wizard Luck and Sweets",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -2158,7 +2123,7 @@
           "Name": "[TowniesNeedFood_Wizard_LuckandSweets_Name]",
           "Requester": "Wizard",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -2213,15 +2178,14 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "HasSeenEvent": "19"
       }
     },
-    // Wizard Protective Pasta Repeatable
+    // Wizard Protective Pasta
     {
-      "LogName": "Repeatable Wizard Protective Pasta",
+      "LogName": "No Friendship Wizard Protective Pasta",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -2229,7 +2193,7 @@
           "Name": "[TowniesNeedFood_Wizard_ProtectivePasta_Name]",
           "Requester": "Wizard",
           "Duration": "Week",
-          "Repeatable": "True",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -2264,17 +2228,17 @@
         }
       },
       "When": {
-        "Repeatable": "true",
         "PlayerHasKitchen": true,
         "SkillLevel:Combat": "9, 10"
       }
     },
     //
-    // Not Repeatable special orders listed below (the same kind of order, just with Repeatable set to false)
+    // Special orders with friendship requirements and checks listed below (the same kind of order, just with friendship requirements if you have CJB Cheats Menu or Friends Forever installed, or if you set the config)
     //
-    // Abigail Sweet and Spicy Not Repeatable
+    
+    // Abigail Sweet and Spicy
     {
-      "LogName": "Not Repeatable Abigail Sweet and Spicy",
+      "LogName": "No Friendship Abigail Sweet and Spicy",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -2282,7 +2246,7 @@
           "Name": "[TowniesNeedFood_Abigail_SweetandSpicy_Name]",
           "Requester": "Abigail",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -2327,14 +2291,13 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Year | contains=1": false
       }
     },
-    // Abigail Creamy Dessert Not Repeatable
+    // Abigail Creamy Dessert
     {
-      "LogName": "Not Repeatable Abigail Creamy Dessert",
+      "LogName": "No Friendship Abigail Creamy Dessert",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -2342,7 +2305,7 @@
           "Name": "[TowniesNeedFood_Abigail_CreamyDessert_Name]",
           "Requester": "Abigail",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "island",
           "OrderType": "",
           "SpecialRule": "",
@@ -2377,15 +2340,14 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "IncludeIslandContent": "true",
         "PlayerHasKitchen": true,
         "HasFlag": "Island_UpgradeHouse"
       }
     },
-    // Alex Good Eating Not Repeatable
+    // Alex Good Eating
     {
-      "LogName": "Not Repeatable Alex Good Eating",
+      "LogName": "No Friendship Alex Good Eating",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -2393,7 +2355,7 @@
           "Name": "[TowniesNeedFood_Alex_GoodEating_Name]",
           "Requester": "Alex",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -2438,14 +2400,13 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Year | contains=1": false
       }
     },
-    // Caroline Seafood Bonanza Not Repeatable
+    // Caroline Seafood Bonanza
     {
-      "LogName": "Not Repeatable Caroline Seafood Bonanza",
+      "LogName": "No Friendship Caroline Seafood Bonanza",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -2453,7 +2414,7 @@
           "Name": "[TowniesNeedFood_Caroline_SeafoodBonanza_Name]",
           "Requester": "Caroline",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -2508,14 +2469,13 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Year | contains=1": false
       }
     },
-    // Clint Mild Snack Not Repeatable
+    // Clint Mild Snack
     {
-      "LogName": "Not Repeatable Clint Mild Snack",
+      "LogName": "No Friendship Clint Mild Snack",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -2523,7 +2483,7 @@
           "Name": "[TowniesNeedFood_Clint_MildSnack_Name]",
           "Requester": "Clint",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -2568,13 +2528,12 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "PlayerHasKitchen": true
       }
     },
-    // Demetrius Dinner and Two Desserts Not Repeatable
+    // Demetrius Dinner and Two Desserts
     {
-      "LogName": "Not Repeatable Demetrius Dinner and Two Desserts",
+      "LogName": "No Friendship Demetrius Dinner and Two Desserts",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -2582,7 +2541,7 @@
           "Name": "[TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Name]",
           "Requester": "Demetrius",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -2637,13 +2596,12 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "PlayerHasKitchen": true
       }
     },
-    // Elliott Meal Planning Not Repeatable
+    // Elliott Meal Planning
     {
-      "LogName": "Not Repeatable Elliott Meal Planning",
+      "LogName": "No Friendship Elliott Meal Planning",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -2651,7 +2609,7 @@
           "Name": "[TowniesNeedFood_Elliott_MealPlanning_Name]",
           "Requester": "Elliott",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -2706,14 +2664,13 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Year | contains=1": false
       }
     },
-    // Emily Appetizer and Dinner Not Repeatable
+    // Emily Appetizer and Dinner
     {
-      "LogName": "Not Repeatable Emily Appetizer and Dinner",
+      "LogName": "No Friendship Emily Appetizer and Dinner",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -2721,7 +2678,7 @@
           "Name": "[TowniesNeedFood_Emily_AppetizerandDinner_Name]",
           "Requester": "Emily",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -2766,15 +2723,14 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "SkillLevel:Foraging": "2, 3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
-    // Evelyn Side and Dessert Not Repeatable
+    // Evelyn Side and Dessert
     {
-      "LogName": "Not Repeatable Evelyn Side and Dessert",
+      "LogName": "No Friendship Evelyn Side and Dessert",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -2782,7 +2738,7 @@
           "Name": "[TowniesNeedFood_Evelyn_SideandDessert_Name]",
           "Requester": "Evelyn",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -2827,13 +2783,12 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "PlayerHasKitchen": true
       }
     },
-    // George Some Favorites Not Repeatable
+    // George Some Favorites
     {
-      "LogName": "Not Repeatable George Some Favorites",
+      "LogName": "No Friendship George Some Favorites",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -2841,7 +2796,7 @@
           "Name": "[TowniesNeedFood_George_SomeFavorites_Name]",
           "Requester": "George",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -2886,13 +2841,12 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "PlayerHasKitchen": true
       }
     },
-    // Gus Unique Delicacies Not Repeatable
+    // Gus Unique Delicacies
     {
-      "LogName": "Not Repeatable Gus Unique Delicacies",
+      "LogName": "No Friendship Gus Unique Delicacies",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -2900,7 +2854,7 @@
           "Name": "[TowniesNeedFood_Gus_UniqueDelicacies_Name]",
           "Requester": "Gus",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -2945,13 +2899,12 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "PlayerHasKitchen": true
       }
     },
-    // Gus Fragrant Curry Not Repeatable
+    // Gus Fragrant Curry
     {
-      "LogName": "Not Repeatable Gus Fragrant Curry",
+      "LogName": "No Friendship Gus Fragrant Curry",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -2959,7 +2912,7 @@
           "Name": "[TowniesNeedFood_Gus_FragrantCurry_Name]",
           "Requester": "Gus",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "island",
           "OrderType": "",
           "SpecialRule": "",
@@ -2994,15 +2947,14 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "IncludeIslandContent": "true",
         "PlayerHasKitchen": true,
         "HasFlag": "Island_Resort"
       }
     },
-    // Haley Mostly Healthy Not Repeatable
+    // Haley Mostly Healthy
     {
-      "LogName": "Not Repeatable Haley Mostly Healthy",
+      "LogName": "No Friendship Haley Mostly Healthy",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -3010,7 +2962,7 @@
           "Name": "[TowniesNeedFood_Haley_MostlyHealthy_Name]",
           "Requester": "Haley",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -3055,14 +3007,13 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Year | contains=1": false
       }
     },
-    // Harvey Pick-me-up Not Repeatable
+    // Harvey Pick-me-up
     {
-      "LogName": "Not Repeatable Harvey Pick-me-up",
+      "LogName": "No Friendship Harvey Pick-me-up",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -3070,7 +3021,7 @@
           "Name": "[TowniesNeedFood_Harvey_Pickmeup_Name]",
           "Requester": "Harvey",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -3125,14 +3076,13 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "HasSeenEvent": "63"
       }
     },
-    // Jas Holiday Treat Not Repeatable
+    // Jas Holiday Treat
     {
-      "LogName": "Not Repeatable Jas Holiday Treat",
+      "LogName": "No Friendship Jas Holiday Treat",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -3140,7 +3090,7 @@
           "Name": "[TowniesNeedFood_Jas_HolidayTreat_Name]",
           "Requester": "Shane",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -3175,14 +3125,13 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "Year | contains=1": false,
         "PlayerHasKitchen": true
       }
     },
-    // Jodi Three Square Meals Not Repeatable
+    // Jodi Three Square Meals
     {
-      "LogName": "Not Repeatable Jodi Three Square Meals",
+      "LogName": "No Friendship Jodi Three Square Meals",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -3190,7 +3139,7 @@
           "Name": "[TowniesNeedFood_Jodi_ThreeSquareMeals_Name]",
           "Requester": "Jodi",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -3245,14 +3194,13 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "HasSeenEvent": "63"
       }
     },
-    // Kent Dinner and a Snack Not Repeatable
+    // Kent Dinner and a Snack
     {
-      "LogName": "Not Repeatable Kent Dinner and a Snack",
+      "LogName": "No Friendship Kent Dinner and a Snack",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -3260,7 +3208,7 @@
           "Name": "[TowniesNeedFood_Kent_DinnerandaSnack_Name]",
           "Requester": "Kent",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -3305,14 +3253,13 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "HasSeenEvent": "63"
       }
     },
-    // Krobus Briny Pudding Not Repeatable
+    // Krobus Briny Pudding
     {
-      "LogName": "Not Repeatable Krobus Briny Pudding",
+      "LogName": "No Friendship Krobus Briny Pudding",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -3320,7 +3267,7 @@
           "Name": "[TowniesNeedFood_Krobus_BrinyPudding_Name]",
           "Requester": "Krobus",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -3355,15 +3302,14 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "HasSeenEvent": "66",
         "SkillLevel:Fishing": "9, 10"
       }
     },
-    // Leah Fresh Veggies Not Repeatable
+    // Leah Fresh Veggies
     {
-      "LogName": "Not Repeatable Leah Fresh Veggies",
+      "LogName": "No Friendship Leah Fresh Veggies",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -3371,7 +3317,7 @@
           "Name": "[TowniesNeedFood_Leah_FreshVeggies_Name]",
           "Requester": "Leah",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -3416,13 +3362,12 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "PlayerHasKitchen": true
       }
     },
-    // Leo Sweet Flavor Not Repeatable
+    // Leo Sweet Flavor
     {
-      "LogName": "Not Repeatable Leo Sweet Flavor",
+      "LogName": "No Friendship Leo Sweet Flavor",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -3430,7 +3375,7 @@
           "Name": "[TowniesNeedFood_Leo_SweetFlavor_Name]",
           "Requester": "Linus",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "island",
           "OrderType": "",
           "SpecialRule": "",
@@ -3465,14 +3410,13 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "IncludeIslandContent": "true",
         "PlayerHasKitchen": true
       }
     },
-    // Lewis Hearty Veggies Not Repeatable
+    // Lewis Hearty Veggies
     {
-      "LogName": "Not Repeatable Lewis Hearty Veggies",
+      "LogName": "No Friendship Lewis Hearty Veggies",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -3480,7 +3424,7 @@
           "Name": "[TowniesNeedFood_Lewis_HeartyVeggies_Name]",
           "Requester": "Lewis",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -3525,13 +3469,12 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "PlayerHasKitchen": true
       }
     },
-    // Linus Fish and Dessert Not Repeatable
+    // Linus Fish and Dessert
     {
-      "LogName": "Not Repeatable Linus Fish and Dessert",
+      "LogName": "No Friendship Linus Fish and Dessert",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -3539,7 +3482,7 @@
           "Name": "[TowniesNeedFood_Linus_FishandDessert_Name]",
           "Requester": "Linus",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -3594,14 +3537,13 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "SkillLevel:Fishing": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
-    // Marnie Lunch and Two Desserts Not Repeatable
+    // Marnie Lunch and Two Desserts
     {
-      "LogName": "Not Repeatable Marnie Lunch and Two Desserts",
+      "LogName": "No Friendship Marnie Lunch and Two Desserts",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -3609,7 +3551,7 @@
           "Name": "[TowniesNeedFood_Marnie_LunchandTwoDesserts_Name]",
           "Requester": "Marnie",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -3664,14 +3606,13 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Year | contains=1": false
       }
     },
-    // Maru My Favorite Foodstuffs Not Repeatable
+    // Maru My Favorite Foodstuffs
     {
-      "LogName": "Not Repeatable Maru My Favorite Foodstuffs",
+      "LogName": "No Friendship Maru My Favorite Foodstuffs",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -3679,7 +3620,7 @@
           "Name": "[TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Name]",
           "Requester": "Maru",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -3734,14 +3675,13 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "SkillLevel:Mining": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
-    // Pam Roots Not Repeatable
+    // Pam Roots
     {
-      "LogName": "Not Repeatable Pam Roots",
+      "LogName": "No Friendship Pam Roots",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -3749,7 +3689,7 @@
           "Name": "[TowniesNeedFood_Pam_Roots_Name]",
           "Requester": "Pam",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -3804,14 +3744,13 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Year | contains=1": false
       }
     },
-    // Penny A Day's Meals Not Repeatable
+    // Penny A Day's Meals
     {
-      "LogName": "Not Repeatable Penny A Day's Meals",
+      "LogName": "No Friendship Penny A Day's Meals",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -3819,7 +3758,7 @@
           "Name": "[TowniesNeedFood_Penny_ADaysMeals_Name]",
           "Requester": "Penny",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -3874,15 +3813,14 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "SkillLevel:Combat": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
-    // Pierre Appetizer and Entree Not Repeatable
+    // Pierre Appetizer and Entree
     {
-      "LogName": "Not Repeatable Pierre Appetizer and Entree",
+      "LogName": "No Friendship Pierre Appetizer and Entree",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -3890,7 +3828,7 @@
           "Name": "[TowniesNeedFood_Pierre_AppetizerandEntree_Name]",
           "Requester": "Pierre",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -3935,14 +3873,13 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Year | contains=1": false
       }
     },
-    // Robin Family Buffet Not Repeatable
+    // Robin Family Buffet
     {
-      "LogName": "Not Repeatable Robin Family Buffet",
+      "LogName": "No Friendship Robin Family Buffet",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -3950,7 +3887,7 @@
           "Name": "[TowniesNeedFood_Robin_FamilyBuffet_Name]",
           "Requester": "Robin",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -4005,14 +3942,13 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Year | contains=1": false
       }
     },
-    // Sam Slice and Dessert Not Repeatable
+    // Sam Slice and Dessert
     {
-      "LogName": "Not Repeatable Sam Slice and Dessert",
+      "LogName": "No Friendship Sam Slice and Dessert",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -4020,7 +3956,7 @@
           "Name": "[TowniesNeedFood_Sam_SliceandDessert_Name]",
           "Requester": "Sam",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -4065,14 +4001,13 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Year | contains=1": false
       }
     },
-    // Sam Egg Wrap Not Repeatable
+    // Sam Egg Wrap
     {
-      "LogName": "Not Repeatable Sam Egg Wrap",
+      "LogName": "No Friendship Sam Egg Wrap",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -4080,7 +4015,7 @@
           "Name": "[TowniesNeedFood_Sam_EggWrap_Name]",
           "Requester": "Sam",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -4125,13 +4060,12 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "PlayerHasKitchen": true
       }
     },
-    // Sandy Sweet Mango and Coconut Not Repeatable
+    // Sandy Sweet Mango and Coconut
     {
-      "LogName": "Not Repeatable Sandy Sweet Mango and Coconut",
+      "LogName": "No Friendship Sandy Sweet Mango and Coconut",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -4139,7 +4073,7 @@
           "Name": "[TowniesNeedFood_Sandy_SweetMangoandCoconut_Name]",
           "Requester": "Emily",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "island",
           "OrderType": "",
           "SpecialRule": "",
@@ -4174,15 +4108,14 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "IncludeIslandContent": "true",
         "PlayerHasKitchen": true,
         "HasSeenEvent": "67"
       }
     },
-    // Sebastian Lunch and Dinner Not Repeatable
+    // Sebastian Lunch and Dinner
     {
-      "LogName": "Not Repeatable Sebastian Lunch and Dinner",
+      "LogName": "No Friendship Sebastian Lunch and Dinner",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -4190,7 +4123,7 @@
           "Name": "[TowniesNeedFood_Sebastian_LunchandDinner_Name]",
           "Requester": "Sebastian",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -4235,13 +4168,12 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "PlayerHasKitchen": true
       }
     },
-    // Shane Peppers and Pizza Not Repeatable
+    // Shane Peppers and Pizza
     {
-      "LogName": "Not Repeatable Shane Peppers and Pizza",
+      "LogName": "No Friendship Shane Peppers and Pizza",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -4249,7 +4181,7 @@
           "Name": "[TowniesNeedFood_Shane_PeppersandPizza_Name]",
           "Requester": "Shane",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -4294,14 +4226,13 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Year | contains=1": false
       }
     },
-    // Vincent Fizzy and Soothing Not Repeatable
+    // Vincent Fizzy and Soothing
     {
-      "LogName": "Not Repeatable Vincent Fizzy and Soothing",
+      "LogName": "No Friendship Vincent Fizzy and Soothing",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -4309,7 +4240,7 @@
           "Name": "[TowniesNeedFood_Vincent_FizzyandSoothing_Name]",
           "Requester": "Jodi",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "island",
           "OrderType": "",
           "SpecialRule": "",
@@ -4344,15 +4275,14 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "IncludeIslandContent": "true",
         "PlayerHasKitchen": true,
         "HasFlag": "reachedCaldera"
       }
     },
-    // Willy Daily Sustenance Not Repeatable
+    // Willy Daily Sustenance
     {
-      "LogName": "Not Repeatable Willy Daily Sustenance",
+      "LogName": "No Friendship Willy Daily Sustenance",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -4360,7 +4290,7 @@
           "Name": "[TowniesNeedFood_Willy_DailySustenance_Name]",
           "Requester": "Willy",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -4415,13 +4345,12 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "PlayerHasKitchen": true
       }
     },
-    // Wizard Luck and Sweets Not Repeatable
+    // Wizard Luck and Sweets
     {
-      "LogName": "Not Repeatable Wizard Luck and Sweets",
+      "LogName": "No Friendship Wizard Luck and Sweets",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -4429,7 +4358,7 @@
           "Name": "[TowniesNeedFood_Wizard_LuckandSweets_Name]",
           "Requester": "Wizard",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -4484,15 +4413,14 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "Year | contains=1": false,
         "HasSeenEvent": "19"
       }
     },
-    // Wizard Protective Pasta Not Repeatable
+    // Wizard Protective Pasta
     {
-      "LogName": "Not Repeatable Wizard Protective Pasta",
+      "LogName": "No Friendship Wizard Protective Pasta",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -4500,7 +4428,7 @@
           "Name": "[TowniesNeedFood_Wizard_ProtectivePasta_Name]",
           "Requester": "Wizard",
           "Duration": "Week",
-          "Repeatable": "False",
+          "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -4535,7 +4463,6 @@
         }
       },
       "When": {
-        "Repeatable": "false",
         "PlayerHasKitchen": true,
         "SkillLevel:Combat": "9, 10"
       }
