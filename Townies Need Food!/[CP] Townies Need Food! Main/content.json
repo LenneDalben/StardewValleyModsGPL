@@ -1,7 +1,7 @@
 {
   "Format": "1.20.0",
   "ConfigSchema": {
-    "Repeatable": {
+    "RepeatableConfig": {
       "Description": "Specify if you want the special orders to be repeatable (true, false). Default is true.",
       "AllowValues": "true, false",
       "Default": "true",
