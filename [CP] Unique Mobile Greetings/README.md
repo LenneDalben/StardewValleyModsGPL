@@ -1,4 +1,4 @@
-# Unique Mobile Greetings
+# (CP) Unique Mobile Greetings
 NPCs use unique in-character greetings when contacted by the mobile phone. My aim was to keep them short and sweet, so that they sound natural.
 
 A few examples:
