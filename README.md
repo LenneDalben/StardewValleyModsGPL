@@ -18,6 +18,7 @@ Villagers request cooked meals on the bulletin board, after you've learned the r
 Changes the Adventurer's Bundle to instead be the Gemologist's Bundle, requiring gemstones instead of monster loot.
 
 <a href="https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/Joja%20Always%20Has%20Seeds">(STF) Joja Always Has Seeds</a>
+
 Joja has all seeds, all year round, because every season is Joja-season!
 
 <a href="https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/%5BCP%5D%20Easier%20Stable">(CP) Easier Stable</a>
@@ -50,6 +51,7 @@ Joja *could* sell the next season's seeds in advance. Options are randomly 1 day
 
 
 <a href="https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/JojaMart%20Has%20Extra%20Stock">(STF) Joja Has Extra Stock</a>
+
 Joja's inventory is expanded to include basic cooking ingredients (tortilla, oil, and vinegar), fishing gear (after you unlock it), and coal, at a discount, even for non-Joja-members!
 
 
