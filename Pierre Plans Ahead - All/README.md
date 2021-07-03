@@ -7,6 +7,8 @@ Have you ever wanted to plan ahead, just a little, and have your seeds ready to 
 
 -Pierre will send you a letter on the 28th of the month to let you know
 
+German translation courtesy of Nexus user kupiqo. Only the 1 Day in Advance version is translated.
+
 
 
 3 Days in Advance:
