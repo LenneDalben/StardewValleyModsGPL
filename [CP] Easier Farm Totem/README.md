@@ -18,3 +18,9 @@ Installation:
 
 Uninstallation:
 Delete the folder from this mod.
+
+Shout Outs
+
+Airyn, who gave me the idea!
+
+Pathoschild, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible.
