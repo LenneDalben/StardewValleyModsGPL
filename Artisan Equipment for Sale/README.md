@@ -16,6 +16,21 @@ Installation:
 Uninstallation:
 Delete the folders from this mod.
 
+Shout Outs
+
+Nexus user kupiqo for providing the German translation for the letter.
+
+Jonqora and Draylon, who helped me with tweaking the requirements to buy the equipment and its availability to balance the mod.
+
+Pathoschild, author of SMAPI, without them, this mod wouldn't be possible.
+
+spacechase0, who gave me some ideas about what to include in the letter.
+
+HUGE thanks to CherryChain, author of Shop Tile Framework (STF), without them, this mod wouldn't be possible either. Extra thanks to CherryChain for their continued help in the Stardew Valley Discord with troubleshooting. 
+
+Digus, author of Mail Framework Mod (MFM), without them, the letter component of this mod wouldn't be possible.
+
+
 Equipment available for sale:
 
                  Clint
