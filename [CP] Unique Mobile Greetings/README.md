@@ -31,3 +31,9 @@ Installation:
 
 Uninstallation:
 Delete the folder from this mod.
+
+Shout Outs
+
+Aedenthorn, author of Mobile Phone, without them, this mod wouldn't be possible.
+
+Pathoschild, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible either.
