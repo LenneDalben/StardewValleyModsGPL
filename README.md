@@ -2,6 +2,7 @@
 Welcome to the respository of my mods for Stardew Valley that have a GPL License! <a href="https://github.com/LenneDalben/StardewValleyModsGPL/releases">Releases to download here</a>.
 
 <a href="https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/%5BCP%5D%20Unique%20Mobile%20Greetings">Unique Mobile Greetings</a>
+
 Adds unique mobile greetings for the Mobile Phone mod!
 
 <a href="https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/%5BCP%5D%20Easier%20Farm%20Totem">Easier Farm Totem</a>
