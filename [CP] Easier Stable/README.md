@@ -23,3 +23,11 @@ Installation:
 
 Uninstallation:
 Delete the folder from this mod.
+
+Shout Outs
+
+Nywuh | Lu(cie) on the #using-mods channel of the Stardew Valley Discord, who requested the mod!
+
+CherryChain and paradigmnomad, who pointed me in the right direction to get started on this mod!
+
+Pathoschild, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible.
