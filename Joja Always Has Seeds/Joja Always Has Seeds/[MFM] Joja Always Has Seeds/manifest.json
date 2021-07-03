@@ -5,7 +5,7 @@
 	"Description": "Joja mails you a letter advertising that they're selling seeds all year round.",
 	"UniqueID": "LenneDalben.MFM.JojaAlwaysHasSeeds",
 	"MinimumApiVersion": "3.6.1",
-	"UpdateKeys": [ "GitHub:LenneDalben/Joja Always Has Seeds" ],
+	"UpdateKeys": [ "GitHub:???" ],
 	"Dependencies": [
 		{
 			"UniqueID": "LenneDalben.JojaAlwaysHasSeeds"
