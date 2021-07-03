@@ -7,8 +7,9 @@ Each NPCs changes can be toggled on or off. By default all NPC changes are on (t
 Installation:
 1. Install <a href="https://smapi.io/">SMAPI</a> (version 3.9.2 or higher)
 2. Install <a href="https://www.nexusmods.com/stardewvalley/mods/1915">Content Patcher (CP)</a> (version 1.20.0 or higher)
-3. <a href="https://github.com/LenneDalben/StardewValleyModsGPL/releases/">Download the mod</a> and unzip the mod folder into Stardew Valley/Mods.
-4. Play the game using SMAPI!
+3. Install <a href="https://www.nexusmods.com/stardewvalley/mods/6523">Mobile Phone</a> (version 2.2.2 or higher)
+4. <a href="https://github.com/LenneDalben/StardewValleyModsGPL/releases/">Download the mod</a> and unzip the mod folder into Stardew Valley/Mods.
+5. Play the game using SMAPI!
 
 Uninstallation:
 Delete the folder from this mod.
