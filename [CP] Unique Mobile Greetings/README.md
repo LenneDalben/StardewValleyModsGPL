@@ -1,6 +1,24 @@
 # Unique Mobile Greetings
 NPCs use unique in-character greetings when contacted by the mobile phone. My aim was to keep them short and sweet, so that they sound natural.
 
+A few examples:
+
+Abigail
+* Friendly: "Hi, what's new?" / "I'd better go, bye!"
+* Dating / Engaged / Married: "Hi!" / "I gotta go sweetie, bye!"
+* Divorced: "..." / "Stop calling me, jerk!"
+
+Alex
+* Friendly: "Hey you!" / "See ya!"
+* Dating / Engaged / Married: "Hey FARMERNAME!" / "See ya, my cutie!"
+* Divorced: "*sigh*" / "Lose my number."
+
+Caroline
+* Friendly: "Hi {0}, how are you doing?" / "Talk to you later!"
+
+Demetrius
+* Friendly: "Greetings FARMERNAME! Are you enjoying this fine day?" / "Goodbye FARMERNAME!"
+
 Configuration
 Each NPCs changes can be toggled on or off. By default all NPC changes are on (true).
 
