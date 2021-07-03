@@ -15,109 +15,179 @@ Uninstallation:
 Delete the folders from this mod.
 
 Equipment available for sale:
+
                  Clint
-   Machine         Purchase Price 
-Lightning Rod            2500      
-Furnace                  5000      
-Charcoal Kiln            3000      
-Geode Crusher            13975     
+
+|   Machine        | Purchase Price |
+
+Lightning Rod      |      2500      |
+
+Furnace            |      5000      |
+
+Charcoal Kiln      |      3000      |
+
+Geode Crusher      |      13975     |
 
                  Dwarf
-   Machine         Purchase Price 
-Crystalarium            47400      
+
+|   Machine        | Purchase Price |
+
+Crystalarium       |     47400      |
 
                  Krobus
-   Machine         Purchase Price 
-Bee House                5750      
+
+|   Machine        | Purchase Price |
+
+Bee House          |      5750      |
 
                  Marlon
-   Machine         Purchase Price 
-Bone Mill                2180      
-Slime Egg-Press          8000      
-Slime Incubator         20000      
+
+|   Machine        | Purchase Price |
+
+Bone Mill          |      2180      |
+
+Slime Egg-Press    |      8000      |
+
+Slime Incubator    |     20000      |
 
                  Marnie
-   Machine         Purchase Price 
-Mayonnaise Machine       6630      
-Cheese Press             8300      
-Loom                     3200      
-Ostrich Incubator        26600     
+
+|   Machine        | Purchase Price |
+
+Mayonnaise Machine |      6630      |
+
+Cheese Press       |      8300      |
+
+Loom               |      3200      |
+
+Ostrich Incubator  |      26600     |
 
                  Pierre
-   Machine         Purchase Price 
-Quality Sprinkler        3500      
-Seed Maker              10000      
-Solar Panel             30500      
+
+|   Machine        | Purchase Price |
+
+Quality Sprinkler  |      3500      |
+
+Seed Maker         |     10000      |
+
+Solar Panel        |     30500      |
 
                  Robin
-   Machine         Purchase Price 
-Preserves Jar            7500      
-Tapper                   4000      
-Keg                      7500      
-Cask                     2500      
-Heavy Tapper             6150      
+
+|   Machine        | Purchase Price |
+
+Preserves Jar      |      7500      |
+
+Tapper             |      4000      |
+
+Keg                |      7500      |
+
+Cask               |      2500      |
+
+Heavy Tapper       |      6150      |
 
                  Sandy
-   Machine         Purchase Price 
-Garden Pot               1320      
-Oil Maker               10000      
+
+|   Machine        | Purchase Price |
+
+Garden Pot         |      1320      |
+
+Oil Maker          |     10000      |
 
                  Willy
-   Machine         Purchase Price 
-Recycling Machine        5500      
-Worm Bin                 6925      
+
+|   Machine        | Purchase Price |
+
+Recycling Machine  |      5500      |
+
+Worm Bin           |      6925      |
 
 
 
 If you want to know the full details of who sells what, for how much, and exactly what the requirements are, see the ⚠️⚠️⚠️Full Spoiler Description:⚠️⚠️⚠️
+
                  Clint
-   Machine         Purchase Price  Requirements
-Lightning Rod            2500       Learn recipe and 3 hearts with Clint
-Furnace                  5000       Learn recipe and 4 hearts with Clint
-Charcoal Kiln            3000       Learn recipe and 5 hearts with Clint
-Geode Crusher            13975      Learn recipe and 4 hearts with Clint
+
+|   Machine        | Purchase Price | Requirements
+
+Lightning Rod      |      2500      | Learn recipe and 3 hearts with Clint
+
+Furnace            |      5000      | Learn recipe and 4 hearts with Clint
+
+Charcoal Kiln      |      3000      | Learn recipe and 5 hearts with Clint
+
+Geode Crusher      |      13975     | Learn recipe and 4 hearts with Clint
 
                  Dwarf
-   Machine         Purchase Price  Requirements
-Crystalarium            47400       Learn recipe and 8 hearts with Dwarf
+
+|   Machine        | Purchase Price | Requirements
+
+Crystalarium       |     47400      | Learn recipe and 8 hearts with Dwarf
 
                  Krobus
-   Machine         Purchase Price  Requirements
-Bee House                5750       Learn recipe and 5 hearts with Krobus
+
+|   Machine        | Purchase Price | Requirements
+
+Bee House          |      5750      | Learn recipe and 5 hearts with Krobus
 
                  Marlon
-   Machine         Purchase Price  Requirements
-Bone Mill                2180       Learn recipe, and if using Befriend Marlon and Gunther, Stardew Valley Expanded (SVE) or Make Marlon Real, 3 hearts with Marlon. 
-Slime Egg-Press          8000       Learn recipe, and if using Befriend Marlon and Gunther, Stardew Valley Expanded (SVE) or Make Marlon Real, 6 hearts with Marlon. If you're not using any of those mods, then getting to the bottom of the mines once
-Slime Incubator         20000       Learn recipe, and if using Befriend Marlon and Gunther, Stardew Valley Expanded (SVE) or Make Marlon Real, 7 hearts with Marlon. If you're not using any of those mods, then getting to the bottom of the mines once
+
+|   Machine        | Purchase Price | Requirements
+
+Bone Mill          |      2180      | Learn recipe, and if using Befriend Marlon and Gunther, Stardew Valley Expanded (SVE) or Make Marlon Real, 3 hearts with Marlon. 
+
+Slime Egg-Press    |      8000      | Learn recipe, and if using Befriend Marlon and Gunther, Stardew Valley Expanded (SVE) or Make Marlon Real, 6 hearts with Marlon. If you're not using any of those mods, then getting to the bottom of the mines once
+
+Slime Incubator    |     20000      | Learn recipe, and if using Befriend Marlon and Gunther, Stardew Valley Expanded (SVE) or Make Marlon Real, 7 hearts with Marlon. If you're not using any of those mods, then getting to the bottom of the mines once
 
                  Marnie
-   Machine         Purchase Price  Requirements
-Mayonnaise Machine       6630       Learn recipe and 4 hearts with Marnie
-Cheese Press             8300       Learn recipe and 5 hearts with Marnie
-Loom                     3200       Learn recipe and 7 hearts with Marnie
-Ostrich Incubator        26600      Learn recipe and 9 hearts with Marnie
+
+|   Machine        | Purchase Price | Requirements
+
+Mayonnaise Machine |      6630      | Learn recipe and 4 hearts with Marnie
+
+Cheese Press       |      8300      | Learn recipe and 5 hearts with Marnie
+
+Loom               |      3200      | Learn recipe and 7 hearts with Marnie
+
+Ostrich Incubator  |      26600     | Learn recipe and 9 hearts with Marnie
 
                  Pierre
-   Machine         Purchase Price  Requirements
-Quality Sprinkler        3500       Learn recipe and 3 hearts with Pierre
-Seed Maker              10000       Learn recipe and 5 hearts with Pierre
-Solar Panel             30500       Learn recipe and 9 hearts with Pierre
+
+|   Machine        | Purchase Price | Requirements
+
+Quality Sprinkler  |      3500      | Learn recipe and 3 hearts with Pierre
+
+Seed Maker         |     10000      | Learn recipe and 5 hearts with Pierre
+
+Solar Panel        |     30500      | Learn recipe and 9 hearts with Pierre
 
                  Robin
-   Machine         Purchase Price  Requirements
-Preserves Jar            7500       Learn recipe and 4 hearts with Robin
-Tapper                   4000       Learn recipe and 4 hearts with Robin
-Keg                      7500       Learn recipe and 5 hearts with Robin
-Cask                     2500       Learn recipe and 7 hearts with Robin
-Heavy Tapper             6150       Learn recipe and 9 hearts with Robin
+
+|   Machine        | Purchase Price | Requirements
+
+Preserves Jar      |      7500      | Learn recipe and 4 hearts with Robin
+
+Tapper             |      4000      | Learn recipe and 4 hearts with Robin
+
+Keg                |      7500      | Learn recipe and 5 hearts with Robin
+
+Cask               |      2500      | Learn recipe and 7 hearts with Robin
+
+Heavy Tapper       |      6150      | Learn recipe and 9 hearts with Robin
 
                  Sandy
-   Machine         Purchase Price  Requirements
-Garden Pot               1320       Learn recipe and 3 hearts with Sandy
-Oil Maker               10000       Learn recipe and 5 hearts with Sandy
+
+|   Machine        | Purchase Price | Requirements
+
+Garden Pot         |      1320      | Learn recipe and 3 hearts with Sandy
+
+Oil Maker          |     10000      | Learn recipe and 5 hearts with Sandy
 
                  Willy
-   Machine         Purchase Price  Requirements
-Recycling Machine        5500       Learn recipe and 5 hearts with Willy
-Worm Bin                 6925       Learn recipe and 6 hearts with Willy
+
+|   Machine        | Purchase Price | Requirements
+
+Recycling Machine  |      5500      | Learn recipe and 5 hearts with Willy
+
+Worm Bin           |      6925      | Learn recipe and 6 hearts with Willy
