@@ -15,4 +15,11 @@ Option B:
 
 Note that the mod does not come packaged with a config file. The config file will be generated after you run the game with the mod installed at least once. 
 
-Nexus page here: https://www.nexusmods.com/stardewvalley/mods/6482
+Installation:
+1. Install <a href="https://smapi.io/">SMAPI</a> (version 3.4.0 or higher)
+2. Install <a href="https://www.nexusmods.com/stardewvalley/mods/1915">Content Patcher (CP)</a> (version 1.14.0 or higher)
+3. <a href="https://github.com/LenneDalben/StardewValleyModsGPL/releases/">Download the mod</a> and unzip the mod folder into Stardew Valley/Mods.
+4. Play the game using SMAPI!
+
+Uninstallation:
+Delete the folder from this mod.
