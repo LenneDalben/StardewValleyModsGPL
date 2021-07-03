@@ -9,3 +9,13 @@ Installation:
 
 Uninstallation:
 Delete the folder from this mod.
+
+Shout Outs
+
+NordKitten, author of (PFM) Wine to Vinegar, who inspired me to research other ways to make vinegar in real life!
+
+pancham138, whose mod (PFM) Easy Coal was how I learned how easy it could be to modify the recipe!
+
+Pathoschild, author of SMAPI, without them, this mod wouldn't be possible.
+
+Digus, author of Producer Framework (PFM) mod, without them, this mod wouldn't be possible either.
