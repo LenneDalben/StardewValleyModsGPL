@@ -1,5 +1,5 @@
 # Unique Mobile Greetings
-NPCs use unique in-character greetings when contacted by the mobile phone.
+NPCs use unique in-character greetings when contacted by the mobile phone. My aim was to keep them short and sweet, so that they sound natural.
 
 Configuration
 Each NPCs changes can be toggled on or off. By default all NPC changes are on (true).
