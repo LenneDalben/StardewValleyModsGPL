@@ -27,3 +27,12 @@ Installation:
 
 Uninstallation:
 Delete the folder from this mod.
+
+Shout Outs
+Carlesama, whose mod More Valuable Diamond was how I learned how easy it could be to modify attributes for items, and inspired me to investigate modifying crafting recipes!
+
+kdau, who helped me set up the code for this mod in the SDV Discord!
+
+Pathoschild, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible.
+
+Digus, author of Producer Framework (PFM) mod, without them, this mod wouldn't be possible either.
