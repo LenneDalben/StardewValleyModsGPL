@@ -56,4 +56,4 @@ HUGE thanks to CherryChain, author of Shop Tile Framework (STF), without them, t
 
 Digus, author of Mail Framework Mod (MFM), without them, the letter component of this mod wouldn't be possible.
 
-Everyone in #making-mods in the Stardew Valley Discord, who are a helpful and friendly lot!s
+Everyone in #making-mods in the Stardew Valley Discord, who are a helpful and friendly lot!
