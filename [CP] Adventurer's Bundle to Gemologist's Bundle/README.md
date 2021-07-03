@@ -10,7 +10,5 @@ The requirements will now be 2 of the following combinations:
 The configuration file is to toggle this mod on and off, so the only options are true and false. The default is true. 
 
 
-Note that the mod does not come packaged with a config file. The config file will be generated after you run the game with the mod installed at least once. 
-
-Nexus page here: https://www.nexusmods.com/stardewvalley/mods/6651
+Note that the mod does not come packaged with a config file. The config file will be generated after you run the game with the mod installed at least once.
 
