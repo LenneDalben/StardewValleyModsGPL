@@ -7,8 +7,10 @@ The requirements will now be 2 of the following combinations:
 3 Topaz (stacked)
 3 Emerald (stacked)
 
-The configuration file is to toggle this mod on and off, so the only options are true and false. The default is true. 
-
+The configuration file contains the following options:
+* ModToggled: allows you to toggle the mod on and off. Default is on.
+* RewardModified: Choose true if you want to have a modified reward, and select RingReward option below. Choose false if you want to have the vanilla reward (small magnet ring). Default is true.
+* RingReward: If RewardModified is true, choose slime or magnet. If RewardModified is false, choose N/A.
 
 Note that the mod does not come packaged with a config file. The config file will be generated after you run the game with the mod installed at least once.
 
