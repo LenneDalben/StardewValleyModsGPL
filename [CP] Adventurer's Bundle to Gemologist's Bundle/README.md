@@ -22,3 +22,11 @@ Installation:
 
 Uninstallation:
 Delete the folder from this mod.
+
+Shout Outs
+
+Thanks to Draylon for making Non-Lethal Weapons!
+
+Thanks to Undare for making Mineral Mage!
+
+Pathoschild, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible.
