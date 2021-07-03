@@ -1,5 +1,5 @@
 # (CP) Adventurer's Bundle to Gemologist's Bundle
-This mod changes the Adventurer's Bundle to instead be the Gemologist's Bundle. Pairs well with Non-Lethal Weapons and pacifist runs as a whole.
+This mod changes the Adventurer's Bundle to instead be the Gemologist's Bundle. Pairs well with Non-Lethal Weapons and pacifist runs as a whole. For more pacifist AND gem=using mods, check out Mineral Mage!
 
 The requirements will now be 2 of the following combinations:
 1 Ruby
