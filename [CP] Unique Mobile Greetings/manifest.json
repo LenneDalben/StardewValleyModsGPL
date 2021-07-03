@@ -13,7 +13,8 @@
     "Dependencies": [
         {
             "UniqueID": "aedenthorn.MobilePhone",
-            "IsRequired": true
+            "IsRequired": true,
+            "MinimumVersion": "2.2.2"
         }
     ]
 }
