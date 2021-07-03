@@ -2,9 +2,9 @@
    "Name": "Easier Bee House, Oil Maker, Preserves Jar, and Lightning Rod",
    "Author": "LenneDalben",
    "Description": "Craft the following machines with fewer resources: oil maker, bee house, preserve jars, and lightning rod.",
-   "Version": "1.0",
+   "Version": "1.0.1",
    "UniqueID": "LenneDalben.equipt",
-   "UpdateKeys": [ "Nexus:6007" ],
+   "UpdateKeys": [ "GitHub:LenneDalben/Easier Bee House, Oil Maker, Preserves Jar, and Lightning Rod" ],
    "ContentPackFor": {
        "UniqueID": "Pathoschild.ContentPatcher"
     }   
