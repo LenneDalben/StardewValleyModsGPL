@@ -1,11 +1,11 @@
 {
   "Name": "[STF] JojaMart Has Extra Stock",
   "Author": "LenneDalben",
-  "Version": "1.1.1",
+  "Version": "1.1.2",
   "Description": "Joja's inventory is expanded to include basic cooking ingredients, some fishing gear, and coal.",
   "UniqueID": "LenneDalben.JojaMartExtraStock",
   "MinimumApiVersion": "3.4.0",
-  "UpdateKeys": [ "Nexus:6371" ],
+  "UpdateKeys": [ "GitHub:LenneDalben/JojaMart Has Extra Stock" ],
   "ContentPackFor": {
     "UniqueID": "Cherry.ShopTileFramework",
     "MinimumVersion": "1.0.4"
