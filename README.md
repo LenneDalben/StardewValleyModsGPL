@@ -1,15 +1,15 @@
 # LenneDalben's Stardew Valley Mods (with GPL License)
 Welcome to the respository of my mods for Stardew Valley that have a GPL License! <a href="https://github.com/LenneDalben/StardewValleyModsGPL/releases">Releases can be downloaded here</a>.
 
-<a href="https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/%5BCP%5D%20Unique%20Mobile%20Greetings">Unique Mobile Greetings</a>
+<a href="https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/%5BCP%5D%20Unique%20Mobile%20Greetings">(CP) Unique Mobile Greetings</a>
 
 Adds unique mobile greetings for the Mobile Phone mod!
 
-<a href="https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/%5BCP%5D%20Easier%20Farm%20Totem">Easier Farm Totem</a>
+<a href="https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/%5BCP%5D%20Easier%20Farm%20Totem">(CP) Easier Farm Totem</a>
 
  Farm totems are easier to craft, with lower foraging skill and different resources.
 
-<a href="https://github.com/LenneDalben/StardewValleyModsGPL/blob/main/Townies%20Need%20Food!">Townies Need Food</a>
+<a href="https://github.com/LenneDalben/StardewValleyModsGPL/blob/main/Townies%20Need%20Food!">(CP) Townies Need Food</a>
 
 Villagers request cooked meals on the bulletin board, after you've learned the recipe and have a kitchen! Also checks if you have a mod that adds a kitchen to the first farmhouse.
 
