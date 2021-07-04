@@ -1,26 +1,26 @@
 [
 	{
 		"Id": "jojaplansaheadspringletter",
-		"Text": "Farmer @,^^I am delighted to inform you of a recent development: JojaMart may have the summer seeds in stock early! Aren't you thrilled?^^Although, that Draylon fellow said I might not get all of the summer seeds...or enough stock to have them available the whole week...^^^I hope to see you this week checking our stock to plan ahead!^^-Mr. Morris, Manager^Pelican Town JojaMart",
+		"Text": "jojaplansaheadspringletter.text",
 		"Repeatable": "true",
 		//Conditions for delivery
 		"Days": [22],
-		"Seasons": ["spring"],
+		"Seasons": ["spring"]
 	},
 	{
 		"Id": "jojaplansaheadsummerletter",
-		"Text": "Farmer @,^^I am delighted to inform you of a recent development: JojaMart may have the fall seeds in stock early! Aren't you thrilled?^^Although, that Draylon fellow said I might not get all of the fall seeds...or enough stock to have them available the whole week...^^^I hope to see you this week checking our stock to plan ahead!^^-Mr. Morris, Manager^Pelican Town JojaMart",
+		"Text": "jojaplansaheadsummerletter.text",
 		"Repeatable": "true",
 		//Conditions for delivery
 		"Days": [22],
-		"Seasons": ["summer"],
+		"Seasons": ["summer"]
 	},
 	{
 		"Id": "jojaplansaheadwinterletter",
-		"Text": "Farmer @,^^I am delighted to inform you of a recent development: JojaMart may have the spring seeds in stock early! Aren't you thrilled?^^Although, that Draylon fellow said I might not get all of the spring seeds...or enough stock to have them available the whole week...^^^I hope to see you this week checking our stock to plan ahead!^^-Mr. Morris, Manager^Pelican Town JojaMart",
+		"Text": "jojaplansaheadwinterletter.text",
 		"Repeatable": "true",
 		//Conditions for delivery
 		"Days": [22],
-		"Seasons": ["winter"],
+		"Seasons": ["winter"]
 	},
 ]
