@@ -1,26 +1,26 @@
 [
 	{
 		"Id": "jojaplansaheadspringletter",
-		"Text": "Farmer @,^^I am delighted to inform you of a recent development: JojaMart could have the summer seeds in stock up to a week in advance! Aren't you thrilled?^I hope to see you this week checking our stock to plan ahead!^^-Mr. Morris, Manager^Pelican Town JojaMart",
+		"Text": "jojaplansaheadspringletter.text",
 		"Repeatable": "true",
 		//Conditions for delivery
 		"Days": [22],
-		"Seasons": ["spring"],
+		"Seasons": ["spring"]
 	},
 	{
 		"Id": "jojaplansaheadsummerletter",
-		"Text": "Farmer @,^^I am delighted to inform you of a recent development: JojaMart could have the fall seeds in stock up to a week in advance! Aren't you thrilled?^I hope to see you this week checking our stock to plan ahead!^^-Mr. Morris, Manager^Pelican Town JojaMart",
+		"Text": "jojaplansaheadsummerletter.text",
 		"Repeatable": "true",
 		//Conditions for delivery
 		"Days": [22],
-		"Seasons": ["summer"],
+		"Seasons": ["summer"]
 	},
 	{
 		"Id": "jojaplansaheadwinterletter",
-		"Text": "Farmer @,^^I am delighted to inform you of a recent development: JojaMart could have the spring seeds in stock up to a week in advance! Aren't you thrilled?^I hope to see you this week checking our stock to plan ahead!^^-Mr. Morris, Manager^Pelican Town JojaMart",
+		"Text": "jojaplansaheadwinterletter.text",
 		"Repeatable": "true",
 		//Conditions for delivery
 		"Days": [22],
-		"Seasons": ["winter"],
+		"Seasons": ["winter"]
 	},
 ]
