@@ -5,7 +5,7 @@
   "Description": "Pierre sells the next season's seeds 3 days in advance.",
   "UniqueID": "LenneDalben.PierrePlansAhead",
   "MinimumApiVersion": "3.8.1",
-  "UpdateKeys": [ "Nexus:6272@PThree" ],
+  "UpdateKeys": [ "GitHub:LenneDalben/Pierre Plans Ahead - 3 Days" ],
   "ContentPackFor": {
     "UniqueID": "Cherry.ShopTileFramework",
     "MinimumVersion": "1.0.9"
