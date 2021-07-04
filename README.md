@@ -9,7 +9,7 @@ Adds unique mobile greetings for the Mobile Phone mod!
 
  Farm totems are easier to craft, with lower foraging skill and different resources.
 
-<a href="https://github.com/LenneDalben/StardewValleyModsGPL/blob/main/Townies%20Need%20Food!">(CP) Townies Need Food</a>
+<a href="https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/%5BCP%5D%20Townies%20Need%20Food!">(CP) Townies Need Food</a>
 
 Villagers request cooked meals on the bulletin board, after you've learned the recipe and have a kitchen! Also checks if you have a mod that adds a kitchen to the first farmhouse.
 
