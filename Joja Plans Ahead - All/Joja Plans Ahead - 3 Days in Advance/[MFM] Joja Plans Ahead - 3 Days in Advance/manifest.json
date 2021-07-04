@@ -1,11 +1,11 @@
 ﻿{
 	"Name": "Joja Plans Ahead - 3 Days in Advance MFM Component",
 	"Author": "LenneDalben",
-	"Version": "1.0",
+	"Version": "1.0.1",
 	"Description": "Joja mails you a letter advertising that they're selling the next season's seeds 3 days early.",
 	"UniqueID": "LenneDalben.MFM.JojaPlansAhead",
 	"MinimumApiVersion": "3.4.0",
-	"UpdateKeys": [],
+	"UpdateKeys": [ "GitHub:???" ],
 	"Dependencies": [
 		{
 			"UniqueID": "LenneDalben.JojaPlansAhead"
