@@ -3,6 +3,8 @@ Have you ever wondered why JojaMart is described in-game as having competitive p
 
 With this mod, Joja's inventory is expanded to include basic cooking ingredients (tortilla, oil, and vinegar), fishing gear (after you unlock it), and coal, at a discount, even for non-Joja-members! To compete more with Pierre, Gus, Clint, and Willy, non-Joja-members will have a 25% off discount, while Joja members have a 50% off discount. The items and discounts are year-round. You'll receive a one-time letter from Morris when you install the mod advertising the additional stock.
 
+I think the mod <a href="https://www.nexusmods.com/stardewvalley/mods/2658">Lore-Friendly Joja Prices</a> will pair well with this one, but note it's not required. 
+
 Installation:
 
 1. Install <a href="https://smapi.io/">SMAPI</a> (version 3.4 or higher)
