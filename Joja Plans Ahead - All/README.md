@@ -1,4 +1,4 @@
-# (STF) Joja Plans Ahead
+# Joja Plans Ahead
 Have you ever wanted to plan ahead, just a little, and have your seeds ready to go on Day 1 of the season, without having to wait for JojaMart to open (because you don't shop at Pierre's, or you just want that competitive Sunflowers price), to then run to JojaMart, to then buy the seeds, to then run back to your farm and finally get to planting? Well, now you can!
 
 1 Day in Advance:
