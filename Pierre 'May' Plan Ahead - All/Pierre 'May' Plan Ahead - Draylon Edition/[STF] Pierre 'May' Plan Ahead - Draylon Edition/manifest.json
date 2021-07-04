@@ -1,11 +1,11 @@
 {
   "Name": "[STF] Pierre May Plan Ahead - Draylon Edition",
   "Author": "LenneDalben",
-  "Version": "1.2.0",
+  "Version": "1.2.1",
   "Description": "Pierre could sell some of the next season's seeds up to 7 days in advance, and even then, it's not guaranteed he'll sell them the rest of that week, or even sell all of the next season's seeds. Enjoy the randomness!",
   "UniqueID": "LenneDalben.PierrePlansAhead",
   "MinimumApiVersion": "3.8.1",
-  "UpdateKeys": [ "Nexus:6272@MDraylon" ],
+  "UpdateKeys": [ "GitHub:LenneDalben/Pierre 'May' Plan Ahead - Draylon Edition" ],
   "ContentPackFor": {
     "UniqueID": "Cherry.ShopTileFramework",
     "MinimumVersion": "1.0.9"
