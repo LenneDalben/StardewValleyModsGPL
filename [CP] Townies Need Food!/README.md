@@ -63,7 +63,11 @@ Note that if the game was going to include special orders from TNF in the next r
 ||Shout Outs||
 
 Jonqora, for ideas and suggestions that were incorporated in this mod. Jonqora was also INSTRUMENTAL in the dynamic token component of this mod. Jonqora, you are a legend <3
+
 Lumina, for their Lumisteria Special Orders mods, which helped me in writing this mod. Extra thanks to Lumina for their help in the Stardew Valley Discord.
+
 Gervig91, for helping me test the 2.0.0 update.
+
 Thanks very much to jina2ya (Kaya) for the Korean translation!
+
 Pathoschild, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible either.
