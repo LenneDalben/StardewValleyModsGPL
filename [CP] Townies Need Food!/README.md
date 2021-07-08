@@ -22,13 +22,21 @@ Note that the mod does not come packaged with a config file. The config file wil
 ||Compatibility||
 
 Townies Need Food will recognize if you have one of the following mods installed, so special orders will show up on the special orders board before you have the first house upgrade:
+
 Froststar11's Tiny Kitchen
+
 Kitchen Nook for 1st Farmhouse by Allayna
+
 BS New Farmhouse Design and Kitchen Corner﻿ by BURAKMESE
+
 Seasonal Garden Farmhouse V2 by DustBeauty
+
 CCS Kitchen Station Set by jina2ya
+
 Minerva's Bigger Farmhouses by minervamaga
+
 1.5 FarmHouse1, 2 with Bathroom by muscat (CP version)
+
 Cozier Default Farmhouses by DexMods
 
 TNF will also auto-detect if you have Friends Forever or CJB Cheats Menu installed to toggle on friendship requirements.
