@@ -57,7 +57,7 @@
       "Name": "FriendshipRequirement",
       "Value": "true",
       "When": {
-        "FriendshipRequirement": "true"
+        "FriendshipConfig": "true"
       }
     }
   ],
