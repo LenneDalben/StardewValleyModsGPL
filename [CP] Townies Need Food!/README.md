@@ -39,6 +39,8 @@ Minerva's Bigger Farmhouses by minervamaga
 
 Cozier Default Farmhouses by DexMods
 
+Cozy Starter Farmhouse with Kitchen by isaonhieno
+
 TNF will also auto-detect if you have Friends Forever or CJB Cheats Menu installed to toggle on friendship requirements.
 
 ||Installation||
