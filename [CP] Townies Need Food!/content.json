@@ -39,7 +39,7 @@
       "Name": "PlayerHasKitchen",
       "Value": "true",
       "When": {
-        "HasMod": "Froststar11.CustomFarmhouse, Allayna.Kitchen, burakmese.products, mabelsyrup.farmhouse, KAYA.JAKitchenStationSet, minervamaga.FR.BiggerFarmhouses, muscat.FarmHouse12, DexMods.CozierDefaultFarmhouses, Isa.Farmhouse"
+        "HasMod": "Froststar11.CustomFarmhouse, Allayna.Kitchen, burakmese.products, mabelsyrup.farmhouse, KAYA.JAKitchenStationSet, minervamaga.FR.BiggerFarmhouses, muscat.FarmHouse0.BD, DexMods.CozierDefaultFarmhouses, Isa.Farmhouse"
       }
     },
     {
