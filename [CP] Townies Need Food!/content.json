@@ -50,7 +50,7 @@
       "Name": "FriendshipRequirement",
       "Value": "true",
       "When": {
-        "HasMod": "CJBok.CheatsMenu, IsaacS.FriendsForever"
+        "HasMod": "CJBok.CheatsMenu, IsaacS.FriendsForever, HunterMYT.FriendshipWithoutTalk"
       }
     },
     {
