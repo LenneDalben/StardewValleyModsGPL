@@ -21,7 +21,7 @@
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Entries": {
-				"Warp Totem:Farm": "390 10 388 10 771 20/Field/688/false/Foraging 3"
+				"Warp Totem: Farm": "390 10 388 10 771 20/Field/688/false/Foraging 3"
 			},
 			"When": {
 				"ModToggled": "true",
@@ -34,7 +34,7 @@
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Entries": {
-				"Warp Totem:Farm": "420 1 388 10 771 20/Field/688/false/Foraging 3"
+				"Warp Totem: Farm": "420 1 388 10 771 20/Field/688/false/Foraging 3"
 			},
 			"When": {
 				"ModToggled": "true",
