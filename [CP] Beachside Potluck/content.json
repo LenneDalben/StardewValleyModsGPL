@@ -59,5 +59,53 @@
 				"summer_10": "Everyone's excited for the Potluck tomorrow. Maybe a little nervous, too, considering the Governor will be here.",
 			}
 		},
+		{
+			"LogName": "Beachside Potluck Alex Marriage Dialog",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueAlex",
+			"Entries": {
+				"summer_10": "Have you thought about what you're going to put in the Potluck soup?#$e#I have no idea what's good... you're the chef!$h",
+			}
+		},
+		{
+			"LogName": "Beachside Potluck Elliott Marriage Dialog",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueElliott",
+			"Entries": {
+				"summer_10": "I was going to grab an extra bottle of ink from my cabin today, but then I remembered the Potluck is tomorrow. I'll just do it then.",
+			}
+		},
+		{
+			"LogName": "Beachside Potluck Harvey Marriage Dialog",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueHarvey",
+			"Entries": {
+				"summer_10": "Have you thought about what you're going to put in the Potluck soup?#$e#I would put an item of high value and quality. We all want to leave a great impression on the governor!",
+			}
+		},
+		{
+			"LogName": "Beachside Potluck Sam Marriage Dialog",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueSam",
+			"Entries": {
+				"summer_10": "Have you thought about what you're going to put in the Potluck soup?#$e#It might be funny to put something nasty. You know, to play a prank on the governor!$h#$e#Sorry...",
+			}
+		},
+		{
+			"LogName": "Beachside Potluck Sebastian Marriage Dialog",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueSebastian",
+			"Entries": {
+				"summer_10": "Have you thought about what you're going to put in the Potluck soup?#$e#I have no idea what's good... you're the chef!$7",
+			}
+		},
+		{
+			"LogName": "Beachside Potluck Shane Marriage Dialog",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueShane",
+			"Entries": {
+				"summer_10": "I might fast until the Potluck tomorrow. I need the ol' bag to be empty so I can fill it with piping hot soup.$h",
+			}
+		},
 	]
 }
