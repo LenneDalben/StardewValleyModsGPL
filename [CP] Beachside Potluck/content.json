@@ -19,19 +19,6 @@
 				"summer11": "Beachside Potluck",
 			}
 		},
-		// Changes to governor reactions and Elliott dialog
-		{
-			"LogName": "Beachside Potluck Governor Reactions and Elliott Dialog",
-			"Action": "EditData",
-			"Target": "Data/Festivals/summer11",
-			"Entries": {
-				"governorReaction5": "emote Governor 40/pause 400/speak Governor \"Hmmm... Well it's not bad, but it's missing something...$s#$b#Did everyone in town contribute an ingredient to the soup? I feel like it's missing someone's unique voice.\"/showFrame Governor 0/pause 400/showFrame Lewis 18/emote Lewis 28/pause 600/showFrame Lewis 0/pause 400/move Lewis 2 0 2/move Lewis 0 2 3/pause 500/animate Lewis false false 200 19 19 22 23 23 22 23 23 22 19 19/pause 800/playSound gulp/pause 600/playSound gulp/pause 1000/speak Lewis \"You're right... It's a little bland.$s\"/pause 1000/speak Lewis \"Well, thanks for joining us this year, Governor. Sorry the soup wasn't anything special.\"/pause 500/faceDirection Lewis 2/speak Lewis \"Now... who else wants some soup?\"/faceDirection Marnie 0 true/advancedMove Gus false 0 -1 5 0 4 1000/advancedMove Jodi false 0 -2/advancedMove Clint false 0 1 -1 0 0 3 -2 0/advancedMove Emily false 3 0/advancedMove Pam false 0 2 7 0/pause 1000/globalFade/viewport -1000 -1000/pause 300/message \"The soup was bland, but the Potluck was still fun!\"/pause 500/message \"Time to head home.\"/waitForOtherPlayers festivalEnd/end",
-				"governorReaction3": "emote Governor 32/pause 400/playMusic jaunty/speak Governor \"Ah... that's a very pleasant soup. The produce from this valley never disappoints!\"/showFrame Governor 0/pause 400/move Lewis 2 0 2/move Lewis 0 2 3/pause 500/animate Lewis false false 200 19 19 22 23 23 22 23 23 22 19 19/pause 800/playSound gulp/pause 600/playSound gulp/pause 1000/speak Lewis \"Mmm... tasty. You all did very well today.\"/pause 500/faceDirection Lewis 2/speak Lewis \"Now... who else wants some soup?\"/faceDirection Marnie 0 true/advancedMove Gus false 0 -1 5 0 4 1000/advancedMove Jodi false 0 -2/advancedMove Clint false 0 1 -1 0 0 3 -2 0/advancedMove Emily false 3 0/advancedMove Pam false 0 2 7 0/pause 1000/globalFade/viewport -1000 -1000/pause 300/message \"The Potluck was a success! Good thing I brought something tasty for the soup.\"/pause 500/message \"Time to head home.\"/waitForOtherPlayers festivalEnd/end",
-				"governorReaction2": "pause 400/playMusic ocean/speak Governor \"Hmm... I don't have much to say about this. It's an average soup.\"/showFrame Governor 0/pause 400/showFrame Lewis 18/emote Lewis 28/pause 600/showFrame Lewis 0/pause 400/move Lewis 2 0 2/move Lewis 0 2 3/pause 500/animate Lewis false false 200 19 19 22 23 23 22 23 23 22 19 19/pause 800/playSound gulp/pause 600/playSound gulp/pause 1000/speak Lewis \"He's right... It's nothing special. Not bad, though.\"/pause 500/faceDirection Lewis 2/speak Lewis \"Well... who else wants some soup?\"/faceDirection Marnie 0 true/advancedMove Gus false 0 -1 5 0 4 1000/advancedMove Jodi false 0 -2/advancedMove Clint false 0 1 -1 0 0 3 -2 0/advancedMove Emily false 3 0/advancedMove Pam false 0 2 7 0/pause 1000/globalFade/viewport -1000 -1000/pause 300/message \"The soup was just average, but otherwise the Potluck was a success!\"/pause 500/message \"Time to head home.\"/waitForOtherPlayers festivalEnd/end",
-				"governorReaction1": "emote Governor 28/pause 400/playMusic ocean/speak Governor \"Um... It's actually kind of disgusting. I think I'll pass on the soup this year.$s\"/showFrame Governor 0/pause 400/showFrame Lewis 18/emote Lewis 28/pause 600/showFrame Lewis 0/pause 400/move Lewis 2 0 2/move Lewis 0 2 3/pause 500/animate Lewis false false 200 19 19 22 23 23 22 23 23 22 19 19/pause 800/playSound gulp/pause 600/playSound gulp/pause 1000/speak Lewis \"Yuck. Someone must have ruined it with a poor-quality ingredient.$s\"/pause 500/faceDirection Lewis 2/speak Lewis \"Well... does anyone want any?\"/faceDirection Marnie 0 true/advancedMove Gus false 0 -1 5 0 4 1000/advancedMove Jodi false 0 -2/advancedMove Clint false 0 1 -1 0 0 3 -2 0/advancedMove Emily false 3 0/advancedMove Pam false 0 2 7 0/pause 1000/globalFade/viewport -1000 -1000/pause 300/message \"The soup wasn't very good, but otherwise the Potluck was a success!\"/pause 500/message \"Time to head home.\"/waitForOtherPlayers festivalEnd/end",
-				"Elliott": "I woke up late, stepped out of the door and found myself in the middle of all this hubbub!#$e#I forgot that today was the Beachside Potluck.$h",
-			}
-		},
 		// Change to Lewis line to start the soup tasting
 		{
 			"LogName": "Beachside Potluck Lewis Start Soup Tasting",
@@ -49,6 +36,28 @@
 			"Entries": {
 				"Utility.cs.5837": "Beachside Potluck Festival",
 			}
-		}
+		},
+		// Changes to governor reactions and Elliott dialog
+		{
+			"LogName": "Beachside Potluck Governor Reactions and Elliott Dialog",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"Entries": {
+				"governorReaction5": "emote Governor 40/pause 400/speak Governor \"Hmmm... Well it's not bad, but it's missing something...$s#$b#Did everyone in town contribute an ingredient to the soup? I feel like it's missing someone's unique voice.\"/showFrame Governor 0/pause 400/showFrame Lewis 18/emote Lewis 28/pause 600/showFrame Lewis 0/pause 400/move Lewis 2 0 2/move Lewis 0 2 3/pause 500/animate Lewis false false 200 19 19 22 23 23 22 23 23 22 19 19/pause 800/playSound gulp/pause 600/playSound gulp/pause 1000/speak Lewis \"You're right... It's a little bland.$s\"/pause 1000/speak Lewis \"Well, thanks for joining us this year, Governor. Sorry the soup wasn't anything special.\"/pause 500/faceDirection Lewis 2/speak Lewis \"Now... who else wants some soup?\"/faceDirection Marnie 0 true/advancedMove Gus false 0 -1 5 0 4 1000/advancedMove Jodi false 0 -2/advancedMove Clint false 0 1 -1 0 0 3 -2 0/advancedMove Emily false 3 0/advancedMove Pam false 0 2 7 0/pause 1000/globalFade/viewport -1000 -1000/pause 300/message \"The soup was bland, but the Potluck was still fun!\"/pause 500/message \"Time to head home.\"/waitForOtherPlayers festivalEnd/end",
+				"governorReaction3": "emote Governor 32/pause 400/playMusic jaunty/speak Governor \"Ah... that's a very pleasant soup. The produce from this valley never disappoints!\"/showFrame Governor 0/pause 400/move Lewis 2 0 2/move Lewis 0 2 3/pause 500/animate Lewis false false 200 19 19 22 23 23 22 23 23 22 19 19/pause 800/playSound gulp/pause 600/playSound gulp/pause 1000/speak Lewis \"Mmm... tasty. You all did very well today.\"/pause 500/faceDirection Lewis 2/speak Lewis \"Now... who else wants some soup?\"/faceDirection Marnie 0 true/advancedMove Gus false 0 -1 5 0 4 1000/advancedMove Jodi false 0 -2/advancedMove Clint false 0 1 -1 0 0 3 -2 0/advancedMove Emily false 3 0/advancedMove Pam false 0 2 7 0/pause 1000/globalFade/viewport -1000 -1000/pause 300/message \"The Potluck was a success! Good thing I brought something tasty for the soup.\"/pause 500/message \"Time to head home.\"/waitForOtherPlayers festivalEnd/end",
+				"governorReaction2": "pause 400/playMusic ocean/speak Governor \"Hmm... I don't have much to say about this. It's an average soup.\"/showFrame Governor 0/pause 400/showFrame Lewis 18/emote Lewis 28/pause 600/showFrame Lewis 0/pause 400/move Lewis 2 0 2/move Lewis 0 2 3/pause 500/animate Lewis false false 200 19 19 22 23 23 22 23 23 22 19 19/pause 800/playSound gulp/pause 600/playSound gulp/pause 1000/speak Lewis \"He's right... It's nothing special. Not bad, though.\"/pause 500/faceDirection Lewis 2/speak Lewis \"Well... who else wants some soup?\"/faceDirection Marnie 0 true/advancedMove Gus false 0 -1 5 0 4 1000/advancedMove Jodi false 0 -2/advancedMove Clint false 0 1 -1 0 0 3 -2 0/advancedMove Emily false 3 0/advancedMove Pam false 0 2 7 0/pause 1000/globalFade/viewport -1000 -1000/pause 300/message \"The soup was just average, but otherwise the Potluck was a success!\"/pause 500/message \"Time to head home.\"/waitForOtherPlayers festivalEnd/end",
+				"governorReaction1": "emote Governor 28/pause 400/playMusic ocean/speak Governor \"Um... It's actually kind of disgusting. I think I'll pass on the soup this year.$s\"/showFrame Governor 0/pause 400/showFrame Lewis 18/emote Lewis 28/pause 600/showFrame Lewis 0/pause 400/move Lewis 2 0 2/move Lewis 0 2 3/pause 500/animate Lewis false false 200 19 19 22 23 23 22 23 23 22 19 19/pause 800/playSound gulp/pause 600/playSound gulp/pause 1000/speak Lewis \"Yuck. Someone must have ruined it with a poor-quality ingredient.$s\"/pause 500/faceDirection Lewis 2/speak Lewis \"Well... does anyone want any?\"/faceDirection Marnie 0 true/advancedMove Gus false 0 -1 5 0 4 1000/advancedMove Jodi false 0 -2/advancedMove Clint false 0 1 -1 0 0 3 -2 0/advancedMove Emily false 3 0/advancedMove Pam false 0 2 7 0/pause 1000/globalFade/viewport -1000 -1000/pause 300/message \"The soup wasn't very good, but otherwise the Potluck was a success!\"/pause 500/message \"Time to head home.\"/waitForOtherPlayers festivalEnd/end",
+				"Elliott": "I woke up late, stepped out of the door and found myself in the middle of all this hubbub!#$e#I forgot that today was the Potluck.$h",
+			}
+		},
+		// Additional dialog changes
+		{
+			"LogName": "Beachside Potluck Abigail Dialog",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries": {
+				"summer_10": "Everyone's excited for the Potluck tomorrow. Maybe a little nervous, too, considering the Governor will be here.",
+			}
+		},
 	]
 }
