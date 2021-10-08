@@ -1,13 +1,21 @@
 {
-  "Format": "1.23.0",
-  "Changes": [
-       // Change to the letter
-	   {
-          "Action": "EditData",
-          "Target": "Data/Mail",
-		  "Entries": {
-			"summer_10": "Dear @,^Tomorrow we're all gathering at the beach for the annual Pelican Town Beachside Potluck.^^The highlight of the event is the communal soup. Make sure you bring something good to contribute!^The governor himself is attending the event, so make sure you're on your best behavior.^Come to the beach sometime between 9 AM and 2 PM.^   -Mayor Lewis[#]Luau Notice"
-		  }
-       }
-    ]
+	"Format": "1.23.0",
+	"Changes": [
+		// Change to the letter
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			"Entries": {
+				"summer_10": "Dear @,^Tomorrow we're all gathering at the beach for the annual Pelican Town Beachside Potluck.^^The highlight of the event is the communal soup. Make sure you bring something good to contribute!^The governor himself is attending the event, so make sure you're on your best behavior.^Come to the beach sometime between 9 AM and 2 PM.^   -Mayor Lewis[#]Luau Notice" // could I change the name of the luau notice?
+			}
+		},
+		// Change to calendar festival name
+		{
+			"Action": "EditData",
+			"Target": "Data/Festival/FestivalDates",
+			"Entries": {
+				"summer11": "Beachside Potluck",
+			}
+		}
+	]
 }
