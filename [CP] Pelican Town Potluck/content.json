@@ -152,15 +152,39 @@
 				"Height": 32
 			},
 		},
-		// Decoration Flower Arrangements
+		// Decoration Flower Arrangements (at festival)
 		{
-			"LogName": "Pelican Town Potluck Flower Decorations",
+			"LogName": "Pelican Town Potluck Flower Decorations (Festival)",
 			"Action": "EditImage",
 			"Target": "Maps/Festivals",
 			"FromFile": "assets/Flower_decorations.png",
 			"ToArea": {
 				"X": 128,
 				"Y": 96,
+				"Width": 16,
+				"Height": 48
+			},
+		},
+		// Furniture rename (Summer Flower Tower)
+		{
+			"LogName": "Pelican Town Potluck Furniture Rename Summer Flower Tower",
+			"Action": "EditData",
+			"Target": "Data/Furniture",
+			"Fields": {
+				"1295":{
+					"0": "Summer Flower Tower",
+				}
+			}
+		},
+		// Furniture retexture
+		{
+			"LogName": "Pelican Town Potluck Furniture Retexture Summer Flower Tower",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Furniture",
+			"FromFile": "assets/Flower_decorations.png",
+			"ToArea": {
+				"X": 224,
+				"Y": 640,
 				"Width": 16,
 				"Height": 48
 			},
