@@ -117,7 +117,7 @@
 			"LogName": "Pelican Town Potluck Blanket Middle",
 			"Action": "EditImage",
 			"Target": "Maps/Festivals",
-			"FromFile": "Potluck_Art/Blanket_middle.png",
+			"FromFile": "assets/Blanket_middle.png",
 			"ToArea": {
 				"X": 96,
 				"Y": 112,
@@ -130,7 +130,7 @@
 			"LogName": "Pelican Town Potluck Blanket Edges",
 			"Action": "EditImage",
 			"Target": "Maps/Festivals",
-			"FromFile": "Potluck_Art/Blanket_edges.png",
+			"FromFile": "assets/Blanket_edges.png",
 			"PatchMode": "Overlay",
 			"ToArea": {
 				"X": 48,
@@ -144,7 +144,7 @@
 			"LogName": "Pelican Town Potluck Lantern",
 			"Action": "EditImage",
 			"Target": "Maps/Festivals",
-			"FromFile": "Potluck_Art/Torch.png",
+			"FromFile": "assets/Torch.png",
 			"ToArea": {
 				"X": 32,
 				"Y": 128,
@@ -157,7 +157,7 @@
 			"LogName": "Pelican Town Potluck Flower Decorations",
 			"Action": "EditImage",
 			"Target": "Maps/Festivals",
-			"FromFile": "Potluck_Art/Flower_decorations.png",
+			"FromFile": "assets/Flower_decorations.png",
 			"ToArea": {
 				"X": 128,
 				"Y": 96,
