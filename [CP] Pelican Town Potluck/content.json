@@ -110,6 +110,19 @@
 			"Entries": {
 				"summer_10": "I might fast until the Potluck tomorrow. I need the ol' bag to be empty so I can fill it with piping hot soup.$h",
 			}
-		}
+		},
+		// Immersive Festival Dialog Compatibility Patch
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"Entries": {
+				"Elliott": "The smell of food woke me up this morning.$h#$b#I had forgotten all about the Potluck!$n#$b#It's a good thing I remembered to close my curtains last night.$l",
+				"When": {
+					"HasMod": "tangeriney.FestivalDialogue",
+					"Language": "en",
+					"Hearts:Elliott": "6, 7, 8, 9, 10"
+				}
+			}
+		},
 	]
 }
