@@ -131,7 +131,7 @@
 		//
 		// Ridgeside Village (RSV) Compatibility Patches
 		//
-		// RSV Festival Day Dialog Ricahrd and Kenneth
+		// RSV Festival Day Dialog Richard and Kenneth
 		{
 			"LogName": "Pelican Town Potluck RSV Festival Day Dialog Richard and Kenneth",
 			"Action": "EditData",
