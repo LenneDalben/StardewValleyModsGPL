@@ -33,7 +33,7 @@ K.S.P Forever on the Diverse Stardew (DSV) Discord server, who suggested the mod
 
 existentialdread on the DSV Discord server, who provided the mod name!
 
-Airyn on the DSV Discord server, who provided art assets for decorations, encouragement, ideas on compatibility patches!
+Airyn on the DSV Discord server, who provided art assets for decorations, Ysabelle's summer 1 line, encouragement, and ideas on compatibility patches!
 
 The DSV server as a whole, folks there have the best mod suggestions! <3
 
