@@ -3,7 +3,8 @@ This mod changes references to the Luau in mail, calendar, and dialog to say Pot
 
 
 ||Background||
-There was discussion on the Diverse Stardew (DSV) Discord server about how the Luau could be called something else. K.S.P Forever suggested calling it a Beachside Potluck, which stuck with me for several days before I decided to just search for the word Luau in the strings and dialog. Airyn then mentioned decoration changes, and after several tests, existentialdread recommended Pelican Town Potluck for the name, which has a nice ring to it!
+
+There was discussion on the Diverse Stardew (DSV) Discord server about how the Luau could be called something else. K.S.P Forever suggested calling it a Beachside Potluck, which stuck with me for several days before I decided to just search for the word Luau in the strings and dialog. Airyn then mentioned decoration changes, and after several tests, existentialdread recommended Pelican Town Potluck for the name, which has a nice ring to it! There are preview images in the download, but they're quite large so they're listed at the bottom of the description. :)
 
 
 ||Compatibility||
@@ -37,3 +38,13 @@ Airyn on the DSV Discord server, who provided art assets for decorations, encour
 The DSV server as a whole, folks there have the best mod suggestions! <3
 
 Pathoschild, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible.
+
+||Preview Images||
+
+![Calendar Change](https://github.com/LenneDalben/StardewValleyModsGPL/blob/main/%5BCP%5D%20Pelican%20Town%20Potluck/Preview%20Images/Calendar%20Change.png)
+
+![Mail Change](https://github.com/LenneDalben/StardewValleyModsGPL/blob/main/%5BCP%5D%20Pelican%20Town%20Potluck/Preview%20Images/Mail%20Change.png)
+
+![Lewis Dialog Change](https://github.com/LenneDalben/StardewValleyModsGPL/blob/main/%5BCP%5D%20Pelican%20Town%20Potluck/Preview%20Images/Lewis%20Dialog%20Change.png)
+
+![Decorations Changes](https://github.com/LenneDalben/StardewValleyModsGPL/blob/main/%5BCP%5D%20Pelican%20Town%20Potluck/Preview%20Images/Decoration%20Changes.png)
