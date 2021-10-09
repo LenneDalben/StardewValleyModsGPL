@@ -9,5 +9,11 @@
    "ContentPackFor": {
        "UniqueID": "Pathoschild.ContentPatcher",
 	   "MinimumVersion": "1.23.0"
-    }   
+    },
+    "Dependencies": [
+        {
+            "UniqueID": "tangeriney.FestivalDialogue",
+            "IsRequired": false
+        }
+    ]
 }
