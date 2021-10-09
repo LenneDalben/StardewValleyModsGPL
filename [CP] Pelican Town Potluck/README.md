@@ -45,10 +45,10 @@ Pathoschild, author of SMAPI and Content Patcher, without them, this mod wouldn'
 
 ||Preview Images||
 
-![Calendar Change](https://github.com/LenneDalben/StardewValleyModsGPL/blob/main/%5BCP%5D%20Pelican%20Town%20Potluck/Preview%20Images/Calendar%20Change.png)
+![Calendar Change](Preview%20Images/Calendar%20Change.png)
 
-![Mail Change](https://github.com/LenneDalben/StardewValleyModsGPL/blob/main/%5BCP%5D%20Pelican%20Town%20Potluck/Preview%20Images/Mail%20Change.png)
+![Mail Change](Preview%20Images/Mail%20Change.png)
 
-![Lewis Dialog Change](https://github.com/LenneDalben/StardewValleyModsGPL/blob/main/%5BCP%5D%20Pelican%20Town%20Potluck/Preview%20Images/Lewis%20Dialog%20Change.png)
+![Lewis Dialog Change](Preview%20Images/Lewis%20Dialog%20Change.png)
 
-![Decorations Changes](https://github.com/LenneDalben/StardewValleyModsGPL/blob/main/%5BCP%5D%20Pelican%20Town%20Potluck/Preview%20Images/Decoration%20Changes.png)
+![Decorations Changes](Preview%20Images/Decoration%20Changes.png)
