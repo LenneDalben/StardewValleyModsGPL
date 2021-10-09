@@ -1,6 +1,6 @@
 {
    "Name": "[CP] Pelican Town Potluck",
-   "Author": "LenneDalben (code, dialog, text changes) and Airyn (art assets)",
+   "Author": "LenneDalben (dialog and text changes) and Airyn (art assets and associated code)",
    "Description": "Changes references from Luau to Potluck.",
    "Version": "1.0.0",
    "UniqueID": "LenneDalben.PelicanTownPotluck",
