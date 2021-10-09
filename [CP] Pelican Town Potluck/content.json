@@ -111,10 +111,65 @@
 				"summer_10": "I might fast until the Potluck tomorrow. I need the ol' bag to be empty so I can fill it with piping hot soup.$h",
 			}
 		},
+		// Decorations changes (provided  by Airyn!)
+		// Decoration Blanket Middle
+		{
+			"LogName": "Pelican Town Potluck Blanket Middle",
+			"Action": "EditImage",
+			"Target": "Maps/Festivals",
+			"FromFile": "Potluck_Art/Blanket_middle.png",
+			"ToArea": {
+				"X": 96,
+				"Y": 112,
+				"Width": 32,
+				"Height": 32
+			},
+		},
+		// Decoration Blanket Edges
+		{
+			"LogName": "Pelican Town Potluck Blanket Edges",
+			"Action": "EditImage",
+			"Target": "Maps/Festivals",
+			"FromFile": "Potluck_Art/Blanket_edges.png",
+			"PatchMode": "Overlay",
+			"ToArea": {
+				"X": 48,
+				"Y": 112,
+				"Width": 48,
+				"Height": 48
+			},
+		},
+		// Decoration Lantern
+		{
+			"LogName": "Pelican Town Potluck Lantern",
+			"Action": "EditImage",
+			"Target": "Maps/Festivals",
+			"FromFile": "Potluck_Art/Torch.png",
+			"ToArea": {
+				"X": 32,
+				"Y": 128,
+				"Width": 16,
+				"Height": 32
+			},
+		},
+		// Decoration Flower Arrangements
+		{
+			"LogName": "Pelican Town Potluck Flower Decorations",
+			"Action": "EditImage",
+			"Target": "Maps/Festivals",
+			"FromFile": "Potluck_Art/Flower_decorations.png",
+			"ToArea": {
+				"X": 128,
+				"Y": 96,
+				"Width": 16,
+				"Height": 48
+			},
+		},
 		//
 		// Compatibility Patches
 		//
 		// Immersive Festival Dialog Compatibility Patch
+		//
 		{
 			"LogName": "Pelican Town Potluck Immersive Festival Dialog Elliott Patch",
 			"Action": "EditData",
