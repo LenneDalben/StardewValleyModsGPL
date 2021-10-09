@@ -1,5 +1,5 @@
-# (CP) Beachside Potluck
-This mod changes references to the Luau in mail and dialog to say Potluck.
+# (CP) Pelican Town Potluck
+This mod changes references to the Luau in mail, calendar, and dialog to say Potluck.
 
 
 Installation:
@@ -14,5 +14,7 @@ Delete the folder from this mod.
 Shout Outs
 
 K.S.P Forever on the Diverse Stardew (DSV) Discord server, who suggested the mod!
+
+existentialdread on the Diverse Stardew (DSV) Discord server, who provided the mod name!
 
 Pathoschild, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible.
