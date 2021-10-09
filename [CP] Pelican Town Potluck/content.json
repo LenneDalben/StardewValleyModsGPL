@@ -180,10 +180,10 @@
 		{
 			"LogName": "Pelican Town Potluck Furniture Retexture Summer Flower Tower",
 			"Action": "EditImage",
-			"Target": "Tilesheets/Furniture",
+			"Target": "TileSheets/furniture",
 			"FromFile": "assets/Flower_decorations.png",
 			"ToArea": {
-				"X": 224,
+				"X": 240,
 				"Y": 640,
 				"Width": 16,
 				"Height": 48
