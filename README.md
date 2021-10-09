@@ -20,6 +20,10 @@ Craft the following machines with fewer resources: oil maker, bee house, preserv
 
 The stable is easier to build, with 2 options to choose from.
 
+<a href="https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/%5BCP%5D%20Pelican%20Town%20Potluck">(CP) Pelican Town Potluck</a>
+
+The Luau is renamed to Pelican Town Potluck, with corresponding mail, calendar, dialog and text changes, and different decorations provided by Airyn.
+
 
 <a href="https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/%5BCP%5D%20Townies%20Need%20Food!">(CP) Townies Need Food</a>
 
