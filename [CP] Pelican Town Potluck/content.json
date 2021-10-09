@@ -140,7 +140,7 @@
 				"Richard": "It's humbling to consider how old a tradition the Pelican Town Potluck is for the valley.#$b#It came before me, and will be here long after I'm gone.#$e#Anytime we can all come together is truly a special time.$h", // "Festivals.Luau.Richard" is the key
 				"Kenneth_spouse": "I offered to help, but I think Ian likes carrying the Potluck pot down here. #$b#Big guy gets a workout AND a feast! $h#$e#Who am I to get in the way of a man and his work?$h", // "Festivals.Luau.Kenneth_spouse" is the key
 				"When": {
-					"HasMod": "Rafseazz.RSVCP"
+					"HasMod": "Rafseazz.RSVCP, Rafseazz.RidgesideMobileCP"
 				}
 			}
 		},
@@ -152,7 +152,7 @@
 			"Entries": {
 				"summer_10": "Every summer, the Pelican Town Potluck festival is the one event I really get excited about!$h#$b#I can't wait to show off my farm's crops tomorrow!$l", // "Alissa.Dialogue.summer_10" is the key
 				"When": {
-					"HasMod": "Rafseazz.RSVCP"
+					"HasMod": "Rafseazz.RSVCP, Rafseazz.RidgesideMobileCP"
 				}
 			}
 		},
@@ -164,7 +164,7 @@
 			"Entries": {
 				"summer_10": "Have you made your preparations for the Pelican Town Potluck?#$b#You better bring something good if you want to impress the Governor.$7", // "Maddie.Dialogue.summer_10" is the key
 				"When": {
-					"HasMod": "Rafseazz.RSVCP"
+					"HasMod": "Rafseazz.RSVCP, Rafseazz.RidgesideMobileCP"
 				}
 			}
 		},
@@ -176,7 +176,7 @@
 			"Entries": {
 				"summer_10": "Potluck day!#$b#Soup day!$u#$e#Yummy food is coming our way!$h", // "Trinnie.Dialogue.summer_10" is the key
 				"When": {
-					"HasMod": "Rafseazz.RSVCP"
+					"HasMod": "Rafseazz.RSVCP, Rafseazz.RidgesideMobileCP"
 				}
 			}
 		},
@@ -188,7 +188,7 @@
 			"Entries": {
 				"summer_10": "I always attend the Pelican Town Potluck. I love the soup!$h#$b#I also like the spare change that purple balloon has.#$b#He should visit more often.$h", // "Undreya.Dialogue.summer_10" is the key
 				"When": {
-					"HasMod": "Rafseazz.RSVCP"
+					"HasMod": "Rafseazz.RSVCP, Rafseazz.RidgesideMobileCP"
 				}
 			}
 		},
@@ -200,43 +200,43 @@
 			"Entries": {
 				"summer_10": "My granddad is quite excited for the festival tomorrow.#$b#He enjoys the Pelican Town Potluck so much!$h#$e#I think the governor is more excited than anyone else, because when the soup is good, it's really good!$h", // "Ysabelle.Dialogue.summer_10" is the key
 				"When": {
-					"HasMod": "Rafseazz.RSVCP"
+					"HasMod": "Rafseazz.RSVCP, Rafseazz.RidgesideMobileCP"
 				}
 			}
 		},
 		// RSV Corine Dialog
 		{
-			"LogName": "Pelican Town Potluck RSV Corine Dialog",
+			"LogName": "Pelican Town Potluck RSV Corine Marriage Dialog",
 			"Action": "EditData",
-			"Target": "Characters/Dialogue/Corine",
+			"Target": "Characters/Dialogue/MarriageDialogueCorine",
 			"Entries": {
 				"summer_10": "Papa is always so talkative about what he'll bring for the Pelican Town Potluck tomorrow.#$e#He won't admit it, but he really is excited.$h", // "Corine.MarriageDialogue.summer_10" is the key
 				"When": {
-					"HasMod": "Rafseazz.RSVCP"
+					"HasMod": "Rafseazz.RSVCP, Rafseazz.RidgesideMobileCP"
 				}
 			}
 		},
 		// RSV Jeric Dialog
 		{
-			"LogName": "Pelican Town Potluck RSV Jeric Dialog",
+			"LogName": "Pelican Town Potluck RSV Jeric Marriage Dialog",
 			"Action": "EditData",
-			"Target": "Characters/Dialogue/Jeric",
+			"Target": "Characters/Dialogue/MarriageDialogueJeric",
 			"Entries": {
 				"summer_10": "I need your help picking something out for the Pelican Town Potluck tomorrow, @.#$b#Gotta pick the finest, every time.$7", // "Jeric.MarriageDialogue.summer_10" is the key
 				"When": {
-					"HasMod": "Rafseazz.RSVCP"
+					"HasMod": "Rafseazz.RSVCP, Rafseazz.RidgesideMobileCP"
 				}
 			}
 		},
 		// RSV Kenneth Dialog
 		{
-			"LogName": "Pelican Town Potluck RSV Kenneth Dialog",
+			"LogName": "Pelican Town Potluck RSV Kenneth Marriage Dialog",
 			"Action": "EditData",
-			"Target": "Characters/Dialogue/Kenneth",
+			"Target": "Characters/Dialogue/MarriageDialogueKenneth",
 			"Entries": {
 				"summer_10": "I've been working with Maru to create a machine to help move the Potluck pot for tomorrow.#$b#Poor Ian always gets so worn out carrying the thing he passes out in the sand after we eat, ha ha!$h", // "Kenneth.MarriageDialogue.summer_10" is the key
 				"When": {
-					"HasMod": "Rafseazz.RSVCP"
+					"HasMod": "Rafseazz.RSVCP, Rafseazz.RidgesideMobileCP"
 				}
 			}
 		},
