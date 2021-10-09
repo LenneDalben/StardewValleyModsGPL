@@ -1,5 +1,5 @@
 # (CP) Pelican Town Potluck
-This mod changes references to the Luau in mail, calendar, and dialog to say Potluck.
+This mod changes references to the Luau in mail, calendar, and dialog to say Potluck instead.
 
 
 Installation:
