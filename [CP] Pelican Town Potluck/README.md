@@ -52,3 +52,5 @@ Pathoschild, author of SMAPI and Content Patcher, without them, this mod wouldn'
 ![Lewis Dialog Change](Preview%20Images/Lewis%20Dialog%20Change.png)
 
 ![Decorations Changes](Preview%20Images/Decoration%20Changes.png)
+
+![Furniture Change](Preview%20Images/Furniture%20Change.png)
