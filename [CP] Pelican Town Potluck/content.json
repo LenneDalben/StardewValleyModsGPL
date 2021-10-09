@@ -253,6 +253,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Ysabelle",
 			"Entries": {
+				"summer_1": "I'm looking forward to this season.#$b#The warm beach and the dresses remind me of dancing as a little girl in summer shows.$h", // "Ysabelle.Dialogue.summer_1" is the key. Airyn recommended this line!
 				"summer_10": "My granddad is quite excited for the festival tomorrow.#$b#He enjoys the Pelican Town Potluck so much!$h#$e#I think the governor is more excited than anyone else, because when the soup is good, it's really good!$h", // "Ysabelle.Dialogue.summer_10" is the key
 			},
 			"When": {
