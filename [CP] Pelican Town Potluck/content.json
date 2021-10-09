@@ -40,7 +40,7 @@
 				"Utility.cs.5837": "Pelican Town Potluck Festival",
 			}
 		},
-		// Changes to name, governor reactions and Elliott dialog
+		// Changes to festival name, governor reactions and Elliott dialog the day of
 		{
 			"LogName": "Pelican Town Potluck Name, Governor Reactions and Elliott Dialog",
 			"Action": "EditData",
