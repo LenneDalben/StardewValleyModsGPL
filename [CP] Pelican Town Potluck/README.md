@@ -9,7 +9,7 @@ There was discussion on the Diverse Stardew (DSV) Discord server about how the L
 
 ||Compatibility||
 
-Pelican Town Potluck has built-in compatibility with <a href="https://www.nexusmods.com/stardewvalley/mods/2612">Immersive Festival Dialog by tangeriney</a> and <a href="https://www.nexusmods.com/stardewvalley/mods/7286">Ridgeside Valley (RSV)</a>. For RSV, the compatibility applies to the latest version as well as the Android version!
+Pelican Town Potluck has built-in compatibility with <a href="https://www.nexusmods.com/stardewvalley/mods/2612">Immersive Festival Dialog by tangeriney</a> and <a href="https://www.nexusmods.com/stardewvalley/mods/7286">Ridgeside Village (RSV)</a>. For RSV, the compatibility applies to the latest version as well as the Android version!
 
 If you're interested in adding a compatibility patch for your mod (say you make custom NPCs or dialog mods), it's easy enough to do! I personally searched the RSV and Immersive Festival Dialog mod folders for the word Luau using VS Code to easily see where the word was used. Then I modified the relevant dialog lines in my mod and made sure the Target matched the location of the line. For more informal speech I just used Potluck. For RSV adults, I had them refer to it by the full name, Pelican Town Potluck, since they're from out of town.
 
