@@ -5,23 +5,24 @@ As it says on the tin, with Joja Always Has Seeds, JojaMart will sell seeds all 
 
 There are preview images in the download, but they're quite large so they're listed at the bottom of the description. :)
 
-Compatibility
+||Compatibility||
 
 With  Lore-Friendly Joja Prices you'll see discounted prices for the seeds, before and after becoming a Joja member!
 
 If you use Stardew Valley Expanded (SVE), you don't need this mod. If you use Joja Plans Ahead (or Joja 'May' Plan Ahead), make sure you remove that before installing Joja Always Has Seeds.
 
-Installation:
+||Installation||
 1. Install <a href="https://smapi.io/">SMAPI</a> (version 3.9.0 or higher)
 2. Install <a href="https://www.nexusmods.com/stardewvalley/mods/5005">Shop Tile Framework (STF)</a> (version 1.0.9 or higher)
 3. OPTIONAL: If you'd like to receive the letters, do this step. If you don't want to receive the letters or don't use MFM, ignore this step. Install <a href="https://www.nexusmods.com/stardewvalley/mods/1536">Mail Framework Mod (MFM)</a> (version 1.10.2 or higher)
 4. <a href="https://github.com/LenneDalben/StardewValleyModsGPL/releases/">Download the mod</a> and unzip the mod folders into Stardew Valley/Mods (if you don't want the letters or don't use MFM, delete the folder beginning with [MFM]).
 5. Play the game using SMAPI!
 
-Uninstallation:
+||Uninstallation||
+
 Delete the folders from this mod.
 
-Shout Outs
+||Shout Outs||
 
 Nexus user keepsyou, who requested the mod!
 
