@@ -78,7 +78,7 @@ Pathoschild, author of SMAPI and Content Patcher, without them, this mod wouldn'
 
 ||Preview Images||
 
-![Abigail Sweet and Spicy Order in Journal](Preview%20Images/Abigail%20Sweet%20and%20Spicy%20Order%20in%20Journal%20.png)
+![Abigail Sweet and Spicy Order in Journal](Preview%20Images/Abigail%20Sweet%20and%20Spicy%20Order%20in%20Journal.png)
 
 ![Abigail Sweet and Spicy Order on the Board](Preview%20Images/Abigail%20Sweet%20and%20Spicy%20Order%20on%20the%20Board.png)
 
