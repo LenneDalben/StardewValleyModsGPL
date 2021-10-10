@@ -5,7 +5,7 @@
   "Description": "NPCs in town request cooked meals in the special orders board! By default without friendship requirements. If you have CJB Cheats Menu, Friends Forever, or FriendshipWithoutTalk installed, or you set the config, there are friendship requirements.",
   "UniqueID": "LenneDalben.TowniesNeedFood",
   "MinimumApiVersion": "3.9.0",
-  "UpdateKeys": [ "GitHub:LenneDalben/TowniesNeedFood" ],
+  "UpdateKeys": [ "ModDrop:1032940" ],
   "ContentPackFor": {
     "UniqueID": "Pathoschild.ContentPatcher",
     "MinimumVersion": "1.20.0"
