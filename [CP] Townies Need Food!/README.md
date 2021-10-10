@@ -1,6 +1,6 @@
 # [CP] Townies Need Food!
 
-With Townies Need Food (TNF), villagers will ask for cooked meals you can make in the kitchen, and reward you with gold and friendship. You'll have 7 days to complete the special orders. For the special orders to show up on the special orders board, you must have a kitchen, either from the first house upgrade, or from one of the mods listed in the Compatibility section. There are also milestone requirements (for orders involving the island recipes). By default the friendship requirements are turned off, but you can manually turn those on in the config. The friendship requirements are also automatically turned on if you have Friends Forever or CJB Cheats Menu installed. For the full specifics, refer to the spoiler guide.
+With Townies Need Food (TNF), villagers will ask for cooked meals you can make in the kitchen, and reward you with gold and friendship. You'll have 7 days to complete the special orders. For the special orders to show up on the special orders board, you must have a kitchen, either from the first house upgrade, or from one of the mods listed in the Compatibility section. There are also milestone requirements (for orders involving the island recipes). By default the friendship requirements are turned off, but you can manually turn those on in the config. The friendship requirements are also automatically turned on if you have Friends Forever, FriendshipWithoutTalk, or CJB Cheats Menu installed. For the full specifics, refer to the spoiler guide.
 
 The NPCs request every vanilla recipe (including from the 1.5 update), with the exceptions of: Strange Bun (because no one in town likes it), Pale Broth and Algae Soup (I've no good reason for excluding these, I just did :I ). You may notice that the NPCs ask for recipes they enjoy, hint hint~ The villagers only ask for vanilla recipes (base game), no PPJA / JA recipes.
 
@@ -15,7 +15,7 @@ FriendshipConfig: If you don't use a mod to stop friendship decay, but you still
 
 With regards to the "sparseness" of the orders: the game picks from a pool of the available orders, so if you'd prefer to get through some of the vanilla special orders first, install this mod later in your playthrough.
 
-By default, there are no friendship requirements. You can turn them on manually in the config, or by using Friends Forever or CJB Cheats Menu (TNF automatically detects if you have those mods installed). This is because of <a href="https://github.com/Pathoschild/StardewMods/blob/develop/ContentPatcher/docs/author-guide.md#known-limitations">a limitation with the way the game reads modifications to the special orders</a>, if your friendship decays enough that you no longer meet the requirement, you could get a crash. Do not manually turn on the friendship requirements unless you accept the risk.
+By default, there are no friendship requirements. You can turn them on manually in the config, or by using Friends Forever, FriendshipWithoutTalk, or CJB Cheats Menu (TNF automatically detects if you have those mods installed). This is because of <a href="https://github.com/Pathoschild/StardewMods/blob/develop/ContentPatcher/docs/author-guide.md#known-limitations">a limitation with the way the game reads modifications to the special orders</a>, if your friendship decays enough that you no longer meet the requirement, you could get a crash. Do not manually turn on the friendship requirements unless you accept the risk.
 
 Note that the mod does not come packaged with a config file. The config file will be generated after you run the game with the mod installed at least once.
 
@@ -27,7 +27,7 @@ Froststar11's Tiny Kitchen
 
 Kitchen Nook for 1st Farmhouse by Allayna
 
-BS New Farmhouse Design and Kitchen Corner﻿ by BURAKMESE
+BS New Farmhouse Design and Kitchen Corner by BURAKMESE
 
 Seasonal Garden Farmhouse V2 by DustBeauty
 
@@ -35,7 +35,7 @@ CCS Kitchen Station Set by jina2ya
 
 Minerva's Bigger Farmhouses by minervamaga
 
-1.5 FarmHouse1, 2 with Bathroom by muscat (CP version)
+One Room Farmhouse by muscat (CP version)
 
 Cozier Default Farmhouses by DexMods
 
