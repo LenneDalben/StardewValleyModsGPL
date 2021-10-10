@@ -1,11 +1,11 @@
 {
   "Name": "[STF] Joja Always Has Seeds",
   "Author": "LenneDalben",
-  "Version": "1.0.5",
+  "Version": "1.0.6",
   "Description": "Exactly what it says on the tin - JojaMart sells seeds all year round.",
   "UniqueID": "LenneDalben.JojaAlwaysHasSeeds",
   "MinimumApiVersion": "3.6.1",
-  "UpdateKeys": [ "GitHub:LenneDalben/Joja Always Has Seeds" ],
+  "UpdateKeys": [ "GitHub:LenneDalben/JojaAlwaysHasSeeds" ],
   "ContentPackFor": {
     "UniqueID": "Cherry.ShopTileFramework",
     "MinimumVersion": "1.0.9"
