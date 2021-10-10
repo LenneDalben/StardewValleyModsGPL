@@ -5,7 +5,7 @@
    "Version": "1.1.0",
    "UniqueID": "LenneDalben.PelicanTownPotluck",
    "MinimumApiVersion": "3.4.0",
-   "UpdateKeys": [ "GitHub:LenneDalben/[CP] Pelican Town Potluck" ],
+   "UpdateKeys": [ "GitHub:LenneDalben/PelicanTownPotluck" ],
    "ContentPackFor": {
        "UniqueID": "Pathoschild.ContentPatcher",
 	   "MinimumVersion": "1.19.0"
