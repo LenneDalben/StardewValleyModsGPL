@@ -11,9 +11,11 @@ There are preview images in the download, but they're quite large so they're lis
 ||Configuration||
 
 Config Options
-Repeatable: true or false, default is true
-IncludeIslandContent: true or false, default is true (toggle special orders requiring recipes from the island)
-FriendshipConfig: If you don't use a mod to stop friendship decay, but you still want to toggle the friendship requirements, set this to true. Default is false. If you have Friends Forever or CJB Cheats Menu installed, TNF will auto-detect it and apply this setting.
+* Repeatable: true or false, default is true
+
+* IncludeIslandContent: true or false, default is true (toggle special orders requiring recipes from the island)
+
+* FriendshipConfig: If you don't use a mod to stop friendship decay, but you still want to toggle the friendship requirements, set this to true. Default is false. If you have Friends Forever or CJB Cheats Menu installed, TNF will auto-detect it and apply this setting.
 
 With regards to the "sparseness" of the orders: the game picks from a pool of the available orders, so if you'd prefer to get through some of the vanilla special orders first, install this mod later in your playthrough.
 
