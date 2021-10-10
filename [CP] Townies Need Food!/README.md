@@ -6,6 +6,8 @@ The NPCs request every vanilla recipe (including from the 1.5 update), with the 
 
 Korean translation courtesy of jina2ya (Kaya).
 
+There are preview images in the download, but they're quite large so they're listed at the bottom of the description. :)
+
 ||Configuration||
 
 Config Options
@@ -73,3 +75,13 @@ Gervig91, for helping me test the 2.0.0 update.
 Thanks very much to jina2ya (Kaya) for the Korean translation!
 
 Pathoschild, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible either.
+
+||Preview Images||
+
+![Abigail Sweet and Spicy Order in Journal](Preview%20Images/Abigail%20Sweet%20and%20Spicy%20Order%20in%20Journal%20.png)
+
+![Abigail Sweet and Spicy Order on the Board](Preview%20Images/Abigail%20Sweet%20and%20Spicy%20Order%20on%20the%20Board.png)
+
+![Abigail Sweet and Spicy Order Reaction Text](Preview%20Images/Abigail%20Sweet%20and%20Spicy%20Order%20Reaction%20Text.png)
+
+![Abigail Sweet and Spicy Order Reward in Journal](Preview%20Images/Abigail%20Sweet%20and%20Spicy%20Order%20Reward%20in%20Journal.png)
