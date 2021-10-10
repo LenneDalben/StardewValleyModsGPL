@@ -39,7 +39,7 @@ Everyone in #making-mods in the Stardew Valley Discord, who are a helpful and fr
 
 ||Preview Images||
 
-![Joja Always Has Seeds Letter](Preview%20Images/Joja%20Always%20Has%20Seeds%20Letter.png)
+![Joja Always Has Seeds Letter](Preview%20Images/Joja%20Always%20Has%20Seeds%20Letter.jpg)
 
 ![Joja Always Has Seeds Stock 1](Preview%20Images/Joja%20Always%20Has%20Seeds%20Stock%201.png)
 
