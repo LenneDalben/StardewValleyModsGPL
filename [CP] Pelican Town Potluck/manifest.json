@@ -5,7 +5,7 @@
    "Version": "1.1.0",
    "UniqueID": "LenneDalben.PelicanTownPotluck",
    "MinimumApiVersion": "3.4.0",
-   "UpdateKeys": [ "GitHub:LenneDalben/PelicanTownPotluck" ],
+   "UpdateKeys": [ "ModDrop:1032927" ],
    "ContentPackFor": {
        "UniqueID": "Pathoschild.ContentPatcher",
 	   "MinimumVersion": "1.19.0"
