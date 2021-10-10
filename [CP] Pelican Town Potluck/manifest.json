@@ -23,5 +23,9 @@
             "UniqueID": "Rafseazz.RidgesideMobileCP",
             "IsRequired": false
         }
+        {
+            "UniqueID": "gizzymo.canonfriendlyexpansion",
+            "IsRequired": false
+        }
     ]
 }
