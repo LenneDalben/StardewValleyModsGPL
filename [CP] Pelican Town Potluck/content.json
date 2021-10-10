@@ -171,7 +171,7 @@
 			"Action": "EditData",
 			"Target": "Data/Furniture",
 			"Fields": {
-				"1295":{
+				"1295": {
 					"0": "Summer Flower Tower",
 				}
 			}
@@ -318,6 +318,167 @@
 			},
 			"When": {
 				"HasMod": "Rafseazz.RSVCP, Rafseazz.RidgesideMobileCP"
+			}
+		},
+		//
+		// Canon Friendly Dialog Expansion (CFDE) Compatibility Patches
+		//
+		// CFDE Abigail Dialog
+		{
+			"LogName": "Pelican Town Potluck CFDE Abigail Dialog",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries": {
+				"summer_10": "Everyone's excited for the Potluck tomorrow. Maybe a little nervous, too, considering the Governor will be here.",
+				"summer_10_2": "Everyone's excited for the Potluck tomorrow. Maybe a little nervous, too, considering the Governor will be here.",
+			},
+			"When": {
+				"HasMod": "gizzymo.canonfriendlyexpansion"
+			}
+		},
+		// CFDE Emily Dialog
+		{
+			"LogName": "Pelican Town Potluck CFDE Emily Dialog",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Emily",
+			"Entries": {
+				"summer_10": "Hey, look for me tomorrow at the Potluck. I'll greet you, but probably not in the way you're used to.",
+				"summer_10_2": "Hey, look for me tomorrow at the Potluck. I'll greet you, but probably not in the way you're used to.",
+			},
+			"When": {
+				"HasMod": "gizzymo.canonfriendlyexpansion"
+			}
+		},
+		// CFDE Evelyn Dialog
+		{
+			"LogName": "Pelican Town Potluck CFDE Evelyn Dialog",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Evelyn",
+			"Entries": {
+				"summer_10": "Mayor Lewis always gets so nervous for the Potluck. Be sure to show him some support.#$e#The best way to do that is simply to bring something delicious for the soup.",
+				"summer_10_2": "Mayor Lewis always gets so nervous for the Potluck. Be sure to show him some support.#$e#The best way to do that is simply to bring something delicious for the soup.",
+			},
+			"When": {
+				"HasMod": "gizzymo.canonfriendlyexpansion"
+			}
+		},
+		// CFDE Gus Dialog
+		{
+			"LogName": "Pelican Town Potluck CFDE Gus Dialog",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gus",
+			"Entries": {
+				"summer_10": "I've got some good dishes prepped for the Potluck tomorrow, but I try to steer clear of the communal soup.#$e#It's really a hit-and-miss tradition, and I'd rather play it safe when it comes to my reputation.$s",
+				"summer_10_2": "I've got some good dishes prepped for the Potluck tomorrow, but I try to steer clear of the communal soup.#$e#It's really a hit-and-miss tradition, and I'd rather play it safe when it comes to my reputation.$s",
+			},
+			"When": {
+				"HasMod": "gizzymo.canonfriendlyexpansion"
+			}
+		},
+		// CFDE Haley Dialog
+		{
+			"LogName": "Pelican Town Potluck CFDE Haley Dialog",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"Entries": {
+				"summer_12": "Did you see Emily yesterday at the Potluck? So ridiculous.$11",
+				"summer_12_2": "Did you see Emily yesterday at the Potluck? So ridiculous.$11",
+			},
+			"When": {
+				"HasMod": "gizzymo.canonfriendlyexpansion"
+			}
+		},
+		// CFDE Haley Marriage Dialog
+		{
+			"LogName": "Pelican Town Potluck CFDE Haley Marriage Dialog",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueHaley",
+			"Entries": {
+				"summer_12": "I like dancing, but when Emily does her thing at the Potluck, it's actually more fun for me just to watch.",
+			},
+			"When": {
+				"HasMod": "gizzymo.canonfriendlyexpansion"
+			}
+		},
+		// CFDE Harvey Dialog
+		{
+			"LogName": "Pelican Town Potluck CFDE Harvey Dialog",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"Entries": {
+				"summer_10": "I really hope nobody gets sick from the communal soup at tomorrow's Potluck.#$e#Potentially, it's a disaster waiting to happen. But this town sure loves its traditions.",
+				"summer_10_2": "I really hope nobody gets sick from the communal soup at tomorrow's Potluck.#$e#Potentially, it's a disaster waiting to happen. But this town sure loves its traditions.",
+			},
+			"When": {
+				"HasMod": "gizzymo.canonfriendlyexpansion"
+			}
+		},
+		// CFDE Lewis Dialog
+		{
+			"LogName": "Pelican Town Potluck CFDE Lewis Dialog",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Lewis",
+			"Entries": {
+				"summer_10": "I didn't sleep much last night. The Potluck is always the most stressful festival of the year for me.#$e#Don't let that get in the way of you having a good time, though!$h",
+				"summer_28": "I think tonight's festival is my favorite because I don't have to worry about a thing. The moonlight jellies do all the work for me!$h#$e#It's a nice change of pace after the Potluck earlier this month.",
+				"summer_28_2": "I think tonight's festival is my favorite because I don't have to worry about a thing. The moonlight jellies do all the work for me!$h#$e#It's a nice change of pace after the Potluck earlier this month.",
+			},
+			"When": {
+				"HasMod": "gizzymo.canonfriendlyexpansion"
+			}
+		},
+		// CFDE Linus Dialog
+		{
+			"LogName": "Pelican Town Potluck CFDE Linus Dialog",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Linus",
+			"Entries": {
+				"summer_10": "I think I might take a risk tomorrow at the Potluck and share a little of my cooking.",
+				"summer_10_2": "I think I might take a risk tomorrow at the Potluck and share a little of my cooking.",
+			},
+			"When": {
+				"HasMod": "gizzymo.canonfriendlyexpansion"
+			}
+		},
+		// CFDE Penny Dialog
+		{
+			"LogName": "Pelican Town Potluck CFDE Penny Dialog",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Penny",
+			"Entries": {
+				"summer_10": "Mmm... I can already almost taste the food at tomorrow's Potluck.#$e#I just hope no one ruins the soup this year...$a#$e#That's one reason why I don't hang out with Sam as much as I used to.$a",
+				"summer_10_2": "Mmm... I can already almost taste the food at tomorrow's Potluck.#$e#I just hope no one ruins the soup this year...$a#$e#That's one reason why I don't hang out with Sam as much as I used to.$a",
+			},
+			"When": {
+				"HasMod": "gizzymo.canonfriendlyexpansion"
+			}
+		},
+		// CFDE Year 2 Festival George and Elliott Dialog
+		{
+			"LogName": "Pelican Town Potluck CFDE Year 2 Festival George and Elliott Dialog",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"Entries": {
+				"George": "I liked the Potluck better, back when we didn't have those big electronic speakers ruining the atmosphere of the beach.#$e#This was... oh, twenty, twenty-five years ago.",
+				"Elliott": "I didn't forget about the Potluck this year!$h#$e#Well, Leah reminded me, anyway. That helped.",
+			},
+			"When": {
+				"Year": "2",
+				"HasMod": "gizzymo.canonfriendlyexpansion"
+			}
+		},
+		// CFDE Year 3 Festival Robin and Pierre Dialog
+		{
+			"LogName": "Pelican Town Potluck CFDE Year 3 Festival Robin and Pierre Dialog",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"Entries": {
+				"Robin": "Oh, hi @! It wouldn't be a proper beachside potluck without a little dancing, would it?$h",
+				"Pierre": "If we ever get a storm on Potluck day, we could always host the Governor in my store.#$e#...What? I could make it work.",
+			},
+			"When": {
+				"Year": "3",
+				"HasMod": "gizzymo.canonfriendlyexpansion"
 			}
 		},
 	]
