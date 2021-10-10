@@ -1,5 +1,5 @@
 # (CP) Pelican Town Potluck
-This mod changes references to the Luau in mail, calendar, and dialog to say Potluck instead. Airyn also kindly changed the decorations, specifically the torches, totems, and rugs, so they weren't Luau themed.
+This mod changes references to the Luau in mail, calendar, and dialog to say Potluck instead. Airyn also kindly changed the decorations, specifically the torches, totems, and rugs, so they weren't Luau themed. In version 1.1.0 the decoration changes extend to the totem pole furniture item, which is now the Summer Flower Tower.
 
 
 ||Background||
@@ -10,6 +10,7 @@ There was discussion on the Diverse Stardew (DSV) Discord server about how the L
 ||Compatibility||
 
 Pelican Town Potluck has built-in compatibility with <a href="https://www.nexusmods.com/stardewvalley/mods/2612">Immersive Festival Dialog by tangeriney</a> and <a href="https://www.nexusmods.com/stardewvalley/mods/7286">Ridgeside Village (RSV)</a>. For RSV, the compatibility applies to the latest version as well as the Android version!
+
 In version 1.1.0 there is now built-in compatibility with <a href="https://www.nexusmods.com/stardewvalley/mods/2544">Canon-Friendly Dialogue Expansion (CFDE) by gizzymo</a>!
 
 If you're interested in adding a compatibility patch for your mod (say you make custom NPCs or dialog mods), it's easy enough to do! I personally searched the RSV and Immersive Festival Dialog mod folders for the word Luau using VS Code to easily see where the word was used. Then I modified the relevant dialog lines in my mod and made sure the Target matched the location of the line. For more informal speech I just used Potluck. For RSV adults, I had them refer to it by the full name, Pelican Town Potluck, since they're from out of town.
