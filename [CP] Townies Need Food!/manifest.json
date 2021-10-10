@@ -42,6 +42,10 @@
     {
       "UniqueID": "DexMods.CozierDefaultFarmhouses",
       "IsRequired": false
+    },
+    {
+      "UniqueID": "Isa.Farmhouse",
+      "IsRequired": false
     }
   ]
 }
