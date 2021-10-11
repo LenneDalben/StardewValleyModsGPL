@@ -1,7 +1,7 @@
 ﻿{
-	"Name": "JojaMart Has Extra Stock MFM Component",
+	"Name": "Joja Has Extra Stock MFM Component",
 	"Author": "LenneDalben",
-	"Version": "1.1.2",
+	"Version": "1.1.3",
 	"Description": "Morris mails you a letter advertising that JojaMart's stock has expanded to include basic cooking ingredients, some fishing gear, and coal.",
 	"UniqueID": "LenneDalben.MFM.JojaMartExtraStock",
 	"MinimumApiVersion": "3.4.0",
