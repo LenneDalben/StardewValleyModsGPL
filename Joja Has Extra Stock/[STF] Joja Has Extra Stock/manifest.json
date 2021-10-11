@@ -5,7 +5,7 @@
   "Description": "Joja's inventory is expanded to include basic cooking ingredients, some fishing gear, and coal.",
   "UniqueID": "LenneDalben.JojaExtraStock",
   "MinimumApiVersion": "3.4.0",
-  "UpdateKeys": [ "GitHub:LenneDalben/JojaMart Has Extra Stock" ],
+  "UpdateKeys": [ "ModDrop:1033080" ],
   "ContentPackFor": {
     "UniqueID": "Cherry.ShopTileFramework",
     "MinimumVersion": "1.0.4"
