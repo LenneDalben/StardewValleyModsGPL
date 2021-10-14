@@ -6,17 +6,26 @@ With this mod, the shop owners in the valley (and in the desert) will sell artis
 
 German translation courtesy of Nexus user kupiqo.
 
-Installation:
+
+||Compatibility||
+
+For the machines Marlon sells, there's compatibility built in. If you use Befriend Marlon and Gunther, Make Marlon Real, or Stardew Valley Expanded (SVE), then there is a friendship requirement. If you use none of those mods, there's a different requirement.
+
+
+||Installation||
+
 1. Install <a href="https://smapi.io/">SMAPI</a> (version 3.9.0 or higher)
 2. Install <a href="https://www.nexusmods.com/stardewvalley/mods/5005">Shop Tile Framework (STF)</a> (version 1.0.9 or higher)
 3. OPTIONAL: If you'd like to receive the letters, do this step. If you don't want to receive the letters or don't use MFM, ignore this step. Install <a href="https://www.nexusmods.com/stardewvalley/mods/1536">Mail Framework Mod (MFM)</a> (version 1.10.2 or higher)
 4. <a href="https://github.com/LenneDalben/StardewValleyModsGPL/releases/">Download the mod</a> and unzip the mod folders into Stardew Valley/Mods (if you don't want the letters or don't use MFM, delete the folder beginning with [MFM]).
 5. Play the game using SMAPI!
 
-Uninstallation:
+
+||Uninstallation||
 Delete the folders from this mod.
 
-Shout Outs
+
+||Shout Outs||
 
 Nexus user kupiqo for providing the German translation for the letter.
 
@@ -31,7 +40,7 @@ HUGE thanks to CherryChain, author of Shop Tile Framework (STF), without them, t
 Digus, author of Mail Framework Mod (MFM), without them, the letter component of this mod wouldn't be possible.
 
 
-Equipment available for sale:
+Equipment available for sale (who sells what and for how much):
 
                  Clint
 
