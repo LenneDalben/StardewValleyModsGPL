@@ -1,11 +1,11 @@
 ﻿{
 	"Name": "Artisan Equipment for Sale! MFM Component",
 	"Author": "LenneDalben",
-	"Version": "1.1.1",
+	"Version": "1.1.2",
 	"Description": "Lewis mails you a letter advertising that all the shop owners sell artisan equipment, after you've unlocked it, and if you've earned their friendship.",
 	"UniqueID": "LenneDalben.MFM.ArtisanEquipmentforSale",
 	"MinimumApiVersion": "3.9.0",
-	"UpdateKeys": [ "GitHub:???" ],
+	"UpdateKeys": [ "ModDrop:???" ],
 	"Dependencies": [
 		{
 			"UniqueID": "LenneDalben.ArtisanEquipmentforSale"
