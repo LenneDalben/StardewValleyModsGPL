@@ -1,11 +1,11 @@
 ﻿{
 	"Name": "Pierre Plans Ahead - 3 Day in Advance MFM Component",
 	"Author": "LenneDalben",
-	"Version": "1.2.1",
+	"Version": "1.2.2",
 	"Description": "Pierre mails you a letter advertising that he's selling the next season's seeds 3 days early.",
 	"UniqueID": "LenneDalben.MFM.PierrePlansAhead",
 	"MinimumApiVersion": "3.8.1",
-	"UpdateKeys": [ "GitHub:???" ],
+	"UpdateKeys": [ "ModDrop:???" ],
 	"Dependencies": [
 		{
 			"UniqueID": "LenneDalben.PierrePlansAhead"
