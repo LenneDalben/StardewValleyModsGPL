@@ -25,7 +25,7 @@ Optional files
 
 ||Compatibility||
 
-With Lore-Friendly Joja Prices you'll see discounted prices for the seeds, before and after becoming a Joja member!
+With Lore-Friendly JojaMart Prices you'll see discounted prices for the seeds, before and after becoming a Joja member!
 
 I've been informed that Stardew Valley Expanded (SVE) modifies JojaMart so that they sell the seeds year-round. I don't use SVE, so I have not tested compatibility, but if you have SVE, I'm not sure why you'd need this mod. You could still benefit from Pierre Plans Ahead though, assuming SVE doesn't expand Pierre's stock to be year-round as well.
 
