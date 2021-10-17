@@ -25,7 +25,8 @@ These versions, 'May' Plan Ahead, are randomized options:
 
 -Pierre will send you a letter on the 22nd of the month to let you know to check his shop that week
 
-Installation:
+
+||Installation||
 
 1. Install <a href="https://smapi.io/">SMAPI</a> (version 3.8.1 or higher)
 2. Install  <a href="https://www.nexusmods.com/stardewvalley/mods/5005">Shop Tile Framework (STF)</a> (version 1.0.9 or higher)
@@ -36,11 +37,13 @@ Optional: if you'd like to receive the letters, you'll also need to install <a h
 
 If you'd like to switch from the mod version you have to another one, you can simply delete the existing folders you have for this mod, and then install the other version of the mod you'd like to use following the install instructions above.
 
-Uninstallation:
+
+||Uninstallation||
 
 Delete the folders for this mod from your Stardew Valley/Mods folder.
 
-Shout Outs
+
+||Shout Outs||
 
 Jonqora, who gave me the idea to use Shop Tile Framework (STF) to make this mod, and many other ideas implemented in the mod.
 
