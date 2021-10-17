@@ -1,11 +1,11 @@
 ﻿{
 	"Name": "Joja Always Has Seeds MFM Component",
 	"Author": "LenneDalben",
-	"Version": "1.0.5",
+	"Version": "1.0.7",
 	"Description": "Joja mails you a letter advertising that they're selling seeds all year round.",
 	"UniqueID": "LenneDalben.MFM.JojaAlwaysHasSeeds",
 	"MinimumApiVersion": "3.6.1",
-	"UpdateKeys": [ "GitHub:???" ],
+	"UpdateKeys": [ "ModDrop:???" ],
 	"Dependencies": [
 		{
 			"UniqueID": "LenneDalben.JojaAlwaysHasSeeds"
