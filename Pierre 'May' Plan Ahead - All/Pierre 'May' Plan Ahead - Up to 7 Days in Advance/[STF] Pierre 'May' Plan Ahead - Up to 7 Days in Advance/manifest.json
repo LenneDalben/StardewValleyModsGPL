@@ -1,11 +1,11 @@
 {
   "Name": "[STF] Pierre 'May' Plan Ahead - Up to 7 Days in Advance",
   "Author": "LenneDalben",
-  "Version": "1.2.1",
+  "Version": "1.2.2",
   "Description": "Pierre potentially sells the next season's seeds up to 7 days in advance.",
   "UniqueID": "LenneDalben.PierrePlansAhead",
   "MinimumApiVersion": "3.8.1",
-  "UpdateKeys": [ "GitHub:LenneDalben/Pierre 'May' Plan Ahead - Up to 7 Days" ],
+  "UpdateKeys": [ "ModDrop:1036738@May7Days" ],
   "ContentPackFor": {
     "UniqueID": "Cherry.ShopTileFramework",
     "MinimumVersion": "1.0.9"
