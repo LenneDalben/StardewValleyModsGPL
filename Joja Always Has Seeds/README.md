@@ -3,13 +3,13 @@ Have you ever wondered why JojaMart, an alleged super-powered grocery store, doe
 
 As it says on the tin, with Joja Always Has Seeds, JojaMart will sell seeds all year round. There are some seeds JojaMart doesn't carry in vanilla game; they still won't (refer to the wiki page on Crops). You'll receive a one-time letter from Morris when you install the mod advertising the change in stock.
 
-There are preview images in the download, but they're quite large so they're listed at the bottom of the description. :)
 
 ||Compatibility||
 
-With  Lore-Friendly Joja Prices you'll see discounted prices for the seeds, before and after becoming a Joja member!
+With Lore-Friendly Joja Prices you'll see discounted prices for the seeds, before and after becoming a Joja member!
 
 If you use Stardew Valley Expanded (SVE), you don't need this mod. If you use Joja Plans Ahead (or Joja 'May' Plan Ahead), make sure you remove that before installing Joja Always Has Seeds.
+
 
 ||Installation||
 1. Install <a href="https://smapi.io/">SMAPI</a> (version 3.9.0 or higher)
@@ -18,9 +18,11 @@ If you use Stardew Valley Expanded (SVE), you don't need this mod. If you use Jo
 4. <a href="https://github.com/LenneDalben/StardewValleyModsGPL/releases/">Download the mod</a> and unzip the mod folders into Stardew Valley/Mods (if you don't want the letters or don't use MFM, delete the folder beginning with [MFM]).
 5. Play the game using SMAPI!
 
+
 ||Uninstallation||
 
 Delete the folders from this mod.
+
 
 ||Shout Outs||
 
@@ -37,13 +39,3 @@ CherryChain, author of Shop Tile Framework (STF), without them, this mod wouldn'
 Digus, author of Mail Framework Mod (MFM), without them, the letter component of this mod wouldn't be possible.
 
 Everyone in #making-mods in the Stardew Valley Discord, who are a helpful and friendly lot!
-
-||Preview Images||
-
-![Joja Always Has Seeds Letter](Preview%20Images/Joja%20Always%20Has%20Seeds%20Letter.jpg)
-
-![Joja Always Has Seeds Stock 1](Preview%20Images/Joja%20Always%20Has%20Seeds%20Stock%201.jpg)
-
-![Joja Always Has Seeds Stock 2](Preview%20Images/Joja%20Always%20Has%20Seeds%20Stock%202.jpg)
-
-![Joja Always Has Seeds Stock 3](Preview%20Images/Joja%20Always%20Has%20Seeds%20Stock%203.jpg)
