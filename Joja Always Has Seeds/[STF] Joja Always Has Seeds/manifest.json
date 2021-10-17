@@ -5,7 +5,7 @@
   "Description": "Exactly what it says on the tin - JojaMart sells seeds all year round.",
   "UniqueID": "LenneDalben.JojaAlwaysHasSeeds",
   "MinimumApiVersion": "3.6.1",
-  "UpdateKeys": [ "ModDrop:LenneDalben/JojaAlwaysHasSeeds" ],
+  "UpdateKeys": [ "ModDrop:1036749" ],
   "ContentPackFor": {
     "UniqueID": "Cherry.ShopTileFramework",
     "MinimumVersion": "1.0.9"
