@@ -14,7 +14,7 @@ With Townies Seek Artisan Goods (TSAG), villagers will ask for artisan goods, an
 Config Options
 Repeatable: true or false, default is true
 IncludeIslandContent: true or false, default is true (toggle special orders requiring recipes from the island)
-OrderType: specify which types of special orders you'd like. By default, all are toggled: jelly, pickle, beer, wine, mead, juice, roe, animal, and machines.
+OrderType: specify which types of special orders you'd like. By default, all are toggled: jelly, pickle, beer, wine, honey, mead, juice, roe, animal, and machines.
 
 With regards to the "sparseness" of the orders: the game picks from a pool of the available orders, so if you'd prefer to get through some of the vanilla special orders first, install this mod later in your playthrough.
 
