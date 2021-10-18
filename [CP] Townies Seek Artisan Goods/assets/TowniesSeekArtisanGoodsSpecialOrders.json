@@ -2,30 +2,30 @@
   "Changes": [
     // Abigail Sweet Pumpkin
     {
-      "LogName": "Abigail Sweet Pumpkin",
+      "LogName": "Abigail Sweet Pumpkin", // Name here makes it easier to see the patch in the log
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
         "TowniesSeekArtisanGoods_Abigail_SweetPumpkin": {
-          "Name": "[TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Name]",
+          "Name": "[TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Name]", // This is where the special order name is pulled from
           "Requester": "Abigail",
           "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Text]",
+          "Text": "[TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Text]", // The text shown on the special order board and the journal
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Objective_Text_0]",
+              "Text": "[TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Objective_Text_0]", // The text for the objective in the journal
               "RequiredCount": "3",
               "Data": {
                 "AcceptedContextTags": "item_pumpkin_juice",
-                "Message": "[TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Message_0]",
+                "Message": "[TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Message_0]", // What the NPC says when you deliver the item
                 "TargetName": "Abigail"
               }
             }
