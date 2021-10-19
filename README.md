@@ -1,5 +1,5 @@
 # LenneDalben's Stardew Valley Mods (with GPL License)
-Welcome to the respository of my mods for Stardew Valley that have a GPL License! <a href="https://github.com/LenneDalben/StardewValleyModsGPL/releases">Releases can be downloaded here</a>.
+Welcome to the respository of my mods for Stardew Valley that have a GPL License! <a href="https://www.moddrop.com/stardew-valley/profile/213628">Releases can be downloaded on ModDrop</a>.
 
 <a href="https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/%5BCP%5D%20Adventurer's%20Bundle%20to%20Gemologist's%20Bundle">(CP) Adventurer's Bundle to Gemologist's Bundle</a>
 
