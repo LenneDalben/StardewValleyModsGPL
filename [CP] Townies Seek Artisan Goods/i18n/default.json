@@ -75,4 +75,11 @@
   "TowniesSeekArtisanGoods_Emily_Rainbow_Message_5": "Pickled purple, thanks @!",
   "TowniesSeekArtisanGoods_Emily_Rainbow_Message_6": "Tart pink, thanks @!",
   "TowniesSeekArtisanGoods_Emily_Rainbow_Message_7": "Cheesy white, thanks @!",
+  //
+  //
+  // Emily Tailoring Materials Strings
+  "TowniesSeekArtisanGoods_Emily_TailoringMaterials_Name": "Tailoring Materials",
+  "TowniesSeekArtisanGoods_Emily_TailoringMaterials_Text": "Could someone bring me 30 bolts of cloth? I need to replenish my supplies for sewing.",
+  "TowniesSeekArtisanGoods_Emily_TailoringMaterials_Objective_Text_0": "Deliver 30 Cloth to Emily",
+  "TowniesSeekArtisanGoods_Emily_TailoringMaterials_Message_0": "These will do nicely for the clothes I have planned. Thanks @!",
 }

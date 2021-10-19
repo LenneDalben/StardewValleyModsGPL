@@ -184,5 +184,17 @@
         "TowniesSeekArtisanGoods_Emily_Rainbow_Message_7": "{{i18n:TowniesSeekArtisanGoods_Emily_Rainbow_Message_7}}"
       }
     },
+    // Strings Emily Tailoring Materials
+    {
+      "LogName": "Strings Emily Tailoring Materials",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesSeekArtisanGoods_Emily_TailoringMaterials_Name": "{{i18n:TowniesSeekArtisanGoods_Emily_TailoringMaterials_Name}}",
+        "TowniesSeekArtisanGoods_Emily_TailoringMaterials_Text": "{{i18n:TowniesSeekArtisanGoods_Emily_TailoringMaterials_Text}}",
+        "TowniesSeekArtisanGoods_Emily_TailoringMaterials_Objective_Text_0": "{{i18n:TowniesSeekArtisanGoods_Emily_TailoringMaterials_Objective_Text_0}}",
+        "TowniesSeekArtisanGoods_Emily_TailoringMaterials_Message_0": "{{i18n:TowniesSeekArtisanGoods_Emily_TailoringMaterials_Message_0}}"
+      }
+    },
   ]
 }

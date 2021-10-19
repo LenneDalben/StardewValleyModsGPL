@@ -559,5 +559,54 @@
         "SkillLevel:Farming": "8, 9, 10"
       }
     },
+    // Emily Tailoring Materials
+    {
+      "LogName": "Emily Tailoring Materials",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesSeekArtisanGoods_Emily_TailoringMaterials": {
+          "Name": "[TowniesSeekArtisanGoods_Emily_TailoringMaterials_Name]",
+          "Requester": "Emily",
+          "Duration": "Month",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesSeekArtisanGoods_Emily_TailoringMaterials_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesSeekArtisanGoods_Emily_TailoringMaterials_Objective_Text_0]",
+              "RequiredCount": "30",
+              "Data": {
+                "AcceptedContextTags": "item_cloth",
+                "Message": "[TowniesSeekArtisanGoods_Emily_TailoringMaterials_Message_0]",
+                "TargetName": "Emily"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "19740"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "animal",
+        "SkillLevel:Farming": "7, 8, 9, 10"
+      }
+    },
   ]
 }
