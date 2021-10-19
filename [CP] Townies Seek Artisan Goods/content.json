@@ -196,5 +196,17 @@
         "TowniesSeekArtisanGoods_Emily_TailoringMaterials_Message_0": "{{i18n:TowniesSeekArtisanGoods_Emily_TailoringMaterials_Message_0}}"
       }
     },
+    // Strings Evelyn Sugar Substitute
+    {
+      "LogName": "Strings Evelyn Sugar Substitute",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesSeekArtisanGoods_Evelyn_SugarSubstitute_Name": "{{i18n:TowniesSeekArtisanGoods_Evelyn_SugarSubstitute_Name}}",
+        "TowniesSeekArtisanGoods_Evelyn_SugarSubstitute_Text": "{{i18n:TowniesSeekArtisanGoods_Evelyn_SugarSubstitute_Text}}",
+        "TowniesSeekArtisanGoods_Evelyn_SugarSubstitute_Objective_Text_0": "{{i18n:TowniesSeekArtisanGoods_Evelyn_SugarSubstitute_Objective_Text_0}}",
+        "TowniesSeekArtisanGoods_Evelyn_SugarSubstitute_Message_0": "{{i18n:TowniesSeekArtisanGoods_Evelyn_SugarSubstitute_Message_0}}"
+      }
+    },
   ]
 }
