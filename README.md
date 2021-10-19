@@ -60,7 +60,7 @@ Joja sells the next season's seeds in advance. Options are 1 day, 3 days, and 7 
 Joja *could* sell the next season's seeds in advance. Options are randomly 1 day in advance, randomly up to 7 days in advance (could be 1 day, could be 3 days, or could be 7 days), and the more random version, Draylon Edition. In the Draylon Edition, seeds could be sold up to 7 days in advance, but not consistently (seeds could be sold on the 22nd that aren't sold on the 23rd, etc.), and Joja might not sell all the seeds on any given day in that 7 day period (or not at all).
 
 
-<a href="https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/JojaMart%20Has%20Extra%20Stock">(STF) Joja Has Extra Stock</a>
+<a href="https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/Joja%20Has%20Extra%20Stock">(STF) Joja Has Extra Stock</a>
 
 Joja's inventory is expanded to include basic cooking ingredients (tortilla, oil, and vinegar), fishing gear (after you unlock it), and coal, at a discount, even for non-Joja-members!
 
