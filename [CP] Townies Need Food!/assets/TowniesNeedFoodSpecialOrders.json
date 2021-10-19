@@ -3,30 +3,30 @@
     // Special orders with no friendship requirements listed first
     // Abigail Sweet and Spicy
     {
-      "LogName": "No Friendship Abigail Sweet and Spicy",
+      "LogName": "No Friendship Abigail Sweet and Spicy", // Name here makes it easier to see the patch in the log
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
         "TowniesNeedFood_Abigail_SweetandSpicy": {
-          "Name": "[TowniesNeedFood_Abigail_SweetandSpicy_Name]",
+          "Name": "[TowniesNeedFood_Abigail_SweetandSpicy_Name]", // This is where the special order name is pulled from
           "Requester": "Abigail",
           "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesNeedFood_Abigail_SweetandSpicy_Text]",
+          "Text": "[TowniesNeedFood_Abigail_SweetandSpicy_Text]", // The text shown on the special order board and the journal
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Abigail_SweetandSpicy_Objective_Text_0]",
+              "Text": "[TowniesNeedFood_Abigail_SweetandSpicy_Objective_Text_0]", // The text for the objective in the journal
               "RequiredCount": "1",
               "Data": {
                 "AcceptedContextTags": "item_blackberry_cobbler",
-                "Message": "[TowniesNeedFood_Abigail_SweetandSpicy_Message_0]",
+                "Message": "[TowniesNeedFood_Abigail_SweetandSpicy_Message_0]", // What the NPC says when you deliver the item
                 "TargetName": "Abigail"
               }
             },
