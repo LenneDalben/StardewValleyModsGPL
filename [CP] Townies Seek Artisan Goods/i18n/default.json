@@ -89,4 +89,11 @@
   "TowniesSeekArtisanGoods_Evelyn_SugarSubstitute_Text": "I'm looking to replace sugar in baking. Could someone bring me 5 jars of honey?",
   "TowniesSeekArtisanGoods_Evelyn_SugarSubstitute_Objective_Text_0": "Deliver 5 Honey to Evelyn",
   "TowniesSeekArtisanGoods_Evelyn_SugarSubstitute_Message_0": "Oh, look at that light gold color!$h#$b#This will sweeten bread wonderfully. Thank you @!",
+  //
+  //
+  // George Advanced Knee Therapy Strings
+  "TowniesSeekArtisanGoods_George_AdvancedKneeTherapy_Name": "Advanced Knee Therapy",
+  "TowniesSeekArtisanGoods_George_AdvancedKneeTherapy_Text": "I think some hot pepper jelly could help with my knee troubles. Could someone bring me 7 jars?",
+  "TowniesSeekArtisanGoods_George_AdvancedKneeTherapy_Objective_Text_0": "Deliver 7 Hot Pepper Jelly to George",
+  "TowniesSeekArtisanGoods_George_AdvancedKneeTherapy_Message_0": "I'm looking forward to trying this new 'therapy'. Thank you @!$h",
 }

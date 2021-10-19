@@ -208,5 +208,17 @@
         "TowniesSeekArtisanGoods_Evelyn_SugarSubstitute_Message_0": "{{i18n:TowniesSeekArtisanGoods_Evelyn_SugarSubstitute_Message_0}}"
       }
     },
+    // Strings George Advanced Knee Therapy
+    {
+      "LogName": "Strings George Advanced Knee Therapy",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesSeekArtisanGoods_George_AdvancedKneeTherapy_Name": "{{i18n:TowniesSeekArtisanGoods_George_AdvancedKneeTherapy_Name}}",
+        "TowniesSeekArtisanGoods_George_AdvancedKneeTherapy_Text": "{{i18n:TowniesSeekArtisanGoods_George_AdvancedKneeTherapy_Text}}",
+        "TowniesSeekArtisanGoods_George_AdvancedKneeTherapy_Objective_Text_0": "{{i18n:TowniesSeekArtisanGoods_George_AdvancedKneeTherapy_Objective_Text_0}}",
+        "TowniesSeekArtisanGoods_George_AdvancedKneeTherapy_Message_0": "{{i18n:TowniesSeekArtisanGoods_George_AdvancedKneeTherapy_Message_0}}"
+      }
+    },
   ]
 }
