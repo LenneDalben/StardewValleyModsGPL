@@ -2,7 +2,7 @@
    "Name": "[CP] Pelican Town Potluck",
    "Author": "LenneDalben (dialog and text changes) and Airyn (art assets and associated code)",
    "Description": "Changes references from Luau to Potluck.",
-   "Version": "1.1.0",
+   "Version": "1.1.1",
    "UniqueID": "LenneDalben.PelicanTownPotluck",
    "MinimumApiVersion": "3.4.0",
    "UpdateKeys": [ "ModDrop:1032927" ],
@@ -25,6 +25,10 @@
         },
         {
             "UniqueID": "gizzymo.canonfriendlyexpansion",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "farmerjack.dialogue_expansions",
             "IsRequired": false
         }
     ]
