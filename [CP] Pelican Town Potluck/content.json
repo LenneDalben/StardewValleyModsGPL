@@ -481,5 +481,29 @@
 				"HasMod": "gizzymo.canonfriendlyexpansion"
 			}
 		},
+		// FarmerJack's Dialogue Expansions Penny Dialog
+		{
+			"LogName": "Pelican Town Potluck FarmerJack Penny Dialog",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Penny",
+			"Entries": {
+				"summer_Tue2": "Oh, hey there.#$e#The Potluck is a fun summer tradition, but my mom and I never seem to have anything tasty to bring.$3",
+			},
+			"When": {
+				"HasMod": "farmerjack.dialogue_expansions"
+			}
+		},
+		// FarmerJack's Dialogue Expansions Shane Married Dialog
+		{
+			"LogName": "Pelican Town Potluck FarmerJack Shane Married Dialog",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueShane",
+			"Entries": {
+				"summer_10": "I might fast until the Potluck tomorrow. I need the ol' bag to be empty so I can fill it with piping hot soup.$h",
+			},
+			"When": {
+				"HasMod": "farmerjack.dialogue_expansions"
+			}
+		},
 	]
 }
