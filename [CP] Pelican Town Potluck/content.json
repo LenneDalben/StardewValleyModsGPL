@@ -481,7 +481,10 @@
 				"HasMod": "gizzymo.canonfriendlyexpansion"
 			}
 		},
-		// FarmerJack's Dialogue Expansions Penny Dialog
+		//
+		// FarmerJack's Dialogue Expansions (FDE) Compatibility Patches
+		//
+		// FDE Penny Dialog
 		{
 			"LogName": "Pelican Town Potluck FarmerJack Penny Dialog",
 			"Action": "EditData",
@@ -493,7 +496,7 @@
 				"HasMod": "farmerjack.dialogue_expansions"
 			}
 		},
-		// FarmerJack's Dialogue Expansions Shane Married Dialog
+		// FDE Shane Married Dialog
 		{
 			"LogName": "Pelican Town Potluck FarmerJack Shane Married Dialog",
 			"Action": "EditData",
