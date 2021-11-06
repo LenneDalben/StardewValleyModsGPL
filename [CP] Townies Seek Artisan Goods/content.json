@@ -220,5 +220,17 @@
         "TowniesSeekArtisanGoods_George_AdvancedKneeTherapy_Message_0": "{{i18n:TowniesSeekArtisanGoods_George_AdvancedKneeTherapy_Message_0}}"
       }
     },
+    // Strings George Healthy Roe
+    {
+      "LogName": "Strings George Healthy Roe",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesSeekArtisanGoods_George_HealthyRoe_Name": "{{i18n:TowniesSeekArtisanGoods_George_HealthyRoe_Name}}",
+        "TowniesSeekArtisanGoods_George_HealthyRoe_Text": "{{i18n:TowniesSeekArtisanGoods_George_HealthyRoe_Text}}",
+        "TowniesSeekArtisanGoods_George_HealthyRoe_Objective_Text_0": "{{i18n:TowniesSeekArtisanGoods_George_HealthyRoe_Objective_Text_0}}",
+        "TowniesSeekArtisanGoods_George_HealthyRoe_Message_0": "{{i18n:TowniesSeekArtisanGoods_George_HealthyRoe_Message_0}}"
+      }
+    },
   ]
 }

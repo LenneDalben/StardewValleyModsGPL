@@ -96,4 +96,11 @@
   "TowniesSeekArtisanGoods_George_AdvancedKneeTherapy_Text": "I think some hot pepper jelly could help with my knee troubles. Could someone bring me 7 jars?",
   "TowniesSeekArtisanGoods_George_AdvancedKneeTherapy_Objective_Text_0": "Deliver 7 Hot Pepper Jelly to George",
   "TowniesSeekArtisanGoods_George_AdvancedKneeTherapy_Message_0": "I'm looking forward to trying this new 'therapy'. Thank you @!$h",
+  //
+  //
+  // George Healthy Roe Strings
+  "TowniesSeekArtisanGoods_George_HealthyRoe_Name": "Healthy Roe",
+  "TowniesSeekArtisanGoods_George_HealthyRoe_Text": "Harvey suggested I try aged roe because it's healthy. Could someone bring me 10 jars? Sunfish, sardine, or anchovy only.",
+  "TowniesSeekArtisanGoods_George_HealthyRoe_Objective_Text_0": "Deliver 10 Aged Roe (sunfish, sardine, or anchovy) to George",
+  "TowniesSeekArtisanGoods_George_HealthyRoe_Message_0": "Hmph, I hope this tastes ok.#$b#Thank you @!$h",
 }

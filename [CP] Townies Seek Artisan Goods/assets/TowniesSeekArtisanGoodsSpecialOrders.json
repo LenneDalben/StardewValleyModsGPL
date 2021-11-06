@@ -731,7 +731,7 @@
               "Text": "[TowniesSeekArtisanGoods_George_HealthyRoe_Objective_Text_0]",
               "RequiredCount": "10",
               "Data": {
-                "AcceptedContextTags": "item_hot_pepper_jelly",
+                "AcceptedContextTags": "item_aged_sunfish_roe/item_aged_sardine_roe/item_aged_anchovy_roe",
                 "Message": "[TowniesSeekArtisanGoods_George_HealthyRoe_Message_0]",
                 "TargetName": "George"
               }
@@ -741,7 +741,7 @@
             {
               "Type": "Money",
               "Data": {
-                "Amount": "1274"
+                "Amount": "1400"
               }
             },
             {
@@ -752,9 +752,8 @@
         }
       },
       "When": {
-        "OrderType": "jelly",
-        "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10",
-        "Year | contains=1": false
+        "OrderType": "roe",
+        "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10"
       }
     },
   ]
