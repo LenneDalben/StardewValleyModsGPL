@@ -110,4 +110,11 @@
   "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Text": "It's never too early to start preparing for the Fair. Could someone bring me 30 bottles of pale ale?",
   "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Objective_Text_0": "Deliver 30 Pale Ales to Gus",
   "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Message_0": "Thank you @! This will really help with the Fair.$h",
+  //
+  //
+  // Gus Special Ingredient Strings
+  "TowniesNeedArtisanGoods_Gus_SpecialIngredient_Name": "Special Ingredient",
+  "TowniesNeedArtisanGoods_Gus_SpecialIngredient_Text": "The secret to my legendary pizzas is high quality cheese, gold or iridium. Could someone bring me 8?",
+  "TowniesNeedArtisanGoods_Gus_SpecialIngredient_Objective_Text_0": "Deliver 8 Cheese to Gus (gold or iridium quality)",
+  "TowniesNeedArtisanGoods_Gus_SpecialIngredient_Message_0": "All this cheese looks great, thanks @!$h",
 }

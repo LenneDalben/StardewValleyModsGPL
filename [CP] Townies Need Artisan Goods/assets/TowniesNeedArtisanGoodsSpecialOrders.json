@@ -764,7 +764,7 @@
       "Entries": {
         "TowniesNeedArtisanGoods_Gus_DrinksfortheFair": {
           "Name": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Name]",
-          "Requester": "George",
+          "Requester": "Gus",
           "Duration": "Month",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
@@ -782,7 +782,7 @@
               "Data": {
                 "AcceptedContextTags": "item_pale_ale",
                 "Message": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Message_0]",
-                "TargetName": "George"
+                "TargetName": "Gus"
               }
             }
           ],
@@ -803,6 +803,56 @@
       "When": {
         "OrderType": "beer",
         "SkillLevel:Farming": "8, 9, 10"
+      }
+    },
+    // Gus Special Ingredient
+    {
+      "LogName": "Gus Special Ingredient",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Gus_SpecialIngredient": {
+          "Name": "[TowniesNeedArtisanGoods_Gus_SpecialIngredient_Name]",
+          "Requester": "Gus",
+          "Duration": "TwoWeek",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Gus_SpecialIngredient_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Gus_SpecialIngredient_Objective_Text_0]",
+              "RequiredCount": "8",
+              "Data": {
+                "AcceptedContextTags": "item_cheese, quality_gold/quality_iridium",
+                "Message": "[TowniesNeedArtisanGoods_Gus_SpecialIngredient_Message_0]",
+                "TargetName": "Gus"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "3856"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "animal",
+        "SkillLevel:Farming": "6, 7, 8, 9, 10",
+        "PlayerHasCellarOrQAP": "true"
       }
     },
   ]

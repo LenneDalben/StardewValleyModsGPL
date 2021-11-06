@@ -244,5 +244,17 @@
         "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Message_0": "{{i18n:TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Message_0}}"
       }
     },
+    // Strings Gus Special Ingredient
+    {
+      "LogName": "Strings Gus Special Ingredient",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Gus_SpecialIngredient_Name": "{{i18n:TowniesNeedArtisanGoods_Gus_SpecialIngredient_Name}}",
+        "TowniesNeedArtisanGoods_Gus_SpecialIngredient_Text": "{{i18n:TowniesNeedArtisanGoods_Gus_SpecialIngredient_Text}}",
+        "TowniesNeedArtisanGoods_Gus_SpecialIngredient_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Gus_SpecialIngredient_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Gus_SpecialIngredient_Message_0": "{{i18n:TowniesNeedArtisanGoods_Gus_SpecialIngredient_Message_0}}"
+      }
+    },
   ]
 }
