@@ -1,113 +1,113 @@
 {
   // Abigail Sweet Pumpkin Strings
-  "TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Name": "Sweet Pumpkin",
-  "TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Text": "I'd love some pumpkin juice. Could someone bring me 3 bottles?",
-  "TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Objective_Text_0": "Deliver 3 Pumpkin Juice to Abigail",
-  "TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Message_0": "This will be sweet and nutritious, thanks @!$h",
+  "TowniesNeedArtisanGoods_Abigail_SweetPumpkin_Name": "Sweet Pumpkin",
+  "TowniesNeedArtisanGoods_Abigail_SweetPumpkin_Text": "I'd love some pumpkin juice. Could someone bring me 3 bottles?",
+  "TowniesNeedArtisanGoods_Abigail_SweetPumpkin_Objective_Text_0": "Deliver 3 Pumpkin Juice to Abigail",
+  "TowniesNeedArtisanGoods_Abigail_SweetPumpkin_Message_0": "This will be sweet and nutritious, thanks @!$h",
   //
   // Abigail Yellow Mayo Strings
-  "TowniesSeekArtisanGoods_Abigail_YellowMayo_Name": "Yellow Mayo",
-  "TowniesSeekArtisanGoods_Abigail_YellowMayo_Text": "I'd like to pull a special prank. Could someone bring me 1 duck mayonnaise?",
-  "TowniesSeekArtisanGoods_Abigail_YellowMayo_Objective_Text_0": "Deliver 1 Duck Mayonnaise to Abigail",
-  "TowniesSeekArtisanGoods_Abigail_YellowMayo_Message_0": "Ha, this will get Sam and Sebastian good, thanks @!$h",
+  "TowniesNeedArtisanGoods_Abigail_YellowMayo_Name": "Yellow Mayo",
+  "TowniesNeedArtisanGoods_Abigail_YellowMayo_Text": "I'd like to pull a special prank. Could someone bring me 1 duck mayonnaise?",
+  "TowniesNeedArtisanGoods_Abigail_YellowMayo_Objective_Text_0": "Deliver 1 Duck Mayonnaise to Abigail",
+  "TowniesNeedArtisanGoods_Abigail_YellowMayo_Message_0": "Ha, this will get Sam and Sebastian good, thanks @!$h",
   //
   // Alex Sweet Apple Strings
-  "TowniesSeekArtisanGoods_Alex_SweetApple_Name": "Sweet Apple",
-  "TowniesSeekArtisanGoods_Alex_SweetApple_Text": "Apple wine is special to me. Could someone bring me 7 bottles? Gold or iridium quality, please.",
-  "TowniesSeekArtisanGoods_Alex_SweetApple_Objective_Text_0": "Deliver 7 Apple Wine to Alex (gold or iridium quality)",
-  "TowniesSeekArtisanGoods_Alex_SweetApple_Message_0": "Quality apple wine is fantastic. Thanks @!$h",
+  "TowniesNeedArtisanGoods_Alex_SweetApple_Name": "Sweet Apple",
+  "TowniesNeedArtisanGoods_Alex_SweetApple_Text": "Apple wine is special to me. Could someone bring me 7 bottles? Gold or iridium quality, please.",
+  "TowniesNeedArtisanGoods_Alex_SweetApple_Objective_Text_0": "Deliver 7 Apple Wine to Alex (gold or iridium quality)",
+  "TowniesNeedArtisanGoods_Alex_SweetApple_Message_0": "Quality apple wine is fantastic. Thanks @!$h",
   //
   // Alex Training Diet Strings
-  "TowniesSeekArtisanGoods_Alex_TrainingDiet_Name": "Training Diet",
-  "TowniesSeekArtisanGoods_Alex_TrainingDiet_Text": "I'm trying out roe as a source of protein to train. Could someone bring me 7 aged salmon roe?",
-  "TowniesSeekArtisanGoods_Alex_TrainingDiet_Objective_Text_0": "Deliver 7 Aged Salmon Roe to Alex",
-  "TowniesSeekArtisanGoods_Alex_TrainingDiet_Message_0": "This should be good, thanks!$h",
+  "TowniesNeedArtisanGoods_Alex_TrainingDiet_Name": "Training Diet",
+  "TowniesNeedArtisanGoods_Alex_TrainingDiet_Text": "I'm trying out roe as a source of protein to train. Could someone bring me 7 aged salmon roe?",
+  "TowniesNeedArtisanGoods_Alex_TrainingDiet_Objective_Text_0": "Deliver 7 Aged Salmon Roe to Alex",
+  "TowniesNeedArtisanGoods_Alex_TrainingDiet_Message_0": "This should be good, thanks!$h",
   //
   //
   // Caroline Juicy Electrolytes Strings
-  "TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Name": "Juicy Electrolytes",
-  "TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Text": "I think the ladies at aerobics class would love some juice for hydration. Could someone bring me 15 bottles?",
-  "TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Objective_Text_0": "Deliver 15 Juice to Caroline",
-  "TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Message_0": "This will help replenish electrolytes, thanks @!",
+  "TowniesNeedArtisanGoods_Caroline_JuicyElectrolytes_Name": "Juicy Electrolytes",
+  "TowniesNeedArtisanGoods_Caroline_JuicyElectrolytes_Text": "I think the ladies at aerobics class would love some juice for hydration. Could someone bring me 15 bottles?",
+  "TowniesNeedArtisanGoods_Caroline_JuicyElectrolytes_Objective_Text_0": "Deliver 15 Juice to Caroline",
+  "TowniesNeedArtisanGoods_Caroline_JuicyElectrolytes_Message_0": "This will help replenish electrolytes, thanks @!",
   //
   //
   // Caroline Spangle Honey Strings
-  "TowniesSeekArtisanGoods_Caroline_SpangleHoney_Name": "Spangle Honey",
-  "TowniesSeekArtisanGoods_Caroline_SpangleHoney_Text": "I'd love some summer spangle honey to go with my green tea. Could someone bring me 8 jars?",
-  "TowniesSeekArtisanGoods_Caroline_SpangleHoney_Objective_Text_0": "Deliver 8 Summer Spangle Honey to Caroline",
-  "TowniesSeekArtisanGoods_Caroline_SpangleHoney_Message_0": "Lovely, thanks @!",
+  "TowniesNeedArtisanGoods_Caroline_SpangleHoney_Name": "Spangle Honey",
+  "TowniesNeedArtisanGoods_Caroline_SpangleHoney_Text": "I'd love some summer spangle honey to go with my green tea. Could someone bring me 8 jars?",
+  "TowniesNeedArtisanGoods_Caroline_SpangleHoney_Objective_Text_0": "Deliver 8 Summer Spangle Honey to Caroline",
+  "TowniesNeedArtisanGoods_Caroline_SpangleHoney_Message_0": "Lovely, thanks @!",
   //
   //
   // Clint Pickled Artichokes Strings
-  "TowniesSeekArtisanGoods_Clint_PickledArtichokes_Name": "Pickled Artichokes",
-  "TowniesSeekArtisanGoods_Clint_PickledArtichokes_Text": "Pickled Artichokes are a good side dish. Could someone bring me 7 jars?",
-  "TowniesSeekArtisanGoods_Clint_PickledArtichokes_Objective_Text_0": "Deliver 7 Pickled Artichokes to Clint",
-  "TowniesSeekArtisanGoods_Clint_PickledArtichokes_Message_0": "Thanks @!",
+  "TowniesNeedArtisanGoods_Clint_PickledArtichokes_Name": "Pickled Artichokes",
+  "TowniesNeedArtisanGoods_Clint_PickledArtichokes_Text": "Pickled Artichokes are a good side dish. Could someone bring me 7 jars?",
+  "TowniesNeedArtisanGoods_Clint_PickledArtichokes_Objective_Text_0": "Deliver 7 Pickled Artichokes to Clint",
+  "TowniesNeedArtisanGoods_Clint_PickledArtichokes_Message_0": "Thanks @!",
   //
   // Demetrius Oil Makers Strings
-  "TowniesSeekArtisanGoods_Demetrius_OilMakers_Name": "Oil Makers",
-  "TowniesSeekArtisanGoods_Demetrius_OilMakers_Text": "Greetings, Demetrius here. My distillation system is broken and I need some replacement parts. Could someone bring me 3 oil makers?",
-  "TowniesSeekArtisanGoods_Demetrius_OilMakers_Objective_Text_0": "Deliver 3 Oil Makers to Demetrius",
-  "TowniesSeekArtisanGoods_Demetrius_OilMakers_Message_0": "These should make enough replacement parts, thanks @!$h",
+  "TowniesNeedArtisanGoods_Demetrius_OilMakers_Name": "Oil Makers",
+  "TowniesNeedArtisanGoods_Demetrius_OilMakers_Text": "Greetings, Demetrius here. My distillation system is broken and I need some replacement parts. Could someone bring me 3 oil makers?",
+  "TowniesNeedArtisanGoods_Demetrius_OilMakers_Objective_Text_0": "Deliver 3 Oil Makers to Demetrius",
+  "TowniesNeedArtisanGoods_Demetrius_OilMakers_Message_0": "These should make enough replacement parts, thanks @!$h",
   //
   // Elliott Elegant Quill Strings
-  "TowniesSeekArtisanGoods_Elliott_ElegantQuill_Name": "Elegant Quill",
-  "TowniesSeekArtisanGoods_Elliott_ElegantQuill_Text": "New quills would help inspire my writing. Could someone bring me 2 duck feathers?",
-  "TowniesSeekArtisanGoods_Elliott_ElegantQuill_Objective_Text_0": "Deliver 2 Duck Feathers to Elliott",
-  "TowniesSeekArtisanGoods_Elliott_ElegantQuill_Message_0": "Thanks @! These feathers look lovely.$h",
+  "TowniesNeedArtisanGoods_Elliott_ElegantQuill_Name": "Elegant Quill",
+  "TowniesNeedArtisanGoods_Elliott_ElegantQuill_Text": "New quills would help inspire my writing. Could someone bring me 2 duck feathers?",
+  "TowniesNeedArtisanGoods_Elliott_ElegantQuill_Objective_Text_0": "Deliver 2 Duck Feathers to Elliott",
+  "TowniesNeedArtisanGoods_Elliott_ElegantQuill_Message_0": "Thanks @! These feathers look lovely.$h",
   //
   // Emily Rainbow Strings
-  "TowniesSeekArtisanGoods_Emily_Rainbow_Name": "Rainbow!",
-  "TowniesSeekArtisanGoods_Emily_Rainbow_Text": "I'd like to make my own version of a rainbow of colors! Could someone bring me 1 duck mayonnaise?",
-  "TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_0": "Red: Deliver 1 Hot Pepper Jelly to Emily",
-  "TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_1": "Orange: Deliver 1 Orange Jelly to Emily",
-  "TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_2": "Yellow: Deliver 1 Sunflower Honey to Emily",
-  "TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_3": "Green: Deliver 1 Green Tea to Emily",
-  "TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_4": "Blue: Deliver 1 Blueberry Wine to Emily",
-  "TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_5": "Purple: Deliver 1 Pickled Eggplant to Emily",
-  "TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_6": "Pink: Deliver 1 Melon Wine to Emily",
-  "TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_7": "White: Deliver 1 Goat Cheese to Emily",
-  "TowniesSeekArtisanGoods_Emily_Rainbow_Message_0": "Spicy and red, thanks @!",
-  "TowniesSeekArtisanGoods_Emily_Rainbow_Message_1": "Tangy and orange, thanks @!",
-  "TowniesSeekArtisanGoods_Emily_Rainbow_Message_2": "Uniquely yellow, thanks @!",
-  "TowniesSeekArtisanGoods_Emily_Rainbow_Message_3": "Green tea is great, isn't it?#$b#Thanks @!",
-  "TowniesSeekArtisanGoods_Emily_Rainbow_Message_4": "Savory blue, thanks @!",
-  "TowniesSeekArtisanGoods_Emily_Rainbow_Message_5": "Pickled purple, thanks @!",
-  "TowniesSeekArtisanGoods_Emily_Rainbow_Message_6": "Tart pink, thanks @!",
-  "TowniesSeekArtisanGoods_Emily_Rainbow_Message_7": "Cheesy white, thanks @!",
+  "TowniesNeedArtisanGoods_Emily_Rainbow_Name": "Rainbow!",
+  "TowniesNeedArtisanGoods_Emily_Rainbow_Text": "I'd like to make my own version of a rainbow of colors! Could someone bring me 1 duck mayonnaise?",
+  "TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_0": "Red: Deliver 1 Hot Pepper Jelly to Emily",
+  "TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_1": "Orange: Deliver 1 Orange Jelly to Emily",
+  "TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_2": "Yellow: Deliver 1 Sunflower Honey to Emily",
+  "TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_3": "Green: Deliver 1 Green Tea to Emily",
+  "TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_4": "Blue: Deliver 1 Blueberry Wine to Emily",
+  "TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_5": "Purple: Deliver 1 Pickled Eggplant to Emily",
+  "TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_6": "Pink: Deliver 1 Melon Wine to Emily",
+  "TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_7": "White: Deliver 1 Goat Cheese to Emily",
+  "TowniesNeedArtisanGoods_Emily_Rainbow_Message_0": "Spicy and red, thanks @!",
+  "TowniesNeedArtisanGoods_Emily_Rainbow_Message_1": "Tangy and orange, thanks @!",
+  "TowniesNeedArtisanGoods_Emily_Rainbow_Message_2": "Uniquely yellow, thanks @!",
+  "TowniesNeedArtisanGoods_Emily_Rainbow_Message_3": "Green tea is great, isn't it?#$b#Thanks @!",
+  "TowniesNeedArtisanGoods_Emily_Rainbow_Message_4": "Savory blue, thanks @!",
+  "TowniesNeedArtisanGoods_Emily_Rainbow_Message_5": "Pickled purple, thanks @!",
+  "TowniesNeedArtisanGoods_Emily_Rainbow_Message_6": "Tart pink, thanks @!",
+  "TowniesNeedArtisanGoods_Emily_Rainbow_Message_7": "Cheesy white, thanks @!",
   //
   //
   // Emily Tailoring Materials Strings
-  "TowniesSeekArtisanGoods_Emily_TailoringMaterials_Name": "Tailoring Materials",
-  "TowniesSeekArtisanGoods_Emily_TailoringMaterials_Text": "Could someone bring me 30 bolts of cloth? I need to replenish my supplies for sewing.",
-  "TowniesSeekArtisanGoods_Emily_TailoringMaterials_Objective_Text_0": "Deliver 30 Cloth to Emily",
-  "TowniesSeekArtisanGoods_Emily_TailoringMaterials_Message_0": "These will do nicely for the clothes I have planned. Thanks @!",
+  "TowniesNeedArtisanGoods_Emily_TailoringMaterials_Name": "Tailoring Materials",
+  "TowniesNeedArtisanGoods_Emily_TailoringMaterials_Text": "Could someone bring me 30 bolts of cloth? I need to replenish my supplies for sewing.",
+  "TowniesNeedArtisanGoods_Emily_TailoringMaterials_Objective_Text_0": "Deliver 30 Cloth to Emily",
+  "TowniesNeedArtisanGoods_Emily_TailoringMaterials_Message_0": "These will do nicely for the clothes I have planned. Thanks @!",
   //
   //
   // Evelyn Sugar Substitute Strings
-  "TowniesSeekArtisanGoods_Evelyn_SugarSubstitute_Name": "Sugar Substitute",
-  "TowniesSeekArtisanGoods_Evelyn_SugarSubstitute_Text": "I'm looking to replace sugar in baking. Could someone bring me 5 jars of honey?",
-  "TowniesSeekArtisanGoods_Evelyn_SugarSubstitute_Objective_Text_0": "Deliver 5 Honey to Evelyn",
-  "TowniesSeekArtisanGoods_Evelyn_SugarSubstitute_Message_0": "Oh, look at that light gold color!$h#$b#This will sweeten bread wonderfully. Thank you @!",
+  "TowniesNeedArtisanGoods_Evelyn_SugarSubstitute_Name": "Sugar Substitute",
+  "TowniesNeedArtisanGoods_Evelyn_SugarSubstitute_Text": "I'm looking to replace sugar in baking. Could someone bring me 5 jars of honey?",
+  "TowniesNeedArtisanGoods_Evelyn_SugarSubstitute_Objective_Text_0": "Deliver 5 Honey to Evelyn",
+  "TowniesNeedArtisanGoods_Evelyn_SugarSubstitute_Message_0": "Oh, look at that light gold color!$h#$b#This will sweeten bread wonderfully. Thank you @!",
   //
   //
   // George Advanced Knee Therapy Strings
-  "TowniesSeekArtisanGoods_George_AdvancedKneeTherapy_Name": "Advanced Knee Therapy",
-  "TowniesSeekArtisanGoods_George_AdvancedKneeTherapy_Text": "I think some hot pepper jelly could help with my knee troubles. Could someone bring me 7 jars?",
-  "TowniesSeekArtisanGoods_George_AdvancedKneeTherapy_Objective_Text_0": "Deliver 7 Hot Pepper Jelly to George",
-  "TowniesSeekArtisanGoods_George_AdvancedKneeTherapy_Message_0": "I'm looking forward to trying this new 'therapy'. Thank you @!$h",
+  "TowniesNeedArtisanGoods_George_AdvancedKneeTherapy_Name": "Advanced Knee Therapy",
+  "TowniesNeedArtisanGoods_George_AdvancedKneeTherapy_Text": "I think some hot pepper jelly could help with my knee troubles. Could someone bring me 7 jars?",
+  "TowniesNeedArtisanGoods_George_AdvancedKneeTherapy_Objective_Text_0": "Deliver 7 Hot Pepper Jelly to George",
+  "TowniesNeedArtisanGoods_George_AdvancedKneeTherapy_Message_0": "I'm looking forward to trying this new 'therapy'. Thank you @!$h",
   //
   //
   // George Healthy Roe Strings
-  "TowniesSeekArtisanGoods_George_HealthyRoe_Name": "Healthy Roe",
-  "TowniesSeekArtisanGoods_George_HealthyRoe_Text": "Harvey suggested I try aged roe because it's healthy. Could someone bring me 10 jars? Sunfish, sardine, or anchovy only.",
-  "TowniesSeekArtisanGoods_George_HealthyRoe_Objective_Text_0": "Deliver 10 Aged Roe (sunfish, sardine, or anchovy) to George",
-  "TowniesSeekArtisanGoods_George_HealthyRoe_Message_0": "Hmph, I hope this tastes ok.#$b#Thank you @!$h",
+  "TowniesNeedArtisanGoods_George_HealthyRoe_Name": "Healthy Roe",
+  "TowniesNeedArtisanGoods_George_HealthyRoe_Text": "Harvey suggested I try aged roe because it's healthy. Could someone bring me 10 jars? Sunfish, sardine, or anchovy only.",
+  "TowniesNeedArtisanGoods_George_HealthyRoe_Objective_Text_0": "Deliver 10 Aged Roe (sunfish, sardine, or anchovy) to George",
+  "TowniesNeedArtisanGoods_George_HealthyRoe_Message_0": "Hmph, I hope this tastes ok.#$b#Thank you @!$h",
   //
   //
   // Gus Drinks for the Fair Strings
-  "TowniesSeekArtisanGoods_Gus_DrinksfortheFair_Name": "Drinks for the Fair",
-  "TowniesSeekArtisanGoods_Gus_DrinksfortheFair_Text": "It's never too early to start preparing for the Fair. Could someone bring me 30 bottles of pale ale?",
-  "TowniesSeekArtisanGoods_Gus_DrinksfortheFair_Objective_Text_0": "Deliver 30 Pale Ales to Gus",
-  "TowniesSeekArtisanGoods_Gus_DrinksfortheFair_Message_0": "Thank you @! This will really help with the Fair.$h",
+  "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Name": "Drinks for the Fair",
+  "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Text": "It's never too early to start preparing for the Fair. Could someone bring me 30 bottles of pale ale?",
+  "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Objective_Text_0": "Deliver 30 Pale Ales to Gus",
+  "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Message_0": "Thank you @! This will really help with the Fair.$h",
 }

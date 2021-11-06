@@ -48,7 +48,7 @@
     {
       "LogName": "Include Townies Seek Artisan Goods Orders",
       "Action": "Include",
-      "FromFile": "assets/TowniesSeekArtisanGoodsSpecialOrders.json"
+      "FromFile": "assets/TowniesNeedArtisanGoodsSpecialOrders.json"
     },
     // Strings below
     // Strings Abigail Sweet Pumpkin
@@ -57,10 +57,10 @@
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
-        "TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Name": "{{i18n:TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Name}}",
-        "TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Text": "{{i18n:TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Text}}",
-        "TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Objective_Text_0": "{{i18n:TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Objective_Text_0}}",
-        "TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Message_0": "{{i18n:TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Message_0}}"
+        "TowniesNeedArtisanGoods_Abigail_SweetPumpkin_Name": "{{i18n:TowniesNeedArtisanGoods_Abigail_SweetPumpkin_Name}}",
+        "TowniesNeedArtisanGoods_Abigail_SweetPumpkin_Text": "{{i18n:TowniesNeedArtisanGoods_Abigail_SweetPumpkin_Text}}",
+        "TowniesNeedArtisanGoods_Abigail_SweetPumpkin_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Abigail_SweetPumpkin_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Abigail_SweetPumpkin_Message_0": "{{i18n:TowniesNeedArtisanGoods_Abigail_SweetPumpkin_Message_0}}"
       }
     },
     // Strings Abigail Yellow Mayo
@@ -69,10 +69,10 @@
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
-        "TowniesSeekArtisanGoods_Abigail_YellowMayo_Name": "{{i18n:TowniesSeekArtisanGoods_Abigail_YellowMayo_Name}}",
-        "TowniesSeekArtisanGoods_Abigail_YellowMayo_Text": "{{i18n:TowniesSeekArtisanGoods_Abigail_YellowMayo_Text}}",
-        "TowniesSeekArtisanGoods_Abigail_YellowMayo_Objective_Text_0": "{{i18n:TowniesSeekArtisanGoods_Abigail_YellowMayo_Objective_Text_0}}",
-        "TowniesSeekArtisanGoods_Abigail_YellowMayo_Message_0": "{{i18n:TowniesSeekArtisanGoods_Abigail_YellowMayo_Message_0}}"
+        "TowniesNeedArtisanGoods_Abigail_YellowMayo_Name": "{{i18n:TowniesNeedArtisanGoods_Abigail_YellowMayo_Name}}",
+        "TowniesNeedArtisanGoods_Abigail_YellowMayo_Text": "{{i18n:TowniesNeedArtisanGoods_Abigail_YellowMayo_Text}}",
+        "TowniesNeedArtisanGoods_Abigail_YellowMayo_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Abigail_YellowMayo_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Abigail_YellowMayo_Message_0": "{{i18n:TowniesNeedArtisanGoods_Abigail_YellowMayo_Message_0}}"
       }
     },
     // Strings Alex Sweet Apple
@@ -81,10 +81,10 @@
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
-        "TowniesSeekArtisanGoods_Alex_SweetApple_Name": "{{i18n:TowniesSeekArtisanGoods_Alex_SweetApple_Name}}",
-        "TowniesSeekArtisanGoods_Alex_SweetApple_Text": "{{i18n:TowniesSeekArtisanGoods_Alex_SweetApple_Text}}",
-        "TowniesSeekArtisanGoods_Alex_SweetApple_Objective_Text_0": "{{i18n:TowniesSeekArtisanGoods_Alex_SweetApple_Objective_Text_0}}",
-        "TowniesSeekArtisanGoods_Alex_SweetApple_Message_0": "{{i18n:TowniesSeekArtisanGoods_Alex_SweetApple_Message_0}}"
+        "TowniesNeedArtisanGoods_Alex_SweetApple_Name": "{{i18n:TowniesNeedArtisanGoods_Alex_SweetApple_Name}}",
+        "TowniesNeedArtisanGoods_Alex_SweetApple_Text": "{{i18n:TowniesNeedArtisanGoods_Alex_SweetApple_Text}}",
+        "TowniesNeedArtisanGoods_Alex_SweetApple_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Alex_SweetApple_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Alex_SweetApple_Message_0": "{{i18n:TowniesNeedArtisanGoods_Alex_SweetApple_Message_0}}"
       }
     },
     // Strings Alex Training Diet
@@ -93,10 +93,10 @@
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
-        "TowniesSeekArtisanGoods_Alex_TrainingDiet_Name": "{{i18n:TowniesSeekArtisanGoods_Alex_TrainingDiet_Name}}",
-        "TowniesSeekArtisanGoods_Alex_TrainingDiet_Text": "{{i18n:TowniesSeekArtisanGoods_Alex_TrainingDiet_Text}}",
-        "TowniesSeekArtisanGoods_Alex_TrainingDiet_Objective_Text_0": "{{i18n:TowniesSeekArtisanGoods_Alex_TrainingDiet_Objective_Text_0}}",
-        "TowniesSeekArtisanGoods_Alex_TrainingDiet_Message_0": "{{i18n:TowniesSeekArtisanGoods_Alex_TrainingDiet_Message_0}}"
+        "TowniesNeedArtisanGoods_Alex_TrainingDiet_Name": "{{i18n:TowniesNeedArtisanGoods_Alex_TrainingDiet_Name}}",
+        "TowniesNeedArtisanGoods_Alex_TrainingDiet_Text": "{{i18n:TowniesNeedArtisanGoods_Alex_TrainingDiet_Text}}",
+        "TowniesNeedArtisanGoods_Alex_TrainingDiet_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Alex_TrainingDiet_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Alex_TrainingDiet_Message_0": "{{i18n:TowniesNeedArtisanGoods_Alex_TrainingDiet_Message_0}}"
       }
     },
     // Strings Caroline Juicy Electrolytes
@@ -105,10 +105,10 @@
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
-        "TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Name": "{{i18n:TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Name}}",
-        "TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Text": "{{i18n:TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Text}}",
-        "TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Objective_Text_0": "{{i18n:TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Objective_Text_0}}",
-        "TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Message_0": "{{i18n:TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Message_0}}"
+        "TowniesNeedArtisanGoods_Caroline_JuicyElectrolytes_Name": "{{i18n:TowniesNeedArtisanGoods_Caroline_JuicyElectrolytes_Name}}",
+        "TowniesNeedArtisanGoods_Caroline_JuicyElectrolytes_Text": "{{i18n:TowniesNeedArtisanGoods_Caroline_JuicyElectrolytes_Text}}",
+        "TowniesNeedArtisanGoods_Caroline_JuicyElectrolytes_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Caroline_JuicyElectrolytes_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Caroline_JuicyElectrolytes_Message_0": "{{i18n:TowniesNeedArtisanGoods_Caroline_JuicyElectrolytes_Message_0}}"
       }
     },
     // Strings Caroline Spangle Honey
@@ -117,10 +117,10 @@
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
-        "TowniesSeekArtisanGoods_Caroline_SpangleHoney_Name": "{{i18n:TowniesSeekArtisanGoods_Caroline_SpangleHoney_Name}}",
-        "TowniesSeekArtisanGoods_Caroline_SpangleHoney_Text": "{{i18n:TowniesSeekArtisanGoods_Caroline_SpangleHoney_Text}}",
-        "TowniesSeekArtisanGoods_Caroline_SpangleHoney_Objective_Text_0": "{{i18n:TowniesSeekArtisanGoods_Caroline_SpangleHoney_Objective_Text_0}}",
-        "TowniesSeekArtisanGoods_Caroline_SpangleHoney_Message_0": "{{i18n:TowniesSeekArtisanGoods_Caroline_SpangleHoney_Message_0}}"
+        "TowniesNeedArtisanGoods_Caroline_SpangleHoney_Name": "{{i18n:TowniesNeedArtisanGoods_Caroline_SpangleHoney_Name}}",
+        "TowniesNeedArtisanGoods_Caroline_SpangleHoney_Text": "{{i18n:TowniesNeedArtisanGoods_Caroline_SpangleHoney_Text}}",
+        "TowniesNeedArtisanGoods_Caroline_SpangleHoney_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Caroline_SpangleHoney_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Caroline_SpangleHoney_Message_0": "{{i18n:TowniesNeedArtisanGoods_Caroline_SpangleHoney_Message_0}}"
       }
     },
     // Strings Clint Pickled Artichokes
@@ -129,10 +129,10 @@
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
-        "TowniesSeekArtisanGoods_Clint_PickledArtichokes_Name": "{{i18n:TowniesSeekArtisanGoods_Clint_PickledArtichokes_Name}}",
-        "TowniesSeekArtisanGoods_Clint_PickledArtichokes_Text": "{{i18n:TowniesSeekArtisanGoods_Clint_PickledArtichokes_Text}}",
-        "TowniesSeekArtisanGoods_Clint_PickledArtichokes_Objective_Text_0": "{{i18n:TowniesSeekArtisanGoods_Clint_PickledArtichokes_Objective_Text_0}}",
-        "TowniesSeekArtisanGoods_Clint_PickledArtichokes_Message_0": "{{i18n:TowniesSeekArtisanGoods_Clint_PickledArtichokes_Message_0}}"
+        "TowniesNeedArtisanGoods_Clint_PickledArtichokes_Name": "{{i18n:TowniesNeedArtisanGoods_Clint_PickledArtichokes_Name}}",
+        "TowniesNeedArtisanGoods_Clint_PickledArtichokes_Text": "{{i18n:TowniesNeedArtisanGoods_Clint_PickledArtichokes_Text}}",
+        "TowniesNeedArtisanGoods_Clint_PickledArtichokes_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Clint_PickledArtichokes_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Clint_PickledArtichokes_Message_0": "{{i18n:TowniesNeedArtisanGoods_Clint_PickledArtichokes_Message_0}}"
       }
     },
     // Strings Demetrius Oil Makers
@@ -141,10 +141,10 @@
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
-        "TowniesSeekArtisanGoods_Demetrius_OilMakers_Name": "{{i18n:TowniesSeekArtisanGoods_Demetrius_OilMakers_Name}}",
-        "TowniesSeekArtisanGoods_Demetrius_OilMakers_Text": "{{i18n:TowniesSeekArtisanGoods_Demetrius_OilMakers_Text}}",
-        "TowniesSeekArtisanGoods_Demetrius_OilMakers_Objective_Text_0": "{{i18n:TowniesSeekArtisanGoods_Demetrius_OilMakers_Objective_Text_0}}",
-        "TowniesSeekArtisanGoods_Demetrius_OilMakers_Message_0": "{{i18n:TowniesSeekArtisanGoods_Demetrius_OilMakers_Message_0}}"
+        "TowniesNeedArtisanGoods_Demetrius_OilMakers_Name": "{{i18n:TowniesNeedArtisanGoods_Demetrius_OilMakers_Name}}",
+        "TowniesNeedArtisanGoods_Demetrius_OilMakers_Text": "{{i18n:TowniesNeedArtisanGoods_Demetrius_OilMakers_Text}}",
+        "TowniesNeedArtisanGoods_Demetrius_OilMakers_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Demetrius_OilMakers_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Demetrius_OilMakers_Message_0": "{{i18n:TowniesNeedArtisanGoods_Demetrius_OilMakers_Message_0}}"
       }
     },
     // Strings Elliott Elegant Quill
@@ -153,10 +153,10 @@
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
-        "TowniesSeekArtisanGoods_Elliott_ElegantQuill_Name": "{{i18n:TowniesSeekArtisanGoods_Elliott_ElegantQuill_Name}}",
-        "TowniesSeekArtisanGoods_Elliott_ElegantQuill_Text": "{{i18n:TowniesSeekArtisanGoods_Elliott_ElegantQuill_Text}}",
-        "TowniesSeekArtisanGoods_Elliott_ElegantQuill_Objective_Text_0": "{{i18n:TowniesSeekArtisanGoods_Elliott_ElegantQuill_Objective_Text_0}}",
-        "TowniesSeekArtisanGoods_Elliott_ElegantQuill_Message_0": "{{i18n:TowniesSeekArtisanGoods_Elliott_ElegantQuill_Message_0}}"
+        "TowniesNeedArtisanGoods_Elliott_ElegantQuill_Name": "{{i18n:TowniesNeedArtisanGoods_Elliott_ElegantQuill_Name}}",
+        "TowniesNeedArtisanGoods_Elliott_ElegantQuill_Text": "{{i18n:TowniesNeedArtisanGoods_Elliott_ElegantQuill_Text}}",
+        "TowniesNeedArtisanGoods_Elliott_ElegantQuill_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Elliott_ElegantQuill_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Elliott_ElegantQuill_Message_0": "{{i18n:TowniesNeedArtisanGoods_Elliott_ElegantQuill_Message_0}}"
       }
     },
     // Strings Emily Rainbow
@@ -165,23 +165,23 @@
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
-        "TowniesSeekArtisanGoods_Emily_Rainbow_Name": "{{i18n:TowniesSeekArtisanGoods_Emily_Rainbow_Name}}",
-        "TowniesSeekArtisanGoods_Emily_Rainbow_Text": "{{i18n:TowniesSeekArtisanGoods_Emily_Rainbow_Text}}",
-        "TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_0": "{{i18n:TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_0}}",
-        "TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_1": "{{i18n:TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_1}}",
-        "TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_2": "{{i18n:TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_2}}",
-        "TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_3": "{{i18n:TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_3}}",
-        "TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_4": "{{i18n:TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_4}}",
-        "TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_5": "{{i18n:TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_5}}",
-        "TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_6": "{{i18n:TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_6}}",
-        "TowniesSeekArtisanGoods_Emily_Rainbow_Message_0": "{{i18n:TowniesSeekArtisanGoods_Emily_Rainbow_Message_0}}",
-        "TowniesSeekArtisanGoods_Emily_Rainbow_Message_1": "{{i18n:TowniesSeekArtisanGoods_Emily_Rainbow_Message_1}}",
-        "TowniesSeekArtisanGoods_Emily_Rainbow_Message_2": "{{i18n:TowniesSeekArtisanGoods_Emily_Rainbow_Message_2}}",
-        "TowniesSeekArtisanGoods_Emily_Rainbow_Message_3": "{{i18n:TowniesSeekArtisanGoods_Emily_Rainbow_Message_3}}",
-        "TowniesSeekArtisanGoods_Emily_Rainbow_Message_4": "{{i18n:TowniesSeekArtisanGoods_Emily_Rainbow_Message_4}}",
-        "TowniesSeekArtisanGoods_Emily_Rainbow_Message_5": "{{i18n:TowniesSeekArtisanGoods_Emily_Rainbow_Message_5}}",
-        "TowniesSeekArtisanGoods_Emily_Rainbow_Message_6": "{{i18n:TowniesSeekArtisanGoods_Emily_Rainbow_Message_6}}",
-        "TowniesSeekArtisanGoods_Emily_Rainbow_Message_7": "{{i18n:TowniesSeekArtisanGoods_Emily_Rainbow_Message_7}}"
+        "TowniesNeedArtisanGoods_Emily_Rainbow_Name": "{{i18n:TowniesNeedArtisanGoods_Emily_Rainbow_Name}}",
+        "TowniesNeedArtisanGoods_Emily_Rainbow_Text": "{{i18n:TowniesNeedArtisanGoods_Emily_Rainbow_Text}}",
+        "TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_1": "{{i18n:TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_1}}",
+        "TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_2": "{{i18n:TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_2}}",
+        "TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_3": "{{i18n:TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_3}}",
+        "TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_4": "{{i18n:TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_4}}",
+        "TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_5": "{{i18n:TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_5}}",
+        "TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_6": "{{i18n:TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_6}}",
+        "TowniesNeedArtisanGoods_Emily_Rainbow_Message_0": "{{i18n:TowniesNeedArtisanGoods_Emily_Rainbow_Message_0}}",
+        "TowniesNeedArtisanGoods_Emily_Rainbow_Message_1": "{{i18n:TowniesNeedArtisanGoods_Emily_Rainbow_Message_1}}",
+        "TowniesNeedArtisanGoods_Emily_Rainbow_Message_2": "{{i18n:TowniesNeedArtisanGoods_Emily_Rainbow_Message_2}}",
+        "TowniesNeedArtisanGoods_Emily_Rainbow_Message_3": "{{i18n:TowniesNeedArtisanGoods_Emily_Rainbow_Message_3}}",
+        "TowniesNeedArtisanGoods_Emily_Rainbow_Message_4": "{{i18n:TowniesNeedArtisanGoods_Emily_Rainbow_Message_4}}",
+        "TowniesNeedArtisanGoods_Emily_Rainbow_Message_5": "{{i18n:TowniesNeedArtisanGoods_Emily_Rainbow_Message_5}}",
+        "TowniesNeedArtisanGoods_Emily_Rainbow_Message_6": "{{i18n:TowniesNeedArtisanGoods_Emily_Rainbow_Message_6}}",
+        "TowniesNeedArtisanGoods_Emily_Rainbow_Message_7": "{{i18n:TowniesNeedArtisanGoods_Emily_Rainbow_Message_7}}"
       }
     },
     // Strings Emily Tailoring Materials
@@ -190,10 +190,10 @@
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
-        "TowniesSeekArtisanGoods_Emily_TailoringMaterials_Name": "{{i18n:TowniesSeekArtisanGoods_Emily_TailoringMaterials_Name}}",
-        "TowniesSeekArtisanGoods_Emily_TailoringMaterials_Text": "{{i18n:TowniesSeekArtisanGoods_Emily_TailoringMaterials_Text}}",
-        "TowniesSeekArtisanGoods_Emily_TailoringMaterials_Objective_Text_0": "{{i18n:TowniesSeekArtisanGoods_Emily_TailoringMaterials_Objective_Text_0}}",
-        "TowniesSeekArtisanGoods_Emily_TailoringMaterials_Message_0": "{{i18n:TowniesSeekArtisanGoods_Emily_TailoringMaterials_Message_0}}"
+        "TowniesNeedArtisanGoods_Emily_TailoringMaterials_Name": "{{i18n:TowniesNeedArtisanGoods_Emily_TailoringMaterials_Name}}",
+        "TowniesNeedArtisanGoods_Emily_TailoringMaterials_Text": "{{i18n:TowniesNeedArtisanGoods_Emily_TailoringMaterials_Text}}",
+        "TowniesNeedArtisanGoods_Emily_TailoringMaterials_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Emily_TailoringMaterials_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Emily_TailoringMaterials_Message_0": "{{i18n:TowniesNeedArtisanGoods_Emily_TailoringMaterials_Message_0}}"
       }
     },
     // Strings Evelyn Sugar Substitute
@@ -202,10 +202,10 @@
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
-        "TowniesSeekArtisanGoods_Evelyn_SugarSubstitute_Name": "{{i18n:TowniesSeekArtisanGoods_Evelyn_SugarSubstitute_Name}}",
-        "TowniesSeekArtisanGoods_Evelyn_SugarSubstitute_Text": "{{i18n:TowniesSeekArtisanGoods_Evelyn_SugarSubstitute_Text}}",
-        "TowniesSeekArtisanGoods_Evelyn_SugarSubstitute_Objective_Text_0": "{{i18n:TowniesSeekArtisanGoods_Evelyn_SugarSubstitute_Objective_Text_0}}",
-        "TowniesSeekArtisanGoods_Evelyn_SugarSubstitute_Message_0": "{{i18n:TowniesSeekArtisanGoods_Evelyn_SugarSubstitute_Message_0}}"
+        "TowniesNeedArtisanGoods_Evelyn_SugarSubstitute_Name": "{{i18n:TowniesNeedArtisanGoods_Evelyn_SugarSubstitute_Name}}",
+        "TowniesNeedArtisanGoods_Evelyn_SugarSubstitute_Text": "{{i18n:TowniesNeedArtisanGoods_Evelyn_SugarSubstitute_Text}}",
+        "TowniesNeedArtisanGoods_Evelyn_SugarSubstitute_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Evelyn_SugarSubstitute_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Evelyn_SugarSubstitute_Message_0": "{{i18n:TowniesNeedArtisanGoods_Evelyn_SugarSubstitute_Message_0}}"
       }
     },
     // Strings George Advanced Knee Therapy
@@ -214,10 +214,10 @@
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
-        "TowniesSeekArtisanGoods_George_AdvancedKneeTherapy_Name": "{{i18n:TowniesSeekArtisanGoods_George_AdvancedKneeTherapy_Name}}",
-        "TowniesSeekArtisanGoods_George_AdvancedKneeTherapy_Text": "{{i18n:TowniesSeekArtisanGoods_George_AdvancedKneeTherapy_Text}}",
-        "TowniesSeekArtisanGoods_George_AdvancedKneeTherapy_Objective_Text_0": "{{i18n:TowniesSeekArtisanGoods_George_AdvancedKneeTherapy_Objective_Text_0}}",
-        "TowniesSeekArtisanGoods_George_AdvancedKneeTherapy_Message_0": "{{i18n:TowniesSeekArtisanGoods_George_AdvancedKneeTherapy_Message_0}}"
+        "TowniesNeedArtisanGoods_George_AdvancedKneeTherapy_Name": "{{i18n:TowniesNeedArtisanGoods_George_AdvancedKneeTherapy_Name}}",
+        "TowniesNeedArtisanGoods_George_AdvancedKneeTherapy_Text": "{{i18n:TowniesNeedArtisanGoods_George_AdvancedKneeTherapy_Text}}",
+        "TowniesNeedArtisanGoods_George_AdvancedKneeTherapy_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_George_AdvancedKneeTherapy_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_George_AdvancedKneeTherapy_Message_0": "{{i18n:TowniesNeedArtisanGoods_George_AdvancedKneeTherapy_Message_0}}"
       }
     },
     // Strings George Healthy Roe
@@ -226,10 +226,10 @@
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
-        "TowniesSeekArtisanGoods_George_HealthyRoe_Name": "{{i18n:TowniesSeekArtisanGoods_George_HealthyRoe_Name}}",
-        "TowniesSeekArtisanGoods_George_HealthyRoe_Text": "{{i18n:TowniesSeekArtisanGoods_George_HealthyRoe_Text}}",
-        "TowniesSeekArtisanGoods_George_HealthyRoe_Objective_Text_0": "{{i18n:TowniesSeekArtisanGoods_George_HealthyRoe_Objective_Text_0}}",
-        "TowniesSeekArtisanGoods_George_HealthyRoe_Message_0": "{{i18n:TowniesSeekArtisanGoods_George_HealthyRoe_Message_0}}"
+        "TowniesNeedArtisanGoods_George_HealthyRoe_Name": "{{i18n:TowniesNeedArtisanGoods_George_HealthyRoe_Name}}",
+        "TowniesNeedArtisanGoods_George_HealthyRoe_Text": "{{i18n:TowniesNeedArtisanGoods_George_HealthyRoe_Text}}",
+        "TowniesNeedArtisanGoods_George_HealthyRoe_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_George_HealthyRoe_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_George_HealthyRoe_Message_0": "{{i18n:TowniesNeedArtisanGoods_George_HealthyRoe_Message_0}}"
       }
     },
     // Strings Gus Drinks for the Fair
@@ -238,10 +238,10 @@
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
-        "TowniesSeekArtisanGoods_Gus_DrinksfortheFair_Name": "{{i18n:TowniesSeekArtisanGoods_Gus_DrinksfortheFair_Name}}",
-        "TowniesSeekArtisanGoods_Gus_DrinksfortheFair_Text": "{{i18n:TowniesSeekArtisanGoods_Gus_DrinksfortheFair_Text}}",
-        "TowniesSeekArtisanGoods_Gus_DrinksfortheFair_Objective_Text_0": "{{i18n:TowniesSeekArtisanGoods_Gus_DrinksfortheFair_Objective_Text_0}}",
-        "TowniesSeekArtisanGoods_Gus_DrinksfortheFair_Message_0": "{{i18n:TowniesSeekArtisanGoods_Gus_DrinksfortheFair_Message_0}}"
+        "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Name": "{{i18n:TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Name}}",
+        "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Text": "{{i18n:TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Text}}",
+        "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Message_0": "{{i18n:TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Message_0}}"
       }
     },
   ]

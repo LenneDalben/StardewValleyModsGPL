@@ -6,26 +6,26 @@
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesSeekArtisanGoods_Abigail_SweetPumpkin": {
-          "Name": "[TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Name]", // This is where the special order name is pulled from
+        "TowniesNeedArtisanGoods_Abigail_SweetPumpkin": {
+          "Name": "[TowniesNeedArtisanGoods_Abigail_SweetPumpkin_Name]", // This is where the special order name is pulled from
           "Requester": "Abigail",
           "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Text]", // The text shown on the special order board and the journal
+          "Text": "[TowniesNeedArtisanGoods_Abigail_SweetPumpkin_Text]", // The text shown on the special order board and the journal
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Objective_Text_0]", // The text for the objective in the journal
+              "Text": "[TowniesNeedArtisanGoods_Abigail_SweetPumpkin_Objective_Text_0]", // The text for the objective in the journal
               "RequiredCount": "3",
               "Data": {
                 "AcceptedContextTags": "item_pumpkin_juice",
-                "Message": "[TowniesSeekArtisanGoods_Abigail_SweetPumpkin_Message_0]", // What the NPC says when you deliver the item
+                "Message": "[TowniesNeedArtisanGoods_Abigail_SweetPumpkin_Message_0]", // What the NPC says when you deliver the item
                 "TargetName": "Abigail"
               }
             }
@@ -55,26 +55,26 @@
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesSeekArtisanGoods_Abigail_YellowMayo": {
-          "Name": "[TowniesSeekArtisanGoods_Abigail_YellowMayo_Name]",
+        "TowniesNeedArtisanGoods_Abigail_YellowMayo": {
+          "Name": "[TowniesNeedArtisanGoods_Abigail_YellowMayo_Name]",
           "Requester": "Abigail",
           "Duration": "ThreeDays",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesSeekArtisanGoods_Abigail_YellowMayo_Text]",
+          "Text": "[TowniesNeedArtisanGoods_Abigail_YellowMayo_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesSeekArtisanGoods_Abigail_YellowMayo_Objective_Text_0]",
+              "Text": "[TowniesNeedArtisanGoods_Abigail_YellowMayo_Objective_Text_0]",
               "RequiredCount": "3",
               "Data": {
                 "AcceptedContextTags": "item_duck_mayonnaise",
-                "Message": "[TowniesSeekArtisanGoods_Abigail_YellowMayo_Message_0]",
+                "Message": "[TowniesNeedArtisanGoods_Abigail_YellowMayo_Message_0]",
                 "TargetName": "Abigail"
               }
             }
@@ -104,26 +104,26 @@
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesSeekArtisanGoods_Alex_SweetApple": {
-          "Name": "[TowniesSeekArtisanGoods_Alex_SweetApple_Name]",
+        "TowniesNeedArtisanGoods_Alex_SweetApple": {
+          "Name": "[TowniesNeedArtisanGoods_Alex_SweetApple_Name]",
           "Requester": "Alex",
           "Duration": "Month",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesSeekArtisanGoods_Alex_SweetApple_Text]",
+          "Text": "[TowniesNeedArtisanGoods_Alex_SweetApple_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesSeekArtisanGoods_Alex_SweetApple_Objective_Text_0]",
+              "Text": "[TowniesNeedArtisanGoods_Alex_SweetApple_Objective_Text_0]",
               "RequiredCount": "7",
               "Data": {
                 "AcceptedContextTags": "item_apple_wine, quality_gold/quality_iridium",
-                "Message": "[TowniesSeekArtisanGoods_Alex_SweetApple_Message_0]",
+                "Message": "[TowniesNeedArtisanGoods_Alex_SweetApple_Message_0]",
                 "TargetName": "Alex"
               }
             }
@@ -153,26 +153,26 @@
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesSeekArtisanGoods_Alex_TrainingDiet": {
-          "Name": "[TowniesSeekArtisanGoods_Alex_TrainingDiet_Name]",
+        "TowniesNeedArtisanGoods_Alex_TrainingDiet": {
+          "Name": "[TowniesNeedArtisanGoods_Alex_TrainingDiet_Name]",
           "Requester": "Alex",
           "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesSeekArtisanGoods_Alex_TrainingDiet_Text]",
+          "Text": "[TowniesNeedArtisanGoods_Alex_TrainingDiet_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesSeekArtisanGoods_Alex_TrainingDiet_Objective_Text_0]",
+              "Text": "[TowniesNeedArtisanGoods_Alex_TrainingDiet_Objective_Text_0]",
               "RequiredCount": "8",
               "Data": {
                 "AcceptedContextTags": "item_aged_salmon_roe",
-                "Message": "[TowniesSeekArtisanGoods_Alex_TrainingDiet_Message_0]",
+                "Message": "[TowniesNeedArtisanGoods_Alex_TrainingDiet_Message_0]",
                 "TargetName": "Alex"
               }
             }
@@ -202,26 +202,26 @@
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes": {
-          "Name": "[TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Name]",
+        "TowniesNeedArtisanGoods_Caroline_JuicyElectrolytes": {
+          "Name": "[TowniesNeedArtisanGoods_Caroline_JuicyElectrolytes_Name]",
           "Requester": "Caroline",
           "Duration": "Month",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Text]",
+          "Text": "[TowniesNeedArtisanGoods_Caroline_JuicyElectrolytes_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Objective_Text_0]",
+              "Text": "[TowniesNeedArtisanGoods_Caroline_JuicyElectrolytes_Objective_Text_0]",
               "RequiredCount": "15",
               "Data": {
                 "AcceptedContextTags": "juice_item",
-                "Message": "[TowniesSeekArtisanGoods_Caroline_JuicyElectrolytes_Message_0]",
+                "Message": "[TowniesNeedArtisanGoods_Caroline_JuicyElectrolytes_Message_0]",
                 "TargetName": "Caroline"
               }
             }
@@ -251,26 +251,26 @@
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesSeekArtisanGoods_Caroline_SpangleHoney": {
-          "Name": "[TowniesSeekArtisanGoods_Caroline_SpangleHoney_Name]",
+        "TowniesNeedArtisanGoods_Caroline_SpangleHoney": {
+          "Name": "[TowniesNeedArtisanGoods_Caroline_SpangleHoney_Name]",
           "Requester": "Caroline",
           "Duration": "TwoWeek",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesSeekArtisanGoods_Caroline_SpangleHoney_Text]",
+          "Text": "[TowniesNeedArtisanGoods_Caroline_SpangleHoney_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesSeekArtisanGoods_Caroline_SpangleHoney_Objective_Text_0]",
+              "Text": "[TowniesNeedArtisanGoods_Caroline_SpangleHoney_Objective_Text_0]",
               "RequiredCount": "8",
               "Data": {
                 "AcceptedContextTags": "item_summer_spangle_honey",
-                "Message": "[TowniesSeekArtisanGoods_Caroline_SpangleHoney_Message_0]",
+                "Message": "[TowniesNeedArtisanGoods_Caroline_SpangleHoney_Message_0]",
                 "TargetName": "Caroline"
               }
             }
@@ -300,26 +300,26 @@
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesSeekArtisanGoods_Clint_PickledArtichokes": {
-          "Name": "[TowniesSeekArtisanGoods_Clint_PickledArtichokes_Name]",
+        "TowniesNeedArtisanGoods_Clint_PickledArtichokes": {
+          "Name": "[TowniesNeedArtisanGoods_Clint_PickledArtichokes_Name]",
           "Requester": "Clint",
           "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesSeekArtisanGoods_Clint_PickledArtichokes_Text]",
+          "Text": "[TowniesNeedArtisanGoods_Clint_PickledArtichokes_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesSeekArtisanGoods_Clint_PickledArtichokes_Objective_Text_0]",
+              "Text": "[TowniesNeedArtisanGoods_Clint_PickledArtichokes_Objective_Text_0]",
               "RequiredCount": "7",
               "Data": {
                 "AcceptedContextTags": "item_pickled_artichoke",
-                "Message": "[TowniesSeekArtisanGoods_Clint_PickledArtichokes_Message_0]",
+                "Message": "[TowniesNeedArtisanGoods_Clint_PickledArtichokes_Message_0]",
                 "TargetName": "Clint"
               }
             }
@@ -349,26 +349,26 @@
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesSeekArtisanGoods_Demetrius_OilMakers": {
-          "Name": "[TowniesSeekArtisanGoods_Demetrius_OilMakers_Name]",
+        "TowniesNeedArtisanGoods_Demetrius_OilMakers": {
+          "Name": "[TowniesNeedArtisanGoods_Demetrius_OilMakers_Name]",
           "Requester": "Demetrius",
           "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesSeekArtisanGoods_Demetrius_OilMakers_Text]",
+          "Text": "[TowniesNeedArtisanGoods_Demetrius_OilMakers_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesSeekArtisanGoods_Demetrius_OilMakers_Objective_Text_0]",
+              "Text": "[TowniesNeedArtisanGoods_Demetrius_OilMakers_Objective_Text_0]",
               "RequiredCount": "3",
               "Data": {
                 "AcceptedContextTags": "item_oil_maker",
-                "Message": "[TowniesSeekArtisanGoods_Demetrius_OilMakers_Message_0]",
+                "Message": "[TowniesNeedArtisanGoods_Demetrius_OilMakers_Message_0]",
                 "TargetName": "Demetrius"
               }
             }
@@ -398,26 +398,26 @@
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesSeekArtisanGoods_Elliott_ElegantQuill": {
-          "Name": "[TowniesSeekArtisanGoods_Elliott_ElegantQuill_Name]",
+        "TowniesNeedArtisanGoods_Elliott_ElegantQuill": {
+          "Name": "[TowniesNeedArtisanGoods_Elliott_ElegantQuill_Name]",
           "Requester": "Elliott",
           "Duration": "TwoWeek",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesSeekArtisanGoods_Elliott_ElegantQuill_Text]",
+          "Text": "[TowniesNeedArtisanGoods_Elliott_ElegantQuill_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesSeekArtisanGoods_Elliott_ElegantQuill_Objective_Text_0]",
+              "Text": "[TowniesNeedArtisanGoods_Elliott_ElegantQuill_Objective_Text_0]",
               "RequiredCount": "2",
               "Data": {
                 "AcceptedContextTags": "item_duck_feather",
-                "Message": "[TowniesSeekArtisanGoods_Elliott_ElegantQuill_Message_0]",
+                "Message": "[TowniesNeedArtisanGoods_Elliott_ElegantQuill_Message_0]",
                 "TargetName": "Elliott"
               }
             }
@@ -446,96 +446,96 @@
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesSeekArtisanGoods_Emily_Rainbow": {
-          "Name": "[TowniesSeekArtisanGoods_Emily_Rainbow_Name]",
+        "TowniesNeedArtisanGoods_Emily_Rainbow": {
+          "Name": "[TowniesNeedArtisanGoods_Emily_Rainbow_Name]",
           "Requester": "Emily",
           "Duration": "Month",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesSeekArtisanGoods_Emily_Rainbow_Text]",
+          "Text": "[TowniesNeedArtisanGoods_Emily_Rainbow_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_0]",
+              "Text": "[TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
                 "AcceptedContextTags": "item_hot_pepper_jelly",
-                "Message": "[TowniesSeekArtisanGoods_Emily_Rainbow_Message_0]",
+                "Message": "[TowniesNeedArtisanGoods_Emily_Rainbow_Message_0]",
                 "TargetName": "Emily"
               }
             },
             {
               "Type": "Deliver",
-              "Text": "[TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_1]",
+              "Text": "[TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
                 "AcceptedContextTags": "item_orange_jelly",
-                "Message": "[TowniesSeekArtisanGoods_Emily_Rainbow_Message_1]",
+                "Message": "[TowniesNeedArtisanGoods_Emily_Rainbow_Message_1]",
                 "TargetName": "Emily"
               }
             },
             {
               "Type": "Deliver",
-              "Text": "[TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_2]",
+              "Text": "[TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_2]",
               "RequiredCount": "1",
               "Data": {
                 "AcceptedContextTags": "item_sunflower_honey",
-                "Message": "[TowniesSeekArtisanGoods_Emily_Rainbow_Message_2]",
+                "Message": "[TowniesNeedArtisanGoods_Emily_Rainbow_Message_2]",
                 "TargetName": "Emily"
               }
             },
             {
               "Type": "Deliver",
-              "Text": "[TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_3]",
+              "Text": "[TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_3]",
               "RequiredCount": "1",
               "Data": {
                 "AcceptedContextTags": "item_green_tea",
-                "Message": "[TowniesSeekArtisanGoods_Emily_Rainbow_Message_3]",
+                "Message": "[TowniesNeedArtisanGoods_Emily_Rainbow_Message_3]",
                 "TargetName": "Emily"
               }
             },
             {
               "Type": "Deliver",
-              "Text": "[TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_4]",
+              "Text": "[TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_4]",
               "RequiredCount": "1",
               "Data": {
                 "AcceptedContextTags": "item_blueberry_wine",
-                "Message": "[TowniesSeekArtisanGoods_Emily_Rainbow_Message_4]",
+                "Message": "[TowniesNeedArtisanGoods_Emily_Rainbow_Message_4]",
                 "TargetName": "Emily"
               }
             },
             {
               "Type": "Deliver",
-              "Text": "[TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_5]",
+              "Text": "[TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_5]",
               "RequiredCount": "1",
               "Data": {
                 "AcceptedContextTags": "item_pickled_eggplant",
-                "Message": "[TowniesSeekArtisanGoods_Emily_Rainbow_Message_5]",
+                "Message": "[TowniesNeedArtisanGoods_Emily_Rainbow_Message_5]",
                 "TargetName": "Emily"
               }
             },
             {
               "Type": "Deliver",
-              "Text": "[TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_6]",
+              "Text": "[TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_6]",
               "RequiredCount": "1",
               "Data": {
                 "AcceptedContextTags": "item_melon_wine",
-                "Message": "[TowniesSeekArtisanGoods_Emily_Rainbow_Message_6]",
+                "Message": "[TowniesNeedArtisanGoods_Emily_Rainbow_Message_6]",
                 "TargetName": "Emily"
               }
             },
             {
               "Type": "Deliver",
-              "Text": "[TowniesSeekArtisanGoods_Emily_Rainbow_Objective_Text_7]",
+              "Text": "[TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_7]",
               "RequiredCount": "1",
               "Data": {
                 "AcceptedContextTags": "item_goat_cheese",
-                "Message": "[TowniesSeekArtisanGoods_Emily_Rainbow_Message_7]",
+                "Message": "[TowniesNeedArtisanGoods_Emily_Rainbow_Message_7]",
                 "TargetName": "Emily"
               }
             },
@@ -565,26 +565,26 @@
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesSeekArtisanGoods_Emily_TailoringMaterials": {
-          "Name": "[TowniesSeekArtisanGoods_Emily_TailoringMaterials_Name]",
+        "TowniesNeedArtisanGoods_Emily_TailoringMaterials": {
+          "Name": "[TowniesNeedArtisanGoods_Emily_TailoringMaterials_Name]",
           "Requester": "Emily",
           "Duration": "Month",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesSeekArtisanGoods_Emily_TailoringMaterials_Text]",
+          "Text": "[TowniesNeedArtisanGoods_Emily_TailoringMaterials_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesSeekArtisanGoods_Emily_TailoringMaterials_Objective_Text_0]",
+              "Text": "[TowniesNeedArtisanGoods_Emily_TailoringMaterials_Objective_Text_0]",
               "RequiredCount": "30",
               "Data": {
                 "AcceptedContextTags": "item_cloth",
-                "Message": "[TowniesSeekArtisanGoods_Emily_TailoringMaterials_Message_0]",
+                "Message": "[TowniesNeedArtisanGoods_Emily_TailoringMaterials_Message_0]",
                 "TargetName": "Emily"
               }
             }
@@ -614,26 +614,26 @@
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesSeekArtisanGoods_Evelyn_SugarSubstitute": {
-          "Name": "[TowniesSeekArtisanGoods_Evelyn_SugarSubstitute_Name]",
+        "TowniesNeedArtisanGoods_Evelyn_SugarSubstitute": {
+          "Name": "[TowniesNeedArtisanGoods_Evelyn_SugarSubstitute_Name]",
           "Requester": "Evelyn",
           "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesSeekArtisanGoods_Evelyn_SugarSubstitute_Text]",
+          "Text": "[TowniesNeedArtisanGoods_Evelyn_SugarSubstitute_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesSeekArtisanGoods_Evelyn_SugarSubstitute_Objective_Text_0]",
+              "Text": "[TowniesNeedArtisanGoods_Evelyn_SugarSubstitute_Objective_Text_0]",
               "RequiredCount": "5",
               "Data": {
                 "AcceptedContextTags": "honey_item",
-                "Message": "[TowniesSeekArtisanGoods_Evelyn_SugarSubstitute_Message_0]",
+                "Message": "[TowniesNeedArtisanGoods_Evelyn_SugarSubstitute_Message_0]",
                 "TargetName": "Evelyn"
               }
             }
@@ -663,26 +663,26 @@
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesSeekArtisanGoods_George_AdvancedKneeTherapy": {
-          "Name": "[TowniesSeekArtisanGoods_George_AdvancedKneeTherapy_Name]",
+        "TowniesNeedArtisanGoods_George_AdvancedKneeTherapy": {
+          "Name": "[TowniesNeedArtisanGoods_George_AdvancedKneeTherapy_Name]",
           "Requester": "George",
           "Duration": "TwoWeek",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesSeekArtisanGoods_George_AdvancedKneeTherapy_Text]",
+          "Text": "[TowniesNeedArtisanGoods_George_AdvancedKneeTherapy_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesSeekArtisanGoods_George_AdvancedKneeTherapy_Objective_Text_0]",
+              "Text": "[TowniesNeedArtisanGoods_George_AdvancedKneeTherapy_Objective_Text_0]",
               "RequiredCount": "7",
               "Data": {
                 "AcceptedContextTags": "item_hot_pepper_jelly",
-                "Message": "[TowniesSeekArtisanGoods_George_AdvancedKneeTherapy_Message_0]",
+                "Message": "[TowniesNeedArtisanGoods_George_AdvancedKneeTherapy_Message_0]",
                 "TargetName": "George"
               }
             }
@@ -713,26 +713,26 @@
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesSeekArtisanGoods_George_HealthyRoe": {
-          "Name": "[TowniesSeekArtisanGoods_George_HealthyRoe_Name]",
+        "TowniesNeedArtisanGoods_George_HealthyRoe": {
+          "Name": "[TowniesNeedArtisanGoods_George_HealthyRoe_Name]",
           "Requester": "George",
           "Duration": "TwoWeek",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesSeekArtisanGoods_George_HealthyRoe_Text]",
+          "Text": "[TowniesNeedArtisanGoods_George_HealthyRoe_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesSeekArtisanGoods_George_HealthyRoe_Objective_Text_0]",
+              "Text": "[TowniesNeedArtisanGoods_George_HealthyRoe_Objective_Text_0]",
               "RequiredCount": "10",
               "Data": {
                 "AcceptedContextTags": "item_aged_sunfish_roe/item_aged_sardine_roe/item_aged_anchovy_roe",
-                "Message": "[TowniesSeekArtisanGoods_George_HealthyRoe_Message_0]",
+                "Message": "[TowniesNeedArtisanGoods_George_HealthyRoe_Message_0]",
                 "TargetName": "George"
               }
             }
@@ -762,26 +762,26 @@
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesSeekArtisanGoods_Gus_DrinksfortheFair": {
-          "Name": "[TowniesSeekArtisanGoods_Gus_DrinksfortheFair_Name]",
+        "TowniesNeedArtisanGoods_Gus_DrinksfortheFair": {
+          "Name": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Name]",
           "Requester": "George",
           "Duration": "Month",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesSeekArtisanGoods_Gus_DrinksfortheFair_Text]",
+          "Text": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesSeekArtisanGoods_Gus_DrinksfortheFair_Objective_Text_0]",
+              "Text": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Objective_Text_0]",
               "RequiredCount": "30",
               "Data": {
                 "AcceptedContextTags": "item_pale_ale",
-                "Message": "[TowniesSeekArtisanGoods_Gus_DrinksfortheFair_Message_0]",
+                "Message": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Message_0]",
                 "TargetName": "George"
               }
             }
