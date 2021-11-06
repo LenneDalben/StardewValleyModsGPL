@@ -292,5 +292,17 @@
         "TowniesNeedArtisanGoods_Jas_TeaParty_Message_0": "{{i18n:TowniesNeedArtisanGoods_Jas_TeaParty_Message_0}}"
       }
     },
+    // Strings Jodi Bass Aged Roe
+    {
+      "LogName": "Strings Jodi Bass Aged Roe",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Jodi_BassAgedRoe_Name": "{{i18n:TowniesNeedArtisanGoods_Jodi_BassAgedRoe_Name}}",
+        "TowniesNeedArtisanGoods_Jodi_BassAgedRoe_Text": "{{i18n:TowniesNeedArtisanGoods_Jodi_BassAgedRoe_Text}}",
+        "TowniesNeedArtisanGoods_Jodi_BassAgedRoe_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Jodi_BassAgedRoe_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Jodi_BassAgedRoe_Message_0": "{{i18n:TowniesNeedArtisanGoods_Jodi_BassAgedRoe_Message_0}}"
+      }
+    },
   ]
 }
