@@ -103,4 +103,11 @@
   "TowniesSeekArtisanGoods_George_HealthyRoe_Text": "Harvey suggested I try aged roe because it's healthy. Could someone bring me 10 jars? Sunfish, sardine, or anchovy only.",
   "TowniesSeekArtisanGoods_George_HealthyRoe_Objective_Text_0": "Deliver 10 Aged Roe (sunfish, sardine, or anchovy) to George",
   "TowniesSeekArtisanGoods_George_HealthyRoe_Message_0": "Hmph, I hope this tastes ok.#$b#Thank you @!$h",
+  //
+  //
+  // Gus Drinks for the Fair Strings
+  "TowniesSeekArtisanGoods_Gus_DrinksfortheFair_Name": "Drinks for the Fair",
+  "TowniesSeekArtisanGoods_Gus_DrinksfortheFair_Text": "It's never too early to start preparing for the Fair. Could someone bring me 30 bottles of pale ale?",
+  "TowniesSeekArtisanGoods_Gus_DrinksfortheFair_Objective_Text_0": "Deliver 30 Pale Ales to Gus",
+  "TowniesSeekArtisanGoods_Gus_DrinksfortheFair_Message_0": "Thank you @! This will really help with the Fair.$h",
 }

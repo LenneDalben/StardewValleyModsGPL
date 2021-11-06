@@ -232,5 +232,17 @@
         "TowniesSeekArtisanGoods_George_HealthyRoe_Message_0": "{{i18n:TowniesSeekArtisanGoods_George_HealthyRoe_Message_0}}"
       }
     },
+    // Strings Gus Drinks for the Fair
+    {
+      "LogName": "Strings Gus Drinks for the Fair",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesSeekArtisanGoods_Gus_DrinksfortheFair_Name": "{{i18n:TowniesSeekArtisanGoods_Gus_DrinksfortheFair_Name}}",
+        "TowniesSeekArtisanGoods_Gus_DrinksfortheFair_Text": "{{i18n:TowniesSeekArtisanGoods_Gus_DrinksfortheFair_Text}}",
+        "TowniesSeekArtisanGoods_Gus_DrinksfortheFair_Objective_Text_0": "{{i18n:TowniesSeekArtisanGoods_Gus_DrinksfortheFair_Objective_Text_0}}",
+        "TowniesSeekArtisanGoods_Gus_DrinksfortheFair_Message_0": "{{i18n:TowniesSeekArtisanGoods_Gus_DrinksfortheFair_Message_0}}"
+      }
+    },
   ]
 }

@@ -756,5 +756,54 @@
         "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10"
       }
     },
+    // Gus Drinks for the Fair
+    {
+      "LogName": "Gus Drinks for the Fair",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesSeekArtisanGoods_Gus_DrinksfortheFair": {
+          "Name": "[TowniesSeekArtisanGoods_Gus_DrinksfortheFair_Name]",
+          "Requester": "George",
+          "Duration": "Month",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesSeekArtisanGoods_Gus_DrinksfortheFair_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesSeekArtisanGoods_Gus_DrinksfortheFair_Objective_Text_0]",
+              "RequiredCount": "30",
+              "Data": {
+                "AcceptedContextTags": "item_pale_ale",
+                "Message": "[TowniesSeekArtisanGoods_Gus_DrinksfortheFair_Message_0]",
+                "TargetName": "George"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "12600"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "beer",
+        "SkillLevel:Farming": "8, 9, 10"
+      }
+    },
   ]
 }
