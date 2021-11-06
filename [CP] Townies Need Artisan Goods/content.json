@@ -268,5 +268,17 @@
         "TowniesNeedArtisanGoods_Haley_DIYHaircare_Message_0": "{{i18n:TowniesNeedArtisanGoods_Haley_DIYHaircare_Message_0}}"
       }
     },
+    // Strings Harvey Nutritious Pickles
+    {
+      "LogName": "Strings Harvey Nutritious Pickles",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Harvey_NutritiousPickles_Name": "{{i18n:TowniesNeedArtisanGoods_Harvey_NutritiousPickles_Name}}",
+        "TowniesNeedArtisanGoods_Harvey_NutritiousPickles_Text": "{{i18n:TowniesNeedArtisanGoods_Harvey_NutritiousPickles_Text}}",
+        "TowniesNeedArtisanGoods_Harvey_NutritiousPickles_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Harvey_NutritiousPickles_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Harvey_NutritiousPickles_Message_0": "{{i18n:TowniesNeedArtisanGoods_Harvey_NutritiousPickles_Message_0}}"
+      }
+    },
   ]
 }

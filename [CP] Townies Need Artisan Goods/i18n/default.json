@@ -124,4 +124,11 @@
   "TowniesNeedArtisanGoods_Haley_DIYHaircare_Text": "I could use some help with hair products. Could someone bring me 2 jars of coconut jelly?",
   "TowniesNeedArtisanGoods_Haley_DIYHaircare_Objective_Text_0": "Deliver 2 Coconut Jelly to Haley",
   "TowniesNeedArtisanGoods_Haley_DIYHaircare_Message_0": "Thanks, @!$h#$b#These will help keep my hair moisturized.",
+  //
+  //
+  // Harvey Nutritious Pickles Strings
+  "TowniesNeedArtisanGoods_Harvey_NutritiousPickles_Name": "Nutritious Pickles",
+  "TowniesNeedArtisanGoods_Harvey_NutritiousPickles_Text": "Pickles make a healthy snack. Could someone bring me 9 jars?",
+  "TowniesNeedArtisanGoods_Harvey_NutritiousPickles_Objective_Text_0": "Deliver 9 Pickle Jars to Harvey",
+  "TowniesNeedArtisanGoods_Harvey_NutritiousPickles_Message_0": "I appreciate this, @!$h#$b#Healthy snacks are hard to come by.",
 }

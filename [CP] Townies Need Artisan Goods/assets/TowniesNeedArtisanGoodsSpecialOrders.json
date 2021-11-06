@@ -905,5 +905,54 @@
         "HasFlag": "ccVault"
       }
     },
+    // Harvey Nutritious Pickles
+    {
+      "LogName": "Harvey Nutritious Pickles",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Harvey_NutritiousPickles": {
+          "Name": "[TowniesNeedArtisanGoods_Harvey_NutritiousPickles_Name]",
+          "Requester": "Harvey",
+          "Duration": "TwoWeek",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Harvey_NutritiousPickles_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Harvey_NutritiousPickles_Objective_Text_0]",
+              "RequiredCount": "9",
+              "Data": {
+                "AcceptedContextTags": "pickle_item",
+                "Message": "[TowniesNeedArtisanGoods_Harvey_NutritiousPickles_Message_0]",
+                "TargetName": "Harvey"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1350"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "pickles",
+        "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10"
+      }
+    },
   ]
 }
