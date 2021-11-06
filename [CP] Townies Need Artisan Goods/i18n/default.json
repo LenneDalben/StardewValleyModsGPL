@@ -117,4 +117,11 @@
   "TowniesNeedArtisanGoods_Gus_SpecialIngredient_Text": "The secret to my legendary pizzas is high quality cheese, gold or iridium. Could someone bring me 8?",
   "TowniesNeedArtisanGoods_Gus_SpecialIngredient_Objective_Text_0": "Deliver 8 Cheese to Gus (gold or iridium quality)",
   "TowniesNeedArtisanGoods_Gus_SpecialIngredient_Message_0": "All this cheese looks great, thanks @!$h",
+  //
+  //
+  // Haley DIY Haircare Strings
+  "TowniesNeedArtisanGoods_Haley_DIYHaircare_Name": "DIY Haircare",
+  "TowniesNeedArtisanGoods_Haley_DIYHaircare_Text": "I could use some help with hair products. Could someone bring me 2 jars of coconut jelly?",
+  "TowniesNeedArtisanGoods_Haley_DIYHaircare_Objective_Text_0": "Deliver 2 Coconut Jelly to Haley",
+  "TowniesNeedArtisanGoods_Haley_DIYHaircare_Message_0": "Thanks, @!$h#$b#These will help keep my hair moisturized.",
 }

@@ -855,5 +855,55 @@
         "PlayerHasCellarOrQAP": "true"
       }
     },
+    // Haley DIY Haircare
+    {
+      "LogName": "Haley DIY Haircare",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Haley_DIYHaircare": {
+          "Name": "[TowniesNeedArtisanGoods_Haley_DIYHaircare_Name]",
+          "Requester": "Haley",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Haley_DIYHaircare_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Haley_DIYHaircare_Objective_Text_0]",
+              "RequiredCount": "2",
+              "Data": {
+                "AcceptedContextTags": "item_coconut_jelly",
+                "Message": "[TowniesNeedArtisanGoods_Haley_DIYHaircare_Message_0]",
+                "TargetName": "Haley"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "700"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "jelly",
+        "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10",
+        "HasFlag": "ccVault"
+      }
+    },
   ]
 }

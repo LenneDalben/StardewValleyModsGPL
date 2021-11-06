@@ -256,5 +256,17 @@
         "TowniesNeedArtisanGoods_Gus_SpecialIngredient_Message_0": "{{i18n:TowniesNeedArtisanGoods_Gus_SpecialIngredient_Message_0}}"
       }
     },
+    // Strings Haley DIY Haircare
+    {
+      "LogName": "Strings Haley DIY Haircare",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Haley_DIYHaircare_Name": "{{i18n:TowniesNeedArtisanGoods_Haley_DIYHaircare_Name}}",
+        "TowniesNeedArtisanGoods_Haley_DIYHaircare_Text": "{{i18n:TowniesNeedArtisanGoods_Haley_DIYHaircare_Text}}",
+        "TowniesNeedArtisanGoods_Haley_DIYHaircare_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Haley_DIYHaircare_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Haley_DIYHaircare_Message_0": "{{i18n:TowniesNeedArtisanGoods_Haley_DIYHaircare_Message_0}}"
+      }
+    },
   ]
 }
