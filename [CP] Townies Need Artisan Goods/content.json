@@ -280,5 +280,17 @@
         "TowniesNeedArtisanGoods_Harvey_NutritiousPickles_Message_0": "{{i18n:TowniesNeedArtisanGoods_Harvey_NutritiousPickles_Message_0}}"
       }
     },
+    // Strings Jas Tea Party
+    {
+      "LogName": "Strings Jas Tea Party",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Jas_TeaParty_Name": "{{i18n:TowniesNeedArtisanGoods_Jas_TeaParty_Name}}",
+        "TowniesNeedArtisanGoods_Jas_TeaParty_Text": "{{i18n:TowniesNeedArtisanGoods_Jas_TeaParty_Text}}",
+        "TowniesNeedArtisanGoods_Jas_TeaParty_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Jas_TeaParty_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Jas_TeaParty_Message_0": "{{i18n:TowniesNeedArtisanGoods_Jas_TeaParty_Message_0}}"
+      }
+    },
   ]
 }

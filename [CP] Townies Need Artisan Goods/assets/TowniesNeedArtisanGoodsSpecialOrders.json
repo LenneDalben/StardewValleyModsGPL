@@ -954,5 +954,54 @@
         "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10"
       }
     },
+    // Jas Tea Party
+    {
+      "LogName": "Jas Tea Party",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Jas_TeaParty": {
+          "Name": "[TowniesNeedArtisanGoods_Jas_TeaParty_Name]",
+          "Requester": "Marnie",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Jas_TeaParty_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Jas_TeaParty_Objective_Text_0]",
+              "RequiredCount": "3",
+              "Data": {
+                "AcceptedContextTags": "item_green_tea",
+                "Message": "[TowniesNeedArtisanGoods_Jas_TeaParty_Message_0]",
+                "TargetName": "Jas"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "420"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "food",
+        "SkillLevel:Farming": "8, 9, 10"
+      }
+    },
   ]
 }

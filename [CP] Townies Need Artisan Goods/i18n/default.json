@@ -131,4 +131,11 @@
   "TowniesNeedArtisanGoods_Harvey_NutritiousPickles_Text": "Pickles make a healthy snack. Could someone bring me 9 jars?",
   "TowniesNeedArtisanGoods_Harvey_NutritiousPickles_Objective_Text_0": "Deliver 9 Pickle Jars to Harvey",
   "TowniesNeedArtisanGoods_Harvey_NutritiousPickles_Message_0": "I appreciate this, @!$h#$b#Healthy snacks are hard to come by.",
+  //
+  //
+  // Jas Tea Party Strings
+  "TowniesNeedArtisanGoods_Jas_TeaParty_Name": "Tea Party!",
+  "TowniesNeedArtisanGoods_Jas_TeaParty_Text": "Jas would love to have a tea party! Could someone bring her 3 cups of green tea?",
+  "TowniesNeedArtisanGoods_Jas_TeaParty_Objective_Text_0": "Deliver3 Green Tea to Jas",
+  "TowniesNeedArtisanGoods_Jas_TeaParty_Message_0": "I appreciate this, @!$h#$b#Healthy snacks are hard to come by.",
 }
