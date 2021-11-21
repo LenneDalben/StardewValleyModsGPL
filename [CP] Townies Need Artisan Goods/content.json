@@ -4,7 +4,7 @@
     "RepeatableConfig": {
       "Description": "Specify if you want the special orders to be repeatable (true, false). Default is true.",
       "AllowValues": "true, false",
-      "Default": true,
+      "Default": "true",
       "AllowBlank": false,
       "AllowMultiple": false
     },
