@@ -304,5 +304,17 @@
         "TowniesNeedArtisanGoods_Jodi_BassAgedRoe_Message_0": "{{i18n:TowniesNeedArtisanGoods_Jodi_BassAgedRoe_Message_0}}"
       }
     },
+    // Strings Kent Jelly for PB&J
+    {
+      "LogName": "Strings Kent Jelly for PB&J",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Kent_JellyforPBJ_Name": "{{i18n:TowniesNeedArtisanGoods_Kent_JellyforPBJ_Name}}",
+        "TowniesNeedArtisanGoods_Kent_JellyforPBJ_Text": "{{i18n:TowniesNeedArtisanGoods_Kent_JellyforPBJ_Text}}",
+        "TowniesNeedArtisanGoods_Kent_JellyforPBJ_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Kent_JellyforPBJ_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Kent_JellyforPBJ_Message_0": "{{i18n:TowniesNeedArtisanGoods_Kent_JellyforPBJ_Message_0}}"
+      }
+    },
   ]
 }

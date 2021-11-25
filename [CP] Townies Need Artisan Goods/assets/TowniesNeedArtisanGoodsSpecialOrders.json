@@ -1052,5 +1052,55 @@
         "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10"
       }
     },
+    // Kent Jelly for PB&J
+    {
+      "LogName": "Kent Jelly for PB&J",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Kent_JellyforPBJ": {
+          "Name": "[TowniesNeedArtisanGoods_Kent_JellyforPBJ_Name]",
+          "Requester": "Kent",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Kent_JellyforPBJ_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Kent_JellyforPBJ_Objective_Text_0]",
+              "RequiredCount": "3",
+              "Data": {
+                "AcceptedContextTags": "item_strawberry_jelly/item_grape_jelly",
+                "Message": "[TowniesNeedArtisanGoods_Kent_JellyforPBJ_Message_0]",
+                "TargetName": "Kent"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1050"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "jelly",
+        "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10",
+        "HasSeenEvent": "63"
+      }
+    },
   ]
 }
