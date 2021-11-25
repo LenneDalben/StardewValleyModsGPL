@@ -159,4 +159,11 @@
   "TowniesNeedArtisanGoods_Krobus_PastyTreat_Text": "Greetings. Void mayonnaise is a special treat for me. Could someone in town drop some off at the sewer?",
   "TowniesNeedArtisanGoods_Krobus_PastyTreat_Objective_Text_0": "Deliver 4 Void Mayonnaise to Krobus",
   "TowniesNeedArtisanGoods_Krobus_PastyTreat_Message_0": "I look forward to enjoying this.$h#$b#You have my thanks.$h",
+  //
+  //
+  // Leah Bees in the Meadow Strings
+  "TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Name": "Bees in the Meadow",
+  "TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Text": "Hi! I think the forest meadows could use more bee activity. Would someone be able to bring me 5 bee houses? I think that would help encourage them!",
+  "TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Objective_Text_0": "Deliver 5 Bee House to Leah",
+  "TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Message_0": "Thanks, @! These should make some bees happy.$h",
 }

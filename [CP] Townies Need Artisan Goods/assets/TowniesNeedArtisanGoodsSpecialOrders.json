@@ -388,7 +388,7 @@
         }
       },
       "When": {
-        "OrderType": "machines",
+        "OrderType": "machine",
         "SkillLevel:Farming": "8, 9, 10"
       }
     },
@@ -1149,7 +1149,57 @@
       "When": {
         "OrderType": "animal",
         "SkillLevel:Farming": "2, 3, 4, 5, 6, 7, 8, 9, 10",
-        "HasSeenEvent": "63"
+        "HasSeenEvent": "66"
+      }
+    },
+    // Leah Bees in the Meadow
+    {
+      "LogName": "Leah Bees in the Meadow",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Leah_Beesin the Meadow": {
+          "Name": "[TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Name]",
+          "Requester": "Leah",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Objective_Text_0]",
+              "RequiredCount": "5",
+              "Data": {
+                "AcceptedContextTags": "item_bee_house",
+                "Message": "[TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Message_0]",
+                "TargetName": "Leah"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "28750"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "machine",
+        "SkillLevel:Farming": "3, 4, 5, 6, 7, 8, 9, 10",
+        "HasSeenEvent": "66"
       }
     },
   ]
