@@ -1198,8 +1198,7 @@
       },
       "When": {
         "OrderType": "machine",
-        "SkillLevel:Farming": "3, 4, 5, 6, 7, 8, 9, 10",
-        "HasSeenEvent": "66"
+        "SkillLevel:Farming": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
   ]
