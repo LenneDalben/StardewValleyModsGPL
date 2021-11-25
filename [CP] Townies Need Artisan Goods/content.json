@@ -316,5 +316,17 @@
         "TowniesNeedArtisanGoods_Kent_JellyforPBJ_Message_0": "{{i18n:TowniesNeedArtisanGoods_Kent_JellyforPBJ_Message_0}}"
       }
     },
+    // Strings Krobus Pasty Treat
+    {
+      "LogName": "Strings Krobus Pasty Treat",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Krobus_PastyTreat_Name": "{{i18n:TowniesNeedArtisanGoods_Krobus_PastyTreat_Name}}",
+        "TowniesNeedArtisanGoods_Krobus_PastyTreat_Text": "{{i18n:TowniesNeedArtisanGoods_Krobus_PastyTreat_Text}}",
+        "TowniesNeedArtisanGoods_Krobus_PastyTreat_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Krobus_PastyTreat_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Krobus_PastyTreat_Message_0": "{{i18n:TowniesNeedArtisanGoods_Krobus_PastyTreat_Message_0}}"
+      }
+    },
   ]
 }

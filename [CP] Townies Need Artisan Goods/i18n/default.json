@@ -152,4 +152,11 @@
   "TowniesNeedArtisanGoods_Kent_JellyforPBJ_Text": "I'd to make some peanut butter and jelly sandwiches for the boys. Could someone bring me 3 jars of jelly? Strawberry or grape only, please.",
   "TowniesNeedArtisanGoods_Kent_JellyforPBJ_Objective_Text_0": "Deliver 4 Jelly to Kent (strawberry or grape)",
   "TowniesNeedArtisanGoods_Kent_JellyforPBJ_Message_0": "Hmm?#$b#Thanks for these, @!$h",
+  //
+  //
+  // Krobus Pasty Treat Strings
+  "TowniesNeedArtisanGoods_Krobus_PastyTreat_Name": "Pasty Treat",
+  "TowniesNeedArtisanGoods_Krobus_PastyTreat_Text": "Greetings. Void mayonnaise is a special treat for me. Could someone in town drop some off at the sewer?",
+  "TowniesNeedArtisanGoods_Krobus_PastyTreat_Objective_Text_0": "Deliver 4 Void Mayonnaise to Krobus",
+  "TowniesNeedArtisanGoods_Krobus_PastyTreat_Message_0": "I look forward to enjoying this.$h#$b#You have my thanks.$h",
 }
