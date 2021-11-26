@@ -1158,7 +1158,7 @@
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesNeedArtisanGoods_Leah_Beesin the Meadow": {
+        "TowniesNeedArtisanGoods_Leah_BeesintheMeadow": {
           "Name": "[TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Name]",
           "Requester": "Leah",
           "Duration": "Week",
@@ -1199,6 +1199,55 @@
       "When": {
         "OrderType": "machine",
         "SkillLevel:Farming": "3, 4, 5, 6, 7, 8, 9, 10"
+      }
+    },
+    // Leah Spreadable Mayo
+    {
+      "LogName": "Leah Spreadable Mayo",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Leah_SpreadableMayo": {
+          "Name": "[TowniesNeedArtisanGoods_Leah_SpreadableMayo_Name]",
+          "Requester": "Leah",
+          "Duration": "ThreeDays",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Leah_SpreadableMayo_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Leah_SpreadableMayo_Objective_Text_0]",
+              "RequiredCount": "5",
+              "Data": {
+                "AcceptedContextTags": "item_mayonnaise",
+                "Message": "[TowniesNeedArtisanGoods_Leah_SpreadableMayo_Message_0]",
+                "TargetName": "Leah"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1330"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "animal",
+        "SkillLevel:Farming": "2, 3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
   ]
