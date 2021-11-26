@@ -352,5 +352,17 @@
         "TowniesNeedArtisanGoods_Leah_SpreadableMayo_Message_0": "{{i18n:TowniesNeedArtisanGoods_Leah_SpreadableMayo_Message_0}}"
       }
     },
+    // Strings Leo Sweet Jelly
+    {
+      "LogName": "Strings Leo Sweet Jelly",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Leo_SweetJelly_Name": "{{i18n:TowniesNeedArtisanGoods_Leo_SweetJelly_Name}}",
+        "TowniesNeedArtisanGoods_Leo_SweetJelly_Text": "{{i18n:TowniesNeedArtisanGoods_Leo_SweetJelly_Text}}",
+        "TowniesNeedArtisanGoods_Leo_SweetJelly_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Leo_SweetJelly_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Leo_SweetJelly_Message_0": "{{i18n:TowniesNeedArtisanGoods_Leo_SweetJelly_Message_0}}"
+      }
+    },
   ]
 }
