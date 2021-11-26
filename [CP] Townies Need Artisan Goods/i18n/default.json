@@ -180,4 +180,17 @@
   "TowniesNeedArtisanGoods_Leo_SweetJelly_Text": "Could someone bring Leo 5 jars of mango jelly? I think he'd enjoy that.     - Linus =",
   "TowniesNeedArtisanGoods_Leo_SweetJelly_Objective_Text_0": "Deliver 5 Mango Jelly to Leo",
   "TowniesNeedArtisanGoods_Leo_SweetJelly_Message_0": "Is that...$2#$b#Thank you!$h",
+  //
+  //
+  // Lewis Special Night Strings
+  "TowniesNeedArtisanGoods_Lewis_SpecialNight_Name": "Special Night",
+  "TowniesNeedArtisanGoods_Lewis_SpecialNight_Text": "Hello Pelican Town, I'm planning a special dinner, and I could use some help with the food and drink. Could someone bring a gold or iridium quality wine, 2 oysters, chocolate cake, and truffle oil to your favorite mayor?",
+  "TowniesNeedArtisanGoods_Lewis_SpecialNight_Objective_Text_0": "Deliver 1 Gold or Iridium Quality Wine to Lewis",
+  "TowniesNeedArtisanGoods_Lewis_SpecialNight_Objective_Text_1": "Deliver 2 Oyster to Lewis",
+  "TowniesNeedArtisanGoods_Lewis_SpecialNight_Objective_Text_2": "Deliver 1 Chocolate Cake to Lewis",
+  "TowniesNeedArtisanGoods_Lewis_SpecialNight_Objective_Text_3": "Deliver 1 Truffle Oil to Lewis",
+  "TowniesNeedArtisanGoods_Lewis_SpecialNight_Message_0": "This looks like a fine wine. Thanks @!$h",
+  "TowniesNeedArtisanGoods_Lewis_SpecialNight_Message_1": "These should help set the mood!$h#$b#I didn't mean to say that out loud.#$b#*Ahem*... Thanks, @.",
+  "TowniesNeedArtisanGoods_Lewis_SpecialNight_Message_2": "A classic dessert. Thanks @!$h",
+  "TowniesNeedArtisanGoods_Lewis_SpecialNight_Message_3": "Thanks, @!$h#$b#What's it for?#$b#W-well, that's none of your business.",
 }

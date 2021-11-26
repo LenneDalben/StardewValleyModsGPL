@@ -364,5 +364,23 @@
         "TowniesNeedArtisanGoods_Leo_SweetJelly_Message_0": "{{i18n:TowniesNeedArtisanGoods_Leo_SweetJelly_Message_0}}"
       }
     },
+    // Strings Lewis Special Night
+    {
+      "LogName": "Strings Lewis Special Night",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Lewis_SpecialNight_Name": "{{i18n:TowniesNeedArtisanGoods_Lewis_SpecialNight_Name}}",
+        "TowniesNeedArtisanGoods_Lewis_SpecialNight_Text": "{{i18n:TowniesNeedArtisanGoods_Lewis_SpecialNight_Text}}",
+        "TowniesNeedArtisanGoods_Lewis_SpecialNight_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Lewis_SpecialNight_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Lewis_SpecialNight_Objective_Text_1": "{{i18n:TowniesNeedArtisanGoods_Lewis_SpecialNight_Objective_Text_1}}",
+        "TowniesNeedArtisanGoods_Lewis_SpecialNight_Objective_Text_2": "{{i18n:TowniesNeedArtisanGoods_Lewis_SpecialNight_Objective_Text_2}}",
+        "TowniesNeedArtisanGoods_Lewis_SpecialNight_Objective_Text_3": "{{i18n:TowniesNeedArtisanGoods_Lewis_SpecialNight_Objective_Text_3}}",
+        "TowniesNeedArtisanGoods_Lewis_SpecialNight_Message_0": "{{i18n:TowniesNeedArtisanGoods_Lewis_SpecialNight_Message_0}}",
+        "TowniesNeedArtisanGoods_Lewis_SpecialNight_Message_1": "{{i18n:TowniesNeedArtisanGoods_Lewis_SpecialNight_Message_1}}",
+        "TowniesNeedArtisanGoods_Lewis_SpecialNight_Message_2": "{{i18n:TowniesNeedArtisanGoods_Lewis_SpecialNight_Message_2}}",
+        "TowniesNeedArtisanGoods_Lewis_SpecialNight_Message_3": "{{i18n:TowniesNeedArtisanGoods_Lewis_SpecialNight_Message_3}}",
+      }
+    },
   ]
 }

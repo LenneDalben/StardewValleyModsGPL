@@ -538,7 +538,7 @@
                 "Message": "[TowniesNeedArtisanGoods_Emily_Rainbow_Message_7]",
                 "TargetName": "Emily"
               }
-            },
+            }
           ],
           "Rewards": [
             {
@@ -1299,6 +1299,86 @@
         "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10",
         "IncludeIslandContent": "true",
         "HasSeenEvent": "1039573"
+      }
+    },
+    // Lewis Special Night
+    {
+      "LogName": "Lewis Special Night",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Lewis_SpecialNight": {
+          "Name": "[TowniesNeedArtisanGoods_Lewis_SpecialNight_Name]",
+          "Requester": "Lewis",
+          "Duration": "Month",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Lewis_SpecialNight_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Lewis_SpecialNight_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "wine_item, quality_gold/quality_iridium",
+                "Message": "[TowniesNeedArtisanGoods_Lewis_SpecialNight_Message_0]",
+                "TargetName": "Lewis"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Lewis_SpecialNight_Objective_Text_1]",
+              "RequiredCount": "2",
+              "Data": {
+                "AcceptedContextTags": "item_oyster",
+                "Message": "[TowniesNeedArtisanGoods_Lewis_SpecialNight_Message_1]",
+                "TargetName": "Lewis"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Lewis_SpecialNight_Objective_Text_2]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_chocolate_cake",
+                "Message": "[TowniesNeedArtisanGoods_Lewis_SpecialNight_Message_2]",
+                "TargetName": "Lewis"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Lewis_SpecialNight_Objective_Text_3]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_truffle_oil",
+                "Message": "[TowniesNeedArtisanGoods_Lewis_SpecialNight_Message_3]",
+                "TargetName": "Lewis"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "2451"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "wine, animal, food",
+        "SkillLevel:Farming": "8, 9, 10",
+        "PlayerHasCellarOrQAP": "true"
       }
     },
   ]
