@@ -1381,5 +1381,75 @@
         "PlayerHasCellarOrQAP": "true"
       }
     },
+    // Linus Berry Flavor
+    {
+      "LogName": "Linus Berry Flavor",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Linus_BerryFlavor": {
+          "Name": "[TowniesNeedArtisanGoods_Linus_BerryFlavor_Name]",
+          "Requester": "Linus",
+          "Duration": "TwoWeek",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Linus_BerryFlavor_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Linus_BerryFlavor_Objective_Text_0]",
+              "RequiredCount": "10",
+              "Data": {
+                "AcceptedContextTags": "item_salmonberry_jelly",
+                "Message": "[TowniesNeedArtisanGoods_Linus_BerryFlavor_Message_0]",
+                "TargetName": "Linus"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Linus_BerryFlavor_Objective_Text_1]",
+              "RequiredCount": "10",
+              "Data": {
+                "AcceptedContextTags": "item_spice_berry_jelly",
+                "Message": "[TowniesNeedArtisanGoods_Linus_BerryFlavor_Message_1]",
+                "TargetName": "Linus"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Linus_BerryFlavor_Objective_Text_2]",
+              "RequiredCount": "10",
+              "Data": {
+                "AcceptedContextTags": "item_blackberry_jelly",
+                "Message": "[TowniesNeedArtisanGoods_Linus_BerryFlavor_Message_2]",
+                "TargetName": "Linus"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "5040"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "jelly",
+        "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10",
+        "Year | contains=1": false
+      }
+    },
   ]
 }

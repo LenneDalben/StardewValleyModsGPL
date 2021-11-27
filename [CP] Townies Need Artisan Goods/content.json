@@ -382,5 +382,21 @@
         "TowniesNeedArtisanGoods_Lewis_SpecialNight_Message_3": "{{i18n:TowniesNeedArtisanGoods_Lewis_SpecialNight_Message_3}}",
       }
     },
+    // Strings Linus Berry Flavor
+    {
+      "LogName": "Strings Linus Berry Flavor",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Linus_BerryFlavor_Name": "{{i18n:TowniesNeedArtisanGoods_Linus_BerryFlavor_Name}}",
+        "TowniesNeedArtisanGoods_Linus_BerryFlavor_Text": "{{i18n:TowniesNeedArtisanGoods_Linus_BerryFlavor_Text}}",
+        "TowniesNeedArtisanGoods_Linus_BerryFlavor_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Linus_BerryFlavor_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Linus_BerryFlavor_Objective_Text_1": "{{i18n:TowniesNeedArtisanGoods_Linus_BerryFlavor_Objective_Text_1}}",
+        "TowniesNeedArtisanGoods_Linus_BerryFlavor_Objective_Text_2": "{{i18n:TowniesNeedArtisanGoods_Linus_BerryFlavor_Objective_Text_2}}",
+        "TowniesNeedArtisanGoods_Linus_BerryFlavor_Message_0": "{{i18n:TowniesNeedArtisanGoods_Linus_BerryFlavor_Message_0}}",
+        "TowniesNeedArtisanGoods_Linus_BerryFlavor_Message_1": "{{i18n:TowniesNeedArtisanGoods_Linus_BerryFlavor_Message_1}}",
+        "TowniesNeedArtisanGoods_Linus_BerryFlavor_Message_2": "{{i18n:TowniesNeedArtisanGoods_Linus_BerryFlavor_Message_2}}",
+      }
+    },
   ]
 }

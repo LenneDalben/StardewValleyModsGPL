@@ -193,4 +193,15 @@
   "TowniesNeedArtisanGoods_Lewis_SpecialNight_Message_1": "These should help set the mood!$h#$b#I didn't mean to say that out loud.#$b#*Ahem*... Thanks, @.",
   "TowniesNeedArtisanGoods_Lewis_SpecialNight_Message_2": "A classic dessert. Thanks @!$h",
   "TowniesNeedArtisanGoods_Lewis_SpecialNight_Message_3": "Thanks, @!$h#$b#What's it for?#$b#W-well, that's none of your business.",
+  //
+  //
+  // Linus Berry Flavor Strings
+  "TowniesNeedArtisanGoods_Linus_BerryFlavor_Name": "Berry Flavor",
+  "TowniesNeedArtisanGoods_Linus_BerryFlavor_Text": "Hello Pelican Town, I'm planning a special dinner, and I could use some help with the food and drink. Could someone bring a gold or iridium quality wine, 2 oysters, chocolate cake, and truffle oil to your favorite mayor?",
+  "TowniesNeedArtisanGoods_Linus_BerryFlavor_Objective_Text_0": "Deliver 10 Salmonberry Jelly to Linus",
+  "TowniesNeedArtisanGoods_Linus_BerryFlavor_Objective_Text_1": "Deliver 10 Spice Berry Jelly to Linus",
+  "TowniesNeedArtisanGoods_Linus_BerryFlavor_Objective_Text_2": "Deliver 10 Blackberry Jelly to Linus",
+  "TowniesNeedArtisanGoods_Linus_BerryFlavor_Message_0": "This is a nice reminder of spring.$h",
+  "TowniesNeedArtisanGoods_Linus_BerryFlavor_Message_1": "The smell reminds me of summer.$h",
+  "TowniesNeedArtisanGoods_Linus_BerryFlavor_Message_2": "Sweeter than raspberry jelly. Thanks, @!$h",
 }
