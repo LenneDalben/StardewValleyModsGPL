@@ -1451,5 +1451,54 @@
         "Year | contains=1": false
       }
     },
+    // Marnie Casks for Cheese
+    {
+      "LogName": "Marnie Casks for Cheese",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Marnie_CasksforCheese": {
+          "Name": "[TowniesNeedArtisanGoods_Marnie_CasksforCheese_Name]",
+          "Requester": "Marnie",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Marnie_CasksforCheese_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Marnie_CasksforCheese_Objective_Text_0]",
+              "RequiredCount": "3",
+              "Data": {
+                "AcceptedContextTags": "item_cask",
+                "Message": "[TowniesNeedArtisanGoods_Marnie_CasksforCheese_Message_0]",
+                "TargetName": "Marnie"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "5275"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "machine",
+        "FarmhouseUpgrade": "3"
+      }
+    },
   ]
 }

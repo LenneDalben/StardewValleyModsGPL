@@ -204,4 +204,11 @@
   "TowniesNeedArtisanGoods_Linus_BerryFlavor_Message_0": "This is a nice reminder of spring.$h",
   "TowniesNeedArtisanGoods_Linus_BerryFlavor_Message_1": "The smell reminds me of summer.$h",
   "TowniesNeedArtisanGoods_Linus_BerryFlavor_Message_2": "Sweeter than raspberry jelly. Thanks, @!$h",
+  //
+  //
+  // Marnie Casks for Cheese Strings
+  "TowniesNeedArtisanGoods_Marnie_CasksforCheese_Name": "Casks for Cheese",
+  "TowniesNeedArtisanGoods_Marnie_CasksforCheese_Text": "Howdy neighbors! I'd love to get some casks to age cheese. Could someone bring me 5?",
+  "TowniesNeedArtisanGoods_Marnie_CasksforCheese_Objective_Text_0": "Deliver 5 Cask to Marnie",
+  "TowniesNeedArtisanGoods_Marnie_CasksforCheese_Message_0": "Thhanks @! I'm looking forward to some fine cheese.$h",
 }
