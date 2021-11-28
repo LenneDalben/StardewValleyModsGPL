@@ -902,7 +902,7 @@
       "When": {
         "OrderType": "jelly",
         "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10",
-        "HasFlag": "ccVault"
+        "HasFlag |contains=ccVault, jojaVault": "true"
       }
     },
     // Harvey Nutritious Pickles
@@ -999,6 +999,7 @@
         }
       },
       "When": {
+        "OrderType": "misc",
         "SkillLevel:Farming": "8, 9, 10"
       }
     },
