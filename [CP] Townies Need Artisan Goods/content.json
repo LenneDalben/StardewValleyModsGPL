@@ -159,6 +159,18 @@
         "TowniesNeedArtisanGoods_Elliott_ElegantQuill_Message_0": "{{i18n:TowniesNeedArtisanGoods_Elliott_ElegantQuill_Message_0}}"
       }
     },
+    // Strings Elliott Sweet Inspiration
+    {
+      "LogName": "Strings Elliott Sweet Inspiration",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Elliott_SweetInspiration_Name": "{{i18n:TowniesNeedArtisanGoods_Elliott_SweetInspiration_Name}}",
+        "TowniesNeedArtisanGoods_Elliott_SweetInspiration_Text": "{{i18n:TowniesNeedArtisanGoods_Elliott_SweetInspiration_Text}}",
+        "TowniesNeedArtisanGoods_Elliott_SweetInspiration_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Elliott_SweetInspiration_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Elliott_SweetInspiration_Message_0": "{{i18n:TowniesNeedArtisanGoods_Elliott_SweetInspiration_Message_0}}"
+      }
+    },
     // Strings Emily Rainbow
     {
       "LogName": "Strings Emily Rainbow",

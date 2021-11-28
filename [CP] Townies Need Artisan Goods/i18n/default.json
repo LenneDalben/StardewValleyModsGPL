@@ -56,6 +56,12 @@
   "TowniesNeedArtisanGoods_Elliott_ElegantQuill_Objective_Text_0": "Deliver 2 Duck Feathers to Elliott",
   "TowniesNeedArtisanGoods_Elliott_ElegantQuill_Message_0": "Thanks @! These feathers look lovely.$h",
   //
+  // Elliott Sweet Inspiration Strings
+  "TowniesNeedArtisanGoods_Elliott_SweetInspiration_Name": "Sweet Inspiration",
+  "TowniesNeedArtisanGoods_Elliott_SweetInspiration_Text": "Drinking mead while watching the sun set over the ocean can be quite relaxing. Could someone bring me 4 bottles?",
+  "TowniesNeedArtisanGoods_Elliott_SweetInspiration_Objective_Text_0": "Deliver 4 Mead bottles to Elliott",
+  "TowniesNeedArtisanGoods_Elliott_SweetInspiration_Message_0": "I'm looking forward to these. Thanks @!$h",
+  //
   // Emily Rainbow Strings
   "TowniesNeedArtisanGoods_Emily_Rainbow_Name": "Rainbow!",
   "TowniesNeedArtisanGoods_Emily_Rainbow_Text": "I'd like to make my own version of a rainbow of colors! Could someone bring me 1 duck mayonnaise?",

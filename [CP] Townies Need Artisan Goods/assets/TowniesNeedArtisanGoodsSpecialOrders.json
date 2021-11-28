@@ -440,6 +440,55 @@
         "OrderType": "animal"
       }
     },
+    // Elliott Sweet Inspiration
+    {
+      "LogName": "Elliott Sweet Inspiration",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Elliott_SweetInspiration": {
+          "Name": "[TowniesNeedArtisanGoods_Elliott_SweetInspiration_Name]",
+          "Requester": "Elliott",
+          "Duration": "TwoWeek",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Elliott_SweetInspiration_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Elliott_SweetInspiration_Objective_Text_0]",
+              "RequiredCount": "4",
+              "Data": {
+                "AcceptedContextTags": "item_mead",
+                "Message": "[TowniesNeedArtisanGoods_Elliott_SweetInspiration_Message_0]",
+                "TargetName": "Elliott"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1120"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "mead",
+        "SkillLevel:Farming": "3, 4, 5, 6, 7, 8, 9, 10"
+      }
+    },
     // Emily Rainbow
     {
       "LogName": "Emily Rainbow",
