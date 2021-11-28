@@ -2,7 +2,7 @@
   // Abigail Sweet Pumpkin Strings
   "TowniesNeedArtisanGoods_Abigail_SweetPumpkin_Name": "Sweet Pumpkin",
   "TowniesNeedArtisanGoods_Abigail_SweetPumpkin_Text": "I'd love some pumpkin juice. Could someone bring me 3 bottles?",
-  "TowniesNeedArtisanGoods_Abigail_SweetPumpkin_Objective_Text_0": "Deliver 3 Pumpkin Juice to Abigail",
+  "TowniesNeedArtisanGoods_Abigail_SweetPumpkin_Objective_Text_0": "Deliver 3 Pumpkin Juice bottles to Abigail",
   "TowniesNeedArtisanGoods_Abigail_SweetPumpkin_Message_0": "This will be sweet and nutritious, thanks @!$h",
   //
   // Abigail Yellow Mayo Strings
@@ -14,34 +14,34 @@
   // Alex Sweet Apple Strings
   "TowniesNeedArtisanGoods_Alex_SweetApple_Name": "Sweet Apple",
   "TowniesNeedArtisanGoods_Alex_SweetApple_Text": "Apple wine is special to me. Could someone bring me 7 bottles? Gold or iridium quality, please.",
-  "TowniesNeedArtisanGoods_Alex_SweetApple_Objective_Text_0": "Deliver 7 Apple Wine to Alex (gold or iridium quality)",
+  "TowniesNeedArtisanGoods_Alex_SweetApple_Objective_Text_0": "Deliver 7 Apple Wine bottles to Alex (gold or iridium quality)",
   "TowniesNeedArtisanGoods_Alex_SweetApple_Message_0": "Quality apple wine is fantastic. Thanks @!$h",
   //
   // Alex Training Diet Strings
   "TowniesNeedArtisanGoods_Alex_TrainingDiet_Name": "Training Diet",
   "TowniesNeedArtisanGoods_Alex_TrainingDiet_Text": "I'm trying out roe as a source of protein to train. Could someone bring me 7 aged salmon roe?",
-  "TowniesNeedArtisanGoods_Alex_TrainingDiet_Objective_Text_0": "Deliver 7 Aged Salmon Roe to Alex",
+  "TowniesNeedArtisanGoods_Alex_TrainingDiet_Objective_Text_0": "Deliver 7 Aged Salmon Roe jars to Alex",
   "TowniesNeedArtisanGoods_Alex_TrainingDiet_Message_0": "This should be good, thanks!$h",
   //
   //
   // Caroline Juicy Electrolytes Strings
   "TowniesNeedArtisanGoods_Caroline_JuicyElectrolytes_Name": "Juicy Electrolytes",
   "TowniesNeedArtisanGoods_Caroline_JuicyElectrolytes_Text": "I think the ladies at aerobics class would love some juice for hydration. Could someone bring me 15 bottles?",
-  "TowniesNeedArtisanGoods_Caroline_JuicyElectrolytes_Objective_Text_0": "Deliver 15 Juice to Caroline",
+  "TowniesNeedArtisanGoods_Caroline_JuicyElectrolytes_Objective_Text_0": "Deliver 15 Juice bottles to Caroline",
   "TowniesNeedArtisanGoods_Caroline_JuicyElectrolytes_Message_0": "This will help replenish electrolytes, thanks @!",
   //
   //
   // Caroline Spangle Honey Strings
   "TowniesNeedArtisanGoods_Caroline_SpangleHoney_Name": "Spangle Honey",
   "TowniesNeedArtisanGoods_Caroline_SpangleHoney_Text": "I'd love some summer spangle honey to go with my green tea. Could someone bring me 8 jars?",
-  "TowniesNeedArtisanGoods_Caroline_SpangleHoney_Objective_Text_0": "Deliver 8 Summer Spangle Honey to Caroline",
+  "TowniesNeedArtisanGoods_Caroline_SpangleHoney_Objective_Text_0": "Deliver 8 Summer Spangle Honey jars to Caroline",
   "TowniesNeedArtisanGoods_Caroline_SpangleHoney_Message_0": "Lovely, thanks @!",
   //
   //
   // Clint Pickled Artichokes Strings
   "TowniesNeedArtisanGoods_Clint_PickledArtichokes_Name": "Pickled Artichokes",
   "TowniesNeedArtisanGoods_Clint_PickledArtichokes_Text": "Pickled Artichokes are a good side dish. Could someone bring me 7 jars?",
-  "TowniesNeedArtisanGoods_Clint_PickledArtichokes_Objective_Text_0": "Deliver 7 Pickled Artichokes to Clint",
+  "TowniesNeedArtisanGoods_Clint_PickledArtichokes_Objective_Text_0": "Deliver 7 Pickled Artichoke  jars to Clint",
   "TowniesNeedArtisanGoods_Clint_PickledArtichokes_Message_0": "Thanks @!",
   //
   // Demetrius Oil Makers Strings
@@ -80,28 +80,28 @@
   // Emily Tailoring Materials Strings
   "TowniesNeedArtisanGoods_Emily_TailoringMaterials_Name": "Tailoring Materials",
   "TowniesNeedArtisanGoods_Emily_TailoringMaterials_Text": "Could someone bring me 30 bolts of cloth? I need to replenish my supplies for sewing.",
-  "TowniesNeedArtisanGoods_Emily_TailoringMaterials_Objective_Text_0": "Deliver 30 Cloth to Emily",
+  "TowniesNeedArtisanGoods_Emily_TailoringMaterials_Objective_Text_0": "Deliver 30 Cloth bolts to Emily",
   "TowniesNeedArtisanGoods_Emily_TailoringMaterials_Message_0": "These will do nicely for the clothes I have planned. Thanks @!",
   //
   //
   // Evelyn Sugar Substitute Strings
   "TowniesNeedArtisanGoods_Evelyn_SugarSubstitute_Name": "Sugar Substitute",
   "TowniesNeedArtisanGoods_Evelyn_SugarSubstitute_Text": "I'm looking to replace sugar in baking. Could someone bring me 5 jars of honey?",
-  "TowniesNeedArtisanGoods_Evelyn_SugarSubstitute_Objective_Text_0": "Deliver 5 Honey to Evelyn",
+  "TowniesNeedArtisanGoods_Evelyn_SugarSubstitute_Objective_Text_0": "Deliver 5 Honey jars to Evelyn",
   "TowniesNeedArtisanGoods_Evelyn_SugarSubstitute_Message_0": "Oh, look at that light gold color!$h#$b#This will sweeten bread wonderfully. Thank you @!",
   //
   //
   // George Advanced Knee Therapy Strings
   "TowniesNeedArtisanGoods_George_AdvancedKneeTherapy_Name": "Advanced Knee Therapy",
   "TowniesNeedArtisanGoods_George_AdvancedKneeTherapy_Text": "I think some hot pepper jelly could help with my knee troubles. Could someone bring me 7 jars?",
-  "TowniesNeedArtisanGoods_George_AdvancedKneeTherapy_Objective_Text_0": "Deliver 7 Hot Pepper Jelly to George",
+  "TowniesNeedArtisanGoods_George_AdvancedKneeTherapy_Objective_Text_0": "Deliver 7 Hot Pepper Jelly jars to George",
   "TowniesNeedArtisanGoods_George_AdvancedKneeTherapy_Message_0": "I'm looking forward to trying this new 'therapy'. Thank you @!$h",
   //
   //
   // George Healthy Roe Strings
   "TowniesNeedArtisanGoods_George_HealthyRoe_Name": "Healthy Roe",
   "TowniesNeedArtisanGoods_George_HealthyRoe_Text": "Harvey suggested I try aged roe because it's healthy. Could someone bring me 10 jars? Sunfish, sardine, or anchovy only.",
-  "TowniesNeedArtisanGoods_George_HealthyRoe_Objective_Text_0": "Deliver 10 Aged Roe (sunfish, sardine, or anchovy) to George",
+  "TowniesNeedArtisanGoods_George_HealthyRoe_Objective_Text_0": "Deliver 10 Aged Roe jars (sunfish, sardine, or anchovy) to George",
   "TowniesNeedArtisanGoods_George_HealthyRoe_Message_0": "Hmph, I hope this tastes ok.#$b#Thank you @!$h",
   //
   //
@@ -122,14 +122,14 @@
   // Haley DIY Haircare Strings
   "TowniesNeedArtisanGoods_Haley_DIYHaircare_Name": "DIY Haircare",
   "TowniesNeedArtisanGoods_Haley_DIYHaircare_Text": "I could use some help with hair products. Could someone bring me 2 jars of coconut jelly?",
-  "TowniesNeedArtisanGoods_Haley_DIYHaircare_Objective_Text_0": "Deliver 2 Coconut Jelly to Haley",
+  "TowniesNeedArtisanGoods_Haley_DIYHaircare_Objective_Text_0": "Deliver 2 Coconut Jelly jars to Haley",
   "TowniesNeedArtisanGoods_Haley_DIYHaircare_Message_0": "Thanks, @!$h#$b#These will help keep my hair moisturized.",
   //
   //
   // Harvey Nutritious Pickles Strings
   "TowniesNeedArtisanGoods_Harvey_NutritiousPickles_Name": "Nutritious Pickles",
   "TowniesNeedArtisanGoods_Harvey_NutritiousPickles_Text": "Pickles make a healthy snack. Could someone bring me 9 jars?",
-  "TowniesNeedArtisanGoods_Harvey_NutritiousPickles_Objective_Text_0": "Deliver 9 Pickle Jars to Harvey",
+  "TowniesNeedArtisanGoods_Harvey_NutritiousPickles_Objective_Text_0": "Deliver 9 Pickle jars to Harvey",
   "TowniesNeedArtisanGoods_Harvey_NutritiousPickles_Message_0": "I appreciate this, @!$h#$b#Healthy snacks are hard to come by.",
   //
   //
@@ -143,42 +143,42 @@
   // Jodi Bass Aged Roe Strings
   "TowniesNeedArtisanGoods_Jodi_BassAgedRoe_Name": "Bass Aged Roe",
   "TowniesNeedArtisanGoods_Jodi_BassAgedRoe_Text": "My family are fans of bass, so I think aged roe would be good to try. Could someone bring me 4 jars of aged roe? Largemouth bass or smallmouth bass will do.",
-  "TowniesNeedArtisanGoods_Jodi_BassAgedRoe_Objective_Text_0": "Deliver 4 Aged Roe to Jodi (largemouth bass or smallmouth bass)",
+  "TowniesNeedArtisanGoods_Jodi_BassAgedRoe_Objective_Text_0": "Deliver 4 Aged Roe jars to Jodi (largemouth bass or smallmouth bass)",
   "TowniesNeedArtisanGoods_Jodi_BassAgedRoe_Message_0": "These look good, @.",
   //
   //
   // Kent Jelly for PB&J Strings
   "TowniesNeedArtisanGoods_Kent_JellyforPBJ_Name": "Jelly for PB&J",
   "TowniesNeedArtisanGoods_Kent_JellyforPBJ_Text": "I'd to make some peanut butter and jelly sandwiches for the boys. Could someone bring me 3 jars of jelly? Strawberry or grape only, please.",
-  "TowniesNeedArtisanGoods_Kent_JellyforPBJ_Objective_Text_0": "Deliver 4 Jelly to Kent (strawberry or grape)",
+  "TowniesNeedArtisanGoods_Kent_JellyforPBJ_Objective_Text_0": "Deliver 4 Jelly jars (strawberry or grape) to Kent",
   "TowniesNeedArtisanGoods_Kent_JellyforPBJ_Message_0": "Hmm?#$b#Thanks for these, @!$h",
   //
   //
   // Krobus Pasty Treat Strings
   "TowniesNeedArtisanGoods_Krobus_PastyTreat_Name": "Pasty Treat",
   "TowniesNeedArtisanGoods_Krobus_PastyTreat_Text": "Greetings. Void mayonnaise is a special treat for me. Could someone in town drop some off at the sewer?",
-  "TowniesNeedArtisanGoods_Krobus_PastyTreat_Objective_Text_0": "Deliver 4 Void Mayonnaise to Krobus",
+  "TowniesNeedArtisanGoods_Krobus_PastyTreat_Objective_Text_0": "Deliver 4 Void Mayonnaise jars to Krobus",
   "TowniesNeedArtisanGoods_Krobus_PastyTreat_Message_0": "I look forward to enjoying this.$h#$b#You have my thanks.$h",
   //
   //
   // Leah Bees in the Meadow Strings
   "TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Name": "Bees in the Meadow",
   "TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Text": "Hi! I think the forest meadows could use more bee activity. Would someone be able to bring me 5 bee houses? I think that would help encourage them!",
-  "TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Objective_Text_0": "Deliver 5 Bee House to Leah",
+  "TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Objective_Text_0": "Deliver 5 Bee Houses to Leah",
   "TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Message_0": "Thanks, @! These should make some bees happy.$h",
   //
   //
   // Leah Spreadable Mayo Strings
   "TowniesNeedArtisanGoods_Leah_SpreadableMayo_Name": "Spreadable Mayo",
   "TowniesNeedArtisanGoods_Leah_SpreadableMayo_Text": "I enjoy making coleslaw, but I'm out of mayo. Could someone bring me 5 jars?",
-  "TowniesNeedArtisanGoods_Leah_SpreadableMayo_Objective_Text_0": "Deliver 5 Mayonnaise to Leah",
+  "TowniesNeedArtisanGoods_Leah_SpreadableMayo_Objective_Text_0": "Deliver 5 Mayonnaise jars to Leah",
   "TowniesNeedArtisanGoods_Leah_SpreadableMayo_Message_0": "I'm looking forward to making coleslaw with these. Thanks @!$h",
   //
   //
   // Leo Sweet Jelly Strings
   "TowniesNeedArtisanGoods_Leo_SweetJelly_Name": "Sweet Jelly",
   "TowniesNeedArtisanGoods_Leo_SweetJelly_Text": "Could someone bring Leo 5 jars of mango jelly? I think he'd enjoy that.     - Linus =",
-  "TowniesNeedArtisanGoods_Leo_SweetJelly_Objective_Text_0": "Deliver 5 Mango Jelly to Leo",
+  "TowniesNeedArtisanGoods_Leo_SweetJelly_Objective_Text_0": "Deliver 5 Mango Jelly jars to Leo",
   "TowniesNeedArtisanGoods_Leo_SweetJelly_Message_0": "Is that...$2#$b#Thank you!$h",
   //
   //
@@ -186,7 +186,7 @@
   "TowniesNeedArtisanGoods_Lewis_SpecialNight_Name": "Special Night",
   "TowniesNeedArtisanGoods_Lewis_SpecialNight_Text": "Hello Pelican Town, I'm planning a special dinner, and I could use some help with the food and drink. Could someone bring a gold or iridium quality wine, 2 oysters, chocolate cake, and truffle oil to your favorite mayor?",
   "TowniesNeedArtisanGoods_Lewis_SpecialNight_Objective_Text_0": "Deliver 1 Gold or Iridium Quality Wine to Lewis",
-  "TowniesNeedArtisanGoods_Lewis_SpecialNight_Objective_Text_1": "Deliver 2 Oyster to Lewis",
+  "TowniesNeedArtisanGoods_Lewis_SpecialNight_Objective_Text_1": "Deliver 2 Oysters to Lewis",
   "TowniesNeedArtisanGoods_Lewis_SpecialNight_Objective_Text_2": "Deliver 1 Chocolate Cake to Lewis",
   "TowniesNeedArtisanGoods_Lewis_SpecialNight_Objective_Text_3": "Deliver 1 Truffle Oil to Lewis",
   "TowniesNeedArtisanGoods_Lewis_SpecialNight_Message_0": "This looks like a fine wine. Thanks @!$h",
@@ -198,9 +198,9 @@
   // Linus Berry Flavor Strings
   "TowniesNeedArtisanGoods_Linus_BerryFlavor_Name": "Berry Flavor",
   "TowniesNeedArtisanGoods_Linus_BerryFlavor_Text": "Hello Pelican Town, I'm planning a special dinner, and I could use some help with the food and drink. Could someone bring a gold or iridium quality wine, 2 oysters, chocolate cake, and truffle oil to your favorite mayor?",
-  "TowniesNeedArtisanGoods_Linus_BerryFlavor_Objective_Text_0": "Deliver 10 Salmonberry Jelly to Linus",
-  "TowniesNeedArtisanGoods_Linus_BerryFlavor_Objective_Text_1": "Deliver 10 Spice Berry Jelly to Linus",
-  "TowniesNeedArtisanGoods_Linus_BerryFlavor_Objective_Text_2": "Deliver 10 Blackberry Jelly to Linus",
+  "TowniesNeedArtisanGoods_Linus_BerryFlavor_Objective_Text_0": "Deliver 10 Salmonberry Jelly jars to Linus",
+  "TowniesNeedArtisanGoods_Linus_BerryFlavor_Objective_Text_1": "Deliver 10 Spice Berry Jelly jars to Linus",
+  "TowniesNeedArtisanGoods_Linus_BerryFlavor_Objective_Text_2": "Deliver 10 Blackberry Jelly jars to Linus",
   "TowniesNeedArtisanGoods_Linus_BerryFlavor_Message_0": "This is a nice reminder of spring.$h",
   "TowniesNeedArtisanGoods_Linus_BerryFlavor_Message_1": "The smell reminds me of summer.$h",
   "TowniesNeedArtisanGoods_Linus_BerryFlavor_Message_2": "Sweeter than raspberry jelly. Thanks, @!$h",
@@ -209,6 +209,6 @@
   // Marnie Casks for Cheese Strings
   "TowniesNeedArtisanGoods_Marnie_CasksforCheese_Name": "Casks for Cheese",
   "TowniesNeedArtisanGoods_Marnie_CasksforCheese_Text": "Howdy neighbors! I'd love to get some casks to age cheese. Could someone bring me 5?",
-  "TowniesNeedArtisanGoods_Marnie_CasksforCheese_Objective_Text_0": "Deliver 5 Cask to Marnie",
+  "TowniesNeedArtisanGoods_Marnie_CasksforCheese_Objective_Text_0": "Deliver 5 Casks to Marnie",
   "TowniesNeedArtisanGoods_Marnie_CasksforCheese_Message_0": "Thhanks @! I'm looking forward to some fine cheese.$h",
 }
