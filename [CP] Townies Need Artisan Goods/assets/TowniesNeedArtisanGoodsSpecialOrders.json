@@ -1600,5 +1600,54 @@
         "PlayerHasCellarOrQAP": "true"
       }
     },
+    // Maru Power for Project
+    {
+      "LogName": "Maru Power for Project",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Maru_PowerforProject": {
+          "Name": "[TowniesNeedArtisanGoods_Maru_PowerforProject_Name]",
+          "Requester": "Maru",
+          "Duration": "Month",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Maru_PowerforProject_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Maru_PowerforProject_Objective_Text_0]",
+              "RequiredCount": "30",
+              "Data": {
+                "AcceptedContextTags": "item_battery",
+                "Message": "[TowniesNeedArtisanGoods_Maru_PowerforProject_Message_0]",
+                "TargetName": "Maru"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "15000"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "misc",
+        "SkillLevel:Foraging": "6, 7, 8, 9, 10"
+      }
+    },
   ]
 }

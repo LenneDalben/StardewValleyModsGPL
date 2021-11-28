@@ -224,4 +224,11 @@
   "TowniesNeedArtisanGoods_Marnie_SpecialDinner_Text": "Howdy neighbors! I'd like to mark a happy occasion with some excellent wine. Could someone bring me 2 bottles of gold or iridium quality wine?",
   "TowniesNeedArtisanGoods_Marnie_SpecialDinner_Objective_Text_0": "Deliver 2 Wine bottles (gold or iridium quality) to Marnie",
   "TowniesNeedArtisanGoods_Marnie_SpecialDinner_Message_0": "Thanks @!$h#$b#What's the occasion?#$b#That's private.$3",
+  //
+  //
+  // Maru Power for Project Strings
+  "TowniesNeedArtisanGoods_Maru_PowerforProject_Name": "Power for Project",
+  "TowniesNeedArtisanGoods_Maru_PowerforProject_Text": "Could someone bring me 30 batteries? I need a lot of power for my next project.",
+  "TowniesNeedArtisanGoods_Maru_PowerforProject_Objective_Text_0": "Deliver 30 Batteries to Maru",
+  "TowniesNeedArtisanGoods_Maru_PowerforProject_Message_0": "Woo, this will help a ton. Thanks @!",
 }

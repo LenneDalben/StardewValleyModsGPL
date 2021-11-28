@@ -434,5 +434,17 @@
         "TowniesNeedArtisanGoods_Marnie_SpecialDinner_Message_0": "{{i18n:TowniesNeedArtisanGoods_Marnie_SpecialDinner_Message_0}}"
       }
     },
+    // Strings Maru Power for Project
+    {
+      "LogName": "Strings Maru Power for Project",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Maru_PowerforProject_Name": "{{i18n:TowniesNeedArtisanGoods_Maru_PowerforProject_Name}}",
+        "TowniesNeedArtisanGoods_Maru_PowerforProject_Text": "{{i18n:TowniesNeedArtisanGoods_Maru_PowerforProject_Text}}",
+        "TowniesNeedArtisanGoods_Maru_PowerforProject_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Maru_PowerforProject_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Maru_PowerforProject_Message_0": "{{i18n:TowniesNeedArtisanGoods_Maru_PowerforProject_Message_0}}"
+      }
+    },
   ]
 }
