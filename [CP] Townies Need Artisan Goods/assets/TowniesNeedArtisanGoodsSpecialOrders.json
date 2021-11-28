@@ -1624,7 +1624,7 @@
               "Text": "[TowniesNeedArtisanGoods_Maru_PowerforProject_Objective_Text_0]",
               "RequiredCount": "30",
               "Data": {
-                "AcceptedContextTags": "item_battery",
+                "AcceptedContextTags": "item_battery_pack",
                 "Message": "[TowniesNeedArtisanGoods_Maru_PowerforProject_Message_0]",
                 "TargetName": "Maru"
               }
