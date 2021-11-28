@@ -217,4 +217,11 @@
   "TowniesNeedArtisanGoods_Marnie_CasksforCheese_Text": "Howdy neighbors! I'd love to get some casks to age cheese. Could someone bring me 5?",
   "TowniesNeedArtisanGoods_Marnie_CasksforCheese_Objective_Text_0": "Deliver 5 Casks to Marnie",
   "TowniesNeedArtisanGoods_Marnie_CasksforCheese_Message_0": "Thhanks @! I'm looking forward to some fine cheese.$h",
+  //
+  //
+  // Marnie Special Dinner Strings
+  "TowniesNeedArtisanGoods_Marnie_SpecialDinner_Name": "Special Dinner",
+  "TowniesNeedArtisanGoods_Marnie_SpecialDinner_Text": "Howdy neighbors! I'd like to mark a happy occasion with some excellent wine. Could someone bring me 2 bottles of gold or iridium quality wine?",
+  "TowniesNeedArtisanGoods_Marnie_SpecialDinner_Objective_Text_0": "Deliver 2 Wine bottles (gold or iridium quality) to Marnie",
+  "TowniesNeedArtisanGoods_Marnie_SpecialDinner_Message_0": "Thanks @!$h#$b#What's the occasion?#$b#That's private.$3",
 }

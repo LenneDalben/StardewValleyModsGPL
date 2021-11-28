@@ -422,5 +422,17 @@
         "TowniesNeedArtisanGoods_Marnie_CasksforCheese_Message_0": "{{i18n:TowniesNeedArtisanGoods_Marnie_CasksforCheese_Message_0}}"
       }
     },
+    // Strings Marnie Special Dinner
+    {
+      "LogName": "Strings Marnie Special Dinner",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Marnie_SpecialDinner_Name": "{{i18n:TowniesNeedArtisanGoods_Marnie_SpecialDinner_Name}}",
+        "TowniesNeedArtisanGoods_Marnie_SpecialDinner_Text": "{{i18n:TowniesNeedArtisanGoods_Marnie_SpecialDinner_Text}}",
+        "TowniesNeedArtisanGoods_Marnie_SpecialDinner_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Marnie_SpecialDinner_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Marnie_SpecialDinner_Message_0": "{{i18n:TowniesNeedArtisanGoods_Marnie_SpecialDinner_Message_0}}"
+      }
+    },
   ]
 }
