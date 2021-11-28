@@ -231,4 +231,11 @@
   "TowniesNeedArtisanGoods_Maru_PowerforProject_Text": "Could someone bring me 30 batteries? I need a lot of power for my next project.",
   "TowniesNeedArtisanGoods_Maru_PowerforProject_Objective_Text_0": "Deliver 30 Batteries to Maru",
   "TowniesNeedArtisanGoods_Maru_PowerforProject_Message_0": "Woo, this will help a ton. Thanks @!",
+  //
+  //
+  // Pam Preserved Parsnip Strings
+  "TowniesNeedArtisanGoods_Pam_PreservedParsnip_Name": "Preserved Parsnip",
+  "TowniesNeedArtisanGoods_Pam_PreservedParsnip_Text": "Howdy! I'd love some pickled parsnip. Could someone in this town help me out and bring me 9 jars?",
+  "TowniesNeedArtisanGoods_Pam_PreservedParsnip_Objective_Text_0": "Deliver 9 Pickled Parsnip to Pam",
+  "TowniesNeedArtisanGoods_Pam_PreservedParsnip_Message_0": "Are those pickled parsnips I see?#$b#They're for me? Thanks, @!$h",
 }

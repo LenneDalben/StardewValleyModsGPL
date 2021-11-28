@@ -446,5 +446,17 @@
         "TowniesNeedArtisanGoods_Maru_PowerforProject_Message_0": "{{i18n:TowniesNeedArtisanGoods_Maru_PowerforProject_Message_0}}"
       }
     },
+    // Strings Pam Preserved Parsnip
+    {
+      "LogName": "Strings Pam Preserved Parsnip",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Pam_PreservedParsnip_Name": "{{i18n:TowniesNeedArtisanGoods_Pam_PreservedParsnip_Name}}",
+        "TowniesNeedArtisanGoods_Pam_PreservedParsnip_Text": "{{i18n:TowniesNeedArtisanGoods_Pam_PreservedParsnip_Text}}",
+        "TowniesNeedArtisanGoods_Pam_PreservedParsnip_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Pam_PreservedParsnip_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Pam_PreservedParsnip_Message_0": "{{i18n:TowniesNeedArtisanGoods_Pam_PreservedParsnip_Message_0}}"
+      }
+    },
   ]
 }
