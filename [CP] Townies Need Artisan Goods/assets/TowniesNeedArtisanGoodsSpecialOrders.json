@@ -1375,7 +1375,7 @@
         }
       },
       "When": {
-        "OrderType": "wine, animal, food",
+        "OrderType": "wine, animal",
         "SkillLevel:Farming": "8, 9, 10",
         "PlayerHasCellarOrQAP": "true"
       }
