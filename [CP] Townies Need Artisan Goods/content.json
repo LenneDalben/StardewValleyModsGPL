@@ -458,5 +458,17 @@
         "TowniesNeedArtisanGoods_Pam_PreservedParsnip_Message_0": "{{i18n:TowniesNeedArtisanGoods_Pam_PreservedParsnip_Message_0}}"
       }
     },
+    // Strings Penny Tie-Dye Project
+    {
+      "LogName": "Strings Penny Tie-Dye Project",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Penny_Tie-DyeProject_Name": "{{i18n:TowniesNeedArtisanGoods_Penny_Tie-DyeProject_Name}}",
+        "TowniesNeedArtisanGoods_Penny_Tie-DyeProject_Text": "{{i18n:TowniesNeedArtisanGoods_Penny_Tie-DyeProject_Text}}",
+        "TowniesNeedArtisanGoods_Penny_Tie-DyeProject_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Penny_Tie-DyeProject_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Penny_Tie-DyeProject_Message_0": "{{i18n:TowniesNeedArtisanGoods_Penny_Tie-DyeProject_Message_0}}"
+      }
+    },
   ]
 }

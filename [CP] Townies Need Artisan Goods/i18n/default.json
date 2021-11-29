@@ -238,4 +238,11 @@
   "TowniesNeedArtisanGoods_Pam_PreservedParsnip_Text": "Howdy! I'd love some pickled parsnip. Could someone in this town help me out and bring me 9 jars?",
   "TowniesNeedArtisanGoods_Pam_PreservedParsnip_Objective_Text_0": "Deliver 9 Pickled Parsnip to Pam",
   "TowniesNeedArtisanGoods_Pam_PreservedParsnip_Message_0": "Are those pickled parsnips I see?#$b#They're for me? Thanks, @!$h",
+  //
+  //
+  // Penny Tie-Dye Project Strings
+  "TowniesNeedArtisanGoods_Penny_Tie-DyeProject_Name": "Tie-Dye Project",
+  "TowniesNeedArtisanGoods_Penny_Tie-DyeProject_Text": "Hi, Emily and I are tie-dying shirts with the children. Could someone bring me 4 bottles of beet juice or red cabbage juice, please?",
+  "TowniesNeedArtisanGoods_Penny_Tie-DyeProject_Objective_Text_0": "Deliver 4 Juice (Beet or Red Cabbage) to Penny",
+  "TowniesNeedArtisanGoods_Penny_Tie-DyeProject_Message_0": "Thanks @, these will work for our red dye.$h",
 }
