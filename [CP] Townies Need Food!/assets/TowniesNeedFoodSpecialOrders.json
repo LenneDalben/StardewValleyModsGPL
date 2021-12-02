@@ -293,7 +293,8 @@
         }
       },
       "When": {
-        "PlayerHasKitchen": true
+        "PlayerHasKitchen": true,
+        "HasCookingRecipe": "Artichoke Dip, Bread"
       }
     },
     // Demetrius Dinner and Two Desserts
