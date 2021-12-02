@@ -166,7 +166,7 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "Year | contains=1": false
+        "HasCookingRecipe": "Complete Breakfast, Salmon Dinner"
       }
     },
     // Caroline Seafood Bonanza
