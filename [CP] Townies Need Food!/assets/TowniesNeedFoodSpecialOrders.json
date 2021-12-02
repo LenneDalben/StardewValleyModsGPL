@@ -235,7 +235,7 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "Year | contains=1": false
+        "HasCookingRecipe": "Lobster Bisque, Fried Eel, Fish Taco"
       }
     },
     // Clint Mild Snack
