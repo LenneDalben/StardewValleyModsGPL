@@ -245,4 +245,11 @@
   "TowniesNeedArtisanGoods_Penny_Tie-DyeProject_Text": "Hi, Emily and I are tie-dying shirts with the children. Could someone bring me 4 bottles of beet juice or red cabbage juice, please?",
   "TowniesNeedArtisanGoods_Penny_Tie-DyeProject_Objective_Text_0": "Deliver 4 Juice (Beet or Red Cabbage) to Penny",
   "TowniesNeedArtisanGoods_Penny_Tie-DyeProject_Message_0": "Thanks @, these will work for our red dye.$h",
+  //
+  //
+  // Robin Cheesy Delight Strings
+  "TowniesNeedArtisanGoods_Robin_CheesyDelight_Name": "Cheesy Delight",
+  "TowniesNeedArtisanGoods_Robin_CheesyDelight_Text": "I love goat cheese. Could someone bring me 6 gold quality goat cheese?",
+  "TowniesNeedArtisanGoods_Robin_CheesyDelight_Objective_Text_0": "Deliver 6 Gold Quality Goat Cheese to Robin",
+  "TowniesNeedArtisanGoods_Robin_CheesyDelight_Message_0": "Thanks @, these will work for our red dye.$h",
 }
