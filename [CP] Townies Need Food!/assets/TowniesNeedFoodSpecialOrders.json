@@ -1,6 +1,6 @@
 {
   "Changes": [
-    // Special orders with no friendship requirements listed first
+    // FRIENDSHIP REQUIREMENTS BEGONE
     // Abigail Sweet and Spicy
     {
       "LogName": "No Friendship Abigail Sweet and Spicy", // Name here makes it easier to see the patch in the log
@@ -57,7 +57,7 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "Year | contains=1": false
+        "HasCookingRecipe": "Blackberry Cobbler, Spicy Eel"
       }
     },
     // Abigail Creamy Dessert
