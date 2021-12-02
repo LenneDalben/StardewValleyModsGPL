@@ -470,5 +470,17 @@
         "TowniesNeedArtisanGoods_Penny_Tie-DyeProject_Message_0": "{{i18n:TowniesNeedArtisanGoods_Penny_Tie-DyeProject_Message_0}}"
       }
     },
+    // Strings Robin Cheesy Delight
+    {
+      "LogName": "Strings Robin Cheesy Delight",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Robin_CheesyDelight_Name": "{{i18n:TowniesNeedArtisanGoods_Robin_CheesyDelight_Name}}",
+        "TowniesNeedArtisanGoods_Robin_CheesyDelight_Text": "{{i18n:TowniesNeedArtisanGoods_Robin_CheesyDelight_Text}}",
+        "TowniesNeedArtisanGoods_Robin_CheesyDelight_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Robin_CheesyDelight_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Robin_CheesyDelight_Message_0": "{{i18n:TowniesNeedArtisanGoods_Robin_CheesyDelight_Message_0}}"
+      }
+    },
   ]
 }
