@@ -1241,7 +1241,8 @@
         }
       },
       "When": {
-        "PlayerHasKitchen": true
+        "PlayerHasKitchen": true,
+        "HasCookingRecipe": "Autumn's Bounty, Vegetable Medley"
       }
     },
     // Linus Fish and Dessert
