@@ -8,7 +8,7 @@
   "UpdateKeys": [ "ModDrop:1032940" ],
   "ContentPackFor": {
     "UniqueID": "Pathoschild.ContentPatcher",
-    "MinimumVersion": "1.20.0"
+    "MinimumVersion": "1.24.0"
   },
   "Dependencies": [
     {
