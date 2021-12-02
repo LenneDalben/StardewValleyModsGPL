@@ -1182,7 +1182,8 @@
       },
       "When": {
         "IncludeIslandContent": "true",
-        "PlayerHasKitchen": true
+        "HasSeenEvent": "1039573",
+        "HasCookingRecipe": "Poi"
       }
     },
     // Lewis Hearty Veggies
