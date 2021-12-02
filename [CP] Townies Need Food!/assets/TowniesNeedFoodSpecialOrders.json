@@ -549,7 +549,8 @@
         }
       },
       "When": {
-        "PlayerHasKitchen": true
+        "PlayerHasKitchen": true,
+        "HasCookingRecipe": "Chocolate Cake, Stuffing"
       }
     },
     // George Some Favorites
