@@ -107,7 +107,7 @@
       "When": {
         "IncludeIslandContent": "true",
         "PlayerHasKitchen": true,
-        "HasFlag": "Island_UpgradeHouse"
+        "HasCookingRecipe": "Banana Pudding"
       }
     },
     // Alex Good Eating
