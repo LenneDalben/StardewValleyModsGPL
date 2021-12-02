@@ -491,8 +491,7 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "Year | contains=1": false,
-        "SkillLevel:Foraging": "2, 3, 4, 5, 6, 7, 8, 9, 10"
+        "HasCookingRecipe": "Survival Burger, Shrimp Cocktail"
       }
     },
     // Evelyn Side and Dessert
