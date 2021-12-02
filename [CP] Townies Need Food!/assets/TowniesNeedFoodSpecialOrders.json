@@ -362,7 +362,8 @@
         }
       },
       "When": {
-        "PlayerHasKitchen": true
+        "PlayerHasKitchen": true,
+        "HasCookingRecipe": "Bean Hotpot, Ice Cream, Rice Pudding"
       }
     },
     // Elliott Meal Planning
