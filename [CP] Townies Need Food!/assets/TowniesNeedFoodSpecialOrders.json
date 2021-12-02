@@ -894,8 +894,8 @@
         }
       },
       "When": {
-        "Year | contains=1": false,
-        "PlayerHasKitchen": true
+        "PlayerHasKitchen": true,
+        "HasCookingRecipe": "Plum Pudding"
       }
     },
     // Jodi Three Square Meals
