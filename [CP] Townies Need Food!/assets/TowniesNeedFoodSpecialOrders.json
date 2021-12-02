@@ -1132,7 +1132,8 @@
         }
       },
       "When": {
-        "PlayerHasKitchen": true
+        "PlayerHasKitchen": true,
+        "HasCookingRecipe": "Salad, Stir Fry"
       }
     },
     // Leo Sweet Flavor
