@@ -846,7 +846,7 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasSeenEvent": "63"
+        "HasCookingRecipe": "Super Meal, Coleslaw, Tripeshot Espresso"
       }
     },
     // Jas Holiday Treat
