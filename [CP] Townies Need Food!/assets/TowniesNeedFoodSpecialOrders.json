@@ -1074,7 +1074,7 @@
       "When": {
         "PlayerHasKitchen": true,
         "HasSeenEvent": "66",
-        "SkillLevel:Fishing": "9, 10"
+        "HasCookingRecipe": "Seafoam Pudding"
       }
     },
     // Leah Fresh Veggies
