@@ -667,7 +667,8 @@
         }
       },
       "When": {
-        "PlayerHasKitchen": true
+        "PlayerHasKitchen": true,
+        "HasCookingRecipe": "Escargot, Fish Taco"
       }
     },
     // Gus Fragrant Curry
@@ -717,7 +718,7 @@
       "When": {
         "IncludeIslandContent": "true",
         "PlayerHasKitchen": true,
-        "HasFlag": "Island_Resort"
+        "HasCookingRecipe": "Tropical Curry"
       }
     },
     // Haley Mostly Healthy
