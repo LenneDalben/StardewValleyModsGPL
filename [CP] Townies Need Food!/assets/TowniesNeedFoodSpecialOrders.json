@@ -2120,7 +2120,8 @@
         }
       },
       "When": {
-        "PlayerHasKitchen": true
+        "PlayerHasKitchen": true,
+        "HasCookingRecipe": "Omelet, Trout Soup, Maki Roll"
       }
     },
     // Wizard Luck and Sweets
