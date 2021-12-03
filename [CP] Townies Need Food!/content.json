@@ -14,13 +14,6 @@
       "Default": "true",
       "AllowBlank": false,
       "AllowMultiple": false
-    },
-    "FriendshipConfig": {
-      "Description": "If you don't use a mod to stop friendship decay, but you still want to toggle the friendship requirements, set this to true. Default is false.",
-      "AllowValues": "true, false",
-      "Default": "false",
-      "AllowBlank": false,
-      "AllowMultiple": false
     }
   },
   "DynamicTokens": [
@@ -40,24 +33,6 @@
       "Value": "true",
       "When": {
         "HasMod": "Froststar11.CustomFarmhouse, Allayna.Kitchen, burakmese.products, mabelsyrup.farmhouse, KAYA.JAKitchenStationSet, minervamaga.FR.BiggerFarmhouses, muscat.FarmHouse0.BD, DexMods.CozierDefaultFarmhouses, Isa.Farmhouse"
-      }
-    },
-    {
-      "Name": "FriendshipRequirement",
-      "Value": "false"
-    },
-    {
-      "Name": "FriendshipRequirement",
-      "Value": "true",
-      "When": {
-        "HasMod": "CJBok.CheatsMenu, IsaacS.FriendsForever, HunterMYT.FriendshipWithoutTalk"
-      }
-    },
-    {
-      "Name": "FriendshipRequirement",
-      "Value": "true",
-      "When": {
-        "FriendshipConfig": "true"
       }
     }
   ],
