@@ -2052,7 +2052,7 @@
       "When": {
         "IncludeIslandContent": "true",
         "PlayerHasKitchen": true,
-        "HasFlag": "reachedCaldera"
+        "HasCookingRecipe": "Ginger Ale"
       }
     },
     // Willy Daily Sustenance
