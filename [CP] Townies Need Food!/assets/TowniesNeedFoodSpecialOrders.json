@@ -1715,7 +1715,7 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "Year | contains=1": false
+        "HasCookingRecipe": "Spaghetti, Radish Salad, Carp Surprise"
       }
     },
     // Sam Slice and Dessert
