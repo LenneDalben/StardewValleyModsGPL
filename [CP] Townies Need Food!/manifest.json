@@ -4,7 +4,7 @@
   "Version": "2.2.1",
   "Description": "NPCs in town request cooked meals in the special orders board once you know the recipes!",
   "UniqueID": "LenneDalben.TowniesNeedFood",
-  "MinimumApiVersion": "3.9.0",
+  "MinimumApiVersion": "3.13.0",
   "UpdateKeys": [ "ModDrop:1032940" ],
   "ContentPackFor": {
     "UniqueID": "Pathoschild.ContentPatcher",
