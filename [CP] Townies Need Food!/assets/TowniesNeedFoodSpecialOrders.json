@@ -1883,7 +1883,8 @@
       "When": {
         "IncludeIslandContent": "true",
         "PlayerHasKitchen": true,
-        "HasSeenEvent": "67"
+        "HasSeenEvent": "67",
+        "HasCookingRecipe": "Mango Sticky Rice"
       }
     },
     // Sebastian Lunch and Dinner
