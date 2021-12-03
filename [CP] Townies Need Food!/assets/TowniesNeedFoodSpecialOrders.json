@@ -1774,7 +1774,7 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "Year | contains=1": false
+        "HasCookingRecipe": "Pizza, Maple Bar"
       }
     },
     // Sam Egg Wrap
