@@ -1832,7 +1832,8 @@
         }
       },
       "When": {
-        "PlayerHasKitchen": true
+        "PlayerHasKitchen": true,
+        "HasCookingRecipe": "Tortilla, Fried Egg"
       }
     },
     // Sandy Sweet Mango and Coconut
