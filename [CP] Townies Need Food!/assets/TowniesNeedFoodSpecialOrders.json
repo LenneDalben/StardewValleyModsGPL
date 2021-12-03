@@ -1380,7 +1380,7 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "Year | contains=1": false
+        "HasCookingRecipe": "Farmer's Lunch, Pink Cake, Pumpkin Pie"
       }
     },
     // Maru My Favorite Foodstuffs
