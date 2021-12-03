@@ -2239,7 +2239,7 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "SkillLevel:Combat": "9, 10"
+        "HasCookingRecipe": "Squid Ink Ravioli"
       }
     },
     //
