@@ -3,7 +3,7 @@
     // FRIENDSHIP REQUIREMENTS BEGONE
     // Abigail Sweet and Spicy
     {
-      "LogName": "No Friendship Abigail Sweet and Spicy", // Name here makes it easier to see the patch in the log
+      "LogName": "Abigail Sweet and Spicy", // Name here makes it easier to see the patch in the log
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -112,7 +112,7 @@
     },
     // Alex Good Eating
     {
-      "LogName": "No Friendship Alex Good Eating",
+      "LogName": "Alex Good Eating",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -171,7 +171,7 @@
     },
     // Caroline Seafood Bonanza
     {
-      "LogName": "No Friendship Caroline Seafood Bonanza",
+      "LogName": "Caroline Seafood Bonanza",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -299,7 +299,7 @@
     },
     // Demetrius Dinner and Two Desserts
     {
-      "LogName": "No Friendship Demetrius Dinner and Two Desserts",
+      "LogName": "Demetrius Dinner and Two Desserts",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -368,7 +368,7 @@
     },
     // Elliott Meal Planning
     {
-      "LogName": "No Friendship Elliott Meal Planning",
+      "LogName": "Elliott Meal Planning",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -496,7 +496,7 @@
     },
     // Evelyn Side and Dessert
     {
-      "LogName": "No Friendship Evelyn Side and Dessert",
+      "LogName": "Evelyn Side and Dessert",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -555,7 +555,7 @@
     },
     // George Some Favorites
     {
-      "LogName": "No Friendship George Some Favorites",
+      "LogName": "George Some Favorites",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -614,7 +614,7 @@
     },
     // Gus Unique Delicacies
     {
-      "LogName": "No Friendship Gus Unique Delicacies",
+      "LogName": "Gus Unique Delicacies",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -782,7 +782,7 @@
     },
     // Harvey Pick-me-up
     {
-      "LogName": "No Friendship Harvey Pick-me-up",
+      "LogName": "Harvey Pick-me-up",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -900,7 +900,7 @@
     },
     // Jodi Three Square Meals
     {
-      "LogName": "No Friendship Jodi Three Square Meals",
+      "LogName": "Jodi Three Square Meals",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1079,7 +1079,7 @@
     },
     // Leah Fresh Veggies
     {
-      "LogName": "No Friendship Leah Fresh Veggies",
+      "LogName": "Leah Fresh Veggies",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1138,7 +1138,7 @@
     },
     // Leo Sweet Flavor
     {
-      "LogName": "No Friendship Leo Sweet Flavor",
+      "LogName": "Leo Sweet Flavor",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1188,7 +1188,7 @@
     },
     // Lewis Hearty Veggies
     {
-      "LogName": "No Friendship Lewis Hearty Veggies",
+      "LogName": "Lewis Hearty Veggies",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1247,7 +1247,7 @@
     },
     // Linus Fish and Dessert
     {
-      "LogName": "No Friendship Linus Fish and Dessert",
+      "LogName": "Linus Fish and Dessert",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1316,7 +1316,7 @@
     },
     // Marnie Lunch and Two Desserts
     {
-      "LogName": "No Friendship Marnie Lunch and Two Desserts",
+      "LogName": "Marnie Lunch and Two Desserts",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1385,7 +1385,7 @@
     },
     // Maru My Favorite Foodstuffs
     {
-      "LogName": "No Friendship Maru My Favorite Foodstuffs",
+      "LogName": "Maru My Favorite Foodstuffs",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1454,7 +1454,7 @@
     },
     // Pam Roots
     {
-      "LogName": "No Friendship Pam Roots",
+      "LogName": "Pam Roots",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1523,7 +1523,7 @@
     },
     // Penny A Day's Meals
     {
-      "LogName": "No Friendship Penny A Day's Meals",
+      "LogName": "Penny A Day's Meals",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1592,7 +1592,7 @@
     },
     // Pierre Appetizer and Entree
     {
-      "LogName": "No Friendship Pierre Appetizer and Entree",
+      "LogName": "Pierre Appetizer and Entree",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1651,7 +1651,7 @@
     },
     // Robin Family Buffet
     {
-      "LogName": "No Friendship Robin Family Buffet",
+      "LogName": "Robin Family Buffet",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1838,7 +1838,7 @@
     },
     // Sandy Sweet Mango and Coconut
     {
-      "LogName": "No Friendship Sandy Sweet Mango and Coconut",
+      "LogName": "Sandy Sweet Mango and Coconut",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1889,7 +1889,7 @@
     },
     // Sebastian Lunch and Dinner
     {
-      "LogName": "No Friendship Sebastian Lunch and Dinner",
+      "LogName": "Sebastian Lunch and Dinner",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1948,7 +1948,7 @@
     },
     // Shane Peppers and Pizza
     {
-      "LogName": "No Friendship Shane Peppers and Pizza",
+      "LogName": "Shane Peppers and Pizza",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -2126,7 +2126,7 @@
     },
     // Wizard Luck and Sweets
     {
-      "LogName": "No Friendship Wizard Luck and Sweets",
+      "LogName": "Wizard Luck and Sweets",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -2240,1580 +2240,6 @@
       "When": {
         "PlayerHasKitchen": true,
         "HasCookingRecipe": "Squid Ink Ravioli"
-      }
-    },
-    //
-    // Special orders with friendship requirements and checks listed below (the same kind of order, just with friendship requirements if you have CJB Cheats Menu or Friends Forever installed, or if you set the config)
-    //
-    
-    // Abigail Sweet and Spicy
-    {
-      "LogName": "Friendship Abigail Sweet and Spicy",
-      "Action": "EditData",
-      "Target": "Data/SpecialOrders",
-      "Entries": {
-        "TowniesNeedFood_Abigail_SweetandSpicy": {
-          "Name": "[TowniesNeedFood_Abigail_SweetandSpicy_Name]",
-          "Requester": "Abigail",
-          "Duration": "Week",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedFood_Abigail_SweetandSpicy_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Abigail_SweetandSpicy_Objective_Text_0]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_blackberry_cobbler",
-                "Message": "[TowniesNeedFood_Abigail_SweetandSpicy_Message_0]",
-                "TargetName": "Abigail"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Abigail_SweetandSpicy_Objective_Text_1]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_spicy_eel",
-                "Message": "[TowniesNeedFood_Abigail_SweetandSpicy_Message_1]",
-                "TargetName": "Abigail"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "1305"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "PlayerHasKitchen": true,
-        "Year | contains=1": false,
-        "Hearts:George": "7, 8, 9, 10",
-        "FriendshipRequirement": "true"
-      }
-    },
-    // Alex Good Eating
-    {
-      "LogName": "Friendship Alex Good Eating",
-      "Action": "EditData",
-      "Target": "Data/SpecialOrders",
-      "Entries": {
-        "TowniesNeedFood_Alex_GoodEating": {
-          "Name": "[TowniesNeedFood_Alex_GoodEating_Name]",
-          "Requester": "Alex",
-          "Duration": "Week",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedFood_Alex_GoodEating_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Alex_GoodEating_Objective_Text_0]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_complete_breakfast",
-                "Message": "[TowniesNeedFood_Alex_GoodEating_Message_0]",
-                "TargetName": "Alex"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Alex_GoodEating_Objective_Text_1]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_salmon_dinner",
-                "Message": "[TowniesNeedFood_Alex_GoodEating_Message_1]",
-                "TargetName": "Alex"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "1950"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "PlayerHasKitchen": true,
-        "Year | contains=1": false,
-        "Hearts:Gus": "3, 4, 5, 6, 7, 8, 9, 10",
-        "FriendshipRequirement": "true"
-      }
-    },
-    // Caroline Seafood Bonanza
-    {
-      "LogName": "Friendship Caroline Seafood Bonanza",
-      "Action": "EditData",
-      "Target": "Data/SpecialOrders",
-      "Entries": {
-        "TowniesNeedFood_Caroline_SeafoodBonanza": {
-          "Name": "[TowniesNeedFood_Caroline_SeafoodBonanza_Name]",
-          "Requester": "Caroline",
-          "Duration": "Week",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedFood_Caroline_SeafoodBonanza_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Caroline_SeafoodBonanza_Objective_Text_0]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_fish_taco",
-                "Message": "[TowniesNeedFood_Caroline_SeafoodBonanza_Message_0]",
-                "TargetName": "Caroline"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Caroline_SeafoodBonanza_Objective_Text_1]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_fried_eel",
-                "Message": "[TowniesNeedFood_Caroline_SeafoodBonanza_Message_1]",
-                "TargetName": "Caroline"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Caroline_SeafoodBonanza_Objective_Text_2]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_lobster_bisque",
-                "Message": "[TowniesNeedFood_Caroline_SeafoodBonanza_Message_2]",
-                "TargetName": "Caroline"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "2475"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "PlayerHasKitchen": true,
-        "Year | contains=1": false,
-        "Hearts:Linus": "7, 8, 9, 10",
-        "Hearts:George": "3, 4, 5, 6, 7, 8, 9, 10",
-        "FriendshipRequirement": "true"
-      }
-    },
-    // Demetrius Dinner and Two Desserts
-    {
-      "LogName": "Friendship Demetrius Dinner and Two Desserts",
-      "Action": "EditData",
-      "Target": "Data/SpecialOrders",
-      "Entries": {
-        "TowniesNeedFood_Demetrius_DinnerandTwoDesserts": {
-          "Name": "[TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Name]",
-          "Requester": "Demetrius",
-          "Duration": "Week",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Objective_Text_0]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_bean_hotpot",
-                "Message": "[TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Message_0]",
-                "TargetName": "Demetrius"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Objective_Text_1]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_ice_cream",
-                "Message": "[TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Message_1]",
-                "TargetName": "Demetrius"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Objective_Text_2]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_rice_pudding",
-                "Message": "[TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Message_2]",
-                "TargetName": "Demetrius"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "1440"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "PlayerHasKitchen": true,
-        "Hearts:Clint": "7, 8, 9, 10",
-        "Hearts:Jodi": "7, 8, 9, 10",
-        "Hearts:Evelyn": "7, 8, 9, 10",
-        "FriendshipRequirement": "true"
-      }
-    },
-    // Elliott Meal Planning
-    {
-      "LogName": "Friendship Elliott Meal Planning",
-      "Action": "EditData",
-      "Target": "Data/SpecialOrders",
-      "Entries": {
-        "TowniesNeedFood_Elliott_MealPlanning": {
-          "Name": "[TowniesNeedFood_Elliott_MealPlanning_Name]",
-          "Requester": "Elliott",
-          "Duration": "Week",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedFood_Elliott_MealPlanning_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Elliott_MealPlanning_Objective_Text_0]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_crab_cakes",
-                "Message": "[TowniesNeedFood_Elliott_MealPlanning_Message_0]",
-                "TargetName": "Elliott"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Elliott_MealPlanning_Objective_Text_1]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_tom_kha_soup",
-                "Message": "[TowniesNeedFood_Elliott_MealPlanning_Message_1]",
-                "TargetName": "Elliott"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Elliott_MealPlanning_Objective_Text_2]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_baked_fish",
-                "Message": "[TowniesNeedFood_Elliott_MealPlanning_Message_2]",
-                "TargetName": "Elliott"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "1875"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "PlayerHasKitchen": true,
-        "Year | contains=1": false,
-        "Hearts:Sandy": "7, 8, 9, 10",
-        "FriendshipRequirement": "true"
-      }
-    },
-    // Evelyn Side and Dessert
-    {
-      "LogName": "Friendship Evelyn Side and Dessert",
-      "Action": "EditData",
-      "Target": "Data/SpecialOrders",
-      "Entries": {
-        "TowniesNeedFood_Evelyn_SideandDessert": {
-          "Name": "[TowniesNeedFood_Evelyn_SideandDessert_Name]",
-          "Requester": "Evelyn",
-          "Duration": "Week",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedFood_Evelyn_SideandDessert_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Evelyn_SideandDessert_Objective_Text_0]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_stuffing",
-                "Message": "[TowniesNeedFood_Evelyn_SideandDessert_Message_0]",
-                "TargetName": "Evelyn"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Evelyn_SideandDessert_Objective_Text_1]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_chocolate_cake",
-                "Message": "[TowniesNeedFood_Evelyn_SideandDessert_Message_1]",
-                "TargetName": "Evelyn"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "1095"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "PlayerHasKitchen": true,
-        "Hearts:Pam": "7, 8, 9, 10",
-        "FriendshipRequirement": "true"
-      }
-    },
-    // George Some Favorites
-    {
-      "LogName": "Friendship George Some Favorites",
-      "Action": "EditData",
-      "Target": "Data/SpecialOrders",
-      "Entries": {
-        "TowniesNeedFood_George_SomeFavorites": {
-          "Name": "[TowniesNeedFood_George_SomeFavorites_Name]",
-          "Requester": "George",
-          "Duration": "Week",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedFood_George_SomeFavorites_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_George_SomeFavorites_Objective_Text_0]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_fried_mushroom",
-                "Message": "[TowniesNeedFood_George_SomeFavorites_Message_0]",
-                "TargetName": "George"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_George_SomeFavorites_Objective_Text_1]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_chowder",
-                "Message": "[TowniesNeedFood_George_SomeFavorites_Message_1]",
-                "TargetName": "George"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "1005"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "PlayerHasKitchen": true,
-        "Hearts:Demetrius": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Hearts:Willy": "3, 4, 5, 6, 7, 8, 9, 10",
-        "FriendshipRequirement": "true"
-      }
-    },
-    // Gus Unique Delicacies
-    {
-      "LogName": "Friendship Gus Unique Delicacies",
-      "Action": "EditData",
-      "Target": "Data/SpecialOrders",
-      "Entries": {
-        "TowniesNeedFood_Gus_UniqueDelicacies": {
-          "Name": "[TowniesNeedFood_Gus_UniqueDelicacies_Name]",
-          "Requester": "Gus",
-          "Duration": "Week",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedFood_Gus_UniqueDelicacies_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Gus_UniqueDelicacies_Objective_Text_0]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_escargot",
-                "Message": "[TowniesNeedFood_Gus_UniqueDelicacies_Message_0]",
-                "TargetName": "Gus"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Gus_UniqueDelicacies_Objective_Text_1]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_fish_taco",
-                "Message": "[TowniesNeedFood_Gus_UniqueDelicacies_Message_1]",
-                "TargetName": "Gus"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "1875"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "PlayerHasKitchen": true,
-        "Hearts:Willy": "5, 6, 7, 8, 9, 10",
-        "Hearts:Linus": "7, 8, 9, 10",
-        "FriendshipRequirement": "true"
-      }
-    },
-    // Harvey Pick-me-up
-    {
-      "LogName": "Friendship Harvey Pick-me-up",
-      "Action": "EditData",
-      "Target": "Data/SpecialOrders",
-      "Entries": {
-        "TowniesNeedFood_Harvey_Pickmeup": {
-          "Name": "[TowniesNeedFood_Harvey_Pickmeup_Name]",
-          "Requester": "Harvey",
-          "Duration": "Week",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedFood_Harvey_Pickmeup_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Harvey_Pickmeup_Objective_Text_0]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_super_meal",
-                "Message": "[TowniesNeedFood_Harvey_Pickmeup_Message_0]",
-                "TargetName": "Harvey"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Harvey_Pickmeup_Objective_Text_1]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_coleslaw",
-                "Message": "[TowniesNeedFood_Harvey_Pickmeup_Message_1]",
-                "TargetName": "Harvey"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Harvey_Pickmeup_Objective_Text_2]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_triple_shot_espresso",
-                "Message": "[TowniesNeedFood_Harvey_Pickmeup_Message_2]",
-                "TargetName": "Harvey"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "3045"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "PlayerHasKitchen": true,
-        "HasSeenEvent": "63",
-        "Hearts:Kent": "7, 8, 9, 10",
-        "FriendshipRequirement": "true"
-      }
-    },
-    // Jodi Three Square Meals
-    {
-      "LogName": "Friendship Jodi Three Square Meals",
-      "Action": "EditData",
-      "Target": "Data/SpecialOrders",
-      "Entries": {
-        "TowniesNeedFood_Jodi_ThreeSquareMeals": {
-          "Name": "[TowniesNeedFood_Jodi_ThreeSquareMeals_Name]",
-          "Requester": "Jodi",
-          "Duration": "Week",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedFood_Jodi_ThreeSquareMeals_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Jodi_ThreeSquareMeals_Objective_Text_0]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_pancakes",
-                "Message": "[TowniesNeedFood_Jodi_ThreeSquareMeals_Message_0]",
-                "TargetName": "Jodi"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Jodi_ThreeSquareMeals_Objective_Text_1]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_crispy_bass",
-                "Message": "[TowniesNeedFood_Jodi_ThreeSquareMeals_Message_1]",
-                "TargetName": "Jodi"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Jodi_ThreeSquareMeals_Objective_Text_2]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_eggplant_parmesan",
-                "Message": "[TowniesNeedFood_Jodi_ThreeSquareMeals_Message_2]",
-                "TargetName": "Jodi"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "1290"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "PlayerHasKitchen": true,
-        "HasSeenEvent": "63",
-        "Hearts:Kent": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Hearts:Lewis": "7, 8, 9, 10",
-        "FriendshipRequirement": "true"
-      }
-    },
-    // Leah Fresh Veggies
-    {
-      "LogName": "Friendship Leah Fresh Veggies",
-      "Action": "EditData",
-      "Target": "Data/SpecialOrders",
-      "Entries": {
-        "TowniesNeedFood_Leah_FreshVeggies": {
-          "Name": "[TowniesNeedFood_Leah_FreshVeggies_Name]",
-          "Requester": "Leah",
-          "Duration": "Week",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedFood_Leah_FreshVeggies_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Leah_FreshVeggies_Objective_Text_0]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_salad",
-                "Message": "[TowniesNeedFood_Leah_FreshVeggies_Message_0]",
-                "TargetName": "Leah"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Leah_FreshVeggies_Objective_Text_1]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_stir_fry",
-                "Message": "[TowniesNeedFood_Leah_FreshVeggies_Message_1]",
-                "TargetName": "Leah"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "1335"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "PlayerHasKitchen": true,
-        "Hearts:Emily": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14",
-        "FriendshipRequirement": "true"
-      }
-    },
-    // Leo Sweet Flavor
-    {
-      "LogName": "Friendship Leo Sweet Flavor",
-      "Action": "EditData",
-      "Target": "Data/SpecialOrders",
-      "Entries": {
-        "TowniesNeedFood_Leo_SweetFlavor": {
-          "Name": "[TowniesNeedFood_Leo_SweetFlavor_Name]",
-          "Requester": "Linus",
-          "Duration": "Week",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "island",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedFood_Leo_SweetFlavor_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Leo_SweetFlavor_Objective_Text_0]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_poi",
-                "Message": "[TowniesNeedFood_Leo_SweetFlavor_Message_0]",
-                "TargetName": "Leo"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "1200"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "IncludeIslandContent": "true",
-        "PlayerHasKitchen": true,
-        "Hearts:Leo": "3, 4, 5, 6, 7, 8, 9, 10",
-        "FriendshipRequirement": "true"
-      }
-    },
-    // Lewis Hearty Veggies
-    {
-      "LogName": "Friendship Lewis Hearty Veggies",
-      "Action": "EditData",
-      "Target": "Data/SpecialOrders",
-      "Entries": {
-        "TowniesNeedFood_Lewis_HeartyVeggies": {
-          "Name": "[TowniesNeedFood_Lewis_HeartyVeggies_Name]",
-          "Requester": "Lewis",
-          "Duration": "Week",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedFood_Lewis_HeartyVeggies_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Lewis_HeartyVeggies_Objective_Text_0]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_autumns_bounty",
-                "Message": "[TowniesNeedFood_Lewis_HeartyVeggies_Message_0]",
-                "TargetName": "Lewis"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Lewis_HeartyVeggies_Objective_Text_1]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_vegetable_medley",
-                "Message": "[TowniesNeedFood_Lewis_HeartyVeggies_Message_1]",
-                "TargetName": "Lewis"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "1410"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "PlayerHasKitchen": true,
-        "Hearts:Demetrius": "7, 8, 9, 10",
-        "Hearts:Caroline": "7, 8, 9, 10",
-        "FriendshipRequirement": "true"
-      }
-    },
-    // Linus Fish and Dessert
-    {
-      "LogName": "Friendship Linus Fish and Dessert",
-      "Action": "EditData",
-      "Target": "Data/SpecialOrders",
-      "Entries": {
-        "TowniesNeedFood_Linus_FishandDessert": {
-          "Name": "[TowniesNeedFood_Linus_FishandDessert_Name]",
-          "Requester": "Linus",
-          "Duration": "Week",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedFood_Linus_FishandDessert_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Linus_FishandDessert_Objective_Text_0]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_fish_stew",
-                "Message": "[TowniesNeedFood_Linus_FishandDessert_Message_0]",
-                "TargetName": "Linus"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Linus_FishandDessert_Objective_Text_1]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_dish_o_the_sea",
-                "Message": "[TowniesNeedFood_Linus_FishandDessert_Message_1]",
-                "TargetName": "Linus"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Linus_FishandDessert_Objective_Text_2]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_blueberry_tart",
-                "Message": "[TowniesNeedFood_Linus_FishandDessert_Message_2]",
-                "TargetName": "Linus"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "1635"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "PlayerHasKitchen": true,
-        "SkillLevel:Fishing": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Hearts:Pierre": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Hearts:Willy": "7, 8, 9, 10",
-        "FriendshipRequirement": "true"
-      }
-    },
-    // Marnie Lunch and Two Desserts
-    {
-      "LogName": "Friendship Marnie Lunch and Two Desserts",
-      "Action": "EditData",
-      "Target": "Data/SpecialOrders",
-      "Entries": {
-        "TowniesNeedFood_Marnie_LunchandTwoDesserts": {
-          "Name": "[TowniesNeedFood_Marnie_LunchandTwoDesserts_Name]",
-          "Requester": "Marnie",
-          "Duration": "Week",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedFood_Marnie_LunchandTwoDesserts_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Marnie_LunchandTwoDesserts_Objective_Text_0]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_farmers_lunch",
-                "Message": "[TowniesNeedFood_Marnie_LunchandTwoDesserts_Message_0]",
-                "TargetName": "Marnie"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Marnie_LunchandTwoDesserts_Objective_Text_1]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_pink_cake",
-                "Message": "[TowniesNeedFood_Marnie_LunchandTwoDesserts_Message_1]",
-                "TargetName": "Marnie"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Marnie_LunchandTwoDesserts_Objective_Text_2]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_pumpkin_pie",
-                "Message": "[TowniesNeedFood_Marnie_LunchandTwoDesserts_Message_2]",
-                "TargetName": "Marnie"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "2700"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "PlayerHasKitchen": true,
-        "Year | contains=1": false,
-        "Hearts:Pierre": "3, 4, 5, 6, 7, 8, 9, 10",
-        "FriendshipRequirement": "true"
-      }
-    },
-    // Maru My Favorite Foodstuffs
-    {
-      "LogName": "Friendship Maru My Favorite Foodstuffs",
-      "Action": "EditData",
-      "Target": "Data/SpecialOrders",
-      "Entries": {
-        "TowniesNeedFood_Maru_MyFavoriteFoodstuffs": {
-          "Name": "[TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Name]",
-          "Requester": "Maru",
-          "Duration": "Week",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Objective_Text_0]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_cheese_cauliflower",
-                "Message": "[TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Message_0]",
-                "TargetName": "Maru"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Objective_Text_1]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_miners_treat",
-                "Message": "[TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Message_1]",
-                "TargetName": "Maru"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Objective_Text_2]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_rhubarb_pie",
-                "Message": "[TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Message_2]",
-                "TargetName": "Maru"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "2700"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "PlayerHasKitchen": true,
-        "SkillLevel:Mining": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Hearts:Pam": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Hearts:Marnie": "7, 8, 9, 10",
-        "FriendshipRequirement": "true"
-      }
-    },
-    // Pam Roots
-    {
-      "LogName": "Friendship Pam Roots",
-      "Action": "EditData",
-      "Target": "Data/SpecialOrders",
-      "Entries": {
-        "TowniesNeedFood_Pam_Roots": {
-          "Name": "[TowniesNeedFood_Pam_Roots_Name]",
-          "Requester": "Pam",
-          "Duration": "Week",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedFood_Pam_Roots_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Pam_Roots_Objective_Text_0]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_glazed_yams",
-                "Message": "[TowniesNeedFood_Pam_Roots_Message_0]",
-                "TargetName": "Pam"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Pam_Roots_Objective_Text_1]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_parsnip_soup",
-                "Message": "[TowniesNeedFood_Pam_Roots_Message_1]",
-                "TargetName": "Pam"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Pam_Roots_Objective_Text_2]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_hashbrowns",
-                "Message": "[TowniesNeedFood_Pam_Roots_Message_2]",
-                "TargetName": "Pam"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "1320"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "PlayerHasKitchen": true,
-        "Year | contains=1": false,
-        "Hearts:Caroline": "3, 4, 5, 6, 7, 8, 9, 10",
-        "FriendshipRequirement": "true"
-      }
-    },
-    // Penny A Day's Meals
-    {
-      "LogName": "Friendship Penny A Day's Meals",
-      "Action": "EditData",
-      "Target": "Data/SpecialOrders",
-      "Entries": {
-        "TowniesNeedFood_Penny_ADaysMeals": {
-          "Name": "[TowniesNeedFood_Penny_ADaysMeals_Name]",
-          "Requester": "Penny",
-          "Duration": "Week",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedFood_Penny_ADaysMeals_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Penny_ADaysMeals_Objective_Text_0]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_poppyseed_muffin",
-                "Message": "[TowniesNeedFood_Penny_ADaysMeals_Message_0]",
-                "TargetName": "Penny"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Penny_ADaysMeals_Objective_Text_1]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_red_plate",
-                "Message": "[TowniesNeedFood_Penny_ADaysMeals_Message_1]",
-                "TargetName": "Penny"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Penny_ADaysMeals_Objective_Text_2]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_roots_platter",
-                "Message": "[TowniesNeedFood_Penny_ADaysMeals_Message_2]",
-                "TargetName": "Penny"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "2250"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "PlayerHasKitchen": true,
-        "Year | contains=1": false,
-        "SkillLevel:Combat": "3, 4, 5, 6, 7, 8, 9, 10",
-        "Hearts:Emily": "7, 8, 9, 10, 11, 12, 13, 14",
-        "FriendshipRequirement": "true"
-      }
-    },
-    // Pierre Appetizer and Entree
-    {
-      "LogName": "Friendship Pierre Appetizer and Entree",
-      "Action": "EditData",
-      "Target": "Data/SpecialOrders",
-      "Entries": {
-        "TowniesNeedFood_Pierre_AppetizerandEntree": {
-          "Name": "[TowniesNeedFood_Pierre_AppetizerandEntree_Name]",
-          "Requester": "Pierre",
-          "Duration": "Week",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedFood_Pierre_AppetizerandEntree_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Pierre_AppetizerandEntree_Objective_Text_0]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_fried_calamari",
-                "Message": "[TowniesNeedFood_Pierre_AppetizerandEntree_Message_0]",
-                "TargetName": "Pierre"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Pierre_AppetizerandEntree_Objective_Text_1]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_bruschetta",
-                "Message": "[TowniesNeedFood_Pierre_AppetizerandEntree_Message_1]",
-                "TargetName": "Pierre"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "1080"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "PlayerHasKitchen": true,
-        "Year | contains=1": false,
-        "Hearts:Jodi": "3, 4, 5, 6, 7, 8, 9, 10",
-        "FriendshipRequirement": "true"
-      }
-    },
-    // Robin Family Buffet
-    {
-      "LogName": "Friendship Robin Family Buffet",
-      "Action": "EditData",
-      "Target": "Data/SpecialOrders",
-      "Entries": {
-        "TowniesNeedFood_Robin_FamilyBuffet": {
-          "Name": "[TowniesNeedFood_Robin_FamilyBuffet_Name]",
-          "Requester": "Robin",
-          "Duration": "Week",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedFood_Robin_FamilyBuffet_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Robin_FamilyBuffet_Objective_Text_0]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_spaghetti",
-                "Message": "[TowniesNeedFood_Robin_FamilyBuffet_Message_0]",
-                "TargetName": "Robin"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Robin_FamilyBuffet_Objective_Text_1]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_radish_salad",
-                "Message": "[TowniesNeedFood_Robin_FamilyBuffet_Message_1]",
-                "TargetName": "Robin"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Robin_FamilyBuffet_Objective_Text_2]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_carp_surprise",
-                "Message": "[TowniesNeedFood_Robin_FamilyBuffet_Message_2]",
-                "TargetName": "Robin"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "1710"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "PlayerHasKitchen": true,
-        "Year | contains=1": false,
-        "Hearts:Lewis": "3, 4, 5, 6, 7, 8, 9, 10",
-        "FriendshipRequirement": "true"
-      }
-    },
-    // Sandy Sweet Mango and Coconut
-    {
-      "LogName": "Friendship Sandy Sweet Mango and Coconut",
-      "Action": "EditData",
-      "Target": "Data/SpecialOrders",
-      "Entries": {
-        "TowniesNeedFood_Sandy_SweetMangoandCoconut": {
-          "Name": "[TowniesNeedFood_Sandy_SweetMangoandCoconut_Name]",
-          "Requester": "Emily",
-          "Duration": "Week",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "island",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedFood_Sandy_SweetMangoandCoconut_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Sandy_SweetMangoandCoconut_Objective_Text_0]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_mango_sticky_rice",
-                "Message": "[TowniesNeedFood_Sandy_SweetMangoandCoconut_Message_0]",
-                "TargetName": "Sandy"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "750"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "IncludeIslandContent": "true",
-        "PlayerHasKitchen": true,
-        "HasSeenEvent": "67",
-        "Hearts:Leo": "7, 8, 9, 10",
-        "FriendshipRequirement": "true"
-      }
-    },
-    // Sebastian Lunch and Dinner
-    {
-      "LogName": "Friendship Sebastian Lunch and Dinner",
-      "Action": "EditData",
-      "Target": "Data/SpecialOrders",
-      "Entries": {
-        "TowniesNeedFood_Sebastian_LunchandDinner": {
-          "Name": "[TowniesNeedFood_Sebastian_LunchandDinner_Name]",
-          "Requester": "Sebastian",
-          "Duration": "Week",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedFood_Sebastian_LunchandDinner_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Sebastian_LunchandDinner_Objective_Text_0]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_sashimi",
-                "Message": "[TowniesNeedFood_Sebastian_LunchandDinner_Message_0]",
-                "TargetName": "Sebastian"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Sebastian_LunchandDinner_Objective_Text_1]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_pumpkin_soup",
-                "Message": "[TowniesNeedFood_Sebastian_LunchandDinner_Message_1]",
-                "TargetName": "Sebastian"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "1125"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "PlayerHasKitchen": true,
-        "Hearts:Robin": "7, 8, 9, 10",
-        "Hearts:Linus": "3, 4, 5, 6, 7, 8, 9, 10",
-        "FriendshipRequirement": "true"
-      }
-    },
-    // Shane Peppers and Pizza
-    {
-      "LogName": "Friendship Shane Peppers and Pizza",
-      "Action": "EditData",
-      "Target": "Data/SpecialOrders",
-      "Entries": {
-        "TowniesNeedFood_Shane_PeppersandPizza": {
-          "Name": "[TowniesNeedFood_Shane_PeppersandPizza_Name]",
-          "Requester": "Shane",
-          "Duration": "Week",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedFood_Shane_PeppersandPizza_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Shane_PeppersandPizza_Objective_Text_0]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_pepper_poppers",
-                "Message": "[TowniesNeedFood_Shane_PeppersandPizza_Message_0]",
-                "TargetName": "Shane"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Shane_PeppersandPizza_Objective_Text_1]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_pizza",
-                "Message": "[TowniesNeedFood_Shane_PeppersandPizza_Message_1]",
-                "TargetName": "Shane"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "1500"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "PlayerHasKitchen": true,
-        "Year | contains=1": false,
-        "Hearts:Shane": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14",
-        "FriendshipRequirement": "true"
-      }
-    },
-    // Wizard Luck and Sweets
-    {
-      "LogName": "Friendship Wizard Luck and Sweets",
-      "Action": "EditData",
-      "Target": "Data/SpecialOrders",
-      "Entries": {
-        "TowniesNeedFood_Wizard_LuckandSweets": {
-          "Name": "[TowniesNeedFood_Wizard_LuckandSweets_Name]",
-          "Requester": "Wizard",
-          "Duration": "Week",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedFood_Wizard_LuckandSweets_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Wizard_LuckandSweets_Objective_Text_0]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_lucky_lunch",
-                "Message": "[TowniesNeedFood_Wizard_LuckandSweets_Message_0]",
-                "TargetName": "Wizard"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Wizard_LuckandSweets_Objective_Text_1]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_cookie",
-                "Message": "[TowniesNeedFood_Wizard_LuckandSweets_Message_1]",
-                "TargetName": "Wizard"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Wizard_LuckandSweets_Objective_Text_2]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_cranberry_sauce",
-                "Message": "[TowniesNeedFood_Wizard_LuckandSweets_Message_2]",
-                "TargetName": "Wizard"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "1530"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "PlayerHasKitchen": true,
-        "Year | contains=1": false,
-        "HasSeenEvent": "19",
-        "Hearts:Gus": "7, 8, 9, 10",
-        "FriendshipRequirement": "true"
       }
     }
   ]
