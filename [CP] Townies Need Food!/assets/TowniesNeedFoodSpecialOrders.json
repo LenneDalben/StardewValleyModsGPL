@@ -1646,7 +1646,7 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "Year | contains=1": false
+        "HasCookingRecipe": "Fried Calamari, Bruschetta"
       }
     },
     // Robin Family Buffet
