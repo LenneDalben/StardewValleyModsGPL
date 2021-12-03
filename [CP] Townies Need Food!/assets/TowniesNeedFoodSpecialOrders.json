@@ -2002,7 +2002,7 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "Year | contains=1": false
+        "HasCookingRecipe": "Pepper Poppers, Pizza"
       }
     },
     // Vincent Fizzy and Soothing
