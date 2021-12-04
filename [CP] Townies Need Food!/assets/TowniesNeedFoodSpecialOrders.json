@@ -179,7 +179,7 @@
           "Requester": "Caroline",
           "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
+          "RequiredTags": "!season_spring, !season_winter",
           "OrderType": "",
           "SpecialRule": "",
           "Text": "[TowniesNeedFood_Caroline_SeafoodBonanza_Text]",
