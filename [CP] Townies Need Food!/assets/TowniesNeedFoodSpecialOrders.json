@@ -1087,7 +1087,7 @@
           "Requester": "Leah",
           "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
+          "RequiredTags": "season_spring",
           "OrderType": "",
           "SpecialRule": "",
           "Text": "[TowniesNeedFood_Leah_FreshVeggies_Text]",
