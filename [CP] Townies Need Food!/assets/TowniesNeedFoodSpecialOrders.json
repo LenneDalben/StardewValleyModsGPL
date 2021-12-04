@@ -1393,7 +1393,7 @@
           "Requester": "Maru",
           "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
+          "RequiredTags": "!season_summer, !season_fall",
           "OrderType": "",
           "SpecialRule": "",
           "Text": "[TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Text]",
