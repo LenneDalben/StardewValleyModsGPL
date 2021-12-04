@@ -504,7 +504,7 @@
           "Requester": "Evelyn",
           "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
+          "RequiredTags": "!season_spring, !season_summer",
           "OrderType": "",
           "SpecialRule": "",
           "Text": "[TowniesNeedFood_Evelyn_SideandDessert_Text]",
