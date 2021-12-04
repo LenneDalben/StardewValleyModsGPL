@@ -1196,7 +1196,7 @@
           "Requester": "Lewis",
           "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
+          "RequiredTags": "season_fall",
           "OrderType": "",
           "SpecialRule": "",
           "Text": "[TowniesNeedFood_Lewis_HeartyVeggies_Text]",
