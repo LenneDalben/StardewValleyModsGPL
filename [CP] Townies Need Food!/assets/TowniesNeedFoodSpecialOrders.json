@@ -1897,7 +1897,7 @@
           "Requester": "Sebastian",
           "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
+          "RequiredTags": "!season_summer, !season_winter",
           "OrderType": "",
           "SpecialRule": "",
           "Text": "[TowniesNeedFood_Sebastian_LunchandDinner_Text]",
