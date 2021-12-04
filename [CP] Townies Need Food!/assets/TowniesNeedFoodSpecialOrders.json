@@ -790,7 +790,7 @@
           "Requester": "Harvey",
           "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
+          "RequiredTags": "!season_summer, !season_winter",
           "OrderType": "",
           "SpecialRule": "",
           "Text": "[TowniesNeedFood_Harvey_Pickmeup_Text]",
