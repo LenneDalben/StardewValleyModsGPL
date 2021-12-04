@@ -622,7 +622,7 @@
           "Requester": "Gus",
           "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
+          "RequiredTags": "!season_spring, !season_winter",
           "OrderType": "",
           "SpecialRule": "",
           "Text": "[TowniesNeedFood_Gus_UniqueDelicacies_Text]",
