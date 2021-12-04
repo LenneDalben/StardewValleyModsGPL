@@ -977,7 +977,7 @@
           "Requester": "Kent",
           "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
+          "RequiredTags": "!season_summer, !season_fall",
           "OrderType": "",
           "SpecialRule": "",
           "Text": "[TowniesNeedFood_Kent_DinnerandaSnack_Text]",
