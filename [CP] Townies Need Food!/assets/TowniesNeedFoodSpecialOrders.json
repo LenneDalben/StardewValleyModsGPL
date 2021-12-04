@@ -2065,7 +2065,7 @@
           "Requester": "Willy",
           "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
+          "RequiredTags": "season_spring",
           "OrderType": "",
           "SpecialRule": "",
           "Text": "[TowniesNeedFood_Willy_DailySustenance_Text]",
