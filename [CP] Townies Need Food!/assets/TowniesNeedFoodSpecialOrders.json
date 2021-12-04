@@ -2134,7 +2134,7 @@
           "Requester": "Wizard",
           "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
+          "RequiredTags": "!season_spring",
           "OrderType": "",
           "SpecialRule": "",
           "Text": "[TowniesNeedFood_Wizard_LuckandSweets_Text]",
