@@ -248,7 +248,7 @@
           "Requester": "Clint",
           "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
+          "RequiredTags": "!season_spring, !season_winter",
           "OrderType": "",
           "SpecialRule": "",
           "Text": "[TowniesNeedFood_Clint_MildSnack_Text]",
