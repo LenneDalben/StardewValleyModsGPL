@@ -563,7 +563,7 @@
           "Requester": "George",
           "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
+          "RequiredTags": "!season_fall, !season_winter",
           "OrderType": "",
           "SpecialRule": "",
           "Text": "[TowniesNeedFood_George_SomeFavorites_Text]",
