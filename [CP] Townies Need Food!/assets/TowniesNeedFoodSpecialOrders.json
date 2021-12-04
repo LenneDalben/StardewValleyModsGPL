@@ -1600,7 +1600,7 @@
           "Requester": "Pierre",
           "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
+          "RequiredTags": "season_summer",
           "OrderType": "",
           "SpecialRule": "",
           "Text": "[TowniesNeedFood_Pierre_AppetizerandEntree_Text]",
