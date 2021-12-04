@@ -307,7 +307,7 @@
           "Requester": "Demetrius",
           "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
+          "RequiredTags": "!season_fall",
           "OrderType": "",
           "SpecialRule": "",
           "Text": "[TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Text]",
