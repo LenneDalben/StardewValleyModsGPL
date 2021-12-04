@@ -1956,7 +1956,7 @@
           "Requester": "Shane",
           "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
+          "RequiredTags": "!season_spring, !season_fall",
           "OrderType": "",
           "SpecialRule": "",
           "Text": "[TowniesNeedFood_Shane_PeppersandPizza_Text]",
