@@ -1037,7 +1037,7 @@
           "Requester": "Krobus",
           "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
+          "RequiredTags": "season_winter",
           "OrderType": "",
           "SpecialRule": "",
           "Text": "[TowniesNeedFood_Krobus_BrinyPudding_Text]",
