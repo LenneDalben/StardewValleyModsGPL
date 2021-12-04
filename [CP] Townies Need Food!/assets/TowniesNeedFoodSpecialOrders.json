@@ -1728,7 +1728,7 @@
           "Requester": "Sam",
           "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
+          "RequiredTags": "!season_spring, !season_fall",
           "OrderType": "",
           "SpecialRule": "",
           "Text": "[TowniesNeedFood_Sam_SliceandDessert_Text]",
