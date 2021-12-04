@@ -908,7 +908,7 @@
           "Requester": "Jodi",
           "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
+          "RequiredTags": "!season_summer",
           "OrderType": "",
           "SpecialRule": "",
           "Text": "[TowniesNeedFood_Jodi_ThreeSquareMeals_Text]",
