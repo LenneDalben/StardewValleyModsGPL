@@ -1324,7 +1324,7 @@
           "Requester": "Marnie",
           "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
+          "RequiredTags": "!season_summer, !season_fall",
           "OrderType": "",
           "SpecialRule": "",
           "Text": "[TowniesNeedFood_Marnie_LunchandTwoDesserts_Text]",
