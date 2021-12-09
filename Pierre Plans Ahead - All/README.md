@@ -31,7 +31,7 @@ German translation courtesy of Nexus user kupiqo. Only the 1 Day in Advance vers
 1. Install <a href="https://smapi.io/">SMAPI</a> (version 3.8.1 or higher)
 2. Install  <a href="https://www.nexusmods.com/stardewvalley/mods/5005">Shop Tile Framework (STF)</a> (version 1.0.9 or higher)
 Optional: if you'd like to receive the letters, you'll also need to install <a href="https://www.nexusmods.com/stardewvalley/mods/1536">Mail Framework Mod (MFM)</a>
-3. <a href="https://github.com/LenneDalben/StardewValleyModsGPL/releases/">Download the mod</a> and unzip the mod folder into Stardew Valley/Mods (if you don't want the letters or don't use MFM, delete the folder beginning with [MFM]).
+3. <a href="https://www.moddrop.com/stardew-valley/mods/1036738-pierre-plans-ahead">Download the mod from ModDrop</a> and unzip the mod folder into Stardew Valley/Mods (if you don't want the letters or don't use MFM, delete the folder beginning with [MFM]).
 4. Play the game using SMAPI!
 
 
