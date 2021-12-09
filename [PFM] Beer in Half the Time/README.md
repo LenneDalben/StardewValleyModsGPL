@@ -4,7 +4,7 @@ Beer takes half the time to make, so instead of ~29 hours in-game (1750 min), it
 Installation:
 1. Install <a href="https://smapi.io/">SMAPI</a> (version 3.0.0 or higher)
 2. Install <a href="https://www.nexusmods.com/stardewvalley/mods/4970">Producer Framework Mod (PFM))</a> (version 1.1.0 or higher) [If you use <a href="https://www.nexusmods.com/stardewvalley/mods/1063?tab=files">Automate</a>, also install <a href="https://www.nexusmods.com/stardewvalley/mods/5038">PFMAutomate</a>.]
-3. <a href="https://github.com/LenneDalben/StardewValleyModsGPL/releases/">Download the mod</a> and unzip the mod folder into Stardew Valley/Mods.
+3. <a href="https://www.moddrop.com/stardew-valley/mods/1033671-beer-in-half-the-time">Download the mod from ModDrop</a> and unzip the mod folder into Stardew Valley/Mods.
 4. Play the game using SMAPI!
 
 Uninstallation:
