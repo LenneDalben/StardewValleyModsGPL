@@ -1,6 +1,8 @@
 # [CP] Townies Need Food!
 
-With Townies Need Food (TNF), villagers will ask for cooked meals you can make in the kitchen, and reward you with gold and friendship. You'll have 7 days to complete the special orders. For the special orders to show up on the special orders board, you must have a kitchen, either from the first house upgrade, or from one of the mods listed in the Compatibility section. There are also milestone requirements (for orders involving the island recipes). By default the friendship requirements are turned off, but you can manually turn those on in the config. The friendship requirements are also automatically turned on if you have Friends Forever, FriendshipWithoutTalk, or CJB Cheats Menu installed. For the full specifics, refer to the spoiler guide.
+With Townies Need Food (TNF), villagers will ask for cooked meals you can make in the kitchen, and reward you with gold and friendship. You'll have 7 days to complete the special orders.
+
+For the special orders to show up on the special orders board, you must have a kitchen, either from the first house upgrade, or from one of the mods listed in the Compatibility section. With the Content Patcher (CP) 1.24.0 update, the conditions have been updated to check if you know the recipe! No longer will NPCs request a recipe that you don’t already know how to cook. Conditions no longer check for friendship or skill level. 3.1.0 update includes season checks! Big thanks to Calcite / CopperSun for showing me the way (read the unpacked files in more depth haha). The spoiler guide contains full details about he conditions for the orders and the reward amount.
 
 The NPCs request every vanilla recipe (including from the 1.5 update), with the exceptions of: Strange Bun (because no one in town likes it), Pale Broth and Algae Soup (I've no good reason for excluding these, I just did :I ). You may notice that the NPCs ask for recipes they enjoy, hint hint~ The villagers only ask for vanilla recipes (base game), no PPJA / JA recipes.
 
@@ -15,11 +17,7 @@ Config Options
 
 * IncludeIslandContent: true or false, default is true (toggle special orders requiring recipes from the island)
 
-* FriendshipConfig: If you don't use a mod to stop friendship decay, but you still want to toggle the friendship requirements, set this to true. Default is false. If you have Friends Forever or CJB Cheats Menu installed, TNF will auto-detect it and apply this setting.
-
-With regards to the "sparseness" of the orders: the game picks from a pool of the available orders, so if you'd prefer to get through some of the vanilla special orders first, install this mod later in your playthrough.
-
-By default, there are no friendship requirements. You can turn them on manually in the config, or by using Friends Forever, FriendshipWithoutTalk, or CJB Cheats Menu (TNF automatically detects if you have those mods installed). This is because of <a href="https://github.com/Pathoschild/StardewMods/blob/develop/ContentPatcher/docs/author-guide.md#known-limitations">a limitation with the way the game reads modifications to the special orders</a>, if your friendship decays enough that you no longer meet the requirement, you could get a crash. Do not manually turn on the friendship requirements unless you accept the risk.
+With regards to the “sparseness” of the orders: you have to know how to cook the recipe first, and there are season checks. For full details, refer to the spoiler guide. The game picks from a pool of the available orders, so if you’d prefer to get through some of the vanilla special orders first, install this mod later in your playthrough.
 
 Note that the mod does not come packaged with a config file. The config file will be generated after you run the game with the mod installed at least once.
 
@@ -51,7 +49,7 @@ TNF will also auto-detect if you have Friends Forever or CJB Cheats Menu install
 
 1. Install <a href="https://smapi.io/">SMAPI</a> (version 3.9.0 or higher)
 2. Install <a href="https://www.nexusmods.com/stardewvalley/mods/1915">Content Patcher (CP)</a>  (version 1.20.0 or higher)
-3. <a href="https://github.com/LenneDalben/StardewValleyModsGPL/releases/">Download the mod</a> and unzip the mod folder into Stardew Valley/Mods.
+3. <a href="https://www.moddrop.com/stardew-valley/mods/1032940-townies-need-food">Download the mod from ModDrop</a> and unzip the mod folder into Stardew Valley/Mods.
 4. Play the game using SMAPI!
 
 
@@ -73,6 +71,8 @@ Jonqora, for ideas and suggestions that were incorporated in this mod. Jonqora w
 Lumina, for their Lumisteria Special Orders mods, which helped me in writing this mod. Extra thanks to Lumina for their help in the Stardew Valley Discord.
 
 Gervig91, for helping me test the 2.0.0 update.
+
+Calcite / CopperSun, who pointed out vanilla has special orders that are seasonal, and encouraged me to check out the unpacked files. Thank you <3
 
 Thanks very much to jina2ya (Kaya) for the Korean translation!
 
