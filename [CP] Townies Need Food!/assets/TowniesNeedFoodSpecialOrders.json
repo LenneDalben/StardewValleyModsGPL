@@ -679,7 +679,8 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe": "Escargot, Fish Taco"
+        "HasCookingRecipe |contains=Escargot": "true",
+        "HasCookingRecipe |contains=Fish Taco": "true"
       }
     },
     // Gus Fragrant Curry
