@@ -2038,7 +2038,8 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe": "Pepper Poppers, Pizza"
+        "HasCookingRecipe |contains=Pepper Poppers": "true",
+        "HasCookingRecipe |contains=Pizza": "true"
       }
     },
     // Vincent Fizzy and Soothing
