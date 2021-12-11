@@ -619,7 +619,8 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe": "Fried Mushroom, Chowder"
+        "HasCookingRecipe |contains=Fried Mushroom": "true",
+        "HasCookingRecipe |contains=Chowder": "true"
       }
     },
     // Gus Unique Delicacies
