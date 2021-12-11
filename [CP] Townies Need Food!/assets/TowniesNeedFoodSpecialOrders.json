@@ -1746,7 +1746,9 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe": "Spaghetti, Radish Salad, Carp Surprise"
+        "HasCookingRecipe |contains=Spaghetti": "true",
+        "HasCookingRecipe |contains=Radish Salad": "true",
+        "HasCookingRecipe |contains=Carp Surprise": "true"
       }
     },
     // Sam Slice and Dessert
