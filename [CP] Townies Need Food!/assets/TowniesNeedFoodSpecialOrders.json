@@ -297,7 +297,8 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe": "Artichoke Dip, Bread"
+        "HasCookingRecipe |contains=Artichoke Dip": "true",
+        "HasCookingRecipe |contains=Bread": "true"
       }
     },
     // Demetrius Dinner and Two Desserts
