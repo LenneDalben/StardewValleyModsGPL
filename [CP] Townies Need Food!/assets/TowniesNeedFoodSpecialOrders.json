@@ -979,7 +979,9 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe": "Crispy Bass, Eggplant Parmesan, Pancakes"
+        "HasCookingRecipe |contains=Crispy Bass": "true",
+        "HasCookingRecipe |contains=Eggplant Parmesan": "true",        
+        "HasCookingRecipe |contains=Pancakes": "true"
       }
     },
     // Kent Dinner and a Snack
