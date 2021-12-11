@@ -1676,7 +1676,8 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe": "Fried Calamari, Bruschetta"
+        "HasCookingRecipe |contains=Fried Calamari": "true",
+        "HasCookingRecipe |contains=Bruschetta": "true"
       }
     },
     // Robin Family Buffet
