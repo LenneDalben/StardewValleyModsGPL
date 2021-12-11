@@ -236,7 +236,9 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe": "Lobster Bisque, Fried Eel, Fish Taco"
+        "HasCookingRecipe |contains=Lobster Bisque": "true",
+        "HasCookingRecipe |contains=Fried Eel": "true",        
+        "HasCookingRecipe |contains=Fish Taco": "true"
       }
     },
     // Clint Mild Snack
