@@ -1544,7 +1544,9 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe": "Glazed Yams, Parsnip Soup, Hashbrowns"
+        "HasCookingRecipe |contains=Glazed Yams": "true",
+        "HasCookingRecipe |contains=Parsnip Soup": "true",
+        "HasCookingRecipe |contains=Hashbrowns": "true"
       }
     },
     // Penny A Day's Meals
