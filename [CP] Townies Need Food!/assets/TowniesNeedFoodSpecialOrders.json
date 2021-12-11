@@ -367,7 +367,9 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe": "Bean Hotpot, Ice Cream, Rice Pudding"
+        "HasCookingRecipe |contains=Bean Hotpot": "true",
+        "HasCookingRecipe |contains=Ice Cream": "true",        
+        "HasCookingRecipe |contains=FRice Pudding": "true"
       }
     },
     // Elliott Meal Planning
