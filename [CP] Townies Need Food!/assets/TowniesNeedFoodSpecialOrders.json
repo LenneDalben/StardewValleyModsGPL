@@ -1473,7 +1473,9 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe": "Cheese Cauliflower, Miner's Treat, Rhubarb Pie"
+        "HasCookingRecipe |contains=Cheese Cauliflower": "true",
+        "HasCookingRecipe |contains=Miner's Treat": "true",
+        "HasCookingRecipe |contains=Rhubarb Pie": "true"
       }
     },
     // Pam Roots
