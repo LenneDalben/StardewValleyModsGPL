@@ -1615,7 +1615,9 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe": "Poppyseed Muffin, Red Plate, Roots Platter"
+        "HasCookingRecipe |contains=Poppyseed Muffin": "true",
+        "HasCookingRecipe |contains=Red Plate": "true",
+        "HasCookingRecipe |contains=Roots Platter": "true"
       }
     },
     // Pierre Appetizer and Entree
