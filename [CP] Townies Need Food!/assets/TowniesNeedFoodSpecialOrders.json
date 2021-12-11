@@ -490,7 +490,8 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe": "Survival Burger, Shrimp Cocktail"
+        "HasCookingRecipe |contains=Survival Burger": "true",
+        "HasCookingRecipe |contains=Shrimp Cocktail": "true"
       }
     },
     // Evelyn Side and Dessert
