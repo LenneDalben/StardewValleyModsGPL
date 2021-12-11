@@ -1261,7 +1261,8 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe": "Autumn's Bounty, Vegetable Medley"
+        "HasCookingRecipe |contains=Autumn's Bounty": "true",
+        "HasCookingRecipe |contains=Vegetable Medley": "true"
       }
     },
     // Linus Fish and Dessert
