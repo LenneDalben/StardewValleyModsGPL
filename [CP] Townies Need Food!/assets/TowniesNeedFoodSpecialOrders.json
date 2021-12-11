@@ -56,7 +56,8 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe": "Blackberry Cobbler, Spicy Eel"
+        "HasCookingRecipe |contains=Blackberry Cobbler": "true",
+        "HasCookingRecipe |contains=Spicy Eel": "true"
       }
     },
     // Abigail Creamy Dessert
