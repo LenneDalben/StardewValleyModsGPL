@@ -1331,7 +1331,9 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe": "Blueberry Tart, Dish o' The Sea, Fish Stew"
+        "HasCookingRecipe |contains=Blueberry Tart": "true",
+        "HasCookingRecipe |contains=Dish o' The Sea": "true",
+        "HasCookingRecipe |contains=Fish Stew": "true"
       }
     },
     // Marnie Lunch and Two Desserts
