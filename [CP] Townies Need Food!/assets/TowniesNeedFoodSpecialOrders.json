@@ -1041,7 +1041,8 @@
       "When": {
         "PlayerHasKitchen": true,
         "HasSeenEvent": "63",
-        "HasCookingRecipe": "Fiddlehead Risotto, Roasted Hazelnuts"
+        "HasCookingRecipe |contains=Fiddlehead Risotto": "true",
+        "HasCookingRecipe |contains=Roasted Hazelnuts": "true"
       }
     },
     // Krobus Briny Pudding
