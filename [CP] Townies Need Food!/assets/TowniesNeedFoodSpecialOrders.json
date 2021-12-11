@@ -2229,7 +2229,9 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe": "Cookies, Cranberry Sauce, Lucky Lunch"
+        "HasCookingRecipe |contains=Cookies": "true",
+        "HasCookingRecipe |contains=Cranberry Sauce": "true",
+        "HasCookingRecipe |contains=Lucky Lunch": "true"
       }
     },
     // Wizard Protective Pasta
