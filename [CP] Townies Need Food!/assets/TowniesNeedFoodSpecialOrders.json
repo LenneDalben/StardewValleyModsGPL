@@ -1402,7 +1402,9 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe": "Farmer's Lunch, Pink Cake, Pumpkin Pie"
+        "HasCookingRecipe |contains=Farmer's Lunch": "true",
+        "HasCookingRecipe |contains=Pink Cake": "true",
+        "HasCookingRecipe |contains=Pumpkin Pie": "true"
       }
     },
     // Maru My Favorite Foodstuffs
