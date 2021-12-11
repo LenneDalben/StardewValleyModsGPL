@@ -438,7 +438,9 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe": "Crab Cakes, Tom Kha Soup, Baked Fish"
+        "HasCookingRecipe |contains=Crab Cakes": "true",
+        "HasCookingRecipe |contains=Tom Kha Soup": "true",        
+        "HasCookingRecipe |contains=Baked Fish": "true"
       }
     },
     // Emily Appetizer and Dinner
