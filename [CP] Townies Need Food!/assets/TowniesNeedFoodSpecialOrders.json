@@ -789,7 +789,8 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe": "Fruit Salad, Cranberry Candy"
+        "HasCookingRecipe |contains=Fruit Salad": "true",
+        "HasCookingRecipe |contains=Cranberry Candy": "true"
       }
     },
     // Harvey Pick-me-up
