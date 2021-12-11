@@ -1978,7 +1978,8 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe": "Sashimi, Pumpkin Soup"
+        "HasCookingRecipe |contains=Sashimi": "true",
+        "HasCookingRecipe |contains=Pumpkin Soup": "true"
       }
     },
     // Shane Peppers and Pizza
