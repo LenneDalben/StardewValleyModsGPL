@@ -592,5 +592,17 @@
         "TowniesNeedArtisanGoods_Willy_MildlySalty_Message_0": "{{i18n:TowniesNeedArtisanGoods_Willy_MildlySalty_Message_0}}"
       }
     },
+    // Strings Willy Tone of Honey
+    {
+      "LogName": "Strings Willy Tone of Honey",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Willy_ToneofHoney_Name": "{{i18n:TowniesNeedArtisanGoods_Willy_ToneofHoney_Name}}",
+        "TowniesNeedArtisanGoods_Willy_ToneofHoney_Text": "{{i18n:TowniesNeedArtisanGoods_Willy_ToneofHoney_Text}}",
+        "TowniesNeedArtisanGoods_Willy_ToneofHoney_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Willy_ToneofHoney_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Willy_ToneofHoney_Message_0": "{{i18n:TowniesNeedArtisanGoods_Willy_ToneofHoney_Message_0}}"
+      }
+    },
   ]
 }

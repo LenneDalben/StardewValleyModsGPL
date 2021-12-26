@@ -317,4 +317,11 @@
   "TowniesNeedArtisanGoods_Willy_MildlySalty_Text": "Caviar is quite a delicacy. Could someone bring me 5 jars?",
   "TowniesNeedArtisanGoods_Willy_MildlySalty_Objective_Text_0": "Deliver 5 Caviar jars to Willy",
   "TowniesNeedArtisanGoods_Willy_MildlySalty_Message_0": "This is a fine side dish. Thanks, @.$h",
+  //
+  //
+  // Willy Tone of Honey Strings
+  "TowniesNeedArtisanGoods_Willy_ToneofHoney_Name": "Tone of Honey",
+  "TowniesNeedArtisanGoods_Willy_ToneofHoney_Text": "I'd love some mead. Could someone bring me 3 bottles?",
+  "TowniesNeedArtisanGoods_Willy_ToneofHoney_Objective_Text_0": "Deliver 3 Mead bottles to Willy",
+  "TowniesNeedArtisanGoods_Willy_ToneofHoney_Message_0": "Yes, even this old fisherman can appreciate a good bottle of mead. Thank you @!$h",
 }
