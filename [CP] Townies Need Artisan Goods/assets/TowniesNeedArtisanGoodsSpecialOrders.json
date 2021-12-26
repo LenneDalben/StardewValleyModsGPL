@@ -71,7 +71,7 @@
             {
               "Type": "Deliver",
               "Text": "[TowniesNeedArtisanGoods_Abigail_YellowMayo_Objective_Text_0]",
-              "RequiredCount": "3",
+              "RequiredCount": "1",
               "Data": {
                 "AcceptedContextTags": "item_duck_mayonnaise",
                 "Message": "[TowniesNeedArtisanGoods_Abigail_YellowMayo_Message_0]",
