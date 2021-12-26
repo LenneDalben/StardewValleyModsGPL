@@ -282,4 +282,11 @@
   "TowniesNeedArtisanGoods_Sam_SweetandSoothing_Text": "Honey would help my allergies. Could someone bring me 3 jars of honey? Blue jazz or tulip, please.",
   "TowniesNeedArtisanGoods_Sam_SweetandSoothing_Objective_Text_0": "Deliver 3 Honey (blue jazz or tulip) to Sam",
   "TowniesNeedArtisanGoods_Sam_SweetandSoothing_Message_0": "Awesome, thanks @! I'm sure this will help my throat feel better.$h",
+  //
+  //
+  // Sandy Light Beverage Strings
+  "TowniesNeedArtisanGoods_Sandy_LightBeverage_Name": "Light Beverage",
+  "TowniesNeedArtisanGoods_Sandy_LightBeverage_Text": "Could someone bring Sandy 2 beers? I think that would help her cheer up.",
+  "TowniesNeedArtisanGoods_Sandy_LightBeverage_Objective_Text_0": "Deliver 2 Beers to Sandy",
+  "TowniesNeedArtisanGoods_Sandy_LightBeverage_Message_0": "Emily asked you to bring these to me?#$b# I guess I'll keep these until she visits, and then we can drink together!$h",
 }

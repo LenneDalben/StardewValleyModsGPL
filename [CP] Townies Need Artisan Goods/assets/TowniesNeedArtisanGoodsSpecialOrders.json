@@ -2005,5 +2005,55 @@
         "SkillLevel:Farming": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
+    // Sandy Light Beverage
+    {
+      "LogName": "Sandy Light Beverage",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Sandy_LightBeverage": {
+          "Name": "[TowniesNeedArtisanGoods_Sandy_LightBeverage_Name]",
+          "Requester": "Emily",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Sandy_LightBeverage_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Sandy_LightBeverage_Objective_Text_0]",
+              "RequiredCount": "2",
+              "Data": {
+                "AcceptedContextTags": "item_beer",
+                "Message": "[TowniesNeedArtisanGoods_Sandy_LightBeverage_Message_0]",
+                "TargetName": "Sandy"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "560"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "beer",
+        "SkillLevel:Farming": "8, 9, 10",
+        "HasSeenEvent": "67"
+      }
+    },
   ]
 }

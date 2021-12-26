@@ -532,5 +532,17 @@
         "TowniesNeedArtisanGoods_Sam_SweetandSoothing_Message_0": "{{i18n:TowniesNeedArtisanGoods_Sam_SweetandSoothing_Message_0}}"
       }
     },
+    // Strings Sandy Light Beverage
+    {
+      "LogName": "Strings Sandy Light Beverage",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Sandy_LightBeverage_Name": "{{i18n:TowniesNeedArtisanGoods_Sandy_LightBeverage_Name}}",
+        "TowniesNeedArtisanGoods_Sandy_LightBeverage_Text": "{{i18n:TowniesNeedArtisanGoods_Sandy_LightBeverage_Text}}",
+        "TowniesNeedArtisanGoods_Sandy_LightBeverage_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Sandy_LightBeverage_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Sandy_LightBeverage_Message_0": "{{i18n:TowniesNeedArtisanGoods_Sandy_LightBeverage_Message_0}}"
+      }
+    },
   ]
 }
