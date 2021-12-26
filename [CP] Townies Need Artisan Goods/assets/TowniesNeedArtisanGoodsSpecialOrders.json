@@ -2204,5 +2204,54 @@
         "Year | contains=1": false
       }
     },
+    // Willy Mildly Salty
+    {
+      "LogName": "Willy Mildly Salty",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Willy_MildlySalty": {
+          "Name": "[TowniesNeedArtisanGoods_Willy_MildlySalty_Name]",
+          "Requester": "Willy",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Willy_MildlySalty_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Willy_MildlySalty_Objective_Text_0]",
+              "RequiredCount": "5",
+              "Data": {
+                "AcceptedContextTags": "item_caviar",
+                "Message": "[TowniesNeedArtisanGoods_Willy_MildlySalty_Message_0]",
+                "TargetName": "Willy"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "3500"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "roe",
+        "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10"
+      }
+    },
   ]
 }

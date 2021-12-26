@@ -580,5 +580,17 @@
         "TowniesNeedArtisanGoods_Vincent_DinoMayo_Message_0": "{{i18n:TowniesNeedArtisanGoods_Vincent_DinoMayo_Message_0}}"
       }
     },
+    // Strings Willy Mildly Salty
+    {
+      "LogName": "Strings Willy Mildly Salty",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Willy_MildlySalty_Name": "{{i18n:TowniesNeedArtisanGoods_Willy_MildlySalty_Name}}",
+        "TowniesNeedArtisanGoods_Willy_MildlySalty_Text": "{{i18n:TowniesNeedArtisanGoods_Willy_MildlySalty_Text}}",
+        "TowniesNeedArtisanGoods_Willy_MildlySalty_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Willy_MildlySalty_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Willy_MildlySalty_Message_0": "{{i18n:TowniesNeedArtisanGoods_Willy_MildlySalty_Message_0}}"
+      }
+    },
   ]
 }

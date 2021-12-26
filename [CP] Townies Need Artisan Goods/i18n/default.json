@@ -310,4 +310,11 @@
   "TowniesNeedArtisanGoods_Vincent_DinoMayo_Text": "I think Vincent and Jas would love to try some dinosaur mayonnaise. Could someone give some to Vincent and remind him to share?   -Sam",
   "TowniesNeedArtisanGoods_Vincent_DinoMayo_Objective_Text_0": "Deliver 1 Dinosaur Mayonnaise to Vincent",
   "TowniesNeedArtisanGoods_Vincent_DinoMayo_Message_0": "What is this?$3#$b#WHAT?! THAT'S SO COOL!$h#$b#Ok ok. I'll share with Jas. Thank you @!$0",
+  //
+  //
+  // Willy Mildly Salty Strings
+  "TowniesNeedArtisanGoods_Willy_MildlySalty_Name": "Mildly Salty",
+  "TowniesNeedArtisanGoods_Willy_MildlySalty_Text": "Caviar is quite a delicacy. Could someone bring me 5 jars?",
+  "TowniesNeedArtisanGoods_Willy_MildlySalty_Objective_Text_0": "Deliver 5 Caviar jars to Willy",
+  "TowniesNeedArtisanGoods_Willy_MildlySalty_Message_0": "This is a fine side dish. Thanks, @.$h",
 }
