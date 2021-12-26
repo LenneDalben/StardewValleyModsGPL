@@ -1857,7 +1857,7 @@
         "TowniesNeedArtisanGoods_Sam_GameNight": {
           "Name": "[TowniesNeedArtisanGoods_Sam_GameNight_Name]",
           "Requester": "Sam",
-          "Duration": "Month",
+          "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
