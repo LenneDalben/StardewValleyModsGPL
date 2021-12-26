@@ -11,7 +11,7 @@
           "Requester": "Abigail",
           "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
+          "RequiredTags": "season_fall",
           "OrderType": "",
           "SpecialRule": "",
           "Text": "[TowniesNeedArtisanGoods_Abigail_SweetPumpkin_Text]", // The text shown on the special order board and the journal
