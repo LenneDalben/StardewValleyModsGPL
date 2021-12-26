@@ -816,7 +816,7 @@
           "Requester": "Gus",
           "Duration": "Month",
           "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
+          "RequiredTags": "season_summer",
           "OrderType": "",
           "SpecialRule": "",
           "Text": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Text]",
