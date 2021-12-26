@@ -289,4 +289,11 @@
   "TowniesNeedArtisanGoods_Sandy_LightBeverage_Text": "Could someone bring Sandy 2 beers? I think that would help her cheer up.",
   "TowniesNeedArtisanGoods_Sandy_LightBeverage_Objective_Text_0": "Deliver 2 Beers to Sandy",
   "TowniesNeedArtisanGoods_Sandy_LightBeverage_Message_0": "Emily asked you to bring these to me?#$b# I guess I'll keep these until she visits, and then we can drink together!$h",
+  //
+  //
+  // Sebastian Side for Sushi Strings
+  "TowniesNeedArtisanGoods_Sebastian_SideforSushi_Name": "Side for Sushi",
+  "TowniesNeedArtisanGoods_Sebastian_SideforSushi_Text": "I'd like to vary my side for sushi from pickled ginger. Could someone bring me 4 pickled bok choy?",
+  "TowniesNeedArtisanGoods_Sebastian_SideforSushi_Objective_Text_0": "Deliver 4 Pickled Bok Choy jars to Sebastian",
+  "TowniesNeedArtisanGoods_Sebastian_SideforSushi_Message_0": "I can't wait to have this with sushi. Thanks, @.$h",
 }

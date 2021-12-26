@@ -544,5 +544,17 @@
         "TowniesNeedArtisanGoods_Sandy_LightBeverage_Message_0": "{{i18n:TowniesNeedArtisanGoods_Sandy_LightBeverage_Message_0}}"
       }
     },
+    // Strings Sebastian Side for Sushi
+    {
+      "LogName": "Strings Sebastian Side for Sushi",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Sebastian_SideforSushi_Name": "{{i18n:TowniesNeedArtisanGoods_Sebastian_SideforSushi_Name}}",
+        "TowniesNeedArtisanGoods_Sebastian_SideforSushi_Text": "{{i18n:TowniesNeedArtisanGoods_Sebastian_SideforSushi_Text}}",
+        "TowniesNeedArtisanGoods_Sebastian_SideforSushi_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Sebastian_SideforSushi_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Sebastian_SideforSushi_Message_0": "{{i18n:TowniesNeedArtisanGoods_Sebastian_SideforSushi_Message_0}}"
+      }
+    },
   ]
 }

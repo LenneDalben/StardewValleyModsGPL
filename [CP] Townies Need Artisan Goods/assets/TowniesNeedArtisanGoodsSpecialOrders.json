@@ -2055,5 +2055,54 @@
         "HasSeenEvent": "67"
       }
     },
+    // Sebastian Side for Sushi
+    {
+      "LogName": "Sebastian Side for Sushi",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Sebastian_SideforSushi": {
+          "Name": "[TowniesNeedArtisanGoods_Sebastian_SideforSushi_Name]",
+          "Requester": "Sebastian",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Sebastian_SideforSushi_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Sebastian_SideforSushi_Objective_Text_0]",
+              "RequiredCount": "4",
+              "Data": {
+                "AcceptedContextTags": "item_pickled_bok_choy",
+                "Message": "[TowniesNeedArtisanGoods_Sebastian_SideforSushi_Message_0]",
+                "TargetName": "Sebastian"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1176"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "pickle",
+        "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10"
+      }
+    },
   ]
 }
