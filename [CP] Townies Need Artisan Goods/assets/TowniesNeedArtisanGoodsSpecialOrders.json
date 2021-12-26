@@ -1832,7 +1832,56 @@
             {
               "Type": "Money",
               "Data": {
-                "Amount": "5040"
+                "Amount": "1512"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "wine",
+        "SkillLevel:Farming": "8, 9, 10"
+      }
+    },
+    // Sam Game Night
+    {
+      "LogName": "Sam Game Night",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Sam_GameNight": {
+          "Name": "[TowniesNeedArtisanGoods_Sam_GameNight_Name]",
+          "Requester": "Sam",
+          "Duration": "Month",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Sam_GameNight_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Sam_GameNight_Objective_Text_0]",
+              "RequiredCount": "3",
+              "Data": {
+                "AcceptedContextTags": "item_strawberry_wine",
+                "Message": "[TowniesNeedArtisanGoods_Sam_GameNight_Message_0]",
+                "TargetName": "Sam"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "860"
               }
             },
             {
