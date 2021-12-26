@@ -438,7 +438,8 @@
         }
       },
       "When": {
-        "OrderType": "animal"
+        "OrderType": "animal",
+        "Year | contains=1": false
       }
     },
     // Elliott Sweet Inspiration
