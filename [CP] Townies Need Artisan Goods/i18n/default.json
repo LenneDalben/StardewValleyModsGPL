@@ -236,36 +236,36 @@
   // Pam Preserved Parsnip Strings
   "TowniesNeedArtisanGoods_Pam_PreservedParsnip_Name": "Preserved Parsnip",
   "TowniesNeedArtisanGoods_Pam_PreservedParsnip_Text": "Howdy! I'd love some pickled parsnip. Could someone in this town help me out and bring me 9 jars?",
-  "TowniesNeedArtisanGoods_Pam_PreservedParsnip_Objective_Text_0": "Deliver 9 Pickled Parsnip to Pam",
+  "TowniesNeedArtisanGoods_Pam_PreservedParsnip_Objective_Text_0": "Deliver 9 Pickled Parsnip jars to Pam",
   "TowniesNeedArtisanGoods_Pam_PreservedParsnip_Message_0": "Are those pickled parsnips I see?#$b#They're for me? Thanks, @!$h",
   //
   //
   // Penny Tie-Dye Project Strings
   "TowniesNeedArtisanGoods_Penny_Tie-DyeProject_Name": "Tie-Dye Project",
   "TowniesNeedArtisanGoods_Penny_Tie-DyeProject_Text": "Hi, Emily and I are tie-dying shirts with the children. Could someone bring me 4 bottles of beet juice or red cabbage juice, please?",
-  "TowniesNeedArtisanGoods_Penny_Tie-DyeProject_Objective_Text_0": "Deliver 4 Juice (Beet or Red Cabbage) to Penny",
+  "TowniesNeedArtisanGoods_Penny_Tie-DyeProject_Objective_Text_0": "Deliver 4 Juice bottles (Beet or Red Cabbage) to Penny",
   "TowniesNeedArtisanGoods_Penny_Tie-DyeProject_Message_0": "Thanks @, these will work for our red dye.$h",
   //
   //
   // Robin Cheesy Delight Strings
   "TowniesNeedArtisanGoods_Robin_CheesyDelight_Name": "Cheesy Delight",
   "TowniesNeedArtisanGoods_Robin_CheesyDelight_Text": "I love goat cheese. Could someone bring me 6 gold quality goat cheese?",
-  "TowniesNeedArtisanGoods_Robin_CheesyDelight_Objective_Text_0": "Deliver 6 Gold Quality Goat Cheese to Robin",
+  "TowniesNeedArtisanGoods_Robin_CheesyDelight_Objective_Text_0": "Deliver 6 Gold Quality Goat Cheeses to Robin",
   "TowniesNeedArtisanGoods_Robin_CheesyDelight_Message_0": "Thanks @! With some milk, I can spread this on bread.$h",
   //
   //
   // Robin Like Strawberry Wine Strings
   "TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Name": "Like Strawberry Wine",
   "TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Text": "Strawberry wine has special significance to Demetrius and I. Could someone bring me 3 bottles of strawberry wine?",
-  "TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Objective_Text_0": "Deliver 3 Strawberry Wine to Robin",
+  "TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Objective_Text_0": "Deliver 3 Strawberry Wine bottles to Robin",
   "TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Message_0": "Thanks @! I'm looking forward to this.$h#$b#Reminds me of a hot July moon...$4",
   //
   //
   // Sam Game Night Strings
   "TowniesNeedArtisanGoods_Sam_GameNight_Name": "Game Night",
   "TowniesNeedArtisanGoods_Sam_GameNight_Text": "We're having a session of Solarion Chronicles and could use some beverages. Could someone bring me 2 bottles of mead and 2 coffees?",
-  "TowniesNeedArtisanGoods_Sam_GameNight_Objective_Text_0": "Deliver 2 Mead to Sam",
-  "TowniesNeedArtisanGoods_Sam_GameNight_Objective_Text_1": "Deliver 2 Coffee to Sam",
+  "TowniesNeedArtisanGoods_Sam_GameNight_Objective_Text_0": "Deliver 2 Mead bottles to Sam",
+  "TowniesNeedArtisanGoods_Sam_GameNight_Objective_Text_1": "Deliver 2 Coffees to Sam",
   "TowniesNeedArtisanGoods_Sam_GameNight_Message_0": "Thanks, Abby and I will enjoy these!$h",
   "TowniesNeedArtisanGoods_Sam_GameNight_Message_1": "Thanks, gotta have something for Sebastian to drink too.$h",
   //
@@ -273,14 +273,14 @@
   // Sam Grease for Wheels Strings
   "TowniesNeedArtisanGoods_Sam_GreaseforWheels_Name": "Grease for Wheels",
   "TowniesNeedArtisanGoods_Sam_GreaseforWheels_Text": "I could use some oil for fixing up my old skateboards. Could someone bring me 4 bottles?",
-  "TowniesNeedArtisanGoods_Sam_GreaseforWheels_Objective_Text_0": "Deliver 4 Oil to Sam",
+  "TowniesNeedArtisanGoods_Sam_GreaseforWheels_Objective_Text_0": "Deliver 4 Oil bottles to Sam",
   "TowniesNeedArtisanGoods_Sam_GreaseforWheels_Message_0": "Thanks, this will help stop the squeaking!$h",
   //
   //
   // Sam Sweet and Soothing Strings
   "TowniesNeedArtisanGoods_Sam_SweetandSoothing_Name": "Sweet and Soothing",
   "TowniesNeedArtisanGoods_Sam_SweetandSoothing_Text": "Honey would help my allergies. Could someone bring me 3 jars of honey? Blue jazz or tulip, please.",
-  "TowniesNeedArtisanGoods_Sam_SweetandSoothing_Objective_Text_0": "Deliver 3 Honey (blue jazz or tulip) to Sam",
+  "TowniesNeedArtisanGoods_Sam_SweetandSoothing_Objective_Text_0": "Deliver 3 Honey jars (blue jazz or tulip) to Sam",
   "TowniesNeedArtisanGoods_Sam_SweetandSoothing_Message_0": "Awesome, thanks @! I'm sure this will help my throat feel better.$h",
   //
   //
