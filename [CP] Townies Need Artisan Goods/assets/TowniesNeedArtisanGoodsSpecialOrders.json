@@ -1798,5 +1798,54 @@
         "PlayerHasCellarOrQAP": true
       }
     },
+    // Robin Like Strawberry Wine
+    {
+      "LogName": "Robin Like Strawberry Wine",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Robin_LikeStrawberryWine": {
+          "Name": "[TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Name]",
+          "Requester": "Robin",
+          "Duration": "Month",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Objective_Text_0]",
+              "RequiredCount": "3",
+              "Data": {
+                "AcceptedContextTags": "item_strawberry_wine",
+                "Message": "[TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Message_0]",
+                "TargetName": "Robin"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "5040"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "wine",
+        "SkillLevel:Farming": "8, 9, 10"
+      }
+    },
   ]
 }

@@ -482,5 +482,17 @@
         "TowniesNeedArtisanGoods_Robin_CheesyDelight_Message_0": "{{i18n:TowniesNeedArtisanGoods_Robin_CheesyDelight_Message_0}}"
       }
     },
+    // Strings Robin Like Strawberry Wine
+    {
+      "LogName": "Strings Robin Like Strawberry Wine",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Name": "{{i18n:TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Name}}",
+        "TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Text": "{{i18n:TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Text}}",
+        "TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Message_0": "{{i18n:TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Message_0}}"
+      }
+    },
   ]
 }
