@@ -607,7 +607,8 @@
       },
       "When": {
         "OrderType": "jelly, honey, pickles, wine, animal",
-        "SkillLevel:Farming": "8, 9, 10"
+        "SkillLevel:Farming": "8, 9, 10",
+        "Year | contains=1": false
       }
     },
     // Emily Tailoring Materials
