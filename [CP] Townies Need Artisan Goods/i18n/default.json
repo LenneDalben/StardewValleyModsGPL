@@ -259,4 +259,13 @@
   "TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Text": "Strawberry wine has special significance to Demetrius and I. Could someone bring me 3 bottles of strawberry wine?",
   "TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Objective_Text_0": "Deliver 3 Strawberry Wine to Robin",
   "TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Message_0": "Thanks @! I'm looking forward to this.$h#$b#Reminds me of a hot July moon...$4",
+  //
+  //
+  // Sam Game Night Strings
+  "TowniesNeedArtisanGoods_Sam_GameNight_Name": "Game Night",
+  "TowniesNeedArtisanGoods_Sam_GameNight_Text": "We're having a session of Solarion Chronicles and could use some beverages. Could someone bring me 2 bottles of mead and 2 coffees?",
+  "TowniesNeedArtisanGoods_Sam_GameNight_Objective_Text_0": "Deliver 2 Mead to Sam",
+  "TowniesNeedArtisanGoods_Sam_GameNight_Objective_Text_1": "Deliver 2 Coffee to Sam",
+  "TowniesNeedArtisanGoods_Sam_GameNight_Message_0": "Thanks, Abby and I will enjoy these!$h",
+  "TowniesNeedArtisanGoods_Sam_GameNight_Message_1": "Thanks, gotta have something for Sebastian to drink too.$h",
 }

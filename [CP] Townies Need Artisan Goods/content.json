@@ -494,5 +494,19 @@
         "TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Message_0": "{{i18n:TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Message_0}}"
       }
     },
+    // Strings Sam Game Night
+    {
+      "LogName": "Strings Sam Game Night",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Sam_GameNight_Name": "{{i18n:TowniesNeedArtisanGoods_Sam_GameNight_Name}}",
+        "TowniesNeedArtisanGoods_Sam_GameNight_Text": "{{i18n:TowniesNeedArtisanGoods_Sam_GameNight_Text}}",
+        "TowniesNeedArtisanGoods_Sam_GameNight_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Sam_GameNight_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Sam_GameNight_Objective_Text_1": "{{i18n:TowniesNeedArtisanGoods_Sam_GameNight_Objective_Text_1}}",
+        "TowniesNeedArtisanGoods_Sam_GameNight_Message_0": "{{i18n:TowniesNeedArtisanGoods_Sam_GameNight_Message_0}}",
+        "TowniesNeedArtisanGoods_Sam_GameNight_Message_1": "{{i18n:TowniesNeedArtisanGoods_Sam_GameNight_Message_1}}"
+      }
+    },
   ]
 }

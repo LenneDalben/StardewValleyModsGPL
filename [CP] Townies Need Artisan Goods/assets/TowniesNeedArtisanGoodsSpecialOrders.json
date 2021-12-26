@@ -1869,10 +1869,20 @@
             {
               "Type": "Deliver",
               "Text": "[TowniesNeedArtisanGoods_Sam_GameNight_Objective_Text_0]",
-              "RequiredCount": "3",
+              "RequiredCount": "2",
               "Data": {
-                "AcceptedContextTags": "item_strawberry_wine",
+                "AcceptedContextTags": "item_mead",
                 "Message": "[TowniesNeedArtisanGoods_Sam_GameNight_Message_0]",
+                "TargetName": "Sam"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Sam_GameNight_Objective_Text_1]",
+              "RequiredCount": "2",
+              "Data": {
+                "AcceptedContextTags": "item_coffee",
+                "Message": "[TowniesNeedArtisanGoods_Sam_GameNight_Message_1]",
                 "TargetName": "Sam"
               }
             }
@@ -1892,8 +1902,8 @@
         }
       },
       "When": {
-        "OrderType": "wine",
-        "SkillLevel:Farming": "8, 9, 10"
+        "OrderType": "mead",
+        "SkillLevel:Farming": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
   ]
