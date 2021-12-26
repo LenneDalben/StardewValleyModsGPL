@@ -1956,5 +1956,54 @@
         "SkillLevel:Farming": "8, 9, 10"
       }
     },
+    // Sam Sweet and Soothing
+    {
+      "LogName": "Sam Sweet and Soothing",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Sam_SweetandSoothing": {
+          "Name": "[TowniesNeedArtisanGoods_Sam_SweetandSoothing_Name]",
+          "Requester": "Sam",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "season_spring",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Sam_SweetandSoothing_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Sam_SweetandSoothing_Objective_Text_0]",
+              "RequiredCount": "3",
+              "Data": {
+                "AcceptedContextTags": "item_blue_jazz_honey/item_tulip_honey",
+                "Message": "[TowniesNeedArtisanGoods_Sam_SweetandSoothing_Message_0]",
+                "TargetName": "Sam"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "756"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "honey",
+        "SkillLevel:Farming": "3, 4, 5, 6, 7, 8, 9, 10"
+      }
+    },
   ]
 }
