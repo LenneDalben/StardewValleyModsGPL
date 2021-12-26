@@ -568,5 +568,17 @@
         "TowniesNeedArtisanGoods_Shane_6PackofJuice_Message_0": "{{i18n:TowniesNeedArtisanGoods_Shane_6PackofJuice_Message_0}}"
       }
     },
+    // Strings Vincent Dino Mayo
+    {
+      "LogName": "Strings Vincent Dino Mayo",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Vincent_DinoMayo_Name": "{{i18n:TowniesNeedArtisanGoods_Vincent_DinoMayo_Name}}",
+        "TowniesNeedArtisanGoods_Vincent_DinoMayo_Text": "{{i18n:TowniesNeedArtisanGoods_Vincent_DinoMayo_Text}}",
+        "TowniesNeedArtisanGoods_Vincent_DinoMayo_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Vincent_DinoMayo_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Vincent_DinoMayo_Message_0": "{{i18n:TowniesNeedArtisanGoods_Vincent_DinoMayo_Message_0}}"
+      }
+    },
   ]
 }

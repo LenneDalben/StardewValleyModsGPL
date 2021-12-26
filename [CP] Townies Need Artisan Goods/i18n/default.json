@@ -303,4 +303,11 @@
   "TowniesNeedArtisanGoods_Shane_6PackofJuice_Text": "Figured it'd be good to stock up on non-alcoholic drinks. Could someone bring me 6 juice bottles?",
   "TowniesNeedArtisanGoods_Shane_6PackofJuice_Objective_Text_0": "Deliver 6 Juice bottles to Shane",
   "TowniesNeedArtisanGoods_Shane_6PackofJuice_Message_0": "Thanks, @. Hope this helps me a little with my sobriety.$h",
+  //
+  //
+  // Vincent Dino Mayo Strings
+  "TowniesNeedArtisanGoods_Vincent_DinoMayo_Name": "Dino Mayo!",
+  "TowniesNeedArtisanGoods_Vincent_DinoMayo_Text": "I think Vincent and Jas would love to try some dinosaur mayonnaise. Could someone give some to Vincent and remind him to share?   -Sam",
+  "TowniesNeedArtisanGoods_Vincent_DinoMayo_Objective_Text_0": "Deliver 1 Dinosaur Mayonnaise to Vincent",
+  "TowniesNeedArtisanGoods_Vincent_DinoMayo_Message_0": "What is this?$3#$b#WHAT?! THAT'S SO COOL!$h#$b#Ok ok. I'll share with Jas. Thank you @!$0",
 }
