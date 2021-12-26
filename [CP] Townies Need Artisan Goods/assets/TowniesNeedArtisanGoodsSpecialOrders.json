@@ -1428,6 +1428,7 @@
       "When": {
         "OrderType": "wine, animal",
         "SkillLevel:Farming": "8, 9, 10",
+        "HasCookingRecipe": "Chocolate Cake",
         "PlayerHasCellarOrQAP": "true"
       }
     },
