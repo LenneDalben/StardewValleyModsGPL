@@ -1527,7 +1527,7 @@
             {
               "Type": "Deliver",
               "Text": "[TowniesNeedArtisanGoods_Marnie_CasksforCheese_Objective_Text_0]",
-              "RequiredCount": "3",
+              "RequiredCount": "5",
               "Data": {
                 "AcceptedContextTags": "item_cask",
                 "Message": "[TowniesNeedArtisanGoods_Marnie_CasksforCheese_Message_0]",
