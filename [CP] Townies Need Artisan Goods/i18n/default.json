@@ -296,4 +296,11 @@
   "TowniesNeedArtisanGoods_Sebastian_SideforSushi_Text": "I'd like to vary my side for sushi from pickled ginger. Could someone bring me 4 pickled bok choy?",
   "TowniesNeedArtisanGoods_Sebastian_SideforSushi_Objective_Text_0": "Deliver 4 Pickled Bok Choy jars to Sebastian",
   "TowniesNeedArtisanGoods_Sebastian_SideforSushi_Message_0": "I can't wait to have this with sushi. Thanks, @.$h",
+  //
+  //
+  // Shane 6 Pack of Juice Strings
+  "TowniesNeedArtisanGoods_Shane_6PackofJuice_Name": "6 'Pack' of Juice",
+  "TowniesNeedArtisanGoods_Shane_6PackofJuice_Text": "Figured it'd be good to stock up on non-alcoholic drinks. Could someone bring me 6 juice bottles?",
+  "TowniesNeedArtisanGoods_Shane_6PackofJuice_Objective_Text_0": "Deliver 6 Juice bottles to Shane",
+  "TowniesNeedArtisanGoods_Shane_6PackofJuice_Message_0": "Thanks, @. Hope this helps me a little with my sobriety.$h",
 }

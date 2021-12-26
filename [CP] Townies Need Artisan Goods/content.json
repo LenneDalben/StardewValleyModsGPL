@@ -556,5 +556,17 @@
         "TowniesNeedArtisanGoods_Sebastian_SideforSushi_Message_0": "{{i18n:TowniesNeedArtisanGoods_Sebastian_SideforSushi_Message_0}}"
       }
     },
+    // Strings Shane 6 Pack of Juice
+    {
+      "LogName": "Strings Shane 6 Pack of Juice",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Shane_6PackofJuice_Name": "{{i18n:TowniesNeedArtisanGoods_Shane_6PackofJuice_Name}}",
+        "TowniesNeedArtisanGoods_Shane_6PackofJuice_Text": "{{i18n:TowniesNeedArtisanGoods_Shane_6PackofJuice_Text}}",
+        "TowniesNeedArtisanGoods_Shane_6PackofJuice_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Shane_6PackofJuice_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Shane_6PackofJuice_Message_0": "{{i18n:TowniesNeedArtisanGoods_Shane_6PackofJuice_Message_0}}"
+      }
+    },
   ]
 }
