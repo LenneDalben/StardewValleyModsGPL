@@ -268,4 +268,11 @@
   "TowniesNeedArtisanGoods_Sam_GameNight_Objective_Text_1": "Deliver 2 Coffee to Sam",
   "TowniesNeedArtisanGoods_Sam_GameNight_Message_0": "Thanks, Abby and I will enjoy these!$h",
   "TowniesNeedArtisanGoods_Sam_GameNight_Message_1": "Thanks, gotta have something for Sebastian to drink too.$h",
+  //
+  //
+  // Sam Grease for Wheels Strings
+  "TowniesNeedArtisanGoods_Sam_GreaseforWheels_Name": "Grease for Wheels",
+  "TowniesNeedArtisanGoods_Sam_GreaseforWheels_Text": "I could use some oil for fixing up my old skateboards. Could someone bring me 4 bottles?",
+  "TowniesNeedArtisanGoods_Sam_GreaseforWheels_Objective_Text_0": "Deliver 4 Oil to Sam",
+  "TowniesNeedArtisanGoods_Sam_GreaseforWheels_Message_0": "Thanks, this will help stop the squeaking!$h",
 }

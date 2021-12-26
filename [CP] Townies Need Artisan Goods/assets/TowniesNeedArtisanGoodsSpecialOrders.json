@@ -1907,5 +1907,54 @@
         "SkillLevel:Farming": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
+    // Sam Grease for Wheels
+    {
+      "LogName": "Sam Grease for Wheels",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Sam_GreaseforWheels": {
+          "Name": "[TowniesNeedArtisanGoods_Sam_GreaseforWheels_Name]",
+          "Requester": "Sam",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Sam_GreaseforWheels_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Sam_GreaseforWheels_Objective_Text_0]",
+              "RequiredCount": "4",
+              "Data": {
+                "AcceptedContextTags": "item_oil",
+                "Message": "[TowniesNeedArtisanGoods_Sam_GreaseforWheels_Message_0]",
+                "TargetName": "Sam"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "400"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "misc",
+        "SkillLevel:Farming": "8, 9, 10"
+      }
+    },
   ]
 }

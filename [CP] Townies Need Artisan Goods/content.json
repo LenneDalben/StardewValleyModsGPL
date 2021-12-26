@@ -508,5 +508,17 @@
         "TowniesNeedArtisanGoods_Sam_GameNight_Message_1": "{{i18n:TowniesNeedArtisanGoods_Sam_GameNight_Message_1}}"
       }
     },
+    // Strings Sam Grease for Wheels
+    {
+      "LogName": "Strings Sam Grease for Wheels",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Sam_GreaseforWheels_Name": "{{i18n:TowniesNeedArtisanGoods_Sam_GreaseforWheels_Name}}",
+        "TowniesNeedArtisanGoods_Sam_GreaseforWheels_Text": "{{i18n:TowniesNeedArtisanGoods_Sam_GreaseforWheels_Text}}",
+        "TowniesNeedArtisanGoods_Sam_GreaseforWheels_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Sam_GreaseforWheels_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Sam_GreaseforWheels_Message_0": "{{i18n:TowniesNeedArtisanGoods_Sam_GreaseforWheels_Message_0}}"
+      }
+    },
   ]
 }
