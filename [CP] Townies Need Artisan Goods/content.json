@@ -604,5 +604,17 @@
         "TowniesNeedArtisanGoods_Willy_ToneofHoney_Message_0": "{{i18n:TowniesNeedArtisanGoods_Willy_ToneofHoney_Message_0}}"
       }
     },
+    // Strings Wizard Underworld Drink
+    {
+      "LogName": "Strings Wizard Underworld Drink",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Name": "{{i18n:TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Name}}",
+        "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Text": "{{i18n:TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Text}}",
+        "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Message_0": "{{i18n:TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Message_0}}"
+      }
+    },
   ]
 }

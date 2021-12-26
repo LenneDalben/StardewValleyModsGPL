@@ -324,4 +324,11 @@
   "TowniesNeedArtisanGoods_Willy_ToneofHoney_Text": "I'd love some mead. Could someone bring me 3 bottles?",
   "TowniesNeedArtisanGoods_Willy_ToneofHoney_Objective_Text_0": "Deliver 3 Mead bottles to Willy",
   "TowniesNeedArtisanGoods_Willy_ToneofHoney_Message_0": "Yes, even this old fisherman can appreciate a good bottle of mead. Thank you @!$h",
+  //
+  //
+  // Wizard Underworld Drink Strings
+  "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Name": "Underworld Drink",
+  "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Text": "Pomegranates are associated with the underworld. I'd be most interested in 6 bottles of quality pomegranate wine, gold or iridum only.",
+  "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Objective_Text_0": "Deliver 6 Pomegranate Wine bottles (gold or iridium quality) to Wizard",
+  "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Message_0": "Many thanks, @!$h",
 }

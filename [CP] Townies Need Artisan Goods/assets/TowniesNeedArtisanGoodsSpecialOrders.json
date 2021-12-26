@@ -2302,5 +2302,55 @@
         "SkillLevel:Farming": "3, 4, 5, 6, 7, 8, 9, 10"
       }
     },
+    // Wizard Underworld Drink
+    {
+      "LogName": "Wizard Underworld Drink",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Wizard_UnderworldDrink": {
+          "Name": "[TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Name]",
+          "Requester": "Wizard",
+          "Duration": "Month",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Objective_Text_0]",
+              "RequiredCount": "6",
+              "Data": {
+                "AcceptedContextTags": "item_pomegranate_wine, quality_gold/quality_iridium",
+                "Message": "[TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Message_0]",
+                "TargetName": "Wizard"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "6174"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "wine",
+        "SkillLevel:Farming": "8, 9, 10",
+        "PlayerHasCellarOrQAP": true
+      }
+    },
   ]
 }
