@@ -1217,7 +1217,7 @@
           "Requester": "Leah",
           "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "!dropboxRoom_LeahHouse, !season_spring",
+          "RequiredTags": "!dropboxRoom_LeahHouse, !season_winter",
           "OrderType": "",
           "SpecialRule": "",
           "Text": "[TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Text]",
