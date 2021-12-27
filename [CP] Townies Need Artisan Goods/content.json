@@ -50,6 +50,23 @@
       "Action": "Include",
       "FromFile": "assets/TowniesNeedArtisanGoodsSpecialOrders.json"
     },
+    // Leah's House DropBox Patch
+    {
+      "LogName": "Leah's House DropBox",
+      "Action": "EditMap",
+      "Target": "Maps/LeahHouse",
+      "MapTiles": [
+        {
+          "Position": { "X": 3, "Y": 8},
+          "SetProperties": {
+            "Action": "DropBox LeahWood"
+          }
+        }
+      ],
+      "When": {
+        "{{atravita.SpecialOrdersExtended/Current|contains=TowniesNeedArtisanGoods_Leah_BeesintheMeadow}}": true
+      }
+    },
     // Strings below
     // Strings Abigail Sweet Pumpkin
     {
