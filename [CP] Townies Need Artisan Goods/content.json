@@ -21,7 +21,14 @@
       "Default": "jelly, pickle, beer, wine, honey, mead, juice, roe, animal, machine, misc",
       "AllowMultiple": true,
       "AllowBlank": false
-    }
+    },
+    "EasyMode": {
+      "Description": "Specify if you want the 3 biggest special orders to be easier (require less items). Default is false.",
+      "AllowValues": "true, false",
+      "Default": "false",
+      "AllowBlank": false,
+      "AllowMultiple": false
+    },
   },
   "DynamicTokens": [
     {
