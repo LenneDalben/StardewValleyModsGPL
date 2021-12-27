@@ -606,7 +606,7 @@
         }
       },
       "When": {
-        "OrderType": "jelly, honey, pickles, wine, animal",
+        "OrderType": "jelly, honey, pickle, wine, animal",
         "SkillLevel:Farming": "8, 9, 10",
         "Year | contains=1": false
       }
