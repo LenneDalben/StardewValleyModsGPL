@@ -50,6 +50,12 @@
       "Action": "Include",
       "FromFile": "assets/TowniesNeedArtisanGoodsSpecialOrders.json"
     },
+    // Include Rewards
+    {
+      "LogName": "Include Townies Seek Artisan Goods Rewards",
+      "Action": "Include",
+      "FromFile": "assets/TowniesNeedArtisanGoodsRewards.json"
+    },
     // Leah's House DropBox Patch
     {
       "LogName": "Leah's House DropBox",

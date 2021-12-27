@@ -1,0 +1,592 @@
+{
+  "Changes": [
+
+    // Abigail Yellow Mayo Conversation Topic
+    {
+      "LogName": "Abigail Yellow Mayo",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Abigail_YellowMayo": {
+          "Name": "[TowniesNeedArtisanGoods_Abigail_YellowMayo_Name]",
+          "Requester": "Abigail",
+          "Duration": "ThreeDays",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Abigail_YellowMayo_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Abigail_YellowMayo_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_duck_mayonnaise",
+                "Message": "[TowniesNeedArtisanGoods_Abigail_YellowMayo_Message_0]",
+                "TargetName": "Abigail"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "525"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "animal",
+        "SkillLevel:Farming": "2, 3, 4, 5, 6, 7, 8, 9, 10"
+      }
+    },
+    // Demetrius Oil Makers Event
+    {
+      "LogName": "Demetrius Oil Makers",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Demetrius_OilMakers": {
+          "Name": "[TowniesNeedArtisanGoods_Demetrius_OilMakers_Name]",
+          "Requester": "Demetrius",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "!dropbox_RobinWood, !dropboxRoom_ScienceHouse", // the first checks that Robin's wood pile is not in use and is a vanilla check. The second checks if there a dropbox in Robin's house is not in use, and requires atravita's Special Order Tags Extended mod
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Demetrius_OilMakers_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "[TowniesNeedArtisanGoods_Demetrius_OilMakers_Objective_Text_0]",
+              "RequiredCount": "3",
+              "Data": {
+                "DropBox": "RobinWood",
+                "DropBoxGameLocation": "ScienceHouse",
+                "DropBoxIndicatorLocation": "10.5 18",
+                "AcceptedContextTags": "item_oil_maker"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "16800"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "machine",
+        "SkillLevel:Farming": "8, 9, 10"
+      }
+    },
+    // Kent Jelly for PB&J Conversation Topic
+    {
+      "LogName": "Kent Jelly for PB&J",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Kent_JellyforPBJ": {
+          "Name": "[TowniesNeedArtisanGoods_Kent_JellyforPBJ_Name]",
+          "Requester": "Kent",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "!season_winter",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Kent_JellyforPBJ_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Kent_JellyforPBJ_Objective_Text_0]",
+              "RequiredCount": "3",
+              "Data": {
+                "AcceptedContextTags": "item_strawberry_jelly/item_grape_jelly",
+                "Message": "[TowniesNeedArtisanGoods_Kent_JellyforPBJ_Message_0]",
+                "TargetName": "Kent"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1050"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "jelly",
+        "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10",
+        "HasSeenEvent": "63"
+      }
+    },
+    // Leah Bees in the Meadow Event
+    {
+      "LogName": "Leah Bees in the Meadow",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Leah_BeesintheMeadow": {
+          "Name": "[TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Name]",
+          "Requester": "Leah",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "!dropboxRoom_LeahHouse",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "[TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Objective_Text_0]",
+              "RequiredCount": "5",
+              "Data": {
+                "DropBox": "LeahWood",
+                "DropBoxGameLocation": "LeahHouse",
+                "DropBoxIndicatorLocation": "3 8",
+                "AcceptedContextTags": "item_bee_house"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "28750"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "machine",
+        "SkillLevel:Farming": "3, 4, 5, 6, 7, 8, 9, 10"
+      }
+    },
+    // Lewis Special Night Conversation Topic
+    {
+      "LogName": "Lewis Special Night",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Lewis_SpecialNight": {
+          "Name": "[TowniesNeedArtisanGoods_Lewis_SpecialNight_Name]",
+          "Requester": "Lewis",
+          "Duration": "Month",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Lewis_SpecialNight_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Lewis_SpecialNight_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "wine_item, quality_gold/quality_iridium",
+                "Message": "[TowniesNeedArtisanGoods_Lewis_SpecialNight_Message_0]",
+                "TargetName": "Lewis"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Lewis_SpecialNight_Objective_Text_1]",
+              "RequiredCount": "2",
+              "Data": {
+                "AcceptedContextTags": "item_oyster",
+                "Message": "[TowniesNeedArtisanGoods_Lewis_SpecialNight_Message_1]",
+                "TargetName": "Lewis"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Lewis_SpecialNight_Objective_Text_2]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_chocolate_cake",
+                "Message": "[TowniesNeedArtisanGoods_Lewis_SpecialNight_Message_2]",
+                "TargetName": "Lewis"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Lewis_SpecialNight_Objective_Text_3]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_truffle_oil",
+                "Message": "[TowniesNeedArtisanGoods_Lewis_SpecialNight_Message_3]",
+                "TargetName": "Lewis"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "2451"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "wine, animal",
+        "SkillLevel:Farming": "8, 9, 10",
+        "HasCookingRecipe": "Chocolate Cake",
+        "PlayerHasCellarOrQAP": "true"
+      }
+    },
+    // Marnie Casks for Cheese Would anything need to be here for shop changes?
+    {
+      "LogName": "Marnie Casks for Cheese",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Marnie_CasksforCheese": {
+          "Name": "[TowniesNeedArtisanGoods_Marnie_CasksforCheese_Name]",
+          "Requester": "Marnie",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "!dropboxRoom_AnimalShop",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Marnie_CasksforCheese_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "[TowniesNeedArtisanGoods_Marnie_CasksforCheese_Objective_Text_0]",
+              "RequiredCount": "5",
+              "Data": {
+                "DropBox": "MarnieHay",
+                "DropBoxGameLocation": "AnimalShop",
+                "DropBoxIndicatorLocation": "5 18",
+                "AcceptedContextTags": "item_cask"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "5275"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "machine",
+        "FarmhouseUpgrade": "3"
+      }
+    },
+    // Marnie Special Dinner Conversation topic
+    {
+      "LogName": "Marnie Special Dinner",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Marnie_SpecialDinner": {
+          "Name": "[TowniesNeedArtisanGoods_Marnie_SpecialDinner_Name]",
+          "Requester": "Marnie",
+          "Duration": "Month",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Marnie_SpecialDinner_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Marnie_SpecialDinner_Objective_Text_0]",
+              "RequiredCount": "2",
+              "Data": {
+                "AcceptedContextTags": "wine_item, quality_gold/quality_iridium",
+                "Message": "[TowniesNeedArtisanGoods_Marnie_SpecialDinner_Message_0]",
+                "TargetName": "Marnie"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1400"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "wine",
+        "SkillLevel:Farming": "8, 9, 10",
+        "PlayerHasCellarOrQAP": "true"
+      }
+    },
+    // Robin Like Strawberry Wine Conversation Topic
+    {
+      "LogName": "Robin Like Strawberry Wine",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Robin_LikeStrawberryWine": {
+          "Name": "[TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Name]",
+          "Requester": "Robin",
+          "Duration": "Month",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "season_spring",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Objective_Text_0]",
+              "RequiredCount": "3",
+              "Data": {
+                "AcceptedContextTags": "item_strawberry_wine",
+                "Message": "[TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Message_0]",
+                "TargetName": "Robin"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1512"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "wine",
+        "SkillLevel:Farming": "8, 9, 10"
+      }
+    },
+    // Sam Game Night Event
+    {
+      "LogName": "Sam Game Night",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Sam_GameNight": {
+          "Name": "[TowniesNeedArtisanGoods_Sam_GameNight_Name]",
+          "Requester": "Sam",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Sam_GameNight_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Sam_GameNight_Objective_Text_0]",
+              "RequiredCount": "2",
+              "Data": {
+                "AcceptedContextTags": "item_mead",
+                "Message": "[TowniesNeedArtisanGoods_Sam_GameNight_Message_0]",
+                "TargetName": "Sam"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Sam_GameNight_Objective_Text_1]",
+              "RequiredCount": "2",
+              "Data": {
+                "AcceptedContextTags": "item_coffee",
+                "Message": "[TowniesNeedArtisanGoods_Sam_GameNight_Message_1]",
+                "TargetName": "Sam"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "860"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "mead",
+        "SkillLevel:Farming": "3, 4, 5, 6, 7, 8, 9, 10"
+      }
+    },
+    // Sam Grease for Wheels Conversation Topic
+    {
+      "LogName": "Sam Grease for Wheels",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Sam_GreaseforWheels": {
+          "Name": "[TowniesNeedArtisanGoods_Sam_GreaseforWheels_Name]",
+          "Requester": "Sam",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Sam_GreaseforWheels_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Sam_GreaseforWheels_Objective_Text_0]",
+              "RequiredCount": "4",
+              "Data": {
+                "AcceptedContextTags": "item_oil",
+                "Message": "[TowniesNeedArtisanGoods_Sam_GreaseforWheels_Message_0]",
+                "TargetName": "Sam"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "400"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "misc",
+        "SkillLevel:Farming": "8, 9, 10"
+      }
+    },
+    // Vincent Dino Mayo Event
+    {
+      "LogName": "Vincent Dino Mayo",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Vincent_DinoMayo": {
+          "Name": "[TowniesNeedArtisanGoods_Vincent_DinoMayo_Name]",
+          "Requester": "Sam",
+          "Duration": "ThreeDays",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Vincent_DinoMayo_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Vincent_DinoMayo_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_dinosaur_mayonnaise",
+                "Message": "[TowniesNeedArtisanGoods_Vincent_DinoMayo_Message_0]",
+                "TargetName": "Vincent"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1120"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "animal",
+        "SkillLevel:Farming": "2, 3, 4, 5, 6, 7, 8, 9, 10",
+        "Year | contains=1": false
+      }
+    }
+  ]
+}
