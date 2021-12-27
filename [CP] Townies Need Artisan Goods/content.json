@@ -143,8 +143,7 @@
       "Entries": {
         "TowniesNeedArtisanGoods_Demetrius_OilMakers_Name": "{{i18n:TowniesNeedArtisanGoods_Demetrius_OilMakers_Name}}",
         "TowniesNeedArtisanGoods_Demetrius_OilMakers_Text": "{{i18n:TowniesNeedArtisanGoods_Demetrius_OilMakers_Text}}",
-        "TowniesNeedArtisanGoods_Demetrius_OilMakers_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Demetrius_OilMakers_Objective_Text_0}}",
-        "TowniesNeedArtisanGoods_Demetrius_OilMakers_Message_0": "{{i18n:TowniesNeedArtisanGoods_Demetrius_OilMakers_Message_0}}"
+        "TowniesNeedArtisanGoods_Demetrius_OilMakers_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Demetrius_OilMakers_Objective_Text_0}}"
       }
     },
     // Strings Elliott Elegant Quill

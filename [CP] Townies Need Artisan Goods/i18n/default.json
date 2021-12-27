@@ -46,9 +46,8 @@
   //
   // Demetrius Oil Makers Strings
   "TowniesNeedArtisanGoods_Demetrius_OilMakers_Name": "Oil Makers",
-  "TowniesNeedArtisanGoods_Demetrius_OilMakers_Text": "Greetings, Demetrius here. My distillation system is broken and I need some replacement parts. Could someone bring me 3 oil makers?",
+  "TowniesNeedArtisanGoods_Demetrius_OilMakers_Text": "Greetings, Demetrius here. My distillation system is broken and I need some replacement parts. Could someone bring me 3 oil makers? I can disassemble these for parts.",
   "TowniesNeedArtisanGoods_Demetrius_OilMakers_Objective_Text_0": "Deliver 3 Oil Makers to Demetrius",
-  "TowniesNeedArtisanGoods_Demetrius_OilMakers_Message_0": "These should make enough replacement parts, thanks @!$h",
   //
   // Elliott Elegant Quill Strings
   "TowniesNeedArtisanGoods_Elliott_ElegantQuill_Name": "Elegant Quill",
