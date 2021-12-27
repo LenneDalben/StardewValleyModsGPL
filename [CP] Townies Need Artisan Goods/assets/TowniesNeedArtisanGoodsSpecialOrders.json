@@ -254,7 +254,7 @@
         "TowniesNeedArtisanGoods_Caroline_SpangleHoney": {
           "Name": "[TowniesNeedArtisanGoods_Caroline_SpangleHoney_Name]",
           "Requester": "Caroline",
-          "Duration": "TwoWeek",
+          "Duration": "TwoWeeks",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "season_summer",
           "OrderType": "",
@@ -403,7 +403,7 @@
         "TowniesNeedArtisanGoods_Elliott_ElegantQuill": {
           "Name": "[TowniesNeedArtisanGoods_Elliott_ElegantQuill_Name]",
           "Requester": "Elliott",
-          "Duration": "TwoWeek",
+          "Duration": "TwoWeeks",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
@@ -452,7 +452,7 @@
         "TowniesNeedArtisanGoods_Elliott_SweetInspiration": {
           "Name": "[TowniesNeedArtisanGoods_Elliott_SweetInspiration_Name]",
           "Requester": "Elliott",
-          "Duration": "TwoWeek",
+          "Duration": "TwoWeeks",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
@@ -770,7 +770,7 @@
         "TowniesNeedArtisanGoods_George_AdvancedKneeTherapy": {
           "Name": "[TowniesNeedArtisanGoods_George_AdvancedKneeTherapy_Name]",
           "Requester": "George",
-          "Duration": "TwoWeek",
+          "Duration": "TwoWeeks",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "season_summer",
           "OrderType": "",
@@ -820,7 +820,7 @@
         "TowniesNeedArtisanGoods_George_HealthyRoe": {
           "Name": "[TowniesNeedArtisanGoods_George_HealthyRoe_Name]",
           "Requester": "George",
-          "Duration": "TwoWeek",
+          "Duration": "TwoWeeks",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
@@ -969,7 +969,7 @@
         "TowniesNeedArtisanGoods_Gus_SpecialIngredient": {
           "Name": "[TowniesNeedArtisanGoods_Gus_SpecialIngredient_Name]",
           "Requester": "Gus",
-          "Duration": "TwoWeek",
+          "Duration": "TwoWeeks",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
@@ -1069,7 +1069,7 @@
         "TowniesNeedArtisanGoods_Harvey_NutritiousPickles": {
           "Name": "[TowniesNeedArtisanGoods_Harvey_NutritiousPickles_Name]",
           "Requester": "Harvey",
-          "Duration": "TwoWeek",
+          "Duration": "TwoWeeks",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
@@ -1548,7 +1548,7 @@
         "TowniesNeedArtisanGoods_Linus_BerryFlavor": {
           "Name": "[TowniesNeedArtisanGoods_Linus_BerryFlavor_Name]",
           "Requester": "Linus",
-          "Duration": "TwoWeek",
+          "Duration": "TwoWeeks",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
@@ -1818,7 +1818,7 @@
         "TowniesNeedArtisanGoods_Pam_PreservedParsnip": {
           "Name": "[TowniesNeedArtisanGoods_Pam_PreservedParsnip_Name]",
           "Requester": "Pam",
-          "Duration": "TwoWeek",
+          "Duration": "TwoWeeks",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "season_spring",
           "OrderType": "",
@@ -1917,7 +1917,7 @@
         "TowniesNeedArtisanGoods_Robin_CheesyDelight": {
           "Name": "[TowniesNeedArtisanGoods_Robin_CheesyDelight_Name]",
           "Requester": "Robin",
-          "Duration": "TwoWeek",
+          "Duration": "TwoWeeks",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
@@ -2421,7 +2421,7 @@
         "TowniesNeedArtisanGoods_Willy_ToneofHoney": {
           "Name": "[TowniesNeedArtisanGoods_Willy_ToneofHoney_Name]",
           "Requester": "Willy",
-          "Duration": "TwoWeek",
+          "Duration": "TwoWeeks",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
