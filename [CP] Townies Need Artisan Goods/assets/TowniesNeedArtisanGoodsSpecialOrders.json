@@ -1217,7 +1217,7 @@
           "Requester": "Leah",
           "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
+          "RequiredTags": "!dropboxRoom_LeahHouse",
           "OrderType": "",
           "SpecialRule": "",
           "Text": "[TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Text]",
@@ -1226,13 +1226,14 @@
           "RandomizedElements": null,
           "Objectives": [
             {
-              "Type": "Deliver",
+              "Type": "Donate",
               "Text": "[TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Objective_Text_0]",
               "RequiredCount": "5",
               "Data": {
-                "AcceptedContextTags": "item_bee_house",
-                "Message": "[TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Message_0]",
-                "TargetName": "Leah"
+                "DropBox": "LeahWood",
+                "DropBoxGameLocation": "LeahHouse",
+                "DropBoxIndicatorLocation": "3.5 8",
+                "AcceptedContextTags": "item_bee_house"
               }
             }
           ],
