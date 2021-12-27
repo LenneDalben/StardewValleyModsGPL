@@ -58,8 +58,8 @@
       "MapTiles": [
         {
           "Position": { "X": 3, "Y": 8},
+          "Layer": "Back",
           "SetProperties": {
-            "Layer": "Back",
             "Action": "DropBox LeahWood"
           }
         }
