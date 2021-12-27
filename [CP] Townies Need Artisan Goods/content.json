@@ -59,14 +59,15 @@
         {
           "Position": { "X": 3, "Y": 8},
           "SetProperties": {
+            "Layer": "Back",
             "Action": "DropBox LeahWood"
           }
         }
       ],
-      "When": {
+      /*"When": {
         "{{atravita.SpecialOrdersExtended/Current|contains=TowniesNeedArtisanGoods_Leah_BeesintheMeadow}}": true
       },
-      "Update": "OnLocationChange"
+      "Update": "OnLocationChange"*/
     },
     // Strings below
     // Strings Abigail Sweet Pumpkin
