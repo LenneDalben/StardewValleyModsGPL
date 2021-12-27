@@ -65,7 +65,8 @@
       ],
       "When": {
         "{{atravita.SpecialOrdersExtended/Current|contains=TowniesNeedArtisanGoods_Leah_BeesintheMeadow}}": true
-      }
+      },
+      "Update": "OnLocationChange"
     },
     // Strings below
     // Strings Abigail Sweet Pumpkin
