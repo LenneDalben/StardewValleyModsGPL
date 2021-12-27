@@ -612,7 +612,7 @@
         "Year | contains=1": false
       }
     },
-    // Emily Tailoring Materials
+    // Emily Tailoring Materials - Default
     {
       "LogName": "Emily Tailoring Materials",
       "Action": "EditData",
@@ -658,7 +658,58 @@
       },
       "When": {
         "OrderType": "animal",
-        "SkillLevel:Farming": "7, 8, 9, 10"
+        "SkillLevel:Farming": "7, 8, 9, 10",
+        "EasyMode": "false"
+      }
+    },
+    // Emily Tailoring Materials - Easy Mode
+    {
+      "LogName": "Emily Tailoring Materials",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Emily_TailoringMaterials": {
+          "Name": "[TowniesNeedArtisanGoods_Emily_TailoringMaterials_Name]",
+          "Requester": "Emily",
+          "Duration": "Month",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Emily_TailoringMaterials_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Emily_TailoringMaterials_Objective_Text_0]",
+              "RequiredCount": "10",
+              "Data": {
+                "AcceptedContextTags": "item_cloth",
+                "Message": "[TowniesNeedArtisanGoods_Emily_TailoringMaterials_Message_0]",
+                "TargetName": "Emily"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "6580"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "animal",
+        "SkillLevel:Farming": "7, 8, 9, 10",
+        "EasyMode": "true"
       }
     },
     // Evelyn Sugar Substitute
@@ -809,7 +860,7 @@
         "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10"
       }
     },
-    // Gus Drinks for the Fair
+    // Gus Drinks for the Fair- Default
     {
       "LogName": "Gus Drinks for the Fair",
       "Action": "EditData",
@@ -855,7 +906,58 @@
       },
       "When": {
         "OrderType": "beer",
-        "SkillLevel:Farming": "8, 9, 10"
+        "SkillLevel:Farming": "8, 9, 10",
+        "EasyMode": "false"
+      }
+    },
+    // Gus Drinks for the Fair - Easy Mode
+    {
+      "LogName": "Gus Drinks for the Fair",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Gus_DrinksfortheFair": {
+          "Name": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Name]",
+          "Requester": "Gus",
+          "Duration": "Month",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "season_summer",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Objective_Text_0]",
+              "RequiredCount": "10",
+              "Data": {
+                "AcceptedContextTags": "item_pale_ale",
+                "Message": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Message_0]",
+                "TargetName": "Gus"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "4200"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "beer",
+        "SkillLevel:Farming": "8, 9, 10",
+        "EasyMode": "true"
       }
     },
     // Gus Special Ingredient
@@ -1607,7 +1709,7 @@
         "PlayerHasCellarOrQAP": "true"
       }
     },
-    // Maru Power for Project
+    // Maru Power for Project - Default
     {
       "LogName": "Maru Power for Project",
       "Action": "EditData",
@@ -1653,7 +1755,58 @@
       },
       "When": {
         "OrderType": "misc",
-        "SkillLevel:Foraging": "6, 7, 8, 9, 10"
+        "SkillLevel:Foraging": "6, 7, 8, 9, 10",
+        "EasyMode": "false"
+      }
+    },
+    // Maru Power for Project - Easy Mode
+    {
+      "LogName": "Maru Power for Project",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Maru_PowerforProject": {
+          "Name": "[TowniesNeedArtisanGoods_Maru_PowerforProject_Name]",
+          "Requester": "Maru",
+          "Duration": "Month",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Maru_PowerforProject_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Maru_PowerforProject_Objective_Text_0]",
+              "RequiredCount": "10",
+              "Data": {
+                "AcceptedContextTags": "item_battery_pack",
+                "Message": "[TowniesNeedArtisanGoods_Maru_PowerforProject_Message_0]",
+                "TargetName": "Maru"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "5000"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "misc",
+        "SkillLevel:Foraging": "6, 7, 8, 9, 10",
+        "EasyMode": "true"
       }
     },
     // Pam Preserved Parsnip
