@@ -1518,7 +1518,7 @@
           "Requester": "Marnie",
           "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
+          "RequiredTags": "!dropboxRoom_AnimalShop",
           "OrderType": "",
           "SpecialRule": "",
           "Text": "[TowniesNeedArtisanGoods_Marnie_CasksforCheese_Text]",
@@ -1527,13 +1527,14 @@
           "RandomizedElements": null,
           "Objectives": [
             {
-              "Type": "Deliver",
+              "Type": "Donate",
               "Text": "[TowniesNeedArtisanGoods_Marnie_CasksforCheese_Objective_Text_0]",
               "RequiredCount": "5",
               "Data": {
-                "AcceptedContextTags": "item_cask",
-                "Message": "[TowniesNeedArtisanGoods_Marnie_CasksforCheese_Message_0]",
-                "TargetName": "Marnie"
+                "DropBox": "MarnieHay",
+                "DropBoxGameLocation": "AnimalShop",
+                "DropBoxIndicatorLocation": "5 18",
+                "AcceptedContextTags": "item_cask"
               }
             }
           ],

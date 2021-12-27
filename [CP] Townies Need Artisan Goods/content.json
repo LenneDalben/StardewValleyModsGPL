@@ -69,6 +69,25 @@
       },
       "Update": "OnLocationChange"*/
     },
+    // Marnie's Ranch (Animal Shop) DropBox Patch
+    {
+      "LogName": "Marnie's Ranch DropBox",
+      "Action": "EditMap",
+      "Target": "Maps/AnimalShop",
+      "MapTiles": [
+        {
+          "Position": { "X": 5, "Y": 18},
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "DropBox MarnieHay"
+          }
+        }
+      ],
+      /*"When": {
+        "{{atravita.SpecialOrdersExtended/Current|contains=TowniesNeedArtisanGoods_Marnie_CasksforCheese}}": true
+      },
+      "Update": "OnLocationChange"*/
+    },
     // Strings below
     // Strings Abigail Sweet Pumpkin
     {

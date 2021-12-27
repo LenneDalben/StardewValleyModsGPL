@@ -214,8 +214,8 @@
   // Marnie Casks for Cheese Strings
   "TowniesNeedArtisanGoods_Marnie_CasksforCheese_Name": "Casks for Cheese",
   "TowniesNeedArtisanGoods_Marnie_CasksforCheese_Text": "Howdy neighbors! I'd love to get some casks to age cheese. Could someone bring me 5?",
-  "TowniesNeedArtisanGoods_Marnie_CasksforCheese_Objective_Text_0": "Deliver 5 Casks to Marnie",
-  "TowniesNeedArtisanGoods_Marnie_CasksforCheese_Message_0": "Thhanks @! I'm looking forward to some fine cheese.$h",
+  "TowniesNeedArtisanGoods_Marnie_CasksforCheese_Objective_Text_0": "Drop off 5 Casks by the hay bale in Marnie's Ranch",
+  /*"TowniesNeedArtisanGoods_Marnie_CasksforCheese_Message_0": "Thanks @! I'm looking forward to some fine cheese.$h",*/
   //
   //
   // Marnie Special Dinner Strings
