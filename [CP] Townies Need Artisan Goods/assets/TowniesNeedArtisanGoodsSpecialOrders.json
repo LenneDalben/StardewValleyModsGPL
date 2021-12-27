@@ -355,7 +355,7 @@
           "Requester": "Demetrius",
           "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "dropbox_RobinWood, dropboxRoom_ScienceHouse",
+          "RequiredTags": "!dropbox_RobinWood, !dropboxRoom_ScienceHouse",
           "OrderType": "",
           "SpecialRule": "",
           "Text": "[TowniesNeedArtisanGoods_Demetrius_OilMakers_Text]",
