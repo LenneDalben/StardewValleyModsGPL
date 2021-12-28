@@ -329,5 +329,15 @@
   "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Name": "Underworld Drink",
   "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Text": "Pomegranates are associated with the underworld. I'd be most interested in 6 bottles of quality pomegranate wine, gold or iridum only.",
   "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Objective_Text_0": "Deliver 6 Pomegranate Wine bottles (gold or iridium quality) to Wizard",
-  "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Message_0": "Many thanks, @!$h"
+  "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Message_0": "Many thanks, @!$h",
+  //
+  //
+  // Same Game Night Event Strings
+  "events-27122021.01": "Hey, @, you made it!$h",
+  "events-27122021.02": "Didn't Sam invite you?",
+  "events-27122021.03": "Ah... I knew I forgot something...$10",
+  "events-27122021.04": "Really, you remembered to post the order asking for drinks, but forgot to invite @?$3",
+  "events-27122021.05": "...$10",
+  "events-27122021.06": "Oh well, you're here now, come join us!",
+  "events-27122021.07": "Let's get started...$7Let's get started...$7"
 }
