@@ -56,8 +56,10 @@ Calcite / CopperSun, for ideas and support.
 Pathoschild, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible either.
 atravita, for their help in the Stardew Valley Discord.
 Lumina, for their help in the Stardew Valley Discord.
-Gervig, for sending me that test save for a different special order mod I was testing (Townies Need Food<INSERT LINK>). I used it for testing TNAG!
+Gervig, for sending me that test save for a different special order mod I was testing (Townies Need Food<https://www.moddrop.com/stardew-valley/mods/1032940-townies-need-food>). I used it for testing TNAG!
 HohenHeizen, for Dinosaur Replacement - Turtle https://www.nexusmods.com/stardewvalley/mods/2778
 The DSV server, the SMC server, and the #making-mods channel of the main Stardew Valley server as a whole.
 
-<INSERT LINK TO TUTORIAL>
+If you’re interested in a tutorial for how to create your own special order mods, I’ve written one here!<https://stardewmodding.wiki/wiki/Tutorial:_Adding_a_Special_Order>
+
+<https://stardewmodding.wiki/wiki/Recommendations_by_LenneDalben>
