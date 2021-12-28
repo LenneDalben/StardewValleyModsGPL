@@ -311,7 +311,7 @@
   "TowniesNeedArtisanGoods_Vincent_DinoMayo_Message_0": "What is this?$3#$b#WHAT?! THAT'S SO COOL!$h#$b#Ok ok. I'll share with Jas. Thank you @!",
   //
   //
-  // Vincent Dino Mayo Strings - Turtle Edition
+  // Vincent Dino Mayo - Turtle Edition Strings
   "TowniesNeedArtisanGoods_Vincent_TurtleMayo_Name": "Turtle Mayo!",
   "TowniesNeedArtisanGoods_Vincent_TurtleMayo_Text": "I think Vincent and Jas would love to try some Turtle mayonnaise. Could someone give some to Vincent and remind him to share?   -Sam",
   "TowniesNeedArtisanGoods_Vincent_TurtleMayo_Objective_Text_0": "Deliver 1 Turtle Mayonnaise to Vincent",
@@ -356,4 +356,13 @@
   "events-29122021.04": "I want to try it!$h",
   "events-29122021.05": "Ewww...$s",
   "events-29122021.06": "I like it!",
+    //
+  //
+  // Vincent Dino Mayo - Turtle Edition Event Strings
+  "events-30122021.01": "Yay!$h#$b#Let's open it!$3",
+  "events-30122021.02": "Let's do it!",
+  "events-30122021.03": "Ew... it smells.$3",
+  "events-30122021.04": "I want to try it!$h",
+  "events-30122021.05": "Ewww...$s",
+  "events-30122021.06": "I like it!",
 }
