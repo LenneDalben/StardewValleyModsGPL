@@ -1,4 +1,4 @@
-"Townies Seek Artisan Goods!"
+"Townies Need Artisan Goods!"
 Author: LenneDalben
 
 
@@ -7,22 +7,29 @@ Source code is on GitHub: https://github.com/LenneDalben/StardewValleyModsGPL/tr
 
 
 ||Description||
-With Townies Seek Artisan Goods (TSAG), villagers will ask for artisan goods, and reward you with gold and friendship. You'll have variable time to complete the special orders. For the full specifics, refer to the spoiler guide under Miscellaneous Files.
+With Townies Need Artisan Goods (TNAG), villagers will ask for artisan goods, and reward you with gold and friendship. You'll have variable time to complete the special orders. For the full specifics, refer to the spoiler guide under Miscellaneous Files.
+
+||Background||
+The Diverse Stardew (DSV) server continues to provide excellent ideas. Special mention goes to Airyn and JeweledNebula, who provided a lot of ideas on what the special orders should be.
 
 
 ||Configuration||
 Config Options
 Repeatable: true or false, default is true
-IncludeIslandContent: true or false, default is true (toggle special orders requiring recipes from the island)
-OrderType: specify which types of special orders you'd like. By default, all are toggled: jelly, pickle, beer, wine, honey, mead, juice, roe, animal, and machines.
+IncludeIslandContent: true or false, default is true. Toggle special orders requiring items from the island.
+OrderType: specify which types of special orders you'd like. By default, all are toggled: jelly, pickle, beer, wine, honey, mead, juice, roe, animal, machine, and misc.
+EasyMode: true or false, default is false. Specify if you want the 3 biggest special orders to be easier by requiring less items. The rewards are adjusted accordingly.
 
-With regards to the "sparseness" of the orders: the game picks from a pool of the available orders, so if you'd prefer to get through some of the vanilla special orders first, install this mod later in your playthrough.
+
+With regards to the "sparseness" of the orders: some orders have seasonal checks, though not all of them. Refer to the spoiler guide for full details. The game picks from a pool of the available orders, so if you'd prefer to get through some of the vanilla special orders first, install this mod later in your playthrough.
 
 Note that the mod does not come packaged with a config file. The config file will be generated after you run the game with the mod installed at least once. 
 
 
 ||Compatibility||
-Townies Seek Artisan Goods will recognize if you have Quality Artisan Products installed, so special orders requiring quality wine will show up on the special orders board before you have the cellar upgrade.
+TNAG will recognize if you have Quality Artisan Products installed, so special orders requiring quality wine and/or cheese will show up on the special orders board before you have the cellar upgrade.
+
+TNAG will also recognize if you have Dinosaur Replacement - Turtle by HohenHeizen installed, and for the special order related to dinosaurs, refer to them as turtles accordingly.
 
 
 ||Installation||
@@ -33,8 +40,22 @@ Townies Seek Artisan Goods will recognize if you have Quality Artisan Products i
 
 
 ||Updating||
-⚠️⚠️⚠️Make sure you complete or cancel any special orders you had in your journal from TSAG first.⚠️⚠️⚠️Once you've done that, then you can update TSAG by following the install instructions above.
+⚠️⚠️⚠️Make sure you complete or cancel any special orders you had in your journal from TNAG first.⚠️⚠️⚠️Once you've done that, then you can update TNAG by following the install instructions above.
 
 
 ||Un-installation||
-⚠️⚠️⚠️Make sure you complete or cancel any special orders you had in your journal from TSAG first.⚠️⚠️⚠️Once you've done that, delete the folders for this mod from your Stardew Valley/Mods folder.
+⚠️⚠️⚠️Make sure you complete or cancel any special orders you had in your journal from TNAG first.⚠️⚠️⚠️Once you've done that, delete the folders for this mod from your Stardew Valley/Mods folder.
+
+
+||Shout Outs||
+Airyn, for ideas and support.
+JeweledNebula, for ideas.
+CopperSun, for ideas and support.
+Pathoschild, for SMAPI and CP.
+atravita, for support.
+Lumina, for support.
+Gervig, for sending me that test save for a different special order mod I was testing (Townies Need Food<INSERT LINK>). I used it for testing TNAG!
+HohenHeizen, for Dinosaur Replacement - Turtle https://www.nexusmods.com/stardewvalley/mods/2778
+The DSV server, the SMC server, and the #making-mods channel of the main SDV server as a whole.
+
+<INSERT LINK TO TUTORIAL>
