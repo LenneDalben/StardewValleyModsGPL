@@ -76,11 +76,7 @@
             "Action": "DropBox LeahWood"
           }
         }
-      ],
-      /*"When": {
-        "{{atravita.SpecialOrdersExtended/Current|contains=TowniesNeedArtisanGoods_Leah_BeesintheMeadow}}": true
-      },
-      "Update": "OnLocationChange"*/
+      ]
     },
     // Marnie's Ranch (Animal Shop) DropBox Patch
     {
@@ -95,11 +91,7 @@
             "Action": "DropBox MarnieHay"
           }
         }
-      ],
-      /*"When": {
-        "{{atravita.SpecialOrdersExtended/Current|contains=TowniesNeedArtisanGoods_Marnie_CasksforCheese}}": true
-      },
-      "Update": "OnLocationChange"*/
+      ]
     },
     // Strings below
     // Strings Abigail Sweet Pumpkin
