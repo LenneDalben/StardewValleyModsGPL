@@ -2368,6 +2368,13 @@
             {
               "Type": "Friendship",
               "Data": {}
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "TowniesNeedArtisanGoods_Vincent_DinoMayo_Completed",
+                "NoLetter": "true"
+              }
             }
           ]
         }

@@ -449,53 +449,12 @@
     },
     // Vincent Dino Mayo Event
     {
-      "LogName": "Vincent Dino Mayo",
+      "LogName": "Vincent Dino Mayo Event",
       "Action": "EditData",
-      "Target": "Data/SpecialOrders",
-      "Entries": {
-        "TowniesNeedArtisanGoods_Vincent_DinoMayo": {
-          "Name": "[TowniesNeedArtisanGoods_Vincent_DinoMayo_Name]",
-          "Requester": "Sam",
-          "Duration": "ThreeDays",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedArtisanGoods_Vincent_DinoMayo_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedArtisanGoods_Vincent_DinoMayo_Objective_Text_0]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_dinosaur_mayonnaise",
-                "Message": "[TowniesNeedArtisanGoods_Vincent_DinoMayo_Message_0]",
-                "TargetName": "Vincent"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "1120"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "OrderType": "animal",
-        "SkillLevel:Farming": "2, 3, 4, 5, 6, 7, 8, 9, 10",
-        "Year | contains=1": false
+      "Target": "Data/Events/Forest",
+      "Entries":  {
+        "29122021/n TowniesNeedArtisanGoods_Vincent_DinoMayo_Completed/w sunny/t 600 1800": "playful/-1000 -1000/Jas 38 11 1 Vincent 40 11 3 farmer 39 15 0/addObject 39 11 807/skippable/viewport 37 11 true/pause 3000/speak Jas \"Yay!$h#$b#Let's open it!$3\"/speak Vincent \"Let's do it!\"/playSound coin/pause 500/speak Vincent \"Ew... it smells.$3\"/speak Jas \"I want to try it!$h\"/playSound gulp/pause 600/shake Vincent 400/pause 400/speak Vincent \"Ewww...$s\"/animate farmer false true 200 102 103/speak Jas \"I like it!\"/pause 500/globalFade/viewport -1000 -1000/end"
       }
-    }
+    },
   ]
 }
