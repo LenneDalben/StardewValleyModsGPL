@@ -14,10 +14,6 @@
     {
       "UniqueID": "Wingheart.VanillaQualityPFM",
       "IsRequired": false
-    },
-    {
-      "UniqueID": "atravita.SpecialOrdersExtended",
-      "IsRequired": true
     }
   ]
 }
