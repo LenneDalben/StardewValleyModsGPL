@@ -58,6 +58,6 @@ atravita, for their help in the Stardew Valley Discord.
 Lumina, for their help in the Stardew Valley Discord.
 Gervig, for sending me that test save for a different special order mod I was testing (Townies Need Food<INSERT LINK>). I used it for testing TNAG!
 HohenHeizen, for Dinosaur Replacement - Turtle https://www.nexusmods.com/stardewvalley/mods/2778
-The DSV server, the SMC server, and the #making-mods channel of the main SDV server as a whole.
+The DSV server, the SMC server, and the #making-mods channel of the main Stardew Valley server as a whole.
 
 <INSERT LINK TO TUTORIAL>
