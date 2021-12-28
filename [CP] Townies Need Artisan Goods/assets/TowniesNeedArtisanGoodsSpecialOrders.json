@@ -2382,7 +2382,66 @@
       "When": {
         "OrderType": "animal",
         "SkillLevel:Farming": "2, 3, 4, 5, 6, 7, 8, 9, 10",
-        "Year | contains=1": false
+        "Year | contains=1": false,
+        "HasMod |contains=Hohen.Dinosaur": "false"
+      }
+    },
+    // Vincent Dino Mayo - Turtle Edition
+    {
+      "LogName": "Vincent Dino Mayo - Turtle Edition",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Vincent_TurtleMayo": {
+          "Name": "[TowniesNeedArtisanGoods_Vincent_TurtleMayo_Name]",
+          "Requester": "Sam",
+          "Duration": "ThreeDays",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Vincent_TurtleMayo_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Vincent_TurtleMayo_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_dinosaur_mayonnaise/item_turtle_mayonnaise",
+                "Message": "[TowniesNeedArtisanGoods_Vincent_TurtleMayo_Message_0]",
+                "TargetName": "Vincent"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1120"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "TowniesNeedArtisanGoods_Vincent_TurtleMayo_Completed",
+                "NoLetter": "true"
+              }
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "animal",
+        "SkillLevel:Farming": "2, 3, 4, 5, 6, 7, 8, 9, 10",
+        "Year | contains=1": false,
+        "HasMod |contains=Hohen.Dinosaur": "true"
       }
     },
     // Willy Mildly Salty

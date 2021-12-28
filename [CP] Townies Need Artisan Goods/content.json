@@ -628,6 +628,24 @@
         "TowniesNeedArtisanGoods_Vincent_DinoMayo_Text": "{{i18n:TowniesNeedArtisanGoods_Vincent_DinoMayo_Text}}",
         "TowniesNeedArtisanGoods_Vincent_DinoMayo_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Vincent_DinoMayo_Objective_Text_0}}",
         "TowniesNeedArtisanGoods_Vincent_DinoMayo_Message_0": "{{i18n:TowniesNeedArtisanGoods_Vincent_DinoMayo_Message_0}}"
+      },
+      "When": {
+        "HasMod |contains=Hohen.Dinosaur": "false"
+      }
+    },
+    // Strings Vincent Dino Mayo - Turtle Edition
+    {
+      "LogName": "Strings Vincent Dino Mayo - Turtle Edition",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Vincent_TurtleMayo_Name": "{{i18n:TowniesNeedArtisanGoods_Vincent_TurtleMayo_Name}}",
+        "TowniesNeedArtisanGoods_Vincent_TurtleMayo_Text": "{{i18n:TowniesNeedArtisanGoods_Vincent_TurtleMayo_Text}}",
+        "TowniesNeedArtisanGoods_Vincent_TurtleMayo_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Vincent_TurtleMayo_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Vincent_TurtleMayo_Message_0": "{{i18n:TowniesNeedArtisanGoods_Vincent_TurtleMayo_Message_0}}"
+      },
+      "When": {
+        "HasMod |contains=Hohen.Dinosaur": "true"
       }
     },
     // Strings Willy Mildly Salty

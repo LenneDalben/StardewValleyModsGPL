@@ -308,7 +308,14 @@
   "TowniesNeedArtisanGoods_Vincent_DinoMayo_Name": "Dino Mayo!",
   "TowniesNeedArtisanGoods_Vincent_DinoMayo_Text": "I think Vincent and Jas would love to try some dinosaur mayonnaise. Could someone give some to Vincent and remind him to share?   -Sam",
   "TowniesNeedArtisanGoods_Vincent_DinoMayo_Objective_Text_0": "Deliver 1 Dinosaur Mayonnaise to Vincent",
-  "TowniesNeedArtisanGoods_Vincent_DinoMayo_Message_0": "What is this?$3#$b#WHAT?! THAT'S SO COOL!$h#$b#Ok ok. I'll share with Jas. Thank you @!$0",
+  "TowniesNeedArtisanGoods_Vincent_DinoMayo_Message_0": "What is this?$3#$b#WHAT?! THAT'S SO COOL!$h#$b#Ok ok. I'll share with Jas. Thank you @!",
+  //
+  //
+  // Vincent Dino Mayo Strings - Turtle Edition
+  "TowniesNeedArtisanGoods_Vincent_TurtleMayo_Name": "Turtle Mayo!",
+  "TowniesNeedArtisanGoods_Vincent_TurtleMayo_Text": "I think Vincent and Jas would love to try some Turtle mayonnaise. Could someone give some to Vincent and remind him to share?   -Sam",
+  "TowniesNeedArtisanGoods_Vincent_TurtleMayo_Objective_Text_0": "Deliver 1 Turtle Mayonnaise to Vincent",
+  "TowniesNeedArtisanGoods_Vincent_TurtleMayo_Message_0": "What is this?$3#$b#WHAT?! THAT'S SO COOL!$h#$b#Ok ok. I'll share with Jas. Thank you @!",
   //
   //
   // Willy Mildly Salty Strings
