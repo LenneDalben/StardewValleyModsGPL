@@ -2062,7 +2062,7 @@
               "Type": "Mail",
               "Data": {
                 "MailReceived": "TowniesNeedArtisanGoods_Sam_GameNight_Completed",
-                "NoLetter": "true",
+                "NoLetter": "true"
               }
             },
           ]
