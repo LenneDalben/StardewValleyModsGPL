@@ -1349,7 +1349,14 @@
             {
               "Type": "Friendship",
               "Data": {}
-            }
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Completed",
+                "NoLetter": "true"
+              }
+            },
           ]
         }
       },

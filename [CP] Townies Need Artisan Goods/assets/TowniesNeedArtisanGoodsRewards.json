@@ -152,52 +152,11 @@
     },
     // Leah Bees in the Meadow Event
     {
-      "LogName": "Leah Bees in the Meadow",
+      "LogName": "Leah Bees in the Meadow Event",
       "Action": "EditData",
-      "Target": "Data/SpecialOrders",
-      "Entries": {
-        "TowniesNeedArtisanGoods_Leah_BeesintheMeadow": {
-          "Name": "[TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Name]",
-          "Requester": "Leah",
-          "Duration": "Week",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "!dropboxRoom_LeahHouse",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Donate",
-              "Text": "[TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Objective_Text_0]",
-              "RequiredCount": "5",
-              "Data": {
-                "DropBox": "LeahWood",
-                "DropBoxGameLocation": "LeahHouse",
-                "DropBoxIndicatorLocation": "3 8",
-                "AcceptedContextTags": "item_bee_house"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "28750"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "OrderType": "machine",
-        "SkillLevel:Farming": "3, 4, 5, 6, 7, 8, 9, 10"
+      "Target": "Data/Events/Forest",
+      "Entries":  {
+        "28122021/w sunny/t 600 1900/n TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Completed": "spring_day_ambient/-1000 -1000/Leah 75 36 3/addBigProp 72 29 10/addBigProp 77 31 10/addBigProp 71 34 10/addBigProp 71 31 10/addBigProp 77 34 10/skippable/viewport 73 31 true/pause 5000/emote Leah 32/pause 2000/globalFade/viewport -1000 -1000/end"
       }
     },
     // Lewis Special Night Conversation Topic
