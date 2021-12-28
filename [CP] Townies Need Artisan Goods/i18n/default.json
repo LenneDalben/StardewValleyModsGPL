@@ -339,5 +339,14 @@
   "events-27122021.04": "Really, you remembered to post the order asking for drinks, but forgot to invite @?$3",
   "events-27122021.05": "...$10",
   "events-27122021.06": "Oh well, you're here now, come join us!",
-  "events-27122021.07": "Let's get started...$7Let's get started...$7"
+  "events-27122021.07": "Let's get started...$7Let's get started...$7",
+  //
+  //
+  // Vincent Dino Mayo Event Strings
+  "events-29122021.01": "Yay!$h#$b#Let's open it!$3",
+  "events-29122021.02": "Let's do it!",
+  "events-29122021.03": "Ew... it smells.$3",
+  "events-29122021.04": "I want to try it!$h",
+  "events-29122021.05": "Ewww...$s",
+  "events-29122021.06": "I like it!",
 }
