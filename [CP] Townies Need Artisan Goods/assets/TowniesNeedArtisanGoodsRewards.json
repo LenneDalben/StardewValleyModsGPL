@@ -1,6 +1,5 @@
 {
   "Changes": [
-
     // Abigail Yellow Mayo Conversation Topic
     {
       "LogName": "Abigail Yellow Mayo",
@@ -58,56 +57,15 @@
       "Entries": {
         "31122021/n TowniesNeedArtisanGoods_Demetrius_OilMakers_Completed": "jaunty/-1000 -1000/farmer 12 20 1 Maru 18 20 1 Demetrius 19 19 2/addBigProp 19 20 19/addBigProp 22 21 19/addBigProp 22 20 19/addBigProp 22 19 19/addBigProp 22 18 19/skippable/viewport 20 19 true/pause 1000/playSound clank/pause 1000/playSound clank/move farmer 4 0 1/faceDirection Maru 3/faceDirection Demetrius 3/speak Demetrius \"{{i18n:events-31122021.01}}\"/speak Maru \"{{i18n:events-31122021.02}}\"/speak Demetrius \"{{i18n:events-31122021.03}}\"/question fork1 \"{{i18n:events-31122021.03}}#{{i18n:events-31122021.04}}#{{i18n:events-31122021.05}}\"/fork BooTime/emote Maru 32/speak Demetrius \"{{i18n:events-31122021.06}}\"/move farmer 0 1 2 true/faceDirection Demetrius 2 true/faceDirection Maru 1 true/move farmer 3 0 0/playSound clank/friendship Demetrius 10/friendship Maru 10/globalFade/viewport -1000 -1000/end",
         "BooTime": "speak Demetrius \"{{i18n:events-31122021.07}}\"/speed farmer 4/faceDirection Demetrius 2/faceDirection Maru 1 true/pause 600/playSound clank/move farmer -10 0 2 true/playSound clank/globalFade/viewport -1000 -1000/end"
-       }
+      }
     },
     // Kent Jelly for PB&J Conversation Topic
     {
-      "LogName": "Kent Jelly for PB&J",
+      "LogName": "Kent Jelly for PB&J Event",
       "Action": "EditData",
-      "Target": "Data/SpecialOrders",
+      "Target": "Data/Events/SamHouse",
       "Entries": {
-        "TowniesNeedArtisanGoods_Kent_JellyforPBJ": {
-          "Name": "[TowniesNeedArtisanGoods_Kent_JellyforPBJ_Name]",
-          "Requester": "Kent",
-          "Duration": "Week",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "!season_winter",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedArtisanGoods_Kent_JellyforPBJ_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedArtisanGoods_Kent_JellyforPBJ_Objective_Text_0]",
-              "RequiredCount": "3",
-              "Data": {
-                "AcceptedContextTags": "item_strawberry_jelly/item_grape_jelly",
-                "Message": "[TowniesNeedArtisanGoods_Kent_JellyforPBJ_Message_0]",
-                "TargetName": "Kent"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "1050"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "OrderType": "jelly",
-        "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10",
-        "HasSeenEvent": "63"
+        "32122021/t 1100 1400": "playful/-1000 -1000/farmer 7 15 0 Sam 7 8 0 Vincent 6 8 0 Kent 7 5 2/addBigProp 1 6 27/addObject 2 6 216 1/addObject 4 6 344 1/skippable/viewport 6 8 true/move farmer 0 -4 0/pause 200/speak Kent \"Sam, I'm glad that even though you're older, you can still appreciate a simple peanut butter and jelly sandwich.$h\"/speak Sam \"I'm... happy to spend time with you, dad.$h\"/emote Kent 20/speak Vincent \"Yay, boy's lunch!\"/emote Kent 32 true/emote Sam 32/pause 200/speak Kent \"Alright, let's dig in!$h\"/jump Vincent 8/pause 300/move Vincent -3 0 0 true/move Sam -3 0 3 true/move Kent -3 0 1 true/move farmer 0 4 1 true/fade/viewport -1000 -1000/end"
       }
     },
     // Leah Bees in the Meadow Event
@@ -115,7 +73,7 @@
       "LogName": "Leah Bees in the Meadow Event",
       "Action": "EditData",
       "Target": "Data/Events/Forest",
-      "Entries":  {
+      "Entries": {
         "28122021/w sunny/t 600 1800/n TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Completed": "summer_day_ambient/-1000 -1000/Leah 75 36 3/addBigProp 72 29 10/addBigProp 77 31 10/addBigProp 71 34 10/addBigProp 71 31 10/addBigProp 77 34 10/skippable/viewport 73 31 true/pause 5000/emote Leah 32/pause 2000/globalFade/viewport -1000 -1000/end"
       }
     },
@@ -354,7 +312,7 @@
       "LogName": "Sam Game Night Event",
       "Action": "EditData",
       "Target": "Data/Events/SebastianRoom",
-      "Entries":  {
+      "Entries": {
         "27122021/t 1500 2200/n TowniesNeedArtisanGoods_Sam_GameNight_Completed/p Sebastian": "jaunty/-1000 -1000/farmer 1 1 2 Sebastian 5 9 3 Sam 3 7 2 Abigail 7 10 3/addBigProp 3 10 26/addObject 2 8 459/addObject 4 8 395/skippable/showFrame Sam 24/showFrame Sebastian 28/doAction 1 3/viewport 5 5 true/move Abigail -4 0 0 <continue>/move farmer 0 6 1/pause 500/showFrame Sebastian 29/pause 500/speak Sebastian \"{{i18n:events-27122021.01}}\"/pause 500/emote farmer 8/speak Sebastian \"{{i18n:events-27122021.02}}\"/speak Sam \"{{i18n:events-27122021.03}}\"/pause 300/speak Abigail \"{{i18n:events-27122021.04}}\"/emote Sam 28/pause 400/speak Sebastian \"{{i18n:events-27122021.05}}\"/move farmer 0 1 2/pause 500/playSound thudStep/faceDirection farmer 1 true/showFrame 117/positionOffset farmer 16 80/pause 600/speak Sebastian \"{{i18n:events-27122021.06}}\"/pause 500/globalFade/viewport -1000 -1000/end"
       }
     },
@@ -412,7 +370,7 @@
       "LogName": "Vincent Dino Mayo Event",
       "Action": "EditData",
       "Target": "Data/Events/Forest",
-      "Entries":  {
+      "Entries": {
         "29122021/n TowniesNeedArtisanGoods_Vincent_DinoMayo_Completed/w sunny/t 600 1800": "playful/-1000 -1000/Jas 38 11 1 Vincent 40 11 3 farmer 39 15 0/addObject 39 11 807/skippable/viewport 37 11 true/pause 3000/speak Jas \"{{i18n:events-29122021.01}}\"/speak Vincent \"{{i18n:events-29122021.02}}\"/playSound coin/pause 500/speak Vincent \"{{i18n:events-29122021.03}}\"/speak Jas \"{{i18n:events-29122021.04}}\"/playSound gulp/pause 600/shake Vincent 400/jump Jas 8/pause 400/speak Vincent \"{{i18n:events-29122021.05}}\"/animate farmer false true 200 102 103/speak Jas \"{{i18n:events-29122021.06}}\"/pause 500/globalFade/viewport -1000 -1000/end"
       },
       "When": {
@@ -424,7 +382,7 @@
       "LogName": "Vincent Turtle Mayo Event",
       "Action": "EditData",
       "Target": "Data/Events/Forest",
-      "Entries":  {
+      "Entries": {
         "30122021/n TowniesNeedArtisanGoods_Vincent_TurtleMayo_Completed/w sunny/t 600 1800": "playful/-1000 -1000/Jas 38 11 1 Vincent 40 11 3 farmer 39 15 0/addObject 39 11 807/skippable/viewport 37 11 true/pause 3000/speak Jas \"{{i18n:events-30122021.01}}\"/speak Vincent \"{{i18n:events-30122021.02}}\"/playSound coin/pause 500/speak Vincent \"{{i18n:events-30122021.03}}\"/speak Jas \"{{i18n:events-30122021.04}}\"/playSound gulp/pause 600/shake Vincent 400/jump Jas 8/pause 400/speak Vincent \"{{i18n:events-30122021.05}}\"/animate farmer false true 200 102 103/speak Jas \"{{i18n:events-30122021.06}}\"/pause 500/globalFade/viewport -1000 -1000/end"
       },
       "When": {
