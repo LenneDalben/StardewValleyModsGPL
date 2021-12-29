@@ -385,6 +385,13 @@
             {
               "Type": "Friendship",
               "Data": {}
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "TowniesNeedArtisanGoods_Demetrius_OilMakers_Completed",
+                "NoLetter": "true"
+              }
             }
           ]
         }
