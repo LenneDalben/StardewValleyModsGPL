@@ -356,7 +356,7 @@
   "events-29122021.04": "I want to try it!$h",
   "events-29122021.05": "Ewww...$s",
   "events-29122021.06": "I like it!",
-    //
+  //
   //
   // Vincent Dino Mayo - Turtle Edition Event Strings
   "events-30122021.01": "Yay!$h#$b#Let's open it!$3",
@@ -365,4 +365,14 @@
   "events-30122021.04": "I want to try it!$h",
   "events-30122021.05": "Ewww...$s",
   "events-30122021.06": "I like it!",
+  //
+  //
+  // Demetrius Oil Makers Event Strings
+  "events-31122021.01": "Hey, @! Thanks again for the oil makers.$h#$b#Maru here is helping me disassemble them.",
+  "events-31122021.02": "I'm refreshing my memory on distillation, so I thought it'd be a win-win.$h",
+  "events-31122021.03": "Say, do you want to help us?",
+  "events-31122021.04": "Sure, I have time to spare!",
+  "events-31122021.05": "I have to get going...",
+  "events-31122021.06": "Great! Here, hold this...",
+  "events-31122021.07": "Alright, thanks for stopping by!",
 }
