@@ -413,7 +413,7 @@
       "Action": "EditData",
       "Target": "Data/Events/Forest",
       "Entries":  {
-        "29122021/n TowniesNeedArtisanGoods_Vincent_DinoMayo_Completed/w sunny/t 600 1800": "playful/-1000 -1000/Jas 38 11 1 Vincent 40 11 3 farmer 39 15 0/addObject 39 11 807/skippable/viewport 37 11 true/pause 3000/speak Jas \"{{i18n:events-29122021.01}}\"/speak Vincent \"{{i18n:events-29122021.02}}\"/playSound coin/pause 500/speak Vincent \"{{i18n:events-29122021.03}}\"/speak Jas \"{{i18n:events-29122021.04}}\"/playSound gulp/pause 600/shake Vincent 400/pause 400/speak Vincent \"{{i18n:events-29122021.05}}\"/animate farmer false true 200 102 103/speak Jas \"{{i18n:events-29122021.06}}\"/pause 500/globalFade/viewport -1000 -1000/end"
+        "29122021/n TowniesNeedArtisanGoods_Vincent_DinoMayo_Completed/w sunny/t 600 1800": "playful/-1000 -1000/Jas 38 11 1 Vincent 40 11 3 farmer 39 15 0/addObject 39 11 807/skippable/viewport 37 11 true/pause 3000/speak Jas \"{{i18n:events-29122021.01}}\"/speak Vincent \"{{i18n:events-29122021.02}}\"/playSound coin/pause 500/speak Vincent \"{{i18n:events-29122021.03}}\"/speak Jas \"{{i18n:events-29122021.04}}\"/playSound gulp/pause 600/shake Vincent 400/jump Jas 8/pause 400/speak Vincent \"{{i18n:events-29122021.05}}\"/animate farmer false true 200 102 103/speak Jas \"{{i18n:events-29122021.06}}\"/pause 500/globalFade/viewport -1000 -1000/end"
       },
       "When": {
         "HasMod |contains=Hohen.Dinosaur": "false"
@@ -425,7 +425,7 @@
       "Action": "EditData",
       "Target": "Data/Events/Forest",
       "Entries":  {
-        "30122021/n TowniesNeedArtisanGoods_Vincent_TurtleMayo_Completed/w sunny/t 600 1800": "playful/-1000 -1000/Jas 38 11 1 Vincent 40 11 3 farmer 39 15 0/addObject 39 11 807/skippable/viewport 37 11 true/pause 3000/speak Jas \"{{i18n:events-30122021.01}}\"/speak Vincent \"{{i18n:events-30122021.02}}\"/playSound coin/pause 500/speak Vincent \"{{i18n:events-30122021.03}}\"/speak Jas \"{{i18n:events-30122021.04}}\"/playSound gulp/pause 600/shake Vincent 400/pause 400/speak Vincent \"{{i18n:events-30122021.05}}\"/animate farmer false true 200 102 103/speak Jas \"{{i18n:events-30122021.06}}\"/pause 500/globalFade/viewport -1000 -1000/end"
+        "30122021/n TowniesNeedArtisanGoods_Vincent_TurtleMayo_Completed/w sunny/t 600 1800": "playful/-1000 -1000/Jas 38 11 1 Vincent 40 11 3 farmer 39 15 0/addObject 39 11 807/skippable/viewport 37 11 true/pause 3000/speak Jas \"{{i18n:events-30122021.01}}\"/speak Vincent \"{{i18n:events-30122021.02}}\"/playSound coin/pause 500/speak Vincent \"{{i18n:events-30122021.03}}\"/speak Jas \"{{i18n:events-30122021.04}}\"/playSound gulp/pause 600/shake Vincent 400/jump Jas 8/pause 400/speak Vincent \"{{i18n:events-30122021.05}}\"/animate farmer false true 200 102 103/speak Jas \"{{i18n:events-30122021.06}}\"/pause 500/globalFade/viewport -1000 -1000/end"
       },
       "When": {
         "HasMod |contains=Hohen.Dinosaur": "true"
