@@ -52,53 +52,13 @@
     },
     // Demetrius Oil Makers Event
     {
-      "LogName": "Demetrius Oil Makers",
+      "LogName": "Demetrius Oil Makers Event",
       "Action": "EditData",
-      "Target": "Data/SpecialOrders",
+      "Target": "Data/Events/ScienceHouse",
       "Entries": {
-        "TowniesNeedArtisanGoods_Demetrius_OilMakers": {
-          "Name": "[TowniesNeedArtisanGoods_Demetrius_OilMakers_Name]",
-          "Requester": "Demetrius",
-          "Duration": "Week",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "!dropbox_RobinWood, !dropboxRoom_ScienceHouse", // the first checks that Robin's wood pile is not in use and is a vanilla check. The second checks if there a dropbox in Robin's house is not in use, and requires atravita's Special Order Tags Extended mod
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedArtisanGoods_Demetrius_OilMakers_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Donate",
-              "Text": "[TowniesNeedArtisanGoods_Demetrius_OilMakers_Objective_Text_0]",
-              "RequiredCount": "3",
-              "Data": {
-                "DropBox": "RobinWood",
-                "DropBoxGameLocation": "ScienceHouse",
-                "DropBoxIndicatorLocation": "10.5 18",
-                "AcceptedContextTags": "item_oil_maker"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "16800"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "OrderType": "machine",
-        "SkillLevel:Farming": "8, 9, 10"
-      }
+        "30122021": "jaunty/-1000 -1000/farmer 12 20 1 Maru 18 20 1 Demetrius 19 19 2/addBigProp 19 20 19/addBigProp 22 21 19/addBigProp 22 20 19/addBigProp 22 19 19/addBigProp 22 18 19/skippable/viewport 20 19 true/pause 500/playSound clank/pause 1000/playSound clank/move farmer 4 0 1/faceDirection Maru 3/faceDirection Demetrius 3/speak Demetrius \"Hey, @! Thanks again for the oil makers.$h#$b#Maru here is helping me disassemble them.\"/speak Maru \"I'm refreshing my memory on distillation, so I thought it'd be a win-win.$h\"/speak Demetrius \"Say, do you want to help us?\"/question fork1 \"Say, do you want to help us?#Sure, I have time to spare!#I have to get going...\"/fork BooTime/emote Maru 32/speak Demetrius \"Great! Here, hold this...\"/move farmer 0 1 2 <continue>/faceDirection Demetrius 2 [continue]/faceDirection Maru 1 [continue]/move farmer 3 0 0/playSound clank/friendship Demetrius 10/friendship Maru 10/globalFade/viewport -1000 -1000/end",
+        "BooTime": "speak Demetrius \"Alright, thanks for stopping by!\"/speed farmer 4/faceDirection Demetrius 2/faceDirection Maru 1 [continue]/pause 600/playSound clank/move farmer -10 0 2 <continue>/playSound clank/globalFade/viewport -1000 -1000/end"
+       }
     },
     // Kent Jelly for PB&J Conversation Topic
     {
