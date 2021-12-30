@@ -158,7 +158,7 @@
         "PlayerHasCellarOrQAP": "true"
       }
     },
-    // Marnie Casks for Cheese Would anything need to be here for shop changes?
+    // Marnie Casks for Cheese Would anything need to be here for shop changes? Mail about it huhu (don't forget to do HasMod invatorzen.MarnieSellsAnimalProducts false)
     {
       "LogName": "Marnie Casks for Cheese",
       "Action": "EditData",
