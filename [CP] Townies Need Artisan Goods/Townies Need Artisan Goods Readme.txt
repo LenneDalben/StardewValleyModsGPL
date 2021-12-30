@@ -58,6 +58,7 @@ atravita, for their help in the Stardew Valley Discord.
 Lumina, for their help in the Stardew Valley Discord.
 Lemurkat, for their help in the Stardew Valley Discord.
 elhrvy, for their help in the Stardew Valley Discord.
+existentialdread, for their help in the DSV server.
 Gervig, for sending me that test save for a different special order mod I was testing (Townies Need Food<https://www.moddrop.com/stardew-valley/mods/1032940-townies-need-food>). I used it for testing TNAG!
 Arknir, for fantastic mods like Lucikiel and Lavril. I referred to Lucikiel to figure out event works. Arknir, you're a legend <3
 HohenHeizen, for Dinosaur Replacement - Turtle https://www.nexusmods.com/stardewvalley/mods/2778
