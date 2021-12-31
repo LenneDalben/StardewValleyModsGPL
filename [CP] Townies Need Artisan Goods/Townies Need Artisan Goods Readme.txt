@@ -55,7 +55,7 @@ JeweledNebula, for ideas and support.
 Calcite / CopperSun, for ideas and support.
 Pathoschild, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible either.
 atravita, for their help in the SDV server.
-Lumina, for their help in the SDV and DSV server.
+Lumina, for their help in the SDV and DSV server. Also for the term "petal" for Marnie to call Jas.
 Lemurkat, for their help in the SDV server.
 elhrvy, for their help in the SDV server.
 existentialdread, for their help in the DSV server.
