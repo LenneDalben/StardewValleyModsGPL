@@ -174,7 +174,7 @@
       "Action": "EditData",
       "Target": "Data/Events/ScienceHouse",
       "Entries":  {
-        "33122021": "continue/-1000 -1000/Maru 5 6 1/addObject 5 5 787/addObject 6 7 787/addObject 5 7 787/addObject 6 5 787/skippable/viewport 5 5 true/animate Maru false true 130 16 16 16 16 16 17 18 19 20 21 22 23 23 23 23/pause 2000/playSound clank/pause 1000/playSound clank/pause 1000/playSound clank/globalFade/viewport -1000 -1000/end",
+        "33122021": "continue/-1000 -1000/Maru 5 6 1/addObject 5 5 787/addObject 6 7 787/addObject 5 7 787/addObject 6 5 787/skippable/viewport 5 5 true/animate Maru false true 130 16 16 16 16 16 17 18 19 20 21 22 23 23 23 23/pause 2000/playSound clank/pause 1000/playSound clank/pause 1000/playSound clank/globalFade/viewport -1000 -1000/end"
       } 
     },
     // Marnie Casks for Cheese Would anything need to be here for shop changes? Mail about it huhu (don't forget to do HasMod invatorzen.MarnieSellsAnimalProducts false)
