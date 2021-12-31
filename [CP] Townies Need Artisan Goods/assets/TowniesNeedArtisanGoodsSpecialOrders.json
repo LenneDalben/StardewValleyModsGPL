@@ -1156,6 +1156,13 @@
             {
               "Type": "Friendship",
               "Data": {}
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "TowniesNeedArtisanGoods_Jas_TeaParty_Completed",
+                "NoLetter": "true"
+              }
             }
           ]
         }
@@ -1254,6 +1261,13 @@
             {
               "Type": "Friendship",
               "Data": {}
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "TowniesNeedArtisanGoods_Kent_JellyforPBJ_Completed",
+                "NoLetter": "true"
+              }
             }
           ]
         }
@@ -1725,30 +1739,30 @@
     },
     // Maru Power for Project - Default
     {
-      "LogName": "Maru Power for Project",
+      "LogName": "Maru Power for Project Default",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesNeedArtisanGoods_Maru_PowerforProject": {
-          "Name": "[TowniesNeedArtisanGoods_Maru_PowerforProject_Name]",
+        "TowniesNeedArtisanGoods_Maru_PowerforProjectD": {
+          "Name": "[TowniesNeedArtisanGoods_Maru_PowerforProjectD_Name]",
           "Requester": "Maru",
           "Duration": "Month",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesNeedArtisanGoods_Maru_PowerforProject_Text]",
+          "Text": "[TowniesNeedArtisanGoods_Maru_PowerforProjectD_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesNeedArtisanGoods_Maru_PowerforProject_Objective_Text_0]",
+              "Text": "[TowniesNeedArtisanGoods_Maru_PowerforProjectD_Objective_Text_0]",
               "RequiredCount": "30",
               "Data": {
                 "AcceptedContextTags": "item_battery_pack",
-                "Message": "[TowniesNeedArtisanGoods_Maru_PowerforProject_Message_0]",
+                "Message": "[TowniesNeedArtisanGoods_Maru_PowerforProjectD_Message_0]",
                 "TargetName": "Maru"
               }
             }
@@ -1763,6 +1777,13 @@
             {
               "Type": "Friendship",
               "Data": {}
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "TowniesNeedArtisanGoods_Maru_PowerforProjectD_Completed",
+                "NoLetter": "true"
+              }
             }
           ]
         }
@@ -1775,30 +1796,30 @@
     },
     // Maru Power for Project - Easy Mode
     {
-      "LogName": "Maru Power for Project",
+      "LogName": "Maru Power for Project Easy Mode",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesNeedArtisanGoods_Maru_PowerforProject": {
-          "Name": "[TowniesNeedArtisanGoods_Maru_PowerforProject_Name]",
+        "TowniesNeedArtisanGoods_Maru_PowerforProjectE": {
+          "Name": "[TowniesNeedArtisanGoods_Maru_PowerforProjectE_Name]",
           "Requester": "Maru",
           "Duration": "Month",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesNeedArtisanGoods_Maru_PowerforProject_Text]",
+          "Text": "[TowniesNeedArtisanGoods_Maru_PowerforProjectE_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesNeedArtisanGoods_Maru_PowerforProject_Objective_Text_0]",
+              "Text": "[TowniesNeedArtisanGoods_Maru_PowerforProjectE_Objective_Text_0]",
               "RequiredCount": "10",
               "Data": {
                 "AcceptedContextTags": "item_battery_pack",
-                "Message": "[TowniesNeedArtisanGoods_Maru_PowerforProject_Message_0]",
+                "Message": "[TowniesNeedArtisanGoods_Maru_PowerforProjectE_Message_0]",
                 "TargetName": "Maru"
               }
             }
@@ -1813,6 +1834,13 @@
             {
               "Type": "Friendship",
               "Data": {}
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "TowniesNeedArtisanGoods_Maru_PowerforProjectE_Completed",
+                "NoLetter": "true"
+              }
             }
           ]
         }
