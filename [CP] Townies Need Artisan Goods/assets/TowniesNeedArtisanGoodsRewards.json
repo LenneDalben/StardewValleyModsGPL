@@ -59,7 +59,7 @@
         "BooTime": "speak Demetrius \"{{i18n:events-31122021.07}}\"/speed farmer 4/faceDirection Demetrius 2/faceDirection Maru 1 true/pause 600/playSound clank/move farmer -10 0 2 true/playSound clank/globalFade/viewport -1000 -1000/end"
       }
     },
-    // Jas Tea Party Event
+    // Jas Tea Party Event NOT i18n'd!
     {
       "LogName": "Jas Tea Party Event",
       "Action": "EditData",
