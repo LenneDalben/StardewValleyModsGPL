@@ -308,14 +308,14 @@
   "TowniesNeedArtisanGoods_Vincent_DinoMayo_Name": "Dino Mayo!",
   "TowniesNeedArtisanGoods_Vincent_DinoMayo_Text": "I think Vincent and Jas would love to try some dinosaur mayonnaise. Could someone give some to Vincent and remind him to share?   -Sam",
   "TowniesNeedArtisanGoods_Vincent_DinoMayo_Objective_Text_0": "Deliver 1 Dinosaur Mayonnaise to Vincent",
-  "TowniesNeedArtisanGoods_Vincent_DinoMayo_Message_0": "What is this?$3#$b#WHAT?! THAT'S SO COOL!$h#$b#Ok ok. I'll share with Jas. Thank you @!",
+  "TowniesNeedArtisanGoods_Vincent_DinoMayo_Message_0": "What is this?$3#$b#WHAT?! THAT'S SO COOL!$h#$b#Ok ok. I'll share with Jas and say thanks to Sam. Thank you @!",
   //
   //
   // Vincent Dino Mayo - Turtle Edition Strings
   "TowniesNeedArtisanGoods_Vincent_TurtleMayo_Name": "Turtle Mayo!",
   "TowniesNeedArtisanGoods_Vincent_TurtleMayo_Text": "I think Vincent and Jas would love to try some Turtle mayonnaise. Could someone give some to Vincent and remind him to share?   -Sam",
   "TowniesNeedArtisanGoods_Vincent_TurtleMayo_Objective_Text_0": "Deliver 1 Turtle Mayonnaise to Vincent",
-  "TowniesNeedArtisanGoods_Vincent_TurtleMayo_Message_0": "What is this?$3#$b#WHAT?! THAT'S SO COOL!$h#$b#Ok ok. I'll share with Jas. Thank you @!",
+  "TowniesNeedArtisanGoods_Vincent_TurtleMayo_Message_0": "What is this?$3#$b#WHAT?! THAT'S SO COOL!$h#$b#Ok ok. I'll share with Jas and say thanks to Sam. Thank you @!",
   //
   //
   // Willy Mildly Salty Strings
@@ -337,6 +337,37 @@
   "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Text": "Pomegranates are associated with the underworld. I'd be most interested in 6 bottles of quality pomegranate wine, gold or iridum only.",
   "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Objective_Text_0": "Deliver 6 Pomegranate Wine bottles (gold or iridium quality) to Wizard",
   "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Message_0": "Many thanks, @!$h",
+  //
+  //
+  // Demetrius Oil Makers Event Strings
+  "events-31122021.01": "Hey, @! Thanks again for the oil makers.$h#$b#Maru here is helping me disassemble them.",
+  "events-31122021.02": "I'm refreshing my memory on distillation, so I thought it'd be a win-win.$h",
+  "events-31122021.03": "Say, do you want to help us?",
+  "events-31122021.04": "Sure, I have time to spare!",
+  "events-31122021.05": "I have to get going...",
+  "events-31122021.06": "Great! Here, hold this...",
+  "events-31122021.07": "Alright, thanks for stopping by!",
+  //
+  //
+  // Jas Tea Party Event Strings
+  "events-33122021.01": "Thanks for coming to my tea party!$h",
+  "events-33122021.02": "Of course. I appreciate the invite!$h",
+  "events-33122021.03": "So, where do you want us?$6",
+  "events-33122021.04": "Oh! Hi @. Jas is having a little party.#$b#Thanks for providing the tea!$h",
+  "events-33122021.05": "Um, Aunt Marnie, we don't have enough tea for everyone...$3",
+  "events-33122021.06": "Um, Aunt Marnie, we don't have enough tea for everyone...",
+  "events-33122021.07": "That's ok, I'll leave you to it!",
+  "events-33122021.08": "You should have asked for more tea...",
+  "events-33122021.09": "See you!",
+  "events-33122021.10": "Well, you weren't invited...$2",
+  "events-33122021.11": "This is a family thing, I think you should leave.$2",
+  //
+  //
+  // Kent Jelly for PB&J Event Strings
+  "events-32122021.01": "Sam, I'm glad that even though you're older, you can still appreciate a simple peanut butter and jelly sandwich.$h",
+  "events-32122021.02": "I'm... happy to spend time with you, dad.$h",
+  "events-32122021.03": "Yay, boys' lunch!",
+  "events-32122021.04": "Ok, let's dig in!$h",
   //
   //
   // Same Game Night Event Strings
@@ -364,35 +395,4 @@
   "events-30122021.04": "I want to try it!$h",
   "events-30122021.05": "Ewww...$s",
   "events-30122021.06": "More for me then, I like it!$h",
-  //
-  //
-  // Demetrius Oil Makers Event Strings
-  "events-31122021.01": "Hey, @! Thanks again for the oil makers.$h#$b#Maru here is helping me disassemble them.",
-  "events-31122021.02": "I'm refreshing my memory on distillation, so I thought it'd be a win-win.$h",
-  "events-31122021.03": "Say, do you want to help us?",
-  "events-31122021.04": "Sure, I have time to spare!",
-  "events-31122021.05": "I have to get going...",
-  "events-31122021.06": "Great! Here, hold this...",
-  "events-31122021.07": "Alright, thanks for stopping by!",
-  //
-  //
-  // Kent Jelly for PB&J Event Strings
-  "events-32122021.01": "Sam, I'm glad that even though you're older, you can still appreciate a simple peanut butter and jelly sandwich.$h",
-  "events-32122021.02": "I'm... happy to spend time with you, dad.$h",
-  "events-32122021.03": "Yay, boys' lunch!",
-  "events-32122021.04": "Ok, let's dig in!$h",
-  //
-  //
-  // Jas Tea Party Event Strings
-  "events-33122021.01": "Thanks for coming to my tea party!$h",
-  "events-33122021.02": "Of course. I appreciate the invite!$h",
-  "events-33122021.03": "So, where do you want us?$6",
-  "events-33122021.04": "Oh! Hi @. Jas is having a little party.#$b#Thanks for providing the tea!$h",
-  "events-33122021.05": "Um, Aunt Marnie, we don't have enough tea for everyone...$3",
-  "events-33122021.06": "Um, Aunt Marnie, we don't have enough tea for everyone...",
-  "events-33122021.07": "That's ok, I'll leave you to it!",
-  "events-33122021.08": "You should have asked for more tea...",
-  "events-33122021.09": "See you!",
-  "events-33122021.10": "Well, you weren't invited...$2",
-  "events-33122021.11": "This is a family thing, I think you should leave.$2",
 }
