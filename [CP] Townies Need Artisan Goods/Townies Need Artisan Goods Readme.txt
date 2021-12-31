@@ -51,13 +51,13 @@ Note that if the game was going to include special orders from TNAG in the next 
 
 ||Shout Outs||
 Airyn, for ideas and support.
-JeweledNebula, for ideas.
+JeweledNebula, for ideas and support.
 Calcite / CopperSun, for ideas and support.
 Pathoschild, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible either.
-atravita, for their help in the Stardew Valley Discord.
-Lumina, for their help in the Stardew Valley Discord.
-Lemurkat, for their help in the Stardew Valley Discord.
-elhrvy, for their help in the Stardew Valley Discord.
+atravita, for their help in the SDV server.
+Lumina, for their help in the SDV and DSV server.
+Lemurkat, for their help in the SDV server.
+elhrvy, for their help in the SDV server.
 existentialdread, for their help in the DSV server.
 Gervig, for sending me that test save for a different special order mod I was testing (Townies Need Food<https://www.moddrop.com/stardew-valley/mods/1032940-townies-need-food>). I used it for testing TNAG!
 Arknir, for fantastic mods like Lucikiel and Lavril. I referred to Lucikiel to figure out event works. Arknir, you're a legend <3
