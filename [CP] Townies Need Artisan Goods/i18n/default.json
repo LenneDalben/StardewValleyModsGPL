@@ -424,5 +424,10 @@
   // Abigail Yellow Mayo Conversation Topic Strings
   "Abigail_yellowmayoCT_Abby": "The prank went off without a hitch. Seb and Sam didn't notice until it was too late!$h",
   "Abigail_yellowmayoCT_Seb": "I'm not thrilled Abigail has discovered duck mayonnaise.$5",
-  "Abigail_yellowmoayoCT_Sam": "Abigail ruined Seb and I's day with duck mayonnaise.$2#$b#YOU were the one who gave it to her?!$8"
+  "Abigail_yellowmoayoCT_Sam": "Abigail ruined Seb and I's day with duck mayonnaise.$2#$b#YOU were the one who gave it to her?!$8",
+  //
+  //
+  // Lewis Special Night Conversation Topic Strings
+  "Lewis_specialnightCT_Lewis": "%Lewis giggles but notices you looking and stops himself.",
+  "Lewis_specialnightCT_Marnie": "%Marnie stares off into space with a glint in her eye.",
 }

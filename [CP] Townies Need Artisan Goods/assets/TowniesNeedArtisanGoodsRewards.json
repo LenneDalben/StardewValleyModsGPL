@@ -134,86 +134,28 @@
       }
     },
     // Lewis Special Night Conversation Topic
-    // %Marnie stares off into space with a glint in her eye.
-    // %Lewis giggles but notices you looking and stops himself.
     {
-      "LogName": "Lewis Special Night",
+      "LogName": "Lewis Special Night Letter for CT",
       "Action": "EditData",
-      "Target": "Data/SpecialOrders",
+      "Target": "Data/Mail",
       "Entries": {
-        "TowniesNeedArtisanGoods_Lewis_SpecialNight": {
-          "Name": "[TowniesNeedArtisanGoods_Lewis_SpecialNight_Name]",
-          "Requester": "Lewis",
-          "Duration": "Month",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedArtisanGoods_Lewis_SpecialNight_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedArtisanGoods_Lewis_SpecialNight_Objective_Text_0]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "wine_item, quality_gold/quality_iridium",
-                "Message": "[TowniesNeedArtisanGoods_Lewis_SpecialNight_Message_0]",
-                "TargetName": "Lewis"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedArtisanGoods_Lewis_SpecialNight_Objective_Text_1]",
-              "RequiredCount": "2",
-              "Data": {
-                "AcceptedContextTags": "item_oyster",
-                "Message": "[TowniesNeedArtisanGoods_Lewis_SpecialNight_Message_1]",
-                "TargetName": "Lewis"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedArtisanGoods_Lewis_SpecialNight_Objective_Text_2]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_chocolate_cake",
-                "Message": "[TowniesNeedArtisanGoods_Lewis_SpecialNight_Message_2]",
-                "TargetName": "Lewis"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedArtisanGoods_Lewis_SpecialNight_Objective_Text_3]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_truffle_oil",
-                "Message": "[TowniesNeedArtisanGoods_Lewis_SpecialNight_Message_3]",
-                "TargetName": "Lewis"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "2451"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "OrderType": "wine, animal",
-        "SkillLevel:Farming": "8, 9, 10",
-        "HasCookingRecipe": "Chocolate Cake",
-        "PlayerHasCellarOrQAP": "true"
+        "TowniesNeedArtisanGoods_Lewis_SpecialNight_Letter": "{{Random: {{i18n:letter_saloon}}, {{i18n:letter_clinic}}, {{i18n:letter_Joja}}, {{i18n:letter_esquire}}, {{i18n:letter_carpet}}, {{i18n:letter_waterbugs}} |key=junkmail}}%item conversationTopic Lewis_specialnight 7 %%[#]{{Random: {{i18n:letter_saloon_name}}, {{i18n:letter_clinic_name}}, {{i18n:letter_Joja_name}}, {{i18n:letter_esquire_name}}, {{i18n:letter_carpet_name}}, {{i18n:letter_waterbugs_name}} |key=junkmail}}"
+      }
+    },
+    {
+      "LogName": "Lewis Special Night CT - Lewis",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Lewis",
+      "Entries": {
+        "Lewis_specialnight": "{{i18n:Lewis_specialnightCT_Lewis}}"
+      }
+    },
+    {
+      "LogName": "Lewis Special Night CT - Marnie",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Marnie",
+      "Entries": {
+        "Lewis_specialnight": "{{i18n:Lewis_specialnightCT_Marnie}}"
       }
     },
     // Marnie Casks for Cheese Would anything need to be here for shop changes? Mail about it huhu (don't forget to do HasMod invatorzen.MarnieSellsAnimalProducts false)
