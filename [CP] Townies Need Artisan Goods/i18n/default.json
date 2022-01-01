@@ -418,5 +418,11 @@
   "letter_esquire": "Did you get hurt in an accident? Call the Ferngill Esquire Association so they can connect you to a law firm at *the phone number is torn from the flyer*",
   "letter_esquire_name": "Esquire",
   "letter_carpet": "Sick of the carpeting in your home? Tell Ferngill Better Living what you're looking for and we'll install it for no money down at *for some reason the last part of this is in a language you don't understand*",
-  "letter_carpet_name": "Carpeting"
+  "letter_carpet_name": "Carpeting",
+  //
+  //
+  // Abigail Yellow Mayo Conversation Topic Strings
+  "Abigail_yellowmayoCT_Abby": "The prank went off without a hitch. Seb and Sam didn't notice until it was too late!$h",
+  "Abigail_yellowmayoCT_Seb": "I'm not thrilled Abigail has discovered duck mayonnaise.$5",
+  "Abigail_yellowmoayoCT_Sam": "Abigail ruined Seb and I's day with duck mayonnaise.$2#$b#YOU were the one who gave it to her?!$8"
 }

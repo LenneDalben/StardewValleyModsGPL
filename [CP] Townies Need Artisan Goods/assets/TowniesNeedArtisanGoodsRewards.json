@@ -114,7 +114,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Abigail",
       "Entries": {
-        "Abigail_yellowmayo": "The prank went off without a hitch. Seb and Sam didn't notice until it was too late!$h"
+        "Abigail_yellowmayo": "{{i18n:Abigail_yellowmayoCT_Abby}}"
       }
     },
     {
@@ -122,7 +122,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sebastian",
       "Entries": {
-        "Abigail_yellowmayo": "I'm not thrilled Abigail has discovered duck mayonnaise.$5"
+        "Abigail_yellowmayo": "{{i18n:Abigail_yellowmayoCT_Seb}}"
       }
     },
     {
@@ -130,7 +130,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sam",
       "Entries": {
-        "Abigail_yellowmayo": "Abigail ruined Seb and I's day with duck mayonnaise.$2#$b#YOU were the one who gave it to her?!$8"
+        "Abigail_yellowmayo": "{{i18n:Abigail_yellowmoayoCT_Sam}}"
       }
     },
     // Lewis Special Night Conversation Topic
