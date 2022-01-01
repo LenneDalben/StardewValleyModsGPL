@@ -101,6 +101,8 @@
     },
     // CONVERSATION TOPICS WOOT
     // Abigail Yellow Mayo Conversation Topic
+    // Sebastian: I'm not thrilled Abigail has discovered duck mayonnaise.$5
+    // Abigail ruined Seb and I's day with duck mayonnaise.$2#$b#YOU were the one who gave it to her?!$8
     {
       "LogName": "Abigail Yellow Mayo",
       "Action": "EditData",
