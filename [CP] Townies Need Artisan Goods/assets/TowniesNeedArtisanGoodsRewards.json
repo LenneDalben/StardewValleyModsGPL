@@ -101,57 +101,37 @@
     },
     // CONVERSATION TOPICS WOOT
     // Abigail Yellow Mayo Conversation Topic
-    // Abigail: the prank went off without a hitch. Seb and Sam didn't notice until it was too late!$h
-    // Abigail Yellow Mayo Conversation Topic
-    // Sebastian: I'm not thrilled Abigail has discovered duck mayonnaise.$5
-    // Sam: Abigail ruined Seb and I's day with duck mayonnaise.$2#$b#YOU were the one who gave it to her?!$8
     {
-      "LogName": "Abigail Yellow Mayo",
+      "LogName": "Abigail Yellow Mayo Letter for CT",
       "Action": "EditData",
-      "Target": "Data/SpecialOrders",
+      "Target": "Data/Mail",
       "Entries": {
-        "TowniesNeedArtisanGoods_Abigail_YellowMayo": {
-          "Name": "[TowniesNeedArtisanGoods_Abigail_YellowMayo_Name]",
-          "Requester": "Abigail",
-          "Duration": "ThreeDays",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedArtisanGoods_Abigail_YellowMayo_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedArtisanGoods_Abigail_YellowMayo_Objective_Text_0]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_duck_mayonnaise",
-                "Message": "[TowniesNeedArtisanGoods_Abigail_YellowMayo_Message_0]",
-                "TargetName": "Abigail"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "525"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
+        "TowniesNeedArtisanGoods_Abigail_YellowMayo_Letter": "Do you have water bugs or roaches? The Ferngill Bug Squashers will take care of you needs! Call us at *the company phone number is smeared*%item conversationTopic Abigail_yellowmayo 7"
         }
-      },
-      "When": {
-        "OrderType": "animal",
-        "SkillLevel:Farming": "2, 3, 4, 5, 6, 7, 8, 9, 10"
-      }
+    },
+    {
+      "LogName": "Abigail Yellow Mayo CT - Abby",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Abigail",
+      "Entries": {
+        "Abigail_yellowmayo": "The prank went off without a hitch. Seb and Sam didn't notice until it was too late!$h"
+        }
+    },
+    {
+      "LogName": "Abigail Yellow Mayo CT - Seb",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Sebastian",
+      "Entries": {
+        "Abigail_yellowmayo": "I'm not thrilled Abigail has discovered duck mayonnaise.$5"
+        }
+    },
+    {
+      "LogName": "Abigail Yellow Mayo CT - Sam",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Sam",
+      "Entries": {
+        "Abigail_yellowmayo": "Abigail ruined Seb and I's day with duck mayonnaise.$2#$b#YOU were the one who gave it to her?!$8"
+        }
     },
     // Lewis Special Night Conversation Topic
     // %Marnie stares off into space with a glint in her eye.

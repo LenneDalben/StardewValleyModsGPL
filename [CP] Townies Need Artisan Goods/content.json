@@ -29,6 +29,13 @@
       "AllowBlank": false,
       "AllowMultiple": false
     },
+    "EasterEgg": {
+      "Description": "With this set to true, you will see joke-y, slightly not lore-friendly rewards. If you don't think you can briefly suspend disbelief, set it to false. Default is false.",
+      "AllowValues": "true, false",
+      "Default": "false",
+      "AllowBlank": false,
+      "AllowMultiple": false
+    },
   },
   "DynamicTokens": [
     {
@@ -70,7 +77,10 @@
       "Target": "Maps/LeahHouse",
       "MapTiles": [
         {
-          "Position": { "X": 3, "Y": 8},
+          "Position": {
+            "X": 3,
+            "Y": 8
+          },
           "Layer": "Buildings",
           "SetProperties": {
             "Action": "DropBox LeahWood"
@@ -85,7 +95,10 @@
       "Target": "Maps/AnimalShop",
       "MapTiles": [
         {
-          "Position": { "X": 5, "Y": 18},
+          "Position": {
+            "X": 5,
+            "Y": 18
+          },
           "Layer": "Buildings",
           "SetProperties": {
             "Action": "DropBox MarnieHay"

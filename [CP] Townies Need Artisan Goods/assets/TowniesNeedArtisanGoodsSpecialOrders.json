@@ -89,13 +89,21 @@
             {
               "Type": "Friendship",
               "Data": {}
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "TowniesNeedArtisanGoods_Abigail_YellowMayo_Letter",
+                "NoLetter": "false"
+              }
             }
           ]
         }
       },
       "When": {
         "OrderType": "animal",
-        "SkillLevel:Farming": "2, 3, 4, 5, 6, 7, 8, 9, 10"
+        "SkillLevel:Farming": "2, 3, 4, 5, 6, 7, 8, 9, 10",
+        "EasterEgg": "true"
       }
     },
     // Alex Sweet Apple
