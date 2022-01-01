@@ -36,7 +36,15 @@
       "Action": "EditData",
       "Target": "Data/Events/Forest",
       "Entries": {
-        "28122021/w sunny/t 600 1800/n TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Completed": "summer_day_ambient/-1000 -1000/Leah 75 36 3/addBigProp 73 29 10/addBigProp 77 31 10/addBigProp 71 34 10/addBigProp 71 31 10/addBigProp 77 34 10/skippable/globalFadeToClear/viewport 73 31 true/pause 3000/emote Leah 32/pause 1000/globalFade/viewport -1000 -1000/end"
+        "28122021/w sunny/t 600 1800/n TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Completed": "summer_day_ambient/-1000 -1000/Leah 75 36 3/addBigProp 73 29 10/addBigProp 77 31 10/addBigProp 71 34 10/addBigProp 71 31 10/addBigProp 77 34 10/skippable/globalFadeToClear/viewport 73 31 true/pause 3000/addConversationTopic Leah_beesinthemeadow 7/emote Leah 32/pause 1000/globalFade/viewport -1000 -1000/end"
+      }
+    },
+    {
+      "LogName": "Leah Bees in the Meadow CT",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Leah",
+      "Entries": {
+        "Leah_beesinthemeadow": "{{i18n:Leah_beesinthemeadowCT}}"
       }
     },
     // Maru Power for Project Default Event
