@@ -413,7 +413,4 @@
   "letter_Joja": "Are you tired of not contributing to a mega corporation? Join us and thrive at Joja! Tell your local Joja representative you are dying to get a membership, and if you already told him no, tell him you changed your mind!",
   "letter_esquire": "Did you get hurt in an accident? Call the Ferngill Esquire Association so they can connect you to a law firm at *the phone number is torn from the flyer*",
   "letter_carpet": "Sick of the carpeting in your home? Tell Ferngill Better Living what you're looking for and we'll install it for no money down at *for some reason the last part of this is in a language you don't understand*"
-
-  // {{Random: {{i18n:letter_waterbugs}}, {{i18n:letter_saloon}}, {{i18n:letter_clinic}}, {{i18n:letter_Joja}}, {{i18n:letter_esquire}}, {{i18n:letter_carpet}} |key=junkmail}}
-
 }

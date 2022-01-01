@@ -106,7 +106,7 @@
       "Action": "EditData",
       "Target": "Data/Mail",
       "Entries": {
-        "TowniesNeedArtisanGoods_Abigail_YellowMayo_Letter": "{{Random: {{i18n:letter_waterbugs}}, {{i18n:letter_saloon}}, {{i18n:letter_clinic}}, {{i18n:letter_Joja}}, {{i18n:letter_esquire}}, {{i18n:letter_carpet}} |key=junkmail}}%item conversationTopic Abigail_yellowmayo 7"
+        "Abigail_YellowMayo_Letter": "{{Random: {{i18n:letter_waterbugs}}, {{i18n:letter_saloon}}, {{i18n:letter_clinic}}, {{i18n:letter_Joja}}, {{i18n:letter_esquire}}, {{i18n:letter_carpet}} |key=junkmail}}%item conversationTopic Abigail_yellowmayo 7"
         }
     },
     {

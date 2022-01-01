@@ -93,7 +93,7 @@
             {
               "Type": "Mail",
               "Data": {
-                "MailReceived": "TowniesNeedArtisanGoods_Abigail_YellowMayo_Letter",
+                "MailReceived": "Abigail_YellowMayo_Letter",
                 "NoLetter": "false"
               }
             }
