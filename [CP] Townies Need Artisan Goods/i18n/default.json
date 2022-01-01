@@ -430,4 +430,9 @@
   // Lewis Special Night Conversation Topic Strings
   "Lewis_specialnightCT_Lewis": "%Lewis giggles but notices you looking and stops himself.",
   "Lewis_specialnightCT_Marnie": "%Marnie stares off into space with a glint in her eye.",
+  //
+  //
+  // Marnie Special Dinner Conversation Topic Strings
+  "Marnie_specialdinnerCT_Lewis": "%Lewis seems happily lost in thought.",
+  "Marnie_specialdinnerCT_Marnie": "%Marnie is smiling and humming to herself.",
 }

@@ -209,55 +209,28 @@
       }
     },
     // Marnie Special Dinner Conversation topic
-    // %Marnie is smiling and humming to herself.
-    // %Lewis seems happily lost in thought.
     {
-      "LogName": "Marnie Special Dinner",
+      "LogName": "Marnie Special Dinner Letter for CT",
       "Action": "EditData",
-      "Target": "Data/SpecialOrders",
+      "Target": "Data/Mail",
       "Entries": {
-        "TowniesNeedArtisanGoods_Marnie_SpecialDinner": {
-          "Name": "[TowniesNeedArtisanGoods_Marnie_SpecialDinner_Name]",
-          "Requester": "Marnie",
-          "Duration": "Month",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedArtisanGoods_Marnie_SpecialDinner_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedArtisanGoods_Marnie_SpecialDinner_Objective_Text_0]",
-              "RequiredCount": "2",
-              "Data": {
-                "AcceptedContextTags": "wine_item, quality_gold/quality_iridium",
-                "Message": "[TowniesNeedArtisanGoods_Marnie_SpecialDinner_Message_0]",
-                "TargetName": "Marnie"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "1400"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "OrderType": "wine",
-        "SkillLevel:Farming": "8, 9, 10",
-        "PlayerHasCellarOrQAP": "true"
+        "TowniesNeedArtisanGoods_Marnie_SpecialDinner_Letter": "{{Random: {{i18n:letter_clinic}}, {{i18n:letter_Joja}}, {{i18n:letter_esquire}}, {{i18n:letter_carpet}}, {{i18n:letter_waterbugs}}, {{i18n:letter_saloon}} |key=junkmail}}%item conversationTopic Marnie_specialdinner 7 %%[#]{{Random: {{i18n:letter_clinic_name}}, {{i18n:letter_Joja_name}}, {{i18n:letter_esquire_name}}, {{i18n:letter_carpet_name}}, {{i18n:letter_waterbugs_name}}, {{i18n:letter_saloon_name}} |key=junkmail}}"
+      }
+    },
+    {
+      "LogName": "Marnie Special Dinner CT - Lewis",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Lewis",
+      "Entries": {
+        "Marnie_specialdinner": "{{i18n:Marnie_specialdinnerCT_Lewis}}"
+      }
+    },
+    {
+      "LogName": "Marnie Special Dinner CT - Marnie",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Marnie",
+      "Entries": {
+        "Marnie_specialdinner": "{{i18n:Marnie_specialdinnerCT_Marnie}}"
       }
     },
     // Robin Like Strawberry Wine Conversation Topic
