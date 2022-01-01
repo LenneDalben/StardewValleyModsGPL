@@ -388,6 +388,8 @@
       }
     },
     // Sam Grease for Wheels Conversation Topic
+    // Sam: The oil definitely stopped the squeaking. Thanks @!$h
+    // Vincent: Sam's skateboard doesn't make the funny noise anymore.
     {
       "LogName": "Sam Grease for Wheels",
       "Action": "EditData",
