@@ -152,6 +152,8 @@
       }
     },
     // Lewis Special Night Conversation Topic
+    // %Marnie stares off into space with a glint in her eye.
+    // %Lewis giggles but notices you looking and stops himself.
     {
       "LogName": "Lewis Special Night",
       "Action": "EditData",
@@ -283,6 +285,8 @@
       }
     },
     // Marnie Special Dinner Conversation topic
+    // %Marnie is smiling and humming to herself.
+    // %Lewis seems happily lost in thought.
     {
       "LogName": "Marnie Special Dinner",
       "Action": "EditData",
