@@ -106,8 +106,8 @@
       "Action": "EditData",
       "Target": "Data/Mail",
       "Entries": {
-        "Abigail_YellowMayo_Letter": "{{Random: {{i18n:letter_waterbugs}}, {{i18n:letter_saloon}}, {{i18n:letter_clinic}}, {{i18n:letter_Joja}}, {{i18n:letter_esquire}}, {{i18n:letter_carpet}} |key=junkmail}}%item conversationTopic Abigail_yellowmayo 7"
-        }
+        "TowniesNeedArtisanGoods_Abigail_YellowMayo_Letter": "{{Random: {{i18n:letter_waterbugs}}, {{i18n:letter_saloon}}, {{i18n:letter_clinic}}, {{i18n:letter_Joja}}, {{i18n:letter_esquire}}, {{i18n:letter_carpet}} |key=junkmail}}%item conversationTopic Abigail_yellowmayo 7 %%[#]{{Random: {{i18n:letter_waterbugs_name}}, {{i18n:letter_saloon_name}}, {{i18n:letter_clinic_name}}, {{i18n:letter_Joja_name}}, {{i18n:letter_esquire_name}}, {{i18n:letter_carpet_name}} |key=junkmail}}"
+      }
     },
     {
       "LogName": "Abigail Yellow Mayo CT - Abby",
@@ -115,7 +115,7 @@
       "Target": "Characters/Dialogue/Abigail",
       "Entries": {
         "Abigail_yellowmayo": "The prank went off without a hitch. Seb and Sam didn't notice until it was too late!$h"
-        }
+      }
     },
     {
       "LogName": "Abigail Yellow Mayo CT - Seb",
@@ -123,7 +123,7 @@
       "Target": "Characters/Dialogue/Sebastian",
       "Entries": {
         "Abigail_yellowmayo": "I'm not thrilled Abigail has discovered duck mayonnaise.$5"
-        }
+      }
     },
     {
       "LogName": "Abigail Yellow Mayo CT - Sam",
@@ -131,7 +131,7 @@
       "Target": "Characters/Dialogue/Sam",
       "Entries": {
         "Abigail_yellowmayo": "Abigail ruined Seb and I's day with duck mayonnaise.$2#$b#YOU were the one who gave it to her?!$8"
-        }
+      }
     },
     // Lewis Special Night Conversation Topic
     // %Marnie stares off into space with a glint in her eye.
