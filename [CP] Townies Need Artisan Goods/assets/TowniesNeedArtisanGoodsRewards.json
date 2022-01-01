@@ -284,8 +284,6 @@
       }
     },
     // Sebastian Side for Sushi Conversation Topic
-    // Sebastian: It's no pickled ginger, but bok choy still made a good side for sushi.$7
-    // Maru: I noticed Sebastian eat sushi with pickled bok choy.#$b#It looked pretty good.
     {
       "LogName": "Sebastian Side for Sushi Letter for CT",
       "Action": "EditData",
