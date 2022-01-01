@@ -230,6 +230,11 @@
   "TowniesNeedArtisanGoods_Maru_PowerforProject_Text": "Could someone bring me 30 batteries? I need a lot of power for my next project.",
   "TowniesNeedArtisanGoods_Maru_PowerforProject_Objective_Text_0": "Deliver 30 Batteries to Maru",
   "TowniesNeedArtisanGoods_Maru_PowerforProject_Message_0": "Woo, this will help a ton. Thanks @!",
+  "Maru_powerforprojectCT_Maru": "Still need to make some adjustments with my project...#$b#I don't know how I'm going to get rid of the smell.$2",
+  "Maru_powerforprojectCT_Demetrius": "Maru must be close to working out her project.#$b#That's the smell of approaching success!$h",
+  "Maru_powerforprojectCT_Robin": "Whatever Maru's working on left a terrible smell in the house. Like father, like daughter...$2",
+  "Maru_powerforprojectCT_SebastianS": "I hope whatever Maru's working on is worth that smell...#$b#It reached the basement!$s",
+  "Maru_powerforprojectCT_SebastianM": "Mom was complaining to me the other day about an experiment of Maru's.Guess it didn't go as planned?",
   //
   //
   // Pam Preserved Parsnip Strings
