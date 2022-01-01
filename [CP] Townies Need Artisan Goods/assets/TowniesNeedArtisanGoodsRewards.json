@@ -100,9 +100,10 @@
       }
     },
     // CONVERSATION TOPICS WOOT
+    // Abigail: the prank went off without a hitch. Seb and Sam didn't notice until it was too late!$h
     // Abigail Yellow Mayo Conversation Topic
     // Sebastian: I'm not thrilled Abigail has discovered duck mayonnaise.$5
-    // Abigail ruined Seb and I's day with duck mayonnaise.$2#$b#YOU were the one who gave it to her?!$8
+    // Sam: Abigail ruined Seb and I's day with duck mayonnaise.$2#$b#YOU were the one who gave it to her?!$8
     {
       "LogName": "Abigail Yellow Mayo",
       "Action": "EditData",
