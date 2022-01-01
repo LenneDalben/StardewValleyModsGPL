@@ -262,51 +262,27 @@
     // Sam: The oil definitely stopped the squeaking. Thanks @!$h
     // Vincent: Sam's skateboard doesn't make the funny noise anymore.
     {
-      "LogName": "Sam Grease for Wheels",
+      "LogName": "Sam Grease for Wheels Letter for CT",
       "Action": "EditData",
-      "Target": "Data/SpecialOrders",
+      "Target": "Data/Mail",
       "Entries": {
-        "TowniesNeedArtisanGoods_Sam_GreaseforWheels": {
-          "Name": "[TowniesNeedArtisanGoods_Sam_GreaseforWheels_Name]",
-          "Requester": "Sam",
-          "Duration": "Week",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedArtisanGoods_Sam_GreaseforWheels_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedArtisanGoods_Sam_GreaseforWheels_Objective_Text_0]",
-              "RequiredCount": "4",
-              "Data": {
-                "AcceptedContextTags": "item_oil",
-                "Message": "[TowniesNeedArtisanGoods_Sam_GreaseforWheels_Message_0]",
-                "TargetName": "Sam"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "400"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "OrderType": "misc",
-        "SkillLevel:Farming": "8, 9, 10"
+        "TowniesNeedArtisanGoodsSam_GreaseforWheels_Letter": "{{Random: {{i18n:letter_esquire}}, {{i18n:letter_carpet}}, {{i18n:letter_waterbugs}}, {{i18n:letter_saloon}}, {{i18n:letter_clinic}}, {{i18n:letter_Joja}} |key=junkmail}}%item conversationTopic Sam_greaseforwheels 7 %%[#]{{Random: {{i18n:letter_esquire_name}}, {{i18n:letter_carpet_name}}, {{i18n:letter_waterbugs_name}}, {{i18n:letter_saloon_name}}, {{i18n:letter_clinic_name}}, {{i18n:letter_Joja_name}} |key=junkmail}}"
+      }
+    },
+    {
+      "LogName": "Sam Grease for Wheels CT - Sam",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Sam",
+      "Entries": {
+        "Sam_greaseforwheels": "{{i18n:Sam_greaseforwheelsCT_Sam}}"
+      }
+    },
+    {
+      "LogName": "Sam Grease for Wheels CT - Vincent",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Vincent",
+      "Entries": {
+        "Sam_greaseforwheels": "{{i18n:Sam_greaseforwheelsCT_Vincent}}"
       }
     },
     // Sebastian Side for Sushi Conversation Topic
