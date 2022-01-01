@@ -2187,6 +2187,13 @@
             {
               "Type": "Friendship",
               "Data": {}
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "TowniesNeedArtisanGoods_Sam_GreaseforWheels_Letter",
+                "NoLetter": "false"
+              }
             }
           ]
         }
@@ -2335,6 +2342,13 @@
             {
               "Type": "Friendship",
               "Data": {}
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "TowniesNeedArtisanGoods_Sebastian_SideforSushi_Letter",
+                "NoLetter": "false"
+              }
             }
           ]
         }

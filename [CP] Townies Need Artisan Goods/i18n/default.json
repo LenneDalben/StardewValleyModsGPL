@@ -445,4 +445,9 @@
   // Sam Grease for Wheels Topic Strings
   "Sam_greaseforwheelsCT_Sam": "The oil definitely stopped the squeaking. Thanks @!$h",
   "Sam_greaseforwheelsCT_Vincent": "Sam's skateboard doesn't make the funny noise anymore.",
+  //
+  //
+  // Sebastian Side for Sushi Topic Strings
+  "Sebastian_sideforsushiCT_Sebastian": "It's no pickled ginger, but bok choy still made a good side for sushi.$7",
+  "i18n:Sebastian_sideforsushiCT_Maru": "I noticed Sebastian eat sushi with pickled bok choy.#$b#It looked pretty good.",
 }

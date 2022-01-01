@@ -259,8 +259,6 @@
       }
     },
     // Sam Grease for Wheels Conversation Topic
-    // Sam: The oil definitely stopped the squeaking. Thanks @!$h
-    // Vincent: Sam's skateboard doesn't make the funny noise anymore.
     {
       "LogName": "Sam Grease for Wheels Letter for CT",
       "Action": "EditData",
@@ -287,5 +285,30 @@
     },
     // Sebastian Side for Sushi Conversation Topic
     // Sebastian: It's no pickled ginger, but bok choy still made a good side for sushi.$7
+    // Maru: I noticed Sebastian eat sushi with pickled bok choy.#$b#It looked pretty good.
+    {
+      "LogName": "Sebastian Side for Sushi Letter for CT",
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "Entries": {
+        "TowniesNeedArtisanGoodsSebastian_SideforSushi_Letter": "{{Random: {{i18n:letter_carpet}}, {{i18n:letter_waterbugs}}, {{i18n:letter_saloon}}, {{i18n:letter_clinic}}, {{i18n:letter_Joja}}, {{i18n:letter_esquire}} |key=junkmail}}%item conversationTopic Sam_greaseforwheels 7 %%[#]{{Random: {{i18n:letter_carpet_name}}, {{i18n:letter_waterbugs_name}}, {{i18n:letter_saloon_name}}, {{i18n:letter_clinic_name}}, {{i18n:letter_Joja_name}, {{i18n:letter_esquire_name}} |key=junkmail}}"
+      }
+    },
+    {
+      "LogName": "Sebastian Side for Sushi CT - Sebastian",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Sebastian",
+      "Entries": {
+        "Sebastian_sideforsushi": "{{i18n:Sebastian_sideforsushiCT_Sebastian}}"
+      }
+    },
+    {
+      "LogName": "Sebastian Side for Sushi CT - Maru",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Maru",
+      "Entries": {
+        "Sebastian_sideforsushi": "{{i18n:Sebastian_sideforsushiCT_Maru}}"
+      }
+    },
   ]
 }
