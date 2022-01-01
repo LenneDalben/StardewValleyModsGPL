@@ -395,4 +395,13 @@
   "events-33122021.09": "See you!",
   "events-33122021.10": "Well, you weren't invited...$2",
   "events-33122021.11": "This is a family thing, I think you should leave.$2",
+  //
+  //
+  // Willy Mildly Salty Event Strings
+  "events-34122021.01": "Hey Elliott! I have a special treat today!$h",
+  "events-34122021.02": "Hello Willy! Whatever could it be?",
+  "events-34122021.03": "Willy, I know you're not bringing your own food to my saloon.$3",
+  "events-34122021.04": "But it's caviar!$2",
+  "events-34122021.05": "You can have some too.",
+  "events-34122021.06": "Ok, let's see how it is!$h",
 }
