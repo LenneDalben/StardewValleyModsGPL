@@ -2064,6 +2064,13 @@
             {
               "Type": "Friendship",
               "Data": {}
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Letter",
+                "NoLetter": "false"
+              }
             }
           ]
         }

@@ -435,4 +435,9 @@
   // Marnie Special Dinner Conversation Topic Strings
   "Marnie_specialdinnerCT_Lewis": "%Lewis seems happily lost in thought.",
   "Marnie_specialdinnerCT_Marnie": "%Marnie is smiling and humming to herself.",
+  //
+  //
+  // Robin Like Strawberry Wine Topic Strings
+  "Robin_likestrawberrywineCT_Robin": "Like strawberry wine, and seventeen...#$b#Hmm? Oh, don't mind me.",
+  "Robin_likestrawberrywineCT_Demetrius": "The hot july moon saw everything...#$b# *ahem* Excuse me, @.",
 }

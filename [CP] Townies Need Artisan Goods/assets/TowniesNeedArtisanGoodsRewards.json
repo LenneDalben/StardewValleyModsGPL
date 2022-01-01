@@ -234,54 +234,28 @@
       }
     },
     // Robin Like Strawberry Wine Conversation Topic
-    // Robin: Like strawberry wine, and seventeen...#$b#Hmm? Oh, don't mind me.
-    // Demetrius: The hot july moon saw everything...#$b# *ahem* Excuse me, @.
     {
-      "LogName": "Robin Like Strawberry Wine",
+      "LogName": "Robin Like Strawberry Wine Letter for CT",
       "Action": "EditData",
-      "Target": "Data/SpecialOrders",
+      "Target": "Data/Mail",
       "Entries": {
-        "TowniesNeedArtisanGoods_Robin_LikeStrawberryWine": {
-          "Name": "[TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Name]",
-          "Requester": "Robin",
-          "Duration": "Month",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "season_spring",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Objective_Text_0]",
-              "RequiredCount": "3",
-              "Data": {
-                "AcceptedContextTags": "item_strawberry_wine",
-                "Message": "[TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Message_0]",
-                "TargetName": "Robin"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "1512"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "OrderType": "wine",
-        "SkillLevel:Farming": "8, 9, 10"
+        "TowniesNeedArtisanGoodsRobin_LikeStrawberryWine_Letter": "{{Random: {{i18n:letter_Joja}}, {{i18n:letter_esquire}}, {{i18n:letter_carpet}}, {{i18n:letter_waterbugs}}, {{i18n:letter_saloon}}, {{i18n:letter_clinic}} |key=junkmail}}%item conversationTopic Robin_likestrawberrywine 7 %%[#]{{Random: {{i18n:letter_Joja_name}}, {{i18n:letter_esquire_name}}, {{i18n:letter_carpet_name}}, {{i18n:letter_waterbugs_name}}, {{i18n:letter_saloon_name}}, {{i18n:letter_clinic_name}} |key=junkmail}}"
+      }
+    },
+    {
+      "LogName": "Robin Like Strawberry Wine CT - Robin",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Robin",
+      "Entries": {
+        "Robin_likestrawberrywine": "{{i18n:Robin_likestrawberrywineCT_Robin}}"
+      }
+    },
+    {
+      "LogName": "Robin Like Strawberry Wine CT - Demetrius",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Demetrius",
+      "Entries": {
+        "Robin_likestrawberrywine": "{{i18n:Robin_likestrawberrywineCT_Demetrius}}"
       }
     },
     // Sam Grease for Wheels Conversation Topic
