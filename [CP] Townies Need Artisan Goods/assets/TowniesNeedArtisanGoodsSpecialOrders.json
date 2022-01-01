@@ -1742,6 +1742,13 @@
             {
               "Type": "Friendship",
               "Data": {}
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "TowniesNeedArtisanGoods_Marnie_SpecialDinner_Letter",
+                "NoLetter": "false"
+              }
             }
           ]
         }
