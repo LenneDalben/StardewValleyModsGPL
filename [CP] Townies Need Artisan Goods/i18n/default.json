@@ -380,7 +380,7 @@
   "events-32122021.01": "Sam, I'm glad that even though you're older, you can still appreciate a simple peanut butter and jelly sandwich.$h",
   "events-32122021.02": "I'm... happy to spend time with you, dad.$h",
   "events-32122021.03": "Yay, boys' lunch!",
-  "events-32122021.04": "Ok, let's dig in!$h",
+  "events-32122021.04": "Ok, le,t's dig in!$h",
   //
   //
   // Jas Tea Party Event Strings
@@ -404,4 +404,16 @@
   "events-34122021.04": "But it's caviar!$2",
   "events-34122021.05": "You can have some too.",
   "events-34122021.06": "Ok, let's see how it is!$h",
+  //
+  //
+  // Letter Strings
+  "letter_waterbugs": "Do you have water bugs or roaches? The Ferngill Bug Squashers will take care of you needs! Call us at *the company phone number is smeared*",
+  "letter_saloon": "Are you craving some good eating? Come by Gus' saloon for the best spaghetti money can buy!",
+  "letter_clinic": "Muscles aching after long hours chopping wood? Drop by Harvey's clinic and pick up a remedy!",
+  "letter_Joja": "Are you tired of not contributing to a mega corporation? Join us and thrive at Joja! Tell your local Joja representative you are dying to get a membership, and if you already told him no, tell him you changed your mind!",
+  "letter_esquire": "Did you get hurt in an accident? Call the Ferngill Esquire Association so they can connect you to a law firm at *the phone number is torn from the flyer*",
+  "letter_carpet": "Sick of the carpeting in your home? Tell Ferngill Better Living what you're looking for and we'll install it for no money down at *for some reason the last part of this is in a language you don't understand*"
+
+  // {{Random: {{i18n:letter_waterbugs}}, {{i18n:letter_saloon}}, {{i18n:letter_clinic}}, {{i18n:letter_Joja}}, {{i18n:letter_esquire}}, {{i18n:letter_carpet}} |key=junkmail}}
+
 }
