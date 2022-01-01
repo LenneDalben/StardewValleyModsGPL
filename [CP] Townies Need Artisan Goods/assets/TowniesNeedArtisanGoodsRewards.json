@@ -333,6 +333,8 @@
       }
     },
     // Robin Like Strawberry Wine Conversation Topic
+    // Robin: Like strawberry wine, and seventeen...#$b#Hmm? Oh, don't mind me.
+    // Demetrius: The hot july moon saw everything...#$b# *ahem* Excuse me, @.
     {
       "LogName": "Robin Like Strawberry Wine",
       "Action": "EditData",
