@@ -355,7 +355,7 @@
           "Requester": "Demetrius",
           "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "!dropbox_RobinWood", // the first checks that Robin's wood pile is not in use and is a vanilla check. The second checks if there a dropbox in Robin's house is not in use, and requires atravita's Special Order Tags Extended mod
+          "RequiredTags": "!dropbox_RobinWood",
           "OrderType": "",
           "SpecialRule": "",
           "Text": "[TowniesNeedArtisanGoods_Demetrius_OilMakers_Text]",
