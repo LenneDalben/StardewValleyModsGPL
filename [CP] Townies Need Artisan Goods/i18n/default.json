@@ -288,12 +288,6 @@
   "TowniesNeedArtisanGoods_Vincent_DinoMayo_Objective_Text_0": "Deliver 1 Dinosaur Mayonnaise to Vincent",
   "TowniesNeedArtisanGoods_Vincent_DinoMayo_Message_0": "What is this?$3#$b#WHAT?! THAT'S SO COOL!$h#$b#Ok ok. I'll share with Jas and say thanks to Sam. Thank you @!",
   //
-  // Vincent Dino Mayo - Turtle Edition Strings
-  "TowniesNeedArtisanGoods_Vincent_TurtleMayo_Name": "Turtle Mayo!",
-  "TowniesNeedArtisanGoods_Vincent_TurtleMayo_Text": "I think Vincent and Jas would love to try some turtle mayonnaise. Could someone give some to Vincent and remind him to share?   -Sam",
-  "TowniesNeedArtisanGoods_Vincent_TurtleMayo_Objective_Text_0": "Deliver 1 Turtle Mayonnaise to Vincent",
-  "TowniesNeedArtisanGoods_Vincent_TurtleMayo_Message_0": "What is this?$3#$b#WHAT?! THAT'S SO COOL!$h#$b#Ok ok. I'll share with Jas and say thanks to Sam. Thank you @!",
-  //
   // Willy Mildly Salty Strings
   "TowniesNeedArtisanGoods_Willy_MildlySalty_Name": "Mildly Salty",
   "TowniesNeedArtisanGoods_Willy_MildlySalty_Text": "Caviar is quite a delicacy. Could someone bring me 5 jars?",
@@ -333,14 +327,6 @@
   "events-29122021.04": "I want to try it!$h",
   "events-29122021.05": "Ewww...$s",
   "events-29122021.06": "More for me then, I like it!$h",
-  //
-  // Vincent Dino Mayo - Turtle Edition Event Strings
-  "events-30122021.01": "Yay!$h#$b#Let's open it!$3",
-  "events-30122021.02": "Let's do it!",
-  "events-30122021.03": "Ew... it smells.$3",
-  "events-30122021.04": "I want to try it!$h",
-  "events-30122021.05": "Ewww...$s",
-  "events-30122021.06": "More for me then, I like it!$h",
   //
   // Demetrius Oil Makers Event Strings
   "events-31122021.01": "Hey, @! Thanks again for the oil makers.$h#$b#Maru here is helping me disassemble them.",
