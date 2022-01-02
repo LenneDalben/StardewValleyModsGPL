@@ -68,15 +68,15 @@ Note that if the game was going to include special orders from TNF in the next r
 
 Jonqora, for ideas and suggestions that were incorporated in this mod. Jonqora was also INSTRUMENTAL in the dynamic token component of this mod. Jonqora, you are a legend <3
 
-Lumina, for their Lumisteria Special Orders mods, which helped me in writing this mod. Extra thanks to Lumina for their help in the Stardew Valley Discord.
+<a href="https://www.nexusmods.com/stardewvalley/users/5575844?tab=user+files">Lumina / Lumisteria</a>, for their Lumisteria Special Orders mods, which helped me in writing this mod. Extra thanks to Lumina for their help in the Stardew Valley Discord.
 
-Gervig91, for helping me test the 2.0.0 update.
+<a href="https://www.nexusmods.com/stardewvalley/users/24986819?tab=user+files">Gervig</a>, for helping me test the 2.0.0 update.
 
-Calcite / CopperSun, who pointed out vanilla has special orders that are seasonal, and encouraged me to check out the unpacked files. Thank you <3
+<a href="https://www.nexusmods.com/stardewvalley/users/114762643?tab=user+files">Calcite / CopperSun</a>, who pointed out vanilla has special orders that are seasonal, and encouraged me to check out the unpacked files. Thank you <3
 
 Thanks very much to jina2ya (Kaya) for the Korean translation!
 
-Pathoschild, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible either.
+<a href="https://www.nexusmods.com/stardewvalley/users/1552317?tab=user+files">Pathoschild</a>, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible either.
 
 ||Preview Images||
 
