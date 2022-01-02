@@ -54,7 +54,7 @@
         "32122021/t 1100 1400/n TowniesNeedArtisanGoods_Kent_JellyforPBJ_Completed": "playful/-1000 -1000/farmer 7 15 0 Sam 7 8 0 Vincent 6 8 0 Kent 7 5 2/addBigProp 1 6 27/addObject 2 6 216 1/addObject 3 5 344 1/skippable/addConversationTopic Kent_jellyforpbj 7/viewport 6 8 true/move farmer 0 -4 0/pause 200/speak Kent \"{{i18n:events-32122021.01}}\"/speak Sam \"{{i18n:events-32122021.02}}\"/emote Kent 20/speak Vincent \"{{i18n:events-32122021.03}}\"/emote Kent 32 true/emote Sam 32/pause 200/speak Kent \"{{i18n:events-32122021.04}}\"/jump Vincent 8/pause 300/move Vincent -3 0 0 true/move Sam -3 0 3 true/move Kent -3 0 1 true/move farmer 0 4 1 true/fade/viewport -1000 -1000/end"
       }
     },
-    {
+    /*Kent CT*/{
       "LogName": "Kent Jelly for PB&J CT - Kent",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Kent",
@@ -62,7 +62,7 @@
         "Kent_jellyforpbj": "{{i18n:Kent_jellyforpbjCT_Kent}}"
       }
     },
-    {
+    /*Sam CT*/{
       "LogName": "Kent Jelly for PB&J CT - Sam",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sam",
@@ -70,7 +70,7 @@
         "Kent_jellyforpbj": "{{i18n:Kent_jellyforpbjCT_Sam}}"
       }
     },
-    {
+    /*Vincent CT*/{
       "LogName": "Kent Jelly for PB&J CT - Vincent",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Vincent",
