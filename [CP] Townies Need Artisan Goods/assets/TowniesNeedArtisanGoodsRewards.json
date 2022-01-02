@@ -354,7 +354,7 @@
         "Robin_likestrawberrywine": "{{i18n:Robin_likestrawberrywineCT_Demetrius}}"
       }
     },
-    // Sam Grease for Wheels Conversation Topic PARENTS COMMENT? I'M GLAD HE'S TAKING CARE OF HIS STUFF
+    // Sam Grease for Wheels Conversation Topic
     /*Letter*/ {
       "LogName": "Sam Grease for Wheels Letter for CT",
       "Action": "EditData",
