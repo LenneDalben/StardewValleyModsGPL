@@ -379,6 +379,25 @@
         "Sam_greaseforwheels": "{{i18n:Sam_greaseforwheelsCT_Vincent}}"
       }
     },
+    /*Jodi CT*/ {
+      "LogName": "Sam Grease for Wheels CT - Jodi",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Jodi",
+      "Entries": {
+        "Sam_greaseforwheels": "{{i18n:Sam_greaseforwheelsCT_Jodi}}"
+      }
+    },
+    /*Kent CT*/ {
+      "LogName": "Sam Grease for Wheels CT - Kent",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Kent",
+      "Entries": {
+        "Sam_greaseforwheels": "{{i18n:Sam_greaseforwheelsCT_Kent}}"
+      },
+      "When": {
+        "HasSeenEvent": "63"
+      }
+    },
     // Sebastian Side for Sushi Conversation Topic
     /*Letter*/ {
       "LogName": "Sebastian Side for Sushi Letter for CT",
