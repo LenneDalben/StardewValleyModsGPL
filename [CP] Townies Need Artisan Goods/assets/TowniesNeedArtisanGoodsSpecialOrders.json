@@ -2645,7 +2645,8 @@
       "When": {
         "OrderType": "wine",
         "SkillLevel:Farming": "8, 9, 10",
-        "PlayerHasCellarOrQAP": true
+        "PlayerHasCellarOrQAP": true,
+        "Year | contains=1": false
       }
     }
   ]
