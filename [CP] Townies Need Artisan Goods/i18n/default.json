@@ -304,7 +304,7 @@
   //
   // Sandy Light Beverage Strings
   "TowniesNeedArtisanGoods_Sandy_LightBeverage_Name": "Light Beverage",
-  "TowniesNeedArtisanGoods_Sandy_LightBeverage_Text": "Could someone bring Sandy 2 beers? I think that would help her cheer up.    -Emily",
+  "TowniesNeedArtisanGoods_Sandy_LightBeverage_Text": "Could someone bring Sandy 2 beers? I think that would help her cheer up.     -Emily",
   "TowniesNeedArtisanGoods_Sandy_LightBeverage_Objective_Text_0": "Deliver 2 Beers to Sandy",
   "TowniesNeedArtisanGoods_Sandy_LightBeverage_Message_0": "Emily asked you to bring these to me?#$b# I guess I'll keep these until she visits, and then we can drink together!$h",
   //
@@ -446,7 +446,7 @@
   //
   //
   // Letter Strings
-  "letter_waterbugs": "Do you have water bugs or roaches? The Ferngill Bug Squashers will take care of you needs! Call us at *the company phone number is smeared*",
+  "letter_waterbugs": "Do you have water bugs or roaches? The Ferngill Bug Squashers will take care of you needs! Call us at     *the company phone number is smeared*",
   "letter_waterbugs_name": "Waterbugs",
   "letter_saloon": "Are you craving some good eating? Come by Gus' saloon for the best spaghetti money can buy!",
   "letter_saloon_name": "Saloon",
@@ -454,13 +454,13 @@
   "letter_blacksmith_name": "Blacksmith",
   "letter_robinbuilding": "Do you look around your land and think, 'there aren't enough buildings'? Then stop by Robin's and she'll set you up with the edifices of your dreams!",
   "letter_robinbuilding_name": "Robin Building",
-  "letter_clinic": "Muscles aching after long hours chopping wood? Drop by Harvey's clinic and pick up a remedy!",
+  "letter_clinic": "Muscles aching after long hours of chopping wood? Drop by Harvey's clinic and pick up a remedy!",
   "letter_clinic_name": "Clinic",
   "letter_Joja": "Are you tired of not contributing to a mega corporation? Join us and thrive at Joja! Tell your local Joja representative you are dying to get a membership, and if you already told him no, tell him you changed your mind!",
   "letter_Joja_name": "Joja",
-  "letter_esquire": "Did you get hurt in an accident? Call the Ferngill Esquire Association so they can connect you to a law firm at *the phone number is torn from the flyer*",
+  "letter_esquire": "Did you get hurt in an accident? Call the Ferngill Esquire Association so they can connect you to a law firm at     *the phone number is torn from the flyer*",
   "letter_esquire_name": "Esquire",
-  "letter_carpet": "Sick of the carpeting in your home? Tell Ferngill Better Living what you're looking for and we'll install it for no money down at *for some reason the last part of this is in a language you don't understand*",
+  "letter_carpet": "Sick of the carpeting in your home? Tell Ferngill Better Living what you're looking for and we'll install it for no money down at     *for some reason the last part of this is in a language you don't understand*",
   "letter_carpet_name": "Carpeting",
   //
   //
