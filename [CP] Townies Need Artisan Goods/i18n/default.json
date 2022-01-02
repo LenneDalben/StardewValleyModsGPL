@@ -185,7 +185,6 @@
   "TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Name": "Bees in the Meadow",
   "TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Text": "Hi! I think the forest meadows could use more bee activity. Would someone be able to bring me 5 bee houses? I think that would help encourage them!",
   "TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Objective_Text_0": "Drop off 5 Bee Houses by the wood pile in Leah's house",
-  "Leah_beesinthemeadowCT": "Thanks, @! These should make some bees happy.$h",
   //
   //
   // Leah Spreadable Mayo Strings
@@ -245,10 +244,6 @@
   "TowniesNeedArtisanGoods_Maru_PowerforProject_Objective_Text_0": "Deliver 30 Batteries to Maru",
   "TowniesNeedArtisanGoods_Maru_PowerforProject_Message_0": "Woo, this will help a ton. Thanks @!",
   "Maru_powerforprojectCT_Maru": "Still need to make some adjustments with my project...#$b#I don't know how I'm going to get rid of that stench.$2",
-  "Maru_powerforprojectCT_Demetrius": "Maru must be close to working out her project.#$b#That's the smell of approaching success!$h",
-  "Maru_powerforprojectCT_Robin": "Whatever Maru's working on made the house reek. Like father, like daughter...$2",
-  "Maru_powerforprojectCT_SebastianS": "I hope whatever Maru's working on is worth that smell...#$b#It reached the basement!$s",
-  "Maru_powerforprojectCT_SebastianM": "Mom was complaining to me the other day about an experiment of Maru's. Guess it didn't go as planned?",
   //
   //
   // Pam Preserved Parsnip Strings
@@ -464,6 +459,17 @@
   "letter_carpet_name": "Carpeting",
   //
   //
+  // Leah Bees in the Meadow Conversation Topic Strings
+  "Leah_beesinthemeadowCT": "Thanks, @! These should make some bees happy.$h",
+  //
+  //
+  // Maru Power for Project Conversation Topic Strings
+  "Maru_powerforprojectCT_Demetrius": "Maru must be close to working out her project.#$b#That's the smell of approaching success!$h",
+  "Maru_powerforprojectCT_Robin": "Whatever Maru's working on made the house reek. Like father, like daughter...$2",
+  "Maru_powerforprojectCT_SebastianS": "I hope whatever Maru's working on is worth that smell...#$b#It reached the basement!$s",
+  "Maru_powerforprojectCT_SebastianM": "Mom was complaining to me the other day about an experiment of Maru's. Guess it didn't go as planned?",
+  //
+  //
   // Abigail Yellow Mayo Conversation Topic Strings
   "Abigail_yellowmayoCT_Abby": "The prank went off without a hitch. Seb and Sam didn't notice until it was too late!$h",
   "Abigail_yellowmayoCT_Seb": "I'm not thrilled Abby has discovered duck mayonnaise.$5",
@@ -478,6 +484,11 @@
   // Marnie Special Dinner Conversation Topic Strings
   "Marnie_specialdinnerCT_Lewis": "%Lewis seems happily lost in thought.",
   "Marnie_specialdinnerCT_Marnie": "%Marnie is smiling and humming to herself.",
+  //
+  //
+  // Marnie Casks for Cheese Conversation Topic Strings
+  "Marnie_casksforcheeseCT_Marnie": "Thanks for the casks @! I'm looking forward to some fine cheese.$h",
+  "Marnie_casksforcheeseCT_Jas": "Aunt Marnie has some extra smelly cheese now.$3",
   //
   //
   // Robin Like Strawberry Wine Topic Strings
@@ -497,10 +508,5 @@
   //
   // Sandy Light Beverage Topic Strings
   "Sandy_lightbeverageCT_Sandy": "Thanks again for bringing for the beers around!#$b#Emily and I had a nice time.$h",
-  "Sandy_lightbeverageCT_Emily": "Sandy appreciated the beers. Thanks @!#$b#It gave us an excuse to catch up, as if we need it.$h",
-  //
-  //
-  // Marnie Casks for Cheese Conversation Topic Strings
-  "Marnie_casksforcheeseCT_Marnie": "Thanks for the casks @! I'm looking forward to some fine cheese.$h",
-  "Marnie_casksforcheeseCT_Jas": "Aunt Marnie has some extra smelly cheese now.$3"
+  "Sandy_lightbeverageCT_Emily": "Sandy appreciated the beers. Thanks @!#$b#It gave us an excuse to catch up, as if we need it.$h"
 }
