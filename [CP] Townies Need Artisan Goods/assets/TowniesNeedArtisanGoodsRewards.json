@@ -431,6 +431,14 @@
         "Sebastian_sideforsushi": "{{i18n:Sebastian_sideforsushiCT_Maru}}"
       }
     },
+    /*Robin CT*/ {
+      "LogName": "Sebastian Side for Sushi CT - Robin",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Robin",
+      "Entries": {
+        "Sebastian_sideforsushi": "{{i18n:Sebastian_sideforsushiCT_Robin}}"
+      }
+    },
     // Sandy Light Beverage Conversation Topic
     /*Letter*/ {
       "LogName": "Sandy Light Beverage Letter for CT",
