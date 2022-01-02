@@ -25,8 +25,8 @@ Delete the folder from this mod.
 
 Shout Outs
 
-Thanks to Draylon for making Non-Lethal Weapons!
+Thanks to <a href="https://www.nexusmods.com/stardewvalley/users/8049772?tab=user+files">Draylon</a> for making Non-Lethal Weapons!
 
-Thanks to Undare for making Mineral Mage!
+Thanks to <a href="https://www.nexusmods.com/stardewvalley/users/12004908?tab=user+files">Undare</a> for making Mineral Mage!
 
-Pathoschild, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible.
+<a href="https://www.nexusmods.com/stardewvalley/users/1552317?tab=user+files">Pathoschild</a>, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible.
