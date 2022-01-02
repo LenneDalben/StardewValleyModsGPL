@@ -426,6 +426,8 @@
   "letter_waterbugs_name": "Waterbugs",
   "letter_saloon": "Are you craving some good eating? Come by Gus' saloon for the best spaghetti money can buy!",
   "letter_saloon_name": "Saloon",
+  "letter_blacksmith": "Do your tools no longer match in color? Shuffle on down to Clint's and he'll upgrade them for you!",
+  "letter_blacksmith_name": "Blacksmith",
   "letter_clinic": "Muscles aching after long hours chopping wood? Drop by Harvey's clinic and pick up a remedy!",
   "letter_clinic_name": "Clinic",
   "letter_Joja": "Are you tired of not contributing to a mega corporation? Join us and thrive at Joja! Tell your local Joja representative you are dying to get a membership, and if you already told him no, tell him you changed your mind!",
@@ -464,5 +466,10 @@
   //
   // Sebastian Side for Sushi Topic Strings
   "Sebastian_sideforsushiCT_Sebastian": "It's no pickled ginger, but bok choy still made a good side for sushi.$7",
-  "i18n:Sebastian_sideforsushiCT_Maru": "I noticed Sebastian eat sushi with pickled bok choy.#$b#It looked pretty good.",
+  "Sebastian_sideforsushiCT_Maru": "I noticed Sebastian eat sushi with pickled bok choy.#$b#It looked pretty good.",
+  //
+  //
+  // Sandy Light Beverage Topic Strings
+  "Sandy_lightbeverageCT_Sandy": "Thanks again for bringing for the beers around!#$b#Emily and I had a nice time.$h",
+  "Sandy_lightbeverageCT_Emily": "Sandy appreciated the beers. Thank @!#$b#It gave us an excuse to catch up, as if we need it.$h",
 }

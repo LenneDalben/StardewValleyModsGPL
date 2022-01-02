@@ -2292,6 +2292,13 @@
             {
               "Type": "Friendship",
               "Data": {}
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "TowniesNeedArtisanGoods_Sandy_LightBeverage_Letter",
+                "NoLetter": "false"
+              }
             }
           ]
         }
