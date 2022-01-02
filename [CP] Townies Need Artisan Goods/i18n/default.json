@@ -322,8 +322,8 @@
   "events-27122021.05": "Oh well, you're here now, come join us!",
   "events-27122021.06": "Let's get started...$7",
   "Sam_gamenightCT_Sam": "Sorry again about forgetting to invite you.$10#$b#I'm glad you made it. It was fun!",
-  "Sam_gamenightCT_Abigail": "I'll handle invitations from now on.$3#$b#Thanks for the drinks, by the way!$h#$b#I can bring them next time.",
-  "Sam_gamenightCT_Sebastian": "Sam is forgetful sometimes, but he means well.",
+  "Sam_gamenightCT_Abby": "I'll handle invitations from now on.$3#$b#Thanks for the drinks, by the way!$h#$b#I can bring them next time.",
+  "Sam_gamenightCT_Seb": "Sam is forgetful sometimes, but he means well.",
   "Sam_gamenightCT_Robin": "I'm glad those three are expanding their friend group!",
   //
   // Vincent Dino Mayo Event Strings
@@ -416,8 +416,8 @@
   // Maru Power for Project Conversation Topic Strings
   "Maru_powerforprojectCT_Demetrius": "Maru must be close to working out her project.#$b#That's the smell of approaching success!$h",
   "Maru_powerforprojectCT_Robin": "Whatever Maru's working on made the house reek. Like father, like daughter...$2",
-  "Maru_powerforprojectCT_SebastianS": "I hope whatever Maru's working on is worth that smell...#$b#It reached the basement!$s",
-  "Maru_powerforprojectCT_SebastianM": "Mom was complaining to me the other day about an experiment of Maru's. Guess it didn't go as planned?",
+  "Maru_powerforprojectCT_SebS": "I hope whatever Maru's working on is worth that smell...#$b#It reached the basement!$s",
+  "Maru_powerforprojectCT_SebM": "Mom was complaining to me the other day about an experiment of Maru's. Guess it didn't go as planned?",
   //
   // Abigail Yellow Mayo Conversation Topic Strings
   "Abigail_yellowmayoCT_Abby": "The prank went off without a hitch. Seb and Sam didn't notice until it was too late!$h",

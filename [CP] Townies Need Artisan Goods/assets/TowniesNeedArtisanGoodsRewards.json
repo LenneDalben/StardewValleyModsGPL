@@ -93,7 +93,7 @@
       "Action": "EditData",
       "Target": "Data/Events/Forest",
       "Entries": {
-        "42122021/w sunny/t 600 1800/n TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Completed": "summer_day_ambient/-1000 -1000/Leah 75 36 3/addBigProp 73 29 10/addBigProp 77 31 10/addBigProp 71 34 10/addBigProp 71 31 10/addBigProp 77 34 10/skippable/globalFadeToClear/addConversationTopic Leah_beesinthemeadow 7/viewport 73 31 true/pause 3000/emote Leah 32/pause 1000/globalFade/viewport -1000 -1000/end"
+        "42122021/w sunny/t 600 1800/n TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Completed": "summer_day_ambient/-1000 -1000/Leah 75 36 3/addBigProp 73 29 10/addBigProp 77 31 10/addBigProp 71 34 10/addBigProp 71 31 10/addBigProp 77 34 10/skippable/addConversationTopic Leah_beesinthemeadow 7/globalFadeToClear/viewport 73 31 true/pause 3000/emote Leah 32/pause 1000/globalFade/viewport -1000 -1000/end"
       }
     },
     /*Leah CT*/{
@@ -132,7 +132,7 @@
     /*Robin CT*/{
       "LogName": "Maru Power for Project CT - Robin",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/Maru",
+      "Target": "Characters/Dialogue/Robin",
       "Entries": {
         "Maru_powerforproject": "{{i18n:Maru_powerforprojectCT_Robin}}"
       }
@@ -142,7 +142,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sebastian",
       "Entries": {
-        "Maru_powerforproject": "{{i18n:Maru_powerforprojectCT_SebastianS}}"
+        "Maru_powerforproject": "{{i18n:Maru_powerforprojectCT_SebS}}"
       },
       "When": {
         "Relationship:Sebastian |contains= Married": false
@@ -153,7 +153,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sebastian",
       "Entries": {
-        "Maru_powerforproject": "{{i18n:Maru_powerforprojectCT_SebastianM}}"
+        "Maru_powerforproject": "{{i18n:Maru_powerforprojectCT_SebM}}"
       },
       "When": {
         "Relationship:Sebastian": "Married"
@@ -190,7 +190,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Abigail",
       "Entries": {
-        "Sam_gamenight": "{{i18n:Sam_gamenightCT_Abigail}}"
+        "Sam_gamenight": "{{i18n:Sam_gamenightCT_Abby}}"
       }
     },
     /*Sebastian CT*/{
@@ -198,7 +198,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sebastian",
       "Entries": {
-        "Sam_gamenight": "{{i18n:Sam_gamenightCT_Sebastian}}"
+        "Sam_gamenight": "{{i18n:Sam_gamenightCT_Seb}}"
       }
     },
     /*Robin CT*/{
@@ -261,7 +261,7 @@
     /*Elliott CT*/{
       "LogName": "Willy Mildly Salty CT - Elliott",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/Emily",
+      "Target": "Characters/Dialogue/Elliott",
       "Entries": {
         "Willy_mildlysalty": "{{i18n:Willy_mildlysaltyCT_Elliott}}"
       }
@@ -375,7 +375,7 @@
         "Robin_likestrawberrywine": "{{i18n:Robin_likestrawberrywineCT_Demetrius}}"
       }
     },
-    // Sam Grease for Wheels Conversation Topic
+    // Sam Grease for Wheels Conversation Topic PARENTS COMMENT? I'M GLAD HE'S TAKING CARE OF HIS STUFF
     /*Letter*/{
       "LogName": "Sam Grease for Wheels Letter for CT",
       "Action": "EditData",
