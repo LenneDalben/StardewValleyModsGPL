@@ -633,26 +633,26 @@
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesNeedArtisanGoods_Emily_TailoringMaterials": {
-          "Name": "[TowniesNeedArtisanGoods_Emily_TailoringMaterials_Name]",
+        "TowniesNeedArtisanGoods_Emily_TailoringMaterialsD": {
+          "Name": "[TowniesNeedArtisanGoods_Emily_TailoringMaterialsD_Name]",
           "Requester": "Emily",
           "Duration": "Month",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesNeedArtisanGoods_Emily_TailoringMaterials_Text]",
+          "Text": "[TowniesNeedArtisanGoods_Emily_TailoringMaterialsD_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesNeedArtisanGoods_Emily_TailoringMaterials_Objective_Text_0]",
+              "Text": "[TowniesNeedArtisanGoods_Emily_TailoringMaterialsD_Objective_Text_0]",
               "RequiredCount": "30",
               "Data": {
                 "AcceptedContextTags": "item_cloth",
-                "Message": "[TowniesNeedArtisanGoods_Emily_TailoringMaterials_Message_0]",
+                "Message": "[TowniesNeedArtisanGoods_Emily_TailoringMaterialsD_Message_0]",
                 "TargetName": "Emily"
               }
             }
@@ -683,26 +683,26 @@
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesNeedArtisanGoods_Emily_TailoringMaterials": {
-          "Name": "[TowniesNeedArtisanGoods_Emily_TailoringMaterials_Name]",
+        "TowniesNeedArtisanGoods_Emily_TailoringMaterialsE": {
+          "Name": "[TowniesNeedArtisanGoods_Emily_TailoringMaterialsE_Name]",
           "Requester": "Emily",
           "Duration": "Month",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesNeedArtisanGoods_Emily_TailoringMaterials_Text]",
+          "Text": "[TowniesNeedArtisanGoods_Emily_TailoringMaterialsE_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesNeedArtisanGoods_Emily_TailoringMaterials_Objective_Text_0]",
+              "Text": "[TowniesNeedArtisanGoods_Emily_TailoringMaterialsE_Objective_Text_0]",
               "RequiredCount": "10",
               "Data": {
                 "AcceptedContextTags": "item_cloth",
-                "Message": "[TowniesNeedArtisanGoods_Emily_TailoringMaterials_Message_0]",
+                "Message": "[TowniesNeedArtisanGoods_Emily_TailoringMaterialsE_Message_0]",
                 "TargetName": "Emily"
               }
             }
@@ -881,26 +881,26 @@
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesNeedArtisanGoods_Gus_DrinksfortheFair": {
-          "Name": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Name]",
+        "TowniesNeedArtisanGoods_Gus_DrinksfortheFairD": {
+          "Name": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFairD_Name]",
           "Requester": "Gus",
           "Duration": "Month",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "season_summer",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Text]",
+          "Text": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFairD_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Objective_Text_0]",
+              "Text": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFairD_Objective_Text_0]",
               "RequiredCount": "30",
               "Data": {
                 "AcceptedContextTags": "item_pale_ale",
-                "Message": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Message_0]",
+                "Message": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFairD_Message_0]",
                 "TargetName": "Gus"
               }
             }
@@ -931,26 +931,26 @@
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesNeedArtisanGoods_Gus_DrinksfortheFair": {
-          "Name": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Name]",
+        "TowniesNeedArtisanGoods_Gus_DrinksfortheFairE": {
+          "Name": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Name]",
           "Requester": "Gus",
           "Duration": "Month",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "season_summer",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Text]",
+          "Text": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Objective_Text_0]",
+              "Text": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Objective_Text_0]",
               "RequiredCount": "10",
               "Data": {
                 "AcceptedContextTags": "item_pale_ale",
-                "Message": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Message_0]",
+                "Message": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Message_0]",
                 "TargetName": "Gus"
               }
             }
