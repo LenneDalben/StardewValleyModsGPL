@@ -1579,7 +1579,8 @@
         "OrderType": "wine, animal",
         "SkillLevel:Farming": "8, 9, 10",
         "HasCookingRecipe": "Chocolate Cake",
-        "PlayerHasCellarOrQAP": "true"
+        "PlayerHasCellarOrQAP": "true",
+        "EasterEgg": "true"
       }
     },
     // Linus Berry Flavor
@@ -1756,7 +1757,8 @@
       "When": {
         "OrderType": "wine",
         "SkillLevel:Farming": "8, 9, 10",
-        "PlayerHasCellarOrQAP": "true"
+        "PlayerHasCellarOrQAP": "true",
+        "EasterEgg": "true"
       }
     },
     // Maru Power for Project - Default
@@ -2077,7 +2079,8 @@
       },
       "When": {
         "OrderType": "wine",
-        "SkillLevel:Farming": "8, 9, 10"
+        "SkillLevel:Farming": "8, 9, 10",
+        "EasterEgg": "true"
       }
     },
     // Sam Game Night
@@ -2200,7 +2203,8 @@
       },
       "When": {
         "OrderType": "misc",
-        "SkillLevel:Farming": "8, 9, 10"
+        "SkillLevel:Farming": "8, 9, 10",
+        "EasterEgg": "true"
       }
     },
     // Sam Sweet and Soothing
@@ -2306,7 +2310,8 @@
       "When": {
         "OrderType": "beer",
         "SkillLevel:Farming": "8, 9, 10",
-        "HasSeenEvent": "67"
+        "HasSeenEvent": "67",
+        "EasterEgg": "true"
       }
     },
     // Sebastian Side for Sushi
@@ -2362,7 +2367,8 @@
       },
       "When": {
         "OrderType": "pickle",
-        "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10"
+        "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10",
+        "EasterEgg": "true"
       }
     },
     // Shane 6 Pack of Juice
