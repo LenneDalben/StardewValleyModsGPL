@@ -393,7 +393,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sebastian",
       "Entries": {
-        "Sebastian_sideforsushi": "{{i18n:Sebastian_sideforsushiCT_Sebastian}}"
+        "Sebastian_sideforsushi": "{{i18n:Sebastian_sideforsushiCT_Seb}}"
       }
     },
     /*Maru CT*/ {
