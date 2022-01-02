@@ -686,7 +686,7 @@
         "TowniesNeedArtisanGoods_Emily_TailoringMaterialsE": {
           "Name": "[TowniesNeedArtisanGoods_Emily_TailoringMaterialsE_Name]",
           "Requester": "Emily",
-          "Duration": "Month",
+          "Duration": "TwoWeek",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
@@ -934,7 +934,7 @@
         "TowniesNeedArtisanGoods_Gus_DrinksfortheFairE": {
           "Name": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Name]",
           "Requester": "Gus",
-          "Duration": "Month",
+          "Duration": "TwoWeek",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "season_summer",
           "OrderType": "",
@@ -1843,7 +1843,7 @@
         "TowniesNeedArtisanGoods_Maru_PowerforProjectE": {
           "Name": "[TowniesNeedArtisanGoods_Maru_PowerforProjectE_Name]",
           "Requester": "Maru",
-          "Duration": "Month",
+          "Duration": "TwoWeek",
           "Repeatable": "False",
           "RequiredTags": "",
           "OrderType": "",
