@@ -9,7 +9,7 @@ German translation courtesy of Nexus user kupiqo.
 
 ||Compatibility||
 
-For the machines Marlon sells, there's compatibility built in. If you use Befriend Marlon and Gunther, Make Marlon Real, or Stardew Valley Expanded (SVE), then there is a friendship requirement. If you use none of those mods, there's a different requirement.
+For the machines Marlon sells, there's compatibility built in. If you use <a href="https://www.nexusmods.com/stardewvalley/mods/2569">Befriend Marlon and Gunther</a>, <a href="https://www.nexusmods.com/stardewvalley/mods/7018">Make Marlon Real</a>, or <a href="https://www.nexusmods.com/stardewvalley/mods/3753">Stardew Valley Expanded (SVE)</a>, then there is a friendship requirement. If you use none of those mods, there's a different requirement.
 
 
 ||Installation||
@@ -29,15 +29,15 @@ Delete the folders from this mod.
 
 Nexus user kupiqo for providing the German translation for the letter.
 
-Jonqora and Draylon, who helped me with tweaking the requirements to buy the equipment and its availability to balance the mod.
+<a href="https://www.nexusmods.com/stardewvalley/users/88107803?tab=user+files">Jonqora</a> and <a href="https://www.nexusmods.com/stardewvalley/users/8049772?tab=user+files">Draylon</a>, who helped me with tweaking the requirements to buy the equipment and its availability to balance the mod.
 
-Pathoschild, author of SMAPI, without them, this mod wouldn't be possible.
+<a href="https://www.nexusmods.com/stardewvalley/users/1552317?tab=user+files">Pathoschild</a>, author of SMAPI, without them, this mod wouldn't be possible.
 
-spacechase0, who gave me some ideas about what to include in the letter.
+<a href="https://www.nexusmods.com/stardewvalley/users/34250790?tab=user+files">spacechase0</a>, who gave me some ideas about what to include in the letter.
 
-HUGE thanks to CherryChain, author of Shop Tile Framework (STF), without them, this mod wouldn't be possible either. Extra thanks to CherryChain for their continued help in the Stardew Valley Discord with troubleshooting. 
+HUGE thanks to <a href="https://www.nexusmods.com/stardewvalley/users/3590100?tab=user+files">CherryChain</a>, author of Shop Tile Framework (STF), without them, this mod wouldn't be possible either. Extra thanks to CherryChain for their continued help in the Stardew Valley Discord with troubleshooting. 
 
-Digus, author of Mail Framework Mod (MFM), without them, the letter component of this mod wouldn't be possible.
+<a href="https://www.nexusmods.com/stardewvalley/users/2186381?tab=user+files">Digus</a>, author of Mail Framework Mod (MFM), without them, the letter component of this mod wouldn't be possible.
 
 
 Equipment available for sale (who sells what and for how much):

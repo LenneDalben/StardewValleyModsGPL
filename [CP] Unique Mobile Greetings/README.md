@@ -19,21 +19,25 @@ Caroline
 Demetrius
 * Friendly: "Greetings FARMERNAME! Are you enjoying this fine day?" / "Goodbye FARMERNAME!"
 
-Configuration
+
+||Configuration||
 Each NPCs changes can be toggled on or off. By default all NPC changes are on (true).
 
-Installation:
+
+||Installation||
 1. Install <a href="https://smapi.io/">SMAPI</a> (version 3.9.2 or higher)
 2. Install <a href="https://www.nexusmods.com/stardewvalley/mods/1915">Content Patcher (CP)</a> (version 1.20.0 or higher)
 3. Install <a href="https://www.nexusmods.com/stardewvalley/mods/6523">Mobile Phone</a> (version 2.2.2 or higher)
 4. <a href="https://www.moddrop.com/stardew-valley/mods/1032953-unique-mobile-greetings">Download the mod from ModDrop</a> and unzip the mod folder into Stardew Valley/Mods.
 5. Play the game using SMAPI!
 
-Uninstallation:
+
+||Uninstallation||
 Delete the folder from this mod.
 
-Shout Outs
 
-Aedenthorn, author of Mobile Phone, without them, this mod wouldn't be possible.
+||Shout Outs||
 
-Pathoschild, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible either.
+<a href="https://www.nexusmods.com/stardewvalley/users/18901754?tab=user+files">Aedenthorn</a>, author of Mobile Phone, without them, this mod wouldn't be possible.
+
+<a href="https://www.nexusmods.com/stardewvalley/users/1552317?tab=user+files">Pathoschild</a>, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible either.

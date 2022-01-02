@@ -6,7 +6,7 @@ For the special orders to show up on the special orders board, you must have a k
 
 The NPCs request every vanilla recipe (including from the 1.5 update), with the exceptions of: Strange Bun (because no one in town likes it), Pale Broth and Algae Soup (I've no good reason for excluding these, I just did :I ). You may notice that the NPCs ask for recipes they enjoy, hint hint~ The villagers only ask for vanilla recipes (base game), no PPJA / JA recipes.
 
-Korean translation courtesy of jina2ya (Kaya).
+Korean translation courtesy of <a href="https://kayainsdv.postype.com/">jina2ya (Kaya)</a>.
 
 There are preview images in the download, but they're quite large so they're listed at the bottom of the description. :)
 
@@ -66,7 +66,7 @@ Note that if the game was going to include special orders from TNF in the next r
 
 ||Shout Outs||
 
-Jonqora, for ideas and suggestions that were incorporated in this mod. Jonqora was also INSTRUMENTAL in the dynamic token component of this mod. Jonqora, you are a legend <3
+<a href="https://www.nexusmods.com/stardewvalley/users/88107803?tab=user+files">Jonqora</a>, for ideas and suggestions that were incorporated in this mod. Jonqora was also INSTRUMENTAL in the dynamic token component of this mod. Jonqora, you are a legend <3
 
 <a href="https://www.nexusmods.com/stardewvalley/users/5575844?tab=user+files">Lumina / Lumisteria</a>, for their Lumisteria Special Orders mods, which helped me in writing this mod. Extra thanks to Lumina for their help in the Stardew Valley Discord.
 
@@ -74,7 +74,7 @@ Jonqora, for ideas and suggestions that were incorporated in this mod. Jonqora w
 
 <a href="https://www.nexusmods.com/stardewvalley/users/114762643?tab=user+files">Calcite / CopperSun</a>, who pointed out vanilla has special orders that are seasonal, and encouraged me to check out the unpacked files. Thank you <3
 
-Thanks very much to jina2ya (Kaya) for the Korean translation!
+Thanks very much to <a href="https://kayainsdv.postype.com/">jina2ya (Kaya)</a> for the Korean translation!
 
 <a href="https://www.nexusmods.com/stardewvalley/users/1552317?tab=user+files">Pathoschild</a>, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible either.
 

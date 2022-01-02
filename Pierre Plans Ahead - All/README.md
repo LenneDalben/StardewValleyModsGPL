@@ -45,14 +45,14 @@ Delete the folders for this mod from your Stardew Valley/Mods folder.
 
 ||Shout Outs||
 
-Jonqora, who gave me the idea to use Shop Tile Framework (STF) to make this mod, and many other ideas implemented in the mod.
+<a href="https://www.nexusmods.com/stardewvalley/users/88107803?tab=user+files">Jonqora</a>, who gave me the idea to use Shop Tile Framework (STF) to make this mod, and many other ideas implemented in the mod.
 
-Draylon, after whom the Draylon edition is named.
+<a href="https://www.nexusmods.com/stardewvalley/users/8049772?tab=user+files">Draylon</a>, after whom the Draylon edition is named.
 
-Pathoschild, author of SMAPI, without them, this mod wouldn't be possible.
+<a href="https://www.nexusmods.com/stardewvalley/users/1552317?tab=user+files">Pathoschild</a>, author of SMAPI, without them, this mod wouldn't be possible.
 
-HUGE thanks to CherryChain, author of Shop Tile Framework (STF), without them, this mod wouldn't be possible either. Extra thanks to CherryChain for their help in the Stardew Valley Discord with troubleshooting. 
+HUGE thanks to <a href="https://www.nexusmods.com/stardewvalley/users/3590100?tab=user+files">CherryChain</a>, author of Shop Tile Framework (STF), without them, this mod wouldn't be possible either. Extra thanks to CherryChain for their help in the Stardew Valley Discord with troubleshooting. 
 
-Digus, author of Mail Framework Mod (MFM), without them, the letter component of this mod wouldn't be possible.
+<a href="https://www.nexusmods.com/stardewvalley/users/2186381?tab=user+files">Digus</a>, author of Mail Framework Mod (MFM), without them, the letter component of this mod wouldn't be possible.
 
 Everyone in #making-mods in the Stardew Valley Discord, who are a helpful and friendly lot!

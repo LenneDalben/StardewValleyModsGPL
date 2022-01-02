@@ -28,14 +28,14 @@ Delete the folders from this mod.
 
 Nexus user keepsyou, who requested the mod!
 
-EscaMMC for the sweet mod title.
+<a href="https://www.nexusmods.com/stardewvalley/users/56561342?tab=user+files">EscaMMC</a> for the sweet mod title.
 
-Gervig91 for the wonderful phrase, "every season is Joja-season."
+<a href="https://www.nexusmods.com/stardewvalley/users/24986819?tab=user+files">Gervig</a> for the wonderful phrase, "every season is Joja-season."
 
-Pathoschild, author of SMAPI, without them, this mod wouldn't be possible.
+<a href="https://www.nexusmods.com/stardewvalley/users/1552317?tab=user+files">Pathoschild</a>, author of SMAPI, without them, this mod wouldn't be possible.
 
-CherryChain, author of Shop Tile Framework (STF), without them, this mod wouldn't be possible either.
+<a href="https://www.nexusmods.com/stardewvalley/users/3590100?tab=user+files">CherryChain</a>, author of Shop Tile Framework (STF), without them, this mod wouldn't be possible either.
 
-Digus, author of Mail Framework Mod (MFM), without them, the letter component of this mod wouldn't be possible.
+<a href="https://www.nexusmods.com/stardewvalley/users/2186381?tab=user+files">Digus</a>, author of Mail Framework Mod (MFM), without them, the letter component of this mod wouldn't be possible.
 
 Everyone in #making-mods in the Stardew Valley Discord, who are a helpful and friendly lot!

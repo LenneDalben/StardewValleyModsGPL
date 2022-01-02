@@ -5,7 +5,7 @@ With this mod, Joja's inventory is expanded to include basic cooking ingredients
 
 I think the mod <a href="https://www.nexusmods.com/stardewvalley/mods/2658">Lore-Friendly Joja Prices</a> will pair well with this one, but note it's not required. 
 
-Installation:
+||Installation||
 
 1. Install <a href="https://smapi.io/">SMAPI</a> (version 3.4 or higher)
 2. Install  <a href="https://www.nexusmods.com/stardewvalley/mods/5005">Shop Tile Framework (STF)</a> (version 1.0.4 or higher)
@@ -14,14 +14,17 @@ Optional: if you'd like to receive the letters, you'll also need to install <a h
 4. Play the game using SMAPI!
 
 
-Uninstallation:
+||Uninstallation||
 
 Delete the folders for this mod from your Stardew Valley/Mods folder.
 
-Shout Outs
 
-HUGE thanks to CherryChain, author of Shop Tile Framework (STF), without them, this mod wouldn't be possible either. Extra thanks to CherryChain for their help in the Stardew Valley Discord with troubleshooting. 
+||Shout Outs||
 
-Digus, author of Mail Framework Mod (MFM), without them, the letter component of this mod wouldn't be possible.
+HUGE thanks to <a href="https://www.nexusmods.com/stardewvalley/users/3590100?tab=user+files">CherryChain</a>, author of Shop Tile Framework (STF), without them, this mod wouldn't be possible either. Extra thanks to CherryChain for their help in the Stardew Valley Discord with troubleshooting. 
+
+<a href="https://www.nexusmods.com/stardewvalley/users/2186381?tab=user+files">Digus</a>, author of Mail Framework Mod (MFM), without them, the letter component of this mod wouldn't be possible.
+
+<a href="https://www.nexusmods.com/stardewvalley/users/1552317?tab=user+files">Pathoschild</a>, author of SMAPI, without them, this mod wouldn't be possible.
 
 Everyone in #making-mods in the Stardew Valley Discord, who are a helpful and friendly lot!

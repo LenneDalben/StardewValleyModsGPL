@@ -7,6 +7,9 @@ The requirements will now be 2 of the following combinations:
 3 Topaz (stacked)
 3 Emerald (stacked)
 
+
+||Configuration||
+
 The configuration file contains the following options:
 * ModToggled: allows you to toggle the mod on and off. Default is on.
 * RewardModified: Choose true if you want to have a modified reward, and select RingReward option below. Choose false if you want to have the vanilla reward (small magnet ring). Default is true.
@@ -14,16 +17,19 @@ The configuration file contains the following options:
 
 Note that the mod does not come packaged with a config file. The config file will be generated after you run the game with the mod installed at least once.
 
-Installation:
+
+||Installation||
 1. Install <a href="https://smapi.io/">SMAPI</a> (version 3.7.3 or higher)
 2. Install <a href="https://www.nexusmods.com/stardewvalley/mods/1915">Content Patcher (CP)</a> (version 1.19.0 or higher)
 3. <a href="https://github.com/LenneDalben/StardewValleyModsGPL/releases/">Download the mod</a> and unzip the mod folder into Stardew Valley/Mods.
 4. Play the game using SMAPI!
 
-Uninstallation:
+
+||Uninstallation||
 Delete the folder from this mod.
 
-Shout Outs
+
+||Shout Outs||
 
 Thanks to <a href="https://www.nexusmods.com/stardewvalley/users/8049772?tab=user+files">Draylon</a> for making Non-Lethal Weapons!
 
