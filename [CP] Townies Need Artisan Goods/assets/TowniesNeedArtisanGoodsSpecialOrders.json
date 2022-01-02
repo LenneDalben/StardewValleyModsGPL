@@ -2518,7 +2518,7 @@
               "Text": "[TowniesNeedArtisanGoods_Vincent_TurtleMayo_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_dinosaur_mayonnaise/item_turtle_mayonnaise",
+                "AcceptedContextTags": "item_dinosaur_mayonnaise",
                 "Message": "[TowniesNeedArtisanGoods_Vincent_TurtleMayo_Message_0]",
                 "TargetName": "Vincent"
               }
