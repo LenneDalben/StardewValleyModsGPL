@@ -2,7 +2,7 @@
   "Format": "1.24.0",
   "ConfigSchema": {
     "RepeatableConfig": {
-      "Description": "Specify if you want the special orders to be repeatable (true, false). Default is true.",
+      "Description": "Specify if you want the special orders to be repeatable (true, false). Default is true. Note that some orders are not repeatable by design.",
       "AllowValues": "true, false",
       "Default": "true",
       "AllowBlank": false,
@@ -16,7 +16,7 @@
       "AllowMultiple": false
     },
     "OrderType": {
-      "Description": "Specify which types of special orders you'd like (jelly, pickles, beer, wine, honey, mead, juice, roe, animal, machine, misc). By default, all are toggled.",
+      "Description": "Specify which types of special orders you'd like (jelly, pickle, beer, wine, honey, mead, juice, roe, animal, machine, misc). By default, all are toggled.",
       "AllowValues": "jelly, pickle, beer, wine, honey, mead, juice, roe, animal, machine, misc",
       "Default": "jelly, pickle, beer, wine, honey, mead, juice, roe, animal, machine, misc",
       "AllowMultiple": true,
@@ -30,12 +30,12 @@
       "AllowMultiple": false
     },
     "EasterEgg": {
-      "Description": "With this set to true, you will see joke-y, slightly not lore-friendly rewards as part of the regular rewards. If you don't think you can briefly suspend disbelief, set it to false. Default is true.",
+      "Description": "With this set to true, you will see joke-y, slightly not lore-friendly rewards as part of the regular rewards for some orders. If you don't think you can briefly suspend disbelief, set it to false, and you won't see the orders with those rewards. Default is true.",
       "AllowValues": "true, false",
       "Default": "true",
       "AllowBlank": false,
       "AllowMultiple": false
-    },
+    }
   },
   "DynamicTokens": [
     {
