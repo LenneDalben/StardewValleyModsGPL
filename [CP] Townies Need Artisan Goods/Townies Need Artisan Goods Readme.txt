@@ -29,7 +29,7 @@ TNAG will recognize if you have Quality Artisan Products<https://www.moddrop.com
 
 
 ||Installation||
-1. Install SMAPI<https://www.nexusmods.com/stardewvalley/mods/2400>﻿ (version 3.9.0 or higher)
+1. Install SMAPI<https://www.nexusmods.com/stardewvalley/mods/2400>﻿ (version 3.13.0 or higher)
 2. Install Content Patcher (CP)<https://www.nexusmods.com/stardewvalley/mods/1915> (version 1.24.0 or higher)
 3. Unzip the mod folder of your choosing into Stardew Valley/Mods.
 4. Play the game using SMAPI!
