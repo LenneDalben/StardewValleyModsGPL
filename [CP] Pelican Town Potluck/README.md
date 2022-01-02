@@ -9,7 +9,7 @@ There was discussion on the Diverse Stardew (DSV) Discord server about how the L
 
 ||Compatibility||
 
-Pelican Town Potluck has built-in compatibility with <a href="https://www.nexusmods.com/stardewvalley/mods/2612">Immersive Festival Dialog by tangeriney</a> and <a href="https://www.nexusmods.com/stardewvalley/mods/7286">Ridgeside Village (RSV)</a>. For RSV, the compatibility applies to the latest version as well as the Android version!
+Pelican Town Potluck has built-in compatibility with <a href="https://www.nexusmods.com/stardewvalley/mods/9972">FarmerJack's Dialog Expansions</a>, <a href="https://www.nexusmods.com/stardewvalley/mods/2612">Immersive Festival Dialog by tangeriney</a> and <a href="https://www.nexusmods.com/stardewvalley/mods/7286">Ridgeside Village (RSV)</a>. For RSV, the compatibility applies to the latest version as well as the Android version!
 
 In version 1.1.0 there is now built-in compatibility with <a href="https://www.nexusmods.com/stardewvalley/mods/2544">Canon-Friendly Dialogue Expansion (CFDE) by gizzymo</a>!
 
