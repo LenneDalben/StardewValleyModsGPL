@@ -496,6 +496,14 @@
       "Entries": {
         "Marnie_casksforcheese": "{{i18n:Marnie_casksforcheeseCT_Jas}}"
       }
+    },
+    /*Shane CT*/ {
+      "LogName": "Marnie Casks for Cheese CT - Shane",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Shane",
+      "Entries": {
+        "Marnie_casksforcheese": "{{i18n:Marnie_casksforcheeseCT_Shane}}"
+      }
     }
   ]
 }
