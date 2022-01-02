@@ -448,6 +448,14 @@
         "Sandy_lightbeverage": "{{i18n:Sandy_lightbeverageCT_Emily}}"
       }
     },
+    /*Haley CT*/ {
+      "LogName": "Sandy Light Beverage CT - Haley",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Haley",
+      "Entries": {
+        "Sandy_lightbeverage": "{{i18n:Sandy_lightbeverageCT_Haley}}"
+      }
+    },
     // Marnie Casks for Cheese Conversation Topic
     /*Letter*/ {
       "LogName": " Marnie Casks for Cheese Letter for CT",
