@@ -4,7 +4,7 @@
   "Version": "1.0.0",
   "Description": "NPCs in town request artisan goods in the special orders board!",
   "UniqueID": "LenneDalben.TowniesNeedArtisanGoods",
-  "MinimumApiVersion": "3.9.0",
+  "MinimumApiVersion": "3.13.0",
   "UpdateKeys": [ "" ],
   "ContentPackFor": {
     "UniqueID": "Pathoschild.ContentPatcher",
