@@ -108,16 +108,14 @@
   "TowniesNeedArtisanGoods_George_HealthyRoe_Message_0": "Hmph, I hope this tastes ok.#$b#Thank you @!$h",
   //
   // Gus Drinks for the Fair Default Strings
-  "TowniesNeedArtisanGoods_Gus_DrinksfortheFairD_Name": "Drinks for the Fair",
-  "TowniesNeedArtisanGoods_Gus_DrinksfortheFairD_Text": "It's never too early to start preparing for the Fair. Could someone bring me 30 bottles of pale ale?",
-  "TowniesNeedArtisanGoods_Gus_DrinksfortheFairD_Objective_Text_0": "Deliver 30 Pale Ales to Gus",
-  "TowniesNeedArtisanGoods_Gus_DrinksfortheFairD_Message_0": "Thank you @! This will really help with the Fair.$h",
+  "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Name": "Drinks for the Fair",
+  "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Text": "It's never too early to start preparing for the Fair. Could someone bring me 30 bottles of pale ale?",
+  "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Objective_Text_0": "Deliver 30 Pale Ales to Gus",
+  "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Message_0": "Thank you @! This will really help with the Fair.$h",
   //
   // Gus Drinks for the Fair Easy Mode Strings
-  "TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Name": "Drinks for the Fair",
-  "TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Text": "It's never too early to start preparing for the Fair. Could someone bring me 30 bottles of pale ale?",
+  "TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Text": "It's never too early to start preparing for the Fair. Could someone bring me 10 bottles of pale ale?",
   "TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Objective_Text_0": "Deliver 10 Pale Ales to Gus",
-  "TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Message_0": "Thank you @! This will really help with the Fair.$h",
   //
   // Gus Special Ingredient Strings
   "TowniesNeedArtisanGoods_Gus_SpecialIngredient_Name": "Special Ingredient",
@@ -211,12 +209,16 @@
   "TowniesNeedArtisanGoods_Marnie_SpecialDinner_Objective_Text_0": "Deliver 2 Wine bottles to Marnie (gold or iridium quality)",
   "TowniesNeedArtisanGoods_Marnie_SpecialDinner_Message_0": "Thanks @!$h#$b#What's the occasion?#$b#That's private.$3",
   //
-  // Maru Power for Project Strings
+  // Maru Power for Project Default Strings
   "TowniesNeedArtisanGoods_Maru_PowerforProject_Name": "Power for Project",
   "TowniesNeedArtisanGoods_Maru_PowerforProject_Text": "Could someone bring me 30 batteries? I need a lot of power for my next project.",
   "TowniesNeedArtisanGoods_Maru_PowerforProject_Objective_Text_0": "Deliver 30 Batteries to Maru",
   "TowniesNeedArtisanGoods_Maru_PowerforProject_Message_0": "Woo, this will help a ton. Thanks @!",
   "Maru_powerforprojectCT_Maru": "Still need to make some adjustments with my project...#$b#I don't know how I'm going to get rid of that stench.$2",
+  //
+  // Maru Power for Project Easy Mode Strings
+    "TowniesNeedArtisanGoods_Maru_PowerforProjectE_Text": "Could someone bring me 10 batteries? I need a lot of power for my next project.",
+  "TowniesNeedArtisanGoods_Maru_PowerforProjectE_Objective_Text_0": "Deliver 10 Batteries to Maru",
   //
   // Pam Preserved Parsnip Strings
   "TowniesNeedArtisanGoods_Pam_PreservedParsnip_Name": "Preserved Parsnip",

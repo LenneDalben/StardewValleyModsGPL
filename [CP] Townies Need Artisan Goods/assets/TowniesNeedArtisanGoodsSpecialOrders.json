@@ -686,7 +686,7 @@
         "TowniesNeedArtisanGoods_Emily_TailoringMaterials": {
           "Name": "[TowniesNeedArtisanGoods_Emily_TailoringMaterials_Name]",
           "Requester": "Emily",
-          "Duration": "TwoWeek",
+          "Duration": "TwoWeeks",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
@@ -877,30 +877,30 @@
     },
     // Gus Drinks for the Fair- Default
     {
-      "LogName": "Gus Drinks for the Fair - DEfault",
+      "LogName": "Gus Drinks for the Fair - Default",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesNeedArtisanGoods_Gus_DrinksfortheFairD": {
-          "Name": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFairD_Name]",
+        "TowniesNeedArtisanGoods_Gus_DrinksfortheFair": {
+          "Name": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Name]",
           "Requester": "Gus",
           "Duration": "Month",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "season_summer",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFairD_Text]",
+          "Text": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFairD_Objective_Text_0]",
+              "Text": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Objective_Text_0]",
               "RequiredCount": "30",
               "Data": {
                 "AcceptedContextTags": "item_pale_ale",
-                "Message": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFairD_Message_0]",
+                "Message": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Message_0]",
                 "TargetName": "Gus"
               }
             }
@@ -931,10 +931,10 @@
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesNeedArtisanGoods_Gus_DrinksfortheFairE": {
-          "Name": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Name]",
+        "TowniesNeedArtisanGoods_Gus_DrinksfortheFair": {
+          "Name": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Name]",
           "Requester": "Gus",
-          "Duration": "TwoWeek",
+          "Duration": "TwoWeeks",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "season_summer",
           "OrderType": "",
@@ -950,7 +950,7 @@
               "RequiredCount": "10",
               "Data": {
                 "AcceptedContextTags": "item_pale_ale",
-                "Message": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Message_0]",
+                "Message": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Message_0]",
                 "TargetName": "Gus"
               }
             }
@@ -1715,7 +1715,7 @@
       "When": {
         "OrderType": "machine",
         "FarmhouseUpgrade": "3",
-        "EasterEgg" :"true"
+        "EasterEgg": "true"
       }
     },
     // Marnie Special Dinner
@@ -1783,25 +1783,25 @@
       "Target": "Data/SpecialOrders",
       "Entries": {
         "TowniesNeedArtisanGoods_Maru_PowerforProjectD": {
-          "Name": "[TowniesNeedArtisanGoods_Maru_PowerforProjectD_Name]",
+          "Name": "[TowniesNeedArtisanGoods_Maru_PowerforProject_Name]",
           "Requester": "Maru",
           "Duration": "Month",
           "Repeatable": "False",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesNeedArtisanGoods_Maru_PowerforProjectD_Text]",
+          "Text": "[TowniesNeedArtisanGoods_Maru_PowerforProject_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesNeedArtisanGoods_Maru_PowerforProjectD_Objective_Text_0]",
+              "Text": "[TowniesNeedArtisanGoods_Maru_PowerforProject_Objective_Text_0]",
               "RequiredCount": "30",
               "Data": {
                 "AcceptedContextTags": "item_battery_pack",
-                "Message": "[TowniesNeedArtisanGoods_Maru_PowerforProjectD_Message_0]",
+                "Message": "[TowniesNeedArtisanGoods_Maru_PowerforProject_Message_0]",
                 "TargetName": "Maru"
               }
             }
@@ -1820,7 +1820,7 @@
             {
               "Type": "Mail",
               "Data": {
-                "MailReceived": "TowniesNeedArtisanGoods_Maru_PowerforProjectD_Completed",
+                "MailReceived": "TowniesNeedArtisanGoods_Maru_PowerforProject_Completed",
                 "NoLetter": "true"
               }
             }
@@ -1841,9 +1841,9 @@
       "Target": "Data/SpecialOrders",
       "Entries": {
         "TowniesNeedArtisanGoods_Maru_PowerforProjectE": {
-          "Name": "[TowniesNeedArtisanGoods_Maru_PowerforProjectE_Name]",
+          "Name": "[TowniesNeedArtisanGoods_Maru_PowerforProject_Name]",
           "Requester": "Maru",
-          "Duration": "TwoWeek",
+          "Duration": "TwoWeeks",
           "Repeatable": "False",
           "RequiredTags": "",
           "OrderType": "",
@@ -1859,7 +1859,7 @@
               "RequiredCount": "10",
               "Data": {
                 "AcceptedContextTags": "item_battery_pack",
-                "Message": "[TowniesNeedArtisanGoods_Maru_PowerforProjectE_Message_0]",
+                "Message": "[TowniesNeedArtisanGoods_Maru_PowerforProject_Message_0]",
                 "TargetName": "Maru"
               }
             }
@@ -1878,7 +1878,7 @@
             {
               "Type": "Mail",
               "Data": {
-                "MailReceived": "TowniesNeedArtisanGoods_Maru_PowerforProjectE_Completed",
+                "MailReceived": "TowniesNeedArtisanGoods_Maru_PowerforProject_Completed",
                 "NoLetter": "true"
               }
             }
