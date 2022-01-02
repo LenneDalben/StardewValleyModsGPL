@@ -2339,7 +2339,7 @@
           "Name": "[TowniesNeedArtisanGoods_Sebastian_SideforSushi_Name]",
           "Requester": "Sebastian",
           "Duration": "Week",
-          "Repeatable": "{{RepeatableConfig}}",
+          "Repeatable": "False",
           "RequiredTags": "season_fall",
           "OrderType": "",
           "SpecialRule": "",
