@@ -36,8 +36,8 @@ Delete the folder from this mod.
 
 ||Shout Outs||
 
-Carlesama, whose mod More Valuable Diamond was how I learned how easy it could be to modify attributes for items, and inspired me to investigate modifying crafting recipes!
+<a href="https://www.nexusmods.com/stardewvalley/users/78204103?tab=user+files">Carlesama</a>, whose mod More Valuable Diamond was how I learned how easy it could be to modify attributes for items, and inspired me to investigate modifying crafting recipes!
 
-kdau, who helped me set up the code for this mod in the SDV Discord!
+<a href="https://www.nexusmods.com/stardewvalley/users/80928528?tab=user+files">kdau</a>, who helped me set up the code for this mod in the SDV Discord!
 
-Pathoschild, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible.
+<a href="https://www.nexusmods.com/stardewvalley/users/1552317?tab=user+files">Pathoschild</a>, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible.
