@@ -214,7 +214,6 @@
   "TowniesNeedArtisanGoods_Maru_PowerforProject_Text": "Could someone bring me 30 batteries? I need a lot of power for my next project.",
   "TowniesNeedArtisanGoods_Maru_PowerforProject_Objective_Text_0": "Deliver 30 Batteries to Maru",
   "TowniesNeedArtisanGoods_Maru_PowerforProject_Message_0": "Woo, this will help a ton. Thanks @!",
-  "Maru_powerforprojectCT_Maru": "Still need to make some adjustments with my project...#$b#I don't know how I'm going to get rid of that stench.$2",
   //
   // Maru Power for Project Easy Mode Strings
     "TowniesNeedArtisanGoods_Maru_PowerforProjectE_Text": "Could someone bring me 10 batteries? I need a lot of power for my next project.",
@@ -400,6 +399,7 @@
   "Leah_beesinthemeadowCT": "Thanks, @! These should make some bees happy.$h",
   //
   // Maru Power for Project Conversation Topic Strings
+  "Maru_powerforprojectCT_Maru": "Still need to make some adjustments with my project...#$b#I don't know how I'm going to get rid of that stench.$2",
   "Maru_powerforprojectCT_Demetrius": "Maru must be close to working out her project.#$b#That's the smell of approaching success!$h",
   "Maru_powerforprojectCT_Robin": "Whatever Maru's working on made the house reek. Like father, like daughter...$2",
   "Maru_powerforprojectCT_SebS": "I hope whatever Maru's working on is worth that smell...#$b#It reached the basement!$s",

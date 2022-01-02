@@ -251,16 +251,27 @@
         "TowniesNeedArtisanGoods_Emily_Rainbow_Message_7": "{{i18n:TowniesNeedArtisanGoods_Emily_Rainbow_Message_7}}"
       }
     },
-    // Strings Emily Tailoring Materials - Default
+    // Strings Emily Tailoring Materials - Always
     {
-      "LogName": "Strings Emily Tailoring Materials Default",
+      "LogName": "Strings Emily Tailoring Materials - Always",
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
-        "TowniesNeedArtisanGoods_Emily_TailoringMaterialsD_Name": "{{i18n:TowniesNeedArtisanGoods_Emily_TailoringMaterialsD_Name}}",
-        "TowniesNeedArtisanGoods_Emily_TailoringMaterialsD_Text": "{{i18n:TowniesNeedArtisanGoods_Emily_TailoringMaterialsD_Text}}",
-        "TowniesNeedArtisanGoods_Emily_TailoringMaterialsD_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Emily_TailoringMaterialsD_Objective_Text_0}}",
-        "TowniesNeedArtisanGoods_Emily_TailoringMaterialsD_Message_0": "{{i18n:TowniesNeedArtisanGoods_Emily_TailoringMaterialsD_Message_0}}"
+        "TowniesNeedArtisanGoods_Emily_TailoringMaterials_Name": "{{i18n:TowniesNeedArtisanGoods_Emily_TailoringMaterials_Name}}",
+        "TowniesNeedArtisanGoods_Emily_TailoringMaterials_Message_0": "{{i18n:TowniesNeedArtisanGoods_Emily_TailoringMaterials_Message_0}}"
+      }
+    },
+    // Strings Emily Tailoring Materials - Default
+    {
+      "LogName": "Strings Emily Tailoring Materials - Default",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Emily_TailoringMaterials_Text": "{{i18n:TowniesNeedArtisanGoods_Emily_TailoringMaterials_Text}}",
+        "TowniesNeedArtisanGoods_Emily_TailoringMaterials_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Emily_TailoringMaterials_Objective_Text_0}}"
+      },
+      "When": {
+        "EasyMode": "false"
       }
     },
     // Strings Emily Tailoring Materials - Easy Mode
@@ -269,10 +280,11 @@
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
-        "TowniesNeedArtisanGoods_Emily_TailoringMaterialsE_Name": "{{i18n:TowniesNeedArtisanGoods_Emily_TailoringMaterialsE_Name}}",
         "TowniesNeedArtisanGoods_Emily_TailoringMaterialsE_Text": "{{i18n:TowniesNeedArtisanGoods_Emily_TailoringMaterialsE_Text}}",
-        "TowniesNeedArtisanGoods_Emily_TailoringMaterialsE_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Emily_TailoringMaterialsE_Objective_Text_0}}",
-        "TowniesNeedArtisanGoods_Emily_TailoringMaterialsE_Message_0": "{{i18n:TowniesNeedArtisanGoods_Emily_TailoringMaterialsE_Message_0}}"
+        "TowniesNeedArtisanGoods_Emily_TailoringMaterialsE_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Emily_TailoringMaterialsE_Objective_Text_0}}"
+      },
+      "When": {
+        "EasyMode": "true"
       }
     },
     // Strings Evelyn Sugar Substitute
@@ -311,16 +323,40 @@
         "TowniesNeedArtisanGoods_George_HealthyRoe_Message_0": "{{i18n:TowniesNeedArtisanGoods_George_HealthyRoe_Message_0}}"
       }
     },
-    // Strings Gus Drinks for the Fair
+    // Strings Gus Drinks for the Fair - Always
     {
-      "LogName": "Strings Gus Drinks for the Fair",
+      "LogName": "Strings Gus Drinks for the Fair - Always",
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
         "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Name": "{{i18n:TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Name}}",
-        "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Text": "{{i18n:TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Text}}",
-        "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Objective_Text_0}}",
         "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Message_0": "{{i18n:TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Message_0}}"
+      }
+    },
+    // Strings Gus Drinks for the Fair - Default
+    {
+      "LogName": "Strings Gus Drinks for the Fair - Default",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Text": "{{i18n:TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Text}}",
+        "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Objective_Text_0}}"
+      },
+      "When": {
+        "EasyMode": "false"
+      }
+    },
+    // Strings Gus Drinks for the Fair - Easy Mode
+    {
+      "LogName": "Strings Gus Drinks for the Fair - Easy Mode",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Text": "{{i18n:TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Text}}",
+        "TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Objective_Text_0}}"
+      },
+      "When": {
+        "EasyMode": "true"
       }
     },
     // Strings Gus Special Ingredient
@@ -415,8 +451,7 @@
       "Entries": {
         "TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Name": "{{i18n:TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Name}}",
         "TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Text": "{{i18n:TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Text}}",
-        "TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Objective_Text_0}}",
-        /*"TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Message_0": "{{i18n:TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Message_0}}"*/
+        "TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Objective_Text_0}}"
       }
     },
     // Strings Leah Spreadable Mayo
@@ -485,8 +520,7 @@
       "Entries": {
         "TowniesNeedArtisanGoods_Marnie_CasksforCheese_Name": "{{i18n:TowniesNeedArtisanGoods_Marnie_CasksforCheese_Name}}",
         "TowniesNeedArtisanGoods_Marnie_CasksforCheese_Text": "{{i18n:TowniesNeedArtisanGoods_Marnie_CasksforCheese_Text}}",
-        "TowniesNeedArtisanGoods_Marnie_CasksforCheese_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Marnie_CasksforCheese_Objective_Text_0}}",
-        /*"TowniesNeedArtisanGoods_Marnie_CasksforCheese_Message_0": "{{i18n:TowniesNeedArtisanGoods_Marnie_CasksforCheese_Message_0}}"*/
+        "TowniesNeedArtisanGoods_Marnie_CasksforCheese_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Marnie_CasksforCheese_Objective_Text_0}}"
       }
     },
     // Strings Marnie Special Dinner
@@ -501,16 +535,40 @@
         "TowniesNeedArtisanGoods_Marnie_SpecialDinner_Message_0": "{{i18n:TowniesNeedArtisanGoods_Marnie_SpecialDinner_Message_0}}"
       }
     },
-    // Strings Maru Power for Project
+    // Strings Maru Power for Project - Always
     {
-      "LogName": "Strings Maru Power for Project",
+      "LogName": "Strings Maru Power for Project - Always",
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
         "TowniesNeedArtisanGoods_Maru_PowerforProject_Name": "{{i18n:TowniesNeedArtisanGoods_Maru_PowerforProject_Name}}",
-        "TowniesNeedArtisanGoods_Maru_PowerforProject_Text": "{{i18n:TowniesNeedArtisanGoods_Maru_PowerforProject_Text}}",
-        "TowniesNeedArtisanGoods_Maru_PowerforProject_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Maru_PowerforProject_Objective_Text_0}}",
         "TowniesNeedArtisanGoods_Maru_PowerforProject_Message_0": "{{i18n:TowniesNeedArtisanGoods_Maru_PowerforProject_Message_0}}"
+      }
+    },
+    // Strings Maru Power for Project - Default
+    {
+      "LogName": "Strings Maru Power for Project - Default",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Maru_PowerforProject_Text": "{{i18n:TowniesNeedArtisanGoods_Maru_PowerforProject_Text}}",
+        "TowniesNeedArtisanGoods_Maru_PowerforProject_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Maru_PowerforProject_Objective_Text_0}}"
+      },
+      "When": {
+        "EasyMode": "false"
+      }
+    },
+    // Strings Maru Power for Project - Easy Mode
+    {
+      "LogName": "Strings Maru Power for Project - Easy Mode",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Maru_PowerforProjectE_Text": "{{i18n:TowniesNeedArtisanGoods_Maru_PowerforProject_Text}}",
+        "TowniesNeedArtisanGoods_Maru_PowerforProjectE_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Maru_PowerforProject_Objective_Text_0}}"
+      },
+      "When": {
+        "EasyMode": "true"
       }
     },
     // Strings Pam Preserved Parsnip
