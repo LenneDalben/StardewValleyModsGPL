@@ -80,16 +80,14 @@
   "TowniesNeedArtisanGoods_Emily_Rainbow_Message_7": "Cheesy white, thanks @!",
   //
   // Emily Tailoring Materials Default Strings
-  "TowniesNeedArtisanGoods_Emily_TailoringMaterialsD_Name": "Tailoring Materials",
-  "TowniesNeedArtisanGoods_Emily_TailoringMaterialsD_Text": "Could someone bring me 30 bolts of cloth? I need to replenish my supplies for sewing.",
-  "TowniesNeedArtisanGoods_Emily_TailoringMaterialsD_Objective_Text_0": "Deliver 30 Cloth bolts to Emily",
-  "TowniesNeedArtisanGoods_Emily_TailoringMaterialsD_Message_0": "These will do nicely for the clothes I have planned. Thanks @!",
+  "TowniesNeedArtisanGoods_Emily_TailoringMaterials_Name": "Tailoring Materials",
+  "TowniesNeedArtisanGoods_Emily_TailoringMaterials_Text": "Could someone bring me 30 bolts of cloth? I need to replenish my supplies for sewing.",
+  "TowniesNeedArtisanGoods_Emily_TailoringMaterials_Objective_Text_0": "Deliver 30 Cloth bolts to Emily",
+  "TowniesNeedArtisanGoods_Emily_TailoringMaterials_Message_0": "These will do nicely for the clothes I have planned. Thanks @!",
   //
   // Emily Tailoring Materials Easy Mode Strings
-  "TowniesNeedArtisanGoods_Emily_TailoringMaterialsE_Name": "Tailoring Materials",
   "TowniesNeedArtisanGoods_Emily_TailoringMaterialsE_Text": "Could someone bring me 10 bolts of cloth? I need to replenish my supplies for sewing.",
   "TowniesNeedArtisanGoods_Emily_TailoringMaterialsE_Objective_Text_0": "Deliver 10 Cloth bolts to Emily",
-  "TowniesNeedArtisanGoods_Emily_TailoringMaterialsE_Message_0": "These will do nicely for the clothes I have planned. Thanks @!",
   //
   // Evelyn Sugar Substitute Strings
   "TowniesNeedArtisanGoods_Evelyn_SugarSubstitute_Name": "Sugar Substitute",

@@ -629,30 +629,30 @@
     },
     // Emily Tailoring Materials - Default
     {
-      "LogName": "Emily Tailoring Materials",
+      "LogName": "Emily Tailoring Materials - Default",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesNeedArtisanGoods_Emily_TailoringMaterialsD": {
-          "Name": "[TowniesNeedArtisanGoods_Emily_TailoringMaterialsD_Name]",
+        "TowniesNeedArtisanGoods_Emily_TailoringMaterials": {
+          "Name": "[TowniesNeedArtisanGoods_Emily_TailoringMaterials_Name]",
           "Requester": "Emily",
           "Duration": "Month",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesNeedArtisanGoods_Emily_TailoringMaterialsD_Text]",
+          "Text": "[TowniesNeedArtisanGoods_Emily_TailoringMaterials_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesNeedArtisanGoods_Emily_TailoringMaterialsD_Objective_Text_0]",
+              "Text": "[TowniesNeedArtisanGoods_Emily_TailoringMaterials_Objective_Text_0]",
               "RequiredCount": "30",
               "Data": {
                 "AcceptedContextTags": "item_cloth",
-                "Message": "[TowniesNeedArtisanGoods_Emily_TailoringMaterialsD_Message_0]",
+                "Message": "[TowniesNeedArtisanGoods_Emily_TailoringMaterials_Message_0]",
                 "TargetName": "Emily"
               }
             }
@@ -679,12 +679,12 @@
     },
     // Emily Tailoring Materials - Easy Mode
     {
-      "LogName": "Emily Tailoring Materials",
+      "LogName": "Emily Tailoring Materials - Easy Mode",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesNeedArtisanGoods_Emily_TailoringMaterialsE": {
-          "Name": "[TowniesNeedArtisanGoods_Emily_TailoringMaterialsE_Name]",
+        "TowniesNeedArtisanGoods_Emily_TailoringMaterials": {
+          "Name": "[TowniesNeedArtisanGoods_Emily_TailoringMaterials_Name]",
           "Requester": "Emily",
           "Duration": "TwoWeek",
           "Repeatable": "{{RepeatableConfig}}",
@@ -702,7 +702,7 @@
               "RequiredCount": "10",
               "Data": {
                 "AcceptedContextTags": "item_cloth",
-                "Message": "[TowniesNeedArtisanGoods_Emily_TailoringMaterialsE_Message_0]",
+                "Message": "[TowniesNeedArtisanGoods_Emily_TailoringMaterials_Message_0]",
                 "TargetName": "Emily"
               }
             }
@@ -877,7 +877,7 @@
     },
     // Gus Drinks for the Fair- Default
     {
-      "LogName": "Gus Drinks for the Fair",
+      "LogName": "Gus Drinks for the Fair - DEfault",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -927,7 +927,7 @@
     },
     // Gus Drinks for the Fair - Easy Mode
     {
-      "LogName": "Gus Drinks for the Fair",
+      "LogName": "Gus Drinks for the Fair - Easy Mode",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1778,7 +1778,7 @@
     },
     // Maru Power for Project - Default
     {
-      "LogName": "Maru Power for Project Default",
+      "LogName": "Maru Power for Project - Default",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1836,7 +1836,7 @@
     },
     // Maru Power for Project - Easy Mode
     {
-      "LogName": "Maru Power for Project Easy Mode",
+      "LogName": "Maru Power for Project - Easy Mode",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {

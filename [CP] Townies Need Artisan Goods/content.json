@@ -251,16 +251,28 @@
         "TowniesNeedArtisanGoods_Emily_Rainbow_Message_7": "{{i18n:TowniesNeedArtisanGoods_Emily_Rainbow_Message_7}}"
       }
     },
-    // Strings Emily Tailoring Materials
+    // Strings Emily Tailoring Materials - Default
     {
-      "LogName": "Strings Emily Tailoring Materials",
+      "LogName": "Strings Emily Tailoring Materials Default",
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
-        "TowniesNeedArtisanGoods_Emily_TailoringMaterials_Name": "{{i18n:TowniesNeedArtisanGoods_Emily_TailoringMaterials_Name}}",
-        "TowniesNeedArtisanGoods_Emily_TailoringMaterials_Text": "{{i18n:TowniesNeedArtisanGoods_Emily_TailoringMaterials_Text}}",
-        "TowniesNeedArtisanGoods_Emily_TailoringMaterials_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Emily_TailoringMaterials_Objective_Text_0}}",
-        "TowniesNeedArtisanGoods_Emily_TailoringMaterials_Message_0": "{{i18n:TowniesNeedArtisanGoods_Emily_TailoringMaterials_Message_0}}"
+        "TowniesNeedArtisanGoods_Emily_TailoringMaterialsD_Name": "{{i18n:TowniesNeedArtisanGoods_Emily_TailoringMaterialsD_Name}}",
+        "TowniesNeedArtisanGoods_Emily_TailoringMaterialsD_Text": "{{i18n:TowniesNeedArtisanGoods_Emily_TailoringMaterialsD_Text}}",
+        "TowniesNeedArtisanGoods_Emily_TailoringMaterialsD_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Emily_TailoringMaterialsD_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Emily_TailoringMaterialsD_Message_0": "{{i18n:TowniesNeedArtisanGoods_Emily_TailoringMaterialsD_Message_0}}"
+      }
+    },
+    // Strings Emily Tailoring Materials - Easy Mode
+    {
+      "LogName": "Strings Emily Tailoring Materials - Easy Mode",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Emily_TailoringMaterialsE_Name": "{{i18n:TowniesNeedArtisanGoods_Emily_TailoringMaterialsE_Name}}",
+        "TowniesNeedArtisanGoods_Emily_TailoringMaterialsE_Text": "{{i18n:TowniesNeedArtisanGoods_Emily_TailoringMaterialsE_Text}}",
+        "TowniesNeedArtisanGoods_Emily_TailoringMaterialsE_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Emily_TailoringMaterialsE_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Emily_TailoringMaterialsE_Message_0": "{{i18n:TowniesNeedArtisanGoods_Emily_TailoringMaterialsE_Message_0}}"
       }
     },
     // Strings Evelyn Sugar Substitute
