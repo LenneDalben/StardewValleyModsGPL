@@ -30,7 +30,7 @@
       "AllowMultiple": false
     },
     "EasterEgg": {
-      "Description": "With this set to true, you will see joke-y, slightly not lore-friendly rewards. If you don't think you can briefly suspend disbelief, set it to false. Default is false.",
+      "Description": "With this set to true, you will see joke-y, slightly not lore-friendly rewards as part of the regular rewards. If you don't think you can briefly suspend disbelief, set it to false. Default is false.",
       "AllowValues": "true, false",
       "Default": "false",
       "AllowBlank": false,

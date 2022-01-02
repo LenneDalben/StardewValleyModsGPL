@@ -2564,6 +2564,13 @@
             {
               "Type": "Friendship",
               "Data": {}
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "TowniesNeedArtisanGoods_Willy_MildlySalty_Completed",
+                "NoLetter": "true"
+              }
             }
           ]
         }
