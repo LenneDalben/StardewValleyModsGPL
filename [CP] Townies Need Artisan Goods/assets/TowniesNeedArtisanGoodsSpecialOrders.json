@@ -1707,7 +1707,8 @@
       },
       "When": {
         "OrderType": "machine",
-        "FarmhouseUpgrade": "3"
+        "FarmhouseUpgrade": "3",
+        "EasterEgg" :"true"
       }
     },
     // Marnie Special Dinner
