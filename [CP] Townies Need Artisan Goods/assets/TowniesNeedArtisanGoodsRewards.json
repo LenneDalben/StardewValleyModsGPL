@@ -239,7 +239,31 @@
       "Action": "EditData",
       "Target": "Data/Events/Saloon",
       "Entries": {
-        "34122021/t 1500 2200": "Saloon1/-1000 -1000/farmer -100 -100 0 Willy 15 21 0 Elliott 16 20 2 Gus 10 18 2 Emily 18 17 1 Clint 18 22 2 Marnie 9 22 3 Pam 7 18 1 Lewis 8 22 1 Pierre 4 22 2 Demetrius 3 23 1/skippable/viewport 17 18 true/move Willy 3 0 0 true/faceDirection Pierre 1 true/showFrame Elliott 16/animate Elliott false false 120 16 17 18 19 19 18 18 19 19 18 18 19 19 18 18 19 19 18 18 17 16/faceDirection Marnie 0 true/move Willy 0 -1 3/pause 200/speak Willy \"{{i18n:events-34122021.01}}\"/move Emily -2 0 3 true/faceDirection Elliott 1/speak Elliott \"{{i18n:events-34122021.02}}\"/faceDirection Emily 2 true/faceDirection Pierre 2 true/addObject 17 18 445 1/playSound getNewSpecialItem/pause 300/emote Gus 16/speed Gus 4/move Gus 3 0 1/speak Gus \"{{i18n:events-34122021.03}}\"/move Pam -6 0 0 true/faceDirection Elliott 3/speak Willy \"{{i18n:events-34122021.04}}\"/pause 200/speak Willy \"{{i18n:events-34122021.05}}\"/emote Gus 40/speak Gus \"{{i18n:events-34122021.06}}\"/move Emily 2 0 1 true/speed Gus 3/move Gus 4 0 2 true/emote Willy 56 true/emote Emily 32 true/emote Elliott 32 true/faceDirection Elliott 0/faceDirection Willy 0/fade/viewport -1000 -1000/end"
+        "34122021/t 1500 2200": "Saloon1/-1000 -1000/farmer -100 -100 0 Willy 15 21 0 Elliott 16 20 2 Gus 10 18 2 Emily 18 17 1 Clint 18 22 2 Marnie 9 22 3 Pam 7 18 1 Lewis 8 22 1 Pierre 4 22 2 Demetrius 3 23 1/skippable/addConversationTopic Willy_mildlysalty 7/viewport 17 18 true/move Willy 3 0 0 true/faceDirection Pierre 1 true/showFrame Elliott 16/animate Elliott false false 120 16 17 18 19 19 18 18 19 19 18 18 19 19 18 18 19 19 18 18 17 16/faceDirection Marnie 0 true/move Willy 0 -1 3/pause 200/speak Willy \"{{i18n:events-34122021.01}}\"/move Emily -2 0 3 true/faceDirection Elliott 1/speak Elliott \"{{i18n:events-34122021.02}}\"/faceDirection Emily 2 true/faceDirection Pierre 2 true/addObject 17 18 445 1/playSound getNewSpecialItem/pause 300/emote Gus 16/speed Gus 4/move Gus 3 0 1/speak Gus \"{{i18n:events-34122021.03}}\"/move Pam -6 0 0 true/faceDirection Elliott 3/speak Willy \"{{i18n:events-34122021.04}}\"/pause 200/speak Willy \"{{i18n:events-34122021.05}}\"/emote Gus 40/speak Gus \"{{i18n:events-34122021.06}}\"/move Emily 2 0 1 true/speed Gus 3/move Gus 4 0 2 true/emote Willy 56 true/emote Emily 32 true/emote Elliott 32 true/faceDirection Elliott 0/faceDirection Willy 0/fade/viewport -1000 -1000/end"
+      }
+    },
+    {
+      "LogName": "Willy Mildly Salty CT - Emily",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Emily",
+      "Entries": {
+        "Willy_mildlysalty": "{{i18n:Willy_mildlysaltyCT_Emily}}"
+      }
+    },
+    {
+      "LogName": "Willy Mildly Salty CT - Willy",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Willy",
+      "Entries": {
+        "Willy_mildlysalty": "{{i18n:Willy_mildlysaltyCT_Willy}}"
+      }
+    },
+    {
+      "LogName": "Willy Mildly Salty CT - Elliott",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Emily",
+      "Entries": {
+        "Willy_mildlysalty": "{{i18n:Willy_mildlysaltyCT_Elliott}}"
       }
     },
     // CONVERSATION TOPICS WOOT
