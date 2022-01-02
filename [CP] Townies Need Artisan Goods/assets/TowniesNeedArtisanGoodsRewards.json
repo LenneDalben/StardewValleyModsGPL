@@ -382,7 +382,7 @@
       "Action": "EditData",
       "Target": "Data/Mail",
       "Entries": {
-        "TowniesNeedArtisanGoods_Sebastian_SideforSushi_Letter": "{{Random: {{i18n:letter_carpet}}, {{i18n:letter_blacksmith}}, {{i18n:letter_robinbuilding}}, {{i18n:letter_waterbugs}}, {{i18n:letter_saloon}}, {{i18n:letter_clinic}}, {{i18n:letter_Joja}}, {{i18n:letter_esquire}} |key=junkmail}}%item conversationTopic Sebastian_sideforsushi 7 %%[#]{{Random: {{i18n:letter_carpet_name}}, {{i18n:letter_blacksmith_name}}, {{i18n:letter_robinbuilding_name}}, {{i18n:letter_waterbugs_name}}, {{i18n:letter_saloon_name}}, {{i18n:letter_clinic_name}}, {{i18n:letter_Joja_name}, {{i18n:letter_esquire_name}} |key=junkmail}}"
+        "TowniesNeedArtisanGoods_Sebastian_SideforSushi_Letter": "{{Random: {{i18n:letter_carpet}}, {{i18n:letter_blacksmith}}, {{i18n:letter_robinbuilding}}, {{i18n:letter_waterbugs}}, {{i18n:letter_saloon}}, {{i18n:letter_clinic}}, {{i18n:letter_Joja}}, {{i18n:letter_esquire}} |key=junkmail}}%item conversationTopic Sam_greaseforwheels 7 %%[#]{{Random: {{i18n:letter_carpet_name}}, {{i18n:letter_blacksmith_name}}, {{i18n:letter_robinbuilding_name}}, {{i18n:letter_waterbugs_name}}, {{i18n:letter_saloon_name}}, {{i18n:letter_clinic_name}}, {{i18n:letter_Joja_name}}, {{i18n:letter_esquire_name}} |key=junkmail}}"
       }
     },
     {
