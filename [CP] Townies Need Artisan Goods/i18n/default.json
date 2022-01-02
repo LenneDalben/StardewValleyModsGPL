@@ -24,20 +24,17 @@
   "TowniesNeedArtisanGoods_Alex_TrainingDiet_Objective_Text_0": "Deliver 7 Aged Salmon Roe jars to Alex",
   "TowniesNeedArtisanGoods_Alex_TrainingDiet_Message_0": "This should be good, thanks!$h",
   //
-  //
   // Caroline Juicy Electrolytes Strings
   "TowniesNeedArtisanGoods_Caroline_JuicyElectrolytes_Name": "Juicy Electrolytes",
   "TowniesNeedArtisanGoods_Caroline_JuicyElectrolytes_Text": "I think the ladies at aerobics class would love some juice for hydration. Could someone bring me 15 bottles?",
   "TowniesNeedArtisanGoods_Caroline_JuicyElectrolytes_Objective_Text_0": "Deliver 15 Juice bottles to Caroline",
   "TowniesNeedArtisanGoods_Caroline_JuicyElectrolytes_Message_0": "This will help replenish electrolytes, thanks @!",
   //
-  //
   // Caroline Spangle Honey Strings
   "TowniesNeedArtisanGoods_Caroline_SpangleHoney_Name": "Spangle Honey",
   "TowniesNeedArtisanGoods_Caroline_SpangleHoney_Text": "I'd love some summer spangle honey to go with my green tea. Could someone bring me 8 jars?",
   "TowniesNeedArtisanGoods_Caroline_SpangleHoney_Objective_Text_0": "Deliver 8 Summer Spangle Honey jars to Caroline",
   "TowniesNeedArtisanGoods_Caroline_SpangleHoney_Message_0": "Lovely, thanks @!",
-  //
   //
   // Clint Pickled Artichokes Strings
   "TowniesNeedArtisanGoods_Clint_PickledArtichokes_Name": "Pickled Artichokes",
@@ -82,13 +79,11 @@
   "TowniesNeedArtisanGoods_Emily_Rainbow_Message_6": "Tart pink, thanks @!",
   "TowniesNeedArtisanGoods_Emily_Rainbow_Message_7": "Cheesy white, thanks @!",
   //
-  //
   // Emily Tailoring Materials Default Strings
   "TowniesNeedArtisanGoods_Emily_TailoringMaterialsD_Name": "Tailoring Materials",
   "TowniesNeedArtisanGoods_Emily_TailoringMaterialsD_Text": "Could someone bring me 30 bolts of cloth? I need to replenish my supplies for sewing.",
   "TowniesNeedArtisanGoods_Emily_TailoringMaterialsD_Objective_Text_0": "Deliver 30 Cloth bolts to Emily",
   "TowniesNeedArtisanGoods_Emily_TailoringMaterialsD_Message_0": "These will do nicely for the clothes I have planned. Thanks @!",
-  //
   //
   // Emily Tailoring Materials Easy Mode Strings
   "TowniesNeedArtisanGoods_Emily_TailoringMaterialsE_Name": "Tailoring Materials",
@@ -96,13 +91,11 @@
   "TowniesNeedArtisanGoods_Emily_TailoringMaterialsE_Objective_Text_0": "Deliver 10 Cloth bolts to Emily",
   "TowniesNeedArtisanGoods_Emily_TailoringMaterialsE_Message_0": "These will do nicely for the clothes I have planned. Thanks @!",
   //
-  //
   // Evelyn Sugar Substitute Strings
   "TowniesNeedArtisanGoods_Evelyn_SugarSubstitute_Name": "Sugar Substitute",
   "TowniesNeedArtisanGoods_Evelyn_SugarSubstitute_Text": "I'm looking to replace sugar in baking. Could someone bring me 5 jars of honey?",
   "TowniesNeedArtisanGoods_Evelyn_SugarSubstitute_Objective_Text_0": "Deliver 5 Honey jars to Evelyn",
   "TowniesNeedArtisanGoods_Evelyn_SugarSubstitute_Message_0": "Oh, look at that gold color!$h#$b#This will sweeten bread wonderfully. Thank you @!",
-  //
   //
   // George Advanced Knee Therapy Strings
   "TowniesNeedArtisanGoods_George_AdvancedKneeTherapy_Name": "Advanced Knee Therapy",
@@ -110,13 +103,11 @@
   "TowniesNeedArtisanGoods_George_AdvancedKneeTherapy_Objective_Text_0": "Deliver 7 Hot Pepper Jelly jars to George",
   "TowniesNeedArtisanGoods_George_AdvancedKneeTherapy_Message_0": "I'm looking forward to trying this new 'therapy'. Thank you @!$h",
   //
-  //
   // George Healthy Roe Strings
   "TowniesNeedArtisanGoods_George_HealthyRoe_Name": "Healthy Roe",
   "TowniesNeedArtisanGoods_George_HealthyRoe_Text": "Harvey suggested I try aged roe because it's healthy. Could someone bring me 10 jars? Sunfish, sardine, or anchovy only.",
   "TowniesNeedArtisanGoods_George_HealthyRoe_Objective_Text_0": "Deliver 10 Aged Roe jars (sunfish, sardine, or anchovy) to George",
   "TowniesNeedArtisanGoods_George_HealthyRoe_Message_0": "Hmph, I hope this tastes ok.#$b#Thank you @!$h",
-  //
   //
   // Gus Drinks for the Fair Default Strings
   "TowniesNeedArtisanGoods_Gus_DrinksfortheFairD_Name": "Drinks for the Fair",
@@ -124,13 +115,11 @@
   "TowniesNeedArtisanGoods_Gus_DrinksfortheFairD_Objective_Text_0": "Deliver 30 Pale Ales to Gus",
   "TowniesNeedArtisanGoods_Gus_DrinksfortheFairD_Message_0": "Thank you @! This will really help with the Fair.$h",
   //
-  //
   // Gus Drinks for the Fair Easy Mode Strings
   "TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Name": "Drinks for the Fair",
   "TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Text": "It's never too early to start preparing for the Fair. Could someone bring me 30 bottles of pale ale?",
   "TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Objective_Text_0": "Deliver 10 Pale Ales to Gus",
   "TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Message_0": "Thank you @! This will really help with the Fair.$h",
-  //
   //
   // Gus Special Ingredient Strings
   "TowniesNeedArtisanGoods_Gus_SpecialIngredient_Name": "Special Ingredient",
@@ -138,13 +127,11 @@
   "TowniesNeedArtisanGoods_Gus_SpecialIngredient_Objective_Text_0": "Deliver 8 Cheese to Gus (gold or iridium quality)",
   "TowniesNeedArtisanGoods_Gus_SpecialIngredient_Message_0": "All this cheese looks great, thanks @!$h",
   //
-  //
   // Haley DIY Haircare Strings
   "TowniesNeedArtisanGoods_Haley_DIYHaircare_Name": "DIY Haircare",
   "TowniesNeedArtisanGoods_Haley_DIYHaircare_Text": "I could use some help with hair products. Could someone bring me 2 jars of coconut jelly?",
   "TowniesNeedArtisanGoods_Haley_DIYHaircare_Objective_Text_0": "Deliver 2 Coconut Jelly jars to Haley",
   "TowniesNeedArtisanGoods_Haley_DIYHaircare_Message_0": "Thanks, @!$h#$b#These will help keep my hair moisturized.",
-  //
   //
   // Harvey Nutritious Pickles Strings
   "TowniesNeedArtisanGoods_Harvey_NutritiousPickles_Name": "Nutritious Pickles",
@@ -152,13 +139,11 @@
   "TowniesNeedArtisanGoods_Harvey_NutritiousPickles_Objective_Text_0": "Deliver 9 Pickle jars to Harvey",
   "TowniesNeedArtisanGoods_Harvey_NutritiousPickles_Message_0": "I appreciate this, @!$h#$b#Healthy snacks are hard to come by.",
   //
-  //
   // Jas Tea Party Strings
   "TowniesNeedArtisanGoods_Jas_TeaParty_Name": "Tea Party!",
   "TowniesNeedArtisanGoods_Jas_TeaParty_Text": "Jas would love to have a tea party! Could someone bring her 3 cups of green tea?     - Marnie",
   "TowniesNeedArtisanGoods_Jas_TeaParty_Objective_Text_0": "Deliver 3 Green Tea to Jas",
   "TowniesNeedArtisanGoods_Jas_TeaParty_Message_0": "You have something for me?$3#$b#Thank you! I will have the best tea party!$h",
-  //
   //
   // Jodi Bass Aged Roe Strings
   "TowniesNeedArtisanGoods_Jodi_BassAgedRoe_Name": "Bass Aged Roe",
@@ -166,13 +151,11 @@
   "TowniesNeedArtisanGoods_Jodi_BassAgedRoe_Objective_Text_0": "Deliver 4 Aged Roe jars to Jodi (largemouth bass or smallmouth bass)",
   "TowniesNeedArtisanGoods_Jodi_BassAgedRoe_Message_0": "These look good, @.",
   //
-  //
   // Kent Jelly for PB&J Strings
   "TowniesNeedArtisanGoods_Kent_JellyforPBJ_Name": "Jelly for PB&J",
   "TowniesNeedArtisanGoods_Kent_JellyforPBJ_Text": "I'd love to make some peanut butter and jelly sandwiches for the boys. Could someone bring me 3 jars of jelly? Strawberry or grape only, please.",
   "TowniesNeedArtisanGoods_Kent_JellyforPBJ_Objective_Text_0": "Deliver 4 Jelly jars to Kent (strawberry or grape)",
   "TowniesNeedArtisanGoods_Kent_JellyforPBJ_Message_0": "Hmm?#$b#Thanks for these, @!$h",
-  //
   //
   // Krobus Pasty Treat Strings
   "TowniesNeedArtisanGoods_Krobus_PastyTreat_Name": "Pasty Treat",
@@ -180,12 +163,10 @@
   "TowniesNeedArtisanGoods_Krobus_PastyTreat_Objective_Text_0": "Deliver 4 Void Mayonnaise jars to Krobus",
   "TowniesNeedArtisanGoods_Krobus_PastyTreat_Message_0": "I look forward to enjoying this.$h#$b#You have my thanks.$h",
   //
-  //
   // Leah Bees in the Meadow Strings
   "TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Name": "Bees in the Meadow",
   "TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Text": "Hi! I think the forest meadows could use more bee activity. Would someone be able to bring me 5 bee houses? I think that would help encourage them!",
   "TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Objective_Text_0": "Drop off 5 Bee Houses by the wood pile in Leah's house",
-  //
   //
   // Leah Spreadable Mayo Strings
   "TowniesNeedArtisanGoods_Leah_SpreadableMayo_Name": "Spreadable Mayo",
@@ -193,13 +174,11 @@
   "TowniesNeedArtisanGoods_Leah_SpreadableMayo_Objective_Text_0": "Deliver 5 Mayonnaise jars to Leah",
   "TowniesNeedArtisanGoods_Leah_SpreadableMayo_Message_0": "I'm looking forward to making coleslaw with these. Thanks @!$h",
   //
-  //
   // Leo Sweet Jelly Strings
   "TowniesNeedArtisanGoods_Leo_SweetJelly_Name": "Sweet Jelly",
   "TowniesNeedArtisanGoods_Leo_SweetJelly_Text": "Could someone bring Leo 5 jars of mango jelly? I think he'd enjoy that.     - Linus =",
   "TowniesNeedArtisanGoods_Leo_SweetJelly_Objective_Text_0": "Deliver 5 Mango Jelly jars to Leo",
   "TowniesNeedArtisanGoods_Leo_SweetJelly_Message_0": "Is that...$2#$b#Thank you!$h",
-  //
   //
   // Lewis Special Night Strings
   "TowniesNeedArtisanGoods_Lewis_SpecialNight_Name": "Special Night",
@@ -213,7 +192,6 @@
   "TowniesNeedArtisanGoods_Lewis_SpecialNight_Message_2": "A classic dessert. Thanks @!$h",
   "TowniesNeedArtisanGoods_Lewis_SpecialNight_Message_3": "Thanks, @!$h#$b#What's it for?#$b#W-well, that's none of your business.",
   //
-  //
   // Linus Berry Flavor Strings
   "TowniesNeedArtisanGoods_Linus_BerryFlavor_Name": "Berry Flavor",
   "TowniesNeedArtisanGoods_Linus_BerryFlavor_Text": "I'd love some berry jelly. Could someone bring me 10 jars of salmonberry jelly, 10 jars of spice berry jelly, and 10 jars of blackberry jelly?",
@@ -224,19 +202,16 @@
   "TowniesNeedArtisanGoods_Linus_BerryFlavor_Message_1": "The smell reminds me of summer.$h",
   "TowniesNeedArtisanGoods_Linus_BerryFlavor_Message_2": "Sweeter than raspberry jelly. Thanks, @!$h",
   //
-  //
   // Marnie Casks for Cheese Strings
   "TowniesNeedArtisanGoods_Marnie_CasksforCheese_Name": "Casks for Cheese",
   "TowniesNeedArtisanGoods_Marnie_CasksforCheese_Text": "Howdy neighbors! I'd love to get some casks to age cheese. Could someone bring me 5?",
   "TowniesNeedArtisanGoods_Marnie_CasksforCheese_Objective_Text_0": "Drop off 5 Casks by the hay bale in Marnie's Ranch",
-  //
   //
   // Marnie Special Dinner Strings
   "TowniesNeedArtisanGoods_Marnie_SpecialDinner_Name": "Special Dinner",
   "TowniesNeedArtisanGoods_Marnie_SpecialDinner_Text": "Howdy neighbors! I'd like to mark a happy occasion with some excellent wine. Could someone bring me 2 bottles of gold or iridium quality wine?",
   "TowniesNeedArtisanGoods_Marnie_SpecialDinner_Objective_Text_0": "Deliver 2 Wine bottles to Marnie (gold or iridium quality)",
   "TowniesNeedArtisanGoods_Marnie_SpecialDinner_Message_0": "Thanks @!$h#$b#What's the occasion?#$b#That's private.$3",
-  //
   //
   // Maru Power for Project Strings
   "TowniesNeedArtisanGoods_Maru_PowerforProject_Name": "Power for Project",
@@ -245,13 +220,11 @@
   "TowniesNeedArtisanGoods_Maru_PowerforProject_Message_0": "Woo, this will help a ton. Thanks @!",
   "Maru_powerforprojectCT_Maru": "Still need to make some adjustments with my project...#$b#I don't know how I'm going to get rid of that stench.$2",
   //
-  //
   // Pam Preserved Parsnip Strings
   "TowniesNeedArtisanGoods_Pam_PreservedParsnip_Name": "Preserved Parsnip",
   "TowniesNeedArtisanGoods_Pam_PreservedParsnip_Text": "Howdy! I'd love some pickled parsnip. Could someone in this town help me out and bring me 9 jars?",
   "TowniesNeedArtisanGoods_Pam_PreservedParsnip_Objective_Text_0": "Deliver 9 Pickled Parsnip jars to Pam",
   "TowniesNeedArtisanGoods_Pam_PreservedParsnip_Message_0": "Are those pickled parsnips I see?#$b#They're for me? Thanks, @!$h",
-  //
   //
   // Penny Tie-Dye Project Strings
   "TowniesNeedArtisanGoods_Penny_Tie-DyeProject_Name": "Tie-Dye Project",
@@ -259,20 +232,17 @@
   "TowniesNeedArtisanGoods_Penny_Tie-DyeProject_Objective_Text_0": "Deliver 4 Juice bottles to Penny (Beet or Red Cabbage)",
   "TowniesNeedArtisanGoods_Penny_Tie-DyeProject_Message_0": "Thanks @. These will work for our red dye.$h",
   //
-  //
   // Robin Cheesy Delight Strings
   "TowniesNeedArtisanGoods_Robin_CheesyDelight_Name": "Cheesy Delight",
   "TowniesNeedArtisanGoods_Robin_CheesyDelight_Text": "I love goat cheese. Could someone bring me 6 gold quality goat cheese?",
   "TowniesNeedArtisanGoods_Robin_CheesyDelight_Objective_Text_0": "Deliver 6 Gold Quality Goat Cheeses to Robin",
   "TowniesNeedArtisanGoods_Robin_CheesyDelight_Message_0": "Thanks @! With some milk, I can spread this on bread.$h",
   //
-  //
   // Robin Like Strawberry Wine Strings
   "TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Name": "Like Strawberry Wine",
   "TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Text": "Strawberry wine has special significance to Demetrius and I. Could someone bring me 3 bottles of strawberry wine?",
   "TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Objective_Text_0": "Deliver 3 Strawberry Wine bottles to Robin",
   "TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Message_0": "Thanks @! I'm looking forward to this.$h#$b#Reminds me of a hot July moon...$4",
-  //
   //
   // Sam Game Night Strings
   "TowniesNeedArtisanGoods_Sam_GameNight_Name": "Game Night",
@@ -282,13 +252,11 @@
   "TowniesNeedArtisanGoods_Sam_GameNight_Message_0": "Thanks, Abby and I will enjoy these!$h",
   "TowniesNeedArtisanGoods_Sam_GameNight_Message_1": "Thanks, gotta have something for Sebastian to drink too.$h",
   //
-  //
   // Sam Grease for Wheels Strings
   "TowniesNeedArtisanGoods_Sam_GreaseforWheels_Name": "Grease for Wheels",
   "TowniesNeedArtisanGoods_Sam_GreaseforWheels_Text": "I could use some oil for fixing up my old skateboards. Could someone bring me 4 bottles?",
   "TowniesNeedArtisanGoods_Sam_GreaseforWheels_Objective_Text_0": "Deliver 4 Oil bottles to Sam",
   "TowniesNeedArtisanGoods_Sam_GreaseforWheels_Message_0": "Thanks, this will help stop the squeaking!$h",
-  //
   //
   // Sam Sweet and Soothing Strings
   "TowniesNeedArtisanGoods_Sam_SweetandSoothing_Name": "Sweet and Soothing",
@@ -296,13 +264,11 @@
   "TowniesNeedArtisanGoods_Sam_SweetandSoothing_Objective_Text_0": "Deliver 3 Honey jars (blue jazz or tulip) to Sam",
   "TowniesNeedArtisanGoods_Sam_SweetandSoothing_Message_0": "Awesome, thanks @! It's that time of the year again, so my allergies are acting up.$h",
   //
-  //
   // Sandy Light Beverage Strings
   "TowniesNeedArtisanGoods_Sandy_LightBeverage_Name": "Light Beverage",
   "TowniesNeedArtisanGoods_Sandy_LightBeverage_Text": "Could someone bring Sandy 2 beers? I think that would help her cheer up.     -Emily",
   "TowniesNeedArtisanGoods_Sandy_LightBeverage_Objective_Text_0": "Deliver 2 Beers to Sandy",
   "TowniesNeedArtisanGoods_Sandy_LightBeverage_Message_0": "Emily asked you to bring these to me?#$b# I guess I'll keep these until she visits, and then we can drink together!$h",
-  //
   //
   // Sebastian Side for Sushi Strings
   "TowniesNeedArtisanGoods_Sebastian_SideforSushi_Name": "Side for Sushi",
@@ -310,13 +276,11 @@
   "TowniesNeedArtisanGoods_Sebastian_SideforSushi_Objective_Text_0": "Deliver 4 Pickled Bok Choy jars to Sebastian",
   "TowniesNeedArtisanGoods_Sebastian_SideforSushi_Message_0": "I can't wait to have this with sushi. Thanks, @.$h",
   //
-  //
   // Shane 6 Pack of Juice Strings
   "TowniesNeedArtisanGoods_Shane_6PackofJuice_Name": "6 'Pack' of Juice",
   "TowniesNeedArtisanGoods_Shane_6PackofJuice_Text": "Figured it'd be good to stock up on non-alcoholic drinks. Could someone bring me 6 juice bottles?",
   "TowniesNeedArtisanGoods_Shane_6PackofJuice_Objective_Text_0": "Deliver 6 Juice bottles to Shane",
   "TowniesNeedArtisanGoods_Shane_6PackofJuice_Message_0": "Thanks, @. Hope this helps me a little with my sobriety.$h",
-  //
   //
   // Vincent Dino Mayo Strings
   "TowniesNeedArtisanGoods_Vincent_DinoMayo_Name": "Dino Mayo!",
@@ -324,13 +288,11 @@
   "TowniesNeedArtisanGoods_Vincent_DinoMayo_Objective_Text_0": "Deliver 1 Dinosaur Mayonnaise to Vincent",
   "TowniesNeedArtisanGoods_Vincent_DinoMayo_Message_0": "What is this?$3#$b#WHAT?! THAT'S SO COOL!$h#$b#Ok ok. I'll share with Jas and say thanks to Sam. Thank you @!",
   //
-  //
   // Vincent Dino Mayo - Turtle Edition Strings
   "TowniesNeedArtisanGoods_Vincent_TurtleMayo_Name": "Turtle Mayo!",
   "TowniesNeedArtisanGoods_Vincent_TurtleMayo_Text": "I think Vincent and Jas would love to try some turtle mayonnaise. Could someone give some to Vincent and remind him to share?   -Sam",
   "TowniesNeedArtisanGoods_Vincent_TurtleMayo_Objective_Text_0": "Deliver 1 Turtle Mayonnaise to Vincent",
   "TowniesNeedArtisanGoods_Vincent_TurtleMayo_Message_0": "What is this?$3#$b#WHAT?! THAT'S SO COOL!$h#$b#Ok ok. I'll share with Jas and say thanks to Sam. Thank you @!",
-  //
   //
   // Willy Mildly Salty Strings
   "TowniesNeedArtisanGoods_Willy_MildlySalty_Name": "Mildly Salty",
@@ -338,13 +300,11 @@
   "TowniesNeedArtisanGoods_Willy_MildlySalty_Objective_Text_0": "Deliver 5 Caviar jars to Willy",
   "TowniesNeedArtisanGoods_Willy_MildlySalty_Message_0": "This is just the right amount of salty. Thanks, @.$h",
   //
-  //
   // Willy Tone of Honey Strings
   "TowniesNeedArtisanGoods_Willy_ToneofHoney_Name": "Tone of Honey",
   "TowniesNeedArtisanGoods_Willy_ToneofHoney_Text": "I'd love some mead. Could someone bring me 3 bottles?",
   "TowniesNeedArtisanGoods_Willy_ToneofHoney_Objective_Text_0": "Deliver 3 Mead bottles to Willy",
   "TowniesNeedArtisanGoods_Willy_ToneofHoney_Message_0": "Yes, even this old fisherman can appreciate a good bottle of mead. Thank you @!$h",
-  //
   //
   // Wizard Underworld Drink Strings
   "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Name": "Underworld Drink",
@@ -366,7 +326,6 @@
   "Sam_gamenightCT_Sebastian": "Sam is forgetful sometimes, but he means well.",
   "Sam_gamenightCT_Robin": "I'm glad those three are expanding their friend group!",
   //
-  //
   // Vincent Dino Mayo Event Strings
   "events-29122021.01": "Yay!$h#$b#Let's open it!$3",
   "events-29122021.02": "Let's do it!",
@@ -375,7 +334,6 @@
   "events-29122021.05": "Ewww...$s",
   "events-29122021.06": "More for me then, I like it!$h",
   //
-  //
   // Vincent Dino Mayo - Turtle Edition Event Strings
   "events-30122021.01": "Yay!$h#$b#Let's open it!$3",
   "events-30122021.02": "Let's do it!",
@@ -383,7 +341,6 @@
   "events-30122021.04": "I want to try it!$h",
   "events-30122021.05": "Ewww...$s",
   "events-30122021.06": "More for me then, I like it!$h",
-  //
   //
   // Demetrius Oil Makers Event Strings
   "events-31122021.01": "Hey, @! Thanks again for the oil makers.$h#$b#Maru here is helping me disassemble them.",
@@ -397,7 +354,6 @@
   "Demetrius_oilmakersCT_Maru": "I hope you had a tenth of the fun I did taking apart those oil makers.$h",
   "Demetrius_oilmakersCT_Robin": "I was surprised to hear Demetrius and Maru roped you into one of their experiements.$h",
   //
-  //
   // Kent Jelly for PB&J Event Strings
   "events-32122021.01": "Sam, I'm glad that even though you're older, you can still appreciate a simple peanut butter and jelly sandwich.$h",
   "events-32122021.02": "I'm... happy to spend time with you, dad.$h",
@@ -407,12 +363,10 @@
   "Kent_jellyforpbjCT_Sam": "It was nice to see dad so happy.$h",
   "Kent_jellyforpbjCT_Vincent": "Boys' lunch was awesome!",
   //
-  //
   // Krobus Pasty Treat Event Strings
   "events-35122021.01": "@!$h#$b#Nice to see you.",
   "events-35122021.02": "Are you familiar with the history of void eggs and their products?",
   "events-35122021.03": "Let me share with you then!$h",
-  //
   //
   // Jas Tea Party Event Strings
   "events-33122021.01": "Thanks for coming to my tea party!$h",
@@ -427,7 +381,6 @@
   "events-33122021.10": "Well, you weren't invited...$2",
   "events-33122021.11": "This is a family thing, I think you should leave.$2",
   //
-  //
   // Willy Mildly Salty Event Strings
   "events-34122021.01": "Hey Elliott! I have a special treat today!$h",
   "events-34122021.02": "Hello Willy! Whatever could it be?",
@@ -438,7 +391,6 @@
   "Willy_mildlysaltyCT_Emily": "Good to know Gus has a wily side!$h#$b#Still, at least Willy had caviar to spare. He let me try some too!",
   "Willy_mildlysaltyCT_Willy": "The caviar was a hit!#$b#Next time I'll just invite Elliott over to my place to avoid this 'tax'.$s",
   "Willy_mildlysaltyCT_Elliott": "I'm glad Gus was lenient on the outside food policy.#$b#It's not wise to be on the bartender's bad side!$h#$b#Or the chef's, and he is both.$2",
-  //
   //
   // Letter Strings
   "letter_waterbugs": "Do you have water bugs or roaches? The Ferngill Bug Squashers will take care of you needs! Call us at     *the company phone number is smeared*",
@@ -458,10 +410,8 @@
   "letter_carpet": "Sick of the carpeting in your home? Tell Ferngill Better Living what you're looking for and we'll install it for no money down at     *for some reason the last part of this is in a language you don't understand*",
   "letter_carpet_name": "Carpeting",
   //
-  //
   // Leah Bees in the Meadow Conversation Topic Strings
   "Leah_beesinthemeadowCT": "Thanks, @! These should make some bees happy.$h",
-  //
   //
   // Maru Power for Project Conversation Topic Strings
   "Maru_powerforprojectCT_Demetrius": "Maru must be close to working out her project.#$b#That's the smell of approaching success!$h",
@@ -469,42 +419,34 @@
   "Maru_powerforprojectCT_SebastianS": "I hope whatever Maru's working on is worth that smell...#$b#It reached the basement!$s",
   "Maru_powerforprojectCT_SebastianM": "Mom was complaining to me the other day about an experiment of Maru's. Guess it didn't go as planned?",
   //
-  //
   // Abigail Yellow Mayo Conversation Topic Strings
   "Abigail_yellowmayoCT_Abby": "The prank went off without a hitch. Seb and Sam didn't notice until it was too late!$h",
   "Abigail_yellowmayoCT_Seb": "I'm not thrilled Abby has discovered duck mayonnaise.$5",
   "Abigail_yellowmoayoCT_Sam": "Abby ruined Seb and I's day with duck mayonnaise.$2#$b#YOU were the one who gave it to her?!$8",
   //
-  //
   // Lewis Special Night Conversation Topic Strings
   "Lewis_specialnightCT_Lewis": "%Lewis giggles but notices you looking and stops himself.",
   "Lewis_specialnightCT_Marnie": "%Marnie stares off into space with a glint in her eye.",
-  //
   //
   // Marnie Special Dinner Conversation Topic Strings
   "Marnie_specialdinnerCT_Lewis": "%Lewis seems happily lost in thought.",
   "Marnie_specialdinnerCT_Marnie": "%Marnie is smiling and humming to herself.",
   //
-  //
   // Marnie Casks for Cheese Conversation Topic Strings
   "Marnie_casksforcheeseCT_Marnie": "Thanks for the casks @! I'm looking forward to some fine cheese.$h",
   "Marnie_casksforcheeseCT_Jas": "Aunt Marnie has some extra smelly cheese now.$3",
-  //
   //
   // Robin Like Strawberry Wine Topic Strings
   "Robin_likestrawberrywineCT_Robin": "Like strawberry wine, and seventeen...#$b#Hmm? Oh, don't mind me.",
   "Robin_likestrawberrywineCT_Demetrius": "The hot july moon saw everything...#$b#*ahem* Excuse me, @.",
   //
-  //
   // Sam Grease for Wheels Topic Strings
   "Sam_greaseforwheelsCT_Sam": "The oil definitely stopped the squeaking. Thanks @!$h",
   "Sam_greaseforwheelsCT_Vincent": "Sam's skateboard doesn't make the funny noise anymore.",
   //
-  //
   // Sebastian Side for Sushi Topic Strings
   "Sebastian_sideforsushiCT_Sebastian": "It's no pickled ginger, but bok choy still made a good side for sushi.$7",
   "Sebastian_sideforsushiCT_Maru": "I noticed Sebastian eat sushi with pickled bok choy.#$b#It looked pretty good.",
-  //
   //
   // Sandy Light Beverage Topic Strings
   "Sandy_lightbeverageCT_Sandy": "Thanks again for bringing for the beers around!#$b#Emily and I had a nice time.$h",
