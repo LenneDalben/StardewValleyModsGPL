@@ -354,6 +354,14 @@
         "Robin_likestrawberrywine": "{{i18n:Robin_likestrawberrywineCT_Demetrius}}"
       }
     },
+    /*Maru CT*/ {
+      "LogName": "Robin Like Strawberry Wine CT - Maru",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Maru",
+      "Entries": {
+        "Robin_likestrawberrywine": "{{i18n:Robin_likestrawberrywineCT_Maru}}"
+      }
+    },
     // Sam Grease for Wheels Conversation Topic
     /*Letter*/ {
       "LogName": "Sam Grease for Wheels Letter for CT",
