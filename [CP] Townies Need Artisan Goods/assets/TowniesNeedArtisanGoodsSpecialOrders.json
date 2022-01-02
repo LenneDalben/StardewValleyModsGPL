@@ -1663,7 +1663,7 @@
           "Name": "[TowniesNeedArtisanGoods_Marnie_CasksforCheese_Name]",
           "Requester": "Marnie",
           "Duration": "Week",
-          "Repeatable": "{{RepeatableConfig}}",
+          "Repeatable": "False",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -1694,6 +1694,13 @@
             {
               "Type": "Friendship",
               "Data": {}
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "TowniesNeedArtisanGoods_Marnie_CasksforCheese_Letter",
+                "NoLetter": "false"
+              }
             }
           ]
         }

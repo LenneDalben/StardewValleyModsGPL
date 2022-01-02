@@ -240,7 +240,7 @@
       "Action": "EditData",
       "Target": "Data/Mail",
       "Entries": {
-        "TowniesNeedArtisanGoods_Abigail_YellowMayo_Letter": "{{Random: {{i18n:letter_waterbugs}}, {{i18n:letter_saloon}}, {{i18n:letter_clinic}}, {{i18n:letter_Joja}}, {{i18n:letter_esquire}}, {{i18n:letter_carpet}}, {{i18n:letter_blacksmith}} |key=junkmail}}%item conversationTopic Abigail_yellowmayo 7 %%[#]{{Random: {{i18n:letter_waterbugs_name}}, {{i18n:letter_saloon_name}}, {{i18n:letter_clinic_name}}, {{i18n:letter_Joja_name}}, {{i18n:letter_esquire_name}}, {{i18n:letter_carpet_name}}, {{i18n:letter_blacksmith_name}} |key=junkmail}}"
+        "TowniesNeedArtisanGoods_Abigail_YellowMayo_Letter": "{{Random: {{i18n:letter_waterbugs}}, {{i18n:letter_saloon}}, {{i18n:letter_clinic}}, {{i18n:letter_Joja}}, {{i18n:letter_esquire}}, {{i18n:letter_carpet}}, {{i18n:letter_blacksmith}}, {{i18n:letter_robinbuilding}} |key=junkmail}}%item conversationTopic Abigail_yellowmayo 7 %%[#]{{Random: {{i18n:letter_waterbugs_name}}, {{i18n:letter_saloon_name}}, {{i18n:letter_clinic_name}}, {{i18n:letter_Joja_name}}, {{i18n:letter_esquire_name}}, {{i18n:letter_carpet_name}}, {{i18n:letter_blacksmith_name}}, {{i18n:letter_robinbuilding_name}} |key=junkmail}}"
       }
     },
     {
@@ -273,7 +273,7 @@
       "Action": "EditData",
       "Target": "Data/Mail",
       "Entries": {
-        "TowniesNeedArtisanGoods_Lewis_SpecialNight_Letter": "{{Random: {{i18n:letter_saloon}}, {{i18n:letter_clinic}}, {{i18n:letter_Joja}}, {{i18n:letter_esquire}}, {{i18n:letter_carpet}}, {{i18n:letter_blacksmith}}, {{i18n:letter_waterbugs}} |key=junkmail}}%item conversationTopic Lewis_specialnight 7 %%[#]{{Random: {{i18n:letter_saloon_name}}, {{i18n:letter_clinic_name}}, {{i18n:letter_Joja_name}}, {{i18n:letter_esquire_name}}, {{i18n:letter_carpet_name}}, {{i18n:letter_blacksmith_name}}, {{i18n:letter_waterbugs_name}} |key=junkmail}}"
+        "TowniesNeedArtisanGoods_Lewis_SpecialNight_Letter": "{{Random: {{i18n:letter_saloon}}, {{i18n:letter_clinic}}, {{i18n:letter_Joja}}, {{i18n:letter_esquire}}, {{i18n:letter_carpet}}, {{i18n:letter_blacksmith}}, {{i18n:letter_robinbuilding}}, {{i18n:letter_waterbugs}} |key=junkmail}}%item conversationTopic Lewis_specialnight 7 %%[#]{{Random: {{i18n:letter_saloon_name}}, {{i18n:letter_clinic_name}}, {{i18n:letter_Joja_name}}, {{i18n:letter_esquire_name}}, {{i18n:letter_carpet_name}}, {{i18n:letter_blacksmith_name}}, {{i18n:letter_robinbuilding_name}}, {{i18n:letter_waterbugs_name}} |key=junkmail}}"
       }
     },
     {
@@ -292,63 +292,13 @@
         "Lewis_specialnight": "{{i18n:Lewis_specialnightCT_Marnie}}"
       }
     },
-    // Marnie Casks for Cheese Would anything need to be here for shop changes? Mail about it huhu (don't forget to do HasMod invatorzen.MarnieSellsAnimalProducts false)
-    {
-      "LogName": "Marnie Casks for Cheese",
-      "Action": "EditData",
-      "Target": "Data/SpecialOrders",
-      "Entries": {
-        "TowniesNeedArtisanGoods_Marnie_CasksforCheese": {
-          "Name": "[TowniesNeedArtisanGoods_Marnie_CasksforCheese_Name]",
-          "Requester": "Marnie",
-          "Duration": "Week",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "!dropboxRoom_AnimalShop",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedArtisanGoods_Marnie_CasksforCheese_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Donate",
-              "Text": "[TowniesNeedArtisanGoods_Marnie_CasksforCheese_Objective_Text_0]",
-              "RequiredCount": "5",
-              "Data": {
-                "DropBox": "MarnieHay",
-                "DropBoxGameLocation": "AnimalShop",
-                "DropBoxIndicatorLocation": "5 18",
-                "AcceptedContextTags": "item_cask"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "5275"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "OrderType": "machine",
-        "FarmhouseUpgrade": "3"
-      }
-    },
     // Marnie Special Dinner Conversation topic
     {
       "LogName": "Marnie Special Dinner Letter for CT",
       "Action": "EditData",
       "Target": "Data/Mail",
       "Entries": {
-        "TowniesNeedArtisanGoods_Marnie_SpecialDinner_Letter": "{{Random: {{i18n:letter_clinic}}, {{i18n:letter_Joja}}, {{i18n:letter_esquire}}, {{i18n:letter_carpet}}, {{i18n:letter_blacksmith}}, {{i18n:letter_waterbugs}}, {{i18n:letter_saloon}} |key=junkmail}}%item conversationTopic Marnie_specialdinner 7 %%[#]{{Random: {{i18n:letter_clinic_name}}, {{i18n:letter_Joja_name}}, {{i18n:letter_esquire_name}}, {{i18n:letter_carpet_name}}, {{i18n:letter_blacksmith_name}}, {{i18n:letter_waterbugs_name}}, {{i18n:letter_saloon_name}} |key=junkmail}}"
+        "TowniesNeedArtisanGoods_Marnie_SpecialDinner_Letter": "{{Random: {{i18n:letter_clinic}}, {{i18n:letter_Joja}}, {{i18n:letter_esquire}}, {{i18n:letter_carpet}}, {{i18n:letter_blacksmith}}, {{i18n:letter_robinbuilding}}, {{i18n:letter_waterbugs}}, {{i18n:letter_saloon}} |key=junkmail}}%item conversationTopic Marnie_specialdinner 7 %%[#]{{Random: {{i18n:letter_clinic_name}}, {{i18n:letter_Joja_name}}, {{i18n:letter_esquire_name}}, {{i18n:letter_carpet_name}}, {{i18n:letter_blacksmith_name}}, {{i18n:letter_robinbuilding_name}}, {{i18n:letter_waterbugs_name}}, {{i18n:letter_saloon_name}} |key=junkmail}}"
       }
     },
     {
@@ -373,7 +323,7 @@
       "Action": "EditData",
       "Target": "Data/Mail",
       "Entries": {
-        "TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Letter": "{{Random: {{i18n:letter_Joja}}, {{i18n:letter_esquire}}, {{i18n:letter_carpet}}, {{i18n:letter_blacksmith}}, {{i18n:letter_waterbugs}}, {{i18n:letter_saloon}}, {{i18n:letter_clinic}} |key=junkmail}}%item conversationTopic Robin_likestrawberrywine 7 %%[#]{{Random: {{i18n:letter_Joja_name}}, {{i18n:letter_esquire_name}}, {{i18n:letter_carpet_name}}, {{i18n:letter_blacksmith_name}}, {{i18n:letter_waterbugs_name}}, {{i18n:letter_saloon_name}}, {{i18n:letter_clinic_name}} |key=junkmail}}"
+        "TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Letter": "{{Random: {{i18n:letter_Joja}}, {{i18n:letter_esquire}}, {{i18n:letter_carpet}}, {{i18n:letter_blacksmith}}, {{i18n:letter_robinbuilding}}, {{i18n:letter_waterbugs}}, {{i18n:letter_saloon}}, {{i18n:letter_clinic}} |key=junkmail}}%item conversationTopic Robin_likestrawberrywine 7 %%[#]{{Random: {{i18n:letter_Joja_name}}, {{i18n:letter_esquire_name}}, {{i18n:letter_carpet_name}}, {{i18n:letter_blacksmith_name}}, {{i18n:letter_robinbuilding_name}}, {{i18n:letter_waterbugs_name}}, {{i18n:letter_saloon_name}}, {{i18n:letter_clinic_name}} |key=junkmail}}"
       }
     },
     {
@@ -398,7 +348,7 @@
       "Action": "EditData",
       "Target": "Data/Mail",
       "Entries": {
-        "TowniesNeedArtisanGoods_Sam_GreaseforWheels_Letter": "{{Random: {{i18n:letter_esquire}}, {{i18n:letter_carpet}}, {{i18n:letter_blacksmith}}, {{i18n:letter_waterbugs}}, {{i18n:letter_saloon}}, {{i18n:letter_clinic}}, {{i18n:letter_Joja}} |key=junkmail}}%item conversationTopic Sam_greaseforwheels 7 %%[#]{{Random: {{i18n:letter_esquire_name}}, {{i18n:letter_carpet_name}}, {{i18n:letter_blacksmith_name}}, {{i18n:letter_waterbugs_name}}, {{i18n:letter_saloon_name}}, {{i18n:letter_clinic_name}}, {{i18n:letter_Joja_name}} |key=junkmail}}"
+        "TowniesNeedArtisanGoods_Sam_GreaseforWheels_Letter": "{{Random: {{i18n:letter_esquire}}, {{i18n:letter_carpet}}, {{i18n:letter_blacksmith}}, {{i18n:letter_robinbuilding}}, {{i18n:letter_waterbugs}}, {{i18n:letter_saloon}}, {{i18n:letter_clinic}}, {{i18n:letter_Joja}} |key=junkmail}}%item conversationTopic Sam_greaseforwheels 7 %%[#]{{Random: {{i18n:letter_esquire_name}}, {{i18n:letter_carpet_name}}, {{i18n:letter_blacksmith_name}}, {{i18n:letter_robinbuilding_name}}, {{i18n:letter_waterbugs_name}}, {{i18n:letter_saloon_name}}, {{i18n:letter_clinic_name}}, {{i18n:letter_Joja_name}} |key=junkmail}}"
       }
     },
     {
@@ -423,7 +373,7 @@
       "Action": "EditData",
       "Target": "Data/Mail",
       "Entries": {
-        "TowniesNeedArtisanGoods_Sebastian_SideforSushi_Letter": "{{Random: {{i18n:letter_carpet}}, {{i18n:letter_blacksmith}}, {{i18n:letter_waterbugs}}, {{i18n:letter_saloon}}, {{i18n:letter_clinic}}, {{i18n:letter_Joja}}, {{i18n:letter_esquire}} |key=junkmail}}%item conversationTopic Sebastian_sideforsushi 7 %%[#]{{Random: {{i18n:letter_carpet_name}}, {{i18n:letter_blacksmith_name}}, {{i18n:letter_waterbugs_name}}, {{i18n:letter_saloon_name}}, {{i18n:letter_clinic_name}}, {{i18n:letter_Joja_name}, {{i18n:letter_esquire_name}} |key=junkmail}}"
+        "TowniesNeedArtisanGoods_Sebastian_SideforSushi_Letter": "{{Random: {{i18n:letter_carpet}}, {{i18n:letter_blacksmith}}, {{i18n:letter_robinbuilding}}, {{i18n:letter_waterbugs}}, {{i18n:letter_saloon}}, {{i18n:letter_clinic}}, {{i18n:letter_Joja}}, {{i18n:letter_esquire}} |key=junkmail}}%item conversationTopic Sebastian_sideforsushi 7 %%[#]{{Random: {{i18n:letter_carpet_name}}, {{i18n:letter_blacksmith_name}}, {{i18n:letter_robinbuilding_name}}, {{i18n:letter_waterbugs_name}}, {{i18n:letter_saloon_name}}, {{i18n:letter_clinic_name}}, {{i18n:letter_Joja_name}, {{i18n:letter_esquire_name}} |key=junkmail}}"
       }
     },
     {
@@ -448,7 +398,7 @@
       "Action": "EditData",
       "Target": "Data/Mail",
       "Entries": {
-        "TowniesNeedArtisanGoods_Sandy_LightBeverage_Letter": "{{Random: {{i18n:letter_blacksmith}}, {{i18n:letter_waterbugs}}, {{i18n:letter_saloon}}, {{i18n:letter_clinic}}, {{i18n:letter_Joja}}, {{i18n:letter_esquire}}, {{i18n:letter_carpet}} |key=junkmail}}%item conversationTopic Sandy_lightbeverage 7 %%[#]{{Random: {{i18n:letter_blacksmith_name}}, {{i18n:letter_waterbugs_name}}, {{i18n:letter_saloon_name}}, {{i18n:letter_clinic_name}}, {{i18n:letter_Joja_name}, {{i18n:letter_esquire_name}}, {{i18n:letter_carpet_name}} |key=junkmail}}"
+        "TowniesNeedArtisanGoods_Sandy_LightBeverage_Letter": "{{Random: {{i18n:letter_blacksmith}}, {{i18n:letter_robinbuilding}}, {{i18n:letter_waterbugs}}, {{i18n:letter_saloon}}, {{i18n:letter_clinic}}, {{i18n:letter_Joja}}, {{i18n:letter_esquire}}, {{i18n:letter_carpet}} |key=junkmail}}%item conversationTopic Sandy_lightbeverage 7 %%[#]{{Random: {{i18n:letter_blacksmith_name}}, {{i18n:letter_robinbuilding_name}}, {{i18n:letter_waterbugs_name}}, {{i18n:letter_saloon_name}}, {{i18n:letter_clinic_name}}, {{i18n:letter_Joja_name}, {{i18n:letter_esquire_name}}, {{i18n:letter_carpet_name}} |key=junkmail}}"
       }
     },
     {
@@ -465,6 +415,31 @@
       "Target": "Characters/Dialogue/Emily",
       "Entries": {
         "Sandy_lightbeverage": "{{i18n:Sandy_lightbeverageCT_Emily}}"
+      }
+    },
+    // Marnie Casks for Cheese Conversation Topic
+    {
+      "LogName": " Marnie Casks for Cheese Letter for CT",
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Marnie_CasksforCheese_Letter": "{{Random: {{i18n:letter_robinbuilding}}, {{i18n:letter_waterbugs}}, {{i18n:letter_saloon}}, {{i18n:letter_clinic}}, {{i18n:letter_Joja}}, {{i18n:letter_esquire}}, {{i18n:letter_carpet}}, {{i18n:letter_blacksmith}} |key=junkmail}}%item conversationTopic Marnie_casksforcheese 7 %%[#]{{Random: {{i18n:letter_robinbuilding_name}}, {{i18n:letter_waterbugs_name}}, {{i18n:letter_saloon_name}}, {{i18n:letter_clinic_name}}, {{i18n:letter_Joja_name}, {{i18n:letter_esquire_name}}, {{i18n:letter_carpet_name}}, {{i18n:letter_blacksmith_name}} |key=junkmail}}"
+      }
+    },
+    {
+      "LogName": "Marnie Casks for Cheese CT - Marnie",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Marnie",
+      "Entries": {
+        "Marnie_casksforcheese": "{{i18n:Marnie_casksforcheeseCT_Marnie}}"
+      }
+    },
+    {
+      "LogName": "Marnie Casks for Cheese CT - Jas",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Jas",
+      "Entries": {
+        "Marnie_casksforcheese": "{{i18n:Marnie_casksforcheeseCT_Jas}}"
       }
     },
   ]

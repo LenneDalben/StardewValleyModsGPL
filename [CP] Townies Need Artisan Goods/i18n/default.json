@@ -1,4 +1,5 @@
 {
+  // ***Order strings***
   // Abigail Sweet Pumpkin Strings
   "TowniesNeedArtisanGoods_Abigail_SweetPumpkin_Name": "Sweet Pumpkin",
   "TowniesNeedArtisanGoods_Abigail_SweetPumpkin_Text": "I'd love some pumpkin juice. Could someone bring me 3 bottles?",
@@ -215,7 +216,6 @@
   "TowniesNeedArtisanGoods_Marnie_CasksforCheese_Name": "Casks for Cheese",
   "TowniesNeedArtisanGoods_Marnie_CasksforCheese_Text": "Howdy neighbors! I'd love to get some casks to age cheese. Could someone bring me 5?",
   "TowniesNeedArtisanGoods_Marnie_CasksforCheese_Objective_Text_0": "Drop off 5 Casks by the hay bale in Marnie's Ranch",
-  /*"TowniesNeedArtisanGoods_Marnie_CasksforCheese_Message_0": "Thanks @! I'm looking forward to some fine cheese.$h",*/
   //
   //
   // Marnie Special Dinner Strings
@@ -344,6 +344,7 @@
   "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Message_0": "Many thanks, @!$h",
   //
   //
+  // ***Event and conversation topics strings***
   // Same Game Night Event Strings
   "events-27122021.01": "Hey, @, you made it!$h",
   "events-27122021.02": "Didn't Sam invite you?",
@@ -428,6 +429,8 @@
   "letter_saloon_name": "Saloon",
   "letter_blacksmith": "Do your tools no longer match in color? Shuffle on down to Clint's and he'll upgrade them for you!",
   "letter_blacksmith_name": "Blacksmith",
+  "letter_robinbuilding": "Do you look around your land and think, 'there aren't enough buildings'? Then stop by Robin's and she'll set you up with the edifices of your dreams!",
+  "letter_robinbuilding_name": "Robin Building",
   "letter_clinic": "Muscles aching after long hours chopping wood? Drop by Harvey's clinic and pick up a remedy!",
   "letter_clinic_name": "Clinic",
   "letter_Joja": "Are you tired of not contributing to a mega corporation? Join us and thrive at Joja! Tell your local Joja representative you are dying to get a membership, and if you already told him no, tell him you changed your mind!",
@@ -472,4 +475,9 @@
   // Sandy Light Beverage Topic Strings
   "Sandy_lightbeverageCT_Sandy": "Thanks again for bringing for the beers around!#$b#Emily and I had a nice time.$h",
   "Sandy_lightbeverageCT_Emily": "Sandy appreciated the beers. Thank @!#$b#It gave us an excuse to catch up, as if we need it.$h",
+  //
+  //
+  // Marnie Casks for Cheese Conversation Topic Strings
+  "Marnie_casksforcheeseCT_Marnie": "Thanks for the casks @! I'm looking forward to some fine cheese.$h",
+  "Marnie_casksforcheeseCT_Jas": "Aunt Marnie has some extra smelly cheese now.$3"
 }
