@@ -7,10 +7,10 @@ Source code is on GitHub: https://github.com/LenneDalben/StardewValleyModsGPL/tr
 
 
 ||Description||
-With Townies Need Artisan Goods (TNAG), villagers will ask for artisan goods, and reward you with gold and friendship. You'll have variable time to complete the special orders. For the full specifics, refer to the spoiler guide under Miscellaneous Files.
+With Townies Need Artisan Goods (TNAG), villagers will ask for artisan goods, and reward you with gold and friendship. You'll have variable time to complete the special orders. For the full specifics, refer to the spoiler guide.
 
 ||Background||
-The Diverse Stardew (DSV) server continues to provide excellent ideas. Special mention goes to Airyn and JeweledNebula, who provided a lot of ideas on what the special orders should be.
+The Diverse Stardew (DSV) server continues to provide excellent ideas and were discussing that artisan goods aren't used all that often, thus this mod was born. Special mention goes to Airyn and JeweledNebula, who provided a lot of ideas on what the special orders should be.
 
 
 ||Configuration||
@@ -18,10 +18,10 @@ Config Options
 Repeatable: true or false, default is true
 IncludeIslandContent: true or false, default is true. Toggle special orders requiring items from the island.
 OrderType: specify which types of special orders you'd like. By default, all are toggled: jelly, pickle, beer, wine, honey, mead, juice, roe, animal, machine, and misc.
-EasyMode: true or false, default is false. Specify if you want the 3 biggest special orders to be easier by requiring less items. The rewards are adjusted accordingly.
+EasyMode: true or false, default is false. Specify if you want the 3 biggest special orders to be easier by requiring less items. The rewards and duration are adjusted accordingly.
+EasterEgg: true or false, default is true. You will see slightly joke-y, slightly not lore-friendly rewards as part of the regular rewards for some orders. If you don't think you can briefly suspend disbelief, set it to false, and you won't see the orders with those rewards.
 
-
-With regards to the "sparseness" of the orders: some orders have seasonal checks, though not all of them. Refer to the spoiler guide for full details. The game picks from a pool of the available orders, so if you'd prefer to get through some of the vanilla special orders first, install this mod later in your playthrough.
+With regards to the "sparseness" of the orders: some orders have seasonal checks, though not all of them. Most have skill checks, and others have additional requirements like seeing a specific event. Refer to the spoiler guide for full details. The game picks from a pool of the available orders, so if you'd prefer to get through some of the vanilla special orders first, install this mod later in your playthrough.
 
 Note that the mod does not come packaged with a config file. The config file will be generated after you run the game with the mod installed at least once. 
 
@@ -29,12 +29,10 @@ Note that the mod does not come packaged with a config file. The config file wil
 ||Compatibility||
 TNAG will recognize if you have Quality Artisan Products installed, so special orders requiring quality wine and/or cheese will show up on the special orders board before you have the cellar upgrade.
 
-TNAG will also recognize if you have Dinosaur Replacement - Turtle by HohenHeizen installed, and for the special order related to dinosaurs, refer to them as turtles accordingly.
-
 
 ||Installation||
 1. Install SMAPI﻿ (version 3.9.0 or higher)
-2. Install Content Patcher (CP)  (version 1.24.0 or higher)
+2. Install Content Patcher (CP) (version 1.24.0 or higher)
 3. Unzip the mod folder of your choosing into Stardew Valley/Mods.
 4. Play the game using SMAPI!
 
@@ -50,20 +48,19 @@ Note that if the game was going to include special orders from TNAG in the next 
 
 
 ||Shout Outs||
-Airyn, for ideas and support.
-JeweledNebula, for ideas and support.
+Airyn, for so many ideas and lots of support.
+JeweledNebula, for so many ideas and lots of support.
 Calcite / CopperSun, for ideas and support.
 Pathoschild, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible either.
 atravita, for their help in the SDV server.
-Lumina, for their help in the SDV and DSV server. Also for the term "petal" for Marnie to call Jas.
-Lemurkat, for their help in the SDV server.
+Lumina, for their help in the SDV and DSV server.
+Lemurkat, for their help with brainstorming different ways to consolidate the code. Also for the term "petal" for Marnie to call Jas.
 elhrvy, for their help in the SDV server.
 existentialdread, for their help in the DSV server.
 Gervig, for sending me that test save for a different special order mod I was testing (Townies Need Food<https://www.moddrop.com/stardew-valley/mods/1032940-townies-need-food>). I used it for testing TNAG!
 Arknir, for fantastic mods like Lucikiel and Lavril. I referred to Lucikiel to figure out event works. Arknir, you're a legend <3
-HohenHeizen, for Dinosaur Replacement - Turtle https://www.nexusmods.com/stardewvalley/mods/2778
 The DSV server, the SMC server, and the #making-mods channel of the main Stardew Valley server as a whole.
 
 If you’re interested in a tutorial for how to create your own special order mods, I’ve written one here!<https://stardewmodding.wiki/wiki/Tutorial:_Adding_a_Special_Order>
 
-<https://stardewmodding.wiki/wiki/Recommendations_by_LenneDalben>
+Psst, interested in mod recommendations? Check out my list!<https://stardewmodding.wiki/wiki/Recommendations_by_LenneDalben>
