@@ -1296,7 +1296,7 @@
           "Name": "[TowniesNeedArtisanGoods_Krobus_PastyTreat_Name]",
           "Requester": "Krobus",
           "Duration": "Week",
-          "Repeatable": "{{RepeatableConfig}}",
+          "Repeatable": "False",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -1326,6 +1326,13 @@
             {
               "Type": "Friendship",
               "Data": {}
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "TowniesNeedArtisanGoods_Krobus_PastyTreat_Completed",
+                "NoLetter": "true"
+              }
             }
           ]
         }

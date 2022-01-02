@@ -78,6 +78,15 @@
         "Kent_jellyforpbj": "{{i18n:Kent_jellyforpbjCT_Vincent}}"
       }
     },
+    // Krobus Pasty Treat Event
+    {
+      "LogName": "Krobus Pasty Treat Event",
+      "Action": "EditData",
+      "Target": "Data/Events/Sewer",
+      "Entries": {
+        "35122021/n TowniesNeedArtisanGoods_Krobus_PastyTreat_Completed": "Icicles/-1000 -1000/farmer -100 -100 1 Krobus 17 14 1/addBigProp 18 14 65/addObject 18 13 308 1/skippable/viewport 18 16 true/pause 1000/playSound stairsdown/warp farmer 16 11/faceDirection farmer 2/emote Krobus 16/faceDirection Krobus 0/pause 300/speak Krobus \"{{i18n:events-35122021.01}}\"/faceDirection Krobus 1/pause 500/faceDirection Krobus 0/speak Krobus \"{{i18n:events-35122021.02}}\"/emote farmer 36/speak Krobus \"{{i18n:events-35122021.03}}\"/emote farmer 32 true/emote Krobus 32 true/move farmer 2 0 2/move farmer 0 2 2 true/faceDirection Krobus 1/globalFade/viewport -1000 -1000/end"
+      }
+    },
     // Leah Bees in the Meadow Event
     {
       "LogName": "Leah Bees in the Meadow Event",
