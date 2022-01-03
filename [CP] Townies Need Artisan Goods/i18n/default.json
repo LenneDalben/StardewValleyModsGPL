@@ -15,7 +15,7 @@
   // Alex Sweet Apple Order Strings
   "TowniesNeedArtisanGoods_Alex_SweetApple_Name": "Sweet Apple",
   "TowniesNeedArtisanGoods_Alex_SweetApple_Text": "Apple wine is special to me. Could someone bring me 7 bottles? Gold or iridium quality, please.",
-  "TowniesNeedArtisanGoods_Alex_SweetApple_Objective_Text_0": "Deliver 7 Apple Wine bottles to Alex (gold or iridium quality)",
+  "TowniesNeedArtisanGoods_Alex_SweetApple_Objective_Text_0": "Deliver 7 Apple Wine bottles (gold or iridium quality) to Alex",
   "TowniesNeedArtisanGoods_Alex_SweetApple_Message_0": "Quality apple wine is fantastic. Thanks @!$h",
   //
   // Alex Training Diet Order Strings
@@ -120,7 +120,7 @@
   // Gus Special Ingredient Order Strings
   "TowniesNeedArtisanGoods_Gus_SpecialIngredient_Name": "Special Ingredient",
   "TowniesNeedArtisanGoods_Gus_SpecialIngredient_Text": "The secret to my legendary pizzas is high quality cheese, gold or iridium. Could someone bring me 8?",
-  "TowniesNeedArtisanGoods_Gus_SpecialIngredient_Objective_Text_0": "Deliver 8 Cheese to Gus (gold or iridium quality)",
+  "TowniesNeedArtisanGoods_Gus_SpecialIngredient_Objective_Text_0": "Deliver 8 Cheese (gold or iridium quality) to Gus",
   "TowniesNeedArtisanGoods_Gus_SpecialIngredient_Message_0": "All this cheese looks great, thanks @!$h",
   //
   // Haley DIY Haircare Order Strings
@@ -144,13 +144,13 @@
   // Jodi Bass Aged Roe Order Strings
   "TowniesNeedArtisanGoods_Jodi_BassAgedRoe_Name": "Bass Aged Roe",
   "TowniesNeedArtisanGoods_Jodi_BassAgedRoe_Text": "My family are fans of bass, so I think aged roe would be good to try. Could someone bring me 4 jars of aged roe? Largemouth bass or smallmouth bass will do.",
-  "TowniesNeedArtisanGoods_Jodi_BassAgedRoe_Objective_Text_0": "Deliver 4 Aged Roe jars to Jodi (largemouth bass or smallmouth bass)",
+  "TowniesNeedArtisanGoods_Jodi_BassAgedRoe_Objective_Text_0": "Deliver 4 Aged Roe jars (largemouth bass or smallmouth bass) to Jodi",
   "TowniesNeedArtisanGoods_Jodi_BassAgedRoe_Message_0": "These look good, @.",
   //
   // Kent Jelly for PB&J Order Strings
   "TowniesNeedArtisanGoods_Kent_JellyforPBJ_Name": "Jelly for PB&J",
   "TowniesNeedArtisanGoods_Kent_JellyforPBJ_Text": "I'd love to make some peanut butter and jelly sandwiches for the boys. Could someone bring me 3 jars of jelly? Strawberry or grape only, please.",
-  "TowniesNeedArtisanGoods_Kent_JellyforPBJ_Objective_Text_0": "Deliver 4 Jelly jars to Kent (strawberry or grape)",
+  "TowniesNeedArtisanGoods_Kent_JellyforPBJ_Objective_Text_0": "Deliver 4 Jelly jars (strawberry or grape) to Kent",
   "TowniesNeedArtisanGoods_Kent_JellyforPBJ_Message_0": "Hmm?#$b#Thanks for these, @!$h",
   //
   // Krobus Pasty Treat Order Strings
@@ -206,7 +206,7 @@
   // Marnie Special Dinner Order Strings
   "TowniesNeedArtisanGoods_Marnie_SpecialDinner_Name": "Special Dinner",
   "TowniesNeedArtisanGoods_Marnie_SpecialDinner_Text": "Howdy neighbors! I'd like to mark a happy occasion with some excellent wine. Could someone bring me 2 bottles of gold or iridium quality wine?",
-  "TowniesNeedArtisanGoods_Marnie_SpecialDinner_Objective_Text_0": "Deliver 2 Wine bottles to Marnie (gold or iridium quality)",
+  "TowniesNeedArtisanGoods_Marnie_SpecialDinner_Objective_Text_0": "Deliver 2 Wine bottles (gold or iridium quality) to Marnie",
   "TowniesNeedArtisanGoods_Marnie_SpecialDinner_Message_0": "Thanks @!$h#$b#What's the occasion?#$b#That's private.$3",
   //
   // Maru Power for Project Default Order Strings
@@ -228,7 +228,7 @@
   // Penny Tie-Dye Project Order Strings
   "TowniesNeedArtisanGoods_Penny_Tie-DyeProject_Name": "Tie-Dye Project",
   "TowniesNeedArtisanGoods_Penny_Tie-DyeProject_Text": "Hi, Emily and I are tie-dying shirts with the children. Could someone bring me 4 bottles of beet juice or red cabbage juice, please?",
-  "TowniesNeedArtisanGoods_Penny_Tie-DyeProject_Objective_Text_0": "Deliver 4 Juice bottles to Penny (Beet or Red Cabbage)",
+  "TowniesNeedArtisanGoods_Penny_Tie-DyeProject_Objective_Text_0": "Deliver 4 Juice bottles (Beet or Red Cabbage) to Penny",
   "TowniesNeedArtisanGoods_Penny_Tie-DyeProject_Message_0": "Thanks @. These will work for our red dye.$h",
   //
   // Robin Cheesy Delight Order Strings
