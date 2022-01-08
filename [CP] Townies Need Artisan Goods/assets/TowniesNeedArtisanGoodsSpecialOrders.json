@@ -419,7 +419,7 @@
           "Name": "[TowniesNeedArtisanGoods_Elliott_ElegantQuill_Name]",
           "Requester": "Elliott",
           "Duration": "TwoWeeks",
-          "Repeatable": "{{RepeatableConfig}}",
+          "Repeatable": "False",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
@@ -462,7 +462,8 @@
       },
       "When": {
         "OrderType": "animal",
-        "Year | contains=1": false
+        "Year | contains=1": false,
+        "EasterEgg": true
       }
     },
     // Elliott Sweet Inspiration
