@@ -454,7 +454,7 @@
               "Type": "Mail",
               "Data": {
                 "MailReceived": "TowniesNeedArtisanGoods_Elliott_ElegantQuill_Letter",
-                "NoLetter": "true"
+                "NoLetter": "false"
               }
             }
           ]
