@@ -11,7 +11,9 @@
  <tileset firstgid="57" name="path" tilewidth="16" tileheight="16" tilecount="36" columns="4">
   <image source="paths" width="64" height="144"/>
  </tileset>
- <tileset firstgid="93" source="z_springobjects.png"/>
+ <tileset firstgid="93" name="springobjects" tilewidth="16" tileheight="16" tilecount="936" columns="24">
+  <image source="springobjects.png" width="384" height="624"/>
+ </tileset>
  <layer id="1" name="Back" width="16" height="10">
   <data encoding="csv">
 1,4,4,4,4,4,4,4,4,4,4,4,4,4,4,3,
