@@ -449,6 +449,13 @@
             {
               "Type": "Friendship",
               "Data": {}
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "TowniesNeedArtisanGoods_Elliott_ElegantQuill_Letter",
+                "NoLetter": "true"
+              }
             }
           ]
         }
