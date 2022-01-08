@@ -56,3 +56,8 @@ existentialdread, for their help in the DSV server.
 <a href="https://www.nexusmods.com/stardewvalley/users/24986819?tab=user+files">Gervig</a>, for sending me that test save for a different special order mod I was testing (<a href="https://www.moddrop.com/stardew-valley/mods/1032940-townies-need-food">Townies Need Food</a>). I used it for testing TNAG!
 <a href="https://www.nexusmods.com/stardewvalley/users/92469153?tab=user+files">Arknir</a>, for fantastic mods like Lucikiel and Lavril. I referred to Lucikiel to figure out event works. Arknir, you're a legend~
 The DSV server, the SMC server, and the #making-mods channel of the main Stardew Valley server as a whole.
+
+In Progress Changelog:
+* Updated Objective strings so that qualifiers in parentheses were after the object they qualified, for clarity.
+* Added extra reward for Elliott Elegant Quill, made it not repeatable, and added it to the EasterEgg list. Updated spoiler guide accordingly.
+* Updated some strings for EasterEgg so it shows up better.
