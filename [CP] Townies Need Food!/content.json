@@ -43,6 +43,14 @@
       "Action": "Include",
       "FromFile": "assets/TowniesNeedFoodSpecialOrders.json"
     },
+    {
+      "LogName": "Include Townies Need Food Orders",
+      "Action": "Include",
+      "FromFile": "assets/TowniesNeedFoodLoveofCookingSpecialOrders.json",
+      "When": {
+        "HasMod": "blueberry.LoveOfCooking"
+      }
+    },
     // Strings below
     // Strings Abigail Sweet and Spicy
     {
@@ -571,6 +579,26 @@
         "TowniesNeedFood_Wizard_ProtectivePasta_Objective_Text_0": "{{i18n:TowniesNeedFood_Wizard_ProtectivePasta_Objective_Text_0}}",
         "TowniesNeedFood_Wizard_ProtectivePasta_Message_0": "{{i18n:TowniesNeedFood_Wizard_ProtectivePasta_Message_0}}"
       }
-    }
+    },
+    //
+    //
+    // Love of Cooking (LoC) Integration
+    // Strings Caroline Side Dishes
+    {
+      "LogName": "Strings Caroline Side Dishes LoC",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Caroline_SideDishesLoC_Name": "{{i18n:TowniesNeedFood_Caroline_SideDishesLoC_Name}}",
+        "TowniesNeedFood_Caroline_SideDishesLoC_Text": "{{i18n:TowniesNeedFood_Caroline_SideDishesLoC_Text}}",
+        "TowniesNeedFood_Caroline_SideDishesLoC_Objective_Text_0": "{{i18n:TowniesNeedFood_Caroline_SideDishesLoC_Objective_Text_0}}",
+        "TowniesNeedFood_Caroline_SideDishesLoC_Objective_Text_1": "{{i18n:TowniesNeedFood_Caroline_SideDishesLoC_Objective_Text_1}}",
+        "TowniesNeedFood_Caroline_SideDishesLoC_Message_0": "{{i18n:TowniesNeedFood_Caroline_SideDishesLoC_Message_0}}",
+        "TowniesNeedFood_Caroline_SideDishesLoC_Message_1": "{{i18n:TowniesNeedFood_Caroline_SideDishesLoC_Message_1}}"
+      },
+      "When": {
+        "HasMod": "blueberry.LoveOfCooking"
+      }
+    },
   ]
 }

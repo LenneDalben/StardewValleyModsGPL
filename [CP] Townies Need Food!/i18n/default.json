@@ -303,5 +303,15 @@
   "TowniesNeedFood_Wizard_ProtectivePasta_Name": "Protective Pasta",
   "TowniesNeedFood_Wizard_ProtectivePasta_Text": "Local wizard in search of squid ink ravioli. It has the most fascinating properties I have encountered in food.",
   "TowniesNeedFood_Wizard_ProtectivePasta_Objective_Text_0": "Deliver Squid Ink Ravioli to Wizard",
-  "TowniesNeedFood_Wizard_ProtectivePasta_Message_0": "Thank you @!$h#$b#This will come in handy in my travels.$h"
+  "TowniesNeedFood_Wizard_ProtectivePasta_Message_0": "Thank you @!$h#$b#This will come in handy in my travels.$h",
+  //
+  //
+  // Love of Cooking (LoC) Integration
+  // Caroline Side Dishes LoC Strings
+  "TowniesNeedFood_Caroline_SideDishesLoC_Name": "Side Dishes",
+  "TowniesNeedFood_Caroline_SideDishesLoC_Text": "I think stuffed potatoes and onion soup will go well with dinner. Can anyone bring me some?",
+  "TowniesNeedFood_Caroline_SideDishesLoC_Objective_Text_0": "Deliver Stuffed Potato to Caroline",
+  "TowniesNeedFood_Caroline_SideDishesLoC_Objective_Text_1": "Deliver Onion Soup to Caroline",
+  "TowniesNeedFood_Caroline_SideDishesLoC_Message_0": "The mushrooms are a nice touch aren't they?#$b#Thanks @!",
+  "TowniesNeedFood_Caroline_SideDishesLoC_Message_1": "I really like the earthy flavor of onion soup.#$b#Thanks @!",
 }
