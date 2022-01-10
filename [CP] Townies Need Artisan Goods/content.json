@@ -740,6 +740,23 @@
         "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Objective_Text_0}}",
         "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Message_0": "{{i18n:TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Message_0}}"
       }
-    }
+    },
+    //
+    //
+    // Host Trees Strings
+    // Strings Caroline Delicate Orchids Host Trees
+    {
+      "LogName": "Strings Caroline Delicate Orchids Host Trees",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Name": "{{i18n:TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Name}}",
+        "TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Text": "{{i18n:TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Text}}",
+        "TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Objective_Text_0}}"
+      },
+      "When": {
+        "HasMod": "tiakall.hosttrees"
+      }
+    },
   ]
 }

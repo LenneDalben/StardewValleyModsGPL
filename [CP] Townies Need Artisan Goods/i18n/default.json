@@ -306,6 +306,13 @@
   "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Message_0": "Many thanks, @! I'll be sure to analyze this for underworld qualities.$h",
   //
   //
+  // Host Trees Order Strings
+  // Caroline Delicate Orchids Host Trees Strings  
+  "TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Name": "Delicate Orchids",
+  "TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Text": "I'd love to add vanilla orchid pots to my sunroom. Can someone bring me 2?",
+  "TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Objective_Text_0": "Drop off 2 Vanilla Orchid Pots in the empty box in Pierre's shop",
+  //
+  //
   // ***Event and conversation topics strings***
   // Same Game Night Event Strings
   "events-27122021.01": "Hey, @, you made it!$h",
@@ -379,7 +386,7 @@
   "Willy_mildlysaltyCT_Elliott": "I'm glad Gus was lenient on the outside food policy.#$b#It's not wise to be on the bartender's bad side!$h#$b#Or the chef's, and he is both.$2",
   //
   // Letter Strings
-  "letter_waterbugs": "Do you have termites, water bugs and roaches? The Parsons Bug Squashers will take care of you needs! Call us at     *the company phone number is smeared*",
+  "letter_waterbugs": "Do you have termites, water bugs and roaches? Parsons Pest Control will take care of your needs! Call us at     *the company phone number is smeared*",
   "letter_waterbugs_name": "Waterbugs",
   "letter_saloon": "Are you craving some good eating? Come by Gus' saloon for the best spaghetti money can buy!",
   "letter_saloon_name": "Saloon",

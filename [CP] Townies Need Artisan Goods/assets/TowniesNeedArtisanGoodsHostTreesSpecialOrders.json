@@ -1,0 +1,54 @@
+{
+  "Changes": [
+    // Caroline Delicate Orchids Host Trees
+    {
+      "LogName": "Caroline Delicate Orchids Host Trees",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Caroline_DelicateOrchids": {
+          "Name": "[TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Name]",
+          "Requester": "Caroline",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "season_summer",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "[TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Objective_Text_0]",
+              "RequiredCount": "2",
+              "Data": {
+                "DropBox": "PierreBox",
+                "DropBoxGameLocation": "SeedShop",
+                "DropBoxIndicatorLocation": "18.5 27",
+                "AcceptedContextTags": "item_vanilla_orchid_pot"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1160"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "HasMod": "tiakall.hosttrees",
+        "Hearts:Sandy": "5, 6, 7, 8, 9, 10"
+      }
+    },
+  ]
+}
