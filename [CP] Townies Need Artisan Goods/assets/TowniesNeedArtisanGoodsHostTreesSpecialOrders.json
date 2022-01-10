@@ -11,7 +11,7 @@
           "Requester": "Caroline",
           "Duration": "Week",
           "Repeatable": "False",
-          "RequiredTags": "season_summer",
+          "RequiredTags": "season_summer, !dropbox_PierreBox",
           "OrderType": "",
           "SpecialRule": "",
           "Text": "[TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Text]",
