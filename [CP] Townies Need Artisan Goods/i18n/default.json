@@ -216,7 +216,7 @@
   "TowniesNeedArtisanGoods_Maru_PowerforProject_Message_0": "Woo, this will help a ton. Thanks @!",
   //
   // Maru Power for Project Easy Mode Order Strings
-    "TowniesNeedArtisanGoods_Maru_PowerforProjectE_Text": "Could someone bring me 10 batteries? I need a lot of power for my next project.",
+  "TowniesNeedArtisanGoods_Maru_PowerforProjectE_Text": "Could someone bring me 10 batteries? I need a lot of power for my next project.",
   "TowniesNeedArtisanGoods_Maru_PowerforProjectE_Objective_Text_0": "Deliver 10 Batteries to Maru",
   //
   // Pam Preserved Parsnip Order Strings
@@ -306,7 +306,7 @@
   "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Message_0": "Many thanks, @! I'll be sure to analyze this for underworld qualities.$h",
   //
   //
-  // Host Trees Order Strings
+  // ***Host Trees order strings***
   // Caroline Delicate Orchids Host Trees Strings  
   "TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Name": "Delicate Orchids",
   "TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Text": "I'd love to add vanilla orchid pots to my sunroom. Can someone bring me 2?",
@@ -386,24 +386,24 @@
   "Willy_mildlysaltyCT_Elliott": "I'm glad Gus was lenient on the outside food policy.#$b#It's not wise to be on the bartender's bad side!$h#$b#Or the chef's, and he is both.$2",
   //
   // Letter Strings
-  "letter_waterbugs": "Do you have termites, water bugs and roaches? Parsons Pest Control will take care of your needs! Call us at     *the company phone number is smeared*",
   "letter_waterbugs_name": "Waterbugs",
-  "letter_saloon": "Are you craving some good eating? Come by Gus' saloon for the best spaghetti money can buy!",
+  "letter_waterbugs": "Do you have termites, water bugs and roaches? Parsons Pest Control will take care of your needs! Call us at     *the company phone number is smeared*",
   "letter_saloon_name": "Saloon",
-  "letter_blacksmith": "Do your tools no longer match in color? Shuffle on down to Clint's and he'll upgrade them for you!",
+  "letter_saloon": "Are you craving some good eating? Come by Gus' saloon for the best spaghetti money can buy!",
   "letter_blacksmith_name": "Blacksmith",
-  "letter_robinbuilding": "Do you look around your land and think, there aren't enough buildings? Then stop by Robin's and she'll set you up with the edifices of your dreams!",
+  "letter_blacksmith": "Do your tools no longer match in color? Shuffle on down to Clint's and he'll upgrade them for you!",
   "letter_robinbuilding_name": "Robin Building",
-  "letter_clinic": "Muscles aching after long hours of chopping wood? Drop by Harvey's clinic and pick up a remedy!",
+  "letter_robinbuilding": "Do you look around your land and think, there aren't enough buildings? Then stop by Robin's and she'll set you up with the edifices of your dreams!",
   "letter_clinic_name": "Clinic",
-  "letter_Joja": "Are you tired of not contributing to a mega corporation? Join us and thrive at Joja! Tell your local Joja representative you are dying to get a membership, and if you already told him no, tell him you changed your mind!",
+  "letter_clinic": "Muscles aching after long hours of chopping wood? Drop by Harvey's clinic and pick up a remedy!",
   "letter_Joja_name": "Joja",
-  "letter_esquire": "Did you get hurt in an accident? Call the Ferngill Esquire Association so they can connect you to a law firm at     *the phone number is torn from the flyer*",
+  "letter_Joja": "Are you tired of not contributing to a mega corporation? Join us and thrive at Joja! Tell your local Joja representative you are dying to get a membership, and if you already told him no, tell him you changed your mind!",
   "letter_esquire_name": "Esquire",
-  "letter_carpet": "Sick of the carpeting in your home? Tell Ferngill Better Living what you're looking for and we'll install it for no money down at     *for some reason the last part of this is in a language you don't understand*",
+  "letter_esquire": "Did you get hurt in an accident? Call the Ferngill Esquire Association so they can connect you to a law firm at     *the phone number is torn from the flyer*",
   "letter_carpet_name": "Carpeting",
-  "letter_yoba": "Have you heard the good word of Yoba?",
+  "letter_carpet": "Sick of the carpeting in your home? Tell Ferngill Better Living what you're looking for and we'll install it for no money down at     *for some reason the last part of this is in a language you don't understand*",
   "letter_yoba_name": "Yoba",
+  "letter_yoba": "Have you heard the good word of Yoba?",
   //
   // Leah Bees in the Meadow Conversation Topic Strings
   "Leah_beesinthemeadowCT": "Thanks, @! These should make some bees happy.$h",
@@ -452,5 +452,13 @@
   // Sandy Light Beverage Topic Strings
   "Sandy_lightbeverageCT_Sandy": "Thanks again for bringing for the beers around!#$b#Emily and I had a nice time.$h",
   "Sandy_lightbeverageCT_Emily": "Sandy appreciated the beers. Thanks @!#$b#It gave us an excuse to catch up, as if we need it.$h",
-  "Sandy_lightbeverageCT_Haley": "It was nice to have the house to myself for a while.#$b#It's great Emily has Sandy to visit."
+  "Sandy_lightbeverageCT_Haley": "It was nice to have the house to myself for a while.#$b#It's great Emily has Sandy to visit.",
+  //
+  //
+  // ***Host Trees events and conversation topics strings***
+  "letter_caroline_delicateorchids_name": "Caroline Delicate Orchids",
+  "letter_caroline_delicateorchids": "Hi @,^Thanks for the orchids! I know just which plants to put the orchids under so that they still get some shade.^-Caroline",
+  "Caroline_delicateorchidsCT_Caroline": "Thanks again for the orchids!#$b#They look quite happy in partial shade.",
+  "Caroline_delicateorchidsCT_Abby": "Something smells really good out of my mom's sunroom...$3",
+  "Caroline_delicateorchidsCT_Pierre": "The orchids you gave Caroline seem to make her smile a lot.#$b#Thank you for that, I'm glad to see her happy!$h"
 }

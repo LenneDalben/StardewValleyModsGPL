@@ -41,6 +41,13 @@
             {
               "Type": "Friendship",
               "Data": {}
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Letter",
+                "NoLetter": "true"
+              }
             }
           ]
         }

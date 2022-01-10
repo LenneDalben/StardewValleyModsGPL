@@ -1,0 +1,40 @@
+{
+  "Changes": [
+    // EVENTS WOOT
+    //
+    // CONVERSATION TOPICS WOOT
+    // Caroline Delicate Orchids Host Trees Topic
+    /*Letter*/ {
+      "LogName": "Caroline Delicate Orchids Host Trees Letter for CT",
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Letter": "{{i18n:letter_caroline_delicateorchids}}%item conversationTopic Caroline_delicateorchids 7 %%[#]{{i18n:letter_caroline_delicateorchids_name}}"
+      }
+    },
+    /*Caroline CT*/ {
+      "LogName": "Caroline Delicate Orchids Host Trees CT - Caroline",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Caroline",
+      "Entries": {
+        "Caroline_delicateorchids": "{{i18n:Caroline_delicateorchidsCT_Caroline}}"
+      }
+    },
+    /*Abigail CT*/ {
+      "LogName": "Caroline Delicate Orchids Host Trees CT - Abby",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Abigail",
+      "Entries": {
+        "Caroline_delicateorchids": "{{i18n:Caroline_delicateorchidsCT_Abby}}"
+      }
+    },
+    /*Pierre CT*/ {
+      "LogName": "Caroline Delicate Orchids Host Trees CT - Pierre",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Pierre",
+      "Entries": {
+        "Caroline_delicateorchids": "{{i18n:Caroline_delicateorchidsCT_Pierre}}"
+      }
+    }
+  ]
+}
