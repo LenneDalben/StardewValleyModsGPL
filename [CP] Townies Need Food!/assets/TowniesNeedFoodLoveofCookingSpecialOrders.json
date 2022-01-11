@@ -244,5 +244,66 @@
         "HasMod": "blueberry.LoveOfCooking"
       }
     },
+    // Emily Lunch and Dessert LoC
+    {
+      "LogName": "Emily Lunch and Dessert LoC",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Emily_LunchandDessertLoC": {
+          "Name": "[TowniesNeedFood_Emily_LunchandDessertLoC_Name]",
+          "Requester": "Emily",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "season_fall",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Emily_LunchandDessertLoC_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Emily_LunchandDessertLoC_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_blueberry.cac.burger",
+                "Message": "[TowniesNeedFood_Emily_LunchandDessertLoC_Message_0]",
+                "TargetName": "Emily"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Emily_LunchandDessertLoC_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_blueberry.cac.cake",
+                "Message": "[TowniesNeedFood_Emily_LunchandDessertLoC_Message_1]",
+                "TargetName": "Emily"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "870"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "PlayerHasKitchen": true,
+        "HasCookingRecipe |contains=blueberry.cac.burger": "true",
+        "HasCookingRecipe |contains=blueberry.cac.cake": "true",
+        "HasMod": "blueberry.LoveOfCooking"
+      }
+    },
   ]
 }

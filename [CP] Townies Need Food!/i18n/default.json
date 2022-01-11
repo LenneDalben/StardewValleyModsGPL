@@ -335,4 +335,11 @@
   "TowniesNeedFood_Elliott_DinnerVarietyLoC_Objective_Text_1": "Deliver Admiral Pie to Elliott",
   "TowniesNeedFood_Elliott_DinnerVarietyLoC_Message_0": "This will work for several meals, thanks @!",
   "TowniesNeedFood_Elliott_DinnerVarietyLoC_Message_1": "The pie is not just saucy, it's scrumptious!$h",
+  // Emily Lunch and Dessert LoC Strings
+  "TowniesNeedFood_Emily_LunchandDessertLoC_Name": "Lunch and Dessert",
+  "TowniesNeedFood_Emily_LunchandDessertLoC_Text": "I think stuffed potatoes and onion soup will go well with dinner. Can anyone bring me some?",
+  "TowniesNeedFood_Emily_LunchandDessertLoC_Objective_Text_0": "Deliver Beet Burger to Emily",
+  "TowniesNeedFood_Emily_LunchandDessertLoC_Objective_Text_1": "Deliver Cake to Emily",
+  "TowniesNeedFood_Emily_LunchandDessertLoC_Message_0": "This is a delicious flavor blend with dazzling color!",
+  "TowniesNeedFood_Emily_LunchandDessertLoC_Message_1": "This is a lovely sponge cake. Thanks @!",
 }

@@ -651,5 +651,22 @@
         "HasMod": "blueberry.LoveOfCooking"
       }
     },
+    // Strings Emily Lunch and Dessert LoC
+    {
+      "LogName": "Strings Emily Lunch and Dessert LoC",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Emily_LunchandDessertLoC_Name": "{{i18n:TowniesNeedFood_Emily_LunchandDessertLoC_Name}}",
+        "TowniesNeedFood_Emily_LunchandDessertLoC_Text": "{{i18n:TowniesNeedFood_Emily_LunchandDessertLoC_Text}}",
+        "TowniesNeedFood_Emily_LunchandDessertLoC_Objective_Text_0": "{{i18n:TowniesNeedFood_Emily_LunchandDessertLoC_Objective_Text_0}}",
+        "TowniesNeedFood_Emily_LunchandDessertLoC_Objective_Text_1": "{{i18n:TowniesNeedFood_Emily_LunchandDessertLoC_Objective_Text_1}}",
+        "TowniesNeedFood_Emily_LunchandDessertLoC_Message_0": "{{i18n:TowniesNeedFood_Emily_LunchandDessertLoC_Message_0}}",
+        "TowniesNeedFood_Emily_LunchandDessertLoC_Message_1": "{{i18n:TowniesNeedFood_Emily_LunchandDessertLoC_Message_1}}"
+      },
+      "When": {
+        "HasMod": "blueberry.LoveOfCooking"
+      }
+    },
   ]
 }
