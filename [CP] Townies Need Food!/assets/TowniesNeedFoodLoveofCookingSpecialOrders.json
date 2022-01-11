@@ -1,31 +1,31 @@
 {
   "Changes": [
-    // Caroline Side Dishes
+    // Caroline Side Dishes LoC
     {
-      "LogName": "Caroline Side Dishes LoC", // Name here makes it easier to see the patch in the log
+      "LogName": "Caroline Side Dishes LoC",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
         "TowniesNeedFood_Caroline_SideDishesLoC": {
-          "Name": "[TowniesNeedFood_Caroline_SideDishesLoC_Name]", // This is where the special order name is pulled from
+          "Name": "[TowniesNeedFood_Caroline_SideDishesLoC_Name]",
           "Requester": "Caroline",
           "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "season_spring",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesNeedFood_Caroline_SideDishesLoC_Text]", // The text shown on the special order board and the journal
+          "Text": "[TowniesNeedFood_Caroline_SideDishesLoC_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Caroline_SideDishesLoC_Objective_Text_0]", // The text for the objective in the journal
+              "Text": "[TowniesNeedFood_Caroline_SideDishesLoC_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
                 "AcceptedContextTags": "item_blueberry.cac.stuffedpotato",
-                "Message": "[TowniesNeedFood_Caroline_SideDishesLoC_Message_0]", // What the NPC says when you deliver the item
+                "Message": "[TowniesNeedFood_Caroline_SideDishesLoC_Message_0]",
                 "TargetName": "Caroline"
               }
             },
