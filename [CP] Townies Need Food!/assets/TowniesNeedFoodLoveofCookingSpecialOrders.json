@@ -61,7 +61,6 @@
         "HasMod": "blueberry.LoveOfCooking"
       }
     },
-    
     // Clint Quick Start LoC
     {
       "LogName": "Clint Quick Start LoC",
@@ -118,8 +117,8 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.cac.stuffedpotato": "true",
-        "HasCookingRecipe |contains=blueberry.cac.onionsoup": "true",
+        "HasCookingRecipe |contains=blueberry.cac.burrito": "true",
+        "HasCookingRecipe |contains=blueberry.cac.quickbreakfast": "true",
         "HasMod": "blueberry.LoveOfCooking"
       }
     }
