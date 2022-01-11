@@ -60,6 +60,68 @@
         "HasCookingRecipe |contains=blueberry.cac.onionsoup": "true",
         "HasMod": "blueberry.LoveOfCooking"
       }
+    },
+    
+    // Clint Quick Start LoC
+    {
+      "LogName": "Clint Quick Start LoC",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Clint_QuickStartLoC": {
+          "Name": "[TowniesNeedFood_Clint_QuickStartLoC_Name]",
+          "Requester": "Clint",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "season_summer",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Clint_QuickStartLoC_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Clint_QuickStartLoC_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_blueberry.cac.burrito",
+                "Message": "[TowniesNeedFood_Clint_QuickStartLoC_Message_0]",
+                "TargetName": "Clint"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Clint_QuickStartLoC_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_blueberry.cac.quickbreakfast",
+                "Message": "[TowniesNeedFood_Clint_QuickStartLoC_Message_1]",
+                "TargetName": "Clint"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1110"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "PlayerHasKitchen": true,
+        "HasCookingRecipe |contains=blueberry.cac.stuffedpotato": "true",
+        "HasCookingRecipe |contains=blueberry.cac.onionsoup": "true",
+        "HasMod": "blueberry.LoveOfCooking"
+      }
     }
   ]
 }

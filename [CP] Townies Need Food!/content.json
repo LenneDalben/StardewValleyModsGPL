@@ -600,5 +600,22 @@
         "HasMod": "blueberry.LoveOfCooking"
       }
     },
+    // Strings Clint Quick Start LoC
+    {
+      "LogName": "Strings Clint Quick Start LoC",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Clint_QuickStartLoC_Name": "{{i18n:TowniesNeedFood_Clint_QuickStartLoC_Name}}",
+        "TowniesNeedFood_Clint_QuickStartLoC_Text": "{{i18n:TowniesNeedFood_Clint_QuickStartLoC_Text}}",
+        "TowniesNeedFood_Clint_QuickStartLoC_Objective_Text_0": "{{i18n:TowniesNeedFood_Clint_QuickStartLoC_Objective_Text_0}}",
+        "TowniesNeedFood_Clint_QuickStartLoC_Objective_Text_1": "{{i18n:TowniesNeedFood_Clint_QuickStartLoC_Objective_Text_1}}",
+        "TowniesNeedFood_Clint_QuickStartLoC_Message_0": "{{i18n:TowniesNeedFood_Clint_QuickStartLoC_Message_0}}",
+        "TowniesNeedFood_Clint_QuickStartLoC_Message_1": "{{i18n:TowniesNeedFood_Clint_QuickStartLoC_Message_1}}"
+      },
+      "When": {
+        "HasMod": "blueberry.LoveOfCooking"
+      }
+    },
   ]
 }

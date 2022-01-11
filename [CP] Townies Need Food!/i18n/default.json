@@ -314,4 +314,11 @@
   "TowniesNeedFood_Caroline_SideDishesLoC_Objective_Text_1": "Deliver Onion Soup to Caroline",
   "TowniesNeedFood_Caroline_SideDishesLoC_Message_0": "The mushrooms are a nice touch aren't they?#$b#Thanks @!",
   "TowniesNeedFood_Caroline_SideDishesLoC_Message_1": "I really like the earthy flavor of onion soup.#$b#Thanks @!",
+  // Clint Quick Start LoC Strings
+  "TowniesNeedFood_Clint_QuickStartLoC_Name": "Quick Start",
+  "TowniesNeedFood_Clint_QuickStartLoC_Text": "I'm trying to prepare for breakfast. Can someone bring me a burrito and a quick breakfast?",
+  "TowniesNeedFood_Clint_QuickStartLoC_Objective_Text_0": "Deliver Burrito to Clint",
+  "TowniesNeedFood_Clint_QuickStartLoC_Objective_Text_1": "Deliver Quick Breakfast to Clint",
+  "TowniesNeedFood_Clint_QuickStartLoC_Message_0": "It's a good wrap, isn't it? Thanks @!$h",
+  "TowniesNeedFood_Clint_QuickStartLoC_Message_1": "The jump start I needed. Thanks @!$h",
 }
