@@ -328,4 +328,11 @@
   "TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Objective_Text_1": "Deliver Egg Sandwich to Demetrius",
   "TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Message_0": "That's a fine blueberry drizzle.#$b#Thanks @!$h",
   "TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Message_1": "It's truly perfectly seasoned.#$b#Thanks @!$h",
+  // Elliott Dinner Variety LoC Strings
+  "TowniesNeedFood_Elliott_DinnerVarietyLoC_Name": "Dinner Variety",
+  "TowniesNeedFood_Elliott_DinnerVarietyLoC_Text": "I'd love to have some variety for dinner. Can someone bring me cabbage pot and admiral pie?",
+  "TowniesNeedFood_Elliott_DinnerVarietyLoC_Objective_Text_0": "Deliver Cabbage Pot to Elliott",
+  "TowniesNeedFood_Elliott_DinnerVarietyLoC_Objective_Text_1": "Deliver Admiral Pie to Elliott",
+  "TowniesNeedFood_Elliott_DinnerVarietyLoC_Message_0": "This will work for several meals, thanks @!",
+  "TowniesNeedFood_Elliott_DinnerVarietyLoC_Message_1": "The pie is not just saucy, it's scrumptious!$h",
 }

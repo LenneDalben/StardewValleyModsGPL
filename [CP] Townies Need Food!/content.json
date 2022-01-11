@@ -634,5 +634,22 @@
         "HasMod": "blueberry.LoveOfCooking"
       }
     },
+    // Strings Elliott Dinner Variety LoC
+    {
+      "LogName": "Strings Elliott Dinner Variety LoC",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Elliott_DinnerVarietyLoC_Name": "{{i18n:TowniesNeedFood_Elliott_DinnerVarietyLoC_Name}}",
+        "TowniesNeedFood_Elliott_DinnerVarietyLoC_Text": "{{i18n:TowniesNeedFood_Elliott_DinnerVarietyLoC_Text}}",
+        "TowniesNeedFood_Elliott_DinnerVarietyLoC_Objective_Text_0": "{{i18n:TowniesNeedFood_Elliott_DinnerVarietyLoC_Objective_Text_0}}",
+        "TowniesNeedFood_Elliott_DinnerVarietyLoC_Objective_Text_1": "{{i18n:TowniesNeedFood_Elliott_DinnerVarietyLoC_Objective_Text_1}}",
+        "TowniesNeedFood_Elliott_DinnerVarietyLoC_Message_0": "{{i18n:TowniesNeedFood_Elliott_DinnerVarietyLoC_Message_0}}",
+        "TowniesNeedFood_Elliott_DinnerVarietyLoC_Message_1": "{{i18n:TowniesNeedFood_Elliott_DinnerVarietyLoC_Message_1}}"
+      },
+      "When": {
+        "HasMod": "blueberry.LoveOfCooking"
+      }
+    },
   ]
 }

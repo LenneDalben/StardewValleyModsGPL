@@ -182,6 +182,67 @@
         "HasCookingRecipe |contains=blueberry.cac.eggsando": "true",
         "HasMod": "blueberry.LoveOfCooking"
       }
-    }
+    },
+    // Elliott Dinner Variety LoC
+    {
+      "LogName": "Elliott Dinner Variety LoC",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Elliott_DinnerVarietyLoC": {
+          "Name": "[TowniesNeedFood_Elliott_DinnerVarietyLoC_Name]",
+          "Requester": "Elliott",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "season_summer",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Elliott_DinnerVarietyLoC_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Elliott_DinnerVarietyLoC_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_blueberry.cac.cabbagepot",
+                "Message": "[TowniesNeedFood_Elliott_DinnerVarietyLoC_Message_0]",
+                "TargetName": "Elliott"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Elliott_DinnerVarietyLoC_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_blueberry.cac.admiralpie",
+                "Message": "[TowniesNeedFood_Elliott_DinnerVarietyLoC_Message_1]",
+                "TargetName": "Elliott"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1380"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "PlayerHasKitchen": true,
+        "HasCookingRecipe |contains=blueberry.cac.cabbagepot": "true",
+        "HasCookingRecipe |contains=blueberry.cac.admiralpie": "true",
+        "HasMod": "blueberry.LoveOfCooking"
+      }
+    },
   ]
 }
