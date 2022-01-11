@@ -121,6 +121,67 @@
         "HasCookingRecipe |contains=blueberry.cac.quickbreakfast": "true",
         "HasMod": "blueberry.LoveOfCooking"
       }
+    },
+    // Demetrius Breakfast and Lunch LoC
+    {
+      "LogName": "Demetrius Breakfast and Lunch LoC",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Demetrius_BreakfastandLunchLoC": {
+          "Name": "[TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Name]",
+          "Requester": "Demetrius",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "season_summer",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_blueberry.cac.waffles",
+                "Message": "[TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Message_0]",
+                "TargetName": "Demetrius"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_blueberry.cac.eggsando",
+                "Message": "[TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Message_1]",
+                "TargetName": "Demetrius"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1710"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "PlayerHasKitchen": true,
+        "HasCookingRecipe |contains=blueberry.cac.waffles": "true",
+        "HasCookingRecipe |contains=blueberry.cac.eggsando": "true",
+        "HasMod": "blueberry.LoveOfCooking"
+      }
     }
   ]
 }

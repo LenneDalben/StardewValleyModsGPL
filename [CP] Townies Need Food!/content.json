@@ -617,5 +617,22 @@
         "HasMod": "blueberry.LoveOfCooking"
       }
     },
+    // Strings Demetrius Breakfast and Lunch LoC
+    {
+      "LogName": "Strings Demetrius Breakfast and Lunch LoC",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Name": "{{i18n:TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Name}}",
+        "TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Text": "{{i18n:TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Text}}",
+        "TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Objective_Text_0": "{{i18n:TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Objective_Text_0}}",
+        "TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Objective_Text_1": "{{i18n:TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Objective_Text_1}}",
+        "TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Message_0": "{{i18n:TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Message_0}}",
+        "TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Message_1": "{{i18n:TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Message_1}}"
+      },
+      "When": {
+        "HasMod": "blueberry.LoveOfCooking"
+      }
+    },
   ]
 }

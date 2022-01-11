@@ -321,4 +321,11 @@
   "TowniesNeedFood_Clint_QuickStartLoC_Objective_Text_1": "Deliver Quick Breakfast to Clint",
   "TowniesNeedFood_Clint_QuickStartLoC_Message_0": "It's a good wrap, isn't it? Thanks @!$h",
   "TowniesNeedFood_Clint_QuickStartLoC_Message_1": "The jump start I needed. Thanks @!$h",
+  // Demetrius Breakfast and Lunch LoC Strings
+  "TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Name": "Breakfast and Lunch",
+  "TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Text": "Greetings! I'm craving berry waffles and an egg sandwich. Can someone bring me one of each? Thanks!",
+  "TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Objective_Text_0": "Deliver Berry Waffles to Demetrius",
+  "TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Objective_Text_1": "Deliver Egg Sandwich to Demetrius",
+  "TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Message_0": "That's a fine blueberry drizzle.#$b#Thanks @!$h",
+  "TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Message_1": "It's truly perfectly seasoned.#$b#Thanks @!$h",
 }
