@@ -427,5 +427,66 @@
         "HasMod": "blueberry.LoveOfCooking"
       }
     },
+    // Gus Hot & Calm Combo LoC
+    {
+      "LogName": "Gus Hot & Calm Combo LoC",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Gus_HotandCalmComboLoC": {
+          "Name": "[TowniesNeedFood_Gus_HotandCalmComboLoC_Name]",
+          "Requester": "Gus",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Gus_HotandCalmComboLoC_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Gus_HotandCalmComboLoC_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_blueberry.cac.curry",
+                "Message": "[TowniesNeedFood_Gus_HotandCalmComboLoC_Message_0]",
+                "TargetName": "Gus"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Gus_HotandCalmComboLoC_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_blueberry.cac.bakedpotato",
+                "Message": "[TowniesNeedFood_Gus_HotandCalmComboLoC_Message_1]",
+                "TargetName": "Gus"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "780"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "PlayerHasKitchen": true,
+        "HasCookingRecipe |contains=blueberry.cac.curry": "true",
+        "HasCookingRecipe |contains=blueberry.cac.bakedpotato": "true",
+        "HasMod": "blueberry.LoveOfCooking"
+      }
+    },
   ]
 }

@@ -356,4 +356,11 @@
   "TowniesNeedFood_George_FallClassicsLoC_Objective_Text_1": "Deliver Apple Pie to George",
   "TowniesNeedFood_George_FallClassicsLoC_Message_0": "This will warm these bones. Thanks @!$h",
   "TowniesNeedFood_George_FallClassicsLoC_Message_1": "That's the smell of fall. Thanks @!$h",
+  // Gus Hot & Calm Combo LoC Strings
+  "TowniesNeedFood_Gus_HotandCalmComboLoC_Name": "Hot & Calm Combo",
+  "TowniesNeedFood_Gus_HotandCalmComboLoC_Text": "I think stuffed potatoes and onion soup will go well with dinner. Can anyone bring me some?",
+  "TowniesNeedFood_Gus_HotandCalmComboLoC_Objective_Text_0": "Deliver Hot Curry to Gus",
+  "TowniesNeedFood_Gus_HotandCalmComboLoC_Objective_Text_1": "Deliver Baked Potato to Gus",
+  "TowniesNeedFood_Gus_HotandCalmComboLoC_Message_0": "I'm looking forward to this fiery curry!$h",
+  "TowniesNeedFood_Gus_HotandCalmComboLoC_Message_1": "Potato is a good palate cleanser for spicy food.",
 }

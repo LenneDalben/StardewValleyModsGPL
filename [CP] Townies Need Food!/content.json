@@ -702,5 +702,22 @@
         "HasMod": "blueberry.LoveOfCooking"
       }
     },
+    // Strings Gus Hot & Calm Combo LoC
+    {
+      "LogName": "Strings Gus Hot & Calm Combo LoC",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Gus_HotandCalmComboLoC_Name": "{{i18n:TowniesNeedFood_Gus_HotandCalmComboLoC_Name}}",
+        "TowniesNeedFood_Gus_HotandCalmComboLoC_Text": "{{i18n:TowniesNeedFood_Gus_HotandCalmComboLoC_Text}}",
+        "TowniesNeedFood_Gus_HotandCalmComboLoC_Objective_Text_0": "{{i18n:TowniesNeedFood_Gus_HotandCalmComboLoC_Objective_Text_0}}",
+        "TowniesNeedFood_Gus_HotandCalmComboLoC_Objective_Text_1": "{{i18n:TowniesNeedFood_Gus_HotandCalmComboLoC_Objective_Text_1}}",
+        "TowniesNeedFood_Gus_HotandCalmComboLoC_Message_0": "{{i18n:TowniesNeedFood_Gus_HotandCalmComboLoC_Message_0}}",
+        "TowniesNeedFood_Gus_HotandCalmComboLoC_Message_1": "{{i18n:TowniesNeedFood_Gus_HotandCalmComboLoC_Message_1}}"
+      },
+      "When": {
+        "HasMod": "blueberry.LoveOfCooking"
+      }
+    },
   ]
 }
