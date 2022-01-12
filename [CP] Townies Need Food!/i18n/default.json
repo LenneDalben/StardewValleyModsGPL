@@ -363,4 +363,11 @@
   "TowniesNeedFood_Gus_HotandCalmComboLoC_Objective_Text_1": "Deliver Baked Potato to Gus",
   "TowniesNeedFood_Gus_HotandCalmComboLoC_Message_0": "I'm looking forward to this fiery curry!$h",
   "TowniesNeedFood_Gus_HotandCalmComboLoC_Message_1": "Potato is a good palate cleanser for spicy food.",
+  // Jas Sweet and Warm LoC Strings
+  "TowniesNeedFood_Jas_SweetandWarmLoC_Name": "Sweet and Warm",
+  "TowniesNeedFood_Jas_SweetandWarmLoC_Text": "I think Jas and Vincent could use a little treat. Could someone bring a hot cocoa to both of them?    -Shane",
+  "TowniesNeedFood_Jas_SweetandWarmLoC_Objective_Text_0": "Deliver Hot Cocoa to Jas",
+  "TowniesNeedFood_Jas_SweetandWarmLoC_Objective_Text_1": "Deliver Hot Cocoa to Vincent",
+  "TowniesNeedFood_Jas_SweetandWarmLoC_Message_0": "Hmm?$3#$b#Yay, thanks @!$h#$b#Yes, I'll say thanks to Shane too.",
+  "TowniesNeedFood_Jas_SweetandWarmLoC_Message_1": "For me?#$b#Oh cool, thanks @! I'll thank Shane too.#$b#There's a marshmallow in it!$h",
 }

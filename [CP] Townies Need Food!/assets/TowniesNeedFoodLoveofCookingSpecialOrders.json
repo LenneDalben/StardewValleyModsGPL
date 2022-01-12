@@ -488,5 +488,65 @@
         "HasMod": "blueberry.LoveOfCooking"
       }
     },
+    // Jas Sweet and Warm LoC
+    {
+      "LogName": "Jas Sweet and Warm LoC",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Jas_SweetandWarmLoC": {
+          "Name": "[TowniesNeedFood_Jas_SweetandWarmLoC_Name]",
+          "Requester": "Shane",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "!season_spring, !season_summer",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Jas_SweetandWarmLoC_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Jas_SweetandWarmLoC_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_blueberry.cac.hotcocoa",
+                "Message": "[TowniesNeedFood_Jas_SweetandWarmLoC_Message_0]",
+                "TargetName": "Jas"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Jas_SweetandWarmLoC_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_blueberry.cac.hotcocoa",
+                "Message": "[TowniesNeedFood_Jas_SweetandWarmLoC_Message_1]",
+                "TargetName": "Vincent"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1200"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "PlayerHasKitchen": true,
+        "HasCookingRecipe |contains=blueberry.cac.hotcocoa": "true",
+        "HasMod": "blueberry.LoveOfCooking"
+      }
+    },
   ]
 }

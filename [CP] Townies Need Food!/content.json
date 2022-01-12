@@ -719,5 +719,22 @@
         "HasMod": "blueberry.LoveOfCooking"
       }
     },
+    // Strings Jas Sweet and Warm LoC
+    {
+      "LogName": "Strings Jas Sweet and Warm LoC",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Jas_SweetandWarmLoC_Name": "{{i18n:TowniesNeedFood_Jas_SweetandWarmLoC_Name}}",
+        "TowniesNeedFood_Jas_SweetandWarmLoC_Text": "{{i18n:TowniesNeedFood_Jas_SweetandWarmLoC_Text}}",
+        "TowniesNeedFood_Jas_SweetandWarmLoC_Objective_Text_0": "{{i18n:TowniesNeedFood_Jas_SweetandWarmLoC_Objective_Text_0}}",
+        "TowniesNeedFood_Jas_SweetandWarmLoC_Objective_Text_1": "{{i18n:TowniesNeedFood_Jas_SweetandWarmLoC_Objective_Text_1}}",
+        "TowniesNeedFood_Jas_SweetandWarmLoC_Message_0": "{{i18n:TowniesNeedFood_Jas_SweetandWarmLoC_Message_0}}",
+        "TowniesNeedFood_Jas_SweetandWarmLoC_Message_1": "{{i18n:TowniesNeedFood_Jas_SweetandWarmLoC_Message_1}}"
+      },
+      "When": {
+        "HasMod": "blueberry.LoveOfCooking"
+      }
+    },
   ]
 }
