@@ -10,6 +10,9 @@
       "Target": "Data/Mail",
       "Entries": {
         "TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Letter": "{{i18n:letter_caroline_delicateorchids}}%item conversationTopic Caroline_delicateorchids 7 %%[#]{{i18n:letter_caroline_delicateorchids_name}}"
+      },
+      "When": {
+        "HasMod": "tiakall.hosttrees"
       }
     },
     /*Caroline CT*/ {
@@ -18,6 +21,9 @@
       "Target": "Characters/Dialogue/Caroline",
       "Entries": {
         "Caroline_delicateorchids": "{{i18n:Caroline_delicateorchidsCT_Caroline}}"
+      },
+      "When": {
+        "HasMod": "tiakall.hosttrees"
       }
     },
     /*Abigail CT*/ {
@@ -26,6 +32,9 @@
       "Target": "Characters/Dialogue/Abigail",
       "Entries": {
         "Caroline_delicateorchids": "{{i18n:Caroline_delicateorchidsCT_Abby}}"
+      },
+      "When": {
+        "HasMod": "tiakall.hosttrees"
       }
     },
     /*Pierre CT*/ {
@@ -34,6 +43,9 @@
       "Target": "Characters/Dialogue/Pierre",
       "Entries": {
         "Caroline_delicateorchids": "{{i18n:Caroline_delicateorchidsCT_Pierre}}"
+      },
+      "When": {
+        "HasMod": "tiakall.hosttrees"
       }
     }
   ]
