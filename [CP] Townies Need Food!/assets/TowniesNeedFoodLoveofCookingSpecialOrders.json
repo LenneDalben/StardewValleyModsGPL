@@ -366,5 +366,66 @@
         "HasMod": "blueberry.LoveOfCooking"
       }
     },
+    // George Fall Classics LoC
+    {
+      "LogName": "George Fall Classics LoC",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_George_FallClassicsLoC": {
+          "Name": "[TowniesNeedFood_George_FallClassicsLoC_Name]",
+          "Requester": "George",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "season_fall",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_George_FallClassicsLoC_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_George_FallClassicsLoC_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_blueberry.cac.stew",
+                "Message": "[TowniesNeedFood_George_FallClassicsLoC_Message_0]",
+                "TargetName": "George"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_George_FallClassicsLoC_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_blueberry.cac.applepie",
+                "Message": "[TowniesNeedFood_George_FallClassicsLoC_Message_1]",
+                "TargetName": "George"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1530"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "PlayerHasKitchen": true,
+        "HasCookingRecipe |contains=blueberry.cac.stew": "true",
+        "HasCookingRecipe |contains=blueberry.cac.applepie": "true",
+        "HasMod": "blueberry.LoveOfCooking"
+      }
+    },
   ]
 }

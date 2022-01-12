@@ -349,4 +349,11 @@
   "TowniesNeedFood_Evelyn_VarietyLunchLoC_Objective_Text_1": "Deliver Garden Pie to Evelyn",
   "TowniesNeedFood_Evelyn_VarietyLunchLoC_Message_0": "The sauce smells delicious!$h",
   "TowniesNeedFood_Evelyn_VarietyLunchLoC_Message_1": "Well, Alex will eat this.#$b#Thanks @!$h",
+  // George Fall Classics LoC Strings
+  "TowniesNeedFood_George_FallClassicsLoC_Name": "Fall Classics",
+  "TowniesNeedFood_George_FallClassicsLoC_Text": "I think stuffed potatoes and onion soup will go well with dinner. Can anyone bring me some?",
+  "TowniesNeedFood_George_FallClassicsLoC_Objective_Text_0": "Deliver Hearty Stew to George",
+  "TowniesNeedFood_George_FallClassicsLoC_Objective_Text_1": "Deliver Apple Pie to George",
+  "TowniesNeedFood_George_FallClassicsLoC_Message_0": "This will warm these bones. Thanks @!$h",
+  "TowniesNeedFood_George_FallClassicsLoC_Message_1": "That's the smell of fall. Thanks @!$h",
 }
