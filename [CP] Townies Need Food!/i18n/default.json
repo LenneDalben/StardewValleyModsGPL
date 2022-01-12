@@ -342,4 +342,11 @@
   "TowniesNeedFood_Emily_LunchandDessertLoC_Objective_Text_1": "Deliver Cake to Emily",
   "TowniesNeedFood_Emily_LunchandDessertLoC_Message_0": "This is a delicious flavor blend with dazzling color!",
   "TowniesNeedFood_Emily_LunchandDessertLoC_Message_1": "This is a lovely sponge cake. Thanks @!",
+  // Evelyn Variety Lunch LoC Strings
+  "TowniesNeedFood_Evelyn_VarietyLunchLoC_Name": "Variety Lunch",
+  "TowniesNeedFood_Evelyn_VarietyLunchLoC_Text": "I think stuffed potatoes and onion soup will go well with dinner. Can anyone bring me some?",
+  "TowniesNeedFood_Evelyn_VarietyLunchLoC_Objective_Text_0": "Deliver Cray Mornay to Evelyn",
+  "TowniesNeedFood_Evelyn_VarietyLunchLoC_Objective_Text_1": "Deliver Garden Pie to Evelyn",
+  "TowniesNeedFood_Evelyn_VarietyLunchLoC_Message_0": "The sauce smells delicious!$h",
+  "TowniesNeedFood_Evelyn_VarietyLunchLoC_Message_1": "Well, Alex will eat this.#$b#Thanks @!$h",
 }

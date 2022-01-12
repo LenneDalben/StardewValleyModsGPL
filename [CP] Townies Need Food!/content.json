@@ -668,5 +668,22 @@
         "HasMod": "blueberry.LoveOfCooking"
       }
     },
+    // Strings Evelyn Variety Lunch LoC
+    {
+      "LogName": "Strings Evelyn Variety Lunch LoC",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Evelyn_VarietyLunchLoC_Name": "{{i18n:TowniesNeedFood_Evelyn_VarietyLunchLoC_Name}}",
+        "TowniesNeedFood_Evelyn_VarietyLunchLoC_Text": "{{i18n:TowniesNeedFood_Evelyn_VarietyLunchLoC_Text}}",
+        "TowniesNeedFood_Evelyn_VarietyLunchLoC_Objective_Text_0": "{{i18n:TowniesNeedFood_Evelyn_VarietyLunchLoC_Objective_Text_0}}",
+        "TowniesNeedFood_Evelyn_VarietyLunchLoC_Objective_Text_1": "{{i18n:TowniesNeedFood_Evelyn_VarietyLunchLoC_Objective_Text_1}}",
+        "TowniesNeedFood_Evelyn_VarietyLunchLoC_Message_0": "{{i18n:TowniesNeedFood_Evelyn_VarietyLunchLoC_Message_0}}",
+        "TowniesNeedFood_Evelyn_VarietyLunchLoC_Message_1": "{{i18n:TowniesNeedFood_Evelyn_VarietyLunchLoC_Message_1}}"
+      },
+      "When": {
+        "HasMod": "blueberry.LoveOfCooking"
+      }
+    },
   ]
 }

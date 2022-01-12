@@ -305,5 +305,66 @@
         "HasMod": "blueberry.LoveOfCooking"
       }
     },
+    // Evelyn Variety Lunch LoC
+    {
+      "LogName": "Evelyn Variety Lunch LoC",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Evelyn_VarietyLunchLoC": {
+          "Name": "[TowniesNeedFood_Evelyn_VarietyLunchLoC_Name]",
+          "Requester": "Evelyn",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "season_spring",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Evelyn_VarietyLunchLoC_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Evelyn_VarietyLunchLoC_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_blueberry.cac.mornay",
+                "Message": "[TowniesNeedFood_Evelyn_VarietyLunchLoC_Message_0]",
+                "TargetName": "Evelyn"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Evelyn_VarietyLunchLoC_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_blueberry.cac.gardenpie",
+                "Message": "[TowniesNeedFood_Evelyn_VarietyLunchLoC_Message_1]",
+                "TargetName": "Evelyn"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1620"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "PlayerHasKitchen": true,
+        "HasCookingRecipe |contains=blueberry.cac.mornay": "true",
+        "HasCookingRecipe |contains=blueberry.cac.gardenpie": "true",
+        "HasMod": "blueberry.LoveOfCooking"
+      }
+    },
   ]
 }
