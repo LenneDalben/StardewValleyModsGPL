@@ -46,6 +46,10 @@
     {
       "UniqueID": "Isa.Farmhouse",
       "IsRequired": false
+    },
+    {
+      "UniqueID": "blueberry.LoveOfCooking",
+      "IsRequired": false
     }
   ]
 }
