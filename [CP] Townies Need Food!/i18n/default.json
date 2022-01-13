@@ -370,4 +370,11 @@
   "TowniesNeedFood_Jas_SweetandWarmLoC_Objective_Text_1": "Deliver Hot Cocoa to Vincent",
   "TowniesNeedFood_Jas_SweetandWarmLoC_Message_0": "Hmm?$3#$b#Yay, thanks @!$h#$b#Yes, I'll say thanks to Shane too.",
   "TowniesNeedFood_Jas_SweetandWarmLoC_Message_1": "For me?#$b#Oh cool, thanks @! I'll thank Shane too.#$b#There's a marshmallow in it!$h",
+  // Jodi Dinner Combo LoC Strings
+  "TowniesNeedFood_Jodi_DinnerComboLoC_Name": "Dinner Combo",
+  "TowniesNeedFood_Jodi_DinnerComboLoC_Text": "I think stuffed potatoes and onion soup will go well with dinner. Can anyone bring me some?",
+  "TowniesNeedFood_Jodi_DinnerComboLoC_Objective_Text_0": "Deliver Hot Pot Roast to Jodi",
+  "TowniesNeedFood_Jodi_DinnerComboLoC_Objective_Text_1": "Deliver Eel Sushi to Jodi",
+  "TowniesNeedFood_Jodi_DinnerComboLoC_Message_0": "The boys and I are fans of the trimmings in the stew. Thanks @!",
+  "TowniesNeedFood_Jodi_DinnerComboLoC_Message_1": "It's good to get fish in the diet.",
 }

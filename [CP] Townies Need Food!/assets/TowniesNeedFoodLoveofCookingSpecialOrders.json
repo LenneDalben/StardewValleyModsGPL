@@ -548,5 +548,66 @@
         "HasMod": "blueberry.LoveOfCooking"
       }
     },
+    // Jodi Dinner Combo LoC
+    {
+      "LogName": "Jodi Dinner Combo LoC",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Jodi_DinnerComboLoC": {
+          "Name": "[TowniesNeedFood_Jodi_DinnerComboLoC_Name]",
+          "Requester": "Jodi",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Jodi_DinnerComboLoC_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Jodi_DinnerComboLoC_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_blueberry.cac.roast",
+                "Message": "[TowniesNeedFood_Jodi_DinnerComboLoC_Message_0]",
+                "TargetName": "Jodi"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Jodi_DinnerComboLoC_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_blueberry.cac.unagi",
+                "Message": "[TowniesNeedFood_Jodi_DinnerComboLoC_Message_1]",
+                "TargetName": "Jodi"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "2040"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "PlayerHasKitchen": true,
+        "HasCookingRecipe |contains=blueberry.cac.roast": "true",
+        "HasCookingRecipe |contains=blueberry.cac.unagi": "true",
+        "HasMod": "blueberry.LoveOfCooking"
+      }
+    },
   ]
 }

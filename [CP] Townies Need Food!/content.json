@@ -736,5 +736,22 @@
         "HasMod": "blueberry.LoveOfCooking"
       }
     },
+    // Strings Jodi Dinner Combo LoC
+    {
+      "LogName": "Strings Jodi Dinner Combo LoC",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Jodi_DinnerComboLoC_Name": "{{i18n:TowniesNeedFood_Jodi_DinnerComboLoC_Name}}",
+        "TowniesNeedFood_Jodi_DinnerComboLoC_Text": "{{i18n:TowniesNeedFood_Jodi_DinnerComboLoC_Text}}",
+        "TowniesNeedFood_Jodi_DinnerComboLoC_Objective_Text_0": "{{i18n:TowniesNeedFood_Jodi_DinnerComboLoC_Objective_Text_0}}",
+        "TowniesNeedFood_Jodi_DinnerComboLoC_Objective_Text_1": "{{i18n:TowniesNeedFood_Jodi_DinnerComboLoC_Objective_Text_1}}",
+        "TowniesNeedFood_Jodi_DinnerComboLoC_Message_0": "{{i18n:TowniesNeedFood_Jodi_DinnerComboLoC_Message_0}}",
+        "TowniesNeedFood_Jodi_DinnerComboLoC_Message_1": "{{i18n:TowniesNeedFood_Jodi_DinnerComboLoC_Message_1}}"
+      },
+      "When": {
+        "HasMod": "blueberry.LoveOfCooking"
+      }
+    },
   ]
 }
