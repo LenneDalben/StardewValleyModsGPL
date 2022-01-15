@@ -57,8 +57,7 @@
       "When": {
         "PlayerHasKitchen": true,
         "HasCookingRecipe |contains=blueberry.cac.stuffedpotato": "true",
-        "HasCookingRecipe |contains=blueberry.cac.onionsoup": "true",
-        "HasMod": "blueberry.LoveOfCooking"
+        "HasCookingRecipe |contains=blueberry.cac.onionsoup": "true"
       }
     },
     // Clint Quick Start LoC
@@ -118,8 +117,7 @@
       "When": {
         "PlayerHasKitchen": true,
         "HasCookingRecipe |contains=blueberry.cac.burrito": "true",
-        "HasCookingRecipe |contains=blueberry.cac.quickbreakfast": "true",
-        "HasMod": "blueberry.LoveOfCooking"
+        "HasCookingRecipe |contains=blueberry.cac.quickbreakfast": "true"
       }
     },
     // Demetrius Breakfast and Lunch LoC
@@ -179,8 +177,7 @@
       "When": {
         "PlayerHasKitchen": true,
         "HasCookingRecipe |contains=blueberry.cac.waffles": "true",
-        "HasCookingRecipe |contains=blueberry.cac.eggsando": "true",
-        "HasMod": "blueberry.LoveOfCooking"
+        "HasCookingRecipe |contains=blueberry.cac.eggsando": "true"
       }
     },
     // Elliott Dinner Variety LoC
@@ -240,8 +237,7 @@
       "When": {
         "PlayerHasKitchen": true,
         "HasCookingRecipe |contains=blueberry.cac.cabbagepot": "true",
-        "HasCookingRecipe |contains=blueberry.cac.admiralpie": "true",
-        "HasMod": "blueberry.LoveOfCooking"
+        "HasCookingRecipe |contains=blueberry.cac.admiralpie": "true"
       }
     },
     // Emily Lunch and Dessert LoC
@@ -301,8 +297,7 @@
       "When": {
         "PlayerHasKitchen": true,
         "HasCookingRecipe |contains=blueberry.cac.burger": "true",
-        "HasCookingRecipe |contains=blueberry.cac.cake": "true",
-        "HasMod": "blueberry.LoveOfCooking"
+        "HasCookingRecipe |contains=blueberry.cac.cake": "true"
       }
     },
     // Evelyn Variety Lunch LoC
@@ -362,8 +357,7 @@
       "When": {
         "PlayerHasKitchen": true,
         "HasCookingRecipe |contains=blueberry.cac.mornay": "true",
-        "HasCookingRecipe |contains=blueberry.cac.gardenpie": "true",
-        "HasMod": "blueberry.LoveOfCooking"
+        "HasCookingRecipe |contains=blueberry.cac.gardenpie": "true"
       }
     },
     // George Fall Classics LoC
@@ -423,8 +417,7 @@
       "When": {
         "PlayerHasKitchen": true,
         "HasCookingRecipe |contains=blueberry.cac.stew": "true",
-        "HasCookingRecipe |contains=blueberry.cac.applepie": "true",
-        "HasMod": "blueberry.LoveOfCooking"
+        "HasCookingRecipe |contains=blueberry.cac.applepie": "true"
       }
     },
     // Gus Hot & Calm Combo LoC
@@ -484,8 +477,7 @@
       "When": {
         "PlayerHasKitchen": true,
         "HasCookingRecipe |contains=blueberry.cac.curry": "true",
-        "HasCookingRecipe |contains=blueberry.cac.bakedpotato": "true",
-        "HasMod": "blueberry.LoveOfCooking"
+        "HasCookingRecipe |contains=blueberry.cac.bakedpotato": "true"
       }
     },
     // Jas Sweet and Warm LoC
@@ -544,8 +536,7 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.cac.hotcocoa": "true",
-        "HasMod": "blueberry.LoveOfCooking"
+        "HasCookingRecipe |contains=blueberry.cac.hotcocoa": "true"
       }
     },
     // Jodi Dinner Combo LoC
@@ -605,8 +596,150 @@
       "When": {
         "PlayerHasKitchen": true,
         "HasCookingRecipe |contains=blueberry.cac.roast": "true",
-        "HasCookingRecipe |contains=blueberry.cac.unagi": "true",
-        "HasMod": "blueberry.LoveOfCooking"
+        "HasCookingRecipe |contains=blueberry.cac.unagi": "true"
+      }
+    },
+    //
+    //
+    // Love of Cooking (LoC) Integration
+    // Strings Caroline Side Dishes LoC
+    {
+      "LogName": "Strings Caroline Side Dishes LoC",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Caroline_SideDishesLoC_Name": "{{i18n:TowniesNeedFood_Caroline_SideDishesLoC_Name}}",
+        "TowniesNeedFood_Caroline_SideDishesLoC_Text": "{{i18n:TowniesNeedFood_Caroline_SideDishesLoC_Text}}",
+        "TowniesNeedFood_Caroline_SideDishesLoC_Objective_Text_0": "{{i18n:TowniesNeedFood_Caroline_SideDishesLoC_Objective_Text_0}}",
+        "TowniesNeedFood_Caroline_SideDishesLoC_Objective_Text_1": "{{i18n:TowniesNeedFood_Caroline_SideDishesLoC_Objective_Text_1}}",
+        "TowniesNeedFood_Caroline_SideDishesLoC_Message_0": "{{i18n:TowniesNeedFood_Caroline_SideDishesLoC_Message_0}}",
+        "TowniesNeedFood_Caroline_SideDishesLoC_Message_1": "{{i18n:TowniesNeedFood_Caroline_SideDishesLoC_Message_1}}"
+      }
+    },
+    // Strings Clint Quick Start LoC
+    {
+      "LogName": "Strings Clint Quick Start LoC",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Clint_QuickStartLoC_Name": "{{i18n:TowniesNeedFood_Clint_QuickStartLoC_Name}}",
+        "TowniesNeedFood_Clint_QuickStartLoC_Text": "{{i18n:TowniesNeedFood_Clint_QuickStartLoC_Text}}",
+        "TowniesNeedFood_Clint_QuickStartLoC_Objective_Text_0": "{{i18n:TowniesNeedFood_Clint_QuickStartLoC_Objective_Text_0}}",
+        "TowniesNeedFood_Clint_QuickStartLoC_Objective_Text_1": "{{i18n:TowniesNeedFood_Clint_QuickStartLoC_Objective_Text_1}}",
+        "TowniesNeedFood_Clint_QuickStartLoC_Message_0": "{{i18n:TowniesNeedFood_Clint_QuickStartLoC_Message_0}}",
+        "TowniesNeedFood_Clint_QuickStartLoC_Message_1": "{{i18n:TowniesNeedFood_Clint_QuickStartLoC_Message_1}}"
+      }
+    },
+    // Strings Demetrius Breakfast and Lunch LoC
+    {
+      "LogName": "Strings Demetrius Breakfast and Lunch LoC",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Name": "{{i18n:TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Name}}",
+        "TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Text": "{{i18n:TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Text}}",
+        "TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Objective_Text_0": "{{i18n:TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Objective_Text_0}}",
+        "TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Objective_Text_1": "{{i18n:TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Objective_Text_1}}",
+        "TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Message_0": "{{i18n:TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Message_0}}",
+        "TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Message_1": "{{i18n:TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Message_1}}"
+      }
+    },
+    // Strings Elliott Dinner Variety LoC
+    {
+      "LogName": "Strings Elliott Dinner Variety LoC",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Elliott_DinnerVarietyLoC_Name": "{{i18n:TowniesNeedFood_Elliott_DinnerVarietyLoC_Name}}",
+        "TowniesNeedFood_Elliott_DinnerVarietyLoC_Text": "{{i18n:TowniesNeedFood_Elliott_DinnerVarietyLoC_Text}}",
+        "TowniesNeedFood_Elliott_DinnerVarietyLoC_Objective_Text_0": "{{i18n:TowniesNeedFood_Elliott_DinnerVarietyLoC_Objective_Text_0}}",
+        "TowniesNeedFood_Elliott_DinnerVarietyLoC_Objective_Text_1": "{{i18n:TowniesNeedFood_Elliott_DinnerVarietyLoC_Objective_Text_1}}",
+        "TowniesNeedFood_Elliott_DinnerVarietyLoC_Message_0": "{{i18n:TowniesNeedFood_Elliott_DinnerVarietyLoC_Message_0}}",
+        "TowniesNeedFood_Elliott_DinnerVarietyLoC_Message_1": "{{i18n:TowniesNeedFood_Elliott_DinnerVarietyLoC_Message_1}}"
+      }
+    },
+    // Strings Emily Lunch and Dessert LoC
+    {
+      "LogName": "Strings Emily Lunch and Dessert LoC",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Emily_LunchandDessertLoC_Name": "{{i18n:TowniesNeedFood_Emily_LunchandDessertLoC_Name}}",
+        "TowniesNeedFood_Emily_LunchandDessertLoC_Text": "{{i18n:TowniesNeedFood_Emily_LunchandDessertLoC_Text}}",
+        "TowniesNeedFood_Emily_LunchandDessertLoC_Objective_Text_0": "{{i18n:TowniesNeedFood_Emily_LunchandDessertLoC_Objective_Text_0}}",
+        "TowniesNeedFood_Emily_LunchandDessertLoC_Objective_Text_1": "{{i18n:TowniesNeedFood_Emily_LunchandDessertLoC_Objective_Text_1}}",
+        "TowniesNeedFood_Emily_LunchandDessertLoC_Message_0": "{{i18n:TowniesNeedFood_Emily_LunchandDessertLoC_Message_0}}",
+        "TowniesNeedFood_Emily_LunchandDessertLoC_Message_1": "{{i18n:TowniesNeedFood_Emily_LunchandDessertLoC_Message_1}}"
+      }
+    },
+    // Strings Evelyn Variety Lunch LoC
+    {
+      "LogName": "Strings Evelyn Variety Lunch LoC",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Evelyn_VarietyLunchLoC_Name": "{{i18n:TowniesNeedFood_Evelyn_VarietyLunchLoC_Name}}",
+        "TowniesNeedFood_Evelyn_VarietyLunchLoC_Text": "{{i18n:TowniesNeedFood_Evelyn_VarietyLunchLoC_Text}}",
+        "TowniesNeedFood_Evelyn_VarietyLunchLoC_Objective_Text_0": "{{i18n:TowniesNeedFood_Evelyn_VarietyLunchLoC_Objective_Text_0}}",
+        "TowniesNeedFood_Evelyn_VarietyLunchLoC_Objective_Text_1": "{{i18n:TowniesNeedFood_Evelyn_VarietyLunchLoC_Objective_Text_1}}",
+        "TowniesNeedFood_Evelyn_VarietyLunchLoC_Message_0": "{{i18n:TowniesNeedFood_Evelyn_VarietyLunchLoC_Message_0}}",
+        "TowniesNeedFood_Evelyn_VarietyLunchLoC_Message_1": "{{i18n:TowniesNeedFood_Evelyn_VarietyLunchLoC_Message_1}}"
+      }
+    },
+    // Strings Caroline Fall Classics LoC
+    {
+      "LogName": "Strings Caroline Fall Classics LoC",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Caroline_FallClassicsLoC_Name": "{{i18n:TowniesNeedFood_Caroline_FallClassicsLoC_Name}}",
+        "TowniesNeedFood_Caroline_FallClassicsLoC_Text": "{{i18n:TowniesNeedFood_Caroline_FallClassicsLoC_Text}}",
+        "TowniesNeedFood_Caroline_FallClassicsLoC_Objective_Text_0": "{{i18n:TowniesNeedFood_Caroline_FallClassicsLoC_Objective_Text_0}}",
+        "TowniesNeedFood_Caroline_FallClassicsLoC_Objective_Text_1": "{{i18n:TowniesNeedFood_Caroline_FallClassicsLoC_Objective_Text_1}}",
+        "TowniesNeedFood_Caroline_FallClassicsLoC_Message_0": "{{i18n:TowniesNeedFood_Caroline_FallClassicsLoC_Message_0}}",
+        "TowniesNeedFood_Caroline_FallClassicsLoC_Message_1": "{{i18n:TowniesNeedFood_Caroline_FallClassicsLoC_Message_1}}"
+      }
+    },
+    // Strings Gus Hot & Calm Combo LoC
+    {
+      "LogName": "Strings Gus Hot & Calm Combo LoC",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Gus_HotandCalmComboLoC_Name": "{{i18n:TowniesNeedFood_Gus_HotandCalmComboLoC_Name}}",
+        "TowniesNeedFood_Gus_HotandCalmComboLoC_Text": "{{i18n:TowniesNeedFood_Gus_HotandCalmComboLoC_Text}}",
+        "TowniesNeedFood_Gus_HotandCalmComboLoC_Objective_Text_0": "{{i18n:TowniesNeedFood_Gus_HotandCalmComboLoC_Objective_Text_0}}",
+        "TowniesNeedFood_Gus_HotandCalmComboLoC_Objective_Text_1": "{{i18n:TowniesNeedFood_Gus_HotandCalmComboLoC_Objective_Text_1}}",
+        "TowniesNeedFood_Gus_HotandCalmComboLoC_Message_0": "{{i18n:TowniesNeedFood_Gus_HotandCalmComboLoC_Message_0}}",
+        "TowniesNeedFood_Gus_HotandCalmComboLoC_Message_1": "{{i18n:TowniesNeedFood_Gus_HotandCalmComboLoC_Message_1}}"
+      }
+    },
+    // Strings Jas Sweet and Warm LoC
+    {
+      "LogName": "Strings Jas Sweet and Warm LoC",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Jas_SweetandWarmLoC_Name": "{{i18n:TowniesNeedFood_Jas_SweetandWarmLoC_Name}}",
+        "TowniesNeedFood_Jas_SweetandWarmLoC_Text": "{{i18n:TowniesNeedFood_Jas_SweetandWarmLoC_Text}}",
+        "TowniesNeedFood_Jas_SweetandWarmLoC_Objective_Text_0": "{{i18n:TowniesNeedFood_Jas_SweetandWarmLoC_Objective_Text_0}}",
+        "TowniesNeedFood_Jas_SweetandWarmLoC_Objective_Text_1": "{{i18n:TowniesNeedFood_Jas_SweetandWarmLoC_Objective_Text_1}}",
+        "TowniesNeedFood_Jas_SweetandWarmLoC_Message_0": "{{i18n:TowniesNeedFood_Jas_SweetandWarmLoC_Message_0}}",
+        "TowniesNeedFood_Jas_SweetandWarmLoC_Message_1": "{{i18n:TowniesNeedFood_Jas_SweetandWarmLoC_Message_1}}"
+      }
+    },
+    // Strings Jodi Dinner Combo LoC
+    {
+      "LogName": "Strings Jodi Dinner Combo LoC",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Jodi_DinnerComboLoC_Name": "{{i18n:TowniesNeedFood_Jodi_DinnerComboLoC_Name}}",
+        "TowniesNeedFood_Jodi_DinnerComboLoC_Text": "{{i18n:TowniesNeedFood_Jodi_DinnerComboLoC_Text}}",
+        "TowniesNeedFood_Jodi_DinnerComboLoC_Objective_Text_0": "{{i18n:TowniesNeedFood_Jodi_DinnerComboLoC_Objective_Text_0}}",
+        "TowniesNeedFood_Jodi_DinnerComboLoC_Objective_Text_1": "{{i18n:TowniesNeedFood_Jodi_DinnerComboLoC_Objective_Text_1}}",
+        "TowniesNeedFood_Jodi_DinnerComboLoC_Message_0": "{{i18n:TowniesNeedFood_Jodi_DinnerComboLoC_Message_0}}",
+        "TowniesNeedFood_Jodi_DinnerComboLoC_Message_1": "{{i18n:TowniesNeedFood_Jodi_DinnerComboLoC_Message_1}}"
       }
     },
   ]
