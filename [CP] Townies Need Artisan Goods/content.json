@@ -64,11 +64,29 @@
       "Action": "Include",
       "FromFile": "assets/TowniesNeedArtisanGoodsSpecialOrders.json"
     },
+    // Include Host Trees Orders and Strings Patches
+    {
+      "LogName": "Include Townies Seek Artisan Goods Host Trees Orders",
+      "Action": "Include",
+      "FromFile": "assets/TowniesNeedArtisanGoodsHostTreesSpecialOrders.json",
+      "When": {
+        "HasMod": "tiakall.hosttrees"
+      }
+    },
     // Include Rewards
     {
       "LogName": "Include Townies Seek Artisan Goods Rewards",
       "Action": "Include",
       "FromFile": "assets/TowniesNeedArtisanGoodsRewards.json"
+    },
+    // Include Host Trees Rewards
+    {
+      "LogName": "Include Townies Seek Artisan Goods Host Trees Rewards",
+      "Action": "Include",
+      "FromFile": "assets/TowniesNeedArtisanGoodsHostTreesRewards.json",
+      "When": {
+        "HasMod": "tiakall.hosttrees"
+      }
     },
     // Leah's House DropBox Patch
     {
@@ -740,23 +758,6 @@
         "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Objective_Text_0}}",
         "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Message_0": "{{i18n:TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Message_0}}"
       }
-    },
-    //
-    //
-    // Host Trees Strings
-    // Strings Caroline Delicate Orchids Host Trees
-    {
-      "LogName": "Strings Caroline Delicate Orchids Host Trees",
-      "Action": "EditData",
-      "Target": "Strings/SpecialOrderStrings",
-      "Entries": {
-        "TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Name": "{{i18n:TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Name}}",
-        "TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Text": "{{i18n:TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Text}}",
-        "TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Objective_Text_0}}"
-      },
-      "When": {
-        "HasMod": "tiakall.hosttrees"
-      }
-    },
+    }
   ]
 }
