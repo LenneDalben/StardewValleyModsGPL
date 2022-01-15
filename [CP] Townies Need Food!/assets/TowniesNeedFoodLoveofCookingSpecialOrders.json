@@ -599,6 +599,56 @@
         "HasCookingRecipe |contains=blueberry.cac.unagi": "true"
       }
     },
+    // Kent Classic Vegetables LoC
+    {
+      "LogName": "Kent Classic Vegetables LoC",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Kent_ClassicVegetablesLoC": {
+          "Name": "[TowniesNeedFood_Kent_ClassicVegetablesLoC_Name]",
+          "Requester": "Kent",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "season_fall",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Kent_ClassicVegetablesLoC_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Kent_ClassicVegetablesLoC_Objective_Text_0]",
+              "RequiredCount": "2",
+              "Data": {
+                "AcceptedContextTags": "item_blueberry.cac.hunters",
+                "Message": "[TowniesNeedFood_Kent_ClassicVegetablesLoC_Message_0]",
+                "TargetName": "Kent"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1020"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "PlayerHasKitchen": true,
+        "HasCookingRecipe |contains=blueberry.cac.hunters": "true",
+        "HasSeenEvent": "63"
+      }
+    },
     //
     //
     // Love of Cooking (LoC) Strings
@@ -740,6 +790,18 @@
         "TowniesNeedFood_Jodi_DinnerComboLoC_Objective_Text_1": "{{i18n:TowniesNeedFood_Jodi_DinnerComboLoC_Objective_Text_1}}",
         "TowniesNeedFood_Jodi_DinnerComboLoC_Message_0": "{{i18n:TowniesNeedFood_Jodi_DinnerComboLoC_Message_0}}",
         "TowniesNeedFood_Jodi_DinnerComboLoC_Message_1": "{{i18n:TowniesNeedFood_Jodi_DinnerComboLoC_Message_1}}"
+      }
+    },
+    // Strings Kent Classic Vegetables LoC
+    {
+      "LogName": "Strings Kent Classic Vegetables LoC",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Kent_ClassicVegetablesLoC_Name": "{{i18n:TowniesNeedFood_Kent_ClassicVegetablesLoC_Name}}",
+        "TowniesNeedFood_Kent_ClassicVegetablesLoC_Text": "{{i18n:TowniesNeedFood_Kent_ClassicVegetablesLoC_Text}}",
+        "TowniesNeedFood_Kent_ClassicVegetablesLoC_Objective_Text_0": "{{i18n:TowniesNeedFood_Kent_ClassicVegetablesLoC_Objective_Text_0}}",
+        "TowniesNeedFood_Kent_ClassicVegetablesLoC_Message_0": "{{i18n:TowniesNeedFood_Kent_ClassicVegetablesLoC_Message_0}}"
       }
     },
   ]
