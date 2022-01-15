@@ -525,6 +525,7 @@
     /*Map Patch*/ {
       "LogName": "Elliott Elegant Quill Map Patch",
       "Action": "EditMap",
+      "PatchMode": "Overlay",
       "Target": "Maps/ElliottHouse",
       "FromFile": "assets/ElliottHouse.tmx",
       "FromArea": { "X": 1, "Y": 3, "Width": 1, "Height": 1 },
