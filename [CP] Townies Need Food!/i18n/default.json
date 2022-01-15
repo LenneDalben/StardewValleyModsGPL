@@ -133,7 +133,7 @@
   //
   // Kent Dinner and a Snack Strings
   "TowniesNeedFood_Kent_DinnerandaSnack_Name": "Dinner & a Snack",
-  "TowniesNeedFood_Kent_DinnerandaSnack_Text": "I'd like some fiddlehead risotto and roasted hazelnuts, please. - Kent",
+  "TowniesNeedFood_Kent_DinnerandaSnack_Text": "I'd like some fiddlehead risotto and roasted hazelnuts, please.",
   "TowniesNeedFood_Kent_DinnerandaSnack_Objective_Text_0": "Deliver Fiddlehead Risotto to Kent",
   "TowniesNeedFood_Kent_DinnerandaSnack_Objective_Text_1": "Deliver Roasted Hazelnuts to Kent",
   "TowniesNeedFood_Kent_DinnerandaSnack_Message_0": "What?#$b#Oh, the risotto I asked for. Thanks @.$h",
