@@ -46,6 +46,58 @@
               "Type": "Mail",
               "Data": {
                 "MailReceived": "TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Letter",
+                "NoLetter": "false"
+              }
+            }
+          ]
+        }
+      },
+      "When": {
+        "Hearts:Sandy": "5, 6, 7, 8, 9, 10"
+      }
+    },
+    // Emily Nice Threads Host Trees
+    {
+      "LogName": "Emily Nice Threads Host Trees",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Emily_NiceThreads": {
+          "Name": "[TowniesNeedArtisanGoods_Emily_NiceThreads_Name]",
+          "Requester": "Emily",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "season_summer, !dropbox_PierreBox",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Emily_NiceThreads_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Data": {
+                "AcceptedContextTags": "item_spanish_moss_thread",
+                "Message": "[TowniesNeedArtisanGoods_Emily_NiceThreads_Message_0]",
+                "TargetName": "Emily"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1160"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "TowniesNeedArtisanGoods_Emily_NiceThreads_Letter",
                 "NoLetter": "true"
               }
             }
