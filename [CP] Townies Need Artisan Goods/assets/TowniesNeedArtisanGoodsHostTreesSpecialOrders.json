@@ -102,7 +102,7 @@
             {
               "Type": "Mail",
               "Data": {
-                "MailReceived": "TowniesNeedArtisanGoods_Emily_NiceThreads_Letter",
+                "MailReceived": "TowniesNeedArtisanGoods_Emily_NiceThreads_Completed",
                 "NoLetter": "true"
               }
             }
