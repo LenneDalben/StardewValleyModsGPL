@@ -113,6 +113,58 @@
         "HasSeenEvent": "67"
       }
     },
+    // Evelyn Special Stand Host Trees
+    {
+      "LogName": "Evelyn Special Stand Host Trees",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Evelyn_SpecialStand": {
+          "Name": "[TowniesNeedArtisanGoods_Evelyn_SpecialStand_Name]",
+          "Requester": "Evelyn",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "season_winter",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Evelyn_SpecialStand_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Evelyn_SpecialStand_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_mistletoe_stand",
+                "Message": "[TowniesNeedArtisanGoods_Evelyn_SpecialStand_Message_0]",
+                "TargetName": "Evelyn"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1148"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "TowniesNeedArtisanGoods_Evelyn_SpecialStand_Completed",
+                "NoLetter": "true"
+              }
+            }
+          ]
+        }
+      }
+    },
     //
     //
     // Host Trees Strings
@@ -137,6 +189,18 @@
         "TowniesNeedArtisanGoods_Emily_NiceThreads_Text": "{{i18n:TowniesNeedArtisanGoods_Emily_NiceThreads_Text}}",
         "TowniesNeedArtisanGoods_Emily_NiceThreads_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Emily_NiceThreads_Objective_Text_0}}",
         "TowniesNeedArtisanGoods_Emily_NiceThreads_Message_Text_0": "{{i18n:TowniesNeedArtisanGoods_Emily_NiceThreads_Message_Text_0}}"
+      }
+    },
+    // Strings Evelyn Special Stand Host Trees
+    {
+      "LogName": "Strings Evelyn Special Stand Host Trees",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Evelyn_SpecialStand_Name": "{{i18n:TowniesNeedArtisanGoods_Evelyn_SpecialStand_Name}}",
+        "TowniesNeedArtisanGoods_Evelyn_SpecialStand_Text": "{{i18n:TowniesNeedArtisanGoods_Evelyn_SpecialStand_Text}}",
+        "TowniesNeedArtisanGoods_Evelyn_SpecialStand_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Evelyn_SpecialStand_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Evelyn_SpecialStand_Message_Text_0": "{{i18n:TowniesNeedArtisanGoods_Evelyn_SpecialStand_Message_Text_0}}"
       }
     },
   ]

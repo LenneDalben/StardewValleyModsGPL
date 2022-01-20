@@ -460,6 +460,12 @@
   "TowniesNeedArtisanGoods_Emily_NiceThreads_Text": "I'd love to add vanilla orchid pots to my sunroom. Can someone bring me 2?",
   "TowniesNeedArtisanGoods_Emily_NiceThreads_Objective_Text_0": "Deliver 5 Spanish Moss Threads to Emily","TowniesNeedArtisanGoods_Emily_NiceThreads_Message_Text_0": "Thanks @! This material is so soft.#$b#What's it for?#$b#That's a secret!$h",
   //
+  //  
+  // Evelyn Special Stand Host Trees Strings
+  "TowniesNeedArtisanGoods_Evelyn_SpecialStand_Name": "Special Stand",
+  "TowniesNeedArtisanGoods_Evelyn_SpecialStand_Text": "George knows to respect the mistletoe tradition, and I'd like to nudge him. Can someone bring me a mistletoe stand?",
+  "TowniesNeedArtisanGoods_Evelyn_SpecialStand_Objective_Text_0": "Deliver 1 Mistletoe Stand to Evelyn","TowniesNeedArtisanGoods_Evelyn_SpecialStand_Message_Text_0": "Thanks you, dear.$h",
+  //
   //
   // ***Host Trees events and conversation topics strings***
   "letter_caroline_delicateorchids_name": "Caroline Delicate Orchids",
