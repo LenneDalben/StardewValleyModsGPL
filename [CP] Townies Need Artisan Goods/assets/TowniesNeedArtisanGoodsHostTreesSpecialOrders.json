@@ -1,5 +1,7 @@
 {
   "Changes": [
+    // Orders
+    //
     // Caroline Delicate Orchids Host Trees
     {
       "LogName": "Caroline Delicate Orchids Host Trees",
@@ -67,7 +69,7 @@
           "Requester": "Emily",
           "Duration": "Week",
           "Repeatable": "False",
-          "RequiredTags": "season_summer, !dropbox_PierreBox",
+          "RequiredTags": "season_spring",
           "OrderType": "",
           "SpecialRule": "",
           "Text": "[TowniesNeedArtisanGoods_Emily_NiceThreads_Text]",
@@ -76,6 +78,9 @@
           "RandomizedElements": null,
           "Objectives": [
             {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Emily_NiceThreads_Objective_Text_0]",
+              "RequiredCount": "5",
               "Data": {
                 "AcceptedContextTags": "item_spanish_moss_thread",
                 "Message": "[TowniesNeedArtisanGoods_Emily_NiceThreads_Message_0]",
@@ -87,7 +92,7 @@
             {
               "Type": "Money",
               "Data": {
-                "Amount": "1160"
+                "Amount": "1750"
               }
             },
             {
@@ -105,7 +110,7 @@
         }
       },
       "When": {
-        "Hearts:Sandy": "5, 6, 7, 8, 9, 10"
+        "HasSeenEvent": "67"
       }
     },
     //
@@ -120,6 +125,18 @@
         "TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Name": "{{i18n:TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Name}}",
         "TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Text": "{{i18n:TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Text}}",
         "TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Objective_Text_0}}"
+      }
+    },
+    // Strings Emily Nice Threads Host Trees
+    {
+      "LogName": "Strings Emily Nice Threads Host Trees",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Emily_NiceThreads_Name": "{{i18n:TowniesNeedArtisanGoods_Emily_NiceThreads_Name}}",
+        "TowniesNeedArtisanGoods_Emily_NiceThreads_Text": "{{i18n:TowniesNeedArtisanGoods_Emily_NiceThreads_Text}}",
+        "TowniesNeedArtisanGoods_Emily_NiceThreads_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Emily_NiceThreads_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Emily_NiceThreads_Message_Text_0": "{{i18n:TowniesNeedArtisanGoods_Emily_NiceThreads_Message_Text_0}}"
       }
     },
   ]

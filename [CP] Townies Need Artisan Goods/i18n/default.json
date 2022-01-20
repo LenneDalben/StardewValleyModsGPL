@@ -306,13 +306,6 @@
   "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Message_0": "Many thanks, @! I'll be sure to analyze this for underworld qualities.$h",
   //
   //
-  // ***Host Trees order strings***
-  // Caroline Delicate Orchids Host Trees Strings  
-  "TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Name": "Delicate Orchids",
-  "TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Text": "I'd love to add vanilla orchid pots to my sunroom. Can someone bring me 2?",
-  "TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Objective_Text_0": "Drop off 2 Vanilla Orchid Pots in the empty box in Pierre's shop",
-  //
-  //
   // ***Event and conversation topics strings***
   // Same Game Night Event Strings
   "events-27122021.01": "Hey, @, you made it!$h",
@@ -453,6 +446,19 @@
   "Sandy_lightbeverageCT_Sandy": "Thanks again for bringing for the beers around!#$b#Emily and I had a nice time.$h",
   "Sandy_lightbeverageCT_Emily": "Sandy appreciated the beers. Thanks @!#$b#It gave us an excuse to catch up, as if we need it.$h",
   "Sandy_lightbeverageCT_Haley": "It was nice to have the house to myself for a while.#$b#It's great Emily has Sandy to visit.",
+  //
+  //
+  // ***Host Trees order strings***
+  // Caroline Delicate Orchids Host Trees Strings
+  "TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Name": "Delicate Orchids",
+  "TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Text": "I'd love to add vanilla orchid pots to my sunroom. Can someone bring me 2?",
+  "TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Objective_Text_0": "Drop off 2 Vanilla Orchid Pots in the empty box in Pierre's shop",
+  //
+  //  
+  // Emily Nice Threads Host Trees Strings
+  "TowniesNeedArtisanGoods_Emily_NiceThreads_Name": "Nice Threads",
+  "TowniesNeedArtisanGoods_Emily_NiceThreads_Text": "I'd love to add vanilla orchid pots to my sunroom. Can someone bring me 2?",
+  "TowniesNeedArtisanGoods_Emily_NiceThreads_Objective_Text_0": "Deliver 5 Spanish Moss Threads to Emily","TowniesNeedArtisanGoods_Emily_NiceThreads_Message_Text_0": "Thanks @! This material is so soft.#$b#What's it for?#$b#That's a secret!$h",
   //
   //
   // ***Host Trees events and conversation topics strings***
