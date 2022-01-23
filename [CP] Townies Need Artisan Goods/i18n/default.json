@@ -464,10 +464,13 @@
   // Evelyn Special Stand Host Trees Strings
   "TowniesNeedArtisanGoods_Evelyn_SpecialStand_Name": "Special Stand",
   "TowniesNeedArtisanGoods_Evelyn_SpecialStand_Text": "George knows to respect the mistletoe tradition, and I'd like to nudge him. Can someone bring me a mistletoe stand?",
-  "TowniesNeedArtisanGoods_Evelyn_SpecialStand_Objective_Text_0": "Deliver 1 Mistletoe Stand to Evelyn","TowniesNeedArtisanGoods_Evelyn_SpecialStand_Message_Text_0": "Thanks you, dear.$h",
+  "TowniesNeedArtisanGoods_Evelyn_SpecialStand_Objective_Text_0": "Drop off 1 Mistletoe Stand by the plant in Evelyn's house",
   //
   //
   // ***Host Trees events and conversation topics strings***
+  //
+  //
+  // Caroline Delicate Orchids Letter and CTs
   "letter_caroline_delicateorchids_name": "Caroline Delicate Orchids",
   "letter_caroline_delicateorchids": "Hi @,^Thanks for the orchids! I know just which plants to put the orchids under so that they still get some shade.^-Caroline",
   "Caroline_delicateorchidsCT_Caroline": "Thanks again for the orchids!#$b#They look quite happy in partial shade.",

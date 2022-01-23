@@ -58,7 +58,7 @@
         "Hearts:Sandy": "5, 6, 7, 8, 9, 10"
       }
     },
-    // Emily Nice Threads Host Trees
+    // Emily Nice Threads Host Trees PSST it's going to have an event as a reward
     {
       "LogName": "Emily Nice Threads Host Trees",
       "Action": "EditData",
@@ -113,7 +113,7 @@
         "HasSeenEvent": "67"
       }
     },
-    // Evelyn Special Stand Host Trees
+    // Evelyn Special Stand Host Trees PSST it's going to have an event as a reward
     {
       "LogName": "Evelyn Special Stand Host Trees",
       "Action": "EditData",
@@ -133,13 +133,14 @@
           "RandomizedElements": null,
           "Objectives": [
             {
-              "Type": "Deliver",
+              "Type": "Donate",
               "Text": "[TowniesNeedArtisanGoods_Evelyn_SpecialStand_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_mistletoe_stand",
-                "Message": "[TowniesNeedArtisanGoods_Evelyn_SpecialStand_Message_0]",
-                "TargetName": "Evelyn"
+                "DropBox": "EvelynCorner",
+                "DropBoxGameLocation": "JoshHouse",
+                "DropBoxIndicatorLocation": "6 18",
+                "AcceptedContextTags": "item_mistletoe_stand"
               }
             }
           ],
@@ -164,6 +165,27 @@
           ]
         }
       }
+    },
+    //
+    //
+    // Host Trees House DropBox Patches
+    // Evelyn's House DropBox Patch
+    {
+      "LogName": "Evelyn's House DropBox",
+      "Action": "EditMap",
+      "Target": "Maps/JoshHouse",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 6,
+            "Y": 18
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "DropBox EvelynCorner"
+          }
+        }
+      ]
     },
     //
     //
