@@ -314,6 +314,7 @@
   "TowniesNeedFood_Caroline_SideDishesLoC_Objective_Text_1": "Deliver Onion Soup to Caroline",
   "TowniesNeedFood_Caroline_SideDishesLoC_Message_0": "The mushrooms are a nice touch aren't they?#$b#Thanks @!",
   "TowniesNeedFood_Caroline_SideDishesLoC_Message_1": "I really like the earthy flavor of onion soup.#$b#Thanks @!",
+  //
   // Clint Quick Start LoC Strings
   "TowniesNeedFood_Clint_QuickStartLoC_Name": "Quick Start",
   "TowniesNeedFood_Clint_QuickStartLoC_Text": "I'm trying to prepare for breakfast. Can someone bring me a burrito and a quick breakfast?",
@@ -321,6 +322,7 @@
   "TowniesNeedFood_Clint_QuickStartLoC_Objective_Text_1": "Deliver Quick Breakfast to Clint",
   "TowniesNeedFood_Clint_QuickStartLoC_Message_0": "It's a good wrap, isn't it? Thanks @!$h",
   "TowniesNeedFood_Clint_QuickStartLoC_Message_1": "The jump start I needed. Thanks @!$h",
+  //
   // Demetrius Breakfast and Lunch LoC Strings
   "TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Name": "Breakfast and Lunch",
   "TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Text": "Greetings! I'm craving berry waffles and an egg sandwich. Can someone bring me one of each? Thanks!",
@@ -328,6 +330,7 @@
   "TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Objective_Text_1": "Deliver Egg Sandwich to Demetrius",
   "TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Message_0": "That's a fine blueberry drizzle.#$b#Thanks @!$h",
   "TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Message_1": "It's truly perfectly seasoned.#$b#Thanks @!$h",
+  //
   // Elliott Dinner Variety LoC Strings
   "TowniesNeedFood_Elliott_DinnerVarietyLoC_Name": "Dinner Variety",
   "TowniesNeedFood_Elliott_DinnerVarietyLoC_Text": "I'd love to have some variety for dinner. Can someone bring me cabbage pot and admiral pie?",
@@ -335,6 +338,7 @@
   "TowniesNeedFood_Elliott_DinnerVarietyLoC_Objective_Text_1": "Deliver Admiral Pie to Elliott",
   "TowniesNeedFood_Elliott_DinnerVarietyLoC_Message_0": "This will work for several meals, thanks @!",
   "TowniesNeedFood_Elliott_DinnerVarietyLoC_Message_1": "The pie is not just saucy, it's scrumptious!$h",
+  //
   // Emily Lunch and Dessert LoC Strings
   "TowniesNeedFood_Emily_LunchandDessertLoC_Name": "Lunch and Dessert",
   "TowniesNeedFood_Emily_LunchandDessertLoC_Text": "I think stuffed potatoes and onion soup will go well with dinner. Can anyone bring me some?",
@@ -342,6 +346,7 @@
   "TowniesNeedFood_Emily_LunchandDessertLoC_Objective_Text_1": "Deliver Cake to Emily",
   "TowniesNeedFood_Emily_LunchandDessertLoC_Message_0": "This is a delicious flavor blend with dazzling color!",
   "TowniesNeedFood_Emily_LunchandDessertLoC_Message_1": "This is a lovely sponge cake. Thanks @!",
+  //
   // Evelyn Variety Lunch LoC Strings
   "TowniesNeedFood_Evelyn_VarietyLunchLoC_Name": "Variety Lunch",
   "TowniesNeedFood_Evelyn_VarietyLunchLoC_Text": "I think stuffed potatoes and onion soup will go well with dinner. Can anyone bring me some?",
@@ -349,6 +354,7 @@
   "TowniesNeedFood_Evelyn_VarietyLunchLoC_Objective_Text_1": "Deliver Garden Pie to Evelyn",
   "TowniesNeedFood_Evelyn_VarietyLunchLoC_Message_0": "The sauce smells delicious!$h",
   "TowniesNeedFood_Evelyn_VarietyLunchLoC_Message_1": "Well, Alex will eat this.#$b#Thanks @!$h",
+  //
   // George Fall Classics LoC Strings
   "TowniesNeedFood_George_FallClassicsLoC_Name": "Fall Classics",
   "TowniesNeedFood_George_FallClassicsLoC_Text": "I think stuffed potatoes and onion soup will go well with dinner. Can anyone bring me some?",
@@ -356,6 +362,7 @@
   "TowniesNeedFood_George_FallClassicsLoC_Objective_Text_1": "Deliver Apple Pie to George",
   "TowniesNeedFood_George_FallClassicsLoC_Message_0": "This will warm these bones. Thanks @!$h",
   "TowniesNeedFood_George_FallClassicsLoC_Message_1": "That's the smell of fall. Thanks @!$h",
+  //
   // Gus Hot & Calm Combo LoC Strings
   "TowniesNeedFood_Gus_HotandCalmComboLoC_Name": "Hot & Calm Combo",
   "TowniesNeedFood_Gus_HotandCalmComboLoC_Text": "I think stuffed potatoes and onion soup will go well with dinner. Can anyone bring me some?",
@@ -363,6 +370,7 @@
   "TowniesNeedFood_Gus_HotandCalmComboLoC_Objective_Text_1": "Deliver Baked Potato to Gus",
   "TowniesNeedFood_Gus_HotandCalmComboLoC_Message_0": "I'm looking forward to this fiery curry!$h",
   "TowniesNeedFood_Gus_HotandCalmComboLoC_Message_1": "Potato is a good palate cleanser for spicy food.",
+  //
   // Jas Sweet and Warm LoC Strings
   "TowniesNeedFood_Jas_SweetandWarmLoC_Name": "Sweet and Warm",
   "TowniesNeedFood_Jas_SweetandWarmLoC_Text": "I think Jas and Vincent could use a little treat. Could someone bring a hot cocoa to both of them?    -Shane",
@@ -370,6 +378,7 @@
   "TowniesNeedFood_Jas_SweetandWarmLoC_Objective_Text_1": "Deliver Hot Cocoa to Vincent",
   "TowniesNeedFood_Jas_SweetandWarmLoC_Message_0": "Hmm?$3#$b#Yay, thanks @!$h#$b#Yes, I'll say thanks to Shane too.",
   "TowniesNeedFood_Jas_SweetandWarmLoC_Message_1": "For me?#$b#Oh cool, thanks @! I'll thank Shane too.#$b#There's a marshmallow in it!$h",
+  //
   // Jodi Dinner Combo LoC Strings
   "TowniesNeedFood_Jodi_DinnerComboLoC_Name": "Dinner Combo",
   "TowniesNeedFood_Jodi_DinnerComboLoC_Text": "I think stuffed potatoes and onion soup will go well with dinner. Can anyone bring me some?",
@@ -377,11 +386,13 @@
   "TowniesNeedFood_Jodi_DinnerComboLoC_Objective_Text_1": "Deliver Eel Sushi to Jodi",
   "TowniesNeedFood_Jodi_DinnerComboLoC_Message_0": "The boys and I are fans of the trimmings in the stew. Thanks @!",
   "TowniesNeedFood_Jodi_DinnerComboLoC_Message_1": "It's good to get fish in our diet.",
+  //
   // Kent Classic Vegetables LoC Strings
   "TowniesNeedFood_Kent_ClassicVegetablesLoC_Name": "Classic Vegetables",
   "TowniesNeedFood_Kent_ClassicVegetablesLoC_Text": "I'd love to have hunter's plate for its nutritional value. Can anyone bring me 2?",
   "TowniesNeedFood_Kent_ClassicVegetablesLoC_Objective_Text_0": "Deliver 2 Hunter's Plate to Kent",
   "TowniesNeedFood_Kent_ClassicVegetablesLoC_Message_0": "These look great. Thanks @!",
+  //
   // Leah Sandos LoC Strings
   "TowniesNeedFood_Leah_SandosLoC_Name": "Sandos",
   "TowniesNeedFood_Leah_SandosLoC_Text": "I'm in the mood for some sandwiches. Can anyone bring me a salad sandwich and a seafood sandwich?",
