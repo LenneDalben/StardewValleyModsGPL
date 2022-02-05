@@ -709,6 +709,56 @@
         "HasCookingRecipe |contains=blueberry.cac.seafoodsando": "true"
       }
     },
+    // Lewis Shish Kebab LoC
+    {
+      "LogName": "Lewis Shish Kebab LoC",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Lewis_ShishKebabLoC": {
+          "Name": "[TowniesNeedFood_Lewis_ShishKebabLoC_Name]",
+          "Requester": "Caroline",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "season_summer, island",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Lewis_ShishKebabLoC_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Lewis_ShishKebabLoC_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_blueberry.cac.skewers",
+                "Message": "[TowniesNeedFood_Lewis_ShishKebabLoC_Message_0]",
+                "TargetName": "Lewis"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "840"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "PlayerHasKitchen": true,
+        "IncludeIslandContent": true,
+        "HasCookingRecipe |contains=blueberry.cac.skewers": "true"
+      }
+    },
     //
     //
     // Love of Cooking (LoC) Strings
@@ -876,6 +926,18 @@
         "TowniesNeedFood_Leah_SandosLoC_Objective_Text_1": "{{i18n:TowniesNeedFood_Leah_SandosLoC_Objective_Text_1}}",
         "TowniesNeedFood_Leah_SandosLoC_Message_0": "{{i18n:TowniesNeedFood_Leah_SandosLoC_Message_0}}",
         "TowniesNeedFood_Leah_SandosLoC_Message_1": "{{i18n:TowniesNeedFood_Leah_SandosLoC_Message_1}}"
+      }
+    },
+    // Strings Lewis Shish Kebab LoC
+    {
+      "LogName": "Strings Lewis Shish Kebab LoC",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Lewis_ShishKebabLoC_Name": "{{i18n:TowniesNeedFood_Lewis_ShishKebabLoC_Name}}",
+        "TowniesNeedFood_Lewis_ShishKebabLoC_Text": "{{i18n:TowniesNeedFood_Lewis_ShishKebabLoC_Text}}",
+        "TowniesNeedFood_Lewis_ShishKebabLoC_Objective_Text_0": "{{i18n:TowniesNeedFood_Lewis_ShishKebabLoC_Objective_Text_0}}",
+        "TowniesNeedFood_Lewis_ShishKebabLoC_Message_0": "{{i18n:TowniesNeedFood_Lewis_ShishKebabLoC_Message_0}}"
       }
     },
   ]
