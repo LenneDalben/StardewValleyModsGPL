@@ -382,4 +382,11 @@
   "TowniesNeedFood_Kent_ClassicVegetablesLoC_Text": "I'd love to have hunter's plate for its nutritional value. Can anyone bring me 2?",
   "TowniesNeedFood_Kent_ClassicVegetablesLoC_Objective_Text_0": "Deliver 2 Hunter's Plate to Kent",
   "TowniesNeedFood_Kent_ClassicVegetablesLoC_Message_0": "These look great. Thanks @!",
+  // Leah Sandos LoC Strings
+  "TowniesNeedFood_Leah_SandosLoC_Name": "Sandos",
+  "TowniesNeedFood_Leah_SandosLoC_Text": "I'm in the mood for some sandwiches. Can anyone bring me a salad sandwich and a seafood sandwich?",
+  "TowniesNeedFood_Leah_SandosLoC_Objective_Text_0": "Deliver Salad Sandwich to Leah",
+  "TowniesNeedFood_Leah_SandosLoC_Objective_Text_1": "Deliver Seafood Sandwich to Leah",
+  "TowniesNeedFood_Leah_SandosLoC_Message_0": "This has so many vegetables. Thanks @!$h",
+  "TowniesNeedFood_Leah_SandosLoC_Message_1": "Thanks @! It's good to have a little seafood in the regimen.$h",
 }

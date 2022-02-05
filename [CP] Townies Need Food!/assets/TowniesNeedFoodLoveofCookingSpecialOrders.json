@@ -649,6 +649,66 @@
         "HasSeenEvent": "63"
       }
     },
+    // Leah Sandos LoC
+    {
+      "LogName": "Leah Sandos LoC",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Leah_SandosLoC": {
+          "Name": "[TowniesNeedFood_Leah_SandosLoC_Name]",
+          "Requester": "Leah",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Leah_SandosLoC_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Leah_SandosLoC_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_blueberry.cac.saladsando",
+                "Message": "[TowniesNeedFood_Leah_SandosLoC_Message_0]",
+                "TargetName": "Leah"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Leah_SandosLoC_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_blueberry.cac.seafoodsando",
+                "Message": "[TowniesNeedFood_Leah_SandosLoC_Message_1]",
+                "TargetName": "Leah"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1185"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "PlayerHasKitchen": true,
+        "HasCookingRecipe |contains=blueberry.cac.saladsando": "true",
+        "HasCookingRecipe |contains=blueberry.cac.seafoodsando": "true"
+      }
+    },
     //
     //
     // Love of Cooking (LoC) Strings
@@ -802,6 +862,20 @@
         "TowniesNeedFood_Kent_ClassicVegetablesLoC_Text": "{{i18n:TowniesNeedFood_Kent_ClassicVegetablesLoC_Text}}",
         "TowniesNeedFood_Kent_ClassicVegetablesLoC_Objective_Text_0": "{{i18n:TowniesNeedFood_Kent_ClassicVegetablesLoC_Objective_Text_0}}",
         "TowniesNeedFood_Kent_ClassicVegetablesLoC_Message_0": "{{i18n:TowniesNeedFood_Kent_ClassicVegetablesLoC_Message_0}}"
+      }
+    },
+    // Strings Leah Sandos LoC
+    {
+      "LogName": "Strings Leah Sandos LoC",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Leah_SandosLoC_Name": "{{i18n:TowniesNeedFood_Leah_SandosLoC_Name}}",
+        "TowniesNeedFood_Leah_SandosLoC_Text": "{{i18n:TowniesNeedFood_Leah_SandosLoC_Text}}",
+        "TowniesNeedFood_Leah_SandosLoC_Objective_Text_0": "{{i18n:TowniesNeedFood_Leah_SandosLoC_Objective_Text_0}}",
+        "TowniesNeedFood_Leah_SandosLoC_Objective_Text_1": "{{i18n:TowniesNeedFood_Leah_SandosLoC_Objective_Text_1}}",
+        "TowniesNeedFood_Leah_SandosLoC_Message_0": "{{i18n:TowniesNeedFood_Leah_SandosLoC_Message_0}}",
+        "TowniesNeedFood_Leah_SandosLoC_Message_1": "{{i18n:TowniesNeedFood_Leah_SandosLoC_Message_1}}"
       }
     },
   ]
