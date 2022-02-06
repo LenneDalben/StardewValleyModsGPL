@@ -436,4 +436,12 @@
   "TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Objective_Text_1": "Deliver Ocean Platter to Willy",
   "TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Message_0": "Thanks @! I love this recipe.$h",
   "TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Message_1": "This is an excellent selection of seafood. Thanks @!$h",
+  //
+  // Wizard Special Dinner & Dessert LoC Strings
+  "TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Name": "Special Dinner & Dessert",
+  "TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Text": "Local wizard in search of a dwarven stew and redberry pie. These are magnificent dishes.",
+  "TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Objective_Text_0": "Deliver Dwarven Stew to Wizard",
+  "TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Objective_Text_1": "Deliver Redberry Pie to Wizard",
+  "TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Message_0": "What a rich stew. Thanks @!$h",
+  "TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Message_1": "That's truly a gorgeous smell.$h#$b#*ahem* I mean thank you @."
 }

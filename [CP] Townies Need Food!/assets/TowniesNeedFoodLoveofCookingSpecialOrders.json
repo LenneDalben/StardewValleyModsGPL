@@ -989,6 +989,66 @@
         "HasCookingRecipe |contains=blueberry.cac.oceanplatter": "true"
       }
     },
+    // Wizard Special Dinner & Dessert LoC
+    {
+      "LogName": "Wizard Special Dinner & Dessert LoC",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC": {
+          "Name": "[TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Name]",
+          "Requester": "Wizard",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "season_winter",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_blueberry.cac.dwarfstew",
+                "Message": "[TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Message_0]",
+                "TargetName": "Wizard"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_blueberry.cac.redberrypie",
+                "Message": "[TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Message_1]",
+                "TargetName": "Wizard"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "2160"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "PlayerHasKitchen": true,
+        "HasCookingRecipe |contains=blueberry.cac.dwarfstew": "true",
+        "HasCookingRecipe |contains=blueberry.cac.redberrypie": "true"
+      }
+    },
     //
     //
     // Love of Cooking (LoC) Strings
@@ -1224,5 +1284,19 @@
         "TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Message_1": "{{i18n:TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Message_1}}"
       }
     },
+    // Strings Wizard Special Dinner & Dessert LoC
+    {
+      "LogName": "Strings Wizard Special Dinner & Dessert LoC",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Name": "{{i18n:TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Name}}",
+        "TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Text": "{{i18n:TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Text}}",
+        "TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Objective_Text_0": "{{i18n:TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Objective_Text_0}}",
+        "TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Objective_Text_1": "{{i18n:TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Objective_Text_1}}",
+        "TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Message_0": "{{i18n:TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Message_0}}",
+        "TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Message_1": "{{i18n:TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Message_1}}"
+      }
+    }
   ]
 }
