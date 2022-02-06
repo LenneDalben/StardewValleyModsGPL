@@ -253,7 +253,7 @@
   //
   // Sandy Sweet Mango and Coconut Strings
   "TowniesNeedFood_Sandy_SweetMangoandCoconut_Name": "Sweet Mango & Coconut",
-  "TowniesNeedFood_Sandy_SweetMangoandCoconut_Text": "I think Sandy would enjoy mango sticky rice. Could someone bring some to her? - Emily",
+  "TowniesNeedFood_Sandy_SweetMangoandCoconut_Text": "I think Sandy would enjoy mango sticky rice. Could someone bring some to her?     - Emily",
   "TowniesNeedFood_Sandy_SweetMangoandCoconut_Objective_Text_0": "Deliver Mango Sticky Rice to Sandy",
   "TowniesNeedFood_Sandy_SweetMangoandCoconut_Message_0": "Lovely, thank you @!$h#$b#I'll thank Emily, too! Nice of her to look out for me.$h",
   //
@@ -422,4 +422,10 @@
   "TowniesNeedFood_Pam_RichFoodLoC_Objective_Text_1": "Deliver Loaded Potato to Pam",
   "TowniesNeedFood_Pam_RichFoodLoC_Message_0": "This is a warm treat in the morning.#$b#Thanks @!$h",
   "TowniesNeedFood_Pam_RichFoodLoC_Message_1": "Can't go wrong with a loaded potato.#$b#Thanks @!$h",
+  //
+  // Sandy Refreshing Salad LoC Strings
+  "TowniesNeedFood_Sandy_RefreshingSaladLoC_Name": "Refreshing Salad",
+  "TowniesNeedFood_Sandy_RefreshingSaladLoC_Text": "I have a feeling Sandy would enjoy a tropical salad. Can someone bring some to her?     - Emily",
+  "TowniesNeedFood_Sandy_RefreshingSaladLoC_Objective_Text_0": "Deliver Tropical Salad to Sandy",
+  "TowniesNeedFood_Sandy_RefreshingSaladLoC_Message_0": "This looks delicious, thank you @!$h#$b#I'll let Emily know she's sweet to look out for me like this.$h",
 }

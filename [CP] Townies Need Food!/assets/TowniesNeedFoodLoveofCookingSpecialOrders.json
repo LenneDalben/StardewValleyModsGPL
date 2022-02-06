@@ -879,6 +879,55 @@
         "HasCookingRecipe |contains=blueberry.cac.loadedpotato": "true"
       }
     },
+    // Sandy Refreshing Salad LoC
+    {
+      "LogName": "Sandy Refreshing Salad LoC",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Sandy_RefreshingSaladLoC": {
+          "Name": "[TowniesNeedFood_Sandy_RefreshingSaladLoC_Name]",
+          "Requester": "Emily",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "island",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Sandy_RefreshingSaladLoC_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Sandy_RefreshingSaladLoC_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_blueberry.cac.tropicalsalad",
+                "Message": "[TowniesNeedFood_Sandy_RefreshingSaladLoC_Message_0]",
+                "TargetName": "Sandy"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1275"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "PlayerHasKitchen": true,
+        "HasCookingRecipe |contains=blueberry.cac.tropicalsalad": "true"
+      }
+    },
     //
     //
     // Love of Cooking (LoC) Strings
@@ -1086,6 +1135,18 @@
         "TowniesNeedFood_Pam_RichFoodLoC_Objective_Text_1": "{{i18n:TowniesNeedFood_Pam_RichFoodLoC_Objective_Text_1}}",
         "TowniesNeedFood_Pam_RichFoodLoC_Message_0": "{{i18n:TowniesNeedFood_Pam_RichFoodLoC_Message_0}}",
         "TowniesNeedFood_Pam_RichFoodLoC_Message_1": "{{i18n:TowniesNeedFood_Pam_RichFoodLoC_Message_1}}"
+      }
+    },
+    // Strings Sandy Refreshing Salad LoC
+    {
+      "LogName": "Strings Sandy Refreshing Salad LoC",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Sandy_RefreshingSaladLoC_Name": "{{i18n:TowniesNeedFood_Sandy_RefreshingSaladLoC_Name}}",
+        "TowniesNeedFood_Sandy_RefreshingSaladLoC_Text": "{{i18n:TowniesNeedFood_Sandy_RefreshingSaladLoC_Text}}",
+        "TowniesNeedFood_Sandy_RefreshingSaladLoC_Objective_Text_0": "{{i18n:TowniesNeedFood_Sandy_RefreshingSaladLoC_Objective_Text_0}}",
+        "TowniesNeedFood_Sandy_RefreshingSaladLoC_Message_0": "{{i18n:TowniesNeedFood_Sandy_RefreshingSaladLoC_Message_0}}"
       }
     },
   ]
