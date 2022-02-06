@@ -819,6 +819,66 @@
         "HasCookingRecipe |contains=blueberry.cac.kebab": "true"
       }
     },
+    // Pam Rich Food LoC
+    {
+      "LogName": "Pam Rich Food LoC",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Pam_RichFoodLoC": {
+          "Name": "[TowniesNeedFood_Pam_RichFoodLoC_Name]",
+          "Requester": "Pam",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "season_winter",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Pam_RichFoodLoC_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Pam_RichFoodLoC_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_blueberry.cac.porridge",
+                "Message": "[TowniesNeedFood_Pam_RichFoodLoC_Message_0]",
+                "TargetName": "Pam"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Pam_RichFoodLoC_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_blueberry.cac.loadedpotato",
+                "Message": "[TowniesNeedFood_Pam_RichFoodLoC_Message_1]",
+                "TargetName": "Pam"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1200"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "PlayerHasKitchen": true,
+        "HasCookingRecipe |contains=blueberry.cac.porridge": "true",
+        "HasCookingRecipe |contains=blueberry.cac.loadedpotato": "true"
+      }
+    },
     //
     //
     // Love of Cooking (LoC) Strings
@@ -1012,6 +1072,20 @@
         "TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Objective_Text_1": "{{i18n:TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Objective_Text_1}}",
         "TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Message_0": "{{i18n:TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Message_0}}",
         "TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Message_1": "{{i18n:TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Message_1}}"
+      }
+    },
+    // Strings Pam Rich Food LoC
+    {
+      "LogName": "Strings Pam Rich Food LoC",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Pam_RichFoodLoC_Name": "{{i18n:TowniesNeedFood_Pam_RichFoodLoC_Name}}",
+        "TowniesNeedFood_Pam_RichFoodLoC_Text": "{{i18n:TowniesNeedFood_Pam_RichFoodLoC_Text}}",
+        "TowniesNeedFood_Pam_RichFoodLoC_Objective_Text_0": "{{i18n:TowniesNeedFood_Pam_RichFoodLoC_Objective_Text_0}}",
+        "TowniesNeedFood_Pam_RichFoodLoC_Objective_Text_1": "{{i18n:TowniesNeedFood_Pam_RichFoodLoC_Objective_Text_1}}",
+        "TowniesNeedFood_Pam_RichFoodLoC_Message_0": "{{i18n:TowniesNeedFood_Pam_RichFoodLoC_Message_0}}",
+        "TowniesNeedFood_Pam_RichFoodLoC_Message_1": "{{i18n:TowniesNeedFood_Pam_RichFoodLoC_Message_1}}"
       }
     },
   ]
