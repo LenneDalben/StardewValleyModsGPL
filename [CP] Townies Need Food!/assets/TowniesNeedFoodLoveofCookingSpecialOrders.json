@@ -929,6 +929,66 @@
         "HasCookingRecipe |contains=blueberry.cac.tropicalsalad": "true"
       }
     },
+    // Willy Lunch & Dinner Leftovers LoC
+    {
+      "LogName": "Willy Lunch & Dinner Leftovers LoC",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC": {
+          "Name": "[TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Name]",
+          "Requester": "Willy",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_blueberry.cac.lobster",
+                "Message": "[TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Message_0]",
+                "TargetName": "Willy"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_blueberry.cac.oceanplatter",
+                "Message": "[TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Message_1]",
+                "TargetName": "Willy"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1680"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "PlayerHasKitchen": true,
+        "HasCookingRecipe |contains=blueberry.cac.lobster": "true",
+        "HasCookingRecipe |contains=blueberry.cac.oceanplatter": "true"
+      }
+    },
     //
     //
     // Love of Cooking (LoC) Strings
@@ -1148,6 +1208,20 @@
         "TowniesNeedFood_Sandy_RefreshingSaladLoC_Text": "{{i18n:TowniesNeedFood_Sandy_RefreshingSaladLoC_Text}}",
         "TowniesNeedFood_Sandy_RefreshingSaladLoC_Objective_Text_0": "{{i18n:TowniesNeedFood_Sandy_RefreshingSaladLoC_Objective_Text_0}}",
         "TowniesNeedFood_Sandy_RefreshingSaladLoC_Message_0": "{{i18n:TowniesNeedFood_Sandy_RefreshingSaladLoC_Message_0}}"
+      }
+    },
+    // Strings Willy Lunch & Dinner Leftovers LoC
+    {
+      "LogName": "Strings Willy Lunch & Dinner Leftovers LoC",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Name": "{{i18n:TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Name}}",
+        "TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Text": "{{i18n:TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Text}}",
+        "TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Objective_Text_0": "{{i18n:TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Objective_Text_0}}",
+        "TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Objective_Text_1": "{{i18n:TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Objective_Text_1}}",
+        "TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Message_0": "{{i18n:TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Message_0}}",
+        "TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Message_1": "{{i18n:TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Message_1}}"
       }
     },
   ]

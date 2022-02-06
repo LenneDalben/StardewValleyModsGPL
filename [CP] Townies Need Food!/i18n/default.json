@@ -428,4 +428,12 @@
   "TowniesNeedFood_Sandy_RefreshingSaladLoC_Text": "I have a feeling Sandy would enjoy a tropical salad. Can someone bring some to her?     - Emily",
   "TowniesNeedFood_Sandy_RefreshingSaladLoC_Objective_Text_0": "Deliver Tropical Salad to Sandy",
   "TowniesNeedFood_Sandy_RefreshingSaladLoC_Message_0": "This looks delicious, thank you @!$h#$b#I'll let Emily know she's sweet to look out for me like this.$h",
+  //
+  // Willy Lunch & Dinner Leftovers LoC Strings
+  "TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Name": "Lunch & Dinner Leftovers",
+  "TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Text": "I think stuffed potatoes and onion soup will go well with dinner. Can anyone bring me some?",
+  "TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Objective_Text_0": "Deliver Lobster Bake to Willy",
+  "TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Objective_Text_1": "Deliver Ocean Platter to Willy",
+  "TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Message_0": "Thanks @! I love this recipe.$h",
+  "TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Message_1": "This is an excellent selection of seafood. Thanks @!$h",
 }
