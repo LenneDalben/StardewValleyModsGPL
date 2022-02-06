@@ -759,6 +759,66 @@
         "HasCookingRecipe |contains=blueberry.cac.skewers": "true"
       }
     },
+    // Maru Veggies & a Mystery LoC
+    {
+      "LogName": "Maru Veggies & a Mystery LoC",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_Maru_VeggiesandaMysteryLoC": {
+          "Name": "[TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Name]",
+          "Requester": "Maru",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "season_spring",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_blueberry.cac.fritters",
+                "Message": "[TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Message_0]",
+                "TargetName": "Maru"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_blueberry.cac.kebab",
+                "Message": "[TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Message_1]",
+                "TargetName": "Maru"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "411"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "PlayerHasKitchen": true,
+        "HasCookingRecipe |contains=blueberry.cac.fritters": "true",
+        "HasCookingRecipe |contains=blueberry.cac.kebab": "true"
+      }
+    },
     //
     //
     // Love of Cooking (LoC) Strings
@@ -938,6 +998,20 @@
         "TowniesNeedFood_Lewis_ShishKebabLoC_Text": "{{i18n:TowniesNeedFood_Lewis_ShishKebabLoC_Text}}",
         "TowniesNeedFood_Lewis_ShishKebabLoC_Objective_Text_0": "{{i18n:TowniesNeedFood_Lewis_ShishKebabLoC_Objective_Text_0}}",
         "TowniesNeedFood_Lewis_ShishKebabLoC_Message_0": "{{i18n:TowniesNeedFood_Lewis_ShishKebabLoC_Message_0}}"
+      }
+    },
+    // Strings Maru Veggies & a Mystery LoC
+    {
+      "LogName": "Strings Maru Veggies & a Mystery LoC",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Name": "{{i18n:TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Name}}",
+        "TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Text": "{{i18n:TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Text}}",
+        "TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Objective_Text_0": "{{i18n:TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Objective_Text_0}}",
+        "TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Objective_Text_1": "{{i18n:TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Objective_Text_1}}",
+        "TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Message_0": "{{i18n:TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Message_0}}",
+        "TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Message_1": "{{i18n:TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Message_1}}"
       }
     },
   ]

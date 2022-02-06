@@ -406,4 +406,12 @@
   "TowniesNeedFood_Lewis_ShishKebabLoC_Text": "Hi Pelican Town, I'd love to have some extra fruits and vegetables. Can someone scrounge up pineapple skewers for your favorite mayor?",
   "TowniesNeedFood_Lewis_ShishKebabLoC_Objective_Text_0": "Deliver Pineapple Skewers to Lewis",
   "TowniesNeedFood_Lewis_ShishKebabLoC_Message_0": "These look great. Thanks @!",
+  //
+  // Maru Veggies & a Mystery LoC Strings
+  "TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Name": "Veggies & a Mystery",
+  "TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Text": "I think stuffed potatoes and onion soup will go well with dinner. Can anyone bring me some?", // I'm in the mood for some focus food. Could someone bring me cheese cauliflower, miner's treat, and rhubarb pie?
+  "TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Objective_Text_0": "Deliver Cauliflower Fritters to Maru",
+  "TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Objective_Text_1": "Deliver Kebab to Maru",
+  "TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Message_0": "Cauliflower is great no matter how you cook it. Thanks @!$h",
+  "TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Message_1": "Thanks @! Sometimes it's nice to roll the dice on kebabs.$h", 
 }
