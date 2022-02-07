@@ -168,6 +168,55 @@
         }
       }
     },
+    // Gus Travel Bread Host Trees
+    {
+      "LogName": "Gus Travel Bread Host Trees",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Gus_TravelBread": {
+          "Name": "[TowniesNeedArtisanGoods_Gus_TravelBread_Name]",
+          "Requester": "Gus",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "season_winter",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Gus_TravelBread_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Gus_TravelBread_Objective_Text_0]",
+              "RequiredCount": "4",
+              "Data": {
+                "AcceptedContextTags": "item_lichen_bread",
+                "Message": "[TowniesNeedArtisanGoods_Gus_TravelBread_Message_0]",
+                "TargetName": "Gus"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "2000"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "HasWalletItem": "DwarvishTranslationGuide",
+        "HasCraftingRecipe": "Furnace"
+      }
+    },
     //
     //
     // Host Trees House DropBox Patches
@@ -225,6 +274,18 @@
         "TowniesNeedArtisanGoods_Evelyn_SpecialStand_Text": "{{i18n:TowniesNeedArtisanGoods_Evelyn_SpecialStand_Text}}",
         "TowniesNeedArtisanGoods_Evelyn_SpecialStand_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Evelyn_SpecialStand_Objective_Text_0}}",
         "TowniesNeedArtisanGoods_Evelyn_SpecialStand_Message_Text_0": "{{i18n:TowniesNeedArtisanGoods_Evelyn_SpecialStand_Message_Text_0}}"
+      }
+    },
+    // Strings Gus Travel Bread Host Trees
+    {
+      "LogName": "Strings Gus Travel Bread Host Trees",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Gus_TravelBread_Name": "{{i18n:TowniesNeedArtisanGoods_Gus_TravelBread_Name}}",
+        "TowniesNeedArtisanGoods_Gus_TravelBread_Text": "{{i18n:TowniesNeedArtisanGoods_Gus_TravelBread_Text}}",
+        "TowniesNeedArtisanGoods_Gus_TravelBread_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Gus_TravelBread_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Gus_TravelBread_Message_Text_0": "{{i18n:TowniesNeedArtisanGoods_Gus_TravelBread_Message_Text_0}}"
       }
     },
   ]

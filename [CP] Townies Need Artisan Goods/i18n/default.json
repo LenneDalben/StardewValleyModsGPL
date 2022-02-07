@@ -466,6 +466,12 @@
   "TowniesNeedArtisanGoods_Evelyn_SpecialStand_Text": "George knows to respect the mistletoe tradition, and I'd like to nudge him. Can someone bring me a mistletoe stand?",
   "TowniesNeedArtisanGoods_Evelyn_SpecialStand_Objective_Text_0": "Drop off 1 Mistletoe Stand by the plant in Evelyn's house",
   //
+  //  
+  // Gus Travel Bread Host Trees Strings
+  "TowniesNeedArtisanGoods_Gus_TravelBread_Name": "Travel Bread",
+  "TowniesNeedArtisanGoods_Gus_TravelBread_Text": "Can anyone drop off 4 lichen bread at the saloon?",
+  "TowniesNeedArtisanGoods_Gus_TravelBread_Objective_Text_0": "Deliver 4 Lichen Bread to Gus","TowniesNeedArtisanGoods_Gus_TravelBread_Message_Text_0": "It's a nice, simple bread. Thanks @!!$h",
+  //
   //
   // ***Host Trees events and conversation topics strings***
   //
