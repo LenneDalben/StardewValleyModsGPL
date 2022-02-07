@@ -164,7 +164,11 @@
                 "NoLetter": "true"
               }
             }
-          ]
+          ],
+          "When":{
+            "HasSeenEvent": "67",
+            "HasCraftingRecipe": "Mistletoe Stand"
+          }
         }
       }
     },
