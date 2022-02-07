@@ -64,6 +64,12 @@
       "Action": "Include",
       "FromFile": "assets/TowniesNeedArtisanGoodsSpecialOrders.json"
     },
+    // Include Rewards
+    {
+      "LogName": "Include Townies Seek Artisan Goods Rewards",
+      "Action": "Include",
+      "FromFile": "assets/TowniesNeedArtisanGoodsRewards.json"
+    },
     // Include Host Trees Orders and Strings Patches
     {
       "LogName": "Include Townies Seek Artisan Goods Host Trees Orders",
@@ -72,12 +78,6 @@
       "When": {
         "HasMod": "tiakall.hosttrees"
       }
-    },
-    // Include Rewards
-    {
-      "LogName": "Include Townies Seek Artisan Goods Rewards",
-      "Action": "Include",
-      "FromFile": "assets/TowniesNeedArtisanGoodsRewards.json"
     },
     // Include Host Trees Rewards
     {
