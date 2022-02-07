@@ -55,7 +55,8 @@
         }
       },
       "When": {
-        "Hearts:Sandy": "5, 6, 7, 8, 9, 10"
+        "Hearts:Sandy": "5, 6, 7, 8, 9, 10",
+        "HasCraftingRecipe": "Vanilla Orchid Pot"
       }
     },
     // Emily Nice Threads Host Trees PSST it's going to have an event as a reward
@@ -110,7 +111,8 @@
         }
       },
       "When": {
-        "HasSeenEvent": "67"
+        "HasSeenEvent": "67",
+        "HasCraftingRecipe": "Loom"
       }
     },
     // Evelyn Special Stand Host Trees PSST it's going to have an event as a reward
