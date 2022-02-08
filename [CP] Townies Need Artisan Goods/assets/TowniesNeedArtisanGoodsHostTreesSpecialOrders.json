@@ -165,7 +165,7 @@
               }
             }
           ],
-          "When":{
+          "When": {
             "HasSeenEvent": "67",
             "HasCraftingRecipe": "Mistletoe Stand"
           }
@@ -287,6 +287,75 @@
         "HasCraftingRecipe": "Mossy Junimo"
       }
     },
+    // Sandy Cherry Indoor Plants Host Trees PSST Little map patch as a reward
+    {
+      "LogName": "Sandy Cherry Indoor Plants Host Trees",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Sandy_CherryIndoorPlants": {
+          "Name": "[TowniesNeedArtisanGoods_Sandy_CherryIndoorPlants_Name]",
+          "Requester": "Emily",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "!season_summer, !season_fall",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Sandy_CherryIndoorPlants_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "[TowniesNeedArtisanGoods_Sandy_CherryIndoorPlants_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "DropBox": "SandyCorner",
+                "DropBoxGameLocation": "SandyHouse",
+                "DropBoxIndicatorLocation": "8 8",
+                "AcceptedContextTags": "item_reindeer_lichen_terrarium"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "[TowniesNeedArtisanGoods_Sandy_CherryIndoorPlants_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "DropBox": "SandyCorner",
+                "DropBoxGameLocation": "SandyHouse",
+                "DropBoxIndicatorLocation": "8 8",
+                "AcceptedContextTags": "item_air_plant_terrarium"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1725"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "TowniesNeedArtisanGoods_Sandy_CherryIndoorPlants_Letter",
+                "NoLetter": "false"
+              }
+            }
+          ]
+        }
+      },
+      "When": {
+        "Hearts:Sandy": "5, 6, 7, 8, 9, 10",
+        "HasCraftingRecipe | contains=Reindeer Lichen Terrarium": "true",
+        "HasCraftingRecipe | contains=Air Plant Terrarium": "true"
+      }
+    },
     //
     //
     // Host Trees House DropBox Patches
@@ -304,6 +373,24 @@
           "Layer": "Buildings",
           "SetProperties": {
             "Action": "DropBox EvelynCorner"
+          }
+        }
+      ]
+    },
+    // Sandy's House DropBox Patch
+    {
+      "LogName": "Sandy's House DropBox",
+      "Action": "EditMap",
+      "Target": "Maps/SandyHouse",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 8,
+            "Y": 8
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "DropBox SandyCorner"
           }
         }
       ]
@@ -370,6 +457,18 @@
         "TowniesNeedArtisanGoods_Jas_PlushieofLove_Objective_Text_1": "{{i18n:TowniesNeedArtisanGoods_Jas_PlushieofLove_Objective_Text_1}}",
         "TowniesNeedArtisanGoods_Jas_PlushieofLove_Message_Text_0": "{{i18n:TowniesNeedArtisanGoods_Jas_PlushieofLove_Message_Text_0}}",
         "TowniesNeedArtisanGoods_Jas_PlushieofLove_Message_Text_1": "{{i18n:TowniesNeedArtisanGoods_Jas_PlushieofLove_Message_Text_1}}"
+      }
+    },
+    // Strings Sandy Cherry Indoor Plants Host Trees
+    {
+      "LogName": "Strings Sandy Cherry Indoor Plants Host Trees",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Sandy_CherryIndoorPlants_Name": "{{i18n:TowniesNeedArtisanGoods_Sandy_CherryIndoorPlants_Name}}",
+        "TowniesNeedArtisanGoods_Sandy_CherryIndoorPlants_Text": "{{i18n:TowniesNeedArtisanGoods_Sandy_CherryIndoorPlants_Text}}",
+        "TowniesNeedArtisanGoods_Sandy_CherryIndoorPlants_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Sandy_CherryIndoorPlants_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Sandy_CherryIndoorPlants_Objective_Text_1": "{{i18n:TowniesNeedArtisanGoods_Sandy_CherryIndoorPlants_Objective_Text_1}}"
       }
     },
   ]
