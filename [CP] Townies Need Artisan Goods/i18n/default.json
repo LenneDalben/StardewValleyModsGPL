@@ -472,6 +472,14 @@
   "TowniesNeedArtisanGoods_Gus_TravelBread_Text": "Can anyone drop off 4 lichen bread at the saloon?",
   "TowniesNeedArtisanGoods_Gus_TravelBread_Objective_Text_0": "Deliver 4 Lichen Bread to Gus","TowniesNeedArtisanGoods_Gus_TravelBread_Message_Text_0": "It's a nice, simple bread. Thanks @!!$h",
   //
+  //  
+  // Jas Plushie of Love Host Trees Strings
+  "TowniesNeedArtisanGoods_Jas_PlushieofLove_Name": "Plushie of Love",
+  "TowniesNeedArtisanGoods_Jas_PlushieofLove_Text": "I think Jas and Vincent would love a plushie this year. Can anyone give them a mossy junimo each?     - Shane",
+  "TowniesNeedArtisanGoods_Jas_PlushieofLove_Objective_Text_0": "Deliver Mossy Junimo to Jas",
+  "TowniesNeedArtisanGoods_Jas_PlushieofLove_Objective_Text_1": "Deliver Mossy Junimo to Vincent",
+  "TowniesNeedArtisanGoods_Jas_PlushieofLove_Message_Text_0": "You have a surprise for me?$3#$b#Ahh, it's so FLUFFY!!!$h#$b#Thanks! I'll thank Uncle Shane too!$h","TowniesNeedArtisanGoods_Jas_PlushieofLove_Message_Text_1": "Hmm?$3#$b#Oooh, it's so cute!!!$h#$b#Thank you! I'll tell Shane thanks, too.$h",
+  //
   //
   // ***Host Trees events and conversation topics strings***
   //

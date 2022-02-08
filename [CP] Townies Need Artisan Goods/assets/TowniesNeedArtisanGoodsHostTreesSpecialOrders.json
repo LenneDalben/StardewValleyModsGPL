@@ -221,6 +221,72 @@
         "HasCraftingRecipe": "Furnace"
       }
     },
+    // Jas Plushie of Love Host Trees PSST it's going to have an event as a reward
+    {
+      "LogName": "Jas Plushie of Love Host Trees",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Jas_PlushieofLove": {
+          "Name": "[TowniesNeedArtisanGoods_Jas_PlushieofLove_Name]",
+          "Requester": "Shane",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "season_spring",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Jas_PlushieofLove_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Jas_PlushieofLove_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_mossy_junimo",
+                "Message": "[TowniesNeedArtisanGoods_Jas_PlushieofLove_Message_0]",
+                "TargetName": "Jas"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Jas_PlushieofLove_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_mossy_junimo",
+                "Message": "[TowniesNeedArtisanGoods_Jas_PlushieofLove_Message_1]",
+                "TargetName": "Vincent"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "2384"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "TowniesNeedArtisanGoods_Jas_PlushieofLove_Completed",
+                "NoLetter": "true"
+              }
+            }
+          ]
+        }
+      },
+      "When": {
+        "Hearts:Sandy": "5, 6, 7, 8, 9, 10",
+        "HasCraftingRecipe": "Mossy Junimo"
+      }
+    },
     //
     //
     // Host Trees House DropBox Patches
@@ -290,6 +356,20 @@
         "TowniesNeedArtisanGoods_Gus_TravelBread_Text": "{{i18n:TowniesNeedArtisanGoods_Gus_TravelBread_Text}}",
         "TowniesNeedArtisanGoods_Gus_TravelBread_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Gus_TravelBread_Objective_Text_0}}",
         "TowniesNeedArtisanGoods_Gus_TravelBread_Message_Text_0": "{{i18n:TowniesNeedArtisanGoods_Gus_TravelBread_Message_Text_0}}"
+      }
+    },
+    // Strings Jas Plushie of Love Host Trees
+    {
+      "LogName": "Strings Jas Plushie of Love Host Trees",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Jas_PlushieofLove_Name": "{{i18n:TowniesNeedArtisanGoods_Jas_PlushieofLove_Name}}",
+        "TowniesNeedArtisanGoods_Jas_PlushieofLove_Text": "{{i18n:TowniesNeedArtisanGoods_Jas_PlushieofLove_Text}}",
+        "TowniesNeedArtisanGoods_Jas_PlushieofLove_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Jas_PlushieofLove_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Jas_PlushieofLove_Objective_Text_1": "{{i18n:TowniesNeedArtisanGoods_Jas_PlushieofLove_Objective_Text_1}}",
+        "TowniesNeedArtisanGoods_Jas_PlushieofLove_Message_Text_0": "{{i18n:TowniesNeedArtisanGoods_Jas_PlushieofLove_Message_Text_0}}",
+        "TowniesNeedArtisanGoods_Jas_PlushieofLove_Message_Text_1": "{{i18n:TowniesNeedArtisanGoods_Jas_PlushieofLove_Message_Text_1}}"
       }
     },
   ]
