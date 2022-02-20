@@ -1,6 +1,34 @@
 {
   "Changes": [
-    // EVENTS WOOT
+    // EVENTS WOOT  // {{spacechase0.jsonAssets/ObjectId:item name}} spanish_moss_thread mossy_junimo
+    // Emily Nice Threads Event
+    /*Event proper*/ {
+      "LogName": "Emily Nice Threads Event",
+      "Action": "EditData",
+      "Target": "Data/Events/HaleyHouse",
+      "Entries": {
+        "02092022/n TowniesNeedArtisanGoods_Emily_NiceThreads_Completed": "playful/-1000 -1000/Emily 16 5 2/addObject {{spacechase0.jsonAssets/ObjectId: Spanish Moss Thread}} 17 5/addObject {{spacechase0.jsonAssets/ObjectId: Spanish Moss Thread}} 17 6/addObject {{spacechase0.jsonAssets/ObjectId: Spanish Moss Thread}} 17 7/addObject {{spacechase0.jsonAssets/ObjectId: Spanish Moss Thread}} 16 6/addObject {{spacechase0.jsonAssets/ObjectId:Mossy Junimo}} 16 6/skippable/addConversationTopic Emily_nicethreads 7/globalFadeToClear/viewport 13 7 true/pause 3000/emote Emily 32/pause 1000/globalFade/viewport -1000 -1000/end"
+        // how add JA item to the event D: {{spacechase0.jsonAssets/ObjectId: Spanish Moss Thread}} {{spacechase0.jsonAssets/ObjectId:Mossy Junimo}}
+        // need coordinates for Emily's house
+        // for the table: it's from 15 5 to 16 6 (1 tile wide, 2 tiles tall)
+      }
+    },
+    /*Emily CT*/ {
+      "LogName": "Emily Nice Threads CT",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Emily",
+      "Entries": {
+        "Emily_nicethreads": "{{i18n:Emily_nicethreadsCT_Emily}}"
+      }
+    },
+    /*Haley CT*/ {
+      "LogName": "Emily Nice Threads CT",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Haley",
+      "Entries": {
+        "Emily_nicethreads": "{{i18n:Emily_nicethreadsCT_Haley}}"
+      }
+    },
     //
     // CONVERSATION TOPICS WOOT
     // Caroline Delicate Orchids Host Trees Topic
