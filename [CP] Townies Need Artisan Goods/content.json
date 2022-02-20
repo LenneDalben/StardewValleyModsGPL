@@ -85,7 +85,7 @@
       "Action": "Include",
       "FromFile": "assets/TowniesNeedArtisanGoodsHostTreesRewards.json",
       "When": {
-        "HasMod": "tiakall.hosttrees"
+        "HasMod |contains=spacechase0.jsonAssets, tiakall.hosttrees": "true"
       }
     },
     // Leah's House DropBox Patch
