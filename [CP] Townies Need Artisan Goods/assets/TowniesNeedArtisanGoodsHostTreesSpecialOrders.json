@@ -59,7 +59,7 @@
         "HasCraftingRecipe": "Vanilla Orchid Pot"
       }
     },
-    // Emily Nice Threads Host Trees PSST it's going to have an event as a reward
+    // Emily Nice Threads Host Trees
     {
       "LogName": "Emily Nice Threads Host Trees",
       "Action": "EditData",
