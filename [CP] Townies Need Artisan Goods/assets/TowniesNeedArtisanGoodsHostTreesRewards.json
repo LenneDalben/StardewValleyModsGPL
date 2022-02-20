@@ -14,7 +14,7 @@
       }
     },
     /*Emily CT*/ {
-      "LogName": "Emily Nice Threads CT",
+      "LogName": "Emily Nice Threads CT - Emily",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Emily",
       "Entries": {
@@ -22,7 +22,7 @@
       }
     },
     /*Haley CT*/ {
-      "LogName": "Emily Nice Threads CT",
+      "LogName": "Emily Nice Threads CT - Haley",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Haley",
       "Entries": {
