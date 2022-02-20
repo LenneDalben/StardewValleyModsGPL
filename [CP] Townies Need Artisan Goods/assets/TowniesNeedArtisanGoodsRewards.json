@@ -449,7 +449,7 @@
     },
     // Sandy Light Beverage Conversation Topic - No DSV installed, so it's beer
     /*Letter*/ {
-      "LogName": "Sandy Light Beverage Letter for CT",
+      "LogName": "Sandy Light Beverage Beer Letter for CT",
       "Action": "EditData",
       "Target": "Data/Mail",
       "Entries": {
@@ -458,7 +458,7 @@
       "HasMod |contains=DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.EmilyHaleySandy": "false"
     },
     /*Sandy CT*/ {
-      "LogName": "Sandy Light Beverage CT - Sandy",
+      "LogName": "Sandy Light Beverage Beer CT - Sandy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sandy",
       "Entries": {
@@ -467,7 +467,7 @@
       "HasMod |contains=DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.EmilyHaleySandy": "false"
     },
     /*Emily CT*/ {
-      "LogName": "Sandy Light Beverage CT - Emily",
+      "LogName": "Sandy Light Beverage Beer CT - Emily",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Emily",
       "Entries": {
@@ -476,7 +476,7 @@
       "HasMod |contains=DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.EmilyHaleySandy": "false"
     },
     /*Haley CT*/ {
-      "LogName": "Sandy Light Beverage CT - Haley",
+      "LogName": "Sandy Light Beverage Beer CT - Haley",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Haley",
       "Entries": {
@@ -486,7 +486,7 @@
     },
     // Sandy Light Beverage Conversation Topic - DSV is installed, so it's beet juice
     /*Letter*/ {
-      "LogName": "Sandy Light Beverage Letter for CT",
+      "LogName": "Sandy Light Beverage Juice Letter for CT",
       "Action": "EditData",
       "Target": "Data/Mail",
       "Entries": {
@@ -495,7 +495,7 @@
       "HasMod |contains=DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.EmilyHaleySandy": "true"
     },
     /*Sandy CT*/ {
-      "LogName": "Sandy Light Beverage CT - Sandy",
+      "LogName": "Sandy Light Beverage Juice CT - Sandy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sandy",
       "Entries": {
@@ -504,7 +504,7 @@
       "HasMod |contains=DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.EmilyHaleySandy": "true"
     },
     /*Emily CT*/ {
-      "LogName": "Sandy Light Beverage CT - Emily",
+      "LogName": "Sandy Light Beverage Juice CT - Emily",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Emily",
       "Entries": {
@@ -513,7 +513,7 @@
       "HasMod |contains=DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.EmilyHaleySandy": "true"
     },
     /*Haley CT*/ {
-      "LogName": "Sandy Light Beverage CT - Haley",
+      "LogName": "Sandy Light Beverage Juice CT - Haley",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Haley",
       "Entries": {
