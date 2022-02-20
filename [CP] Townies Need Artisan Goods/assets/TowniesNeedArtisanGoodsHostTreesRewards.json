@@ -11,6 +11,9 @@
         // how add JA item to the event D: {{spacechase0.jsonAssets/ObjectId: Spanish Moss Thread}} {{spacechase0.jsonAssets/ObjectId:Mossy Junimo}}
         // need coordinates for Emily's house
         // for the table: it's from 15 5 to 16 6 (1 tile wide, 2 tiles tall)
+      },
+      "When": {
+        "HasMod": "spacechase0.jsonAssets"
       }
     },
     /*Emily CT*/ {
