@@ -447,38 +447,79 @@
         "Sebastian_sideforsushi": "{{i18n:Sebastian_sideforsushiCT_Robin}}"
       }
     },
-    // Sandy Light Beverage Conversation Topic
+    // Sandy Light Beverage Conversation Topic - No DSV installed, so it's beer
     /*Letter*/ {
       "LogName": "Sandy Light Beverage Letter for CT",
       "Action": "EditData",
       "Target": "Data/Mail",
       "Entries": {
-        "TowniesNeedArtisanGoods_Sandy_LightBeverage_Letter": "{{Random: {{i18n:letter_blacksmith}}, {{i18n:letter_robinbuilding}}, {{i18n:letter_yoba}}, {{i18n:letter_waterbugs}}, {{i18n:letter_saloon}}, {{i18n:letter_clinic}}, {{i18n:letter_Joja}}, {{i18n:letter_esquire}}, {{i18n:letter_carpet}} |key=junkmail}}%item conversationTopic Sandy_lightbeverage 7 %%[#]{{Random: {{i18n:letter_blacksmith_name}}, {{i18n:letter_robinbuilding_name}}, {{i18n:letter_yoba_name}}, {{i18n:letter_waterbugs_name}}, {{i18n:letter_saloon_name}}, {{i18n:letter_clinic_name}}, {{i18n:letter_Joja_name}}, {{i18n:letter_esquire_name}}, {{i18n:letter_carpet_name}} |key=junkmail}}"
-      }
+        "TowniesNeedArtisanGoods_Sandy_LightBeverage_Beer_Letter": "{{Random: {{i18n:letter_blacksmith}}, {{i18n:letter_robinbuilding}}, {{i18n:letter_yoba}}, {{i18n:letter_waterbugs}}, {{i18n:letter_saloon}}, {{i18n:letter_clinic}}, {{i18n:letter_Joja}}, {{i18n:letter_esquire}}, {{i18n:letter_carpet}} |key=junkmail}}%item conversationTopic Sandy_lightbeverage_beer 7 %%[#]{{Random: {{i18n:letter_blacksmith_name}}, {{i18n:letter_robinbuilding_name}}, {{i18n:letter_yoba_name}}, {{i18n:letter_waterbugs_name}}, {{i18n:letter_saloon_name}}, {{i18n:letter_clinic_name}}, {{i18n:letter_Joja_name}}, {{i18n:letter_esquire_name}}, {{i18n:letter_carpet_name}} |key=junkmail}}"
+      },
+      "HasMod |contains=DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.EmilyHaleySandy": "false"
     },
     /*Sandy CT*/ {
       "LogName": "Sandy Light Beverage CT - Sandy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sandy",
       "Entries": {
-        "Sandy_lightbeverage": "{{i18n:Sandy_lightbeverageCT_Sandy}}"
-      }
+        "Sandy_lightbeverage_beer": "{{i18n:Sandy_lightbeverage_beerCT_Sandy}}"
+      },
+      "HasMod |contains=DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.EmilyHaleySandy": "false"
     },
     /*Emily CT*/ {
       "LogName": "Sandy Light Beverage CT - Emily",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Emily",
       "Entries": {
-        "Sandy_lightbeverage": "{{i18n:Sandy_lightbeverageCT_Emily}}"
-      }
+        "Sandy_lightbeverage_beer": "{{i18n:Sandy_lightbeverage_beerCT_Emily}}"
+      },
+      "HasMod |contains=DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.EmilyHaleySandy": "false"
     },
     /*Haley CT*/ {
       "LogName": "Sandy Light Beverage CT - Haley",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Haley",
       "Entries": {
-        "Sandy_lightbeverage": "{{i18n:Sandy_lightbeverageCT_Haley}}"
-      }
+        "Sandy_lightbeverage_beer": "{{i18n:Sandy_lightbeverage_beerCT_Haley}}"
+      },
+      "HasMod |contains=DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.EmilyHaleySandy": "false"
+    },
+    // Sandy Light Beverage Conversation Topic - DSV is installed, so it's beet juice
+    /*Letter*/ {
+      "LogName": "Sandy Light Beverage Letter for CT",
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Sandy_LightBeverage_Juice_Letter": "{{Random: {{i18n:letter_blacksmith}}, {{i18n:letter_robinbuilding}}, {{i18n:letter_yoba}}, {{i18n:letter_waterbugs}}, {{i18n:letter_saloon}}, {{i18n:letter_clinic}}, {{i18n:letter_Joja}}, {{i18n:letter_esquire}}, {{i18n:letter_carpet}} |key=junkmail}}%item conversationTopic Sandy_lightbeverage_juice 7 %%[#]{{Random: {{i18n:letter_blacksmith_name}}, {{i18n:letter_robinbuilding_name}}, {{i18n:letter_yoba_name}}, {{i18n:letter_waterbugs_name}}, {{i18n:letter_saloon_name}}, {{i18n:letter_clinic_name}}, {{i18n:letter_Joja_name}}, {{i18n:letter_esquire_name}}, {{i18n:letter_carpet_name}} |key=junkmail}}"
+      },
+      "HasMod |contains=DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.EmilyHaleySandy": "true"
+    },
+    /*Sandy CT*/ {
+      "LogName": "Sandy Light Beverage CT - Sandy",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Sandy",
+      "Entries": {
+        "Sandy_lightbeverage_juice": "{{i18n:Sandy_lightbeverage_juiceCT_Sandy}}"
+      },
+      "HasMod |contains=DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.EmilyHaleySandy": "true"
+    },
+    /*Emily CT*/ {
+      "LogName": "Sandy Light Beverage CT - Emily",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Emily",
+      "Entries": {
+        "Sandy_lightbeverage_juice": "{{i18n:Sandy_lightbeverage_juiceCT_Emily}}"
+      },
+      "HasMod |contains=DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.EmilyHaleySandy": "true"
+    },
+    /*Haley CT*/ {
+      "LogName": "Sandy Light Beverage CT - Haley",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Haley",
+      "Entries": {
+        "Sandy_lightbeverage_juice": "{{i18n:Sandy_lightbeverage_juiceCT_Haley}}"
+      },
+      "HasMod |contains=DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.EmilyHaleySandy": "true"
     },
     // Marnie Casks for Cheese Conversation Topic
     /*Letter*/ {
