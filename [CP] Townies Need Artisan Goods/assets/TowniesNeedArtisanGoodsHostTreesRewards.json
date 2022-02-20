@@ -35,7 +35,7 @@
       "Action": "EditData",
       "Target": "Data/Events/JoshHouse",
       "Entries": {
-        "02102022/n TowniesNeedArtisanGoods_Evelyn_SpecialStand_Completed": "winter1/-1000 -1000/Evelyn 9 20 0 George 5 17 2 farmer -100 -100 1/addBigProp 9 19 {{spacechase0.jsonAssets/BigCraftableId: Mistletoe Stand}}/skippable/addConversationTopic Evelyn_specialstand 7/globalFadeToClear/viewport 9 20 true/pause 800/move George 0 2 2 true/faceDirection Evelyn 3/pause 50/faceDirection Evelyn 0/emote Evelyn 32 true/move George 3 0 1/pause 3000/globalFade/viewport -1000 -1000/end"
+        "02102022/n TowniesNeedArtisanGoods_Evelyn_SpecialStand_Completed": "winter1/-1000 -1000/Evelyn 9 20 0 George 5 17 2 farmer -100 -100 1/addBigProp 9 19 {{spacechase0.jsonAssets/BigCraftableId: Mistletoe Stand}}/skippable/addConversationTopic Evelyn_specialstand 7/globalFadeToClear/viewport 9 20 true/pause 800/move George 0 2 2 true/faceDirection Evelyn 3 true/emote Evelyn 32/move George 3 0 1 true/faceDirection Evelyn 0/pause 3000/globalFade/viewport -1000 -1000/end"
         // George is supposed to end on  8 19 facing right 1
         // music choice: christmasTheme, winter1
       },
