@@ -29,6 +29,44 @@
         "Emily_nicethreads": "{{i18n:Emily_nicethreadsCT_Haley}}"
       }
     },
+    // Evelyn Special Stand Event
+    /*Event proper*/ {
+      "LogName": "Evelyn Special Stand Event",
+      "Action": "EditData",
+      "Target": "Data/Events/JoshHouse",
+      "Entries": {
+        "02102022/n TowniesNeedArtisanGoods_Evelyn_SpecialStand_Completed": "winter1/-1000 -1000/Evelyn 9 20 0 George 5 19 2 farmer -100 -100 1/addBigProp 9 19 {{spacechase0.jsonAssets/BigCraftableId: Mistletoe Stand}}/skippable/addConversationTopic Evelyn_specialstand 7/globalFadeToClear/viewport 9 20 true/pause 500/move George 3 0 1/pause 3000/globalFade/viewport -1000 -1000/end"
+        // George is supposed to end on  8 19 facing right 1
+        // music choice: christmasTheme, winter1
+      },
+      "When": {
+        "HasMod": "spacechase0.jsonAssets"
+      }
+    },
+    /*Evelyn CT*/ {
+      "LogName": "Evelyn Special Stand CT - Evelyn",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Evelyn",
+      "Entries": {
+        "Evelyn_specialstand": "{{i18n:Evelyn_specialstandCT_Evelyn}}"
+      }
+    },
+    /*George CT*/ {
+      "LogName": "Evelyn Special Stand CT - George",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/George",
+      "Entries": {
+        "Evelyn_specialstand": "{{i18n:Evelyn_specialstandCT_George}}"
+      }
+    },
+    /*Alex CT*/ {
+      "LogName": "Evelyn Special Stand CT - Alex",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Alex",
+      "Entries": {
+        "Evelyn_specialstand": "{{i18n:Evelyn_specialstandCT_Alex}}"
+      }
+    },
     //
     // CONVERSATION TOPICS WOOT
     // Caroline Delicate Orchids Host Trees Conversation Topic
