@@ -18,6 +18,11 @@
     {
       "UniqueID": "tiakall.hosttrees",
       "IsRequired": false
+    },
+    {
+      "UniqueID": "spacechase0.jsonAssets",
+      "IsRequired": false
     }
+
   ]
 }
