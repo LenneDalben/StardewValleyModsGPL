@@ -356,6 +356,56 @@
         "HasCraftingRecipe | contains=Air Plant Terrarium": "true"
       }
     },
+    // Wizard Safety First Host Trees
+    {
+      "LogName": "Wizard Safety First Host Trees",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Wizard_SafetyFirst": {
+          "Name": "[TowniesNeedArtisanGoods_Wizard_SafetyFirst_Name]",
+          "Requester": "Wizard",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "season_winter",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Wizard_SafetyFirst_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Wizard_SafetyFirst_Objective_Text_0]",
+              "RequiredCount": "3",
+              "Data": {
+                "AcceptedContextTags": "item_protection_against_demons",
+                "Message": "[TowniesNeedArtisanGoods_Wizard_SafetyFirst_Message_0]",
+                "TargetName": "Wizard"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "4500"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "HasWalletItem": "DwarvishTranslationGuide",
+        "HasCraftingRecipe": "Oil of Garlic",
+        "Year | contains=1": false
+      }
+    },
     //
     //
     // Host Trees House DropBox Patches
@@ -471,5 +521,17 @@
         "TowniesNeedArtisanGoods_Sandy_CheeryIndoorPlants_Objective_Text_1": "{{i18n:TowniesNeedArtisanGoods_Sandy_CheeryIndoorPlants_Objective_Text_1}}"
       }
     },
+    // Strings Wizard Safety First Host Trees
+    {
+      "LogName": "Strings Wizard Safety First Host Trees",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Wizard_SafetyFirst_Name": "{{i18n:TowniesNeedArtisanGoods_Wizard_SafetyFirst_Name}}",
+        "TowniesNeedArtisanGoods_Wizard_SafetyFirst_Text": "{{i18n:TowniesNeedArtisanGoods_Wizard_SafetyFirst_Text}}",
+        "TowniesNeedArtisanGoods_Wizard_SafetyFirst_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Wizard_SafetyFirst_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Wizard_SafetyFirst_Message_Text_0": "{{i18n:TowniesNeedArtisanGoods_Wizard_SafetyFirst_Message_Text_0}}"
+      }
+    }
   ]
 }

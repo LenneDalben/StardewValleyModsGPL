@@ -495,6 +495,12 @@
   "TowniesNeedArtisanGoods_Jas_PlushieofLove_Message_Text_0": "You have a surprise for me?$3#$b#Ahh, it's so FLUFFY!!!$h#$b#Thanks! I'll thank Uncle Shane too!$h",
   "TowniesNeedArtisanGoods_Jas_PlushieofLove_Message_Text_1": "Hmm?$3#$b#Oooh, it's so cute!!!$h#$b#Thank you! I'll tell Shane thanks, too.$h",
   //
+  // Wizard Safety First Host Trees Strings
+  "TowniesNeedArtisanGoods_Wizard_SafetyFirst_Name": "Safety First",
+  "TowniesNeedArtisanGoods_Wizard_SafetyFirst_Text": "Local wizard in search of 3 potions to protect against demons.",
+  "TowniesNeedArtisanGoods_Wizard_SafetyFirst_Objective_Text_0": "Deliver 3 Protection Against Demons potions to Wizard",
+  "TowniesNeedArtisanGoods_Wizard_SafetyFirst_Message_Text_0": "Many thanks, @!$h#$b#These will help ward off evil.",
+  //
   //
   // ***Host Trees events and conversation topics strings***
   //
