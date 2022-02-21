@@ -116,6 +116,34 @@
         "Jas_plushieoflove": "{{i18n:Jas_plushieofloveCT_Marnie}}"
       }
     },
+    // Sandy Cheery Indoor Plants Event
+    /*Event proper*/ {
+      "LogName": "Sandy Cheery Indoor Plants Event",
+      "Action": "EditData",
+      "Target": "Data/Events/SandyHouse",
+      "Entries": {
+        "02092022/n TowniesNeedArtisanGoods_Sandy_CheeryIndoorPlants_Completed": "musicboxsong/-1000 -1000/Sandy 2 5 2/addBigProp 1 5 {{spacechase0.jsonAssets/BigCraftableId: Reindeer Lichen Terrarium}} 1/addBigProp 3 5 {{spacechase0.jsonAssets/BigCraftableId: Air Plant Terrarium}} 1//skippable/addConversationTopic Sandy_cheeryindoorplants 7/globalFadeToClear/viewport 13 7 true/pause 3000/emote Sandy 56/pause 1000/globalFade/viewport -1000 -1000/end"
+      },
+      "When": {
+        "HasMod": "spacechase0.jsonAssets"
+      }
+    },
+    /*Sandy CT*/ {
+      "LogName": "Emily Nice Threads CT - Sandy",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Sandy",
+      "Entries": {
+        "Sandy_cheeryindoorplants": "{{i18n:Sandy_cheeryindoorplantsCT_Sandy}}"
+      }
+    },
+    /*Emily CT*/ {
+      "LogName": "Emily Nice Threads CT - Emily",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Emily",
+      "Entries": {
+        "Sandy_cheeryindoorplants": "{{i18n:Sandy_cheeryindoorplantsCT_Emily}}"
+      }
+    },
     //
     // CONVERSATION TOPICS WOOT
     // Caroline Delicate Orchids Host Trees Conversation Topic
