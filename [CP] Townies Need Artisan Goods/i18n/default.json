@@ -311,7 +311,7 @@
   //
   //
   // ***Event and conversation topics strings***
-  // Same Game Night Event Strings
+  // Same Game Night Event and CT Strings
   "events-27122021.01": "Hey, @, you made it!$h",
   "events-27122021.02": "Didn't Sam invite you?",
   "events-27122021.03": "Ah... I knew I forgot something...$10",
@@ -331,7 +331,7 @@
   "events-29122021.05": "Ewww...$s",
   "events-29122021.06": "More for me then, I like it!$h",
   //
-  // Demetrius Oil Makers Event Strings
+  // Demetrius Oil Makers Event and CT Strings
   "events-31122021.01": "Hey, @! Thanks again for the oil makers.$h#$b#Maru here is helping me disassemble them.",
   "events-31122021.02": "I'm refreshing my memory on distillation, so I thought it'd be a win-win.$h",
   "events-31122021.03": "Say, do you want to help us?",
@@ -343,7 +343,7 @@
   "Demetrius_oilmakersCT_Maru": "I hope you had a tenth of the fun I did taking apart those oil makers.$h",
   "Demetrius_oilmakersCT_Robin": "I was surprised to hear Demetrius and Maru roped you into one of their experiements.$h",
   //
-  // Kent Jelly for PB&J Event Strings
+  // Kent Jelly for PB&J Event and CT Strings
   "events-32122021.01": "Sam, I'm glad that even though you're older, you can still appreciate a simple peanut butter and jelly sandwich.$h",
   "events-32122021.02": "I'm... happy to spend time with you, dad.$h",
   "events-32122021.03": "Yay, boys' lunch!",
@@ -371,7 +371,7 @@
   "events-33122021.10": "Well, you weren't invited...$2",
   "events-33122021.11": "This is a family thing, I think you should leave.$2",
   //
-  // Willy Mildly Salty Event Strings
+  // Willy Mildly Salty Event and CT Strings
   "events-34122021.01": "Hey Elliott! I have a special treat today!$h",
   "events-34122021.02": "Hello Willy! Whatever could it be?",
   "events-34122021.03": "Willy, I know you're not bringing your own food to my saloon.$3",
@@ -502,7 +502,7 @@
   // ***Host Trees events and conversation topics strings***
   //
   //
-  // Caroline Delicate Orchids Letter and CTs
+  // Caroline Delicate Orchids Letter and CT Strings
   "letter_caroline_delicateorchids_name": "Caroline Delicate Orchids",
   "letter_caroline_delicateorchids": "Hi @,^Thanks for the orchids! I know just which plants to put the orchids under so that they still get some shade.^-Caroline",
   "Caroline_delicateorchidsCT_Caroline": "Thanks again for the orchids!#$b#They look quite happy in partial shade.",
@@ -510,12 +510,12 @@
   "Caroline_delicateorchidsCT_Pierre": "The orchids you gave Caroline seem to make her smile a lot.#$b#Thank you for that, I'm glad to see her happy!$h",
   //
   //
-  // Emily Nice Threads CTs
+  // Emily Nice Threads CT Strings
   "Emily_nicethreadsCT_Emily": "I think the kids will love the mossy junimos I made.#$b#Thanks again for providing the Spanish moss threads!$h",
   "Emily_nicethreadsCT_Haley": "Emily's been working on making some stuffed toys for charity.#$b#They kind of look like apples?",
   //
   //
-  // Evelyn Special Stand Event and CTs
+  // Evelyn Special Stand Event and CT Strings
   "events-02102022.01": "Hi there, dear.#$b#I was just showing George the mistletoe stand you gave me. Thanks again!$h",
   "events-02102022.02": "Even if George seems grumpy, he knows to respect the mistletoe tradition.$h",
   "events-02102022.03": "Hmph. You're embarrassing me in front of the kid, Evelyn.",
