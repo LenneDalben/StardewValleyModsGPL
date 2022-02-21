@@ -221,7 +221,7 @@
         "HasCraftingRecipe": "Furnace"
       }
     },
-    // Jas Plushie of Love Host Trees PSST it's going to have an event as a reward
+    // Jas Plushie of Love Host Trees
     {
       "LogName": "Jas Plushie of Love Host Trees",
       "Action": "EditData",
