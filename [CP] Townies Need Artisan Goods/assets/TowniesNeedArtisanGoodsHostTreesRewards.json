@@ -132,7 +132,7 @@
       }
     },
     /*Sandy CT*/ {
-      "LogName": "Emily Nice Threads CT - Sandy",
+      "LogName": "Emily Cheery Indoor Plants CT - Sandy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sandy",
       "Entries": {
@@ -140,7 +140,7 @@
       }
     },
     /*Emily CT*/ {
-      "LogName": "Emily Nice Threads CT - Emily",
+      "LogName": "Emily Cheery Indoor Plants CT - Emily",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Emily",
       "Entries": {
