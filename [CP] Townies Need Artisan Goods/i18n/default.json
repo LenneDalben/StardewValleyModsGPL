@@ -458,11 +458,11 @@
   //
   //
   // ***Host Trees order strings***
+  //
   // Caroline Delicate Orchids Host Trees Strings
   "TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Name": "Delicate Orchids",
   "TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Text": "I'd love to add vanilla orchid pots to my sunroom. Can someone bring me 2?",
   "TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Objective_Text_0": "Drop off 2 Vanilla Orchid Pots in the empty box in Pierre's shop",
-  //
   //  
   // Emily Nice Threads Host Trees Strings
   "TowniesNeedArtisanGoods_Emily_NiceThreads_Name": "Nice Threads",
@@ -470,13 +470,11 @@
   "TowniesNeedArtisanGoods_Emily_NiceThreads_Objective_Text_0": "Deliver 5 Spanish Moss Threads to Emily",
   "TowniesNeedArtisanGoods_Emily_NiceThreads_Message_Text_0": "Thanks @! This material is so soft.#$b#What's it for?#$b#That's a secret!$h",
   //
-  //  
   // Evelyn Special Stand Host Trees Strings
   "TowniesNeedArtisanGoods_Evelyn_SpecialStand_Name": "Special Stand",
   "TowniesNeedArtisanGoods_Evelyn_SpecialStand_Text": "George knows to respect the mistletoe tradition, and I'd like to nudge him. Can someone bring me a mistletoe stand?",
   "TowniesNeedArtisanGoods_Evelyn_SpecialStand_Objective_Text_0": "Drop off 1 Mistletoe Stand by the plant in Evelyn's house",
   //
-  //  
   // Gus Travel Bread Host Trees Strings
   "TowniesNeedArtisanGoods_Gus_TravelBread_Name": "Travel Bread",
   "TowniesNeedArtisanGoods_Gus_TravelBread_Text": "Can anyone drop off 4 lichen bread at the saloon?",
@@ -489,7 +487,6 @@
   "TowniesNeedArtisanGoods_Sandy_CheeryIndoorPlants_Objective_Text_0": "Drop off Reindeer Lichen Terrarium near the plant in Sandy's house",
   "TowniesNeedArtisanGoods_Sandy_CheeryIndoorPlants_Objective_Text_1": "Drop off Air Plant Terrarium near the plant in Sandy's house",
   //
-  //  
   // Jas Plushie of Love Host Trees Strings
   "TowniesNeedArtisanGoods_Jas_PlushieofLove_Name": "Plushie of Love",
   "TowniesNeedArtisanGoods_Jas_PlushieofLove_Text": "I think Jas and Vincent would love a plushie this year. Can anyone give them a mossy junimo each?     - Shane",
@@ -500,7 +497,6 @@
   //
   //
   // ***Host Trees events and conversation topics strings***
-  //
   //
   // Caroline Delicate Orchids Letter and CT Strings
   "letter_caroline_delicateorchids_name": "Caroline Delicate Orchids",
