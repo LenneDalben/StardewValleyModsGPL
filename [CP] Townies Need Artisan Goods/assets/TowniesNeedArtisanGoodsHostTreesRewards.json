@@ -97,9 +97,7 @@
       "Action": "EditData",
       "Target": "Data/Events/AnimalShop",
       "Entries": {
-        "02202022/n TowniesNeedArtisanGoods_Jas_PlushieofLove_Completed": "continue/-1000 -1000/Jas 5 6 1 Vincent 3 6 1/addObject 4 7 {{spacechase0.jsonAssets/ObjectId: Mossy Junimo}}/addObject 5 7 {{spacechase0.jsonAssets/ObjectId: Mossy Junimo}}/skippable/addConversationTopic Jas_plushieoflove 7/viewport 6 9 true/advancedMove Jas true 1 0 0 2 -3 0 0 -3/advancedMove Vincent true 3 0 0 2 -3 0 0 -3/pause 5000/globalFade/viewport -1000 -1000/end"
-        // ideally the loop would be Vincent starts at 3 6, moves to 6 6, then to 6 8, then to 3 8, then back up to 3 6
-        // Jas begins her look at 5 6, moves to 6 6, then to 6 8, then to 3 8, then back up to 5 6
+        "02202022/n TowniesNeedArtisanGoods_Jas_PlushieofLove_Completed": "continue/-1000 -1000/Jas 5 6 1 Vincent 3 6 1/addObject 4 7 {{spacechase0.jsonAssets/ObjectId: Mossy Junimo}}/addObject 5 7 {{spacechase0.jsonAssets/ObjectId: Mossy Junimo}}/skippable/addConversationTopic Jas_plushieoflove 7/viewport 6 9 true/advancedMove Jas true 1 0 0 2 -3 0 0 -2 2 0/advancedMove Vincent true 3 0 0 2 -3 0 0 -2/pause 5000/globalFade/viewport -1000 -1000/end"
       }
     },
     /*Shane CT*/ {
