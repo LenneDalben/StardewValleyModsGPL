@@ -468,7 +468,7 @@
   "TowniesNeedArtisanGoods_Emily_NiceThreads_Name": "Nice Threads",
   "TowniesNeedArtisanGoods_Emily_NiceThreads_Text": "I have a special project and need Spanish moss thread. Can someone bring me 5?",
   "TowniesNeedArtisanGoods_Emily_NiceThreads_Objective_Text_0": "Deliver 5 Spanish Moss Threads to Emily",
-  "TowniesNeedArtisanGoods_Emily_NiceThreads_Message_Text_0": "Thanks @! This material is so soft.#$b#What's it for?#$b#That's a secret!$h",
+  "TowniesNeedArtisanGoods_Emily_NiceThreads_Message_0": "Thanks @! This material is so soft.#$b#What's it for?#$b#That's a secret!$h",
   //
   // Evelyn Special Stand Host Trees Strings
   "TowniesNeedArtisanGoods_Evelyn_SpecialStand_Name": "Special Stand",
@@ -479,7 +479,7 @@
   "TowniesNeedArtisanGoods_Gus_TravelBread_Name": "Travel Bread",
   "TowniesNeedArtisanGoods_Gus_TravelBread_Text": "Can anyone drop off 4 lichen bread at the saloon?",
   "TowniesNeedArtisanGoods_Gus_TravelBread_Objective_Text_0": "Deliver 4 Lichen Bread to Gus",
-  "TowniesNeedArtisanGoods_Gus_TravelBread_Message_Text_0": "It's a nice, simple bread. Thanks @!!$h",
+  "TowniesNeedArtisanGoods_Gus_TravelBread_Message_0": "It's a nice, simple bread. Thanks @!!$h",
   //
   // Sandy Cheery Indoor Plants Host Trees Strings
   "TowniesNeedArtisanGoods_Sandy_CheeryIndoorPlants_Name": "Cheery Indoor Plants",
@@ -492,14 +492,14 @@
   "TowniesNeedArtisanGoods_Jas_PlushieofLove_Text": "I think Jas and Vincent would love a plushie this year. Can anyone give them a mossy junimo each?     - Shane",
   "TowniesNeedArtisanGoods_Jas_PlushieofLove_Objective_Text_0": "Deliver Mossy Junimo to Jas",
   "TowniesNeedArtisanGoods_Jas_PlushieofLove_Objective_Text_1": "Deliver Mossy Junimo to Vincent",
-  "TowniesNeedArtisanGoods_Jas_PlushieofLove_Message_Text_0": "You have a surprise for me?$3#$b#Ahh, it's so FLUFFY!!!$h#$b#Thanks! I'll thank Uncle Shane too!$h",
-  "TowniesNeedArtisanGoods_Jas_PlushieofLove_Message_Text_1": "Hmm?$3#$b#Oooh, it's so cute!!!$h#$b#Thank you! I'll tell Shane thanks, too.$h",
+  "TowniesNeedArtisanGoods_Jas_PlushieofLove_Message_0": "You have a surprise for me?$3#$b#Ahh, it's so FLUFFY!!!$h#$b#Thanks! I'll thank Uncle Shane too!$h",
+  "TowniesNeedArtisanGoods_Jas_PlushieofLove_Message_1": "Hmm?$3#$b#Oooh, it's so cute!!!$h#$b#Thank you! I'll tell Shane thanks, too.$h",
   //
   // Wizard Safety First Host Trees Strings
   "TowniesNeedArtisanGoods_Wizard_SafetyFirst_Name": "Safety First",
   "TowniesNeedArtisanGoods_Wizard_SafetyFirst_Text": "Local wizard in search of 3 potions to protect against demons.",
   "TowniesNeedArtisanGoods_Wizard_SafetyFirst_Objective_Text_0": "Deliver 3 Protection Against Demons potions to Wizard",
-  "TowniesNeedArtisanGoods_Wizard_SafetyFirst_Message_Text_0": "Many thanks, @!$h#$b#These will help ward off evil.",
+  "TowniesNeedArtisanGoods_Wizard_SafetyFirst_Message_0": "Many thanks, @!$h#$b#These will help ward off evil.",
   //
   //
   // ***Host Trees events and conversation topics strings***

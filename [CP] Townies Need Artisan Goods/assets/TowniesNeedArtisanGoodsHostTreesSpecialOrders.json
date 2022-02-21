@@ -468,7 +468,7 @@
         "TowniesNeedArtisanGoods_Emily_NiceThreads_Name": "{{i18n:TowniesNeedArtisanGoods_Emily_NiceThreads_Name}}",
         "TowniesNeedArtisanGoods_Emily_NiceThreads_Text": "{{i18n:TowniesNeedArtisanGoods_Emily_NiceThreads_Text}}",
         "TowniesNeedArtisanGoods_Emily_NiceThreads_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Emily_NiceThreads_Objective_Text_0}}",
-        "TowniesNeedArtisanGoods_Emily_NiceThreads_Message_Text_0": "{{i18n:TowniesNeedArtisanGoods_Emily_NiceThreads_Message_Text_0}}"
+        "TowniesNeedArtisanGoods_Emily_NiceThreads_Message_0": "{{i18n:TowniesNeedArtisanGoods_Emily_NiceThreads_Message_0}}"
       }
     },
     // Strings Evelyn Special Stand Host Trees
@@ -480,7 +480,7 @@
         "TowniesNeedArtisanGoods_Evelyn_SpecialStand_Name": "{{i18n:TowniesNeedArtisanGoods_Evelyn_SpecialStand_Name}}",
         "TowniesNeedArtisanGoods_Evelyn_SpecialStand_Text": "{{i18n:TowniesNeedArtisanGoods_Evelyn_SpecialStand_Text}}",
         "TowniesNeedArtisanGoods_Evelyn_SpecialStand_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Evelyn_SpecialStand_Objective_Text_0}}",
-        "TowniesNeedArtisanGoods_Evelyn_SpecialStand_Message_Text_0": "{{i18n:TowniesNeedArtisanGoods_Evelyn_SpecialStand_Message_Text_0}}"
+        "TowniesNeedArtisanGoods_Evelyn_SpecialStand_Message_0": "{{i18n:TowniesNeedArtisanGoods_Evelyn_SpecialStand_Message_0}}"
       }
     },
     // Strings Gus Travel Bread Host Trees
@@ -492,7 +492,7 @@
         "TowniesNeedArtisanGoods_Gus_TravelBread_Name": "{{i18n:TowniesNeedArtisanGoods_Gus_TravelBread_Name}}",
         "TowniesNeedArtisanGoods_Gus_TravelBread_Text": "{{i18n:TowniesNeedArtisanGoods_Gus_TravelBread_Text}}",
         "TowniesNeedArtisanGoods_Gus_TravelBread_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Gus_TravelBread_Objective_Text_0}}",
-        "TowniesNeedArtisanGoods_Gus_TravelBread_Message_Text_0": "{{i18n:TowniesNeedArtisanGoods_Gus_TravelBread_Message_Text_0}}"
+        "TowniesNeedArtisanGoods_Gus_TravelBread_Message_0": "{{i18n:TowniesNeedArtisanGoods_Gus_TravelBread_Message_0}}"
       }
     },
     // Strings Jas Plushie of Love Host Trees
@@ -505,8 +505,8 @@
         "TowniesNeedArtisanGoods_Jas_PlushieofLove_Text": "{{i18n:TowniesNeedArtisanGoods_Jas_PlushieofLove_Text}}",
         "TowniesNeedArtisanGoods_Jas_PlushieofLove_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Jas_PlushieofLove_Objective_Text_0}}",
         "TowniesNeedArtisanGoods_Jas_PlushieofLove_Objective_Text_1": "{{i18n:TowniesNeedArtisanGoods_Jas_PlushieofLove_Objective_Text_1}}",
-        "TowniesNeedArtisanGoods_Jas_PlushieofLove_Message_Text_0": "{{i18n:TowniesNeedArtisanGoods_Jas_PlushieofLove_Message_Text_0}}",
-        "TowniesNeedArtisanGoods_Jas_PlushieofLove_Message_Text_1": "{{i18n:TowniesNeedArtisanGoods_Jas_PlushieofLove_Message_Text_1}}"
+        "TowniesNeedArtisanGoods_Jas_PlushieofLove_Message_0": "{{i18n:TowniesNeedArtisanGoods_Jas_PlushieofLove_Message_0}}",
+        "TowniesNeedArtisanGoods_Jas_PlushieofLove_Message_1": "{{i18n:TowniesNeedArtisanGoods_Jas_PlushieofLove_Message_1}}"
       }
     },
     // Strings Sandy Cheery Indoor Plants Host Trees
@@ -530,7 +530,7 @@
         "TowniesNeedArtisanGoods_Wizard_SafetyFirst_Name": "{{i18n:TowniesNeedArtisanGoods_Wizard_SafetyFirst_Name}}",
         "TowniesNeedArtisanGoods_Wizard_SafetyFirst_Text": "{{i18n:TowniesNeedArtisanGoods_Wizard_SafetyFirst_Text}}",
         "TowniesNeedArtisanGoods_Wizard_SafetyFirst_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Wizard_SafetyFirst_Objective_Text_0}}",
-        "TowniesNeedArtisanGoods_Wizard_SafetyFirst_Message_Text_0": "{{i18n:TowniesNeedArtisanGoods_Wizard_SafetyFirst_Message_Text_0}}"
+        "TowniesNeedArtisanGoods_Wizard_SafetyFirst_Message_0": "{{i18n:TowniesNeedArtisanGoods_Wizard_SafetyFirst_Message_0}}"
       }
     }
   ]
