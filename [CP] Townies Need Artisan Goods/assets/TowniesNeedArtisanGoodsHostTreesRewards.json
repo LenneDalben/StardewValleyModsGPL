@@ -97,7 +97,7 @@
       "Action": "EditData",
       "Target": "Data/Events/AnimalShop",
       "Entries": {
-        "02202022/n TowniesNeedArtisanGoods_Jas_PlushieofLove_Completed": "continue/-1000 -1000/Jas 5 6 1 Vincent 3 6 1/addObject 4 7 {{spacechase0.jsonAssets/ObjectId: Mossy Junimo}}/addObject 5 7 {{spacechase0.jsonAssets/ObjectId: Mossy Junimo}}/skippable/addConversationTopic Jas_plushieoflove 7/viewport 6 9 true/advancedMove Jas true 1 0 0 2 -3 0 0 -2 2 0/advancedMove Vincent true 3 0 0 2 -3 0 0 -2/pause 5000/globalFade/viewport -1000 -1000/end"
+        "02202022/n TowniesNeedArtisanGoods_Jas_PlushieofLove_Completed": "SettlingIn/-1000 -1000/Jas 6 6 3 Vincent 3 6 1/addObject 4 7 {{spacechase0.jsonAssets/ObjectId: Mossy Junimo}}/addObject 5 7 {{spacechase0.jsonAssets/ObjectId: Mossy Junimo}}/skippable/addConversationTopic Jas_plushieoflove 7/viewport 6 9 true/pause 500/emote Jas 56/emote Vincent 56/faceDirection Jas 2 true/advancedMove Jas true 0 2 -3 0 0 -2 3 0/advancedMove Vincent true 3 0 0 2 -3 0 0 -2/pause 2000/globalFade/viewport -1000 -1000/end"
       }
     },
     /*Shane CT*/ {
