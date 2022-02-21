@@ -418,7 +418,7 @@
         {
           "Position": {
             "X": 6,
-            "Y": 18
+            "Y": 17
           },
           "Layer": "Buildings",
           "SetProperties": {
@@ -435,7 +435,7 @@
       "MapTiles": [
         {
           "Position": {
-            "X": 8,
+            "X": 9,
             "Y": 8
           },
           "Layer": "Buildings",
