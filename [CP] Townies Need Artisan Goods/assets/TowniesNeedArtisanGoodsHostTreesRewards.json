@@ -122,7 +122,7 @@
       "Action": "EditData",
       "Target": "Data/Events/SandyHouse",
       "Entries": {
-        "02212022/n TowniesNeedArtisanGoods_Sandy_CheeryIndoorPlants_Completed": "musicboxsong/-1000 -1000/Sandy 2 5 2/addBigProp 1 5 {{spacechase0.jsonAssets/BigCraftableId: Reindeer Lichen Terrarium}} 1/addBigProp 3 5 {{spacechase0.jsonAssets/BigCraftableId: Air Plant Terrarium}} 1/skippable/addConversationTopic Sandy_cheeryindoorplants 7/globalFadeToClear/viewport 13 7 true/pause 3000/move Sandy -1 0 2/pause 50/move Sandy 2 0 2/pause 50/move Sandy -1 0 2/emote Sandy 56/pause 1000/globalFade/viewport -1000 -1000/end"
+        "02212022/n TowniesNeedArtisanGoods_Sandy_CheeryIndoorPlants_Completed": "musicboxsong/-1000 -1000/Sandy 4 5 1 farmer -100 -100 0/addBigProp 8 4 {{spacechase0.jsonAssets/BigCraftableId: Reindeer Lichen Terrarium}} 2/addBigProp 8 6 {{spacechase0.jsonAssets/BigCraftableId: Air Plant Terrarium}} 2/skippable/addConversationTopic Sandy_cheeryindoorplants 7/globalFadeToClear/viewport 4 6 true/pause 500/move Sandy 4 0 0/faceDirection Sandy 0/pause 800/faceDirection Sandy 2/pause 800/emote Sandy 56/move Sandy -6 0 3 true/globalFade/viewport -1000 -1000/end"
       },
       "When": {
         "HasMod": "spacechase0.jsonAssets"
