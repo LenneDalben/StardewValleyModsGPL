@@ -523,5 +523,9 @@
   "Evelyn_specialstandCT_George": "%George seems to be smiling to himself.",
   "Evelyn_specialstandCT_Alex_single": "Grandma and Grandpa seem happier ever since Grandma got that mistletoe stand from you.#$b#I wonder if I can get Haley to come around...#$b#What? I didn't say anything.#7#$b#You didn't hear that.$4",
   "Evelyn_specialstandCT_Alex_with_Alex": "Grandma and Grandpa seem happier ever since Grandma got that mistletoe stand from you.#$b#You and I should drop by, maybe I'll get you to stand next to it.$4",
-  "Evelyn_specialstandCT_Alex_with_Haley": "Grandma and Grandpa seem happier ever since Grandma got that mistletoe stand from you."
+  "Evelyn_specialstandCT_Alex_with_Haley": "Grandma and Grandpa seem happier ever since Grandma got that mistletoe stand from you.",
+  //
+  // Jas Plushie of Love CT Strings
+  "Jas_plushieofloveCT_Shane": "Jas and Vincent are over the moon about their plushies. Thanks for getting them.$6",
+  "Jas_plushieofloveCT_Marnie": "I'm glad Shane put the order up for the plushies. The kids are having a blast with them.$h",
 }
