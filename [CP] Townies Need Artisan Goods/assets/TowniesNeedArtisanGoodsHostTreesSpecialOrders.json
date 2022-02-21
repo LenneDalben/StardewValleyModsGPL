@@ -115,7 +115,7 @@
         "HasCraftingRecipe": "Loom"
       }
     },
-    // Evelyn Special Stand Host Trees PSST it's going to have an event as a reward
+    // Evelyn Special Stand Host Trees
     {
       "LogName": "Evelyn Special Stand Host Trees",
       "Action": "EditData",
@@ -287,28 +287,28 @@
         "HasCraftingRecipe": "Mossy Junimo"
       }
     },
-    // Sandy Cherry Indoor Plants Host Trees PSST it's going to have an event as a reward
+    // Sandy Cheery Indoor Plants Host Trees PSST it's going to have an event as a reward
     {
-      "LogName": "Sandy Cherry Indoor Plants Host Trees",
+      "LogName": "Sandy Cheery Indoor Plants Host Trees",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesNeedArtisanGoods_Sandy_CherryIndoorPlants": {
-          "Name": "[TowniesNeedArtisanGoods_Sandy_CherryIndoorPlants_Name]",
+        "TowniesNeedArtisanGoods_Sandy_CheeryIndoorPlants": {
+          "Name": "[TowniesNeedArtisanGoods_Sandy_CheeryIndoorPlants_Name]",
           "Requester": "Emily",
           "Duration": "Week",
           "Repeatable": "False",
           "RequiredTags": "!season_summer, !season_fall",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesNeedArtisanGoods_Sandy_CherryIndoorPlants_Text]",
+          "Text": "[TowniesNeedArtisanGoods_Sandy_CheeryIndoorPlants_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Donate",
-              "Text": "[TowniesNeedArtisanGoods_Sandy_CherryIndoorPlants_Objective_Text_0]",
+              "Text": "[TowniesNeedArtisanGoods_Sandy_CheeryIndoorPlants_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
                 "DropBox": "SandyCorner",
@@ -319,7 +319,7 @@
             },
             {
               "Type": "Donate",
-              "Text": "[TowniesNeedArtisanGoods_Sandy_CherryIndoorPlants_Objective_Text_1]",
+              "Text": "[TowniesNeedArtisanGoods_Sandy_CheeryIndoorPlants_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
                 "DropBox": "SandyCorner",
@@ -343,8 +343,8 @@
             {
               "Type": "Mail",
               "Data": {
-                "MailReceived": "TowniesNeedArtisanGoods_Sandy_CherryIndoorPlants_Letter",
-                "NoLetter": "false"
+                "MailReceived": "TowniesNeedArtisanGoods_Sandy_CheeryIndoorPlants_Letter",
+                "NoLetter": "true"
               }
             }
           ]
@@ -459,16 +459,16 @@
         "TowniesNeedArtisanGoods_Jas_PlushieofLove_Message_Text_1": "{{i18n:TowniesNeedArtisanGoods_Jas_PlushieofLove_Message_Text_1}}"
       }
     },
-    // Strings Sandy Cherry Indoor Plants Host Trees
+    // Strings Sandy Cheery Indoor Plants Host Trees
     {
-      "LogName": "Strings Sandy Cherry Indoor Plants Host Trees",
+      "LogName": "Strings Sandy Cheery Indoor Plants Host Trees",
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
-        "TowniesNeedArtisanGoods_Sandy_CherryIndoorPlants_Name": "{{i18n:TowniesNeedArtisanGoods_Sandy_CherryIndoorPlants_Name}}",
-        "TowniesNeedArtisanGoods_Sandy_CherryIndoorPlants_Text": "{{i18n:TowniesNeedArtisanGoods_Sandy_CherryIndoorPlants_Text}}",
-        "TowniesNeedArtisanGoods_Sandy_CherryIndoorPlants_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Sandy_CherryIndoorPlants_Objective_Text_0}}",
-        "TowniesNeedArtisanGoods_Sandy_CherryIndoorPlants_Objective_Text_1": "{{i18n:TowniesNeedArtisanGoods_Sandy_CherryIndoorPlants_Objective_Text_1}}"
+        "TowniesNeedArtisanGoods_Sandy_CheeryIndoorPlants_Name": "{{i18n:TowniesNeedArtisanGoods_Sandy_CheeryIndoorPlants_Name}}",
+        "TowniesNeedArtisanGoods_Sandy_CheeryIndoorPlants_Text": "{{i18n:TowniesNeedArtisanGoods_Sandy_CheeryIndoorPlants_Text}}",
+        "TowniesNeedArtisanGoods_Sandy_CheeryIndoorPlants_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Sandy_CheeryIndoorPlants_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Sandy_CheeryIndoorPlants_Objective_Text_1": "{{i18n:TowniesNeedArtisanGoods_Sandy_CheeryIndoorPlants_Objective_Text_1}}"
       }
     },
   ]
