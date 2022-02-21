@@ -57,12 +57,38 @@
         "Evelyn_specialstand": "{{i18n:Evelyn_specialstandCT_George}}"
       }
     },
-    /*Alex CT*/ {
-      "LogName": "Evelyn Special Stand CT - Alex",
+    /*Alex CT Single*/ {
+      "LogName": "Evelyn Special Stand CT - Alex - Single",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Alex",
       "Entries": {
-        "Evelyn_specialstand": "{{i18n:Evelyn_specialstandCT_Alex}}"
+        "Evelyn_specialstand": "{{i18n:Evelyn_specialstandCT_Alex_single}}"
+      },
+      "When": {
+        "Relationship:Alex |contains=Dating, Engaged, Married": false,
+        "Relationship:Haley |contains=Dating, Engaged, Married": false
+      }
+    },
+    /*Alex CT with Alex*/ {
+      "LogName": "Evelyn Special Stand CT - Alex - with Alex",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Alex",
+      "Entries": {
+        "Evelyn_specialstand": "{{i18n:Evelyn_specialstandCT_Alex_with_Alex}}"
+      },
+      "When": {
+        "Relationship:Alex |contains=Dating, Engaged, Married": true
+      }
+    },
+    /*Alex CT with Haley*/ {
+      "LogName": "Evelyn Special Stand CT - Alex - with Haley",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Alex",
+      "Entries": {
+        "Evelyn_specialstand": "{{i18n:Evelyn_specialstandCT_Alex_with_Haley}}"
+      },
+      "When": {
+        "Relationship:Haley |contains=Dating, Engaged, Married": true
       }
     },
     //

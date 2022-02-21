@@ -467,7 +467,8 @@
   // Emily Nice Threads Host Trees Strings
   "TowniesNeedArtisanGoods_Emily_NiceThreads_Name": "Nice Threads",
   "TowniesNeedArtisanGoods_Emily_NiceThreads_Text": "I'd love to add vanilla orchid pots to my sunroom. Can someone bring me 2?",
-  "TowniesNeedArtisanGoods_Emily_NiceThreads_Objective_Text_0": "Deliver 5 Spanish Moss Threads to Emily","TowniesNeedArtisanGoods_Emily_NiceThreads_Message_Text_0": "Thanks @! This material is so soft.#$b#What's it for?#$b#That's a secret!$h",
+  "TowniesNeedArtisanGoods_Emily_NiceThreads_Objective_Text_0": "Deliver 5 Spanish Moss Threads to Emily",
+  "TowniesNeedArtisanGoods_Emily_NiceThreads_Message_Text_0": "Thanks @! This material is so soft.#$b#What's it for?#$b#That's a secret!$h",
   //
   //  
   // Evelyn Special Stand Host Trees Strings
@@ -479,7 +480,8 @@
   // Gus Travel Bread Host Trees Strings
   "TowniesNeedArtisanGoods_Gus_TravelBread_Name": "Travel Bread",
   "TowniesNeedArtisanGoods_Gus_TravelBread_Text": "Can anyone drop off 4 lichen bread at the saloon?",
-  "TowniesNeedArtisanGoods_Gus_TravelBread_Objective_Text_0": "Deliver 4 Lichen Bread to Gus","TowniesNeedArtisanGoods_Gus_TravelBread_Message_Text_0": "It's a nice, simple bread. Thanks @!!$h",
+  "TowniesNeedArtisanGoods_Gus_TravelBread_Objective_Text_0": "Deliver 4 Lichen Bread to Gus",
+  "TowniesNeedArtisanGoods_Gus_TravelBread_Message_Text_0": "It's a nice, simple bread. Thanks @!!$h",
   //
   // Sandy Cherry Indoor Plants Host Trees Strings
   "TowniesNeedArtisanGoods_Sandy_CherryIndoorPlants_Name": "Cherry Indoor Plants",
@@ -493,7 +495,8 @@
   "TowniesNeedArtisanGoods_Jas_PlushieofLove_Text": "I think Jas and Vincent would love a plushie this year. Can anyone give them a mossy junimo each?     - Shane",
   "TowniesNeedArtisanGoods_Jas_PlushieofLove_Objective_Text_0": "Deliver Mossy Junimo to Jas",
   "TowniesNeedArtisanGoods_Jas_PlushieofLove_Objective_Text_1": "Deliver Mossy Junimo to Vincent",
-  "TowniesNeedArtisanGoods_Jas_PlushieofLove_Message_Text_0": "You have a surprise for me?$3#$b#Ahh, it's so FLUFFY!!!$h#$b#Thanks! I'll thank Uncle Shane too!$h","TowniesNeedArtisanGoods_Jas_PlushieofLove_Message_Text_1": "Hmm?$3#$b#Oooh, it's so cute!!!$h#$b#Thank you! I'll tell Shane thanks, too.$h",
+  "TowniesNeedArtisanGoods_Jas_PlushieofLove_Message_Text_0": "You have a surprise for me?$3#$b#Ahh, it's so FLUFFY!!!$h#$b#Thanks! I'll thank Uncle Shane too!$h",
+  "TowniesNeedArtisanGoods_Jas_PlushieofLove_Message_Text_1": "Hmm?$3#$b#Oooh, it's so cute!!!$h#$b#Thank you! I'll tell Shane thanks, too.$h",
   //
   //
   // ***Host Trees events and conversation topics strings***
@@ -510,4 +513,17 @@
   // Emily Nice Threads CTs
   "Emily_nicethreadsCT_Emily": "I think the kids will love the mossy junimos I made.#$b#Thanks again for providing the Spanish moss threads!$h",
   "Emily_nicethreadsCT_Haley": "Emily's been working on making some stuffed toys for charity.#$b#They kind of look like apples?",
+  //
+  //
+  // Evelyn Special Stand Event and CTs
+  "events-02102022.01": "Hi there, dear.#$b#I was just showing George the mistletoe stand you gave me. Thanks again!$h",
+  "events-02102022.02": "Even if George seems grumpy, he knows to respect the mistletoe tradition.$h",
+  "events-02102022.03": "Hmph. You're embarrassing me in front of the kid, Evelyn.",
+  "events-02102022.04": "I'm only teasing, dear.",
+  "events-02102022.05": "This seems like a private moment. I'll leave them be.",
+  "Evelyn_specialstandCT_Evelyn": "%Evelyn is blushing and beaming.",
+  "Evelyn_specialstandCT_George": "%George seems to be smiling to himself.",
+  "Evelyn_specialstandCT_Alex_single": "Grandma and Grandpa seem happier ever since Grandma got that mistletoe stand from you.#$b#I wonder if I can get Haley to come around...#$b#What? I didn't say anything.#7#$b#You didn't hear that.$4",
+  "Evelyn_specialstandCT_Alex_with_Alex": "Grandma and Grandpa seem happier ever since Grandma got that mistletoe stand from you.#$b#You and I should drop by, maybe I'll get you to stand next to it.$4",
+  "Evelyn_specialstandCT_Alex_with_Haley": "Grandma and Grandpa seem happier ever since Grandma got that mistletoe stand from you."
 }
