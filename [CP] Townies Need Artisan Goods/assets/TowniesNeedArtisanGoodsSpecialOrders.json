@@ -2716,6 +2716,66 @@
         "PlayerHasCellarOrQAP": true,
         "Year | contains=1": false
       }
+    },
+    // Jean and Jorts Tangy Snack
+    {
+      "LogName": "Jean and Jorts Tangy Snack",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_JeanandJorts_TangySnack": {
+          "Name": "[TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Name]",
+          "Requester": "Marlon",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_cheese",
+                "Message": "[TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Message_0]",
+                "TargetName": "Jean"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_cheese",
+                "Message": "[TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Message_1]",
+                "TargetName": "Jorts"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "644"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "animal",
+        "SkillLevel:Farming": "6, 7, 8, 9, 10",
+        "HasMod": "tiakall.jortsandjean"
+      }
     }
   ]
 }

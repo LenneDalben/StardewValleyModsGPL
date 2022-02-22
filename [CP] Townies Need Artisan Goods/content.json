@@ -758,6 +758,20 @@
         "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Objective_Text_0}}",
         "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Message_0": "{{i18n:TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Message_0}}"
       }
+    },
+    // Strings Jean and Jorts Tangy Snack
+    {
+      "LogName": "Strings Jean and Jorts Tangy Snack",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Name": "{{i18n:TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Name}}",
+        "TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Text": "{{i18n:TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Text}}",
+        "TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Objective_Text_1": "{{i18n:TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Objective_Text_1}}",
+        "TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Message_0": "{{i18n:TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Message_0}}",
+        "TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Message_1": "{{i18n:TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Message_1}}"
+      }
     }
   ]
 }

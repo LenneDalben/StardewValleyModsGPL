@@ -39,7 +39,7 @@
   // Clint Pickled Artichokes Order Strings
   "TowniesNeedArtisanGoods_Clint_PickledArtichokes_Name": "Pickled Artichokes",
   "TowniesNeedArtisanGoods_Clint_PickledArtichokes_Text": "Pickled Artichokes are a good side dish. Could someone bring me 7 jars?",
-  "TowniesNeedArtisanGoods_Clint_PickledArtichokes_Objective_Text_0": "Deliver 7 Pickled Artichoke  jars to Clint",
+  "TowniesNeedArtisanGoods_Clint_PickledArtichokes_Objective_Text_0": "Deliver 7 Pickled Artichoke jars to Clint",
   "TowniesNeedArtisanGoods_Clint_PickledArtichokes_Message_0": "Thanks @!",
   //
   // Demetrius Oil Makers Order Strings
@@ -308,6 +308,14 @@
   "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Text": "Pomegranates are associated with the underworld. I'd be most interested in 6 bottles of quality pomegranate wine, gold or iridum only.",
   "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Objective_Text_0": "Deliver 6 Pomegranate Wine bottles (gold or iridium quality) to Wizard",
   "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Message_0": "Many thanks, @! I'll be sure to analyze this for underworld qualities.$h",
+  //
+  // Jean and Jorts Tangy Snack Order Strings
+  "TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Name": "Tangy Snack",
+  "TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Text": "Jean and Jorts seem to love cheese. Can someone bring them a slice of cheese each?     - Marlon",
+  "TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Objective_Text_0": "Deliver 1 Cheese to Jean",
+  "TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Objective_Text_1": "Deliver 1 Cheese to Jorts",
+  "TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Message_0": "Much appreciated, @! This is lovely.$h#$b#Marlon requested it? How kind of him. I will thank him too.",
+  "TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Message_1": "This is a tasty treat, @!$h#$b#Marlon asked you to give me this?#$b#I'll thank him!$h#$b#Oh, thank you as well!",
   //
   //
   // ***Event and conversation topics strings***
