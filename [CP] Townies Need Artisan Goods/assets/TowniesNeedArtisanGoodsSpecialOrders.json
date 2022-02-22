@@ -2743,7 +2743,7 @@
               "Data": {
                 "AcceptedContextTags": "item_cheese",
                 "Message": "[TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Message_0]",
-                "TargetName": "Jean"
+                "TargetName": "JeanCat"
               }
             },
             {
@@ -2753,7 +2753,7 @@
               "Data": {
                 "AcceptedContextTags": "item_cheese",
                 "Message": "[TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Message_1]",
-                "TargetName": "Jorts"
+                "TargetName": "JortsCat"
               }
             }
           ],
