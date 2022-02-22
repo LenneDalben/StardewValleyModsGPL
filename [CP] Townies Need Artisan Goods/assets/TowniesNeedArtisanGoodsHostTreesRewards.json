@@ -147,6 +147,38 @@
         "Sandy_cheeryindoorplants": "{{i18n:Sandy_cheeryindoorplantsCT_Emily}}"
       }
     },
+    // Jorts and Jean Fun String Event
+    /*Event proper*/ {
+      "LogName": "Jorts and Jean Fun String Event",
+      "Action": "EditData",
+      "Target": "Data/Events/AdventureGuild",
+      "Entries": {
+        "02222022/n TowniesNeedArtisanGoods_JortsandJean_FunString_Completed": "playful/-1000 -1000/Emily 16 5 2/addObject 17 6 {{spacechase0.jsonAssets/ObjectId: Spanish Moss Thread}} 1/addObject 16 5 {{spacechase0.jsonAssets/ObjectId: Spanish Moss Thread}} 1/skippable/addConversationTopic JortsandJean_funstring 7/globalFadeToClear/viewport 13 7 true/pause 3000/emote Emily 32/pause 1000/globalFade/viewport -1000 -1000/end"
+        // cats frolicking with the string
+        // Marlon sighs... "I'll never keep the place neat now..." pause, cats continue frolicking "Oh well. At least they're entertained." can Gil emote?
+        // farmer laughs
+        // cats continue frolicking, event fades
+      },
+      "When": {
+        "HasMod": "spacechase0.jsonAssets"
+      }
+    },
+    /*Sebastian CT*/ {
+      "LogName": "Jorts and Jean Fun String CT - Sebastian",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Sebastian",
+      "Entries": {
+        "JortsandJean_funstring": "{{i18n:JortsandJean_funstringCT_Sebastian}}"
+      }
+    },
+    /*Abigail CT*/ {
+      "LogName": "Jorts and Jean Fun String CT - Abigail",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Abigail",
+      "Entries": {
+        "JortsandJean_funstring": "{{i18n:JortsandJean_funstringCT_Abigail}}"
+      }
+    },
     //
     // CONVERSATION TOPICS WOOT
     // Caroline Delicate Orchids Host Trees Conversation Topic
