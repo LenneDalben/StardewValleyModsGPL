@@ -349,7 +349,7 @@
       "When": {
         "OrderType": "pickle",
         "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10",
-        "Year | contains=1": false
+        "Year |contains=1": false
       }
     },
     // Demetrius Oil Makers
@@ -462,7 +462,7 @@
       },
       "When": {
         "OrderType": "animal",
-        "Year | contains=1": false,
+        "Year |contains=1": false,
         "EasterEgg": true
       }
     },
@@ -632,7 +632,7 @@
       "When": {
         "OrderType": "jelly, honey, pickle, wine, animal",
         "SkillLevel:Farming": "8, 9, 10",
-        "Year | contains=1": false
+        "Year |contains=1": false
       }
     },
     // Emily Tailoring Materials - Default
@@ -831,7 +831,7 @@
       "When": {
         "OrderType": "jelly",
         "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10",
-        "Year | contains=1": false
+        "Year |contains=1": false
       }
     },
     // George Healthy Roe
@@ -1349,7 +1349,7 @@
         "OrderType": "animal",
         "SkillLevel:Farming": "2, 3, 4, 5, 6, 7, 8, 9, 10",
         "HasSeenEvent": "66",
-        "Year | contains=1": false
+        "Year |contains=1": false
       }
     },
     // Leah Bees in the Meadow
@@ -1665,7 +1665,7 @@
       "When": {
         "OrderType": "jelly",
         "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10",
-        "Year | contains=1": false
+        "Year |contains=1": false
       }
     },
     // Marnie Casks for Cheese
@@ -1996,7 +1996,7 @@
       "When": {
         "OrderType": "juice",
         "SkillLevel:Farming": "8, 9, 10",
-        "Query: '{{Year | contains=1}}' = 'false' OR '{{HasFlag | contains=ccVault, jojaVault}}' = 'true'": true
+        "Query: '{{Year |contains=1}}' = 'false' OR '{{HasFlag |contains=ccVault, jojaVault}}' = 'true'": true
       }
     },
     // Robin Cheesy Delight
@@ -2558,7 +2558,7 @@
       "When": {
         "OrderType": "animal",
         "SkillLevel:Farming": "2, 3, 4, 5, 6, 7, 8, 9, 10",
-        "Year | contains=1": false
+        "Year |contains=1": false
       }
     },
     // Willy Mildly Salty
@@ -2714,7 +2714,7 @@
         "OrderType": "wine",
         "SkillLevel:Farming": "8, 9, 10",
         "PlayerHasCellarOrQAP": true,
-        "Year | contains=1": false
+        "Year |contains=1": false
       }
     },
     // Jorts and Jean Tangy Snack

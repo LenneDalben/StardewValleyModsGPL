@@ -352,8 +352,8 @@
       },
       "When": {
         "Hearts:Sandy": "5, 6, 7, 8, 9, 10",
-        "HasCraftingRecipe | contains=Reindeer Lichen Terrarium": "true",
-        "HasCraftingRecipe | contains=Air Plant Terrarium": "true"
+        "HasCraftingRecipe |contains=Reindeer Lichen Terrarium": "true",
+        "HasCraftingRecipe |contains=Air Plant Terrarium": "true"
       }
     },
     // Wizard Safety First Host Trees
@@ -403,7 +403,7 @@
       "When": {
         "HasWalletItem": "DwarvishTranslationGuide",
         "HasCraftingRecipe": "Oil of Garlic",
-        "Year | contains=1": false
+        "Year |contains=1": false
       }
     },
     // Jorts and Jean Fun String Host Trees
@@ -468,8 +468,8 @@
         }
       },
       "When": {
-        "HasSeenEvent | contains=67": "true",
-        "HasSeenEvent | contains=10950100": "true",
+        "HasSeenEvent |contains=67": "true",
+        "HasSeenEvent |contains=10950100": "true",
         "HasCraftingRecipe": "Loom",
         "HasMod": "tiakall.jortsandjean"
       }
@@ -613,6 +613,9 @@
         "TowniesNeedArtisanGoods_JortsandJean_FunString_Objective_Text_1": "{{i18n:TowniesNeedArtisanGoods_JortsandJean_FunString_Objective_Text_1}}",
         "TowniesNeedArtisanGoods_JortsandJean_FunString_Message_0": "{{i18n:TowniesNeedArtisanGoods_JortsandJean_FunString_Message_0}}",
         "TowniesNeedArtisanGoods_JortsandJean_FunString_Message_1": "{{i18n:TowniesNeedArtisanGoods_JortsandJean_FunString_Message_1}}"
+      },
+      "When": {
+        "HasMod": "tiakall.jortsandjean"
       }
     }
   ]
