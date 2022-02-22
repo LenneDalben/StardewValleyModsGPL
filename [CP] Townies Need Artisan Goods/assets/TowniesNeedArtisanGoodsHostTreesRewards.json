@@ -153,14 +153,15 @@
       "Action": "EditData",
       "Target": "Data/Events/AdventureGuild",
       "Entries": {
-        "02222022/n TowniesNeedArtisanGoods_JortsandJean_FunString_Completed": "playful/-1000 -1000/Emily 16 5 2/addObject 17 6 {{spacechase0.jsonAssets/ObjectId: Spanish Moss Thread}} 1/addObject 16 5 {{spacechase0.jsonAssets/ObjectId: Spanish Moss Thread}} 1/skippable/addConversationTopic JortsandJean_funstring 7/globalFadeToClear/viewport 13 7 true/pause 3000/emote Emily 32/pause 1000/globalFade/viewport -1000 -1000/end"
+        "02222022/n TowniesNeedArtisanGoods_JortsandJean_FunString_Completed": "jaunty/-1000 -1000/Emily 16 5 2/addObject 17 6 {{spacechase0.jsonAssets/ObjectId: Spanish Moss Thread}} 1/addObject 16 5 {{spacechase0.jsonAssets/ObjectId: Spanish Moss Thread}} 1/skippable/addConversationTopic JortsandJean_funstring 7/globalFadeToClear/viewport 13 7 true/pause 3000/emote Emily 32/pause 1000/globalFade/viewport -1000 -1000/end"
         // cats frolicking with the string
         // Marlon sighs... "I'll never keep the place neat now..." pause, cats continue frolicking "Oh well. At least they're entertained." can Gil emote?
         // farmer laughs
         // cats continue frolicking, event fades
       },
       "When": {
-        "HasMod": "spacechase0.jsonAssets"
+        "HasMod |contains=spacechase0.jsonAssets": true,
+        "HasMod |contains =tiakall.jortsandjean": true
       }
     },
     /*Sebastian CT*/ {
@@ -169,6 +170,9 @@
       "Target": "Characters/Dialogue/Sebastian",
       "Entries": {
         "JortsandJean_funstring": "{{i18n:JortsandJean_funstringCT_Sebastian}}"
+      },
+      "When": {
+        "HasMod | contains =tiakall.jortsandjean": true
       }
     },
     /*Abigail CT*/ {
