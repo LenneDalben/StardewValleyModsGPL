@@ -2717,6 +2717,8 @@
         "Year |contains=1": false
       }
     },
+    //
+    // Mod Integrations~
     // Jorts and Jean Tangy Snack
     {
       "LogName": "Jorts and Jean Tangy Snack",
@@ -2777,6 +2779,58 @@
         "HasMod": "tiakall.jortsandjean",
         "HasSeenEvent": "10950100"
       }
-    }
+    },
+    // Mia Girl Scout Jam
+    {
+      "LogName": "Mia Girl Scout Jam",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Mia_GirlScoutJam": {
+          "Name": "[TowniesNeedArtisanGoods_Mia_GirlScoutJam_Name]",
+          "Requester": "Mia",
+          "Duration": "TwoWeeks",
+          "Repeatable": "False",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Mia_GirlScoutJam_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Mia_GirlScoutJam_Objective_Text_0]",
+              "RequiredCount": "4",
+              "Data": {
+                "AcceptedContextTags": "jelly_item",
+                "Message": "[TowniesNeedArtisanGoods_Mia_GirlScoutJam_Message_0]",
+                "TargetName": "Mia"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "896"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "jelly",
+        "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10",
+        "Year |contains=1": false,
+        "HasMod": "Himetarts.ARV.CP"
+      }
+    },
+
   ]
 }

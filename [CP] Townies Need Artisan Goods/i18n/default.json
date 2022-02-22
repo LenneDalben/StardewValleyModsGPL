@@ -309,14 +309,6 @@
   "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Objective_Text_0": "Deliver 6 Pomegranate Wine bottles (gold or iridium quality) to Wizard",
   "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Message_0": "Many thanks, @! I'll be sure to analyze this for underworld qualities.$h",
   //
-  // Jorts and Jean Tangy Snack Order Strings
-  "TowniesNeedArtisanGoods_JortsandJean_TangySnack_Name": "Tangy Snack",
-  "TowniesNeedArtisanGoods_JortsandJean_TangySnack_Text": "Jorts and Jean seem to love cheese. Can someone bring them a slice of cheese each?     - Marlon",
-  "TowniesNeedArtisanGoods_JortsandJean_TangySnack_Objective_Text_0": "Deliver 1 Cheese to Jean",
-  "TowniesNeedArtisanGoods_JortsandJean_TangySnack_Objective_Text_1": "Deliver 1 Cheese to Jorts",
-  "TowniesNeedArtisanGoods_JortsandJean_TangySnack_Message_0": "Much appreciated, @! This is lovely.$h#$b#Marlon requested it? How kind of him. I will thank him too.",
-  "TowniesNeedArtisanGoods_JortsandJean_TangySnack_Message_1": "This is a tasty treat, @!$h#$b#Marlon asked you to give me this?#$b#I'll thank him!$h#$b#Oh, thank you as well!",
-  //
   //
   // ***Event and conversation topics strings***
   // Same Game Night Event and CT Strings
@@ -465,6 +457,23 @@
   "Sandy_lightbeverage_juiceCT_Haley": "It was nice to have the house to myself for a while.#$b#It's great Emily has Sandy to visit.",
   //
   //
+  // ***Mod Integrations~***
+  //
+  // Jorts and Jean Tangy Snack Order Strings
+  "TowniesNeedArtisanGoods_JortsandJean_TangySnack_Name": "Tangy Snack",
+  "TowniesNeedArtisanGoods_JortsandJean_TangySnack_Text": "Jorts and Jean seem to love cheese. Can someone bring them a slice of cheese each?     - Marlon",
+  "TowniesNeedArtisanGoods_JortsandJean_TangySnack_Objective_Text_0": "Deliver 1 Cheese to Jean",
+  "TowniesNeedArtisanGoods_JortsandJean_TangySnack_Objective_Text_1": "Deliver 1 Cheese to Jorts",
+  "TowniesNeedArtisanGoods_JortsandJean_TangySnack_Message_0": "Much appreciated, @! This is lovely.$h#$b#Marlon requested it? How kind of him. I will thank him too.",
+  "TowniesNeedArtisanGoods_JortsandJean_TangySnack_Message_1": "This is a tasty treat, @!$h#$b#Marlon asked you to give me this?#$b#I'll thank him!$h#$b#Oh, thank you as well!",
+  //
+  // Mia Girl Scout Jam Order Strings
+  "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Name": "Girl Scout Jam",
+  "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Text": "I'm in dire need of help! I volunteered some pies to the Grampleton Daisy Girls Scout group, but I've completely ran out of jam to finish. Please, deliver at your fastest 4 jars of jelly so that this mission might continue. The future of the Daisy Girls Scouts is dangling in our hands!",
+  "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Objective_Text_0": "Deliver 4 Jelly jars to Mia",
+  "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Message_0": "Oh, you've saved me @!$4#$b#The mission can continue. Thank you so much!$h",
+  //
+  //
   // ***Host Trees order strings***
   //
   // Caroline Delicate Orchids Host Trees Strings
@@ -543,12 +552,6 @@
   "Evelyn_specialstandCT_Alex_with_Alex": "Grandma and Grandpa seem happier ever since Grandma got that mistletoe stand from you.#$b#You and I should drop by, maybe I'll get you to stand next to it.$4",
   "Evelyn_specialstandCT_Alex_with_Haley": "Grandma and Grandpa seem happier ever since Grandma got that mistletoe stand from you.",
   //
-  // Jorts and Jean Fun String Event and CT Strings
-  "events-02222022.01": "I'll never keep this place clean now...",
-  "events-02222022.02": "Oh, well. At least they're entertained.",
-  "JortsandJean_funstringCT_Abigail": "Thanks for getting the special thread for Jorts and Jean!$h#$b#Those are some extra cheerful kitties now.",
-  "JortsandJean_funstringCT_Sebastian": "Jorts and Jean seem excited of late.#$b#Oh, you and Abigail conspired to make that happen? Nice.$h",
-  //
   // Jas Plushie of Love CT Strings
   "Jas_plushieofloveCT_Shane": "Jas and Vincent are over the moon about their plushies. Thanks for getting them.$6",
   "Jas_plushieofloveCT_Marnie": "I'm glad Shane put the order up for the plushies. The kids are having a blast with them.$h",
@@ -556,4 +559,10 @@
   // Sandy Cheery Indoor Plants CT Strings
   "Sandy_cheeryindoorplantsCT_Sandy": "Thank you for the lovely plants, @.$h$#b#I thanked Emily too. She knows me well.",
   "Sandy_cheeryindoorplantsCT_Emily": "Sandy seems really happy with her new terrariums.#$b#Thanks for giving them to her, @!$h",
+  //
+  // Jorts and Jean Fun String Event and CT Strings
+  "events-02222022.01": "I'll never keep this place clean now...",
+  "events-02222022.02": "Oh, well. At least they're entertained.",
+  "JortsandJean_funstringCT_Abigail": "Thanks for getting the special thread for Jorts and Jean!$h#$b#Those are some extra cheerful kitties now.",
+  "JortsandJean_funstringCT_Sebastian": "Jorts and Jean seem excited of late.#$b#Oh, you and Abigail conspired to make that happen? Nice.$h",
 }
