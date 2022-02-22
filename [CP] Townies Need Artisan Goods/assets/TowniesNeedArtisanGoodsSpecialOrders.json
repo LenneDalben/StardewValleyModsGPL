@@ -2774,7 +2774,8 @@
       "When": {
         "OrderType": "animal",
         "SkillLevel:Farming": "6, 7, 8, 9, 10",
-        "HasMod": "tiakall.jortsandjean"
+        "HasMod": "tiakall.jortsandjean",
+        "HasSeenEvent": "10950100"
       }
     }
   ]
