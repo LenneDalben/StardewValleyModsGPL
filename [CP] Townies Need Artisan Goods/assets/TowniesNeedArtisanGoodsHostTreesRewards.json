@@ -148,16 +148,22 @@
       }
     },
     // Jorts and Jean Fun String Event
+    /*Loading empty events file*/ {
+      "LogName": "Loading Blank Jorts and Jean File",
+      "Action": "Load",
+      "Target": "Data/Events/AdventureGuild",
+      "FromFile": "assets/AdventureGuild.json",
+      "When": {
+        "HasMod |contains=Wolf.Marlon": false,
+        "HasMod |contains =tiakall.jortsandjean": true
+      }
+    },
     /*Event proper*/ {
       "LogName": "Jorts and Jean Fun String Event",
       "Action": "EditData",
       "Target": "Data/Events/AdventureGuild",
       "Entries": {
-        "02222022/n TowniesNeedArtisanGoods_JortsandJean_FunString_Completed": "jaunty/-1000 -1000/Emily 16 5 2/addObject 17 6 {{spacechase0.jsonAssets/ObjectId: Spanish Moss Thread}} 1/addObject 16 5 {{spacechase0.jsonAssets/ObjectId: Spanish Moss Thread}} 1/skippable/addConversationTopic JortsandJean_funstring 7/globalFadeToClear/viewport 13 7 true/pause 3000/emote Emily 32/pause 1000/globalFade/viewport -1000 -1000/end"
-        // cats frolicking with the string
-        // Marlon sighs... "I'll never keep the place neat now..." pause, cats continue frolicking "Oh well. At least they're entertained." can Gil emote?
-        // farmer laughs
-        // cats continue frolicking, event fades
+        "02222022/n TowniesNeedArtisanGoods_JortsandJean_FunString_Completed": "jaunty/-1000 -1000/Marlon 5 11 2 JeanCat 8 12 2 JortsCat 10 13 2 farmer -100 -100 0/addObject 8 13 {{spacechase0.jsonAssets/ObjectId: Spanish Moss Thread}} 1/addObject 10 14 {{spacechase0.jsonAssets/ObjectId: Spanish Moss Thread}} 1/skippable/addConversationTopic JortsandJean_funstring 7/viewport 6 15 true/animate JeanCat false true 176 16 17 17 18 18 19 19 18 18 17 17 16/animate JortsCat false true 88 44 44 44 45 45 45 46 46 46 47 47 47 47 47 47 44 44/pause 2000/emote Marlon 28/pause 100/playSound doorClose/warp farmer 6 18/move farmer 0 -2 0/pause 1000/speak Marlon \"I'll never keep this place clean now...\"/pause 2500/textAboveHead Marlon \"Oh, well. At least they're entertained.\"/pause 800/animate farmer false true 200 102 103/pause 500/globalFade/viewport -1000 -1000/end"
       },
       "When": {
         "HasMod |contains=spacechase0.jsonAssets": true,
