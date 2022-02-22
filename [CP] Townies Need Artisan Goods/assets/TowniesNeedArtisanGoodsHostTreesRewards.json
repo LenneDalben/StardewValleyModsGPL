@@ -148,7 +148,7 @@
       }
     },
     // Jorts and Jean Fun String Event
-    /*Loading empty events file*/ {
+    /*Loading empty events file for the Guild*/ {
       "LogName": "Loading Blank Jorts and Jean File",
       "Action": "Load",
       "Target": "Data/Events/AdventureGuild",
@@ -163,7 +163,7 @@
       "Action": "EditData",
       "Target": "Data/Events/AdventureGuild",
       "Entries": {
-        "02222022/n TowniesNeedArtisanGoods_JortsandJean_FunString_Completed": "jaunty/-1000 -1000/Marlon 5 11 2 JeanCat 8 12 2 JortsCat 10 13 2 farmer -100 -100 0/addObject 8 13 {{spacechase0.jsonAssets/ObjectId: Spanish Moss Thread}} 1/addObject 10 14 {{spacechase0.jsonAssets/ObjectId: Spanish Moss Thread}} 1/skippable/addConversationTopic JortsandJean_funstring 7/viewport 6 15 true/animate JeanCat false true 176 16 17 17 18 18 19 19 18 18 17 17 16/animate JortsCat false true 88 44 44 44 45 45 45 46 46 46 47 47 47 47 47 47 44 44/pause 2000/emote Marlon 28/pause 100/playSound doorClose/warp farmer 6 18/move farmer 0 -2 0/pause 1000/speak Marlon \"I'll never keep this place clean now...\"/pause 2500/textAboveHead Marlon \"Oh, well. At least they're entertained.\"/pause 800/animate farmer false true 200 102 103/pause 500/globalFade/viewport -1000 -1000/end"
+        "02222022/n TowniesNeedArtisanGoods_JortsandJean_FunString_Completed": "jaunty/-1000 -1000/Marlon 5 11 2 JeanCat 8 12 2 JortsCat 10 13 2 farmer -100 -100 0/addObject 8 13 {{spacechase0.jsonAssets/ObjectId: Spanish Moss Thread}} 1/addObject 10 14 {{spacechase0.jsonAssets/ObjectId: Spanish Moss Thread}} 1/skippable/addConversationTopic JortsandJean_funstring 7/viewport 6 15 true/animate JeanCat false true 176 16 17 17 18 18 19 19 18 18 17 17 16/animate JortsCat false true 88 44 44 44 45 45 45 46 46 46 47 47 47 47 47 47 44 44/pause 2000/emote Marlon 28/pause 100/playSound doorClose/warp farmer 6 18/move farmer 0 -2 0/pause 1000/speak Marlon \"{{i18n:events-02222022.01}}\"/pause 2500/textAboveHead Marlon \"{{i18n:events-02222022.02}}\"/pause 800/animate farmer false true 200 102 103/pause 500/globalFade/viewport -1000 -1000/end"
       },
       "When": {
         "HasMod |contains=spacechase0.jsonAssets": true,
