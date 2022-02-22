@@ -309,13 +309,13 @@
   "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Objective_Text_0": "Deliver 6 Pomegranate Wine bottles (gold or iridium quality) to Wizard",
   "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Message_0": "Many thanks, @! I'll be sure to analyze this for underworld qualities.$h",
   //
-  // Jean and Jorts Tangy Snack Order Strings
-  "TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Name": "Tangy Snack",
-  "TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Text": "Jean and Jorts seem to love cheese. Can someone bring them a slice of cheese each?     - Marlon",
-  "TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Objective_Text_0": "Deliver 1 Cheese to Jean",
-  "TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Objective_Text_1": "Deliver 1 Cheese to Jorts",
-  "TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Message_0": "Much appreciated, @! This is lovely.$h#$b#Marlon requested it? How kind of him. I will thank him too.",
-  "TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Message_1": "This is a tasty treat, @!$h#$b#Marlon asked you to give me this?#$b#I'll thank him!$h#$b#Oh, thank you as well!",
+  // Jorts and Jean Tangy Snack Order Strings
+  "TowniesNeedArtisanGoods_JortsandJean_TangySnack_Name": "Tangy Snack",
+  "TowniesNeedArtisanGoods_JortsandJean_TangySnack_Text": "Jorts and Jean seem to love cheese. Can someone bring them a slice of cheese each?     - Marlon",
+  "TowniesNeedArtisanGoods_JortsandJean_TangySnack_Objective_Text_0": "Deliver 1 Cheese to Jean",
+  "TowniesNeedArtisanGoods_JortsandJean_TangySnack_Objective_Text_1": "Deliver 1 Cheese to Jorts",
+  "TowniesNeedArtisanGoods_JortsandJean_TangySnack_Message_0": "Much appreciated, @! This is lovely.$h#$b#Marlon requested it? How kind of him. I will thank him too.",
+  "TowniesNeedArtisanGoods_JortsandJean_TangySnack_Message_1": "This is a tasty treat, @!$h#$b#Marlon asked you to give me this?#$b#I'll thank him!$h#$b#Oh, thank you as well!",
   //
   //
   // ***Event and conversation topics strings***
@@ -509,13 +509,13 @@
   "TowniesNeedArtisanGoods_Wizard_SafetyFirst_Objective_Text_0": "Deliver 3 Protection Against Demons potions to Wizard",
   "TowniesNeedArtisanGoods_Wizard_SafetyFirst_Message_0": "Many thanks, @!$h#$b#These will help ward off evil.",
   //  
-  // Jean and Jorts Fun String Host Trees Strings
-  "TowniesNeedArtisanGoods_JeanandJorts_FunString_Name": "Fun String",
-  "TowniesNeedArtisanGoods_JeanandJorts_FunString_Text": "So, I'm friends with these cats... long story short, one of them asked me to put a request for some Spanish moss thread for the two of them. It's fun string. Can someone help them out?       - Abigail",
-  "TowniesNeedArtisanGoods_JeanandJorts_FunString_Objective_Text_0": "Deliver 1 Spanish Moss Thread to Jean",
-  "TowniesNeedArtisanGoods_JeanandJorts_FunString_Objective_Text_1": "Deliver 1 Spanish Moss Thread to Jorts",
-  "TowniesNeedArtisanGoods_JeanandJorts_FunString_Message_0": "Ah, I knew Abigail would deliver, so to speak.#$b#Thank you for this, @!$h",
-  "TowniesNeedArtisanGoods_JeanandJorts_FunString_Message_1": "Is this... for me?$4#$b#THANK YOU, THANK YOU, THANK YOU!!!$h#$b#Abigail said to give it to me?#$b#Because Jean asked her to?! Oh, I have the best friends.$h",
+  // Jorts and Jean Fun String Host Trees Strings
+  "TowniesNeedArtisanGoods_JortsandJean_FunString_Name": "Fun String",
+  "TowniesNeedArtisanGoods_JortsandJean_FunString_Text": "So, I'm friends with these cats... long story short, one of them asked me to put a request for some Spanish moss thread for the two of them. It's fun string. Can someone help them out?       - Abigail",
+  "TowniesNeedArtisanGoods_JortsandJean_FunString_Objective_Text_0": "Deliver 1 Spanish Moss Thread to Jean",
+  "TowniesNeedArtisanGoods_JortsandJean_FunString_Objective_Text_1": "Deliver 1 Spanish Moss Thread to Jorts",
+  "TowniesNeedArtisanGoods_JortsandJean_FunString_Message_0": "Ah, I knew Abigail would deliver, so to speak.#$b#Thank you for this, @!$h",
+  "TowniesNeedArtisanGoods_JortsandJean_FunString_Message_1": "Is this... for me?$4#$b#THANK YOU, THANK YOU, THANK YOU!!!$h#$b#Abigail said to give it to me?#$b#Because Jean asked her to?! Oh, I have the best friends.$h",
   //
   //
   // ***Host Trees events and conversation topics strings***

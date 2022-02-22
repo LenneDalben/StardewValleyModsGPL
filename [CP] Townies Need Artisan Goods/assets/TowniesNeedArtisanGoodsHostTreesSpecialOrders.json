@@ -406,42 +406,42 @@
         "Year | contains=1": false
       }
     },
-    // Jean and Jorts Fun String Host Trees
+    // Jorts and Jean Fun String Host Trees
     {
-      "LogName": "Jean and Jorts Fun String Host Trees",
+      "LogName": "Jorts and Jean Fun String Host Trees",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesNeedArtisanGoods_JeanandJorts_FunString": {
-          "Name": "[TowniesNeedArtisanGoods_JeanandJorts_FunString_Name]",
+        "TowniesNeedArtisanGoods_JortsandJean_FunString": {
+          "Name": "[TowniesNeedArtisanGoods_JortsandJean_FunString_Name]",
           "Requester": "Abigail",
           "Duration": "Week",
           "Repeatable": "False",
           "RequiredTags": "season_spring",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesNeedArtisanGoods_JeanandJorts_FunString_Text]",
+          "Text": "[TowniesNeedArtisanGoods_JortsandJean_FunString_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesNeedArtisanGoods_JeanandJorts_FunString_Objective_Text_0]",
+              "Text": "[TowniesNeedArtisanGoods_JortsandJean_FunString_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
                 "AcceptedContextTags": "item_spanish_moss_thread",
-                "Message": "[TowniesNeedArtisanGoods_JeanandJorts_FunString_Message_0]",
+                "Message": "[TowniesNeedArtisanGoods_JortsandJean_FunString_Message_0]",
                 "TargetName": "JeanCat"
               }
             },
             {
               "Type": "Deliver",
-              "Text": "[TowniesNeedArtisanGoods_JeanandJorts_FunString_Objective_Text_1]",
+              "Text": "[TowniesNeedArtisanGoods_JortsandJean_FunString_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
                 "AcceptedContextTags": "item_spanish_moss_thread",
-                "Message": "[TowniesNeedArtisanGoods_JeanandJorts_FunString_Message_1]",
+                "Message": "[TowniesNeedArtisanGoods_JortsandJean_FunString_Message_1]",
                 "TargetName": "JortsCat"
               }
             }
@@ -460,7 +460,7 @@
             {
               "Type": "Mail",
               "Data": {
-                "MailReceived": "TowniesNeedArtisanGoods_JeanandJorts_FunString_Completed",
+                "MailReceived": "TowniesNeedArtisanGoods_JortsandJean_FunString_Completed",
                 "NoLetter": "true"
               }
             }
@@ -601,18 +601,18 @@
         "TowniesNeedArtisanGoods_Wizard_SafetyFirst_Message_0": "{{i18n:TowniesNeedArtisanGoods_Wizard_SafetyFirst_Message_0}}"
       }
     },
-    // Strings Jean and Jorts Fun String Host Trees
+    // Strings Jorts and Jean Fun String Host Trees
     {
-      "LogName": "Strings Jean and Jorts Fun String Host Trees",
+      "LogName": "Strings Jorts and Jean Fun String Host Trees",
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
-        "TowniesNeedArtisanGoods_JeanandJorts_FunString_Name": "{{i18n:TowniesNeedArtisanGoods_JeanandJorts_FunString_Name}}",
-        "TowniesNeedArtisanGoods_JeanandJorts_FunString_Text": "{{i18n:TowniesNeedArtisanGoods_JeanandJorts_FunString_Text}}",
-        "TowniesNeedArtisanGoods_JeanandJorts_FunString_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_JeanandJorts_FunString_Objective_Text_0}}",
-        "TowniesNeedArtisanGoods_JeanandJorts_FunString_Objective_Text_1": "{{i18n:TowniesNeedArtisanGoods_JeanandJorts_FunString_Objective_Text_1}}",
-        "TowniesNeedArtisanGoods_JeanandJorts_FunString_Message_0": "{{i18n:TowniesNeedArtisanGoods_JeanandJorts_FunString_Message_0}}",
-        "TowniesNeedArtisanGoods_JeanandJorts_FunString_Message_1": "{{i18n:TowniesNeedArtisanGoods_JeanandJorts_FunString_Message_1}}"
+        "TowniesNeedArtisanGoods_JortsandJean_FunString_Name": "{{i18n:TowniesNeedArtisanGoods_JortsandJean_FunString_Name}}",
+        "TowniesNeedArtisanGoods_JortsandJean_FunString_Text": "{{i18n:TowniesNeedArtisanGoods_JortsandJean_FunString_Text}}",
+        "TowniesNeedArtisanGoods_JortsandJean_FunString_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_JortsandJean_FunString_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_JortsandJean_FunString_Objective_Text_1": "{{i18n:TowniesNeedArtisanGoods_JortsandJean_FunString_Objective_Text_1}}",
+        "TowniesNeedArtisanGoods_JortsandJean_FunString_Message_0": "{{i18n:TowniesNeedArtisanGoods_JortsandJean_FunString_Message_0}}",
+        "TowniesNeedArtisanGoods_JortsandJean_FunString_Message_1": "{{i18n:TowniesNeedArtisanGoods_JortsandJean_FunString_Message_1}}"
       }
     }
   ]

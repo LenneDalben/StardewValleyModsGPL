@@ -2717,42 +2717,42 @@
         "Year | contains=1": false
       }
     },
-    // Jean and Jorts Tangy Snack
+    // Jorts and Jean Tangy Snack
     {
-      "LogName": "Jean and Jorts Tangy Snack",
+      "LogName": "Jorts and Jean Tangy Snack",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
-        "TowniesNeedArtisanGoods_JeanandJorts_TangySnack": {
-          "Name": "[TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Name]",
+        "TowniesNeedArtisanGoods_JortsandJean_TangySnack": {
+          "Name": "[TowniesNeedArtisanGoods_JortsandJean_TangySnack_Name]",
           "Requester": "Marlon",
           "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
           "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
-          "Text": "[TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Text]",
+          "Text": "[TowniesNeedArtisanGoods_JortsandJean_TangySnack_Text]",
           "ItemToRemoveOnEnd": null,
           "MailToRemoveOnEnd": null,
           "RandomizedElements": null,
           "Objectives": [
             {
               "Type": "Deliver",
-              "Text": "[TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Objective_Text_0]",
+              "Text": "[TowniesNeedArtisanGoods_JortsandJean_TangySnack_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
                 "AcceptedContextTags": "item_cheese",
-                "Message": "[TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Message_0]",
+                "Message": "[TowniesNeedArtisanGoods_JortsandJean_TangySnack_Message_0]",
                 "TargetName": "JeanCat"
               }
             },
             {
               "Type": "Deliver",
-              "Text": "[TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Objective_Text_1]",
+              "Text": "[TowniesNeedArtisanGoods_JortsandJean_TangySnack_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
                 "AcceptedContextTags": "item_cheese",
-                "Message": "[TowniesNeedArtisanGoods_JeanandJorts_TangySnack_Message_1]",
+                "Message": "[TowniesNeedArtisanGoods_JortsandJean_TangySnack_Message_1]",
                 "TargetName": "JortsCat"
               }
             }
