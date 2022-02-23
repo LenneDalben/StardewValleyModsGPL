@@ -2789,7 +2789,7 @@
         "TowniesNeedArtisanGoods_Mia_GirlScoutJam": {
           "Name": "[TowniesNeedArtisanGoods_Mia_GirlScoutJam_Name]",
           "Requester": "Mia",
-          "Duration": "TwoWeeks",
+          "Duration": "Week",
           "Repeatable": "False",
           "RequiredTags": "",
           "OrderType": "",
