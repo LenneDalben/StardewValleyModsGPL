@@ -2827,7 +2827,6 @@
       "When": {
         "OrderType": "jelly",
         "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10",
-        "Year |contains=1": false,
         "HasMod": "Himetarts.ARV.CP"
       }
     },
