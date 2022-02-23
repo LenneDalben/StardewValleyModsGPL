@@ -2841,7 +2841,7 @@
           "Requester": "Mia",
           "Duration": "Week",
           "Repeatable": "False",
-          "RequiredTags": "season_fall, completed_TowniesNeedArtisanGoods_Mia_GirlScoutJam",
+          "RequiredTags": "season_fall",
           "OrderType": "",
           "SpecialRule": "",
           "Text": "[TowniesNeedArtisanGoods_Mia_CanningFever_Text]",
@@ -2918,6 +2918,7 @@
         "OrderType": "jelly",
         "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10",
         "Year |contains=1": false,
+        "HasFlag": "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Letter",
         "HasMod": "Himetarts.ARV.CP"
       }
     },
