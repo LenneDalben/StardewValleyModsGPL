@@ -2,6 +2,58 @@
   "Changes": [
     // ***Mod Integrations~***
     //
+    // Alecto the Witch Home Spa Day
+    {
+      "LogName": "Alecto the Witch Home Spa Day",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Alecto_HomeSpaDay": {
+          "Name": "[TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Name]",
+          "Requester": "Alecto",
+          "Duration": "Month",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Objective_Text_0]",
+              "RequiredCount": "2",
+              "Data": {
+                "AcceptedContextTags": "wine_item, quality_iridium",
+                "Message": "[TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Message_0]",
+                "TargetName": "Alecto"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "4480"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "wine",
+        "SkillLevel:Farming": "8, 9, 10",
+        "PlayerHasCellarOrQAP": "true",
+        "HasSeenEvent": "1067101",
+        "HasMod": "ZoeDoll.NPCAlecto"
+      }
+    },
     // Jorts and Jean Tangy Snack
     {
       "LogName": "Jorts and Jean Tangy Snack",
@@ -46,7 +98,7 @@
             {
               "Type": "Money",
               "Data": {
-                "Amount": "644"
+                "Amount": "1288"
               }
             },
             {
@@ -97,7 +149,7 @@
             {
               "Type": "Money",
               "Data": {
-                "Amount": "896"
+                "Amount": "1792"
               }
             },
             {
@@ -187,7 +239,7 @@
             {
               "Type": "Money",
               "Data": {
-                "Amount": "1288"
+                "Amount": "1400"
               }
             },
             {
@@ -239,7 +291,7 @@
             {
               "Type": "Money",
               "Data": {
-                "Amount": "700"
+                "Amount": "2576"
               }
             },
             {
@@ -289,7 +341,7 @@
             {
               "Type": "Money",
               "Data": {
-                "Amount": "2014"
+                "Amount": "4028"
               }
             },
             {
@@ -306,61 +358,24 @@
         "HasMod": "Himetarts.ARV.CP"
       }
     },
-    // Alecto the Witch Home Spa Day
-    {
-      "LogName": "Alecto the Witch Home Spa Day",
-      "Action": "EditData",
-      "Target": "Data/SpecialOrders",
-      "Entries": {
-        "TowniesNeedArtisanGoods_Alecto_HomeSpaDay": {
-          "Name": "[TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Name]",
-          "Requester": "Alecto",
-          "Duration": "Month",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Objective_Text_0]",
-              "RequiredCount": "2",
-              "Data": {
-                "AcceptedContextTags": "wine_item, quality_iridium",
-                "Message": "[TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Message_0]",
-                "TargetName": "Alecto"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "2240"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "OrderType": "wine",
-        "SkillLevel:Farming": "8, 9, 10",
-        "PlayerHasCellarOrQAP": "true",
-        "HasSeenEvent": "1067101",
-        "HasMod": "ZoeDoll.NPCAlecto"
-      }
-    },
     //
     // Strings below
     //
+    // Strings Alecto the Witch Home Spa Day
+    {
+      "LogName": "Strings Alecto the Witch Home Spa Day",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Name": "{{i18n:TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Name}}",
+        "TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Text": "{{i18n:TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Text}}",
+        "TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Message_0": "{{i18n:TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Message_0}}"
+      },
+      "When": {
+        "HasMod": "ZoeDoll.NPCAlecto"
+      }
+    },
     // Strings Jorts and Jean Tangy Snack
     {
       "LogName": "Strings Jorts and Jean Tangy Snack",
@@ -444,21 +459,6 @@
       },
       "When": {
         "HasMod": "Himetarts.ARV.CP"
-      }
-    },
-    // Strings Alecto the Witch Home Spa Day
-    {
-      "LogName": "Strings Alecto the Witch Home Spa Day",
-      "Action": "EditData",
-      "Target": "Strings/SpecialOrderStrings",
-      "Entries": {
-        "TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Name": "{{i18n:TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Name}}",
-        "TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Text": "{{i18n:TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Text}}",
-        "TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Objective_Text_0}}",
-        "TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Message_0": "{{i18n:TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Message_0}}"
-      },
-      "When": {
-        "HasMod": "ZoeDoll.NPCAlecto"
       }
     },
   ]
