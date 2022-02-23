@@ -2830,6 +2830,97 @@
         "HasMod": "Himetarts.ARV.CP"
       }
     },
+    // Mia Canning Fever
+    {
+      "LogName": "Mia Canning Fever",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Mia_CanningFever": {
+          "Name": "[TowniesNeedArtisanGoods_Mia_CanningFever_Name]",
+          "Requester": "Mia",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "season_fall, completed_TowniesNeedArtisanGoods_Mia_GirlScoutJam",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Mia_CanningFever_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_orange_jelly",
+                "Message": "[TowniesNeedArtisanGoods_Mia_CanningFever_Message_0]",
+                "TargetName": "Mia"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_blueberry_jelly",
+                "Message": "[TowniesNeedArtisanGoods_Mia_CanningFever_Message_1]",
+                "TargetName": "Mia"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_2]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_grape_jelly",
+                "Message": "[TowniesNeedArtisanGoods_Mia_CanningFever_Message_2]",
+                "TargetName": "Mia"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_3]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_salmonberry_jelly",
+                "Message": "[TowniesNeedArtisanGoods_Mia_CanningFever_Message_3]",
+                "TargetName": "Mia"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_4]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_apple_jelly",
+                "Message": "[TowniesNeedArtisanGoods_Mia_CanningFever_Message_4]",
+                "TargetName": "Mia"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1288"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "jelly",
+        "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10",
+        "Year |contains=1": false,
+        "HasMod": "Himetarts.ARV.CP"
+      }
+    },
 
   ]
 }

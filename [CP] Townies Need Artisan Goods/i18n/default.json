@@ -473,6 +473,26 @@
   "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Objective_Text_0": "Deliver 4 Jelly jars to Mia",
   "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Message_0": "Oh, you've saved me @!$4#$b#The mission can continue. Thank you so much!$h",
   //
+  // Mia Canning Fever Order Strings
+  "TowniesNeedArtisanGoods_Mia_CanningFever_Name": "Canning Fever",
+  "TowniesNeedArtisanGoods_Mia_CanningFever_Text": "I'm in need of help again! Both the Grampleton Daisy Girl Scouts AND the Dandelion Boy Scouts want pies to sell. Please deliver 1 jelly jar of orange, blueberry, grape, salmonberry, and apple each. The Daisy Girls Scouts and Dandelion Boy Scouts are counting on us!",
+  "TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_0": "Deliver 1 Orange Jelly to Mia",
+  "TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_1": "Deliver 1 Blueberry Jelly to Mia",
+  "TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_2": "Deliver 1 Grape Jelly to Mia",
+  "TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_3": "Deliver 1 Salmonberry Jelly to Mia",
+  "TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_4": "Deliver 1 Apple Jelly to Mia",
+  "TowniesNeedArtisanGoods_Mia_CanningFever_Message_0": "I can whip up a nice meringue pie with orange, to put a twist on the usual lemon. Thanks @!$h",
+  "TowniesNeedArtisanGoods_Mia_CanningFever_Message_1": "Thanks @! With enough sugar, I can turn this into a scrumptious blueberry pie.$h",
+  "TowniesNeedArtisanGoods_Mia_CanningFever_Message_2": "It won't be quite a concord grape pie, but it's close enough. Thanks @!$h",
+  "TowniesNeedArtisanGoods_Mia_CanningFever_Message_3": "Thanks @! Salmonberries aren't too sweet, but they're still a lovely reminder of summer.",
+  "TowniesNeedArtisanGoods_Mia_CanningFever_Message_4": "Apple pie is a classic for a reason. Thanks @!$h",
+  //
+  // Mia Taste of Home Order Strings
+  "TowniesNeedArtisanGoods_Mia_TasteofHome_Name": "Taste of Home",
+  "TowniesNeedArtisanGoods_Mia_TasteofHome_Text": "I find myself missing the meals my father's personal chef cooked for us when I lived back in the city. Could you deliver me some caviar? Just a little bit, to remember what it was like.... Just don't tell EITHER of the Cooper boys, or they'll tease me to high heaven.",
+  "TowniesNeedArtisanGoods_Mia_TasteofHome_Objective_Text_0": "Deliver 1 Caviar to Mia",
+  "TowniesNeedArtisanGoods_Mia_TasteofHome_Message_0": "Ahhh, thank you @!$h#$b#I adore the quaint life of the valley folk, but it's nice to have food from home.",
+  //
   //
   // ***Host Trees order strings***
   //
