@@ -306,6 +306,58 @@
         "HasMod": "Himetarts.ARV.CP"
       }
     },
+    // Alecto the Witch Home Spa Day
+    {
+      "LogName": "Alecto the Witch Home Spa Day",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Alecto_HomeSpaDay": {
+          "Name": "[TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Name]",
+          "Requester": "Alecto",
+          "Duration": "Month",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Objective_Text_0]",
+              "RequiredCount": "2",
+              "Data": {
+                "AcceptedContextTags": "wine_item, quality_iridium",
+                "Message": "[TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Message_0]",
+                "TargetName": "Alecto"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "2240"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "wine",
+        "SkillLevel:Farming": "8, 9, 10",
+        "PlayerHasCellarOrQAP": "true",
+        "HasSeenEvent": "1067101",
+        "HasMod": "ZoeDoll.NPCAlecto"
+      }
+    },
     //
     // Strings below
     //
@@ -335,7 +387,7 @@
         "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Name": "{{i18n:TowniesNeedArtisanGoods_Mia_GirlScoutJam_Name}}",
         "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Text": "{{i18n:TowniesNeedArtisanGoods_Mia_GirlScoutJam_Text}}",
         "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Mia_GirlScoutJam_Objective_Text_0}}",
-        "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Message_0": "{{i18n:TowniesNeedArtisanGoods_Mia_GirlScoutJam_Message_0}}",
+        "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Message_0": "{{i18n:TowniesNeedArtisanGoods_Mia_GirlScoutJam_Message_0}}"
       },
       "When": {
         "HasMod": "Himetarts.ARV.CP"
@@ -373,7 +425,7 @@
         "TowniesNeedArtisanGoods_Mia_TasteofHome_Name": "{{i18n:TowniesNeedArtisanGoods_Mia_TasteofHome_Name}}",
         "TowniesNeedArtisanGoods_Mia_TasteofHome_Text": "{{i18n:TowniesNeedArtisanGoods_Mia_TasteofHome_Text}}",
         "TowniesNeedArtisanGoods_Mia_TasteofHome_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Mia_TasteofHome_Objective_Text_0}}",
-        "TowniesNeedArtisanGoods_Mia_TasteofHome_Message_0": "{{i18n:TowniesNeedArtisanGoods_Mia_TasteofHome_Message_0}}",
+        "TowniesNeedArtisanGoods_Mia_TasteofHome_Message_0": "{{i18n:TowniesNeedArtisanGoods_Mia_TasteofHome_Message_0}}"
       },
       "When": {
         "HasMod": "Himetarts.ARV.CP"
@@ -388,10 +440,25 @@
         "TowniesNeedArtisanGoods_Sterling_FancyJuice_Name": "{{i18n:TowniesNeedArtisanGoods_Sterling_FancyJuice_Name}}",
         "TowniesNeedArtisanGoods_Sterling_FancyJuice_Text": "{{i18n:TowniesNeedArtisanGoods_Sterling_FancyJuice_Text}}",
         "TowniesNeedArtisanGoods_Sterling_FancyJuice_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Sterling_FancyJuice_Objective_Text_0}}",
-        "TowniesNeedArtisanGoods_Sterling_FancyJuice_Message_0": "{{i18n:TowniesNeedArtisanGoods_Sterling_FancyJuice_Message_0}}",
+        "TowniesNeedArtisanGoods_Sterling_FancyJuice_Message_0": "{{i18n:TowniesNeedArtisanGoods_Sterling_FancyJuice_Message_0}}"
       },
       "When": {
         "HasMod": "Himetarts.ARV.CP"
+      }
+    },
+    // Strings Alecto the Witch Home Spa Day
+    {
+      "LogName": "Strings Alecto the Witch Home Spa Day",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Name": "{{i18n:TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Name}}",
+        "TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Text": "{{i18n:TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Text}}",
+        "TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Message_0": "{{i18n:TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Message_0}}"
+      },
+      "When": {
+        "HasMod": "ZoeDoll.NPCAlecto"
       }
     },
   ]
