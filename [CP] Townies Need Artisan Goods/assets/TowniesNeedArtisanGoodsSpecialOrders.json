@@ -2781,9 +2781,9 @@
         "HasSeenEvent": "10950100"
       }
     },
-    // Mia Girl Scout Jam
+    // Always Raining in the Valley (ARV) Mia Girl Scout Jam
     {
-      "LogName": "Mia Girl Scout Jam",
+      "LogName": "ARV Mia Girl Scout Jam",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -2831,9 +2831,9 @@
         "HasMod": "Himetarts.ARV.CP"
       }
     },
-    // Mia Canning Fever
+    // Always Raining in the Valley (ARV) Mia Canning Fever
     {
-      "LogName": "Mia Canning Fever",
+      "LogName": "ARV Mia Canning Fever",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -2923,9 +2923,9 @@
         "HasMod": "Himetarts.ARV.CP"
       }
     },
-    // Mia Taste of Home
+    // Always Raining in the Valley (ARV) Mia Taste of Home
     {
-      "LogName": "Mia Taste of Home",
+      "LogName": "ARV Mia Taste of Home",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {

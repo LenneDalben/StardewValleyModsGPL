@@ -467,13 +467,13 @@
   "TowniesNeedArtisanGoods_JortsandJean_TangySnack_Message_0": "Much appreciated, @! This is lovely.$h#$b#Marlon requested it? How kind of him. I will thank him too.",
   "TowniesNeedArtisanGoods_JortsandJean_TangySnack_Message_1": "This is a tasty treat, @!$h#$b#Marlon asked you to give me this?#$b#I'll thank him!$h#$b#Oh, thank you as well!",
   //
-  // Mia Girl Scout Jam Order Strings
+  // Always Raining in the Valley (ARV) Mia Girl Scout Jam Order Strings
   "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Name": "Girl Scout Jam",
   "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Text": "I'm in dire need of help! I volunteered some pies to the Grampleton Daisy Girls Scout group, but I've completely ran out of jam to finish. Please, deliver at your fastest 4 jars of jelly so that this mission might continue. The future of the Daisy Girls Scouts is dangling in our hands!",
   "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Objective_Text_0": "Deliver 4 Jelly jars to Mia",
   "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Message_0": "Oh, you've saved me @!$4#$b#The mission can continue. Thank you so much!$h",
   //
-  // Mia Canning Fever Order Strings
+  // Always Raining in the Valley (ARV) Mia Canning Fever Order Strings
   "TowniesNeedArtisanGoods_Mia_CanningFever_Name": "Canning Fever!",
   "TowniesNeedArtisanGoods_Mia_CanningFever_Text": "I'm in need of help again! Both the Grampleton Daisy Girl Scouts AND the Dandelion Boy Scouts want pies to sell. Please deliver 1 jelly jar of orange, blueberry, grape, salmonberry, and apple each. The Daisy Girls Scouts and Dandelion Boy Scouts are counting on us!",
   "TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_0": "Deliver 1 Orange Jelly to Mia",
@@ -487,7 +487,7 @@
   "TowniesNeedArtisanGoods_Mia_CanningFever_Message_3": "Thanks @! Salmonberries aren't too sweet, but they're still a lovely reminder of summer.$h",
   "TowniesNeedArtisanGoods_Mia_CanningFever_Message_4": "Apple pie is a classic for a reason. Thanks @!$h",
   //
-  // Mia Taste of Home Order Strings
+  // Always Raining in the Valley (ARV) Mia Taste of Home Order Strings
   "TowniesNeedArtisanGoods_Mia_TasteofHome_Name": "Taste of Home",
   "TowniesNeedArtisanGoods_Mia_TasteofHome_Text": "I find myself missing the meals my father's personal chef cooked for us when I lived back in the city. Could you deliver me some caviar? Just a little bit, to remember what it was like... Just don't tell EITHER of the Cooper boys, or they'll tease me to high heaven.",
   "TowniesNeedArtisanGoods_Mia_TasteofHome_Objective_Text_0": "Deliver 1 Caviar to Mia",

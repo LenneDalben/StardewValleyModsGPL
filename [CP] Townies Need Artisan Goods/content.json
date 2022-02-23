@@ -776,9 +776,9 @@
         "TowniesNeedArtisanGoods_JortsandJean_TangySnack_Message_1": "{{i18n:TowniesNeedArtisanGoods_JortsandJean_TangySnack_Message_1}}"
       }
     },
-    // Strings Mia Girl Scout Jam
+    // Strings Always Raining in the Valley (ARV) Mia Girl Scout Jam
     {
-      "LogName": "Strings Mia Girl Scout Jam",
+      "LogName": "Strings ARV Mia Girl Scout Jam",
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
@@ -791,9 +791,9 @@
         "HasMod": "Himetarts.ARV.CP"
       }
     },
-    // Strings Mia Canning Fever
+    // Strings Always Raining in the Valley (ARV) Mia Canning Fever
     {
-      "LogName": "Strings Mia Canning Fever",
+      "LogName": "Strings ARV Mia Canning Fever",
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
@@ -814,9 +814,9 @@
         "HasMod": "Himetarts.ARV.CP"
       }
     },
-    // Strings Mia Taste of Home
+    // Strings Always Raining in the Valley (ARV) Mia Taste of Home
     {
-      "LogName": "Strings Mia Taste of Home",
+      "LogName": "Strings ARV Mia Taste of Home",
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
