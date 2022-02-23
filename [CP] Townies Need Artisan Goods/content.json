@@ -782,15 +782,30 @@
         "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Name": "{{i18n:TowniesNeedArtisanGoods_Mia_GirlScoutJam_Name}}",
         "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Text": "{{i18n:TowniesNeedArtisanGoods_Mia_GirlScoutJam_Text}}",
         "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Mia_GirlScoutJam_Objective_Text_0}}",
-        "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Objective_Text_1": "{{i18n:TowniesNeedArtisanGoods_Mia_GirlScoutJam_Objective_Text_1}}",
-        "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Objective_Text_2": "{{i18n:TowniesNeedArtisanGoods_Mia_GirlScoutJam_Objective_Text_2}}",
-        "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Objective_Text_3": "{{i18n:TowniesNeedArtisanGoods_Mia_GirlScoutJam_Objective_Text_3}}",
-        "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Objective_Text_4": "{{i18n:TowniesNeedArtisanGoods_Mia_GirlScoutJam_Objective_Text_4}}",
         "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Message_0": "{{i18n:TowniesNeedArtisanGoods_Mia_GirlScoutJam_Message_0}}",
-        "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Message_1": "{{i18n:TowniesNeedArtisanGoods_Mia_GirlScoutJam_Message_1}}",
-        "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Message_2": "{{i18n:TowniesNeedArtisanGoods_Mia_GirlScoutJam_Message_2}}",
-        "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Message_3": "{{i18n:TowniesNeedArtisanGoods_Mia_GirlScoutJam_Message_3}}",
-        "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Message_4": "{{i18n:TowniesNeedArtisanGoods_Mia_GirlScoutJam_Message_4}}"
+      },
+      "When": {
+        "HasMod": "Himetarts.ARV.CP"
+      }
+    },
+    // Strings Mia Canning Fever
+    {
+      "LogName": "Strings Mia Canning Fever",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Mia_CanningFever_Name": "{{i18n:TowniesNeedArtisanGoods_Mia_CanningFever_Name}}",
+        "TowniesNeedArtisanGoods_Mia_CanningFever_Text": "{{i18n:TowniesNeedArtisanGoods_Mia_CanningFever_Text}}",
+        "TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_1": "{{i18n:TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_1}}",
+        "TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_2": "{{i18n:TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_2}}",
+        "TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_3": "{{i18n:TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_3}}",
+        "TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_4": "{{i18n:TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_4}}",
+        "TowniesNeedArtisanGoods_Mia_CanningFever_Message_0": "{{i18n:TowniesNeedArtisanGoods_Mia_CanningFever_Message_0}}",
+        "TowniesNeedArtisanGoods_Mia_CanningFever_Message_1": "{{i18n:TowniesNeedArtisanGoods_Mia_CanningFever_Message_1}}",
+        "TowniesNeedArtisanGoods_Mia_CanningFever_Message_2": "{{i18n:TowniesNeedArtisanGoods_Mia_CanningFever_Message_2}}",
+        "TowniesNeedArtisanGoods_Mia_CanningFever_Message_3": "{{i18n:TowniesNeedArtisanGoods_Mia_CanningFever_Message_3}}",
+        "TowniesNeedArtisanGoods_Mia_CanningFever_Message_4": "{{i18n:TowniesNeedArtisanGoods_Mia_CanningFever_Message_4}}"
       },
       "When": {
         "HasMod": "Himetarts.ARV.CP"
