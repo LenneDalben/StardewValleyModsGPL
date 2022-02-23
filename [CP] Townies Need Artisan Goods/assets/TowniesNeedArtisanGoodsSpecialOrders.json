@@ -2973,5 +2973,56 @@
         "HasMod": "Himetarts.ARV.CP"
       }
     },
+    // Always Raining in the Valley (ARV) Sterling Fancy Juice
+    {
+      "LogName": "ARV Sterling Fancy Juice",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Sterling_FancyJuice": {
+          "Name": "[TowniesNeedArtisanGoods_Sterling_FancyJuice_Name]",
+          "Requester": "Sterling",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Sterling_FancyJuice_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Sterling_FancyJuice_Objective_Text_0]",
+              "RequiredCount": "2",
+              "Data": {
+                "AcceptedContextTags": "item_pumpkin_juice",
+                "Message": "[TowniesNeedArtisanGoods_Sterling_FancyJuice_Message_0]",
+                "TargetName": "Sterling"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "2014"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "juice",
+        "SkillLevel:Farming": "8, 9, 10",
+        "HasSeenEvent": "40180011",
+        "HasMod": "Himetarts.ARV.CP"
+      }
+    },
   ]
 }

@@ -829,5 +829,20 @@
         "HasMod": "Himetarts.ARV.CP"
       }
     },
+    // Strings Always Raining in the Valley (ARV) Sterling Fancy Juice
+    {
+      "LogName": "Strings ARV Sterling Fancy Juice",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Sterling_FancyJuice_Name": "{{i18n:TowniesNeedArtisanGoods_Sterling_FancyJuice_Name}}",
+        "TowniesNeedArtisanGoods_Sterling_FancyJuice_Text": "{{i18n:TowniesNeedArtisanGoods_Sterling_FancyJuice_Text}}",
+        "TowniesNeedArtisanGoods_Sterling_FancyJuice_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Sterling_FancyJuice_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Sterling_FancyJuice_Message_0": "{{i18n:TowniesNeedArtisanGoods_Sterling_FancyJuice_Message_0}}",
+      },
+      "When": {
+        "HasMod": "Himetarts.ARV.CP"
+      }
+    },
   ]
 }
