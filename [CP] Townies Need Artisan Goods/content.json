@@ -58,13 +58,13 @@
     }
   ],
   "Changes": [
-    // Include Orders
+    // Include Vanilla Orders
     {
       "LogName": "Include Townies Seek Artisan Goods Orders",
       "Action": "Include",
       "FromFile": "assets/TowniesNeedArtisanGoodsSpecialOrders.json"
     },
-    // Include Rewards
+    // Include Vanilla Rewards
     {
       "LogName": "Include Townies Seek Artisan Goods Rewards",
       "Action": "Include",
@@ -86,6 +86,24 @@
       "FromFile": "assets/TowniesNeedArtisanGoodsHostTreesRewards.json",
       "When": {
         "HasMod": "tiakall.hosttrees"
+      }
+    },
+    // Include Mod Integration Orders and Strings Patches (not Host Trees hehe)
+    {
+      "LogName": "Include Townies Seek Artisan Goods Mod Integration Orders",
+      "Action": "Include",
+      "FromFile": "assets/TowniesNeedArtisanGoodsModIntegrationSpecialOrders.json",
+      "When": {
+        "HasMod |contains=Himetarts.ARV.CP, tiakall.jortsandjean, ZoeDoll.NPCAlecto": "true"
+      }
+    },
+    // Include Mod Integration Rewards (not Host Trees hehe)
+    {
+      "LogName": "Include Townies Seek Artisan Goods Mod Integration Rewards",
+      "Action": "Include",
+      "FromFile": "assets/TowniesNeedArtisanGoodsModIntegrationRewards.json",
+      "When": {
+        "HasMod |contains=Himetarts.ARV.CP, tiakall.jortsandjean, ZoeDoll.NPCAlecto": "true"
       }
     },
     // Leah's House DropBox Patch
@@ -124,7 +142,7 @@
         }
       ]
     },
-    // Strings below
+    // Vanilla Strings below
     // Strings Abigail Sweet Pumpkin
     {
       "LogName": "Strings Abigail Sweet Pumpkin",
@@ -757,91 +775,6 @@
         "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Text": "{{i18n:TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Text}}",
         "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Objective_Text_0}}",
         "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Message_0": "{{i18n:TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Message_0}}"
-      }
-    },
-    //
-    // ***Mod Integrations~***
-    //
-    // Strings Jorts and Jean Tangy Snack
-    {
-      "LogName": "Strings Jorts and Jean Tangy Snack",
-      "Action": "EditData",
-      "Target": "Strings/SpecialOrderStrings",
-      "Entries": {
-        "TowniesNeedArtisanGoods_JortsandJean_TangySnack_Name": "{{i18n:TowniesNeedArtisanGoods_JortsandJean_TangySnack_Name}}",
-        "TowniesNeedArtisanGoods_JortsandJean_TangySnack_Text": "{{i18n:TowniesNeedArtisanGoods_JortsandJean_TangySnack_Text}}",
-        "TowniesNeedArtisanGoods_JortsandJean_TangySnack_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_JortsandJean_TangySnack_Objective_Text_0}}",
-        "TowniesNeedArtisanGoods_JortsandJean_TangySnack_Objective_Text_1": "{{i18n:TowniesNeedArtisanGoods_JortsandJean_TangySnack_Objective_Text_1}}",
-        "TowniesNeedArtisanGoods_JortsandJean_TangySnack_Message_0": "{{i18n:TowniesNeedArtisanGoods_JortsandJean_TangySnack_Message_0}}",
-        "TowniesNeedArtisanGoods_JortsandJean_TangySnack_Message_1": "{{i18n:TowniesNeedArtisanGoods_JortsandJean_TangySnack_Message_1}}"
-      }
-    },
-    // Strings Always Raining in the Valley (ARV) Mia Girl Scout Jam
-    {
-      "LogName": "Strings ARV Mia Girl Scout Jam",
-      "Action": "EditData",
-      "Target": "Strings/SpecialOrderStrings",
-      "Entries": {
-        "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Name": "{{i18n:TowniesNeedArtisanGoods_Mia_GirlScoutJam_Name}}",
-        "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Text": "{{i18n:TowniesNeedArtisanGoods_Mia_GirlScoutJam_Text}}",
-        "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Mia_GirlScoutJam_Objective_Text_0}}",
-        "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Message_0": "{{i18n:TowniesNeedArtisanGoods_Mia_GirlScoutJam_Message_0}}",
-      },
-      "When": {
-        "HasMod": "Himetarts.ARV.CP"
-      }
-    },
-    // Strings Always Raining in the Valley (ARV) Mia Canning Fever
-    {
-      "LogName": "Strings ARV Mia Canning Fever",
-      "Action": "EditData",
-      "Target": "Strings/SpecialOrderStrings",
-      "Entries": {
-        "TowniesNeedArtisanGoods_Mia_CanningFever_Name": "{{i18n:TowniesNeedArtisanGoods_Mia_CanningFever_Name}}",
-        "TowniesNeedArtisanGoods_Mia_CanningFever_Text": "{{i18n:TowniesNeedArtisanGoods_Mia_CanningFever_Text}}",
-        "TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_0}}",
-        "TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_1": "{{i18n:TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_1}}",
-        "TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_2": "{{i18n:TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_2}}",
-        "TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_3": "{{i18n:TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_3}}",
-        "TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_4": "{{i18n:TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_4}}",
-        "TowniesNeedArtisanGoods_Mia_CanningFever_Message_0": "{{i18n:TowniesNeedArtisanGoods_Mia_CanningFever_Message_0}}",
-        "TowniesNeedArtisanGoods_Mia_CanningFever_Message_1": "{{i18n:TowniesNeedArtisanGoods_Mia_CanningFever_Message_1}}",
-        "TowniesNeedArtisanGoods_Mia_CanningFever_Message_2": "{{i18n:TowniesNeedArtisanGoods_Mia_CanningFever_Message_2}}",
-        "TowniesNeedArtisanGoods_Mia_CanningFever_Message_3": "{{i18n:TowniesNeedArtisanGoods_Mia_CanningFever_Message_3}}",
-        "TowniesNeedArtisanGoods_Mia_CanningFever_Message_4": "{{i18n:TowniesNeedArtisanGoods_Mia_CanningFever_Message_4}}"
-      },
-      "When": {
-        "HasMod": "Himetarts.ARV.CP"
-      }
-    },
-    // Strings Always Raining in the Valley (ARV) Mia Taste of Home
-    {
-      "LogName": "Strings ARV Mia Taste of Home",
-      "Action": "EditData",
-      "Target": "Strings/SpecialOrderStrings",
-      "Entries": {
-        "TowniesNeedArtisanGoods_Mia_TasteofHome_Name": "{{i18n:TowniesNeedArtisanGoods_Mia_TasteofHome_Name}}",
-        "TowniesNeedArtisanGoods_Mia_TasteofHome_Text": "{{i18n:TowniesNeedArtisanGoods_Mia_TasteofHome_Text}}",
-        "TowniesNeedArtisanGoods_Mia_TasteofHome_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Mia_TasteofHome_Objective_Text_0}}",
-        "TowniesNeedArtisanGoods_Mia_TasteofHome_Message_0": "{{i18n:TowniesNeedArtisanGoods_Mia_TasteofHome_Message_0}}",
-      },
-      "When": {
-        "HasMod": "Himetarts.ARV.CP"
-      }
-    },
-    // Strings Always Raining in the Valley (ARV) Sterling Fancy Juice
-    {
-      "LogName": "Strings ARV Sterling Fancy Juice",
-      "Action": "EditData",
-      "Target": "Strings/SpecialOrderStrings",
-      "Entries": {
-        "TowniesNeedArtisanGoods_Sterling_FancyJuice_Name": "{{i18n:TowniesNeedArtisanGoods_Sterling_FancyJuice_Name}}",
-        "TowniesNeedArtisanGoods_Sterling_FancyJuice_Text": "{{i18n:TowniesNeedArtisanGoods_Sterling_FancyJuice_Text}}",
-        "TowniesNeedArtisanGoods_Sterling_FancyJuice_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Sterling_FancyJuice_Objective_Text_0}}",
-        "TowniesNeedArtisanGoods_Sterling_FancyJuice_Message_0": "{{i18n:TowniesNeedArtisanGoods_Sterling_FancyJuice_Message_0}}",
-      },
-      "When": {
-        "HasMod": "Himetarts.ARV.CP"
       }
     },
   ]
