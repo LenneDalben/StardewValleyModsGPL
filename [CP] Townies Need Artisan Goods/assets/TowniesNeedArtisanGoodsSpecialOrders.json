@@ -2718,7 +2718,8 @@
       }
     },
     //
-    // Mod Integrations~
+    // ***Mod Integrations~***
+    //
     // Jorts and Jean Tangy Snack
     {
       "LogName": "Jorts and Jean Tangy Snack",
@@ -2922,6 +2923,55 @@
         "HasMod": "Himetarts.ARV.CP"
       }
     },
-
+    // Mia Taste of Home
+    {
+      "LogName": "Mia Taste of Home",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Mia_TasteofHome": {
+          "Name": "[TowniesNeedArtisanGoods_Mia_TasteofHome_Name]",
+          "Requester": "Mia",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Mia_TasteofHome_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Mia_TasteofHome_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_caviar",
+                "Message": "[TowniesNeedArtisanGoods_Mia_TasteofHome_Message_0]",
+                "TargetName": "Mia"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "700"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "roe",
+        "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10",
+        "HasMod": "Himetarts.ARV.CP"
+      }
+    },
   ]
 }

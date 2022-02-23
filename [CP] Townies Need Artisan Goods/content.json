@@ -759,6 +759,9 @@
         "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Message_0": "{{i18n:TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Message_0}}"
       }
     },
+    //
+    // ***Mod Integrations~***
+    //
     // Strings Jorts and Jean Tangy Snack
     {
       "LogName": "Strings Jorts and Jean Tangy Snack",
@@ -810,6 +813,21 @@
       "When": {
         "HasMod": "Himetarts.ARV.CP"
       }
-    }
+    },
+    // Strings Mia Taste of Home
+    {
+      "LogName": "Strings Mia Taste of Home",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Mia_TasteofHome_Name": "{{i18n:TowniesNeedArtisanGoods_Mia_TasteofHome_Name}}",
+        "TowniesNeedArtisanGoods_Mia_TasteofHome_Text": "{{i18n:TowniesNeedArtisanGoods_Mia_TasteofHome_Text}}",
+        "TowniesNeedArtisanGoods_Mia_TasteofHome_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Mia_TasteofHome_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_Mia_TasteofHome_Message_0": "{{i18n:TowniesNeedArtisanGoods_Mia_TasteofHome_Message_0}}",
+      },
+      "When": {
+        "HasMod": "Himetarts.ARV.CP"
+      }
+    },
   ]
 }
