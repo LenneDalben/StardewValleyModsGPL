@@ -580,6 +580,25 @@
         "TowniesNeedFood_Wizard_ProtectivePasta_Objective_Text_0": "{{i18n:TowniesNeedFood_Wizard_ProtectivePasta_Objective_Text_0}}",
         "TowniesNeedFood_Wizard_ProtectivePasta_Message_0": "{{i18n:TowniesNeedFood_Wizard_ProtectivePasta_Message_0}}"
       }
+    },
+    //
+    //
+    // Mod Integrations~
+    //
+    // Strings Always Raining in the Valley (ARV) Henry Homemade Stir Fry
+    {
+      "LogName": "Strings ARV Henry Homemade Stir Fry",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_ARV_Henry_HomemadeStirFry_Name": "{{i18n:TowniesNeedArtisanGoods_ARV_Henry_HomemadeStirFry_Name}}",
+        "TowniesNeedArtisanGoods_ARV_Henry_HomemadeStirFry_Text": "{{i18n:TowniesNeedArtisanGoods_ARV_Henry_HomemadeStirFry_Text}}",
+        "TowniesNeedArtisanGoods_ARV_Henry_HomemadeStirFry_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_ARV_Henry_HomemadeStirFry_Objective_Text_0}}",
+        "TowniesNeedArtisanGoods_ARV_Henry_HomemadeStirFry_Message_0": "{{i18n:TowniesNeedArtisanGoods_ARV_Henry_HomemadeStirFry_Message_0}}"
+      },
+      "When": {
+        "HasMod": "Himetarts.ARV.CP"
+      }
     }
   ]
 }

@@ -2282,6 +2282,60 @@
         "PlayerHasKitchen": true,
         "HasCookingRecipe": "Squid Ink Ravioli"
       }
+    },
+    //
+    //
+    // Mod Integrations~
+    //
+    // Always Raining in the Valley (ARV) Henry Homemade Stir Fry
+    {
+      "LogName": "ARV Henry Homemade Stir Fry",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedFood_ARV_Henry_HomemadeStirFry": {
+          "Name": "[TowniesNeedFood_ARV_Henry_HomemadeStirFry_Name]",
+          "Requester": "Henry",
+          "Duration": "Week",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "season_spring",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedFood_ARV_Henry_HomemadeStirFry_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_ARV_Henry_HomemadeStirFry_Objective_Text_0]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_stir_fry",
+                "Message": "[TowniesNeedFood_ARV_Henry_HomemadeStirFry_Message_0]",
+                "TargetName": "Henry"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1005"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "PlayerHasKitchen": true,
+        "HasCookingRecipe": "Stir Fry",
+        "HasMod": "Himetarts.ARV.CP"
+      }
     }
   ]
 }
