@@ -8,6 +8,9 @@
       "Target": "Data/Mail",
       "Entries": {
         "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Letter": "{{Random: {{i18n:letter_pierreseeds}}, {{i18n:letter_snailfund}}, {{i18n:letter_floodprotection}}, {{i18n:letter_carsales}}, {{i18n:letter_waterbugs}}, {{i18n:letter_saloon}}, {{i18n:letter_clinic}}, {{i18n:letter_Joja}}, {{i18n:letter_esquire}}, {{i18n:letter_carpet}}, {{i18n:letter_blacksmith}}, {{i18n:letter_robinbuilding}}, {{i18n:letter_yoba}} |key=junkmail}}%item conversationTopic Mia_girlscoutjam 7 %%[#]{{Random: {{i18n:letter_pierreseeds_name}}, {{i18n:letter_snailfund_name}}, {{i18n:letter_floodprotection_name}}, {{i18n:letter_carsales_name}}, {{i18n:letter_waterbugs_name}}, {{i18n:letter_saloon_name}}, {{i18n:letter_clinic_name}}, {{i18n:letter_Joja_name}}, {{i18n:letter_esquire_name}}, {{i18n:letter_carpet_name}}, {{i18n:letter_blacksmith_name}}, {{i18n:letter_robinbuilding_name}}, {{i18n:letter_yoba_name}} |key=junkmail}}"
+      },
+      "When": {
+        "HasMod": "Himetarts.ARV.CP"
       }
     },
     /*Henry CT*/ {
@@ -16,6 +19,9 @@
       "Target": "Characters/Dialogue/Henry",
       "Entries": {
         "Mia_girlscoutjam": "{{i18n:Mia_girlscoutjamCT_Henry}}"
+      },
+      "When": {
+        "HasMod": "Himetarts.ARV.CP"
       }
     },
     /*Sterling CT*/ {
@@ -24,6 +30,9 @@
       "Target": "Characters/Dialogue/Sterling",
       "Entries": {
         "Mia_girlscoutjam": "{{i18n:Mia_girlscoutjamCT_Sterling}}"
+      },
+      "When": {
+        "HasMod": "Himetarts.ARV.CP"
       }
     },
     /*Elliott CT*/ {
@@ -32,6 +41,9 @@
       "Target": "Characters/Dialogue/Elliott",
       "Entries": {
         "Mia_girlscoutjam": "{{i18n:Mia_girlscoutjamCT_Elliott}}"
+      },
+      "When": {
+        "HasMod": "Himetarts.ARV.CP"
       }
     },
   ]
