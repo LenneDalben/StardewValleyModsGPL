@@ -591,10 +591,10 @@
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
-        "TowniesNeedArtisanGoods_ARV_Henry_HomemadeStirFry_Name": "{{i18n:TowniesNeedArtisanGoods_ARV_Henry_HomemadeStirFry_Name}}",
-        "TowniesNeedArtisanGoods_ARV_Henry_HomemadeStirFry_Text": "{{i18n:TowniesNeedArtisanGoods_ARV_Henry_HomemadeStirFry_Text}}",
-        "TowniesNeedArtisanGoods_ARV_Henry_HomemadeStirFry_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_ARV_Henry_HomemadeStirFry_Objective_Text_0}}",
-        "TowniesNeedArtisanGoods_ARV_Henry_HomemadeStirFry_Message_0": "{{i18n:TowniesNeedArtisanGoods_ARV_Henry_HomemadeStirFry_Message_0}}"
+        "TowniesNeedFood_ARV_Henry_HomemadeStirFry_Name": "{{i18n:TowniesNeedFood_ARV_Henry_HomemadeStirFry_Name}}",
+        "TowniesNeedFood_ARV_Henry_HomemadeStirFry_Text": "{{i18n:TowniesNeedFood_ARV_Henry_HomemadeStirFry_Text}}",
+        "TowniesNeedFood_ARV_Henry_HomemadeStirFry_Objective_Text_0": "{{i18n:TowniesNeedFood_ARV_Henry_HomemadeStirFry_Objective_Text_0}}",
+        "TowniesNeedFood_ARV_Henry_HomemadeStirFry_Message_0": "{{i18n:TowniesNeedFood_ARV_Henry_HomemadeStirFry_Message_0}}"
       },
       "When": {
         "HasMod": "Himetarts.ARV.CP"
