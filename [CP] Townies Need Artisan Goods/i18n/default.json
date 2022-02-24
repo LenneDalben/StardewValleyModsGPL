@@ -383,8 +383,6 @@
   "Willy_mildlysaltyCT_Elliott": "I'm glad Gus was lenient on the outside food policy.#$b#It's not wise to be on the bartender's bad side!$h#$b#Or the chef's, and he is both.$2",
   //
   // Letter Strings
-  "letter_waterbugs_name": "Waterbugs",
-  "letter_waterbugs": "Do you have termites, water bugs and roaches? Parsons Pest Control will take care of your needs! Call us at^*the company phone number is smeared*",
   "letter_saloon_name": "Saloon",
   "letter_saloon": "Are you craving some good eating? Come by Gus' saloon for the best spaghetti money can buy!",
   "letter_blacksmith_name": "Blacksmith",
@@ -395,12 +393,20 @@
   "letter_clinic": "Muscles aching after long hours of chopping wood? Drop by Harvey's clinic and pick up a remedy!",
   "letter_Joja_name": "Joja",
   "letter_Joja": "Are you tired of not contributing to a mega corporation? Join us and thrive at Joja! Tell your local Joja representative you are dying to get a membership, and if you already told him no, tell him you changed your mind!",
+  "letter_yoba_name": "Yoba",
+  "letter_yoba": "Have you heard the good word of Yoba?",
+  "letter_pierreseeds_name": "Pierre's Seeds",
+  "letter_pierreseeds": "Pierre's seeds are of the highest quality, don't let Joja tell you different!",
+  "letter_floodprotection_name": "Flood Protection",
+  "letter_floodprotection": "Are you secure in the knowledge your home won't flood? Do you really want to gamble with your precious belongings? Mermaid Flood Insurance will help you get the highest reimbursements^*someone furiously scribbled away any contact information and wrote 'MERMAID FLOOD SUX' at the bottom*",
+  "letter_carsales_name": "Car Sales",
+  "letter_carsales": "Are you trying to haul supplies a long way on foot? Haul in style in the new Gotoro Spirit pickup truck. Its roomy bed will make you the envy of all your pickup truck-less friends. Come on by!^*someone thought a sketch of the building was enough direction to omit a name or address*",
+  "letter_waterbugs_name": "Waterbugs",
+  "letter_waterbugs": "Do you have termites, water bugs and roaches? Parsons Pest Control will take care of your needs! Call us at^*the company phone number is smeared*",
   "letter_esquire_name": "Esquire",
   "letter_esquire": "Did you get hurt in an accident? Call the Ferngill Esquire Association so they can connect you to a law firm at^*the phone number is torn from the flyer*",
   "letter_carpet_name": "Carpeting",
   "letter_carpet": "Sick of the carpeting in your home? Tell Ferngill Better Living what you're looking for and we'll install it for no money down at^*for some reason the last part of this is in a language you don't understand*",
-  "letter_yoba_name": "Yoba",
-  "letter_yoba": "Have you heard the good word of Yoba?",
   //
   // Leah Bees in the Meadow Conversation Topic Strings
   "Leah_beesinthemeadowCT": "Thanks, @! These should make some bees happy.$h",
