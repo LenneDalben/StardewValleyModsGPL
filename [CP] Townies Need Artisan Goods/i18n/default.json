@@ -489,7 +489,7 @@
   "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Objective_Text_0": "Deliver 4 Jelly jars to Mia",
   "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Message_0": "Oh, you've saved me @!$4#$b#The mission can continue. Thank you so much!$h",
   //
-  // Always Raining in the Valley (ARV) Mia Canning Fever Order Strings
+  // ARV Mia Canning Fever Order Strings
   "TowniesNeedArtisanGoods_Mia_CanningFever_Name": "Canning Fever!",
   "TowniesNeedArtisanGoods_Mia_CanningFever_Text": "I'm in need of help again! Both the Grampleton Daisy Girl Scouts AND the Dandelion Boy Scouts want pies to sell. Please deliver 1 jelly jar of orange, blueberry, grape, salmonberry, and apple each. The Daisy Girls Scouts and Dandelion Boy Scouts are counting on us!",
   "TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_0": "Deliver 1 Orange Jelly to Mia",
@@ -503,13 +503,13 @@
   "TowniesNeedArtisanGoods_Mia_CanningFever_Message_3": "Thanks @! Salmonberries aren't too sweet, but they're still a lovely reminder of summer.$h",
   "TowniesNeedArtisanGoods_Mia_CanningFever_Message_4": "Apple pie is a classic for a reason. Thanks @!$h",
   //
-  // Always Raining in the Valley (ARV) Mia Taste of Home Order Strings
+  // ARV Mia Taste of Home Order Strings
   "TowniesNeedArtisanGoods_Mia_TasteofHome_Name": "Taste of Home",
   "TowniesNeedArtisanGoods_Mia_TasteofHome_Text": "I find myself missing the meals my father's personal chef cooked for us when I lived back in the city. Could you deliver me some caviar? Just a little bit, to remember what it was like... Just don't tell EITHER of the Cooper boys, or they'll tease me to high heaven.",
   "TowniesNeedArtisanGoods_Mia_TasteofHome_Objective_Text_0": "Deliver 1 Caviar to Mia",
   "TowniesNeedArtisanGoods_Mia_TasteofHome_Message_0": "Ahhh, thank you @!$h#$b#But be SURE to keep this on the down low, alright? Not a word, @, I trust you.$4#$b#I adore the quaint life of the valley folk, but it's nice to have food from home.$4",
   //
-  // Always Raining in the Valley (ARV) Sterling Fancy Juice Order Strings
+  // ARV Sterling Fancy Juice Order Strings
   "TowniesNeedArtisanGoods_Sterling_FancyJuice_Name": "Fancy Juice",
   "TowniesNeedArtisanGoods_Sterling_FancyJuice_Text": "Turns out this sobriety thing isn't so bad!... Which is a total lie, by the way. This is a lot harder than I could've ever thought. Mia suggested I should try one of those fancy juices that come in a similar bottle. Can someone hook me up with 2 pumpkin juice?",
   "TowniesNeedArtisanGoods_Sterling_FancyJuice_Objective_Text_0": "Deliver 2 Pumpkin Juice to Sterling",
@@ -518,12 +518,12 @@
   //
   // **ARV conversation topics strings****
   //
-  // Mia Girl Scout Jam CT Strings
+  // ARV Mia Girl Scout Jam CT Strings
   "Mia_girlscoutjamCT_Henry": "Mia was stressed earlier about not having enough jelly for pies.#$b#Oh, you got her some? That's nice of you.$h",
   "Mia_girlscoutjamCT_Sterling": "Mia's been cooking up something nice in the kitchen but she said no samples.#$2",
   "Mia_girlscoutjamCT_Elliott": "I've barely had a glimpse of Mia, she's been buzzing about lately.",
   //
-  // Mia Canning Fever CT Strings
+  // ARV Mia Canning Fever CT Strings
   "Mia_canningfeverCT_Henry": "Mia's back at it again, muttering about jelly.#$b#I'm glad you assisted again!$h",
   "Mia_canningfeverCT_Sterling": "Mia's cooking smells even more delicious than last time she had all those jellies, but she still won't give me samples.#$2",
   "Mia_canningfeverCT_Leah": "I saw some of Mia's latest pies. She puts so much detail into the decorations. She's truly an artist.",
