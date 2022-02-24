@@ -1,9 +1,9 @@
 {
   "Changes": [
     // CONVERSATION TOPICS WOOT
-    // Mia Girl Scout Jam Conversation Topic
+    // ARV Mia Girl Scout Jam Conversation Topic
     /*Letter*/ {
-      "LogName": "Mia Girl Scout Jam Letter for CT",
+      "LogName": "ARV Mia Girl Scout Jam Letter for CT",
       "Action": "EditData",
       "Target": "Data/Mail",
       "Entries": {
@@ -14,7 +14,7 @@
       }
     },
     /*Henry CT*/ {
-      "LogName": "Mia Girl Scout Jam CT - Henry",
+      "LogName": "ARV Mia Girl Scout Jam CT - Henry",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Henry",
       "Entries": {
@@ -25,7 +25,7 @@
       }
     },
     /*Sterling CT*/ {
-      "LogName": "Mia Girl Scout Jam CT - Sterling",
+      "LogName": "ARV Mia Girl Scout Jam CT - Sterling",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sterling",
       "Entries": {
@@ -36,7 +36,7 @@
       }
     },
     /*Elliott CT*/ {
-      "LogName": "Mia Girl Scout Jam CT - Elliott",
+      "LogName": "ARV Mia Girl Scout Jam CT - Elliott",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Elliott",
       "Entries": {
@@ -48,7 +48,7 @@
     },
     // Mia Canning Fever Conversation Topic
     /*Letter*/ {
-      "LogName": "Mia Canning Fever Letter for CT",
+      "LogName": "ARV Mia Canning Fever Letter for CT",
       "Action": "EditData",
       "Target": "Data/Mail",
       "Entries": {
@@ -59,7 +59,7 @@
       }
     },
     /*Henry CT*/ {
-      "LogName": "Mia Canning Fever CT - Henry",
+      "LogName": "ARV Mia Canning Fever CT - Henry",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Henry",
       "Entries": {
@@ -70,7 +70,7 @@
       }
     },
     /*Sterling CT*/ {
-      "LogName": "Mia Canning Fever CT - Sterling",
+      "LogName": "ARV Mia Canning Fever CT - Sterling",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sterling",
       "Entries": {
@@ -81,7 +81,7 @@
       }
     },
     /*Leah CT*/ {
-      "LogName": "Mia Canning Fever CT - Leah",
+      "LogName": "ARV Mia Canning Fever CT - Leah",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Leah",
       "Entries": {
@@ -91,7 +91,7 @@
         "HasMod": "Himetarts.ARV.CP"
       }
     },
-    // Sterling Fancy Juice Conversation Topic
+    // ARV Sterling Fancy Juice Conversation Topic
     /*Letter*/ {
       "LogName": "Sterling Fancy Juice Letter for CT",
       "Action": "EditData",
@@ -104,7 +104,7 @@
       }
     },
     /*Henry CT*/ {
-      "LogName": "Sterling Fancy Juice CT - Henry",
+      "LogName": "ARV Sterling Fancy Juice CT - Henry",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Henry",
       "Entries": {
@@ -115,7 +115,7 @@
       }
     },
     /*Mia CT*/ {
-      "LogName": "Sterling Fancy Juice CT - Mia",
+      "LogName": "ARV Sterling Fancy Juice CT - Mia",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Mia",
       "Entries": {
@@ -126,7 +126,7 @@
       }
     },
     /*Shane - Not Sober CT*/ {
-      "LogName": "Sterling Fancy Juice CT - Shane - Not Sober",
+      "LogName": "ARV Sterling Fancy Juice CT - Shane - Not Sober",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Shane",
       "Entries": {
@@ -138,7 +138,7 @@
       }
     },
     /*Shane - Sober CT*/ {
-      "LogName": "Sterling Fancy Juice CT - Shane - Sober",
+      "LogName": "ARV Sterling Fancy Juice CT - Shane - Sober",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Shane",
       "Entries": {
@@ -148,6 +148,6 @@
         "HasMod": "Himetarts.ARV.CP",
         "HasSeenEvent |contains=2118991": "true"
       }
-    },
+    }
   ]
 }

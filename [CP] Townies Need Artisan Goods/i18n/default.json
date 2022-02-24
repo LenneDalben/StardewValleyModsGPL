@@ -528,6 +528,12 @@
   "Mia_canningfeverCT_Sterling": "Mia's cooking smells even more delicious than last time she had all those jellies, but she still won't give me samples.$2",
   "Mia_canningfeverCT_Leah": "I saw some of Mia's latest pies. She puts so much detail into the decorations. She's truly an artist.",
   //
+  // ARV Sterling Fancy Juice CT Strings
+  "Sterling_fancyjuiceCT_Henry": "I was worried when I saw Sterling with a bottle, but it turns out it was pumpkin juice.#$b#I'm so proud that he's serious about finding outlets to stay sober.$h",
+  "Sterling_fancyjuiceCT_Mia": "I'm so glad that Sterling is trying out my advice for juice.$4#$b#Pumpkin is also an excellent choice.$h",
+  "Sterling_fancyjuiceCT_Shane_NS": "Hmph, Sterling's trying to get sober, huh? Good for him.$3",
+  "Sterling_fancyjuiceCT_Shane_S": "I'm glad Sterling found his own way to sobriety. I know how tough that road is.$6",
+  //
   //
   // ***Host Trees order strings***
   //
