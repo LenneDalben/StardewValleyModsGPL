@@ -60,48 +60,48 @@
   "Changes": [
     // Include Vanilla Orders
     {
-      "LogName": "Include Townies Seek Artisan Goods Orders",
+      "LogName": "Include Vanilla Orders",
       "Action": "Include",
-      "FromFile": "assets/TowniesNeedArtisanGoodsSpecialOrders.json"
+      "FromFile": "assets/VanillaOrders.json"
     },
     // Include Vanilla Rewards
     {
-      "LogName": "Include Townies Seek Artisan Goods Rewards",
+      "LogName": "Include Vanilla Rewards",
       "Action": "Include",
-      "FromFile": "assets/TowniesNeedArtisanGoodsRewards.json"
+      "FromFile": "assets/VanillaRewards.json"
     },
     // Include Host Trees Orders and Strings Patches
     {
-      "LogName": "Include Townies Seek Artisan Goods Host Trees Orders",
+      "LogName": "Include Host Trees Orders",
       "Action": "Include",
-      "FromFile": "assets/TowniesNeedArtisanGoodsHostTreesSpecialOrders.json",
+      "FromFile": "assets/HostTreesOrders.json",
       "When": {
         "HasMod": "tiakall.hosttrees"
       }
     },
     // Include Host Trees Rewards
     {
-      "LogName": "Include Townies Seek Artisan Goods Host Trees Rewards",
+      "LogName": "Include Host Trees Rewards",
       "Action": "Include",
-      "FromFile": "assets/TowniesNeedArtisanGoodsHostTreesRewards.json",
+      "FromFile": "assets/HostTreesRewards.json",
       "When": {
         "HasMod": "tiakall.hosttrees"
       }
     },
     // Include Mod Integration Orders and Strings Patches (not Host Trees hehe)
     {
-      "LogName": "Include Townies Seek Artisan Goods Mod Integration Orders",
+      "LogName": "Include Mod Integration Orders",
       "Action": "Include",
-      "FromFile": "assets/TowniesNeedArtisanGoodsModIntegrationSpecialOrders.json",
+      "FromFile": "assets/ModIntegrationOrders.json",
       "When": {
         "HasMod |contains=Himetarts.ARV.CP, tiakall.jortsandjean, ZoeDoll.NPCAlecto": "true"
       }
     },
     // Include Mod Integration Rewards (not Host Trees hehe)
     {
-      "LogName": "Include Townies Seek Artisan Goods Mod Integration Rewards",
+      "LogName": "Include Mod Integration Rewards",
       "Action": "Include",
-      "FromFile": "assets/TowniesNeedArtisanGoodsModIntegrationRewards.json",
+      "FromFile": "assets/ModIntegrationRewards.json",
       "When": {
         "HasMod |contains=Himetarts.ARV.CP, tiakall.jortsandjean, ZoeDoll.NPCAlecto": "true"
       }
