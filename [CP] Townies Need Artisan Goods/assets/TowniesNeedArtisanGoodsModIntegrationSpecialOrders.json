@@ -155,6 +155,13 @@
             {
               "Type": "Friendship",
               "Data": {}
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Letter",
+                "NoLetter": "false"
+              }
             }
           ]
         }

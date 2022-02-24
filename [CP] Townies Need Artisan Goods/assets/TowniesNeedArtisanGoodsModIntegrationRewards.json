@@ -1,37 +1,37 @@
 {
   "Changes": [
     // CONVERSATION TOPICS WOOT
-    // Abigail Yellow Mayo Conversation Topic
+    // Mia Girl Scout Jam Conversation Topic
     /*Letter*/ {
-      "LogName": "Abigail Yellow Mayo Letter for CT",
+      "LogName": "Mia Girl Scout Jam Letter for CT",
       "Action": "EditData",
       "Target": "Data/Mail",
       "Entries": {
-        "TowniesNeedArtisanGoods_Abigail_YellowMayo_Letter": "{{Random: {{i18n:letter_waterbugs}}, {{i18n:letter_saloon}}, {{i18n:letter_clinic}}, {{i18n:letter_Joja}}, {{i18n:letter_esquire}}, {{i18n:letter_carpet}}, {{i18n:letter_blacksmith}}, {{i18n:letter_robinbuilding}}, {{i18n:letter_yoba}} |key=junkmail}}%item conversationTopic Abigail_yellowmayo 7 %%[#]{{Random: {{i18n:letter_waterbugs_name}}, {{i18n:letter_saloon_name}}, {{i18n:letter_clinic_name}}, {{i18n:letter_Joja_name}}, {{i18n:letter_esquire_name}}, {{i18n:letter_carpet_name}}, {{i18n:letter_blacksmith_name}}, {{i18n:letter_robinbuilding_name}}, {{i18n:letter_yoba_name}} |key=junkmail}}"
+        "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Letter": "{{Random: {{i18n:letter_pierreseeds}}, {{i18n:letter_snailfund}}, {{i18n:letter_floodprotection}}, {{i18n:letter_carsales}}, {{i18n:letter_waterbugs}}, {{i18n:letter_saloon}}, {{i18n:letter_clinic}}, {{i18n:letter_Joja}}, {{i18n:letter_esquire}}, {{i18n:letter_carpet}}, {{i18n:letter_blacksmith}}, {{i18n:letter_robinbuilding}}, {{i18n:letter_yoba}} |key=junkmail}}%item conversationTopic Mia_girlscoutjam 7 %%[#]{{Random: {{i18n:letter_pierreseeds_name}}, {{i18n:letter_snailfund_name}}, {{i18n:letter_floodprotection_name}}, {{i18n:letter_carsales_name}}, {{i18n:letter_waterbugs_name}}, {{i18n:letter_saloon_name}}, {{i18n:letter_clinic_name}}, {{i18n:letter_Joja_name}}, {{i18n:letter_esquire_name}}, {{i18n:letter_carpet_name}}, {{i18n:letter_blacksmith_name}}, {{i18n:letter_robinbuilding_name}}, {{i18n:letter_yoba_name}} |key=junkmail}}"
       }
     },
-    /*Abigail CT*/ {
-      "LogName": "Abigail Yellow Mayo CT - Abby",
+    /*Henry CT*/ {
+      "LogName": "Mia Girl Scout Jam CT - Henry",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/Abigail",
+      "Target": "Characters/Dialogue/Henry",
       "Entries": {
-        "Abigail_yellowmayo": "{{i18n:Abigail_yellowmayoCT_Abby}}"
+        "Mia_girlscoutjam": "{{i18n:Mia_girlscoutjamCT_Henry}}"
       }
     },
-    /*Sebastian CT*/ {
-      "LogName": "Abigail Yellow Mayo CT - Seb",
+    /*Sterling CT*/ {
+      "LogName": "Mia Girl Scout Jam CT - Sterling",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/Sebastian",
+      "Target": "Characters/Dialogue/Sterling",
       "Entries": {
-        "Abigail_yellowmayo": "{{i18n:Abigail_yellowmayoCT_Seb}}"
+        "Mia_girlscoutjam": "{{i18n:Mia_girlscoutjamCT_Sterling}}"
       }
     },
-    /*Sam CT*/ {
-      "LogName": "Abigail Yellow Mayo CT - Sam",
+    /*Elliott CT*/ {
+      "LogName": "Mia Girl Scout Jam CT - Elliott",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/Sam",
+      "Target": "Characters/Dialogue/Elliott",
       "Entries": {
-        "Abigail_yellowmayo": "{{i18n:Abigail_yellowmoayoCT_Sam}}"
+        "Mia_girlscoutjam": "{{i18n:Mia_girlscoutjamCT_Elliott}}"
       }
     },
   ]
