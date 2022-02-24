@@ -46,5 +46,108 @@
         "HasMod": "Himetarts.ARV.CP"
       }
     },
+    // Mia Canning Fever Conversation Topic
+    /*Letter*/ {
+      "LogName": "Mia Canning Fever Letter for CT",
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Mia_CanningFever_Letter": "{{Random: {{i18n:letter_snailfund}}, {{i18n:letter_floodprotection}}, {{i18n:letter_carsales}}, {{i18n:letter_waterbugs}}, {{i18n:letter_saloon}}, {{i18n:letter_clinic}}, {{i18n:letter_Joja}}, {{i18n:letter_esquire}}, {{i18n:letter_carpet}}, {{i18n:letter_blacksmith}}, {{i18n:letter_robinbuilding}}, {{i18n:letter_yoba}}, {{i18n:letter_pierreseeds}} |key=junkmail}}%item conversationTopic Mia_canningfever 7 %%[#]{{Random: {{i18n:letter_snailfund_name}}, {{i18n:letter_floodprotection_name}}, {{i18n:letter_carsales_name}}, {{i18n:letter_waterbugs_name}}, {{i18n:letter_saloon_name}}, {{i18n:letter_clinic_name}}, {{i18n:letter_Joja_name}}, {{i18n:letter_esquire_name}}, {{i18n:letter_carpet_name}}, {{i18n:letter_blacksmith_name}}, {{i18n:letter_robinbuilding_name}}, {{i18n:letter_yoba_name}}, {{i18n:letter_pierreseeds_name}} |key=junkmail}}"
+      },
+      "When": {
+        "HasMod": "Himetarts.ARV.CP"
+      }
+    },
+    /*Henry CT*/ {
+      "LogName": "Mia Canning Fever CT - Henry",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Henry",
+      "Entries": {
+        "Mia_canningfever": "{{i18n:Mia_canningfeverCT_Henry}}"
+      },
+      "When": {
+        "HasMod": "Himetarts.ARV.CP"
+      }
+    },
+    /*Sterling CT*/ {
+      "LogName": "Mia Canning Fever CT - Sterling",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Sterling",
+      "Entries": {
+        "Mia_canningfever": "{{i18n:Mia_canningfeverCT_Sterling}}"
+      },
+      "When": {
+        "HasMod": "Himetarts.ARV.CP"
+      }
+    },
+    /*Leah CT*/ {
+      "LogName": "Mia Canning Fever CT - Leah",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Leah",
+      "Entries": {
+        "Mia_canningfever": "{{i18n:Mia_canningfeverCT_Leah}}"
+      },
+      "When": {
+        "HasMod": "Himetarts.ARV.CP"
+      }
+    },
+    // Sterling Fancy Juice Conversation Topic
+    /*Letter*/ {
+      "LogName": "Sterling Fancy Juice Letter for CT",
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Sterling_FancyJuice_Letter": "{{Random: {{i18n:letter_floodprotection}}, {{i18n:letter_carsales}}, {{i18n:letter_waterbugs}}, {{i18n:letter_saloon}}, {{i18n:letter_clinic}}, {{i18n:letter_Joja}}, {{i18n:letter_esquire}}, {{i18n:letter_carpet}}, {{i18n:letter_blacksmith}}, {{i18n:letter_robinbuilding}}, {{i18n:letter_yoba}}, {{i18n:letter_pierreseeds}}, {{i18n:letter_snailfund}} |key=junkmail}}%item conversationTopic Sterling_fancyjuice 7 %%[#]{{Random: {{i18n:letter_floodprotection_name}}, {{i18n:letter_carsales_name}}, {{i18n:letter_waterbugs_name}}, {{i18n:letter_saloon_name}}, {{i18n:letter_clinic_name}}, {{i18n:letter_Joja_name}}, {{i18n:letter_esquire_name}}, {{i18n:letter_carpet_name}}, {{i18n:letter_blacksmith_name}}, {{i18n:letter_robinbuilding_name}}, {{i18n:letter_yoba_name}}, {{i18n:letter_pierreseeds_name}}, {{i18n:letter_snailfund_name}} |key=junkmail}}"
+      },
+      "When": {
+        "HasMod": "Himetarts.ARV.CP"
+      }
+    },
+    /*Henry CT*/ {
+      "LogName": "Sterling Fancy Juice CT - Henry",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Henry",
+      "Entries": {
+        "Sterling_fancyjuice": "{{i18n:Sterling_fancyjuiceCT_Henry}}"
+      },
+      "When": {
+        "HasMod": "Himetarts.ARV.CP"
+      }
+    },
+    /*Mia CT*/ {
+      "LogName": "Sterling Fancy Juice CT - Mia",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Mia",
+      "Entries": {
+        "Sterling_fancyjuice": "{{i18n:Sterling_fancyjuiceCT_Mia}}"
+      },
+      "When": {
+        "HasMod": "Himetarts.ARV.CP"
+      }
+    },
+    /*Shane - Not Sober CT*/ {
+      "LogName": "Sterling Fancy Juice CT - Shane - Not Sober",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Shane",
+      "Entries": {
+        "Sterling_fancyjuice": "{{i18n:Sterling_fancyjuiceCT_Shane_NS}}"
+      },
+      "When": {
+        "HasMod": "Himetarts.ARV.CP",
+        "HasSeenEvent |contains=2118991": "false"
+      }
+    },
+    /*Shane - Sober CT*/ {
+      "LogName": "Sterling Fancy Juice CT - Shane - Sober",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Shane",
+      "Entries": {
+        "Sterling_fancyjuice": "{{i18n:Sterling_fancyjuiceCT_Shane_S}}"
+      },
+      "When": {
+        "HasMod": "Himetarts.ARV.CP",
+        "HasSeenEvent |contains=2118991": "true"
+      }
+    },
   ]
 }
