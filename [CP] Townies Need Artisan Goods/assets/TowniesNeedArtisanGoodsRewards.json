@@ -284,7 +284,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sam",
       "Entries": {
-        "Abigail_yellowmayo": "{{i18n:Abigail_yellowmoayoCT_Sam}}"
+        "Abigail_yellowmayo": "{{i18n:Abigail_yellowmayoCT_Sam}}"
       }
     },
     // Lewis Special Night Conversation Topic
