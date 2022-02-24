@@ -315,7 +315,7 @@
   "TowniesNeedFood_ARV_Henry_HomemadeStirFry_Name": "Homemade Stir Fry",
   "TowniesNeedFood_ARV_Henry_HomemadeStirFry_Text": "Would anyone happen to know how to cook Stir Fry? Mia was talking about it being her favorite in a restaurant she wishes to take me to someday. Do you think you could cook me some Stir Fry instead? I'd be happy to pay, and I hope it'll at least help soothe her homesickness...",
   "TowniesNeedFood_ARV_Henry_HomemadeStirFry_Objective_Text_0": "Deliver Stir Fry to Henry",
-  "TowniesNeedFood_ARV_Henry_HomemadeStirFry_Message_0": "Ah, I know this was a strange request and you're already stuck running everyone's errands...#$b#But thank you!$4#$b#I don't think I could afford those fancy city restaurants, so this is a nice homemade alternative.$h",
+  "TowniesNeedFood_ARV_Henry_HomemadeStirFry_Message_0": "Ah, I know this was a strange request and you're already stuck running everyone's errands...$3#$b#But thank you.#$b#I don't think I could afford those fancy city restaurants, so this is a nice homemade alternative.",
   //
   //
   // Love of Cooking (LoC) Integration
