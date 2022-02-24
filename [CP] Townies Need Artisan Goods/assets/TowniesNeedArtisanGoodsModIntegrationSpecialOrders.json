@@ -169,7 +169,8 @@
       "When": {
         "OrderType": "jelly",
         "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10",
-        "HasMod": "Himetarts.ARV.CP"
+        "HasMod": "Himetarts.ARV.CP",
+        "EasterEgg": "true"
       }
     },
     // Always Raining in the Valley (ARV) Mia Canning Fever
@@ -261,7 +262,8 @@
         "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10",
         "Year |contains=1": false,
         "HasFlag": "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Letter",
-        "HasMod": "Himetarts.ARV.CP"
+        "HasMod": "Himetarts.ARV.CP",
+        "EasterEgg": "true"
       }
     },
     // Always Raining in the Valley (ARV) Mia Taste of Home
@@ -362,7 +364,8 @@
         "OrderType": "juice",
         "SkillLevel:Farming": "8, 9, 10",
         "HasSeenEvent": "40180011",
-        "HasMod": "Himetarts.ARV.CP"
+        "HasMod": "Himetarts.ARV.CP",
+        "EasterEgg": "true"
       }
     },
     //
