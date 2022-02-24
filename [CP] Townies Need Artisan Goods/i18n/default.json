@@ -1,5 +1,5 @@
 {
-  // ***Order strings***
+  // ***Vanilla Order strings***
   // Abigail Sweet Pumpkin Order Strings
   "TowniesNeedArtisanGoods_Abigail_SweetPumpkin_Name": "Sweet Pumpkin",
   "TowniesNeedArtisanGoods_Abigail_SweetPumpkin_Text": "I'd love some pumpkin juice. Could someone bring me 3 bottles?",
@@ -310,7 +310,7 @@
   "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Message_0": "Many thanks, @! I'll be sure to analyze this for underworld qualities.$h",
   //
   //
-  // ***Event and conversation topics strings***
+  // ***Vanilla event and conversation topics strings***
   // Same Game Night Event and CT Strings
   "events-27122021.01": "Hey, @, you made it!$h",
   "events-27122021.02": "Didn't Sam invite you?",
@@ -457,7 +457,15 @@
   "Sandy_lightbeverage_juiceCT_Haley": "It was nice to have the house to myself for a while.#$b#It's great Emily has Sandy to visit.",
   //
   //
+  //
+  //
   // ***Mod Integrations~***
+  //
+  // Alecto the Witch Home Spa Day Order Strings
+  "TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Name": "Home Spa Day",
+  "TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Text": "I want something really special for my next home spa day. Can someone scrounge up 2 bottles of iridium quality wine? Nothing but the best!",
+  "TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Objective_Text_0": "Deliver 2 Wine bottles (iridium quality) to Alecto",
+  "TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Message_0": "This is a nice break from the trash box wine.#$b#Thank you, @.$h",
   //
   // Jorts and Jean Tangy Snack Order Strings
   "TowniesNeedArtisanGoods_JortsandJean_TangySnack_Name": "Tangy Snack",
@@ -498,12 +506,6 @@
   "TowniesNeedArtisanGoods_Sterling_FancyJuice_Text": "Turns out this sobriety thing isn't so bad!... Which is a total lie, by the way. This is a lot harder than I could've ever thought. Mia suggested I should try one of those fancy juices that come in a similar bottle. Can someone hook me up with 2 pumpkin juice?",
   "TowniesNeedArtisanGoods_Sterling_FancyJuice_Objective_Text_0": "Deliver 2 Pumpkin Juice to Sterling",
   "TowniesNeedArtisanGoods_Sterling_FancyJuice_Message_0": "Ah, the fancy juice. I really hope this helps.$6#$b#... Thank you, @, you're a real one.",
-  //
-  // Alecto the Witch Home Spa Day Order Strings
-  "TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Name": "Home Spa Day",
-  "TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Text": "I want something really special for my next home spa day. Can someone scrounge up 2 bottles of iridium quality wine? Nothing but the best!",
-  "TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Objective_Text_0": "Deliver 2 Wine bottles (iridium quality) to Alecto",
-  "TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Message_0": "This is a nice break from the trash box wine.#$b#Thanks @.$h",
   //
   //
   // ***Host Trees order strings***
