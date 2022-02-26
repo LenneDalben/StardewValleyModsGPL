@@ -610,5 +610,17 @@
 				"HasMod": "Lemurkat.Tristan.CP"
 			}
 		},
+		// Mando Marriage Dialog
+		{
+			"LogName": "Pelican Town Potluck Mando Marriage Dialog",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueMando",
+			"Entries": {
+				"summer_10": "Don't forget the Potluck tomorrow.#$b#Grogu loves the beach.",
+			},
+			"When": {
+				"HasMod": "BexTX.MandoNPC"
+			}
+		}
 	]
 }
