@@ -511,5 +511,17 @@
 				"HasMod": "farmerjack.dialogue_expansions"
 			}
 		},
+		// Jean and Jorts Jorts Dialog
+		{
+			"LogName": "Pelican Town Potluck Jean and Jorts Jorts Dialog",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/JortsCat",
+			"Entries": {
+				"summer_10": "Have you picked out what you're going to put in the Potluck soup?#$b#If not, I bet a really high quality sturgeon would be great. Everyone would like that!$h",
+			},
+			"When": {
+				"HasMod": "tiakall.jortsandjean"
+			}
+		},
 	]
 }
