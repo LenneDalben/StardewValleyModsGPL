@@ -523,5 +523,17 @@
 				"HasMod": "tiakall.jortsandjean"
 			}
 		},
+		// Arknir Lucikiel Marriage Dialog
+		{
+			"LogName": "Pelican Town Potluck Arknir Lucikiel Marriage Dialog",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueLucikiel",
+			"Entries": {
+				"summer_10": "Heh, I have a big surprise waiting for the Potluck soup.$u#$b#Oh come now, you've got to leave a man with a few mysteries.$u",
+			},
+			"When": {
+				"HasMod": "Arknir.Lucikiel"
+			}
+		},
 	]
 }
