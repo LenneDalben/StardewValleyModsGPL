@@ -547,5 +547,68 @@
 				"HasMod": "TheLimeyDragon.Ayeisha"
 			}
 		},
+		// Lemurkat Ranch Expansion Marnie Dialog
+		{
+			"LogName": "Pelican Town Potluck Lemurkat Ranch Expansion Marnie Dialog",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Marnie",
+			"Entries": {
+				"summer_10": "Oh, there's so much to do today! Mayor Lewis has me organizing the communal soup at the Potluck.#$e#I'm sure you've got some fine produce to add!",
+				"summer_10_2": "Oh, there's so much to do for the Potluck tomorrow!#$e#I'm sure you've got some fine produce to add!",
+				"summer_12": "Oh dear, I don't know about you, @, but I ate far too much at the Potluck!",
+				"summer_12_2": "Oh dear, I don't know about you, @, but I ate far too much at the Potluck!",
+			},
+			"When": {
+				"HasMod": "lemurkat.MarnieRanchPack"
+			}
+		},
+		// Lemurkat East Scarpe Aideen Dialog
+		{
+			"LogName": "Pelican Town Potluck Lemurkat East Scarpe Aideen Dialog",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Aideen",
+			"Entries": {
+				"summer_10": "The Potluck? It is so chaotic! Not like the dinner parties I attended in Grampleton.#$b#Now, those were civilized affairs. None of this pitch-in nonsense.",
+			},
+			"When": {
+				"HasMod": "Lemurkat.JacobEloise.CP"
+			}
+		},
+		// Lemurkat Jasper Dialog
+		{
+			"LogName": "Pelican Town Potluck Lemurkat Jasper Dialog",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jasper",
+			"Entries": {
+				"summer_10": "A good friend insisted that I keep them company at the Potluck tomorrow.$3#$b#But what have I to contribute to the soup, @? I rather doubt that cave carrots would be appreciated.$2",
+			},
+			"When": {
+				"HasMod": "Lemurkat.NPCJasper"
+			}
+		},
+		// Lemurkat Jasper Marriage Dialog
+		{
+			"LogName": "Pelican Town Potluck Lemurkat Jasper Marriage Dialog",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueJasper",
+			"Entries": {
+				"summer_11": "Oh, I am actually looking forward to the Potluck today, my love!$1#$b#With you by my side, I truly feel part of the community.$3",
+			},
+			"When": {
+				"HasMod": "Lemurkat.NPCJasper"
+			}
+		},
+		// Lemurkat Tristan Dialog
+		{
+			"LogName": "Pelican Town Potluck Lemurkat Tristan Dialog",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Tristan",
+			"Entries": {
+				"summer_Wed10": "Once during the Potluck, we slipped in some of that red mushroom.#$b#Nobody died, thank Yoba, but let's just say... things got very interesting. And not in a good way.$2#$b#We were idiot kids... it's going to take a while for people to trust me.$2",
+			},
+			"When": {
+				"HasMod": "Lemurkat.Tristan.CP"
+			}
+		},
 	]
 }
