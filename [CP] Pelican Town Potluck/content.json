@@ -535,5 +535,17 @@
 				"HasMod": "Arknir.Lucikiel"
 			}
 		},
+		// TheLimeyDragon Ayeisha Dialog
+		{
+			"LogName": "Pelican Town Potluck TheLimeyDragon Ayeisha Dialog",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Ayeisha",
+			"Entries": {
+				"summer_11": "Everyone should be going to the Potluck on the beach.",
+			},
+			"When": {
+				"HasMod": "TheLimeyDragon.Ayeisha"
+			}
+		},
 	]
 }
