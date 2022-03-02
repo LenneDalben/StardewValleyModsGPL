@@ -511,6 +511,9 @@
 				"HasMod": "farmerjack.dialogue_expansions"
 			}
 		},
+		//
+		// Assorted NPC compatibility patches
+		//
 		// Jean and Jorts Jorts Dialog
 		{
 			"LogName": "Pelican Town Potluck Jean and Jorts Jorts Dialog",
