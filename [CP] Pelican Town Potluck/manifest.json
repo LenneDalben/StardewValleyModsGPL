@@ -30,6 +30,38 @@
         {
             "UniqueID": "farmerjack.dialogue_expansions",
             "IsRequired": false
+        },
+        {
+            "UniqueID": "tiakall.jortsandjean",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "Arknir.Lucikiel",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "TheLimeyDragon.Ayeisha",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "lemurkat.MarnieRanchPack",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "Lemurkat.JacobEloise.CP",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "Lemurkat.NPCJasper",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "Lemurkat.Tristan.CP",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "BexTX.MandoNPC",
+            "IsRequired": false
         }
     ]
 }
