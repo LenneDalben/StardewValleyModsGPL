@@ -10,7 +10,7 @@
 			"Action": "EditData",
 			"Target": "Data/Mail",
 			"Entries": {
-				"summer_10": "Dear @,^Tomorrow we're all gathering at the beach for the annual Pelican Town Potluck.^^The highlight of the event is the communal soup. Make sure you bring something good to contribute!^The governor himself is attending the event, so make sure you're on your best behavior.^Come to the beach sometime between 9 AM and 2 PM.^   -Mayor Lewis[#]Potluck Notice"
+				"summer_10": "{{i18n:summer10letter_text}}[#]{{i18n:summer10letter_title}}"
 			}
 		},
 		// I'm not sure what this is but I changed it :')
@@ -19,7 +19,7 @@
 			"Action": "EditData",
 			"Target": "Data/Festivals/FestivalDates",
 			"Entries": {
-				"summer11": "Pelican Town Potluck",
+				"summer11": "{{i18n:festivaldates_name}}",
 			}
 		},
 		// Change to String, I think it's for the jukebox :shrug:
@@ -28,7 +28,7 @@
 			"Action": "EditData",
 			"Target": "Strings/StringsFromCSFiles",
 			"Entries": {
-				"Utility.cs.5837": "Pelican Town Potluck Festival",
+				"Utility.cs.5837": "{{i18n:jukeboxsong_name}}",
 			}
 		},
 		// Changes to festival name, governor reactions and Elliott dialog the day of
@@ -51,67 +51,74 @@
 			"Action": "EditData",
 			"Target": "Strings/StringsFromCSFiles",
 			"Entries": {
-				"Event.cs.1527": "$q -1 null#Should we move forward with the Potluck? The governor seems a little hungry.#$r -1 0 yes#Yes, let's start.#$r -1 0 no#Not yet.",
+				"Event.cs.1527": "$q -1 null#{{i18n:lewisquestionsouptasting}}#$r -1 0 yes#{{i18n:lewisyessouptasting}}#$r -1 0 no#{{i18n:lewisnosouptasting}}",
 			},
 			"When": {
 				"DayEvent": "Pelican Town Potluck"
 			}
 		},
 		// Additional dialog changes
+		// Abigail
 		{
 			"LogName": "Pelican Town Potluck Abigail Dialog",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Abigail",
 			"Entries": {
-				"summer_10": "Everyone's excited for the Potluck tomorrow. Maybe a little nervous, too, considering the Governor will be here.",
+				"summer_10": "{{i18n:Abigailsummer10}}",
 			}
 		},
+		// Alex Marriage
 		{
 			"LogName": "Pelican Town Potluck Alex Marriage Dialog",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/MarriageDialogueAlex",
 			"Entries": {
-				"summer_10": "Have you thought about what you're going to put in the Potluck soup?#$e#I have no idea what's good... you're the chef!$h",
+				"summer_10": "{{i18n:Alexsummer10_marriage}}",
 			}
 		},
+		// Elliott Marriage
 		{
 			"LogName": "Pelican Town Potluck Elliott Marriage Dialog",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/MarriageDialogueElliott",
 			"Entries": {
-				"summer_10": "I was going to grab an extra bottle of ink from my cabin today, but then I remembered the Potluck is tomorrow. I'll just do it then.",
+				"summer_10": "{{i18n:Elliottsummer10_marriage}}",
 			}
 		},
+		// Harvey Marriage
 		{
 			"LogName": "Pelican Town Potluck Harvey Marriage Dialog",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/MarriageDialogueHarvey",
 			"Entries": {
-				"summer_10": "Have you thought about what you're going to put in the Potluck soup?#$e#I would put an item of high value and quality. We all want to leave a great impression on the governor!",
+				"summer_10": "{{i18n:Harveysummer10_marriage}}",
 			}
 		},
+		// Sam Marriage
 		{
 			"LogName": "Pelican Town Potluck Sam Marriage Dialog",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/MarriageDialogueSam",
 			"Entries": {
-				"summer_10": "Have you thought about what you're going to put in the Potluck soup?#$e#It might be funny to put something nasty. You know, to play a prank on the governor!$h#$e#Sorry...",
+				"summer_10": "{{i18n:Samsummer10_marriage}}",
 			}
 		},
+		// Sebastian Marriage
 		{
 			"LogName": "Pelican Town Potluck Sebastian Marriage Dialog",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/MarriageDialogueSebastian",
 			"Entries": {
-				"summer_10": "Have you thought about what you're going to put in the Potluck soup?#$e#I have no idea what's good... you're the chef!$7",
+				"summer_10": "{{i18n:Sebastiansummer10_marriage}}",
 			}
 		},
+		// Shane Marriage
 		{
 			"LogName": "Pelican Town Potluck Shane Marriage Dialog",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/MarriageDialogueShane",
 			"Entries": {
-				"summer_10": "I might fast until the Potluck tomorrow. I need the ol' bag to be empty so I can fill it with piping hot soup.$h",
+				"summer_10": "{{i18n:Shanesummer10_marriage}}",
 			}
 		},
 		// Decorations changes (provided  by Airyn!)
@@ -202,7 +209,7 @@
 			"Action": "EditData",
 			"Target": "Data/Festivals/summer11",
 			"Entries": {
-				"Elliott": "The smell of food woke me up this morning.$h#$b#I had forgotten all about the Potluck!$n#$b#It's a good thing I remembered to close my curtains last night.$l",
+				"Elliott": "{{i18n:IFD_Elliottsummer11}}",
 			},
 			"When": {
 				"HasMod": "tangeriney.FestivalDialogue",
@@ -219,8 +226,8 @@
 			"Action": "EditData",
 			"Target": "Data/Festivals/summer11",
 			"Entries": {
-				"Richard": "It's humbling to consider how old a tradition the Pelican Town Potluck is for the valley.#$b#It came before me, and will be here long after I'm gone.#$e#Anytime we can all come together is truly a special time.$h", // "Festivals.Luau.Richard" is the key
-				"Kenneth_spouse": "I offered to help, but I think Ian likes carrying the Potluck pot down here. #$b#Big guy gets a workout AND a feast! $h#$e#Who am I to get in the way of a man and his work?$h", // "Festivals.Luau.Kenneth_spouse" is the key
+				"Richard": "{{i18n:RSV_Richardsummer11}}", // "Festivals.Luau.Richard" is the key
+				"Kenneth_spouse": "{{i18n:RSV_Kennethsummer11_spouse}}", // "Festivals.Luau.Kenneth_spouse" is the key
 			},
 			"When": {
 				"HasMod": "Rafseazz.RSVCP, Rafseazz.RidgesideMobileCP"
@@ -232,7 +239,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Alissa",
 			"Entries": {
-				"summer_10": "Every summer, the Pelican Town Potluck festival is the one event I really get excited about!$h#$b#I can't wait to show off my farm's crops tomorrow!$l", // "Alissa.Dialogue.summer_10" is the key
+				"summer_10": "{{i18n:RSV_Alissasummer10}}", // "Alissa.Dialogue.summer_10" is the key
 			},
 			"When": {
 				"HasMod": "Rafseazz.RSVCP, Rafseazz.RidgesideMobileCP"
@@ -244,7 +251,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Maddie",
 			"Entries": {
-				"summer_10": "Have you made your preparations for the Pelican Town Potluck?#$b#You better bring something good if you want to impress the Governor.$7", // "Maddie.Dialogue.summer_10" is the key
+				"summer_10": "{{i18n:RSV_Maddiesummer10}}", // "Maddie.Dialogue.summer_10" is the key
 			},
 			"When": {
 				"HasMod": "Rafseazz.RSVCP, Rafseazz.RidgesideMobileCP"
@@ -256,7 +263,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Trinnie",
 			"Entries": {
-				"summer_10": "Potluck day!#$b#Soup day!$u#$e#Yummy food is coming our way!$h", // "Trinnie.Dialogue.summer_10" is the key
+				"summer_10": "{{i18n:RSV_Trinniesummer10}}", // "Trinnie.Dialogue.summer_10" is the key
 			},
 			"When": {
 				"HasMod": "Rafseazz.RSVCP, Rafseazz.RidgesideMobileCP"
@@ -268,7 +275,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Undreya",
 			"Entries": {
-				"summer_10": "I always attend the Pelican Town Potluck. I love the soup!$h#$b#I also like the spare change that purple balloon has.#$b#He should visit more often.$h", // "Undreya.Dialogue.summer_10" is the key
+				"summer_10": "{{i18n:RSV_Undreyasummer10}}", // "Undreya.Dialogue.summer_10" is the key
 			},
 			"When": {
 				"HasMod": "Rafseazz.RSVCP, Rafseazz.RidgesideMobileCP"
@@ -280,8 +287,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Ysabelle",
 			"Entries": {
-				"summer_1": "I'm looking forward to this season.#$b#The warm beach and the dresses remind me of dancing as a little girl in summer shows.$h", // "Ysabelle.Dialogue.summer_1" is the key. Airyn recommended this line!
-				"summer_10": "My granddad is quite excited for the festival tomorrow.#$b#He enjoys the Pelican Town Potluck so much!$h#$e#I think the governor is more excited than anyone else, because when the soup is good, it's really good!$h", // "Ysabelle.Dialogue.summer_10" is the key
+				"summer_1": "{{i18n:RSV_Ysabellesummer1}}", // "Ysabelle.Dialogue.summer_1" is the key. Airyn recommended this line!
+				"summer_10": "{{i18n:RSV_Ysabellesummer10}}", // "Ysabelle.Dialogue.summer_10" is the key
 			},
 			"When": {
 				"HasMod": "Rafseazz.RSVCP, Rafseazz.RidgesideMobileCP"
@@ -293,7 +300,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/MarriageDialogueCorine",
 			"Entries": {
-				"summer_10": "Papa is always so talkative about what he'll bring for the Pelican Town Potluck tomorrow.#$e#He won't admit it, but he really is excited.$h", // "Corine.MarriageDialogue.summer_10" is the key
+				"summer_10": "{{i18n:RSV_Corinesummer10_marriage}}", // "Corine.MarriageDialogue.summer_10" is the key
 			},
 			"When": {
 				"HasMod": "Rafseazz.RSVCP, Rafseazz.RidgesideMobileCP"
@@ -305,7 +312,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/MarriageDialogueJeric",
 			"Entries": {
-				"summer_10": "I need your help picking something out for the Pelican Town Potluck tomorrow, @.#$b#Gotta pick the finest, every time.$7", // "Jeric.MarriageDialogue.summer_10" is the key
+				"summer_10": "{{i18n:RSV_Jericsummer10_marriage}}", // "Jeric.MarriageDialogue.summer_10" is the key
 			},
 			"When": {
 				"HasMod": "Rafseazz.RSVCP, Rafseazz.RidgesideMobileCP"
@@ -317,7 +324,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/MarriageDialogueKenneth",
 			"Entries": {
-				"summer_10": "I've been working with Maru to create a machine to help move the Potluck pot for tomorrow.#$b#Poor Ian always gets so worn out carrying the thing he passes out in the sand after we eat, ha ha!$h", // "Kenneth.MarriageDialogue.summer_10" is the key
+				"summer_10": "{{i18n:RSV_Kennethsummer10_marriage}}", // "Kenneth.MarriageDialogue.summer_10" is the key
 			},
 			"When": {
 				"HasMod": "Rafseazz.RSVCP, Rafseazz.RidgesideMobileCP"
@@ -332,8 +339,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Abigail",
 			"Entries": {
-				"summer_10": "Everyone's excited for the Potluck tomorrow. Maybe a little nervous, too, considering the Governor will be here.",
-				"summer_10_2": "Everyone's excited for the Potluck tomorrow. Maybe a little nervous, too, considering the Governor will be here.",
+				"summer_10": "{{i18n:CFDE_Abigailsummer10}}",
+				"summer_10_2": "{{i18n:CFDE_Abigailsummer10_2}}",
 			},
 			"When": {
 				"HasMod": "gizzymo.canonfriendlyexpansion"
@@ -345,8 +352,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Emily",
 			"Entries": {
-				"summer_10": "Hey, look for me tomorrow at the Potluck. I'll greet you, but probably not in the way you're used to.",
-				"summer_10_2": "Hey, look for me tomorrow at the Potluck. I'll greet you, but probably not in the way you're used to.",
+				"summer_10": "{{i18n:CFDE_Emilysummer10}}",
+				"summer_10_2": "{{i18n:CFDE_Emilysummer10_2}}",
 			},
 			"When": {
 				"HasMod": "gizzymo.canonfriendlyexpansion"
@@ -358,8 +365,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Evelyn",
 			"Entries": {
-				"summer_10": "Mayor Lewis always gets so nervous for the Potluck. Be sure to show him some support.#$e#The best way to do that is simply to bring something delicious for the soup.",
-				"summer_10_2": "Mayor Lewis always gets so nervous for the Potluck. Be sure to show him some support.#$e#The best way to do that is simply to bring something delicious for the soup.",
+				"summer_10": "{{i18n:CFDE_Evelynsummer10}}",
+				"summer_10_2": "{{i18n:CFDE_Evelynsummer10_2}}",
 			},
 			"When": {
 				"HasMod": "gizzymo.canonfriendlyexpansion"
@@ -371,8 +378,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Gus",
 			"Entries": {
-				"summer_10": "I've got some good dishes prepped for the Potluck tomorrow, but I try to steer clear of the communal soup.#$e#It's really a hit-and-miss tradition, and I'd rather play it safe when it comes to my reputation.$s",
-				"summer_10_2": "I've got some good dishes prepped for the Potluck tomorrow, but I try to steer clear of the communal soup.#$e#It's really a hit-and-miss tradition, and I'd rather play it safe when it comes to my reputation.$s",
+				"summer_10": "{{i18n:CFDE_Gussummer10}}",
+				"summer_10_2": "{{i18n:CFDE_Gussummer10_2}}",
 			},
 			"When": {
 				"HasMod": "gizzymo.canonfriendlyexpansion"
