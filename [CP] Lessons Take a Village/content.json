@@ -1,0 +1,25 @@
+{
+	"Format": "1.24.0",
+	"ConfigSchema": {
+		"AbigailChanges": {
+			"Description": "Toggle greetings for Abigail.",
+			"AllowValues": "true, false",
+			"Default": "true"
+		}
+	},
+	"Changes": [
+		//Abigail mobile phone dialog changes - friendly
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries": {
+				"MobilePhoneGreeting": "Hi, what's new?",
+				"MobilePhoneGoodBye": "I'd better go, bye!$h"
+			},
+			"When": {
+				"Relationship:Abigail": "Friendly",
+				"AbigailChanges": true
+			}
+		},
+	]
+}
