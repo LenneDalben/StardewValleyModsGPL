@@ -1,359 +1,202 @@
 {
 	// Strings for letter from Lewis
-	"summer10letter_text": "Dear @,^Tomorrow we're all gathering at the beach for the annual Pelican Town Potluck.^^The highlight of the event is the communal soup. Make sure you bring something good to contribute!^The governor himself is attending the event, so make sure you're on your best behavior.^Come to the beach sometime between 9 AM and 2 PM.^   -Mayor Lewis[#]Potluck Notice",
-	"summer10letter_title": "Potluck Notice",
-	//
-	// I'm not sure what this is but I changed it :')
-	"{{i18n:festivaldates_name}}": "Pelican Town Potluck",
+	"Summer10Letter_text": "Dear @,^Tomorrow we're all gathering at the beach for the annual Pelican Town Potluck.^^The highlight of the event is the communal soup. Make sure you bring something good to contribute!^The governor himself is attending the event, so make sure you're on your best behavior.^Come to the beach sometime between 9 AM and 2 PM.^   -Mayor Lewis[#]Potluck Notice",
+	"Summer10Letter_title": "Potluck Notice",
 	//
 	// Change to String, I think it's for the jukebox :shrug:
-	"jukeboxsong_name": "Pelican Town Potluck Festival",
+	"JukeboxSong_name": "Pelican Town Potluck Festival",
+	//
 	// Changes to festival name, governor reactions and Elliott dialog the day of
-	{
-		"LogName": "Pelican Town Potluck Name, Governor Reactions and Elliott Dialog",
-		"Action": "EditData",
-		"Target": "Data/Festivals/summer11",
-		"Entries": {
-			"name": "Pelican Town Potluck",
-			"governorReaction5": "emote Governor 40/pause 400/speak Governor \"Hmmm... Well it's not bad, but it's missing something...$s#$b#Did everyone in town contribute an ingredient to the soup? I feel like it's missing someone's unique voice.\"/showFrame Governor 0/pause 400/showFrame Lewis 18/emote Lewis 28/pause 600/showFrame Lewis 0/pause 400/move Lewis 2 0 2/move Lewis 0 2 3/pause 500/animate Lewis false false 200 19 19 22 23 23 22 23 23 22 19 19/pause 800/playSound gulp/pause 600/playSound gulp/pause 1000/speak Lewis \"You're right... It's a little bland.$s\"/pause 1000/speak Lewis \"Well, thanks for joining us this year, Governor. Sorry the soup wasn't anything special.\"/pause 500/faceDirection Lewis 2/speak Lewis \"Now... who else wants some soup?\"/faceDirection Marnie 0 true/advancedMove Gus false 0 -1 5 0 4 1000/advancedMove Jodi false 0 -2/advancedMove Clint false 0 1 -1 0 0 3 -2 0/advancedMove Emily false 3 0/advancedMove Pam false 0 2 7 0/pause 1000/globalFade/viewport -1000 -1000/pause 300/message \"The soup was bland, but the Potluck was still fun!\"/pause 500/message \"Time to head home.\"/waitForOtherPlayers festivalEnd/end",
-			"governorReaction3": "emote Governor 32/pause 400/playMusic jaunty/speak Governor \"Ah... that's a very pleasant soup. The produce from this valley never disappoints!\"/showFrame Governor 0/pause 400/move Lewis 2 0 2/move Lewis 0 2 3/pause 500/animate Lewis false false 200 19 19 22 23 23 22 23 23 22 19 19/pause 800/playSound gulp/pause 600/playSound gulp/pause 1000/speak Lewis \"Mmm... tasty. You all did very well today.\"/pause 500/faceDirection Lewis 2/speak Lewis \"Now... who else wants some soup?\"/faceDirection Marnie 0 true/advancedMove Gus false 0 -1 5 0 4 1000/advancedMove Jodi false 0 -2/advancedMove Clint false 0 1 -1 0 0 3 -2 0/advancedMove Emily false 3 0/advancedMove Pam false 0 2 7 0/pause 1000/globalFade/viewport -1000 -1000/pause 300/message \"The Potluck was a success! Good thing I brought something tasty for the soup.\"/pause 500/message \"Time to head home.\"/waitForOtherPlayers festivalEnd/end",
-			"governorReaction2": "pause 400/playMusic ocean/speak Governor \"Hmm... I don't have much to say about this. It's an average soup.\"/showFrame Governor 0/pause 400/showFrame Lewis 18/emote Lewis 28/pause 600/showFrame Lewis 0/pause 400/move Lewis 2 0 2/move Lewis 0 2 3/pause 500/animate Lewis false false 200 19 19 22 23 23 22 23 23 22 19 19/pause 800/playSound gulp/pause 600/playSound gulp/pause 1000/speak Lewis \"He's right... It's nothing special. Not bad, though.\"/pause 500/faceDirection Lewis 2/speak Lewis \"Well... who else wants some soup?\"/faceDirection Marnie 0 true/advancedMove Gus false 0 -1 5 0 4 1000/advancedMove Jodi false 0 -2/advancedMove Clint false 0 1 -1 0 0 3 -2 0/advancedMove Emily false 3 0/advancedMove Pam false 0 2 7 0/pause 1000/globalFade/viewport -1000 -1000/pause 300/message \"The soup was just average, but otherwise the Potluck was a success!\"/pause 500/message \"Time to head home.\"/waitForOtherPlayers festivalEnd/end",
-			"governorReaction1": "emote Governor 28/pause 400/playMusic ocean/speak Governor \"Um... It's actually kind of disgusting. I think I'll pass on the soup this year.$s\"/showFrame Governor 0/pause 400/showFrame Lewis 18/emote Lewis 28/pause 600/showFrame Lewis 0/pause 400/move Lewis 2 0 2/move Lewis 0 2 3/pause 500/animate Lewis false false 200 19 19 22 23 23 22 23 23 22 19 19/pause 800/playSound gulp/pause 600/playSound gulp/pause 1000/speak Lewis \"Yuck. Someone must have ruined it with a poor-quality ingredient.$s\"/pause 500/faceDirection Lewis 2/speak Lewis \"Well... does anyone want any?\"/faceDirection Marnie 0 true/advancedMove Gus false 0 -1 5 0 4 1000/advancedMove Jodi false 0 -2/advancedMove Clint false 0 1 -1 0 0 3 -2 0/advancedMove Emily false 3 0/advancedMove Pam false 0 2 7 0/pause 1000/globalFade/viewport -1000 -1000/pause 300/message \"The soup wasn't very good, but otherwise the Potluck was a success!\"/pause 500/message \"Time to head home.\"/waitForOtherPlayers festivalEnd/end",
-			"Elliott": "I woke up late, stepped out of the door and found myself in the middle of all this hubbub!#$e#I forgot that today was the Potluck.$h",
-		}
-	},
+	//
+	// Festival name
+	"FestivalName": "Pelican Town Potluck",
+	//
+	// All responses
+	"GovernorReactionAll-1": "Now... who else wants some soup?",
+	"GovernorReactionAll-2": "Time to head home.",
+	//
+	// Missing ingredient response
+	"GovernorReaction5-1": "Hmmm... Well it's not bad, but it's missing something...$s#$b#Did everyone in town contribute an ingredient to the soup? I feel like it's missing someone's unique voice.",
+	"GovernorReaction5-2": "You're right... It's a little bland.$s",
+	"GovernorReaction5-3": "Well, thanks for joining us this year, Governor. Sorry the soup wasn't anything special.",
+	"GovernorReaction5-4": "The soup was bland, but the Potluck was still fun!",
+	//
+	// Good response
+	"GovernorReaction3-1": "Ah... that's a very pleasant soup. The produce from this valley never disappoints!",
+	"GovernorReaction3-2": "Mmm... tasty. You all did very well today.",
+	"GovernorReaction3-3": "The Potluck was a success! Good thing I brought something tasty for the soup.",
+	//
+	// Average response
+	"GovernorReaction2-1": "Hmm... I don't have much to say about this. It's an average soup.",
+	"GovernorReaction2-2": "He's right... It's nothing special. Not bad, though.",
+	"GovernorReaction2-3": "Well... who else wants some soup?",
+	"GovernorReaction2-4": "The soup was just average, but otherwise the Potluck was a success!",
+	//
+	// Bad response
+	"GovernorReaction1-1": "Um... It's actually kind of disgusting. I think I'll pass on the soup this year.$s",
+	"GovernorReaction1-2": "Yuck. Someone must have ruined it with a poor-quality ingredient.$s",
+	"GovernorReaction1-3": "Well... does anyone want any?",
+	"GovernorReaction1-4": "The soup wasn't very good, but otherwise the Potluck was a success!",
+	//
+	// Elliott dialog
+	"ElliottSummer11": "I woke up late, stepped out of the door and found myself in the middle of all this hubbub!#$e#I forgot that today was the Potluck.$h",
 	//
 	// Change to Lewis lines to start the soup tasting
-	"lewisquestionsouptasting": "Should we move forward with the Potluck? The governor seems a little hungry.",
-	"lewisyessouptasting": "Yes, let's start.",
-	"lewisnosouptasting": "Not yet.",
+	"LewisQuestionSoupTasting": "Should we move forward with the Potluck? The governor seems a little hungry.",
+	"LewisYesSoupTasting": "Yes, let's start.",
+	"LewisNoSoupTasting": "Not yet.",
 	// Additional vanilla dialog changes
 	//
 	// Abigail
-	"Abigailsummer10": "Everyone's excited for the Potluck tomorrow. Maybe a little nervous, too, considering the Governor will be here.",
+	"AbigailSummer10": "Everyone's excited for the Potluck tomorrow. Maybe a little nervous, too, considering the Governor will be here.",
 	//
 	// Alex Marriage
-	"Alexsummer10_marriage": "Have you thought about what you're going to put in the Potluck soup?#$e#I have no idea what's good... you're the chef!$h",
+	"AlexSummer10_marriage": "Have you thought about what you're going to put in the Potluck soup?#$e#I have no idea what's good... you're the chef!$h",
 	//
 	// Elliott Marriage
-	"Elliottsummer10_marriage": "I was going to grab an extra bottle of ink from my cabin today, but then I remembered the Potluck is tomorrow. I'll just do it then.",
+	"ElliottSummer10_marriage": "I was going to grab an extra bottle of ink from my cabin today, but then I remembered the Potluck is tomorrow. I'll just do it then.",
 	//
 	// Harvey Marriage
-	"Harveysummer10_marriage": "Have you thought about what you're going to put in the Potluck soup?#$e#I would put an item of high value and quality. We all want to leave a great impression on the governor!",
+	"HarveySummer10_marriage": "Have you thought about what you're going to put in the Potluck soup?#$e#I would put an item of high value and quality. We all want to leave a great impression on the governor!",
 	//
 	// Sam Marriage
-	"Samsummer10_marriage": "Have you thought about what you're going to put in the Potluck soup?#$e#It might be funny to put something nasty. You know, to play a prank on the governor!$h#$e#Sorry...",
+	"SamSummer10_marriage": "Have you thought about what you're going to put in the Potluck soup?#$e#It might be funny to put something nasty. You know, to play a prank on the governor!$h#$e#Sorry...",
 	//
 	// Sebastian Marriage
-	"Sebastiansummer10_marriage": "Have you thought about what you're going to put in the Potluck soup?#$e#I have no idea what's good... you're the chef!$7",
+	"SebastianSummer10_marriage": "Have you thought about what you're going to put in the Potluck soup?#$e#I have no idea what's good... you're the chef!$7",
 	//
 	// Shane Marriage
-	"Shanesummer10_marriage": "I might fast until the Potluck tomorrow. I need the ol' bag to be empty so I can fill it with piping hot soup.$h",
+	"ShaneSummer10_marriage": "I might fast until the Potluck tomorrow. I need the ol' bag to be empty so I can fill it with piping hot soup.$h",
 	//
 	// Compatibility Patches
 	//
 	// Immersive Festival Dialog Compatibility Patch
 	//
 	// Elliott
-	"IFD_Elliottsummer11": "The smell of food woke me up this morning.$h#$b#I had forgotten all about the Potluck!$n#$b#It's a good thing I remembered to close my curtains last night.$l",
+	"IFD_ElliottSummer11": "The smell of food woke me up this morning.$h#$b#I had forgotten all about the Potluck!$n#$b#It's a good thing I remembered to close my curtains last night.$l",
 	//
 	//
 	// Ridgeside Village (RSV) Compatibility Patches
 	//
 	// RSV Festival Day Richard
-	"RSV_Richardsummer11": "It's humbling to consider how old a tradition the Pelican Town Potluck is for the valley.#$b#It came before me, and will be here long after I'm gone.#$e#Anytime we can all come together is truly a special time.$h",
+	"RSV_RichardSummer11": "It's humbling to consider how old a tradition the Pelican Town Potluck is for the valley.#$b#It came before me, and will be here long after I'm gone.#$e#Anytime we can all come together is truly a special time.$h",
 	//
 	// RSV Festival Day Kenneth
-	"RSV_Kennethsummer11_spouse": "I offered to help, but I think Ian likes carrying the Potluck pot down here. #$b#Big guy gets a workout AND a feast! $h#$e#Who am I to get in the way of a man and his work?$h",
+	"RSV_KennethSummer11_spouse": "I offered to help, but I think Ian likes carrying the Potluck pot down here. #$b#Big guy gets a workout AND a feast! $h#$e#Who am I to get in the way of a man and his work?$h",
 	//
 	// RSV Alissa Dialog
-	"RSV_Alissasummer10": "Every summer, the Pelican Town Potluck festival is the one event I really get excited about!$h#$b#I can't wait to show off my farm's crops tomorrow!$l",
+	"RSV_AlissaSummer10": "Every summer, the Pelican Town Potluck festival is the one event I really get excited about!$h#$b#I can't wait to show off my farm's crops tomorrow!$l",
 	//
 	// RSV Maddie Dialog
-	"RSV_Maddiesummer10": "Have you made your preparations for the Pelican Town Potluck?#$b#You better bring something good if you want to impress the Governor.$7",
+	"RSV_MaddieSummer10": "Have you made your preparations for the Pelican Town Potluck?#$b#You better bring something good if you want to impress the Governor.$7",
 	//
 	// RSV Trinnie Dialog
-	"RSV_Trinniesummer10": "Potluck day!#$b#Soup day!$u#$e#Yummy food is coming our way!$h",
+	"RSV_TrinnieSummer10": "Potluck day!#$b#Soup day!$u#$e#Yummy food is coming our way!$h",
 	//
 	// RSV Undreya Dialog
-	"RSV_Undreyasummer10": "I always attend the Pelican Town Potluck. I love the soup!$h#$b#I also like the spare change that purple balloon has.#$b#He should visit more often.$h",
+	"RSV_UndreyaSummer10": "I always attend the Pelican Town Potluck. I love the soup!$h#$b#I also like the spare change that purple balloon has.#$b#He should visit more often.$h",
 	//
 	// RSV Ysabelle Dialog
-	"RSV_Ysabellesummer1": "I'm looking forward to this season.#$b#The warm beach and the dresses remind me of dancing as a little girl in summer shows.$h",
-	"RSV_Ysabellesummer10": "My granddad is quite excited for the festival tomorrow.#$b#He enjoys the Pelican Town Potluck so much!$h#$e#I think the governor is more excited than anyone else, because when the soup is good, it's really good!$h",
+	"RSV_YsabelleSummer1": "I'm looking forward to this season.#$b#The warm beach and the dresses remind me of dancing as a little girl in summer shows.$h",
+	"RSV_YsabelleSummer10": "My granddad is quite excited for the festival tomorrow.#$b#He enjoys the Pelican Town Potluck so much!$h#$e#I think the governor is more excited than anyone else, because when the soup is good, it's really good!$h",
 	//
 	// RSV Corine Dialog
-	"RSV_Corinesummer10_marriage": "Papa is always so talkative about what he'll bring for the Pelican Town Potluck tomorrow.#$e#He won't admit it, but he really is excited.$h",
+	"RSV_CorineSummer10_marriage": "Papa is always so talkative about what he'll bring for the Pelican Town Potluck tomorrow.#$e#He won't admit it, but he really is excited.$h",
 	//
 	// RSV Jeric Dialog
-	"RSV_Jericsummer10_marriage": "I need your help picking something out for the Pelican Town Potluck tomorrow, @.#$b#Gotta pick the finest, every time.$7",
+	"RSV_JericSummer10_marriage": "I need your help picking something out for the Pelican Town Potluck tomorrow, @.#$b#Gotta pick the finest, every time.$7",
 	//
 	// RSV Kenneth Dialog
-	"RSV_Kennethsummer10_marriage": "I've been working with Maru to create a machine to help move the Potluck pot for tomorrow.#$b#Poor Ian always gets so worn out carrying the thing he passes out in the sand after we eat, ha ha!$h",
+	"RSV_KennethSummer10_marriage": "I've been working with Maru to create a machine to help move the Potluck pot for tomorrow.#$b#Poor Ian always gets so worn out carrying the thing he passes out in the sand after we eat, ha ha!$h",
 	//
 	// Canon Friendly Dialog Expansion (CFDE) Compatibility Patches
 	//
 	// CFDE Abigail Dialog
-	"CFDE_Abigailsummer10": "Everyone's excited for the Potluck tomorrow. Maybe a little nervous, too, considering the Governor will be here.",
-	"CFDE_Abigailsummer10_2": "Everyone's excited for the Potluck tomorrow. Maybe a little nervous, too, considering the Governor will be here.",
+	"CFDE_AbigailSummer10": "Everyone's excited for the Potluck tomorrow. Maybe a little nervous, too, considering the Governor will be here.",
+	"CFDE_AbigailSummer10_2": "Everyone's excited for the Potluck tomorrow. Maybe a little nervous, too, considering the Governor will be here.",
 	//
 	// CFDE Emily Dialog
-	"CFDE_Emilysummer10": "Hey, look for me tomorrow at the Potluck. I'll greet you, but probably not in the way you're used to.",
-	"CFDE_Emilysummer10_2": "Hey, look for me tomorrow at the Potluck. I'll greet you, but probably not in the way you're used to.",
+	"CFDE_EmilySummer10": "Hey, look for me tomorrow at the Potluck. I'll greet you, but probably not in the way you're used to.",
+	"CFDE_EmilySummer10_2": "Hey, look for me tomorrow at the Potluck. I'll greet you, but probably not in the way you're used to.",
 	//
 	// CFDE Evelyn Dialog
-	"CFDE_Evelynsummer10": "Mayor Lewis always gets so nervous for the Potluck. Be sure to show him some support.#$e#The best way to do that is simply to bring something delicious for the soup.",
-	"CFDE_Evelynsummer10_2": "Mayor Lewis always gets so nervous for the Potluck. Be sure to show him some support.#$e#The best way to do that is simply to bring something delicious for the soup.",
+	"CFDE_EvelynSummer10": "Mayor Lewis always gets so nervous for the Potluck. Be sure to show him some support.#$e#The best way to do that is simply to bring something delicious for the soup.",
+	"CFDE_EvelynSummer10_2": "Mayor Lewis always gets so nervous for the Potluck. Be sure to show him some support.#$e#The best way to do that is simply to bring something delicious for the soup.",
 	//
 	// CFDE Gus Dialog
-	"CFDE_Gussummer10": "I've got some good dishes prepped for the Potluck tomorrow, but I try to steer clear of the communal soup.#$e#It's really a hit-and-miss tradition, and I'd rather play it safe when it comes to my reputation.$s",
-	"CFDE_Gussummer10_2": "I've got some good dishes prepped for the Potluck tomorrow, but I try to steer clear of the communal soup.#$e#It's really a hit-and-miss tradition, and I'd rather play it safe when it comes to my reputation.$s",
+	"CFDE_GusSummer10": "I've got some good dishes prepped for the Potluck tomorrow, but I try to steer clear of the communal soup.#$e#It's really a hit-and-miss tradition, and I'd rather play it safe when it comes to my reputation.$s",
+	"CFDE_GusSummer10_2": "I've got some good dishes prepped for the Potluck tomorrow, but I try to steer clear of the communal soup.#$e#It's really a hit-and-miss tradition, and I'd rather play it safe when it comes to my reputation.$s",
+	//
 	// CFDE Haley Dialog
-	{
-		"LogName": "Pelican Town Potluck CFDE Haley Dialog",
-		"Action": "EditData",
-		"Target": "Characters/Dialogue/Haley",
-		"Entries": {
-			"summer_12": "Did you see Emily yesterday at the Potluck? So ridiculous.$11",
-			"summer_12_2": "Did you see Emily yesterday at the Potluck? So ridiculous.$11",
-		},
-		"When": {
-			"HasMod": "gizzymo.canonfriendlyexpansion"
-		}
-	},
+	"CFDE_HaleySummer12": "Did you see Emily yesterday at the Potluck? So ridiculous.$11",
+	"CFDE_HaleySummer12_2": "Did you see Emily yesterday at the Potluck? So ridiculous.$11",
+	//
 	// CFDE Haley Marriage Dialog
-	{
-		"LogName": "Pelican Town Potluck CFDE Haley Marriage Dialog",
-		"Action": "EditData",
-		"Target": "Characters/Dialogue/MarriageDialogueHaley",
-		"Entries": {
-			"summer_12": "I like dancing, but when Emily does her thing at the Potluck, it's actually more fun for me just to watch.",
-		},
-		"When": {
-			"HasMod": "gizzymo.canonfriendlyexpansion"
-		}
-	},
+	"CFDE_HaleySummer12_marriage": "I like dancing, but when Emily does her thing at the Potluck, it's actually more fun for me just to watch.",
+	//
 	// CFDE Harvey Dialog
-	{
-		"LogName": "Pelican Town Potluck CFDE Harvey Dialog",
-		"Action": "EditData",
-		"Target": "Characters/Dialogue/Harvey",
-		"Entries": {
-			"summer_10": "I really hope nobody gets sick from the communal soup at tomorrow's Potluck.#$e#Potentially, it's a disaster waiting to happen. But this town sure loves its traditions.",
-			"summer_10_2": "I really hope nobody gets sick from the communal soup at tomorrow's Potluck.#$e#Potentially, it's a disaster waiting to happen. But this town sure loves its traditions.",
-		},
-		"When": {
-			"HasMod": "gizzymo.canonfriendlyexpansion"
-		}
-	},
+	"CFDE_HarveySummer10": "I really hope nobody gets sick from the communal soup at tomorrow's Potluck.#$e#Potentially, it's a disaster waiting to happen. But this town sure loves its traditions.",
+	"CFDE_HarveySummer10_2": "I really hope nobody gets sick from the communal soup at tomorrow's Potluck.#$e#Potentially, it's a disaster waiting to happen. But this town sure loves its traditions.",
+	//
 	// CFDE Lewis Dialog
-	{
-		"LogName": "Pelican Town Potluck CFDE Lewis Dialog",
-		"Action": "EditData",
-		"Target": "Characters/Dialogue/Lewis",
-		"Entries": {
-			"summer_10": "I didn't sleep much last night. The Potluck is always the most stressful festival of the year for me.#$e#Don't let that get in the way of you having a good time, though!$h",
-			"summer_28": "I think tonight's festival is my favorite because I don't have to worry about a thing. The moonlight jellies do all the work for me!$h#$e#It's a nice change of pace after the Potluck earlier this month.",
-			"summer_28_2": "I think tonight's festival is my favorite because I don't have to worry about a thing. The moonlight jellies do all the work for me!$h#$e#It's a nice change of pace after the Potluck earlier this month.",
-		},
-		"When": {
-			"HasMod": "gizzymo.canonfriendlyexpansion"
-		}
-	},
+	"CFDE_LewisSummer10": "I didn't sleep much last night. The Potluck is always the most stressful festival of the year for me.#$e#Don't let that get in the way of you having a good time, though!$h",
+	"CFDE_LewisSummer28": "I think tonight's festival is my favorite because I don't have to worry about a thing. The moonlight jellies do all the work for me!$h#$e#It's a nice change of pace after the Potluck earlier this month.",
+	"CFDE_LewisSummer28_2": "I think tonight's festival is my favorite because I don't have to worry about a thing. The moonlight jellies do all the work for me!$h#$e#It's a nice change of pace after the Potluck earlier this month.",
+	//
 	// CFDE Linus Dialog
-	{
-		"LogName": "Pelican Town Potluck CFDE Linus Dialog",
-		"Action": "EditData",
-		"Target": "Characters/Dialogue/Linus",
-		"Entries": {
-			"summer_10": "I think I might take a risk tomorrow at the Potluck and share a little of my cooking.",
-			"summer_10_2": "I think I might take a risk tomorrow at the Potluck and share a little of my cooking.",
-		},
-		"When": {
-			"HasMod": "gizzymo.canonfriendlyexpansion"
-		}
-	},
+	"CFDE_LinusSummer10": "I think I might take a risk tomorrow at the Potluck and share a little of my cooking.",
+	"CFDE_LinusSummer10_2": "I think I might take a risk tomorrow at the Potluck and share a little of my cooking.",
+	//
 	// CFDE Penny Dialog
-	{
-		"LogName": "Pelican Town Potluck CFDE Penny Dialog",
-		"Action": "EditData",
-		"Target": "Characters/Dialogue/Penny",
-		"Entries": {
-			"summer_10": "Mmm... I can already almost taste the food at tomorrow's Potluck.#$e#I just hope no one ruins the soup this year...$a#$e#That's one reason why I don't hang out with Sam as much as I used to.$a",
-			"summer_10_2": "Mmm... I can already almost taste the food at tomorrow's Potluck.#$e#I just hope no one ruins the soup this year...$a#$e#That's one reason why I don't hang out with Sam as much as I used to.$a",
-		},
-		"When": {
-			"HasMod": "gizzymo.canonfriendlyexpansion"
-		}
-	},
+	"CFDE_PennySummer10": "Mmm... I can already almost taste the food at tomorrow's Potluck.#$e#I just hope no one ruins the soup this year...$a#$e#That's one reason why I don't hang out with Sam as much as I used to.$a",
+	"CFDE_PennySummer10_2": "Mmm... I can already almost taste the food at tomorrow's Potluck.#$e#I just hope no one ruins the soup this year...$a#$e#That's one reason why I don't hang out with Sam as much as I used to.$a",
+	//
 	// CFDE Year 2 Festival George and Elliott Dialog
-	{
-		"LogName": "Pelican Town Potluck CFDE Year 2 Festival George and Elliott Dialog",
-		"Action": "EditData",
-		"Target": "Data/Festivals/summer11",
-		"Entries": {
-			"George": "I liked the Potluck better, back when we didn't have those big electronic speakers ruining the atmosphere of the beach.#$e#This was... oh, twenty, twenty-five years ago.",
-			"Elliott": "I didn't forget about the Potluck this year!$h#$e#Well, Leah reminded me, anyway. That helped.",
-		},
-		"When": {
-			"Year": "2",
-			"HasMod": "gizzymo.canonfriendlyexpansion"
-		}
-	},
+	"CFDE_GeorgeSummer11": "I liked the Potluck better, back when we didn't have those big electronic speakers ruining the atmosphere of the beach.#$e#This was... oh, twenty, twenty-five years ago.",
+	"CFDE_ElliottSummer11": "I didn't forget about the Potluck this year!$h#$e#Well, Leah reminded me, anyway. That helped.",
+	//
 	// CFDE Year 3 Festival Robin and Pierre Dialog
-	{
-		"LogName": "Pelican Town Potluck CFDE Year 3 Festival Robin and Pierre Dialog",
-		"Action": "EditData",
-		"Target": "Data/Festivals/summer11",
-		"Entries": {
-			"Robin": "Oh, hi @! It wouldn't be a proper beachside potluck without a little dancing, would it?$h",
-			"Pierre": "If we ever get a storm on Potluck day, we could always host the Governor in my store.#$e#...What? I could make it work.",
-		},
-		"When": {
-			"Year": "3",
-			"HasMod": "gizzymo.canonfriendlyexpansion"
-		}
-	},
+	"CFDE_RobinSummer11": "Oh, hi @! It wouldn't be a proper beachside potluck without a little dancing, would it?$h",
+	"CFDE_PierreSummer11": "If we ever get a storm on Potluck day, we could always host the Governor in my store.#$e#...What? I could make it work.",
 	//
 	// FarmerJack's Dialogue Expansions (FDE) Compatibility Patches
 	//
 	// FDE Penny Dialog
-	{
-		"LogName": "Pelican Town Potluck FarmerJack Penny Dialog",
-		"Action": "EditData",
-		"Target": "Characters/Dialogue/Penny",
-		"Entries": {
-			"summer_Tue2": "Oh, hey there.#$e#The Potluck is a fun summer tradition, but my mom and I never seem to have anything tasty to bring.$3",
-		},
-		"When": {
-			"HasMod": "farmerjack.dialogue_expansions"
-		}
-	},
+	"FDE_PennySummer": "Oh, hey there.#$e#The Potluck is a fun summer tradition, but my mom and I never seem to have anything tasty to bring.$3",
+	//
 	// FDE Shane Married Dialog
-	{
-		"LogName": "Pelican Town Potluck FarmerJack Shane Married Dialog",
-		"Action": "EditData",
-		"Target": "Characters/Dialogue/MarriageDialogueShane",
-		"Entries": {
-			"summer_10": "I might fast until the Potluck tomorrow. I need the ol' bag to be empty so I can fill it with piping hot soup.$h",
-		},
-		"When": {
-			"HasMod": "farmerjack.dialogue_expansions"
-		}
-	},
+	"FDE_ShaneSummer10_marriage": "I might fast until the Potluck tomorrow. I need the ol' bag to be empty so I can fill it with piping hot soup.$h",
 	//
 	// Assorted NPC compatibility patches
 	//
 	// Jean and Jorts Jorts Dialog
-	{
-		"LogName": "Pelican Town Potluck Jean and Jorts Jorts Dialog",
-		"Action": "EditData",
-		"Target": "Characters/Dialogue/JortsCat",
-		"Entries": {
-			"summer_10": "Have you picked out what you're going to put in the Potluck soup?#$b#If not, I bet a really high quality sturgeon would be great. Everyone would like that!$h",
-		},
-		"When": {
-			"HasMod": "tiakall.jortsandjean"
-		}
-	},
+	"JeanandJorts_JortsSummer10": "Have you picked out what you're going to put in the Potluck soup?#$b#If not, I bet a really high quality sturgeon would be great. Everyone would like that!$h",
+	//
 	// Arknir Lucikiel Marriage Dialog
-	{
-		"LogName": "Pelican Town Potluck Arknir Lucikiel Marriage Dialog",
-		"Action": "EditData",
-		"Target": "Characters/Dialogue/MarriageDialogueLucikiel",
-		"Entries": {
-			"summer_10": "Heh, I have a big surprise waiting for the Potluck soup.$u#$b#Oh come now, you've got to leave a man with a few mysteries.$u",
-		},
-		"When": {
-			"HasMod": "Arknir.Lucikiel"
-		}
-	},
+	"LucikielSummer10": "Heh, I have a big surprise waiting for the Potluck soup.$u#$b#Oh come now, you've got to leave a man with a few mysteries.$u",
+	//
 	// TheLimeyDragon Ayeisha Dialog
-	{
-		"LogName": "Pelican Town Potluck TheLimeyDragon Ayeisha Dialog",
-		"Action": "EditData",
-		"Target": "Characters/Dialogue/Ayeisha",
-		"Entries": {
-			"summer_11": "Everyone should be going to the Potluck on the beach.",
-		},
-		"When": {
-			"HasMod": "TheLimeyDragon.Ayeisha"
-		}
-	},
+	"AyeishaSummer11": "Everyone should be going to the Potluck on the beach.",
+	//
 	// Lemurkat Ranch Expansion Marnie Dialog
-	{
-		"LogName": "Pelican Town Potluck Lemurkat Ranch Expansion Marnie Dialog",
-		"Action": "EditData",
-		"Target": "Characters/Dialogue/Marnie",
-		"Entries": {
-			"summer_10": "Oh, there's so much to do today! Mayor Lewis has me organizing the communal soup at the Potluck.#$e#I'm sure you've got some fine produce to add!",
-			"summer_10_2": "Oh, there's so much to do for the Potluck tomorrow!#$e#I'm sure you've got some fine produce to add!",
-			"summer_12": "Oh dear, I don't know about you, @, but I ate far too much at the Potluck!",
-			"summer_12_2": "Oh dear, I don't know about you, @, but I ate far too much at the Potluck!",
-		},
-		"When": {
-			"HasMod": "lemurkat.MarnieRanchPack"
-		}
-	},
+	"RE_MarnieSummer10": "Oh, there's so much to do today! Mayor Lewis has me organizing the communal soup at the Potluck.#$e#I'm sure you've got some fine produce to add!",
+	"RE_MarnieSummer10_2": "Oh, there's so much to do for the Potluck tomorrow!#$e#I'm sure you've got some fine produce to add!",
+	"RE_MarnieSummer12": "Oh dear, I don't know about you, @, but I ate far too much at the Potluck!",
+	"RE_MarnieSummer12_2": "Oh dear, I don't know about you, @, but I ate far too much at the Potluck!",
+	//
 	// Lemurkat East Scarpe Aideen Dialog
-	{
-		"LogName": "Pelican Town Potluck Lemurkat East Scarpe Aideen Dialog",
-		"Action": "EditData",
-		"Target": "Characters/Dialogue/Aideen",
-		"Entries": {
-			"summer_10": "The Potluck? It is so chaotic! Not like the dinner parties I attended in Grampleton.#$b#Now, those were civilized affairs. None of this pitch-in nonsense.",
-		},
-		"When": {
-			"HasMod": "Lemurkat.JacobEloise.CP"
-		}
-	},
+	"ES_AideenSummer10": "The Potluck? It is so chaotic! Not like the dinner parties I attended in Grampleton.#$b#Now, those were civilized affairs. None of this pitch-in nonsense.",
+	//
 	// Lemurkat Jasper Dialog
-	{
-		"LogName": "Pelican Town Potluck Lemurkat Jasper Dialog",
-		"Action": "EditData",
-		"Target": "Characters/Dialogue/Jasper",
-		"Entries": {
-			"summer_10": "A good friend insisted that I keep them company at the Potluck tomorrow.$3#$b#But what have I to contribute to the soup, @? I rather doubt that cave carrots would be appreciated.$2",
-		},
-		"When": {
-			"HasMod": "Lemurkat.NPCJasper"
-		}
-	},
+	"JasperSummer10": "A good friend insisted that I keep them company at the Potluck tomorrow.$3#$b#But what have I to contribute to the soup, @? I rather doubt that cave carrots would be appreciated.$2",
+	//
 	// Lemurkat Jasper Marriage Dialog
-	{
-		"LogName": "Pelican Town Potluck Lemurkat Jasper Marriage Dialog",
-		"Action": "EditData",
-		"Target": "Characters/Dialogue/MarriageDialogueJasper",
-		"Entries": {
-			"summer_11": "Oh, I am actually looking forward to the Potluck today, my love!$1#$b#With you by my side, I truly feel part of the community.$3",
-		},
-		"When": {
-			"HasMod": "Lemurkat.NPCJasper"
-		}
-	},
+	"JasperSummer11_marriage": "Oh, I am actually looking forward to the Potluck today, my love!$1#$b#With you by my side, I truly feel part of the community.$3",
+	//
 	// Lemurkat Tristan Dialog
-	{
-		"LogName": "Pelican Town Potluck Lemurkat Tristan Dialog",
-		"Action": "EditData",
-		"Target": "Characters/Dialogue/Tristan",
-		"Entries": {
-			"summer_Wed10": "Once during the Potluck, we slipped in some of that red mushroom.#$b#Nobody died, thank Yoba, but let's just say... things got very interesting. And not in a good way.$2#$b#We were idiot kids... it's going to take a while for people to trust me.$2",
-		},
-		"When": {
-			"HasMod": "Lemurkat.Tristan.CP"
-		}
-	},
+	"TristanSummer": "Once during the Potluck, we slipped in some of that red mushroom.#$b#Nobody died, thank Yoba, but let's just say... things got very interesting. And not in a good way.$2#$b#We were idiot kids... it's going to take a while for people to trust me.$2",
+	//
 	// Mando Marriage Dialog
-	{
-		"LogName": "Pelican Town Potluck Mando Marriage Dialog",
-		"Action": "EditData",
-		"Target": "Characters/Dialogue/MarriageDialogueMando",
-		"Entries": {
-			"summer_10": "Don't forget the Potluck tomorrow.#$b#Grogu loves the beach.",
-		},
-		"When": {
-			"HasMod": "BexTX.MandoNPC"
-		}
-	}
+	"MandoSummer10_marriage": "Don't forget the Potluck tomorrow.#$b#Grogu loves the beach.",
 ]
 }
