@@ -1,19 +1,51 @@
 {
 	"Format": "1.24.0",
 	"Changes": [
-		// Penny Kickstarts the lessons!
-		{
-			"LogName": "Penny Kickstarts Lessons",
-			"Action": "EditData",
-			"Target": "Data/Events/Town",
-			"Entries": {
-				"31032022/w sunny": "50s/-1000 -1000/farmer 81 94 0 Penny 89 94 2 Jas 89 95 0 Vincent 90 95 0/viewport 87 93 true/pause 2000/skippable/emote Jas 32/jump Vincent 4/pause 500/speed Jas 4/move Jas 0 4 1 true/speed Vincent 4/move Vincent 0 4 3 true/move Penny -2 0 3/faceDirection Penny 2/faceDirection farmer 1/pause 200/emote Penny 28/emote farmer 8/move farmer 2 0 1 true/pause 100/faceDirection Penny 3/pause 300/speak Penny \"Hi @...$s\"/question null \"#What's got you down, Penny?#Lovely day, isn't it?\"/splitSpeak Penny \"Is it that obvious?$s~I suppose it is...$s\"/speak Penny \"I'm concerned about how my lessons are going with the kids.$3#$b#I'm worried that they may be losing interest when it's always me teaching, and my materials are limited.$s\"/pause 300/emote Penny 40/speak Penny \"Maybe I could get some of the people around town to be guest lecturers!$h#$b#They can share some of what they know with the kids. What do you think?\"/quickQuestion #I think that's a great idea!#The kids wouldn't pay attention anyways.(break)friendship Penny 100\\speak Penny \"I'm glad you agree! It'll spice things up to have different teachers.$h\"(break)friendship Penny -100\\speak Penny \"I don't think that's fair to say.$a#$b#They love new topics in class. I really think that they would enjoy hearing from other people too.$3\"/pause 500/speak Penny \"Well, I better get going. I have a lot people to convince to give lessons!$l\"/emote Penny 56/speed Penny 4/move Penny 0 1 3/speed Penny 4/move Penny -9 0 3 true/move farmer -2 0 0 true/addConversationTopic ItTakesAVillage_Beginning 7/globalFade/viewport -1000 -1000/end"
-			}
-			// How much friendship should you have with Penny before seeing this?
-			// also the event should take place during time that Penny is teaching the kids at the library, so that it's not too early in the morning for ~realism~ and a sunny day!
-			// don't forget to i18n as you go!
-		},
+		// Dynamic Tokens section
+		// the events themselves would check for the value of the token, so like the Abby lesson would check BracketOneToken value for either AbbyYes or SebYesAbbyNo in order to play the Abby lesson o:
+		// Dynamic Tokens for the HasSeenEvent
 		/*{
+			"Name": "BracketOneToken",
+			"Value": "",
+		},
+		{
+			"Name": "BracketOneToken",
+			"Value": "{{Random: AbbyYes, SebYes}}",
+			"When": {
+				"HasSeenEvent |contains=PennyIdea": true,
+				"HasSeenEvent |contains=AbbyLesson": false,
+				"HasSeenEvent |contains=SebLesson": false,
+			}
+		},
+		{
+			"Name": "BracketOneToken",
+			"Value": "AbbyYesSebNo",
+			"When": {
+				"HasSeenEvent |contains=PennyIdea": true,
+				"HasSeenEvent |contains=AbbyLesson": true,
+				"HasSeenEvent |contains=SebLesson": false,
+			}
+		},
+		{
+			"Name": "BracketOneToken",
+			"Value": "SebYesAbbyNo",
+			"When": {
+				"HasSeenEvent |contains=PennyIdea": true,
+				"HasSeenEvent |contains=AbbyLesson": false,
+				"HasSeenEvent |contains=SebLesson": true,
+			}
+		},
+		{
+			"Name": "BracketOneToken",
+			"Value": "SebYesAbbyYes",
+			"When": {
+				"HasSeenEvent |contains=PennyIdea": true,
+				"HasSeenEvent |contains=AbbyLesson": true,
+				"HasSeenEvent |contains=SebLesson": true,
+			}
+		},*/
+		// Dynamic Tokens for the randomized dialog based on events seen, separate from CTs
+        /*{
             "Name": "AlexLessonPreviousRefVincent",
             "Value": "Wow, that's so cool, Mr Alex!",
         },
@@ -32,6 +64,27 @@
             {
                 "HasSeenEvent |contains=HarveyLessonIDNumber": true,
             }
+        },
+        {
+            "Name": "AbbyLessonPreviousLessonDialogue",
+            "Value": "Wow, that's so cool!",
+        },
+        {
+            "Name": "AbbyLessonPreviousLessonDialogue",
+            "Value": "Wow, this is so much more fun than Mr Sebastian's lesson!",
+            "When":
+            {
+                "BracketOneToken |contains=AbbyNoSebYes": true,
+            }
         },*/
+
+		// include an optional tweak for the 8 heart event that edits the guest speaker line to reference the lessons? something like "it's your turn huhu"
+		// Will still need to test out if the dynamic tokens are checked the next day just to avoid everything playing on the same day, right away. And even with the dynamic token set up, may still have to check for hasseenevent but doesn't have CT, to force them to be spaced out
+		// Include 
+		{
+			"LogName": "Include It Takes a Village Lessons and Dialog",
+			"Action": "Include",
+			"FromFile": "assets/LessonsAndDialog.json"
+		},
 	]
 }
