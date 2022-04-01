@@ -13,5 +13,25 @@
 			// also the event should take place during time that Penny is teaching the kids at the library, so that it's not too early in the morning for ~realism~ and a sunny day!
 			// don't forget to i18n as you go!
 		},
+		/*{
+            "Name": "AlexLessonPreviousRefVincent",
+            "Value": "Wow, that's so cool, Mr Alex!",
+        },
+        {
+            "Name": "AlexLessonPreviousRefVincent",
+            "Value": {{Random: {{AlexLessonPreviousRefVincent}}, Wow, this is so much more fun than Mr Sebastian's lesson!}}",
+            "When":
+            {
+                "HasSeenEvent |contains=SebLessonIDNumber": true,
+            }
+        },
+        {
+            "Name": "AlexLessonPreviousRefVincent",
+            "Value": {{Random: {{AlexLessonPreviousRefVincent}}, Mr Alex, is it true that you need to eat vegetables every day like Dr Harvey said?}}",
+            "When":
+            {
+                "HasSeenEvent |contains=HarveyLessonIDNumber": true,
+            }
+        },*/
 	]
 }
