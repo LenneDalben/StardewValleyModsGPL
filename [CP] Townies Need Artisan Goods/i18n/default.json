@@ -1,4 +1,51 @@
 {
+  // ***Config Options***
+  // Repeatable
+  "config.RepeatableConfig.name": "RepeatableConfig",
+	"config.RepeatableConfig.description": "Specify if you want the special orders to be repeatable (true, false). Default is true. Note that some orders are not repeatable by design.",
+	"config.RepeatableConfig.values.true": "true",
+	"config.RepeatableConfig.values.false": "false",
+  //
+  // Include Island Content
+  "config.IncludeIslandContent.name": "IncludeIslandContent",
+	"config.IncludeIslandContent.description": "Specify if you want the special orders to include recipes from the island (true, false). Default is true.",
+	"config.IncludeIslandContent.values.true": "true",
+	"config.IncludeIslandContent.values.false": "false",
+  //
+  // Order Type
+  "config.OrderType.name": "OrderType",
+	"config.OrderType.description": "Specify which types of special orders you'd like (jelly, pickle, beer, wine, honey, mead, juice, roe, animal, machine, misc). By default, all are toggled.",
+	"config.OrderType.values.jelly": "jelly",
+	"config.OrderType.values.pickle": "pickle",
+  "config.OrderType.values.beer": "beer",
+  "config.OrderType.values.wine": "wine",
+  "config.OrderType.values.honey": "honey",
+  "config.OrderType.values.mead": "mead",
+  "config.OrderType.values.juice": "juice",
+  "config.OrderType.values.roe": "roe",
+  "config.OrderType.values.animal": "animal",
+  "config.OrderType.values.machine": "machine",
+  "config.OrderType.values.misc": "misc",
+  //
+  // Easy Mode
+  "config.EasyMode.name": "EasyMode",
+	"config.EasyMode.description": "Specify if you want the 3 biggest special orders to be easier (require less items). The rewards and duration are adjusted accordingly. Default is false.",
+	"config.EasyMode.values.true": "true",
+	"config.EasyMode.values.false": "false",
+  //
+  // Easter Egg
+  "config.EasterEgg.name": "EasterEgg",
+	"config.EasterEgg.description": "With this set to true, you will see slightly joke-y, slightly not lore-friendly rewards as part of the regular rewards for some orders. If you don't think you can briefly suspend disbelief, set it to false, and you won't see the orders with those rewards. Default is true.",
+	"config.EasterEgg.values.true": "true",
+	"config.EasterEgg.values.false": "false",
+  //
+  //Load Adventurer Guild
+  "config.LoadAdventurerGuildConfig.name": "LoadAdventurerGuildConfig",
+	"config.LoadAdventurerGuildConfig.description": "Set this to false if you have a mod besides Make Marlon Real that adds events to the Adventurer's Guild. TNAG automatically detects Make Marlon Real so adjusting this setting is not needed for it. Default is true.",
+	"config.LoadAdventurerGuildConfig.values.true": "true",
+	"config.LoadAdventurerGuildConfig.values.false": "false",
+  //
+  //
   // ***Vanilla Order strings***
   // Abigail Sweet Pumpkin Order Strings
   "TowniesNeedArtisanGoods_Abigail_SweetPumpkin_Name": "Sweet Pumpkin",
