@@ -35,6 +35,13 @@
       "Default": "true",
       "AllowBlank": false,
       "AllowMultiple": false
+    },
+    "LoadAdventurerGuild": {
+      "Description": "Set this to false if you have a mod besides Make Marlon Real that adds events to the Adventurer's Guild. TNAG automatically detects Make Marlon Real so adjusting this setting is not needed for it. Default is true.",
+      "AllowValues": "true, false",
+      "Default": "true",
+      "AllowBlank": false,
+      "AllowMultiple": false
     }
   },
   "DynamicTokens": [
@@ -54,6 +61,27 @@
       "Value": "true",
       "When": {
         "HasMod": "Wingheart.VanillaQualityPFM"
+      }
+    },
+    {
+      "Name": "LoadAdventurerGuildToken",
+      "Value": "false",
+      "When": {
+        "HasMod": "Wolf.Marlon"
+      }
+    },
+    {
+      "Name": "LoadAdventurerGuildToken",
+      "Value": "false",
+      "When": {
+        "LoadAdventurerGuild": "false"
+      }
+    },
+    {
+      "Name": "LoadAdventurerGuildToken",
+      "Value": "true",
+      "When": {
+        "LoadAdventurerGuild": "true"
       }
     }
   ],

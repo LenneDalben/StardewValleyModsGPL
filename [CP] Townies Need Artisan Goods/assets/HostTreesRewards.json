@@ -154,7 +154,7 @@
       "Target": "Data/Events/AdventureGuild",
       "FromFile": "assets/AdventureGuild.json",
       "When": {
-        "HasMod |contains=Wolf.Marlon": false,
+        "LoadAdventurerGuildToken": true,
         "HasMod |contains =tiakall.jortsandjean": true
       }
     },
