@@ -16,6 +16,23 @@
 			"AllowMultiple": false
 		},
 	},
+	"DynamicTokens": [
+		// Skippable Token
+		{
+			"Name": "SkippableToken",
+			"Value": "pause 2000",
+			"When": {
+				"SkippableConfig": "false"
+			}
+		},
+		{
+			"Name": "SkippableToken",
+			"Value": "pause 2000/skippable",
+			"When": {
+				"SkippableConfig": "true"
+			}
+		},
+	],
 	"Changes": [
 		// Dynamic Tokens section
 		// the events themselves would check for the value of the token, so like the Abby lesson would check BracketOneToken value for either AbbyYes or SebYesAbbyNo in order to play the Abby lesson o:
