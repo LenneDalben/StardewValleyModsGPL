@@ -17,6 +17,7 @@
     }
   },
   "DynamicTokens": [
+    // Player has a kitchen
     {
       "Name": "PlayerHasKitchen",
       "Value": "false"
