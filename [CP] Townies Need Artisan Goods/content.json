@@ -45,6 +45,7 @@
     }
   },
   "DynamicTokens": [
+    // Player has cellar or Quality Artisan Products
     {
       "Name": "PlayerHasCellarOrQAP",
       "Value": "false"
@@ -63,6 +64,7 @@
         "HasMod": "Wingheart.VanillaQualityPFM"
       }
     },
+    // Loading Adventurer Guild
     {
       "Name": "LoadAdventurerGuildToken",
       "Value": "false",
