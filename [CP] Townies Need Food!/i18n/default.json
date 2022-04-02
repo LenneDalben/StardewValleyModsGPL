@@ -1,4 +1,20 @@
 {
+  
+  // ***Config Options***
+  // Repeatable
+  "config.RepeatableConfig.name": "RepeatableConfig",
+	"config.RepeatableConfig.description": "Specify if you want the special orders to be repeatable (true, false). Default is true,",
+	"config.RepeatableConfig.values.true": "true",
+	"config.RepeatableConfig.values.false": "false",
+  //
+  // Include Island Content
+  "config.IncludeIslandContent.name": "IncludeIslandContent",
+	"config.IncludeIslandContent.description": "Specify if you want the special orders to include recipes from the island (true, false). Default is true.",
+	"config.IncludeIslandContent.values.true": "true",
+	"config.IncludeIslandContent.values.false": "false",
+  //
+  //
+  // ***Order strings***
   // Abigail Sweet and Spicy Strings
   "TowniesNeedFood_Abigail_SweetandSpicy_Name": "Sweet & Spicy",
   "TowniesNeedFood_Abigail_SweetandSpicy_Text": "Hey! I'm in the mood for a sweet and spicy combination. Can anyone make me some blackberry cobbler and spicy eel?",
