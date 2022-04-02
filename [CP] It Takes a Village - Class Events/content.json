@@ -1,7 +1,7 @@
 {
 	"Format": "1.24.0",
 	"ConfigSchema": {
-		"SkippableConfig": {
+		"SkippablAbbyEconfig": {
 			"Description": "Specify if you want the first event in the series to be skippable (true, false). If you skip the first event, you will not see the rest of the events. Useful for repeat playthroughs if you don't want the entire series to play. Default is false.",
 			"AllowValues": "true, false",
 			"Default": "false",
@@ -22,59 +22,61 @@
 			"Name": "SkippableToken",
 			"Value": "pause 2000",
 			"When": {
-				"SkippableConfig": "false"
+				"SkippablAbbyEconfig": "false"
 			}
 		},
 		{
 			"Name": "SkippableToken",
 			"Value": "pause 2000/skippable",
 			"When": {
-				"SkippableConfig": "true"
+				"SkippablAbbyEconfig": "true"
 			}
 		},
 		// Dynamic Tokens section
-		// the events themselves would check for the value of the token, so like the Abby lesson would check BracketOneToken value for either AbbyYes or SebYesAbbyNo in order to play the Abby lesson o:
+		// the events themselves would check for the value of the token, so like the Abby lesson would check SebComputerBasicsAndAbbyEconToken value for either AbbyEconYes or SebComputerBasicsYesAbbyEconNo in order to play the Abby lesson o:
+		//
 		// Dynamic Tokens for the HasSeenEvent
-		/*{
-			"Name": "BracketOneToken",
-			"Value": "",
+		// Sebastian Computer Basics and Abigail Basic Economics
+		{
+			"Name": "SebComputerBasicsAndAbbyEconToken",
+			"Value": "AbbyEconNoSebComputerBasicsNo",
 		},
 		{
-			"Name": "BracketOneToken",
-			"Value": "{{Random: AbbyYes, SebYes}}",
+			"Name": "SebComputerBasicsAndAbbyEconToken",
+			"Value": "{{Random: AbbyEconYes, SebComputerBasicsYes}}",
 			"When": {
-				"HasSeenEvent |contains=PennyIdea": true,
-				"HasSeenEvent |contains=AbbyLesson": false,
-				"HasSeenEvent |contains=SebLesson": false,
+				"HasSeenEvent |contains=31032022": true, // Penny kickstarts events
+				"HasSeenEvent |contains=AbbyEcon": false,
+				"HasSeenEvent |contains=SebComputerBasics": false,
 			}
 		},
 		{
-			"Name": "BracketOneToken",
-			"Value": "AbbyYesSebNo",
+			"Name": "SebComputerBasicsAndAbbyEconToken",
+			"Value": "AbbyEconYesSebComputerBasicsNo",
 			"When": {
-				"HasSeenEvent |contains=PennyIdea": true,
-				"HasSeenEvent |contains=AbbyLesson": true,
-				"HasSeenEvent |contains=SebLesson": false,
+				"HasSeenEvent |contains=31032022": true,
+				"HasSeenEvent |contains=AbbyEcon": true,
+				"HasSeenEvent |contains=SebComputerBasics": false,
 			}
 		},
 		{
-			"Name": "BracketOneToken",
-			"Value": "SebYesAbbyNo",
+			"Name": "SebComputerBasicsAndAbbyEconToken",
+			"Value": "SebComputerBasicsYesAbbyEconNo",
 			"When": {
-				"HasSeenEvent |contains=PennyIdea": true,
-				"HasSeenEvent |contains=AbbyLesson": false,
-				"HasSeenEvent |contains=SebLesson": true,
+				"HasSeenEvent |contains=31032022": true,
+				"HasSeenEvent |contains=AbbyEcon": false,
+				"HasSeenEvent |contains=SebComputerBasics": true,
 			}
 		},
 		{
-			"Name": "BracketOneToken",
-			"Value": "SebYesAbbyYes",
+			"Name": "SebComputerBasicsAndAbbyEconToken",
+			"Value": "SebComputerBasicsYesAbbyEconYes",
 			"When": {
-				"HasSeenEvent |contains=PennyIdea": true,
-				"HasSeenEvent |contains=AbbyLesson": true,
-				"HasSeenEvent |contains=SebLesson": true,
+				"HasSeenEvent |contains=31032022": true,
+				"HasSeenEvent |contains=AbbyEcon": true,
+				"HasSeenEvent |contains=SebComputerBasics": true,
 			}
-		},*/
+		},
 		// Dynamic Tokens for the randomized dialog based on events seen, separate from CTs
 		/*{
             "Name": "AlexLessonPreviousRefVincent",
@@ -85,7 +87,7 @@
             "Value": {{Random: {{AlexLessonPreviousRefVincent}}, Wow, this is so much more fun than Mr Sebastian's lesson!}}",
             "When":
             {
-                "HasSeenEvent |contains=SebLessonIDNumber": true,
+                "HasSeenEvent |contains=SebComputerBasicsIDNumber": true,
             }
         },
         {
@@ -97,15 +99,15 @@
             }
         },
         {
-            "Name": "AbbyLessonPreviousLessonDialogue",
+            "Name": "AbbyEconPreviousLessonDialogue",
             "Value": "Wow, that's so cool!",
         },
         {
-            "Name": "AbbyLessonPreviousLessonDialogue",
+            "Name": "AbbyEconPreviousLessonDialogue",
             "Value": "Wow, this is so much more fun than Mr Sebastian's lesson!",
             "When":
             {
-                "BracketOneToken |contains=AbbyNoSebYes": true,
+                "SebComputerBasicsAndAbbyEconToken |contains=AbbyEconNoSebComputerBasicsYes": true,
             }
         },*/
 		// include an optional tweak for the 8 heart event that edits the guest speaker line to reference the lessons? something like "it's your turn huhu"
