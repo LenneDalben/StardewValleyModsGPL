@@ -1,5 +1,21 @@
 {
 	"Format": "1.24.0",
+	"ConfigSchema": {
+		"SkippableConfig": {
+			"Description": "Specify if you want the first event in the series to be skippable (true, false). If you skip the first event, you will not see the rest of the events. Useful for repeat playthroughs if you don't want the entire series to play. Default is false.",
+			"AllowValues": "true, false",
+			"Default": "false",
+			"AllowBlank": false,
+			"AllowMultiple": false
+		},
+		"EditPenny8HeartEvent": {
+			"Description": "For immersion reasons, Penny's 8 heart event is tweaked to include a reference to the lessons. Set this to false if you have another mod that edits Penny's 8 heart event. Default is true.",
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false,
+			"AllowMultiple": false
+		},
+	},
 	"Changes": [
 		// Dynamic Tokens section
 		// the events themselves would check for the value of the token, so like the Abby lesson would check BracketOneToken value for either AbbyYes or SebYesAbbyNo in order to play the Abby lesson o:
@@ -45,7 +61,7 @@
 			}
 		},*/
 		// Dynamic Tokens for the randomized dialog based on events seen, separate from CTs
-        /*{
+		/*{
             "Name": "AlexLessonPreviousRefVincent",
             "Value": "Wow, that's so cool, Mr Alex!",
         },
@@ -77,7 +93,6 @@
                 "BracketOneToken |contains=AbbyNoSebYes": true,
             }
         },*/
-
 		// include an optional tweak for the 8 heart event that edits the guest speaker line to reference the lessons? something like "it's your turn huhu"
 		// Will still need to test out if the dynamic tokens are checked the next day just to avoid everything playing on the same day, right away. And even with the dynamic token set up, may still have to check for hasseenevent but doesn't have CT, to force them to be spaced out
 		// Include 
