@@ -631,6 +631,30 @@
 			"When": {
 				"HasMod": "BexTX.MandoNPC"
 			}
+		},
+		// SYS Mike Marriage Dialog
+		{
+			"LogName": "Pelican Town Potluck SYS Mike Marriage Dialog",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueMike",
+			"Entries": {
+				"summer_10": "Do you know what you are going to bring for the Potluck? What about a cauliflower with a golden star? Do we have any left?$h",
+			},
+			"When": {
+				"HasMod": "SYS.mike"
+			}
+		},
+		// SYS Mike Event Dialog
+		{
+			"LogName": "Pelican Town Potluck SYS Mike Event Dialog",
+			"Action": "EditData",
+			"Target": "Data/Events/Town",
+			"Entries": {
+				"68260001/f Mike 500/t 1200 2000/u 26/z spring/z fall/z winter": "playful/-100 -100/farmer 23 29 0 Mike 26 22 2 Gus 29 38 0/skippable/viewport 26 23 true/textAboveHead Mike \"{{i18n:events-68260001.01}}\"/pause 1000/move farmer 0 -7 1/pause 500/emote farmer 8/move farmer 2 0 1/pause 500/faceDirection Mike 3/emote Mike 28/speak Mike \"{{i18n:events-68260001.02}}\"/pause 1000/faceDirection Mike 2/pause 2000/speak Mike \"{{i18n:events-68260001.03}}\"/pause 1000/faceDirection farmer 2/pause 1000/emote farmer 40/pause 200/faceDirection Mike 3/pause 500/emote Mike 16/speak Mike \"{{i18n:events-68260001.04}}\"/pause 500/faceDirection farmer 1/emote farmer 28/pause 1000/faceDirection Mike 2/pause 1000/speak Mike \"{{i18n:events-68260001.05}}\"/pause 500/faceDirection farmer 2/pause 1000/emote Mike 16/move Gus 0 -16 3/faceDirection Mike 1/faceDirection farmer 1/speak Gus \"{{i18n:events-68260001.06}}\"/pause 1000/speak Mike \"{{i18n:events-68260001.07}}\"/pause 500/speak Gus \"{{i18n:events-68260001.08}}\"/pause 500/faceDirection Mike 2/pause 500/textAboveHead Gus \"{{i18n:events-68260001.09}}\"/pause 1000/emote farmer 56/pause 1000/emote Mike 20/pause 1000/friendship Mike 20/end"
+			},
+			"When": {
+				"HasMod": "SYS.mike"
+			}
 		}
 	]
 }

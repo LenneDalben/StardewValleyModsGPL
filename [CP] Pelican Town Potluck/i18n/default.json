@@ -197,5 +197,19 @@
 	"TristanSummer": "Once during the Potluck, we slipped in some of that red mushroom.#$b#Nobody died, thank Yoba, but let's just say... things got very interesting. And not in a good way.$2#$b#We were idiot kids... it's going to take a while for people to trust me.$2",
 	//
 	// Mando Marriage Dialog
-	"MandoSummer10_marriage": "Don't forget the Potluck tomorrow.#$b#Grogu loves the beach."
+	"MandoSummer10_marriage": "Don't forget the Potluck tomorrow.#$b#Grogu loves the beach.",
+	//
+	// Mike Marriage Dialog
+	"MikeSummer10_marriage": "Do you know what you are going to bring for the Potluck? What about a cauliflower with a golden star? Do we have any left?$h",
+	//
+	// Mike 2 heart events
+	"events-68260001.01": "*Sniff*",
+	"events-68260001.02": "Hello, @... I am sorry for the late notice but there is no party today.$s",
+	"events-68260001.03": "It's not a big deal. Gus got too sick this morning and couldn't take my orders for the party.$s#$b#He got super exhuasted from the Potluck but continued to overwork. He says he just needs some time to recover.$s",
+	"events-68260001.04": "Oh! Don't worry. He said that he will be back for this afternoon. You will still be able to buy a drink or two. It's just that...#$b#Well, I was pretty excited about this.$s",
+	"events-68260001.05": "Thanks for coming though. You made me feel better.",
+	"events-68260001.06": "Mike! I have been looking for you. I am sorry about what happened today.#$b#Would you forgive me? I made you hashbrowns! I also got some pickles from Evelyn and peaches from Pierre.$h",
+	"events-68260001.07": "It's alright. @ here helped me to feel better. And afterall, birthdays come back.$h#$b#Do you feel better though?",
+	"events-68260001.08": "Never been better.$h",
+	"events-68260001.09": "Happy Birthday!"
 }
