@@ -36,44 +36,44 @@
 		// the events themselves would check for the value of the token, so like the Abby econ lesson would check SebComputerBasicsAndAbbyEconToken value for either AbbyEconYes or AbbyEconYesSebComputerNo in order to play the Abby econ lesson o:
 		//
 		// Dynamic Tokens for the HasSeenEvent
-		// Haley & Leah Art and Elliot Stories
+		// Haley & Leah Art and Elliott Stories
 		{
-			"Name": "HaleyLeahArtAndElliotStoriesToken",
-			"Value": "ElliotStoriesNoHaleyLeahArtNo",
+			"Name": "HaleyLeahArtAndElliottStoriesToken",
+			"Value": "ElliottStoriesNoHaleyLeahArtNo",
 		},
 		{
-			"Name": "HaleyLeahArtAndElliotStoriesToken",
-			"Value": "{{Random: ElliotStoriesYes, HaleyLeahArtYes}}",
+			"Name": "HaleyLeahArtAndElliottStoriesToken",
+			"Value": "{{Random: ElliottStoriesYes, HaleyLeahArtYes}}",
 			"When": {
 				"HasSeenEvent |contains=31032022": true, // Penny kickstarts events
-				"HasSeenEvent |contains=ElliotStories": false,
+				"HasSeenEvent |contains=ElliottStories": false,
 				"HasSeenEvent |contains=HaleyLeahArt": false,
 			}
 		},
 		{
-			"Name": "HaleyLeahArtAndElliotStoriesToken",
-			"Value": "ElliotStoriesYesHaleyLeahArtNo",
+			"Name": "HaleyLeahArtAndElliottStoriesToken",
+			"Value": "ElliottStoriesYesHaleyLeahArtNo",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=ElliotStories": true,
+				"HasSeenEvent |contains=ElliottStories": true,
 				"HasSeenEvent |contains=HaleyLeahArt": false,
 			}
 		},
 		{
-			"Name": "HaleyLeahArtAndElliotStoriesToken",
-			"Value": "HaleyLeahArtYesElliotStoriesNo",
+			"Name": "HaleyLeahArtAndElliottStoriesToken",
+			"Value": "HaleyLeahArtYesElliottStoriesNo",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=ElliotStories": false,
+				"HasSeenEvent |contains=ElliottStories": false,
 				"HasSeenEvent |contains=HaleyLeahArt": true,
 			}
 		},
 		{
-			"Name": "HaleyLeahArtAndElliotStoriesToken",
-			"Value": "HaleyLeahArtYesElliotStoriesYes",
+			"Name": "HaleyLeahArtAndElliottStoriesToken",
+			"Value": "HaleyLeahArtYesElliottStoriesYes",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=ElliotStories": true,
+				"HasSeenEvent |contains=ElliottStories": true,
 				"HasSeenEvent |contains=HaleyLeahArt": true,
 			}
 		},
