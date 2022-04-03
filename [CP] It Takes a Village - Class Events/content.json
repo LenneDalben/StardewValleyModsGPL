@@ -15,8 +15,8 @@
 			"AllowBlank": false,
 			"AllowMultiple": false
 		},
-		"MultipleEventsAWeek": {// ADD THIS CONFIG TO THE CT LENGTHS
-			"Description": "After kicking off the lessons, at least 7 days must pass between the lessons by default, so it would take at least 16 weeks in-game to see all the lessons. If you'd like to reduce the time between lessons to see them faster, or increase the time to spread out the lessons even more, you can! These are your options for minimum days between lessons: 1, 2, 3, 4, 6, 7, and 14 days.",
+		"MinimumDaysBetweenLessons": {
+			"Description": "After kicking off the lessons, at least 7 days must pass between the lessons by default. This means it'd take at least 16 weeks in-game to see all the lessons. If you'd like to reduce the time between lessons to see them faster, or increase the time to spread out the lessons even more, you can! These are your options for minimum days between lessons: 1, 2, 3, 4, 6, 7, and 14 days.",
 			"AllowValues": "1, 2, 3, 4, 6, 7, 14",
 			"Default": "7",
 			"AllowBlank": false,
