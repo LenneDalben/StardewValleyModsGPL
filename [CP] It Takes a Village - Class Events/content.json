@@ -33,7 +33,7 @@
 			}
 		},
 		// Dynamic Tokens section
-		// the events themselves would check for the value of the token, so like the Abby lesson would check SebComputerBasicsAndAbbyEconToken value for either AbbyEconYes or AbbyEconYesSebComputerNo in order to play the Abby lesson o:
+		// the events themselves would check for the value of the token, so like the Abby econ lesson would check SebComputerBasicsAndAbbyEconToken value for either AbbyEconYes or AbbyEconYesSebComputerNo in order to play the Abby econ lesson o:
 		//
 		// Dynamic Tokens for the HasSeenEvent
 		// Haley & Leah Art and Elliot Stories
