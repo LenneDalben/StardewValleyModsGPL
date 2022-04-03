@@ -33,48 +33,335 @@
 			}
 		},
 		// Dynamic Tokens section
-		// the events themselves would check for the value of the token, so like the Abby lesson would check SebComputerBasicsAndAbbyEconToken value for either AbbyEconYes or SebComputerBasicsYesAbbyEconNo in order to play the Abby lesson o:
+		// the events themselves would check for the value of the token, so like the Abby lesson would check SebComputerBasicsAndAbbyEconToken value for either AbbyEconYes or AbbyEconYesSebComputerNo in order to play the Abby lesson o:
 		//
 		// Dynamic Tokens for the HasSeenEvent
-		// Sebastian Computer Basics and Abigail Basic Economics
+		// Haley & Leah Art and Elliot Stories
 		{
-			"Name": "SebComputerBasicsAndAbbyEconToken",
-			"Value": "AbbyEconNoSebComputerBasicsNo",
+			"Name": "HaleyLeahArtAndElliotStoriesToken",
+			"Value": "ElliotStoriesNoHaleyLeahArtNo",
 		},
 		{
-			"Name": "SebComputerBasicsAndAbbyEconToken",
-			"Value": "{{Random: AbbyEconYes, SebComputerBasicsYes}}",
+			"Name": "HaleyLeahArtAndElliotStoriesToken",
+			"Value": "{{Random: ElliotStoriesYes, HaleyLeahArtYes}}",
+			"When": {
+				"HasSeenEvent |contains=31032022": true, // Penny kickstarts events
+				"HasSeenEvent |contains=ElliotStories": false,
+				"HasSeenEvent |contains=HaleyLeahArt": false,
+			}
+		},
+		{
+			"Name": "HaleyLeahArtAndElliotStoriesToken",
+			"Value": "ElliotStoriesYesHaleyLeahArtNo",
+			"When": {
+				"HasSeenEvent |contains=31032022": true,
+				"HasSeenEvent |contains=ElliotStories": true,
+				"HasSeenEvent |contains=HaleyLeahArt": false,
+			}
+		},
+		{
+			"Name": "HaleyLeahArtAndElliotStoriesToken",
+			"Value": "HaleyLeahArtYesElliotStoriesNo",
+			"When": {
+				"HasSeenEvent |contains=31032022": true,
+				"HasSeenEvent |contains=ElliotStories": false,
+				"HasSeenEvent |contains=HaleyLeahArt": true,
+			}
+		},
+		{
+			"Name": "HaleyLeahArtAndElliotStoriesToken",
+			"Value": "HaleyLeahArtYesElliotStoriesYes",
+			"When": {
+				"HasSeenEvent |contains=31032022": true,
+				"HasSeenEvent |contains=ElliotStories": true,
+				"HasSeenEvent |contains=HaleyLeahArt": true,
+			}
+		},
+		// Sebastian Computer Basics and Abigail Basic Economics
+		{
+			"Name": "SebComputerAndAbbyEconToken",
+			"Value": "AbbyEconNoSebComputerNo",
+		},
+		{
+			"Name": "SebComputerAndAbbyEconToken",
+			"Value": "{{Random: AbbyEconYes, SebComputerYes}}",
 			"When": {
 				"HasSeenEvent |contains=31032022": true, // Penny kickstarts events
 				"HasSeenEvent |contains=AbbyEcon": false,
-				"HasSeenEvent |contains=SebComputerBasics": false,
+				"HasSeenEvent |contains=SebComputer": false,
 			}
 		},
 		{
-			"Name": "SebComputerBasicsAndAbbyEconToken",
-			"Value": "AbbyEconYesSebComputerBasicsNo",
+			"Name": "SebComputerAndAbbyEconToken",
+			"Value": "AbbyEconYesSebComputerNo",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
 				"HasSeenEvent |contains=AbbyEcon": true,
-				"HasSeenEvent |contains=SebComputerBasics": false,
+				"HasSeenEvent |contains=SebComputer": false,
 			}
 		},
 		{
-			"Name": "SebComputerBasicsAndAbbyEconToken",
-			"Value": "SebComputerBasicsYesAbbyEconNo",
+			"Name": "SebComputerAndAbbyEconToken",
+			"Value": "SebComputerYesAbbyEconNo",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
 				"HasSeenEvent |contains=AbbyEcon": false,
-				"HasSeenEvent |contains=SebComputerBasics": true,
+				"HasSeenEvent |contains=SebComputer": true,
 			}
 		},
 		{
-			"Name": "SebComputerBasicsAndAbbyEconToken",
-			"Value": "SebComputerBasicsYesAbbyEconYes",
+			"Name": "SebComputerAndAbbyEconToken",
+			"Value": "SebComputerYesAbbyEconYes",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
 				"HasSeenEvent |contains=AbbyEcon": true,
-				"HasSeenEvent |contains=SebComputerBasics": true,
+				"HasSeenEvent |contains=SebComputer": true,
+			}
+		},
+		// Maru Electronics and Demetrius Botany
+		{
+			"Name": "MaruElectronicsAndDemetriusBotanyToken",
+			"Value": "DemetriusBotanyNoMaruElectronicsNo",
+		},
+		{
+			"Name": "MaruElectronicsAndDemetriusBotanyToken",
+			"Value": "{{Random: DemetriusBotanyYes, MaruElectronicsYes}}",
+			"When": {
+				"HasSeenEvent |contains=31032022": true, // Penny kickstarts events
+				"HasSeenEvent |contains=DemetriusBotany": false,
+				"HasSeenEvent |contains=MaruElectronics": false,
+			}
+		},
+		{
+			"Name": "MaruElectronicsAndDemetriusBotanyToken",
+			"Value": "DemetriusBotanyYesMaruElectronicsNo",
+			"When": {
+				"HasSeenEvent |contains=31032022": true,
+				"HasSeenEvent |contains=DemetriusBotany": true,
+				"HasSeenEvent |contains=MaruElectronics": false,
+			}
+		},
+		{
+			"Name": "MaruElectronicsAndDemetriusBotanyToken",
+			"Value": "MaruElectronicsYesDemetriusBotanyNo",
+			"When": {
+				"HasSeenEvent |contains=31032022": true,
+				"HasSeenEvent |contains=DemetriusBotany": false,
+				"HasSeenEvent |contains=MaruElectronics": true,
+			}
+		},
+		{
+			"Name": "MaruElectronicsAndDemetriusBotanyToken",
+			"Value": "MaruElectronicsYesDemetriusBotanyYes",
+			"When": {
+				"HasSeenEvent |contains=31032022": true,
+				"HasSeenEvent |contains=DemetriusBotany": true,
+				"HasSeenEvent |contains=MaruElectronics": true,
+			}
+		},
+		// Emily Emotional Health & Dance and Harvey Anatomy
+		{
+			"Name": "EmilyEmotionalDanceAndHarveyAnatomyToken",
+			"Value": "HarveyAnatomyNoEmilyEmotionalDanceNo",
+		},
+		{
+			"Name": "EmilyEmotionalDanceAndHarveyAnatomyToken",
+			"Value": "{{Random: HarveyAnatomyYes, EmilyEmotionalDanceYes}}",
+			"When": {
+				"HasSeenEvent |contains=31032022": true, // Penny kickstarts events
+				"HasSeenEvent |contains=HarveyAnatomy": false,
+				"HasSeenEvent |contains=EmilyEmotionalDance": false,
+			}
+		},
+		{
+			"Name": "EmilyEmotionalDanceAndHarveyAnatomyToken",
+			"Value": "HarveyAnatomyYesEmilyEmotionalDanceNo",
+			"When": {
+				"HasSeenEvent |contains=31032022": true,
+				"HasSeenEvent |contains=HarveyAnatomy": true,
+				"HasSeenEvent |contains=EmilyEmotionalDance": false,
+			}
+		},
+		{
+			"Name": "EmilyEmotionalDanceAndHarveyAnatomyToken",
+			"Value": "EmilyEmotionalDanceYesHarveyAnatomyNo",
+			"When": {
+				"HasSeenEvent |contains=31032022": true,
+				"HasSeenEvent |contains=HarveyAnatomy": false,
+				"HasSeenEvent |contains=EmilyEmotionalDance": true,
+			}
+		},
+		{
+			"Name": "EmilyEmotionalDanceAndHarveyAnatomyToken",
+			"Value": "EmilyEmotionalDanceYesHarveyAnatomyYes",
+			"When": {
+				"HasSeenEvent |contains=31032022": true,
+				"HasSeenEvent |contains=HarveyAnatomy": true,
+				"HasSeenEvent |contains=EmilyEmotionalDance": true,
+			}
+		},
+		// Clint Metal Working and Abigail Video Games
+		{
+			"Name": "ClintMetalWorkAndAbbyGamesToken",
+			"Value": "AbbyGamesNoClintMetalWorkNo",
+		},
+		{
+			"Name": "ClintMetalWorkAndAbbyGamesToken",
+			"Value": "{{Random: AbbyGamesYes, ClintMetalWorkYes}}",
+			"When": {
+				"HasSeenEvent |contains=31032022": true, // Penny kickstarts events
+				"HasSeenEvent |contains=AbbyGames": false,
+				"HasSeenEvent |contains=ClintMetalWork": false,
+			}
+		},
+		{
+			"Name": "ClintMetalWorkAndAbbyGamesToken",
+			"Value": "AbbyGamesYesClintMetalWorkNo",
+			"When": {
+				"HasSeenEvent |contains=31032022": true,
+				"HasSeenEvent |contains=AbbyGames": true,
+				"HasSeenEvent |contains=ClintMetalWork": false,
+			}
+		},
+		{
+			"Name": "ClintMetalWorkAndAbbyGamesToken",
+			"Value": "ClintMetalWorkYesAbbyGamesNo",
+			"When": {
+				"HasSeenEvent |contains=31032022": true,
+				"HasSeenEvent |contains=AbbyGames": false,
+				"HasSeenEvent |contains=ClintMetalWork": true,
+			}
+		},
+		{
+			"Name": "ClintMetalWorkAndAbbyGamesToken",
+			"Value": "ClintMetalWorkYesAbbyGamesYes",
+			"When": {
+				"HasSeenEvent |contains=31032022": true,
+				"HasSeenEvent |contains=AbbyGames": true,
+				"HasSeenEvent |contains=ClintMetalWork": true,
+			}
+		},
+		// Sam Music and Shane Animal Care
+		{
+			"Name": "SamMusicAndShaneAnimalCareToken",
+			"Value": "ShaneAnimalCareNoSamMusicNo",
+		},
+		{
+			"Name": "SamMusicAndShaneAnimalCareToken",
+			"Value": "{{Random: ShaneAnimalCareYes, SamMusicYes}}",
+			"When": {
+				"HasSeenEvent |contains=31032022": true, // Penny kickstarts events
+				"HasSeenEvent |contains=ShaneAnimalCare": false,
+				"HasSeenEvent |contains=SamMusic": false,
+			}
+		},
+		{
+			"Name": "SamMusicAndShaneAnimalCareToken",
+			"Value": "ShaneAnimalCareYesSamMusicNo",
+			"When": {
+				"HasSeenEvent |contains=31032022": true,
+				"HasSeenEvent |contains=ShaneAnimalCare": true,
+				"HasSeenEvent |contains=SamMusic": false,
+			}
+		},
+		{
+			"Name": "SamMusicAndShaneAnimalCareToken",
+			"Value": "SamMusicYesShaneAnimalCareNo",
+			"When": {
+				"HasSeenEvent |contains=31032022": true,
+				"HasSeenEvent |contains=ShaneAnimalCare": false,
+				"HasSeenEvent |contains=SamMusic": true,
+			}
+		},
+		{
+			"Name": "SamMusicAndShaneAnimalCareToken",
+			"Value": "SamMusicYesShaneAnimalCareYes",
+			"When": {
+				"HasSeenEvent |contains=31032022": true,
+				"HasSeenEvent |contains=ShaneAnimalCare": true,
+				"HasSeenEvent |contains=SamMusic": true,
+			}
+		},
+		// Alex PE and Gus Cooking
+		{
+			"Name": "AlexPEAndGusCookingToken",
+			"Value": "GusCookingNoAlexPENo",
+		},
+		{
+			"Name": "AlexPEAndGusCookingToken",
+			"Value": "{{Random: GusCookingYes, AlexPEYes}}",
+			"When": {
+				"HasSeenEvent |contains=31032022": true, // Penny kickstarts events
+				"HasSeenEvent |contains=GusCooking": false,
+				"HasSeenEvent |contains=AlexPE": false,
+			}
+		},
+		{
+			"Name": "AlexPEAndGusCookingToken",
+			"Value": "GusCookingYesAlexPENo",
+			"When": {
+				"HasSeenEvent |contains=31032022": true,
+				"HasSeenEvent |contains=GusCooking": true,
+				"HasSeenEvent |contains=AlexPE": false,
+			}
+		},
+		{
+			"Name": "AlexPEAndGusCookingToken",
+			"Value": "AlexPEYesGusCookingNo",
+			"When": {
+				"HasSeenEvent |contains=31032022": true,
+				"HasSeenEvent |contains=GusCooking": false,
+				"HasSeenEvent |contains=AlexPE": true,
+			}
+		},
+		{
+			"Name": "AlexPEAndGusCookingToken",
+			"Value": "AlexPEYesGusCookingYes",
+			"When": {
+				"HasSeenEvent |contains=31032022": true,
+				"HasSeenEvent |contains=GusCooking": true,
+				"HasSeenEvent |contains=AlexPE": true,
+			}
+		},
+		// Robin Woodworking and Abigail Self-Defense
+		{
+			"Name": "RobinWoodworkingAndAbbySelfDefenseToken",
+			"Value": "AbbySelfDefenseNoRobinWoodworkingNo",
+		},
+		{
+			"Name": "RobinWoodworkingAndAbbySelfDefenseToken",
+			"Value": "{{Random: AbbySelfDefenseYes, RobinWoodworkingYes}}",
+			"When": {
+				"HasSeenEvent |contains=31032022": true, // Penny kickstarts events
+				"HasSeenEvent |contains=AbbySelfDefense": false,
+				"HasSeenEvent |contains=RobinWoodworking": false,
+			}
+		},
+		{
+			"Name": "RobinWoodworkingAndAbbySelfDefenseToken",
+			"Value": "AbbySelfDefenseYesRobinWoodworkingNo",
+			"When": {
+				"HasSeenEvent |contains=31032022": true,
+				"HasSeenEvent |contains=AbbySelfDefense": true,
+				"HasSeenEvent |contains=RobinWoodworking": false,
+			}
+		},
+		{
+			"Name": "RobinWoodworkingAndAbbySelfDefenseToken",
+			"Value": "RobinWoodworkingYesAbbySelfDefenseNo",
+			"When": {
+				"HasSeenEvent |contains=31032022": true,
+				"HasSeenEvent |contains=AbbySelfDefense": false,
+				"HasSeenEvent |contains=RobinWoodworking": true,
+			}
+		},
+		{
+			"Name": "RobinWoodworkingAndAbbySelfDefenseToken",
+			"Value": "RobinWoodworkingYesAbbySelfDefenseYes",
+			"When": {
+				"HasSeenEvent |contains=31032022": true,
+				"HasSeenEvent |contains=AbbySelfDefense": true,
+				"HasSeenEvent |contains=RobinWoodworking": true,
 			}
 		},
 		// Dynamic Tokens for the randomized dialog based on events seen, separate from CTs
