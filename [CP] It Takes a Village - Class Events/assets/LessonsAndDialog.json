@@ -8,8 +8,7 @@
             "Action": "EditData",
             "Target": "Data/Events/Town",
             "Entries": {
-                "31032022/w sunny/f Penny 1500/t 930 1900": "50s/-1000 -1000/farmer 81 94 0 Penny 89 94 2 Jas 89 95 0 Vincent 90 95 0/viewport 87 97 true/{{SkippableToken}}/emote Jas 32/jump Vincent 4/pause 500/speed Jas 4/move Jas 0 4 1 true/speed Vincent 4/move Vincent 0 4 3 true/move Penny -2 0 3/faceDirection Penny 2/faceDirection farmer 1/pause 200/emote Penny 28/emote farmer 8/move farmer 2 0 1 true/pause 100/faceDirection Penny 3/pause 300/speak Penny \"{{i18n:events-31032022.01}}\"/question null \"#{{i18n:events-31032022.02}}#{{i18n:events-31032022.03}}\"/splitSpeak Penny \"{{i18n:events-31032022.04}}~{{i18n:events-31032022.05}}\"/speak Penny \"{{i18n:events-31032022.06}}\"/pause 300/emote Penny 40/speak Penny \"{{i18n:events-31032022.07}}\"/quickQuestion #{{i18n:events-31032022.08}}#{{i18n:events-31032022.09}}(break)friendship Penny 100\\speak Penny \"{{i18n:events-31032022.10}}\"(break)friendship Penny -100\\speak Penny \"{{i18n:events-31032022.11}}\"/pause 500/speak Penny \"{{i18n:events-31032022.12}}\"/emote Penny 56/speed Penny 4/move Penny 0 1 3/speed Penny 4/move Penny -9 0 3 true/move farmer -2 0 0 true/addConversationTopic ItTakesAVillage_Beginning 4/globalFade/viewport -1000 -1000/end"
-                // For the mod page: To begin the series, reach 6 hearts with Penny, then visit the town on a sunny day between 9:30am and 7pm.
+                "31032022/w sunny/f Penny 1500/t 930 1900": "50s/-1000 -1000/farmer 81 94 0 Penny 89 94 2 Jas 89 95 0 Vincent 90 95 0/viewport 87 97 true/{{SkippableToken}}/emote Jas 32/jump Vincent 4/pause 500/speed Jas 4/move Jas 0 4 1 true/speed Vincent 4/move Vincent 0 4 3 true/move Penny -2 0 3/faceDirection Penny 2/faceDirection farmer 1/pause 200/emote Penny 28/emote farmer 8/move farmer 2 0 1 true/pause 100/faceDirection Penny 3/pause 300/speak Penny \"{{i18n:events-31032022.01}}\"/question null \"#{{i18n:events-31032022.02}}#{{i18n:events-31032022.03}}\"/splitSpeak Penny \"{{i18n:events-31032022.04}}~{{i18n:events-31032022.05}}\"/speak Penny \"{{i18n:events-31032022.06}}\"/pause 300/emote Penny 40/speak Penny \"{{i18n:events-31032022.07}}\"/quickQuestion #{{i18n:events-31032022.08}}#{{i18n:events-31032022.09}}(break)friendship Penny 100\\speak Penny \"{{i18n:events-31032022.10}}\"(break)friendship Penny -100\\speak Penny \"{{i18n:events-31032022.11}}\"/pause 500/speak Penny \"{{i18n:events-31032022.12}}\"/emote Penny 56/speed Penny 4/move Penny 0 1 3/speed Penny 4/move Penny -9 0 3 true/move farmer -2 0 0 true/addConversationTopic ItTakesAVillage_Beginning {{MinimumDaysBetweenLessons}}/globalFade/viewport -1000 -1000/end"
             }
         },
         /*Jodi CT*/ {
@@ -53,15 +52,16 @@
             }
         },
         // Alex PE INCOMPLETE // Would location maybe be in Town, instead of Forest?
+        // "gimme some squats!" Must have protein! Something something his favorite dishes. Again is there anything in the existing sprite sheet that could even vaguely pass off as this :rofl:
+        // Add CT for Gus (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Alex PE and Healthy Eating Lesson",
             "Action": "EditData",
             "Target": "Data/Events/Forest",
             "Entries": {
-                "31032023/w sunny": "50s/-1000 -1000/farmer 81 94 0 Penny 89 94 2 Jas 89 95 0 Vincent 90 95 0/viewport 87 93 true/pause 2000/skippable/emote Jas 32/jump Vincent 4/pause 500/speed Jas 4/move Jas 0 4 1 true/speed Vincent 4/move Vincent 0 4 3 true/move Penny -2 0 3/faceDirection Penny 2/faceDirection farmer 1/pause 200/emote Penny 28/emote farmer 8/move farmer 2 0 1 true/pause 100/faceDirection Penny 3/pause 300/speak Penny \"{{i18n:events-31032022.01}}\"/question null \"#{{i18n:events-31032022.02}}#{{i18n:events-31032022.03}}\"/splitSpeak Penny \"{{i18n:events-31032022.04}}~{{i18n:events-31032022.05}}\"/speak Penny \"{{i18n:events-31032022.06}}\"/pause 300/emote Penny 40/speak Penny \"{{i18n:events-31032022.07}}\"/quickQuestion #{{i18n:events-31032022.08}}#{{i18n:events-31032022.09}}(break)friendship Penny 100\\speak Penny \"{{i18n:events-31032022.10}}\"(break)friendship Penny -100\\speak Penny \"{{i18n:events-31032022.11}}\"/pause 500/speak Penny \"{{i18n:events-31032022.12}}\"/emote Penny 56/speed Penny 4/move Penny 0 1 3/speed Penny 4/move Penny -9 0 3 true/move farmer -2 0 0 true/addConversationTopic ItTakesAVillage_AlexPE 4/globalFade/viewport -1000 -1000/end"
+                "31032023/w sunny": "50s/-1000 -1000/farmer 81 94 0 Penny 89 94 2 Jas 89 95 0 Vincent 90 95 0/viewport 87 93 true/pause 2000/skippable/emote Jas 32/jump Vincent 4/pause 500/speed Jas 4/move Jas 0 4 1 true/speed Vincent 4/move Vincent 0 4 3 true/move Penny -2 0 3/faceDirection Penny 2/faceDirection farmer 1/pause 200/emote Penny 28/emote farmer 8/move farmer 2 0 1 true/pause 100/faceDirection Penny 3/pause 300/speak Penny \"{{i18n:events-31032022.01}}\"/question null \"#{{i18n:events-31032022.02}}#{{i18n:events-31032022.03}}\"/splitSpeak Penny \"{{i18n:events-31032022.04}}~{{i18n:events-31032022.05}}\"/speak Penny \"{{i18n:events-31032022.06}}\"/pause 300/emote Penny 40/speak Penny \"{{i18n:events-31032022.07}}\"/quickQuestion #{{i18n:events-31032022.08}}#{{i18n:events-31032022.09}}(break)friendship Penny 100\\speak Penny \"{{i18n:events-31032022.10}}\"(break)friendship Penny -100\\speak Penny \"{{i18n:events-31032022.11}}\"/pause 500/speak Penny \"{{i18n:events-31032022.12}}\"/emote Penny 56/speed Penny 4/move Penny 0 1 3/speed Penny 4/move Penny -9 0 3 true/move farmer -2 0 0 true/addConversationTopic ItTakesAVillage_AlexPE {{MinimumDaysBetweenLessons}}/globalFade/viewport -1000 -1000/end"
             }
         },
-        // Add CT for Gus (with dynamic dialog!)
         /*Alex CT*/ {
             "LogName": "Demetrius Oil Makers CT - Demetrius",
             "Action": "EditData",
@@ -142,16 +142,25 @@
                 "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Shane}}"
             }
         },
+        /*Penny CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        }, // Vincent was tuckered out
         // Gus Cooking INCOMPLETE
+        // acknowledges it would be way too dangerous to introduce them to the stove (must have adult supervision). Instead settles for showing them how to make a salad. HEALTHY VEGGIES :clap: Secret ingredient, special dressing, idk.
+        // Add CT for Alex (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Gus Cooking Lesson",
             "Action": "EditData",
             "Target": "Data/Events/Saloon",
             "Entries": {
-                "31032023/w sunny": "50s/-1000 -1000/farmer 81 94 0 Penny 89 94 2 Jas 89 95 0 Vincent 90 95 0/viewport 87 93 true/pause 2000/skippable/emote Jas 32/jump Vincent 4/pause 500/speed Jas 4/move Jas 0 4 1 true/speed Vincent 4/move Vincent 0 4 3 true/move Penny -2 0 3/faceDirection Penny 2/faceDirection farmer 1/pause 200/emote Penny 28/emote farmer 8/move farmer 2 0 1 true/pause 100/faceDirection Penny 3/pause 300/speak Penny \"{{i18n:events-31032022.01}}\"/question null \"#{{i18n:events-31032022.02}}#{{i18n:events-31032022.03}}\"/splitSpeak Penny \"{{i18n:events-31032022.04}}~{{i18n:events-31032022.05}}\"/speak Penny \"{{i18n:events-31032022.06}}\"/pause 300/emote Penny 40/speak Penny \"{{i18n:events-31032022.07}}\"/quickQuestion #{{i18n:events-31032022.08}}#{{i18n:events-31032022.09}}(break)friendship Penny 100\\speak Penny \"{{i18n:events-31032022.10}}\"(break)friendship Penny -100\\speak Penny \"{{i18n:events-31032022.11}}\"/pause 500/speak Penny \"{{i18n:events-31032022.12}}\"/emote Penny 56/speed Penny 4/move Penny 0 1 3/speed Penny 4/move Penny -9 0 3 true/move farmer -2 0 0 true/addConversationTopic ItTakesAVillage_GusCooking 4/globalFade/viewport -1000 -1000/end"
+                "31032023/w sunny": "50s/-1000 -1000/farmer 81 94 0 Penny 89 94 2 Jas 89 95 0 Vincent 90 95 0/viewport 87 93 true/pause 2000/skippable/emote Jas 32/jump Vincent 4/pause 500/speed Jas 4/move Jas 0 4 1 true/speed Vincent 4/move Vincent 0 4 3 true/move Penny -2 0 3/faceDirection Penny 2/faceDirection farmer 1/pause 200/emote Penny 28/emote farmer 8/move farmer 2 0 1 true/pause 100/faceDirection Penny 3/pause 300/speak Penny \"{{i18n:events-31032022.01}}\"/question null \"#{{i18n:events-31032022.02}}#{{i18n:events-31032022.03}}\"/splitSpeak Penny \"{{i18n:events-31032022.04}}~{{i18n:events-31032022.05}}\"/speak Penny \"{{i18n:events-31032022.06}}\"/pause 300/emote Penny 40/speak Penny \"{{i18n:events-31032022.07}}\"/quickQuestion #{{i18n:events-31032022.08}}#{{i18n:events-31032022.09}}(break)friendship Penny 100\\speak Penny \"{{i18n:events-31032022.10}}\"(break)friendship Penny -100\\speak Penny \"{{i18n:events-31032022.11}}\"/pause 500/speak Penny \"{{i18n:events-31032022.12}}\"/emote Penny 56/speed Penny 4/move Penny 0 1 3/speed Penny 4/move Penny -9 0 3 true/move farmer -2 0 0 true/addConversationTopic ItTakesAVillage_GusCooking {{MinimumDaysBetweenLessons}}/globalFade/viewport -1000 -1000/end"
             }
         },
-        // Add CT for Alex (with dynamic dialog!)
         /*Gus CT*/ {
             "LogName": "Demetrius Oil Makers CT - Demetrius",
             "Action": "EditData",
@@ -224,16 +233,26 @@
                 "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Shane}}"
             }
         },
+        /*Penny CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        }, // We've got a couple different lessons reinforcing eating healthy, so I hope it was interesting for the kids to actually see one of those meals being assembled.
         // Elliott Stories INCOMPLETE
+        // Jas is PUMPED :clap:
+        // hmm, age appropriate story, still has a lesson about something. The real treasure was the friends we made along the way or some such.
+        // Add CT for Haley and Leah (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Elliott Stories Lesson",
             "Action": "EditData",
             "Target": "Data/Events/ArchaeologyHouse",
             "Entries": {
-                "31032023/w sunny": "50s/-1000 -1000/farmer 81 94 0 Penny 89 94 2 Jas 89 95 0 Vincent 90 95 0/viewport 87 93 true/pause 2000/skippable/emote Jas 32/jump Vincent 4/pause 500/speed Jas 4/move Jas 0 4 1 true/speed Vincent 4/move Vincent 0 4 3 true/move Penny -2 0 3/faceDirection Penny 2/faceDirection farmer 1/pause 200/emote Penny 28/emote farmer 8/move farmer 2 0 1 true/pause 100/faceDirection Penny 3/pause 300/speak Penny \"{{i18n:events-31032022.01}}\"/question null \"#{{i18n:events-31032022.02}}#{{i18n:events-31032022.03}}\"/splitSpeak Penny \"{{i18n:events-31032022.04}}~{{i18n:events-31032022.05}}\"/speak Penny \"{{i18n:events-31032022.06}}\"/pause 300/emote Penny 40/speak Penny \"{{i18n:events-31032022.07}}\"/quickQuestion #{{i18n:events-31032022.08}}#{{i18n:events-31032022.09}}(break)friendship Penny 100\\speak Penny \"{{i18n:events-31032022.10}}\"(break)friendship Penny -100\\speak Penny \"{{i18n:events-31032022.11}}\"/pause 500/speak Penny \"{{i18n:events-31032022.12}}\"/emote Penny 56/speed Penny 4/move Penny 0 1 3/speed Penny 4/move Penny -9 0 3 true/move farmer -2 0 0 true/addConversationTopic ItTakesAVillage_ElliottStories 4/globalFade/viewport -1000 -1000/end"
+                "31032023/w sunny": "50s/-1000 -1000/farmer 81 94 0 Penny 89 94 2 Jas 89 95 0 Vincent 90 95 0/viewport 87 93 true/pause 2000/skippable/emote Jas 32/jump Vincent 4/pause 500/speed Jas 4/move Jas 0 4 1 true/speed Vincent 4/move Vincent 0 4 3 true/move Penny -2 0 3/faceDirection Penny 2/faceDirection farmer 1/pause 200/emote Penny 28/emote farmer 8/move farmer 2 0 1 true/pause 100/faceDirection Penny 3/pause 300/speak Penny \"{{i18n:events-31032022.01}}\"/question null \"#{{i18n:events-31032022.02}}#{{i18n:events-31032022.03}}\"/splitSpeak Penny \"{{i18n:events-31032022.04}}~{{i18n:events-31032022.05}}\"/speak Penny \"{{i18n:events-31032022.06}}\"/pause 300/emote Penny 40/speak Penny \"{{i18n:events-31032022.07}}\"/quickQuestion #{{i18n:events-31032022.08}}#{{i18n:events-31032022.09}}(break)friendship Penny 100\\speak Penny \"{{i18n:events-31032022.10}}\"(break)friendship Penny -100\\speak Penny \"{{i18n:events-31032022.11}}\"/pause 500/speak Penny \"{{i18n:events-31032022.12}}\"/emote Penny 56/speed Penny 4/move Penny 0 1 3/speed Penny 4/move Penny -9 0 3 true/move farmer -2 0 0 true/addConversationTopic ItTakesAVillage_ElliottStories {{MinimumDaysBetweenLessons}}/globalFade/viewport -1000 -1000/end"
             }
         },
-        // Add CT for Haley and Leah (with dynamic dialog!)
         /*Elliott CT*/ {
             "LogName": "Demetrius Oil Makers CT - Demetrius",
             "Action": "EditData",
@@ -306,16 +325,25 @@
                 "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Shane}}"
             }
         },
+        /*Penny CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        }, // Jas was the most thrilled I've seen her, thinking up her own scenarios for stories. We may have a future writer in our hands!
         // Haley & Leah Art INCOMPLETE
+        // Vincent likes fingerpainting
+        // Add CT for Elliott (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Haley & Leah Art Lesson",
             "Action": "EditData",
             "Target": "Data/Events/Forest",
             "Entries": {
-                "31032023/w sunny": "50s/-1000 -1000/farmer 81 94 0 Penny 89 94 2 Jas 89 95 0 Vincent 90 95 0/viewport 87 93 true/pause 2000/skippable/emote Jas 32/jump Vincent 4/pause 500/speed Jas 4/move Jas 0 4 1 true/speed Vincent 4/move Vincent 0 4 3 true/move Penny -2 0 3/faceDirection Penny 2/faceDirection farmer 1/pause 200/emote Penny 28/emote farmer 8/move farmer 2 0 1 true/pause 100/faceDirection Penny 3/pause 300/speak Penny \"{{i18n:events-31032022.01}}\"/question null \"#{{i18n:events-31032022.02}}#{{i18n:events-31032022.03}}\"/splitSpeak Penny \"{{i18n:events-31032022.04}}~{{i18n:events-31032022.05}}\"/speak Penny \"{{i18n:events-31032022.06}}\"/pause 300/emote Penny 40/speak Penny \"{{i18n:events-31032022.07}}\"/quickQuestion #{{i18n:events-31032022.08}}#{{i18n:events-31032022.09}}(break)friendship Penny 100\\speak Penny \"{{i18n:events-31032022.10}}\"(break)friendship Penny -100\\speak Penny \"{{i18n:events-31032022.11}}\"/pause 500/speak Penny \"{{i18n:events-31032022.12}}\"/emote Penny 56/speed Penny 4/move Penny 0 1 3/speed Penny 4/move Penny -9 0 3 true/move farmer -2 0 0 true/addConversationTopic ItTakesAVillage_HaleyLeahArt 4/globalFade/viewport -1000 -1000/end"
+                "31032023/w sunny": "50s/-1000 -1000/farmer 81 94 0 Penny 89 94 2 Jas 89 95 0 Vincent 90 95 0/viewport 87 93 true/pause 2000/skippable/emote Jas 32/jump Vincent 4/pause 500/speed Jas 4/move Jas 0 4 1 true/speed Vincent 4/move Vincent 0 4 3 true/move Penny -2 0 3/faceDirection Penny 2/faceDirection farmer 1/pause 200/emote Penny 28/emote farmer 8/move farmer 2 0 1 true/pause 100/faceDirection Penny 3/pause 300/speak Penny \"{{i18n:events-31032022.01}}\"/question null \"#{{i18n:events-31032022.02}}#{{i18n:events-31032022.03}}\"/splitSpeak Penny \"{{i18n:events-31032022.04}}~{{i18n:events-31032022.05}}\"/speak Penny \"{{i18n:events-31032022.06}}\"/pause 300/emote Penny 40/speak Penny \"{{i18n:events-31032022.07}}\"/quickQuestion #{{i18n:events-31032022.08}}#{{i18n:events-31032022.09}}(break)friendship Penny 100\\speak Penny \"{{i18n:events-31032022.10}}\"(break)friendship Penny -100\\speak Penny \"{{i18n:events-31032022.11}}\"/pause 500/speak Penny \"{{i18n:events-31032022.12}}\"/emote Penny 56/speed Penny 4/move Penny 0 1 3/speed Penny 4/move Penny -9 0 3 true/move farmer -2 0 0 true/addConversationTopic ItTakesAVillage_HaleyLeahArt {{MinimumDaysBetweenLessons}}/globalFade/viewport -1000 -1000/end"
             }
         },
-        // Add CT for Elliott (with dynamic dialog!)
         /*Haley CT*/ {
             "LogName": "Demetrius Oil Makers CT - Demetrius",
             "Action": "EditData",
@@ -404,16 +432,26 @@
                 "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Shane}}"
             }
         },
+        /*Penny CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        }, // It looks like some of the more technical details were lost on the kids, but they got the gist of it.
         // Abigail Basic Economics INCOMPLETE
+        // Vincent all cross eyed over the numbers until Abigail brings out the props
+        // Jas picks it up relatively quick
+        // Add CT for Sebastian (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Abigail Basic Economics Lesson",
             "Action": "EditData",
             "Target": "Data/Events/SeedShop",
             "Entries": {
-                "31032023/w sunny": "50s/-1000 -1000/farmer 81 94 0 Penny 89 94 2 Jas 89 95 0 Vincent 90 95 0/viewport 87 93 true/pause 2000/skippable/emote Jas 32/jump Vincent 4/pause 500/speed Jas 4/move Jas 0 4 1 true/speed Vincent 4/move Vincent 0 4 3 true/move Penny -2 0 3/faceDirection Penny 2/faceDirection farmer 1/pause 200/emote Penny 28/emote farmer 8/move farmer 2 0 1 true/pause 100/faceDirection Penny 3/pause 300/speak Penny \"{{i18n:events-31032022.01}}\"/question null \"#{{i18n:events-31032022.02}}#{{i18n:events-31032022.03}}\"/splitSpeak Penny \"{{i18n:events-31032022.04}}~{{i18n:events-31032022.05}}\"/speak Penny \"{{i18n:events-31032022.06}}\"/pause 300/emote Penny 40/speak Penny \"{{i18n:events-31032022.07}}\"/quickQuestion #{{i18n:events-31032022.08}}#{{i18n:events-31032022.09}}(break)friendship Penny 100\\speak Penny \"{{i18n:events-31032022.10}}\"(break)friendship Penny -100\\speak Penny \"{{i18n:events-31032022.11}}\"/pause 500/speak Penny \"{{i18n:events-31032022.12}}\"/emote Penny 56/speed Penny 4/move Penny 0 1 3/speed Penny 4/move Penny -9 0 3 true/move farmer -2 0 0 true/addConversationTopic ItTakesAVillage_AbbyEcon 4/globalFade/viewport -1000 -1000/end"
+                "31032023/w sunny": "50s/-1000 -1000/farmer 81 94 0 Penny 89 94 2 Jas 89 95 0 Vincent 90 95 0/viewport 87 93 true/pause 2000/skippable/emote Jas 32/jump Vincent 4/pause 500/speed Jas 4/move Jas 0 4 1 true/speed Vincent 4/move Vincent 0 4 3 true/move Penny -2 0 3/faceDirection Penny 2/faceDirection farmer 1/pause 200/emote Penny 28/emote farmer 8/move farmer 2 0 1 true/pause 100/faceDirection Penny 3/pause 300/speak Penny \"{{i18n:events-31032022.01}}\"/question null \"#{{i18n:events-31032022.02}}#{{i18n:events-31032022.03}}\"/splitSpeak Penny \"{{i18n:events-31032022.04}}~{{i18n:events-31032022.05}}\"/speak Penny \"{{i18n:events-31032022.06}}\"/pause 300/emote Penny 40/speak Penny \"{{i18n:events-31032022.07}}\"/quickQuestion #{{i18n:events-31032022.08}}#{{i18n:events-31032022.09}}(break)friendship Penny 100\\speak Penny \"{{i18n:events-31032022.10}}\"(break)friendship Penny -100\\speak Penny \"{{i18n:events-31032022.11}}\"/pause 500/speak Penny \"{{i18n:events-31032022.12}}\"/emote Penny 56/speed Penny 4/move Penny 0 1 3/speed Penny 4/move Penny -9 0 3 true/move farmer -2 0 0 true/addConversationTopic ItTakesAVillage_AbbyEcon {{MinimumDaysBetweenLessons}}/globalFade/viewport -1000 -1000/end"
             }
         },
-        // Add CT for Sebastian (with dynamic dialog!)
         /*Abby CT*/ {
             "LogName": "Demetrius Oil Makers CT - Demetrius",
             "Action": "EditData",
@@ -486,16 +524,26 @@
                 "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Shane}}"
             }
         },
-        // Sebastian Computer Basics INCOMPLETE // HMMM where would be a good place for this? I was initially thinking library. Maybe I can find where Seb's computer is (or just like, a computer) to spawn for the event in the library? Could have Seb say he moved it
+        /*Penny CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        }, // Abigail's examples were great for the kids to visualize the math concepts!
+        // Sebastian Computer Basics INCOMPLETE
+        // HMMM where would be a good place for this? I was initially thinking library. Maybe I can find where Seb's computer is (or just like, a computer) to spawn for the event in the library? Could have Seb say he moved it
+        // the kids would be a bit bored and a tough crowd for this one lol Seb not good at explaining in an entertaining way.
+        // Add CT for Abigail (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Sebastian Computer Basics Lesson",
             "Action": "EditData",
             "Target": "Data/Events/Saloon",
             "Entries": {
-                "31032023/w sunny": "50s/-1000 -1000/farmer 81 94 0 Penny 89 94 2 Jas 89 95 0 Vincent 90 95 0/viewport 87 93 true/pause 2000/skippable/emote Jas 32/jump Vincent 4/pause 500/speed Jas 4/move Jas 0 4 1 true/speed Vincent 4/move Vincent 0 4 3 true/move Penny -2 0 3/faceDirection Penny 2/faceDirection farmer 1/pause 200/emote Penny 28/emote farmer 8/move farmer 2 0 1 true/pause 100/faceDirection Penny 3/pause 300/speak Penny \"{{i18n:events-31032022.01}}\"/question null \"#{{i18n:events-31032022.02}}#{{i18n:events-31032022.03}}\"/splitSpeak Penny \"{{i18n:events-31032022.04}}~{{i18n:events-31032022.05}}\"/speak Penny \"{{i18n:events-31032022.06}}\"/pause 300/emote Penny 40/speak Penny \"{{i18n:events-31032022.07}}\"/quickQuestion #{{i18n:events-31032022.08}}#{{i18n:events-31032022.09}}(break)friendship Penny 100\\speak Penny \"{{i18n:events-31032022.10}}\"(break)friendship Penny -100\\speak Penny \"{{i18n:events-31032022.11}}\"/pause 500/speak Penny \"{{i18n:events-31032022.12}}\"/emote Penny 56/speed Penny 4/move Penny 0 1 3/speed Penny 4/move Penny -9 0 3 true/move farmer -2 0 0 true/addConversationTopic ItTakesAVillage_SebComputer 4/globalFade/viewport -1000 -1000/end"
+                "31032023/w sunny": "50s/-1000 -1000/farmer 81 94 0 Penny 89 94 2 Jas 89 95 0 Vincent 90 95 0/viewport 87 93 true/pause 2000/skippable/emote Jas 32/jump Vincent 4/pause 500/speed Jas 4/move Jas 0 4 1 true/speed Vincent 4/move Vincent 0 4 3 true/move Penny -2 0 3/faceDirection Penny 2/faceDirection farmer 1/pause 200/emote Penny 28/emote farmer 8/move farmer 2 0 1 true/pause 100/faceDirection Penny 3/pause 300/speak Penny \"{{i18n:events-31032022.01}}\"/question null \"#{{i18n:events-31032022.02}}#{{i18n:events-31032022.03}}\"/splitSpeak Penny \"{{i18n:events-31032022.04}}~{{i18n:events-31032022.05}}\"/speak Penny \"{{i18n:events-31032022.06}}\"/pause 300/emote Penny 40/speak Penny \"{{i18n:events-31032022.07}}\"/quickQuestion #{{i18n:events-31032022.08}}#{{i18n:events-31032022.09}}(break)friendship Penny 100\\speak Penny \"{{i18n:events-31032022.10}}\"(break)friendship Penny -100\\speak Penny \"{{i18n:events-31032022.11}}\"/pause 500/speak Penny \"{{i18n:events-31032022.12}}\"/emote Penny 56/speed Penny 4/move Penny 0 1 3/speed Penny 4/move Penny -9 0 3 true/move farmer -2 0 0 true/addConversationTopic ItTakesAVillage_SebComputer {{MinimumDaysBetweenLessons}}/globalFade/viewport -1000 -1000/end"
             }
         },
-        // Add CT for Abigail (with dynamic dialog!)
         /*Sebastian CT*/ {
             "LogName": "Demetrius Oil Makers CT - Demetrius",
             "Action": "EditData",
@@ -576,17 +624,35 @@
                 "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Shane}}"
             }
         },
+        /*Penny CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        }, // The kids were not very talkative about this lesson. I hope they were a good audience...
         // Demetrius Botany INCOMPLETE
+        // and this here is <technical name for tree> or, X tree. Something something poisonous plant / frog, do not touch. Could add token that if it's spring or summer the frog shows up and hops?
+        // what about including a little birb watching o: ? I'd have to see about how to add a birb to pass through the event
+        // Add CT for Maru (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Demetrius Botany Lesson",
             "Action": "EditData",
             "Target": "Data/Events/Mountain",
             "Entries": {
-                "31032023/w sunny": "50s/-1000 -1000/farmer 81 94 0 Penny 89 94 2 Jas 89 95 0 Vincent 90 95 0/viewport 87 93 true/pause 2000/skippable/emote Jas 32/jump Vincent 4/pause 500/speed Jas 4/move Jas 0 4 1 true/speed Vincent 4/move Vincent 0 4 3 true/move Penny -2 0 3/faceDirection Penny 2/faceDirection farmer 1/pause 200/emote Penny 28/emote farmer 8/move farmer 2 0 1 true/pause 100/faceDirection Penny 3/pause 300/speak Penny \"{{i18n:events-31032022.01}}\"/question null \"#{{i18n:events-31032022.02}}#{{i18n:events-31032022.03}}\"/splitSpeak Penny \"{{i18n:events-31032022.04}}~{{i18n:events-31032022.05}}\"/speak Penny \"{{i18n:events-31032022.06}}\"/pause 300/emote Penny 40/speak Penny \"{{i18n:events-31032022.07}}\"/quickQuestion #{{i18n:events-31032022.08}}#{{i18n:events-31032022.09}}(break)friendship Penny 100\\speak Penny \"{{i18n:events-31032022.10}}\"(break)friendship Penny -100\\speak Penny \"{{i18n:events-31032022.11}}\"/pause 500/speak Penny \"{{i18n:events-31032022.12}}\"/emote Penny 56/speed Penny 4/move Penny 0 1 3/speed Penny 4/move Penny -9 0 3 true/move farmer -2 0 0 true/addConversationTopic ItTakesAVillage_GusCooking 4/globalFade/viewport -1000 -1000/end"
+                "31032023/w sunny": "50s/-1000 -1000/farmer 81 94 0 Penny 89 94 2 Jas 89 95 0 Vincent 90 95 0/viewport 87 93 true/pause 2000/skippable/emote Jas 32/jump Vincent 4/pause 500/speed Jas 4/move Jas 0 4 1 true/speed Vincent 4/move Vincent 0 4 3 true/move Penny -2 0 3/faceDirection Penny 2/faceDirection farmer 1/pause 200/emote Penny 28/emote farmer 8/move farmer 2 0 1 true/pause 100/faceDirection Penny 3/pause 300/speak Penny \"{{i18n:events-31032022.01}}\"/question null \"#{{i18n:events-31032022.02}}#{{i18n:events-31032022.03}}\"/splitSpeak Penny \"{{i18n:events-31032022.04}}~{{i18n:events-31032022.05}}\"/speak Penny \"{{i18n:events-31032022.06}}\"/pause 300/emote Penny 40/speak Penny \"{{i18n:events-31032022.07}}\"/quickQuestion #{{i18n:events-31032022.08}}#{{i18n:events-31032022.09}}(break)friendship Penny 100\\speak Penny \"{{i18n:events-31032022.10}}\"(break)friendship Penny -100\\speak Penny \"{{i18n:events-31032022.11}}\"/pause 500/speak Penny \"{{i18n:events-31032022.12}}\"/emote Penny 56/speed Penny 4/move Penny 0 1 3/speed Penny 4/move Penny -9 0 3 true/move farmer -2 0 0 true/addConversationTopic ItTakesAVillage_GusCooking {{MinimumDaysBetweenLessons}}/globalFade/viewport -1000 -1000/end"
             }
         },
-        // Add CT for Maru (with dynamic dialog!)
         /*Demetrius CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        },
+        /*Robin CT*/ {
             "LogName": "Demetrius Oil Makers CT - Demetrius",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Demetrius",
@@ -650,16 +716,27 @@
                 "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Shane}}"
             }
         },
+        /*Penny CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        }, // Vincent had trouble with saying the technical names, but both he and Jas had fun taking in nature.
         // Maru Electronics INCOMPLETE
+        // MARU THE SCIENCE GURU! also she most definitely chants the song. Vincent joins in, Jas is unsure what to make of it.
+        // little science experiment? Will have to see what sprites are available and maybe use some special effects, woop woop!
+        // Big laugh? Does she have a laugh sprite or only a portrait?
+        // Add CT for Demetrius (with dynamic dialog!)
         /*Event proper*/ {
-            "LogName": "Gus Cooking Lesson",
+            "LogName": "Maru Electronics Lesson",
             "Action": "EditData",
             "Target": "Data/Events/Saloon",
             "Entries": {
-                "31032023/w sunny": "50s/-1000 -1000/farmer 81 94 0 Penny 89 94 2 Jas 89 95 0 Vincent 90 95 0/viewport 87 93 true/pause 2000/skippable/emote Jas 32/jump Vincent 4/pause 500/speed Jas 4/move Jas 0 4 1 true/speed Vincent 4/move Vincent 0 4 3 true/move Penny -2 0 3/faceDirection Penny 2/faceDirection farmer 1/pause 200/emote Penny 28/emote farmer 8/move farmer 2 0 1 true/pause 100/faceDirection Penny 3/pause 300/speak Penny \"{{i18n:events-31032022.01}}\"/question null \"#{{i18n:events-31032022.02}}#{{i18n:events-31032022.03}}\"/splitSpeak Penny \"{{i18n:events-31032022.04}}~{{i18n:events-31032022.05}}\"/speak Penny \"{{i18n:events-31032022.06}}\"/pause 300/emote Penny 40/speak Penny \"{{i18n:events-31032022.07}}\"/quickQuestion #{{i18n:events-31032022.08}}#{{i18n:events-31032022.09}}(break)friendship Penny 100\\speak Penny \"{{i18n:events-31032022.10}}\"(break)friendship Penny -100\\speak Penny \"{{i18n:events-31032022.11}}\"/pause 500/speak Penny \"{{i18n:events-31032022.12}}\"/emote Penny 56/speed Penny 4/move Penny 0 1 3/speed Penny 4/move Penny -9 0 3 true/move farmer -2 0 0 true/addConversationTopic ItTakesAVillage_GusCooking 4/globalFade/viewport -1000 -1000/end"
+                "31032023/w sunny": "50s/-1000 -1000/farmer 81 94 0 Penny 89 94 2 Jas 89 95 0 Vincent 90 95 0/viewport 87 93 true/pause 2000/skippable/emote Jas 32/jump Vincent 4/pause 500/speed Jas 4/move Jas 0 4 1 true/speed Vincent 4/move Vincent 0 4 3 true/move Penny -2 0 3/faceDirection Penny 2/faceDirection farmer 1/pause 200/emote Penny 28/emote farmer 8/move farmer 2 0 1 true/pause 100/faceDirection Penny 3/pause 300/speak Penny \"{{i18n:events-31032022.01}}\"/question null \"#{{i18n:events-31032022.02}}#{{i18n:events-31032022.03}}\"/splitSpeak Penny \"{{i18n:events-31032022.04}}~{{i18n:events-31032022.05}}\"/speak Penny \"{{i18n:events-31032022.06}}\"/pause 300/emote Penny 40/speak Penny \"{{i18n:events-31032022.07}}\"/quickQuestion #{{i18n:events-31032022.08}}#{{i18n:events-31032022.09}}(break)friendship Penny 100\\speak Penny \"{{i18n:events-31032022.10}}\"(break)friendship Penny -100\\speak Penny \"{{i18n:events-31032022.11}}\"/pause 500/speak Penny \"{{i18n:events-31032022.12}}\"/emote Penny 56/speed Penny 4/move Penny 0 1 3/speed Penny 4/move Penny -9 0 3 true/move farmer -2 0 0 true/addConversationTopic ItTakesAVillage_GusCooking {{MinimumDaysBetweenLessons}}/globalFade/viewport -1000 -1000/end"
             }
         },
-        // Add CT for Demetrius (with dynamic dialog!)
         /*Maru CT*/ {
             "LogName": "Demetrius Oil Makers CT - Demetrius",
             "Action": "EditData",
@@ -740,5 +817,307 @@
                 "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Shane}}"
             }
         },
+        /*Penny CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        }, // Maru was as excited as the kids were, raving about 'Maru the Science Guru'. I'm glad to hear they had a blast.
+        // Emily Emotional Health and Dance INCOMPLETE
+        // Emily explains sometimes feelings are really strong, and that you can dance party it to help. Emily dances. Can I get the kids to dance via position offset and avoid new sprites? :maruthinking:
+        // Add CT for Harvey (with dynamic dialog!)
+        /*Event proper*/ {
+            "LogName": "Emily Emotional Health and Dance Lesson",
+            "Action": "EditData",
+            "Target": "Data/Events/SeedShop", // Aerobics club room!
+            "Entries": {
+                "31032023/w sunny": "50s/-1000 -1000/farmer 81 94 0 Penny 89 94 2 Jas 89 95 0 Vincent 90 95 0/viewport 87 93 true/pause 2000/skippable/emote Jas 32/jump Vincent 4/pause 500/speed Jas 4/move Jas 0 4 1 true/speed Vincent 4/move Vincent 0 4 3 true/move Penny -2 0 3/faceDirection Penny 2/faceDirection farmer 1/pause 200/emote Penny 28/emote farmer 8/move farmer 2 0 1 true/pause 100/faceDirection Penny 3/pause 300/speak Penny \"{{i18n:events-31032022.01}}\"/question null \"#{{i18n:events-31032022.02}}#{{i18n:events-31032022.03}}\"/splitSpeak Penny \"{{i18n:events-31032022.04}}~{{i18n:events-31032022.05}}\"/speak Penny \"{{i18n:events-31032022.06}}\"/pause 300/emote Penny 40/speak Penny \"{{i18n:events-31032022.07}}\"/quickQuestion #{{i18n:events-31032022.08}}#{{i18n:events-31032022.09}}(break)friendship Penny 100\\speak Penny \"{{i18n:events-31032022.10}}\"(break)friendship Penny -100\\speak Penny \"{{i18n:events-31032022.11}}\"/pause 500/speak Penny \"{{i18n:events-31032022.12}}\"/emote Penny 56/speed Penny 4/move Penny 0 1 3/speed Penny 4/move Penny -9 0 3 true/move farmer -2 0 0 true/addConversationTopic ItTakesAVillage_GusCooking {{MinimumDaysBetweenLessons}}/globalFade/viewport -1000 -1000/end"
+            }
+        },
+        /*Emily CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        },
+        /*Haley CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        },
+        /*Jas CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Robin",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Robin",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+            }
+        },
+        /*Vincent CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Robin",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Robin",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+            }
+        },
+        /*Jodi CT*/ {
+            "LogName": "Penny Kickstarts Lessons CT - Jodi",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jodi",
+            "Entries": {
+                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Jodi}}"
+            }
+        },
+        /*Kent CT*/ {
+            "LogName": "Penny Kickstarts Lessons CT - Kent",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kent",
+            "Entries": {
+                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Kent}}"
+            }
+        },
+        /*Sam CT*/ {
+            "LogName": "Penny Kickstarts Lessons CT - Sam",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "Entries": {
+                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Sam}}"
+            }
+        },
+        /*Marnie CT*/ {
+            "LogName": "Penny Kickstarts Lessons CT - Marnie",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Marnie",
+            "Entries": {
+                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Marnie}}"
+            }
+        },
+        /*Shane CT*/ {
+            "LogName": "Penny Kickstarts Lessons CT - Shane",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Shane",
+            "Entries": {
+                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Shane}}"
+            }
+        },
+        /*Penny CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        }, // I'm grateful Emily spoke to the kids about mental health. It's important to de-stigmatize it.
+        // Harvey Anatomy and Health INCOMPLETE
+        // use one of the skeleton monster sprites (or the statue, I think there's a statue) as a temp actor "skeleton anatomical model" that Harvey brings from a back room
+        // the kids have no idea what to make of him using all the technical terms, like clavicle
+        // Add CT for Emily (with dynamic dialog!)
+        /*Event proper*/ {
+            "LogName": "Harvey Anatomy and Health Lesson",
+            "Action": "EditData",
+            "Target": "Data/Events/Hospital",
+            "Entries": {
+                "31032023/w sunny": "50s/-1000 -1000/farmer 81 94 0 Penny 89 94 2 Jas 89 95 0 Vincent 90 95 0/viewport 87 93 true/pause 2000/skippable/emote Jas 32/jump Vincent 4/pause 500/speed Jas 4/move Jas 0 4 1 true/speed Vincent 4/move Vincent 0 4 3 true/move Penny -2 0 3/faceDirection Penny 2/faceDirection farmer 1/pause 200/emote Penny 28/emote farmer 8/move farmer 2 0 1 true/pause 100/faceDirection Penny 3/pause 300/speak Penny \"{{i18n:events-31032022.01}}\"/question null \"#{{i18n:events-31032022.02}}#{{i18n:events-31032022.03}}\"/splitSpeak Penny \"{{i18n:events-31032022.04}}~{{i18n:events-31032022.05}}\"/speak Penny \"{{i18n:events-31032022.06}}\"/pause 300/emote Penny 40/speak Penny \"{{i18n:events-31032022.07}}\"/quickQuestion #{{i18n:events-31032022.08}}#{{i18n:events-31032022.09}}(break)friendship Penny 100\\speak Penny \"{{i18n:events-31032022.10}}\"(break)friendship Penny -100\\speak Penny \"{{i18n:events-31032022.11}}\"/pause 500/speak Penny \"{{i18n:events-31032022.12}}\"/emote Penny 56/speed Penny 4/move Penny 0 1 3/speed Penny 4/move Penny -9 0 3 true/move farmer -2 0 0 true/addConversationTopic ItTakesAVillage_GusCooking {{MinimumDaysBetweenLessons}}/globalFade/viewport -1000 -1000/end"
+            }
+        },
+        /*Harvey CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        },
+        /*Maru CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        }, // for Maru's CT: Harvey was so excited to have more people in the clinic OR the kids were surprisingly excited / understandably uncomfortable about being at the doctor (maybe 1 can be excited and the other not? Kids ARE different)
+        /*Jas CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Robin",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Robin",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+            }
+        },
+        /*Vincent CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Robin",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Robin",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+            }
+        },
+        /*Jodi CT*/ {
+            "LogName": "Penny Kickstarts Lessons CT - Jodi",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jodi",
+            "Entries": {
+                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Jodi}}"
+            }
+        },
+        /*Kent CT*/ {
+            "LogName": "Penny Kickstarts Lessons CT - Kent",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kent",
+            "Entries": {
+                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Kent}}"
+            }
+        },
+        /*Sam CT*/ {
+            "LogName": "Penny Kickstarts Lessons CT - Sam",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "Entries": {
+                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Sam}}"
+            }
+        },
+        /*Marnie CT*/ {
+            "LogName": "Penny Kickstarts Lessons CT - Marnie",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Marnie",
+            "Entries": {
+                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Marnie}}"
+            }
+        },
+        /*Shane CT*/ {
+            "LogName": "Penny Kickstarts Lessons CT - Shane",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Shane",
+            "Entries": {
+                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Shane}}"
+            }
+        },
+        /*Penny CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        }, // I was glad to hear <insertName> was excited by what they were learning. Hopefully poor <otherName> will feel a little less nervous at the doctor now.
+        // Abigail Video Games INCOMPLETE
+        // Meet in town outside Pierre's.
+        // Hey kids! Ok don't tell Penny, but we have a ~special~ lesson today. Follow me! <kids emote question mark>
+        // Start walking towards Saloon with Abigail leading and the kids in tow
+        // SURPRISE it's arcade game time!
+        // Hey Gus, don't mind me, just taking the kids on a little field trip!
+        // Add CT for Clint (with dynamic dialog!) // Well, that's practical. <dejected face>#$b#Metal working can be fun too!... I guess.
+        /*Event proper*/ {
+            "LogName": "Abigail Video Games Lesson",
+            "Action": "EditData",
+            "Target": "Data/Events/Town", // move into Saloon
+            "Entries": {
+                "31032023/w sunny": "50s/-1000 -1000/farmer 81 94 0 Penny 89 94 2 Jas 89 95 0 Vincent 90 95 0/viewport 87 93 true/pause 2000/skippable/emote Jas 32/jump Vincent 4/pause 500/speed Jas 4/move Jas 0 4 1 true/speed Vincent 4/move Vincent 0 4 3 true/move Penny -2 0 3/faceDirection Penny 2/faceDirection farmer 1/pause 200/emote Penny 28/emote farmer 8/move farmer 2 0 1 true/pause 100/faceDirection Penny 3/pause 300/speak Penny \"{{i18n:events-31032022.01}}\"/question null \"#{{i18n:events-31032022.02}}#{{i18n:events-31032022.03}}\"/splitSpeak Penny \"{{i18n:events-31032022.04}}~{{i18n:events-31032022.05}}\"/speak Penny \"{{i18n:events-31032022.06}}\"/pause 300/emote Penny 40/speak Penny \"{{i18n:events-31032022.07}}\"/quickQuestion #{{i18n:events-31032022.08}}#{{i18n:events-31032022.09}}(break)friendship Penny 100\\speak Penny \"{{i18n:events-31032022.10}}\"(break)friendship Penny -100\\speak Penny \"{{i18n:events-31032022.11}}\"/pause 500/speak Penny \"{{i18n:events-31032022.12}}\"/emote Penny 56/speed Penny 4/move Penny 0 1 3/speed Penny 4/move Penny -9 0 3 true/move farmer -2 0 0 true/addConversationTopic ItTakesAVillage_GusCooking {{MinimumDaysBetweenLessons}}/globalFade/viewport -1000 -1000/end"
+            }
+        },
+        /*Abigail CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        },
+        /*Caroline CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        },
+        /*Pierre CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        }, // does Pierre ever comment on her gaming? I think it's only Caroline?
+        /*Sebastian CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        }, // hmph I guess I could have taken the easy route and showed the kids how to play games too...#$b#What do you mean Abigail gave them 2 other actual lessons?!#$b#Maybe I can redeem myself by showing them how to play pool? CHECK IF THE E THING MIGHT HELP HERE TO HAVE THE LAST ONE BE AFTER YOU COMPLETELY CLOSE OUT THE DIALOG BOX.
+        /*Jas CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Robin",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Robin",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+            }
+        },
+        /*Vincent CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Robin",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Robin",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+            }
+        },
+        /*Jodi CT*/ {
+            "LogName": "Penny Kickstarts Lessons CT - Jodi",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jodi",
+            "Entries": {
+                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Jodi}}"
+            }
+        },
+        /*Kent CT*/ {
+            "LogName": "Penny Kickstarts Lessons CT - Kent",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kent",
+            "Entries": {
+                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Kent}}"
+            }
+        },
+        /*Sam CT*/ {
+            "LogName": "Penny Kickstarts Lessons CT - Sam",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "Entries": {
+                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Sam}}"
+            }
+        }, // Kinda feel like Abigail showing the kids video games is cheating for popularity points...#$b#At least Vincent enjoyed jamming out!
+        /*Marnie CT*/ {
+            "LogName": "Penny Kickstarts Lessons CT - Marnie",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Marnie",
+            "Entries": {
+                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Marnie}}"
+            }
+        },
+        /*Shane CT*/ {
+            "LogName": "Penny Kickstarts Lessons CT - Shane",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Shane",
+            "Entries": {
+                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Shane}}"
+            }
+        },
+        /*Penny CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        } // if she even has an "aw shucks" face, "That's an interesting choice...<aw shucks>.#$b#At least, um... they're learning about having good reflexes? %Penny lets out a puff of air.
     ]
 }
