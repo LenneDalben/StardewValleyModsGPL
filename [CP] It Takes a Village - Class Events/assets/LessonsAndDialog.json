@@ -53,6 +53,8 @@
         },
         // Alex PE INCOMPLETE // Would location maybe be in Town, instead of Forest?
         // "gimme some squats!" Must have protein! Something something his favorite dishes. Again is there anything in the existing sprite sheet that could even vaguely pass off as this :rofl:
+        // Airyn recommended showframes for 0 27 and 35 for some kind of a quick squat (there will be a little red flash). Check the pinned message in the chat to see what frame #s those are
+        // not sure about how to get the kids to do it as well? could check. Jas could say "hey hey no way" and do jump rope instead lol
         // Add CT for Gus (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Alex PE and Healthy Eating Lesson",
@@ -533,8 +535,10 @@
             }
         }, // Abigail's examples were great for the kids to visualize the math concepts!
         // Sebastian Computer Basics INCOMPLETE
-        // HMMM where would be a good place for this? I was initially thinking library. Maybe I can find where Seb's computer is (or just like, a computer) to spawn for the event in the library? Could have Seb say he moved it
-        // the kids would be a bit bored and a tough crowd for this one lol Seb not good at explaining in an entertaining way.
+        // HMMM where would be a good place for this? I was initially thinking library. Maybe I can find where Seb's computer is (or just like, a computer) to spawn for the event in the library? Could have Seb say he moved it.
+            // Airyn noted the computer with its table is on TownInterior, on the right-hand side just below the drum kit.
+            // Hang a Lampshade™️ on the fact Seb brought both the laptop and his desk just for this lesson. Gunther can be implied to be giving Seb a Look
+        // the kids would be a bit bored and a tough crowd for this one lol Seb not good at explaining in an entertaining way. Possibly mild heckling. Seb definitely doing a deadpan glare (angry portrait lol).
         // Add CT for Abigail (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Sebastian Computer Basics Lesson",
@@ -635,6 +639,7 @@
         // Demetrius Botany INCOMPLETE
         // and this here is <technical name for tree> or, X tree. Something something poisonous plant / frog, do not touch. Could add token that if it's spring or summer the frog shows up and hops?
         // what about including a little birb watching o: ? I'd have to see about how to add a birb to pass through the event
+            // Airyn suggested birb could be added as a temp actor, and putting it on its own spritesheet would help keep things coherent if someone's using a mod that replaces the birbs. ALTHOUGH maybe it could be a generic term like avian MWUAHAHA all "look at them wings!" #maxcompat
         // Add CT for Maru (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Demetrius Botany Lesson",
@@ -727,7 +732,8 @@
         // Maru Electronics INCOMPLETE
         // MARU THE SCIENCE GURU! also she most definitely chants the song. Vincent joins in, Jas is unsure what to make of it.
         // little science experiment? Will have to see what sprites are available and maybe use some special effects, woop woop!
-        // Big laugh? Does she have a laugh sprite or only a portrait?
+            // Airyn mentioned tinkering robot sprite and Harvey's radio. Airyn is also a bean and offerent to make smol custom sprites, like a potato battery :pufferwow:
+        // Big mad scientist laugh? Does she have a laugh sprite or only a portrait?
         // Add CT for Demetrius (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Maru Electronics Lesson",
@@ -944,6 +950,7 @@
                 "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
             }
         }, // for Maru's CT: Harvey was so excited to have more people in the clinic OR the kids were surprisingly excited / understandably uncomfortable about being at the doctor (maybe 1 can be excited and the other not? Kids ARE different)
+            // Airyn mention in doctor dialog Jas says she's not scared and asking what the tools do while Vincent is nervous and asks for a lollipop for being brave :pufferaww: WHAT A CUTE KID
         /*Jas CT*/ {
             "LogName": "Demetrius Oil Makers CT - Robin",
             "Action": "EditData",
@@ -1007,7 +1014,8 @@
             "Entries": {
                 "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
             }
-        }, // I was glad to hear <insertName> was excited by what they were learning. Hopefully poor <otherName> will feel a little less nervous at the doctor now.
+        }, // I was glad to hear Jas was excited by what she was learning. Hopefully poor Vincent will feel a little less nervous at the doctor now.
+            // SURPRISE should definitely edit Vincent's schedule dialog (if I can figure out how) assuming you've seen this event, to show he's a little less nervous. Something like "*sniff* Ok no lollipop today, I can do this!$s"
         // Abigail Video Games INCOMPLETE
         // Meet in town outside Pierre's.
         // Hey kids! Ok don't tell Penny, but we have a ~special~ lesson today. Follow me! <kids emote question mark>
@@ -1094,7 +1102,7 @@
             "Entries": {
                 "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Sam}}"
             }
-        }, // Kinda feel like Abigail showing the kids video games is cheating for popularity points...#$b#At least Vincent enjoyed jamming out!
+        }, // Kinda feel like Abigail showing the kids video games is cheating for popularity points...#$b#At least Vincent enjoyed jamming out with me!
         /*Marnie CT*/ {
             "LogName": "Penny Kickstarts Lessons CT - Marnie",
             "Action": "EditData",
