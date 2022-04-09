@@ -51,10 +51,11 @@
                 "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Shane}}"
             }
         },
+        //
         // Alex PE INCOMPLETE // Would location maybe be in Town, instead of Forest?
-        // "gimme some squats!" Must have protein! Something something his favorite dishes. Again is there anything in the existing sprite sheet that could even vaguely pass off as this :rofl:
-        // Airyn recommended showframes for 0 27 and 35 for some kind of a quick squat (there will be a little red flash). Check the pinned message in the chat to see what frame #s those are
-        // not sure about how to get the kids to do it as well? could check. Jas could say "hey hey no way" and do jump rope instead lol
+        // Must have protein! Something something his favorite dishes. Again is there anything in the existing sprite sheet that could even vaguely pass off as this :rofl:
+        // Freeform exercise! Alex mention the best way to exercise is to find something you enjoy becuase otherwise it becomes a chore and you lose motivation.
+        // Jas jumps rope (show frame), Vincent runs around (advancedMove :mischief:), Alex throws the ball (show frame)
         // Add CT for Gus (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Alex PE and Healthy Eating Lesson",
@@ -152,6 +153,7 @@
                 "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
             }
         }, // Vincent was tuckered out
+        //
         // Gus Cooking INCOMPLETE
         // acknowledges it would be way too dangerous to introduce them to the stove (must have adult supervision). Instead settles for showing them how to make a salad. HEALTHY VEGGIES :clap: Secret ingredient, special dressing, idk.
         // Add CT for Alex (with dynamic dialog!)
@@ -243,6 +245,7 @@
                 "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
             }
         }, // We've got a couple different lessons reinforcing eating healthy, so I hope it was interesting for the kids to actually see one of those meals being assembled.
+        //
         // Elliott Stories INCOMPLETE
         // Jas is PUMPED :clap:
         // hmm, age appropriate story, still has a lesson about something. The real treasure was the friends we made along the way or some such.
@@ -335,6 +338,7 @@
                 "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
             }
         }, // Jas was the most thrilled I've seen her, thinking up her own scenarios for stories. We may have a future writer in our hands!
+        //
         // Haley & Leah Art INCOMPLETE
         // Vincent likes fingerpainting
         // Add CT for Elliott (with dynamic dialog!)
@@ -442,6 +446,7 @@
                 "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
             }
         }, // It looks like some of the more technical details were lost on the kids, but they got the gist of it.
+        //
         // Abigail Basic Economics INCOMPLETE
         // Vincent all cross eyed over the numbers until Abigail brings out the props
         // Jas picks it up relatively quick
@@ -534,11 +539,14 @@
                 "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
             }
         }, // Abigail's examples were great for the kids to visualize the math concepts!
+        //
         // Sebastian Computer Basics INCOMPLETE
-        // HMMM where would be a good place for this? I was initially thinking library. Maybe I can find where Seb's computer is (or just like, a computer) to spawn for the event in the library? Could have Seb say he moved it.
+        // HMMM where would be a good place for this? Maybe I can find where Seb's computer is (or just like, a computer) to spawn for the event in the library? Could have Seb say he moved it.
             // Airyn noted the computer with its table is on TownInterior, on the right-hand side just below the drum kit.
             // Hang a Lampshade™️ on the fact Seb brought both the laptop and his desk just for this lesson. Gunther can be implied to be giving Seb a Look
-        // the kids would be a bit bored and a tough crowd for this one lol Seb not good at explaining in an entertaining way. Possibly mild heckling. Seb definitely doing a deadpan glare (angry portrait lol).
+            // Set up the desk and his laptop in front of Gunther's desk. Gunther like "you're not moving my bookshelves to get that desk in there ::looks over the glasses like a disappointed father::"
+            // Kids behind Seb and the desk/computer
+        // the kids would be a bit bored and a tough crowd for this one lol Seb not good at explaining in an entertaining way (went with little hello world console print and kids unimpressed. He be like "I can make it do anything I want :burnitallelmo:" and it's a a no-sell). Possibly mild heckling. Seb definitely doing a deadpan glare (angry portrait lol).
         // Add CT for Abigail (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Sebastian Computer Basics Lesson",
@@ -640,6 +648,7 @@
         // and this here is <technical name for tree> or, X tree. Something something poisonous plant / frog, do not touch. Could add token that if it's spring or summer the frog shows up and hops?
         // what about including a little birb watching o: ? I'd have to see about how to add a birb to pass through the event
             // Airyn suggested birb could be added as a temp actor, and putting it on its own spritesheet would help keep things coherent if someone's using a mod that replaces the birbs. ALTHOUGH maybe it could be a generic term like avian MWUAHAHA all "look at them wings!" #maxcompat
+            //  Use Crow from Characters > Monsters. Demetrius will call it a "greater glossy puffle". Jas is like "I don't think that's right... :o" and Demetrius goes full scientist "aha, a lot of people think it looks like a crow! They look very similar, but there's certain key differences if you look closely"
         // Add CT for Maru (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Demetrius Botany Lesson",
