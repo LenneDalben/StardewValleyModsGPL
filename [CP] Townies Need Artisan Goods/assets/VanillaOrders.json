@@ -46,7 +46,7 @@
       },
       "When": {
         "OrderType": "juice",
-        "SkillLevel:Farming": "8, 9, 10"
+        "HasCraftingRecipe": "Keg"
       }
     },
     // Abigail Yellow Mayo
@@ -102,7 +102,7 @@
       },
       "When": {
         "OrderType": "animal",
-        "SkillLevel:Farming": "2, 3, 4, 5, 6, 7, 8, 9, 10",
+        "HasCraftingRecipe": "Mayonnaise Machine",
         "EasterEgg": "true"
       }
     },
@@ -152,7 +152,8 @@
       },
       "When": {
         "OrderType": "wine",
-        "PlayerHasCellarOrQAP": "true"
+        "PlayerHasCellarOrQAP": "true",
+        "HasCraftingRecipe": "Keg"
       }
     },
     // Alex Training Diet
@@ -201,7 +202,7 @@
       },
       "When": {
         "OrderType": "roe",
-        "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10"
+        "HasCraftingRecipe": "Preserves Jar"
       }
     },
     // Caroline Juicy Electrolytes
@@ -250,7 +251,7 @@
       },
       "When": {
         "OrderType": "juice",
-        "SkillLevel:Farming": "8, 9, 10"
+        "HasCraftingRecipe": "Keg"
       }
     },
     // Caroline Spangle Honey
@@ -299,7 +300,7 @@
       },
       "When": {
         "OrderType": "honey",
-        "SkillLevel:Farming": "3, 4, 5, 6, 7, 8, 9, 10"
+        "HasCraftingRecipe": "Bee House"
       }
     },
     // Clint Pickled Artichokes
@@ -348,7 +349,7 @@
       },
       "When": {
         "OrderType": "pickle",
-        "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10",
+        "HasCraftingRecipe": "Preserves Jar",
         "Year |contains=1": false
       }
     },
@@ -406,7 +407,7 @@
       },
       "When": {
         "OrderType": "machine",
-        "SkillLevel:Farming": "8, 9, 10"
+        "HasCraftingRecipe": "Oil Maker"
       }
     },
     // Elliott Elegant Quill
@@ -512,7 +513,7 @@
       },
       "When": {
         "OrderType": "mead",
-        "SkillLevel:Farming": "3, 4, 5, 6, 7, 8, 9, 10"
+        "HasCraftingRecipe": "Keg"
       }
     },
     // Emily Rainbow
@@ -631,7 +632,7 @@
       },
       "When": {
         "OrderType": "jelly, honey, pickle, wine, animal",
-        "SkillLevel:Farming": "8, 9, 10",
+        "HasCraftingRecipe": "Keg",
         "Year |contains=1": false
       }
     },
@@ -681,7 +682,7 @@
       },
       "When": {
         "OrderType": "animal",
-        "SkillLevel:Farming": "7, 8, 9, 10",
+        "HasCraftingRecipe": "Loom",
         "EasyMode": "false"
       }
     },
@@ -731,7 +732,7 @@
       },
       "When": {
         "OrderType": "animal",
-        "SkillLevel:Farming": "7, 8, 9, 10",
+        "HasCraftingRecipe": "Loom",
         "EasyMode": "true"
       }
     },
@@ -781,7 +782,7 @@
       },
       "When": {
         "OrderType": "honey",
-        "SkillLevel:Farming": "3, 4, 5, 6, 7, 8, 9, 10"
+        "HasCraftingRecipe": "Bee House"
       }
     },
     // George Advanced Knee Therapy
@@ -830,7 +831,7 @@
       },
       "When": {
         "OrderType": "jelly",
-        "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10",
+        "HasCraftingRecipe": "Preserves Jar",
         "Year |contains=1": false
       }
     },
@@ -880,7 +881,7 @@
       },
       "When": {
         "OrderType": "roe",
-        "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10"
+        "HasCraftingRecipe": "Preserves Jar"
       }
     },
     // Gus Drinks for the Fair- Default
@@ -929,7 +930,7 @@
       },
       "When": {
         "OrderType": "beer",
-        "SkillLevel:Farming": "8, 9, 10",
+        "HasCraftingRecipe": "Keg",
         "EasyMode": "false"
       }
     },
@@ -979,7 +980,7 @@
       },
       "When": {
         "OrderType": "beer",
-        "SkillLevel:Farming": "8, 9, 10",
+        "HasCraftingRecipe": "Keg",
         "EasyMode": "true"
       }
     },
@@ -1029,7 +1030,7 @@
       },
       "When": {
         "OrderType": "animal",
-        "SkillLevel:Farming": "6, 7, 8, 9, 10",
+        "HasCraftingRecipe": "Cheese Press",
         "PlayerHasCellarOrQAP": "true"
       }
     },
@@ -1079,7 +1080,7 @@
       },
       "When": {
         "OrderType": "jelly",
-        "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10",
+        "HasCraftingRecipe": "Preserves Jar",
         "HasFlag |contains=ccVault, jojaVault": "true"
       }
     },
@@ -1129,7 +1130,7 @@
       },
       "When": {
         "OrderType": "pickle",
-        "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10"
+        "HasCraftingRecipe": "Preserves Jar"
       }
     },
     // Jas Tea Party
@@ -1185,7 +1186,7 @@
       },
       "When": {
         "OrderType": "misc",
-        "SkillLevel:Farming": "8, 9, 10"
+        "HasCraftingRecipe": "Keg"
       }
     },
     // Jodi Bass Aged Roe
@@ -1234,7 +1235,7 @@
       },
       "When": {
         "OrderType": "roe",
-        "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10"
+        "HasCraftingRecipe": "Preserves Jar"
       }
     },
     // Kent Jelly for PB&J
@@ -1290,7 +1291,7 @@
       },
       "When": {
         "OrderType": "jelly",
-        "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10",
+        "HasCraftingRecipe": "Preserves Jar",
         "HasSeenEvent": "63"
       }
     },
@@ -1347,7 +1348,7 @@
       },
       "When": {
         "OrderType": "animal",
-        "SkillLevel:Farming": "2, 3, 4, 5, 6, 7, 8, 9, 10",
+        "HasCraftingRecipe": "Mayonnaise Machine",
         "HasSeenEvent": "66",
         "Year |contains=1": false
       }
@@ -1406,7 +1407,7 @@
       },
       "When": {
         "OrderType": "machine",
-        "SkillLevel:Farming": "3, 4, 5, 6, 7, 8, 9, 10"
+        "HasCraftingRecipe": "Bee House"
       }
     },
     // Leah Spreadable Mayo
@@ -1455,7 +1456,7 @@
       },
       "When": {
         "OrderType": "animal",
-        "SkillLevel:Farming": "2, 3, 4, 5, 6, 7, 8, 9, 10"
+        "HasCraftingRecipe": "Mayonnaise Machine"
       }
     },
     // Leo Sweet Jelly
@@ -1504,7 +1505,7 @@
       },
       "When": {
         "OrderType": "jelly",
-        "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10",
+        "HasCraftingRecipe": "Preserves Jar",
         "IncludeIslandContent": "true",
         "HasSeenEvent": "1039573"
       }
@@ -1592,7 +1593,7 @@
       },
       "When": {
         "OrderType": "wine, animal",
-        "SkillLevel:Farming": "8, 9, 10",
+        "HasCraftingRecipe": "Keg",
         "HasCookingRecipe": "Chocolate Cake",
         "PlayerHasCellarOrQAP": "true",
         "EasterEgg": "true"
@@ -1664,7 +1665,7 @@
       },
       "When": {
         "OrderType": "jelly",
-        "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10",
+        "HasCraftingRecipe": "Preserves Jar",
         "Year |contains=1": false
       }
     },
@@ -1779,7 +1780,7 @@
       },
       "When": {
         "OrderType": "wine",
-        "SkillLevel:Farming": "8, 9, 10",
+        "HasCraftingRecipe": "Keg",
         "PlayerHasCellarOrQAP": "true",
         "EasterEgg": "true"
       }
@@ -1837,7 +1838,7 @@
       },
       "When": {
         "OrderType": "misc",
-        "SkillLevel:Foraging": "6, 7, 8, 9, 10",
+        "HasCraftingRecipe": "Lightning Rod",
         "HasSeenEvent": "9",
         "EasyMode": "false"
       }
@@ -1895,7 +1896,7 @@
       },
       "When": {
         "OrderType": "misc",
-        "SkillLevel:Foraging": "6, 7, 8, 9, 10",
+        "HasCraftingRecipe": "Lightning Rod",
         "HasSeenEvent": "9",
         "EasyMode": "true"
       }
@@ -1946,7 +1947,7 @@
       },
       "When": {
         "OrderType": "pickle",
-        "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10"
+        "HasCraftingRecipe": "Preserves Jar"
       }
     },
     // Penny Tie-Dye Project
@@ -1995,7 +1996,7 @@
       },
       "When": {
         "OrderType": "juice",
-        "SkillLevel:Farming": "8, 9, 10",
+        "HasCraftingRecipe": "Keg",
         "Query: '{{Year |contains=1}}' = 'false' OR '{{HasFlag |contains=ccVault, jojaVault}}' = 'true'": true
       }
     },
@@ -2045,7 +2046,7 @@
       },
       "When": {
         "OrderType": "animal",
-        "SkillLevel:Farming": "6, 7, 8, 9, 10",
+        "HasCraftingRecipe": "Cheese Press",
         "PlayerHasCellarOrQAP": true
       }
     },
@@ -2102,7 +2103,7 @@
       },
       "When": {
         "OrderType": "wine",
-        "SkillLevel:Farming": "8, 9, 10",
+        "HasCraftingRecipe": "Keg",
         "EasterEgg": "true"
       }
     },
@@ -2169,7 +2170,7 @@
       },
       "When": {
         "OrderType": "mead",
-        "SkillLevel:Farming": "3, 4, 5, 6, 7, 8, 9, 10",
+        "HasCraftingRecipe": "Keg",
         "HasSeenEvent": "27"
       }
     },
@@ -2226,7 +2227,7 @@
       },
       "When": {
         "OrderType": "misc",
-        "SkillLevel:Farming": "8, 9, 10",
+        "HasCraftingRecipe": "Oil Maker",
         "EasterEgg": "true"
       }
     },
@@ -2276,7 +2277,7 @@
       },
       "When": {
         "OrderType": "honey",
-        "SkillLevel:Farming": "3, 4, 5, 6, 7, 8, 9, 10"
+        "HasCraftingRecipe": "Bee House"
       }
     },
     // Sandy Light Beverage - No DSV installed, so it's beer
@@ -2332,7 +2333,7 @@
       },
       "When": {
         "OrderType": "beer",
-        "SkillLevel:Farming": "8, 9, 10",
+        "HasCraftingRecipe": "Keg",
         "HasSeenEvent": "67",
         "HasMod |contains=DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.EmilyHaleySandy": "false",
         "EasterEgg": "true"
@@ -2391,7 +2392,7 @@
       },
       "When": {
         "OrderType": "juice",
-        "SkillLevel:Farming": "8, 9, 10",
+        "HasCraftingRecipe": "Keg",
         "HasSeenEvent": "67",
         "HasMod |contains=DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.EmilyHaleySandy": "true",
         "EasterEgg": "true"
@@ -2450,7 +2451,7 @@
       },
       "When": {
         "OrderType": "pickle",
-        "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10",
+        "HasCraftingRecipe": "Preserves Jar",
         "EasterEgg": "true"
       }
     },
@@ -2500,7 +2501,7 @@
       },
       "When": {
         "OrderType": "juice",
-        "SkillLevel:Farming": "8, 9, 10",
+        "HasCraftingRecipe": "Keg",
         "HasSeenEvent": "2118991"
       }
     },
@@ -2557,7 +2558,7 @@
       },
       "When": {
         "OrderType": "animal",
-        "SkillLevel:Farming": "2, 3, 4, 5, 6, 7, 8, 9, 10",
+        "HasCraftingRecipe": "Mayonnaise Machine",
         "Year |contains=1": false
       }
     },
@@ -2614,7 +2615,7 @@
       },
       "When": {
         "OrderType": "roe",
-        "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10"
+        "HasCraftingRecipe": "Preserves Jar"
       }
     },
     // Willy Tone of Honey
@@ -2663,7 +2664,7 @@
       },
       "When": {
         "OrderType": "mead",
-        "SkillLevel:Farming": "3, 4, 5, 6, 7, 8, 9, 10"
+        "HasCraftingRecipe": "Keg"
       }
     },
     // Wizard Underworld Drink
@@ -2712,7 +2713,7 @@
       },
       "When": {
         "OrderType": "wine",
-        "SkillLevel:Farming": "8, 9, 10",
+        "HasCraftingRecipe": "Keg",
         "PlayerHasCellarOrQAP": true,
         "Year |contains=1": false
       }

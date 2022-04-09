@@ -48,7 +48,7 @@
       },
       "When": {
         "OrderType": "wine",
-        "SkillLevel:Farming": "8, 9, 10",
+        "HasCraftingRecipe": "Keg",
         "PlayerHasCellarOrQAP": "true",
         "HasSeenEvent": "1067101",
         "HasMod": "ZoeDoll.NPCAlecto"
@@ -110,7 +110,7 @@
       },
       "When": {
         "OrderType": "animal",
-        "SkillLevel:Farming": "6, 7, 8, 9, 10",
+        "HasCraftingRecipe": "Cheese Press",
         "HasMod": "tiakall.jortsandjean",
         "HasSeenEvent": "10950100"
       }
@@ -168,7 +168,7 @@
       },
       "When": {
         "OrderType": "jelly",
-        "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10",
+        "HasCraftingRecipe": "Preserves Jar",
         "HasMod": "Himetarts.ARV.CP",
         "EasterEgg": "true"
       }
@@ -259,7 +259,7 @@
       },
       "When": {
         "OrderType": "jelly",
-        "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10",
+        "HasCraftingRecipe": "Preserves Jar",
         "Year |contains=1": false,
         "HasFlag": "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Letter",
         "HasMod": "Himetarts.ARV.CP",
@@ -312,7 +312,7 @@
       },
       "When": {
         "OrderType": "roe",
-        "SkillLevel:Farming": "4, 5, 6, 7, 8, 9, 10",
+        "HasCraftingRecipe": "Preserves Jar",
         "HasMod": "Himetarts.ARV.CP"
       }
     },
@@ -362,7 +362,7 @@
       },
       "When": {
         "OrderType": "juice",
-        "SkillLevel:Farming": "8, 9, 10",
+        "HasCraftingRecipe": "Keg",
         "HasSeenEvent": "40180011",
         "HasMod": "Himetarts.ARV.CP",
         "EasterEgg": "true"
