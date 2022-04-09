@@ -546,8 +546,8 @@
             // Set up the desk and his laptop in front of Gunther's desk. Gunther like "you're not moving my bookshelves to get that desk in there ::looks over the glasses like a disappointed father::"
             // Kids behind Seb and the desk/computer
         // the kids would be a bit bored and a tough crowd for this one lol Seb not good at explaining in an entertaining way (went with little hello world console print and kids unimpressed. He be like "I can make it do anything I want :burnitallelmo:" and it's a a no-sell). Seb definitely doing a deadpan glare (angry portrait lol).
-            // Mild heckling: Kids like "I don't see anything exciting happening :o " then the thing shows the hello world (OMG SPEECH BUBBLE ABOVE THE COMPUTER, CAN IT BE DONE???)
-            // If Abigail video game lesson seen, "when Ms. Abigail showed us a computer, it had a lot more flashing lights and it was fun". More. Deadpan. Glares.
+            // Mild heckling: Kids like "I don't see anything exciting happening :o " then the computer shows the hello world (OMG SPEECH BUBBLE ABOVE THE COMPUTER, CAN IT BE DONE???)
+            // If Abigail video game lesson seen, "when Ms. Abigail showed us a computer, it had a lot more flashing lights and it was fun". More. Deadpan. Glares. "That wasn't a computer like this one."
         // Add CT for Abigail (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Sebastian Computer Basics Lesson",
@@ -1037,7 +1037,7 @@
         // Start walking towards Saloon with Abigail leading and the kids in tow
         // SURPRISE it's arcade game time!
         // Hey Gus, don't mind me, just taking the kids on a little field trip!
-        // Add CT for Clint (with dynamic dialog!) // Well, that's practical. <dejected face>#$b#Metal working can be fun too!... I guess.
+        // Add CT for Clint (with dynamic dialog!) // Well, that's practical. <dejected face>#$b#Metalworking can be fun too!... I guess.
         /*Event proper*/ {
             "LogName": "Abigail Video Games Lesson",
             "Action": "EditData",
@@ -1526,6 +1526,117 @@
                 "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
             }
         }, // I wonder if I should ask Abigail if she can teach me a move or two...
+        //
+        // Robin Woodworking INCOMPLETE
+        // Hey kids! This is how you make a drum block!
+            // Spawn in the required items for a drum block (wood obviously, but idk what else)
+        // Oooh ahhh from the youths
+        // Fade to black, fade in, the kids take turns "stepping on it". Need to find the sound effects for the drum block, if it's usable.
+        // Add CT for Abigail (with dynamic dialog!)
+        /*Event proper*/ {
+            "LogName": "Robin Woodworking Lesson",
+            "Action": "EditData",
+            "Target": "Data/Events/ScienceHouse",
+            "Entries": {
+                "31032023/w sunny": "50s/-1000 -1000/farmer 81 94 0 Penny 89 94 2 Jas 89 95 0 Vincent 90 95 0/viewport 87 93 true/pause 2000/skippable/emote Jas 32/jump Vincent 4/pause 500/speed Jas 4/move Jas 0 4 1 true/speed Vincent 4/move Vincent 0 4 3 true/move Penny -2 0 3/faceDirection Penny 2/faceDirection farmer 1/pause 200/emote Penny 28/emote farmer 8/move farmer 2 0 1 true/pause 100/faceDirection Penny 3/pause 300/speak Penny \"{{i18n:events-31032022.01}}\"/question null \"#{{i18n:events-31032022.02}}#{{i18n:events-31032022.03}}\"/splitSpeak Penny \"{{i18n:events-31032022.04}}~{{i18n:events-31032022.05}}\"/speak Penny \"{{i18n:events-31032022.06}}\"/pause 300/emote Penny 40/speak Penny \"{{i18n:events-31032022.07}}\"/quickQuestion #{{i18n:events-31032022.08}}#{{i18n:events-31032022.09}}(break)friendship Penny 100\\speak Penny \"{{i18n:events-31032022.10}}\"(break)friendship Penny -100\\speak Penny \"{{i18n:events-31032022.11}}\"/pause 500/speak Penny \"{{i18n:events-31032022.12}}\"/emote Penny 56/speed Penny 4/move Penny 0 1 3/speed Penny 4/move Penny -9 0 3 true/move farmer -2 0 0 true/addConversationTopic ItTakesAVillage_GusCooking {{MinimumDaysBetweenLessons}}/globalFade/viewport -1000 -1000/end"
+            }
+        },
+        /*Robin CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        },
+        /*Demetrius CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        },
+        /*Maru CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        },
+        /*Sebastian CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        },
+        /*Jas CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Robin",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Robin",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+            }
+        },
+        /*Vincent CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Robin",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Robin",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+            }
+        },
+        /*Jodi CT*/ {
+            "LogName": "Penny Kickstarts Lessons CT - Jodi",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jodi",
+            "Entries": {
+                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Jodi}}"
+            }
+        },
+        /*Kent CT*/ {
+            "LogName": "Penny Kickstarts Lessons CT - Kent",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kent",
+            "Entries": {
+                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Kent}}"
+            }
+        },
+        /*Sam CT*/ {
+            "LogName": "Penny Kickstarts Lessons CT - Sam",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "Entries": {
+                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Sam}}"
+            }
+        },
+        /*Marnie CT*/ {
+            "LogName": "Penny Kickstarts Lessons CT - Marnie",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Marnie",
+            "Entries": {
+                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Marnie}}"
+            }
+        },
+        /*Shane CT*/ {
+            "LogName": "Penny Kickstarts Lessons CT - Shane",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Shane",
+            "Entries": {
+                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Shane}}"
+            }
+        },
+        /*Penny CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        }, // Vary depending on whether the kids saw the metalworking lesson (Hopefully the kids enjoy the contrast of this versus working with metal with Clint. / It's nice that they get to see how to work with another material.)
         // add a short little wrap up event to have a way to have Penny talk about the end of the lessons (HasSeenEvent for all of them)? Could have Maru and Penny talking on the bench like they usually do and farmer joins in, emoteowo all around lol
             // OOOOH alternative, maybe Penny throws a little get together for all the Teacher Appreciation in the Saloon, with Gus and Emily's help.
                 // Teachers plus Penny: Elliott, Haley, Leah, Abigail, Sebastian, Sam, Demetrius, Maru, Emily, Harvey, Clint, Shane, Alex, Robin, and Gus.
