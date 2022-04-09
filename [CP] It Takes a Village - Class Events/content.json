@@ -29,14 +29,14 @@
 			"Name": "SkippableToken",
 			"Value": "pause 2000",
 			"When": {
-				"SkippablAbbyEconfig": "false"
+				"SkippableConfig": "false"
 			}
 		},
 		{
 			"Name": "SkippableToken",
 			"Value": "pause 2000/skippable",
 			"When": {
-				"SkippablAbbyEconfig": "true"
+				"SkippableConfig": "true"
 			}
 		},
 		// Dynamic Tokens section
