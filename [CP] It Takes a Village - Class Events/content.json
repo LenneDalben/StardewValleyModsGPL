@@ -207,45 +207,45 @@
 				"HasSeenEvent |contains=EmilyEmotionalDance": true,
 			}
 		},
-		// Clint Metal Working and Abigail Video Games
+		// Clint Metalworking and Abigail Video Games
 		{
-			"Name": "ClintMetalWorkAndAbbyGamesToken",
-			"Value": "AbbyGamesNoClintMetalWorkNo",
+			"Name": "ClintMetalworkAndAbbyGamesToken",
+			"Value": "AbbyGamesNoClintMetalworkNo",
 		},
 		{
-			"Name": "ClintMetalWorkAndAbbyGamesToken",
-			"Value": "{{Random: AbbyGamesYes, ClintMetalWorkYes}}",
+			"Name": "ClintMetalworkAndAbbyGamesToken",
+			"Value": "{{Random: AbbyGamesYes, ClintMetalworkYes}}",
 			"When": {
 				"HasSeenEvent |contains=31032022": true, // Penny kickstarts events
 				"HasSeenEvent |contains=AbbyGames": false,
-				"HasSeenEvent |contains=ClintMetalWork": false,
+				"HasSeenEvent |contains=ClintMetalwork": false,
 			}
 		},
 		{
-			"Name": "ClintMetalWorkAndAbbyGamesToken",
-			"Value": "AbbyGamesYesClintMetalWorkNo",
+			"Name": "ClintMetalworkAndAbbyGamesToken",
+			"Value": "AbbyGamesYesClintMetalworkNo",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
 				"HasSeenEvent |contains=AbbyGames": true,
-				"HasSeenEvent |contains=ClintMetalWork": false,
+				"HasSeenEvent |contains=ClintMetalwork": false,
 			}
 		},
 		{
-			"Name": "ClintMetalWorkAndAbbyGamesToken",
-			"Value": "ClintMetalWorkYesAbbyGamesNo",
+			"Name": "ClintMetalworkAndAbbyGamesToken",
+			"Value": "ClintMetalworkYesAbbyGamesNo",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
 				"HasSeenEvent |contains=AbbyGames": false,
-				"HasSeenEvent |contains=ClintMetalWork": true,
+				"HasSeenEvent |contains=ClintMetalwork": true,
 			}
 		},
 		{
-			"Name": "ClintMetalWorkAndAbbyGamesToken",
-			"Value": "ClintMetalWorkYesAbbyGamesYes",
+			"Name": "ClintMetalworkAndAbbyGamesToken",
+			"Value": "ClintMetalworkYesAbbyGamesYes",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
 				"HasSeenEvent |contains=AbbyGames": true,
-				"HasSeenEvent |contains=ClintMetalWork": true,
+				"HasSeenEvent |contains=ClintMetalwork": true,
 			}
 		},
 		// Sam Music and Shane Animal Care
