@@ -371,6 +371,47 @@
 				"HasSeenEvent |contains=RobinWoodworking": true,
 			}
 		},
+		// Willy & Linus Fishing and Caroline & Evelyn Gardening
+		{
+			"Name": "WillyLinusFishingAndCarolineEvelynGardeningToken",
+			"Value": "CarolineEvelynGardeningNoWillyLinusFishingNo",
+		},
+		{
+			"Name": "WillyLinusFishingAndCarolineEvelynGardeningToken",
+			"Value": "{{Random: CarolineEvelynGardeningYes, WillyLinusFishingYes}}",
+			"When": {
+				"HasSeenEvent |contains=31032022": true, // Penny kickstarts events
+				"HasSeenEvent |contains=CarolineEvelynGardening": false,
+				"HasSeenEvent |contains=WillyLinusFishing": false,
+			}
+		},
+		{
+			"Name": "WillyLinusFishingAndCarolineEvelynGardeningToken",
+			"Value": "CarolineEvelynGardeningYesWillyLinusFishingNo",
+			"When": {
+				"HasSeenEvent |contains=31032022": true,
+				"HasSeenEvent |contains=CarolineEvelynGardening": true,
+				"HasSeenEvent |contains=WillyLinusFishing": false,
+			}
+		},
+		{
+			"Name": "WillyLinusFishingAndCarolineEvelynGardeningToken",
+			"Value": "WillyLinusFishingYesCarolineEvelynGardeningNo",
+			"When": {
+				"HasSeenEvent |contains=31032022": true,
+				"HasSeenEvent |contains=CarolineEvelynGardening": false,
+				"HasSeenEvent |contains=WillyLinusFishing": true,
+			}
+		},
+		{
+			"Name": "WillyLinusFishingAndCarolineEvelynGardeningToken",
+			"Value": "WillyLinusFishingYesCarolineEvelynGardeningYes",
+			"When": {
+				"HasSeenEvent |contains=31032022": true,
+				"HasSeenEvent |contains=CarolineEvelynGardening": true,
+				"HasSeenEvent |contains=WillyLinusFishing": true,
+			}
+		},
 		// Dynamic Tokens for the randomized dialog based on events seen, separate from CTs
 		/*{
             "Name": "AlexLessonPreviousRefVincent",
