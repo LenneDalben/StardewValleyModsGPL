@@ -380,7 +380,7 @@
 			"Name": "WillyLinusFishingAndCarolineEvelynGardeningToken",
 			"Value": "{{Random: CarolineEvelynGardeningYes, WillyLinusFishingYes}}",
 			"When": {
-				"HasSeenEvent |contains=31032022": true, // Penny kickstarts events
+				"HasSeenEvent |contains=31032022": true,
 				"HasSeenEvent |contains=CarolineEvelynGardening": false,
 				"HasSeenEvent |contains=WillyLinusFishing": false,
 			}
@@ -454,6 +454,13 @@
 			"LogName": "Include It Takes a Village Lessons and Dialog",
 			"Action": "Include",
 			"FromFile": "assets/LessonsAndDialog.json"
+		},
+		// Loading sprites
+		{
+			"LogName": "Loading Seb Computer Sprite",
+			"Action": "Load",
+			"Target": "Characters/SebComputer",
+			"FromFile": "assets/sprites/SebComputer.png" // addTemporaryActor GhostFlame1 16 32 -999 460 2 false. the size is 16x44
 		},
 	]
 }
