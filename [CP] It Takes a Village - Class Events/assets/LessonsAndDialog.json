@@ -2,7 +2,7 @@
     "Changes": [
         // don't forget to i18n as you go!
         // Thoughts on how to nest the dynamic dialog via dynamic tokens and i18n: some of the dialog for default.json is written here. Within the dynamic tokens, put the i18n tokens. Then in the patches for the CTs, put the dynamic token name. The actual dialog lines go in the default.json. That should work.
-            // Need to make sure the naming convention is clear. HOOEY this will be a *lot* of dynamic tokens :blobsweat:
+        // Need to make sure the naming convention is clear. HOOEY this will be a *lot* of dynamic tokens :blobsweat:
         // For the audience kids: obviously Vincent and Jas are always there, but what modded kids attend Penny's lessons? I think Eloise, but not sure if anyone else does (Keahi / Trinnie?). Need permissions to include them, and also the mod authors' opinion on how those kids would react to each lesson (enjoy, dislike, indifferent).
         // Stray question: can you set multiple CTs in the same event or letter? In an event, separated by /? Unsure how you'd separate them for letters
         // Stray lul: there's an ANSWERING MACHINE with a portrait?! LOL
@@ -454,7 +454,7 @@
         //
         // Abigail Basic Economics INCOMPLETE
         // "If Gus comes into Dad's store and wants to buy 3 boxes of wheat flour, 1 bag of sugar, and 2 bottles of vinegar, how much would that cost? How much change would Gus get if he only had X money?"
-            // Get prices from the shop so it's all ~immersive~
+        // Get prices from the shop so it's all ~immersive~
         // Vincent all cross eyed over the numbers until Abigail brings out the props (SPRING OBJECTS SPAWNING LITTLE BY LITTLE WOOP WOOP)
         // Jas picks it up relatively quick
         // Add CT for Sebastian (with dynamic dialog!)
@@ -541,14 +541,14 @@
         //
         // Sebastian Computer Basics INCOMPLETE
         // HMMM where would be a good place for this? Maybe I can find where Seb's computer is (or just like, a computer) to spawn for the event in the library? Could have Seb say he moved it.
-            // Airyn noted the computer with its table is on TownInterior, on the right-hand side just below the drum kit.
-            // Hang a Lampshade™️ on the fact Seb brought both the laptop and his desk just for this lesson. Gunther can be implied to be giving Seb a Look
-            // Set up the desk and his laptop in front of Gunther's desk. Gunther like "you're not moving my bookshelves to get that desk in there ::looks over the glasses like a disappointed father::"
-            // Kids behind Seb and the desk/computer
+        // Airyn noted the computer with its table is on TownInterior, on the right-hand side just below the drum kit.
+        // Hang a Lampshade™️ on the fact Seb brought both the laptop and his desk just for this lesson. Gunther can be implied to be giving Seb a Look
+        // Set up the desk and his laptop in front of Gunther's desk. Gunther like "you're not moving my bookshelves to get that desk in there ::looks over the glasses like a disappointed father::"
+        // Kids behind Seb and the desk/computer
         // the kids would be a bit bored and a tough crowd for this one lol Seb not good at explaining in an entertaining way (went with little hello world console print and kids unimpressed. He be like "I can make it do anything I want :burnitallelmo:" and it's a no-sell). Seb definitely doing a deadpan glare (angry portrait lol).
-            // Mild heckling: Kids like "I don't see anything exciting happening :o " then the computer shows the hello world (OMG SPEECH BUBBLE ABOVE THE COMPUTER, CAN IT BE DONE???)
-                // Airyn mentioned maybe, if the computer is added as a temp actor
-            // If Abigail video game lesson seen, "when Ms. Abigail showed us a computer, it had a lot more flashing lights and it was fun". More. Deadpan. Glares. "That wasn't a computer like this one."
+        // Mild heckling: Kids like "I don't see anything exciting happening :o " then the computer shows the hello world (OMG SPEECH BUBBLE ABOVE THE COMPUTER, CAN IT BE DONE???)
+        // Airyn mentioned maybe, if the computer is added as a temp actor
+        // If Abigail video game lesson seen, "when Ms. Abigail showed us a computer, it had a lot more flashing lights and it was fun". More. Deadpan. Glares. "That wasn't a computer like this one."
         // Add CT for Abigail (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Sebastian Computer Basics Lesson",
@@ -650,8 +650,8 @@
         // Demetrius Botany INCOMPLETE
         // and this here is a conifer tree of the family Pinaceae or, a pine tree. Something something poisonous plant (poison ivy, not truly an ivy but member of the cashew and pistachio family Anacardiaceae), do not touch. Helpful rhyme: leaves of three, leave them be.
         // what about including a little birb watching o: ? I'd have to see about how to add a birb to pass through the event
-            // Airyn suggested birb could be added as a temp actor, and putting it on its own spritesheet would help keep things coherent if someone's using a mod that replaces the birbs. ALTHOUGH maybe it could be a generic term like avian MWUAHAHA all "look at them wings!" #maxcompat
-            //  Use Crow from Characters > Monsters. Demetrius will call it a "greater glossy puffle". Jas is like "I don't think that's right... :o" and Demetrius goes full scientist "aha, a lot of people think it looks like a crow! They look very similar, but there's certain key differences if you look closely"
+        // Airyn suggested birb could be added as a temp actor, and putting it on its own spritesheet would help keep things coherent if someone's using a mod that replaces the birbs. ALTHOUGH maybe it could be a generic term like avian MWUAHAHA all "look at them wings!" #maxcompat
+        //  Use Crow from Characters > Monsters. Demetrius will call it a "greater glossy puffle". Jas is like "I don't think that's right... :o" and Demetrius goes full scientist "aha, a lot of people think it looks like a crow! They look very similar, but there's certain key differences if you look closely"
         // Add CT for Maru (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Demetrius Botany Lesson",
@@ -745,7 +745,7 @@
         // Maru Electronics INCOMPLETE
         // MARU THE SCIENCE GURU! also she most definitely chants the song. Vincent joins in, Jas is unsure what to make of it.
         // little science experiment? Will have to see what sprites are available and maybe use some special effects, woop woop!
-            // Airyn mentioned tinkering robot sprite and Harvey's radio. Airyn is also a bean and offered to make smol custom sprites, like a potato battery :pufferwow:
+        // Airyn mentioned tinkering robot sprite and Harvey's radio. Airyn is also a bean and offered to make smol custom sprites, like a potato battery :pufferwow:
         // Big mad scientist laugh? Does she have a laugh sprite or only a portrait?
         // Add CT for Demetrius (with dynamic dialog!)
         /*Event proper*/ {
@@ -965,7 +965,7 @@
                 "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
             }
         }, // for Maru's CT: Harvey was so excited to have more people in the clinic OR the kids were surprisingly excited / understandably uncomfortable about being at the doctor (maybe 1 can be excited and the other not? Kids ARE different)
-            // Airyn mention in doctor dialog Jas says she's not scared and asking what the tools do while Vincent is nervous and asks for a lollipop for being brave :pufferaww: WHAT A CUTE KID
+        // Airyn mention in doctor dialog Jas says she's not scared and asking what the tools do while Vincent is nervous and asks for a lollipop for being brave :pufferaww: WHAT A CUTE KID
         /*Jas CT*/ {
             "LogName": "Demetrius Oil Makers CT - Robin",
             "Action": "EditData",
@@ -1030,7 +1030,7 @@
                 "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
             }
         }, // I was glad to hear Jas was excited by what she was learning. Hopefully poor Vincent will feel a little less nervous at the doctor now.
-            // SURPRISE should definitely edit Vincent's schedule dialog (if I can figure out how) assuming you've seen this event, to show he's a little less nervous. Something like "*sniff* Ok no lollipop today, I can do this!$s"
+        // SURPRISE should definitely edit Vincent's schedule dialog (if I can figure out how) assuming you've seen this event, to show he's a little less nervous. Something like "*sniff* Ok no lollipop today, I can do this!$s"
         //
         // Abigail Video Games INCOMPLETE
         // Meet in town outside Pierre's.
@@ -1044,7 +1044,7 @@
             "Action": "EditData",
             "Target": "Data/Events/Town", // move into Saloon
             "Entries": {
-                "31032023/w sunny": "50s/-1000 -1000/farmer 81 94 0 Penny 89 94 2 Jas 89 95 0 Vincent 90 95 0/viewport 87 93 true/pause 2000/skippable/emote Jas 32/jump Vincent 4/pause 500/speed Jas 4/move Jas 0 4 1 true/speed Vincent 4/move Vincent 0 4 3 true/move Penny -2 0 3/faceDirection Penny 2/faceDirection farmer 1/pause 200/emote Penny 28/emote farmer 8/move farmer 2 0 1 true/pause 100/faceDirection Penny 3/pause 300/speak Penny \"{{i18n:events-31032022.01}}\"/question null \"#{{i18n:events-31032022.02}}#{{i18n:events-31032022.03}}\"/splitSpeak Penny \"{{i18n:events-31032022.04}}~{{i18n:events-31032022.05}}\"/speak Penny \"{{i18n:events-31032022.06}}\"/pause 300/emote Penny 40/speak Penny \"{{i18n:events-31032022.07}}\"/quickQuestion #{{i18n:events-31032022.08}}#{{i18n:events-31032022.09}}(break)friendship Penny 100\\speak Penny \"{{i18n:events-31032022.10}}\"(break)friendship Penny -100\\speak Penny \"{{i18n:events-31032022.11}}\"/pause 500/speak Penny \"{{i18n:events-31032022.12}}\"/emote Penny 56/speed Penny 4/move Penny 0 1 3/speed Penny 4/move Penny -9 0 3 true/move farmer -2 0 0 true/addConversationTopic ItTakesAVillage_GusCooking {{MinimumDaysBetweenLessons}}/globalFade/viewport -1000 -1000/end"
+                "31032023": "50s/-1000 -1000/farmer 81 94 0 Penny 89 94 2 Jas 89 95 0 Vincent 90 95 0/viewport 87 93 true/pause 2000/skippable/emote Jas 32/jump Vincent 4/pause 500/speed Jas 4/move Jas 0 4 1 true/speed Vincent 4/move Vincent 0 4 3 true/move Penny -2 0 3/faceDirection Penny 2/faceDirection farmer 1/pause 200/emote Penny 28/emote farmer 8/move farmer 2 0 1 true/pause 100/faceDirection Penny 3/pause 300/speak Penny \"{{i18n:events-31032022.01}}\"/question null \"#{{i18n:events-31032022.02}}#{{i18n:events-31032022.03}}\"/splitSpeak Penny \"{{i18n:events-31032022.04}}~{{i18n:events-31032022.05}}\"/speak Penny \"{{i18n:events-31032022.06}}\"/pause 300/emote Penny 40/speak Penny \"{{i18n:events-31032022.07}}\"/quickQuestion #{{i18n:events-31032022.08}}#{{i18n:events-31032022.09}}(break)friendship Penny 100\\speak Penny \"{{i18n:events-31032022.10}}\"(break)friendship Penny -100\\speak Penny \"{{i18n:events-31032022.11}}\"/pause 500/speak Penny \"{{i18n:events-31032022.12}}\"/emote Penny 56/speed Penny 4/move Penny 0 1 3/speed Penny 4/move Penny -9 0 3 true/move farmer -2 0 0 true/addConversationTopic ItTakesAVillage_GusCooking {{MinimumDaysBetweenLessons}}/globalFade/viewport -1000 -1000/end"
             }
         },
         /*Abigail CT*/ {
@@ -1143,15 +1143,15 @@
                 "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
             }
         }, // "That's an interesting choice...$3.#$b#At least, um... they're learning about having good reflexes?#$b#%Penny lets out a puff of air.
-            // NEED TO TEST OUT THE #$b# to see if it works as intended
+        // NEED TO TEST OUT THE #$b# to see if it works as intended
         //
         // Client Metalworking INCOMPLETE
         // Twisting metal strips into candle holder o: anything I can do with the existing sprites for turning ore into a bar and then an in-game metal object? Is there a sizzle sound effect I can use? :roohmm:
-            // Could have a quick fade to black and then return to the scene (kids can be in a different position to further indicate time has passed) and then be like :sparkle sound: (playSound getNewSpecialItem) look at the finished object!
-            // OOOH OK BUT WHAT IF CLINT MAKES A THING THE KIDS GET TO TAKE HOME AS A SOUVENIR :CLavrilLayWow: (2 metal objects then) Then could have a little temporary baby map patch where the kids have the object in their respective room YES YES (the handwaving immersion reason for the object disappearing is because kids lose stuff lol)
-                // And the objects will be added in the max compat way, where it's literally only the object on the map, with the very specific coordinates (copy from Elliott Elegant Quill)
-                // Airyn said made he could make smol candleholder sprites
-            // Will need to test if I can use the geode crushing animation or not. I can't remember if Clint has a hammering animation that's not smol, otherwise, we could have the kids standing in front of the anvil facing it, fade to black, clank sounds, sparkle sound, fade in. Airyn also recommended little production bubble pop up, maybe a little silver or copper star? Airyn offered sprites for these
+        // Could have a quick fade to black and then return to the scene (kids can be in a different position to further indicate time has passed) and then be like :sparkle sound: (playSound getNewSpecialItem) look at the finished object!
+        // OOOH OK BUT WHAT IF CLINT MAKES A THING THE KIDS GET TO TAKE HOME AS A SOUVENIR :CLavrilLayWow: (2 metal objects then) Then could have a little temporary baby map patch where the kids have the object in their respective room YES YES (the handwaving immersion reason for the object disappearing is because kids lose stuff lol)
+        // And the objects will be added in the max compat way, where it's literally only the object on the map, with the very specific coordinates (copy from Elliott Elegant Quill)
+        // Airyn said made he could make smol candleholder sprites
+        // Will need to test if I can use the geode crushing animation or not. I can't remember if Clint has a hammering animation that's not smol, otherwise, we could have the kids standing in front of the anvil facing it, fade to black, clank sounds, sparkle sound, fade in. Airyn also recommended little production bubble pop up, maybe a little silver or copper star? Airyn offered sprites for these
         // "wow, Mr Clint, that's so cool!!! :CLavrilLayWow: "
         // But Clint is just tight lipped and socially awkward like “um, sure. just is. Don't get too close, it's hot."
         // Add CT for Abigail (with dynamic dialog!)
@@ -1249,7 +1249,7 @@
         /*Event proper*/ {
             "LogName": "Sam Music Lesson",
             "Action": "EditData",
-            "Target": "Data/Events/Town", // pre-CC near the fountain in town, post-CC in CC
+            "Target": "Data/Events/Town", // Near fountain in town, requires sunny day
             "Entries": {
                 "31032023/w sunny": "50s/-1000 -1000/farmer 81 94 0 Penny 89 94 2 Jas 89 95 0 Vincent 90 95 0/viewport 87 93 true/pause 2000/skippable/emote Jas 32/jump Vincent 4/pause 500/speed Jas 4/move Jas 0 4 1 true/speed Vincent 4/move Vincent 0 4 3 true/move Penny -2 0 3/faceDirection Penny 2/faceDirection farmer 1/pause 200/emote Penny 28/emote farmer 8/move farmer 2 0 1 true/pause 100/faceDirection Penny 3/pause 300/speak Penny \"{{i18n:events-31032022.01}}\"/question null \"#{{i18n:events-31032022.02}}#{{i18n:events-31032022.03}}\"/splitSpeak Penny \"{{i18n:events-31032022.04}}~{{i18n:events-31032022.05}}\"/speak Penny \"{{i18n:events-31032022.06}}\"/pause 300/emote Penny 40/speak Penny \"{{i18n:events-31032022.07}}\"/quickQuestion #{{i18n:events-31032022.08}}#{{i18n:events-31032022.09}}(break)friendship Penny 100\\speak Penny \"{{i18n:events-31032022.10}}\"(break)friendship Penny -100\\speak Penny \"{{i18n:events-31032022.11}}\"/pause 500/speak Penny \"{{i18n:events-31032022.12}}\"/emote Penny 56/speed Penny 4/move Penny 0 1 3/speed Penny 4/move Penny -9 0 3 true/move farmer -2 0 0 true/addConversationTopic ItTakesAVillage_GusCooking {{MinimumDaysBetweenLessons}}/globalFade/viewport -1000 -1000/end"
             }
@@ -1278,6 +1278,14 @@
                 "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
             }
         }, // vary depending on whether the Abigail gaming lesson was seen (I'm not taking it personally that Vincent preferred playing music with Sam over my lesson. Vincent is Sam's little brother.#$b#Jas too, huh?$3#$b#Oh well. I'm not quitting my day job, that's for sure.$s / At least Sam's still in the running for fun teacher.$s)
+        /*Lewis CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        }, // That brother of Vincent's sure knows how to disturb the peace in this town. I got noise complaints!$3#$b#Who complained?#$b#That's not important.
         /*Jas CT*/ {
             "LogName": "Demetrius Oil Makers CT - Robin",
             "Action": "EditData",
@@ -1345,12 +1353,12 @@
         //
         // Shane Animal Care INCOMPLETE
         // Marnie tending to the shop, proud!
-            // Marnie has slightly different response depending on whether Shane 6 heart event was seen
-            // Maybe the chickens we see are the blue chickens if Shane's 8 heart event are seen (will need to find out how to spawn the chickens, check Ranch Expansion's barn events for examples. Presumably it's via temporary actor)
+        // Marnie has slightly different response depending on whether Shane 6 heart event was seen
+        // Maybe the chickens we see are the blue chickens if Shane's 8 heart event are seen (will need to find out how to spawn the chickens, check Ranch Expansion's barn events for examples. Presumably it's via temporary actor)
         // much excite around animals
         // Could be something like "it's important to feed them the correct food, and the proper amount."
-            // Jas interrupts in total Hermione fashion because she knows how much
-            // Also something about giving the animals space, don't want them to feel crowded
+        // Jas interrupts in total Hermione fashion because she knows how much
+        // Also something about giving the animals space, don't want them to feel crowded
         /*Event proper*/ {
             "LogName": "Shane Animal Care Lesson",
             "Action": "EditData",
@@ -1534,7 +1542,7 @@
         //
         // Robin Woodworking INCOMPLETE
         // Hey kids! This is how you make a flute block!
-            // Spawn in the required items for a flute block (wood, copper, fiber)
+        // Spawn in the required items for a flute block (wood, copper, fiber)
         // Oooh ahhh from the youths
         // Fade to black, fade in, the kids take turns striking it. Need to find the sound effects for the flute block, if it's usable.
         // Add CT for Abigail (with dynamic dialog!)
@@ -1643,10 +1651,316 @@
             }
         }, // Vary depending on whether the kids saw the metalworking lesson (Hopefully the kids enjoy the contrast of this versus working with metal with Clint. / It's nice that they get to see how to work with another material.)
         //
+        // Willy & Linus Fishing INCOMPLETE
+        // Willy could teach a lesson about fishing or fish pots (since I think his vanilla intro dialogue mentions he wants to pass on the art to a new generation) and Linus could join & mention something about finding bait?
+        // Add CT for Evelyn and Caroline (with dynamic dialog!)
+        /*Event proper*/ {
+            "LogName": "Willy & Linus Fishing Lesson",
+            "Action": "EditData",
+            "Target": "Data/Events/Beach",
+            "Entries": {
+                "31032023/w sunny": "50s/-1000 -1000/farmer 81 94 0 Penny 89 94 2 Jas 89 95 0 Vincent 90 95 0/viewport 87 93 true/pause 2000/skippable/emote Jas 32/jump Vincent 4/pause 500/speed Jas 4/move Jas 0 4 1 true/speed Vincent 4/move Vincent 0 4 3 true/move Penny -2 0 3/faceDirection Penny 2/faceDirection farmer 1/pause 200/emote Penny 28/emote farmer 8/move farmer 2 0 1 true/pause 100/faceDirection Penny 3/pause 300/speak Penny \"{{i18n:events-31032022.01}}\"/question null \"#{{i18n:events-31032022.02}}#{{i18n:events-31032022.03}}\"/splitSpeak Penny \"{{i18n:events-31032022.04}}~{{i18n:events-31032022.05}}\"/speak Penny \"{{i18n:events-31032022.06}}\"/pause 300/emote Penny 40/speak Penny \"{{i18n:events-31032022.07}}\"/quickQuestion #{{i18n:events-31032022.08}}#{{i18n:events-31032022.09}}(break)friendship Penny 100\\speak Penny \"{{i18n:events-31032022.10}}\"(break)friendship Penny -100\\speak Penny \"{{i18n:events-31032022.11}}\"/pause 500/speak Penny \"{{i18n:events-31032022.12}}\"/emote Penny 56/speed Penny 4/move Penny 0 1 3/speed Penny 4/move Penny -9 0 3 true/move farmer -2 0 0 true/addConversationTopic ItTakesAVillage_GusCooking {{MinimumDaysBetweenLessons}}/globalFade/viewport -1000 -1000/end"
+            }
+        },
+        /*Willy CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        },
+        /*Linus CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        },
+        /*Clint CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        },
+        /*Elliott CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        },
+        /*Lewis CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        }, // Good to see that someone's showing the children potential career options! It's good to give them goals so they don't end up as delinquents.
+        /*Gus CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        }, // I'm glad Linus is comfortable enough with the townspeople to get involved as a guest lecturer.
+        /*Wizard CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        },
+        /*Leo CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        },
+        /*Jas CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Robin",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Robin",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+            }
+        },
+        /*Vincent CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Robin",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Robin",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+            }
+        },
+        /*Jodi CT*/ {
+            "LogName": "Penny Kickstarts Lessons CT - Jodi",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jodi",
+            "Entries": {
+                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Jodi}}"
+            }
+        },
+        /*Kent CT*/ {
+            "LogName": "Penny Kickstarts Lessons CT - Kent",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kent",
+            "Entries": {
+                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Kent}}"
+            }
+        },
+        /*Sam CT*/ {
+            "LogName": "Penny Kickstarts Lessons CT - Sam",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "Entries": {
+                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Sam}}"
+            }
+        },
+        /*Marnie CT*/ {
+            "LogName": "Penny Kickstarts Lessons CT - Marnie",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Marnie",
+            "Entries": {
+                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Marnie}}"
+            }
+        },
+        /*Shane CT*/ {
+            "LogName": "Penny Kickstarts Lessons CT - Shane",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Shane",
+            "Entries": {
+                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Shane}}"
+            }
+        },
+        /*Penny CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        }, // I'm surprised to hear Linus joined the class, but I'm glad he helped teach the kids something!
+        //
+        // Caroline & Evelyn Gardening INCOMPLETE
+        // acknowledges it would be way too dangerous to introduce them to the stove (must have adult supervision). Instead settles for showing them how to make a salad. HEALTHY VEGGIES :clap: Secret ingredient, special dressing, idk.
+        // Add CT for Willy and Linus (with dynamic dialog!)
+        /*Event proper*/ {
+            "LogName": "Caroline & Evelyn Gardening Lesson",
+            "Action": "EditData",
+            "Target": "Data/Events/SeedShop", // start in Pierre's shop, move to the sunroom, literally Sunroom
+            "Entries": {
+                "31032023/w sunny": "50s/-1000 -1000/farmer 81 94 0 Penny 89 94 2 Jas 89 95 0 Vincent 90 95 0/viewport 87 93 true/pause 2000/skippable/emote Jas 32/jump Vincent 4/pause 500/speed Jas 4/move Jas 0 4 1 true/speed Vincent 4/move Vincent 0 4 3 true/move Penny -2 0 3/faceDirection Penny 2/faceDirection farmer 1/pause 200/emote Penny 28/emote farmer 8/move farmer 2 0 1 true/pause 100/faceDirection Penny 3/pause 300/speak Penny \"{{i18n:events-31032022.01}}\"/question null \"#{{i18n:events-31032022.02}}#{{i18n:events-31032022.03}}\"/splitSpeak Penny \"{{i18n:events-31032022.04}}~{{i18n:events-31032022.05}}\"/speak Penny \"{{i18n:events-31032022.06}}\"/pause 300/emote Penny 40/speak Penny \"{{i18n:events-31032022.07}}\"/quickQuestion #{{i18n:events-31032022.08}}#{{i18n:events-31032022.09}}(break)friendship Penny 100\\speak Penny \"{{i18n:events-31032022.10}}\"(break)friendship Penny -100\\speak Penny \"{{i18n:events-31032022.11}}\"/pause 500/speak Penny \"{{i18n:events-31032022.12}}\"/emote Penny 56/speed Penny 4/move Penny 0 1 3/speed Penny 4/move Penny -9 0 3 true/move farmer -2 0 0 true/addConversationTopic ItTakesAVillage_GusCooking {{MinimumDaysBetweenLessons}}/globalFade/viewport -1000 -1000/end"
+            }
+        },
+        /*Caroline CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        },
+        /*Evelyn CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        },
+        /*Pierre CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        },
+        /*Abigail CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        },
+        /*George CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        },
+        /*Jas CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Robin",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Robin",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+            }
+        },
+        /*Vincent CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Robin",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Robin",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+            }
+        },
+        /*Jodi CT*/ {
+            "LogName": "Penny Kickstarts Lessons CT - Jodi",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jodi",
+            "Entries": {
+                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Jodi}}"
+            }
+        },
+        /*Kent CT*/ {
+            "LogName": "Penny Kickstarts Lessons CT - Kent",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kent",
+            "Entries": {
+                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Kent}}"
+            }
+        },
+        /*Sam CT*/ {
+            "LogName": "Penny Kickstarts Lessons CT - Sam",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "Entries": {
+                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Sam}}"
+            }
+        },
+        /*Marnie CT*/ {
+            "LogName": "Penny Kickstarts Lessons CT - Marnie",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Marnie",
+            "Entries": {
+                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Marnie}}"
+            }
+        },
+        /*Shane CT*/ {
+            "LogName": "Penny Kickstarts Lessons CT - Shane",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Shane",
+            "Entries": {
+                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Shane}}"
+            }
+        },
+        /*Penny CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        }, // Caroline's sunroom is quite private, so I'm glad she was willing to share it with Evelyn and the kids.
+        //
         // add a short little wrap up event to have a way to have Penny talk about the end of the lessons (HasSeenEvent for all of them). Gus and Emily surprise Penny with a Teacher Appreciation get together in the Saloon. They also emphasize thanks to Penny for organizing the lessons.
-                // Teachers plus Penny: Elliott, Haley, Leah, Abigail, Sebastian, Sam, Demetrius, Maru, Emily, Harvey, Clint, Shane, Alex, Robin, and Gus.
-                // Would the other townspeople still attend, say Pam, Lewis, Caroline, Marnie, Evelyn, George, Gunther, Marlon, Jodi, Kent, and Willy?
-                // Bonus moment when farmer leaves Linus is outside or something, I WANT TO INCLUDE HIM O~O OHHHHHHHHHHH MAYBE HE'S TALKING TO KROBUS AND KROBUS HAS TRENCHCOAT, AND THE WIZARD IS THERE TOO :pandy happy clap: lore, what lore pffff.
-                    // Finnnnnne the Linus, Krobus, and Wizard get-together can be toggleable via EasterEgg config lol
+        // Teachers plus Penny: Elliott, Haley, Leah, Abigail, Sebastian, Sam, Demetrius, Maru, Emily, Harvey, Clint, Shane, Alex, Robin, and Gus.
+        // Would the other townspeople still attend, say Pam, Lewis, Caroline, Marnie, Evelyn, George, Gunther, Marlon, Jodi, Kent, and Willy?
+        // Lewis can thank Penny especially as well. Say something like he's impressed she took on the challenge and it went well. He's heard good things, etc.
+        // Bonus moment when farmer leaves Linus is outside or something, I WANT TO INCLUDE HIM O~O OHHHHHHHHHHH MAYBE HE'S TALKING TO KROBUS AND KROBUS HAS TRENCHCOAT, AND THE WIZARD IS THERE TOO :pandy happy clap: lore, what lore pffff.
+        // Finnnnnne the Linus, Krobus, and Wizard get-together can be toggleable via EasterEgg config lol
+        // Penny kickstarts the lessons!
+        /*Event proper*/ {
+            "LogName": "Penny Kickstarts Lessons",
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "Entries": {
+                "31032022/w sunny/f Penny 1500/t 930 1900": "50s/-1000 -1000/farmer 81 94 0 Penny 89 94 2 Jas 89 95 0 Vincent 90 95 0/viewport 87 97 true/{{SkippableToken}}/emote Jas 32/jump Vincent 4/pause 500/speed Jas 4/move Jas 0 4 1 true/speed Vincent 4/move Vincent 0 4 3 true/move Penny -2 0 3/faceDirection Penny 2/faceDirection farmer 1/pause 200/emote Penny 28/emote farmer 8/move farmer 2 0 1 true/pause 100/faceDirection Penny 3/pause 300/speak Penny \"{{i18n:events-31032022.01}}\"/question null \"#{{i18n:events-31032022.02}}#{{i18n:events-31032022.03}}\"/splitSpeak Penny \"{{i18n:events-31032022.04}}~{{i18n:events-31032022.05}}\"/speak Penny \"{{i18n:events-31032022.06}}\"/pause 300/emote Penny 40/speak Penny \"{{i18n:events-31032022.07}}\"/quickQuestion #{{i18n:events-31032022.08}}#{{i18n:events-31032022.09}}(break)friendship Penny 100\\speak Penny \"{{i18n:events-31032022.10}}\"(break)friendship Penny -100\\speak Penny \"{{i18n:events-31032022.11}}\"/pause 500/speak Penny \"{{i18n:events-31032022.12}}\"/emote Penny 56/speed Penny 4/move Penny 0 1 3/speed Penny 4/move Penny -9 0 3 true/move farmer -2 0 0 true/addConversationTopic ItTakesAVillage_Beginning {{MinimumDaysBetweenLessons}}/globalFade/viewport -1000 -1000/end"
+            }
+        },
+        /*Jodi CT*/ {
+            "LogName": "Penny Kickstarts Lessons CT - Jodi",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jodi",
+            "Entries": {
+                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Jodi}}"
+            }
+        },
+        /*Kent CT*/ {
+            "LogName": "Penny Kickstarts Lessons CT - Kent",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kent",
+            "Entries": {
+                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Kent}}"
+            }
+        },
+        /*Sam CT*/ {
+            "LogName": "Penny Kickstarts Lessons CT - Sam",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "Entries": {
+                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Sam}}"
+            }
+        },
+        /*Marnie CT*/ {
+            "LogName": "Penny Kickstarts Lessons CT - Marnie",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Marnie",
+            "Entries": {
+                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Marnie}}"
+            }
+        },
+        /*Shane CT*/ {
+            "LogName": "Penny Kickstarts Lessons CT - Shane",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Shane",
+            "Entries": {
+                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Shane}}"
+            }
+        },
     ]
 }
