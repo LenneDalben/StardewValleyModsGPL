@@ -15,6 +15,7 @@ Config Options
 * OrderType: specify which types of special orders you'd like. By default, all are toggled: jelly, pickle, beer, wine, honey, mead, juice, roe, animal, machine, and misc.
 * EasyMode: true or false, default is false. Specify if you want the 3 biggest special orders to be easier by requiring less items. The rewards and duration are adjusted accordingly.
 * EasterEgg: true or false, default is true. You will see slightly joke-y, slightly not lore-friendly rewards as part of the regular rewards for some orders. If you don't think you can briefly suspend disbelief, set it to false, and you won't see the orders with those rewards.
+* LoadAdventurerGuildConfig: true or false, default is true. Set this to false if you have a mod besides Make Marlon Real that adds events to the Adventurer's Guild. TNAG automatically detects Make Marlon Real so adjusting this setting is not needed for it.
 
 With regards to the "sparseness" of the orders: some orders have seasonal checks, though not all of them. Most have skill checks, and others have additional requirements like seeing a specific event. Refer to the spoiler guide for full details. The game picks from a pool of the available orders, so if you'd prefer to get through some of the vanilla special orders first, install this mod later in your playthrough.
 
