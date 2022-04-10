@@ -647,7 +647,7 @@
         }, // The kids were not very talkative about this lesson. I hope they were a good audience...
         //
         // Demetrius Botany INCOMPLETE
-        // and this here is <technical name for tree> or, X tree. Something something poisonous plant / frog, do not touch. Could add token that if it's spring or summer the frog shows up and hops?
+        // and this here is a conifer tree of the family Pinaceae or, a pine tree. Something something poisonous plant (poison ivy, not truly an ivy but member of the cashew and pistachio family Anacardiaceae), do not touch. Helpful rhyme: leaves of three, leave them be.
         // what about including a little birb watching o: ? I'd have to see about how to add a birb to pass through the event
             // Airyn suggested birb could be added as a temp actor, and putting it on its own spritesheet would help keep things coherent if someone's using a mod that replaces the birbs. ALTHOUGH maybe it could be a generic term like avian MWUAHAHA all "look at them wings!" #maxcompat
             //  Use Crow from Characters > Monsters. Demetrius will call it a "greater glossy puffle". Jas is like "I don't think that's right... :o" and Demetrius goes full scientist "aha, a lot of people think it looks like a crow! They look very similar, but there's certain key differences if you look closely"
@@ -744,7 +744,7 @@
         // Maru Electronics INCOMPLETE
         // MARU THE SCIENCE GURU! also she most definitely chants the song. Vincent joins in, Jas is unsure what to make of it.
         // little science experiment? Will have to see what sprites are available and maybe use some special effects, woop woop!
-            // Airyn mentioned tinkering robot sprite and Harvey's radio. Airyn is also a bean and offerent to make smol custom sprites, like a potato battery :pufferwow:
+            // Airyn mentioned tinkering robot sprite and Harvey's radio. Airyn is also a bean and offered to make smol custom sprites, like a potato battery :pufferwow:
         // Big mad scientist laugh? Does she have a laugh sprite or only a portrait?
         // Add CT for Demetrius (with dynamic dialog!)
         /*Event proper*/ {
@@ -1077,7 +1077,7 @@
             "Entries": {
                 "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
             }
-        }, // Vary whether Seb computer lesson played ( Hmph I guess I could have taken the easy route and showed the kids how to play games too...#$b#What do you mean Abigail gave them 2 other actual lessons?!#$b#Is it too late to change the lesson to showing them how to play pool? / Hmph I guess I could have taken the easy route and showed the kids how to play games too...#$b#What do you mean Abigail gave them 2 other actual lessons?!#$b#Maybe I can redeem myself by showing them how to play pool?) <CHECK IF THE E THING MIGHT HELP HERE TO HAVE THE LAST ONE BE AFTER YOU COMPLETELY CLOSE OUT THE DIALOG BOX.>
+        }, // Vary whether Seb computer lesson played ( Hmph I guess I could have taken the easy route and showed the kids how to play games too...#$b#What do you mean Abigail gave them other actual lessons?!#$b#Is it too late to change the lesson to showing them how to play pool? / Hmph I guess I could have taken the easy route and showed the kids how to play games too...#$b#What do you mean Abigail gave them other actual lessons?!#$b#Maybe I can redeem myself by showing them how to play pool?) <CHECK IF THE E THING MIGHT HELP HERE TO HAVE THE LAST ONE BE AFTER YOU COMPLETELY CLOSE OUT THE DIALOG BOX.>
         /*Jas CT*/ {
             "LogName": "Demetrius Oil Makers CT - Robin",
             "Action": "EditData",
@@ -1117,7 +1117,7 @@
             "Entries": {
                 "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Sam}}"
             }
-        }, // Vary whether the Sam music lesson played (Kinda feel like Abigail showing the kids video games is cheating for popularity points...$s/ Kinda feel like Abigail showing the kids video games is cheating for popularity points...$s#$b#At least Vincent enjoyed jamming out with me!)
+        }, // Vary whether the Sam music lesson played (Kinda feel like Abigail showing the kids video games is cheating for popularity points...$s / Kinda feel like Abigail showing the kids video games is cheating for popularity points...$s#$b#At least Vincent enjoyed jamming out with me!)
         /*Marnie CT*/ {
             "LogName": "Penny Kickstarts Lessons CT - Marnie",
             "Action": "EditData",
@@ -1266,7 +1266,7 @@
             "Entries": {
                 "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
             }
-        }, // vary depending on whether the Abigail gaming lesson was seen (Hehe, I have a secret weapon in my back pocket to ensure the kids enjoy time with me.  #$b#Of course it's a compet-$h#$b#I've said too much.$6 / Sure, sure, the kids made music together. I taught them how to handle controls though.#$b#Besides, Vincent was probably always going to prefer Sam, so Sam's not really in the running.$3#$b#What's the competition?#$b#I've said too much.$6)
+        }, // vary depending on whether the Abigail gaming lesson was seen (Hehe, I have a secret weapon in my back pocket to ensure the kids enjoy time with me.#$b#Of course it's a compet-$h#$b#I've said too much.$6 / Sure, sure, the kids made music together. I taught them how to handle controls though.#$b#Besides, Vincent was probably always going to prefer Sam, so Sam's not really in the running.$3#$b#What's the competition?#$b#I've said too much.$6)
         /*Sebastian CT*/ {
             "LogName": "Demetrius Oil Makers CT - Demetrius",
             "Action": "EditData",
@@ -1343,7 +1343,7 @@
         // Shane Animal Care INCOMPLETE
         // Marnie tending to the shop, proud!
         // much excite around animals
-        // Could be something like "it's important to feed them the correct food, and the proper amount.
+        // Could be something like "it's important to feed them the correct food, and the proper amount."
             // Jas interrupts in total Hermione fashion because she knows how much
             // Also something about giving the animals space, don't want them to feel crowded
         /*Event proper*/ {
