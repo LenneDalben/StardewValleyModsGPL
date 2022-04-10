@@ -7,6 +7,8 @@ The Diverse Stardew (DSV) server continues to provide excellent ideas and were d
 
 It took a lot of effort to learn some new modding skills for the rewards, so I hope you enjoy :)
 
+Turkish translation provided by <a href="https://www.moddrop.com/stardew-valley/profile/225898">KediDili</a>!
+
 
 ||Configuration||
 Config Options
