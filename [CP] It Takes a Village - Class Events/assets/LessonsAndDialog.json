@@ -547,6 +547,7 @@
             // Kids behind Seb and the desk/computer
         // the kids would be a bit bored and a tough crowd for this one lol Seb not good at explaining in an entertaining way (went with little hello world console print and kids unimpressed. He be like "I can make it do anything I want :burnitallelmo:" and it's a no-sell). Seb definitely doing a deadpan glare (angry portrait lol).
             // Mild heckling: Kids like "I don't see anything exciting happening :o " then the computer shows the hello world (OMG SPEECH BUBBLE ABOVE THE COMPUTER, CAN IT BE DONE???)
+                // Airyn mentioned maybe, if the computer is added as a temp actor
             // If Abigail video game lesson seen, "when Ms. Abigail showed us a computer, it had a lot more flashing lights and it was fun". More. Deadpan. Glares. "That wasn't a computer like this one."
         // Add CT for Abigail (with dynamic dialog!)
         /*Event proper*/ {
@@ -1149,6 +1150,8 @@
             // Could have a quick fade to black and then return to the scene (kids can be in a different position to further indicate time has passed) and then be like :sparkle sound: (playSound getNewSpecialItem) look at the finished object!
             // OOOH OK BUT WHAT IF CLINT MAKES A THING THE KIDS GET TO TAKE HOME AS A SOUVENIR :CLavrilLayWow: (2 metal objects then) Then could have a little temporary baby map patch where the kids have the object in their respective room YES YES (the handwaving immersion reason for the object disappearing is because kids lose stuff lol)
                 // And the objects will be added in the max compat way, where it's literally only the object on the map, with the very specific coordinates (copy from Elliott Elegant Quill)
+                // Airyn said made he could make smol candleholder sprites
+            // Will need to test if I can use the geode crushing animation or not. I can't remember if Clint has a hammering animation that's not smol, otherwise, we could have the kids standing in front of the anvil facing it, fade to black, clank sounds, sparkle sound, fade in. Airyn also recommended little production bubble pop up, maybe a little silver or copper star? Airyn offered sprites for these
         // "wow, Mr Clint, that's so cool!!! :CLavrilLayWow: "
         // But Clint is just tight lipped and socially awkward like “um, sure. just is. Don't get too close, it's hot."
         // Add CT for Abigail (with dynamic dialog!)
@@ -1175,7 +1178,7 @@
             "Entries": {
                 "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
             }
-        }, // is Willy friendly with Clint? :maruthinking: I think I remember them sitting together at the saloon
+        },
         /*Jas CT*/ {
             "LogName": "Demetrius Oil Makers CT - Robin",
             "Action": "EditData",
@@ -1274,7 +1277,7 @@
             "Entries": {
                 "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
             }
-        }, // vary depending on whether the Abigail gaming lesson was seen (I'm not taking it personally that Vincent preferred playing music with Sam over my lesson. Vincent is Sam's little brother.#$b#Jas too, huh?$3#$b#Oh well. I'm not quitting my day job, that's for sure.$s (is this sad portrait a little too emotive for Seb?) / At least Sam's still in the running for fun teacher.$s)
+        }, // vary depending on whether the Abigail gaming lesson was seen (I'm not taking it personally that Vincent preferred playing music with Sam over my lesson. Vincent is Sam's little brother.#$b#Jas too, huh?$3#$b#Oh well. I'm not quitting my day job, that's for sure.$s / At least Sam's still in the running for fun teacher.$s)
         /*Jas CT*/ {
             "LogName": "Demetrius Oil Makers CT - Robin",
             "Action": "EditData",
@@ -1342,6 +1345,8 @@
         //
         // Shane Animal Care INCOMPLETE
         // Marnie tending to the shop, proud!
+            // Marnie has slightly different response depending on whether Shane 6 heart event was seen
+            // Maybe the chickens we see are the blue chickens if Shane's 8 heart event are seen (will need to find out how to spawn the chickens, check Ranch Expansion's barn events for examples. Presumably it's via temporary actor)
         // much excite around animals
         // Could be something like "it's important to feed them the correct food, and the proper amount."
             // Jas interrupts in total Hermione fashion because she knows how much
@@ -1528,10 +1533,10 @@
         }, // I wonder if I should ask Abigail if she can teach me a move or two...
         //
         // Robin Woodworking INCOMPLETE
-        // Hey kids! This is how you make a drum block!
-            // Spawn in the required items for a drum block (wood obviously, but idk what else)
+        // Hey kids! This is how you make a flute block!
+            // Spawn in the required items for a flute block (wood, copper, fiber)
         // Oooh ahhh from the youths
-        // Fade to black, fade in, the kids take turns "stepping on it". Need to find the sound effects for the drum block, if it's usable.
+        // Fade to black, fade in, the kids take turns striking it. Need to find the sound effects for the flute block, if it's usable.
         // Add CT for Abigail (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Robin Woodworking Lesson",
@@ -1638,8 +1643,7 @@
             }
         }, // Vary depending on whether the kids saw the metalworking lesson (Hopefully the kids enjoy the contrast of this versus working with metal with Clint. / It's nice that they get to see how to work with another material.)
         //
-        // add a short little wrap up event to have a way to have Penny talk about the end of the lessons (HasSeenEvent for all of them)? Could have Maru and Penny talking on the bench like they usually do and farmer joins in, emoteowo all around lol
-            // OOOOH alternative, maybe Penny throws a little get together for all the Teacher Appreciation in the Saloon, with Gus and Emily's help.
+        // add a short little wrap up event to have a way to have Penny talk about the end of the lessons (HasSeenEvent for all of them). Gus and Emily surprise Penny with a Teacher Appreciation get together in the Saloon. They also emphasize thanks to Penny for organizing the lessons.
                 // Teachers plus Penny: Elliott, Haley, Leah, Abigail, Sebastian, Sam, Demetrius, Maru, Emily, Harvey, Clint, Shane, Alex, Robin, and Gus.
                 // Would the other townspeople still attend, say Pam, Lewis, Caroline, Marnie, Evelyn, George, Gunther, Marlon, Jodi, Kent, and Willy?
                 // Bonus moment when farmer leaves Linus is outside or something, I WANT TO INCLUDE HIM O~O OHHHHHHHHHHH MAYBE HE'S TALKING TO KROBUS AND KROBUS HAS TRENCHCOAT, AND THE WIZARD IS THERE TOO :pandy happy clap: lore, what lore pffff.
