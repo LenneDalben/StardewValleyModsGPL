@@ -1637,6 +1637,7 @@
                 "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
             }
         }, // Vary depending on whether the kids saw the metalworking lesson (Hopefully the kids enjoy the contrast of this versus working with metal with Clint. / It's nice that they get to see how to work with another material.)
+        //
         // add a short little wrap up event to have a way to have Penny talk about the end of the lessons (HasSeenEvent for all of them)? Could have Maru and Penny talking on the bench like they usually do and farmer joins in, emoteowo all around lol
             // OOOOH alternative, maybe Penny throws a little get together for all the Teacher Appreciation in the Saloon, with Gus and Emily's help.
                 // Teachers plus Penny: Elliott, Haley, Leah, Abigail, Sebastian, Sam, Demetrius, Maru, Emily, Harvey, Clint, Shane, Alex, Robin, and Gus.
