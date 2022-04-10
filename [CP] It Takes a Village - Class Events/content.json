@@ -380,7 +380,7 @@
 			"Name": "WillyLinusFishingAndCarolineEvelynGardeningToken",
 			"Value": "{{Random: CarolineEvelynGardeningYes, WillyLinusFishingYes}}",
 			"When": {
-				"HasSeenEvent |contains=31032022": true,
+				"HasSeenEvent |contains=31032022": true,  // Penny kickstarts events
 				"HasSeenEvent |contains=CarolineEvelynGardening": false,
 				"HasSeenEvent |contains=WillyLinusFishing": false,
 			}
