@@ -1,0 +1,676 @@
+{
+  // provided by KediDili
+  // ***Config Options***
+  // Repeatable
+  "config.RepeatableConfig.name": "TekrarlanabilirAyar",
+	"config.RepeatableConfig.description": "Özel siparişlerin tekrarlanabilir olmasını sağlar (Açık, Kapalı). Varsayılan açıktır. Tasarımları gereği bazı siparişlerin tekrarlanamayacağını da aklınızda tutun.",
+	"config.RepeatableConfig.values.true": "Açık",
+	"config.RepeatableConfig.values.false": "Kapalı",
+  //
+  // Include Island Content
+  "config.IncludeIslandContent.name": "AdaİçeriğiniEkle",
+	"config.IncludeIslandContent.description": "Özel siparişlerin ada tariflerini de içermesini isteyip istemediğinizi belirtin (Açık, Kapalı). Varsayılan açıktır.",
+	"config.IncludeIslandContent.values.true": "Açık",
+	"config.IncludeIslandContent.values.false": "Kapalı",
+  //
+  // Order Type
+  "config.OrderType.name": "SiparişÇeşidi",
+	"config.OrderType.description": "Hangi tür siparişleri istediğinizi belirtin (reçel, turşu, bira, şarap, bal, likör, sebze suyu, balık yumurtası, hayvan, makine, diğer). Varsayılan olarak, hepsi açıktır.",
+	"config.OrderType.values.jelly": "reçel",
+	"config.OrderType.values.pickle": "turşu",
+  "config.OrderType.values.beer": "bira",
+  "config.OrderType.values.wine": "şarap",
+  "config.OrderType.values.honey": "bal",
+  "config.OrderType.values.mead": "likör",
+  "config.OrderType.values.juice": "sebze suyu",
+  "config.OrderType.values.roe": "balık yumurtası",
+  "config.OrderType.values.animal": "hayvan",
+  "config.OrderType.values.machine": "makine",
+  "config.OrderType.values.misc": "diğer",
+  //
+  // Easy Mode
+  "config.EasyMode.name": "KolayMod",
+	"config.EasyMode.description": "En büyük 3 özel siparişin daha kolay olmasını (daha az nesne gerektirmesini) isteyip istemediğinizi belirtin. Ödüller ve süre uygun şekilde ayarlanmıştır. Varsayılan olarak kapalıdır.",
+	"config.EasyMode.values.true": "Açık",
+	"config.EasyMode.values.false": "Kapalı",
+  //
+  // Easter Egg
+  "config.EasterEgg.name": "EasterEgg",
+	"config.EasterEgg.description": "Bu açık olduğunda, bazı siparişler için biraz şaka amaçlı, biraz hikayeyle uyumsuz ödüller alacaksınız. Gerçek olmayan bir şeyi gerçek gibi kabul edebileceğinizi düşünmüyorsanız, seçeneği kapatın, ve bu ödüllere sahip siparişleri görmeyin. Varsayılan olarak açıktır.",
+	"config.EasterEgg.values.true": "true",
+	"config.EasterEgg.values.false": "false",
+  //
+  //Load Adventurer Guild
+  "config.LoadAdventurerGuildConfig.name": "MaceraperestLoncasıAyar",
+	"config.LoadAdventurerGuildConfig.description": "Adventurer's Guild'a Make Marlon Real dışında olay ekleyen bir modunuz varsa bu seçeneği kapatın. TNAG otomatik olarak Make Marlon Real'ı tespit eder o yüzden onun için bu seçeneği değiştirmeye gerek yok. Varsayılan olarak açıktır.",
+	"config.LoadAdventurerGuildConfig.values.true": "Açık",
+	"config.LoadAdventurerGuildConfig.values.false": "Kapalı",
+	
+  // ***Vanilla Order strings***
+  // Abigail Sweet Pumpkin Order Strings
+  "TowniesNeedArtisanGoods_Abigail_SweetPumpkin_Name": "Tatlı Balkabağı",
+  "TowniesNeedArtisanGoods_Abigail_SweetPumpkin_Text": "Biraz balkabağı suyu istiyorum. Biri bana 3 şişe getirebilir mi?",
+  "TowniesNeedArtisanGoods_Abigail_SweetPumpkin_Objective_Text_0": "Abigail'e 3 şişe Balkabağı Suyu ver.",
+  "TowniesNeedArtisanGoods_Abigail_SweetPumpkin_Message_0": "Bu tatlı ve besleyici olacak, sağol @!$h",
+  //
+  // Abigail Yellow Mayo Order Strings
+  "TowniesNeedArtisanGoods_Abigail_YellowMayo_Name": "Sarı Mayonez",
+  "TowniesNeedArtisanGoods_Abigail_YellowMayo_Text": "Özel bir eşek şakası yapmak istiyorum. Biri bana 1 kavanoz ördek mayonezi verebilir mi?",
+  "TowniesNeedArtisanGoods_Abigail_YellowMayo_Objective_Text_0": "Abigail'e 1 Ördek Mayonezi ver.",
+  "TowniesNeedArtisanGoods_Abigail_YellowMayo_Message_0": "Ha, bu Sam ve Sebastian'ı iyi avlayacak, sağol @!$h",
+  //
+  // Alex Sweet Apple Order Strings
+  "TowniesNeedArtisanGoods_Alex_SweetApple_Name": "Tatlı Elma",
+  "TowniesNeedArtisanGoods_Alex_SweetApple_Text": "Elma şarabı benim için özel. Biri bana 7 şişe getirebilir mi? Altın veya iridyum kalite, lütfen.",
+  "TowniesNeedArtisanGoods_Alex_SweetApple_Objective_Text_0": "Alex'e 7 şişe Elma Şarabı (altın veya iridyum kalite) ver",
+  "TowniesNeedArtisanGoods_Alex_SweetApple_Message_0": "Kaliteli elma şarabı muhteşem. Sağol @!$h",
+  //
+  // Alex Training Diet Order Strings
+  "TowniesNeedArtisanGoods_Alex_TrainingDiet_Name": "İdman Diyeti",
+  "TowniesNeedArtisanGoods_Alex_TrainingDiet_Text": "İdman için balık yumurtasını protein kaynağı olarak deniyorum. Biri bana 7 tane olgun somon yumurtası getirebilir mi?",
+  "TowniesNeedArtisanGoods_Alex_TrainingDiet_Objective_Text_0": "Alex'e 7 kavanoz Olgun Somon Yumurtası ver.",
+  "TowniesNeedArtisanGoods_Alex_TrainingDiet_Message_0": "İyi olmalı bu, sağol!$h",
+  //
+  // Caroline Juicy Electrolytes Order Strings
+  "TowniesNeedArtisanGoods_Caroline_JuicyElectrolytes_Name": "Sulu Elektrolitler",
+  "TowniesNeedArtisanGoods_Caroline_JuicyElectrolytes_Text": "Bence aerobik kursundaki hanımlar susuzluklarını gidermek için sebze suyuna bayılırlar. Biri bana 15 şişe getirir mi?",
+  "TowniesNeedArtisanGoods_Caroline_JuicyElectrolytes_Objective_Text_0": "Caroline'a 15 şişe Sebze Suyu ver",
+  "TowniesNeedArtisanGoods_Caroline_JuicyElectrolytes_Message_0": "Elektrolitleri tazelemeye yardım edecekler, Sağol @!",
+  //
+  // Caroline Spangle Honey Order Strings
+  "TowniesNeedArtisanGoods_Caroline_SpangleHoney_Name": "Yazpulu Balı",
+  "TowniesNeedArtisanGoods_Caroline_SpangleHoney_Text": "Yeşil çayımın yanına biraz yazpulu balı koymak istiyorum. Biri bana 8 kavanoz getirebilir mi?",
+  "TowniesNeedArtisanGoods_Caroline_SpangleHoney_Objective_Text_0": "Caroline'a 8 kavanoz Yazpulu Balı ver.",
+  "TowniesNeedArtisanGoods_Caroline_SpangleHoney_Message_0": "Hoş, teşekkürler @!",
+  //
+  // Clint Pickled Artichokes Order Strings
+  "TowniesNeedArtisanGoods_Clint_PickledArtichokes_Name": "Turşulanmış Enginarlar",
+  "TowniesNeedArtisanGoods_Clint_PickledArtichokes_Text": "Turşulanmış Enginarlar iyi bir yan öğün. Biri bana 7 kavanoz getirir mi?",
+  "TowniesNeedArtisanGoods_Clint_PickledArtichokes_Objective_Text_0": "Deliver 7 Pickled Artichoke jars to Clint",
+  "TowniesNeedArtisanGoods_Clint_PickledArtichokes_Message_0": "Teşekkürler @!",
+  //
+  // Demetrius Oil Makers Order Strings
+  "TowniesNeedArtisanGoods_Demetrius_OilMakers_Name": "Yağ Üreteçleri",
+  "TowniesNeedArtisanGoods_Demetrius_OilMakers_Text": "Selamlar, bu Demetrius. Damıtma sistemim bozuldu ve yerine kullanacak parçalara ihtiyacım var. Biri bana 3 yağ üreteci getirir mi? Onları parçalar için ayırabilirim.",
+  "TowniesNeedArtisanGoods_Demetrius_OilMakers_Objective_Text_0": "Robin'in evindeki odun yığınına 3 Yağ Üreteci bırak",
+  //
+  // Elliott Elegant Quill Order Strings
+  "TowniesNeedArtisanGoods_Elliott_ElegantQuill_Name": "Süslü Tüy",
+  "TowniesNeedArtisanGoods_Elliott_ElegantQuill_Text": "Yeni tüyler yazmam için ilham verebilir. Biri bana 2 ördek tüyü getirir mi?",
+  "TowniesNeedArtisanGoods_Elliott_ElegantQuill_Objective_Text_0": "Elliott'a 2 Ördek Tüyü ver",
+  "TowniesNeedArtisanGoods_Elliott_ElegantQuill_Message_0": "Sağol @! Bu tüyler hoş görünüyor.$h",
+  //
+  // Elliott Sweet Inspiration Order Strings
+  "TowniesNeedArtisanGoods_Elliott_SweetInspiration_Name": "Tatlı İlham",
+  "TowniesNeedArtisanGoods_Elliott_SweetInspiration_Text": "Okyanusun üstündeki günbatımını izlerken likör içmek oldukça rahatlatıcı olabilir. Birisi bana 4 şişe getirir mi?",
+  "TowniesNeedArtisanGoods_Elliott_SweetInspiration_Objective_Text_0": "Elliott'a 4 şişe Likör ver",
+  "TowniesNeedArtisanGoods_Elliott_SweetInspiration_Message_0": "Bunları iple çekiyorum. Teşekkürler @!$h",
+  //
+  // Emily Rainbow Order Strings
+  "TowniesNeedArtisanGoods_Emily_Rainbow_Name": "Gökkuşağı!",
+  "TowniesNeedArtisanGoods_Emily_Rainbow_Text": "Gökkuşağı renklerinin kendi versiyonunu yapmak isterim! Biri bana şunlardan birer tane getirir mi: acı biber reçeli, portakal reçeli, ayçiçeği balı, yeşil çay yaprağı, yabanmersini şarabı, turşulanmış patlıcan, kavun şarabı, ve keçi peyniri?",
+  "TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_0": "Kırmızı: Emily'e 1 Acı Biber Reçeli ver",
+  "TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_1": "Turuncu: Emily'e 1 Orange Reçeli ver",
+  "TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_2": "Sarı: Emily'e 1 Ayçiçeği Balı ver",
+  "TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_3": "Yeşil: Emily'e 1 Yeşil Çay Yaprağı ver",
+  "TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_4": "Mavi: Emily'e 1 Yabanmersini Şarabı ver",
+  "TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_5": "Mor: Emily'e 1 Turşulanmış Patlıcan ver",
+  "TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_6": "Pembe: Emily'e 1 Kavun Şarabı ver",
+  "TowniesNeedArtisanGoods_Emily_Rainbow_Objective_Text_7": "Beyaz: Emily'e 1 Keçi Peyniri ver",
+  "TowniesNeedArtisanGoods_Emily_Rainbow_Message_0": "Acılı ve kırmızı, teşekkürler @!",
+  "TowniesNeedArtisanGoods_Emily_Rainbow_Message_1": "Ekşi ve turuncu, teşekkürler @!",
+  "TowniesNeedArtisanGoods_Emily_Rainbow_Message_2": "Özgünce sarı, teşekkürler @!",
+  "TowniesNeedArtisanGoods_Emily_Rainbow_Message_3": "Yeşil çay harika, değil mi?#$b#Teşekkürler @!",
+  "TowniesNeedArtisanGoods_Emily_Rainbow_Message_4": "Leziz mavi, teşekkürler @!",
+  "TowniesNeedArtisanGoods_Emily_Rainbow_Message_5": "Turşulu mor, teşekkürler @!",
+  "TowniesNeedArtisanGoods_Emily_Rainbow_Message_6": "Mayhoş pembe, teşekkürler @!",
+  "TowniesNeedArtisanGoods_Emily_Rainbow_Message_7": "Beyaz peynir, teşekkürler @!",
+  //
+  // Emily Tailoring Materials Default Order Strings
+  "TowniesNeedArtisanGoods_Emily_TailoringMaterials_Name": "Terzilik Malzemeleri",
+  "TowniesNeedArtisanGoods_Emily_TailoringMaterials_Text": "Biri bana 30 top kumaş getirebilir mi? Dikiş için kaynaklarımı yenilemem lazım.",
+  "TowniesNeedArtisanGoods_Emily_TailoringMaterials_Objective_Text_0": "Emily'e 30 top Kumaş ver",
+  "TowniesNeedArtisanGoods_Emily_TailoringMaterials_Message_0": "Tasarladığım kıyafetler için bunlar çok işe yarayacak. Teşekkürler @!",
+  //
+  // Emily Tailoring Materials Easy Mode Order Strings
+  "TowniesNeedArtisanGoods_Emily_TailoringMaterialsE_Text": "Biri bana 10 top kumaş getirebilir mi? Dikiş için kaynaklarımı yenilemem lazım.",
+  "TowniesNeedArtisanGoods_Emily_TailoringMaterialsE_Objective_Text_0": "Emily'e 10 top Kumaş ver",
+  //
+  // Evelyn Sugar Substitute Order Strings
+  "TowniesNeedArtisanGoods_Evelyn_SugarSubstitute_Name": "Şeker Maddesi",
+  "TowniesNeedArtisanGoods_Evelyn_SugarSubstitute_Text": "Pişirmede şekerin yerine başka bir şey kullanacağım. Biri bana 5 kavanoz bal getirir mi?",
+  "TowniesNeedArtisanGoods_Evelyn_SugarSubstitute_Objective_Text_0": "Evelyn'e 5 kavanoz Bal ver",
+  "TowniesNeedArtisanGoods_Evelyn_SugarSubstitute_Message_0": "Ah, şu altın renge bak!$h#$b#Bu, ekmeği büyülü bir şekilde tatlandıracak. Teşekkür ederim @!",
+  //
+  // George Advanced Knee Therapy Order Strings
+  "TowniesNeedArtisanGoods_George_AdvancedKneeTherapy_Name": "Gelişmiş Diz Terapisi",
+  "TowniesNeedArtisanGoods_George_AdvancedKneeTherapy_Text": "Sanırım diz sorunlarıma biraz acı biber reçeli yardımcı olur. Biri bana 7 kavanoz getirir mi?",
+  "TowniesNeedArtisanGoods_George_AdvancedKneeTherapy_Objective_Text_0": "George'a 7 kavanoz Acı Biber Reçeli ver",
+  "TowniesNeedArtisanGoods_George_AdvancedKneeTherapy_Message_0": "Şu yeni 'terapi'yi denemek için sabırsızlanıyorum. Teşekkür ederim @!$h",
+  //
+  // George Healthy Roe Order Strings
+  "TowniesNeedArtisanGoods_George_HealthyRoe_Name": "Sağlıklı Balık Yumurtası",
+  "TowniesNeedArtisanGoods_George_HealthyRoe_Text": "Harvey sağlıklı olduğu için Olgun Balık Yumurtası denememi önerdi. Biri bana 10 kavanoz getirir mi? Güneşbalığı, sardalya ya da hamsi sadece.",
+  "TowniesNeedArtisanGoods_George_HealthyRoe_Objective_Text_0": "George'a 10 kavanoz Olgun Yumurta (sadece güneşbalığı, sardalya ya da hamsi) ver ",
+  "TowniesNeedArtisanGoods_George_HealthyRoe_Message_0": "Hmph, umarım tadı iyidir.#$b#Teşekkür ederim @!$h",
+  //
+  // Gus Drinks for the Fair Default Order Strings
+  "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Name": "Fuar İçin İçecek",
+  "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Text": "Fuara hazırlanmak için asla erken değil. Biri bana 30 şişe Soluk Bira getirir mi?",
+  "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Objective_Text_0": "Gus'a 30 Soluk Bira ver",
+  "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Message_0": "Teşekkür ederim @! Bu harbiden Fuar için yardımcı olacak.$h",
+  //
+  // Gus Drinks for the Fair Easy Mode Order Strings
+  "TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Text": "Fuara hazırlanmak için asla erken değil. Biri bana 10 şişe Soluk Bira getirir mi?",
+  "TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Objective_Text_0": "Gus'a 10 Soluk Bira ver",
+  //
+  // Gus Special Ingredient Order Strings
+  "TowniesNeedArtisanGoods_Gus_SpecialIngredient_Name": "Özel Malzeme",
+  "TowniesNeedArtisanGoods_Gus_SpecialIngredient_Text": "Efsanevi pizzalarımın sırrı yüksek kalite peynir, altın veya iridyum. 8 tane getirir mi biri?",
+  "TowniesNeedArtisanGoods_Gus_SpecialIngredient_Objective_Text_0": "Gus'a 8 tane Peynir (altın veya iridyum kalite) ver",
+  "TowniesNeedArtisanGoods_Gus_SpecialIngredient_Message_0": "Bütün bu peynirler harika duruyor, teşekkürler @!$h",
+  //
+  // Haley DIY Haircare Order Strings
+  "TowniesNeedArtisanGoods_Haley_DIYHaircare_Name": "El Yapımı Saç Bakımı",
+  "TowniesNeedArtisanGoods_Haley_DIYHaircare_Text": "Saç ürünleri için biraz yardım işime yarayabilir. Biri bana 2 kavanoz hindistan cevizi reçeli getirir mi?",
+  "TowniesNeedArtisanGoods_Haley_DIYHaircare_Objective_Text_0": "Haley'e 2 kavanoz Hindistan Cevizi Reçeli ver",
+  "TowniesNeedArtisanGoods_Haley_DIYHaircare_Message_0": "Teşekkürler, @!$h#$b#Bunlar saçımı nemli tutacak.",
+  //
+  // Harvey Nutritious Pickles Order Strings
+  "TowniesNeedArtisanGoods_Harvey_NutritiousPickles_Name": "Besleyici Turşular",
+  "TowniesNeedArtisanGoods_Harvey_NutritiousPickles_Text": "Turşular sağlıklı atıştırmalıklardır. Biri bana 9 kavanoz verir mi?",
+  "TowniesNeedArtisanGoods_Harvey_NutritiousPickles_Objective_Text_0": "Harvey'e 9 kavanoz Turşu ver",
+  "TowniesNeedArtisanGoods_Harvey_NutritiousPickles_Message_0": "Bunu takdir ediyorum, @!$h#$b#Sağlıklı atıştırmalıkları bulması zor.",
+  //
+  // Jas Tea Party Order Strings
+  "TowniesNeedArtisanGoods_Jas_TeaParty_Name": "Çay Partisi!",
+  "TowniesNeedArtisanGoods_Jas_TeaParty_Text": "Jas bir çay partisini çok istiyor! Biri ona 3 fincan Yeşil Çay getirir mi?     - Marnie",
+  "TowniesNeedArtisanGoods_Jas_TeaParty_Objective_Text_0": "Jas'e 3 Yeşil Çay ver",
+  "TowniesNeedArtisanGoods_Jas_TeaParty_Message_0": "Bana bir şey mi getirdin?$3#$b#Thank you! En iyi çay partisini yapacağım!$h",
+  //
+  // Jodi Bass Aged Roe Order Strings
+  "TowniesNeedArtisanGoods_Jodi_BassAgedRoe_Name": "Olgun Levrek Yumurtası",
+  "TowniesNeedArtisanGoods_Jodi_BassAgedRoe_Text": "Ailem levrek hayranıdır, o yüzden olgun yumurta denemek iyi olabilir. Biri bana 4 kavanoz olgun yumurta getirir mi? Büyük ağızlı veya ufak ağızlı işimi görür.",
+  "TowniesNeedArtisanGoods_Jodi_BassAgedRoe_Objective_Text_0": "Jodi'ye 4 kavanoz Olgun Yumurta (büyük ağızlı veya küçük ağızlı levrek) ver",
+  "TowniesNeedArtisanGoods_Jodi_BassAgedRoe_Message_0": "Bunlar iyi görünüyor, @.",
+  //
+  // Kent Jelly for PB&J Order Strings
+  "TowniesNeedArtisanGoods_Kent_JellyforPBJ_Name": "Fıstık Ezmeli Reçelli Sandviç İçin Reçel",
+  "TowniesNeedArtisanGoods_Kent_JellyforPBJ_Text": "Oğlanlar için birkaç fıstık ezmeli reçelli sandviç yapmayı çok isterim. Biri bana 3 kavanoz reçel getirir mi? Yalnızca çilek ya da üzüm lütfen.",
+  "TowniesNeedArtisanGoods_Kent_JellyforPBJ_Objective_Text_0": "Kent'e 4 kavanoz Reçel (çilek ya da üzüm) ver",
+  "TowniesNeedArtisanGoods_Kent_JellyforPBJ_Message_0": "Hmm?#$b#Bunlar için teşekkürler, @!$h",
+  //
+  // Krobus Pasty Treat Order Strings
+  "TowniesNeedArtisanGoods_Krobus_PastyTreat_Name": "Macunsu Atıştırmalık",
+  "TowniesNeedArtisanGoods_Krobus_PastyTreat_Text": "Selamlar. Boşluk Mayonezi benim için özel bir atıştırmalık. Kasabadaki biri biraz lağıma bırakır mı?",
+  "TowniesNeedArtisanGoods_Krobus_PastyTreat_Objective_Text_0": "Krobus'a 4 kavanoz Boşluk Mayonezi ver",
+  "TowniesNeedArtisanGoods_Krobus_PastyTreat_Message_0": "Bunun tadını çıkarmak için sabırsızlanıyorum.$h#$b#Teşekkürlerime sahipsin.$h",
+  //
+  // Leah Bees in the Meadow Order Strings
+  "TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Name": "Çayırda Arılar",
+  "TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Text": "Selam! Bence biraz daha arı hareketliliği orman çayırlarının işine yarar. Birisi bana 5 arı kovanı getirir mi? Sanırım bu onları cesaretlendirmeye yardımcı olur!",
+  "TowniesNeedArtisanGoods_Leah_BeesintheMeadow_Objective_Text_0": "Leah'ın evindeki odun yığınına 5 Arı Kovanı bırak.",
+  //
+  // Leah Spreadable Mayo Order Strings
+  "TowniesNeedArtisanGoods_Leah_SpreadableMayo_Name": "Sürülebilir Mayonez",
+  "TowniesNeedArtisanGoods_Leah_SpreadableMayo_Text": "Lahana salatası yapmayı seviyorum, fakat mayonezim kalmamış. Biri bana 5 kavanoz getirir mi?",
+  "TowniesNeedArtisanGoods_Leah_SpreadableMayo_Objective_Text_0": "Leah'a 5 kavanoz Mayonez ver",
+  "TowniesNeedArtisanGoods_Leah_SpreadableMayo_Message_0": "Bunlarla salata yapmayı iple çekiyorum. Teşekkürler @!$h",
+  //
+  // Leo Sweet Jelly Order Strings
+  "TowniesNeedArtisanGoods_Leo_SweetJelly_Name": "Tatlı Reçel",
+  "TowniesNeedArtisanGoods_Leo_SweetJelly_Text": "Leo'ya 5 kavanoz mango reçeli verir mi? Bence hoşuna gidecektir.     - Linus =",
+  "TowniesNeedArtisanGoods_Leo_SweetJelly_Objective_Text_0": "Leo'ya 5 kavanoz Mango Reçeli ver",
+  "TowniesNeedArtisanGoods_Leo_SweetJelly_Message_0": "Bu...$2#$b#Teşekkür ederim!$h",
+  //
+  // Lewis Special Night Order Strings
+  "TowniesNeedArtisanGoods_Lewis_SpecialNight_Name": "Özel Gece",
+  "TowniesNeedArtisanGoods_Lewis_SpecialNight_Text": "Merhaba Pelikan Kasabası, özel bir yemek planlıyorum ve yiyecekle içecekler için biraz yardım işimi görebilir. Biri en sevdiğiniz başkanınıza altın veya iridyum kalite şarap, 2 istiridye, çikolatalı pasta ve yermantarı yağı?",
+  "TowniesNeedArtisanGoods_Lewis_SpecialNight_Objective_Text_0": "Lewis'e Altın veya İridyum Kalite 1 şişe Şarap ver",
+  "TowniesNeedArtisanGoods_Lewis_SpecialNight_Objective_Text_1": "Lewis'e 2 İstiridye ver",
+  "TowniesNeedArtisanGoods_Lewis_SpecialNight_Objective_Text_2": "Lewis'e 1 Çikolatalı Pasta ver",
+  "TowniesNeedArtisanGoods_Lewis_SpecialNight_Objective_Text_3": "Lewis'e 1 Yermantarı Yağı",
+  "TowniesNeedArtisanGoods_Lewis_SpecialNight_Message_0": "İyi bir şarap gibi. Teşekkürler @!$h",
+  "TowniesNeedArtisanGoods_Lewis_SpecialNight_Message_1": "Havayı ayarlamak için bunlar iş görmeli!$h#$b#Bunu sesli söylemek istememiştim.#$b#*öksürür*... Teşekkürler, @.",
+  "TowniesNeedArtisanGoods_Lewis_SpecialNight_Message_2": "Klasik bir tatlı. Teşekkürler @!$h",
+  "TowniesNeedArtisanGoods_Lewis_SpecialNight_Message_3": "Teşekkürler, @!$h#$b#Niçin mi?#$b#Ş-şey, seni ilgilendirmez.",
+  //
+  // Linus Berry Flavor Order Strings
+  "TowniesNeedArtisanGoods_Linus_BerryFlavor_Name": "Meyve Aroması",
+  "TowniesNeedArtisanGoods_Linus_BerryFlavor_Text": "Biraz meyve reçeline hayır demem. Biri bana ahududu reçeli, baharat meyvesi reçeli ve böğürtlen reçelinden 10'ar kavanoz getirir mi?",
+  "TowniesNeedArtisanGoods_Linus_BerryFlavor_Objective_Text_0": "Linus'a 10 kavanoz Ahududu Reçeli ver",
+  "TowniesNeedArtisanGoods_Linus_BerryFlavor_Objective_Text_1": "Linus'a 10 kavanoz Baharat Meyvesi Reçeli ver",
+  "TowniesNeedArtisanGoods_Linus_BerryFlavor_Objective_Text_2": "Linus'a 10 kavanoz Böğürtlen Reçeli ver",
+  "TowniesNeedArtisanGoods_Linus_BerryFlavor_Message_0": "Bahar içn hoş bir hatırlatıcı.$h",
+  "TowniesNeedArtisanGoods_Linus_BerryFlavor_Message_1": "Kokusu bana yazı hatırlatıyor.$h",
+  "TowniesNeedArtisanGoods_Linus_BerryFlavor_Message_2": "Ahududu reçelinden daha tatlı. Teşekkürler, @!$h",
+  //
+  // Marnie Casks for Cheese Order Strings
+  "TowniesNeedArtisanGoods_Marnie_CasksforCheese_Name": "Peynir İçin Fıçılar",
+  "TowniesNeedArtisanGoods_Marnie_CasksforCheese_Text": "Nasılsınız komşularım! Peynir yıllandırmak için birkaç fıçı almak istiyorum. Biri bana 5 tane getirir mi?",
+  "TowniesNeedArtisanGoods_Marnie_CasksforCheese_Objective_Text_0": "Marnie'nin çiftliğinin oradaki saman balyasının yanına 5 Fıçı bırak.",
+  //
+  // Marnie Special Dinner Order Strings
+  "TowniesNeedArtisanGoods_Marnie_SpecialDinner_Name": "Özel Yemek",
+  "TowniesNeedArtisanGoods_Marnie_SpecialDinner_Text": "Nasılsınız komşularım! İyi bir olayı mükemmel bir şarapla kutlamak istiyorum. Biri bana 2 şişe altın veya iridyum kalite şarap getirir mi?",
+  "TowniesNeedArtisanGoods_Marnie_SpecialDinner_Objective_Text_0": "Marnie'ye 2 şişe Şarap (altın veya iridyum kalite) ver",
+  "TowniesNeedArtisanGoods_Marnie_SpecialDinner_Message_0": "Teşekkürler @!$h#$b#Olay ne mi?#$b#Özel.$3",
+  //
+  // Maru Power for Project Default Order Strings
+  "TowniesNeedArtisanGoods_Maru_PowerforProject_Name": "Proje İçin Enerji",
+  "TowniesNeedArtisanGoods_Maru_PowerforProject_Text": "Biri bana 30 pil verebilir mi? Sonraki projem için bir sürü enerji lazım.",
+  "TowniesNeedArtisanGoods_Maru_PowerforProject_Objective_Text_0": "Maru'ya 30 Pil ver",
+  "TowniesNeedArtisanGoods_Maru_PowerforProject_Message_0": "Vuu, bu çok yardımcı olacak. Teşekkürler @!",
+  //
+  // Maru Power for Project Easy Mode Order Strings
+  "TowniesNeedArtisanGoods_Maru_PowerforProjectE_Text": "Biri bana 10 pil verebilir mi? Sonraki projem için bir sürü enerji lazım.",
+  "TowniesNeedArtisanGoods_Maru_PowerforProjectE_Objective_Text_0": "Maru'ya 10 Pil ver",
+  //
+  // Pam Preserved Parsnip Order Strings
+  "TowniesNeedArtisanGoods_Pam_PreservedParsnip_Name": "Saklanmış Yaban Havucu",
+  "TowniesNeedArtisanGoods_Pam_PreservedParsnip_Text": "Selam! Biraz turşulanmış yaban havucu istiyorum. Bu kasabadan biri bana yardım edip 9 kavanoz verir mi?",
+  "TowniesNeedArtisanGoods_Pam_PreservedParsnip_Objective_Text_0": "Pam'e 9 kavanoz Turşulanmış Yaban Havucu verir mi",
+  "TowniesNeedArtisanGoods_Pam_PreservedParsnip_Message_0": "Bu gördüklerim turşulanmış yaban havucu mu?#$b#Benim için mi? Teşekkürler, @!$h",
+  //
+  // Penny Tie-Dye Project Order Strings
+  "TowniesNeedArtisanGoods_Penny_Tie-DyeProject_Name": "Renkli Tişört Projesi",
+  "TowniesNeedArtisanGoods_Penny_Tie-DyeProject_Text": "Selam, Emily ve ben çocuklarla birlikte tişört boyuyoruz. Biri bana 4 şişe pancar veya kırmızı lahana suyu getirir mi lütfen?",
+  "TowniesNeedArtisanGoods_Penny_Tie-DyeProject_Objective_Text_0": "Penny'e 4 şişe Sebze Suyu (Pancar veya Kırmızı Lahana) ver",
+  "TowniesNeedArtisanGoods_Penny_Tie-DyeProject_Message_0": "Teşekkürler @. Bunlar kırmızı boyamız için işe yarayacak.$h",
+  //
+  // Robin Cheesy Delight Order Strings
+  "TowniesNeedArtisanGoods_Robin_CheesyDelight_Name": "Peynirli Tat",
+  "TowniesNeedArtisanGoods_Robin_CheesyDelight_Text": "Keçi peynirine bayılıyorum. Biri bana 6 altın kaliteli keçi peyniri getirir mi?",
+  "TowniesNeedArtisanGoods_Robin_CheesyDelight_Objective_Text_0": "Robin'e 6 Altın Kalite Keçi Peyniri ver",
+  "TowniesNeedArtisanGoods_Robin_CheesyDelight_Message_0": "Teşekkürler @! Biraz süt ile, bunu ekmeğin üstüne sürebilirim.$h",
+  //
+  // Robin Like Strawberry Wine Order Strings
+  "TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Name": "Çilek Şarabı Gibi",
+  "TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Text": "Çilek şarabı benim ve Demetrius için özel bir anlama sahip. Biri bana 3 şişe çilek şarabı getirir mi?",
+  "TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Objective_Text_0": "Robin'e 3 şişe Çilek Şarabı ver",
+  "TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Message_0": "Teşekkürler @! Bunun için sabırsızlanıyorum.$h#$b#Bana sıcak bir temmuz ayını hatırlatıyor bayağı...$4",
+  //
+  // Sam Game Night Order Strings
+  "TowniesNeedArtisanGoods_Sam_GameNight_Name": "Oyun Gecesi",
+  "TowniesNeedArtisanGoods_Sam_GameNight_Text": "Bir Solaryon Günlükleri toplantısı yapacağız ve içecekler işimizi görür. Biri bana 2 şişe likör ve 2 kahve getirir mi?",
+  "TowniesNeedArtisanGoods_Sam_GameNight_Objective_Text_0": "Sam'e 2 şişe Likör ver",
+  "TowniesNeedArtisanGoods_Sam_GameNight_Objective_Text_1": "Sam'e 2 Kahve ver",
+  "TowniesNeedArtisanGoods_Sam_GameNight_Message_0": "Sağol, Abby ve ben tadını çıkaracağız!$h",
+  "TowniesNeedArtisanGoods_Sam_GameNight_Message_1": "Sağol, Seb'e de içecek bir şey lazım.$h",
+  //
+  // Sam Grease for Wheels Order Strings
+  "TowniesNeedArtisanGoods_Sam_GreaseforWheels_Name": "Tekerler İçin Yağ",
+  "TowniesNeedArtisanGoods_Sam_GreaseforWheels_Text": "Eski kaykaylarımı tamir için biraz yağ kullanabilirim. Biri bana 4 şişe verir mi?",
+  "TowniesNeedArtisanGoods_Sam_GreaseforWheels_Objective_Text_0": "Sam'e 4 şişe Yağ ver",
+  "TowniesNeedArtisanGoods_Sam_GreaseforWheels_Message_0": "Teşekkürler, bu gıcırdamayı durdurmaya yardım edecek!$h",
+  //
+  // Sam Sweet and Soothing Order Strings
+  "TowniesNeedArtisanGoods_Sam_SweetandSoothing_Name": "Tatlı ve Rahatlatıcı",
+  "TowniesNeedArtisanGoods_Sam_SweetandSoothing_Text": "Bal alerjilerime iyi gelebilir. Biri bana 3 kavanoz verir mi? Maviruh ya da lale lütfen.",
+  "TowniesNeedArtisanGoods_Sam_SweetandSoothing_Objective_Text_0": "Sam'e 3 kavanoz Bal (maviruh ya da lale) ver",
+  "TowniesNeedArtisanGoods_Sam_SweetandSoothing_Message_0": "Harika, sağol @!$h#$b#Yılın yine o zamanı geldi, bilirsin ya? Alerjilerim başlıyor.",
+  //
+  // Sandy Light Beverage Order Strings - No DSV installed, so it's beer
+  "TowniesNeedArtisanGoods_Sandy_LightBeverage_Beer_Name": "Hafif İçecek",
+  "TowniesNeedArtisanGoods_Sandy_LightBeverage_Beer_Text": "Biri Sandy'e 2 Bira götürebilir mi? Bence onu neşelendirmeye yardım eder.     -Emily",
+  "TowniesNeedArtisanGoods_Sandy_LightBeverage_Beer_Objective_Text_0": "Sandy'e 2 Bira ver",
+  "TowniesNeedArtisanGoods_Sandy_LightBeverage_Beer_Message_0": "Emily bana bunları getirmeni mi istedi?#$b#Sanırım bunları o gelene kadar saklayacağım, sonra onunla beraber içeriz!$h",
+  //
+  // Sandy Light Beverage Order Strings - DSV is installed, so it's beet juice
+  "TowniesNeedArtisanGoods_Sandy_LightBeverage_Juice_Text": "Biri Sandy'e 2 Bira götürebilir mi? Bence onu neşelendirmeye yardım eder.     -Emily",
+  "TowniesNeedArtisanGoods_Sandy_LightBeverage_Juice_Objective_Text_0": "Sandy'e 2 şişe Pancar Suyu ver",
+  //
+  // Sebastian Side for Sushi Order Strings
+  "TowniesNeedArtisanGoods_Sebastian_SideforSushi_Name": "Suşiye Yan",
+  "TowniesNeedArtisanGoods_Sebastian_SideforSushi_Text": "Suşi için yan öğünümü turşulanmış zencefil dışında çeşitlendirmek istiyorum. Biri bana 4 kavanoz turşulanmış çin lahanası verir mi?",
+  "TowniesNeedArtisanGoods_Sebastian_SideforSushi_Objective_Text_0": "Sebastian'a 4 kavanoz Turşulanmış Çin Lahanası ver",
+  "TowniesNeedArtisanGoods_Sebastian_SideforSushi_Message_0": "Suşiyle birlikte yemek için sabırsızlanıyorum. Teşekkürler, @.$h",
+  //
+  // Shane 6 Pack of Juice Order Strings
+  "TowniesNeedArtisanGoods_Shane_6PackofJuice_Name": "6'lı Sebze Suyu 'Paketi'",
+  "TowniesNeedArtisanGoods_Shane_6PackofJuice_Text": "Alkolik olmayan içeceklerden almanın iyi olabileceğini düşündüm. Biri bana 6 şişe sebze suyu getirir mi?",
+  "TowniesNeedArtisanGoods_Shane_6PackofJuice_Objective_Text_0": "Shane'e 6 şişe Sebze Suyu ver",
+  "TowniesNeedArtisanGoods_Shane_6PackofJuice_Message_0": "Teşekkürler, @. Umarım bu bana ayıklığımda bana yardımcı olur.$h",
+  //
+  // Vincent Dino Mayo Order Strings
+  "TowniesNeedArtisanGoods_Vincent_DinoMayo_Name": "Dinozor Mayonezi!",
+  "TowniesNeedArtisanGoods_Vincent_DinoMayo_Text": "Bence Vincent ve Jas biraz dinozor mayonezi denemeyi çok ister. Biri Vincent'a biraz verip paylaşmayı da unutmamasını söyler mi?   -Sam",
+  "TowniesNeedArtisanGoods_Vincent_DinoMayo_Objective_Text_0": "Vincent'a 1 kavanoz Dinozor Mayonezi ver",
+  "TowniesNeedArtisanGoods_Vincent_DinoMayo_Message_0": "Bu ne?$3#$b#NE?! BU ÇOK HAVALI!$h#$b#Tamam tamam. Jas'la paylaşıp Sam'e teşekkür edeceğim. Teşekkür ederim @!",
+  //
+  // Willy Mildly Salty Order Strings
+  "TowniesNeedArtisanGoods_Willy_MildlySalty_Name": "Hafiften Tuzlu",
+  "TowniesNeedArtisanGoods_Willy_MildlySalty_Text": "Havyar oldukça lezizdir. Biri bana 5 kavanoz getirir mi?",
+  "TowniesNeedArtisanGoods_Willy_MildlySalty_Objective_Text_0": "Willy'e 5 kavanoz Havyar ver",
+  "TowniesNeedArtisanGoods_Willy_MildlySalty_Message_0": "Tuzu tam kararında. Teşekkürler, @.$h",
+  //
+  // Willy Tone of Honey Order Strings
+  "TowniesNeedArtisanGoods_Willy_ToneofHoney_Name": "Balın Tonu",
+  "TowniesNeedArtisanGoods_Willy_ToneofHoney_Text": "Biraz liköre hayır demem. Biri bana 3 şişe getirir mi?",
+  "TowniesNeedArtisanGoods_Willy_ToneofHoney_Objective_Text_0": "Willy'e 3 şişe Likör ver",
+  "TowniesNeedArtisanGoods_Willy_ToneofHoney_Message_0": "Evet, yaşlı balıkçı bile güzel bir şişe likörün tadını çıkarabilir. Teşekkür ederim @!$h",
+  //
+  // Wizard Underworld Drink Order Strings
+  "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Name": "Ahiret İçeceği",
+  "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Text": "Narlar öbür dünyayla ilişkilidir. 6 şişe altın ya da iridyum nar şarabıyla ilgilenmeyi çok isterim.",
+  "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Objective_Text_0": "Büyücü'ye 6 şişe Nar Şarabı (altın ya da iridyum kalite)  ver",
+  "TowniesNeedArtisanGoods_Wizard_UnderworldDrink_Message_0": "Çok teşekkürler, @! Ahiretin özellikleri için bunu kesinlikle analiz edeceğim.$h",
+  //
+  //
+  // ***Vanilla event and conversation topics strings***
+  // Same Game Night Event and CT Strings
+  "events-27122021.01": "Hey, @, başardın!$h",
+  "events-27122021.02": "Sam seni davet etmedi mi?",
+  "events-27122021.03": "Ah... Bir şey unuttuğumu biliyordum...$10",
+  "events-27122021.04": "Cidden, içecekler için ilanı yayınladın ama @ için de davet etmeyi unuttun mu?$3",
+  "events-27122021.05": "Ah şey, şimdi buradasın madem, gel bize katıl!",
+  "events-27122021.06": "Hadi başlayalım...$7",
+  "Sam_gamenightCT_Sam": "Seni davet etmeyi unuttuğum için tekrar özür dilerim.$10#$b#Gelebildiğine sevindim, eğlenceliydi!",
+  "Sam_gamenightCT_Abby": "Şimdiden itibaren davetleri ben yöneteceğim.$3#$b#İçecekler için sağol  bu arada!$h#$b#Gelecek sefere ben getirebilirim onları.",
+  "Sam_gamenightCT_Seb": "Sam bazen unutkandır, ama iyi niyetlidir.",
+  "Sam_gamenightCT_Robin": "Şu üçünün arkadaş gruplarını genişlettiği için sevindim!",
+  //
+  // Vincent Dino Mayo Event Strings
+  "events-29122021.01": "Yaşasın!$h#$b#Let's open it!$3",
+  "events-29122021.02": "Hadi yapalım!",
+  "events-29122021.03": "Iy... kokuyor.$3",
+  "events-29122021.04": "Denemek istiyorum!$h",
+  "events-29122021.05": "Iyyy...$s",
+  "events-29122021.06": "Bana daha çok kaldı o zaman, ben beğendim!$h",
+  //
+  // Demetrius Oil Makers Event and CT Strings
+  "events-31122021.01": "Hey, @! Yağ üreteçleri için tekrar teşekkürler.$h#$b#Maru burada bana onları parçalamama yardım ediyor.",
+  "events-31122021.02": "Damıtma konusunda hafızamı tazeliyorum, o yüzden bir kazan-kazan olur diye düşündüm.$h",
+  "events-31122021.03": "Söylesene, bize yardım etmek ister misin?",
+  "events-31122021.04": "Elbette, ayıracak vaktim var!",
+  "events-31122021.05": "Gitmem lazım...",
+  "events-31122021.06": "Harika! İşte, tut şunu...",
+  "events-31122021.07": "Tamamdır, uğradığın için sağol!",
+  "Demetrius_oilmakersCT_Demetrius": "Maru ve bana yağ üreteçleri için katılmanı takdir ettim.$h",
+  "Demetrius_oilmakersCT_Maru": "Umarım tüm şu yağ üreteçlerini parçalarken aldığım zevkin onda birini almışsındır.$h",
+  "Demetrius_oilmakersCT_Robin": "Demetrius ve Maru'nun deneylerinden birine seni de çektiğine şaşırmıştım.$h",
+  //
+  // Kent Jelly for PB&J Event and CT Strings
+  "events-32122021.01": "Sam, daha büyük olmana rağmen, basit fıstık ezmeli reçelli bir sandviçin tadını çıkarabilmene mutluyum.$h",
+  "events-32122021.02": "Ben... seninle zaman geçirmekten mutluyum, baba.$h",
+  "events-32122021.03": "Yaşasın, oğlanlar yemeği!",
+  "events-32122021.04": "Tamam, hadi yumulalım!$h",
+  "Kent_jellyforpbjCT_Kent": "Oğlanlar ve ben öğlen yemeğinde iyi zaman geçirdik.$h",
+  "Kent_jellyforpbjCT_Sam": "Babamı böyle mutlu görmek güzeldi.$h",
+  "Kent_jellyforpbjCT_Vincent": "Oğlanlar yemeği harikaydı!",
+  "Kent_jellyforpbjCT_Jodi": "Kent'in oğlanlarla bir araya geldiğini duyduğuma.$h",
+  //
+  // Krobus Pasty Treat Event Strings
+  "events-35122021.01": "@!$h#$b#Seni görmek hoş.",
+  "events-35122021.02": "Boşluk yumurtalarının tarihi ve ürünleriyle alakalı mısın?",
+  "events-35122021.03": "Seninle paylaşayım öyleyse!$h",
+  //
+  // Jas Tea Party Event Strings
+  "events-33122021.01": "Çay partime geldiğiniz için teşekkürler!$h",
+  "events-33122021.02": "Elbette, çiçeğim. Davetini beğendim!$h",
+  "events-33122021.03": "Şey, bizi nerede istiyorsun?$6",
+  "events-33122021.04": "Ah! Selam @. Jas küçük bir parti yapıyor.#$b#Çayı getirdiğin için teşekkürler!$h",
+  "events-33122021.05": "Im, Marnie teyze, herkese yetecek kadar çayımız yok...$3",
+  "events-33122021.06": "Marnie teyzesi, herkese yetecek kadar çayımız yokmuş...",
+  "events-33122021.07": "Önemli değil, size bırakacağım!",
+  "events-33122021.08": "Daha fazla çay istemeliydin...",
+  "events-33122021.09": "Görüşürüz!",
+  "events-33122021.10": "Şey, davet edilmemiştin...$2",
+  "events-33122021.11": "Bu ailevi bir şey, bence gitmelisin.$2",
+  //
+  // Willy Mildly Salty Event and CT Strings
+  "events-34122021.01": "Hey Elliott! Bugün özel bir atıştırmalığım var!$h",
+  "events-34122021.02": "Merhaba Willy! Ne olabilir ki?",
+  "events-34122021.03": "Willy, kendi yemeğini salonuma getirmediğini biliyorum.$3",
+  "events-34122021.04": "Ama bu havyar!$2",
+  "events-34122021.05": "Sen de biraz alabilirsin.",
+  "events-34122021.06": "Tamam, nasılmış bakalım!$h",
+  "Willy_mildlysaltyCT_Emily": "Gus'ın kurnaz bir yanı olduğunu bilmek iyi!$h#$b#Yine de, en azından Willy havyarı paylaştı. Benim de biraz denememe izin verdi!",
+  "Willy_mildlysaltyCT_Willy": "Havyar harikaydı!#$b#Bir dahaki sefere bu 'vergiden' kaçmak için sadece Elliott'u benim eve davet edeceğim.$s",
+  "Willy_mildlysaltyCT_Elliott": "Gus'ın dışarıdan yemek politikasında hoşgörülü olduğuna mutluyum.#$b#Barmenin canını sıkmak akıllıca değildir!$h#$b#Ya da şefin, ve o ikisini de birden yapıyor.$2",
+  //
+  // Letter Strings
+  "letter_saloon_name": "Salon",
+  "letter_saloon": "Canınız biraz güzel yemek mi çekiyor? Gus'ın salonuna paranın alabileceği en iyi spagetti için gelin!",
+  "letter_blacksmith_name": "Demirci",
+  "letter_blacksmith": "Aletlerinizin rengi artık eşleşmiyor mu? Clint'in yerine gelin, sizin için geliştirsin!",
+  "letter_robinbuilding_name": "Robin İnşaat",
+  "letter_robinbuilding": "Etrafınıza bakıp, yeterince bina olmadığını düşünüyor musunuz? O halde Robin'e gelin ve hayallerinizdeki görkemli yapılarla inşaatınızı yapsın!",
+  "letter_clinic_name": "Klinik",
+  "letter_clinic": "Uzun saatler boyu odun kesmeden sonra ağrıyan kollar mı? Harvey'in kliniğine uğrayın ve bir kas gevşetici alın!",
+  "letter_Joja_name": "Joja",
+  "letter_Joja": "Dev bir şirkete katkı sağlamamaktan yoruldunuz mu? Bize katılın ve Joja'da büyüyün! Yerel Joja temsilcinize bir üyelik almak için ölüp bittiğinizi söyleyin, ve ona zaten hayır dediyseniz, fikrinizi değiştirdiğinizi söyleyin!",
+  "letter_yoba_name": "Yoba",
+  "letter_yoba": "Yoba'nın iyi sözlerini duydun mu?",
+  "letter_pierreseeds_name": "Pierre'in Tohumları",
+  "letter_pierreseeds": "Pierre'in tohumları en iyi kalitedir, Joja'nın aksini söylemesine izin vermeyin!",
+  "letter_waterbugs_name": "Su Böcekleri",
+  "letter_waterbugs": "Termit, su böceği ve hamam böcekleriniz mi var? Parsons Haşere Kontrolü ihtiyacınızı karşılayacak! Bizi ^*şirketin telefon numarası silinmiş* ile arayın!",
+  "letter_esquire_name": "Esquire",
+  "letter_esquire": "Bir kazada yaralandınız mı? Ferngill Avukat Cemiyeti'ni şu numaradan arayın ki sizi bir avukatlık bürosuna bağlayabilsinler:^*ilandan dolayı telefon numarası yırtılmış*",
+  "letter_carpet_name": "Halıcılık",
+  "letter_carpet": "Evinizin halılarından bıktınız mı? Ferngill Daha İyi Yaşam'a ne aradığınızı şu numaradan söyleyin, biz de evinize ücretsiz getirelim:^*nedense bunun bir kısmı anlamadığın yabancı bir dilde yazılmış*",
+  "letter_snailfund_name": "Salyangozlara Bağış",
+  "letter_snailfund": "Lütfen salyangozları düşünüp Eğreltiotu Adası Karındanbacaklı Fon'una bağış yapın ki onların yaşam alanlarını koruyabilelim!^*iadeli iş mektubu eklenmemiş, o yüzden bağış yapmak imkansız*",
+  "letter_floodprotection_name": "Sel Koruması",
+  "letter_floodprotection": "Evinizi sel basmayacağı bilgisi içinde rahat mısınız? Kıymetli varlıklarınızla cidden kumar oynamak istiyor musunuz? Denizkızı Sel Sigortası en iyi tazminatları almanıza yardımcı olacak^*biri öfkeyle her türlü iletişim bilgisini silmiş ve altına 'DENİZKIZI SEL BERBAT' yazmış*",
+  "letter_carsales_name": "Araba Satışları",
+  "letter_carsales": "Yaya olarak uzun bir yolda erzakları taşıyor musunuz? Yeni Gotoro Spirit kamyonetiyle tarzınızla taşıyın. Rahat yatağı kamyonetsiz bütün arkadaşlarınızı size kıskandıracak. Gelin uğrayın!^*birisi binanın bir eskizinin isim ya da adres yazdırmayacak kadar yönlendirici olduğunu düşünmüş*",
+  //
+  // Leah Bees in the Meadow Conversation Topic Strings
+  "Leah_beesinthemeadowCT": "Teşekkürler, @! Bunlar arıları mutlu etmeli.$h",
+  //
+  // Maru Power for Project Conversation Topic Strings
+  "Maru_powerforprojectCT_Maru": "Projemde hala biraz ayarlamalar yapmam gerekiyor...#$b#Şu pis kokudan da nasıl kurtulacağımı bilmiyorum.$2",
+  "Maru_powerforprojectCT_Demetrius": "Maru projesini bitirmeye yakın olmalı.#$b#Yaklaşan başarının kokusu bu işte!$h",
+  "Maru_powerforprojectCT_Robin": "Maru ne üstünde çalışıyorsa evi dumana boğdu. Babasının kızı...$2",
+  "Maru_powerforprojectCT_SebS": "Umarım Maru'nun üstünde çalıştığı şey bu kokuya değer...#$b#Bodruma kadar geldi!$s",
+  "Maru_powerforprojectCT_SebM": "Geçen gün annem bana Maru'nun deneylerinden biri hakkında yakınıyordu. Galiba planladığı gibi gitmedi?",
+  //
+  // Abigail Yellow Mayo Conversation Topic Strings
+  "Abigail_yellowmayoCT_Abby": "Eşek şakası pürüzsüz işledi. Seb ve Sam çok geç olana kadar farketmedi!$h",
+  "Abigail_yellowmayoCT_Seb": "Abby'nin ördek mayonezini keşfettiğine mutlu değilim.$5",
+  "Abigail_yellowmayoCT_Sam": "Abby ördek mayoneziyle Seb ve benim günümüzü mahvetti.$2#$b#Ona bunu veren SEN miydin?!$8",
+  //
+  // Lewis Special Night Conversation Topic Strings
+  "Lewis_specialnightCT_Lewis": "%Lewis kıkırdar ama baktığını farkedince kendini durdurur.",
+  "Lewis_specialnightCT_Marnie": "%Marnie gözünde bir parıltıyla gökyüzüne bakıyor.",
+  //
+  // Marnie Special Dinner Conversation Topic Strings
+  "Marnie_specialdinnerCT_Lewis": "%Lewis mutlu bir şekilde düşünmeye dalmış gibi.",
+  "Marnie_specialdinnerCT_Marnie": "%Marnie gülümsüyor ve kendi kendine mırıldanıyor.",
+  //
+  // Marnie Casks for Cheese Conversation Topic Strings
+  "Marnie_casksforcheeseCT_Marnie": "Fıçılar için teşekkürler @! Biraz keliteli peynir için sanırsızlanıyorum.$h",
+  "Marnie_casksforcheeseCT_Jas": "Marnie teyzenin kokulu biraz peyniri var artık.$3",
+  "Marnie_casksforcheeseCT_Shane": "Marnie'nin artık fıçıları olduğunu farkettim. Umarım şu olgunlaştırılmış peyniri paylaşacaktır.$6",
+  //
+  // Robin Like Strawberry Wine Topic Strings
+  "Robin_likestrawberrywineCT_Robin": "Çilek şarabı gibi, ve on yedi...#$b#Hmm? Ah, beni takma.",
+  "Robin_likestrawberrywineCT_Demetrius": "Sıcak haziran ayı gördü her şeyi...#$b#*öksürür* Affedersin, @.",
+  "Robin_likestrawberrywineCT_Maru": "Annem ve babam normalden daha mutlu görünüyor.",
+  //
+  // Sam Grease for Wheels Topic Strings
+  "Sam_greaseforwheelsCT_Sam": "Yağ gıcırdamayı cidden kesti. Teşekkürler @!$h",
+  "Sam_greaseforwheelsCT_Vincent": "Sam'in kaykayı o komik sesi çıkarmıyor artık.",
+  "Sam_greaseforwheelsCT_Jodi": "Sam'in kaykayı şimdi biraz daha az gürültücü ve bu iyi. Onun kendi eşyalarına baktığına sevindim.#$b#Bir de Lewis'le sıkıntı çıkarmayı kesmesini de yapabilsem...$2",
+  "Sam_greaseforwheelsCT_Kent": "Geçen gün Sam'i kaykayıyla gördüm.#$b#Hareketleri normalden daha iyi.$h",
+  //
+  // Sebastian Side for Sushi Topic Strings
+  "Sebastian_sideforsushiCT_Seb": "Hiç turşulanmış zencefil gibi değil, ama çin lahanası suşiyle birlikte iyi olacak.$7",
+  "Sebastian_sideforsushiCT_Maru": "Sebastian'ın çin lahanasıyla suşi yediğini farkettim.#$b#Çok güzel duruyordu.",
+  "Sebastian_sideforsushiCT_Robin": "Sebastian'ı farklı yemekleri denerken gördüğüme sevindim.$h#$b#Sürekli abur cubur yemekten iyidir.",
+  //
+  // Sandy Light Beverage Topic Strings - No DSV installed, so it's beer
+  "Sandy_lightbeverage_beerCT_Sandy": "Biraları getirdiğin için tekrar teşekkürler!#$b#Emily ve ben iyi zaman geçirdik.$h",
+  "Sandy_lightbeverage_beerCT_Emily": "Sandy biraları beğendi. Teşekkürler @!#$b#Bize buluşmak için bir sebep verdi, sanki lazımmış gibi.$h",
+  "Sandy_lightbeverage_beerCT_Haley": "Bir süre evin kendime kalması güzeldi.#$b#Emily'nin uğraması için Sandy olması güzel.",
+  //
+  // Sandy Light Beverage Topic Strings - DSV is installed, so it's beet juice
+  "Sandy_lightbeverage_juiceCT_Sandy": "Sebze sularını getirdiğin için tekrar teşekkürler!#$b#Emily ve ben iyi zaman geçirdik.$h",
+  "Sandy_lightbeverage_juiceCT_Emily": "Sandy sebze sularını beğendi. Teşekkürler @!#$b#Bize buluşmak için bir sebep verdi, sanki lazımmış gibi.$h",
+  "Sandy_lightbeverage_juiceCT_Haley": "Bir süre evin kendime kalması güzeldi.#$b#Emily'nin uğraması için Sandy olması güzel.",
+  //
+  //
+  //
+  //
+  // ***Mod Integrations~***
+  //
+  // Alecto the Witch Home Spa Day Order Strings
+  "TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Name": "Evde Spa Günü",
+  "TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Text": "Sonraki evde spa günüm için gerçekten özel bir şey istiyorum. Biri bana iridyum kalite 2 şişe şarap çalabilir mi? Sadece en iyisinden!",
+  "TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Objective_Text_0": "Alecto'ya 2 şişe Şarap (iridyum kalite) ver",
+  "TowniesNeedArtisanGoods_Alecto_HomeSpaDay_Message_0": "Bu şu çöp karton kutu şaraplarından iyi bir değişim.#$b#Teşekkür ederim, @.$h",
+  //
+  // Jorts and Jean Tangy Snack Order Strings
+  "TowniesNeedArtisanGoods_JortsandJean_TangySnack_Name": "Ekşi Tat",
+  "TowniesNeedArtisanGoods_JortsandJean_TangySnack_Text": "Jorts ve Jean peynire bayılıyor gibi. Birisi onlara birer dilim peynir verir mi?     - Marlon",
+  "TowniesNeedArtisanGoods_JortsandJean_TangySnack_Objective_Text_0": "Jean'e 1 Peynir ver",
+  "TowniesNeedArtisanGoods_JortsandJean_TangySnack_Objective_Text_1": "Jorts'a 1 Peynir ver",
+  "TowniesNeedArtisanGoods_JortsandJean_TangySnack_Message_0": "Çok memnun oldum, @! Bu hoş.$h#$b#Marlon mu istedi? Ondan ne kadar nazik bir şey. Ben de ona teşekkür edeceğim.",
+  "TowniesNeedArtisanGoods_JortsandJean_TangySnack_Message_1": "Lezzetli bir atıştırmalık, @!$h#$b#Bunu vermeni Marlon mu istedi?#$b#Ona teşekkür edeceğim!$h#$b#Ah, sana da teşekkürler!",
+  //
+  // Always Raining in the Valley (ARV) Mia Girl Scout Jam Order Strings
+  "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Name": "Kız İzci Reçeli",
+  "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Text": "Acilen yardıma ihtiyacım var! Grampleton Papatya Kız İzci grubu için birkaç turta gönüllü olarak teklif ettim, fakat bitirmek için reçelin sıfırını tüketmişim. Lütfen, bu görevin devam edebilmesi için en hızlı şekilde 4 kavanoz reçelinizi bana ulaştırın. Papatya Kız İzciler'in geleceği ellerimizde!",
+  "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Objective_Text_0": "Mia'ya 4 kavanoz Reçel ver",
+  "TowniesNeedArtisanGoods_Mia_GirlScoutJam_Message_0": "Ah, beni kurtardın @!$4#$b#Görev devam edebilir. Çok teşekkürler!$h",
+  //
+  // ARV Mia Canning Fever Order Strings
+  "TowniesNeedArtisanGoods_Mia_CanningFever_Name": "Konserve Telaşesi!",
+  "TowniesNeedArtisanGoods_Mia_CanningFever_Text": "Yeniden yardıma ihtiyacım var! Hem Grampleton Papatya Kız İzciler VE Karahindiba Erkek İzciler satacak turta istiyor. Lütfen portakal, yabanmersini, üzüm, ahududu ve elma reçellerinden birer kavanoz ulaştırın. Papatya Kız İzciler ve Karahindiba Erkek İzciler bize güveniyor!",
+  "TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_0": "Mia'ya 1 Portakal Reçeli ver",
+  "TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_1": "Mia'ya 1 Yabanmersini Reçeli ver",
+  "TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_2": "Mia'ya 1 Üzüm Reçeli ver",
+  "TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_3": "Mia'ya 1 Ahududu Reçeli ver",
+  "TowniesNeedArtisanGoods_Mia_CanningFever_Objective_Text_4": "Mia'ya 1 Elma Reçeli ver",
+  "TowniesNeedArtisanGoods_Mia_CanningFever_Message_0": "Portakalla hoş bir mereng turtası yapabilirim, klasik limona karşı değişiklik olsun diye. Teşekkürler @!$h",
+  "TowniesNeedArtisanGoods_Mia_CanningFever_Message_1": "Teşekkürler @! Yeterince şekerle, bunu iştah açıcı bir yabanmersini turtasına çevirebilirim.$h",
+  "TowniesNeedArtisanGoods_Mia_CanningFever_Message_2": "Kırmızı üzüm turtası kadar olmayacak, ama yeterince yakın. Teşekkürler @!$h",
+  "TowniesNeedArtisanGoods_Mia_CanningFever_Message_3": "Teşekkürler @! Ahududular o kadar tatlı değil, ama yine de yaz için hoş bir hatırlatıcı.$h",
+  "TowniesNeedArtisanGoods_Mia_CanningFever_Message_4": "Elma turtasının klasik olmasının bir sebebi var. Teşekkürler @!$h",
+  //
+  // ARV Mia Taste of Home Order Strings
+  "TowniesNeedArtisanGoods_Mia_TasteofHome_Name": "Evin Tadı",
+  "TowniesNeedArtisanGoods_Mia_TasteofHome_Text": "Şehirde yaşarken babamın kişisel aşçısının bizim için pişirdiği yemekleri özlerken buluyorum kendimi. Biraz havyar verebilir misiniz? Sadece biraz, neye benzediğini hatırlamak için... Cooper oğlanlarının İKİSİNE DE bir şey söylemeyin, yoksa suyu çıkana kadar kızdırırlar.",
+  "TowniesNeedArtisanGoods_Mia_TasteofHome_Objective_Text_0": "Mia'ya 1 Havyar ver",
+  "TowniesNeedArtisanGoods_Mia_TasteofHome_Message_0": "Ahhh, Teşekkür ederim @!$h#$b#Fakat bunu gizli tuttuğundan EMİN ol, tamam? Tek kelime etme, @, sana güveniyorum.$4#$b#Vadi halkının acayip hayatına hayranım, fakat evden de yiyeceğinin olması güzel.$4",
+  //
+  // ARV Sterling Fancy Juice Order Strings
+  "TowniesNeedArtisanGoods_Sterling_FancyJuice_Name": "Süslü Sebze Suyu",
+  "TowniesNeedArtisanGoods_Sterling_FancyJuice_Text": "Ayıklık olayı o kadar da kötü değilmiş!... Tamamen bir yalan, bu arada. Zannetmiş olabileceğimden de daha zormuş. Mia benzer bir şişeye konan süslü sebze sularından birini denememi önerdi. Biri beni iki şişe balkabağı suyuyla buluşturabilir mi?",
+  "TowniesNeedArtisanGoods_Sterling_FancyJuice_Objective_Text_0": "Sterling'e 2 Balkabağı Suyu ver",
+  "TowniesNeedArtisanGoods_Sterling_FancyJuice_Message_0": "Ah, süslü sebze suyu.... Umarım cidden yardımcı olur.$6#$b#...Teşekkür ederim, @, gerçek bir insansın.",
+  //
+  //
+  // **ARV conversation topics strings****
+  //
+  // ARV Mia Girl Scout Jam CT Strings
+  "Mia_girlscoutjamCT_Henry": "Mia biraz önce turtalar için yeterince reçel olmadığından stresliydis.#$b#Ah, ona verdin mi? Çok hoş bir davranış.$h",
+  "Mia_girlscoutjamCT_Sterling": "Mia mutfakta bir şeyler pişiriyordu ama denemek yok dedi.$2",
+  "Mia_girlscoutjamCT_Elliott": "Mia'yı ya gördüm ya görmedim, şu aralar çok meşgul.",
+  //
+  // ARV Mia Canning Fever CT Strings
+  "Mia_canningfeverCT_Henry": "Mia yine aynı şeyi yapıyor, reçel hakkında mırıldanıyor.#$b#Ona tekrar yardım ettiğine sevindim!$h",
+  "Mia_canningfeverCT_Sterling": "Mia'nın pişirdikleri geçen sefer onca reçeli aldığından daha güzel kokuyor, ama hala bana denetmez.$2",
+  "Mia_canningfeverCT_Leah": "Mia'nın en son turtalarından birkaçını gördüm. Süslemelere çok detay ekliyor. Gerçek bir sanatçı.",
+  //
+  // ARV Sterling Fancy Juice CT Strings
+  "Sterling_fancyjuiceCT_Henry": "Sterling'i bir şişeyle gördüğümde endişelenmiştim, ama görünüyor ki aslında balkabağı suyuymuş.#$b#Ayık kalmak için ciddi ciddi yol aramasından çok gururluyum.$h",
+  "Sterling_fancyjuiceCT_Mia": "Sterling'in sebze suyu tavsiyemi dinlediğine sevindim.$4#$b#Balkabağı da aynı zamanda mükemmel bir seçim.$h",
+  "Sterling_fancyjuiceCT_Shane_NS": "Hmph, Sterling ayık kalmaya çalışıyor, ha? Onun için iyi.$3",
+  "Sterling_fancyjuiceCT_Shane_S": "Sterling'in ayıklığa giden kendi yolunu bulmasına sevindim. O yolun ne kadar zor olduğunu biliyorum.$6",
+  //
+  //
+  // ***Host Trees order strings***
+  //
+  // Caroline Delicate Orchids Host Trees Strings
+  "TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Name": "Hoş Orkideler",
+  "TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Text": "Kış bahçeme vanilya orkidesi saksıları da eklemeyi isterim. Biri bana 2 tane getirir mi?",
+  "TowniesNeedArtisanGoods_Caroline_DelicateOrchids_Objective_Text_0": "Pierre'in dükkanındaki boş kutuya 2 Vanilya Orkidesi Saksısı bırak",
+  //  
+  // Emily Nice Threads Host Trees Strings
+  "TowniesNeedArtisanGoods_Emily_NiceThreads_Name": "Hoş Kumaşlar",
+  "TowniesNeedArtisanGoods_Emily_NiceThreads_Text": "Gizli bir projem var ve İspanyol Yosunu İpliği'ne ihtiyacım var. Biri bana 5 tane getirir mi?",
+  "TowniesNeedArtisanGoods_Emily_NiceThreads_Objective_Text_0": "Emily'e 5 İspanyol Yosunu İpliği ver"
+  "TowniesNeedArtisanGoods_Emily_NiceThreads_Message_0": "Teşekkürler @! Bu malzeme çok yumuşak.#$b#Ne için mi?#$b#Sır!$h",
+  //
+  // Evelyn Special Stand Host Trees Strings
+  "TowniesNeedArtisanGoods_Evelyn_SpecialStand_Name": "Özel Stand",
+  "TowniesNeedArtisanGoods_Evelyn_SpecialStand_Text": "George ökseotu geleneğine saygı göstermeyi biliyor, ve ona kibarca hatırlatmak istiyorum. Biri bana bir ökseotu ayaklığı getirir mi?",
+  "TowniesNeedArtisanGoods_Evelyn_SpecialStand_Objective_Text_0": "Evelyn'in evindeki bitkinin oraya bir Ökseotu Ayaklığı bırak",
+  //
+  // Gus Travel Bread Host Trees Strings
+  "TowniesNeedArtisanGoods_Gus_TravelBread_Name": "Yolluk Ekmek",
+  "TowniesNeedArtisanGoods_Gus_TravelBread_Text": "Biri salona 4 liken ekmeği bırakır mı?",
+  "TowniesNeedArtisanGoods_Gus_TravelBread_Objective_Text_0": "Gus'a 4 Liken Ekmeği ver",
+  "TowniesNeedArtisanGoods_Gus_TravelBread_Message_0": "Hoş, basit bir ekmek. Teşekkürler @!$h",
+  //
+  // Sandy Cheery Indoor Plants Host Trees Strings
+  "TowniesNeedArtisanGoods_Sandy_CheeryIndoorPlants_Name": "Neşeli İçmekan Bitkileri",
+  "TowniesNeedArtisanGoods_Sandy_CheeryIndoorPlants_Text": "Bence birkaç yeni bitki Sandy'nin hoşuna gider. Biri ona birer ren geyiği liken ve bir üstbitken teraryumu verebilir mi?    - Emily",
+  "TowniesNeedArtisanGoods_Sandy_CheeryIndoorPlants_Objective_Text_0": "Sandy'nin evindeki bitkinin yanına Ren Geyiği Liken Teraryumu bırak",
+  "TowniesNeedArtisanGoods_Sandy_CheeryIndoorPlants_Objective_Text_1": "Sandy'nin evindeki bitkinin yanına Üstbitken Teraryumu bırak",
+  //
+  // Jas Plushie of Love Host Trees Strings
+  "TowniesNeedArtisanGoods_Jas_PlushieofLove_Name": "Sevgi Peluşu",
+  "TowniesNeedArtisanGoods_Jas_PlushieofLove_Text": "Bence Jas ve Vincent bu sene bir peluşa bayılır. Biri ikisine de birer tane Yosunlu Junimo verir mi?     - Shane",
+  "TowniesNeedArtisanGoods_Jas_PlushieofLove_Objective_Text_0": "Jas'e Yosunlu Junimo ver ",
+  "TowniesNeedArtisanGoods_Jas_PlushieofLove_Objective_Text_1": "Vincent'a Yosunlu Junimo ver",
+  "TowniesNeedArtisanGoods_Jas_PlushieofLove_Message_0": "Benim için bir sürprizin mi var?$3#$b#Ahh, çok POFUDUK!!!$h#$b#Teşekkürler! Shane Amca'ya da teşekkür edeceğim!$h",
+  "TowniesNeedArtisanGoods_Jas_PlushieofLove_Message_1": "Hmm?$3#$b#Aaah, çok sevimli!!!$h#$b#Teşekkür ederim! Shane'e teşekkür edeceğim.$h",
+  //
+  // Wizard Safety First Host Trees Strings
+  "TowniesNeedArtisanGoods_Wizard_SafetyFirst_Name": "Önce Güvenlik",
+  "TowniesNeedArtisanGoods_Wizard_SafetyFirst_Text": "Yerel büyücü iblislere karşı korunmak için 3 iksir arıyor.",
+  "TowniesNeedArtisanGoods_Wizard_SafetyFirst_Objective_Text_0": "Büyücü'ye 3 İblisten Koruyucu İksir ver",
+  "TowniesNeedArtisanGoods_Wizard_SafetyFirst_Message_0": "Çok teşekkürler, @!$h#$b#Kötülüğü defetmek için kullanışlı olacak.",
+  //  
+  // Jorts and Jean Fun String Host Trees Strings
+  "TowniesNeedArtisanGoods_JortsandJean_FunString_Name": "Eğlenceli İplik",
+  "TowniesNeedArtisanGoods_JortsandJean_FunString_Text": "Şey, bu kedilerle arkadaş oldum... uzun lafın kısası, ikisinden biri bana onlara biraz İspanyol Yosunu İpliği için bir ilan asmamı istediler. Eğlenceli bir iplik, biri onlara yardım eder mi?       - Abigail",
+  "TowniesNeedArtisanGoods_JortsandJean_FunString_Objective_Text_0": "Jean'e 1 İspanyol Yosunu İpliği ver",
+  "TowniesNeedArtisanGoods_JortsandJean_FunString_Objective_Text_1": "Jorts'a 1 İspanyol Yosunu İpliği ver",
+  "TowniesNeedArtisanGoods_JortsandJean_FunString_Message_0": "Ah, Abigail'in getirebileceğini biliyordum, söylemek gerekirse.#$b#Bunun için teşekkür ederim, @! Yardım zamanı kadar oyun zamanı da önemli.$h",
+  "TowniesNeedArtisanGoods_JortsandJean_FunString_Message_1": "Bu... benim için mi?$4#$b#TEŞEKKÜR EDERİM, TEŞEKKÜR EDERİM, TEŞEKKÜR EDERİM!!$h#$b#Abigail bana vermeni mi söyledi?#$b#Jean ondan istedi diye mi?! Ah, cidden en harika arkadaşlara sahibim.$h",
+  //
+  //
+  // ***Host Trees events and conversation topics strings***
+  //
+  // Caroline Delicate Orchids Letter and CT Strings
+  "letter_caroline_delicateorchids_name": "Caroline Hoş Orkideler",
+  "letter_caroline_delicateorchids": "Selam @,^Teşekkürler orkideler için! Biraz gölge de alabilsinler diye tam olarak hangi bitkileri aşağı koyacağımı biliyorum.^-Caroline",
+  "Caroline_delicateorchidsCT_Caroline": "Orkideler için tekrar teşekkürler!#$b#Yarım gölgede mutlu görünüyorlar.",
+  "Caroline_delicateorchidsCT_Abby": "Annemin kış bahçesinden çok güzel kokular geliyor...$3",
+  "Caroline_delicateorchidsCT_Pierre": "Caroline'a verdiğin orkideler onu bayağı neşelendiriyor.#$b#Bunun için teşekkürler, onu mutlu görmeyi seviyorum!$h",
+  //
+  // Emily Nice Threads CT Strings
+  "Emily_nicethreadsCT_Emily": "Bence çocuklar yaptığım Yosunlu Junimoları sevdiler.#$b#İspanyol Yosunu İplikleri için tekrar teşekkürler!$h#$b#Yardım etmeyi seviyorum.",
+  "Emily_nicethreadsCT_Haley": "Emily yardım için doldurulmuş oyuncak falan yapıyordu.#$b#Elma gibi görünüyorlar?",
+  //
+  // Evelyn Special Stand Event and CT Strings
+  "events-02102022.01": "Merhaba, canım.#$b#Yalnızca George'a bana verdiğin ökseotu ayaklığını gösteriyordum. Tekrar teşekkürler!$h",
+  "events-02102022.02": "George huysuz görünse bile, ökseotu geleneğine nasıl uyacağını biliyor.$h",
+  "events-02102022.03": "Hmph. Beni çocuğun önünde utandırıyorsun, Evelyn.",
+  "events-02102022.04": "Yalnızca takılıyorum, canım.",
+  "events-02102022.05": "Özel bir an gibi görünüyor. Onları yalnız bırakacağım.",
+  "Evelyn_specialstandCT_Evelyn": "%Evelyn'in yüzü kızarıyor ve parlıyor.",
+  "Evelyn_specialstandCT_George": "%George kendi kendine gülümsüyor gibi.",
+  "Evelyn_specialstandCT_Alex_single": "Büyükannem ve dedem senden şu ökseotu ayaklığını aldığından beri daha mutlu görünüyor.#$b#Acaba Haley'i buralara getirebilir miyim...#$b#Ne? Hiçbir şey söylemedim.#7#$b#Bir şey falan duymadın.$4",
+  "Evelyn_specialstandCT_Alex_with_Alex": "Büyükannem ve dedem senden şu ökseotu ayaklığını aldığından beri daha mutlu görünüyor.#$b#Senle ben uğramalıyız, belki seni onun yanına getirebilirim.$4",
+  "Evelyn_specialstandCT_Alex_with_Haley": "Büyükannem ve dedem senden şu ökseotu ayaklığını aldığından beri daha mutlu görünüyor.",
+  //
+  // Jas Plushie of Love CT Strings
+  "Jas_plushieofloveCT_Shane": "Jas ve Vincent peluşlarıyla sevinçten havalarda. Onları aldığın için teşekkürler.$6",
+  "Jas_plushieofloveCT_Marnie": "Peluşlar için Shane'in siparişi koyduğuna sevindim. Çocuklar onlarla çok eğleniyor.$h",
+  //
+  // Sandy Cheery Indoor Plants CT Strings
+  "Sandy_cheeryindoorplantsCT_Sandy": "Hoş bitkiler için teşekkürler, @.$h#$b#Emily'e de teşekkür ettim. Beni iyi tanıyor.",
+  "Sandy_cheeryindoorplantsCT_Emily": "Sandy yeni teraryumlarıyla mutlu gibi.#$b#Onları ona verdiğin için teşekkürler, @!$h",
+  //
+  // Jorts and Jean Fun String Event and CT Strings
+  "events-02222022.01": "Burayı asla temiz tutamayacağım artık...",
+  "events-02222022.02": "Ah, pekala. En azından keyifleri yerinde.",
+  "JortsandJean_funstringCT_Abigail": "Thanks for getting the special thread for Jorts and Jean!$h#$b#Artık bunlar çok neşeli kediler.",
+  "JortsandJean_funstringCT_Sebastian": "Jorts ve Jean son zamanlarda heyecanlı gibi.#$b#Ah, sen ve Abigail bunu gerçekleştirmek için bir araya mı geldiniz? Güzel.$h",
+}
