@@ -540,14 +540,8 @@
         }, // Abigail's examples were great for the kids to visualize the math concepts!
         //
         // Sebastian Computer Basics INCOMPLETE
-        // HMMM where would be a good place for this? Maybe I can find where Seb's computer is (or just like, a computer) to spawn for the event in the library? Could have Seb say he moved it.
-        // Airyn noted the computer with its table is on TownInterior, on the right-hand side just below the drum kit.
-        // Hang a Lampshade™️ on the fact Seb brought both the laptop and his desk just for this lesson. Gunther can be implied to be giving Seb a Look
-        // Set up the desk and his laptop in front of Gunther's desk. Gunther like "you're not moving my bookshelves to get that desk in there ::looks over the glasses like a disappointed father::"
-        // Kids behind Seb and the desk/computer
         // the kids would be a bit bored and a tough crowd for this one lol Seb not good at explaining in an entertaining way (went with little hello world console print and kids unimpressed. He be like "I can make it do anything I want :burnitallelmo:" and it's a no-sell). Seb definitely doing a deadpan glare (angry portrait lol).
         // Mild heckling: Kids like "I don't see anything exciting happening :o " then the computer shows the hello world (OMG SPEECH BUBBLE ABOVE THE COMPUTER, CAN IT BE DONE???)
-        // Airyn mentioned maybe, if the computer is added as a temp actor
         // If Abigail video game lesson seen, "when Ms. Abigail showed us a computer, it had a lot more flashing lights and it was fun". More. Deadpan. Glares. "That wasn't a computer like this one."
         // Add CT for Abigail (with dynamic dialog!)
         /*Event proper*/ {
