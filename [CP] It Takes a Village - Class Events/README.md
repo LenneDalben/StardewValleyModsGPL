@@ -2,11 +2,13 @@
 
 This mod is in development! NPCs help out Penny teach the kiddos by giving lessons.
 
-Features include semi-randomized order of lessons and randomized dialog based on which lesson(s) played first!
+Features include semi-randomized order of lessons and dynamic dialog based on which lesson(s) played first!
 
 Background
 
 As a novice eventsmith, I was looking for event modding ideas that would be relatively simple but interesting to implement, and Airyn, who has many wonderful ideas, suggested a lessons series! The idea was "it takes a village to raise a child", so Penny might recruit fellow townspeople to teach the kids something they know.
+
+Fair warning: most of the events have the player being passive or just not there, so if that's not your thing, give the mod a pass.
 
 Getting started
 
