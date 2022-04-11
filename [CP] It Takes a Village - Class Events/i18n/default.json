@@ -35,7 +35,7 @@
     "ItTakesAVillage_BeginningCT_Shane": "Jas has been talking up a storm about guest lecturers. If Penny's asking everyone in town, it could go badly.$2#$b#What? Not everyone is suited for teaching.$3",
     //
     // Sebastian Computer Basics event
-    "events-31032028.01": "This seems kind of cramped.$3",
+    "events-31032028.01": "This is an odd spot.$3",
     "events-31032028.02": "Gunther here was particular about the space.",
     "events-31032028.03": "Indeed. I don't like anyone moving my furniture.",
     "events-31032028.04": "Alright, let's get to it.",
@@ -46,6 +46,6 @@
     "events-31032028.09": "Nothing's happening.$3",
     "events-31032028.10": "The program takes time to run.",
     "events-31032028.11": "Hello world",
-    "events-31032028.12": "See? There!#$b#I can use Turtle to make the computer do all kinds of things!$h",
+    "events-31032028.12": "See? There!#$b#I can use Turtle to make the computer do all kinds of stuff!$h",
     "events-31032028.13": "Um... ok.$3",
 }
