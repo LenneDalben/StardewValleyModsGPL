@@ -551,93 +551,93 @@
             }
         },
         /*Sebastian CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Sebastian Computer Basics CT - Sebastian",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Sebastian",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Sebastian}}"
             }
         },
         /*Jas CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Robin",
+            "LogName": "Sebastian Computer Basics CT - Jas",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Robin",
+            "Target": "Characters/Dialogue/Jas",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
-            }
-        },
-        /*Robin CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
-            "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
-            }
-        },
-        /*Maru CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
-            "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Jas}}"
             }
         },
         /*Vincent CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Robin",
+            "LogName": "Sebastian Computer Basics CT - Vincent",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Vincent",
+            "Entries": {
+                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Vincent}}"
+            }
+        },
+        /*Robin CT*/ {
+            "LogName": "Sebastian Computer Basics CT - Robin",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Robin",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Robin}}"
+            }
+        },
+        /*Maru CT*/ {
+            "LogName": "Sebastian Computer Basics CT - Maru",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Maru",
+            "Entries": {
+                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Maru}}"
             }
         },
         /*Jodi CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Jodi",
+            "LogName": "Sebastian Computer Basics CT - Jodi",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Jodi",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Jodi}}"
+                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Jodi}}"
             }
         },
         /*Kent CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Kent",
+            "LogName": "Sebastian Computer Basics CT - Kent",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Kent",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Kent}}"
+                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Kent}}"
             }
         },
         /*Sam CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Sam",
+            "LogName": "Sebastian Computer Basics CT - Sam",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sam",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Sam}}"
+                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Sam}}"
             }
         },
         /*Marnie CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Marnie",
+            "LogName": "Sebastian Computer Basics CT - Marnie",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Marnie",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Marnie}}"
+                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Marnie}}"
             }
         },
         /*Shane CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Shane",
+            "LogName": "Sebastian Computer Basics CT - Shane",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Shane",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Shane}}"
+                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Shane}}"
             }
         },
         /*Penny CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Sebastian Computer Basics CT - Penny",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Penny",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Penny}}"
             }
-        }, // The kids were not very talkative about this lesson. I hope they were a good audience...
+        },
         //
         // Demetrius Botany INCOMPLETE
         // and this here is a conifer tree of the family Pinaceae or, a pine tree. Something something poisonous plant (poison ivy, not truly an ivy but member of the cashew and pistachio family Anacardiaceae), do not touch. Helpful rhyme: leaves of three, leave them be.

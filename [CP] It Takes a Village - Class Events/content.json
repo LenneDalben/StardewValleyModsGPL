@@ -23,6 +23,7 @@
 			"AllowMultiple": false
 		},
 	},
+	// Dynamic Tokens section
 	"DynamicTokens": [
 		// Skippable Token
 		{
@@ -39,7 +40,6 @@
 				"SkippableConfig": "true"
 			}
 		},
-		// Dynamic Tokens section
 		// the events themselves would check for the value of the token, so like the Abby econ lesson would check SebComputerBasicsAndAbbyEconToken value for either AbbyEconYes or AbbyEconYesSebComputerNo in order to play the Abby econ lesson o:
 		//
 		// Dynamic Tokens for the HasSeenEvent
@@ -123,6 +123,20 @@
 				"HasSeenEvent |contains=31032022": true,
 				"HasSeenEvent |contains=AbbyEcon": true,
 				"HasSeenEvent |contains=SebComputer": true,
+			}
+		},
+		{
+			"Name": "SebComputerBasicsSeenVideoGames",
+			"Value": "speak Jas \"{{i18n:events-31032028.18}} When Ms. Abigail showed us a computer, it had a lot more flashing lights and it was fun.$3\"/speak Sebastian \"{{i18n:events-31032028.19}} That's a different kind of computer.$a\"/emote Vincent 8 true/emote Jas 8/speak Jas \"{{i18n:events-31032028.17}}\"",
+			"When": {
+				"HasSeenEvent |contains=31032033": "false"
+			}
+		},
+		{
+			"Name": "SebComputerBasicsSeenVideoGames",
+			"Value": "emote Jas 40 true/emote Vincent 40/speak Jas \"{{i18n:events-31032028.17}}\"",
+			"When": {
+				"HasSeenEvent |contains=31032033": "false"
 			}
 		},
 		// Maru Electronics and Demetrius Botany
@@ -380,7 +394,7 @@
 			"Name": "WillyLinusFishingAndCarolineEvelynGardeningToken",
 			"Value": "{{Random: CarolineEvelynGardeningYes, WillyLinusFishingYes}}",
 			"When": {
-				"HasSeenEvent |contains=31032022": true,  // Penny kickstarts events
+				"HasSeenEvent |contains=31032022": true, // Penny kickstarts events
 				"HasSeenEvent |contains=CarolineEvelynGardening": false,
 				"HasSeenEvent |contains=WillyLinusFishing": false,
 			}
