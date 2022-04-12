@@ -85,6 +85,7 @@
 			}
 		},
 		// Sebastian Computer Basics and Abigail Basic Economics
+		// HasSeenEvents
 		{
 			"Name": "SebComputerAndAbbyEconToken",
 			"Value": "AbbyEconNoSebComputerNo",
@@ -125,6 +126,7 @@
 				"HasSeenEvent |contains=SebComputer": true,
 			}
 		},
+		// Dynamic dialog
 		{
 			"Name": "SebComputerBasicsSeenVideoGames",
 			"Value": "speak Jas \"{{i18n:events-31032028.18}}\"/speak Sebastian \"{{i18n:events-31032028.19}}\"/emote Vincent 8 true/emote Jas 8/speak Jas \"{{i18n:events-31032028.17}}\"",
