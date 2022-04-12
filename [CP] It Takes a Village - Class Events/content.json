@@ -127,9 +127,9 @@
 		},
 		{
 			"Name": "SebComputerBasicsSeenVideoGames",
-			"Value": "speak Jas \"{{i18n:events-31032028.18}} When Ms. Abigail showed us a computer, it had a lot more flashing lights and it was fun.$3\"/speak Sebastian \"{{i18n:events-31032028.19}} That's a different kind of computer.$a\"/emote Vincent 8 true/emote Jas 8/speak Jas \"{{i18n:events-31032028.17}}\"",
+			"Value": "speak Jas \"{{i18n:events-31032028.18}}\"/speak Sebastian \"{{i18n:events-31032028.19}}\"/emote Vincent 8 true/emote Jas 8/speak Jas \"{{i18n:events-31032028.17}}\"",
 			"When": {
-				"HasSeenEvent |contains=31032033": "false"
+				"HasSeenEvent |contains=31032033": "true"
 			}
 		},
 		{
