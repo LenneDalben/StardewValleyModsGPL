@@ -7,7 +7,7 @@
       "Action": "EditData",
       "Target": "Data/Events/HaleyHouse",
       "Entries": {
-        "02092022/n TowniesNeedArtisanGoods_Emily_NiceThreads_Completed": "playful/-1000 -1000/Emily 16 5 2/addObject 17 6 {{spacechase0.jsonAssets/ObjectId: Mossy Junimo}} 1/addObject 15 5 {{spacechase0.jsonAssets/ObjectId: Mossy Junimo}} 1/addObject 17 5 {{spacechase0.jsonAssets/ObjectId: Mossy Junimo}} 1/addObject 16 6 {{spacechase0.jsonAssets/ObjectId:Mossy Junimo}} 1/addObject 16 5 {{spacechase0.jsonAssets/ObjectId: Spanish Moss Thread}} 1/skippable/addConversationTopic Emily_nicethreads 7/globalFadeToClear/viewport 13 7 true/pause 3000/emote Emily 32/pause 1000/globalFade/viewport -1000 -1000/end"
+        "02092022/n TowniesNeedArtisanGoods_Emily_NiceThreads_Completed": "playful/-1000 -1000/Emily 16 5 2/addObject 17 6 {{spacechase0.jsonAssets/ObjectId: Mossy Junimo}} 1/addObject 15 5 {{spacechase0.jsonAssets/ObjectId: Mossy Junimo}} 1/addObject 17 5 {{spacechase0.jsonAssets/ObjectId: Mossy Junimo}} 1/addObject 16 6 {{spacechase0.jsonAssets/ObjectId:Mossy Junimo}} 1/addObject 16 5 {{spacechase0.jsonAssets/ObjectId: Spanish Moss Thread}} 1/skippable/addConversationTopic Emily_nicethreads 7/globalFadeToClear/viewport 13 7 true/pause 3000/emote Emily 32/pause 1000/end"
       },
       "When": {
         "HasMod": "spacechase0.jsonAssets"
@@ -35,7 +35,7 @@
       "Action": "EditData",
       "Target": "Data/Events/JoshHouse",
       "Entries": {
-        "02102022/n TowniesNeedArtisanGoods_Evelyn_SpecialStand_Completed": "winter1/-1000 -1000/Evelyn 9 20 0 George 5 17 2 farmer -100 -100 0/addBigProp 9 19 {{spacechase0.jsonAssets/BigCraftableId: Mistletoe Stand}}/skippable/addConversationTopic Evelyn_specialstand 7/viewport 9 20 true/pause 800/move George 0 2 1/faceDirection Evelyn 3/emote Evelyn 32/pause 100/emote George 8/move George 3 0 1/faceDirection Evelyn 0/emote Evelyn 20/emote George 32/playSound doorClose/warp farmer 9 24/pause 300/faceDirection Evelyn 2/faceDirection George 2/move farmer 0 -2 0/speak Evelyn \"{{i18n:events-02102022.01}}\"/speak Evelyn \"{{i18n:events-02102022.02}}\"/speak George \"{{i18n:events-02102022.03}}\"/speak Evelyn \"{{i18n:events-02102022.04}}\"/pause 500/message \"{{i18n:events-02102022.05}}\"/move farmer 0 2 0/playSound doorClose/warp farmer -100 -100/move Evelyn -1 0 0/pause 500/emote George 20 true/emote Evelyn 20 true/pause 500/globalFade/viewport -1000 -1000/end"
+        "02102022/n TowniesNeedArtisanGoods_Evelyn_SpecialStand_Completed": "winter1/-1000 -1000/Evelyn 9 20 0 George 5 17 2 farmer -100 -100 0/addBigProp 9 19 {{spacechase0.jsonAssets/BigCraftableId: Mistletoe Stand}}/skippable/addConversationTopic Evelyn_specialstand 7/viewport 9 20 true/pause 800/move George 0 2 1/faceDirection Evelyn 3/emote Evelyn 32/pause 100/emote George 8/move George 3 0 1/faceDirection Evelyn 0/emote Evelyn 20/emote George 32/playSound doorClose/warp farmer 9 24/pause 300/faceDirection Evelyn 2/faceDirection George 2/move farmer 0 -2 0/speak Evelyn \"{{i18n:events-02102022.01}}\"/speak Evelyn \"{{i18n:events-02102022.02}}\"/speak George \"{{i18n:events-02102022.03}}\"/speak Evelyn \"{{i18n:events-02102022.04}}\"/pause 500/message \"{{i18n:events-02102022.05}}\"/move farmer 0 2 0/playSound doorClose/warp farmer -100 -100/move Evelyn -1 0 0/pause 500/emote George 20 true/emote Evelyn 20 true/pause 500/end"
       },
       "When": {
         "HasMod": "spacechase0.jsonAssets"
@@ -97,7 +97,7 @@
       "Action": "EditData",
       "Target": "Data/Events/AnimalShop",
       "Entries": {
-        "02202022/n TowniesNeedArtisanGoods_Jas_PlushieofLove_Completed": "SettlingIn/-1000 -1000/Jas 6 6 3 Vincent 3 6 1/addObject 4 7 {{spacechase0.jsonAssets/ObjectId: Mossy Junimo}}/addObject 5 7 {{spacechase0.jsonAssets/ObjectId: Mossy Junimo}}/skippable/addConversationTopic Jas_plushieoflove 7/viewport 6 9 true/pause 500/emote Jas 56/emote Vincent 56/faceDirection Jas 2 true/advancedMove Jas true 0 2 -3 0 0 -2 3 0/advancedMove Vincent true 3 0 0 2 -3 0 0 -2/pause 2000/globalFade/viewport -1000 -1000/end"
+        "02202022/n TowniesNeedArtisanGoods_Jas_PlushieofLove_Completed": "SettlingIn/-1000 -1000/Jas 6 6 3 Vincent 3 6 1/addObject 4 7 {{spacechase0.jsonAssets/ObjectId: Mossy Junimo}}/addObject 5 7 {{spacechase0.jsonAssets/ObjectId: Mossy Junimo}}/skippable/addConversationTopic Jas_plushieoflove 7/viewport 6 9 true/pause 500/emote Jas 56/emote Vincent 56/faceDirection Jas 2 true/advancedMove Jas true 0 2 -3 0 0 -2 3 0/advancedMove Vincent true 3 0 0 2 -3 0 0 -2/pause 2000/end"
       },
       "When": {
         "HasMod": "spacechase0.jsonAssets"
@@ -125,7 +125,7 @@
       "Action": "EditData",
       "Target": "Data/Events/SandyHouse",
       "Entries": {
-        "02212022/n TowniesNeedArtisanGoods_Sandy_CheeryIndoorPlants_Completed": "musicboxsong/-1000 -1000/Sandy 4 5 1 farmer -100 -100 0/addBigProp 8 4 {{spacechase0.jsonAssets/BigCraftableId: Reindeer Lichen Terrarium}} 2/addBigProp 8 6 {{spacechase0.jsonAssets/BigCraftableId: Air Plant Terrarium}} 2/skippable/addConversationTopic Sandy_cheeryindoorplants 7/viewport 4 6 true/pause 500/move Sandy 4 0 0/faceDirection Sandy 0/pause 800/faceDirection Sandy 2/pause 800/emote Sandy 56/move Sandy -6 0 3 true/globalFade/viewport -1000 -1000/end"
+        "02212022/n TowniesNeedArtisanGoods_Sandy_CheeryIndoorPlants_Completed": "musicboxsong/-1000 -1000/Sandy 4 5 1 farmer -100 -100 0/addBigProp 8 4 {{spacechase0.jsonAssets/BigCraftableId: Reindeer Lichen Terrarium}} 2/addBigProp 8 6 {{spacechase0.jsonAssets/BigCraftableId: Air Plant Terrarium}} 2/skippable/addConversationTopic Sandy_cheeryindoorplants 7/viewport 4 6 true/pause 500/move Sandy 4 0 0/faceDirection Sandy 0/pause 800/faceDirection Sandy 2/pause 800/emote Sandy 56/move Sandy -6 0 3 true/end"
       },
       "When": {
         "HasMod": "spacechase0.jsonAssets"
@@ -163,7 +163,7 @@
       "Action": "EditData",
       "Target": "Data/Events/AdventureGuild",
       "Entries": {
-        "02222022/n TowniesNeedArtisanGoods_JortsandJean_FunString_Completed": "jaunty/-1000 -1000/Marlon 5 11 2 JeanCat 8 12 2 JortsCat 10 13 2 farmer -100 -100 0/addObject 8 13 {{spacechase0.jsonAssets/ObjectId: Spanish Moss Thread}} 1/addObject 10 14 {{spacechase0.jsonAssets/ObjectId: Spanish Moss Thread}} 1/skippable/addConversationTopic JortsandJean_funstring 7/viewport 6 15 true/animate JeanCat false true 176 16 17 17 18 18 19 19 18 18 17 17 16/animate JortsCat false true 88 44 44 44 45 45 45 46 46 46 47 47 47 47 47 47 44 44/pause 2000/emote Marlon 28/pause 100/playSound doorClose/warp farmer 6 18/move farmer 0 -2 0/pause 1000/speak Marlon \"{{i18n:events-02222022.01}}\"/pause 2500/textAboveHead Marlon \"{{i18n:events-02222022.02}}\"/pause 800/animate farmer false true 200 102 103/pause 500/globalFade/viewport -1000 -1000/end"
+        "02222022/n TowniesNeedArtisanGoods_JortsandJean_FunString_Completed": "jaunty/-1000 -1000/Marlon 5 11 2 JeanCat 8 12 2 JortsCat 10 13 2 farmer -100 -100 0/addObject 8 13 {{spacechase0.jsonAssets/ObjectId: Spanish Moss Thread}} 1/addObject 10 14 {{spacechase0.jsonAssets/ObjectId: Spanish Moss Thread}} 1/skippable/addConversationTopic JortsandJean_funstring 7/viewport 6 15 true/animate JeanCat false true 176 16 17 17 18 18 19 19 18 18 17 17 16/animate JortsCat false true 88 44 44 44 45 45 45 46 46 46 47 47 47 47 47 47 44 44/pause 2000/emote Marlon 28/pause 100/playSound doorClose/warp farmer 6 18/move farmer 0 -2 0/pause 1000/speak Marlon \"{{i18n:events-02222022.01}}\"/pause 2500/textAboveHead Marlon \"{{i18n:events-02222022.02}}\"/pause 800/animate farmer false true 200 102 103/pause 500/end"
       },
       "When": {
         "HasMod |contains=spacechase0.jsonAssets": true,
