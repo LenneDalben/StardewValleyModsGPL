@@ -735,7 +735,7 @@
     },
     // Strings Sandy Light Beverage - No DSV installed
     {
-      "LogName": "Strings Sandy Light Beverage - Default",
+      "LogName": "Strings Sandy Light Beverage - Beer",
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
@@ -750,7 +750,7 @@
     },
     // Strings Sandy Light Beverage - DSV installed
     {
-      "LogName": "Strings Sandy Light Beverage - Easy Mode",
+      "LogName": "Strings Sandy Light Beverage - Juice",
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
