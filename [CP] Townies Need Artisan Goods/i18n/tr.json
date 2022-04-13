@@ -310,11 +310,13 @@
   "TowniesNeedArtisanGoods_Sam_SweetandSoothing_Objective_Text_0": "Sam'e 3 kavanoz Bal (maviruh ya da lale) ver",
   "TowniesNeedArtisanGoods_Sam_SweetandSoothing_Message_0": "Harika, sağol @!$h#$b#Yılın yine o zamanı geldi, bilirsin ya? Alerjilerim başlıyor.",
   //
-  // Sandy Light Beverage Order Strings - No DSV installed, so it's beer
+  // Sandy Light Beverage Order Strings - Default
   "TowniesNeedArtisanGoods_Sandy_LightBeverage_Name": "Hafif İçecek",
+  "TowniesNeedArtisanGoods_Sandy_LightBeverage_Message_0": "Emily bana bunları getirmeni mi istedi?#$b#Sanırım bunları o gelene kadar saklayacağım, sonra onunla beraber içeriz!$h",
+  //
+  // Sandy Light Beverage Order Strings - No DSV installed, so it's beer
   "TowniesNeedArtisanGoods_Sandy_LightBeverage_Beer_Text": "Biri Sandy'e 2 Bira götürebilir mi? Bence onu neşelendirmeye yardım eder.     -Emily",
   "TowniesNeedArtisanGoods_Sandy_LightBeverage_Beer_Objective_Text_0": "Sandy'e 2 Bira ver",
-  "TowniesNeedArtisanGoods_Sandy_LightBeverage_Message_0": "Emily bana bunları getirmeni mi istedi?#$b#Sanırım bunları o gelene kadar saklayacağım, sonra onunla beraber içeriz!$h",
   //
   // Sandy Light Beverage Order Strings - DSV is installed, so it's beet juice
   "TowniesNeedArtisanGoods_Sandy_LightBeverage_Juice_Text": "Biri Sandy'e 2 Bira götürebilir mi? Bence onu neşelendirmeye yardım eder.     -Emily",

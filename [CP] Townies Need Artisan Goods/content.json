@@ -723,16 +723,42 @@
         "TowniesNeedArtisanGoods_Sam_SweetandSoothing_Message_0": "{{i18n:TowniesNeedArtisanGoods_Sam_SweetandSoothing_Message_0}}"
       }
     },
-    // Strings Sandy Light Beverage
+    // Strings Sandy Light Beverage - Always
     {
-      "LogName": "Strings Sandy Light Beverage",
+      "LogName": "Strings Sandy Light Beverage - Always",
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
         "TowniesNeedArtisanGoods_Sandy_LightBeverage_Name": "{{i18n:TowniesNeedArtisanGoods_Sandy_LightBeverage_Name}}",
-        "TowniesNeedArtisanGoods_Sandy_LightBeverage_Text": "{{i18n:TowniesNeedArtisanGoods_Sandy_LightBeverage_Text}}",
-        "TowniesNeedArtisanGoods_Sandy_LightBeverage_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Sandy_LightBeverage_Objective_Text_0}}",
         "TowniesNeedArtisanGoods_Sandy_LightBeverage_Message_0": "{{i18n:TowniesNeedArtisanGoods_Sandy_LightBeverage_Message_0}}"
+      }
+    },
+    // Strings Sandy Light Beverage - No DSV installed
+    {
+      "LogName": "Strings Sandy Light Beverage - Default",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Sandy_LightBeverage_Beer_Text": "{{i18n:TowniesNeedArtisanGoods_Sandy_LightBeverage_Text}}",
+        "TowniesNeedArtisanGoods_Sandy_LightBeverage_Beer_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Sandy_LightBeverage_Objective_Text_0}}"
+      },
+      "When": {
+        "HasMod |contains=DSVTeam.DiverseSeasonalOutfits": "false",
+        "HasMod |contains=DSVTeam.DSVLightweightSeasonal": "false",
+        "HasMod |contains=DSVTeam.DiverseSeasonalOutfits.EmilyHaleySandy": "false"
+      }
+    },
+    // Strings Sandy Light Beverage - DSV installed
+    {
+      "LogName": "Strings Sandy Light Beverage - Easy Mode",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Sandy_LightBeverage_Juice_Text": "{{i18n:TowniesNeedArtisanGoods_Sandy_LightBeverage_Text}}",
+        "TowniesNeedArtisanGoods_Sandy_LightBeverage_Juice_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Sandy_LightBeverage_Objective_Text_0}}"
+      },
+      "When": {
+        "HasMod |contains=DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.EmilyHaleySandy": "true"
       }
     },
     // Strings Sebastian Side for Sushi

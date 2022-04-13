@@ -310,12 +310,14 @@
   "TowniesNeedArtisanGoods_Sam_SweetandSoothing_Objective_Text_0": "Deliver 3 Honey jars (blue jazz or tulip) to Sam",
   "TowniesNeedArtisanGoods_Sam_SweetandSoothing_Message_0": "Awesome, thanks @!$h#$b# It's that time of the year again, you know? My allergies are acting up.",
   //
-  // Sandy Light Beverage Order Strings - No DSV installed, so it's beer
+  // Sandy Light Beverage Order Strings - Default
   "TowniesNeedArtisanGoods_Sandy_LightBeverage_Name": "Light Beverage",
-  "TowniesNeedArtisanGoods_Sandy_LightBeverage_Beer_Text": "Could someone bring Sandy 2 beers? I think that would help her cheer up.     -Emily",
-  "TowniesNeedArtisanGoods_Sandy_LightBeverage_Beer_Objective_Text_0": "Deliver 2 Beers to Sandy",
   "TowniesNeedArtisanGoods_Sandy_LightBeverage_Message_0": "Emily asked you to bring these to me?#$b# I guess I'll keep these until she visits, and then we can drink them together!$h",
   //
+  // Sandy Light Beverage Order Strings - No DSV installed, so it's beer  
+  "TowniesNeedArtisanGoods_Sandy_LightBeverage_Beer_Text": "Could someone bring Sandy 2 beers? I think that would help her cheer up.     -Emily",
+  "TowniesNeedArtisanGoods_Sandy_LightBeverage_Beer_Objective_Text_0": "Deliver 2 Beers to Sandy",
+    //
   // Sandy Light Beverage Order Strings - DSV is installed, so it's beet juice
   "TowniesNeedArtisanGoods_Sandy_LightBeverage_Juice_Text": "Could someone bring Sandy 2 beet juice bottles? I think that would help her cheer up.     -Emily",
   "TowniesNeedArtisanGoods_Sandy_LightBeverage_Juice_Objective_Text_0": "Deliver 2 Beet Juice bottles to Sandy",
