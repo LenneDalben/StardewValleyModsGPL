@@ -1,0 +1,202 @@
+{
+	//provided by KediDili
+	// Strings for letter from Lewis
+	"Summer10Letter_text": "Sevgili @,^Her yıl düzenlediğimiz Pelikan Kasabası Özel Yemeği için yarın kumsalda toplanacağız.^^Etkinliğin asıl olayı, herkesin hazırlanmasına yardım ettiği ortak yemektir. Katkıda bulunmak için yanında bir şey getirmeyi unutma!^Etkinliğimize Vali Bey de katılacak. Dolayısıyla düzgün ve uygun davranmalısın.^Sabah 9 ile öğlen 2 arasında kumsala gel.^   -Başkan Lewis[#]Özel Yemek Bilgilendirmesi",
+	"Summer10Letter_title": "Özel Yemek Bilgilendirmesi",
+	//
+	// Change to String, I think it's for the jukebox :shrug:
+	"JukeboxSong_name": "Pelikan Kasabası Özel Yemeği",
+	//
+	// Changes to festival name, governor reactions and Elliott dialog the day of
+	//
+	// Festival name
+	"FestivalName": "Pelikan Kasabası Özel Yemeği",
+	//
+	// All responses
+	"GovernorReactionAll-1": "Şimdi... başka kim çorba ister?",
+	"GovernorReactionAll-2": "Eve gitme vakti.",
+	//
+	// Missing ingredient response
+	"GovernorReaction5-1": "Hım... Kötü değil fakat bir şeyler eksik...$s#$b#Kasabadaki herkes çorbaya katkı sağladı mı? Birinin özel dokunuşunun eksikliği hissediliyor.",
+	"GovernorReaction5-2": "Haklısınız... Biraz tatsız olmuş.$s",
+	"GovernorReaction5-3": "Bu yıl aramızda olduğunuz için teşekkür ederiz, Vali Bey. Çorbanın sıradan oluşunu lütfen mazur görün.",
+	"GovernorReaction5-4": "Çorba biraz tatsızdı ama Özel Yemek harikaydı!",
+	//
+	// Good response
+	"GovernorReaction3-1": "Ah... Harika bir çorba olmuş. Bu vadiden insanın önüne hiç kötü bir şey gelmez!",
+	"GovernorReaction3-2": "Ah... Nefis. Bugün harika iş çıkardınız.",
+	"GovernorReaction3-3": "Özel Yemek çok iyi geçti! Çorbaya tadını güzelleştirecek bir şey eklemem iyi oldu.",
+	//
+	// Average response
+	"GovernorReaction2-1": "Hım... Söylenecek pek bir şey yok. Ortalama bir çorba işte.",
+	"GovernorReaction2-2": "Haklısınız... Pek de orjinal değil. Kötü de değil gerçi.",
+	"GovernorReaction2-3": "Evet... Kimler çorba istiyor?",
+	"GovernorReaction2-4": "Çorba idare ederdi ama onun dışında Özel Yemek tam aksine harikaydı!",
+	//
+	// Bad response
+	"GovernorReaction1-1": "Şey... Aslında biraz midem bulandı. Sanırım bu sene çorbayı içemeyeceğim.$s",
+	"GovernorReaction1-2": "Öğk. Birisi kötü kalitedeki bir malzeme ile çorbayı mahvetmiş.$s",
+	"GovernorReaction1-3": "Evet... İsteyen var mı?",
+	"GovernorReaction1-4": "Çorba pek iyi değildi ama onun dışında Özel Yemek tam aksine harikaydı!",
+	//
+	// Elliott dialog
+	"ElliottSummer11": "Geç uyandım ve dışarı adım attığım anda kendimi bu karmaşanın içinde buldum!#$e#Bugün Özel Yemek olduğunu unutmuşum.$h",
+	//
+	// Change to Lewis lines to start the soup tasting
+	"LewisQuestionSoupTasting": "Özel Yemek'i başlatmalı mıyız? Vali bey biraz acıkmış gibi.",
+	"LewisYesSoupTasting": "Aynen, başlayalım.",
+	"LewisNoSoupTasting": "Henüz başlamayalım.",
+	// Additional vanilla dialog changes
+	//
+	// Abigail
+	"AbigailSummer10": "Herkes yarınki Özel Yemek için oldukça heyecanlı. Vali'nin de geleceğini düşünürsek, azıcık gergin de olabilirler.",
+	//
+	// Alex Marriage
+	"AlexSummer10_marriage": "Özel Yemek çorbasına ne koyacağını düşündün mü?#$e#Neyin iyi olduğunu bilmiyorum... Şef sensin!$h",
+	//
+	// Elliott Marriage
+	"ElliottSummer10_marriage": "Bugün barakamdan fazladan bir şişe mürekkep alacaktım ama yarın Özel Yemek olduğunu hatırladım. Yarın alacağım.",
+	//
+	// Harvey Marriage
+	"HarveySummer10_marriage": "Özel Yemek çorbasına ne koyacağını düşündün mü?#$e#Ben olsam değerli ve kaliteli bir ürün koyardım. Hepimiz Vali beyin üzerinde olumlu bir izlenim bırakmak istiyoruz!",
+	//
+	// Sam Marriage
+	"SamSummer10_marriage": "Özel Yemek çorbasına ne koyacağını düşündün mü?#$e#Pis bir şeyler koymak komik olabilir. Bilirsin, Vali beye bir şaka yapmak falan!$h#$e#Özür dilerim...",
+	//
+	// Sebastian Marriage
+	"SebastianSummer10_marriage": "Karışık çorbanın içine ne koyacağına karar verdin mi?#$e#Ben neyin iyi olduğunu bilmiyorum... şef sensin!$7",
+	//
+	// Shane Marriage
+	"ShaneSummer10_marriage": "Yarınki şölene kadar oruç tutabilirim. Midemin boş olması gerekiyor ki o sıcacık çorba ile doldurabileyim.$h",
+	//
+	// Compatibility Patches
+	//
+	// Immersive Festival Dialog Compatibility Patch
+	//
+	// Elliott
+	"IFD_ElliottSummer11": "Yemeğin kokusu bu sabah beni uyandırdı.$h#$b#Özel Yemek'i tamamen unutmuşum!$n#$b#Dün gece perdelerimi kapatmayı unutmamam iyi olmuş.$l",
+	//
+	//
+	// Ridgeside Village (RSV) Compatibility Patches
+	//
+	// RSV Festival Day Richard
+	"RSV_RichardSummer11": "Özel Yemek'in vadi için ne kadar eski bir gelenek olduğunu kabul etmek mahcup edici.#$b#Benden önce ortaya çıktı, ve ben öldükten çok zaman sonra da burada olacak.#$e#Bir araya toplanabildiğimiz her vakit gerçekten özel birer vakit.$h",
+	//
+	// RSV Festival Day Kenneth
+	"RSV_KennethSummer11_spouse": "Yardım teklif ettim, ama galiba Ian Özel Yemek kazanını buraya taşımayı seviyor.#$b#Koca çocuk HEM egzersiz yapıyor HEM de ziyafete katılıyor!$h#$e#Ben kimim de adamla onun işini ayıracağım?$h",
+	//
+	// RSV Alissa Dialog
+	"RSV_AlissaSummer10": "Her yaz, Pelikan Kasabası Özel Yemeği heyecanlandığım tek olay oluyor!$h#$b#Yarın çiftliğimin ekinlerini göstermek için sabırsızlanıyorum!$l",
+	//
+	// RSV Maddie Dialog
+	"RSV_MaddieSummer10": "Pelikan Kasabası Özel Yemeği için hazırlıklarını yaptın mı?#$b#Valiyi etkilemek istiyorsan iyi bir şeyler getirsen iyi olur.$7",
+	//
+	// RSV Trinnie Dialog
+	"RSV_TrinnieSummer10": "Özel Yemek günü!#$b#Çorba günü!$u#$e#Leziz yemekler yolda!$h",
+	//
+	// RSV Undreya Dialog
+	"RSV_UndreyaSummer10": "Özel Yemek'e her zaman katılırım. Çorbaya bayılıyorum!$h#$b#Ayrıce şu mor balonun bozukluğunu da seviyorum.#$b#Daha sık uğramalı.$h",
+	//
+	// RSV Ysabelle Dialog
+	"RSV_YsabelleSummer1": "Bu mevsimi dört gözle bekliyorum.#$b#Ilımlı etekler ve elbiseler bana yaz gösterilerinde küçük bir kızken dans edişimi hatırlatıyor.$h",
+	"RSV_YsabelleSummer10": "Dedem yarınki şölen için heyecanlı.#$b#Özel Yemek'e bayılıyor!$h#$e#Galiba vali diğer herkesten daha heyecanlı, çünkü çorba iyi olduğunda, çok iyi oluyor!$h",
+	//
+	// RSV Corine Dialog
+	"RSV_CorineSummer10_marriage": "Babam yarın Özel Yemek'e ne getireceği hakkında hep konuşkandır.#$e#Kabul etmiyor ancak gerçekten heyecanlı.$h",
+	//
+	// RSV Jeric Dialog
+	"RSV_JericSummer10_marriage": "Yarınki Özel Yemek'e bir şeyler seçmek için yardımın lazım, @.#$b#En iyisini seçmeli, her zaman.$7",
+	//
+	// RSV Kenneth Dialog
+	"RSV_KennethSummer10_marriage": "Yarın için Özel Yemek kazanını taşımaya yardım için Maru'yla birlikte bir makine üzerinde çalışıyorduk.#$b#Zavallı Ian o şeyi taşımaktan o kadar yoruluyor ki biz yedikten sonra kumun üstünde uyuyakalıyor, ha ha!$h",
+	//
+	// Canon Friendly Dialog Expansion (CFDE) Compatibility Patches
+	//
+	// CFDE Abigail Dialog
+	"CFDE_AbigailSummer10": "Herkes yarınki Özel Yemek için oldukça heyecanlı. Vali'nin de geleceğini düşünürsek, azıcık gergin de olabilirler.",
+	"CFDE_AbigailSummer10_2": "Herkes yarınki Özel Yemek için oldukça heyecanlı. Vali'nin de geleceğini düşünürsek, azıcık gergin de olabilirler.",
+	//
+	// CFDE Emily Dialog
+	"CFDE_EmilySummer10": "Hey, yarın Özel Yemek'te beni bul. Sana selam vereceğim, ama muhtemelen alışık olduğun şekilde değil",
+	"CFDE_EmilySummer10_2": "Hey, yarın Özel Yemek'te beni bul. Sana selam vereceğim, ama muhtemelen alışık olduğun şekilde değil",
+	//
+	// CFDE Evelyn Dialog
+	"CFDE_EvelynSummer10": "Başkan Lewis Özel Yemek için her zaman çok endişe ediyor. Ona biraz destek çıktığından emin ol.#$e#Bunu yapmanın en iyi yolu basitçe çorba için leziz bir şey getirmek.",
+	"CFDE_EvelynSummer10_2": "Başkan Lewis Özel Yemek için her zaman çok endişe ediyor. Ona biraz destek çıktığından emin ol.#$e#Bunu yapmanın en iyi yolu basitçe çorba için leziz bir şey getirmek.",
+	//
+	// CFDE Gus Dialog
+	"CFDE_GusSummer10": "Yarınki Özel Yemek için bazı güzel yemekler hazırladım, ancak karışık çorbaya bulaşmamaya çalışıyorum.#$e#Bu gerçekten gelişigüzel bir gelenek, ve iş itibarıma gelince de riske atmamayı tercih ederim.$s",
+	"CFDE_GusSummer10_2": "Yarınki Özel Yemek için bazı güzel yemekler hazırladım, ancak karışık çorbaya bulaşmamaya çalışıyorum.#$e#Bu gerçekten gelişigüzel bir gelenek, ve iş itibarıma gelince de riske atmamayı tercih ederim.$s",
+	//
+	// CFDE Haley Dialog
+	"CFDE_HaleySummer12": "Dün Emily'i Özel Yemek'te gördün mü? Çok saçma.$11",
+	"CFDE_HaleySummer12_2": "Dün Emily'i Özel Yemek'te gördün mü? Çok saçma.$11",
+	//
+	// CFDE Haley Marriage Dialog
+	"CFDE_HaleySummer12_marriage": "Dansı seviyorum, ama Emily Özel Yemek'te kendi şeyini yapınca, benim için izlemesi daha eğlenceli oluyor.",
+	//
+	// CFDE Harvey Dialog
+	"CFDE_HarveySummer10": "Gerçekten umuyorum ki yarın Özel Yemek'te kimse çorbadan hastalanmaz.#$e#Potansiyel olarak, bir felaket olmayı bekliyor. Ancak bu kasaba elbette geleneklerini seviyor.",
+	"CFDE_HarveySummer10_2": "Gerçekten umuyorum ki yarın Özel Yemek'te kimse çorbadan hastalanmaz.#$e#Potansiyel olarak, bir felaket olmayı bekliyor. Ancak bu kasaba elbette geleneklerini seviyor.",
+	//
+	// CFDE Lewis Dialog
+	"CFDE_LewisSummer10": "Dün gece pek uyumadım. Özel Yemek benim için her zaman senenin en stresli şölenidir.#$e#Yine de bunun iyi bir zaman geçirmene engel olmasına izin verme!$h",
+	"CFDE_LewisSummer28": "Sanırım bu gecenin şenliği en sevdiğim çünkü hiçbir şey için endişe etmem gerekmiyor. Ayışığı denizanaları bütün işi benim için yapıyor!$h#$e#Bu ayın başındaki Özel Yemek'ten sonra iyi bir değişiklik.",
+	"CFDE_LewisSummer28_2": "Sanırım bu gecenin şenliği en sevdiğim çünkü hiçbir şey için endişe etmem gerekmiyor. Ayışığı denizanaları bütün işi benim için yapıyor!$h#$e#Bu ayın başındaki Özel Yemek'ten sonra iyi bir değişiklik.",
+	//
+	// CFDE Linus Dialog
+	"CFDE_LinusSummer10": "Sanırım yarın Özel Yemek'te gidip yemeğimden birazını paylaşma riskini alacağım.",
+	"CFDE_LinusSummer10_2": "Sanırım yarın Özel Yemek'te gidip yemeğimden birazını paylaşma riskini alacağım.",
+	//
+	// CFDE Penny Dialog
+	"CFDE_PennySummer10": "Mmm... şimdiden yarınki Özel Yemek'te olacak yemeklerin kokusunu alabiliyorum.#$e#Sadece umuyorum ki bu yıl çorbayı kimse mahvetmez...$a#$e#Sam'le eskiden olduğu kadar fazla takılmamamın bir sebebi de bu.$a",
+	"CFDE_PennySummer10_2":  "Mmm... şimdiden yarınki Özel Yemek'te olacak yemeklerin kokusunu alabiliyorum.#$e#Sadece umuyorum ki bu yıl çorbayı kimse mahvetmez...$a#$e#Sam'le eskiden olduğu kadar fazla takılmamamın bir sebebi de bu.$a",
+	//
+	// CFDE Year 2 Festival George and Elliott Dialog 
+	"CFDE_GeorgeSummer11": "Özel Yemek'i daha çok severdim, sahilin havasını mahveden şu elektronik dev hoparlörlerimiz olmadan evvel.#$e#Bu... ah, yirmi-yirmibeş yıl evveldi.",
+	"CFDE_ElliottSummer11": "Bu sene Özel Yemek'i unutmadım!$h#$e#Şey, Leah bana hatırlattı gerçi. Yardım etti.",
+	//
+	// CFDE Year 3 Festival Robin and Pierre Dialog
+	"CFDE_RobinSummer11": "Ah, selam @! Biraz dans olmadan tam bir sahil Yemek'i olmazdı, değil mi?$h",
+	"CFDE_PierreSummer11": "Eğer olur da bir Özel Yemek gününde hava fırtınalı olursa, Vali'yi her zaman dükkanımda ağırlayabiliriz.#$e#...Ne var? İşe yaramasını sağlayabilirim.",
+	//
+	// FarmerJack's Dialogue Expansions (FDE) Compatibility Patches
+	//
+	// FDE Penny Dialog
+	"FDE_PennySummer": "Ah, selam.#$e#Özel Yemek eğlenceli bir yaz geleneğidir, ama annemle benim asla getirecek leziz bir şeyimiz olmuyor.$3",
+	//
+	// FDE Shane Married Dialog
+	"FDE_ShaneSummer10_marriage": "Yarınki şölene kadar oruç tutabilirim. Midemin boş olması gerekiyor ki o sıcacık çorba ile doldurabileyim.$h",
+	//
+	// Assorted NPC compatibility patches
+	//
+	// Jean and Jorts Jorts Dialog
+	"JeanandJorts_JortsSummer10": "Özel Yemek çorbasına ne koyacağını seçtin mi?#$b#Eğer seçmediysen, iyi kalite bir mersinbalığı harika olur. Herkes bayılır!$h",
+	//
+	// Arknir Lucikiel Marriage Dialog
+	"LucikielSummer10": "Heh, Özel Yemek çorbası için büyük bir sürprizim var.$u#$b#Ah hadi ama, adamı biraz gizem içinde bırak.$u",
+	//
+	// TheLimeyDragon Ayeisha Dialog
+	"AyeishaSummer11": "Herkes sahildeki Özel Yemek'e gidecek olmalı.",
+	//
+	// Lemurkat Ranch Expansion Marnie Dialog
+	"RE_MarnieSummer10": "Ah, bugün yapılacak çok şey var! Başkan Lewis bana Özel Yemek'teki karışık çorbayı organize ettiriyor.#$e#Eminim ekleyecek iyi bir ürünün vardır!",
+	"RE_MarnieSummer10_2": "Ah, yarınki Özel Yemek için yapılacak çok şey var!#$e#Eminim ekleyecek iyi bir ürünün vardır!",
+	"RE_MarnieSummer12": "Ah canım, seni bilmem, @, ama Özel Yemek'te bayağı fazla yedim!",
+	"RE_MarnieSummer12_2": "Ah canım,seni bilmem, @, ama Özel Yemek'te bayağı fazla yedim!",
+	//
+	// Lemurkat East Scarpe Aideen Dialog
+	"ES_AideenSummer10": "Özel Yemek mi? Çok kaotik! Grampleton'da katıldığın akşam yemeği partileri gibi değil.#$b#Şimdi, onlar medeni meselelerdi. Bu katkıda bulunma saçmalığı hiç değil.",
+	//
+	// Lemurkat Jasper Dialog
+	"JasperSummer10": "İyi bir dost ona yarın Özel Yemek'te eşlik etmem için ısrar etti.$3#$b#Fakat çorbaya katacak neyim var, @? Mağara havuçlarının beğenebileceği konuşunda şüpheliyim.$2",
+	//
+	// Lemurkat Jasper Marriage Dialog
+	"JasperSummer11_marriage": "Ah, aslında bugünkü Özel Yemek'i dört gözle bekliyorum, birtanem!$1#$b#Yanımda sen varken, topluluğun hakiki bir parçası gibi hissediyorum.$3",
+	//
+	// Lemurkat Tristan Dialog
+	"TristanSummer": "Bir keresinde Özel Yemek'te, şu kırmızı mantardan içine biraz attık.#$b#Kimse ölmedi, Yoba sağolsun, ama sadece... işler çok ilginçleşti. Ve iyi bir anlamda değil.$2#$b#Aptal çocuklardık... insanların bana güvenmesi biraz zaman alacak.$2",
+	//
+	// Mando Marriage Dialog
+	"MandoSummer10_marriage": "Yarınki Özel Yemeği unutma.#$b#Grogu sahile bayılıyor."
+}
