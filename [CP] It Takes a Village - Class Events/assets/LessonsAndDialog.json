@@ -463,13 +463,19 @@
             "Action": "EditData",
             "Target": "Data/Events/SeedShop",
             "Entries": {
-                "31032027": "distanceBanjo/-1000 -1000/farmer -100 -100 0 Pierre 4 17 2 Penny 3 23 1 Abigail 6 20 2 Jas 5 24 0 Vincent 6 24 0/viewport 6 26 true/pause 2000/addConversationTopic ItTakesAVillage_AbbyEcon {{MinimumDaysBetweenLessons}}/skippable/faceDirection Jas 3/faceDirection Vincent 1/pause 500/jump Abigail 4/faceDirection Jas 0/faceDirection Vincent 0/speak Abigail \"Alright kiddos! Who's up for a little econ 101?$h\"/jump Jas 4/shake Vincent 200/playSound doorClose/warp farmer 6 28/pause 300/faceDirection Penny 2/faceDirection Jas 2/faceDirection Vincent 2/move farmer 0 3 0/speak Abigail \"Hi @, I was just about to start.$h\"/pause 300/move farmer 3 1/faceDirection Vincent 0/faceDirectionJas 0/faceDirection Penny 1/speak Abigail \"Ok, for our first lesson: Gus comes into Dad's store to buy some supplies for the Saloon.#$b#If he wants to buy 3 boxes wheat flour, which costs X,#$b#1 bag of sugar, which costs Y,#$b#and 2 bottles of vinegar, which costs Z,#$b#how much would that cost?\"/emote Vincent 28 true/ emote Jas 40/speak Vincent \"Um, Ms. Abigail, could you repeat the question?$3/speak Abigail \"Sure! This time I'll get some visual aids.$h\"/move Abigail 4 0 0/playSound Milking/move Abigail -4 0 0/speak Abigail \"Ok, how about now?\"/end"
+                "31032027": "distanceBanjo/-1000 -1000/farmer -100 -100 0 Pierre 4 16 2 Penny 3 23 1 Abigail 6 20 2 Jas 5 24 0 Vincent 6 24 0/viewport 6 26 true/pause 2000/addConversationTopic ItTakesAVillage_AbbyEcon {{MinimumDaysBetweenLessons}}/skippable/faceDirection Jas 3/faceDirection Vincent 1/pause 500/jump Abigail 4/faceDirection Jas 0/faceDirection Vincent 0/speak Abigail \"Alright kiddos! Who's up for a little econ 101?$h\"/jump Jas 4/shake Vincent 200/playSound doorClose/warp farmer 6 28/pause 300/faceDirection Penny 2/faceDirection Jas 2/faceDirection Vincent 2/move farmer 0 3 0/speak Abigail \"Hi @, I was just about to start.$h\"/pause 300/move farmer 3 1/faceDirection Vincent 0/faceDirectionJas 0/faceDirection Penny 1/speak Abigail \"Ok, for our first lesson: Gus comes into Dad's store to buy some supplies for the Saloon.#$b#If he wants to buy 3 boxes wheat flour, which cost 100$1 each,#$b#1 bag of sugar, which cost 100$1 each,#$b#and 2 bottles of vinegar, which cost 200$,#$b#how much would that cost?\"/emote Vincent 28 true/ emote Jas 40/speak Vincent \"Um, Ms. Abigail, could you repeat the question?$3/speak Abigail \"Sure! This time I'll get some visual aids.$h\"/move Abigail 4 0 0/playSound Milking/move Abigail -4 0 0/speak Abigail \"Ok, how about now?\"/end"
         // have player walk in just as the lesson was beginning. Player will be lol'ing along in this one
         // after the props show up: Abigail stands in front of 1 pile, says these are worth X, move, these are worth Y, move, these are Z?
         // then have Jas jump up and say "Ms. Abigail, I think I know!" and then Jas hurriedly runs up to Abigail, uses the dot dot dot emote again (40)
         // Abigail confirms that's correct!
-        // Vincent walks along the objects, mini pacing. Then announces X?! with a joyous face
-        // Abigail confirms that's correct too! kids use the music note emote, Penny and player use the emoteowo
+        // Vincent walks along the objects, mini pacing. Then announces 800$1?! with a joyous face
+        // Abigail confirms that's correct too! 
+        // Vincent jumps up in the air
+        // ok, now what happens if Gus only has 1000$1 money? How much change would he get?
+        // Jas jumps! Vincent pause emotes
+        // Jas runs up again and whispers to Abigail, who says that's right
+        // Vincent announces 200$1?! Abigail says yes again!
+        // kids use the music note emote, Penny and player use the emoteowo
         // {{i18n:events-31032027.01}}
             }
         },
