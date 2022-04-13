@@ -2341,7 +2341,7 @@
     },
     // Sandy Light Beverage - DSV is installed, so it's beet juice
     {
-      "LogName": "Sandy Light Beverage",
+      "LogName": "Sandy Light Beverage - Juice",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
