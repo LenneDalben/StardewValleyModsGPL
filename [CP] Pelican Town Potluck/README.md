@@ -6,6 +6,8 @@ This mod changes references to the Luau in mail, calendar, and dialog to say Pot
 
 There was discussion on the Diverse Stardew (DSV) Discord server about how the Luau could be called something else. K.S.P Forever suggested calling it a Beachside Potluck, which stuck with me for several days before I decided to just search for the word Luau in the strings and dialog. Airyn then mentioned decoration changes, and after several tests, existentialdread recommended Pelican Town Potluck for the name, which has a nice ring to it! There are preview images in the download, but they're quite large so they're listed at the bottom of the description. :)
 
+Turkish translation provided by <a href="https://www.moddrop.com/stardew-valley/profile/225898">KediDili</a>!
+
 
 ||Compatibility||
 

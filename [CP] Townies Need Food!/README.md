@@ -6,7 +6,7 @@ For the special orders to show up on the special orders board, you must have a k
 
 The NPCs request every vanilla recipe (including from the 1.5 update), with the exceptions of: Strange Bun (because no one in town likes it), Pale Broth and Algae Soup (I've no good reason for excluding these, I just did :I ). You may notice that the NPCs ask for recipes they enjoy, hint hint~ The villagers only ask for vanilla recipes (base game), no PPJA / JA recipes.
 
-Korean translation courtesy of <a href="https://kayainsdv.postype.com/">jina2ya (Kaya)</a>.
+Korean translation courtesy of <a href="https://kayainsdv.postype.com/">jina2ya (Kaya)</a>. Turkish translation provided by <a href="https://www.moddrop.com/stardew-valley/profile/225898">KediDili</a>.
 
 There are preview images in the download, but they're quite large so they're listed at the bottom of the description. :)
 
