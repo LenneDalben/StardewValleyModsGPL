@@ -453,10 +453,6 @@
         }, // It looks like some of the more technical details were lost on the kids, but they got the gist of it.
         //
         // Abigail Basic Economics INCOMPLETE
-        // "If Gus comes into Dad's store and wants to buy 3 boxes of wheat flour, 1 bag of sugar, and 2 bottles of vinegar, how much would that cost? How much change would Gus get if he only had X money?"
-        // Get prices from the shop so it's all ~immersive~
-        // Vincent all cross eyed over the numbers until Abigail brings out the props (SPRING OBJECTS SPAWNING LITTLE BY LITTLE WOOP WOOP)
-        // Jas picks it up relatively quick
         // Add CT for Sebastian (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Abigail Basic Economics Lesson",

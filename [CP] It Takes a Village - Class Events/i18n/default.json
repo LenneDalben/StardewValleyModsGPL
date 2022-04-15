@@ -34,6 +34,25 @@
     "ItTakesAVillage_BeginningCT_Marnie": "I'm glad Jas will learning different things in class. It'll be good to get her thinking.$h",
     "ItTakesAVillage_BeginningCT_Shane": "Jas has been talking up a storm about guest lecturers. If Penny's asking everyone in town, it could go badly.$2#$b#What? Not everyone is suited for teaching.$3",
     //
+    // Abigail Basic Economics event
+    "events-31032027.01": "Alright kiddos! Who's up for a little econ 101?$h",
+    "events-31032027.02": "Hi @, I was just about to start a little lesson.",
+    "events-31032027.03": "Ok, for our first example: Gus comes into Dad's store to buy some supplies for the Saloon.#$b#If he wants to buy 3 boxes wheat flour at 100 each, 1 jar of sugar at 100 each, and 2 bottles of vinegar at 200 each,#$b#what's the total Gus owes?",
+    "events-31032027.04": "Um, Ms. Abigail, could you repeat the question?$3",
+    "events-31032027.05": "Sure! This time I'll get some visual aids.$h",
+    "events-31032027.06": "3 boxes of wheat flour costing 100 each,",
+    "events-31032027.07": "1 jar of sugar costing 100 each,",
+    "events-31032027.08": "2 bottles of vinegar costing 200 each.",
+    "events-31032027.09": "Ms. Abigail, I think I know!",
+    "events-31032027.10": "Well come on up here and tell me, let's give Vincent a chance to work through it.",
+    "events-31032027.11": "That's correct!$h",
+    "events-31032027.12": "800?!",
+    "events-31032027.13": "You got it!$h",
+    "events-31032027.14": "Ok, now what happens if Gus only has 1000? How much change would he get?",
+    "events-31032027.15": "Right again!$h",
+    "events-31032027.16": "200?",
+    "events-31032027.17": "You got it again! Great crowd!$h",
+    //
     // Sebastian Computer Basics event
     "events-31032028.01": "This is an odd spot.$3",
     "events-31032028.02": "Gunther here was particular about the space.",
