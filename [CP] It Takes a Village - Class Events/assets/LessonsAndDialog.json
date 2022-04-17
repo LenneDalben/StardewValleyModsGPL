@@ -254,6 +254,7 @@
         // Elliott Stories INCOMPLETE
         // Jas is PUMPED :clap:
         // hmm, age appropriate story, still has a lesson about something. The real treasure was the friends we made along the way or some such.
+        // both Jas and Vincent are good at the stories but for different reasons: Jas is good at the technical side of things and is very precise in her word-choice, while Vince is good at coming up with interesting characters and situations
         // Add CT for Haley and Leah (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Elliott Stories Lesson",
@@ -342,7 +343,7 @@
             "Entries": {
                 "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
             }
-        }, // Jas was the most thrilled I've seen her, thinking up her own scenarios for stories. We may have a future writer in our hands!
+        }, // Jas was the most thrilled I've seen her, thinking up different words for the same thing. Vincent was also enthusiastic, coming up with interesting characters. We may have future writers in our hands!
         //
         // Haley & Leah Art INCOMPLETE
         // Vincent likes fingerpainting
