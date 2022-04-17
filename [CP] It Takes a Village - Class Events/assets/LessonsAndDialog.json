@@ -161,6 +161,11 @@
         //
         // Gus Cooking INCOMPLETE
         // acknowledges it would be way too dangerous to introduce them to the stove (must have adult supervision). Instead settles for showing them how to make a salad. HEALTHY VEGGIES :clap: Secret ingredient, special dressing, idk.
+        // Gus in the middle, kids on either side, making salad side by side~ "Jas, pass the X" :sweatdrop:
+        // Vincent's more carefree and doesn't get caught up thinking about stuff like "how big exactly do these tomato slices need to be chopped" and "what if I've got too much lettuce and it doesn't turn out good" and "I don't really know what a good salad should look like because I've never seen one in-progress before, only the finished product" and "will Mr Gus be upset if I do it wrong and I've wasted all his ingredients"
+        // Gus tells them about how cooking can be more than just following a recipe and it's artistic because once you know the basics, you can add or change ingredients to get the same dish but with different flavours and really put your own spin on a dish
+            // Gus uses a special ingredient or dressing, tells the kids to think about what their own secret ingredient might be
+        // Vincent is super excited by that but Jas is kinda nervous and says she'll stick to the recipe
         // Add CT for Alex (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Gus Cooking Lesson",
@@ -249,7 +254,7 @@
             "Entries": {
                 "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
             }
-        }, // We've got a couple different lessons reinforcing eating healthy, so I hope it was interesting for the kids to actually see one of those meals being assembled.
+        }, // We've got a couple different lessons reinforcing eating healthy, so I hope it was interesting for the kids to actually make a meal.
         //
         // Elliott Stories INCOMPLETE
         // Jas is PUMPED :clap:
