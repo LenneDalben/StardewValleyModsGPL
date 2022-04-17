@@ -52,6 +52,18 @@
     "events-31032027.15": "Right again!$h",
     "events-31032027.16": "200?",
     "events-31032027.17": "You got it again! Great crowd!$h",
+	// Abigail Economics CTs
+    "ItTakesAVillage_AbbyEconCT_Abigail": "",
+    "ItTakesAVillage_AbbyEconCT_Jas": "",
+    "ItTakesAVillage_AbbyEconCT_Vincent": "",
+    "ItTakesAVillage_AbbyEconCT_Caroline": "",
+    "ItTakesAVillage_AbbyEconCT_Pierre": "",
+    "ItTakesAVillage_AbbyEconCT_Jodi": "",
+    "ItTakesAVillage_AbbyEconCT_Kent": "",
+    "ItTakesAVillage_AbbyEconCT_Sam": "",
+    "ItTakesAVillage_AbbyEconCT_Marnie": "",
+    "ItTakesAVillage_AbbyEconCT_Shane": "",
+    "ItTakesAVillage_AbbyEconCT_Penny": "Abigail's examples were great for the kids to visualize the math concepts!"
     //
     // Sebastian Computer Basics event
     "events-31032028.01": "This is an odd spot.$3",
