@@ -452,10 +452,10 @@
             }
         }, // It looks like some of the more technical details were lost on the kids, but they got the gist of it.
         //
-        // Abigail Basic Economics INCOMPLETE
+        // Abigail Economics INCOMPLETE
         // Add CT for Sebastian (with dynamic dialog!)
         /*Event proper*/ {
-            "LogName": "Abigail Basic Economics Lesson",
+            "LogName": "Abigail Economics Lesson",
             "Action": "EditData",
             "Target": "Data/Events/SeedShop",
             "Entries": {
