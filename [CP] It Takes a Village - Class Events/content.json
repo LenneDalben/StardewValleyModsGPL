@@ -125,8 +125,8 @@
 				"HasSeenEvent |contains=AbbyEcon": true,
 				"HasSeenEvent |contains=SebComputer": true,
 			}
-		},
-		// Dynamic dialog
+		}, // 31032028
+		// Dynamic dialog for Sebastian Computer Basics
 		{
 			"Name": "SebComputerBasicsSeenVideoGames",
 			"Value": "speak Jas \"{{i18n:events-31032028.18}}\"/speak Sebastian \"{{i18n:events-31032028.19}}\"/emote Vincent 8 true/emote Jas 8/speak Jas \"{{i18n:events-31032028.17}}\"",
@@ -139,6 +139,21 @@
 			"Value": "emote Jas 40 true/emote Vincent 40/speak Jas \"{{i18n:events-31032028.17}}\"",
 			"When": {
 				"HasSeenEvent |contains=31032033": "false"
+			}
+		},
+		// Dynamic dialog for Abigail Econ
+		{
+			"Name": "AbbyEconSeenSebComputer",
+			"Value": "speak Penny \"{{i18n:events-31032027.03}}\"/faceDirection Penny 1",
+			"When": {
+				"HasSeenEvent |contains=31032028": "true"
+			}
+		},
+		{
+			"Name": "AbbyEconSeenSebComputer",
+			"Value": "faceDirection Penny 1",
+			"When": {
+				"HasSeenEvent |contains=31032028": "false"
 			}
 		},
 		// Maru Electronics and Demetrius Botany
