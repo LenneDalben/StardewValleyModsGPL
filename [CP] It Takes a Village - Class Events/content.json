@@ -125,7 +125,7 @@
 				"HasSeenEvent |contains=31032027": true,
 				"HasSeenEvent |contains=31032028": true,
 			}
-		}, // 31032028
+		},
 		// Dynamic dialog for Sebastian Computer Basics
 		{
 			"Name": "SebComputerBasicsSeenVideoGames",
