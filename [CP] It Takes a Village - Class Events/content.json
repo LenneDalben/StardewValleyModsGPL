@@ -53,8 +53,8 @@
 			"Value": "{{Random: ElliottStoriesYes, HaleyLeahArtYes}}",
 			"When": {
 				"HasSeenEvent |contains=31032022": true, // Penny kickstarts events
-				"HasSeenEvent |contains=ElliottStories": false,
-				"HasSeenEvent |contains=HaleyLeahArt": false,
+				"HasSeenEvent |contains=31032025": false,
+				"HasSeenEvent |contains=31032026": false,
 			}
 		},
 		{
@@ -62,8 +62,8 @@
 			"Value": "ElliottStoriesYesHaleyLeahArtNo",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=ElliottStories": true,
-				"HasSeenEvent |contains=HaleyLeahArt": false,
+				"HasSeenEvent |contains=31032025": true,
+				"HasSeenEvent |contains=31032026": false,
 			}
 		},
 		{
@@ -71,8 +71,8 @@
 			"Value": "HaleyLeahArtYesElliottStoriesNo",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=ElliottStories": false,
-				"HasSeenEvent |contains=HaleyLeahArt": true,
+				"HasSeenEvent |contains=31032025": false,
+				"HasSeenEvent |contains=31032026": true,
 			}
 		},
 		{
@@ -80,8 +80,8 @@
 			"Value": "HaleyLeahArtYesElliottStoriesYes",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=ElliottStories": true,
-				"HasSeenEvent |contains=HaleyLeahArt": true,
+				"HasSeenEvent |contains=31032025": true,
+				"HasSeenEvent |contains=31032026": true,
 			}
 		},
 		// Sebastian Computer Basics and Abigail Economics
@@ -95,8 +95,8 @@
 			"Value": "{{Random: AbbyEconYes, SebComputerYes}}",
 			"When": {
 				"HasSeenEvent |contains=31032022": true, // Penny kickstarts events
-				"HasSeenEvent |contains=AbbyEcon": false,
-				"HasSeenEvent |contains=SebComputer": false,
+				"HasSeenEvent |contains=31032027": false,
+				"HasSeenEvent |contains=31032028": false,
 			}
 		},
 		{
@@ -104,8 +104,8 @@
 			"Value": "AbbyEconYesSebComputerNo",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=AbbyEcon": true,
-				"HasSeenEvent |contains=SebComputer": false,
+				"HasSeenEvent |contains=31032027": true,
+				"HasSeenEvent |contains=31032028": false,
 			}
 		},
 		{
@@ -113,8 +113,8 @@
 			"Value": "SebComputerYesAbbyEconNo",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=AbbyEcon": false,
-				"HasSeenEvent |contains=SebComputer": true,
+				"HasSeenEvent |contains=31032027": false,
+				"HasSeenEvent |contains=31032028": true,
 			}
 		},
 		{
@@ -122,8 +122,8 @@
 			"Value": "SebComputerYesAbbyEconYes",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=AbbyEcon": true,
-				"HasSeenEvent |contains=SebComputer": true,
+				"HasSeenEvent |contains=31032027": true,
+				"HasSeenEvent |contains=31032028": true,
 			}
 		}, // 31032028
 		// Dynamic dialog for Sebastian Computer Basics
@@ -166,8 +166,8 @@
 			"Value": "{{Random: DemetriusBotanyYes, MaruElectronicsYes}}",
 			"When": {
 				"HasSeenEvent |contains=31032022": true, // Penny kickstarts events
-				"HasSeenEvent |contains=DemetriusBotany": false,
-				"HasSeenEvent |contains=MaruElectronics": false,
+				"HasSeenEvent |contains=31032029": false,
+				"HasSeenEvent |contains=31032030": false,
 			}
 		},
 		{
@@ -175,8 +175,8 @@
 			"Value": "DemetriusBotanyYesMaruElectronicsNo",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=DemetriusBotany": true,
-				"HasSeenEvent |contains=MaruElectronics": false,
+				"HasSeenEvent |contains=31032029": true,
+				"HasSeenEvent |contains=31032030": false,
 			}
 		},
 		{
@@ -184,8 +184,8 @@
 			"Value": "MaruElectronicsYesDemetriusBotanyNo",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=DemetriusBotany": false,
-				"HasSeenEvent |contains=MaruElectronics": true,
+				"HasSeenEvent |contains=31032029": false,
+				"HasSeenEvent |contains=31032030": true,
 			}
 		},
 		{
@@ -193,8 +193,8 @@
 			"Value": "MaruElectronicsYesDemetriusBotanyYes",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=DemetriusBotany": true,
-				"HasSeenEvent |contains=MaruElectronics": true,
+				"HasSeenEvent |contains=31032029": true,
+				"HasSeenEvent |contains=31032030": true,
 			}
 		},
 		// Emily Emotional Health & Dance and Harvey Anatomy
@@ -207,8 +207,8 @@
 			"Value": "{{Random: HarveyAnatomyYes, EmilyEmotionalDanceYes}}",
 			"When": {
 				"HasSeenEvent |contains=31032022": true, // Penny kickstarts events
-				"HasSeenEvent |contains=HarveyAnatomy": false,
-				"HasSeenEvent |contains=EmilyEmotionalDance": false,
+				"HasSeenEvent |contains=31032032": false,
+				"HasSeenEvent |contains=31032031": false,
 			}
 		},
 		{
@@ -216,8 +216,8 @@
 			"Value": "HarveyAnatomyYesEmilyEmotionalDanceNo",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=HarveyAnatomy": true,
-				"HasSeenEvent |contains=EmilyEmotionalDance": false,
+				"HasSeenEvent |contains=31032032": true,
+				"HasSeenEvent |contains=31032031": false,
 			}
 		},
 		{
@@ -225,8 +225,8 @@
 			"Value": "EmilyEmotionalDanceYesHarveyAnatomyNo",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=HarveyAnatomy": false,
-				"HasSeenEvent |contains=EmilyEmotionalDance": true,
+				"HasSeenEvent |contains=31032032": false,
+				"HasSeenEvent |contains=31032031": true,
 			}
 		},
 		{
@@ -234,8 +234,8 @@
 			"Value": "EmilyEmotionalDanceYesHarveyAnatomyYes",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=HarveyAnatomy": true,
-				"HasSeenEvent |contains=EmilyEmotionalDance": true,
+				"HasSeenEvent |contains=31032032": true,
+				"HasSeenEvent |contains=31032031": true,
 			}
 		},
 		// Clint Metalworking and Abigail Video Games
@@ -248,8 +248,8 @@
 			"Value": "{{Random: AbbyGamesYes, ClintMetalworkYes}}",
 			"When": {
 				"HasSeenEvent |contains=31032022": true, // Penny kickstarts events
-				"HasSeenEvent |contains=AbbyGames": false,
-				"HasSeenEvent |contains=ClintMetalwork": false,
+				"HasSeenEvent |contains=31032033": false,
+				"HasSeenEvent |contains=31032024": false,
 			}
 		},
 		{
@@ -257,8 +257,8 @@
 			"Value": "AbbyGamesYesClintMetalworkNo",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=AbbyGames": true,
-				"HasSeenEvent |contains=ClintMetalwork": false,
+				"HasSeenEvent |contains=31032033": true,
+				"HasSeenEvent |contains=31032024": false,
 			}
 		},
 		{
@@ -266,8 +266,8 @@
 			"Value": "ClintMetalworkYesAbbyGamesNo",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=AbbyGames": false,
-				"HasSeenEvent |contains=ClintMetalwork": true,
+				"HasSeenEvent |contains=31032033": false,
+				"HasSeenEvent |contains=31032024": true,
 			}
 		},
 		{
@@ -275,8 +275,8 @@
 			"Value": "ClintMetalworkYesAbbyGamesYes",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=AbbyGames": true,
-				"HasSeenEvent |contains=ClintMetalwork": true,
+				"HasSeenEvent |contains=31032033": true,
+				"HasSeenEvent |contains=31032024": true,
 			}
 		},
 		// Sam Music and Shane Animal Care
@@ -289,8 +289,8 @@
 			"Value": "{{Random: ShaneAnimalCareYes, SamMusicYes}}",
 			"When": {
 				"HasSeenEvent |contains=31032022": true, // Penny kickstarts events
-				"HasSeenEvent |contains=ShaneAnimalCare": false,
-				"HasSeenEvent |contains=SamMusic": false,
+				"HasSeenEvent |contains=31032036": false,
+				"HasSeenEvent |contains=31032035": false,
 			}
 		},
 		{
@@ -298,8 +298,8 @@
 			"Value": "ShaneAnimalCareYesSamMusicNo",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=ShaneAnimalCare": true,
-				"HasSeenEvent |contains=SamMusic": false,
+				"HasSeenEvent |contains=31032036": true,
+				"HasSeenEvent |contains=31032035": false,
 			}
 		},
 		{
@@ -307,8 +307,8 @@
 			"Value": "SamMusicYesShaneAnimalCareNo",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=ShaneAnimalCare": false,
-				"HasSeenEvent |contains=SamMusic": true,
+				"HasSeenEvent |contains=31032036": false,
+				"HasSeenEvent |contains=31032035": true,
 			}
 		},
 		{
@@ -316,8 +316,8 @@
 			"Value": "SamMusicYesShaneAnimalCareYes",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=ShaneAnimalCare": true,
-				"HasSeenEvent |contains=SamMusic": true,
+				"HasSeenEvent |contains=31032036": true,
+				"HasSeenEvent |contains=31032035": true,
 			}
 		},
 		// Alex PE and Gus Cooking
@@ -330,8 +330,8 @@
 			"Value": "{{Random: GusCookingYes, AlexPEYes}}",
 			"When": {
 				"HasSeenEvent |contains=31032022": true, // Penny kickstarts events
-				"HasSeenEvent |contains=GusCooking": false,
-				"HasSeenEvent |contains=AlexPE": false,
+				"HasSeenEvent |contains=31032024": false,
+				"HasSeenEvent |contains=31032023": false,
 			}
 		},
 		{
@@ -339,8 +339,8 @@
 			"Value": "GusCookingYesAlexPENo",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=GusCooking": true,
-				"HasSeenEvent |contains=AlexPE": false,
+				"HasSeenEvent |contains=31032024": true,
+				"HasSeenEvent |contains=31032023": false,
 			}
 		},
 		{
@@ -348,8 +348,8 @@
 			"Value": "AlexPEYesGusCookingNo",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=GusCooking": false,
-				"HasSeenEvent |contains=AlexPE": true,
+				"HasSeenEvent |contains=31032024": false,
+				"HasSeenEvent |contains=31032023": true,
 			}
 		},
 		{
@@ -357,8 +357,8 @@
 			"Value": "AlexPEYesGusCookingYes",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=GusCooking": true,
-				"HasSeenEvent |contains=AlexPE": true,
+				"HasSeenEvent |contains=31032024": true,
+				"HasSeenEvent |contains=31032023": true,
 			}
 		},
 		// Robin Woodworking and Abigail Self-Defense
@@ -371,8 +371,8 @@
 			"Value": "{{Random: AbbySelfDefenseYes, RobinWoodworkingYes}}",
 			"When": {
 				"HasSeenEvent |contains=31032022": true, // Penny kickstarts events
-				"HasSeenEvent |contains=AbbySelfDefense": false,
-				"HasSeenEvent |contains=RobinWoodworking": false,
+				"HasSeenEvent |contains=31032037": false,
+				"HasSeenEvent |contains=31032038": false,
 			}
 		},
 		{
@@ -380,8 +380,8 @@
 			"Value": "AbbySelfDefenseYesRobinWoodworkingNo",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=AbbySelfDefense": true,
-				"HasSeenEvent |contains=RobinWoodworking": false,
+				"HasSeenEvent |contains=31032037": true,
+				"HasSeenEvent |contains=31032038": false,
 			}
 		},
 		{
@@ -389,8 +389,8 @@
 			"Value": "RobinWoodworkingYesAbbySelfDefenseNo",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=AbbySelfDefense": false,
-				"HasSeenEvent |contains=RobinWoodworking": true,
+				"HasSeenEvent |contains=31032037": false,
+				"HasSeenEvent |contains=31032038": true,
 			}
 		},
 		{
@@ -398,8 +398,8 @@
 			"Value": "RobinWoodworkingYesAbbySelfDefenseYes",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=AbbySelfDefense": true,
-				"HasSeenEvent |contains=RobinWoodworking": true,
+				"HasSeenEvent |contains=31032037": true,
+				"HasSeenEvent |contains=31032038": true,
 			}
 		},
 		// Willy & Linus Fishing and Caroline & Evelyn Gardening
@@ -412,8 +412,8 @@
 			"Value": "{{Random: CarolineEvelynGardeningYes, WillyLinusFishingYes}}",
 			"When": {
 				"HasSeenEvent |contains=31032022": true, // Penny kickstarts events
-				"HasSeenEvent |contains=CarolineEvelynGardening": false,
-				"HasSeenEvent |contains=WillyLinusFishing": false,
+				"HasSeenEvent |contains=31032040": false,
+				"HasSeenEvent |contains=31032039": false,
 			}
 		},
 		{
@@ -421,8 +421,8 @@
 			"Value": "CarolineEvelynGardeningYesWillyLinusFishingNo",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=CarolineEvelynGardening": true,
-				"HasSeenEvent |contains=WillyLinusFishing": false,
+				"HasSeenEvent |contains=31032040": true,
+				"HasSeenEvent |contains=31032039": false,
 			}
 		},
 		{
@@ -430,8 +430,8 @@
 			"Value": "WillyLinusFishingYesCarolineEvelynGardeningNo",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=CarolineEvelynGardening": false,
-				"HasSeenEvent |contains=WillyLinusFishing": true,
+				"HasSeenEvent |contains=31032040": false,
+				"HasSeenEvent |contains=31032039": true,
 			}
 		},
 		{
@@ -439,8 +439,8 @@
 			"Value": "WillyLinusFishingYesCarolineEvelynGardeningYes",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=CarolineEvelynGardening": true,
-				"HasSeenEvent |contains=WillyLinusFishing": true,
+				"HasSeenEvent |contains=31032040": true,
+				"HasSeenEvent |contains=31032039": true,
 			}
 		},
 		// Dynamic Tokens for the randomized dialog based on events seen, separate from CTs
