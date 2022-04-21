@@ -173,7 +173,7 @@
         // Gus in the middle, kids on either side, making salad side by side~ "Jas, pass the X" :sweatdrop:
         // Vincent's more carefree and doesn't get caught up thinking about stuff like "how big exactly do these tomato slices need to be chopped" and "what if I've got too much lettuce and it doesn't turn out good" and "I don't really know what a good salad should look like because I've never seen one in-progress before, only the finished product" and "will Mr Gus be upset if I do it wrong and I've wasted all his ingredients"
         // Gus tells them about how cooking can be more than just following a recipe and it's artistic because once you know the basics, you can add or change ingredients to get the same dish but with different flavours and really put your own spin on a dish
-            // Gus uses a special ingredient or dressing, tells the kids to think about what their own secret ingredient might be
+        // Gus uses a special ingredient or dressing, tells the kids to think about what their own secret ingredient might be
         // Vincent is super excited by that but Jas is kinda nervous and says she'll stick to the recipe
         // Add CT for Alex (with dynamic dialog!)
         /*Event proper*/ {
@@ -475,7 +475,9 @@
             "Target": "Data/Events/SeedShop",
             "Entries": {
                 "31032027": "distantBanjo/-1000 -1000/farmer -100 -100 0 Pierre 2 19 3 Penny 3 23 1 Abigail 9 20 2 Jas 6 24 0 Vincent 7 24 0/viewport 6 25 true/pause 2000/addConversationTopic ItTakesAVillage_AbbyEcon {{MinimumDaysBetweenLessons}}/skippable/faceDirection Jas 3/faceDirection Vincent 1/pause 500/faceDirection Jas 0/faceDirection Vincent 0/speak Abigail \"{{i18n:events-31032027.01}}\"/jump Jas 4/pause 100/shake Vincent 400/pause 1000/playSound doorClose/warp farmer 6 28/pause 100/faceDirection Pierre 2/faceDirection Penny 2/faceDirection Jas 2 true/faceDirection Vincent 2/faceDirection Pierre 3/move farmer 0 -2 0/speak Abigail \"{{i18n:events-31032027.02}}\"/emote farmer 8/move farmer -3 0 0/faceDirection Vincent 0 true/faceDirection Jas 0 true/{{AbbyEconSeenSebComputer}}/speak Abigail \"{{i18n:events-31032027.04}}\"/pause 100/emote Pierre 32/pause 100/emote Vincent 28 true/emote Jas 40/speak Vincent \"{{i18n:events-31032027.05}}\"/speak Abigail \"{{i18n:events-31032027.06}}\"/move Abigail 3 0 0/pause 400/playSound dwop/pause 800/playSound dwop/pause 800/playSound dwop/pause 500/move Abigail -4 0 2/playSound throwDownITem/addObject 8 21 246/addObject 8 22 246/addObject 8 23 246/speak Abigail \"{{i18n:events-31032027.07}}\"/move Abigail -1 0 2/playSound throwDownITem/addObject 7 21 245/speak Abigail \"{{i18n:events-31032027.08}}\"/move Abigail -1 0 2/playSound throwDownITem/addObject 6 21 419/addObject 6 22 419/speak Abigail \"{{i18n:events-31032027.09}}\"/speak Penny \"{{i18n:events-31032027.10}}\"/speak Abigail \"{{i18n:events-31032027.12}}\"/jump Jas 6/speak Jas \"{{i18n:events-31032027.13}}\"/speak Abigail \"{{i18n:events-31032027.14}}\"/speed Jas 4/move Jas -1 0 0/speed Jas 4/move Jas 0 -4 1/move Vincent 1 0 0/pause 400/move Vincent -2 0 0 true/emote Jas 40/speak Abigail \"{{i18n:events-31032027.15}}\"/emote Jas 32/speed Jas 4/move Jas 0 4 0/pause 400/speak Vincent \"{{i18n:events-31032027.16}}\"/speak Abigail \"{{i18n:events-31032027.17}}\"/jump Vincent 4/pause 300/speak Abigail \"{{i18n:events-31032027.18}}\"/emote Vincent 40/jump Jas 8/pause 200/speed Jas 6/speed Jas 6/move Jas 0 -4 1/emote Jas 40/speak Abigail \"{{i18n:events-31032027.19}}\"/speed Jas 6/speed Jas 6/move Jas 0 4 0/speak Vincent \"{{i18n:events-31032027.20}}\"/speak Abigail \"{{i18n:events-31032027.21}}\"/emote Jas 56 true/emote Vincent 56/emote Penny 32 true/emote farmer 32/end"
-        // {{i18n:events-31032027.01}}
+            },
+            "When": {
+                "SebComputerAndAbbyEconToken": "AbbyEconYes, AbbyEconYesSebComputerNo"
             }
         },
         /*Abigail CT*/ {
