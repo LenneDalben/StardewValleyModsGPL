@@ -1,5 +1,5 @@
 # (CP) Adventurer's Bundle to Gemologist's Bundle
-This mod changes the Adventurer's Bundle to instead be the Gemologist's Bundle. Pairs well with Non-Lethal Weapons and pacifist runs as a whole. For more pacifist AND gem-using mods, check out Mineral Mage!
+This mod changes the Adventurer's Bundle to instead be the Gemologist's Bundle. Pairs well with <a href="https://www.nexusmods.com/stardewvalley/mods/6639">Non-Lethal Weapons</a> and pacifist runs as a whole. For more pacifist AND gem-using mods, check out <a href="https://www.nexusmods.com/stardewvalley/mods/5678">Mineral Mage</a>!
 
 The requirements will now be 2 of the following combinations:
 1 Ruby
@@ -26,6 +26,7 @@ Note that the mod does not come packaged with a config file. The config file wil
 
 
 ||Uninstallation||
+
 Delete the folder from this mod.
 
 
