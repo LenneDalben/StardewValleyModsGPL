@@ -1,9 +1,15 @@
 # LenneDalben's Stardew Valley Mods (with GPL License)
 Welcome to the respository of my mods for Stardew Valley that have a GPL License! <a href="https://www.moddrop.com/stardew-valley/profile/213628">Releases can be downloaded on ModDrop</a>.
 
+
+<a href="https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/%5BCP%5D%20It%20Takes%20a%20Village%20-%20Class%20Events">(CP) It Takes a Village - Class Events</a>
+
+ NPCs help out Penny teach the kiddos by giving lessons.
+
+
 <a href="https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/%5BCP%5D%20Adventurer's%20Bundle%20to%20Gemologist's%20Bundle">(CP) Adventurer's Bundle to Gemologist's Bundle</a>
 
-Changes the Adventurer's Bundle to instead be the Gemologist's Bundle, requiring gemstones instead of monster loot.
+Changes the Adventurer's Bundle to instead be the Gemologist's Bundle, requiring gemstones instead of monster loot. This mod is unavailable on ModDrop because it doesn't work on existing saves, only on new ones.
 
 
 <a href="https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/%5BCP%5D%20Easier%20Bee%20House%2C%20Oil%20Maker%2C%20Preserves%20Jar%2C%20and%20Lightning%20Rod">(CP) Easier Bee House, Oil Maker, Preserves Jar, and Lightning Rod</a>
@@ -28,6 +34,11 @@ The Luau is renamed to Pelican Town Potluck, with corresponding mail, calendar, 
 <a href="https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/%5BCP%5D%20Townies%20Need%20Food!">(CP) Townies Need Food</a>
 
 Villagers request cooked meals on the bulletin board, after you've learned the recipe and have a kitchen! Also checks if you have a mod that adds a kitchen to the first farmhouse.
+
+
+<a href="https://github.com/LenneDalben/StardewValleyModsGPL/blob/main/%5BCP%5D%20Townies%20Need%20Artisan%20Goods/">(CP) Townies Need Artisan Goods</a>
+
+Villagers will ask for artisan goods, and reward you with gold, friendship, dialog, and special events!
 
 
 <a href="https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/%5BCP%5D%20Unique%20Mobile%20Greetings">(CP) Unique Mobile Greetings</a>
