@@ -3,6 +3,7 @@ With Townies Need Artisan Goods (TNAG), villagers will ask for artisan goods, an
 
 
 ||Background||
+
 The Diverse Stardew (DSV) server continues to provide excellent ideas and were discussing that artisan goods aren't used all that often, thus this mod was born. Special mention goes to <a href="https://www.moddrop.com/stardew-valley/profile/182160/mods">Airyn</a> and <a href="https://www.nexusmods.com/users/108706758">JeweledNebula</a>, who provided a lot of ideas on what the special orders should be.
 
 It took a lot of effort to learn some new modding skills for the rewards, so I hope you enjoy :)
@@ -11,6 +12,7 @@ Turkish translation provided by <a href="https://www.moddrop.com/stardew-valley/
 
 
 ||Configuration||
+
 Config Options
 * Repeatable: true or false, default is true. Note that some orders are not repeatable by design. Refer to the spoiler guide for full details.
 * IncludeIslandContent: true or false, default is true. Toggle special orders requiring items from the island.
@@ -25,10 +27,12 @@ Note that the mod does not come packaged with a config file. The config file wil
 
 
 ||Compatibility||
+
 TNAG will recognize if you have <a href="https://www.moddrop.com/stardew-valley/mods/707502-quality-artisan-products">Quality Artisan Products by Wingheart</a> installed, so special orders requiring quality wine and/or cheese will show up on the special orders board before you have the cellar upgrade.
 
 
 ||Installation||
+
 1. Install <a href="https://www.nexusmods.com/stardewvalley/mods/2400">SMAPI</a> (version 3.13.0 or higher)
 2. Install <a href="https://www.nexusmods.com/stardewvalley/mods/1915">Content Patcher (CP)</a> (version 1.24.0 or higher)
 3. <a href="https://www.moddrop.com/stardew-valley/mods/1077711-townies-need-artisan-goods">Download the mod from ModDrop</a> and unzip the mod folder into Stardew Valley/Mods.
@@ -36,10 +40,12 @@ TNAG will recognize if you have <a href="https://www.moddrop.com/stardew-valley/
 
 
 ||Updating||
+
 ⚠️⚠️⚠️Make sure you complete or cancel any special orders you had in your journal from TNAG first.⚠️⚠️⚠️Once you've done that, then you can update TNAG by following the install instructions above.
 
 
 ||Un-installation||
+
 ⚠️⚠️⚠️Make sure you complete or cancel any special orders you had in your journal from TNAG first.⚠️⚠️⚠️Once you've done that, delete the folders for this mod from your Stardew Valley/Mods folder.
 
 Note that if the game was going to include special orders from TNAG in the next round of special orders, you may still see some special orders listed from this mod. They will reset the following week. Do not accept a special order from TNAG after uninstalling it in order to avoid the crash.
