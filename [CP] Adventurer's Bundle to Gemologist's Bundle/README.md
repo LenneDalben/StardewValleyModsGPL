@@ -7,6 +7,8 @@ The requirements will now be 2 of the following combinations:
 3 Topaz (stacked)
 3 Emerald (stacked)
 
+NOTE: this will only work on new saves (not existing saves), and I can't guarantee it will work if you select remixed bundles. The reason it won't work on existing saves is because with the 1.5 game update, the code for how bundles work changed.
+
 
 ||Configuration||
 
