@@ -62,6 +62,10 @@
         {
             "UniqueID": "BexTX.MandoNPC",
             "IsRequired": false
+        },
+        {
+            "UniqueID": "grapeponta.VibrantPastoralRecolor",
+            "IsRequired": false
         }
     ]
 }
