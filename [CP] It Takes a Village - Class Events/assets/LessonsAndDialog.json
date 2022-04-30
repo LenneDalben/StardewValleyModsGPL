@@ -467,7 +467,7 @@
             }
         }, // It looks like some of the more technical details were lost on the kids, but they got the gist of it.
         //
-        // Abigail Economics INCOMPLETE
+        // Abigail Economics INCOMPLETE - IN PROGRESS
         // Add CT for Sebastian (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Abigail Economics Lesson",
@@ -569,7 +569,7 @@
             }
         },
         //
-        // Sebastian Computer Basics INCOMPLETE
+        // Sebastian Computer Basics INCOMPLETE - IN PROGRESS
         // Add CT for Abigail (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Sebastian Computer Basics Lesson",
