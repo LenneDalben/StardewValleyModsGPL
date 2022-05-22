@@ -5,7 +5,8 @@
 		"Repeatable": "true",
 		//Conditions for delivery
 		"Days": [22],
-		"Seasons": ["spring"]
+		"Seasons": ["spring"],
+		"MailNotReceived": ["PierreStocklist"]
 	},
 	{
 		"Id": "pierreplansaheadsummerletter",
@@ -13,7 +14,8 @@
 		"Repeatable": "true",
 		//Conditions for delivery
 		"Days": [22],
-		"Seasons": ["summer"]
+		"Seasons": ["summer"],
+		"MailNotReceived": ["PierreStocklist"]
 	},
 	{
 		"Id": "pierreplansaheadwinterletter",
@@ -21,6 +23,7 @@
 		"Repeatable": "true",
 		//Conditions for delivery
 		"Days": [22],
-		"Seasons": ["winter"]
+		"Seasons": ["winter"],
+		"MailNotReceived": ["PierreStocklist"]
 	},
 ]
