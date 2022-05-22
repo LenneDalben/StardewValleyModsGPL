@@ -1,7 +1,7 @@
 {
   "Name": "[STF] Pierre 'May' Plan Ahead - 1 Day in Advance",
   "Author": "LenneDalben",
-  "Version": "1.2.2",
+  "Version": "1.3.0",
   "Description": "Pierre could sell the next season's seeds 1 day in advance.",
   "UniqueID": "LenneDalben.PierrePlansAhead",
   "MinimumApiVersion": "3.8.1",

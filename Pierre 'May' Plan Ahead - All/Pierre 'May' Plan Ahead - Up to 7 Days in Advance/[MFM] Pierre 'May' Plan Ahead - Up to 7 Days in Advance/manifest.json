@@ -1,7 +1,7 @@
 ﻿{
 	"Name": "Pierre 'May' Plan Ahead - Up to 7 Days in Advance MFM Component",
 	"Author": "LenneDalben",
-	"Version": "1.2.2",
+	"Version": "1.3.0",
 	"Description": "Pierre mails you a letter advertising that he could potentially sell the next season's seeds up to 7 days early.",
 	"UniqueID": "LenneDalben.MFM.PierrePlansAhead",
 	"MinimumApiVersion": "3.8.1",
