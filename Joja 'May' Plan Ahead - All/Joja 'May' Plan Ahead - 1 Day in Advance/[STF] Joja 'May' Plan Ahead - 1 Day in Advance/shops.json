@@ -12,7 +12,7 @@
 			"Sunflower Seeds"
           ],	
 		"When": [
-        "!z spring/u 28/SeededRandom 2 Season 0 0.33", //available if it's `During Spring` AND MAYBE `on the 28th`
+        "!z spring/u 28/l ccIsComplete/SeededRandom 2 Season 0 0.33", //available if it's `During Spring` AND MAYBE `on the 28th`
 		]		  
         },
 		{
@@ -29,7 +29,7 @@
 			"Wheat Seeds"
           ],	
 		"When": [
-        "!z spring/u 28/SeededRandom 2 Season 0 0.33", //available if it's `During Spring` AND MAYBE `on the 28th`
+        "!z spring/u 28/l ccIsComplete/SeededRandom 2 Season 0 0.33", //available if it's `During Spring` AND MAYBE `on the 28th`
 		]		  
         },
       ]
@@ -52,7 +52,7 @@
 			"Pumpkin Seeds"
           ],
 		"When": [
-        "!z summer/u 28/SeededRandom 2 Season 0 0.33", //available if it's `During Summer` AND MAYBE `on the 28th`
+        "!z summer/u 28/l ccIsComplete/SeededRandom 2 Season 0 0.33", //available if it's `During Summer` AND MAYBE `on the 28th`
 		]		  
         },
       ],
@@ -74,7 +74,7 @@
 			"Potato Seeds"
           ],
 		"When": [
-        "!z summer/u 28/SeededRandom 2 Season 0 0.33", //available if it's `During Summer` AND MAYBE `on the 28th`
+        "!z summer/u 28/l ccIsComplete/SeededRandom 2 Season 0 0.33", //available if it's `During Summer` AND MAYBE `on the 28th`
 		]
         },
       ],

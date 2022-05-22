@@ -5,7 +5,8 @@
 		"Repeatable": "true",
 		//Conditions for delivery
 		"Days": [27],
-		"Seasons": ["spring"]
+		"Seasons": ["spring"],
+		"MailNotReceived": ["ccIsComplete"]
 	},
 	{
 		"Id": "jojaplansaheadsummerletter",
@@ -13,7 +14,8 @@
 		"Repeatable": "true",
 		//Conditions for delivery
 		"Days": [27],
-		"Seasons": ["summer"]
+		"Seasons": ["summer"],
+		"MailNotReceived": ["ccIsComplete"]
 	},
 	{
 		"Id": "jojaplansaheadwinterletter",
@@ -21,6 +23,7 @@
 		"Repeatable": "true",
 		//Conditions for delivery
 		"Days": [27],
-		"Seasons": ["winter"]
+		"Seasons": ["winter"],
+		"MailNotReceived": ["ccIsComplete"]
 	},
 ]

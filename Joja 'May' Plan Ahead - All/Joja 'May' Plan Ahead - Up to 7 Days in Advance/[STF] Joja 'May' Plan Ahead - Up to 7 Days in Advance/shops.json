@@ -19,9 +19,9 @@
 			"Wheat Seeds"
           ],
 		"When": [
-        "!z spring/u 22 23 24 25 26 27 28/SeededRandom 2 Season 0 0.25",
-		"!z spring/u 26 27 28/SeededRandom 2 Season 0.25 0.50",
-		"!z spring/u 28/SeededRandom 2 Season 0.50 0.75",
+        "!z spring/u 22 23 24 25 26 27 28/l ccIsComplete/SeededRandom 2 Season 0 0.25",
+		"!z spring/u 26 27 28/l ccIsComplete/SeededRandom 2 Season 0.25 0.50",
+		"!z spring/u 28/l ccIsComplete/SeededRandom 2 Season 0.50 0.75",
 		//available if it's`During Spring` AND MAYBE `on the 22nd-28th, 26th-28th, or just the 28th`
 		]		  
         },
@@ -32,9 +32,9 @@
 			"Sunflower Seeds"
           ],	
 		"When": [
-        "!z spring/u 22 23 24 25 26 27 28/SeededRandom 2 Season 0 0.25",
-		"!z spring/u 26 27 28/SeededRandom 2 Season 0.25 0.50",
-		"!z spring/u 28/SeededRandom 2 Season 0.50 0.75",
+        "!z spring/u 22 23 24 25 26 27 28/l ccIsComplete/SeededRandom 2 Season 0 0.25",
+		"!z spring/u 26 27 28/l ccIsComplete/SeededRandom 2 Season 0.25 0.50",
+		"!z spring/u 28/l ccIsComplete/SeededRandom 2 Season 0.50 0.75",
 		//available if it's`During Spring` AND MAYBE `on the 22nd-28th, 26th-28th, or just the 28th`
 		]		  
         },
@@ -58,9 +58,9 @@
 			"Pumpkin Seeds"
           ],
 		"When": [
-        "!z summer/y 2/u 22 23 24 25 26 27 28/SeededRandom 2 Season 0 0.25",
-		"!z summer/y 2/u 26 27 28/SeededRandom 2 Season 0.25 0.50",
-		"!z summer/y 2/u 28/SeededRandom 2 Season 0.50 0.75",
+        "!z summer/y 2/u 22 23 24 25 26 27 28/l ccIsComplete/SeededRandom 2 Season 0 0.25",
+		"!z summer/y 2/u 26 27 28/l ccIsComplete/SeededRandom 2 Season 0.25 0.50",
+		"!z summer/y 2/u 28/l ccIsComplete/SeededRandom 2 Season 0.50 0.75",
 		//available if it's`During Summer` AND `year 2 or later` AND MAYBE `on the 22nd-28th, 26th-28th, or just the 28th`
 		]		  
         },
@@ -83,9 +83,9 @@
 			"Potato Seeds"
           ],
 		"When": [
-        "!z winter/u 22 23 24 25 26 27 28/SeededRandom 2 Season 0 0.25",
-		"!z winter/u 26 27 28/SeededRandom 2 Season 0.25 0.50",
-		"!z winter/u 28/SeededRandom 2 Season 0.50 0.75",
+        "!z winter/u 22 23 24 25 26 27 28/l ccIsComplete/SeededRandom 2 Season 0 0.25",
+		"!z winter/u 26 27 28/l ccIsComplete/SeededRandom 2 Season 0.25 0.50",
+		"!z winter/u 28/l ccIsComplete/SeededRandom 2 Season 0.50 0.75",
 		//available if it's`During Winter` AND MAYBE `on the 22nd-28th, 26th-28th, or just the 28th`
 		]
         },
