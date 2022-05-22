@@ -1,7 +1,7 @@
 {
   "Name": "[STF] Joja 'May' Plan Ahead - 1 Day in Advance",
   "Author": "LenneDalben",
-  "Version": "1.0.2",
+  "Version": "1.1.0",
   "Description": "JojaMart potentially sells the next season's seeds 1 day in advance.",
   "UniqueID": "LenneDalben.JojaPlansAhead",
   "MinimumApiVersion": "3.4.0",

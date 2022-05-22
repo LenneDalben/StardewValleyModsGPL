@@ -1,7 +1,7 @@
 {
   "Name": "[STF] Joja 'May' Plan Ahead - Draylon Edition",
   "Author": "LenneDalben",
-  "Version": "1.0.2",
+  "Version": "1.1.0",
   "Description": "JojaMart could sell some of the next season's seeds up to 7 days in advance, and even then, it's not guaranteed they'll sell them the rest of that week, or even sell all of the next season's seeds. Enjoy the randomness!",
   "UniqueID": "LenneDalben.JojaPlansAhead",
   "MinimumApiVersion": "3.4.0",
