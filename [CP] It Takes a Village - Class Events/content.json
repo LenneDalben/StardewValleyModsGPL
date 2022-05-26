@@ -127,50 +127,50 @@
 			}
 		},
 		// Dynamic dialog for Sebastian Computer Basics
-		{
+		/*Dynamic event dialog, saw Video Games "lesson"*/ {
 			"Name": "SebComputerBasicsSeenVideoGamesEvent",
 			"Value": "speak Jas \"{{i18n:events-31032028.18}}\"/speak Sebastian \"{{i18n:events-31032028.19}}\"/emote Vincent 8 true/emote Jas 8/speak Jas \"{{i18n:events-31032028.17}}\"",
 			"When": {
 				"HasSeenEvent |contains=31032033": "true"
 			}
 		},
-		{
+		/*Dynamic event dialog, didn't see Video Games "lesson"*/ {
 			"Name": "SebComputerBasicsSeenVideoGamesEvent",
 			"Value": "emote Jas 40 true/emote Vincent 40/speak Jas \"{{i18n:events-31032028.17}}\"",
 			"When": {
 				"HasSeenEvent |contains=31032033": "false"
 			}
 		},
-		{
+		/*Dynamic Abigail CT dialog, didn't see econ lesson, saw Video Games "lesson"*/ {
 			"Name": "SebComputerBasicsSeenVideoGamesAbbyCT",
 			"Value": "{{i18n:ItTakesAVillage_SebComputerCT_Abigail_NoEconYesVG}}",
 			"When": {
-				"HasSeenEvent |contains=31032033": "true",
-				"HasSeenEvent |contains=31032027": "false"
+				"HasSeenEvent |contains=31032027": "false",
+				"HasSeenEvent |contains=31032033": "true"
 			}
 		},
-		{
+		/*Dynamic event dialog, didn't see econ lesson or Video Games "lesson"*/ {
 			"Name": "SebComputerBasicsSeenVideoGamesAbbyCT",
 			"Value": "{{i18n:ItTakesAVillage_SebComputerCT_Abigail_NoEconNoVG}}",
 			"When": {
-				"HasSeenEvent |contains=31032033": "false",
-				"HasSeenEvent |contains=31032027": "false"
+				"HasSeenEvent |contains=31032027": "false",
+				"HasSeenEvent |contains=31032033": "false"
 			}
 		},
-		{
+		/*Dynamic event dialog, saw econ and Video Games "lesson"*/ {
 			"Name": "SebComputerBasicsSeenVideoGamesAbbyCT",
 			"Value": "{{i18n:ItTakesAVillage_SebComputerCT_Abigail_YesEconYesVG}}",
 			"When": {
-				"HasSeenEvent |contains=31032033": "true",
-				"HasSeenEvent |contains=31032027": "true"
+				"HasSeenEvent |contains=31032027": "true",
+				"HasSeenEvent |contains=31032033": "true"
 			}
 		},
-		{
+		/*Dynamic event dialog, saw econ lesson, didn't see Video Games "lesson"*/ {
 			"Name": "SebComputerBasicsSeenVideoGamesAbbyCT",
 			"Value": "{{i18n:ItTakesAVillage_SebComputerCT_Abigail_YesEconNoVG}}",
 			"When": {
-				"HasSeenEvent |contains=31032033": "truee",
-				"HasSeenEvent |contains=31032027": "false"
+				"HasSeenEvent |contains=31032027": "true",
+				"HasSeenEvent |contains=31032033": "false"
 			}
 		},
 		// Dynamic dialog for Abigail Econ
