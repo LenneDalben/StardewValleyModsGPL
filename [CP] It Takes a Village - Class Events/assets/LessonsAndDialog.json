@@ -1056,6 +1056,31 @@
             }
         }, // I was glad to hear Jas was excited by what she was learning. Hopefully poor Vincent will feel a little less nervous at the doctor now.
         // SURPRISE should definitely edit Vincent's schedule dialog (if I can figure out how) assuming you've seen this event, to show he's a little less nervous. Something like "*sniff* Ok no lollipop today, I can do this!$s"
+        /*Vincent Schedule Dialog*/ {
+            "LogName": "Harvey Anatomy and Health Vincent Schedule Dialog Changes",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Vincent",
+            "Entries": {
+                "spring_11.000": "*sob*... Shots are still terrible.$s",
+                "spring_11.001": "*gulp*... It's ok Mommy, I think I'm ok.$s",
+                "spring_11.002": "*sniff* Ok no lollipop today, I can do this!$s"
+            },
+            "When": {
+                "HasSeenEvent": "31032032"
+            }
+        },
+        /*Jodi Schedule Dialog*/ {
+            "LogName": "Harvey Anatomy and Health Jodi Schedule Dialog Changes",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Jodi",
+            "Entries": {
+                "spring_11.000": "Vincent hates going to the doctor more than anything, but he seems a little calmer after that lesson with Harvey.",
+            },
+            "When": {
+                "HasSeenEvent": "31032032"
+            }
+        },
+        // 
         //
         // Abigail Video Games INCOMPLETE
         // Meet in town outside Pierre's.
