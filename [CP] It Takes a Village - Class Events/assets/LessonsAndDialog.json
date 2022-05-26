@@ -569,8 +569,7 @@
             }
         },
         //
-        // Sebastian Computer Basics INCOMPLETE - IN PROGRESS
-        // Add CT for Abigail (with dynamic dialog!)
+        // Sebastian Computer Basics - Done!
         /*Event proper*/ {
             "LogName": "Sebastian Computer Basics Lesson",
             "Action": "EditData",
