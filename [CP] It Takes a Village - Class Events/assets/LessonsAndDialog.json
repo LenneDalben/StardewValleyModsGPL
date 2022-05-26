@@ -1074,7 +1074,7 @@
             "Action": "EditData",
             "Target": "Strings/schedules/Jodi",
             "Entries": {
-                "spring_11.000": "Vincent hates going to the doctor more than anything, but he seems a little calmer after that lesson with Harvey.",
+                "spring_11.000": "Vincent still hates going to the doctor, but he seems a little calmer after that lesson with Harvey."
             },
             "When": {
                 "HasSeenEvent": "31032032"
