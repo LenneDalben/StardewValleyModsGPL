@@ -594,7 +594,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Abigail",
             "Entries": {
-                "ItTakesAVillage_SebComputer": "{{SebComputerBasicsSeenVideoGamesAbbyCT}}"
+                "ItTakesAVillage_SebComputer": "{{SebComputerBasicsAbbyCT}}"
             }
         },
         /*Jas CT*/ {
