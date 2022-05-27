@@ -488,6 +488,14 @@
                 "ItTakesAVillage_AbbyEcon": "{{i18n:ItTakesAVillage_AbbyEconCT_Abigail}}"
             }
         },
+        /*Sebastian CT*/ {
+            "LogName": "Abigail Economics CT - Sebastian",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sebastian",
+            "Entries": {
+                "ItTakesAVillage_AbbyEcon": "{{AbbyEconSebCT}}"
+            }
+        },
         /*Jas CT*/ {
             "LogName": "Abigail Economics CT - Jas",
             "Action": "EditData",

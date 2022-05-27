@@ -188,6 +188,20 @@
 				"HasSeenEvent |contains=31032028": "false"
 			}
 		},
+		/*Dynamic Sebastian CT dialog, saw Computer Basics lesson*/ {
+			"Name": "AbbyEconSebCT",
+			"Value": "{{i18n:ItTakesAVillage_AbbyEconCT_Sebastian_YesSebComputer}}",
+			"When": {
+				"HasSeenEvent |contains=31032028": "true"
+			}
+		},
+		/*Dynamic Sebastian CT dialog, didn't see Computer Basics lesson*/ {
+			"Name": "AbbyEconSebCT",
+			"Value": "{{i18n:ItTakesAVillage_AbbyEconCT_Sebastian_NoSebComputer}}",
+			"When": {
+				"HasSeenEvent |contains=31032028": "false"
+			}
+		},
 		// Maru Electronics and Demetrius Botany
 		{
 			"Name": "MaruElectronicsAndDemetriusBotanyToken",
