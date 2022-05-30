@@ -13,14 +13,14 @@ Fair warning: most of the events have the player being passive or just not there
 
 ||Getting started||
 
-To begin the lesson series, reach 6 hearts with Penny, then visit the town on a sunny day between 9:30am and 7pm.
+To begin the lesson series, reach 6 hearts with Penny, then visit the town on a sunny day between 9:30am and 7pm. An event will play with Penny by the Museum.
 
 
 ||Configuration||
 
 Config Options
 
-* SkippableConfig: Specify if you want the events in the series to be skippable (true, false). Default is false. If you skip the very first event with Penny, you will not see the rest of the events. Useful for repeat playthroughs if you don't want the entire series to play. You can also skip events later in the series.
+* SkippableConfig: Specify if you want the events in the series to be skippable (true, false). Default is false. If you skip the first event with Penny by the Museum, you will not see the rest of the events. Useful for repeat playthroughs if you don't want the entire series to play. You can also skip events later in the series.
 
 * EditPenny8HeartEvent: For immersion reasons, Penny's 8 heart event is tweaked to include a reference to the lessons. Set this to false if you have another mod that edits Penny's 8 heart event. Default is true.
 
