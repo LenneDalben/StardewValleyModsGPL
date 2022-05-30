@@ -36,7 +36,7 @@ A note on Stardew Valley Expanded (SVE): I don’t use it and never will, so I w
 
 ||Shout Outs||
 
-<a href="https://www.moddrop.com/stardew-valley/profile/182160/mods">Airyn</a>, fantastic modder and friend. You provided the initial idea, and so much support and guidance on wording, in-character-ness, dynamic token magic, etc. Thank you so much. Without you, this mod would never have happened <3
+<a href="https://www.moddrop.com/stardew-valley/profile/182160/mods">Airyn</a>, fantastic modder and friend. You provided the initial idea, and so much support and guidance on wording, in-character-ness, dynamic token magic, etc. Without you, this mod would never have happened. Thank you so much <3
 
 <a href ="https://www.nexusmods.com/stardewvalley/users/116553368?tab=user+files">Atravita</a>, for helping me out with event forks <3
 
