@@ -43,6 +43,48 @@
 		// the events themselves would check for the value of the token, so like the Abby econ lesson would check SebComputerBasicsAndAbbyEconToken value for either AbbyEconYes or AbbyEconYesSebComputerNo in order to play the Abby econ lesson o:
 		//
 		// Dynamic Tokens for the HasSeenEvent
+		
+		// Alex PE and Gus Cooking
+		{
+			"Name": "AlexPEAndGusCookingToken",
+			"Value": "GusCookingNoAlexPENo",
+		},
+		{
+			"Name": "AlexPEAndGusCookingToken",
+			"Value": "{{Random: GusCookingYes, AlexPEYes}}",
+			"When": {
+				"HasSeenEvent |contains=31032022": true, // Penny kickstarts events
+				"HasSeenEvent |contains=31032024": false,
+				"HasSeenEvent |contains=31032023": false,
+			}
+		},
+		{
+			"Name": "AlexPEAndGusCookingToken",
+			"Value": "GusCookingYesAlexPENo",
+			"When": {
+				"HasSeenEvent |contains=31032022": true,
+				"HasSeenEvent |contains=31032024": true,
+				"HasSeenEvent |contains=31032023": false,
+			}
+		},
+		{
+			"Name": "AlexPEAndGusCookingToken",
+			"Value": "AlexPEYesGusCookingNo",
+			"When": {
+				"HasSeenEvent |contains=31032022": true,
+				"HasSeenEvent |contains=31032024": false,
+				"HasSeenEvent |contains=31032023": true,
+			}
+		},
+		{
+			"Name": "AlexPEAndGusCookingToken",
+			"Value": "AlexPEAndGusCookingDone",
+			"When": {
+				"HasSeenEvent |contains=31032022": true,
+				"HasSeenEvent |contains=31032024": true,
+				"HasSeenEvent |contains=31032023": true,
+			}
+		},
 		// Haley & Leah Art and Elliott Stories
 		{
 			"Name": "HaleyLeahArtAndElliottStoriesToken",
@@ -77,7 +119,7 @@
 		},
 		{
 			"Name": "HaleyLeahArtAndElliottStoriesToken",
-			"Value": "HaleyLeahArtYesElliottStoriesYes",
+			"Value": "HaleyLeahArtAndElliottStoriesDone",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
 				"HasSeenEvent |contains=31032025": true,
@@ -119,7 +161,7 @@
 		},
 		{
 			"Name": "SebComputerAndAbbyEconToken",
-			"Value": "SebComputerYesAbbyEconYes",
+			"Value": "SebComputerAndAbbyEconDone",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
 				"HasSeenEvent |contains=31032027": true,
@@ -236,7 +278,7 @@
 		},
 		{
 			"Name": "MaruElectronicsAndDemetriusBotanyToken",
-			"Value": "MaruElectronicsYesDemetriusBotanyYes",
+			"Value": "MaruElectronicsAndDemetriusBotanyDone",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
 				"HasSeenEvent |contains=31032029": true,
@@ -277,7 +319,7 @@
 		},
 		{
 			"Name": "EmilyEmotionalDanceAndHarveyAnatomyToken",
-			"Value": "EmilyEmotionalDanceYesHarveyAnatomyYes",
+			"Value": "EmilyEmotionalDanceAndHarveyAnatomyDone",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
 				"HasSeenEvent |contains=31032032": true,
@@ -318,7 +360,7 @@
 		},
 		{
 			"Name": "ClintMetalworkAndAbbyGamesToken",
-			"Value": "ClintMetalworkYesAbbyGamesYes",
+			"Value": "ClintMetalworkAndAbbyGamesDone",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
 				"HasSeenEvent |contains=31032033": true,
@@ -359,62 +401,21 @@
 		},
 		{
 			"Name": "SamMusicAndShaneAnimalCareToken",
-			"Value": "SamMusicYesShaneAnimalCareYes",
+			"Value": "SamMusicAndShaneAnimalCareDone",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
 				"HasSeenEvent |contains=31032036": true,
 				"HasSeenEvent |contains=31032035": true,
 			}
 		},
-		// Alex PE and Gus Cooking
-		{
-			"Name": "AlexPEAndGusCookingToken",
-			"Value": "GusCookingNoAlexPENo",
-		},
-		{
-			"Name": "AlexPEAndGusCookingToken",
-			"Value": "{{Random: GusCookingYes, AlexPEYes}}",
-			"When": {
-				"HasSeenEvent |contains=31032022": true, // Penny kickstarts events
-				"HasSeenEvent |contains=31032024": false,
-				"HasSeenEvent |contains=31032023": false,
-			}
-		},
-		{
-			"Name": "AlexPEAndGusCookingToken",
-			"Value": "GusCookingYesAlexPENo",
-			"When": {
-				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=31032024": true,
-				"HasSeenEvent |contains=31032023": false,
-			}
-		},
-		{
-			"Name": "AlexPEAndGusCookingToken",
-			"Value": "AlexPEYesGusCookingNo",
-			"When": {
-				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=31032024": false,
-				"HasSeenEvent |contains=31032023": true,
-			}
-		},
-		{
-			"Name": "AlexPEAndGusCookingToken",
-			"Value": "AlexPEYesGusCookingYes",
-			"When": {
-				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=31032024": true,
-				"HasSeenEvent |contains=31032023": true,
-			}
-		},
 		// Robin Woodworking and Abigail Self-Defense
 		{
-			"Name": "RobinWoodworkingAndAbbySelfDefenseToken",
-			"Value": "AbbySelfDefenseNoRobinWoodworkingNo",
+			"Name": "RobinWoodworkAndAbbySelfDefenseToken",
+			"Value": "AbbySelfDefenseNoRobinWoodworkNo",
 		},
 		{
-			"Name": "RobinWoodworkingAndAbbySelfDefenseToken",
-			"Value": "{{Random: AbbySelfDefenseYes, RobinWoodworkingYes}}",
+			"Name": "RobinWoodworkAndAbbySelfDefenseToken",
+			"Value": "{{Random: AbbySelfDefenseYes, RobinWoodworkYes}}",
 			"When": {
 				"HasSeenEvent |contains=31032022": true, // Penny kickstarts events
 				"HasSeenEvent |contains=31032037": false,
@@ -422,8 +423,8 @@
 			}
 		},
 		{
-			"Name": "RobinWoodworkingAndAbbySelfDefenseToken",
-			"Value": "AbbySelfDefenseYesRobinWoodworkingNo",
+			"Name": "RobinWoodworkAndAbbySelfDefenseToken",
+			"Value": "AbbySelfDefenseYesRobinWoodworkNo",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
 				"HasSeenEvent |contains=31032037": true,
@@ -431,8 +432,8 @@
 			}
 		},
 		{
-			"Name": "RobinWoodworkingAndAbbySelfDefenseToken",
-			"Value": "RobinWoodworkingYesAbbySelfDefenseNo",
+			"Name": "RobinWoodworkAndAbbySelfDefenseToken",
+			"Value": "RobinWoodworkYesAbbySelfDefenseNo",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
 				"HasSeenEvent |contains=31032037": false,
@@ -440,8 +441,8 @@
 			}
 		},
 		{
-			"Name": "RobinWoodworkingAndAbbySelfDefenseToken",
-			"Value": "RobinWoodworkingYesAbbySelfDefenseYes",
+			"Name": "RobinWoodworkAndAbbySelfDefenseToken",
+			"Value": "RobinWoodworkAndAbbySelfDefenseDone",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
 				"HasSeenEvent |contains=31032037": true,
@@ -482,7 +483,7 @@
 		},
 		{
 			"Name": "WillyLinusFishingAndCarolineEvelynGardeningToken",
-			"Value": "WillyLinusFishingYesCarolineEvelynGardeningYes",
+			"Value": "WillyLinusFishingAndCarolineEvelynGardeningDone",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
 				"HasSeenEvent |contains=31032040": true,
