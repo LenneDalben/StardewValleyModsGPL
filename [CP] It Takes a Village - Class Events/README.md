@@ -10,6 +10,8 @@ As a novice eventsmith, I was looking for event modding ideas that would be rela
 
 Fair warning: most of the events have the player being passive or just not there, so if that's not your thing, give the mod a pass.
 
+Translations are welcome! You can submit either the language.json to me or the strings in another language for all the strings and I will incorporate it into the mod. See more information on the <a href="https://stardewvalleywiki.com/Modding:Translations">wiki</a>.
+
 
 ||Getting started||
 
