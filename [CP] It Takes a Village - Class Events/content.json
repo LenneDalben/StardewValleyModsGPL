@@ -2,7 +2,7 @@
 	"Format": "1.24.0",
 	"ConfigSchema": {
 		"SkippableConfig": {
-			"Description": "Specify if you want the events in the series to be skippable (true, false). If you skip the first event, you will not see the rest of the events. Useful for repeat playthroughs if you don't want the entire series to play. You can also skip events later in the series. Default is false.",
+			"Description": "Specify if you want the events in the series to be skippable (true, false). Default is false. If you skip the first event with Penny by the Museum, you will not see the rest of the events. Useful for repeat playthroughs if you don't want the entire series to play. You can also skip events later in the series.",
 			"AllowValues": "true, false",
 			"Default": "false",
 			"AllowBlank": false,
