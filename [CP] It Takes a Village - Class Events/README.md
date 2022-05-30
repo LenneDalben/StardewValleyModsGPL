@@ -30,4 +30,5 @@ Note that the mod does not come packaged with a config file. The config file wil
 
 
 ||Compatibility||
+
 A note on Stardew Valley Expanded (SVE): I don’t use it and never will, so I will not add compatibility for it. Use ITAV and SVE together at your own risk.
