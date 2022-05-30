@@ -32,3 +32,20 @@ Note that the mod does not come packaged with a config file. The config file wil
 ||Compatibility||
 
 A note on Stardew Valley Expanded (SVE): I don’t use it and never will, so I will not add compatibility for it. Use ITAV and SVE together at your own risk.
+
+
+||Shout Outs||
+
+<a href="https://www.moddrop.com/stardew-valley/profile/182160/mods">Airyn</a>, fantastic modder and friend. You provided the initial idea, and so much support and guidance on wording, in-character-ness, dynamic token magic, etc. Thank you so much. Without you, this mod would never have happened <3
+
+<a href ="https://www.nexusmods.com/stardewvalley/users/116553368?tab=user+files">Atravita</a>, for helping me out with event forks <3
+
+<a href ="https://www.nexusmods.com/stardewvalley/users/114762643?tab=user+files">Calcite / CopperSun</a>, for the skippable token idea and some help with wording <3
+
+<a href ="https://www.nexusmods.com/stardewvalley/users/92469153?tab=user+files">Arknir</a>, for being an expert eventsmith, teaching me through code <3
+
+<a href ="https://www.moddrop.com/stardew-valley/profile/225898/mods">KediDili</a>, for providing some suggestions <3
+
+<a href ="https://www.nexusmods.com/stardewvalley/users/5575844?tab=user+files">Lumina / Lumisteria</a> and <a href ="https://www.nexusmods.com/stardewvalley/users/48380238?tab=user+files">foggywizard</a>, for guidance on conversation topics stuff <3
+
+<a href="https://www.nexusmods.com/stardewvalley/users/1552317?tab=user+files">Pathoschild</a>, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible.
