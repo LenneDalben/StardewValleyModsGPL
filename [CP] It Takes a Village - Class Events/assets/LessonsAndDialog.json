@@ -381,6 +381,7 @@
         // Jas is PUMPED :clap:
         // hmm, age appropriate story, still has a lesson about something. The real treasure was the friends we made along the way or some such.
         // both Jas and Vincent are good at the stories but for different reasons: Jas is good at the technical side of things and is very precise in her word-choice, while Vince is good at coming up with interesting characters and situations
+        // ask if Tia would be ok with a little line suggesting Vincent is writing about Khaki the tiger (assuming player has seen that event from Jorts and Jean)
         // Add CT for Haley and Leah (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Elliott Stories Lesson",
@@ -1768,6 +1769,9 @@
         //
         // Willy & Linus Fishing INCOMPLETE
         // Willy could teach a lesson about fishing or fish pots (since I think his vanilla intro dialogue mentions he wants to pass on the art to a new generation) and Linus could join & mention something about finding bait?
+        // For the Willy & Linus lesson: have Linus mention the wild bait. Vary dialog on it based on whether the player has seen the event where Linus teaches the player the recipe
+        // Some different dialog (in the event or in CTs) about the crabs, if player has seen Willy's event 711130
+        // Also, Kent has lots to say as a fishing fan!
         // Add CT for Evelyn and Caroline (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Willy & Linus Fishing Lesson",
