@@ -59,8 +59,6 @@
         },
         //
         // Alex PE and Healthy Eating IN PROGRESS
-        // CT idea for Jodi: I wish Alex had specified running *outside*... (sadface)
-        //
         // Add CT for Gus (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Alex PE and Healthy Eating Lesson",
@@ -122,7 +120,7 @@
             "Entries": {
                 "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Jodi}}"
             }
-        },
+        }, // I wish Alex had specified running *outside*... (sadface)
         /*Kent CT*/ {
             "LogName": "Penny Kickstarts Lessons CT - Kent",
             "Action": "EditData",
@@ -165,7 +163,7 @@
         }, // Vincent was tuckered out
         //
         // Gus Cooking IN PROGRESS
-        // spawn leek (12 18 item 20), dandelion (16 18 item 22), vinegar (17 18 item 419). Finished salad is item 196. Who knows where I'll put it lol
+        // spawn leek (12 18 item 20), dandelion (16 18 item 22), vinegar (17 18 item 419). Finished salad is item 196.
         // should I have Gus turn around for "mixing"? Still unclear what sound effect would work for "mixing" ingredients together.
         // Add CT for Alex (with dynamic dialog!)
         /*Event proper*/ {
@@ -1092,7 +1090,6 @@
                 "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
             }
         }, // I was glad to hear Jas was excited by what she was learning. Hopefully poor Vincent will feel a little less nervous at the doctor now.
-        // SURPRISE should definitely edit Vincent's schedule dialog (if I can figure out how) assuming you've seen this event, to show he's a little less nervous. Something like "*sniff* Ok no lollipop today, I can do this!$s"
         /*Vincent Schedule Dialog*/ {
             "LogName": "Harvey Anatomy and Health Vincent Schedule Dialog Changes",
             "Action": "EditData",
@@ -1661,6 +1658,7 @@
         //
         // Abigail Self-Defense INCOMPLETE
         // need cute verbal sound effects, kya
+        // I am concerned we would need new sprites for this. Pretty sure none of them have anything that would pass for kicks or punches lol
         // Add CT for Robin (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Abigail Self-Defense Lesson",
