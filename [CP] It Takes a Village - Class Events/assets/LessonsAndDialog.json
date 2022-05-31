@@ -120,7 +120,7 @@
             "Entries": {
                 "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Jodi}}"
             }
-        }, // I wish Alex had specified running *outside*... (sadface)
+        },
         /*Kent CT*/ {
             "LogName": "Alex PE and Healthy Eating CT - Kent",
             "Action": "EditData",

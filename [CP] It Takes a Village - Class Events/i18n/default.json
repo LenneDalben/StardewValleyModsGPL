@@ -48,6 +48,19 @@
     "ItTakesAVillage_BeginningCT_Marnie": "I'm glad Jas will learning different things in class. It'll be good to get her thinking.$h",
     "ItTakesAVillage_BeginningCT_Shane": "Jas has been talking up a storm about guest lecturers. If Penny's asking everyone in town, it could go badly.$2#$b#What? Not everyone is suited for teaching.$3",
     //
+    // Alex PE and Healthy Eating CTs
+    "ItTakesAVillage_AlexPECT_Alex": "",
+    "ItTakesAVillage_AlexPECT_Jas": "",
+    "ItTakesAVillage_AlexPECT_Vincent": "",
+    "ItTakesAVillage_AlexPECT_George": "",
+    "ItTakesAVillage_AlexPECT_Evelyn": "",
+    "ItTakesAVillage_AlexPECT_Jodi": "I wish Alex had specified running *outside*...$2#$b#At least Vincent seems more excited about eating fish.",
+    "ItTakesAVillage_AlexPECT_Kent": "",
+    "ItTakesAVillage_AlexPECT_Sam": "",
+    "ItTakesAVillage_AlexPECT_Marnie": "",
+    "ItTakesAVillage_AlexPECT_Shane": "",
+    "ItTakesAVillage_AlexPECT_Penny": "",
+    //
     // Abigail Economics event
     "events-31032027.01": "Alright kiddos! Who's up for a little econ 101?$h",
     "events-31032027.02": "Hi @, I was just about to start a little lesson.",
