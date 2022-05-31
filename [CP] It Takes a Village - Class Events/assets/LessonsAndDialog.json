@@ -74,91 +74,91 @@
             }
         },
         /*Alex CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Alex PE and Healthy Eating CT - Alex",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Alex",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Alex}}"
             }
         },
         /*George CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Alex PE and Healthy Eating CT - George",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/George",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_George}}"
             }
         },
         /*Evelyn CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Alex PE and Healthy Eating CT - Evelyn",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Evelyn",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Evelyn}}"
             }
         },
         /*Jas CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Robin",
+            "LogName": "Alex PE and Healthy Eating CT - Jas",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Robin",
+            "Target": "Characters/Dialogue/Jas",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+                "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Jas}}"
             }
         },
         /*Vincent CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Robin",
+            "LogName": "Alex PE and Healthy Eating CT - Vincent",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Robin",
+            "Target": "Characters/Dialogue/Vincent",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+                "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Vincent}}"
             }
         },
         /*Jodi CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Jodi",
+            "LogName": "Alex PE and Healthy Eating CT - Jodi",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Jodi",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Jodi}}"
+                "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Jodi}}"
             }
         }, // I wish Alex had specified running *outside*... (sadface)
         /*Kent CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Kent",
+            "LogName": "Alex PE and Healthy Eating CT - Kent",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Kent",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Kent}}"
+                "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Kent}}"
             }
         },
         /*Sam CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Sam",
+            "LogName": "Alex PE and Healthy Eating CT - Sam",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sam",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Sam}}"
+                "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Sam}}"
             }
         },
         /*Marnie CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Marnie",
+            "LogName": "Alex PE and Healthy Eating CT - Marnie",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Marnie",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Marnie}}"
+                "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Marnie}}"
             }
         },
         /*Shane CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Shane",
+            "LogName": "Alex PE and Healthy Eating CT - Shane",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Shane",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Shane}}"
+                "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Shane}}"
             }
         },
         /*Penny CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Alex PE and Healthy Eating CT - Penny",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Penny",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Penny}}"
             }
         }, // Vincent was tuckered out
         //
@@ -179,35 +179,35 @@
             }
         },
         /*Gus CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Sebastian Computer Basics CT - Sebastian",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Sebastian",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Sebastian}}"
             }
         },
         /*Emily CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Sebastian Computer Basics CT - Sebastian",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Sebastian",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Sebastian}}"
             }
         },
         /*Jas CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Robin",
+            "LogName": "Alex PE and Healthy Eating CT - Jas",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Robin",
+            "Target": "Characters/Dialogue/Jas",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+                "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Jas}}"
             }
         },
         /*Vincent CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Robin",
+            "LogName": "Alex PE and Healthy Eating CT - Vincent",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Robin",
+            "Target": "Characters/Dialogue/Vincent",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+                "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Vincent}}"
             }
         },
         /*Jodi CT*/ {
@@ -251,11 +251,11 @@
             }
         },
         /*Penny CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Alex PE and Healthy Eating CT - Penny",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Penny",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Penny}}"
             }
         }, // We've got a couple different lessons reinforcing eating healthy, so I hope it was interesting for the kids to actually make a meal.
         //
@@ -275,51 +275,51 @@
             }
         },
         /*Haley CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Sebastian Computer Basics CT - Sebastian",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Sebastian",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Sebastian}}"
             }
         },
         /*Leah CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Sebastian Computer Basics CT - Sebastian",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Sebastian",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Sebastian}}"
             }
         },
         /*Emily CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Sebastian Computer Basics CT - Sebastian",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Sebastian",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Sebastian}}"
             }
         },
         /*Alex CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Alex PE and Healthy Eating CT - Alex",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Alex",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Alex}}"
             }
         },
         /*Jas CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Robin",
+            "LogName": "Alex PE and Healthy Eating CT - Jas",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Robin",
+            "Target": "Characters/Dialogue/Jas",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+                "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Jas}}"
             }
         },
         /*Vincent CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Robin",
+            "LogName": "Alex PE and Healthy Eating CT - Vincent",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Robin",
+            "Target": "Characters/Dialogue/Vincent",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+                "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Vincent}}"
             }
         },
         /*Jodi CT*/ {
@@ -363,11 +363,11 @@
             }
         },
         /*Penny CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Alex PE and Healthy Eating CT - Penny",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Penny",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Penny}}"
             }
         }, // It looks like some of the more technical details were lost on the kids, but they got the gist of it.
         //
@@ -387,35 +387,35 @@
             }
         },
         /*Elliott CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Sebastian Computer Basics CT - Sebastian",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Sebastian",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Sebastian}}"
             }
         },
         /*Leah CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Sebastian Computer Basics CT - Sebastian",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Sebastian",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Sebastian}}"
             }
         }, // I wish I'd been there for Elliott's dramatic reading!$h
         /*Jas CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Robin",
+            "LogName": "Alex PE and Healthy Eating CT - Jas",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Robin",
+            "Target": "Characters/Dialogue/Jas",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+                "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Jas}}"
             }
         },
         /*Vincent CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Robin",
+            "LogName": "Alex PE and Healthy Eating CT - Vincent",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Robin",
+            "Target": "Characters/Dialogue/Vincent",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+                "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Vincent}}"
             }
         },
         /*Jodi CT*/ {
@@ -459,11 +459,11 @@
             }
         },
         /*Penny CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Alex PE and Healthy Eating CT - Penny",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Penny",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Penny}}"
             }
         }, // Jas was the most thrilled I've seen her, thinking up different words for the same expression. Vincent was also enthusiastic, coming up with interesting characters. We may have future writers in our hands!
         //
@@ -599,43 +599,43 @@
             }
         },
         /*Sebastian CT*/ {
-            "LogName": "Abigail Economics CT - Sebastian",
+            "LogName": "Sebastian Computer Basics CT - Sebastian",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sebastian",
             "Entries": {
-                "ItTakesAVillage_AbbyEcon": "{{AbbyEconSebCT}}"
+                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Sebastian}}"
             }
         },
         /*Jas CT*/ {
-            "LogName": "Abigail Economics CT - Jas",
+            "LogName": "Sebastian Computer Basics CT - Jas",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Jas",
             "Entries": {
-                "ItTakesAVillage_AbbyEcon": "{{i18n:ItTakesAVillage_AbbyEconCT_Jas}}"
+                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Jas}}"
             }
         },
         /*Vincent CT*/ {
-            "LogName": "Abigail Economics CT - Vincent",
+            "LogName": "Sebastian Computer Basics CT - Vincent",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Vincent",
             "Entries": {
-                "ItTakesAVillage_AbbyEcon": "{{i18n:ItTakesAVillage_AbbyEconCT_Vincent}}"
+                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Vincent}}"
             }
         },
         /*Caroline CT*/ {
-            "LogName": "Abigail Economics CT - Caroline",
+            "LogName": "Abigail Economics CT - Abigail",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Caroline",
+            "Target": "Characters/Dialogue/Abigail",
             "Entries": {
-                "ItTakesAVillage_AbbyEcon": "{{i18n:ItTakesAVillage_AbbyEconCT_Caroline}}"
+                "ItTakesAVillage_AbbyEcon": "{{i18n:ItTakesAVillage_AbbyEconCT_Abigail}}"
             }
         },
         /*Pierre CT*/ {
-            "LogName": "Abigail Economics CT - Pierre",
+            "LogName": "Abigail Economics CT - Abigail",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Pierre",
+            "Target": "Characters/Dialogue/Abigail",
             "Entries": {
-                "ItTakesAVillage_AbbyEcon": "{{i18n:ItTakesAVillage_AbbyEconCT_Pierre}}"
+                "ItTakesAVillage_AbbyEcon": "{{i18n:ItTakesAVillage_AbbyEconCT_Abigail}}"
             }
         },
         /*Jodi CT*/ {
@@ -706,43 +706,43 @@
             }
         },
         /*Maru CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Sebastian Computer Basics CT - Maru",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Maru",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Maru}}"
             }
         },
         /*Sebastian CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Sebastian Computer Basics CT - Sebastian",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Sebastian",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Sebastian}}"
             }
         },
         /*Robin CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Sebastian Computer Basics CT - Robin",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Robin",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Robin}}"
             }
         },
         /*Jas CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Robin",
+            "LogName": "Sebastian Computer Basics CT - Jas",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Robin",
+            "Target": "Characters/Dialogue/Jas",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Jas}}"
             }
         },
         /*Vincent CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Robin",
+            "LogName": "Sebastian Computer Basics CT - Vincent",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Robin",
+            "Target": "Characters/Dialogue/Vincent",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Vincent}}"
             }
         },
         /*Jodi CT*/ {
@@ -786,13 +786,13 @@
             }
         },
         /*Penny CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Abigail Economics CT - Penny",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Penny",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_AbbyEcon": "{{i18n:ItTakesAVillage_AbbyEconCT_Penny}}"
             }
-        }, // Maru was as excited as the kids were, raving about 'Maru the Science Guru'. I'm glad to hear they had a blast.
+        }, // Maru was as excited as the kids were, raving about 'Maru the Science Guru'. I'm glad to hear they had a blast. // something about a catchy song
         //
         // Demetrius Botany INCOMPLETE
         // and this here is a conifer tree of the family Pinaceae or, a pine tree. Something something poisonous plant (poison ivy, not truly an ivy but member of the cashew and pistachio family Anacardiaceae), do not touch. Helpful rhyme: leaves of three, leave them be.
@@ -813,35 +813,35 @@
             }
         },
         /*Demetrius CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Sebastian Computer Basics CT - Maru",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Maru",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Maru}}"
             }
         },
         /*Robin CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Sebastian Computer Basics CT - Robin",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Robin",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Robin}}"
             }
         },
         /*Jas CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Robin",
+            "LogName": "Sebastian Computer Basics CT - Jas",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Robin",
+            "Target": "Characters/Dialogue/Jas",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Jas}}"
             }
         },
         /*Vincent CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Robin",
+            "LogName": "Sebastian Computer Basics CT - Vincent",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Robin",
+            "Target": "Characters/Dialogue/Vincent",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Vincent}}"
             }
         },
         /*Jodi CT*/ {
@@ -885,15 +885,15 @@
             }
         },
         /*Penny CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Abigail Economics CT - Penny",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Penny",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_AbbyEcon": "{{i18n:ItTakesAVillage_AbbyEconCT_Penny}}"
             }
         }, // Vincent had trouble with saying the technical names, but both he and Jas had fun taking in nature.
         //
-        // Emily Emotional Health and Dance INCOMPLETE
+        // Emily Emotional Health and Dance INCOMPLETE **fixing CTs**
         // Emily explains sometimes feelings are really strong, and that you can dance party it to help. Emily dances. Can I get the kids to dance via position offset and avoid new sprites? :maruthinking:
         // CHANGE THE CT NAME
         // Add CT for Harvey (with dynamic dialog!)
@@ -1450,7 +1450,7 @@
         // Marnie has slightly different response depending on whether Shane 6 heart event was seen
         // We see some blue chickens if Shane's 8 heart event are seen (will need to find out how to spawn the chickens, check Ranch Expansion's barn events for examples. Presumably it's via temporary actor)
         // much excite around animals
-        // Could be something like "it's important to feed them the correct food, and the proper amount."
+        // Could be something like "it's important to feed them the right food, and the proper amount."
         // Jas interrupts in total Hermione fashion because she knows how much
         // Also something about giving the animals space, don't want them to feel crowded
         /*Event proper*/ {
