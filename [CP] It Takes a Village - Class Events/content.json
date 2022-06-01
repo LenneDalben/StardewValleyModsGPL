@@ -43,7 +43,6 @@
 		// the events themselves would check for the value of the token, so like the Abby econ lesson would check SebComputerBasicsAndAbbyEconToken value for either AbbyEconYes or AbbyEconYesSebComputerNo in order to play the Abby econ lesson o:
 		//
 		// Dynamic Tokens for the HasSeenEvent
-		
 		// Alex PE and Gus Cooking
 		{
 			"Name": "AlexPEAndGusCookingToken",
@@ -283,6 +282,63 @@
 				"HasSeenEvent |contains=31032022": true,
 				"HasSeenEvent |contains=31032029": true,
 				"HasSeenEvent |contains=31032030": true,
+			}
+		},
+		// Dynamic tokens for Demetrius Botany
+		/*Dynamic event forage, salmonberry in spring*/ {
+			"Name": "DemetriusBotanySeasonalForageObject",
+			"Value": "addObject 33 33 296 1",
+			"When": {
+				"Season": "Spring"
+			}
+		},
+		/*Dynamic event forage, spice berry in summer*/ {
+			"Name": "DemetriusBotanySeasonalForageObject",
+			"Value": "addObject 33 33 396 1",
+			"When": {
+				"Season": "Summer"
+			}
+		},
+		/*Dynamic event forage, blackberry in fall*/ {
+			"Name": "DemetriusBotanySeasonalForageObject",
+			"Value": "addObject 33 33 410 1",
+			"When": {
+				"Season": "Fall"
+			}
+		},
+		/*Dynamic event forage, holly for winter*/ {
+			"Name": "DemetriusBotanySeasonalForageObject",
+			"Value": "addObject 33 33 283 1",
+			"When": {
+				"Season": "Winter"
+			}
+		},
+		/*Dynamic event dialog, season is spring*/ {
+			"Name": "DemetriusBotanySeasonalForageDialog",
+			"Value": "Salmonberry is rubus spectabilis, part of the rose family Rosaceae.#$b#From a botanical perspective, it's not a real berry, but an aggregate fruit!$3#$b#They prefer coastal areas with nitrogen-righ soils, like moist forests and streambanks.",
+			"When": {
+				"Season": "Spring"
+			}
+		},
+		/*Dynamic event dialog, season is summer*/ {
+			"Name": "DemetriusBotanySeasonalForageDialog",
+			"Value": "Spice berry is ardisia crenata, part of the primrose family, Primulaceae.#$b#In some parts of Ferngill, it's what's known as an invasive species,$2#$b#because it competes with native plants and can either eliminate or hybridize with them.$2",
+			"When": {
+				"Season": "Summer"
+			}
+		},
+		/*Dynamic event dialog, season is fall*/ {
+			"Name": "DemetriusBotanySeasonalForageDialog",
+			"Value": "Blackberry is a genus Rubus in the family Rosaceae.#$b#From a botanical perspective, it's not a real berry, but an aggregate fruit!$3#$b#Still, they are quite hardy, and thrive in poor soil like wastelands, ditches, and vacant lots.",
+			"When": {
+				"Season": "Fall"
+			}
+		},
+		/*Dynamic event dialog, season is winter*/ {
+			"Name": "DemetriusBotanySeasonalForageDialog",
+			"Value": "Holly is Ilex aquifolium in the family Aquifoliaceae.#$b#From a botanical perspective, it's not a real berry, but a drupe!$3#$b#If a person eats holly, they will get sick, but it's an important food for birds and others animals.",
+			"When": {
+				"Season": "Winter"
 			}
 		},
 		// Emily Emotional Health & Dance and Harvey Anatomy

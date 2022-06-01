@@ -788,17 +788,20 @@
         }, // Maru was as excited as the kids were, raving about 'Maru the Science Guru'. I'm glad to hear they had a blast. // something about a catchy song
         //
         // Demetrius Botany INCOMPLETE
-        // and this here is a conifer tree of the family Pinaceae or, a pine tree. Something something poisonous plant (poison ivy, not truly an ivy but member of the cashew and pistachio family Anacardiaceae), do not touch. Helpful rhyme: leaves of three, leave them be.
+        // spawn seasonal berry or holly on 33, 33: salmonberry, spice berry, blackberry, holly.
+        // Salmonberry is rubus spectabilis, part of the rose family Rosaceae. From a botanical perspective, it's not a real berry, but an aggregate fruit! They prefer coastal areas with nitrogen-righ soils, like moist forests and streambanks.
+        // Spice berry is ardisia crenata, part of the primrose family, Primulaceae. In some parts of Ferngill, it's what's known as an invasive species, because it competes with native plants and can either eliminate or hybridize with them.
+        // Blackberry is a genus Rubus in the family Rosaceae. From a botanical perspective, it's not a real berry, but an aggregate fruit! Still, they are quite hardy, and thrive in poor soil like wastelands, ditches, and vacant lots.
+        // Holly is Ilex aquifolium in the family Aquifoliaceae. From a botanical perspective, it's not a real berry, but a drupe! If a person eats holly, they will get sick, but it's an important food for birds and others animals.
         // what about including a little birb watching o: ? I'd have to see about how to add a birb to pass through the event
         // Airyn suggested birb could be added as a temp actor, and putting it on its own spritesheet would help keep things coherent if someone's using a mod that replaces the birbs. ALTHOUGH maybe it could be a generic term like avian MWUAHAHA all "look at them wings!" #maxcompat
-        //  Use Crow from Characters > Monsters. Demetrius will call it a "greater glossy puffle". Jas is like "I don't think that's right... :o" and Demetrius goes full scientist "aha, a lot of people think it looks like a crow! They look very similar, but there's certain key differences if you look closely"
         // Add CT for Maru (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Demetrius Botany Lesson",
             "Action": "EditData",
             "Target": "Data/Events/Mountain",
             "Entries": {
-                "31032029/w sunny/t 900 1900/A ItTakesAVillage_Beginning/A ItTakesAVillage_AlexPE/A ItTakesAVillage_GusCooking/A ItTakesAVillage_ElliottStories/A ItTakesAVillage_HaleyLeahArt/A ItTakesAVillage_AbbyEcon/A ItTakesAVillage_SebComputer/A ItTakesAVillage_MaruElectronics/A ItTakesAVillage_EmilyDance/A ItTakesAVillage_HarveyHealth/A ItTakesAVillage_AbigailVideoGames/A ItTakesAVillage_ClintMetalworking/A ItTakesAVillage_SamMusic/A ItTakesAVillage_ShaneAnimalCare/A ItTakesAVillage_AbigailSelfDefense/A ItTakesAVillage_RobinWoodworking/A ItTakesAVillage_WillyLinusFishing/A ItTakesAVillage_CarolineEvelynGardening": "50s/-1000 -1000/farmer 81 94 0 Penny 89 94 2 Jas 89 95 0 Vincent 90 95 0/viewport 87 93 true/addConversationTopic ItTakesAVillage_DemetriusBotany {{MinimumDaysBetweenLessons}}/{{SkippableToken}}/emote Jas 32/jump Vincent 4/pause 500/speed Jas 4/move Jas 0 4 1 true/speed Vincent 4/move Vincent 0 4 3 true/move Penny -2 0 3/faceDirection Penny 2/faceDirection farmer 1/pause 200/emote Penny 28/emote farmer 8/move farmer 2 0 1 true/pause 100/faceDirection Penny 3/pause 300/speak Penny \"{{i18n:events-31032022.01}}\"/question null \"#{{i18n:events-31032022.02}}#{{i18n:events-31032022.03}}\"/splitSpeak Penny \"{{i18n:events-31032022.04}}~{{i18n:events-31032022.05}}\"/speak Penny \"{{i18n:events-31032022.06}}\"/pause 300/emote Penny 40/speak Penny \"{{i18n:events-31032022.07}}\"/quickQuestion #{{i18n:events-31032022.08}}#{{i18n:events-31032022.09}}(break)friendship Penny 100\\speak Penny \"{{i18n:events-31032022.10}}\"(break)friendship Penny -100\\speak Penny \"{{i18n:events-31032022.11}}\"/pause 500/speak Penny \"{{i18n:events-31032022.12}}\"/emote Penny 56/speed Penny 4/move Penny 0 1 3/speed Penny 4/move Penny -9 0 3 true/move farmer -2 0 0 true/pause 500/end"
+                "31032029/w sunny/t 900 1900/A ItTakesAVillage_Beginning/A ItTakesAVillage_AlexPE/A ItTakesAVillage_GusCooking/A ItTakesAVillage_ElliottStories/A ItTakesAVillage_HaleyLeahArt/A ItTakesAVillage_AbbyEcon/A ItTakesAVillage_SebComputer/A ItTakesAVillage_MaruElectronics/A ItTakesAVillage_EmilyDance/A ItTakesAVillage_HarveyHealth/A ItTakesAVillage_AbigailVideoGames/A ItTakesAVillage_ClintMetalworking/A ItTakesAVillage_SamMusic/A ItTakesAVillage_ShaneAnimalCare/A ItTakesAVillage_AbigailSelfDefense/A ItTakesAVillage_RobinWoodworking/A ItTakesAVillage_WillyLinusFishing/A ItTakesAVillage_CarolineEvelynGardening": "spring_day_ambient/-1000 -1000/Penny 20 29 1 Jas 22 30 2 Vincent 22 29 0 Demetrius 24 29 3/addTemporaryActor Crow 16 16 -100 -100 1 false Monster/{{DemetriusBotanySeasonalForageObject}}/viewport 19 32/addConversationTopic ItTakesAVillage_DemetriusBotany {{MinimumDaysBetweenLessons}}/{{SkippableToken}}/pause 500/faceDirection Jas 3/faceDirection Vincent 2/emote Demetrius 56/faceDirection Jas 1 true/faceDirection Vincent 1/speak Demetrius \"Greetings, young ones! Are you ready for some nature watching?$h\"/emote Jas 8/playMusic event1/move Demetrius 5 0 2/move Jas 5 0 2/move Vincent 5 0 2/move Penny 5 0 2/speak Demetrius \"First up on our tour, a conifer tree of the family Pinaceae! More commonly known as a pine tree. Its seeds are the pinecones, famously used for decorations.#$b#But, did you know some cultures grind pinecones and use them as flour? It's a great source of protein!\"/speak Vincent \"My mom just buys flour.$3\"/emote Penny 28/speak Demetrius \"*ahem* Moving right along!\"/move Demetrius 5 0 2/move Jas 5 0 2/move Vincent 5 0 2/move Penny 5 0 2/speak Demetrius \"Ah, here we have some seasonal forage!\"/speak Demetrius \"{{DemetriusBotanySeasonalForageDialog}}\"/emote Vincent 8/speak Demetrius \"Any questions?\"/pause 500/warp Crow 19 32/playSound crow/emote Demetrius 8/move Crow 30 0 1 true/emote Demetrius 16/speak Demetrius \"Aren't we lucky? That was a greater glossy puffle, right here in the valley!$6\"/speak Jas \"Um... I don't think that's right...$3\"/speak Demetrius \"Aha, a lot of people think it looks like a crow! They look very similar, but there's certain key differences if you look closely.$h#$b#Did you notice the bill, legs, and feet, how yellow they were?#$b#That's how you know.$h\"/emote Jas 40/speak Jas \"Ok. Thank you, Mr. Demetrius.$3\"/speak Demetrius \"You're welcome! Let's continue with the nature tour.$h\"/pause 500/end"
             },
             "When": {
                 "MaruElectronicsAndDemetriusBotanyToken": "DemetriusBotanyYes, DemetriusBotanyYesMaruElectronicsNo"
@@ -827,7 +830,7 @@
             "Entries": {
                 "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Jas}}"
             }
-        },
+        }, // I liked the different facts about the plants.
         /*Vincent CT*/ {
             "LogName": "Sebastian Computer Basics CT - Vincent",
             "Action": "EditData",
@@ -835,7 +838,7 @@
             "Entries": {
                 "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Vincent}}"
             }
-        },
+        }, // Can you believe it? A greater glossy puffle!
         /*Jodi CT*/ {
             "LogName": "Penny Kickstarts Lessons CT - Jodi",
             "Action": "EditData",
