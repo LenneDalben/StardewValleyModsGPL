@@ -287,35 +287,35 @@
 		// Dynamic tokens for Demetrius Botany
 		/*Dynamic event forage, salmonberry in spring*/ {
 			"Name": "DemetriusBotanySeasonalForageObject",
-			"Value": "addObject 33 33 296 1",
+			"Value": "addObject 33 30 296 1",
 			"When": {
 				"Season": "Spring"
 			}
 		},
 		/*Dynamic event forage, spice berry in summer*/ {
 			"Name": "DemetriusBotanySeasonalForageObject",
-			"Value": "addObject 33 33 396 1",
+			"Value": "addObject 33 30 396 1",
 			"When": {
 				"Season": "Summer"
 			}
 		},
 		/*Dynamic event forage, blackberry in fall*/ {
 			"Name": "DemetriusBotanySeasonalForageObject",
-			"Value": "addObject 33 33 410 1",
+			"Value": "addObject 33 30 410 1",
 			"When": {
 				"Season": "Fall"
 			}
 		},
 		/*Dynamic event forage, holly for winter*/ {
 			"Name": "DemetriusBotanySeasonalForageObject",
-			"Value": "addObject 33 33 283 1",
+			"Value": "addObject 33 30 283 1",
 			"When": {
 				"Season": "Winter"
 			}
 		},
 		/*Dynamic event dialog, season is spring*/ {
 			"Name": "DemetriusBotanySeasonalForageDialog",
-			"Value": "Salmonberry is rubus spectabilis, part of the rose family Rosaceae.#$b#From a botanical perspective, it's not a real berry, but an aggregate fruit!$3#$b#They prefer coastal areas with nitrogen-righ soils, like moist forests and streambanks.",
+			"Value": "Salmonberry is rubus spectabilis, part of the rose family Rosaceae.#$b#From a botanical perspective, it's not a real berry, but an aggregate fruit!$3#$b#They prefer coastal areas with nitrogen-rich soils, like moist forests and streambanks.",
 			"When": {
 				"Season": "Spring"
 			}
