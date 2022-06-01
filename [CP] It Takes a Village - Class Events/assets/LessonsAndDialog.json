@@ -788,13 +788,6 @@
         }, // Maru was as excited as the kids were, raving about 'Maru the Science Guru'. I'm glad to hear they had a blast. // something about a catchy song
         //
         // Demetrius Botany INCOMPLETE
-        // spawn seasonal berry or holly on 33, 33: salmonberry, spice berry, blackberry, holly.
-        // Salmonberry is rubus spectabilis, part of the rose family Rosaceae. From a botanical perspective, it's not a real berry, but an aggregate fruit! They prefer coastal areas with nitrogen-righ soils, like moist forests and streambanks.
-        // Spice berry is ardisia crenata, part of the primrose family, Primulaceae. In some parts of Ferngill, it's what's known as an invasive species, because it competes with native plants and can either eliminate or hybridize with them.
-        // Blackberry is a genus Rubus in the family Rosaceae. From a botanical perspective, it's not a real berry, but an aggregate fruit! Still, they are quite hardy, and thrive in poor soil like wastelands, ditches, and vacant lots.
-        // Holly is Ilex aquifolium in the family Aquifoliaceae. From a botanical perspective, it's not a real berry, but a drupe! If a person eats holly, they will get sick, but it's an important food for birds and others animals.
-        // what about including a little birb watching o: ? I'd have to see about how to add a birb to pass through the event
-        // Airyn suggested birb could be added as a temp actor, and putting it on its own spritesheet would help keep things coherent if someone's using a mod that replaces the birbs. ALTHOUGH maybe it could be a generic term like avian MWUAHAHA all "look at them wings!" #maxcompat
         // Add CT for Maru (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Demetrius Botany Lesson",
@@ -887,7 +880,7 @@
             "Entries": {
                 "ItTakesAVillage_AbbyEcon": "{{i18n:ItTakesAVillage_AbbyEconCT_Penny}}"
             }
-        }, // Vincent had trouble with saying the technical names, but both he and Jas had fun taking in nature.
+        }, // I think that huge bird stole the show...$3#$b#The nature facts were still interesting to me, at least. / Vincent had trouble with saying the technical names, but both he and Jas had fun taking in nature.
         //
         // Emily Emotional Health and Dance INCOMPLETE **fixing CTs**
         // Emily explains sometimes feelings are really strong, and that you can dance party it to help. Emily dances. Can I get the kids to dance via position offset and avoid new sprites? :maruthinking:
