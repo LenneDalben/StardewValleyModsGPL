@@ -787,7 +787,8 @@
             }
         }, // Maru was as excited as the kids were, raving about 'Maru the Science Guru'. I'm glad to hear they had a blast. // something about a catchy song
         //
-        // Demetrius Botany INCOMPLETE
+        // Demetrius Botany IN PROGRESS
+        // Elhrvy suggested using a temporary map to have the tree permanently there o: ! Must test. Elhrvy used it in a Juna event
         // Add CT for Maru (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Demetrius Botany Lesson",
