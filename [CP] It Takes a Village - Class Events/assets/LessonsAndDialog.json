@@ -789,6 +789,7 @@
         //
         // Demetrius Botany IN PROGRESS
         // Elhrvy suggested using a temporary map to have the tree permanently there o: ! Must test. Elhrvy used it in a Juna event
+        // there will be 2 versions of this event, one with the birb, one without. Birb will be tiny randomy chance lol Need to figure out how to close out the event sans birb. Why isn't there a smol birb I could use? :pufferchickcry:
         // Add CT for Maru (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Demetrius Botany Lesson",
