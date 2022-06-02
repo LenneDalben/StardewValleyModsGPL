@@ -329,7 +329,7 @@
 		},
 		/*Dynamic event dialog, season is fall*/ {
 			"Name": "DemetriusBotanySeasonalForageDialog",
-			"Value": "Blackberry is a genus Rubus in the family Rosaceae.#$b#From a botanical perspective, it's not a real berry, but an aggregate fruit!$3#$b#Still, they are quite hardy, and thrive in poor soil like wastelands, ditches, and vacant lots.",
+			"Value": "Blackberry is a genus Rubus in the family Rosaceae.#$b#From a botanical perspective, it's not a real berry, but an aggregate fruit!$3#$b#Still, they are quite hardy, and thrive even in poor soil like wastelands, ditches, and vacant lots.",
 			"When": {
 				"Season": "Fall"
 			}
