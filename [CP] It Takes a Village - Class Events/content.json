@@ -285,6 +285,23 @@
 			}
 		},
 		// Dynamic tokens for Demetrius Botany
+		// Temporary actor tokens
+		/*Temporary actor Crow*/ {
+			"Name": "DemetriusBotanyTempActorCrow",
+			"Value": "addTemporaryActor Crow 64 64 -100 -100 1 false Monster"
+		},
+		/*Temporary actor Bug*/ {
+			"Name": "DemetriusBotanyTempActorBug",
+			"Value": "addTemporaryActor Bug 16 16 -100 -100 1 false Monster"
+		},
+		/*Temporary actor Enter Crow*/ {
+			"Name": "DemetriusBotanyEnterCrow",
+			"Value": "playSound batFlap/pause 400/playSound batFlap/pause 400/playSound batFlap/pause 500/warp Crow 13 34/playSound crow/pause 700/playSound crow/pause 500/emote Demetrius 8/speak Demetrius \"{{i18n:events-31032029.19}}\"/emote Vincent 8 true/emote Jas 8 true/faceDirection Demetrius 1/pause 50/faceDirection Demetrius 0/pause 50/faceDirection Penny 3 true/faceDirection Jas 3 true/faceDirection Vincent 3 true/faceDirection Demetrius 3 true/speed Crow 6/move Crow 36 0 1 true/pause 1000/emote Demetrius 16 true/jump Penny 8/jump Jas 8/jump Vincent 8/shake Penny 1500/shake Jas 1500/shake Vincent 1500/speak Demetrius \"{{i18n:events-31032029.20}}\"/faceDirection Penny 1 true/faceDirection Jas 1 true/faceDirection Vincent 1 true/faceDirection Demetrius 1 true/speak Jas \"{{i18n:events-31032029.21}}\"/speak Demetrius \"{{i18n:events-31032029.22}}\"/emote Jas 40/speak Jas \"{{i18n:events-31032029.23}}\"/faceDirection Demetrius 3/emote Demetrius 32/speak Demetrius \"{{i18n:events-31032029.24}}\"/emote Penny 28"
+		},
+		/*Temporary actor Enter Bug*/ {
+			"Name": "DemetriusBotanyEnterBug",
+			"Value": "playSound batFlap/pause 400/playSound batFlap/pause 400/playSound batFlap/pause 500/warp Bug 13 34/pause 500/emote Demetrius 8/speak Demetrius \"{{i18n:events-31032029.19}}\"/emote Vincent 8 true/emote Jas 8 true/faceDirection Demetrius 1/pause 50/faceDirection Demetrius 0/pause 50/faceDirection Penny 3 true/faceDirection Jas 3 true/faceDirection Vincent 3 true/faceDirection Demetrius 3 true/speed Bug 6/move Bug 36 0 1 true/pause 1000/emote Demetrius 16 true/emote Vincent 32 true/jump Penny 8/jump Jas 4/speak Demetrius \"{{i18n:events-31032029.25}}\"/faceDirection Penny 1 true/faceDirection Jas 1 true/faceDirection Vincent 1 true/faceDirection Demetrius 1 true/speak Jas \"{{i18n:events-31032029.26}}\"/speak Demetrius \"{{i18n:events-31032029.27}}\"/speak Vincent \"{{i18n:events-31032029.28}}\"/faceDirection Demetrius 3/emote Demetrius 32/speak Demetrius \"{{i18n:events-31032029.29}}\""
+		},
 		/*Dynamic event forage, salmonberry in spring*/ {
 			"Name": "DemetriusBotanySeasonalForageObject",
 			"Value": "addObject 33 30 296 1",
@@ -313,30 +330,86 @@
 				"Season": "Winter"
 			}
 		},
-		/*Dynamic event dialog, season is spring*/ {
+		/*Dynamic event forage intro, season is spring*/ {
 			"Name": "DemetriusBotanySeasonalForageDialog",
-			"Value": "Salmonberry is rubus spectabilis, part of the rose family Rosaceae.#$b#From a botanical perspective, it's not a real berry, but an aggregate fruit!$3#$b#They prefer coastal areas with nitrogen-rich soils, like moist forests and streambanks.",
+			"Value": "{{i18n:events-31032029.06}}",
 			"When": {
 				"Season": "Spring"
 			}
 		},
-		/*Dynamic event dialog, season is summer*/ {
+		/*Dynamic event forage intro, season is summer*/ {
 			"Name": "DemetriusBotanySeasonalForageDialog",
-			"Value": "Spice berry is ardisia crenata, part of the primrose family, Primulaceae.#$b#In some parts of Ferngill, it's what's known as an invasive species,$2#$b#because it competes with native plants and can either eliminate or hybridize with them.$2",
+			"Value": "{{i18n:events-31032029.07}}",
 			"When": {
 				"Season": "Summer"
 			}
 		},
-		/*Dynamic event dialog, season is fall*/ {
+		/*Dynamic event forage intro, season is fall*/ {
 			"Name": "DemetriusBotanySeasonalForageDialog",
-			"Value": "Blackberry is a genus Rubus in the family Rosaceae.#$b#From a botanical perspective, it's not a real berry, but an aggregate fruit!$3#$b#Still, they are quite hardy, and thrive even in poor soil like wastelands, ditches, and vacant lots.",
+			"Value": "{{i18n:events-31032029.08}}",
 			"When": {
 				"Season": "Fall"
 			}
 		},
-		/*Dynamic event dialog, season is winter*/ {
+		/*Dynamic event forage intro, season is winter*/ {
 			"Name": "DemetriusBotanySeasonalForageDialog",
-			"Value": "Holly is Ilex aquifolium in the family Aquifoliaceae.#$b#From a botanical perspective, it's not a real berry, but a drupe!$3#$b#If a person eats holly, they will get sick, but it's an important food for birds and others animals.",
+			"Value": "{{i18n:events-31032029.09}}",
+			"When": {
+				"Season": "Winter"
+			}
+		},
+		/*Dynamic event forage question, season is spring*/ {
+			"Name": "DemetriusBotanySeasonalQuestion",
+			"Value": "{{i18n:events-31032029.10}}",
+			"When": {
+				"Season": "Spring"
+			}
+		},
+		/*Dynamic event forage question, season is summer*/ {
+			"Name": "DemetriusBotanySeasonalQuestion",
+			"Value": "{{i18n:events-31032029.11}}",
+			"When": {
+				"Season": "Summer"
+			}
+		},
+		/*Dynamic event forage question, season is fall*/ {
+			"Name": "DemetriusBotanySeasonalQuestion",
+			"Value": "{{i18n:events-31032029.12}}",
+			"When": {
+				"Season": "Fall"
+			}
+		},
+		/*Dynamic event forage question, season is winter*/ {
+			"Name": "DemetriusBotanySeasonalQuestion",
+			"Value": "{{i18n:events-31032029.13}}",
+			"When": {
+				"Season": "Winter"
+			}
+		},
+		/*Dynamic event forage answer, season is spring*/ {
+			"Name": "DemetriusBotanySeasonalAnswer",
+			"Value": "{{i18n:events-31032029.14}}",
+			"When": {
+				"Season": "Spring"
+			}
+		},
+		/*Dynamic event forage answer, season is summer*/ {
+			"Name": "DemetriusBotanySeasonalAnswer",
+			"Value": "{{i18n:events-31032029.15}}",
+			"When": {
+				"Season": "Summer"
+			}
+		},
+		/*Dynamic event forage answer, season is fall*/ {
+			"Name": "DemetriusBotanySeasonalAnswer",
+			"Value": "{{i18n:events-31032029.16}}",
+			"When": {
+				"Season": "Fall"
+			}
+		},
+		/*Dynamic event forage answer, season is winter*/ {
+			"Name": "DemetriusBotanySeasonalAnswer",
+			"Value": "{{i18n:events-31032029.17}}",
 			"When": {
 				"Season": "Winter"
 			}

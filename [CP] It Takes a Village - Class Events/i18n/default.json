@@ -132,5 +132,38 @@
     "ItTakesAVillage_SebComputerCT_Sam": "Don't tell Seb, but I'm pumped I'll stay number one in Vincent's heart.",
     "ItTakesAVillage_SebComputerCT_Marnie": "Jas didn't seem very excited about Sebastian's class. I wonder what happened.$3",
     "ItTakesAVillage_SebComputerCT_Shane": "Pff, of course that recluse didn't do well with kids.$3#$b#What are you looking at?",
-    "ItTakesAVillage_SebComputerCT_Penny": "The kids were not very talkative about this lesson...$3"
+    "ItTakesAVillage_SebComputerCT_Penny": "The kids were not very talkative about this lesson...$3",
+    //
+    // Demetrius Botany
+    "events-31032029.01": "Greetings, young ones! Are you ready for some nature watching?$h",
+    "events-31032029.02": "First up on our tour, a conifer tree of the family Pinaceae! More commonly known as a pine tree. Its seeds are the pinecones, famously used for decorations.#$b#But, did you know some cultures grind pinecones and use them as flour? It's a great source of protein!",
+    "events-31032029.03": "My mom just buys flour.$3",
+    "events-31032029.04": "*ahem* Moving right along!",
+    "events-31032029.05": "Ah, here we have some seasonal forage!",
+    "events-31032029.06": "Salmonberry is rubus spectabilis, part of the rose family Rosaceae.#$b#From a botanical perspective, it's not a real berry, but an aggregate fruit!$3#$b#They prefer coastal areas with nitrogen-rich soils, like moist forests and streambanks.",
+    "events-31032029.07": "Spice berry is ardisia crenata, part of the primrose family, Primulaceae.#$b#In some parts of Ferngill, it's what's known as an invasive species,$2#$b#because it competes with native plants and can either eliminate or hybridize with them.$2",
+    "events-31032029.08": "Blackberry is a genus Rubus in the family Rosaceae.#$b#From a botanical perspective, it's not a real berry, but an aggregate fruit!$3#$b#Still, they are quite hardy, and thrive even in poor soil like wastelands, ditches, and vacant lots.",
+    "events-31032029.09": "Holly is Ilex aquifolium in the family Aquifoliaceae.#$b#From a botanical perspective, it's not a real berry, but a drupe!$3#$b#If a person eats holly, they will get sick, but it's an important food for birds and others animals.",
+    "events-31032029.10": "Mr. Demetrius, what's nitrogen?$3",
+    "events-31032029.11": "Mr. Demetrius, what does hybridize mean?$3",
+    "events-31032029.12": "Mr. Demetrius, what's an aggregate fruit?$3",
+    "events-31032029.13": "Mr. Demetrius, what's a drupe?$3",
+	"events-31032029.14": "Great question, Vincent! Nitrogen is the most common element in the universe.#$b#For plants, it's a nutrient that helps keep them healthy. Like a vitamin does for humans!$h",
+	"events-31032029.15": "Great question, Vincent! When one plant hybridizes with another, it means they reproduce together.#$b#The spice berry is 'joining' the native plants if it doesn't kill them off!$2",
+    "events-31032029.16": "Great question, Vincent! An aggregate fruit is made of many smaller drupelets.#$b#One drupe is a fruit with an outer flesh surrounding a shell with a seed inside.#$b#Our blackberry has company in the aggregate fruit club with raspberries!",
+	"events-31032029.17": "Great question, Vincent! A drupe is a fruit with an outer flesh surrounding a shell with a seed inside.#$b#Our holly has company in the drupe club with peaches!",
+    "events-31032029.18": "Any other ques-",
+    // Birb edition
+    "events-31032029.19": "Did you hear that?",
+    "events-31032029.20": "Aren't we lucky? That was a greater glossy puffle, right here in the valley!$6",
+    "events-31032029.21": "Um... I don't think that's right...$3",
+    "events-31032029.22": "Aha, a lot of people think it looks like a grand fluffy crow! They look very similar, but there's certain key differences if you look closely.$h#$b#Did you notice the bill, legs, and feet, how yellow they were?#$b#That's how you know.$h",
+    "events-31032029.23": "Ok. Thank you, Mr. Demetrius.$3",
+    "events-31032029.24": "You're welcome! Let's continue with the nature tour.$h",
+    // Bug edition
+    "events-31032029.25": "Aren't we lucky? That was an iridescent borer-scarab, right here in the valley!$6",
+    "events-31032029.26": "Um... I think they're common here, I've heard the man from the guild say they live in the mines...$3",
+    "events-31032029.27" :"That's still a treat for us, Jas! We're not likely to venture in there.$h#$b#After all, it's not safe.#$b#There are also unique crabs and a whole host of other creatures. What I would give to be able to study them safely.",
+    "events-31032029.28": "That's so cool, Mr. Demetrius!",
+    "events-31032029.29": "Well, let's continue with the nature tour.$h"
 }
