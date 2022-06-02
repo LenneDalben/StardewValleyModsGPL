@@ -802,52 +802,52 @@
             }
         },
         /*Demetrius CT*/ {
-            "LogName": "Sebastian Computer Basics CT - Maru",
+            "LogName": "Demetrius Botany CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "ItTakesAVillage_DemetriusBotany": "{{Random: {{i18n:ItTakesAVillage_DemetriusBotanyCT_DemetriusCrow}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_DemetriusBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_DemetriusBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_DemetriusBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_DemetriusBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_DemetriusBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_DemetriusBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_DemetriusBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_DemetriusBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_DemetriusBug}} |key=monster |inputSeparator=%%}}"
+            }
+        },
+        /*Maru CT*/ /*Oh geez. For Maru's I need to also combine the separate tokens for whetehr you saw Maru's event on top of the randomization and then i18n it :ohnorowlet: This one may require a drawing to understand*/ {
+            "LogName": "Demetrius Botany CT - Maru",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Maru",
             "Entries": {
-                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Maru}}"
-            }
-        }, // It was great to share botany knowledge with more than just Maru, although that's great too.$h#$b#Oh, the greater glossy puffle? Yes, it was quite a marvelous sight. / Maybe I could talk to the guild about a guided expedition into the mines?$3#$b#For science!
-        /*Maru CT*/ {
-            "LogName": "Sebastian Computer Basics CT - Abigail",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Abigail",
-            "Entries": {
-                "ItTakesAVillage_SebComputer": "{{SebComputerBasicsAbbyCT}}"
+                "ItTakesAVillage_DemetriusBotany": "{{Random: {{i18n:ItTakesAVillage_DemetriusBotanyCT_DemetriusCrow}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_DemetriusBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_DemetriusBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_DemetriusBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_DemetriusBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_DemetriusBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_DemetriusBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_DemetriusBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_DemetriusBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_DemetriusBug}} |key=monster |inputSeparator=%%}}"
             }
         }, // I don't know if I can compete with a cool big bird.$2 (haven't seen electronics yet) / Wow, I'm glad my lesson didn't have to follow that bird!$h (have seen electronics)
         // The kids already seem excited about science. Maybe with my class, they will be sold on being future lab assistants!$h (haven't seen electronics yet) / It's cool that Jas and Vincent got to see what my dad does.#$b#Combined with my electronics class, I think we may have some future lab assistants!$h (have seen electronics)
         /*Robin CT*/ {
-            "LogName": "Sebastian Computer Basics CT - Robin",
+            "LogName": "Demetrius Botany CT - Robin",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Robin",
             "Entries": {
-                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Robin}}"
+                "ItTakesAVillage_DemetriusBotany": "{{Random: {{i18n:ItTakesAVillage_DemetriusBotanyCT_RobinCrow}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_RobinBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_RobinBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_RobinBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_RobinBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_RobinBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_RobinBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_RobinBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_RobinBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_RobinBug}} |key=monster |inputSeparator=%%}}"
             }
-        }, // Demetrius is brave to have underreacted as much as he did to that... what did he call it? 'Greater glossy puffle'?$h#$b#I would have run back into the house!$h / It was nice to hear Demetrius was able to share some of his love of science with the kids.
+        },
         /*Lewis CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Demetrius Botany CT - Lewis",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Lewis",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_DemetriusBotany": "{{Random: {{i18n:ItTakesAVillage_DemetriusBotanyCT_DemetriusCrow}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_DemetriusBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_DemetriusBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_DemetriusBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_DemetriusBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_DemetriusBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_DemetriusBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_DemetriusBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_DemetriusBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_DemetriusBug}} |key=monster |inputSeparator=%%}}"
             }
         }, // I am STUNNED to hear such a creature was in our valley!$2#$b#I will have to have strong words with Marlon about keeping the valley safe.$3 / HMMMM how can I code this so he only says something if crow was picked, and doesn't have anything to say about it if bug showed up? Maybe he'd still complain about Marlon and keeping the bugs out of town / contained to the mines :thinking;
         /*Jas CT*/ {
-            "LogName": "Sebastian Computer Basics CT - Jas",
+            "LogName": "Demetrius Botany CT - Jas",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Jas",
             "Entries": {
-                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Jas}}"
+                "ItTakesAVillage_DemetriusBotany": "{{i18n:ItTakesAVillage_DemetriusBotanyCT_Jas}}"
             }
         }, // %Jas looks a little haunted. / Mr. Demetrius had so many cool facts about plants!
         /*Vincent CT*/ {
-            "LogName": "Sebastian Computer Basics CT - Vincent",
+            "LogName": "Demetrius Botany CT - Vincent",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Vincent",
             "Entries": {
-                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Vincent}}"
+                "ItTakesAVillage_DemetriusBotany": "{{i18n:ItTakesAVillage_DemetriusBotanyCT_Vincent}}"
             }
         }, // Can you believe it? I've NEVER seen a bird that big!$h / Can you believe it? I've never seen a bug that big!$h#$b#Mom probably wouldn't let me keep it as a pet.
         /*Jodi CT*/ {

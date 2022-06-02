@@ -153,17 +153,22 @@
     "events-31032029.16": "Great question, Vincent! An aggregate fruit is made of many smaller drupelets.#$b#One drupe is a fruit with an outer flesh surrounding a shell with a seed inside.#$b#Our blackberry has company in the aggregate fruit club with raspberries!",
 	"events-31032029.17": "Great question, Vincent! A drupe is a fruit with an outer flesh surrounding a shell with a seed inside.#$b#Our holly has company in the drupe club with peaches!",
     "events-31032029.18": "Any other ques-",
-    // Birb edition
+    // Demetrius Botany Birb edition
     "events-31032029.19": "Did you hear that?",
     "events-31032029.20": "Aren't we lucky? That was a greater glossy puffle, right here in the valley!$6",
     "events-31032029.21": "Um... I don't think that's right...$3",
     "events-31032029.22": "Aha, a lot of people think it looks like a grand fluffy crow! They look very similar, but there's certain key differences if you look closely.$h#$b#Did you notice the bill, legs, and feet, how yellow they were?#$b#That's how you know.$h",
     "events-31032029.23": "Ok. Thank you, Mr. Demetrius.$3",
     "events-31032029.24": "You're welcome! Let's continue with the nature tour.$h",
-    // Bug edition
+    // Demetrius Botany Bug edition
     "events-31032029.25": "Aren't we lucky? That was an iridescent borer-scarab, right here in the valley!$6",
     "events-31032029.26": "Um... I think they're common here, I've heard the man from the guild say they live in the mines...$3",
     "events-31032029.27" :"That's still a treat for us, Jas! We're not likely to venture in there.$h#$b#After all, it's not safe.#$b#There are also unique crabs and a whole host of other creatures. What I would give to be able to study them safely.",
     "events-31032029.28": "That's so cool, Mr. Demetrius!",
-    "events-31032029.29": "Well, let's continue with the nature tour.$h"
+    "events-31032029.29": "Well, let's continue with the nature tour.$h",
+    // Demetrius Botany CTs
+    "ItTakesAVillage_DemetriusBotanyCT_DemetriusCrow": "It was great to share botany knowledge with more than just Maru, although of course that's great too.$h#$b#Oh, the greater glossy puffle? Yes, it was quite a marvelous sight.",
+    "ItTakesAVillage_DemetriusBotanyCT_DemetriusBug": "Maybe I could talk to the guild about a guided expedition into the mines?$3#$b#For science!",
+    "ItTakesAVillage_DemetriusBotanyCT_RobinCrow": "Demetrius is brave to have underreacted as much as he did to that... what did he call it? 'Greater glossy puffle'?$h#$b#I would have run back into the house!$h",
+    "ItTakesAVillage_DemetriusBotanyCT_RobinBug": "It was nice to hear Demetrius was able to share some of his love of science with the kids.",
 }
