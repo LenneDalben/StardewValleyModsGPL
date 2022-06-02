@@ -808,7 +808,16 @@
             "Entries": {
                 "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Maru}}"
             }
-        },
+        }, // It was great to share botany knowledge with more than just Maru, although that's great too.$h#$b#Oh, the greater glossy puffle? Yes, it was quite a marvelous sight. / Maybe I could talk to the guild about a guided expedition into the mines?$3#$b#For science!
+        /*Maru CT*/ {
+            "LogName": "Sebastian Computer Basics CT - Abigail",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Abigail",
+            "Entries": {
+                "ItTakesAVillage_SebComputer": "{{SebComputerBasicsAbbyCT}}"
+            }
+        }, // I don't know if I can compete with a cool big bird.$2 (haven't seen electronics yet) / Wow, I'm glad my lesson didn't have to follow that bird!$h (have seen electronics)
+        // The kids already seem excited about science. Maybe with my class, they will be sold on being future lab assistants!$h (haven't seen electronics yet) / It's cool that Jas and Vincent got to see what my dad does.#$b#Combined with my electronics class, I think we may have some future lab assistants!$h (have seen electronics)
         /*Robin CT*/ {
             "LogName": "Sebastian Computer Basics CT - Robin",
             "Action": "EditData",
@@ -816,7 +825,15 @@
             "Entries": {
                 "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Robin}}"
             }
-        },
+        }, // Demetrius is brave to have underreacted as much as he did to that... what did he call it? 'Greater glossy puffle'?$h#$b#I would have run back into the house!$h / It was nice to hear Demetrius was able to share some of his love of science with the kids.
+        /*Lewis CT*/ {
+            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+            }
+        }, // I am STUNNED to hear such a creature was in our valley!$2#$b#I will have to have strong words with Marlon about keeping the valley safe.$3 / HMMMM how can I code this so he only says something if crow was picked, and doesn't have anything to say about it if bug showed up? Maybe he'd still complain about Marlon and keeping the bugs out of town / contained to the mines :thinking;
         /*Jas CT*/ {
             "LogName": "Sebastian Computer Basics CT - Jas",
             "Action": "EditData",
@@ -824,7 +841,7 @@
             "Entries": {
                 "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Jas}}"
             }
-        }, // I liked the different facts about the plants.
+        }, // %Jas looks a little haunted. / Mr. Demetrius had so many cool facts about plants!
         /*Vincent CT*/ {
             "LogName": "Sebastian Computer Basics CT - Vincent",
             "Action": "EditData",
@@ -832,7 +849,7 @@
             "Entries": {
                 "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Vincent}}"
             }
-        }, // Can you believe it? A greater glossy puffle!
+        }, // Can you believe it? I've NEVER seen a bird that big!$h / Can you believe it? I've never seen a bug that big!$h#$b#Mom probably wouldn't let me keep it as a pet.
         /*Jodi CT*/ {
             "LogName": "Penny Kickstarts Lessons CT - Jodi",
             "Action": "EditData",
@@ -840,7 +857,7 @@
             "Entries": {
                 "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Jodi}}"
             }
-        },
+        }, // %Jodi is muttering to herself about safety in the mountains. / Vincent's been talking about this colossal insect he saw in the mountains.$2#$b#I'm just glad it didn't sting or bite him.$2
         /*Kent CT*/ {
             "LogName": "Penny Kickstarts Lessons CT - Kent",
             "Action": "EditData",
@@ -848,7 +865,7 @@
             "Entries": {
                 "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Kent}}"
             }
-        },
+        }, // I'm with Jodi on this, I'm glad the kids weren't carried off by that bird.#$b#Maybe the guild to look into that thing's migration patterns. / Vincent seemed enthusiastic about nature after that lesson.#$b#Maybe he'd be excited for more outdoor activities?
         /*Sam CT*/ {
             "LogName": "Penny Kickstarts Lessons CT - Sam",
             "Action": "EditData",
@@ -856,7 +873,7 @@
             "Entries": {
                 "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Sam}}"
             }
-        },
+        }, // I am so glad Penny, the kids, and Demetrius were ok. I would have lost it if I saw an animal that big.$8 / 
         /*Marnie CT*/ {
             "LogName": "Penny Kickstarts Lessons CT - Marnie",
             "Action": "EditData",
@@ -864,7 +881,7 @@
             "Entries": {
                 "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Marnie}}"
             }
-        },
+        }, // Poor Jas. I can only imagine how scary that was.$2 / I'm not sure how I would make pinecone flour. Aren't there bugs living in pinecones?$2
         /*Shane CT*/ {
             "LogName": "Penny Kickstarts Lessons CT - Shane",
             "Action": "EditData",
@@ -872,7 +889,7 @@
             "Entries": {
                 "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Shane}}"
             }
-        },
+        }, // I don't think I want Jas going up to the mountains any time soon.$3#$b$Or ever. / Jas came home chattering about 'pinecone flour'. I don't think that will work for Marnie.$h
         /*Penny CT*/ {
             "LogName": "Abigail Economics CT - Penny",
             "Action": "EditData",
@@ -880,7 +897,7 @@
             "Entries": {
                 "ItTakesAVillage_AbbyEcon": "{{i18n:ItTakesAVillage_AbbyEconCT_Penny}}"
             }
-        }, // I think that huge bird stole the show...$3#$b#The nature facts were still interesting to me, at least. / Vincent had trouble with saying the technical names, but both he and Jas had fun taking in nature.
+        }, // I think that huge bird stole the show...$3#$b#Thankfully we were safe.$5 / Vincent had trouble with saying the technical names, but both he and Jas had fun taking in nature.
         //
         // Emily Emotional Health and Dance INCOMPLETE **fixing CTs**
         // Emily explains sometimes feelings are really strong, and that you can dance party it to help. Emily dances. Can I get the kids to dance via position offset and avoid new sprites? :maruthinking:
