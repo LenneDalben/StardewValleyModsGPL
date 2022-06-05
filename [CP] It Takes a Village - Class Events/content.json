@@ -177,14 +177,14 @@
 		// Dynamic dialog for Sebastian Computer Basics
 		/*Dynamic event dialog, saw Video Games "lesson"*/ {
 			"Name": "SebComputerBasicsSeenVideoGamesEvent",
-			"Value": "speak Jas \"{{i18n:events-31032028.18}}\"/speak Sebastian \"{{i18n:events-31032028.19}}\"/emote Vincent 8 true/emote Jas 8/speak Jas \"{{i18n:events-31032028.17}}\"",
+			"Value": "speak Jas \"{{i18n:event-31032028.18}}\"/speak Sebastian \"{{i18n:event-31032028.19}}\"/emote Vincent 8 true/emote Jas 8/speak Jas \"{{i18n:event-31032028.17}}\"",
 			"When": {
 				"HasSeenEvent |contains=31032033": "true"
 			}
 		},
 		/*Dynamic event dialog, didn't see Video Games "lesson"*/ {
 			"Name": "SebComputerBasicsSeenVideoGamesEvent",
-			"Value": "emote Jas 40 true/emote Vincent 40/speak Jas \"{{i18n:events-31032028.17}}\"",
+			"Value": "emote Jas 40 true/emote Vincent 40/speak Jas \"{{i18n:event-31032028.17}}\"",
 			"When": {
 				"HasSeenEvent |contains=31032033": "false"
 			}
@@ -224,7 +224,7 @@
 		// Dynamic dialog for Abigail Econ
 		{
 			"Name": "AbbyEconSeenSebComputer",
-			"Value": "speak Penny \"{{i18n:events-31032027.03}}\"/faceDirection Penny 1",
+			"Value": "speak Penny \"{{i18n:event-31032027.03}}\"/faceDirection Penny 1",
 			"When": {
 				"HasSeenEvent |contains=31032028": "true"
 			}
@@ -303,11 +303,11 @@
 		},
 		/*Temporary actor Enter Crow*/ {
 			"Name": "DemetriusBotanyEnterCrow",
-			"Value": "playSound batFlap/pause 400/playSound batFlap/pause 400/playSound batFlap/pause 500/warp Crow 13 34/playSound crow/pause 700/playSound crow/pause 500/emote Demetrius 8/speak Demetrius \"{{i18n:events-31032029.19}}\"/emote Vincent 8 true/emote Jas 8 true/faceDirection Demetrius 1/pause 50/faceDirection Demetrius 0/pause 50/faceDirection Penny 3 true/faceDirection Jas 3 true/faceDirection Vincent 3 true/faceDirection Demetrius 3 true/speed Crow 6/move Crow 36 0 1 true/pause 1000/emote Demetrius 16 true/jump Penny 8/jump Jas 8/jump Vincent 8/shake Penny 1500/shake Jas 1500/shake Vincent 1500/speak Demetrius \"{{i18n:events-31032029.20}}\"/faceDirection Penny 1 true/faceDirection Jas 1 true/faceDirection Vincent 1 true/faceDirection Demetrius 1 true/speak Jas \"{{i18n:events-31032029.21}}\"/speak Demetrius \"{{i18n:events-31032029.22}}\"/emote Jas 40/speak Jas \"{{i18n:events-31032029.23}}\"/faceDirection Demetrius 3/emote Demetrius 32/speak Demetrius \"{{i18n:events-31032029.24}}\"/emote Penny 28"
+			"Value": "playSound batFlap/pause 400/playSound batFlap/pause 400/playSound batFlap/pause 500/warp Crow 13 34/playSound crow/pause 700/playSound crow/pause 500/emote Demetrius 8/speak Demetrius \"{{i18n:event-31032029.19}}\"/emote Vincent 8 true/emote Jas 8 true/faceDirection Demetrius 1/pause 50/faceDirection Demetrius 0/pause 50/faceDirection Penny 3 true/faceDirection Jas 3 true/faceDirection Vincent 3 true/faceDirection Demetrius 3 true/speed Crow 6/move Crow 36 0 1 true/pause 1000/emote Demetrius 16 true/jump Penny 8/jump Jas 8/jump Vincent 8/shake Penny 1500/shake Jas 1500/shake Vincent 1500/speak Demetrius \"{{i18n:event-31032029.20}}\"/faceDirection Penny 1 true/faceDirection Jas 1 true/faceDirection Vincent 1 true/faceDirection Demetrius 1 true/speak Jas \"{{i18n:event-31032029.21}}\"/speak Demetrius \"{{i18n:event-31032029.22}}\"/emote Jas 40/speak Jas \"{{i18n:event-31032029.23}}\"/faceDirection Demetrius 3/emote Demetrius 32/speak Demetrius \"{{i18n:event-31032029.24}}\"/emote Penny 28"
 		},
 		/*Temporary actor Enter Bug*/ {
 			"Name": "DemetriusBotanyEnterBug",
-			"Value": "playSound batFlap/pause 400/playSound batFlap/pause 400/playSound batFlap/pause 500/warp Bug 13 34/pause 500/emote Demetrius 8/speak Demetrius \"{{i18n:events-31032029.19}}\"/emote Vincent 8 true/emote Jas 8 true/faceDirection Demetrius 1/pause 50/faceDirection Demetrius 0/pause 50/faceDirection Penny 3 true/faceDirection Jas 3 true/faceDirection Vincent 3 true/faceDirection Demetrius 3 true/speed Bug 6/move Bug 36 0 1 true/pause 1000/emote Demetrius 16 true/emote Vincent 32 true/jump Penny 8/jump Jas 4/speak Demetrius \"{{i18n:events-31032029.25}}\"/faceDirection Penny 1 true/faceDirection Jas 1 true/faceDirection Vincent 1 true/faceDirection Demetrius 1 true/speak Jas \"{{i18n:events-31032029.26}}\"/speak Demetrius \"{{i18n:events-31032029.27}}\"/speak Vincent \"{{i18n:events-31032029.28}}\"/faceDirection Demetrius 3/emote Demetrius 32/speak Demetrius \"{{i18n:events-31032029.29}}\""
+			"Value": "playSound batFlap/pause 400/playSound batFlap/pause 400/playSound batFlap/pause 500/warp Bug 13 34/pause 500/emote Demetrius 8/speak Demetrius \"{{i18n:event-31032029.19}}\"/emote Vincent 8 true/emote Jas 8 true/faceDirection Demetrius 1/pause 50/faceDirection Demetrius 0/pause 50/faceDirection Penny 3 true/faceDirection Jas 3 true/faceDirection Vincent 3 true/faceDirection Demetrius 3 true/speed Bug 6/move Bug 36 0 1 true/pause 1000/emote Demetrius 16 true/emote Vincent 32 true/jump Penny 8/jump Jas 4/speak Demetrius \"{{i18n:event-31032029.25}}\"/faceDirection Penny 1 true/faceDirection Jas 1 true/faceDirection Vincent 1 true/faceDirection Demetrius 1 true/speak Jas \"{{i18n:event-31032029.26}}\"/speak Demetrius \"{{i18n:event-31032029.27}}\"/speak Vincent \"{{i18n:event-31032029.28}}\"/faceDirection Demetrius 3/emote Demetrius 32/speak Demetrius \"{{i18n:event-31032029.29}}\""
 		},
 		/*Dynamic event forage, salmonberry in spring*/ {
 			"Name": "DemetriusBotanySeasonalForageObject",
@@ -339,84 +339,84 @@
 		},
 		/*Dynamic event forage intro, season is spring*/ {
 			"Name": "DemetriusBotanySeasonalForageDialog",
-			"Value": "{{i18n:events-31032029.06}}",
+			"Value": "{{i18n:event-31032029.06}}",
 			"When": {
 				"Season": "Spring"
 			}
 		},
 		/*Dynamic event forage intro, season is summer*/ {
 			"Name": "DemetriusBotanySeasonalForageDialog",
-			"Value": "{{i18n:events-31032029.07}}",
+			"Value": "{{i18n:event-31032029.07}}",
 			"When": {
 				"Season": "Summer"
 			}
 		},
 		/*Dynamic event forage intro, season is fall*/ {
 			"Name": "DemetriusBotanySeasonalForageDialog",
-			"Value": "{{i18n:events-31032029.08}}",
+			"Value": "{{i18n:event-31032029.08}}",
 			"When": {
 				"Season": "Fall"
 			}
 		},
 		/*Dynamic event forage intro, season is winter*/ {
 			"Name": "DemetriusBotanySeasonalForageDialog",
-			"Value": "{{i18n:events-31032029.09}}",
+			"Value": "{{i18n:event-31032029.09}}",
 			"When": {
 				"Season": "Winter"
 			}
 		},
 		/*Dynamic event forage question, season is spring*/ {
 			"Name": "DemetriusBotanySeasonalQuestion",
-			"Value": "{{i18n:events-31032029.10}}",
+			"Value": "{{i18n:event-31032029.10}}",
 			"When": {
 				"Season": "Spring"
 			}
 		},
 		/*Dynamic event forage question, season is summer*/ {
 			"Name": "DemetriusBotanySeasonalQuestion",
-			"Value": "{{i18n:events-31032029.11}}",
+			"Value": "{{i18n:event-31032029.11}}",
 			"When": {
 				"Season": "Summer"
 			}
 		},
 		/*Dynamic event forage question, season is fall*/ {
 			"Name": "DemetriusBotanySeasonalQuestion",
-			"Value": "{{i18n:events-31032029.12}}",
+			"Value": "{{i18n:event-31032029.12}}",
 			"When": {
 				"Season": "Fall"
 			}
 		},
 		/*Dynamic event forage question, season is winter*/ {
 			"Name": "DemetriusBotanySeasonalQuestion",
-			"Value": "{{i18n:events-31032029.13}}",
+			"Value": "{{i18n:event-31032029.13}}",
 			"When": {
 				"Season": "Winter"
 			}
 		},
 		/*Dynamic event forage answer, season is spring*/ {
 			"Name": "DemetriusBotanySeasonalAnswer",
-			"Value": "{{i18n:events-31032029.14}}",
+			"Value": "{{i18n:event-31032029.14}}",
 			"When": {
 				"Season": "Spring"
 			}
 		},
 		/*Dynamic event forage answer, season is summer*/ {
 			"Name": "DemetriusBotanySeasonalAnswer",
-			"Value": "{{i18n:events-31032029.15}}",
+			"Value": "{{i18n:event-31032029.15}}",
 			"When": {
 				"Season": "Summer"
 			}
 		},
 		/*Dynamic event forage answer, season is fall*/ {
 			"Name": "DemetriusBotanySeasonalAnswer",
-			"Value": "{{i18n:events-31032029.16}}",
+			"Value": "{{i18n:event-31032029.16}}",
 			"When": {
 				"Season": "Fall"
 			}
 		},
 		/*Dynamic event forage answer, season is winter*/ {
 			"Name": "DemetriusBotanySeasonalAnswer",
-			"Value": "{{i18n:events-31032029.17}}",
+			"Value": "{{i18n:event-31032029.17}}",
 			"When": {
 				"Season": "Winter"
 			}
