@@ -14,7 +14,7 @@
     //
     // Skippable
     "config.SkippableConfig.name": "SkippableConfig",
-    "config.SkippableConfig.description": "Specify if you want the events in the series to be skippable (true, false). Default is false. If you skip the first event with Penny by the Museum, you will not see the rest of the events. Useful for repeat playthroughs if you don't want the entire series to play. You can also skip events later in the series.",
+    "config.SkippableConfig.description": "Specify if you want all the events in the series to be skippable (true, false). Default is false. Useful for repeat playthroughs if you don't want the entire series to play, or if you're worried about getting stuck during an event due to a mod that changes maps.",
     "config.SkippableConfig.values.true": "true",
     "config.SkippableConfig.values.false": "false",
     //
