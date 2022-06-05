@@ -897,6 +897,7 @@
         //
         // Emily Emotional Health and Dance INCOMPLETE **fixing CTs**
         // Emily explains sometimes feelings are really strong, and that you can dance party it to help. Emily dances. Can I get the kids to dance via position offset and avoid new sprites? :maruthinking:
+        // Jas has a frame with her hands up frame 24. Can fiddle with position offsets to see if moving her back and forth makes her "dance". I got nothing for Vincent.
         // CHANGE THE CT NAME
         // Add CT for Harvey (with dynamic dialog!)
         /*Event proper*/ {
@@ -1087,7 +1088,7 @@
                 "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
             }
         }, // I was glad to hear Jas was excited by what she was learning. Hopefully poor Vincent will feel a little less nervous at the doctor now.
-        /*Vincent Schedule Dialog*/ {
+        /*Vincent Schedule Dialog NEEDS i18n'ING*/ {
             "LogName": "Harvey Anatomy and Health Vincent Schedule Dialog Changes",
             "Action": "EditData",
             "Target": "Strings/schedules/Vincent",
@@ -1100,7 +1101,7 @@
                 "HasSeenEvent": "31032032"
             }
         },
-        /*Jodi Schedule Dialog*/ {
+        /*Jodi Schedule Dialog NEEDS i18n'ING*/ {
             "LogName": "Harvey Anatomy and Health Jodi Schedule Dialog Changes",
             "Action": "EditData",
             "Target": "Strings/schedules/Jodi",
@@ -1218,7 +1219,7 @@
         // Abigail Video Games INCOMPLETE
         // Meet in town outside Pierre's.
         // Hey kids! Ok don't tell Penny, but we have a ~special~ lesson today. Follow me! <kids emote question mark>
-        // Start walking towards Saloon with Abigail leading and the kids in tow
+        // Start walking towards Saloon with Abigail leading and the kids in tow, fade to black. Move to Saloon, fade back in
         // SURPRISE it's arcade game time!
         // Hey Gus, don't mind me, just taking the kids on a little field trip!
         // kids emote with the videogame emote, 52
