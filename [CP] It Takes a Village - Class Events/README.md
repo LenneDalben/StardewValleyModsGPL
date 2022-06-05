@@ -38,6 +38,16 @@ Note that the mod does not come packaged with a config file. The config file wil
 A note on Stardew Valley Expanded (SVE): I don’t use it and never will, so I will not add compatibility for it. Use ITAV and SVE together at your own risk.
 
 
+
+||Installation||
+
+1. Install <a href="https://www.nexusmods.com/stardewvalley/mods/2400">SMAPI</a> (version 3.9.3 or higher)
+2. Install <a href="https://www.nexusmods.com/stardewvalley/mods/1915">Content Patcher (CP)</a> (version 1.21.0 or higher)
+3. Download the mod from ModDrop (link TBD) and unzip the mod folder into Stardew Valley/Mods.
+4. Play the game using SMAPI!
+
+
+
 ||Shout Outs||
 
 <a href="https://www.moddrop.com/stardew-valley/profile/182160/mods">Airyn</a>, fantastic modder and friend. You provided the initial idea, and so much support and guidance on wording, in-character-ness, dynamic token magic, random token magic, etc. Without you, this mod would never have happened. Thank you so much <3
