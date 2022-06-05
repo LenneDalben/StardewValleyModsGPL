@@ -38,7 +38,6 @@ Note that the mod does not come packaged with a config file. The config file wil
 A note on Stardew Valley Expanded (SVE): I don’t use it and never will, so I will not add compatibility for it. Use ITAV and SVE together at your own risk.
 
 
-
 ||Installation||
 
 1. Install <a href="https://www.nexusmods.com/stardewvalley/mods/2400">SMAPI</a> (version 3.9.3 or higher)
