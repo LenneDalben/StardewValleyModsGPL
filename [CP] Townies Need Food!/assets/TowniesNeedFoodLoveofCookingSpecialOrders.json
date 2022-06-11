@@ -1136,18 +1136,18 @@
         "TowniesNeedFood_Evelyn_VarietyLunchLoC_Message_1": "{{i18n:TowniesNeedFood_Evelyn_VarietyLunchLoC_Message_1}}"
       }
     },
-    // Strings Caroline Fall Classics LoC
+    // Strings George Fall Classics LoC
     {
-      "LogName": "Strings Caroline Fall Classics LoC",
+      "LogName": "Strings George Fall Classics LoC",
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
-        "TowniesNeedFood_Caroline_FallClassicsLoC_Name": "{{i18n:TowniesNeedFood_Caroline_FallClassicsLoC_Name}}",
-        "TowniesNeedFood_Caroline_FallClassicsLoC_Text": "{{i18n:TowniesNeedFood_Caroline_FallClassicsLoC_Text}}",
-        "TowniesNeedFood_Caroline_FallClassicsLoC_Objective_Text_0": "{{i18n:TowniesNeedFood_Caroline_FallClassicsLoC_Objective_Text_0}}",
-        "TowniesNeedFood_Caroline_FallClassicsLoC_Objective_Text_1": "{{i18n:TowniesNeedFood_Caroline_FallClassicsLoC_Objective_Text_1}}",
-        "TowniesNeedFood_Caroline_FallClassicsLoC_Message_0": "{{i18n:TowniesNeedFood_Caroline_FallClassicsLoC_Message_0}}",
-        "TowniesNeedFood_Caroline_FallClassicsLoC_Message_1": "{{i18n:TowniesNeedFood_Caroline_FallClassicsLoC_Message_1}}"
+        "TowniesNeedFood_George_FallClassicsLoC_Name": "{{i18n:TowniesNeedFood_George_FallClassicsLoC_Name}}",
+        "TowniesNeedFood_George_FallClassicsLoC_Text": "{{i18n:TowniesNeedFood_George_FallClassicsLoC_Text}}",
+        "TowniesNeedFood_George_FallClassicsLoC_Objective_Text_0": "{{i18n:TowniesNeedFood_George_FallClassicsLoC_Objective_Text_0}}",
+        "TowniesNeedFood_George_FallClassicsLoC_Objective_Text_1": "{{i18n:TowniesNeedFood_George_FallClassicsLoC_Objective_Text_1}}",
+        "TowniesNeedFood_George_FallClassicsLoC_Message_0": "{{i18n:TowniesNeedFood_George_FallClassicsLoC_Message_0}}",
+        "TowniesNeedFood_George_FallClassicsLoC_Message_1": "{{i18n:TowniesNeedFood_George_FallClassicsLoC_Message_1}}"
       }
     },
     // Strings Gus Hot & Calm Combo LoC
