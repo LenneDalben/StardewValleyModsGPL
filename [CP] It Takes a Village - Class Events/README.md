@@ -17,14 +17,14 @@ Translations are welcome! You can submit either the language.json to me or the s
 
 ||Getting started||
 
-To begin the lesson series, reach 6 hearts with Penny, then visit the town on a sunny day between 9:30am and 7pm. An event will play with Penny by the Library / Museum.
+To begin the lesson series, reach 6 hearts with Penny, then visit the town on a sunny day between 9:30am and 7pm. An event will play with Penny outside the Library / Museum.
 
 
 ||Configuration||
 
 Config Options
 
-* MinimumDaysBetweenLessons: After kicking off the lessons, at least 7 days must pass between the lessons by default. This means it'd take at least 16 weeks in-game to see all the lessons. If you'd like to reduce the time between lessons to see them faster, or increase the time to spread out the lessons even more, you can! These are your options for minimum days between lessons: 1, 2, 3, 4, 6, 7, and 14 days.
+* MinimumDaysBetweenLessons: After kicking off the lessons, at least 7 days must pass between the lessons by default. This means it'd take at least 16 weeks in-game to see all the lessons. If you'd like to reduce the time between lessons to see them faster, or increase the time to spread out the lessons even more, you can! You can select a number between 1 day and 28 days for minimum days between lessons.
 
 * SkippableConfig: Specify if you want all the events in the series to be skippable (true, false). Default is false. Useful for repeat playthroughs if you want to pick and choose which events you see, or if you're worried about getting stuck during an event due to a mod that changes maps.
 
