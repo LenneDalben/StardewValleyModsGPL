@@ -183,7 +183,7 @@
             "Entries": {
                 "ItTakesAVillage_GusCooking": "{{i18n:ItTakesAVillage_GusCookingCT_Gus}}"
             }
-        }, // FLERGIBERGH UGH I'M TORN there are too many ideas I like for Gus' CTs wrt his outlook on cooking, concern for Jas, excitement for Vincent, and tying in Alex's class :notlikethis: haven't seen Alex's PE lesson: hopefully Jas isn't as stressed going forward.#$b#Cooking for me is an excellent outlet for creativity as well as stress relief. I think Vincent saw that! / have seen Alex's PE lesson: I'm glad Alex and I sort of teamed up on healthy eating!$h#$b#It's a good message to hear from different sources.
+        }, // FLERGIBERGH UGH I'M TORN there are too many ideas I like for Gus' CTs wrt his outlook on cooking, concern for Jas, excitement for Vincent, and tying in Alex's class :notlikethis: haven't seen Alex's PE lesson: hopefully Jas isn't as stressed going forward.#$b#Cooking for me is an excellent outlet for creativity as well as stress relief. I think Vincent saw that! / have seen Alex's PE lesson: I'm glad Alex and I sort of teamed up on healthy eating!$h#$b#It's a good message to hear from different sources.#$b#Maybe that will make it more fun for Vincent and easier for Jas to cook going forward.
         /*Emily CT*/ {
             "LogName": "Gus Cooking CT - Emily",
             "Action": "EditData",
@@ -259,6 +259,7 @@
         //
         // Haley & Leah Art INCOMPLETE
         // Vincent likes fingerpainting
+        // *ahem* Haley will definitely throw some judgment. She can be my teacher that lowkey tries to crush their dreams. Penny will politely assert boundaries. Leah will sweatdrop along and agree with Penny. NO TO CRUSHING SPIRITS :junimostab:
         // Add CT for Elliott (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Haley & Leah Art Lesson",
@@ -366,10 +367,10 @@
             "Entries": {
                 "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Penny}}"
             }
-        }, // It looks like some of the more technical details were lost on the kids, but they got the gist of it.
+        }, // It looks like some of the more technical details were lost on the kids, but they got the gist of it.#$b#That Haley though...$a
         //
         // Elliott Stories IN PROGRESS
-        // ask if Tia would be ok with a little line suggesting Vincent is writing about Khaki the tiger (assuming player has seen that event from Jorts and Jean)
+        // ask if Tia would be ok with a little line suggesting Vincent is writing about Khaki the tiger (if player has seen that event from Jorts and Jean)
         // Add CT for Haley and Leah (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Elliott Stories Lesson",
@@ -389,7 +390,7 @@
             "Entries": {
                 "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Sebastian}}"
             }
-        },
+        }, // something like "I only did what I wish teachers would have done for me at their age: helped me 'play to my strengths' or interests, so to speak."
         /*Leah CT*/ {
             "LogName": "Sebastian Computer Basics CT - Sebastian",
             "Action": "EditData",
@@ -461,7 +462,7 @@
             "Entries": {
                 "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Penny}}"
             }
-        }, // Jas was the most thrilled I've seen her, thinking up different words for the same expression. Vincent was also enthusiastic, coming up with interesting characters. We may have future writers in our hands!
+        }, // Jas was the most thrilled I've seen her, thinking up different words for the same expression. Vincent was also enthusiastic, coming up with interesting characters.#$b#We may have future writers in our hands! Elliott did a wonderful job encouraging them.$h
         //
         // Sebastian Computer Basics - Done!
         /*Event proper*/ {
