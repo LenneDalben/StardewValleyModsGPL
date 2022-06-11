@@ -177,83 +177,83 @@
             }
         },
         /*Gus CT*/ {
-            "LogName": "Sebastian Computer Basics CT - Sebastian",
+            "LogName": "Gus Cooking CT - Gus",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Sebastian",
+            "Target": "Characters/Dialogue/Gus",
             "Entries": {
-                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Sebastian}}"
+                "ItTakesAVillage_GusCooking": "{{i18n:ItTakesAVillage_GusCookingCT_Gus}}"
             }
-        }, // haven't seen Alex's PE lesson: hopefully Jas isn't as stressed going forward.#$b#Cooking for me is an excellent outlet for creativity as well as stress relief. / have seen Alex's PE lesson: I'm glad Alex and I sort of teamed up on healthy eating!$h#$b#It's a good message to hear from different sources.
+        }, // FLERGIBERGH UGH I'M TORN there are too many ideas I like for Gus' CTs wrt his outlook on cooking, concern for Jas, excitement for Vincent, and tying in Alex's class :notlikethis: haven't seen Alex's PE lesson: hopefully Jas isn't as stressed going forward.#$b#Cooking for me is an excellent outlet for creativity as well as stress relief. I think Vincent saw that! / have seen Alex's PE lesson: I'm glad Alex and I sort of teamed up on healthy eating!$h#$b#It's a good message to hear from different sources.
         /*Emily CT*/ {
-            "LogName": "Sebastian Computer Basics CT - Sebastian",
+            "LogName": "Gus Cooking CT - Emily",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Sebastian",
+            "Target": "Characters/Dialogue/Emily",
             "Entries": {
-                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Sebastian}}"
+                "ItTakesAVillage_GusCooking": "{{i18n:ItTakesAVillage_GusCookingCT_Emily}}"
             }
-        }, // Gus handled that tough moment well.$s#$b#I'll send Jas some positive vibes.
+        }, // Gus handled that tough moment well.$s#$b#I'll send Jas some positive vibes. It sounded like Vincent has positive vibes of his own!
         /*Jas CT*/ {
-            "LogName": "Alex PE and Healthy Eating CT - Jas",
+            "LogName": "Gus Cooking CT - Jas",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Jas",
             "Entries": {
-                "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Jas}}"
+                "ItTakesAVillage_GusCooking": "{{i18n:ItTakesAVillage_GusCookingCT_Jas}}"
             }
         }, // %Jas looks a little embarrassed. Best to leave her be.
         /*Vincent CT*/ {
-            "LogName": "Alex PE and Healthy Eating CT - Vincent",
+            "LogName": "Gus Cooking CT - Vincent",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Vincent",
             "Entries": {
-                "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Vincent}}"
+                "ItTakesAVillage_GusCooking": "{{i18n:ItTakesAVillage_GusCookingCT_Vincent}}"
             }
         }, // I love cooking! You get to try all sorts of flavors!$h#$b#It's ok if Jas doesn't like it too much, I can help cook for her!
         /*Jodi CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Jodi",
+            "LogName": "Gus Cooking CT - Jodi",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Jodi",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Jodi}}"
+                "ItTakesAVillage_GusCooking": "{{i18n:ItTakesAVillage_GusCookingCT_Jodi}}"
             }
         }, // I'm glad to hear Vincent enjoyed cooking, and that Gus chose such a smart and healthy choice.#$b#I think I'll ask Vincent to make that salad as an accompaniment for dinner.#$b#Hopefully Sam learns something from his brother on this.$h
         /*Kent CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Kent",
+            "LogName": "Gus Cooking CT - Kent",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Kent",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Kent}}"
+                "ItTakesAVillage_GusCooking": "{{i18n:ItTakesAVillage_GusCookingCT_Kent}}"
             }
-        },
+        }, // It's great the salad the kids made is out of forage. I wonder if it'll get them thinking more about living off the land.
         /*Sam CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Sam",
+            "LogName": "Gus Cooking CT - Sam",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sam",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Sam}}"
+                "ItTakesAVillage_GusCooking": "{{i18n:ItTakesAVillage_GusCookingCT_Sam}}"
             }
         },
         /*Marnie CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Marnie",
+            "LogName": "Gus Cooking CT - Marnie",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Marnie",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Marnie}}"
+                "ItTakesAVillage_GusCooking": "{{i18n:ItTakesAVillage_GusCookingCT_Marnie}}"
             }
-        },
+        }, // Poor Jas. I'll try to include her in meal prep more often, see if that helps her be less uneasy. <Dat double negative doe. "find it less insert short synonym for stressful / anxiety-inducing">.
         /*Shane CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Shane",
+            "LogName": "Gus Cooking CT - Shane",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Shane",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Shane}}"
+                "ItTakesAVillage_GusCooking": "{{i18n:ItTakesAVillage_GusCookingCT_Shane}}"
             }
-        },
+        }, // I'll be sure to remind Jas she has options and there's no shame in microwaving food.
         /*Penny CT*/ {
-            "LogName": "Alex PE and Healthy Eating CT - Penny",
+            "LogName": "Gus Cooking CT - Penny",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Penny",
             "Entries": {
-                "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Penny}}"
+                "ItTakesAVillage_GusCooking": "{{i18n:ItTakesAVillage_GusCookingCT_Penny}}"
             }
         }, // I'm thankful that Gus handled Jas' stress so gently, poor thing. // EH DO I WANT TO STILL USE THIS? IT'S PRETTY BLAND ANYWAY: We've got a couple different lessons reinforcing eating healthy, so I hope it was interesting for the kids to actually make a meal.
         //
