@@ -384,85 +384,85 @@
             }
         },
         /*Elliott CT*/ {
-            "LogName": "Sebastian Computer Basics CT - Sebastian",
+            "LogName": "Elliott Stories CT - Elliott",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Sebastian",
+            "Target": "Characters/Dialogue/Elliott",
             "Entries": {
-                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Sebastian}}"
+                "ItTakesAVillage_ElliottStories": "{{i18n:ItTakesAVillage_ElliottStoriesCT_Elliott}}"
             }
-        }, // something like "I only did what I wish teachers would have done for me at their age: helped me 'play to my strengths' or interests, so to speak."
+        }, // something like "I only did what I wish teachers would have done for me at their age: helped me 'play to my strengths', or interests, so to speak."
         /*Leah CT*/ {
-            "LogName": "Sebastian Computer Basics CT - Sebastian",
+            "LogName": "Elliott Stories CT - Leah",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Sebastian",
+            "Target": "Characters/Dialogue/Leah",
             "Entries": {
-                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Sebastian}}"
+                "ItTakesAVillage_ElliottStories": "{{i18n:ItTakesAVillage_ElliottStoriesCT_Leah}}"
             }
-        }, // I wish I'd been there for Elliott's dramatic reading!$h
+        }, // have not seen LeahHaleyArt: I wish I'd been there for Elliott's dramatic reading!$h#$b#Hopefully Haley and I can match that quality in our lesson. / Have seen LeahHaleyArt: I wish I'd been there for Elliott's dramatic reading!$h#$b#It's great the kids are getting exposed to different aspects of art.
         /*Jas CT*/ {
-            "LogName": "Alex PE and Healthy Eating CT - Jas",
+            "LogName": "Elliott Stories CT - Jas",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Jas",
             "Entries": {
-                "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Jas}}"
+                "ItTakesAVillage_ElliottStories": "{{i18n:ItTakesAVillage_ElliottStoriesCT_Jas}}"
             }
         },
         /*Vincent CT*/ {
-            "LogName": "Alex PE and Healthy Eating CT - Vincent",
+            "LogName": "Elliott Stories CT - Vincent",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Vincent",
             "Entries": {
-                "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Vincent}}"
+                "ItTakesAVillage_ElliottStories": "{{i18n:ItTakesAVillage_ElliottStoriesCT_Vincent}}"
             }
-        }, // %Vincent seems to be talking to himself about trapping heroes in unusual situations.
+        },
         /*Jodi CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Jodi",
+            "LogName": "Elliott Stories CT - Jodi",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Jodi",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Jodi}}"
+                "ItTakesAVillage_ElliottStories": "{{i18n:ItTakesAVillage_ElliottStoriesCT_Jodi}}"
             }
-        }, // I hope writing is only a phase for Vincent. I just don't think it's a profitable career path.$s#$b#Look at that long haired man, living in a shack on a beach.$s
+        },
         /*Kent CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Kent",
+            "LogName": "Elliott Stories CT - Kent",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Kent",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Kent}}"
+                "ItTakesAVillage_ElliottStories": "{{i18n:ItTakesAVillage_ElliottStoriesCT_Kent}}"
             }
-        }, // Jodi doesn't give Vincent enough credit. He can have fun with writing stories at his age.#$b#If he's good at it, I don't see the problem with him thinking about it as a career. <Maybe use synonym for career?>
+        },
         /*Sam CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Sam",
+            "LogName": "Elliott Stories CT - Sam",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sam",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Sam}}"
+                "ItTakesAVillage_ElliottStories": "{{i18n:ItTakesAVillage_ElliottStoriesCT_Sam}}"
             }
-        }, // Alright, Vincent and I, the sensitive artist brothers!$h
+        },
         /*Marnie CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Marnie",
+            "LogName": "Elliott Stories CT - Marnie",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Marnie",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Marnie}}"
+                "ItTakesAVillage_ElliottStories": "{{i18n:ItTakesAVillage_ElliottStoriesCT_Marnie}}"
             }
-        }, // Jas was so precious after Elliott's lesson. She asked me to put her story up on the fridge!$h
+        },
         /*Shane CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Shane",
+            "LogName": "Elliott Stories CT - Shane",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Shane",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Shane}}"
+                "ItTakesAVillage_ElliottStories": "{{i18n:ItTakesAVillage_ElliottStoriesCT_Shane}}"
             }
-        }, // Look at Jas, little wordsmith at such a young age.$6
+        },
         /*Penny CT*/ {
-            "LogName": "Alex PE and Healthy Eating CT - Penny",
+            "LogName": "Elliott Stories CT - Penny",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Penny",
             "Entries": {
-                "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Penny}}"
+                "ItTakesAVillage_ElliottStories": "{{i18n:ItTakesAVillage_ElliottStoriesCT_Penny}}"
             }
-        }, // Jas was the most thrilled I've seen her, thinking up different words for the same expression. Vincent was also enthusiastic, coming up with interesting characters.#$b#We may have future writers in our hands! Elliott did a wonderful job encouraging them.$h
+        },
         //
         // Sebastian Computer Basics - Done!
         /*Event proper*/ {
