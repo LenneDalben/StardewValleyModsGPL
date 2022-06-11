@@ -1,6 +1,6 @@
 {
     "Changes": [
-        // SIGH viewport and zoom level shenanigans. I've written all the events with the zoom set to 75%. I should at least check how the events look at 100% zoom.
+        // Maybe have at least 1 of the teachers try to lowkey crush the kids' spirits? :evilhehe: Then Penny can speak up like "umm how bout no"
         // don't forget to i18n as you go!
         // Thoughts on how to nest the dynamic dialog via dynamic tokens and i18n: some of the dialog for default.json is written here. Within the dynamic tokens, put the i18n tokens. Then in the patches for the CTs, put the dynamic token name. The actual dialog lines go in the default.json. That should work.
         // Need to make sure the naming convention is clear. HOOEY this will be a *lot* of dynamic tokens :blobsweat:
@@ -183,7 +183,7 @@
             "Entries": {
                 "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Sebastian}}"
             }
-        },
+        }, // haven't seen Alex's PE lesson: hopefully Jas isn't as stressed going forward.#$b#Cooking for me is an excellent outlet for creativity as well as stress relief. / have seen Alex's PE lesson: I'm glad Alex and I sort of teamed up on healthy eating!$h#$b#It's a good message to hear from different sources.
         /*Emily CT*/ {
             "LogName": "Sebastian Computer Basics CT - Sebastian",
             "Action": "EditData",
@@ -191,7 +191,7 @@
             "Entries": {
                 "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Sebastian}}"
             }
-        },
+        }, // Gus handled that tough moment well.$s#$b#I'll send Jas some positive vibes.
         /*Jas CT*/ {
             "LogName": "Alex PE and Healthy Eating CT - Jas",
             "Action": "EditData",
@@ -199,7 +199,7 @@
             "Entries": {
                 "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Jas}}"
             }
-        },
+        }, // %Jas looks a little embarrassed. Best to leave her be.
         /*Vincent CT*/ {
             "LogName": "Alex PE and Healthy Eating CT - Vincent",
             "Action": "EditData",
@@ -207,7 +207,7 @@
             "Entries": {
                 "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Vincent}}"
             }
-        },
+        }, // I love cooking! You get to try all sorts of flavors!$h#$b#It's ok if Jas doesn't like it too much, I can help cook for her!
         /*Jodi CT*/ {
             "LogName": "Penny Kickstarts Lessons CT - Jodi",
             "Action": "EditData",
@@ -215,7 +215,7 @@
             "Entries": {
                 "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Jodi}}"
             }
-        },
+        }, // I'm glad to hear Vincent enjoyed cooking, and that Gus chose such a smart and healthy choice.#$b#I think I'll ask Vincent to make that salad as an accompaniment for dinner.#$b#Hopefully Sam learns something from his brother on this.$h
         /*Kent CT*/ {
             "LogName": "Penny Kickstarts Lessons CT - Kent",
             "Action": "EditData",
