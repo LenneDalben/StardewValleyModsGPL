@@ -991,7 +991,7 @@
     },
     // Wizard Special Dinner & Dessert LoC
     {
-      "LogName": "Wizard Special Dinner & Dessert LoC",
+      "LogName": "Wizard Special Dinner Sans Dessert LoC",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -1017,23 +1017,13 @@
                 "Message": "[TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Message_0]",
                 "TargetName": "Wizard"
               }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Objective_Text_1]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "item_blueberry.cac.redberrypie",
-                "Message": "[TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Message_1]",
-                "TargetName": "Wizard"
-              }
             }
           ],
           "Rewards": [
             {
               "Type": "Money",
               "Data": {
-                "Amount": "2160"
+                "Amount": "780"
               }
             },
             {
@@ -1293,9 +1283,7 @@
         "TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Name": "{{i18n:TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Name}}",
         "TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Text": "{{i18n:TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Text}}",
         "TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Objective_Text_0": "{{i18n:TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Objective_Text_0}}",
-        "TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Objective_Text_1": "{{i18n:TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Objective_Text_1}}",
-        "TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Message_0": "{{i18n:TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Message_0}}",
-        "TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Message_1": "{{i18n:TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Message_1}}"
+        "TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Message_0": "{{i18n:TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Message_0}}"
       }
     }
   ]
