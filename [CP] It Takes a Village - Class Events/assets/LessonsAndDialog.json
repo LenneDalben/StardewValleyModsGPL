@@ -414,7 +414,7 @@
             "Entries": {
                 "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Vincent}}"
             }
-        },
+        }, // %Vincent seems to be talking to himself about trapping heroes in unusual situations.
         /*Jodi CT*/ {
             "LogName": "Penny Kickstarts Lessons CT - Jodi",
             "Action": "EditData",
@@ -422,7 +422,7 @@
             "Entries": {
                 "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Jodi}}"
             }
-        },
+        }, // I hope writing is only a phase for Vincent. I just don't think it's a profitable career path.$s#$b#Look at that long haired man, living in a shack on a beach.$s
         /*Kent CT*/ {
             "LogName": "Penny Kickstarts Lessons CT - Kent",
             "Action": "EditData",
@@ -430,7 +430,7 @@
             "Entries": {
                 "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Kent}}"
             }
-        },
+        }, // Jodi doesn't give Vincent enough credit. He can have fun with writing stories at his age.#$b#If he's good at it, I don't see the problem with him thinking about it as a career. <Maybe use synonym for career?>
         /*Sam CT*/ {
             "LogName": "Penny Kickstarts Lessons CT - Sam",
             "Action": "EditData",
@@ -438,7 +438,7 @@
             "Entries": {
                 "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Sam}}"
             }
-        },
+        }, // Alright, Vincent and I, the sensitive artist brothers!$h
         /*Marnie CT*/ {
             "LogName": "Penny Kickstarts Lessons CT - Marnie",
             "Action": "EditData",
@@ -446,7 +446,7 @@
             "Entries": {
                 "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Marnie}}"
             }
-        },
+        }, // Jas was so precious after Elliott's lesson. She asked me to put her story up on the fridge!$h
         /*Shane CT*/ {
             "LogName": "Penny Kickstarts Lessons CT - Shane",
             "Action": "EditData",
@@ -454,7 +454,7 @@
             "Entries": {
                 "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Shane}}"
             }
-        },
+        }, // Look at Jas, little wordsmith at such a young age.$6
         /*Penny CT*/ {
             "LogName": "Alex PE and Healthy Eating CT - Penny",
             "Action": "EditData",
