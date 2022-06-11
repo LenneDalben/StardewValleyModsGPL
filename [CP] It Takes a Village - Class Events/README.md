@@ -6,7 +6,7 @@ Features include semi-randomized order of lessons and dynamic dialog based on wh
 
 ||Background||
 
-As a novice eventsmith, I was looking for event modding ideas that would be relatively simple but interesting to implement, and Airyn, who has many wonderful ideas, suggested a lessons series! The idea was "it takes a village to raise a child", so Penny will recruit fellow townspeople to teach the kids something they know.
+As a novice eventsmith, I was looking for event modding ideas that would be relatively simple but interesting to implement, and Airyn, who has many wonderful ideas, suggested a lessons series! The idea was "it takes a village to raise a child", so Penny will recruit fellow townspeople to teach the kids something they know. This mod has been an incredibly fun labor of love, so I hope you enjoy :)
 
 Each lesson or class is an event, taking place around the town. After each class, the townspeople will share their thoughts on the topic or how the lesson went. Some are supportive, some are judgmental, etc. Check out the screenshots for some examples!
 
