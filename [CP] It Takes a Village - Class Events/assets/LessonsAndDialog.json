@@ -787,7 +787,7 @@
             }
         }, // Maru was as excited as the kids were, raving about 'Maru the Science Guru'. I'm glad to hear they had a blast. // something about a catchy song
         //
-        // Demetrius Botany - Done!
+        // Demetrius Botany - Done! UGH I'M TORN the viewport set 34 instead of 32 makes it easier to enjoy birb but the black void at the bottom looks ugly
         /*Event proper*/ {
             "LogName": "Demetrius Botany Lesson",
             "Action": "EditData",
