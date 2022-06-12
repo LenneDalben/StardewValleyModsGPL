@@ -26,7 +26,7 @@ Config Options
 
 * MinimumDaysBetweenLessons: After kicking off the lessons, at least 7 days must pass between the lessons by default. This means it'd take at least 16 weeks in-game to see all the lessons. If you'd like to reduce the time between lessons to see them faster, or increase the time to spread out the lessons even more, you can! You can select a number between 1 day and 28 days for minimum days between lessons.
 
-* SkippableConfig: Specify if you want all the events in the series to be skippable (true, false). Default is false. Useful for repeat playthroughs if you want to pick and choose which events you see, or if you're worried about getting stuck during an event due to a mod that changes maps.
+* SkippableConfig: Specify if you want the events in the series to be skippable (true, false). Default is false. Useful for repeat playthroughs if you want to pick and choose which events you see, or if you're worried about getting stuck during an event due to a mod that changes maps.
 
 * EditPenny8HeartEvent: For immersion reasons, Penny's 8 heart event is tweaked to include a reference to the lessons. Set this to false if you have another mod that edits Penny's 8 heart event. Default is true.
 
