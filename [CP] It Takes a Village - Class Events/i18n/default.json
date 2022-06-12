@@ -139,12 +139,15 @@
     "event-31032024.20": "With more experience, I'm sure you'll both make great meals while keeping your cool!$h",
     "event-31032024.21": "Now let's dig in!$h",
     // Gus Cooking CTs
+    // FLERGIBERGH UGH I'M TORN there are too many ideas I like for Gus' CTs wrt his outlook on cooking, concern for Jas, excitement for Vincent, and tying in Alex's class :notlikethis: Attempts at getting all those themes in there:
+    // haven't seen Alex's PE lesson: hopefully Jas isn't as stressed going forward.#$b#Cooking for me is an excellent outlet for creativity as well as stress relief. I think Vincent saw that!
+    // have seen Alex's PE lesson: I'm glad Alex and I sort of teamed up on healthy eating!$h#$b#It's a good message to hear from different sources.#$b#Maybe that will make it more fun for Vincent and easier for Jas to cook going forward.
     "ItTakesAVillage_GusCookingCT_Emily": "Gus handled that tough moment well.$s#$b#I'll send Jas some positive vibes. It sounded like Vincent has positive vibes of his own!",
     "ItTakesAVillage_GusCookingCT_Jas": "%Jas looks a little embarrassed. Best to leave her be.",
     "ItTakesAVillage_GusCookingCT_Vincent": "I love cooking! You get to try all sorts of flavors!$h#$b#It's ok if Jas doesn't like it too much, I can help cook for her!",
     "ItTakesAVillage_GusCookingCT_Jodi": "I'm glad to hear Vincent enjoyed cooking, and that Gus chose such a smart and healthy choice.#$b#I think I'll ask Vincent to make that salad as an accompaniment for dinner.#$b#Hopefully Sam learns something from his brother on this.$h",
     "ItTakesAVillage_GusCookingCT_Kent": "It's great the salad the kids made is out of forage. I wonder if it'll get them thinking more about living off the land.",
-    "ItTakesAVillage_GusCookingCT_Sam": "",
+    "ItTakesAVillage_GusCookingCT_Sam": "Mom's really proud of Vincent learning to make a salad. Me, I still love pizza!$h",
     "ItTakesAVillage_GusCookingCT_Marnie": "Poor Jas. I'll try to include her in meal prep more often, see if that helps her be less uneasy. <Dat double negative doe. see if that helps her find it less -insert short synonym for stressful / anxiety-inducing->.",
     "ItTakesAVillage_GusCookingCT_Shane": "I'll be sure to remind Jas she has options and there's no shame in microwaving food.",
     "ItTakesAVillage_GusCookingCT_Penny": "I'm thankful that Gus handled Jas' stress so gently, poor thing.#$b#Vincent seems quite enthusiastic, at least!", // EH DO I WANT TO STILL USE THIS IN SOME WAY? IT'S PRETTY BLAND ANYWAY: We've got a couple different lessons reinforcing eating healthy, so I hope it was interesting for the kids to actually make a meal.
@@ -281,8 +284,8 @@
     // Demetrius Botany CTs
     // Demetrius Botany Birb edition
     "ItTakesAVillage_DemetriusBotanyCT_DemetriusCrow": "It was great to share botany knowledge with more than just Maru, although of course that's great too.$h#$b#Oh, the greater glossy puffle? Yes, it was quite a marvelous sight.",
-    "ItTakesAVillage_DemetriusBotanyCT_CrowBug_NoElectronicsCrow": "I don't know if I can compete with a cool big bird.$2",
-    "ItTakesAVillage_DemetriusBotanyCT_CrowBug_YesElectronicsCrow": "Wow, I'm glad my lesson didn't have to follow that bird!$h",
+    "ItTakesAVillage_DemetriusBotanyCT_Maru_NoElectronicsCrow": "I don't know if I can compete with a cool big bird.$2",
+    "ItTakesAVillage_DemetriusBotanyCT_Maru_YesElectronicsCrow": "Wow, I'm glad my lesson didn't have to follow that bird!$h",
     "ItTakesAVillage_DemetriusBotanyCT_RobinCrow": "Demetrius is brave to have underreacted as much as he did to that... what did he call it? 'Greater glossy puffle'?$h#$b#I would have run back into the house!$h",
     "ItTakesAVillage_DemetriusBotanyCT_LewisCrow": "I am STUNNED to hear such a creature was in our valley!$2#$b#I will have to have strong words with Marlon about keeping the valley safe.$3",
     "ItTakesAVillage_DemetriusBotanyCT_JasCrow": "%Jas looks a little haunted.",
@@ -293,10 +296,10 @@
     "ItTakesAVillage_DemetriusBotanyCT_MarnieCrow": "I can only imagine how scary that was for everyone.$2",
     "ItTakesAVillage_DemetriusBotanyCT_ShaneCrow": "I don't think I want Jas going up to the mountains any time soon.$3#$b$Or ever.",
     "ItTakesAVillage_DemetriusBotanyCT_PennyCrow": "I think that huge bird stole the show...$3#$b#Thankfully we were safe.$5",
-    "ItTakesAVillage_DemetriusBotanyCT_DemetriusBug": "Maybe I could talk to the guild about a guided expedition into the mines?$3#$b#For science!",
     // Demetrius Botany Bug edition
-    "ItTakesAVillage_DemetriusBotanyCT_MaruBug_NoElectronicsBug": "The kids already seem excited about science. Maybe after my class, they will be completely sold on being future lab assistants!$h",
-    "ItTakesAVillage_DemetriusBotanyCT_MaruBug_YesElectronicsBug": "It's cool that Jas and Vincent got to see what my dad does.#$b#Combined with my electronics class, I think we may have some future lab assistants!$h",
+    "ItTakesAVillage_DemetriusBotanyCT_DemetriusBug": "Maybe I could talk to the guild about a guided expedition into the mines?$3#$b#For science!",
+    "ItTakesAVillage_DemetriusBotanyCT_Maru_NoElectronicsBug": "The kids already seem excited about science. Maybe after my class, they will be completely sold on being future lab assistants!$h",
+    "ItTakesAVillage_DemetriusBotanyCT_Maru_YesElectronicsBug": "It's cool that Jas and Vincent got to see what my dad does.#$b#Combined with my electronics class, I think we may have some future lab assistants!$h",
     "ItTakesAVillage_DemetriusBotanyCT_RobinBug": "It was nice to hear Demetrius was able to share some of his love of science with the kids.",
     "ItTakesAVillage_DemetriusBotanyCT_LewisBug": "I thought Marlon was supposed to keep those vile things contained in the mines.$4",
     "ItTakesAVillage_DemetriusBotanyCT_JasBug": "Mr. Demetrius had so many cool facts about plants!",

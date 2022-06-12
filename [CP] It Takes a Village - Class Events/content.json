@@ -423,28 +423,28 @@
 		},
 		/*Dynamic Maru CT dialog, haven't seen electronic lesson, crow*/ {
 			"Name": "DemetriusBotanyMaruCTCrow",
-			"Value": "{{i18n:ItTakesAVillage_DemetriusBotanyCT_CrowBug_NoElectronicsCrow}}",
+			"Value": "{{i18n:ItTakesAVillage_DemetriusBotanyCT_Maru_NoElectronicsCrow}}",
 			"When": {
 				"HasSeenEvent |contains=31032030": "false"
 			}
 		},
 		/*Dynamic Maru CT dialog, saw electronic lesson, crow*/ {
 			"Name": "DemetriusBotanyMaruCTCrow",
-			"Value": "{{i18n:ItTakesAVillage_DemetriusBotanyCT_CrowBug_YesElectronicsCrow}}",
+			"Value": "{{i18n:ItTakesAVillage_DemetriusBotanyCT_Maru_YesElectronicsCrow}}",
 			"When": {
 				"HasSeenEvent |contains=31032030": "true"
 			}
 		},
 		/*Dynamic Maru CT dialog, haven't seen electronic lesson, bug*/ {
 			"Name": "DemetriusBotanyMaruCTBug",
-			"Value": "{{i18n:ItTakesAVillage_DemetriusBotanyCT_MaruBug_NoElectronicsBug}}",
+			"Value": "{{i18n:ItTakesAVillage_DemetriusBotanyCT_Maru_NoElectronicsBug}}",
 			"When": {
 				"HasSeenEvent |contains=31032030": "false"
 			}
 		},
 		/*Dynamic Maru CT dialog, saw electronic lesson, bug*/ {
 			"Name": "DemetriusBotanyMaruCTBug",
-			"Value": "{{i18n:ItTakesAVillage_DemetriusBotanyCT_MaruBug_YesElectronicsBug}}",
+			"Value": "{{i18n:ItTakesAVillage_DemetriusBotanyCT_Maru_YesElectronicsBug}}",
 			"When": {
 				"HasSeenEvent |contains=31032030": "true"
 			}
