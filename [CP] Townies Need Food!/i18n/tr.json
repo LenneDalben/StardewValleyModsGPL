@@ -465,10 +465,8 @@
   "TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Message_1": "Bu deniz öğünlerinin mükemmel bir seçimi. Teşekkürler @!$h",
   //
   // Wizard Special Dinner & Dessert LoC Strings
-  "TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Name": "Özel Akşam Yemeği ve Tatlı",
-  "TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Text": "Yerel büyücü cüce yahnisi ve redberry turtası arıyor. Büyüleyici yemekler.",
-  "TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Objective_Text_0": "Büyücü'ye Cüce Yahnisi ver",
-  "TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Objective_Text_1": "Büyücü'ye Redberry Turtası ver",
-  "TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Message_0": "Ne zengin bir yahni. Teşekkürler @!$h",
-  "TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Message_1": "Hakikaten iştah açıcı bir koku.$h#$b#*öksürür* yani, teşekkür ederim @."
+  "TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Name": "Özel Akşam Yemeği",
+"TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Text": "Yerel büyücü cüce yahnisi arıyor. Büyüleyici bir yemek.",
+"TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Objective_Text_0": "Büyücü'ye Cüce Yahnisi ver",
+"TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Message_0": "Ne besleyici bir yahni. Teşekkürler @!$h"
 }
