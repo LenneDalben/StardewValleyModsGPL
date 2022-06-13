@@ -394,7 +394,7 @@
               "Text": "[TowniesNeedFood_George_FallClassicsLoC_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_blueberry.cac.applepie",
+                "AcceptedContextTags": "item_blueberry.cac.applepie/item_apple_pie",
                 "Message": "[TowniesNeedFood_George_FallClassicsLoC_Message_1]",
                 "TargetName": "George"
               }
