@@ -179,9 +179,9 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Gus",
             "Entries": {
-                "ItTakesAVillage_GusCooking": "{{i18n:ItTakesAVillage_GusCookingCT_Gus}}"
+                "ItTakesAVillage_GusCooking": "{{GusCookingGusCT}}"
             }
-        }, // FLERGIBERGH UGH I'M TORN there are too many ideas I like for Gus' CTs wrt his outlook on cooking, concern for Jas, excitement for Vincent, and tying in Alex's class :notlikethis: haven't seen Alex's PE lesson: hopefully Jas isn't as stressed going forward.#$b#Cooking for me is an excellent outlet for creativity as well as stress relief. I think Vincent saw that! / have seen Alex's PE lesson: I'm glad Alex and I sort of teamed up on healthy eating!$h#$b#It's a good message to hear from different sources.#$b#Maybe that will make it more fun for Vincent and easier for Jas to cook going forward.
+        },
         /*Emily CT*/ {
             "LogName": "Gus Cooking CT - Emily",
             "Action": "EditData",
@@ -869,7 +869,7 @@
             "Entries": {
                 "ItTakesAVillage_DemetriusBotany": "{{Random: {{i18n:ItTakesAVillage_DemetriusBotanyCT_SamCrow}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_SamBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_SamBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_SamBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_SamBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_SamBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_SamBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_SamBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_SamBug}} %% {{i18n:ItTakesAVillage_DemetriusBotanyCT_SamBug}} |key=monster |inputSeparator=%%}}"
             }
-        }, 
+        },
         /*Marnie CT*/ {
             "LogName": "Demetrius Botany CT - Marnie",
             "Action": "EditData",
