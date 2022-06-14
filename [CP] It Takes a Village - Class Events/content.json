@@ -464,6 +464,34 @@
 				"HasSeenEvent |contains=31032030": "true"
 			}
 		},
+		/*Dynamic Demetrius CT dialog, haven't seen electronic lesson, crow*/ {
+			"Name": "DemetriusBotanyDemetriusCTCrow",
+			"Value": "{{i18n:ItTakesAVillage_DemetriusBotanyCT_Demetrius_NoElectronicsCrow}}",
+			"When": {
+				"HasSeenEvent |contains=31032030": "false"
+			}
+		},
+		/*Dynamic Demetrius CT dialog, saw electronic lesson, crow*/ {
+			"Name": "DemetriusBotanyDemetriusCTCrow",
+			"Value": "{{i18n:ItTakesAVillage_DemetriusBotanyCT_Demetrius_YesElectronicsCrow}}",
+			"When": {
+				"HasSeenEvent |contains=31032030": "true"
+			}
+		},
+		/*Dynamic Demetrius CT dialog, haven't seen electronic lesson, bug*/ {
+			"Name": "DemetriusBotanyDemetriusCTBug",
+			"Value": "{{i18n:ItTakesAVillage_DemetriusBotanyCT_Demetrius_NoElectronicsBug}}",
+			"When": {
+				"HasSeenEvent |contains=31032030": "false"
+			}
+		},
+		/*Dynamic Demetrius CT dialog, saw electronic lesson, bug*/ {
+			"Name": "DemetriusBotanyDemetriusCTBug",
+			"Value": "{{i18n:ItTakesAVillage_DemetriusBotanyCT_Demetrius_YesElectronicsBug}}",
+			"When": {
+				"HasSeenEvent |contains=31032030": "true"
+			}
+		},
 		// Emily Emotional Health & Dance and Harvey Anatomy
 		{
 			"Name": "EmilyEmotionalDanceAndHarveyAnatomyToken",

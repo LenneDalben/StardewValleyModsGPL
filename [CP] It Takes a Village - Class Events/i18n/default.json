@@ -278,7 +278,8 @@
     "event-31032029.29": "Well, let's continue with the nature tour.$h",
     // Demetrius Botany CTs
     // Demetrius Botany Birb edition
-    "ItTakesAVillage_DemetriusBotanyCT_DemetriusCrow": "It was great to share botany knowledge with more than just Maru, although of course that's great too.$h#$b#Oh, the greater glossy puffle? Yes, it was quite a marvelous sight.",
+    "ItTakesAVillage_DemetriusBotanyCT_Demetrius_NoElectronicsCrow": "It was great to share botany knowledge with more than just Maru, although of course that's great too.$h#$b#Oh, the greater glossy puffle? Yes, it was quite a marvelous sight.",
+    "ItTakesAVillage_DemetriusBotanyCT_Demetrius_YesElectronicsCrow": "It was great to share botany knowledge with more than just Maru, although of course that's great too.$h#$b#She also seemed to enjoy sharing her knowledge of electronics, so enjoying teaching might run in the family.$h#$b#Oh, the greater glossy puffle? Yes, it was quite a marvelous sight.",
     "ItTakesAVillage_DemetriusBotanyCT_Maru_NoElectronicsCrow": "I don't know if I can compete with a cool big bird.$2",
     "ItTakesAVillage_DemetriusBotanyCT_Maru_YesElectronicsCrow": "Wow, I'm glad my lesson didn't have to follow that bird!$h",
     "ItTakesAVillage_DemetriusBotanyCT_RobinCrow": "Demetrius is brave to have underreacted as much as he did to that... what did he call it? 'Greater glossy puffle'?$h#$b#I would have run back into the house!$h",
@@ -292,7 +293,8 @@
     "ItTakesAVillage_DemetriusBotanyCT_ShaneCrow": "I don't think I want Jas going up to the mountains any time soon.$3#$b$Or ever.",
     "ItTakesAVillage_DemetriusBotanyCT_PennyCrow": "I think that huge bird stole the show...$3#$b#Thankfully we were safe.$5",
     // Demetrius Botany Bug edition
-    "ItTakesAVillage_DemetriusBotanyCT_DemetriusBug": "Maybe I could talk to the guild about a guided expedition into the mines?$3#$b#For science!",
+    "ItTakesAVillage_DemetriusBotanyCT_Demetrius_NoElectronicsBug": "Maybe I could talk to the guild about a guided expedition into the mines?$3#$b#For science!#$b#Maybe Maru would join me. She might find something to inspire her electronics class.",
+    "ItTakesAVillage_DemetriusBotanyCT_Demetrius_YesElectronicsBug": "Maybe I could talk to the guild about a guided expedition into the mines?$3#$b#For science!#$b#Maybe Maru would join me.",
     "ItTakesAVillage_DemetriusBotanyCT_Maru_NoElectronicsBug": "The kids already seem excited about science. Maybe after my class, they will be completely sold on being future lab assistants!$h",
     "ItTakesAVillage_DemetriusBotanyCT_Maru_YesElectronicsBug": "It's cool that Jas and Vincent got to see what my dad does.#$b#Combined with my electronics class, I think we may have some future lab assistants!$h",
     "ItTakesAVillage_DemetriusBotanyCT_RobinBug": "It was nice to hear Demetrius was able to share some of his love of science with the kids.",
