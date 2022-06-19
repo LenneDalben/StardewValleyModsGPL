@@ -1,0 +1,472 @@
+{
+  // ***Config Options***
+  // Repeatable
+  "config.RepeatableConfig.name": "Configuração de Repetição",
+  "config.RepeatableConfig.description": "Especifique se você quer que os Pedidos Especiais sejam repetíveis (verdadeiro, falso). O padrão é verdadeiro.",
+  "config.RepeatableConfig.values.true": "verdadeiro",
+  "config.RepeatableConfig.values.false": "falso",
+  //
+  // Include Island Content
+  "config.IncludeIslandContent.name": "Incluir conteúdo da Ilha",
+  "config.IncludeIslandContent.description": "Especifique se você quer que os Pedidos Especiais incluam receitas da ilha (verdadeiro, falso). O padrão é verdadeiro.",
+  "config.IncludeIslandContent.values.true": "verdadeiro",
+  "config.IncludeIslandContent.values.false": "falso",
+  //
+  //
+  // ***Order strings***
+  // Abigail Sweet and Spicy Strings
+  "TowniesNeedFood_Abigail_SweetandSpicy_Name": "Doce & Picante",
+  "TowniesNeedFood_Abigail_SweetandSpicy_Text": "Opa! Estou com vontade de algo doce e picante. Alguém poderia me fazer um Mexido de Amoras e uma Enguia Picante?",
+  "TowniesNeedFood_Abigail_SweetandSpicy_Objective_Text_0": "Entregue Mexido de Amoras para Abigail",
+  "TowniesNeedFood_Abigail_SweetandSpicy_Objective_Text_1": "Entregue Enguia Picante para Abigail",
+  "TowniesNeedFood_Abigail_SweetandSpicy_Message_0": "O mexido parece saboroso. Obrigada, @!$h",
+  "TowniesNeedFood_Abigail_SweetandSpicy_Message_1": "Eu consigo sentir o aroma picante daqui. Obrigada, @!$h",
+  //
+  // Abigail Creamy Dessert Strings
+  "TowniesNeedFood_Abigail_CreamyDessert_Name": "Sobremesa Cremosa",
+  "TowniesNeedFood_Abigail_CreamyDessert_Text": "Eu adoraria uma sobremesa tropical, mas eu não sei como fazer nenhuma. Alguém poderia arranjar um Pudim de Banana para mim?",
+  "TowniesNeedFood_Abigail_CreamyDessert_Objective_Text_0": "Entregue Pudim de Banana Abigail",
+  "TowniesNeedFood_Abigail_CreamyDessert_Message_0": "Obrigada, isso é incrível!$h#$b#Eu me pergunto se o meu pai poderia importar bananas de alguma forma... Eu estaria disposta a aprender essa receita.$3",
+  //
+  // Alex Good Eating Strings
+  "TowniesNeedFood_Alex_GoodEating_Name": "Alimentação Nutritiva",
+  "TowniesNeedFood_Alex_GoodEating_Text": "Um Café da Manhã Completo e um Jantar de Salmão vão me deixar preparado para encarar o dia. Alguém poderia fazer esses pratos para mim?",
+  "TowniesNeedFood_Alex_GoodEating_Objective_Text_0": "Entregue Café da Manhã Completo para Alex",
+  "TowniesNeedFood_Alex_GoodEating_Objective_Text_1": "Entregue Jantar de Salmão para Alex",
+  "TowniesNeedFood_Alex_GoodEating_Message_0": "Eu sinto que nada pode me parar depois de comer um Café da Manhã Completo, sabe?#$b#Valeu, isso vai me ajudar muito!$h",
+  "TowniesNeedFood_Alex_GoodEating_Message_1": "Jantar de Salmão é uma boa opção de comida. Valeu, @!$h",
+  //
+  // Caroline Seafood Bonanza Strings
+  "TowniesNeedFood_Caroline_SeafoodBonanza_Name": "Abundância de Frutos do Mar",
+  "TowniesNeedFood_Caroline_SeafoodBonanza_Text": "A Abigail poderia até chamar isso de um 'montão de frutos do mar', mas eles são bons para a gente! Alguém poderia me fazer um Taco de peixe, uma Enguia frita e uma Bisque de Lagosta, por favor?",
+  "TowniesNeedFood_Caroline_SeafoodBonanza_Objective_Text_0": "Entregue Taco de peixe para Caroline",
+  "TowniesNeedFood_Caroline_SeafoodBonanza_Objective_Text_1": "Entregue Enguia frita para Caroline",
+  "TowniesNeedFood_Caroline_SeafoodBonanza_Objective_Text_2": "Entregue Bisque de Lagosta para Caroline",
+  "TowniesNeedFood_Caroline_SeafoodBonanza_Message_0": "Obrigada, @! De verdade.",
+  "TowniesNeedFood_Caroline_SeafoodBonanza_Message_1": "Não posso esperar por esse prato saboroso, obrigada!",
+  "TowniesNeedFood_Caroline_SeafoodBonanza_Message_2": "Ah, isso está excelente, @!#$b#Eu estou feliz que o Willy compartilhou essa receita com alguém.$h",
+  //
+  // Clint Mild Snack Strings
+  "TowniesNeedFood_Clint_MildSnack_Name": "Lanche Rápido",
+  "TowniesNeedFood_Clint_MildSnack_Text": "Estou sem nenhum lanche. Alguém poderia me trazer um pão e molho de alcachofra?",
+  "TowniesNeedFood_Clint_MildSnack_Objective_Text_0": "Entregue Pão para Clint",
+  "TowniesNeedFood_Clint_MildSnack_Objective_Text_1": "Entregue Molho de alcachofra para Clint",
+  "TowniesNeedFood_Clint_MildSnack_Message_0": "Isso está ótimo. Obrigado, @.$h",
+  "TowniesNeedFood_Clint_MildSnack_Message_1": "Obrigado!$h#$b#Talvez eu possa tentar espalhar o molho no pão.#$b#Eu não estou limitado a literalmente molhar o pão.$h",
+  //
+  // Demetrius Dinner and Two Desserts Strings
+  "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Name": "Jantar & Duas Sobremesas",
+  "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Text": "Saudações! Eu adoraria providenciar algumas opções para o jantar de hoje à noite. Alguém poderia me trazer um Pote de feijão, sorcete e pudim de arroz? Obrigado!",
+  "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Objective_Text_0": "Entregue Pote de feijão para Demetrius",
+  "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Objective_Text_1": "Entregue Sorvete para Demetrius",
+  "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Objective_Text_2": "Entregue Pudim de arroz para Demetrius",
+  "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Message_0": "Obrigado, @, Eu tenho certeza que esse feijão vai nos deixar satisfeitos.$h",
+  "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Message_1": "Sorvete é o meu preferido, obrigado.$h",
+  "TowniesNeedFood_Demetrius_DinnerandTwoDesserts_Message_2": "Eu amo pudim de arroz, é divertido de comer. Obrigado.$h",
+  //
+  // Elliott Meal Planning Strings
+  "TowniesNeedFood_Elliott_MealPlanning_Name": "Planejamento de Refeições",
+  "TowniesNeedFood_Elliott_MealPlanning_Text": "Eu serei eternamente grato àquele que puder me ajudar com planejamento de refeições. Estou precisando de bolinhos de caranguejo, sopa tom kha e peixe cozido.",
+  "TowniesNeedFood_Elliott_MealPlanning_Objective_Text_0": "Entregue Bolinhos de Caranguejo para Elliott",
+  "TowniesNeedFood_Elliott_MealPlanning_Objective_Text_1": "Entregue  Sopa Tom Kha para Elliott",
+  "TowniesNeedFood_Elliott_MealPlanning_Objective_Text_2": "Entregue Peixe Cozido para Elliott",
+  "TowniesNeedFood_Elliott_MealPlanning_Message_0": "Eu não posso esperar para aproveitar esses bolinhos de caranguejo. Obrigado, @!$h",
+  "TowniesNeedFood_Elliott_MealPlanning_Message_1": "Obrigado, estava esperando por essa iguaria deliciosa!$h",
+  "TowniesNeedFood_Elliott_MealPlanning_Message_2": "Ah, eu consigo sentir o aroma do concerto das ervas!$h",
+  //
+  // Emily Appetizer and Dinner Strings
+  "TowniesNeedFood_Emily_AppetizerandDinner_Name": "Aperitivos & Jantar",
+  "TowniesNeedFood_Emily_AppetizerandDinner_Text": "Coquetel de camarão seguido por hambúrguer de sobrevivência pode parecer uma combinação estranha, mas eu estou intressada!",
+  "TowniesNeedFood_Emily_AppetizerandDinner_Objective_Text_0": "Entregue Coquetel de Camarão para Emily",
+  "TowniesNeedFood_Emily_AppetizerandDinner_Objective_Text_1": "Entregue Survival Burger para Emily",
+  "TowniesNeedFood_Emily_AppetizerandDinner_Message_0": "Eu acho que um aperitivo de coquetel de camarão vai deixar o jantar mais refinado.#$b#Obrigada, @!$h",
+  "TowniesNeedFood_Emily_AppetizerandDinner_Message_1": "Oooh, obrigada, @!$h",
+  //
+  // Evelyn Side and Dessert Strings
+  "TowniesNeedFood_Evelyn_SideandDessert_Name": "Complemento & Sobremesa",
+  "TowniesNeedFood_Evelyn_SideandDessert_Text": "Eu estou precisando de um complemento e um docinho para completar a comida. Alguém poderia me fazer um recheio e bolo de chocolate? Obrigada!",
+  "TowniesNeedFood_Evelyn_SideandDessert_Objective_Text_0": "Entregue Recheio para Evelyn",
+  "TowniesNeedFood_Evelyn_SideandDessert_Objective_Text_1": "Entregue Bolo de Chocolate para Evelyn",
+  "TowniesNeedFood_Evelyn_SideandDessert_Message_0": "Este recheio parece ótimo. Obrigada, @!$h",
+  "TowniesNeedFood_Evelyn_SideandDessert_Message_1": "@, este bolo de chocolate está maravilhoso. Obrigada, meu bem!$h",
+  //
+  // George Some Favorites Strings
+  "TowniesNeedFood_George_SomeFavorites_Name": "Alguns Favoritos",
+  "TowniesNeedFood_George_SomeFavorites_Text": "Estou interessado em alguns dos meus pratos favoritos, mas eu não quero incomodar a Evelyn. Alguém poderia me trazer cogumelo frito e sopa de peixe?",
+  "TowniesNeedFood_George_SomeFavorites_Objective_Text_0": "Entregue Cogumelo Frito para George",
+  "TowniesNeedFood_George_SomeFavorites_Objective_Text_1": "Entregue Sopa de Peixe para George",
+  "TowniesNeedFood_George_SomeFavorites_Message_0": "A Evelyn faz tanto por mim, mas eu sou um inútil na cozinha.$2#$b#Estou ansioso por esse prato, @.$h",
+  "TowniesNeedFood_George_SomeFavorites_Message_1": "Obrigado, @, esta sopa vai me aquecer.$h",
+  //
+  // Gus Unique Delicacies Strings
+  "TowniesNeedFood_Gus_UniqueDelicacies_Name": "Iguarias Peculiares",
+  "TowniesNeedFood_Gus_UniqueDelicacies_Text": "Eu adoraria um escargô e taco de peixe. Deixe no Saloon e eu ficarei muito grato.",
+  "TowniesNeedFood_Gus_UniqueDelicacies_Objective_Text_0": "Entregue Escargô para Gus",
+  "TowniesNeedFood_Gus_UniqueDelicacies_Objective_Text_1": "Entregue Taco de Peixe para Gus",
+  "TowniesNeedFood_Gus_UniqueDelicacies_Message_0": "Escargô é uma iguaria única! Quem pode dizer não à mantega?$h#$b#Obrigado, @!$h",
+  "TowniesNeedFood_Gus_UniqueDelicacies_Message_1": "Isto parece gostoso. Obrigado, @!$h",
+  //
+  // Gus Fragrant Curry Strings
+  "TowniesNeedFood_Gus_FragrantCurry_Name": "Curry Perfumado",
+  "TowniesNeedFood_Gus_FragrantCurry_Text": "Eu adoraria um curry tropical. Deixe no Saloon e eu ficarei muito grato.",
+  "TowniesNeedFood_Gus_FragrantCurry_Objective_Text_0": "Entregue Curry Tropical para Gus",
+  "TowniesNeedFood_Gus_FragrantCurry_Message_0": "Isto está perfumado mesmo. Obrigado!$h",
+  //
+  // Haley Mostly Healthy Strings
+  "TowniesNeedFood_Haley_MostlyHealthy_Name": "Saudável, mas nem tanto",
+  "TowniesNeedFood_Haley_MostlyHealthy_Text": "Eu te < para sempre se você me fizer uma saladaa de frutas e doce de oxicoco para mim!",
+  "TowniesNeedFood_Haley_MostlyHealthy_Objective_Text_0": "Entregue Salada de Frutas para Haley",
+  "TowniesNeedFood_Haley_MostlyHealthy_Objective_Text_1": "Entregue Doce de Oxicoco para Haley",
+  "TowniesNeedFood_Haley_MostlyHealthy_Message_0": "Esta saladaa de frutas está com uma cara ótima. Obrigada, @!$h",
+  "TowniesNeedFood_Haley_MostlyHealthy_Message_1": "Eu consigo sentir daqui o cheiro da doçura. Obrigada, @!$h",
+  //
+  // Harvey Pick-me-up Strings
+  "TowniesNeedFood_Harvey_Pickmeup_Name": "Pick-me-up",
+  "TowniesNeedFood_Harvey_Pickmeup_Text": "Estou buscando aumentar os meus níveis de energia. Alguém poderia me trazer um superprato, uma saladaa de repolho e um café expresso triplo?",
+  "TowniesNeedFood_Harvey_Pickmeup_Objective_Text_0": "Entregue Superprato para Harvey",
+  "TowniesNeedFood_Harvey_Pickmeup_Objective_Text_1": "Entregue Salada de Repolho para Harvey",
+  "TowniesNeedFood_Harvey_Pickmeup_Objective_Text_2": "Entregue Café Expresso Triplo para Harvey",
+  "TowniesNeedFood_Harvey_Pickmeup_Message_0": "Estou ansioso por esta refeição energizante. Obrigado, @!$h",
+  "TowniesNeedFood_Harvey_Pickmeup_Message_1": "Este é um acompanhamento saudável. Obrigado, @!$h",
+  "TowniesNeedFood_Harvey_Pickmeup_Message_2": "Ah sim, isso vai me animar. Obrigado, @!$h",
+  //
+  // Jas Holiday Treat Strings
+  "TowniesNeedFood_Jas_HolidayTreat_Name": "Mimo de Feriado",
+  "TowniesNeedFood_Jas_HolidayTreat_Text": "Eu acho que a Jas iria gostar muito de um pudim de ameixa. Alguém poderia entregar para ela?     - Shane",
+  "TowniesNeedFood_Jas_HolidayTreat_Objective_Text_0": "Entregue Pudim de Ameixa para Jas",
+  "TowniesNeedFood_Jas_HolidayTreat_Message_0": "Isso é... para mim?$3#$b#*suspiro* Obrigada, eu amo isso!$h#$b#O Shane te pediu para me trazer pudim de ameixa?#$b#Eu vou agradecer a ele também!$h",
+  //
+  // Jodi Three Square Meals Strings
+  "TowniesNeedFood_Jodi_ThreeSquareMeals_Name": "Três Refeições Substanciosas",
+  "TowniesNeedFood_Jodi_ThreeSquareMeals_Text": "Esta semana está tensa. Poderia me ajudar fazendo panquecas, achigã crocante e parmesão com berinjela para mim?",
+  "TowniesNeedFood_Jodi_ThreeSquareMeals_Objective_Text_0": "Entregue Panquecas para Jodi",
+  "TowniesNeedFood_Jodi_ThreeSquareMeals_Objective_Text_1": "Entregue Achigã Crocante para Jodi",
+  "TowniesNeedFood_Jodi_ThreeSquareMeals_Objective_Text_2": "Entregue Parmesão com Berinjela para Jodi",
+  "TowniesNeedFood_Jodi_ThreeSquareMeals_Message_0": "Os meninos vão amar isto. Obrigada, @.",
+  "TowniesNeedFood_Jodi_ThreeSquareMeals_Message_1": "Isto parece ótimo. Obrigada, @.",
+  "TowniesNeedFood_Jodi_ThreeSquareMeals_Message_2": "Isto vai servir. Obrigada, @.",
+  //
+  // Kent Dinner and um Lanche Strings
+  "TowniesNeedFood_Kent_DinnerandaSnack_Name": "Jantar & um Lanche",
+  "TowniesNeedFood_Kent_DinnerandaSnack_Text": "Eu gostaria de um risoto de samambaia e avelãs torradas, por favor.",
+  "TowniesNeedFood_Kent_DinnerandaSnack_Objective_Text_0": "Entregue Risoto de Samambaia para Kent",
+  "TowniesNeedFood_Kent_DinnerandaSnack_Objective_Text_1": "Entregue Avelãs Torradas para Kent",
+  "TowniesNeedFood_Kent_DinnerandaSnack_Message_0": "Hã?#$b#Ah, o risoto que eu pedi. Obrigado, @.$h",
+  "TowniesNeedFood_Kent_DinnerandaSnack_Message_1": "Estas avelãs estão com uma cara ótima. Obrigado!$h",
+  //
+  // Krobus Briny Pudding Strings
+  "TowniesNeedFood_Krobus_BrinyPudding_Name": "Pudim Salgado",
+  "TowniesNeedFood_Krobus_BrinyPudding_Text": "Saudações, Estou interessado em um pudim de espuma do mar. Alguém da cidade poderia deixar isso na galeria de esgoto?",
+  "TowniesNeedFood_Krobus_BrinyPudding_Objective_Text_0": "Entregue Pudim de Espuma do Mar para Krobus",
+  "TowniesNeedFood_Krobus_BrinyPudding_Message_0": "Ah, @, você tem a minha gratidão!$h",
+  //
+  // Leah Fresh Veggies Strings
+  "TowniesNeedFood_Leah_FreshVeggies_Name": "Verduras Fresquinhas",
+  "TowniesNeedFood_Leah_FreshVeggies_Text": "Não tenho tido sorte em encontrar os ingredientes dos meus pratos preferidos. Alguém poderia fazer uma salada e um refogado para mim?",
+  "TowniesNeedFood_Leah_FreshVeggies_Objective_Text_0": "Entregue Salada para Leah",
+  "TowniesNeedFood_Leah_FreshVeggies_Objective_Text_1": "Entregue Refogado para Leah",
+  "TowniesNeedFood_Leah_FreshVeggies_Message_0": "Eu adoro comer verduras frescas. Obrigada, @!$h",
+  "TowniesNeedFood_Leah_FreshVeggies_Message_1": "Eu realmente tenho que dar um jeito de aprender como cortar vegetais à Julienne.#$b#Que bom que o Quadro de Pedidos Especiais existe. Isto está com uma cara ótima. Obrigada, @!$h",
+  //
+  // Leo Sweet Flavor Strings
+  "TowniesNeedFood_Leo_SweetFlavor_Name": "Gosto Adocicado",
+  "TowniesNeedFood_Leo_SweetFlavor_Text": "Alguém na cidade levaria um poi para o Leo? Acredito que ele vá gostar muito.     - Linus =",
+  "TowniesNeedFood_Leo_SweetFlavor_Objective_Text_0": "Entregue Poi para Leo",
+  "TowniesNeedFood_Leo_SweetFlavor_Message_0": "...$2#$b#Obrigado!$h",
+  //
+  // Lewis Hearty Veggies Strings
+  "TowniesNeedFood_Lewis_HeartyVeggies_Name": "Legumes Saudáveis",
+  "TowniesNeedFood_Lewis_HeartyVeggies_Text": "Olá, Vila Pelicanos. Faz tempo que eu comi uma refeição saudável. Alguém poderia providenciar um prato de outono e um mexido de legumes para o seu prefeito favorito?",
+  "TowniesNeedFood_Lewis_HeartyVeggies_Objective_Text_0": "Entregue Prato de Outono para Lewis",
+  "TowniesNeedFood_Lewis_HeartyVeggies_Objective_Text_1": "Entregue Mexido de Legumes para Lewis",
+  "TowniesNeedFood_Lewis_HeartyVeggies_Message_0": "Estou ansioso para provar o tal 'sabor da estação'. Obrigado, @!$h",
+  "TowniesNeedFood_Lewis_HeartyVeggies_Message_1": "Estou agredecido por me ajudar a permanecer saudável, @!$h",
+  //
+  // Linus Fish and Dessert Strings
+  "TowniesNeedFood_Linus_FishandDessert_Name": "Peixe e Sobremesa",
+  "TowniesNeedFood_Linus_FishandDessert_Text": "Eu adoraria um pouco de guisado de peixe, prato do mar e uma torta de mirtilo. Alguém poderia fazer para mim? =",
+  "TowniesNeedFood_Linus_FishandDessert_Objective_Text_0": "Entregue Guisado de Peixe para Linus",
+  "TowniesNeedFood_Linus_FishandDessert_Objective_Text_1": "Entregue Prato do Mar para Linus",
+  "TowniesNeedFood_Linus_FishandDessert_Objective_Text_2": "Entregue Torta de Mirtilo para Linus",
+  "TowniesNeedFood_Linus_FishandDessert_Message_0": "Estou agradecido de verdade, @. Refeições a base de peixe são saudáveis.$h",
+  "TowniesNeedFood_Linus_FishandDessert_Message_1": "Isto vai me deixar aquecido. Obrigado, @.$h",
+  "TowniesNeedFood_Linus_FishandDessert_Message_2": "Eu sou grato por isto, @.$h",
+  //
+  // Marnie Lunch and Two Desserts Strings
+  "TowniesNeedFood_Marnie_LunchandTwoDesserts_Name": "Almoço & Duas Sobremesas",
+  "TowniesNeedFood_Marnie_LunchandTwoDesserts_Text": "Aôba, vizinhos! Um almoço de fazendeiro vai me ajudar a atravessar o dia; e um bolo rosa e uma torta de abóbora vão servir como sobremesa para mim e para a Jas (e o Shane, se ele for rápido)! Me ajuda?",
+  "TowniesNeedFood_Marnie_LunchandTwoDesserts_Objective_Text_0": "Entregue Almoço de Fazendeiro para Marnie",
+  "TowniesNeedFood_Marnie_LunchandTwoDesserts_Objective_Text_1": "Entregue Bolo Rosa para Marnie",
+  "TowniesNeedFood_Marnie_LunchandTwoDesserts_Objective_Text_2": "Entregue Torta de Abóbora para Marnie",
+  "TowniesNeedFood_Marnie_LunchandTwoDesserts_Message_0": "Tomara que isto realmente me mantenha 'no pique'. Obrigada, @!$h",
+  "TowniesNeedFood_Marnie_LunchandTwoDesserts_Message_1": "Obrigada, @! Tenho certeza que a Jas vai amar isto.$h",
+  "TowniesNeedFood_Marnie_LunchandTwoDesserts_Message_2": "Obrigada, @! Estou ansiosa para provar essa torta!$h#$b#Eu até poderia guardar um pedaço para o Shane também.#$b#Ai, tá bom, eu gardo.$h",
+  //
+  // Maru My Favorite Foodstuffs Strings
+  "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Name": "Minhas comidas favoritas",
+  "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Text": "Estou com vontade de uma comida que ajude a dar foco. Alguém poderia me trazer couve-flor com queijo, refeição de mineiro e torta de ruibarbo?",
+  "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Objective_Text_0": "Entregue Couve-flor com Queijo para Maru",
+  "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Objective_Text_1": "Entregue Refeição de Mineiro para Maru",
+  "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Objective_Text_2": "Entregue Torta de Ruibarbo para Maru",
+  "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Message_0": "Woo, Eu vou me esbaldar com essa delícia de queijo!$h",
+  "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Message_1": "Obrigada, @, isto vai me ajudar a ficar focada!$h",
+  "TowniesNeedFood_Maru_MyFavoriteFoodstuffs_Message_2": "Obrigada, @, parece gostoso!$h",
+  //
+  // Pam Roots Strings
+  "TowniesNeedFood_Pam_Roots_Name": "Raízes",
+  "TowniesNeedFood_Pam_Roots_Text": "Opa! Estou com vontade de comer um pouco de carboidrato. Alguém nesta cidade poderia me ajudar trazendo inhames com cobertura, sopa de chirívia e batata-palha?",
+  "TowniesNeedFood_Pam_Roots_Objective_Text_0": "Entregue Inhames com Cobertura para Pam",
+  "TowniesNeedFood_Pam_Roots_Objective_Text_1": "Entregue Sopa de Chirívia para Pam",
+  "TowniesNeedFood_Pam_Roots_Objective_Text_2": "Entregue Batata-palha para Pam",
+  "TowniesNeedFood_Pam_Roots_Message_0": "Isso daí não tem 'um aroma de caramelo', é caramelo purinho.$h#$b#Obrigada, @!$h",
+  "TowniesNeedFood_Pam_Roots_Message_1": "Hum, isso daí é o quê mesmo?#$b#Ha, obrigada, @!$h",
+  "TowniesNeedFood_Pam_Roots_Message_2": "O que você tem aí?#$b#Oh, isso é para mim, obrigada, @!$h",
+  //
+  // Penny A Day's Meals Strings
+  "TowniesNeedFood_Penny_ADaysMeals_Name": "Refeições do Dia",
+  "TowniesNeedFood_Penny_ADaysMeals_Text": "Oi, Eu adoraria planejar refeições para um dia inteiro. Alguém poderia me trazer bolinho de papoula, prato vermelho e prato de raízes, por favor?",
+  "TowniesNeedFood_Penny_ADaysMeals_Objective_Text_0": "Entregue Bolinho de Papoula para Penny",
+  "TowniesNeedFood_Penny_ADaysMeals_Objective_Text_1": "Entregue Prato Vermelho para Penny",
+  "TowniesNeedFood_Penny_ADaysMeals_Objective_Text_2": "Entregue Prato de Raízes para Penny",
+  "TowniesNeedFood_Penny_ADaysMeals_Message_0": "Isto está ótimo, obrigada, @!$h",
+  "TowniesNeedFood_Penny_ADaysMeals_Message_1": "Prato vermelho tem muitos antioxidantes.#$b#Além de parecer delicioso. Obrigada, @!$h",
+  "TowniesNeedFood_Penny_ADaysMeals_Message_2": "Obrigada, @! Estou aguardando ansiosamente por isso.$h",
+  //
+  // Pierre Appetizer and Entree Strings
+  "TowniesNeedFood_Pierre_AppetizerandEntree_Name": "Aperitivo e Entrada",
+  "TowniesNeedFood_Pierre_AppetizerandEntree_Text": "Alguém poderia me fazer lula frita e brusqueta?",
+  "TowniesNeedFood_Pierre_AppetizerandEntree_Objective_Text_0": "Entregue Lula Frita para Pierre",
+  "TowniesNeedFood_Pierre_AppetizerandEntree_Objective_Text_1": "Entregue Brusqueta para Pierre",
+  "TowniesNeedFood_Pierre_AppetizerandEntree_Message_0": "Algumas pessoas acham que lula é borrachuda, mas eu amo. Obrigado, @!$h",
+  "TowniesNeedFood_Pierre_AppetizerandEntree_Message_1": "Obrigado, @!$h",
+  //
+  // Robin Family Buffet Strings
+  "TowniesNeedFood_Robin_FamilyBuffet_Name": "Buffet Familiar",
+  "TowniesNeedFood_Robin_FamilyBuffet_Text": "Eu adoraria algumas opções para o jantar. Alguém poderia me fazer espaguete, salada de rabanete e carpa-surpresa?",
+  "TowniesNeedFood_Robin_FamilyBuffet_Objective_Text_0": "Entregue Espaguete para Robin",
+  "TowniesNeedFood_Robin_FamilyBuffet_Objective_Text_1": "Entregue Salada de Rabanete para Robin",
+  "TowniesNeedFood_Robin_FamilyBuffet_Objective_Text_2": "Entregue Carpa-surpresa para Robin",
+  "TowniesNeedFood_Robin_FamilyBuffet_Message_0": "Este é um favorito desde sempre. Obrigada, @!$h",
+  "TowniesNeedFood_Robin_FamilyBuffet_Message_1": "Perfeito, obrigada, @!$h",
+  "TowniesNeedFood_Robin_FamilyBuffet_Message_2": "É preciso se acostumar com o sabor, mas eu amo.$h#$b#Obrigada, @!$h",
+  //
+  // Sam Slice and Dessert Strings
+  "TowniesNeedFood_Sam_SliceandDessert_Name": "Fatia & Sobremesa",
+  "TowniesNeedFood_Sam_SliceandDessert_Text": "Estou trabalhando num projeto e preciso de um rango. Alguém poderia me trazer uma pizza e pão de ácer?",
+  "TowniesNeedFood_Sam_SliceandDessert_Objective_Text_0": "Entregue Pizza para Sam",
+  "TowniesNeedFood_Sam_SliceandDessert_Objective_Text_1": "Entregue Pão de Ácer para Sam",
+  "TowniesNeedFood_Sam_SliceandDessert_Message_0": "Aí sim, @!$h",
+  "TowniesNeedFood_Sam_SliceandDessert_Message_1": "Pão de ácer é da hora. Valeu, @!$h",
+  //
+  // Sam Egg Wrap Strings
+  "TowniesNeedFood_Sam_EggWrap_Name": "Wrap de Ovos",
+  "TowniesNeedFood_Sam_EggWrap_Text": "Não é bem um sanduíche de ovo, mas se alguém puder me trazer um ovo frito e uma tortilha, eu vou combinar os dois.",
+  "TowniesNeedFood_Sam_EggWrap_Objective_Text_0": "Entregue Ovo Frito para Sam",
+  "TowniesNeedFood_Sam_EggWrap_Objective_Text_1": "Entregue Tortilha para Sam",
+  "TowniesNeedFood_Sam_EggWrap_Message_0": "O recheio do meu wrap, obrigado!$h",
+  "TowniesNeedFood_Sam_EggWrap_Message_1": "Heh, obrigado, @! Estou ansioso para combinar isto com o ovo.$h",
+  //
+  // Sandy Sweet Mango and Coconut Strings
+  "TowniesNeedFood_Sandy_SweetMangoandCoconut_Name": "Manga Doce & Coco",
+  "TowniesNeedFood_Sandy_SweetMangoandCoconut_Text": "Eu acho que a Sandy gostaria de um arroz doce de manga. Alguém poderia fazer e levar para ela?     - Emily",
+  "TowniesNeedFood_Sandy_SweetMangoandCoconut_Objective_Text_0": "Entregue Arroz Doce de Manga para Sandy",
+  "TowniesNeedFood_Sandy_SweetMangoandCoconut_Message_0": "Que gracinha, obrigada, @!$h#$b#Eu vou agradecer à Emily, também! Ela é muito gentil por se preocupar comigo.$h",
+  //
+  // Sebastian Lunch and Dinner Strings
+  "TowniesNeedFood_Sebastian_LunchandDinner_Name": "Almoço & Jantar",
+  "TowniesNeedFood_Sebastian_LunchandDinner_Text": "Isso é meio constrangedor... Eu amo sashimi e sopa de abóbora, mas eu acho que ainda não peguei o jeito dessas receitas. Alguém poderia trazer para mim?",
+  "TowniesNeedFood_Sebastian_LunchandDinner_Objective_Text_0": "Entregue Sashimi para Sebastian",
+  "TowniesNeedFood_Sebastian_LunchandDinner_Objective_Text_1": "Entregue Pumpkin Soup para Sebastian",
+  "TowniesNeedFood_Sebastian_LunchandDinner_Message_0": "Oh, hah... Você fez isto para mim? Obrigado, @!$l",
+  "TowniesNeedFood_Sebastian_LunchandDinner_Message_1": "Oh, você viu aquele pedido? Uh, obrigado, @!$l",
+  //
+  // Shane Peppers and Pizza Strings
+  "TowniesNeedFood_Shane_PeppersandPizza_Name": "Pimentas & Pizza",
+  "TowniesNeedFood_Shane_PeppersandPizza_Text": "Alguém poderia me fazer enroladinhos de pimenta e pizza? Eu pago!",
+  "TowniesNeedFood_Shane_PeppersandPizza_Objective_Text_0": "Entregue Enroladinhos de Pimenta para Shane",
+  "TowniesNeedFood_Shane_PeppersandPizza_Objective_Text_1": "Entregue Pizza para Shane",
+  "TowniesNeedFood_Shane_PeppersandPizza_Message_0": "Ah, isso daqui é a melhor coisa. Valeu, @.$h",
+  "TowniesNeedFood_Shane_PeppersandPizza_Message_1": "Ha, Eu pensei que ninguém iria aceitar o meu pedido. Obrigado, @.$h",
+  //
+  // Vincent Fizzy and Soothing Strings
+  "TowniesNeedFood_Vincent_FizzyandSoothing_Name": "Borbulhante & Relaxante",
+  "TowniesNeedFood_Vincent_FizzyandSoothing_Text": "Eu acho que o Vincent gostaria de uma ginger ale. Alguém poderia levar para ele?     - Jodi",
+  "TowniesNeedFood_Vincent_FizzyandSoothing_Objective_Text_0": "Entregue Ginger Ale para Vincent",
+  "TowniesNeedFood_Vincent_FizzyandSoothing_Message_0": "Massa, obrigado, @!$h#$b#A mamãe te pediu para me dar isso?$3#$b#Eu vou agradecer a ela também!$h",
+  //
+  // Willy Daily Sustenance Strings
+  "TowniesNeedFood_Willy_DailySustenance_Name": "Sustento Diário",
+  "TowniesNeedFood_Willy_DailySustenance_Text": "Se alguém puder me trazer omelete, rolinho de arroz e sopa de truta, eu agradeceria muito!",
+  "TowniesNeedFood_Willy_DailySustenance_Objective_Text_0": "Entregue Omelete para Willy",
+  "TowniesNeedFood_Willy_DailySustenance_Objective_Text_1": "Entregue Rolinho de Arroz para Willy",
+  "TowniesNeedFood_Willy_DailySustenance_Objective_Text_2": "Entregue Sopa de Truta para Willy",
+  "TowniesNeedFood_Willy_DailySustenance_Message_0": "Às vezes você só precisa de um omelete. Obrigado, @!$h",
+  "TowniesNeedFood_Willy_DailySustenance_Message_1": "Obrigado, @! Bolinhos de arroz são uma refeição simples e deliciosa.$h",
+  "TowniesNeedFood_Willy_DailySustenance_Message_2": "Esta sopa está com uma cara excelente. Obrigado, @!$h",
+  //
+  // Wizard Luck and Sweets Strings
+  "TowniesNeedFood_Wizard_LuckandSweets_Name": "Sorte & Doces",
+  "TowniesNeedFood_Wizard_LuckandSweets_Text": "O feiticeiro local está em busca de magníficos almoço da sorte, biscoitos e molho de oxicoco. Eles possuem propriedades interessantíssimas, sabia?",
+  "TowniesNeedFood_Wizard_LuckandSweets_Objective_Text_0": "Entregue Almoço da Sorte para Feiticeiro",
+  "TowniesNeedFood_Wizard_LuckandSweets_Objective_Text_1": "Entregue Biscoitos para Feiticeiro",
+  "TowniesNeedFood_Wizard_LuckandSweets_Objective_Text_2": "Entregue Molho de Oxicoco para Feiticeiro",
+  "TowniesNeedFood_Wizard_LuckandSweets_Message_0": "Excelente. Obrigado, @!$h",
+  "TowniesNeedFood_Wizard_LuckandSweets_Message_1": "Ah, @, esses vão me atender!$h",
+  "TowniesNeedFood_Wizard_LuckandSweets_Message_2": "Oh, @, isto parece maravilhoso!$h",
+  //
+  // Wizard Protective Pasta Strings
+  "TowniesNeedFood_Wizard_ProtectivePasta_Name": "Macarrão Protetivo",
+  "TowniesNeedFood_Wizard_ProtectivePasta_Text": "O feiticeiro local está em busca de um ravioli de tinta de lula. Ele possui as propriedades mais facinantes que eu já encontrei em alimentos.",
+  "TowniesNeedFood_Wizard_ProtectivePasta_Objective_Text_0": "Entregue Ravioli de Tinta de Lula para Feiticeiro",
+  "TowniesNeedFood_Wizard_ProtectivePasta_Message_0": "Obrigado, @!$h#$b#Isso será de grande valia nas minhas viagens.$h",
+  //
+  //
+  //
+  //
+  // ***Mod Integrations~***
+  //
+  //
+  // Always Raining in the Valley (ARV) Henry Homemade Refogado Strings
+  "TowniesNeedFood_ARV_Henry_HomemadeStirFry_Name": "Refogado Caseiro",
+  "TowniesNeedFood_ARV_Henry_HomemadeStirFry_Text": "Alguém sabe como cozinhar Refogado? A Mia mencionou que é um dos seus pratos favoritos num restaurante onde ela quer me levar algum dia. Ao invés disso, você acha que poderia me fazer um Refogado? Eu ficaria feliz em pagar e espero que isso, pelo menos, amenize um pouco a saudade que ela tem de casa...",
+  "TowniesNeedFood_ARV_Henry_HomemadeStirFry_Objective_Text_0": "Entregue Refogado para Henry",
+  "TowniesNeedFood_ARV_Henry_HomemadeStirFry_Message_0": "Ah, Eu sei que esse é um pedido estranho e que você já está atarefado atendendo aos pedidos de todo mundo...$3#$b#Mas obrigado.#$b#Eu não acho que eu conseguiria pagar aqueles restaurantes chiques da cidade, então isto é uma boa alternativa caseira.",
+  //
+  //
+  // Love of Cooking (LoC) Integration
+  // Caroline Side Dishes LoC Strings
+  "TowniesNeedFood_Caroline_SideDishesLoC_Name": "Acompanhamentos",
+  "TowniesNeedFood_Caroline_SideDishesLoC_Text": "Eu acho que batata recheada e sopa de cebola são boas opções para acompanhar o jantar. Alguém poderia trazer para mim?",
+  "TowniesNeedFood_Caroline_SideDishesLoC_Objective_Text_0": "Entregue Batata Recheada para Caroline",
+  "TowniesNeedFood_Caroline_SideDishesLoC_Objective_Text_1": "Entregue Sopa de Cebola para Caroline",
+  "TowniesNeedFood_Caroline_SideDishesLoC_Message_0": "Os cogumelos dão um toque especial, não é? Obrigada, @!",
+  "TowniesNeedFood_Caroline_SideDishesLoC_Message_1": "Obrigada, @! Eu gosto muito do sabor terroso da sopa de cebola.",
+  //
+  // Clint Quick Start LoC Strings
+  "TowniesNeedFood_Clint_QuickStartLoC_Name": "Início Rápido",
+  "TowniesNeedFood_Clint_QuickStartLoC_Text": "Estou tentando me preparar para o café da manhã. Alguém poderia me fazer um burrito e um café da manhã rápido?",
+  "TowniesNeedFood_Clint_QuickStartLoC_Objective_Text_0": "Entregue Burrito para Clint",
+  "TowniesNeedFood_Clint_QuickStartLoC_Objective_Text_1": "Entregue Café da Manhã Rápido para Clint",
+  "TowniesNeedFood_Clint_QuickStartLoC_Message_0": "É um enroladinho bom, né? Obrigado, @!$h",
+  "TowniesNeedFood_Clint_QuickStartLoC_Message_1": "Obrigado, @! É o impulso que eu precisava.$h",
+  //
+  // Demetrius Breakfast and Lunch LoC Strings
+  "TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Name": "Café da Manhã e Almoço",
+  "TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Text": "Saudações! Estou com desejo de waffles de bagas e um sanduíche de ovo. Alguém poderia fazer um de cada para mim? Obrigado!",
+  "TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Objective_Text_0": "Entregue Waffles de Bagas para Demetrius",
+  "TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Objective_Text_1": "Entregue Sanduíche de ovo para Demetrius",
+  "TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Message_0": "Que calda de mirtilo bem feita. Obrigado, @!$h",
+  "TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Message_1": "Está temperado perfeitamente. Obrigado, @!$h",
+  //
+  // Elliott Dinner Variety LoC Strings
+  "TowniesNeedFood_Elliott_DinnerVarietyLoC_Name": "Variedade para o Jantar",
+  "TowniesNeedFood_Elliott_DinnerVarietyLoC_Text": "Eu adoraria ter mais variedade para o jantar. Alguém poderia me fazer uma panela de repolho e uma torta do almirante?",
+  "TowniesNeedFood_Elliott_DinnerVarietyLoC_Objective_Text_0": "Entregue Panela de Repolho para Elliott",
+  "TowniesNeedFood_Elliott_DinnerVarietyLoC_Objective_Text_1": "Entregue Torta do Almirante para Elliott",
+  "TowniesNeedFood_Elliott_DinnerVarietyLoC_Message_0": "Não deixe o repolho de enganar, é uma ótima hortaliça.#$b#Isto vai servir para várias refeições. Obrigado, @!",
+  "TowniesNeedFood_Elliott_DinnerVarietyLoC_Message_1": "A torta não é apenas ousada, mas também apetitosa!$h",
+  //
+  // Emily Lunch and Dessert LoC Strings
+  "TowniesNeedFood_Emily_LunchandDessertLoC_Name": "Almoço e Sobremesa",
+  "TowniesNeedFood_Emily_LunchandDessertLoC_Text": "Estou interessada na combinação doce de hambúrguer de beterraba e bolo!",
+  "TowniesNeedFood_Emily_LunchandDessertLoC_Objective_Text_0": "Entregue Hambúrguer de Beterraba para Emily",
+  "TowniesNeedFood_Emily_LunchandDessertLoC_Objective_Text_1": "Entregue Bolo para Emily",
+  "TowniesNeedFood_Emily_LunchandDessertLoC_Message_0": "Isto tem um sabor delicioso com uma cor deslumbrante!",
+  "TowniesNeedFood_Emily_LunchandDessertLoC_Message_1": "Isto é um pão-de-ló encantador. Obrigada, @!",
+  //
+  // Evelyn Variety Lunch LoC Strings
+  "TowniesNeedFood_Evelyn_VarietyLunchLoC_Name": "Variedade para o Almoço",
+  "TowniesNeedFood_Evelyn_VarietyLunchLoC_Text": "Eu preciso de uma ajuda com o almoço. Alguém poderia fazer para mim lagostim matinal e torta de jardim? Obrigada!",
+  "TowniesNeedFood_Evelyn_VarietyLunchLoC_Objective_Text_0": "Entregue Lagostim Matinal para Evelyn",
+  "TowniesNeedFood_Evelyn_VarietyLunchLoC_Objective_Text_1": "Entregue Torta de Jardim para Evelyn",
+  "TowniesNeedFood_Evelyn_VarietyLunchLoC_Message_0": "O molho está com um aroma delicioso! Obrigada, meu bem.$h",
+  "TowniesNeedFood_Evelyn_VarietyLunchLoC_Message_1": "Bem, o Alex que vai comer isso.#$b#Obrigada, @!$h",
+  //
+  // George Fall Classics LoC Strings
+  "TowniesNeedFood_George_FallClassicsLoC_Name": "Clássicos do Outono",
+  "TowniesNeedFood_George_FallClassicsLoC_Text": "Eu não quero incomodar a Evelyn e estou interessado em um ensopado de coração e uma torta de maçã. Alguém poderia fazer para mim?",
+  "TowniesNeedFood_George_FallClassicsLoC_Objective_Text_0": "Entregue Ensopado de Coração para George",
+  "TowniesNeedFood_George_FallClassicsLoC_Objective_Text_1": "Entregue Torta de Maçã para George",
+  "TowniesNeedFood_George_FallClassicsLoC_Message_0": "Isso vai aquecer estes ossos. Obrigado, @!$h",
+  "TowniesNeedFood_George_FallClassicsLoC_Message_1": "Esse é o cheiro do outono. Obrigado, @!$h",
+  //
+  // Gus Hot & Calm Combo LoC Strings
+  "TowniesNeedFood_Gus_HotandCalmComboLoC_Name": "Combinção Quente & Calma",
+  "TowniesNeedFood_Gus_HotandCalmComboLoC_Text": "Eu adoraria um curry quente e uma batata assada. Alguém poderia deixar no Saloon?",
+  "TowniesNeedFood_Gus_HotandCalmComboLoC_Objective_Text_0": "Entregue Curry Quente para Gus",
+  "TowniesNeedFood_Gus_HotandCalmComboLoC_Objective_Text_1": "Entregue Batata Assada para Gus",
+  "TowniesNeedFood_Gus_HotandCalmComboLoC_Message_0": "Estou ansioso por este curry ardente!$h",
+  "TowniesNeedFood_Gus_HotandCalmComboLoC_Message_1": "Batatas são boas para limpar o paladar depois de uma comida picante. Obrigado, @!",
+  //
+  // Jas Sweet and Warm LoC Strings
+  "TowniesNeedFood_Jas_SweetandWarmLoC_Name": "Doce e Quente",
+  "TowniesNeedFood_Jas_SweetandWarmLoC_Text": "Eu acho que a Jas e o Vincent gostariam de uma guloseima. Alguém poderia levar um Cacau Quente para os dois?    -Shane",
+  "TowniesNeedFood_Jas_SweetandWarmLoC_Objective_Text_0": "Entregue Cacau Quente para Jas",
+  "TowniesNeedFood_Jas_SweetandWarmLoC_Objective_Text_1": "Entregue Cacau Quente para Vincent",
+  "TowniesNeedFood_Jas_SweetandWarmLoC_Message_0": "Hmm?$3#$b#Yay, obrigada, @!$h#$b#Sim, eu vou agradecer ao Shane também.#$b#Tem um marshmallow nele!$h",
+  "TowniesNeedFood_Jas_SweetandWarmLoC_Message_1": "Para mim?#$b#Que legal, obrigado, @! Eu vou agradecer ao Shane também.",
+  //
+  // Jodi Dinner Combo LoC Strings
+  "TowniesNeedFood_Jodi_DinnerComboLoC_Name": "Combinação para o Jantar",
+  "TowniesNeedFood_Jodi_DinnerComboLoC_Text": "Eu adoraria ter algumas opções para o jantar. Alguém poderia me fazer um assado quente e sushi de enguia?",
+  "TowniesNeedFood_Jodi_DinnerComboLoC_Objective_Text_0": "Entregue Assado Quente para Jodi",
+  "TowniesNeedFood_Jodi_DinnerComboLoC_Objective_Text_1": "Entregue Sushi de Enguia para Jodi",
+  "TowniesNeedFood_Jodi_DinnerComboLoC_Message_0": "Os meninos e eu somos fãs das guarnições do assado. Obrigada, @!",
+  "TowniesNeedFood_Jodi_DinnerComboLoC_Message_1": "É bom ter peixe na nossa dieta.",
+  //
+  // Kent Classic Vegetables LoC Strings
+  "TowniesNeedFood_Kent_ClassicVegetablesLoC_Name": "Vegetais Tradicionais",
+  "TowniesNeedFood_Kent_ClassicVegetablesLoC_Text": "Eu adoraria um prato do caçador pelo seu valor nutricional. Alguém poderia me trazer dois?",
+  "TowniesNeedFood_Kent_ClassicVegetablesLoC_Objective_Text_0": "Entregue 2 Prato do Caçador para Kent",
+  "TowniesNeedFood_Kent_ClassicVegetablesLoC_Message_0": "Eles estão com uma cara ótima. Obrigado, @!",
+  //
+  // Leah Sandos LoC Strings
+  "TowniesNeedFood_Leah_SandosLoC_Name": "Sandubas",
+  "TowniesNeedFood_Leah_SandosLoC_Text": "Estou com vontade de comer alguns sanduíches. Alguém poderia me trazer um sanduíche de salada e um sanduíche de frutos do mar?",
+  "TowniesNeedFood_Leah_SandosLoC_Objective_Text_0": "Entregue Sanduíche de Salada para Leah",
+  "TowniesNeedFood_Leah_SandosLoC_Objective_Text_1": "Entregue Sanduíche de Frutos do Mar para Leah",
+  "TowniesNeedFood_Leah_SandosLoC_Message_0": "Este tem vários vegetais. Obrigada, @!$h",
+  "TowniesNeedFood_Leah_SandosLoC_Message_1": "Obrigada, @! É bom ter um pouco de frutos do mar no regime.$h",
+  //
+  // Lewis Shish Kebab LoC Strings
+  "TowniesNeedFood_Lewis_ShishKebabLoC_Name": "Shish Kebab",
+  "TowniesNeedFood_Lewis_ShishKebabLoC_Text": "Oi, Vila dos Pelicanos. Eu adoraria ter algumas frutas e vegetais em um refeição. Alguém poderia providenciar espetos de abacaxi para o seu prefeito favorito?",
+  "TowniesNeedFood_Lewis_ShishKebabLoC_Objective_Text_0": "Entregue Espetos de Abacaxi para Lewis",
+  "TowniesNeedFood_Lewis_ShishKebabLoC_Message_0": "Eles estão com uma cara ótima. Obrigado, @!",
+  //
+  // Maru Veggies & a Mystery LoC Strings
+  "TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Name": "Vegetais & um Mistério",
+  "TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Text": "Estou com vontade de bolinhos de couve-flor e um kebab. Alguém poderia fazer para mim?",
+  "TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Objective_Text_0": "Entregue Bolinhos de Couve-flor para Maru",
+  "TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Objective_Text_1": "Entregue Kebab para Maru",
+  "TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Message_0": "Couve-flor é ótima, independentemente de como você a cozinhe. Obrigada, @!$h",
+  "TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Message_1": "Obrigada, @! Às vezes é divertido apostar nos kebabs.$h#$b#Supondo que não dê errado...$2",
+  //
+  // Pam Rich Food LoC Strings
+  "TowniesNeedFood_Pam_RichFoodLoC_Name": "Comidas Encorpadas",
+  "TowniesNeedFood_Pam_RichFoodLoC_Text": "Aôba! Estou com vontade de algumas comidas encorpadas. Alguém nesta vila poderia me ajudar fazeendo um mingau de ameixa e uma batata carregada?",
+  "TowniesNeedFood_Pam_RichFoodLoC_Objective_Text_0": "Entregue Mingau de Ameixa para Pam",
+  "TowniesNeedFood_Pam_RichFoodLoC_Objective_Text_1": "Entregue Batata Carregada para Pam",
+  "TowniesNeedFood_Pam_RichFoodLoC_Message_0": "Isto é um agrado quentinho para a manhã.#$b#Obrigada, @!$h",
+  "TowniesNeedFood_Pam_RichFoodLoC_Message_1": "Não tem como errar com uma batata carregada.#$b#Obrigada, @!$h",
+  //
+  // Sandy Refreshing Salada LoC Strings
+  "TowniesNeedFood_Sandy_RefreshingSaladLoC_Name": "Salada Refrescante",
+  "TowniesNeedFood_Sandy_RefreshingSaladLoC_Text": "Eu tenho a impressão que a Sandy gostaria de uma salada tropical. Alguém poderia levar para ela?     - Emily",
+  "TowniesNeedFood_Sandy_RefreshingSaladLoC_Objective_Text_0": "Entregue Salada Tropical para Sandy",
+  "TowniesNeedFood_Sandy_RefreshingSaladLoC_Message_0": "Isto parece delicioso, obrigada, @!$h#$b#Eu direi à Emily que ela é uma gracinha por se importar comigo dessa forma.$h",
+  //
+  // Willy Lunch & Dinner Leftovers LoC Strings
+  "TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Name": "Sobras do Almoço & Jantar",
+  "TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Text": "Eu adoraria uma lagosta assada e uma bandeja oceânica. Alguém poderia trazer para mim?",
+  "TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Objective_Text_0": "Entregue Lagosta Assada para Willy",
+  "TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Objective_Text_1": "Entregue Bandeja Oceânica para Willy",
+  "TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Message_0": "Obrigado, @! Eu amo esta receita.$h",
+  "TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Message_1": "Esta é uma seleção excelente de frutos do mar. Obrigado, @!$h",
+  //
+  // Wizard Special Dinner & Dessert LoC Strings
+  "TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Name": "Jantar Especial",
+  "TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Text": "O feiticeiro local está em busca de um ensopado do anão. É um prato magnífico.",
+  "TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Objective_Text_0": "Entregue Ensopado do Anão para Feiticeiro",
+  "TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Message_0": "Que ensopado suntuoso. Obrigado, @!$h"
+}
