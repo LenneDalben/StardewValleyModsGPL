@@ -691,7 +691,10 @@
             "Action": "EditData",
             "Target": "Data/Events/ScienceHouse", // in the lab
             "Entries": {
-                "31032030/A ItTakesAVillage_Beginning/A ItTakesAVillage_AlexPE/A ItTakesAVillage_GusCooking/A ItTakesAVillage_ElliottStories/A ItTakesAVillage_HaleyLeahArt/A ItTakesAVillage_AbbyEcon/A ItTakesAVillage_SebComputer/A ItTakesAVillage_DemetriusBotany/A ItTakesAVillage_EmilyDance/A ItTakesAVillage_HarveyHealth/A ItTakesAVillage_AbigailVideoGames/A ItTakesAVillage_ClintMetalworking/A ItTakesAVillage_SamMusic/A ItTakesAVillage_ShaneAnimalCare/A ItTakesAVillage_AbigailSelfDefense/A ItTakesAVillage_RobinWoodworking/A ItTakesAVillage_WillyLinusFishing/A ItTakesAVillage_CarolineEvelynGardening": "50s/-1000 -1000/farmer 81 94 0 Penny 89 94 2 Jas 89 95 0 Vincent 90 95 0/viewport 87 93 true/addConversationTopic ItTakesAVillage_MaruElectronics {{MinimumDaysBetweenLessons}}/{{SkippableToken}}/emote Jas 32/jump Vincent 4/pause 500/speed Jas 4/move Jas 0 4 1 true/speed Vincent 4/move Vincent 0 4 3 true/move Penny -2 0 3/faceDirection Penny 2/faceDirection farmer 1/pause 200/emote Penny 28/emote farmer 8/move farmer 2 0 1 true/pause 100/faceDirection Penny 3/pause 300/speak Penny \"{{i18n:event-31032022.01}}\"/question null \"#{{i18n:event-31032022.02}}#{{i18n:event-31032022.03}}\"/splitSpeak Penny \"{{i18n:event-31032022.04}}~{{i18n:event-31032022.05}}\"/speak Penny \"{{i18n:event-31032022.06}}\"/pause 300/emote Penny 40/speak Penny \"{{i18n:event-31032022.07}}\"/quickQuestion #{{i18n:event-31032022.08}}#{{i18n:event-31032022.09}}(break)friendship Penny 100\\speak Penny \"{{i18n:event-31032022.10}}\"(break)friendship Penny -100\\speak Penny \"{{i18n:event-31032022.11}}\"/pause 500/speak Penny \"{{i18n:event-31032022.12}}\"/emote Penny 56/speed Penny 4/move Penny 0 1 3/speed Penny 4/move Penny -9 0 3 true/move farmer -2 0 0 true/pause 500/end"
+                "31032030/A ItTakesAVillage_Beginning/A ItTakesAVillage_AlexPE/A ItTakesAVillage_GusCooking/A ItTakesAVillage_ElliottStories/A ItTakesAVillage_HaleyLeahArt/A ItTakesAVillage_AbbyEcon/A ItTakesAVillage_SebComputer/A ItTakesAVillage_DemetriusBotany/A ItTakesAVillage_EmilyDance/A ItTakesAVillage_HarveyHealth/A ItTakesAVillage_AbigailVideoGames/A ItTakesAVillage_ClintMetalworking/A ItTakesAVillage_SamMusic/A ItTakesAVillage_ShaneAnimalCare/A ItTakesAVillage_AbigailSelfDefense/A ItTakesAVillage_RobinWoodworking/A ItTakesAVillage_WillyLinusFishing/A ItTakesAVillage_CarolineEvelynGardening": "none/-1000 -1000/Maru 19 20 2 Penny 18 18 2 Vincent 21 21 0 Jas 18 21 0 farmer -100 -100 0/showFrame Penny 34/addBigProp 19 21 22/addBigProp 20 21 23/viewport 20 21 true/addConversationTopic ItTakesAVillage_MaruElectronics {{MinimumDaysBetweenLessons}}/{{SkippableToken}}/move Jas -1 0 0 true/move Vincent 1 0 0 false/move Jas 0 -1 1 true/move Vincent 0 -1 3 false/pause 500/end"
+                    // Alright, who's ready for some time with Maru the Science Guru?!$h\"/playMusic ragTime/
+                    // does Ms. Penny get goggles? No she doesn't, because she's sitting a safe distance away. Aww, sorry you're missing out Ms. Penny
+                    // sadly the ragTime song is short
             },
             "When": {
                 "MaruElectronicsAndDemetriusBotanyToken": "MaruElectronicsYes, MaruElectronicsYesDemetriusBotanyNo"
@@ -786,7 +789,7 @@
             }
         }, // Maru was as excited as the kids were, raving about 'Maru the Science Guru'. I'm glad to hear they had a blast. // something about a catchy song
         //
-        // Demetrius Botany - Done! UGH I'M TORN the viewport set 34 instead of 32 makes it easier to enjoy birb but the black void at the bottom looks ugly
+        // Demetrius Botany - Done!
         /*Event proper*/ {
             "LogName": "Demetrius Botany Lesson",
             "Action": "EditData",
