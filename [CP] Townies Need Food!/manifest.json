@@ -1,7 +1,7 @@
 {
   "Name": "Townies Need Food!",
   "Author": "LenneDalben",
-  "Version": "3.3.3",
+  "Version": "3.3.4",
   "Description": "NPCs in town request cooked meals in the special orders board once you know the recipes!",
   "UniqueID": "LenneDalben.TowniesNeedFood",
   "MinimumApiVersion": "3.13.0",
