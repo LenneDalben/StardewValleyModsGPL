@@ -106,6 +106,20 @@
 				"HasSeenEvent |contains=31032023": "true"
 			}
 		},
+		/*Dynamic Alex CT dialog, haven't seen Alex PE lesson*/ {
+			"Name": "GusCookingAlexCT",
+			"Value": "{{i18n:ItTakesAVillage_GusCookingCT_Alex_NoPE}}",
+			"When": {
+				"HasSeenEvent |contains=31032023": "false"
+			}
+		},
+		/*Dynamic Alex CT dialog, have seen Alex PE lesson*/ {
+			"Name": "GusCookingAlexCT",
+			"Value": "{{i18n:ItTakesAVillage_GusCookingCT_Alex_YesPE}}",
+			"When": {
+				"HasSeenEvent |contains=31032023": "true"
+			}
+		},
 		// Haley & Leah Art and Elliott Stories
 		{
 			"Name": "HaleyLeahArtAndElliottStoriesToken",

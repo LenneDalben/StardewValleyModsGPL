@@ -161,8 +161,7 @@
             }
         }, // Vincent was tuckered out
         //
-        // Gus Cooking IN PROGRESS
-        // Add CT for Alex (with dynamic dialog!)
+        // Gus Cooking - Done!
         /*Event proper*/ {
             "LogName": "Gus Cooking Lesson",
             "Action": "EditData",
@@ -180,6 +179,14 @@
             "Target": "Characters/Dialogue/Gus",
             "Entries": {
                 "ItTakesAVillage_GusCooking": "{{GusCookingGusCT}}"
+            }
+        },
+        /*Alex CT*/ {
+            "LogName": "Gus Cooking CT - Alex",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Alex",
+            "Entries": {
+                "ItTakesAVillage_GusCooking": "{{GusCookingAlexCT}}"
             }
         },
         /*Emily CT*/ {
