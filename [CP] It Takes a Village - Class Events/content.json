@@ -91,6 +91,35 @@
 				"HasSeenEvent |contains=31032023": true,
 			}
 		},
+		// Dynamic dialog for Alex PE
+		/*Dynamic Alex CT dialog, haven't seen Gus Cooking lesson*/ {
+			"Name": "AlexPEAlexCT",
+			"Value": "{{i18n:ItTakesAVillage_AlexPECT_Alex_NoCooking}}",
+			"When": {
+				"HasSeenEvent |contains=31032024": "false"
+			}
+		},
+		/*Dynamic Alex CT dialog, have seen Gus Cooking lesson*/ {
+			"Name": "AlexPEAlexCT",
+			"Value": "{{i18n:ItTakesAVillage_AlexPECT_Alex_YesCooking}}",
+			"When": {
+				"HasSeenEvent |contains=31032024": "true"
+			}
+		},
+		/*Dynamic Gus CT dialog, haven't seen Gus Cooking lesson*/ {
+			"Name": "AlexPEGusCT",
+			"Value": "{{i18n:ItTakesAVillage_AlexPECT_Gus_NoCooking}}",
+			"When": {
+				"HasSeenEvent |contains=31032024": "false"
+			}
+		},
+		/*Dynamic Gus CT dialog, have seen Gus Cooking lesson*/ {
+			"Name": "AlexPEgGusCT",
+			"Value": "{{i18n:ItTakesAVillage_AlexPECT_Gus_YesCooking}}",
+			"When": {
+				"HasSeenEvent |contains=31032024": "true"
+			}
+		},
 		// Dynamic dialog for Gus Cooking
 		/*Dynamic Gus CT dialog, haven't seen Alex PE lesson*/ {
 			"Name": "GusCookingGusCT",

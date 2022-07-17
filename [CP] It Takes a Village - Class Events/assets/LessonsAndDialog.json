@@ -59,8 +59,7 @@
             }
         },
         //
-        // Alex PE and Healthy Eating IN PROGRESS
-        // Add CT for Gus (with dynamic dialog!)
+        // Alex PE and Healthy Eating - Done!
         /*Event proper*/ {
             "LogName": "Alex PE and Healthy Eating Lesson",
             "Action": "EditData",
@@ -77,7 +76,15 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Alex",
             "Entries": {
-                "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Alex}}"
+                "ItTakesAVillage_AlexPE": "{{AlexPEAlexCT}}"
+            }
+        },
+        /*Gus CT*/ {
+            "LogName": "Alex PE and Healthy Eating CT - Gus",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Gus",
+            "Entries": {
+                "ItTakesAVillage_AlexPE": "{{AlexPEGusCT}}"
             }
         },
         /*George CT*/ {
@@ -159,7 +166,7 @@
             "Entries": {
                 "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Penny}}"
             }
-        }, // Vincent was tuckered out
+        },
         //
         // Gus Cooking - Done!
         /*Event proper*/ {
