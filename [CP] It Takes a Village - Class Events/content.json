@@ -754,6 +754,15 @@
 				"HasSeenEvent |contains=63": "false"
 			}
 		},
+		// Secret Ending Token
+		/*Typical Ending*/ {
+			"Name": "TypicalEnding",
+			"Value": "pause 500/end"
+		},
+		/*Secret Ending*/ {
+			"Name": "SecretEnding",
+			"Value": "pause 500/fade/viewport -100 -100/stopMusic/changeLocation Town/pause 800/warp Linus 28 71/faceDirection Linus 2/warp Wizard 27 72/warp Krobus 29 72/changeSprite Krobus Trenchcoat/changeSprite Krobus Trenchcoat/viewport 28 75 true/playMusic nightTime/pause 1000/emote Linus 56/emote Wizard 40/speak Krobus \"{{i18n:event-31032041.21}}\"/emote Linus 32/speak Wizard \"{{i18n:event-31032041.22}}\"/speak Linus \"{{i18n:event-31032041.23}}\"/pause 600/speak Wizard \"{{i18n:event-31032041.24}}\"/emote Linus 32 true/emote Krobus 32/shake Krobus 500/pause 500/end"
+		},
 		// Dynamic Tokens for the randomized dialog based on events seen, separate from CTs
 		/*{
             "Name": "AlexLessonPreviousRefVincent",
