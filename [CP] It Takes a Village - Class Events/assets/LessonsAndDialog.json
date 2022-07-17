@@ -2033,7 +2033,7 @@
         // Bonus moment when farmer leaves Linus is outside or something, I WANT TO INCLUDE HIM O~O OHHHHHHHHHHH MAYBE HE'S TALKING TO KROBUS AND KROBUS HAS TRENCHCOAT, AND THE WIZARD IS THERE TOO :pandy happy clap: lore, what lore pffff.
         // fade to black then outside at the end, they appear mwuahaha
         // Finnnnnne the Linus, Krobus, and Wizard get-together can be toggleable via EasterEgg config lol
-        // Lesson wrap up!
+        // Lesson wrap up! - IN PROGRESS
         /*Event proper*/ {
             "LogName": "Lesson wrap up",
             "Action": "EditData",
