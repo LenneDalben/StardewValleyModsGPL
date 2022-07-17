@@ -2029,15 +2029,14 @@
         }, // Caroline's sunroom is quite private, so I'm glad she was willing to share it with Evelyn and the kids.
         //
         // add a short little wrap up event to have a way to have Penny talk about the end of the lessons (HasSeenEvent for all of them). Gus and Emily surprise Penny with a Teacher Appreciation get together in the Saloon. They also emphasize thanks to Penny for organizing the lessons.
-        // Teachers plus Penny: Elliott, Haley, Leah, Abigail, Sebastian, Sam, Demetrius, Maru, Emily, Harvey, Clint, Shane, Alex, Robin, and Gus.
-        // Would the other townspeople still attend, say Pam, Lewis, Caroline, Marnie, Evelyn, George, Gunther, Marlon, Jodi, Kent, and Willy?
+        // Lewis can thank Penny especially as well. Say something like he's impressed she took on the challenge and it went well. He's heard good things, etc.
+        // Pam can be proud like "that's my girl!" Penny is shy and embarrassed.
+        // Would the other townspeople still attend, say Gunther and Marlon?
         // everyone is waiting, Penny walks in, SURPRISE! :party: can we release the balloons?! :exciteeyes:
         // Need dynamic token so that Kent is only positioned in the event if his intro event was seen
-        // Lewis can thank Penny especially as well. Say something like he's impressed she took on the challenge and it went well. He's heard good things, etc.
-        // Gus stands on 13 8 (ish, check previous positioning) and Emily on 15 8
         // can farmer sit during an event properly? If so, it'd be cool to have them on 12 22 facing right, then when Penny gets there, facing up (people could slowly all turn to face Gus and Emily)
-        // Penny is on like -100 -100 and then warps, door sound effect, walking, check another event where I did this already (the Host Trees mistletoe event?) Penny will end on 14 20
-        // food on the bar: juice, beer, wine, salad, spaghetti, baked fish, chocolate cake. We have 11 tiles, 7 items. Do 2 salad and 2 baked fish. Start at X = 11 Y = 8. Ends on X = 19 Y = 8.
+        // Penny is on like -100 -100 and then warps, door sound effect, walking. Penny will end on 14 20
+        // food on the bar: juice 350, beer 346, wine 348, salad 196, radish salad 609, spaghetti 224, baked fish 198, crispy bass 214, chocolate cake 220. We have 11 tiles, 7 items. Start at X = 11 Y = 8. Ends on X = 19 Y = 8.
         // Bonus moment when farmer leaves Linus is outside or something, I WANT TO INCLUDE HIM O~O OHHHHHHHHHHH MAYBE HE'S TALKING TO KROBUS AND KROBUS HAS TRENCHCOAT, AND THE WIZARD IS THERE TOO :pandy happy clap: lore, what lore pffff.
         // fade to black then outside at the end, they appear mwuahaha
         // Finnnnnne the Linus, Krobus, and Wizard get-together can be toggleable via EasterEgg config lol
@@ -2048,7 +2047,7 @@
             "Action": "EditData",
             "Target": "Data/Events/Saloon",
             "Entries": {
-                "31032041/A ItTakesAVillage_Beginning/A ItTakesAVillage_AlexPE/A ItTakesAVillage_GusCooking/A ItTakesAVillage_ElliottStories/A ItTakesAVillage_HaleyLeahArt/A ItTakesAVillage_AbbyEcon/A ItTakesAVillage_SebComputer/A ItTakesAVillage_DemetriusBotany/A ItTakesAVillage_MaruElectronics/A ItTakesAVillage_EmilyDance/A ItTakesAVillage_HarveyHealth/A ItTakesAVillage_AbigailVideoGames/A ItTakesAVillage_ClintMetalworking/A ItTakesAVillage_SamMusic/A ItTakesAVillage_ShaneAnimalCare/A ItTakesAVillage_AbigailSelfDefense/A ItTakesAVillage_RobinWoodworking/A ItTakesAVillage_WillyLinusFishing/A ItTakesAVillage_CarolineEvelynGardening": "SettlingIn/-1000 -1000/Kent 21 20 0 Jodi 21 19 2 Vincent 20 20 0 Jas 20 19 3 Shane 21 17 2 Marnie 21 18 0 Pam 7 18 1 Abigail 25 18 2 Sebastian 26 18 3 Sam 26 19 0 Robin 22 18 1 Demetrius 23 18 3 Maru 16 21 2 Harvey 16 22 0 Caroline 9 23 0 Pierre 9 22 2 Evelyn 10 23 0 George 11 23 3 Linus 15 23 0 Willy 17 22 1 Clint 18 22 3 Elliott 4 19 2 Leah 2 20 1 Haley 2 21 1 Alex 3 21 3 farmer 12 22 1 Gus 13 18 2 Emily 15 18 2/showFrame farmer 117/viewport 14 22 true/addConversationTopic ItTakesAVillage_End {{MinimumDaysBetweenLessons}}/{{SkippableToken}}/emote Jas 32/jump Vincent 4/pause 5000/pause 500/end"
+                "31032041/A ItTakesAVillage_Beginning/A ItTakesAVillage_AlexPE/A ItTakesAVillage_GusCooking/A ItTakesAVillage_ElliottStories/A ItTakesAVillage_HaleyLeahArt/A ItTakesAVillage_AbbyEcon/A ItTakesAVillage_SebComputer/A ItTakesAVillage_DemetriusBotany/A ItTakesAVillage_MaruElectronics/A ItTakesAVillage_EmilyDance/A ItTakesAVillage_HarveyHealth/A ItTakesAVillage_AbigailVideoGames/A ItTakesAVillage_ClintMetalworking/A ItTakesAVillage_SamMusic/A ItTakesAVillage_ShaneAnimalCare/A ItTakesAVillage_AbigailSelfDefense/A ItTakesAVillage_RobinWoodworking/A ItTakesAVillage_WillyLinusFishing/A ItTakesAVillage_CarolineEvelynGardening": "SettlingIn/-1000 -1000/Kent 21 20 0 Jodi 21 19 2 Vincent 20 20 0 Jas 20 19 3 Shane 21 17 2 Marnie 21 18 0 Pam 7 18 1 Abigail 25 18 2 Sebastian 26 18 3 Sam 26 19 0 Robin 22 18 1 Demetrius 23 18 3 Maru 16 21 2 Harvey 16 22 0 Caroline 9 23 0 Pierre 9 22 2 Evelyn 10 23 0 George 11 23 3 Linus 15 23 0 Willy 17 22 1 Clint 18 22 3 Elliott 4 19 2 Leah 2 20 1 Haley 2 21 1 Alex 3 21 3 Gus 13 18 2 Emily 15 18 2 Penny -100 -100 0 farmer 12 22 1/showFrame farmer 117/showFrame farmer flip/addObject 11 8 350 1/addObject 12 8 346 1/addObject 13 8 348 1/addObject 14 8 196 1/addObject 15 8 609 1/addObject 16 8 224 1/addObject 17 8 198 1/addObject 18 8 214 1/addObject 19 8 220 1/viewport 14 22 true/addConversationTopic ItTakesAVillage_End {{MinimumDaysBetweenLessons}}/{{SkippableToken}}/pause 500/emote Jas 32/jump Vincent 4/speak Jodi \"Now now, Vincent. You won't get cake for dessert unless you eat your vegetables.\"/playSound doorClose/warp Penny 14 24/pause 5000/end"
             },
             "When": {
                 "AlexPEAndGusCookingToken": "AlexPEAndGusCookingDone",
