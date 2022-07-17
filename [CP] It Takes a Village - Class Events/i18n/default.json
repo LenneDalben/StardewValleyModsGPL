@@ -309,4 +309,31 @@
     "ItTakesAVillage_DemetriusBotanyCT_MarnieBug": "I'm not sure how I would make pinecone flour. Don't some bugs live inside pinecones?$2",
     "ItTakesAVillage_DemetriusBotanyCT_ShaneBug": "Jas came home chattering about 'pinecone flour'. I don't think that will work for Marnie.$h",
     "ItTakesAVillage_DemetriusBotanyCT_PennyBug": "Vincent had trouble with saying the technical names, but both he and Jas had fun taking in nature.",
+    //
+    // Wrap up event
+    "event-31032041.01": "That cake looks yummy!$h",
+    "event-31032041.02": "Now now, Vincent, remember what Mr. Alex taught you. Healthy foods first.",
+    "event-31032041.03": "Oi Gus, she's going to be here any minute!",
+    "event-31032041.04": "Alright everyone, positions, please!",
+    "event-31032041.05": "SURPRISE!",
+    "event-31032041.06": "Surprise!",
+    "event-31032041.07": "Surprise honey!",
+    "event-31032041.08": "Nice job!",
+    "event-31032041.09": "Well done, Penny!",
+    "event-31032041.10": "Thanks Ms. Penny!",
+    "event-31032041.11": "Alright, Penny!",
+    "event-31032041.12": "Oh wow...$l",
+    "event-31032041.13": "What's all this, Gus?$l",
+    "event-31032041.14": "Emily and I wanted to show appreciation for our teachers, and to you, for organizing the lessons!$h",
+    "event-31032041.15": "It was a lot to coordinate. Thank you, Penny!",
+    "event-31032041.16": "Indeed! I'm impressed you took on the challenge. I heard good things about the lessons.$h",
+    "event-31032041.17": "That's my girl!$h",
+    "event-31032041.18": "Our teachers should get credit as well.$l#$b#Thank you all for your dedication!$h",
+    "event-31032041.19": "Love you Penny!",
+    "event-31032041.20": "With that, let's eat!$h",
+    "event-31032041.21": "Sounds like an exciting night!$8",
+    "event-31032041.22": "Hmm... I suppose it does.#$b#I wouldn't have volunteered to teach the youth the ways of the arcane.",
+    "event-31032041.23": "Well, my friend, did Penny ask you?",
+    "event-31032041.24": "That's neither here nor there."
+}
 }
