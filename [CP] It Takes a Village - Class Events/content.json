@@ -711,6 +711,49 @@
 				"HasSeenEvent |contains=31032039": true,
 			}
 		},
+		// Wrap up event
+		/*Character placement, have met Kent*/ {
+			"Name": "WrapUpEventNPCPlacement",
+			"Value": "Wizard -100 -100 1 Krobus -100 -100 3 Kent 21 20 0 Jodi 21 19 2 Vincent 20 20 0 Jas 20 19 3 Shane 21 17 2 Marnie 21 18 0 Pam 7 18 1 Abigail 25 18 2 Sebastian 26 18 3 Sam 26 19 0 Robin 22 18 1 Demetrius 23 18 3 Maru 16 21 2 Harvey 16 22 0 Caroline 9 23 0 Pierre 9 22 2 Evelyn 10 23 0 George 11 23 3 Linus 15 23 0 Willy 17 22 1 Clint 18 22 3 Elliott 4 19 2 Leah 2 20 1 Haley 2 21 1 Alex 3 21 3 Gus 13 18 2 Emily 17 18 2 Lewis 12 20 0 Penny -100 -100 0 farmer 12 21 3",
+			"When": {
+				"HasSeenEvent |contains=63": "true"
+			}
+		},
+		/*Character placement, have not met Kent*/ {
+			"Name": "WrapUpEventNPCPlacement",
+			"Value": "Wizard -100 -100 1 Krobus -100 -100 3 Jodi 21 19 2 Vincent 20 20 0 Jas 20 19 3 Shane 21 17 2 Marnie 21 18 0 Pam 7 18 1 Abigail 25 18 2 Sebastian 26 18 3 Sam 26 19 0 Robin 22 18 1 Demetrius 23 18 3 Maru 16 21 2 Harvey 16 22 0 Caroline 9 23 0 Pierre 9 22 2 Evelyn 10 23 0 George 11 23 3 Linus 15 23 0 Willy 17 22 1 Clint 18 22 3 Elliott 4 19 2 Leah 2 20 1 Haley 2 21 1 Alex 3 21 3 Gus 13 18 2 Emily 17 18 2 Lewis 12 20 0 Penny -100 -100 0 farmer 12 21 3",
+			"When": {
+				"HasSeenEvent |contains=63": "false"
+			}
+		},
+		/*Character direction movement 1, have met Kent*/ {
+			"Name": "WrapUpEventNPCMovement1",
+			"Value": "faceDirection Kent 2 true/faceDirection Jodi 2 true",
+			"When": {
+				"HasSeenEvent |contains=63": "true"
+			}
+		},
+		/*Character direction movement 1, have not met Kent*/ {
+			"Name": "WrapUpEventNPCMovement1",
+			"Value": "faceDirection Jodi 2 true",
+			"When": {
+				"HasSeenEvent |contains=63": "false"
+			}
+		},
+		/*Character direction movement 2, have met Kent*/ {
+			"Name": "WrapUpEventNPCMovement2",
+			"Value": "faceDirection Kent 3 true/faceDirection Jodi 3 true",
+			"When": {
+				"HasSeenEvent |contains=63": "true"
+			}
+		},
+		/*Character direction movement 2, have not met Kent*/ {
+			"Name": "WrapUpEventNPCMovement2",
+			"Value": "faceDirection Jodi 3 true",
+			"When": {
+				"HasSeenEvent |contains=63": "false"
+			}
+		},
 		// Dynamic Tokens for the randomized dialog based on events seen, separate from CTs
 		/*{
             "Name": "AlexLessonPreviousRefVincent",
