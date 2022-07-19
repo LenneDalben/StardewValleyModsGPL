@@ -91,6 +91,20 @@
 				"HasSeenEvent |contains=31032023": true,
 			}
 		},
+		/*Dynamic event dialog, saw Gus cooking*/ {
+			"Name": "AlexPESeenGusCooking",
+			"Value": "speak Alex \"{{i18n:event-31032023.02}}\"/speak Penny \"{{i18n:event-31032023.03}}\"",
+			"When": {
+				"HasSeenEvent |contains=31032024": "true"
+			}
+		},
+		/*Dynamic event dialog, didn't see Gus cooking*/ {
+			"Name": "AlexPESeenGusCooking",
+			"Value": "speak Alex \"{{i18n:event-31032023.02}}\"",
+			"When": {
+				"HasSeenEvent |contains=31032024": "false"
+			}
+		},
 		// Dynamic dialog for Alex PE
 		/*Dynamic Alex CT dialog, haven't seen Gus Cooking lesson*/ {
 			"Name": "AlexPEAlexCT",
