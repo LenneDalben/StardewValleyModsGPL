@@ -134,6 +134,20 @@
 				"HasSeenEvent |contains=31032024": "true"
 			}
 		},
+		/*Dynamic event dialog, saw Alex PE lesson*/ {
+			"Name": "GusCookingSeenAlexPE",
+			"Value": "speak Gus \"{{i18n:event-31032024.01}}\"/shake Jas 600/jump Vincent 4/speak Penny \"{{i18n:event-31032024.02}}\"/emote Gus 32",
+			"When": {
+				"HasSeenEvent |contains=31032023": "true"
+			}
+		},
+		/*Dynamic event dialog, haven't seen Alex PE lesson*/ {
+			"Name": "GusCookingSeenAlexPE",
+			"Value": "speak Gus \"{{i18n:event-31032024.01}}\"/shake Jas 600/jump Vincent 4",
+			"When": {
+				"HasSeenEvent |contains=31032023": "false"
+			}
+		},
 		// Dynamic dialog for Gus Cooking
 		/*Dynamic Gus CT dialog, haven't seen Alex PE lesson*/ {
 			"Name": "GusCookingGusCT",
