@@ -521,6 +521,20 @@
 				"Season": "Winter"
 			}
 		},
+		/*Dynamic event dialog, saw Maru Electronics*/ {
+			"Name": "DemetriusBotanySeenMaruElectronics",
+			"Value": "emote Vincent 16/speak Penny \"{{i18n:event-31032029.30}}\"/emote Vincent 32 true/emote Jas 32 false/pause 50",
+			"When": {
+				"HasSeenEvent |contains=31032030": "true"
+			}
+		},
+		/*Dynamic event dialog, didn't see Maru Electronics*/ {
+			"Name": "DemetriusBotanySeenMaruElectronics",
+			"Value": "emote Vincent 16",
+			"When": {
+				"HasSeenEvent |contains=31032030": "false"
+			}
+		},
 		/*Dynamic Maru CT dialog, haven't seen electronic lesson, crow*/ {
 			"Name": "DemetriusBotanyMaruCTCrow",
 			"Value": "{{i18n:ItTakesAVillage_DemetriusBotanyCT_Maru_NoElectronicsCrow}}",
