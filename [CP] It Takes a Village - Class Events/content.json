@@ -261,16 +261,30 @@
 			}
 		},
 		// Dynamic dialog for Sebastian Computer Basics
+		/*Dynamic event dialog, saw Abigail Economics*/ {
+			"Name": "SebComputerBasicsSeenAbbyEcon",
+			"Value": "speak Gunther \"{{i18n:event-31032028.03}}\"/emote Penny 28/speak Penny \"{{i18n:event-31032028.04}}\"/speak Sebastian \"{{i18n:event-31032028.05}}\"/pause 500",
+			"When": {
+				"HasSeenEvent |contains=31032027": "true"
+			}
+		},
+		/*Dynamic event dialog, didn't see Abigail Economics*/ {
+			"Name": "SebComputerBasicsSeenAbbyEcon",
+			"Value": "speak Gunther \"{{i18n:event-31032028.03}}\"/emote Penny 28",
+			"When": {
+				"HasSeenEvent |contains=31032027": "false"
+			}
+		},
 		/*Dynamic event dialog, saw Video Games "lesson"*/ {
 			"Name": "SebComputerBasicsSeenVideoGamesEvent",
-			"Value": "speak Jas \"{{i18n:event-31032028.18}}\"/speak Sebastian \"{{i18n:event-31032028.19}}\"/emote Vincent 8 true/emote Jas 8/speak Jas \"{{i18n:event-31032028.17}}\"",
+			"Value": "speak Jas \"{{i18n:event-31032028.20}}\"/speak Sebastian \"{{i18n:event-31032028.21}}\"/emote Vincent 8 true/emote Jas 8/speak Jas \"{{i18n:event-31032028.19}}\"",
 			"When": {
 				"HasSeenEvent |contains=31032033": "true"
 			}
 		},
 		/*Dynamic event dialog, didn't see Video Games "lesson"*/ {
 			"Name": "SebComputerBasicsSeenVideoGamesEvent",
-			"Value": "emote Jas 40 true/emote Vincent 40/speak Jas \"{{i18n:event-31032028.17}}\"",
+			"Value": "emote Jas 40 true/emote Vincent 40/speak Jas \"{{i18n:event-31032028.19}}\"",
 			"When": {
 				"HasSeenEvent |contains=31032033": "false"
 			}
