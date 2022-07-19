@@ -1487,7 +1487,7 @@
                 "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
             }
         },
-        /*Sterling? CT*/ {
+        /*Sterling? CT ASK HIME*/ {
             "LogName": "Demetrius Oil Makers CT - Demetrius",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Demetrius",
