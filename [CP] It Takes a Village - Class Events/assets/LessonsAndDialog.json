@@ -1234,12 +1234,7 @@
         }, // The kids are so used to metal being a solid thing, they really enjoyed seeing it melt.
         //
         // Abigail Video Games INCOMPLETE
-        // Meet in town outside Pierre's.
-        // Hey kids! Ok don't tell Penny, but we have a ~special~ lesson today. Follow me! <kids emote question mark>
-        // Start walking towards Saloon with Abigail leading and the kids in tow, fade to black. Move to Saloon, fade back in
-        // SURPRISE it's arcade game time!
-        // Hey Gus, don't mind me, just taking the kids on a little field trip!
-        // kids emote with the videogame emote, 52
+        // change the line about "it's good to learn about XYZ" to be dynamic based on a few lessons that may have played beforehand. This could actually get out of hand though I:
         // Add CT for Clint (with dynamic dialog!) // Well, that's practical. <dejected face>#$b#Metalworking can be fun too!... I guess.
         /*Event proper*/ {
             "LogName": "Abigail Video Games Lesson",
