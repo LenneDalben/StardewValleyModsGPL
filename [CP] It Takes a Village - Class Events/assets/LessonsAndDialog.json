@@ -1234,7 +1234,7 @@
         }, // The kids are so used to metal being a solid thing, they really enjoyed seeing it melt.
         //
         // Abigail Video Games INCOMPLETE
-        // change the line about "it's good to learn about XYZ" to be dynamic based on a few lessons that may have played beforehand. This could actually get out of hand though I:
+        // change the line about "it's good to learn about XYZ" to be dynamic based on a few lessons that may have played beforehand. This could actually get out of hand though I: would need fallback generic response in case this is somehow the first lesson
         // Add CT for Clint (with dynamic dialog!) // Well, that's practical. <dejected face>#$b#Metalworking can be fun too!... I guess.
         /*Event proper*/ {
             "LogName": "Abigail Video Games Lesson",
