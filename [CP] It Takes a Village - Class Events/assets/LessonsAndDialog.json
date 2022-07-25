@@ -914,7 +914,7 @@
             }
         },
         //
-        // Emily Emotional Health and Dance INCOMPLETE **fixing CTs**
+        // Emily Emotional Health and Dance INCOMPLETE
         // Emily explains sometimes feelings are really strong, and that you can dance party it to help. Emily dances. Can I get the kids to dance via position offset and avoid new sprites? :maruthinking:
         // Jas has a frame with her hands up frame 24. Can fiddle with position offsets to see if moving her back and forth makes her "dance". I got nothing for Vincent.
         // CHANGE THE CT NAME
@@ -931,83 +931,83 @@
             }
         },
         /*Emily CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Emily Emotional Health and Dance CT - Emily",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Emily",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_EmilyDance": "{{i18n:ItTakesAVillage_EmilyDanceCT_Emily}}"
             }
         },
         /*Haley CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Emily Emotional Health and Dance CT - Haley",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Haley",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_EmilyDance": "{{i18n:ItTakesAVillage_EmilyDanceCT_Haley}}"
             }
         },
         /*Jas CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Robin",
+            "LogName": "Emily Emotional Health and Dance CT - Jas",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Robin",
+            "Target": "Characters/Dialogue/Jas",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+                "ItTakesAVillage_EmilyDance": "{{i18n:ItTakesAVillage_EmilyDanceCT_Jas}}"
             }
         },
         /*Vincent CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Robin",
+            "LogName": "Emily Emotional Health and Dance CT - Vincent",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Robin",
+            "Target": "Characters/Dialogue/Vincent",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+                "ItTakesAVillage_EmilyDance": "{{i18n:ItTakesAVillage_EmilyDanceCT_Vincent}}"
             }
         },
         /*Jodi CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Jodi",
+            "LogName": "Emily Emotional Health and Dance CT - Jodi",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Jodi",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Jodi}}"
+                "ItTakesAVillage_EmilyDance": "{{i18n:ItTakesAVillage_EmilyDanceCT_Jodi}}"
             }
         },
         /*Kent CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Kent",
+            "LogName": "Emily Emotional Health and Dance CT - Kent",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Kent",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Kent}}"
+                "ItTakesAVillage_EmilyDance": "{{i18n:ItTakesAVillage_EmilyDanceCT_Kent}}"
             }
         },
         /*Sam CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Sam",
+            "LogName": "Emily Emotional Health and Dance CT - Sam",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sam",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Sam}}"
+                "ItTakesAVillage_EmilyDance": "{{i18n:ItTakesAVillage_EmilyDanceCT_Sam}}"
             }
         },
         /*Marnie CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Marnie",
+            "LogName": "Emily Emotional Health and Dance CT - Marnie",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Marnie",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Marnie}}"
+                "ItTakesAVillage_EmilyDance": "{{i18n:ItTakesAVillage_EmilyDanceCT_Marnie}}"
             }
         },
         /*Shane CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Shane",
+            "LogName": "Emily Emotional Health and Dance CT - Shane",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Shane",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Shane}}"
+                "ItTakesAVillage_EmilyDance": "{{i18n:ItTakesAVillage_EmilyDanceCT_Shane}}"
             }
         },
         /*Penny CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Emily Emotional Health and Dance CT - Penny",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Penny",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_EmilyDance": "{{i18n:ItTakesAVillage_EmilyDanceCT_Penny}}"
             }
         }, // I'm grateful Emily spoke to the kids about mental health. It's important to de-stigmatize it.
         //
@@ -1027,84 +1027,84 @@
             }
         },
         /*Harvey CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Harvey Anatomy and Health CT - Harvey",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/DHarvey",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_HarveyHealth": "{{i18n:ItTakesAVillage_HarveyHealthCT_Harvey}}"
             }
         },
         /*Maru CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Harvey Anatomy and Health CT - Maru",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Maru",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_HarveyHealth": "{{i18n:ItTakesAVillage_HarveyHealthCT_Maru}}"
             }
         }, // for Maru's CT: Harvey was so excited to have more people in the clinic OR the kids were surprisingly excited / understandably uncomfortable about being at the doctor (maybe 1 can be excited and the other not? Kids ARE different)
         // Airyn mentioned in doctor dialog Jas says she's not scared and asking what the tools do while Vincent is nervous and asks for a lollipop for being brave :pufferaww: WHAT A CUTE KID
         /*Jas CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Robin",
+            "LogName": "Harvey Anatomy and Health CT - Jas",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Robin",
+            "Target": "Characters/Dialogue/Jas",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+                "ItTakesAVillage_HarveyHealth": "{{i18n:ItTakesAVillage_HarveyHealthCT_Jas}}"
             }
         },
         /*Vincent CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Robin",
+            "LogName": "Harvey Anatomy and Health CT - Vincent",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Robin",
+            "Target": "Characters/Dialogue/Vincent",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+                "ItTakesAVillage_HarveyHealth": "{{i18n:ItTakesAVillage_HarveyHealthCT_Vincent}}"
             }
         },
         /*Jodi CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Jodi",
+            "LogName": "Harvey Anatomy and Health CT - Jodi",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Jodi",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Jodi}}"
+                "ItTakesAVillage_HarveyHealth": "{{i18n:ItTakesAVillage_HarveyHealthCT_Jodi}}"
             }
         },
         /*Kent CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Kent",
+            "LogName": "Harvey Anatomy and Health CT - Kent",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Kent",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Kent}}"
+                "ItTakesAVillage_HarveyHealth": "{{i18n:ItTakesAVillage_HarveyHealthCT_Kent}}"
             }
         },
         /*Sam CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Sam",
+            "LogName": "Harvey Anatomy and Health CT - Sam",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sam",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Sam}}"
+                "ItTakesAVillage_HarveyHealth": "{{i18n:ItTakesAVillage_HarveyHealthCT_Sam}}"
             }
         },
         /*Marnie CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Marnie",
+            "LogName": "Harvey Anatomy and Health CT - Marnie",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Marnie",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Marnie}}"
+                "ItTakesAVillage_HarveyHealth": "{{i18n:ItTakesAVillage_HarveyHealthCT_Marnie}}"
             }
         },
         /*Shane CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Shane",
+            "LogName": "Harvey Anatomy and Health CT - Shane",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Shane",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Shane}}"
+                "ItTakesAVillage_HarveyHealth": "{{i18n:ItTakesAVillage_HarveyHealthCT_Shane}}"
             }
         },
         /*Penny CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Harvey Anatomy and Health CT - Penny",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Penny",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_HarveyHealth": "{{i18n:ItTakesAVillage_HarveyHealthCT_Penny}}"
             }
         }, // I was glad to hear Jas was excited by what she was learning. Hopefully poor Vincent will feel a little less nervous at the doctor now.
         /*Vincent Schedule Dialog NEEDS i18n'ING*/ {
@@ -1132,7 +1132,7 @@
             }
         },
         //
-        // Client Metalworking INCOMPLETE
+        // Clint Metalworking INCOMPLETE
         // have Clint start with the very fast talking until one of the kids is like "are you ok?" and then he slows down to normal talking
         // Twisting metal strips into candle holder o: anything I can do with the existing sprites for turning ore into a bar and then an in-game metal object? Is there a sizzle sound effect I can use? :roohmm:
         // Could have a quick fade to black and then return to the scene (kids can be in a different position to further indicate time has passed) and then be like :sparkle sound: (playSound getNewSpecialItem) look at the finished object!
@@ -1155,83 +1155,83 @@
             }
         },
         /*Clint CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Clint Metalworking CT - Clint",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Clint",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_ClintMetalworking": "{{i18n:ItTakesAVillage_ClintMetalworkingCT_Clint}}"
             }
         },
         /*Willy CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Clint Metalworking CT - Willy",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Willy",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_ClintMetalworking": "{{i18n:ItTakesAVillage_ClintMetalworkingCT_Willy}}"
             }
         },
         /*Jas CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Robin",
+            "LogName": "Clint Metalworking CT - Jas",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Robin",
+            "Target": "Characters/Dialogue/Jas",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+                "ItTakesAVillage_ClintMetalworking": "{{i18n:ItTakesAVillage_ClintMetalworkingCT_Jas}}"
             }
         },
         /*Vincent CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Robin",
+            "LogName": "Clint Metalworking CT - Vincent",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Robin",
+            "Target": "Characters/Dialogue/Vincent",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+                "ItTakesAVillage_ClintMetalworking": "{{i18n:ItTakesAVillage_ClintMetalworkingCT_Vincent}}"
             }
         },
         /*Jodi CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Jodi",
+            "LogName": "Clint Metalworking CT - Jodi",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Jodi",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Jodi}}"
+                "ItTakesAVillage_ClintMetalworking": "{{i18n:ItTakesAVillage_ClintMetalworkingCT_Jodi}}"
             }
         },
         /*Kent CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Kent",
+            "LogName": "Clint Metalworking CT - Kent",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Kent",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Kent}}"
+                "ItTakesAVillage_ClintMetalworking": "{{i18n:ItTakesAVillage_ClintMetalworkingCT_Kent}}"
             }
         },
         /*Sam CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Sam",
+            "LogName": "Clint Metalworking CT - Sam",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sam",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Sam}}"
+                "ItTakesAVillage_ClintMetalworking": "{{i18n:ItTakesAVillage_ClintMetalworkingCT_Sam}}"
             }
         },
         /*Marnie CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Marnie",
+            "LogName": "Clint Metalworking CT - Marnie",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Marnie",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Marnie}}"
+                "ItTakesAVillage_ClintMetalworking": "{{i18n:ItTakesAVillage_ClintMetalworkingCT_Marnie}}"
             }
         },
         /*Shane CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Shane",
+            "LogName": "Clint Metalworking CT - Shane",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Shane",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Shane}}"
+                "ItTakesAVillage_ClintMetalworking": "{{i18n:ItTakesAVillage_ClintMetalworkingCT_Shane}}"
             }
         },
         /*Penny CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Clint Metalworking CT - Penny",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Penny",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_ClintMetalworking": "{{i18n:ItTakesAVillage_ClintMetalworkingCT_Penny}}"
             }
         }, // The kids are so used to metal being a solid thing, they really enjoyed seeing it melt.
         //
@@ -1250,104 +1250,104 @@
             }
         },
         /*Abigail CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Abigail Video Games CT - Abigail",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Abigail",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_AbigailVideoGames": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Abigail}}"
             }
         },
         /*Caroline CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Abigail Video Games CT - Caroline",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Caroline",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_AbigailVideoGames": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Caroline}}"
             }
         },
         /*Pierre CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Abigail Video Games CT - Pierre",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Pierre",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_AbigailVideoGames": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Pierre}}"
             }
         }, // does Pierre ever comment on her gaming? I think it's only Caroline?
         /*Sebastian CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Abigail Video Games CT - Sebastian",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Sebastian",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_AbigailVideoGames": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Sebastian}}"
             }
         }, // Vary whether Seb computer lesson played ( Hmph I guess I could have taken the easy route and showed the kids how to play games too...#$b#What do you mean Abigail gave them other actual lessons?!#$b#Is it too late to change the lesson to showing them how to play pool? / Hmph I guess I could have taken the easy route and showed the kids how to play games too...#$b#What do you mean Abigail gave them other actual lessons?!#$b#Maybe I can redeem myself by showing them how to play pool?) <CHECK IF THE E THING MIGHT HELP HERE TO HAVE THE LAST ONE BE AFTER YOU COMPLETELY CLOSE OUT THE DIALOG BOX.>
         /*Jas CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Robin",
+            "LogName": "Abigail Video Games CT - Jas",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Robin",
+            "Target": "Characters/Dialogue/Jas",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+                "ItTakesAVillage_AbigailVideoGames": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Jas}}"
             }
         },
         /*Vincent CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Robin",
+            "LogName": "Abigail Video Games CT - Vincent",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Robin",
+            "Target": "Characters/Dialogue/Vincent",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+                "ItTakesAVillage_AbigailVideoGames": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Vincent}}"
             }
         },
         /*Jodi CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Jodi",
+            "LogName": "Abigail Video Games CT - Jodi",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Jodi",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Jodi}}"
+                "ItTakesAVillage_AbigailVideoGames": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Jodi}}"
             }
         },
         /*Kent CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Kent",
+            "LogName": "Abigail Video Games CT - Kent",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Kent",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Kent}}"
+                "ItTakesAVillage_AbigailVideoGames": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Kent}}"
             }
         },
         /*Sam CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Sam",
+            "LogName": "Abigail Video Games CT - Sam",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sam",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Sam}}"
+                "ItTakesAVillage_AbigailVideoGames": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Sam}}"
             }
         }, // Vary whether the Sam music lesson played (Kinda feel like Abigail showing the kids video games is cheating for popularity points...$s / Kinda feel like Abigail showing the kids video games is cheating for popularity points...$s#$b#At least Vincent enjoyed jamming out with me!)
         /*Marnie CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Marnie",
+            "LogName": "Abigail Video Games CT - Marnie",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Marnie",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Marnie}}"
+                "ItTakesAVillage_AbigailVideoGames": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Marnie}}"
             }
         },
         /*Shane CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Shane",
+            "LogName": "Abigail Video Games CT - Shane",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Shane",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Shane}}"
+                "ItTakesAVillage_AbigailVideoGames": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Shane}}"
             }
         },
         /*Penny CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Abigail Video Games CT - Abigail",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Abigail",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_AbigailVideoGames": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Abigail}}"
             }
         }, // "That's an interesting choice...$3.#$b#At least, um... they're learning about having good reflexes?#$b#%Penny lets out a puff of air.
         // NEED TO TEST OUT THE #$b# to see if it works as intended
         //
-        // Sam Music INCOMPLETE
+        // Sam Music INCOMPLETE **fixing CTs**
         // Vincent super excited about jamming out
         /*Event proper*/ {
             "LogName": "Sam Music Lesson",
