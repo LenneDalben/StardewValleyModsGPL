@@ -218,6 +218,35 @@
 				"HasSeenEvent |contains=31032026": true,
 			}
 		},
+		// Dynamic dialog for Elliott Stories
+		/*Dynamic Elliott CT dialog, haven't seen Haley and Leah Art lesson*/ {
+			"Name": "ElliottStoriesElliottCT",
+			"Value": "{{i18n:ItTakesAVillage_ElliottStoriesCT_Elliott_NoArt}}",
+			"When": {
+				"HasSeenEvent |contains=31032026": "false"
+			}
+		},
+		/*Dynamic Elliott CT dialog, have seen Haley and Leah Art lesson*/ {
+			"Name": "ElliottStoriesElliottCT",
+			"Value": "{{i18n:ItTakesAVillage_ElliottStoriesCT_Elliott_YesArt}}",
+			"When": {
+				"HasSeenEvent |contains=31032026": "true"
+			}
+		},
+		/*Dynamic Leah CT dialog, haven't seen Haley and Leah Art lesson*/ {
+			"Name": "ElliottStoriesLeahCT",
+			"Value": "{{i18n:ItTakesAVillage_ElliottStoriesCT_Leah_NoArt}}",
+			"When": {
+				"HasSeenEvent |contains=31032026": "false"
+			}
+		},
+		/*Dynamic Leah CT dialog, have seen Haley and Leah Art lesson*/ {
+			"Name": "ElliottStoriesLeahCT",
+			"Value": "{{i18n:ItTakesAVillage_ElliottStoriesCT_Leah_YesArt}}",
+			"When": {
+				"HasSeenEvent |contains=31032026": "true"
+			}
+		},
 		// Sebastian Computer Basics and Abigail Economics
 		// HasSeenEvents
 		{

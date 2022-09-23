@@ -404,7 +404,7 @@
             "Entries": {
                 "ItTakesAVillage_ElliottStories": "{{i18n:ItTakesAVillage_ElliottStoriesCT_Elliott}}"
             }
-        }, // something like "I only did what I wish teachers would have done for me at their age: helped me 'play to my strengths', or interests, so to speak."
+        },
         /*Leah CT*/ {
             "LogName": "Elliott Stories CT - Leah",
             "Action": "EditData",
@@ -412,7 +412,7 @@
             "Entries": {
                 "ItTakesAVillage_ElliottStories": "{{i18n:ItTakesAVillage_ElliottStoriesCT_Leah}}"
             }
-        }, // have not seen LeahHaleyArt: I wish I'd been there for Elliott's dramatic reading!$h#$b#Hopefully Haley and I can match that quality in our lesson. / Have seen LeahHaleyArt: I wish I'd been there for Elliott's dramatic reading!$h#$b#It's great the kids are getting exposed to different aspects of art.
+        },
         /*Jas CT*/ {
             "LogName": "Elliott Stories CT - Jas",
             "Action": "EditData",
