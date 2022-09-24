@@ -702,6 +702,35 @@
 				"HasSeenEvent |contains=31032024": true,
 			}
 		},
+		// Dynamic tokens for Abigail Video Games
+		/*Dynamic event dish, season is spring*/ {
+			"Name": "AbigailVideoGamesSeasonalDish",
+			"Value": "Shout if you want snacks later, I can bring you rhubarb pie!",
+			"When": {
+				"Season": "Spring"
+			}
+		},
+		/*Dynamic event dish, season is summer*/ {
+			"Name": "AbigailVideoGamesSeasonalDish",
+			"Value": "Shout if you want snacks later, I can bring you pink cake!",
+			"When": {
+				"Season": "Summer"
+			}
+		},
+		/*Dynamic event dish, season is fall*/ {
+			"Name": "AbigailVideoGamesSeasonalDish",
+			"Value": "Shout if you want snacks later, I can bring you glazed yams!",
+			"When": {
+				"Season": "Fall"
+			}
+		},
+		/*Dynamic event dish, season is winter*/ {
+			"Name": "AbigailVideoGamesSeasonalDish",
+			"Value": "Shout if you want snacks later, I can bring you cookies!",
+			"When": {
+				"Season": "Winter"
+			}
+		},
 		// Sam Music and Shane Animal Care
 		{
 			"Name": "SamMusicAndShaneAnimalCareToken",
