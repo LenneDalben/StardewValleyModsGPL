@@ -42,7 +42,14 @@
       "Default": "true",
       "AllowBlank": false,
       "AllowMultiple": false
-    }
+    },
+    "Rewards": {
+      "Description": "By default, special orders with only gold rewards as well as event rewards are toggled. The options are both, eventsonly, goldonly. Default is both.",
+      "AllowValues": "both, eventsonly, goldonly",
+      "Default": "both",
+      "AllowBlank": false,
+      "AllowMultiple": false
+    },
   },
   "DynamicTokens": [
     // Player has cellar or Quality Artisan Products

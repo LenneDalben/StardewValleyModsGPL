@@ -39,6 +39,13 @@
 	"config.EasterEgg.values.true": "true",
 	"config.EasterEgg.values.false": "false",
   //
+  // Rewards
+  "config.Rewards.name": "Rewards",
+	"config.Rewards.description": "By default, special orders with only gold rewards as well as event rewards are toggled. The options are both, eventsonly, goldonly. Default is both.",
+	"config.Rewards.values.both": "both",
+	"config.Rewards.values.eventsonly": "eventsonly",
+  "config.Rewards.values.goldonly": "goldonly",
+  //
   //Load Adventurer Guild
   "config.LoadAdventurerGuildConfig.name": "LoadAdventurerGuildConfig",
 	"config.LoadAdventurerGuildConfig.description": "Set this to false if you have a mod besides Make Marlon Real that adds events to the Adventurer's Guild. TNAG automatically detects Make Marlon Real so adjusting this setting is not needed for it. Default is true.",

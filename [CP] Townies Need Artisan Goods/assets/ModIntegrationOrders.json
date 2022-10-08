@@ -51,7 +51,8 @@
         "HasCraftingRecipe": "Keg",
         "PlayerHasCellarOrQAP": "true",
         "HasSeenEvent": "1067101",
-        "HasMod": "ZoeDoll.NPCAlecto"
+        "HasMod": "ZoeDoll.NPCAlecto",
+        "Rewards |contains=both, goldonly": true
       }
     },
     // Jorts and Jean Tangy Snack
@@ -112,7 +113,8 @@
         "OrderType": "animal",
         "HasCraftingRecipe": "Cheese Press",
         "HasMod": "tiakall.jortsandjean",
-        "HasSeenEvent": "10950100"
+        "HasSeenEvent": "10950100",
+        "Rewards |contains=both, goldonly": true
       }
     },
     // Always Raining in the Valley (ARV) Mia Girl Scout Jam
@@ -313,7 +315,8 @@
       "When": {
         "OrderType": "roe",
         "HasCraftingRecipe": "Preserves Jar",
-        "HasMod": "Himetarts.ARV.CP"
+        "HasMod": "Himetarts.ARV.CP",
+        "Rewards |contains=both, goldonly": true
       }
     },
     // Always Raining in the Valley (ARV) Sterling Fancy Juice
