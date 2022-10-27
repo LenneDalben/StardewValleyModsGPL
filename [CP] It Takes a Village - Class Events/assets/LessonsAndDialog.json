@@ -1465,6 +1465,7 @@
         // Could be something like "it's important to feed them the right food, and the proper amount."
         // Jas interrupts in total Hermione fashion because she knows how much
         // Also something about giving the animals space, don't want them to feel crowded
+        // fit in Blossom Duck, carefree and enjoys spending time in the garden.
         /*Event proper*/ {
             "LogName": "Shane Animal Care Lesson",
             "Action": "EditData",
