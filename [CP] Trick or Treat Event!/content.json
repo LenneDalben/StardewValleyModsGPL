@@ -9,7 +9,10 @@
 	"Changes": [
 		{
 			// Scooch the left side of the NPCs up (george, evelyn, SAS gang, etc.)
+			// make the custom thing with whether player's met Kent or not (look at the It Takes A Village for example Dynamic Token)
 			// randomly choose whether Jas or Vincent gives you the candy, change up the line. Add candy to player inventory (randomly choose between cranberry candy [612], miner's treat [243], and magic rock candy [279])
+			// The CTs!
+			// i18n'ing!
 			// fin
 			// for added fun, is there a compat way to get everyone into their Spirit Eve outfits from DSV if you have DSV just for the event? :roohmm:
 			//
