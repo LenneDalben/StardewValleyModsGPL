@@ -13,7 +13,7 @@ Translations are welcome! You can submit either the language.json to me or the s
 
 ||How to trigger the event||
 
-Visit the town between 6:30pm and 9:30pm in the fall on the 22, 23, 24, 25, 26, or 28. The event will play only once, but it can be triggered any day in the last week of fall except for Spirit's Eve, which is the 27th. Talk to the villagers after for the rest of the content. Note that while the event is skippable, if you skip it, you will not get a treat (good things come to those who wait).
+Visit the town between 6:50pm and 9:50pm in the fall on the 22, 23, 24, 25, 26, or 28. The event will play only once, but it can be triggered any day in the last week of fall except for Spirit's Eve, which is the 27th. Talk to the villagers after for the rest of the content. Note that while the event is skippable, if you skip it, you will not get a treat (good things come to those who wait).
 
 
 ||Configuration||
