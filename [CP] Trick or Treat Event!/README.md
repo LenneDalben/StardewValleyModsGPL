@@ -1,8 +1,8 @@
 # (CP) Trick or Treat Event
 
-This mod is in development. In a role reversal, the kids are the ones giving candy to the adults for trick or treat!
+In a role reversal, the kids are the ones giving candy to the adults for trick or treat!
 
-Includes a randomized treat for the player and people talking about the event after!
+It's a short event including a randomized treat for the player and people talking about the event after!
 
 ||Background||
 
@@ -18,7 +18,7 @@ Visit the town between 6:50pm and 9:50pm in the fall on the 22, 23, 24, 25, 26, 
 
 ||Configuration||
 
-Config Options
+Config Option
 
 * DaysTalkingAboutEvent: By default, after the trick or treat event, the villagers will talk about it for 7 days. If you'd like to reduce how long people talk about the event for, or make them talk about it even longer, you can! You can select a number between 1 day and 28 days for the days people will talk about the event.
 
