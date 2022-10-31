@@ -6,7 +6,7 @@ It's a short event including a randomized treat for the player and people talkin
 
 ||Background||
 
-This mod was born as a mod prompt for Halloween. Shout to <a href="https://www.nexusmods.com/stardewvalley/users/34250790?tab=user+files">casey</a> and <a href="https://www.nexusmods.com/stardewvalley/users/114762643?tab=user+files">Calcite / CopperSun</a> for the initial idea. <a href="https://www.nexusmods.com/stardewvalley/users/70148453?tab=user+files">Airyn</a> also provided useful feedback, per usual <3
+Trick or Treat Event was born as a mod prompt for Halloween. Shout to <a href="https://www.nexusmods.com/stardewvalley/users/34250790?tab=user+files">casey</a> and <a href="https://www.nexusmods.com/stardewvalley/users/114762643?tab=user+files">Calcite / CopperSun</a> for the initial idea. <a href="https://www.nexusmods.com/stardewvalley/users/70148453?tab=user+files">Airyn</a> also provided useful feedback, per usual <3
 
 Translations are welcome! You can submit either the language.json to me or the strings in another language for all the strings and I will incorporate it into the mod. See more information on the <a href="https://stardewvalleywiki.com/Modding:Translations">wiki</a>.
 
