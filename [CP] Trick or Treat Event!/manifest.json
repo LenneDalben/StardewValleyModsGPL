@@ -4,7 +4,7 @@
    "Description": "Short event for trick or treating with dialog after.",
    "Version": "1.0.0",
    "UniqueID": "LenneDalben.TrickorTreatEvent",
-   "MinimumApiVersion": "3.6.1",
+   "MinimumApiVersion": "3.9.3",
    "ContentPackFor": {
        "UniqueID": "Pathoschild.ContentPatcher",
        "MinimumVersion": "1.21.0"
