@@ -7,6 +7,11 @@ Welcome to the respository of my mods for Stardew Valley that have a GPL License
  NPCs help out Penny teach the kiddos by giving lessons.
 
 
+<a href="https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/%5BCP%5D%20Trick%20or%20Treat%20Event!">(CP) Trick or Treat Event</a>
+
+ In a role reversal, the kids are the ones giving candy to the adults for trick or treat!
+
+
 <a href="https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/%5BCP%5D%20Adventurer's%20Bundle%20to%20Gemologist's%20Bundle">(CP) Adventurer's Bundle to Gemologist's Bundle</a>
 
 Changes the Adventurer's Bundle to instead be the Gemologist's Bundle, requiring gemstones instead of monster loot. This mod is unavailable on ModDrop because it doesn't work on existing saves, only on new ones.
