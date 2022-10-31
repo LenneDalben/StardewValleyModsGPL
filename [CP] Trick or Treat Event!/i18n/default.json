@@ -33,12 +33,25 @@
     "config.DaysTalkingAboutEvent.values.27": "27",
     "config.DaysTalkingAboutEvent.values.28": "28",
   // Event
-  "event-31072020.01": "Oh! A human...",
-  "event-31072020.02": "P-Please, don't be alarmed. I am different than the others.$s",
-  "event-31072020.03": "Yes, I can speak your language. I've spent a lot of time observing humans... from the shadows.$h",
-  "event-31072020.04": "Perhaps...",
-  "event-31072020.05": "I know humans like to shop. Care to see my wares?$h",
-  "event-31072020.06": "I gather items I find here in the sewers to sell. I also have trinkets and treasures made by my people. I hope you find something that pleases you.$h",
-  "event-31072020.07": "I am open for business."
+  "event-29102022.01": "Hey you!",
+  "event-29102022.02": "The kiddos will explain what they're up to in a sec.",
+  "event-29102022.03": "*Ahem*$3",
+  "event-29102022.04": "Thanks for coming.#$b#Today, Vincent and I hand out the candy to the adults!$h",
+  "event-29102022.05": "Oooh, chocolate!",
+  "event-29102022.06": "Gotta have chocolate.",
+  "event-29102022.07": "Is rice pudding too big?",
+  "event-29102022.08": "Come on, dad...",
+  "event-29102022.09": "Not a bad idea...",
+  "event-29102022.10": "Yea, and we'll only give you a little so we have tons left over for ourselves!$h",
+  "event-29102022.11": "Just kidding!",
+  "event-29102022.12": "(It'd be better if everyone limited their sugar intake...)$s",
+  "event-29102022.13": "Ok, everyone line up!$h",
+  "event-29102022.14": "Thanks Jas!",
+  "event-29102022.15": "Much appreciated!",
+  "event-29102022.16": "Yay!",
+  "event-29102022.17": "Nice!",
+  "event-29102022.18": "A treat for you, @!$h",
+  "event-29102022.19": "Have a treat, @!$h",
+  "event-29102022.20": "It's not a trick.$3#$b#Enjoy!$h"
   // CTs
 }
