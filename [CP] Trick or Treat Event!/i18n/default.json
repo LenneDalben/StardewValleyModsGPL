@@ -32,6 +32,7 @@
     "config.DaysTalkingAboutEvent.values.26": "26",
     "config.DaysTalkingAboutEvent.values.27": "27",
     "config.DaysTalkingAboutEvent.values.28": "28",
+  //
   // Event
   "event-29102022.01": "Hey you!",
   "event-29102022.02": "The kiddos will explain what they're up to in a sec.",
@@ -53,5 +54,6 @@
   "event-29102022.18": "A treat for you, @!$h",
   "event-29102022.19": "Have a treat, @!$h",
   "event-29102022.20": "It's not a trick.$3#$b#Enjoy!$h"
+  //
   // CTs
 }
