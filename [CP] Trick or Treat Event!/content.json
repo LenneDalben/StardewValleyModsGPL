@@ -57,8 +57,8 @@
 			}
 		},
 		// CTs
-			// Jas, Vincent, Abigail, Sebastian, Sam, Penny, Maru, Shane, Marnie, Jodi, Robin, Demetrius, Emily, Gus, Willy, Clint, Elliott, Leah, Haley, Alex, Lewis, Harvey, Caroline, Pierre, Evelyn, George, Kent
-		/*Jas CT*/{
+		// Jas, Vincent, Abigail, Sebastian, Sam, Penny, Maru, Shane, Marnie, Jodi, Robin, Demetrius, Emily, Gus, Willy, Clint, Elliott, Leah, Haley, Alex, Lewis, Harvey, Caroline, Pierre, Evelyn, George, Kent
+		/*Jas CT*/ {
 			"LogName": "Trick or Treat CT - Jas",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Jas",
@@ -66,15 +66,29 @@
 				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Jas}}"
 			}
 		},
-		/*Vincent CT*/{
-			"LogName": "Trick or Treat CT - Vincent",
+		/*Vincent CT*/ {
+			"LogName": "Trick or Treat CT - Vincent Yes Cola Shop",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Vincent",
 			"Entries": {
-				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Vincent}}"
+				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Vincent_YCS}}"
+			},
+			"When": {
+				"HasSeenEvent |contains=26431000": "true"
 			}
 		},
-		/*Abigail CT*/{
+		/*Vincent CT*/ {
+			"LogName": "Trick or Treat CT - Vincent No Cola Shop",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Vincent",
+			"Entries": {
+				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Vincent_NCS}}"
+			},
+			"When": {
+				"HasSeenEvent |contains=26431000": "false"
+			}
+		},
+		/*Abigail CT*/ {
 			"LogName": "Trick or Treat CT - Abigail",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Abigail",
@@ -82,7 +96,7 @@
 				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Abigail}}"
 			}
 		},
-		/*Sebastian CT*/{
+		/*Sebastian CT*/ {
 			"LogName": "Trick or Treat CT - Sebastian",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sebastian",
@@ -90,7 +104,7 @@
 				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Sebastian}}"
 			}
 		},
-		/*Sam CT*/{
+		/*Sam CT*/ {
 			"LogName": "Trick or Treat CT - Sam",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sam",
@@ -98,7 +112,7 @@
 				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Sam}}"
 			}
 		},
-		/*Penny CT*/{
+		/*Penny CT*/ {
 			"LogName": "Trick or Treat CT - Penny",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Penny",
@@ -106,7 +120,7 @@
 				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Penny}}"
 			}
 		},
-		/*Maru CT*/{
+		/*Maru CT*/ {
 			"LogName": "Trick or Treat CT - Maru",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Maru",
@@ -114,7 +128,7 @@
 				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Maru}}"
 			}
 		},
-		/*Shane CT*/{
+		/*Shane CT*/ {
 			"LogName": "Trick or Treat CT - Shane",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Shane",
@@ -122,7 +136,7 @@
 				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Shane}}"
 			}
 		},
-		/*Marnie CT*/{
+		/*Marnie CT*/ {
 			"LogName": "Trick or Treat CT - Marnie",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Marnie",
@@ -130,7 +144,7 @@
 				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Marnie}}"
 			}
 		},
-		/*Jodi CT*/{
+		/*Jodi CT*/ {
 			"LogName": "Trick or Treat CT - Jodi",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Jodi",
@@ -138,7 +152,7 @@
 				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Jodi}}"
 			}
 		},
-		/*Robin CT*/{
+		/*Robin CT*/ {
 			"LogName": "Trick or Treat CT - Robin",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Robin",
@@ -146,7 +160,7 @@
 				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Robin}}"
 			}
 		},
-		/*Demetrius CT*/{
+		/*Demetrius CT*/ {
 			"LogName": "Trick or Treat CT - Demetrius",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Demetrius",
@@ -154,7 +168,7 @@
 				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Demetrius}}"
 			}
 		},
-		/*Emily CT*/{
+		/*Emily CT*/ {
 			"LogName": "Trick or Treat CT - Emily",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Emily",
@@ -162,7 +176,7 @@
 				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Emily}}"
 			}
 		},
-		/*Gus CT*/{
+		/*Gus CT*/ {
 			"LogName": "Trick or Treat CT - Gus",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Gus",
@@ -170,7 +184,7 @@
 				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Gus}}"
 			}
 		},
-		/*Willy CT*/{
+		/*Willy CT*/ {
 			"LogName": "Trick or Treat CT - Willy",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Willy",
@@ -178,7 +192,7 @@
 				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Willy}}"
 			}
 		},
-		/*Clint CT*/{
+		/*Clint CT*/ {
 			"LogName": "Trick or Treat CT - Clint",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Clint",
@@ -186,7 +200,7 @@
 				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Clint}}"
 			}
 		},
-		/*Elliott CT*/{
+		/*Elliott CT*/ {
 			"LogName": "Trick or Treat CT - Elliott",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Elliott",
@@ -194,7 +208,7 @@
 				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Elliott}}"
 			}
 		},
-		/*Leah CT*/{
+		/*Leah CT*/ {
 			"LogName": "Trick or Treat CT - Leah",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Leah",
@@ -202,7 +216,7 @@
 				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Leah}}"
 			}
 		},
-		/*Haley CT*/{
+		/*Haley CT*/ {
 			"LogName": "Trick or Treat CT - Haley",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Haley",
@@ -210,7 +224,7 @@
 				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Haley}}"
 			}
 		},
-		/*Alex CT*/{
+		/*Alex CT*/ {
 			"LogName": "Trick or Treat CT - Alex",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Alex",
@@ -218,7 +232,7 @@
 				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Alex}}"
 			}
 		},
-		/*Lewis CT*/{
+		/*Lewis CT*/ {
 			"LogName": "Trick or Treat CT - Lewis",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Lewis",
@@ -226,7 +240,7 @@
 				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Lewis}}"
 			}
 		},
-		/*Harvey CT*/{
+		/*Harvey CT*/ {
 			"LogName": "Trick or Treat CT - Harvey",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Harvey",
@@ -234,7 +248,7 @@
 				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Harvey}}"
 			}
 		},
-		/*Caroline CT*/{
+		/*Caroline CT*/ {
 			"LogName": "Trick or Treat CT - Caroline",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Caroline",
@@ -242,7 +256,7 @@
 				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Caroline}}"
 			}
 		},
-		/*Pierre CT*/{
+		/*Pierre CT*/ {
 			"LogName": "Trick or Treat CT - Pierre",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Pierre",
@@ -250,7 +264,7 @@
 				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Pierre}}"
 			}
 		},
-		/*Evelyn CT*/{
+		/*Evelyn CT*/ {
 			"LogName": "Trick or Treat CT - Evelyn",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Evelyn",
@@ -258,7 +272,7 @@
 				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Evelyn}}"
 			}
 		},
-		/*George CT*/{
+		/*George CT*/ {
 			"LogName": "Trick or Treat CT - George",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/George",
@@ -266,7 +280,7 @@
 				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_George}}"
 			}
 		},
-		/*Kent CT*/{
+		/*Kent CT*/ {
 			"LogName": "Trick or Treat CT - Kent",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Kent",
