@@ -47,17 +47,232 @@
 	],
 	"Changes": [
 		{
-			// The CTs!
-			// i18n'ing!
-			// fin
-			// for added fun, is there a compat way to get everyone into their Spirit Eve outfits from DSV if you have DSV just for the event? :roohmm: Airyn said he has to do it on his end
+			// for added fun, is there a compat way to get everyone into their Spirit Eve outfits from DSV if you have DSV just for the event? Airyn said he has to do it on his end
 			//
 			"LogName": "Trick or Treat Event",
 			"Action": "EditData",
 			"Target": "Data/Events/Town",
 			"Entries": {
-				"29102022/z spring/z summer/z winter/u 22 23 24 25 26 28/t 1830 2130": "spirits_eve/-1000 -1000/{{TrickorTreatNPCPlacement}}/changeToTemporaryMap Custom_TrickorTreatEvent_Map/viewport -1000 -1000/{{TrickorTreatNPCWarp}}/addLantern 735 31 61 2/pause 50/positionOffset Jas 0 -30/positionOffset Vincent 0 -30/viewport 31 65/addConversationTopic TrickorTreatEvent_CT 7/pause 2500/skippable/emote farmer 8/faceDirection Sam 2/textAboveHead Sam \"{{i18n:event-29102022.01}}\"/move farmer 0 -2 3/pause 200/faceDirection Sam 1/speak Sam \"{{i18n:event-29102022.02}}\"/emote Penny 20 true/faceDirection Alex 1/faceDirection Pierre 1/faceDirection Caroline 3/emote Vincent 8/faceDirection Robin 3/emote Jas 36/pause 200/faceDirection Alex 3/faceDirection Jodi 3/faceDirection Caroline 1/faceDirection Robin 1/faceDirection Pierre 3/emote Vincent 32 true/emote Jas 32 true/faceDirection Alex 1 false/pause 600/faceDirection Jas 2 true/faceDirection Vincent 2 false/pause 50/speak Jas \"{{i18n:event-29102022.03}}\"/faceDirection farmer 0 true/faceDirection Sam 0 true/faceDirection Abigail 0 true/faceDirection Alex 0 true/faceDirection Sebastian 0 false/pause 200/faceDirection Penny 0 true/faceDirection Maru 0 true/faceDirection Marnie 0 true/faceDirection Jodi 0 false/pause 200/faceDirection Robin 0 true/faceDirection Demetrius 0 true/faceDirection Emily 0 false/pause 200/faceDirection Gus 0 true/faceDirection Clint 0 true/faceDirection Leah 0 true/faceDirection Haley 0 true/faceDirection Lewis 0 false/pause 200/faceDirection Caroline 0 true/faceDirection Pierre 0 true/faceDirection Evelyn 0 true/faceDirection George 0 false/speak Jas \"{{i18n:event-29102022.04}}\"/stopMusic/playMusic playful/pause 500/textAboveHead Abigail \"{{i18n:event-29102022.05}}\"/pause 1500/textAboveHead Sebastian \"{{i18n:event-29102022.06}}\"/pause 1500/textAboveHead Demetrius \"{{i18n:event-29102022.07}}\"/pause 1500/textAboveHead Maru \"{{i18n:event-29102022.08}}\"/pause 1500/textAboveHead George \"{{i18n:event-29102022.09}}\"/pause 1500/speak Vincent \"{{i18n:event-29102022.10}}\"/pause 100/emote Shane 32 true/shake Shane 500/pause 50/emote Jodi 28 true/emote Marnie 28 false/pause 900/textAboveHead Vincent \"{{i18n:event-29102022.11}}\"/pause 950/speak Harvey \"{{i18n:event-29102022.12}}\"/pause 200/jump Vincent 4/speak Vincent \"{{i18n:event-29102022.13}}\"/emote Jas 32 true/emote Vincent 32 true/emote Shane 20 true/emote Abigail 56 true/emote Penny 20 true/emote Leah 56 true/emote Emily 56 true/pause 50/move Shane 0 -3 0 true/move Demetrius 0 -2 0 true/move Leah -3 0 0 false/move Leah 0 -2 0 true/move Emily -1 0 0 false/move Emily 0 -2 0 false/pause 400/playSound dwop/textAboveHead Shane \"{{i18n:event-29102022.14}}\"/pause 600/playSound dwop/textAboveHead Demetrius \"{{i18n:event-29102022.15}}\"/pause 200/move Demetrius 3 0 2 true/move Shane -4 0 2 true/move Leah 0 -1 0 true/move Emily 0 -1 0 false/pause 400/emote Shane 32 true/emote Demetrius 32/playSound dwop/pause 600/playSound dwop/pause 600/textAboveHead Emily \"{{i18n:event-29102022.16}}\"/textAboveHead Leah \"{{i18n:event-29102022.17}}\"/pause 800/fade/viewport -1000 -1000/pause 800/playSound getNewSpecialItem/speak {{Random: Jas, Vincent}} \"{{Random: {{i18n:event-29102022.18}} %% {{i18n:event-29102022.19}} %% {{i18n:event-29102022.20}} | inputSeparator=%%}}{{Random: [612] %% [279] %% [243] |inputSeparator=%%}}\"/end"
+				"29102022/z spring/z summer/z winter/u 22 23 24 25 26 28/t 1850 2150": "spirits_eve/-1000 -1000/{{TrickorTreatNPCPlacement}}/changeToTemporaryMap Custom_TrickorTreatEvent_Map/viewport -1000 -1000/{{TrickorTreatNPCWarp}}/addLantern 735 31 61 2/pause 50/positionOffset Jas 0 -30/positionOffset Vincent 0 -30/viewport 31 65/addConversationTopic TrickorTreatEvent_CT 7/pause 2500/skippable/emote farmer 8/faceDirection Sam 2/textAboveHead Sam \"{{i18n:event-29102022.01}}\"/move farmer 0 -2 3/pause 200/faceDirection Sam 1/speak Sam \"{{i18n:event-29102022.02}}\"/emote Penny 20 true/faceDirection Alex 1/faceDirection Pierre 1/faceDirection Caroline 3/emote Vincent 8/faceDirection Robin 3/emote Jas 36/pause 200/faceDirection Alex 3/faceDirection Jodi 3/faceDirection Caroline 1/faceDirection Robin 1/faceDirection Pierre 3/emote Vincent 32 true/emote Jas 32 true/faceDirection Alex 1 false/pause 600/faceDirection Jas 2 true/faceDirection Vincent 2 false/pause 50/speak Jas \"{{i18n:event-29102022.03}}\"/faceDirection farmer 0 true/faceDirection Sam 0 true/faceDirection Abigail 0 true/faceDirection Alex 0 true/faceDirection Sebastian 0 false/pause 200/faceDirection Penny 0 true/faceDirection Maru 0 true/faceDirection Marnie 0 true/faceDirection Jodi 0 false/pause 200/faceDirection Robin 0 true/faceDirection Demetrius 0 true/faceDirection Emily 0 false/pause 200/faceDirection Gus 0 true/faceDirection Clint 0 true/faceDirection Leah 0 true/faceDirection Haley 0 true/faceDirection Lewis 0 false/pause 200/faceDirection Caroline 0 true/faceDirection Pierre 0 true/faceDirection Evelyn 0 true/faceDirection George 0 false/speak Jas \"{{i18n:event-29102022.04}}\"/stopMusic/playMusic playful/pause 500/textAboveHead Abigail \"{{i18n:event-29102022.05}}\"/pause 1500/textAboveHead Sebastian \"{{i18n:event-29102022.06}}\"/pause 1500/textAboveHead Demetrius \"{{i18n:event-29102022.07}}\"/pause 1500/textAboveHead Maru \"{{i18n:event-29102022.08}}\"/pause 1500/textAboveHead George \"{{i18n:event-29102022.09}}\"/pause 1500/speak Vincent \"{{i18n:event-29102022.10}}\"/pause 100/emote Shane 32 true/shake Shane 500/pause 50/emote Jodi 28 true/emote Marnie 28 false/pause 900/textAboveHead Vincent \"{{i18n:event-29102022.11}}\"/pause 950/speak Harvey \"{{i18n:event-29102022.12}}\"/pause 200/jump Vincent 4/speak Vincent \"{{i18n:event-29102022.13}}\"/emote Jas 32 true/emote Vincent 32 true/emote Shane 20 true/emote Abigail 56 true/emote Penny 20 true/emote Leah 56 true/emote Emily 56 true/pause 50/move Shane 0 -3 0 true/move Demetrius 0 -2 0 true/move Leah -3 0 0 false/move Leah 0 -2 0 true/move Emily -1 0 0 false/move Emily 0 -2 0 false/pause 400/playSound dwop/textAboveHead Shane \"{{i18n:event-29102022.14}}\"/pause 600/playSound dwop/textAboveHead Demetrius \"{{i18n:event-29102022.15}}\"/pause 200/move Demetrius 3 0 2 true/move Shane -4 0 2 true/move Leah 0 -1 0 true/move Emily 0 -1 0 false/pause 400/emote Shane 32 true/emote Demetrius 32/playSound dwop/pause 600/playSound dwop/pause 600/textAboveHead Emily \"{{i18n:event-29102022.16}}\"/textAboveHead Leah \"{{i18n:event-29102022.17}}\"/pause 800/fade/viewport -1000 -1000/pause 800/playSound getNewSpecialItem/speak {{Random: Jas, Vincent}} \"{{Random: {{i18n:event-29102022.18}} %% {{i18n:event-29102022.19}} %% {{i18n:event-29102022.20}} | inputSeparator=%%}}{{Random: [612] %% [279] %% [243] |inputSeparator=%%}}\"/end"
 			}
-		}
+		},
+		// CTs
+			// Jas, Vincent, Abigail, Sebastian, Sam, Penny, Maru, Shane, Marnie, Jodi, Robin, Demetrius, Emily, Gus, Willy, Clint, Elliott, Leah, Haley, Alex, Lewis, Harvey, Caroline, Pierre, Evelyn, George, Kent
+		/*Jas CT*/{
+			"LogName": "Trick or Treat CT - Jas",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jas",
+			"Entries": {
+				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Jas}}"
+			}
+		},
+		/*Vincent CT*/{
+			"LogName": "Trick or Treat CT - Vincent",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Vincent",
+			"Entries": {
+				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Vincent}}"
+			}
+		},
+		/*Abigail CT*/{
+			"LogName": "Trick or Treat CT - Abigail",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries": {
+				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Abigail}}"
+			}
+		},
+		/*Sebastian CT*/{
+			"LogName": "Trick or Treat CT - Sebastian",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Entries": {
+				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Sebastian}}"
+			}
+		},
+		/*Sam CT*/{
+			"LogName": "Trick or Treat CT - Sam",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Entries": {
+				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Sam}}"
+			}
+		},
+		/*Penny CT*/{
+			"LogName": "Trick or Treat CT - Penny",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Penny",
+			"Entries": {
+				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Penny}}"
+			}
+		},
+		/*Maru CT*/{
+			"LogName": "Trick or Treat CT - Maru",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Entries": {
+				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Maru}}"
+			}
+		},
+		/*Shane CT*/{
+			"LogName": "Trick or Treat CT - Shane",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Shane}}"
+			}
+		},
+		/*Marnie CT*/{
+			"LogName": "Trick or Treat CT - Marnie",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Marnie",
+			"Entries": {
+				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Marnie}}"
+			}
+		},
+		/*Jodi CT*/{
+			"LogName": "Trick or Treat CT - Jodi",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jodi",
+			"Entries": {
+				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Jodi}}"
+			}
+		},
+		/*Robin CT*/{
+			"LogName": "Trick or Treat CT - Robin",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Robin",
+			"Entries": {
+				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Robin}}"
+			}
+		},
+		/*Demetrius CT*/{
+			"LogName": "Trick or Treat CT - Demetrius",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Demetrius",
+			"Entries": {
+				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Demetrius}}"
+			}
+		},
+		/*Emily CT*/{
+			"LogName": "Trick or Treat CT - Emily",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Emily",
+			"Entries": {
+				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Emily}}"
+			}
+		},
+		/*Gus CT*/{
+			"LogName": "Trick or Treat CT - Gus",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gus",
+			"Entries": {
+				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Gus}}"
+			}
+		},
+		/*Willy CT*/{
+			"LogName": "Trick or Treat CT - Willy",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Willy",
+			"Entries": {
+				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Willy}}"
+			}
+		},
+		/*Clint CT*/{
+			"LogName": "Trick or Treat CT - Clint",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Clint",
+			"Entries": {
+				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Clint}}"
+			}
+		},
+		/*Elliott CT*/{
+			"LogName": "Trick or Treat CT - Elliott",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"Entries": {
+				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Elliott}}"
+			}
+		},
+		/*Leah CT*/{
+			"LogName": "Trick or Treat CT - Leah",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Leah",
+			"Entries": {
+				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Leah}}"
+			}
+		},
+		/*Haley CT*/{
+			"LogName": "Trick or Treat CT - Haley",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"Entries": {
+				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Haley}}"
+			}
+		},
+		/*Alex CT*/{
+			"LogName": "Trick or Treat CT - Alex",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex",
+			"Entries": {
+				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Alex}}"
+			}
+		},
+		/*Lewis CT*/{
+			"LogName": "Trick or Treat CT - Lewis",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Lewis",
+			"Entries": {
+				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Lewis}}"
+			}
+		},
+		/*Harvey CT*/{
+			"LogName": "Trick or Treat CT - Harvey",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"Entries": {
+				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Harvey}}"
+			}
+		},
+		/*Caroline CT*/{
+			"LogName": "Trick or Treat CT - Caroline",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Caroline",
+			"Entries": {
+				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Caroline}}"
+			}
+		},
+		/*Pierre CT*/{
+			"LogName": "Trick or Treat CT - Pierre",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Pierre",
+			"Entries": {
+				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Pierre}}"
+			}
+		},
+		/*Evelyn CT*/{
+			"LogName": "Trick or Treat CT - Evelyn",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Evelyn",
+			"Entries": {
+				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Evelyn}}"
+			}
+		},
+		/*George CT*/{
+			"LogName": "Trick or Treat CT - George",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/George",
+			"Entries": {
+				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_George}}"
+			}
+		},
+		/*Kent CT*/{
+			"LogName": "Trick or Treat CT - Kent",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Kent",
+			"Entries": {
+				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Kent}}"
+			}
+		},
 	]
 }
