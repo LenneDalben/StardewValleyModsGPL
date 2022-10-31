@@ -1,0 +1,13 @@
+{
+   "Name": "[CP] Sebastian Events",
+   "Author": "LenneDalben",
+   "Description": "Two Sebastian events, ideas by tiakall and acearohippo.",
+   "Version": "1.0.0",
+   "UniqueID": "LenneDalben.SebastianEvents",
+   "MinimumApiVersion": "3.6.3",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher",
+       "MinimumVersion": "1.19.0"
+    },
+   "UpdateKeys": [ "" ],
+}
