@@ -1347,7 +1347,7 @@
         }, // "That's an interesting choice...$3.#$b#At least, um... they're learning about having good reflexes?#$b#%Penny lets out a puff of air.
         // NEED TO TEST OUT THE #$b# to see if it works as intended
         //
-        // Sam Music INCOMPLETE **fixing CTs**
+        // Sam Music INCOMPLETE
         // Vincent super excited about jamming out
         /*Event proper*/ {
             "LogName": "Sam Music Lesson",
@@ -1361,103 +1361,95 @@
             }
         },
         /*Sam CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
-            "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
-            }
-        },
-        /*Abigail CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
-            "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
-            }
-        }, // vary depending on whether the Abigail gaming lesson was seen (Hehe, I have a secret weapon in my back pocket to ensure the kids enjoy time with me.#$b#Of course it's a compet-$h#$b#I've said too much.$6 / Sure, sure, the kids made music together. I taught them how to handle controls though.#$b#Besides, Vincent was probably always going to prefer Sam, so Sam's not really in the running.$3#$b#What's the competition?#$b#I've said too much.$6)
-        /*Sebastian CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
-            "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
-            }
-        }, // vary depending on whether the Abigail gaming lesson was seen (I'm not taking it personally that Vincent preferred playing music with Sam over my lesson. Vincent is Sam's little brother.#$b#Jas too, huh?$3#$b#Oh well. I'm not quitting my day job, that's for sure.$s / At least Sam's still in the running for fun teacher.$s)
-        /*Lewis CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
-            "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
-            }
-        }, // That brother of Vincent's sure knows how to disturb the peace in this town. I got noise complaints!$3#$b#Who complained?#$b#That's not important.
-        /*Jas CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Robin",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Robin",
-            "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
-            }
-        },
-        /*Vincent CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Robin",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Robin",
-            "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
-            }
-        },
-        /*Jodi CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Jodi",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Jodi",
-            "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Jodi}}"
-            }
-        },
-        /*Kent CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Kent",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Kent",
-            "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Kent}}"
-            }
-        },
-        /*Sam CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Sam",
+            "LogName": "Sam Music CT - Sam",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sam",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Sam}}"
+                "ItTakesAVillage_SamMusic": "{{i18n:ItTakesAVillage_SamMusicCT_Sam}}"
+            }
+        },
+        /*Abigail CT*/ {
+            "LogName": "Sam Music CT - Abigail",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Abigail",
+            "Entries": {
+                "ItTakesAVillage_SamMusic": "{{i18n:ItTakesAVillage_SamMusicCT_Abigail}}"
+            }
+        }, // vary depending on whether the Abigail gaming lesson was seen (Hehe, I have a secret weapon in my back pocket to ensure the kids enjoy time with me.#$b#Of course it's a compet-$h#$b#I've said too much.$6 / Sure, sure, the kids made music together. I taught them how to handle controls though.#$b#Besides, Vincent was probably always going to prefer Sam, so Sam's not really in the running.$3#$b#What's the competition?#$b#I've said too much.$6)
+        /*Sebastian CT*/ {
+            "LogName": "Sam Music CT - Sebastian",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sebastian",
+            "Entries": {
+                "ItTakesAVillage_SamMusic": "{{i18n:ItTakesAVillage_SamMusicCT_Sebastian}}"
+            }
+        }, // vary depending on whether the Abigail gaming lesson was seen (I'm not taking it personally that Vincent preferred playing music with Sam over my lesson. Vincent is Sam's little brother.#$b#Jas too, huh?$3#$b#Oh well. I'm not quitting my day job, that's for sure.$s / At least Sam's still in the running for fun teacher.$s)
+        /*Lewis CT*/ {
+            "LogName": "Sam Music CT - Lewis",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Lewis",
+            "Entries": {
+                "ItTakesAVillage_SamMusic": "{{i18n:ItTakesAVillage_SamMusicCT_Lewis}}"
+            }
+        }, // That brother of Vincent's sure knows how to disturb the peace in this town. I got noise complaints!$3#$b#Who complained?#$b#That's not important.
+        /*Jas CT*/ {
+            "LogName": "Sam Music CT - Jas",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jas",
+            "Entries": {
+                "ItTakesAVillage_SamMusic": "{{i18n:ItTakesAVillage_SamMusicCT_Jas}}"
+            }
+        },
+        /*Vincent CT*/ {
+            "LogName": "Sam Music CT - Vincent",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Vincent",
+            "Entries": {
+                "ItTakesAVillage_SamMusic": "{{i18n:ItTakesAVillage_SamMusicCT_Vincent}}"
+            }
+        },
+        /*Jodi CT*/ {
+            "LogName": "Sam Music CT - Jodi",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jodi",
+            "Entries": {
+                "ItTakesAVillage_SamMusic": "{{i18n:ItTakesAVillage_SamMusicCT_Jodi}}"
+            }
+        },
+        /*Kent CT*/ {
+            "LogName": "Sam Music CT - Kent",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kent",
+            "Entries": {
+                "ItTakesAVillage_SamMusic": "{{i18n:ItTakesAVillage_SamMusicCT_Kent}}"
             }
         },
         /*Marnie CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Marnie",
+            "LogName": "Sam Music CT - Marnie",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Marnie",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Marnie}}"
+                "ItTakesAVillage_SamMusic": "{{i18n:ItTakesAVillage_SamMusicCT_Marnie}}"
             }
         },
         /*Shane CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Shane",
+            "LogName": "Sam Music CT - Shane",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Shane",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Shane}}"
+                "ItTakesAVillage_SamMusic": "{{i18n:ItTakesAVillage_SamMusicCT_Shane}}"
             }
         }, // dynamic dialog
         /*Penny CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Sam Music CT - Penny",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Penny",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_SamMusic": "{{i18n:ItTakesAVillage_SamMusicCT_Penny}}"
             }
         }, // Jas said she was happy playing the piano. Vincent naturally was excited about playing the guitar like his brother.
         //
-        // Shane Animal Care INCOMPLETE
+        // Shane Animal Care INCOMPLETE **fixing CTs**
         // Marnie tending to the shop, proud!
         // Marnie has slightly different response depending on whether Shane 6 heart event was seen
         // We see some blue chickens if Shane's 8 heart event are seen (will need to find out how to spawn the chickens, check Ranch Expansion's barn events for examples. Presumably it's via temporary actor)
