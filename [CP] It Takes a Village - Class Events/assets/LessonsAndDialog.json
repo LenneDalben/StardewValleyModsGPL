@@ -1656,7 +1656,7 @@
             }
         }, // Vary depending on whether the kids saw the metalworking lesson (Hopefully the kids enjoy the contrast of this versus working with metal with Clint. / It's nice that they get to see how to work with another material.)
         //
-        // Abigail Self-Defense INCOMPLETE **fixing CTs**
+        // Abigail Self-Defense INCOMPLETE
         // need cute verbal sound effects, kya
         // I am concerned we would need new sprites for this. Pretty sure none of them have anything that would pass for kicks or punches lol
         // Add CT for Robin (with dynamic dialog!)
@@ -1672,95 +1672,87 @@
             }
         },
         /*Abigail CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Abigail Self-Defense CT - Abigail",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Abigail",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_AbigailSelfDefense": "{{i18n:ItTakesAVillage_AbigailSelfDefenseCT_Abigail}}"
             }
         },
         /*Sam CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
-            "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
-            }
-        },
-        /*Sebastian CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
-            "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
-            }
-        },
-        /*Jas CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Robin",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Robin",
-            "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
-            }
-        },
-        /*Vincent CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Robin",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Robin",
-            "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
-            }
-        },
-        /*Jodi CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Jodi",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Jodi",
-            "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Jodi}}"
-            }
-        },
-        /*Kent CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Kent",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Kent",
-            "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Kent}}"
-            }
-        },
-        /*Sam CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Sam",
+            "LogName": "Abigail Self-Defense CT - Sam",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sam",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Sam}}"
+                "ItTakesAVillage_AbigailSelfDefense": "{{i18n:ItTakesAVillage_AbigailSelfDefenseCT_Sam}}"
+            }
+        },
+        /*Sebastian CT*/ {
+            "LogName": "Abigail Self-Defense CT - Sebastian",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sebastian",
+            "Entries": {
+                "ItTakesAVillage_AbigailSelfDefense": "{{i18n:ItTakesAVillage_AbigailSelfDefenseCT_Sebastian}}"
+            }
+        },
+        /*Jas CT*/ {
+            "LogName": "Abigail Self-Defense CT - Jas",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jas",
+            "Entries": {
+                "ItTakesAVillage_AbigailSelfDefense": "{{i18n:ItTakesAVillage_AbigailSelfDefenseCT_Jas}}"
+            }
+        },
+        /*Vincent CT*/ {
+            "LogName": "Abigail Self-Defense CT - Vincent",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Vincent",
+            "Entries": {
+                "ItTakesAVillage_AbigailSelfDefense": "{{i18n:ItTakesAVillage_AbigailSelfDefenseCT_Vincent}}"
+            }
+        },
+        /*Jodi CT*/ {
+            "LogName": "Abigail Self-Defense CT - Jodi",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jodi",
+            "Entries": {
+                "ItTakesAVillage_AbigailSelfDefense": "{{i18n:ItTakesAVillage_AbigailSelfDefenseCT_Jodi}}"
+            }
+        },
+        /*Kent CT*/ {
+            "LogName": "Abigail Self-Defense CT - Kent",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kent",
+            "Entries": {
+                "ItTakesAVillage_AbigailSelfDefense": "{{i18n:ItTakesAVillage_AbigailSelfDefenseCT_Kent}}"
             }
         },
         /*Marnie CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Marnie",
+            "LogName": "Abigail Self-Defense CT - Marnie",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Marnie",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Marnie}}"
+                "ItTakesAVillage_AbigailSelfDefense": "{{i18n:ItTakesAVillage_AbigailSelfDefenseCT_Marnie}}"
             }
         },
         /*Shane CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Shane",
+            "LogName": "Abigail Self-Defense CT - Shane",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Shane",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Shane}}"
+                "ItTakesAVillage_AbigailSelfDefense": "{{i18n:ItTakesAVillage_AbigailSelfDefenseCT_Shane}}"
             }
         },
         /*Penny CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Abigail Self-Defense CT - Penny",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Penny",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_AbigailSelfDefense": "{{i18n:ItTakesAVillage_AbigailSelfDefenseCT_Penny}}"
             }
         }, // I wonder if I should ask Abigail if she can teach me a move or two...
         //
-        // Willy & Linus Fishing INCOMPLETE
+        // Willy & Linus Fishing INCOMPLETE **fixing CTs**
         // Willy could teach a lesson about fishing or fish pots (since I think his vanilla intro dialogue mentions he wants to pass on the art to a new generation) and Linus could join & mention something about finding bait?
         // For the Willy & Linus lesson: have Linus mention the wild bait. Vary dialog on it based on whether the player has seen the event where Linus teaches the player the recipe
         // Some different dialog (in the event or in CTs) about the crabs, if player has seen Willy's event 711130
@@ -1778,135 +1770,136 @@
             }
         },
         /*Willy CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Willy & Linus Fishing CT - Willy",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Willy",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_WillyLinusFishing": "{{i18n:ItTakesAVillage_WillyLinusFishingCT_Willy}}"
             }
         },
         /*Linus CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Willy & Linus Fishing CT - Linus",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Linus",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_WillyLinusFishing": "{{i18n:ItTakesAVillage_WillyLinusFishingCT_Linus}}"
             }
         },
         /*Clint CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Willy & Linus Fishing CT - Clint",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Clint",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_WillyLinusFishing": "{{i18n:ItTakesAVillage_WillyLinusFishingCT_Clint}}"
             }
         },
         /*Elliott CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Willy & Linus Fishing CT - Elliott",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Elliott",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_WillyLinusFishing": "{{i18n:ItTakesAVillage_WillyLinusFishingCT_Elliott}}"
             }
         },
         /*Lewis CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Willy & Linus Fishing CT - Lewis",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Lewis",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_WillyLinusFishing": "{{i18n:ItTakesAVillage_WillyLinusFishingCT_Lewis}}"
             }
         }, // Good to see that someone's showing the children potential career options! It's good to give them goals so they don't end up as delinquents.
         /*Gus CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Willy & Linus Fishing CT - Gus",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Gus",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_WillyLinusFishing": "{{i18n:ItTakesAVillage_WillyLinusFishingCT_Gus}}"
             }
         }, // I'm glad Linus is comfortable enough with the townspeople to get involved as a guest lecturer.
         /*Wizard CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Willy & Linus Fishing CT - Wizard",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Wizard",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_WillyLinusFishing": "{{i18n:ItTakesAVillage_WillyLinusFishingCT_Wizard}}"
             }
         },
         /*Leo CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Willy & Linus Fishing CT - Leo",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Leo",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_WillyLinusFishing": "{{i18n:ItTakesAVillage_WillyLinusFishingCT_Leo}}"
             }
         },
         /*Jas CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Robin",
+            "LogName": "Willy & Linus Fishing CT - Jas",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Robin",
+            "Target": "Characters/Dialogue/Jas",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+                "ItTakesAVillage_WillyLinusFishing": "{{i18n:ItTakesAVillage_WillyLinusFishingCT_Jas}}"
             }
         },
         /*Vincent CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Robin",
+            "LogName": "Willy & Linus Fishing CT - Vincent",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Robin",
+            "Target": "Characters/Dialogue/Vincent",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+                "ItTakesAVillage_WillyLinusFishing": "{{i18n:ItTakesAVillage_WillyLinusFishingCT_Vincent}}"
             }
         },
         /*Jodi CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Jodi",
+            "LogName": "Willy & Linus Fishing CT - Jodi",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Jodi",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Jodi}}"
+                "ItTakesAVillage_WillyLinusFishing": "{{i18n:ItTakesAVillage_WillyLinusFishingCT_Jodi}}"
             }
         },
         /*Kent CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Kent",
+            "LogName": "Willy & Linus Fishing CT - Kent",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Kent",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Kent}}"
+                "ItTakesAVillage_WillyLinusFishing": "{{i18n:ItTakesAVillage_WillyLinusFishingCT_Kent}}"
             }
         },
         /*Sam CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Sam",
+            "LogName": "Willy & Linus Fishing CT - Sam",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sam",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Sam}}"
+                "ItTakesAVillage_WillyLinusFishing": "{{i18n:ItTakesAVillage_WillyLinusFishingCT_Sam}}"
             }
         },
         /*Marnie CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Marnie",
+            "LogName": "Willy & Linus Fishing CT - Marnie",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Marnie",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Marnie}}"
+                "ItTakesAVillage_WillyLinusFishing": "{{i18n:ItTakesAVillage_WillyLinusFishingCT_Marnie}}"
             }
         },
         /*Shane CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Shane",
+            "LogName": "Willy & Linus Fishing CT - Shane",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Shane",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Shane}}"
+                "ItTakesAVillage_WillyLinusFishing": "{{i18n:ItTakesAVillage_WillyLinusFishingCT_Shane}}"
             }
         },
         /*Penny CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Willy & Linus Fishing CT - Penny",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Penny",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_WillyLinusFishing": "{{i18n:ItTakesAVillage_WillyLinusFishingCT_Penny}}"
             }
         }, // I'm surprised to hear Linus joined the class, but I'm glad he helped teach the kids something!
         //
         // Caroline & Evelyn Gardening INCOMPLETE
+        // could this include the kids getting a plant and then some concerns about the plants dying to foreshadow their disappearance o: Jodi and Shane be skeptical o.o
         // Add CT for Willy and Linus (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Caroline & Evelyn Gardening Lesson",
@@ -1920,111 +1913,111 @@
             }
         },
         /*Caroline CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Caroline & Evelyn Gardening CT - Caroline",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Caroline",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_CarolineEvelynGardening": "{{i18n:ItTakesAVillage_CarolineEvelynGardeningCT_Caroline}}"
             }
         },
         /*Evelyn CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Caroline & Evelyn Gardening CT - Evelyn",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Evelyn",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_CarolineEvelynGardening": "{{i18n:ItTakesAVillage_CarolineEvelynGardeningCT_Evelyn}}"
             }
         },
         /*Pierre CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Caroline & Evelyn Gardening CT - Pierre",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Pierre",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_CarolineEvelynGardening": "{{i18n:ItTakesAVillage_CarolineEvelynGardeningCT_Pierre}}"
             }
         },
         /*Abigail CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Caroline & Evelyn Gardening CT - Abigail",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Abigail",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_CarolineEvelynGardening": "{{i18n:ItTakesAVillage_CarolineEvelynGardeningCT_Abigail}}"
             }
         },
         /*George CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Caroline & Evelyn Gardening CT - George",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/George",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_CarolineEvelynGardening": "{{i18n:ItTakesAVillage_CarolineEvelynGardeningCT_George}}"
             }
         },
         /*Jas CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Robin",
+            "LogName": "Caroline & Evelyn Gardening CT - Jas",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Robin",
+            "Target": "Characters/Dialogue/Jas",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+                "ItTakesAVillage_CarolineEvelynGardening": "{{i18n:ItTakesAVillage_CarolineEvelynGardeningCT_Jas}}"
             }
         },
         /*Vincent CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Robin",
+            "LogName": "Caroline & Evelyn Gardening CT - Vincent",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Robin",
+            "Target": "Characters/Dialogue/Vincent",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Robin}}"
+                "ItTakesAVillage_CarolineEvelynGardening": "{{i18n:ItTakesAVillage_CarolineEvelynGardeningCT_Vincent}}"
             }
         },
         /*Jodi CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Jodi",
+            "LogName": "Caroline & Evelyn Gardening CT - Jodi",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Jodi",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Jodi}}"
+                "ItTakesAVillage_CarolineEvelynGardening": "{{i18n:ItTakesAVillage_CarolineEvelynGardeningCT_Jodi}}"
             }
         },
         /*Kent CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Kent",
+            "LogName": "Caroline & Evelyn Gardening CT - Kent",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Kent",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Kent}}"
+                "ItTakesAVillage_CarolineEvelynGardening": "{{i18n:ItTakesAVillage_CarolineEvelynGardeningCT_Kent}}"
             }
         },
         /*Sam CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Sam",
+            "LogName": "Caroline & Evelyn Gardening CT - Sam",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sam",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Sam}}"
+                "ItTakesAVillage_CarolineEvelynGardening": "{{i18n:ItTakesAVillage_CarolineEvelynGardeningCT_Sam}}"
             }
         },
         /*Marnie CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Marnie",
+            "LogName": "Caroline & Evelyn Gardening CT - Marnie",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Marnie",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Marnie}}"
+                "ItTakesAVillage_CarolineEvelynGardening": "{{i18n:ItTakesAVillage_CarolineEvelynGardeningCT_Marnie}}"
             }
         },
         /*Shane CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Shane",
+            "LogName": "Caroline & Evelyn Gardening CT - Shane",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Shane",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Shane}}"
+                "ItTakesAVillage_CarolineEvelynGardening": "{{i18n:ItTakesAVillage_CarolineEvelynGardeningCT_Shane}}"
             }
         },
         /*Penny CT*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+            "LogName": "Caroline & Evelyn Gardening CT - Penny",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Penny",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_CarolineEvelynGardening": "{{i18n:ItTakesAVillage_CarolineEvelynGardeningCT_Penny}}"
             }
         }, // Caroline's sunroom is quite private, so I'm glad she was willing to share it with Evelyn and the kids.
         //
-        // Lesson wrap up! - IN PROGRESS
+        // Lesson wrap up! - IN PROGRESS **fixing CTs**
         /*Event proper*/ {
             "LogName": "Lesson wrap up",
             "Action": "EditData",
