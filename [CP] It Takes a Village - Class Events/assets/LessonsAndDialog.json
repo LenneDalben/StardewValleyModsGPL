@@ -1752,7 +1752,7 @@
             }
         }, // I wonder if I should ask Abigail if she can teach me a move or two...
         //
-        // Willy & Linus Fishing INCOMPLETE **fixing CTs**
+        // Willy & Linus Fishing INCOMPLETE
         // Willy could teach a lesson about fishing or fish pots (since I think his vanilla intro dialogue mentions he wants to pass on the art to a new generation) and Linus could join & mention something about finding bait?
         // For the Willy & Linus lesson: have Linus mention the wild bait. Vary dialog on it based on whether the player has seen the event where Linus teaches the player the recipe
         // Some different dialog (in the event or in CTs) about the crabs, if player has seen Willy's event 711130
