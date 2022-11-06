@@ -28,6 +28,10 @@
 		{
 			"Name": "Custom_ItTakesaVillage_Botany",
 			"FromMapFile": "assets/Not-Code/Botany.tmx"
+		},
+		{
+			"Name": "Custom_ItTakesaVillage_Electronics",
+			"FromMapFile": "assets/Not-Code/Electronics.tmx"
 		}
 	],
 	// Dynamic Tokens section
