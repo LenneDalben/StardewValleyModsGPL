@@ -701,6 +701,7 @@
         // Maru's first line vary depending on whether you saw either of Demetrius' versions or not. Oh geez, that will be one nested Dynamic Random Token :SMCPufferSweatSip:
         // also add config for the goggle overlay
         // Add CT for Demetrius (with dynamic dialog!)
+        // <character> <sprite width> <sprite height> <X> <Y> <facing> [breather] addTemporaryActor SebComputer 16 44 5 11 2 false/
         /*Event proper*/ {
             "LogName": "Maru Electronics Lesson",
             "Action": "EditData",
