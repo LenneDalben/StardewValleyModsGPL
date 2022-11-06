@@ -998,5 +998,23 @@
 			"Target": "Characters/SebComputer",
 			"FromFile": "assets/Not-Code/SebComputer.png"
 		},
+		{
+			"LogName": "Loading Plain Potato Sprite by Airyn",
+			"Action": "Load",
+			"Target": "Characters/PlainPotato",
+			"FromFile": "assets/Not-Code/PotatoBattery - Plain.png",
+		},
+		{
+			"LogName": "Loading Off Potato Sprite by Airyn",
+			"Action": "Load",
+			"Target": "Characters/OffPotato",
+			"FromFile": "assets/Not-Code/PotatoBattery - Off.png",
+		},
+		{
+			"LogName": "Loading On Potato Sprite by Airyn",
+			"Action": "Load",
+			"Target": "Characters/OnPotato",
+			"FromFile": "assets/Not-Code/PotatoBattery - On.png",
+		},
 	]
 }
