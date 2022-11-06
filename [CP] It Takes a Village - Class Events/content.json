@@ -15,6 +15,13 @@
 			"AllowBlank": false,
 			"AllowMultiple": false
 		},
+		"PortraitandSpriteOverlayConfig": {
+			"Description": "Specify if you want the Maru electronics lesson to include a portrait and sprite overlay as a fun feature. Default is true. The overlays were designed for vanilla and Diverse Stardew (DSV). If you use any other portrait or sprite mod that affect Maru, Jas, and/or Vincent, you may want to set this to false for immersion.",
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false,
+			"AllowMultiple": false
+		},
 		"EditPenny8HeartEvent": { // ask atravita about adding compat with Penny 8 Heart Event Adjusted mod. ask Hanatsuki about adding compat with Gender Neutrality Mod
 			"Description": "For immersion reasons, Penny's 8 heart event is tweaked to include a reference to the lessons. Set this to false if you have another mod that edits Penny's 8 heart event. Default is true.",
 			"AllowValues": "true, false",
@@ -1016,5 +1023,20 @@
 			"Target": "Characters/OnPotato",
 			"FromFile": "assets/Not-Code/PotatoBattery - On.png",
 		},
+		{
+			"LogName": "Goggle Squad Overlay by Airyn",
+			"Action": "EditImage",
+			"Target": "Portraits/Maru, Characters/Maru, Portraits/Jas, Characters/Jas, Portraits/Vincent, Characters/Vincent",
+			"FromFile": "Assets/GoggleOverlay_{{TargetPathOnly}}_{{TargetWithoutPath}}.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"HasSeenEvent |contains= 31032030": false,
+				"MaruElectronicsAndDemetriusBotanyToken": "MaruElectronicsYes, MaruElectronicsYesDemetriusBotanyNo",
+				"HasConversationTopic |contains= ItTakesAVillage_Beginning, ItTakesAVillage_AlexPE, ItTakesAVillage_GusCooking, ItTakesAVillage_ElliottStories, ItTakesAVillage_HaleyLeahArt, ItTakesAVillage_AbbyEcon, ItTakesAVillage_SebComputer, ItTakesAVillage_DemetriusBotany, ItTakesAVillage_EmilyDance, ItTakesAVillage_HarveyHealth, ItTakesAVillage_AbigailVideoGames, ItTakesAVillage_ClintMetalworking, ItTakesAVillage_SamMusic, ItTakesAVillage_ShaneAnimalCare, ItTakesAVillage_AbigailSelfDefense, ItTakesAVillage_RobinWoodworking, ItTakesAVillage_WillyLinusFishing, ItTakesAVillage_CarolineEvelynGardening": false,
+				"LocationName |contains= ScienceHouse": true,
+				"PortraitandSpriteOverlayConfig": true
+			},
+			"Update": "OnLocationChange"
+		}
 	]
 }
