@@ -1062,7 +1062,7 @@
 				"HasSeenEvent |contains= 31032030": false,
 				"MaruElectronicsAndDemetriusBotanyToken": "MaruElectronicsYes, MaruElectronicsYesDemetriusBotanyNo",
 				"HasConversationTopic |contains= ItTakesAVillage_Beginning, ItTakesAVillage_AlexPE, ItTakesAVillage_GusCooking, ItTakesAVillage_ElliottStories, ItTakesAVillage_HaleyLeahArt, ItTakesAVillage_AbbyEcon, ItTakesAVillage_SebComputer, ItTakesAVillage_DemetriusBotany, ItTakesAVillage_EmilyDance, ItTakesAVillage_HarveyHealth, ItTakesAVillage_AbigailVideoGames, ItTakesAVillage_ClintMetalworking, ItTakesAVillage_SamMusic, ItTakesAVillage_ShaneAnimalCare, ItTakesAVillage_AbigailSelfDefense, ItTakesAVillage_RobinWoodworking, ItTakesAVillage_WillyLinusFishing, ItTakesAVillage_CarolineEvelynGardening": false,
-				"LocationName |contains= ScienceHouse": true,
+				"LocationName |contains= ScienceHouse, temp": true,
 				"PortraitandSpriteOverlayConfig": true
 			},
 			"Update": "OnLocationChange"
