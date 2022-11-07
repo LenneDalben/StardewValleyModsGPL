@@ -446,6 +446,20 @@
 				"HasSeenEvent |contains=31032029": "false"
 			}
 		},
+		/*Goggle moment in event based on config*/ {
+			"Name": "MaruElectronicsGoggles",
+			"Value": "speak Maru \"{{i18n:event-31032030.04}}\"/pause 50/faceDirection Jas 2 true/faceDirection Vincent 2 false/pause 1000/move Jas 0 -1 1 true/move Vincent 0 -1 3 false/pause 500/speak Vincent \"{{i18n:event-31032030.05}}\"/speak Maru \"{{i18n:event-31032030.06}}\"/emote Penny 32/speak Maru \"{{i18n:event-31032030.07}}\"",
+			"When": {
+				"PortraitandSpriteOverlayConfig": "true"
+			}
+		},
+		/*No goggle moment based on config*/ {
+			"Name": "MaruElectronicsGoggles",
+			"Value": "speak Maru \"{{i18n:event-31032030.07}}\"",
+			"When": {
+				"PortraitandSpriteOverlayConfig": "false"
+			}
+		},
 		// Dynamic tokens for Demetrius Botany
 		// Temporary actor tokens
 		/*Temporary actor Crow*/ {
@@ -1014,31 +1028,31 @@
 			"FromFile": "assets/LessonsAndDialog.json"
 		},
 		// Loading sprites
-		{
+		/*Loading Seb Computer Sprite*/ {
 			"LogName": "Loading Seb Computer Sprite",
 			"Action": "Load",
 			"Target": "Characters/SebComputer",
 			"FromFile": "assets/Not-Code/SebComputer.png"
 		},
-		{
+		/*Loading Plain Potato*/ {
 			"LogName": "Loading Plain Potato Sprite by Airyn",
 			"Action": "Load",
 			"Target": "Characters/PlainPotato",
 			"FromFile": "assets/Not-Code/PotatoBattery - Plain.png",
 		},
-		{
+		/*Loading Off Potato*/ {
 			"LogName": "Loading Off Potato Sprite by Airyn",
 			"Action": "Load",
 			"Target": "Characters/OffPotato",
 			"FromFile": "assets/Not-Code/PotatoBattery - Off.png",
 		},
-		{
+		/*Loading On Potato*/ {
 			"LogName": "Loading On Potato Sprite by Airyn",
 			"Action": "Load",
 			"Target": "Characters/OnPotato",
 			"FromFile": "assets/Not-Code/PotatoBattery - On.png",
 		},
-		{
+		/*Goggle squad overlay*/ {
 			"LogName": "Goggle Squad Overlay by Airyn",
 			"Action": "EditImage",
 			"Target": "Portraits/Maru, Characters/Maru, Portraits/Jas, Characters/Jas, Portraits/Vincent, Characters/Vincent",
