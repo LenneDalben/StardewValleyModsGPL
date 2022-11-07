@@ -748,7 +748,7 @@
             "Entries": {
                 "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Vincent}}"
             }
-        },
+        }, // Vincent wants to keep the goggles
         /*Jodi CT*/ {
             "LogName": "Penny Kickstarts Lessons CT - Jodi",
             "Action": "EditData",
@@ -796,7 +796,7 @@
             "Entries": {
                 "ItTakesAVillage_AbbyEcon": "{{i18n:ItTakesAVillage_AbbyEconCT_Penny}}"
             }
-        }, // Maru was as excited as the kids were, raving about 'Maru the Science Guru'. I'm glad to hear they had a blast. // something about a catchy song
+        }, // Maru was as excited as the kids were, raving about 'Maru the Science Guru'. I'm glad to hear they had a blast. // something about a catchy song. Penny blushes at you catching her singing or something
         //
         // Demetrius Botany - Done!
         /*Event proper*/ {
