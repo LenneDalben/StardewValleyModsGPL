@@ -1056,7 +1056,7 @@
 			"LogName": "Goggle Squad Overlay by Airyn",
 			"Action": "EditImage",
 			"Target": "Portraits/Maru, Characters/Maru, Portraits/Jas, Characters/Jas, Portraits/Vincent, Characters/Vincent",
-			"FromFile": "Assets/GoggleOverlay_{{TargetPathOnly}}_{{TargetWithoutPath}}.png",
+			"FromFile": "Assets/Not-Code/GoggleOverlay_{{TargetPathOnly}}_{{TargetWithoutPath}}.png",
 			"PatchMode": "Overlay",
 			"When": {
 				"HasSeenEvent |contains= 31032030": false,
