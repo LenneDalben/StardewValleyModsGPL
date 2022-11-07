@@ -1034,6 +1034,12 @@
 			"Target": "Characters/SebComputer",
 			"FromFile": "assets/Not-Code/SebComputer.png"
 		},
+		/*Loading Potato Table*/ {
+			"LogName": "Loading Potato Table Sprite",
+			"Action": "Load",
+			"Target": "Characters/PotatoTable",
+			"FromFile": "assets/Not-Code/PotatoTable.png",
+		},
 		/*Loading Plain Potato*/ {
 			"LogName": "Loading Plain Potato Sprite by Airyn",
 			"Action": "Load",
