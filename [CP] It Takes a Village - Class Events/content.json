@@ -431,6 +431,21 @@
 				"HasSeenEvent |contains=31032030": true,
 			}
 		},
+		// Dynamic tokens for Maru Electronics
+		/*Maru's first line if you have seen Demetrius Botany*/ {
+			"Name": "MaruElectronicsFirstLine",
+			"Value": "{{Random: {{event-31032030.03}} %% {{event-31032030.02}} %% {{event-31032030.02}} %% {{event-31032030.02}} %% {{event-31032030.02}} %% {{event-31032030.02}} %% {{event-31032030.02}} %% {{event-31032030.02}} %% {{event-31032030.02}} %% {{event-31032030.02}} |key=monster |inputSeparator=%%}}",
+			"When": {
+				"HasSeenEvent |contains=31032029": "true"
+			}
+		},
+		/*Maru's first line if you have not seen Demetrius Botany*/ {
+			"Name": "MaruElectronicsFirstLine",
+			"Value": "{{i18n:event-31032030.01}}",
+			"When": {
+				"HasSeenEvent |contains=31032029": "false"
+			}
+		},
 		// Dynamic tokens for Demetrius Botany
 		// Temporary actor tokens
 		/*Temporary actor Crow*/ {
