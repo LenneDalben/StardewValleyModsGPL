@@ -1,5 +1,5 @@
 {
-    "Changes": [ // 10684 words
+    "Changes": [ // 10674 words
         // Maybe have at least 1 of the teachers try to lowkey crush the kids' spirits? :evilhehe: Then Penny can speak up like "umm how bout no"
         // don't forget to i18n as you go!
         // Thoughts on how to nest the dynamic dialog via dynamic tokens and i18n: some of the dialog for default.json is written here. Within the dynamic tokens, put the i18n tokens. Then in the patches for the CTs, put the dynamic token name. The actual dialog lines go in the default.json. That should work.
@@ -696,7 +696,7 @@
             }
         },
         //
-        // Maru Electronics IN PROGRESS
+        // Maru Electronics IN PROGRESS [Call back to Maru the science guru at the end, musicnote emotes all around, dat i18n]
         // Add CT for Demetrius (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Maru Electronics Lesson",
@@ -710,91 +710,91 @@
             }
         },
         /*Maru CT*/ {
-            "LogName": "Sebastian Computer Basics CT - Maru",
+            "LogName": "Maru Electronics CT - Maru",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Maru",
             "Entries": {
-                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Maru}}"
+                "ItTakesAVillage_MaruElectronics": "{{i18n:ItTakesAVillage_MaruElectronicsCT_Maru}}"
             }
         },
         /*Sebastian CT*/ {
-            "LogName": "Sebastian Computer Basics CT - Sebastian",
+            "LogName": "Maru Electronics CT - Sebastian",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sebastian",
             "Entries": {
-                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Sebastian}}"
+                "ItTakesAVillage_MaruElectronics": "{{i18n:ItTakesAVillage_MaruElectronicsCT_Sebastian}}"
             }
         },
         /*Robin CT*/ {
-            "LogName": "Sebastian Computer Basics CT - Robin",
+            "LogName": "Maru Electronics CT - Robin",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Robin",
             "Entries": {
-                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Robin}}"
+                "ItTakesAVillage_MaruElectronics": "{{i18n:ItTakesAVillage_MaruElectronicsCT_Robin}}"
             }
         },
         /*Jas CT*/ {
-            "LogName": "Sebastian Computer Basics CT - Jas",
+            "LogName": "Maru Electronics CT - Jas",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Jas",
             "Entries": {
-                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Jas}}"
+                "ItTakesAVillage_MaruElectronics": "{{i18n:ItTakesAVillage_MaruElectronicsCT_Jas}}"
             }
         },
         /*Vincent CT*/ {
-            "LogName": "Sebastian Computer Basics CT - Vincent",
+            "LogName": "Maru Electronics CT - Vincent",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Vincent",
             "Entries": {
-                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Vincent}}"
+                "ItTakesAVillage_MaruElectronics": "{{i18n:ItTakesAVillage_MaruElectronicsCT_Vincent}}"
             }
         }, // Vincent wants to keep the goggles
         /*Jodi CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Jodi",
+            "LogName": "Maru Electronics CT - Jodi",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Jodi",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Jodi}}"
+                "ItTakesAVillage_MaruElectronics": "{{i18n:ItTakesAVillage_MaruElectronicsCT_Jodi}}"
             }
         },
         /*Kent CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Kent",
+            "LogName": "Maru Electronics CT - Kent",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Kent",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Kent}}"
+                "ItTakesAVillage_MaruElectronics": "{{i18n:ItTakesAVillage_MaruElectronicsCT_Kent}}"
             }
         },
         /*Sam CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Sam",
+            "LogName": "Maru Electronics CT - Sam",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sam",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Sam}}"
+                "ItTakesAVillage_MaruElectronics": "{{i18n:ItTakesAVillage_MaruElectronicsCT_Sam}}"
             }
         },
         /*Marnie CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Marnie",
+            "LogName": "Maru Electronics CT - Marnie",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Marnie",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Marnie}}"
+                "ItTakesAVillage_MaruElectronics": "{{i18n:ItTakesAVillage_MaruElectronicsCT_Marnie}}"
             }
         },
         /*Shane CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Shane",
+            "LogName": "Maru Electronics CT - Shane",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Shane",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Shane}}"
+                "ItTakesAVillage_MaruElectronics": "{{i18n:ItTakesAVillage_MaruElectronicsCT_Shane}}"
             }
         },
         /*Penny CT*/ {
-            "LogName": "Abigail Economics CT - Penny",
+            "LogName": "Maru Electronics CT - Penny",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Penny",
             "Entries": {
-                "ItTakesAVillage_AbbyEcon": "{{i18n:ItTakesAVillage_AbbyEconCT_Penny}}"
+                "ItTakesAVillage_MaruElectronics": "{{i18n:ItTakesAVillage_MaruElectronicsCT_Penny}}"
             }
         }, // Maru was as excited as the kids were, raving about 'Maru the Science Guru'. I'm glad to hear they had a blast. // something about a catchy song. Penny blushes at you catching her singing or something
         //

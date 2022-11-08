@@ -1,5 +1,5 @@
 {
-    // ***Config Options*** 4987 words
+    // ***Config Options*** 4987 words (5028)
     //
     // Minimum Days Between Lessons
     "config.MinimumDaysBetweenLessons.name": "MinimumDaysBetweenLessons",
@@ -298,6 +298,25 @@
     "event-31032030.32": "Nice job everyone! Say thanks to Maru for the lesson!",
     "event-31032030.33": "Thanks!",
     "event-31032030.34": "You're welcome! I'm happy to teach you about science any time!$h",
+    // Maru Electronics CTs
+    "ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug": "",
+    "ItTakesAVillage_MaruElectronicsCT_Demetrius_NoBug": "",
+    "ItTakesAVillage_MaruElectronicsCT_Demetrius_YesCrow": "",
+    "ItTakesAVillage_MaruElectronicsCT_Demetrius_NoCrow": "",
+    "ItTakesAVillage_MaruElectronicsCT_Maru_YesBug": "",
+    "ItTakesAVillage_MaruElectronicsCT_Maru_NoBug": "",
+    "ItTakesAVillage_MaruElectronicsCT_Maru_YesCrow": "",
+    "ItTakesAVillage_MaruElectronicsCT_Maru_NoCrow": "",
+    "ItTakesAVillage_MaruElectronicsCT_Sebastian": "",
+    "ItTakesAVillage_MaruElectronicsCT_Robin": "",
+    "ItTakesAVillage_MaruElectronicsCT_Jas": "",
+    "ItTakesAVillage_MaruElectronicsCT_Vincent": "",
+    "ItTakesAVillage_MaruElectronicsCT_Jodi": "",
+    "ItTakesAVillage_MaruElectronicsCT_Kent": "",
+    "ItTakesAVillage_MaruElectronicsCT_Sam": "",
+    "ItTakesAVillage_MaruElectronicsCT_Marnie": "",
+    "ItTakesAVillage_MaruElectronicsCT_Shane" : "",
+    "ItTakesAVillage_MaruElectronicsCT_Penny": "",
     //
     // Demetrius Botany event
     "event-31032029.01": "Greetings, young ones! Are you ready for some botany?$h",
