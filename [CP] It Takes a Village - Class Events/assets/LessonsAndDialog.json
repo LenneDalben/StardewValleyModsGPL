@@ -287,99 +287,99 @@
             }
         },
         /*Haley CT*/ {
-            "LogName": "Sebastian Computer Basics CT - Sebastian",
+            "LogName": "Haley & Leah Art CT - Haley",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Sebastian",
+            "Target": "Characters/Dialogue/Haley",
             "Entries": {
-                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Sebastian}}"
+                "ItTakesAVillage_HaleyLeahArt": "{{i18n:ItTakesAVillage_HaleyLeahArtCT_Haley}}"
             }
         },
         /*Leah CT*/ {
-            "LogName": "Sebastian Computer Basics CT - Sebastian",
+            "LogName": "Haley & Leah Art CT - Leah",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Sebastian",
+            "Target": "Characters/Dialogue/Leah",
             "Entries": {
-                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Sebastian}}"
+                "ItTakesAVillage_HaleyLeahArt": "{{i18n:ItTakesAVillage_HaleyLeahArtCT_Leah}}"
             }
         },
         /*Emily CT*/ {
-            "LogName": "Sebastian Computer Basics CT - Sebastian",
+            "LogName": "Haley & Leah Art CT - Emily",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Sebastian",
+            "Target": "Characters/Dialogue/Emily",
             "Entries": {
-                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Sebastian}}"
+                "ItTakesAVillage_HaleyLeahArt": "{{i18n:ItTakesAVillage_HaleyLeahArtCT_Emily}}"
             }
         },
         /*Alex CT*/ {
-            "LogName": "Alex PE and Healthy Eating CT - Alex",
+            "LogName": "Haley & Leah Art CT - Alex",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Alex",
             "Entries": {
-                "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Alex}}"
+                "ItTakesAVillage_HaleyLeahArt": "{{i18n:ItTakesAVillage_HaleyLeahArtCT_Alex}}"
             }
         },
         /*Jas CT*/ {
-            "LogName": "Alex PE and Healthy Eating CT - Jas",
+            "LogName": "Haley & Leah Art CT - Jas",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Jas",
             "Entries": {
-                "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Jas}}"
+                "ItTakesAVillage_HaleyLeahArt": "{{i18n:ItTakesAVillage_HaleyLeahArtCT_Jas}}"
             }
         },
         /*Vincent CT*/ {
-            "LogName": "Alex PE and Healthy Eating CT - Vincent",
+            "LogName": "Haley & Leah Art CT - Vincent",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Vincent",
             "Entries": {
-                "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Vincent}}"
+                "ItTakesAVillage_HaleyLeahArt": "{{i18n:ItTakesAVillage_HaleyLeahArtCT_Vincent}}"
             }
         },
         /*Jodi CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Jodi",
+            "LogName": "Haley & Leah Art CT - Jodi",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Jodi",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Jodi}}"
+                "ItTakesAVillage_HaleyLeahArt": "{{i18n:ItTakesAVillage_HaleyLeahArtCT_Jodi}}"
             }
         },
         /*Kent CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Kent",
+            "LogName": "Haley & Leah Art CT - Kent",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Kent",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Kent}}"
+                "ItTakesAVillage_HaleyLeahArt": "{{i18n:ItTakesAVillage_HaleyLeahArtCT_Kent}}"
             }
         },
         /*Sam CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Sam",
+            "LogName": "Haley & Leah Art CT - Sam",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sam",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Sam}}"
+                "ItTakesAVillage_HaleyLeahArt": "{{i18n:ItTakesAVillage_HaleyLeahArtCT_Sam}}"
             }
         },
         /*Marnie CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Marnie",
+            "LogName": "Haley & Leah Art CT - Marnie",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Marnie",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Marnie}}"
+                "ItTakesAVillage_HaleyLeahArt": "{{i18n:ItTakesAVillage_HaleyLeahArtCT_Marnie}}"
             }
         },
         /*Shane CT*/ {
-            "LogName": "Penny Kickstarts Lessons CT - Shane",
+            "LogName": "Haley & Leah Art CT - Shane",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Shane",
             "Entries": {
-                "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Shane}}"
+                "ItTakesAVillage_HaleyLeahArt": "{{i18n:ItTakesAVillage_HaleyLeahArtCT_Shane}}"
             }
         },
         /*Penny CT*/ {
-            "LogName": "Alex PE and Healthy Eating CT - Penny",
+            "LogName": "Haley & Leah Art CT - Penny",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Penny",
             "Entries": {
-                "ItTakesAVillage_AlexPE": "{{i18n:ItTakesAVillage_AlexPECT_Penny}}"
+                "ItTakesAVillage_HaleyLeahArt": "{{i18n:ItTakesAVillage_HaleyLeahArtCT_Penny}}"
             }
         }, // It looks like some of the more technical details were lost on the kids, but they got the gist of it.#$b#That Haley though...$a
         //
@@ -608,27 +608,27 @@
             }
         },
         /*Sebastian CT*/ {
-            "LogName": "Sebastian Computer Basics CT - Sebastian",
+            "LogName": "Abigail Economics CT - Sebastian",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sebastian",
             "Entries": {
-                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Sebastian}}"
+                "ItTakesAVillage_AbbyEcon": "{{i18n:ItTakesAVillage_AbbyEconCT_Sebastian}}"
             }
         },
         /*Jas CT*/ {
-            "LogName": "Sebastian Computer Basics CT - Jas",
+            "LogName": "Abigail Economics CT - Jas",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Jas",
             "Entries": {
-                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Jas}}"
+                "ItTakesAVillage_AbbyEcon": "{{i18n:ItTakesAVillage_AbbyEconCT_Jas}}"
             }
         },
         /*Vincent CT*/ {
-            "LogName": "Sebastian Computer Basics CT - Vincent",
+            "LogName": "Abigail Economics CT - Vincent",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Vincent",
             "Entries": {
-                "ItTakesAVillage_SebComputer": "{{i18n:ItTakesAVillage_SebComputerCT_Vincent}}"
+                "ItTakesAVillage_AbbyEcon": "{{i18n:ItTakesAVillage_AbbyEconCT_Vincent}}"
             }
         },
         /*Caroline CT*/ {
@@ -703,7 +703,7 @@
             "Action": "EditData",
             "Target": "Data/Events/ScienceHouse",
             "Entries": {
-                "31032030/A ItTakesAVillage_Beginning/A ItTakesAVillage_AlexPE/A ItTakesAVillage_GusCooking/A ItTakesAVillage_ElliottStories/A ItTakesAVillage_HaleyLeahArt/A ItTakesAVillage_AbbyEcon/A ItTakesAVillage_SebComputer/A ItTakesAVillage_DemetriusBotany/A ItTakesAVillage_EmilyDance/A ItTakesAVillage_HarveyHealth/A ItTakesAVillage_AbigailVideoGames/A ItTakesAVillage_ClintMetalworking/A ItTakesAVillage_SamMusic/A ItTakesAVillage_ShaneAnimalCare/A ItTakesAVillage_AbigailSelfDefense/A ItTakesAVillage_RobinWoodworking/A ItTakesAVillage_WillyLinusFishing/A ItTakesAVillage_CarolineEvelynGardening": "none/-1000 -1000/Maru 19 19 2 Penny 16 18 2 Vincent 21 21 0 Jas 18 21 0 farmer -100 -100 0/changeToTemporaryMap Custom_ItTakesaVillage_Electronics/viewport -1000 -1000/warp Maru 19 19/warp Penny 16 18/warp Vincent 21 21/warp Jas 18 21/showFrame Penny 34/addTemporaryActor PotatoTable 32 32 19 21 2 false/viewport 20 21 true/addConversationTopic ItTakesAVillage_MaruElectronics {{MinimumDaysBetweenLessons}}/{{SkippableToken}}/speak Maru \"{{MaruElectronicsFirstLine}}\"/playMusic ragtime/jump Jas 6/pause 50/jump Vincent 6/{{MaruElectronicsGoggles}}/emote Vincent 40 true/emote Jas 40/speak Jas \"{{i18n:event-31032030.08}}\"/speak Maru \"{{i18n:event-31032030.09}}\"/emote Jas 32/speak Maru \"{{i18n:event-31032030.10}}\"/jump Vincent 4/jump Jas 4/fade/viewport -1000 -1000/pause 500/warp PotatoTable -100 -100/addTemporaryActor PlainPotato 32 32 19 21 2 false/viewport 20 21/pause 350/speak Maru \"{{i18n:event-31032030.11}}\"/speak Vincent \"{{i18n:event-31032030.12}}\"/speak Maru \"{{i18n:event-31032030.13}}\"/emote Vincent 32/speak Maru \"{{i18n:event-31032030.14}}\"/emote Vincent 8/speak Maru \"{{i18n:event-31032030.15}}\"/emote Vincent 28/speak Penny \"{{i18n:event-31032030.16}}\"/faceDirection Maru 0/speak Maru \"{{i18n:event-31032030.17}}\"/textAboveHead Vincent \"{{i18n:event-31032030.18}}\"/pause 400/faceDirection Maru 2/pause 200/emote Penny 32/speak Maru \"{{i18n:event-31032030.19}}\"/emote Vincent 16 true/emote Jas 16/speak Jas \"{{i18n:event-31032030.20}}\"/speak Maru \"{{i18n:event-31032030.21}}\"/emote Jas 32/speak Maru \"{{i18n:event-31032030.22}}\"/pause 200/speak Maru \"{{i18n:event-31032030.23}}\"/pause 200/playSound hitEnemy/pause 600/playSound hitEnemy/speak Maru \"{{i18n:event-31032030.24}}\"/jump Jas 6/textAboveHead Jas \"{{i18n:event-31032030.25}}\"/speak Maru \"{{i18n:event-31032030.26}}\"/fade/viewport -1000 -1000/pause 500/warp PlainPotato -100 -100/addTemporaryActor OffPotato 32 32 19 21 2 false/viewport 20 21/pause 350/speak Maru \"{{i18n:event-31032030.27}}\"/fade/viewport -1000 -1000/pause 1000/warp OffPotato -100 -100/addTemporaryActor OnPotato 32 32 19 21 2 false/viewport 20 21/playSound getNewSpecialItem/speak Maru \"{{i18n:event-31032030.28}}\"/jump Vincent 8/jump Jas 8/speak Maru \"{{i18n:event-31032030.29}}\"/textAboveHead Jas \"{{i18n:event-31032030.30}}\"/textAboveHead Vincent \"{{i18n:event-31032030.31}}\"/pause 1500/emote Penny 20/emote Maru 32/speak Penny \"{{i18n:event-31032030.32}}\"/emote Jas 20/textAboveHead Vincent \"{{i18n:event-31032030.33}}\"/speak Maru \"{{i18n:event-31032030.34}}\"/jump Jas 4/pause 200/jump Vincent 4/pause 1000/end"
+                "31032030/A ItTakesAVillage_Beginning/A ItTakesAVillage_AlexPE/A ItTakesAVillage_GusCooking/A ItTakesAVillage_ElliottStories/A ItTakesAVillage_HaleyLeahArt/A ItTakesAVillage_AbbyEcon/A ItTakesAVillage_SebComputer/A ItTakesAVillage_DemetriusBotany/A ItTakesAVillage_EmilyDance/A ItTakesAVillage_HarveyHealth/A ItTakesAVillage_AbigailVideoGames/A ItTakesAVillage_ClintMetalworking/A ItTakesAVillage_SamMusic/A ItTakesAVillage_ShaneAnimalCare/A ItTakesAVillage_AbigailSelfDefense/A ItTakesAVillage_RobinWoodworking/A ItTakesAVillage_WillyLinusFishing/A ItTakesAVillage_CarolineEvelynGardening": "none/-1000 -1000/Maru 19 19 2 Penny 16 18 2 Vincent 21 21 0 Jas 18 21 0 farmer -100 -100 0/changeToTemporaryMap Custom_ItTakesaVillage_Electronics/viewport -1000 -1000/warp Maru 19 19/warp Penny 16 18/warp Vincent 21 21/warp Jas 18 21/showFrame Penny 34/addTemporaryActor PotatoTable 32 32 19 21 2 false/viewport 20 21 true/addConversationTopic ItTakesAVillage_MaruElectronics {{MinimumDaysBetweenLessons}}/{{SkippableToken}}/speak Maru \"{{MaruElectronicsFirstLine}}\"/playMusic ragtime/jump Jas 6/pause 50/jump Vincent 6/{{MaruElectronicsGoggles}}/emote Vincent 40 true/emote Jas 40/speak Jas \"{{i18n:event-31032030.08}}\"/speak Maru \"{{i18n:event-31032030.09}}\"/emote Jas 32/speak Maru \"{{i18n:event-31032030.10}}\"/jump Vincent 4/jump Jas 4/fade/viewport -1000 -1000/pause 500/warp PotatoTable -100 -100/addTemporaryActor PlainPotato 32 32 19 21 2 false/viewport 20 21/pause 350/speak Maru \"{{i18n:event-31032030.11}}\"/speak Vincent \"{{i18n:event-31032030.12}}\"/speak Maru \"{{i18n:event-31032030.13}}\"/emote Vincent 32/speak Maru \"{{i18n:event-31032030.14}}\"/emote Vincent 8/speak Maru \"{{i18n:event-31032030.15}}\"/emote Vincent 28/speak Penny \"{{i18n:event-31032030.16}}\"/faceDirection Maru 0/speak Maru \"{{i18n:event-31032030.17}}\"/textAboveHead Vincent \"{{i18n:event-31032030.18}}\"/pause 400/faceDirection Maru 2/pause 200/emote Penny 32/speak Maru \"{{i18n:event-31032030.19}}\"/emote Vincent 16 true/emote Jas 16/speak Jas \"{{i18n:event-31032030.20}}\"/speak Maru \"{{i18n:event-31032030.21}}\"/emote Jas 32/speak Maru \"{{i18n:event-31032030.22}}\"/pause 200/speak Maru \"{{i18n:event-31032030.23}}\"/pause 200/playSound hitEnemy/pause 600/playSound hitEnemy/speak Maru \"{{i18n:event-31032030.24}}\"/jump Jas 6/textAboveHead Jas \"{{i18n:event-31032030.25}}\"/speak Maru \"{{i18n:event-31032030.26}}\"/fade/viewport -1000 -1000/pause 500/warp PlainPotato -100 -100/addTemporaryActor OffPotato 32 32 19 21 2 false/viewport 20 21/pause 350/speak Maru \"{{i18n:event-31032030.27}}\"/fade/viewport -1000 -1000/pause 1000/warp OffPotato -100 -100/addTemporaryActor OnPotato 32 32 19 21 2 false/viewport 20 21/playSound getNewSpecialItem/speak Maru \"{{i18n:event-31032030.28}}\"/jump Vincent 8/jump Jas 8/speak Maru \"{{i18n:event-31032030.29}}\"/textAboveHead Jas \"{{i18n:event-31032030.30}}\"/textAboveHead Vincent \"{{i18n:event-31032030.31}}\"/pause 1500/emote Penny 20/emote Maru 32/speak Penny \"{{i18n:event-31032030.32}}\"/emote Jas 20/textAboveHead Vincent \"{{i18n:event-31032030.33}}\"/speak Maru \"{{i18n:event-31032030.34}}\"/jump Jas 4/pause 200/jump Vincent 4/emote Maru 56 true/emote Jas 56 true/emote Vincent 56 true/emote Penny 56 false/pause 1000/end"
             },
             "When": {
                 "MaruElectronicsAndDemetriusBotanyToken": "MaruElectronicsYes, MaruElectronicsYesDemetriusBotanyNo"
@@ -748,7 +748,7 @@
             "Entries": {
                 "ItTakesAVillage_MaruElectronics": "{{i18n:ItTakesAVillage_MaruElectronicsCT_Vincent}}"
             }
-        }, // Vincent wants to keep the goggles
+        },
         /*Jodi CT*/ {
             "LogName": "Maru Electronics CT - Jodi",
             "Action": "EditData",
@@ -796,7 +796,7 @@
             "Entries": {
                 "ItTakesAVillage_MaruElectronics": "{{i18n:ItTakesAVillage_MaruElectronicsCT_Penny}}"
             }
-        }, // Maru was as excited as the kids were, raving about 'Maru the Science Guru'. I'm glad to hear they had a blast. // something about a catchy song. Penny blushes at you catching her singing or something
+        },
         //
         // Demetrius Botany - Done!
         /*Event proper*/ {
@@ -1229,14 +1229,13 @@
         }, // The kids are so used to metal being a solid thing, they really enjoyed seeing it melt.
         //
         // Abigail Video Games INCOMPLETE
-        // change the line about "it's good to learn about XYZ" to be dynamic based on a few lessons that may have played beforehand. This could actually get out of hand though I: would need fallback generic response in case this is somehow the first lesson
         // Add CT for Clint (with dynamic dialog!) // Well, that's practical. <dejected face>#$b#Metalworking can be fun too!... I guess.
         /*Event proper*/ {
             "LogName": "Abigail Video Games Lesson",
             "Action": "EditData",
-            "Target": "Data/Events/Town", // move into Saloon, t 1100 1810
+            "Target": "Data/Events/Town",
             "Entries": {
-                "31032033/A ItTakesAVillage_Beginning/A ItTakesAVillage_AlexPE/A ItTakesAVillage_GusCooking/A ItTakesAVillage_ElliottStories/A ItTakesAVillage_HaleyLeahArt/A ItTakesAVillage_AbbyEcon/A ItTakesAVillage_SebComputer/A ItTakesAVillage_DemetriusBotany/A ItTakesAVillage_MaruElectronics/A ItTakesAVillage_EmilyDance/A ItTakesAVillage_HarveyHealth/A ItTakesAVillage_ClintMetalworking/A ItTakesAVillage_SamMusic/A ItTakesAVillage_ShaneAnimalCare/A ItTakesAVillage_AbigailSelfDefense/A ItTakesAVillage_RobinWoodworking/A ItTakesAVillage_WillyLinusFishing/A ItTakesAVillage_CarolineEvelynGardening": "distantBanjo/-1000 -1000/farmer -100 -100 0 Gus -100 -100 0 Emily -100 -100 0 Abigail 42 58 2 Jas 41 59 0 Vincent 43 59 0/viewport 42 61 true/addConversationTopic ItTakesAVillage_AbigailVideoGames {{MinimumDaysBetweenLessons}}/{{SkippableToken}}/pause 800/speak Abigail \"{{i18n:event-31032033.01}}\"/move Abigail -6 0 2 true/emote Jas 8 true/emote Vincent 8 false/pause 50/faceDirection Jas 3/faceDirection Vincent 3/move Jas -4 0 2 true/move Vincent -4 0 2 true/fade/viewport -1000 -1000/halt/changeLocation Saloon/warp Gus 13 17/warp Emily 18 17/warp Abigail 14 21/warp Jas 13 21/warp Vincent 15 21/faceDirection Abigail 0/faceDirection Jas 0/faceDirection Vincent 0/viewport 14 22/pause 1000/faceDirection Gus 2/animate Gus false true 75 18 18 19 19 20 20 19 19/pause 500/faceDirection Emily 1/pause 500/speak Abigail \"{{i18n:event-31032033.02}}\"/speak Gus \"{{i18n:event-31032033.03}}\"/speak Abigail \"{{i18n:event-31032033.04}}\"/textAboveHead Gus \"{{AbigailVideoGamesSeasonalDish}}\"/pause 500/emote Abigail 32/pause 100/move Vincent 4 0 1 true/move Abigail 4 0 1 true/move Jas 4 0 1 true/pause 400/fade/viewport -1000 -1000/halt/pause 100/{{Random: AbbyVideoGamesPrairiePosition, AbbyVideoGamesJunimoPosition |key=vgame}}/faceDirection Abigail 0/faceDirection Jas 0/faceDirection Vincent 0/viewport 35 22/pause 500/speak Abigail \"{{AbbyVideoGamesSeenMetal}}\"/playSound getNewSpecialItem/pause 500/{{Random: AbbyVideoGamesPrairieMusic, AbbyVideoGamesJunimoMusic |key=vgame}}/speak Abigail \"{{i18n:event-31032033.11}}\"/faceDirection Jas 1/faceDirection Vincent 3/speak Vincent \"{{i18n:event-31032033.12}}\"/faceDirection Jas 0/faceDirection Vincent 0/pause 600/{{Random: AbbyVideoGamesPrairieJD %% AbbyVideoGamesJunimoJD |key=vgame |inputSeparator=%%}}/pause 100/emote Vincent 52 true/emote Jas 52 true/emote Abigail 52 false/pause 1000/end"
+                "31032033/A ItTakesAVillage_Beginning/A ItTakesAVillage_AlexPE/A ItTakesAVillage_GusCooking/A ItTakesAVillage_ElliottStories/A ItTakesAVillage_HaleyLeahArt/A ItTakesAVillage_AbbyEcon/A ItTakesAVillage_SebComputer/A ItTakesAVillage_DemetriusBotany/A ItTakesAVillage_MaruElectronics/A ItTakesAVillage_EmilyDance/A ItTakesAVillage_HarveyHealth/A ItTakesAVillage_ClintMetalworking/A ItTakesAVillage_SamMusic/A ItTakesAVillage_ShaneAnimalCare/A ItTakesAVillage_AbigailSelfDefense/A ItTakesAVillage_RobinWoodworking/A ItTakesAVillage_WillyLinusFishing/A ItTakesAVillage_CarolineEvelynGardening/t 1100 1810": "distantBanjo/-1000 -1000/farmer -100 -100 0 Gus -100 -100 0 Emily -100 -100 0 Abigail 42 58 2 Jas 41 59 0 Vincent 43 59 0/viewport 42 61 true/addConversationTopic ItTakesAVillage_AbigailVideoGames {{MinimumDaysBetweenLessons}}/{{SkippableToken}}/pause 800/speak Abigail \"{{i18n:event-31032033.01}}\"/move Abigail -6 0 2 true/emote Jas 8 true/emote Vincent 8 false/pause 50/faceDirection Jas 3/faceDirection Vincent 3/move Jas -4 0 2 true/move Vincent -4 0 2 true/fade/viewport -1000 -1000/halt/changeLocation Saloon/warp Gus 13 17/warp Emily 18 17/warp Abigail 14 21/warp Jas 13 21/warp Vincent 15 21/faceDirection Abigail 0/faceDirection Jas 0/faceDirection Vincent 0/viewport 14 22/pause 1000/faceDirection Gus 2/animate Gus false true 75 18 18 19 19 20 20 19 19/pause 500/faceDirection Emily 1/pause 500/speak Abigail \"{{i18n:event-31032033.02}}\"/speak Gus \"{{i18n:event-31032033.03}}\"/speak Abigail \"{{i18n:event-31032033.04}}\"/textAboveHead Gus \"{{AbigailVideoGamesSeasonalDish}}\"/pause 500/emote Abigail 32/pause 100/move Vincent 4 0 1 true/move Abigail 4 0 1 true/move Jas 4 0 1 true/pause 400/fade/viewport -1000 -1000/halt/pause 100/{{Random: AbbyVideoGamesPrairiePosition, AbbyVideoGamesJunimoPosition |key=vgame}}/faceDirection Abigail 0/faceDirection Jas 0/faceDirection Vincent 0/viewport 35 22/pause 500/speak Abigail \"{{AbbyVideoGamesSeenMetal}}\"/playSound getNewSpecialItem/pause 500/{{Random: AbbyVideoGamesPrairieMusic, AbbyVideoGamesJunimoMusic |key=vgame}}/speak Abigail \"{{i18n:event-31032033.11}}\"/faceDirection Jas 1/faceDirection Vincent 3/speak Vincent \"{{i18n:event-31032033.12}}\"/faceDirection Jas 0/faceDirection Vincent 0/pause 600/{{Random: AbbyVideoGamesPrairieJD %% AbbyVideoGamesJunimoJD |key=vgame |inputSeparator=%%}}/pause 100/emote Vincent 52 true/emote Jas 52 true/emote Abigail 52 false/pause 1000/end"
             },
             "When": {
                 "ClintMetalworkAndAbbyGamesToken": "AbbyGamesYes, AbbyGamesYesClintMetalworkNo"
@@ -1263,7 +1262,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Pierre",
             "Entries": {
-                "ItTakesAVillage_AbigailVideoGames": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Pierre}}"
+                "ItTakesAVillage_AbigailVideoGames": "{{AbbyVideoGamesPierreCT}}"
             }
         }, // does Pierre ever comment on her gaming? I think it's only Caroline?
         /*Sebastian CT*/ {
@@ -1271,9 +1270,9 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sebastian",
             "Entries": {
-                "ItTakesAVillage_AbigailVideoGames": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Sebastian}}"
+                "ItTakesAVillage_AbigailVideoGames": "{{AbbyVideoGamesSebastianCT}}"
             }
-        }, // Vary whether Seb computer lesson played ( Hmph I guess I could have taken the easy route and showed the kids how to play games too...#$b#What do you mean Abigail gave them other actual lessons?!#$b#Is it too late to change the lesson to showing them how to play pool? / Hmph I guess I could have taken the easy route and showed the kids how to play games too...#$b#What do you mean Abigail gave them other actual lessons?!#$b#Maybe I can redeem myself by showing them how to play pool?) <CHECK IF THE E THING MIGHT HELP HERE TO HAVE THE LAST ONE BE AFTER YOU COMPLETELY CLOSE OUT THE DIALOG BOX.>
+        },
         /*Jas CT*/ {
             "LogName": "Abigail Video Games CT - Jas",
             "Action": "EditData",
@@ -1311,9 +1310,9 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sam",
             "Entries": {
-                "ItTakesAVillage_AbigailVideoGames": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Sam}}"
+                "ItTakesAVillage_AbigailVideoGames": "{{AbbyVideoGamesSamCT}}"
             }
-        }, // Vary whether the Sam music lesson played (Kinda feel like Abigail showing the kids video games is cheating for popularity points...$s / Kinda feel like Abigail showing the kids video games is cheating for popularity points...$s#$b#At least Vincent enjoyed jamming out with me!)
+        },
         /*Marnie CT*/ {
             "LogName": "Abigail Video Games CT - Marnie",
             "Action": "EditData",
@@ -1331,14 +1330,13 @@
             }
         },
         /*Penny CT*/ {
-            "LogName": "Abigail Video Games CT - Abigail",
+            "LogName": "Abigail Video Games CT - Penny",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Abigail",
+            "Target": "Characters/Dialogue/Penny",
             "Entries": {
-                "ItTakesAVillage_AbigailVideoGames": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Abigail}}"
+                "ItTakesAVillage_AbigailVideoGames": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Penny}}"
             }
-        }, // "That's an interesting choice...$3.#$b#At least, um... they're learning about having good reflexes?#$b#%Penny lets out a puff of air.
-        // NEED TO TEST OUT THE #$b# to see if it works as intended
+        },
         //
         // Sam Music INCOMPLETE
         // Vincent super excited about jamming out
