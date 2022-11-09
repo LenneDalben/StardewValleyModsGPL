@@ -1,5 +1,5 @@
 {
-    // ***Config Options*** 4987 words (5028)
+    // ***Config Options*** 5028 words
     //
     // Minimum Days Between Lessons
     "config.MinimumDaysBetweenLessons.name": "MinimumDaysBetweenLessons",
@@ -297,26 +297,24 @@
     "event-31032030.31": "Cool!",
     "event-31032030.32": "Nice job everyone! Say thanks to Maru for the lesson!",
     "event-31032030.33": "Thanks!",
-    "event-31032030.34": "You're welcome! I'm happy to teach you about science any time!$h",
+    "event-31032030.34": "You're welcome! Maru the Science Guru is happy to teach you about science any time!$h",
     // Maru Electronics CTs
     "ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug": "",
-    "ItTakesAVillage_MaruElectronicsCT_Demetrius_NoBug": "",
     "ItTakesAVillage_MaruElectronicsCT_Demetrius_YesCrow": "",
-    "ItTakesAVillage_MaruElectronicsCT_Demetrius_NoCrow": "",
-    "ItTakesAVillage_MaruElectronicsCT_Maru_YesBug": "",
-    "ItTakesAVillage_MaruElectronicsCT_Maru_NoBug": "",
-    "ItTakesAVillage_MaruElectronicsCT_Maru_YesCrow": "",
-    "ItTakesAVillage_MaruElectronicsCT_Maru_NoCrow": "",
+    "ItTakesAVillage_MaruElectronicsCT_Demetrius_NoBugorCrow": "I heard the potato battery experiment went well.#$b#If the kids haven't fallen in love with science yet, they will after my nature tour!$h",
+    "ItTakesAVillage_MaruElectronicsCT_Maru_YesBug": "", // "The kids already seem excited about science. Maybe after my class, they will be completely sold on being future lab assistants!$h",
+    "ItTakesAVillage_MaruElectronicsCT_Maru_YesCrow": "I'm glad the big bird faded enough from the kids' memory to enjoy the potato battery.#$b#I wasn't sure how well that would go.$s",
+    "ItTakesAVillage_MaruElectronicsCT_Maru_NoBugorCrow": "Jas picked up the concepts pretty well!#$b#Vincent had fun with the goggles too, so a little something for everyone!$h",
     "ItTakesAVillage_MaruElectronicsCT_Sebastian": "",
-    "ItTakesAVillage_MaruElectronicsCT_Robin": "",
-    "ItTakesAVillage_MaruElectronicsCT_Jas": "",
-    "ItTakesAVillage_MaruElectronicsCT_Vincent": "",
+    "ItTakesAVillage_MaruElectronicsCT_Robin": "Maru was as excited as the kids were, raving about 'Maru the Science Guru'. I'm glad to hear they had a blast.",
+    "ItTakesAVillage_MaruElectronicsCT_Jas": "Experiments are a lot of fun.",
+    "ItTakesAVillage_MaruElectronicsCT_Vincent": "I want to keep the goggles!",
     "ItTakesAVillage_MaruElectronicsCT_Jodi": "",
     "ItTakesAVillage_MaruElectronicsCT_Kent": "",
     "ItTakesAVillage_MaruElectronicsCT_Sam": "",
     "ItTakesAVillage_MaruElectronicsCT_Marnie": "",
     "ItTakesAVillage_MaruElectronicsCT_Shane" : "",
-    "ItTakesAVillage_MaruElectronicsCT_Penny": "",
+    "ItTakesAVillage_MaruElectronicsCT_Penny": "Maru the Science Guru~!$h#$b#Oh! @!$l#$b#It's a catchy song, ok?$l",
     //
     // Demetrius Botany event
     "event-31032029.01": "Greetings, young ones! Are you ready for some botany?$h",
@@ -399,7 +397,26 @@
     "event-31032033.13": "I got one!$h",
     "event-31032033.14": "Oh no, I died already!$3",
     // Abigail Video Games CTs
-    // CT strings
+    "ItTakesAVillage_AbigailVideoGamesCT_Clint_YesMetalwork": "",
+    "ItTakesAVillage_AbigailVideoGamesCT_Clint_NoMetalwork": "",
+    "ItTakesAVillage_AbigailVideoGamesCT_Abigail_YesMetalwork": "",
+    "ItTakesAVillage_AbigailVideoGamesCT_Abigail_NoMetalwork": "",
+    "ItTakesAVillage_AbigailVideoGamesCT_Caroline": "",
+    "ItTakesAVillage_AbigailVideoGamesCT_Pierre_YesAbby": "",
+    "ItTakesAVillage_AbigailVideoGamesCT_Pierre_NoAbby": "",
+    "ItTakesAVillage_AbigailVideoGamesCT_Sebastian_YesComputerYesAbby": "Hmph I guess I could have taken the easy route and showed the kids how to play games too...$s#$b#What do you mean Abigail gave them other actual lessons?!#$b#Maybe I can redeem myself by showing them how to play pool?",
+    "ItTakesAVillage_AbigailVideoGamesCT_Sebastian_YesComputerNoAbby": "Hmph I guess I could have taken the easy route and showed the kids how to play games too...$s#$b#Maybe I can redeem myself by showing them how to play pool?",
+    "ItTakesAVillage_AbigailVideoGamesCT_Sebastian_NoComputerYesAbby": "Hmph I guess I could have taken the easy route and showed the kids how to play games too...#$b#What do you mean Abigail gave them other actual lessons?!#$b#Is it too late to change the lesson to showing them how to play pool?$s",
+    "ItTakesAVillage_AbigailVideoGamesCT_Sebastian_NoComputerNoAbby": "Hmph I guess I could have taken the easy route and showed the kids how to play games too...#$b#Is it too late to change the lesson to showing them how to play pool?$s",
+    "ItTakesAVillage_AbigailVideoGamesCT_Jas": "",
+    "ItTakesAVillage_AbigailVideoGamesCT_Vincent": "",
+    "ItTakesAVillage_AbigailVideoGamesCT_Jodi": "",
+    "ItTakesAVillage_AbigailVideoGamesCT_Kent": "",
+    "ItTakesAVillage_AbigailVideoGamesCT_Sam_YesMusic": "Kinda feel like Abigail showing the kids video games is cheating for popularity points...$s#$b#At least Vincent enjoyed jamming out with me!s",
+    "ItTakesAVillage_AbigailVideoGamesCT_Sam_NoMusic": "Kinda feel like Abigail showing the kids video games is cheating for popularity points...$s",
+    "ItTakesAVillage_AbigailVideoGamesCT_Marnie": "",
+    "ItTakesAVillage_AbigailVideoGamesCT_Shane": "",
+    "ItTakesAVillage_AbigailVideoGamesCT_Penny": "That's an interesting choice...$3.#$b#At least, um... they're learning about having good reflexes?#$b#%Penny lets out a puff of air.", // test the % text box
     //
     // Wrap up event
     "event-31032041.01": "That cake looks yummy!$h",
