@@ -30,12 +30,14 @@
 			"AllowMultiple": false
 		}
 	},
-	// Custom Map for Botany Lesson
+	// Custom Maps
 	"CustomLocations": [
+		// Custom Map for Botany lesson
 		{
 			"Name": "Custom_ItTakesaVillage_Botany",
 			"FromMapFile": "assets/Not-Code/Botany.tmx"
 		},
+		// Custom Map for Electronics lesson
 		{
 			"Name": "Custom_ItTakesaVillage_Electronics",
 			"FromMapFile": "assets/Not-Code/Electronics.tmx"
@@ -434,7 +436,7 @@
 		// Dynamic tokens for Maru Electronics
 		/*Maru's first line if you have seen Demetrius Botany*/ {
 			"Name": "MaruElectronicsFirstLine",
-			"Value": "{{Random: {{event-31032030.03}} %% {{event-31032030.02}} %% {{event-31032030.02}} %% {{event-31032030.02}} %% {{event-31032030.02}} %% {{event-31032030.02}} %% {{event-31032030.02}} %% {{event-31032030.02}} %% {{event-31032030.02}} %% {{event-31032030.02}} |key=monster |inputSeparator=%%}}",
+			"Value": "{{Random: {{i18n:event-31032030.03}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} |key=monster |inputSeparator=%%}}",
 			"When": {
 				"HasSeenEvent |contains=31032029": "true"
 			}
@@ -458,6 +460,20 @@
 			"Value": "speak Maru \"{{i18n:event-31032030.07}}\"",
 			"When": {
 				"PortraitandSpriteOverlayConfig": "false"
+			}
+		},
+		/*Dynamic Demetrius CT dialog if you have seen Demetrius Botany*/ {
+			"Name": "MaruElectronicsDemetriusCT",
+			"Value": "{{Random: {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesCrow}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} |key=monster |inputSeparator=%%}}",
+			"When": {
+				"HasSeenEvent |contains=31032029": "true"
+			}
+		},
+		/*Dynamic Demetrius CT dialog if you have not seen Demetrius Botany*/ {
+			"Name": "MaruElectronicsDemetriusCT",
+			"Value": "{{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_NoBugorCrow}}",
+			"When": {
+				"HasSeenEvent |contains=31032029": "false"
 			}
 		},
 		// Dynamic tokens for Demetrius Botany
@@ -807,6 +823,94 @@
 			"Value": "{{i18n:event-31032033.10}}",
 			"When": {
 				"HasSeenEvent |contains=31032024": "false"
+			}
+		},
+		/*Dynamic Abigail CT dialog if you have seen Clint Metalworking*/ {
+			"Name": "AbbyVideoGamesAbigailCT",
+			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Abigail_YesMetalwork}}",
+			"When": {
+				"HasSeenEvent |contains=31032024": "true"
+			}
+		},
+		/*Dynamic Abigail CT dialog if you have not seen Clint Metalworking*/ {
+			"Name": "AbbyVideoGamesAbigailCT",
+			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Abigail_NoMetalwork}}",
+			"When": {
+				"HasSeenEvent |contains=31032024": "false"
+			}
+		},
+		/*Dynamic Clint CT dialog if you have seen Clint Metalworking*/ {
+			"Name": "AbbyVideoGamesClintCT",
+			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Clint_YesMetalwork}}",
+			"When": {
+				"HasSeenEvent |contains=31032024": "true"
+			}
+		},
+		/*Dynamic Clint CT dialog if you have not seen Clint Metalworking*/ {
+			"Name": "AbbyVideoGamesClintCT",
+			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Clint_NoMetalwork}}",
+			"When": {
+				"HasSeenEvent |contains=31032024": "false"
+			}
+		},
+		/*Dynamic Pierre CT dialog if you have seen at least 1 Abby lesson*/ {
+			"Name": "AbbyVideoGamesPierreCT",
+			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Pierre_YesAbby}}",
+			"When": {
+				"HasSeenEvent |contains=31032033, 31032027, 31032037": "true",
+			}
+		},
+		/*Dynamic Pierre CT dialog if you have not seen an Abby lesson*/ {
+			"Name": "AbbyVideoGamesPierreCT",
+			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Pierre_NoAbby}}",
+			"When": {
+				"HasSeenEvent |contains=31032033, 31032027, 31032037": "false",
+			}
+		},
+		/*Dynamic Sam CT dialog if you have seen Sam Music*/ {
+			"Name": "AbbyVideoGamesSamCT",
+			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Sam_YesMusic}}",
+			"When": {
+				"HasSeenEvent |contains=31032035": "true"
+			}
+		},
+		/*Dynamic Sam CT dialog if you have not seen Sam Music*/ {
+			"Name": "AbbyVideoGamesSamCT",
+			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Sam_NoMusic}}",
+			"When": {
+				"HasSeenEvent |contains=31032035": "false"
+			}
+		},
+		/*Dynamic Sebastian CT dialog if you have seen Sebastian Computer Basics and at least 1 Abby lesson*/ {
+			"Name": "AbbyVideoGamesSebastianCT",
+			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Sebastian_YesComputerYesAbby}}",
+			"When": {
+				"SebComputerAndAbbyEconToken": "SebComputerYesAbbyEconNo",
+				"HasSeenEvent |contains=31032033, 31032027, 31032037": "true",
+			}
+		},
+		/*Dynamic Sebastian CT dialog if you have seen Sebastian Computer Basics and no Abby lesson*/ {
+			"Name": "AbbyVideoGamesSebastianCT",
+			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Sebastian_YesComputerNoAbby}}",
+			"When": {
+				"SebComputerAndAbbyEconToken": "SebComputerYesAbbyEconNo",
+				"HasSeenEvent |contains=31032033, 31032027, 31032037": "false",
+			}
+		},
+		/*Dynamic Sebastian CT dialog if you have not seen Sebastian Computer Basics and have seen at least 1 Abby lesson*/ {
+			"Name": "AbbyVideoGamesSebastianCT",
+			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Sebastian_NoComputerYesAbby}}",
+			"When": {
+				"SebComputerAndAbbyEconToken": "AbbyEconNoSebComputerNo",
+				"HasSeenEvent |contains=31032033, 31032027, 31032037": "true",
+			}
+		},
+		/*Dynamic Sebastian CT dialog if you have not seen Sebastian Computer Basics and no Abby lesson*/ {
+			"Name": "AbbyVideoGamesSebastianCT",
+			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Sebastian_NoComputerNoAbby}}",
+			"When": {
+				"SebComputerAndAbbyEconToken": "AbbyEconNoSebComputerNo",
+				"HasSeenEvent |contains=31032033, 31032027, 31032037": "false",
 			}
 		},
 		// Sam Music and Shane Animal Care
