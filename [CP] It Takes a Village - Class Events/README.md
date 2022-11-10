@@ -8,7 +8,7 @@ Features include semi-randomized order of lessons and dynamic dialog based on wh
 
 As a novice eventsmith, I was looking for event modding ideas that would be relatively simple but interesting to implement, and Airyn, who has many wonderful ideas, suggested a lessons series! The idea was "it takes a village to raise a child", so Penny will recruit fellow townspeople to teach the kids something they know. This mod has been an incredibly fun labor of love, so I hope you enjoy :)
 
-Each lesson or class is an event, taking place around the town. After each class, the townspeople will share their thoughts on the topic or how the lesson went. Some are supportive, some are judgmental, etc. Check out the screenshots for some examples! The MinimumDaysBetweenLessons config setting is how long the townspeople will share their thoughts for (for modders, these are Conversation Topics).
+Each lesson or class is an event, taking place somewhere in Pelican Town. After each class, the townspeople will share their thoughts on the topic or how the lesson went. Some are supportive, some are judgmental, etc. Check out the screenshots for some examples! The MinimumDaysBetweenLessons config setting is how long the townspeople will share their thoughts for (for modders, these are Conversation Topics).
 
 Fair warning: most of the events have the player being passive or just not there, so if that's not your thing, give the mod a pass.
 
@@ -19,16 +19,22 @@ Translations are welcome! You can submit either the language.json to me or the s
 
 To begin the lesson series, reach 6 hearts with Penny, then visit the town on a sunny day between 9:30am and 7pm. An event will play with Penny outside the Library / Museum.
 
+Refer to the spoiler guide for details on activating the other events.
+
 
 ||Configuration||
 
 Config Options
 
-* MinimumDaysBetweenLessons: After kicking off the lessons, at least 7 days must pass between the lessons by default. This means it'd take at least 16 weeks in-game to see all the lessons. If you'd like to reduce the time between lessons to see them faster, or increase the time to spread out the lessons even more, you can! You can select a number between 1 day and 28 days for minimum days between lessons.
+* Minimum Days Between Lessons: After kicking off the lessons, at least 7 days must pass between the lessons by default. That's how long you have to talk to the villagers after each lesson to hear their thoughts. This also means it'd take at least 20 weeks in-game to see all the lessons. If you'd like to reduce the time between lessons to see them faster, or increase the time to spread out the lessons even more, you can! You can select a number between 1 day and 28 days for minimum days between lessons.
 
-* SkippableConfig: Specify if you want the events in the series to be skippable (true, false). Default is false. Useful for repeat playthroughs if you want to pick and choose which events you see, or if you're worried about getting stuck during an event due to a mod that changes maps.
+* Skippable Config: Specify if you want the events in the series to be skippable (true, false). Default is false. Useful for repeat playthroughs if you want to pick and choose which events you see, or if you're worried about getting stuck during an event due to a mod that changes maps.
 
-* EditPenny8HeartEvent: For immersion reasons, Penny's 8 heart event is tweaked to include a reference to the lessons. Set this to false if you have another mod that edits Penny's 8 heart event. Default is true.
+* Portrait and Sprite Overlay Config: Specify if you want the Maru electronics lesson to include a portrait and sprite overlay as a fun feature. Default is true. The overlays were designed for vanilla and Diverse Stardew (DSV). If you use any other portrait or sprite mod that affect Maru, Jas, and/or Vincent, you may want to set this to false for immersion.
+
+* Load Blacksmith Config: Set this to false if you have a mod that adds events to the Blacksmith shop besides Clint Marriage Mod, Looking for Love, or Lucikiel. ITAV automatically detects Clint Marriage Mod, Looking for Love, and Lucikiel so adjusting this setting is not needed for those mods. Default is true.
+
+* Edit Penny 8 Heart Event: For immersion reasons, Penny's 8 heart event is tweaked to include a reference to the lessons. Set this to false if you have another mod that edits Penny's 8 heart event. Default is true.
 
 Note that the mod does not come packaged with a config file. The config file will be generated after you run the game with the mod installed at least once. 
 
@@ -49,7 +55,7 @@ A note on Stardew Valley Expanded (SVE): I don’t use it and never will, so I w
 
 ||Shout Outs||
 
-<a href="https://www.moddrop.com/stardew-valley/profile/182160/mods">Airyn</a>, fantastic modder and friend. You provided the initial idea, and so much support and guidance on wording, in-character-ness, dynamic token magic, random token magic, etc. Without you, this mod would never have happened. Thank you so much <3
+<a href="https://www.moddrop.com/stardew-valley/profile/182160/mods">Airyn</a>, fantastic modder and friend. You provided the initial idea, and so much support and editing guidance on wording, in-character-ness, dynamic token magic, random token magic, etc. Without you, this mod would never have happened. Thank you so much <3
 
 <a href ="https://www.nexusmods.com/stardewvalley/users/116553368?tab=user+files">Atravita</a>, for helping me out with event forks <3
 
