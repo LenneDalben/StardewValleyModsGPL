@@ -1252,7 +1252,7 @@
             "Entries": {
                 "ItTakesAVillage_AbigailVideoGames": "{{AbbyVideoGamesPierreCT}}"
             }
-        }, // does Pierre ever comment on her gaming? I think it's only Caroline?
+        },
         /*Sebastian CT*/ {
             "LogName": "Abigail Video Games CT - Sebastian",
             "Action": "EditData",
