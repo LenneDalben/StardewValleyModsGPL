@@ -1638,7 +1638,8 @@
         //
         // Abigail Self-Defense INCOMPLETE
         // need cute verbal sound effects, kya
-        // I am concerned we would need new sprites for this. Pretty sure none of them have anything that would pass for kicks or punches lol
+        // I am concerned we would need new sprites for this. Pretty sure none of them have anything that would pass for kicks or punches lol maybe could something with combination of jumping, running, and shaking
+        // maybe in this one the player could have a show off moment, depending on their combat skill level! :unawow: Abigail could hand player "club" assuming we can spawn a weapon
         // Add CT for Robin (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Abigail Self-Defense Lesson",
