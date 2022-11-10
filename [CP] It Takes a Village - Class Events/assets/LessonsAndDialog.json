@@ -693,8 +693,7 @@
             }
         },
         //
-        // Maru Electronics IN PROGRESS [Call back to Maru the science guru at the end, musicnote emotes all around, dat i18n]
-        // Add CT for Demetrius (with dynamic dialog!)
+        // Maru Electronics - Done!
         /*Event proper*/ {
             "LogName": "Maru Electronics Lesson",
             "Action": "EditData",
