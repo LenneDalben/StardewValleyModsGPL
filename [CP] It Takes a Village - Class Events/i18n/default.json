@@ -45,6 +45,12 @@
     "config.PortraitandSpriteOverlayConfig.values.true": "true",
     "config.PortraitandSpriteOverlayConfig.values.false": "false",
     //
+    // Load Blacksmith
+    "config.LoadBlacksmithConfig.name": "LoadBlacksmithConfig",
+    "config.LoadBlacksmithConfig.description": "Set this to false if you have a mod that adds events to the Blacksmith shop besides Clint Marriage Mod, Looking for Love, or Lucikiel. ITAV automatically detects Clint Marriage Mod, Looking for Love, and Lucikiel so adjusting this setting is not needed for those mods. Default is true.",
+    "config.LoadBlacksmithConfig.values.true": "true",
+    "config.LoadBlacksmithConfig.values.false": "false",
+    //
     // Edit Penny 8 Heart Event // Add note about compat
     "config.EditPenny8HeartEvent.name": "EditPenny8HeartEvent",
     "config.EditPenny8HeartEvent.description": "For immersion reasons, Penny's 8 heart event is tweaked to include a reference to the lessons. Set this to false if you have another mod that edits Penny's 8 heart event. Default is true.",
