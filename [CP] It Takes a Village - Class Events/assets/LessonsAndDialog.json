@@ -1789,7 +1789,7 @@
             "Entries": {
                 "ItTakesAVillage_WillyLinusFishing": "{{i18n:ItTakesAVillage_WillyLinusFishingCT_Lewis}}"
             }
-        }, // Good to see that someone's showing the children potential career options! It's good to give them goals so they don't end up as delinquents.
+        }, // I'm glad that someone's showing the children potential career options! It's good to give them goals so they don't end up as delinquents.
         /*Gus CT*/ {
             "LogName": "Willy & Linus Fishing CT - Gus",
             "Action": "EditData",
