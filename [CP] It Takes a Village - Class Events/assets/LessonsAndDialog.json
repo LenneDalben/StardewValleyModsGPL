@@ -1129,7 +1129,7 @@
         // And the objects will be added in the max compat way, where it's literally only the object on the map, with the very specific coordinates (copy from Elliott Elegant Quill)
         // Airyn said made he could make smol candleholder sprites
         // Will need to test if I can use the geode crushing animation or not. I can't remember if Clint has a hammering animation that's not smol, otherwise, we could have the kids standing in front of the anvil facing it, fade to black, clank sounds, sparkle sound, fade in. Airyn also recommended little production bubble pop up, maybe a little silver or copper star? Airyn offered sprites for these
-        // "wow, Mr Clint, that's so cool!!! :CLavrilLayWow: "
+        // "wow, Mr Clint, that's so cool!!! :LavrilLayWow: "
         // But Clint is just tight lipped and socially awkward like “um, sure. just is. Don't get too close, it's hot."
         // Add CT for Abigail (with dynamic dialog!)
         /*Event proper*/ {
@@ -1224,8 +1224,7 @@
             }
         }, // The kids are so used to metal being a solid thing, they really enjoyed seeing it melt.
         //
-        // Abigail Video Games IN PROGRESS
-        // Add CT for Clint (with dynamic dialog!) // 
+        // Abigail Video Games - Done!
         /*Event proper*/ {
             "LogName": "Abigail Video Games Lesson",
             "Action": "EditData",
