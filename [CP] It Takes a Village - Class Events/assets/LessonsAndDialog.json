@@ -710,7 +710,15 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Maru",
             "Entries": {
-                "ItTakesAVillage_MaruElectronics": "{{i18n:ItTakesAVillage_MaruElectronicsCT_Maru}}"
+                "ItTakesAVillage_MaruElectronics": "{{MaruElectronicsMaruCT}}"
+            }
+        },
+        /*Demetrius CT*/ {
+            "LogName": "Maru Electronics CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "ItTakesAVillage_MaruElectronics": "{{MaruElectronicsDemetriusCT}}"
             }
         },
         /*Robin CT*/ {
