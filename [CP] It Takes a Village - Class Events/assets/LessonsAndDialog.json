@@ -1237,6 +1237,14 @@
                 "ItTakesAVillage_AbigailVideoGames": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Abigail}}"
             }
         },
+        /*Clint CT*/ {
+            "LogName": "Abigail Video Games CT - Clint",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Clint",
+            "Entries": {
+                "ItTakesAVillage_AbigailVideoGames": "{{AbbyVideoGamesClintCT}}"
+            }
+        },
         /*Caroline CT*/ {
             "LogName": "Abigail Video Games CT - Caroline",
             "Action": "EditData",
