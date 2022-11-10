@@ -1327,7 +1327,7 @@
         },
         //
         // Sam Music INCOMPLETE
-        // Vincent super excited about jamming out
+        // Vincent super excited about jamming out. Jas less so.
         /*Event proper*/ {
             "LogName": "Sam Music Lesson",
             "Action": "EditData",
