@@ -825,20 +825,6 @@
 				"HasSeenEvent |contains=31032024": "false"
 			}
 		},
-		/*Dynamic Abigail CT dialog if you have seen Clint Metalworking*/ {
-			"Name": "AbbyVideoGamesAbigailCT",
-			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Abigail_YesMetalwork}}",
-			"When": {
-				"HasSeenEvent |contains=31032024": "true"
-			}
-		},
-		/*Dynamic Abigail CT dialog if you have not seen Clint Metalworking*/ {
-			"Name": "AbbyVideoGamesAbigailCT",
-			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Abigail_NoMetalwork}}",
-			"When": {
-				"HasSeenEvent |contains=31032024": "false"
-			}
-		},
 		/*Dynamic Clint CT dialog if you have seen Clint Metalworking*/ {
 			"Name": "AbbyVideoGamesClintCT",
 			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Clint_YesMetalwork}}",
@@ -851,6 +837,20 @@
 			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Clint_NoMetalwork}}",
 			"When": {
 				"HasSeenEvent |contains=31032024": "false"
+			}
+		},
+		/*Dynamic Caroline CT dialog if you have seen at least 1 Abby lesson*/ {
+			"Name": "AbbyVideoGamesCarolineCT",
+			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Caroline_YesAbby}}",
+			"When": {
+				"HasSeenEvent |contains=31032033, 31032027, 31032037": "true",
+			}
+		},
+		/*Dynamic Caroline CT dialog if you have not seen an Abby lesson*/ {
+			"Name": "AbbyVideoGamesCarolineCT",
+			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Caroline_NoAbby}}",
+			"When": {
+				"HasSeenEvent |contains=31032033, 31032027, 31032037": "false",
 			}
 		},
 		/*Dynamic Pierre CT dialog if you have seen at least 1 Abby lesson*/ {
