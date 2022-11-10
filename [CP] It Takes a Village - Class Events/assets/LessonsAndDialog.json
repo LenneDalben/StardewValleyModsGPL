@@ -1525,6 +1525,7 @@
         // Hey kids! This is how you make a flute block!
         // Spawn in the required items for a flute block (wood, copper, fiber)
         // Oooh ahhh from the youths
+        // something from the player depending on whether you have the recipe too. I wonder if there's something to check that, since it's an artifact (mail flag?)
         // Fade to black, fade in, the kids take turns striking it. Need to find the sound effects for the flute block, if it's usable.
         // Add CT for Abigail (with dynamic dialog!)
         /*Event proper*/ {
