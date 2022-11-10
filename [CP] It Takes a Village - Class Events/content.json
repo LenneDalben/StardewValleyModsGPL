@@ -804,11 +804,11 @@
 			"Value": "playMusic junimoKart"
 		},
 		/*Prairie King Jump & Dialog*/ {
-			"Name": "AbbyVideoGamesPrairieJD",
+			"Name": "AbbyVideoGamesPrairieJumpDialog",
 			"Value": "jump Jas 6/speak Jas \"{{i18n:event-31032033.13}}\""
 		},
 		/*Junimo Kart Jump & Dialog*/ {
-			"Name": "AbbyVideoGamesJunimoJD",
+			"Name": "AbbyVideoGamesJunimoJumpDialog",
 			"Value": "jump Vincent 6/speak Vincent \"{{i18n:event-31032033.14}}\""
 		},
 		/*Dynamic event Abigail dialog, saw Metalworking lesson*/ {
