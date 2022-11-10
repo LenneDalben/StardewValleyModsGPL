@@ -3,10 +3,7 @@
         // Maybe have at least 1 of the teachers try to lowkey crush the kids' spirits? :evilhehe: Then Penny can speak up like "umm how bout no"
         // don't forget to i18n as you go!
         // Thoughts on how to nest the dynamic dialog via dynamic tokens and i18n: some of the dialog for default.json is written here. Within the dynamic tokens, put the i18n tokens. Then in the patches for the CTs, put the dynamic token name. The actual dialog lines go in the default.json. That should work.
-        // Need to make sure the naming convention is clear. HOOEY this will be a *lot* of dynamic tokens :blobsweat:
         // For the audience kids: obviously Vincent and Jas are always there, but what modded kids attend Penny's lessons? I think Eloise, but not sure if anyone else does (Keahi / Trinnie?). Need permissions to include them, and also the mod authors' opinion on how those kids would react to each lesson (enjoy, dislike, indifferent).
-        // Stray question: can you set multiple CTs in the same event or letter? In an event, separated by /? Unsure how you'd separate them for letters
-        // Stray lul: there's an ANSWERING MACHINE with a portrait?! LOL
         //
         // Events and CTs
         // Penny kickstarts the lessons! - Done!
@@ -715,14 +712,6 @@
             "Target": "Characters/Dialogue/Maru",
             "Entries": {
                 "ItTakesAVillage_MaruElectronics": "{{i18n:ItTakesAVillage_MaruElectronicsCT_Maru}}"
-            }
-        },
-        /*Sebastian CT*/ {
-            "LogName": "Maru Electronics CT - Sebastian",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Sebastian",
-            "Entries": {
-                "ItTakesAVillage_MaruElectronics": "{{i18n:ItTakesAVillage_MaruElectronicsCT_Sebastian}}"
             }
         },
         /*Robin CT*/ {
