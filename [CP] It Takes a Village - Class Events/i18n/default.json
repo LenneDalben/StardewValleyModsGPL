@@ -1,5 +1,5 @@
 {
-    // ***Config Options*** 5028 words
+    // ***Config Options*** 5028 words (5541)
     //
     // Minimum Days Between Lessons
     "config.MinimumDaysBetweenLessons.name": "MinimumDaysBetweenLessons",
@@ -401,21 +401,21 @@
     "ItTakesAVillage_AbigailVideoGamesCT_Abigail": "It's good for the kids to have a little fun every now and then.$h",
     "ItTakesAVillage_AbigailVideoGamesCT_Caroline_YesAbby": "Hmph.$3.#$b#Well at least Abigail has taught the kids actual things, but I still don't approve of wasting their time with video games.$2",
     "ItTakesAVillage_AbigailVideoGamesCT_Caroline_NoAbby": "I can't BELIEVE Abigail would waste the kids' time like this.$3",
-    "ItTakesAVillage_AbigailVideoGamesCT_Pierre_YesAbby": "",
+    "ItTakesAVillage_AbigailVideoGamesCT_Pierre_YesAbby": "I agree with Caroline. Abigail redeemed herself ahead of time by teaching the young ones something that would be covered in school.",
     "ItTakesAVillage_AbigailVideoGamesCT_Pierre_NoAbby": "%Pierre is speechless.",
     "ItTakesAVillage_AbigailVideoGamesCT_Sebastian_YesComputerYesAbby": "Hmph I guess I could have taken the easy route and showed the kids how to play games too...$s#$b#What do you mean Abigail gave them other actual lessons?!#$b#Maybe I can redeem myself by showing them how to play pool?",
     "ItTakesAVillage_AbigailVideoGamesCT_Sebastian_YesComputerNoAbby": "Hmph I guess I could have taken the easy route and showed the kids how to play games too...$s#$b#Maybe I can redeem myself by showing them how to play pool?",
     "ItTakesAVillage_AbigailVideoGamesCT_Sebastian_NoComputerYesAbby": "Hmph I guess I could have taken the easy route and showed the kids how to play games too...#$b#What do you mean Abigail gave them other actual lessons?!#$b#Is it too late to change the lesson to showing them how to play pool?$s",
     "ItTakesAVillage_AbigailVideoGamesCT_Sebastian_NoComputerNoAbby": "Hmph I guess I could have taken the easy route and showed the kids how to play games too...#$b#Is it too late to change the lesson to showing them how to play pool?$s",
     "ItTakesAVillage_AbigailVideoGamesCT_Jas": "",
-    "ItTakesAVillage_AbigailVideoGamesCT_Vincent": "",
+    "ItTakesAVillage_AbigailVideoGamesCT_Vincent": "%Vincent is singing a familiar song.",
     "ItTakesAVillage_AbigailVideoGamesCT_Jodi": "",
     "ItTakesAVillage_AbigailVideoGamesCT_Kent": "",
     "ItTakesAVillage_AbigailVideoGamesCT_Sam_YesMusic": "Kinda feel like Abigail showing the kids video games is cheating for popularity points...$s#$b#At least Vincent enjoyed jamming out with me!s",
     "ItTakesAVillage_AbigailVideoGamesCT_Sam_NoMusic": "Kinda feel like Abigail showing the kids video games is cheating for popularity points...$s",
     "ItTakesAVillage_AbigailVideoGamesCT_Marnie": "",
     "ItTakesAVillage_AbigailVideoGamesCT_Shane": "",
-    "ItTakesAVillage_AbigailVideoGamesCT_Penny": "That's an interesting choice...$3.#$b#At least, um... they're learning about having good reflexes?#$b#%Penny lets out a puff of air.", // test the % text box
+    "ItTakesAVillage_AbigailVideoGamesCT_Penny": "That's an interesting choice...$3.#$b#At least, um... they're learning about having good reflexes?$3#$b#%Penny lets out a puff of air.", // test the % text box
     //
     // Wrap up event
     "event-31032041.01": "That cake looks yummy!$h",
