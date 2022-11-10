@@ -1218,7 +1218,7 @@
         }, // The kids are so used to metal being a solid thing, they really enjoyed seeing it melt.
         //
         // Abigail Video Games INCOMPLETE
-        // Add CT for Clint (with dynamic dialog!) // Well, that's practical. <dejected face>#$b#Metalworking can be fun too!... I guess.
+        // Add CT for Clint (with dynamic dialog!) // 
         /*Event proper*/ {
             "LogName": "Abigail Video Games Lesson",
             "Action": "EditData",
@@ -1243,7 +1243,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Caroline",
             "Entries": {
-                "ItTakesAVillage_AbigailVideoGames": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Caroline}}"
+                "ItTakesAVillage_AbigailVideoGames": "{{AbbyVideoGamesCarolineCT}}"
             }
         },
         /*Pierre CT*/ {
