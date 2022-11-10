@@ -1,4 +1,4 @@
-{ // 3834 words
+{ // 3834 words (4237)
 	"Format": "1.21.0",
 	"ConfigSchema": {
 		"MinimumDaysBetweenLessons": {
@@ -60,7 +60,7 @@
 				"SkippableConfig": "true"
 			}
 		},
-		// the events themselves would check for the value of the token, so like the Abby econ lesson would check SebComputerBasicsAndAbbyEconToken value for either AbbyEconYes or AbbyEconYesSebComputerNo in order to play the Abby econ lesson o:
+		// The events themselves check for the value of the token, so like the Abby econ lesson would check SebComputerBasicsAndAbbyEconToken value for either AbbyEconYes or AbbyEconYesSebComputerNo in order to play the Abby econ lesson o:
 		//
 		// Dynamic Tokens for the HasSeenEvent
 		// Alex PE and Gus Cooking
@@ -104,6 +104,7 @@
 				"HasSeenEvent |contains=31032023": true,
 			}
 		},
+		// Dynamic dialog for Alex PE
 		/*Dynamic event dialog, saw Gus Cooking lesson*/ {
 			"Name": "AlexPESeenGusCooking",
 			"Value": "speak Alex \"{{i18n:event-31032023.02}}\"/speak Penny \"{{i18n:event-31032023.03}}\"",
@@ -118,7 +119,6 @@
 				"HasSeenEvent |contains=31032024": "false"
 			}
 		},
-		// Dynamic dialog for Alex PE
 		/*Dynamic Alex CT dialog, haven't seen Gus Cooking lesson*/ {
 			"Name": "AlexPEAlexCT",
 			"Value": "{{i18n:ItTakesAVillage_AlexPECT_Alex_NoCooking}}",
@@ -147,6 +147,7 @@
 				"HasSeenEvent |contains=31032024": "true"
 			}
 		},
+		// Dynamic dialog for Gus Cooking
 		/*Dynamic event dialog, saw Alex PE lesson*/ {
 			"Name": "GusCookingSeenAlexPE",
 			"Value": "speak Gus \"{{i18n:event-31032024.01}}\"/shake Jas 600/jump Vincent 4/speak Penny \"{{i18n:event-31032024.02}}\"/emote Gus 32",
@@ -161,7 +162,6 @@
 				"HasSeenEvent |contains=31032023": "false"
 			}
 		},
-		// Dynamic dialog for Gus Cooking
 		/*Dynamic Gus CT dialog, haven't seen Alex PE lesson*/ {
 			"Name": "GusCookingGusCT",
 			"Value": "{{i18n:ItTakesAVillage_GusCookingCT_Gus_NoPE}}",
@@ -364,14 +364,14 @@
 			}
 		},
 		// Dynamic dialog for Abigail Econ
-		{
+		/*Dynamic event dialog, saw Computer Basics lesson*/ {
 			"Name": "AbbyEconSeenSebComputer",
 			"Value": "speak Penny \"{{i18n:event-31032027.03}}\"/faceDirection Penny 1",
 			"When": {
 				"HasSeenEvent |contains=31032028": "true"
 			}
 		},
-		{
+		/*Dynamic event dialog, did not see Computer Basics lesson*/ {
 			"Name": "AbbyEconSeenSebComputer",
 			"Value": "faceDirection Penny 1",
 			"When": {
@@ -462,6 +462,20 @@
 				"PortraitandSpriteOverlayConfig": "false"
 			}
 		},
+		/*Dynamic Maru CT dialog if you have seen Demetrius Botany*/ {
+			"Name": "MaruElectronicsMaruCT",
+			"Value": "{{Random: {{i18n:ItTakesAVillage_MaruElectronicsCT_Maru_YesCrow}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Maru_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Maru_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Maru_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Maru_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Maru_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Maru_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Maru_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Maru_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Maru_YesBug}} |key=monster |inputSeparator=%%}}",
+			"When": {
+				"HasSeenEvent |contains=31032029": "true"
+			}
+		},
+		/*Dynamic Maru CT dialog if you have not seen Demetrius Botany*/ {
+			"Name": "MaruElectronicsMaruCT",
+			"Value": "{{i18n:ItTakesAVillage_MaruElectronicsCT_Maru_NoBugorCrow}}",
+			"When": {
+				"HasSeenEvent |contains=31032029": "false"
+			}
+		},
 		/*Dynamic Demetrius CT dialog if you have seen Demetrius Botany*/ {
 			"Name": "MaruElectronicsDemetriusCT",
 			"Value": "{{Random: {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesCrow}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} |key=monster |inputSeparator=%%}}",
@@ -494,6 +508,7 @@
 			"Name": "DemetriusBotanyEnterBug",
 			"Value": "playSound batFlap/pause 400/playSound batFlap/pause 400/playSound batFlap/pause 500/warp Bug 13 34/pause 500/emote Demetrius 8/speak Demetrius \"{{i18n:event-31032029.19}}\"/emote Vincent 8 true/emote Jas 8 true/faceDirection Demetrius 1/pause 50/faceDirection Demetrius 0/pause 50/faceDirection Penny 3 true/faceDirection Jas 3 true/faceDirection Vincent 3 true/faceDirection Demetrius 3 true/speed Bug 6/move Bug 36 0 1 true/pause 1000/emote Demetrius 16 true/emote Vincent 32 true/jump Penny 8/jump Jas 4/speak Demetrius \"{{i18n:event-31032029.25}}\"/faceDirection Penny 1 true/faceDirection Jas 1 true/faceDirection Vincent 1 true/faceDirection Demetrius 1 true/speak Jas \"{{i18n:event-31032029.26}}\"/speak Demetrius \"{{i18n:event-31032029.27}}\"/speak Vincent \"{{i18n:event-31032029.28}}\"/faceDirection Demetrius 3/emote Demetrius 32/speak Demetrius \"{{i18n:event-31032029.29}}\""
 		},
+		// Forage tokens
 		/*Dynamic event forage, salmonberry in spring*/ {
 			"Name": "DemetriusBotanySeasonalForageObject",
 			"Value": "addObject 33 30 296 1",
