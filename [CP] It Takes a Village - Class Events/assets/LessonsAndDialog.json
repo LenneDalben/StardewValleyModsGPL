@@ -1797,7 +1797,7 @@
             "Entries": {
                 "ItTakesAVillage_WillyLinusFishing": "{{i18n:ItTakesAVillage_WillyLinusFishingCT_Gus}}"
             }
-        }, // I'm glad Linus is comfortable enough with the townspeople to get involved as a guest lecturer.
+        }, // I'm glad Linus is comfortable enough with the townspeople to get involved as a guest lecturer. (maybe vary depending on whether you saw the trash can incident 502969)
         /*Wizard CT*/ {
             "LogName": "Willy & Linus Fishing CT - Wizard",
             "Action": "EditData",
