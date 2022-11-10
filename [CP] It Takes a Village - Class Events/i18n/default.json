@@ -262,7 +262,7 @@
     "ItTakesAVillage_SebComputerCT_Vincent": "I guess Mr. Sebastian plays with a turtle in the computer. It doesn't look like a turtle though.$3",
     "ItTakesAVillage_SebComputerCT_Robin": "I wasn't sure how well Sebastian would do with the kids...#$b#Maybe older students would be easier for him to teach?",
     "ItTakesAVillage_SebComputerCT_Maru": "It's a shame Jas and Vincent weren't all that interested in programming.#$b#Still, their interests may lie elsewhere.",
-    "ItTakesAVillage_SebComputerCT_Jodi": "I'm glad Vincent wasn't enthused about computers.#$b#Don't need his brain rotting with screen time.",
+    "ItTakesAVillage_SebComputerCT_Jodi": "I'm glad Vincent wasn't enthused about computers.#$b#Don't need his brain rotting with screen time.$3",
     "ItTakesAVillage_SebComputerCT_Kent": "I'm not proud to admit it, but I'm relieved Vincent wasn't interested in Sebastian's class.#$b#I wouldn't be able to help him operate that doohickey.",
     "ItTakesAVillage_SebComputerCT_Sam": "Don't tell Seb, but I'm pumped I'll stay number one in Vincent's heart.",
     "ItTakesAVillage_SebComputerCT_Marnie": "Jas didn't seem very excited about Sebastian's class. I wonder what happened.$3",
@@ -403,7 +403,7 @@
     "event-31032033.14": "Oh no, I died already!$3",
     // Abigail Video Games CTs
     "ItTakesAVillage_AbigailVideoGamesCT_Clint_YesMetalwork": "Well, that's practical.$s#$b#Metalworking can be fun too!... I guess.$s",
-    "ItTakesAVillage_AbigailVideoGamesCT_Clint_NoMetalwork": "I don't think the lesson I had planned for the kids will complete with that.$s",
+    "ItTakesAVillage_AbigailVideoGamesCT_Clint_NoMetalwork": "I don't think the lesson I had planned for the kids will compete with that.$s",
     "ItTakesAVillage_AbigailVideoGamesCT_Abigail": "It's good for the kids to have a little fun every now and then.$h",
     "ItTakesAVillage_AbigailVideoGamesCT_Caroline_YesAbby": "Hmph.$3.#$b#Well at least Abigail has taught the kids actual things, but I still don't approve of wasting their time with video games.$2",
     "ItTakesAVillage_AbigailVideoGamesCT_Caroline_NoAbby": "I can't BELIEVE Abigail would waste the kids' time like this.$3",
@@ -413,14 +413,14 @@
     "ItTakesAVillage_AbigailVideoGamesCT_Sebastian_YesComputerNoAbby": "Hmph I guess I could have taken the easy route and showed the kids how to play games too...$s#$b#Maybe I can redeem myself by showing them how to play pool?",
     "ItTakesAVillage_AbigailVideoGamesCT_Sebastian_NoComputerYesAbby": "Hmph I guess I could have taken the easy route and showed the kids how to play games too...#$b#What do you mean Abigail gave them other actual lessons?!#$b#Is it too late to change the lesson to showing them how to play pool?$s",
     "ItTakesAVillage_AbigailVideoGamesCT_Sebastian_NoComputerNoAbby": "Hmph I guess I could have taken the easy route and showed the kids how to play games too...#$b#Is it too late to change the lesson to showing them how to play pool?$s",
-    "ItTakesAVillage_AbigailVideoGamesCT_Jas": "",
+    "ItTakesAVillage_AbigailVideoGamesCT_Jas": "I didn't tell Penny about our special lesson, but she found out anyway.$3",
     "ItTakesAVillage_AbigailVideoGamesCT_Vincent": "%Vincent is singing a familiar song.",
-    "ItTakesAVillage_AbigailVideoGamesCT_Jodi": "",
-    "ItTakesAVillage_AbigailVideoGamesCT_Kent": "",
+    "ItTakesAVillage_AbigailVideoGamesCT_Jodi": "I'm not happy Abigail decided to rot Vincent's brain with this screen time.$3",
+    "ItTakesAVillage_AbigailVideoGamesCT_Kent": "Jodi means well, but she gets very stressed out about how the kids spend their time.",
     "ItTakesAVillage_AbigailVideoGamesCT_Sam_YesMusic": "Kinda feel like Abigail showing the kids video games is cheating for popularity points...$s#$b#At least Vincent enjoyed jamming out with me!s",
     "ItTakesAVillage_AbigailVideoGamesCT_Sam_NoMusic": "Kinda feel like Abigail showing the kids video games is cheating for popularity points...$s",
-    "ItTakesAVillage_AbigailVideoGamesCT_Marnie": "",
-    "ItTakesAVillage_AbigailVideoGamesCT_Shane": "",
+    "ItTakesAVillage_AbigailVideoGamesCT_Marnie": "A little downtime isn't the worst thing for the kids.",
+    "ItTakesAVillage_AbigailVideoGamesCT_Shane": "Maybe Jas can share some tips she learned from Abigail.$6",
     "ItTakesAVillage_AbigailVideoGamesCT_Penny": "That's an interesting choice...$3.#$b#At least, um... they're learning about having good reflexes?$3#$b#%Penny lets out a puff of air.", // test the % text box
     //
     // Wrap up event
