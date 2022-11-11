@@ -381,7 +381,6 @@
         }, // It looks like some of the more technical details were lost on the kids, but they got the gist of it.#$b#That Haley though...$a
         //
         // Elliott Stories IN PROGRESS
-        // ask if Tia would be ok with a little line suggesting Vincent is writing about Khaki the tiger (if player has seen that event from Jorts and Jean)
         // Add CT for Haley and Leah (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Elliott Stories Lesson",
@@ -1343,6 +1342,7 @@
         //
         // Sam Music INCOMPLETE
         // Vincent super excited about jamming out. Jas less so.
+        // if it's spring, Sam sneezes
         /*Event proper*/ {
             "LogName": "Sam Music Lesson",
             "Action": "EditData",
