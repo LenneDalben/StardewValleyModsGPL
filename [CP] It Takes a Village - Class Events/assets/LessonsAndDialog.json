@@ -1,5 +1,5 @@
 {
-    "Changes": [ // 10422 words ()
+    "Changes": [ // 10470 words ()
         // Maybe have at least 1 of the teachers try to lowkey crush the kids' spirits? :evilhehe: Then Penny can speak up like "umm how bout no"
         // don't forget to i18n as you go!
         // Thoughts on how to nest the dynamic dialog via dynamic tokens and i18n: some of the dialog for default.json is written here. Within the dynamic tokens, put the i18n tokens. Then in the patches for the CTs, put the dynamic token name. The actual dialog lines go in the default.json. That should work.
