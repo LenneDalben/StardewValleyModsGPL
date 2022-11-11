@@ -463,14 +463,14 @@
 			}
 		},
 		// Dynamic tokens for Maru Electronics
-		/*Maru's first line if you have seen Demetrius Botany*/ {
+		/*Dynamic event dialog if you have seen Demetrius Botany*/ {
 			"Name": "MaruElectronicsFirstLine",
 			"Value": "{{Random: {{i18n:event-31032030.03}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} |key=monster |inputSeparator=%%}}",
 			"When": {
 				"HasSeenEvent |contains=31032029": "true"
 			}
 		},
-		/*Maru's first line if you have not seen Demetrius Botany*/ {
+		/*Dynamic event dialog if you have not seen Demetrius Botany*/ {
 			"Name": "MaruElectronicsFirstLine",
 			"Value": "{{i18n:event-31032030.01}}",
 			"When": {
