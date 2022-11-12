@@ -48,6 +48,11 @@
 		{
 			"Name": "Custom_ItTakesaVillage_Electronics",
 			"FromMapFile": "assets/Not-Code/Electronics.tmx"
+		},
+		// Custom Map for Electronics lesson
+		{
+			"Name": "Custom_ItTakesaVillage_Music",
+			"FromMapFile": "assets/Not-Code/Music.tmx"
 		}
 	],
 	// Dynamic Tokens section
