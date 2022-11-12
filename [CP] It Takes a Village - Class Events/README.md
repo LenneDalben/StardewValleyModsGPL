@@ -1,14 +1,14 @@
 # (CP) It Takes a Village - Class Events
 
-This mod is in development! NPCs help out Penny teach the kiddos by giving lessons.
+This mod is in development! NPCs help out Penny teach the kiddos (Vincent and Jas) by giving lessons.
 
 Features include semi-randomized order of lessons and dynamic dialog based on which lesson(s) played first!
 
 ||Background||
 
-As a novice eventsmith, I was looking for event modding ideas that would be relatively simple but interesting to implement, and Airyn, who has many wonderful ideas, suggested a lessons series! The idea was "it takes a village to raise a child", so Penny will recruit fellow townspeople to teach the kids something they know. This mod has been an incredibly fun labor of love, so I hope you enjoy :)
+As a novice eventsmith, I was looking for event modding ideas that would be relatively simple but interesting to implement, and Airyn, who has many wonderful ideas, suggested a lessons series! The idea was "it takes a village to raise a child", so Penny will recruit fellow townspeople to teach Vincent and Jas something they know. This mod has been an incredibly fun labor of love, so I hope you enjoy :)
 
-Each lesson or class is an event, taking place somewhere in Pelican Town. After each class, the townspeople will share their thoughts on the topic or how the lesson went. Some are supportive, some are judgmental, etc. Check out the screenshots for some examples! The MinimumDaysBetweenLessons config setting is how long the townspeople will share their thoughts for (for modders, these are Conversation Topics).
+Each lesson or class is an event, taking place somewhere in Pelican Town. After each class, the townspeople will share their thoughts on the topic or how the lesson went. Some are supportive, some are judgmental, etc. Check out the screenshots for some examples! The Minimum Days Between Lessons config setting is how long the townspeople will share their thoughts for (for modders, these are Conversation Topics).
 
 Fair warning: most of the events have the player being passive or just not there, so if that's not your thing, give the mod a pass.
 
@@ -17,20 +17,20 @@ Translations are welcome! You can submit either the language.json to me or the s
 
 ||Getting started||
 
-To begin the lesson series, reach 6 hearts with Penny, then visit the town on a sunny day between 9:30am and 7pm. An event will play with Penny outside the Library / Museum.
+To begin the lesson series, reach 6 hearts with Penny, then visit the town on a sunny day between 9:30am and 7pm. An event will play with Penny outside the Library / Museum. By default, at least 7 days later, a lesson event will happen somewhere in town! Refer to the Configuration section on how to customize the Minimum Days Between Lessons.
 
-Refer to the spoiler guide for details on activating the other events.
+Refer to the spoiler guide for details on activating the other events (a few have weather conditions).
 
 
 ||Configuration||
 
 Config Options
 
-* Minimum Days Between Lessons: After kicking off the lessons, at least 7 days must pass between the lessons by default. That's how long you have to talk to the villagers after each lesson to hear their thoughts. This also means it'd take at least 20 weeks in-game to see all the lessons. If you'd like to reduce the time between lessons to see them faster, or increase the time to spread out the lessons even more, you can! You can select a number between 1 day and 28 days for minimum days between lessons.
+* Minimum Days Between Lessons: After kicking off the lessons, at least 7 days must pass between the lessons by default. That's how long you have to talk to the villagers after each lesson to hear their thoughts. This also means it'd take at least 20 weeks in-game to see all the lessons and the wrap up event. If you'd like to reduce the time between lessons to see them faster, or increase the time to spread out the lessons even more, you can! You can select a number between 1 day and 28 days for minimum days between lessons.
 
-* Skippable Config: Specify if you want the events in the series to be skippable (true, false). Default is false. Useful for repeat playthroughs if you want to pick and choose which events you see, or if you're worried about getting stuck during an event due to a mod that changes maps.
+* Skippable Config: Specify if you want the events in the series to be skippable (true, false). Default is true. Useful for repeat playthroughs if you want to pick and choose which events you see, or if you're worried about getting stuck during an event due to a mod that changes maps.
 
-* Portrait and Sprite Overlay Config: Specify if you want the Maru electronics lesson to include a portrait and sprite overlay as a fun feature. Default is true. The overlays were designed for vanilla and Diverse Stardew (DSV). If you use any other portrait or sprite mod that affect Maru, Jas, and/or Vincent, you may want to set this to false for immersion.
+* Portrait and Sprite Overlay Config: Specify if you want the Maru electronics lesson to include a portrait and sprite overlay as a fun feature (true, false). Default is true. The overlays were designed for vanilla and Diverse Stardew (DSV). If you use any other portrait or sprite mod that affect Maru, Jas, and/or Vincent, you may want to set this to false for immersion.
 
 * Load Blacksmith Config: Set this to false if you have a mod that adds events to the Blacksmith shop besides Clint Marriage Mod, Looking for Love, or Lucikiel. ITAV automatically detects Clint Marriage Mod, Looking for Love, and Lucikiel so adjusting this setting is not needed for those mods. Default is true.
 
@@ -51,6 +51,10 @@ A note on Stardew Valley Expanded (SVE): I don’t use it and never will, so I w
 3. Download the mod from ModDrop (link TBD) and unzip the mod folder into Stardew Valley/Mods.
 4. Play the game using SMAPI!
 
+
+||Future Plans||
+
+I would like to include the kids from Ridgeside Village (RSV) and East Scarp (ES) someday in a future update, but I don't have a target date for that, or detailed plans. Writing the vanilla version of this has been a huge undertaking as it is.
 
 
 ||Shout Outs||
