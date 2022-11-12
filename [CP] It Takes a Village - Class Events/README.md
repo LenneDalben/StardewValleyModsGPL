@@ -61,21 +61,21 @@ I would like to include the kids from Ridgeside Village (RSV) and East Scarp (ES
 
 <a href="https://www.moddrop.com/stardew-valley/profile/182160/mods">Airyn</a>, fantastic modder and friend. You provided the initial idea, and so much support and editing guidance on wording, in-character-ness, dynamic token magic, random token magic, etc. Without you, this mod would never have happened. Thank you so much <3
 
-<a href ="https://www.nexusmods.com/stardewvalley/users/116553368?tab=user+files">Atravita</a>, for helping me out with event forks <3
+<a href ="https://www.nexusmods.com/stardewvalley/users/116553368?tab=user+files">Atravita</a>, for helping me out with event forks
 
-<a href ="https://www.nexusmods.com/stardewvalley/users/114762643?tab=user+files">Calcite / CopperSun</a>, for the skippable token idea and some help with wording <3
+<a href ="https://www.nexusmods.com/stardewvalley/users/114762643?tab=user+files">Calcite / CopperSun</a>, for the skippable token idea and some help with wording
 
-<a href ="https://www.nexusmods.com/stardewvalley/users/92469153?tab=user+files">Arknir</a>, for being an expert eventsmith, teaching me through code <3
+<a href ="https://www.nexusmods.com/stardewvalley/users/92469153?tab=user+files">Arknir</a>, for being an expert eventsmith, teaching me through code
 
-<a href ="https://www.moddrop.com/stardew-valley/profile/225898/mods">KediDili</a>, for providing some suggestions <3
+<a href ="https://www.moddrop.com/stardew-valley/profile/225898/mods">KediDili</a>, for providing some suggestions
 
-<a href ="https://www.nexusmods.com/stardewvalley/users/5575844?tab=user+files">Lumina / Lumisteria</a> and <a href ="https://www.nexusmods.com/stardewvalley/users/48380238?tab=user+files">foggywizard</a>, for guidance on conversation topics stuff <3
+<a href ="https://www.nexusmods.com/stardewvalley/users/5575844?tab=user+files">Lumina / Lumisteria</a> and <a href ="https://www.nexusmods.com/stardewvalley/users/48380238?tab=user+files">foggywizard</a>, for guidance on conversation topics stuff
 
-<a href ="https://www.nexusmods.com/stardewvalley/users/95265773?tab=user+files">max / skellady</a>, for information on Saloon schedules <3
+<a href ="https://www.nexusmods.com/stardewvalley/users/95265773?tab=user+files">max / skellady</a>, for information on Saloon schedules
 
-<a href ="https://www.nexusmods.com/stardewvalley/users/120958053?tab=user+files">Elizabeth / violetlizabet</a>, for helping me figure out some conditions for conversation topics and fun with randomization <3
+<a href ="https://www.nexusmods.com/stardewvalley/users/120958053?tab=user+files">Elizabeth / violetlizabet</a>, for helping me figure out some conditions for conversation topics and fun with randomization
 
-<a href ="https://www.nexusmods.com/stardewvalley/users/108124018?tab=user+files">Hime / Himetarts</a>, for letting me poke at Sterling's excellent draft event code <3
+<a href ="https://www.nexusmods.com/stardewvalley/users/108124018?tab=user+files">Hime / Himetarts</a>, for letting me poke at Sterling's excellent draft event code
 
 <a href="https://www.nexusmods.com/stardewvalley/users/68088657?tab=user+files">Lemurkat</a>, for helping me troubleshoot.
 
