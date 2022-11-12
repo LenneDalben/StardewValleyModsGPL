@@ -54,7 +54,7 @@ A note on Stardew Valley Expanded (SVE): I don’t use it and never will, so I w
 
 ||Future Plans||
 
-I would like to include the kids from Ridgeside Village (RSV) and East Scarp (ES) someday in a future update, but I don't have a target date for that, or detailed plans. Writing the vanilla version of this has been a huge undertaking as it is.
+I would like to include the kids from Ridgeside Village (RSV) and East Scarp (ES) someday in a future update, but I don't have a target date for that, or detailed plans to ask for permission. Writing the vanilla version of this has been a huge undertaking as it is.
 
 
 ||Shout Outs||
