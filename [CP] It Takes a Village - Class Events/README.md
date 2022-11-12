@@ -2,7 +2,7 @@
 
 This mod is in development! NPCs help out Penny teach the kiddos (Vincent and Jas) by giving lessons.
 
-Features include semi-randomized order of lessons and dynamic dialog based on which lesson(s) played first! In repeat playthroughs, you may see the lessons in a different order, and with slightly different dialog.
+Features include semi-randomized order of lessons and dynamic dialog based on which lesson(s) played first! In repeat playthroughs, you may see the lessons in a different order, and with slightly different dialog, some which is seasonal.
 
 ||Background||
 
