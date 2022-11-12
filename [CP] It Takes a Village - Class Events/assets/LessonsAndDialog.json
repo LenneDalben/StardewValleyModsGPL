@@ -1341,7 +1341,6 @@
         },
         //
         // Sam Music INCOMPLETE
-        // if it's spring, Sam sneezes 
         /*Event proper*/ {
             "LogName": "Sam Music Lesson",
             "Action": "EditData",
