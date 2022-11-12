@@ -1003,6 +1003,62 @@
 				"HasSeenEvent |contains=31032035": true,
 			}
 		},
+		/*Dynamic event dialog intro, season is spring*/ {
+			"Name": "SamMusicSeasonalIntroDialog",
+			"Value": "{{i18n:event-31032029.06}}",
+			"When": {
+				"Season": "Spring"
+			}
+		},
+		/*Dynamic event dialog intro, season is summer*/ {
+			"Name": "SamMusicSeasonalIntroDialog",
+			"Value": "{{i18n:event-31032029.07}}",
+			"When": {
+				"Season": "Summer"
+			}
+		},
+		/*Dynamic event dialog intro, season is fall*/ {
+			"Name": "SamMusicSeasonalIntroDialog",
+			"Value": "{{i18n:event-31032029.08}}",
+			"When": {
+				"Season": "Fall"
+			}
+		},
+		/*Dynamic event dialog intro, season is winter*/ {
+			"Name": "SamMusicSeasonalIntroDialog",
+			"Value": "{{i18n:event-31032029.09}}",
+			"When": {
+				"Season": "Winter"
+			}
+		},
+		/*Dynamic event dialog later, season is spring*/ {
+			"Name": "SamMusicSeasonalLaterDialog",
+			"Value": "{{i18n:event-31032029.10}}",
+			"When": {
+				"Season": "Spring"
+			}
+		},
+		/*Dynamic event dialog later, season is summer*/ {
+			"Name": "SamMusicSeasonalLaterDialog",
+			"Value": "{{i18n:event-31032029.11}}",
+			"When": {
+				"Season": "Summer"
+			}
+		},
+		/*Dynamic event dialog later, season is fall*/ {
+			"Name": "SamMusicSeasonalLaterDialog",
+			"Value": "{{i18n:event-31032029.12}}",
+			"When": {
+				"Season": "Fall"
+			}
+		},
+		/*Dynamic event dialog later, season is winter*/ {
+			"Name": "SamMusicSeasonalLaterDialog",
+			"Value": "{{i18n:event-31032029.13}}",
+			"When": {
+				"Season": "Winter"
+			}
+		},
 		// Robin Woodworking and Abigail Self-Defense
 		{
 			"Name": "RobinWoodworkAndAbbySelfDefenseToken",
