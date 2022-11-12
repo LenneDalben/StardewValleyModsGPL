@@ -3,7 +3,7 @@
     //
     // Minimum Days Between Lessons
     "config.MinimumDaysBetweenLessons.name": "MinimumDaysBetweenLessons",
-    "config.MinimumDaysBetweenLessons.description": "After kicking off the lessons, at least 7 days must pass between the lessons by default. That's how long you have to talk to the villagers after each lesson to hear their thoughts. This also means it'd take at least 20 weeks in-game to see all the lessons. If you'd like to reduce the time between lessons to see them faster, or increase the time to spread out the lessons even more, you can! You can select a number between 1 day and 28 days for minimum days between lessons.",
+    "config.MinimumDaysBetweenLessons.description": "After kicking off the lessons, at least 7 days must pass between the lessons by default. That's how long you have to talk to the villagers after each lesson to hear their thoughts. This also means it'd take at least 20 weeks in-game to see all the lessons and the wrap up event. If you'd like to reduce the time between lessons to see them faster, or increase the time to spread out the lessons even more, you can! You can select a number between 1 day and 28 days for minimum days between lessons.",
     "config.MinimumDaysBetweenLessons.values.1": "1",
     "config.MinimumDaysBetweenLessons.values.2": "2",
     "config.MinimumDaysBetweenLessons.values.3": "3",
@@ -35,13 +35,13 @@
     //
     // Skippable
     "config.SkippableConfig.name": "SkippableConfig",
-    "config.SkippableConfig.description": "Specify if you want the events in the series to be skippable (true, false). Default is false. Useful for repeat playthroughs if you want to pick and choose which events you see, or if you're worried about getting stuck during an event due to a mod that changes maps.",
+    "config.SkippableConfig.description": "Specify if you want the events in the series to be skippable (true, false). Default is true. Useful for repeat playthroughs if you want to pick and choose which events you see, or if you're worried about getting stuck during an event due to a mod that changes maps.",
     "config.SkippableConfig.values.true": "true",
     "config.SkippableConfig.values.false": "false",
     //
     // Portrait and Sprite Overlay Config
     "config.PortraitandSpriteOverlayConfig.name": "PortraitandSpriteOverlayConfig",
-    "config.PortraitandSpriteOverlayConfig.description": "Specify if you want the Maru electronics lesson to include a portrait and sprite overlay as a fun feature. Default is true. The overlays were designed for vanilla and the Diverse Stardew (DSV) mod. If you use any other portrait or sprite mod that affect Maru, Jas, and/or Vincent, you may want to set this to false for immersion.",
+    "config.PortraitandSpriteOverlayConfig.description": "Specify if you want the Maru electronics lesson to include a portrait and sprite overlay as a fun feature (true, false). Default is true. The overlays were designed for vanilla and the Diverse Stardew (DSV) mod. If you use any other portrait or sprite mod that affect Maru, Jas, and/or Vincent, you may want to set this to false for immersion.",
     "config.PortraitandSpriteOverlayConfig.values.true": "true",
     "config.PortraitandSpriteOverlayConfig.values.false": "false",
     //
