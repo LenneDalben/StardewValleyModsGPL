@@ -1255,6 +1255,12 @@
 				"PortraitandSpriteOverlayConfig": true
 			},
 			"Update": "OnLocationChange"
-		}
+		},
+		/*Loading Blossom Duck Sprite*/ {
+			"LogName": "Loading BlossomDuck Sprite by LenneDalben",
+			"Action": "Load",
+			"Target": "Characters/BlossomDuck",
+			"FromFile": "assets/Not-Code/BlossomDuck.png"
+		},
 	]
 }
