@@ -19,7 +19,7 @@ Translations are welcome! You can submit either the language.json to me or the s
 
 To begin the lesson series, reach 6 hearts with Penny, then visit the town on a sunny day between 9:30am and 7pm. An event will play with Penny outside the Library / Museum. By default, at least 7 days later, a lesson event will happen somewhere in town! Refer to the Configuration section on how to customize the Minimum Days Between Lessons.
 
-Refer to the spoiler guide for details on activating the other events (a few have weather and/or time conditions).
+Refer to the spoiler guide for details [TODO] on activating the other events (a few have weather and/or time conditions).
 
 
 ||Configuration||
