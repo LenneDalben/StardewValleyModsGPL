@@ -1149,7 +1149,7 @@
 		},
 		/*Dynamic Penny CT dialog if you have seen Maru Electronics and seen Demetrius Botany*/ {
 			"Name": "SamMusicPennyCT",
-			"Value": "{{Random: {{i18n:ItTakesAVillage_SamMusicCT_Penny_YesElectronics}} %% {{i18n:ItTakesAVillage_SamMusicCT_Penny_YesBotany}}|inputSeparator=%%}}",
+			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Penny_{{Random: YesElectronics %% YesBotany |inputSeparator=%%}}}}",
 			"When": {
 				"HasSeenEvent |contains=31032028": "true",
 				"HasSeenEvent |contains=31032033": "true"
