@@ -1359,7 +1359,7 @@
             "Entries": {
                 "ItTakesAVillage_SamMusic": "{{i18n:ItTakesAVillage_SamMusicCT_Sam}}"
             }
-        },
+        }, // dynamic dialog check i18n for tokens
         /*Abigail CT*/ {
             "LogName": "Sam Music CT - Abigail",
             "Action": "EditData",
@@ -1367,7 +1367,7 @@
             "Entries": {
                 "ItTakesAVillage_SamMusic": "{{i18n:ItTakesAVillage_SamMusicCT_Abigail}}"
             }
-        },
+        }, // dynamic dialog check i18n for tokens
         /*Sebastian CT*/ {
             "LogName": "Sam Music CT - Sebastian",
             "Action": "EditData",
@@ -1375,7 +1375,7 @@
             "Entries": {
                 "ItTakesAVillage_SamMusic": "{{i18n:ItTakesAVillage_SamMusicCT_Sebastian}}"
             }
-        }, // vary depending on whether the Abigail gaming lesson was seen (I'm not taking it personally that Vincent preferred playing music with Sam over my lesson. Vincent is Sam's little brother.#$b#Jas too, huh?$3#$b#Oh well. I'm not quitting my day job, that's for sure.$s#$b#At least Sam's still in the running for fun teacher.$s)
+        },  // dynamic dialog check i18n for tokens
         /*Lewis CT*/ {
             "LogName": "Sam Music CT - Lewis",
             "Action": "EditData",
@@ -1383,7 +1383,7 @@
             "Entries": {
                 "ItTakesAVillage_SamMusic": "{{i18n:ItTakesAVillage_SamMusicCT_Lewis}}"
             }
-        }, // That brother of Vincent's sure knows how to disturb the peace in this town. I got noise complaints!$3#$b#Who complained?#$b#That's not important.
+        },
         /*Jas CT*/ {
             "LogName": "Sam Music CT - Jas",
             "Action": "EditData",
@@ -1391,7 +1391,7 @@
             "Entries": {
                 "ItTakesAVillage_SamMusic": "{{i18n:ItTakesAVillage_SamMusicCT_Jas}}"
             }
-        }, // Vincent liked playing music more than I did.$3
+        },
         /*Vincent CT*/ {
             "LogName": "Sam Music CT - Vincent",
             "Action": "EditData",
@@ -1399,7 +1399,7 @@
             "Entries": {
                 "ItTakesAVillage_SamMusic": "{{i18n:ItTakesAVillage_SamMusicCT_Vincent}}"
             }
-        }, // %Vincent is singing by imitating a drum.
+        },
         /*Jodi CT*/ {
             "LogName": "Sam Music CT - Jodi",
             "Action": "EditData",
@@ -1407,7 +1407,7 @@
             "Entries": {
                 "ItTakesAVillage_SamMusic": "{{i18n:ItTakesAVillage_SamMusicCT_Jodi}}"
             }
-        }, // Yoba save me, now Vincent wants to play the drums EVERY DAY.$s#$b#Why couldn't Sam have taught him a quieter instrument, like a recorder?$s
+        },
         /*Kent CT*/ {
             "LogName": "Sam Music CT - Kent",
             "Action": "EditData",
@@ -1415,7 +1415,7 @@
             "Entries": {
                 "ItTakesAVillage_SamMusic": "{{i18n:ItTakesAVillage_SamMusicCT_Kent}}"
             }
-        }, // I'm not one to try and discourage the kids, but constant drum practice seems... intense.
+        },
         /*Marnie CT*/ {
             "LogName": "Sam Music CT - Marnie",
             "Action": "EditData",
@@ -1423,7 +1423,7 @@
             "Entries": {
                 "ItTakesAVillage_SamMusic": "{{i18n:ItTakesAVillage_SamMusicCT_Marnie}}"
             }
-        }, // 
+        },
         /*Shane CT*/ {
             "LogName": "Sam Music CT - Shane",
             "Action": "EditData",
@@ -1431,7 +1431,7 @@
             "Entries": {
                 "ItTakesAVillage_SamMusic": "{{i18n:ItTakesAVillage_SamMusicCT_Shane}}"
             }
-        }, // dynamic dialog
+        }, // dynamic dialog check i18n for tokens
         /*Penny CT*/ {
             "LogName": "Sam Music CT - Penny",
             "Action": "EditData",
@@ -1439,7 +1439,7 @@
             "Entries": {
                 "ItTakesAVillage_SamMusic": "{{i18n:ItTakesAVillage_SamMusicCT_Penny}}"
             }
-        }, // I thought Jas had a little fun, but she said she preferred the nature tour / the potato battery experiment (if you've seen either of those, randomly choose one [gonna get messy if you've only seen 1, choose that one, otherwise if you've seen both, randomly choose], otherwise I thought Jas had a little fun, but she said she wasn't too interested in playing music). Vincent was super excited about playing the drums with his brother.
+        },  // dynamic dialog check i18n for tokens
         //
         // Shane Animal Care INCOMPLETE
         // Marnie tending to the shop, proud!
