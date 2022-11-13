@@ -1059,6 +1059,126 @@
 				"Season": "Winter"
 			}
 		},
+		/*Dynamic Sam CT dialog if you have seen Shane Animal Care*/ {
+			"Name": "SamMusicSamCT",
+			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Sam_YesAnimalCare}}",
+			"When": {
+				"HasSeenEvent |contains=31032036": "true"
+			}
+		},
+		/*Dynamic Sam CT dialog if you have not seen Shane Animal Care*/ {
+			"Name": "SamMusicSamCT",
+			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Sam_NoAnimalCare}}",
+			"When": {
+				"HasSeenEvent |contains=31032036": "false"
+			}
+		},
+		/*Dynamic Shane CT dialog if you have seen Shane Animal Care*/ {
+			"Name": "SamMusicShaneCT",
+			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Shane_YesAnimalCare}}",
+			"When": {
+				"HasSeenEvent |contains=31032036": "true"
+			}
+		},
+		/*Dynamic Shane CT dialog if you have not seen Shane Animal Care*/ {
+			"Name": "SamMusicShaneCT",
+			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Shane_NoAnimalCare}}",
+			"When": {
+				"HasSeenEvent |contains=31032036": "false"
+			}
+		},
+		/*Dynamic Abigail CT dialog if you have seen Abigail Video Games*/ {
+			"Name": "SamMusicAbigailCT",
+			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Abigail_YesVG}}",
+			"When": {
+				"HasSeenEvent |contains=31032033": "true"
+			}
+		},
+		/*Dynamic Abigail CT dialog if you have not seen Abigail Video Games*/ {
+			"Name": "SamMusicAbigailCT",
+			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Abigail_NoVG}}",
+			"When": {
+				"HasSeenEvent |contains=31032033": "false"
+			}
+		},
+		/*Dynamic Sebastian CT dialog if you have seen Sebastian Computer Basics and seen Abigail Video Games*/ {
+			"Name": "SamMusicSebastianCT",
+			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Sebastian_YesComputerYesVG}}",
+			"When": {
+				"HasSeenEvent |contains=31032028": "true",
+				"HasSeenEvent |contains=31032033": "true"
+			}
+		},
+		/*Dynamic Sebastian CT dialog if you have seen Sebastian Computer Basics and have not seen Abigail Video Games*/ {
+			"Name": "SamMusicSebastianCT",
+			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Sebastian_YesComputerNoVG}}",
+			"When": {
+				"HasSeenEvent |contains=31032028": "true",
+				"HasSeenEvent |contains=31032033": "false"
+			}
+		},
+		/*Dynamic Sebastian CT dialog if you have seen Abigail Video Games and have not seen Sebastian Computer Basics*/ {
+			"Name": "SamMusicSebastianCT",
+			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Sebastian_NoComputerYesVG}}",
+			"When": {
+				"HasSeenEvent |contains=31032028": "false",
+				"HasSeenEvent |contains=31032033": "true"
+			}
+		},
+		/*Dynamic Sebastian CT dialog if you have not seen Sebastian Computer Basics and have not seen Abigail Video Games*/ {
+			"Name": "SamMusicSebastianCT",
+			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Sebastian_NoComputerNoVG}}",
+			"When": {
+				"HasSeenEvent |contains=31032028": "false",
+				"HasSeenEvent |contains=31032033": "false"
+			}
+		},
+		/*Dynamic Marnie CT dialog if you have seen Shane Animal Care*/ {
+			"Name": "SamMusicMarnieCT",
+			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Marnie_YesAnimalCare}}",
+			"When": {
+				"HasSeenEvent |contains=31032036": "true"
+			}
+		},
+		/*Dynamic Marnie CT dialog if you have not seen Shane Animal Care*/ {
+			"Name": "SamMusicMarnieCT",
+			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Marnie_NoAnimalCare}}",
+			"When": {
+				"HasSeenEvent |contains=31032036": "false"
+			}
+		},
+		/*Dynamic Penny CT dialog if you have seen Maru Electronics and seen Demetrius Botany*/ {
+			"Name": "SamMusicPennyCT",
+			"Value": "{{Random: {{i18n:ItTakesAVillage_SamMusicCT_Penny_YesElectronics}} %% {{i18n:ItTakesAVillage_SamMusicCT_Penny_YesBotany}}|inputSeparator=%%}}",
+			"When": {
+				"HasSeenEvent |contains=31032028": "true",
+				"HasSeenEvent |contains=31032033": "true"
+			}
+		},
+		/*Dynamic Penny CT dialog if you have seen Maru Electronics and have not seen Demetrius Botany*/ {
+			"Name": "SamMusicPennyCT",
+			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Penny_YesElectronics}}",
+			"When": {
+				"HasSeenEvent |contains=31032028": "true",
+				"HasSeenEvent |contains=31032033": "false"
+			}
+		},
+		/*Dynamic Penny CT dialog if you have seen Demetrius Botany and have not seen Maru Electronics*/ {
+			"Name": "SamMusicPennyCT",
+			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Penny_YesBotany}}",
+			"When": {
+				"HasSeenEvent |contains=31032028": "false",
+				"HasSeenEvent |contains=31032033": "true"
+			}
+		},
+		/*Dynamic Penny CT dialog if you have not seen Maru Electronics and have not seen Demetrius Botany*/ {
+			"Name": "SamMusicPennyCT",
+			"Value": "{{ItTakesAVillage_SamMusicCT_Penny_NeitherElectronicsNorBotany}}",
+			"When": {
+				"HasSeenEvent |contains=31032028": "false",
+				"HasSeenEvent |contains=31032033": "false"
+			}
+		},
 		// Robin Woodworking and Abigail Self-Defense
 		{
 			"Name": "RobinWoodworkAndAbbySelfDefenseToken",

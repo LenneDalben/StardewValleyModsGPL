@@ -1357,25 +1357,33 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sam",
             "Entries": {
-                "ItTakesAVillage_SamMusic": "{{i18n:ItTakesAVillage_SamMusicCT_Sam}}"
+                "ItTakesAVillage_SamMusic": "{{SamMusicSamCT}}"
             }
-        }, // dynamic dialog check i18n for tokens
+        },
+        /*Shane CT*/ {
+            "LogName": "Sam Music CT - Shane",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Shane",
+            "Entries": {
+                "ItTakesAVillage_SamMusic": "{{SamMusicShaneCT}}"
+            }
+        },
         /*Abigail CT*/ {
             "LogName": "Sam Music CT - Abigail",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Abigail",
             "Entries": {
-                "ItTakesAVillage_SamMusic": "{{i18n:ItTakesAVillage_SamMusicCT_Abigail}}"
+                "ItTakesAVillage_SamMusic": "{{SamMusicAbigailCT}}"
             }
-        }, // dynamic dialog check i18n for tokens
+        },
         /*Sebastian CT*/ {
             "LogName": "Sam Music CT - Sebastian",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sebastian",
             "Entries": {
-                "ItTakesAVillage_SamMusic": "{{i18n:ItTakesAVillage_SamMusicCT_Sebastian}}"
+                "ItTakesAVillage_SamMusic": "{{SamMusicSebastianCT}}"
             }
-        },  // dynamic dialog check i18n for tokens
+        },
         /*Lewis CT*/ {
             "LogName": "Sam Music CT - Lewis",
             "Action": "EditData",
@@ -1421,25 +1429,17 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Marnie",
             "Entries": {
-                "ItTakesAVillage_SamMusic": "{{i18n:ItTakesAVillage_SamMusicCT_Marnie}}"
+                "ItTakesAVillage_SamMusic": "{{SamMusicMarnieCT}}"
             }
         },
-        /*Shane CT*/ {
-            "LogName": "Sam Music CT - Shane",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Shane",
-            "Entries": {
-                "ItTakesAVillage_SamMusic": "{{i18n:ItTakesAVillage_SamMusicCT_Shane}}"
-            }
-        }, // dynamic dialog check i18n for tokens
         /*Penny CT*/ {
             "LogName": "Sam Music CT - Penny",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Penny",
             "Entries": {
-                "ItTakesAVillage_SamMusic": "{{i18n:ItTakesAVillage_SamMusicCT_Penny}}"
+                "ItTakesAVillage_SamMusic": "{{SamMusicPennyCT}}"
             }
-        },  // dynamic dialog check i18n for tokens
+        },
         //
         // Shane Animal Care INCOMPLETE
         // Marnie tending to the shop, proud!
