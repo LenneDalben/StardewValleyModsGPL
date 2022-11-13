@@ -2026,7 +2026,7 @@
             "Entries": {
                 "ItTakesAVillage_CarolineEvelynGardening": "{{i18n:ItTakesAVillage_CarolineEvelynGardeningCT_Penny}}"
             }
-        }, // Caroline's sunroom is quite private, so I feel honored she was willing to share it with us.
+        }, // Caroline's sunroom is private, so I feel honored she was willing to share it with us.
         //
         // Lesson wrap up! - IN PROGRESS **fixing CTs**
         /*Event proper*/ {
