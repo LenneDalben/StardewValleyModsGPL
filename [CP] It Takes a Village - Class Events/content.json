@@ -1019,7 +1019,7 @@
 		},
 		/*Dynamic event dialog intro, season is fall*/ {
 			"Name": "SamMusicSeasonalIntroDialog",
-			"Value": "faceDirection Penny 0/textAboveHead Penny \"{{i18n:event-31032035.10}}\"/speak Sam \"{{i18n:event-31032035.11}}\"/emote Penny 28/speak Sam \"{{i18n:event-31032035.12}}\"",
+			"Value": "faceDirection Penny 0/textAboveHead Penny \"{{i18n:event-31032035.10}}\"/pause 400/speak Sam \"{{i18n:event-31032035.11}}\"/emote Penny 28/speak Sam \"{{i18n:event-31032035.12}}\"",
 			"When": {
 				"Season": "Fall"
 			}
@@ -1047,7 +1047,7 @@
 		},
 		/*Dynamic event dialog later, season is fall*/ {
 			"Name": "SamMusicSeasonalLaterDialog",
-			"Value": "shake Penny 500/jump Penny 3/pause 300/jump Penny 3/textAboveHead Sam \"{{i18n:event-31032035.27}}\"/emote Penny 28/pause 200",
+			"Value": "shake Penny 500/jump Penny 3/pause 400/jump Penny 3/pause 400/textAboveHead Sam \"{{i18n:event-31032035.27}}\"/emote Penny 28/pause 400",
 			"When": {
 				"Season": "Fall"
 			}
