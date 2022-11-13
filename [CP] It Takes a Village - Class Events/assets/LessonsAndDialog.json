@@ -1367,7 +1367,7 @@
             "Entries": {
                 "ItTakesAVillage_SamMusic": "{{i18n:ItTakesAVillage_SamMusicCT_Abigail}}"
             }
-        }, // vary depending on whether the Abigail gaming lesson was seen (Hehe, I have a secret weapon in my back pocket to ensure the kids enjoy time with me.#$b#Of course it's a compet-$h#$b#I've said too much.$6 / Sure, sure, the kids made music together. I taught them how to handle controls though.#$b#Besides, Vincent was probably always going to prefer Sam, so Sam's not really in the running.$3#$b#What's the competition?#$b#I've said too much.$6)\
+        },
         /*Sebastian CT*/ {
             "LogName": "Sam Music CT - Sebastian",
             "Action": "EditData",
@@ -1375,7 +1375,7 @@
             "Entries": {
                 "ItTakesAVillage_SamMusic": "{{i18n:ItTakesAVillage_SamMusicCT_Sebastian}}"
             }
-        }, // vary depending on whether the Abigail gaming lesson was seen (I'm not taking it personally that Vincent preferred playing music with Sam over my lesson. Vincent is Sam's little brother.#$b#Jas too, huh?$3#$b#Oh well. I'm not quitting my day job, that's for sure.$s / At least Sam's still in the running for fun teacher.$s)
+        }, // vary depending on whether the Abigail gaming lesson was seen (I'm not taking it personally that Vincent preferred playing music with Sam over my lesson. Vincent is Sam's little brother.#$b#Jas too, huh?$3#$b#Oh well. I'm not quitting my day job, that's for sure.$s#$b#At least Sam's still in the running for fun teacher.$s)
         /*Lewis CT*/ {
             "LogName": "Sam Music CT - Lewis",
             "Action": "EditData",
@@ -1391,7 +1391,7 @@
             "Entries": {
                 "ItTakesAVillage_SamMusic": "{{i18n:ItTakesAVillage_SamMusicCT_Jas}}"
             }
-        },
+        }, // Vincent liked playing music more than I did.$3
         /*Vincent CT*/ {
             "LogName": "Sam Music CT - Vincent",
             "Action": "EditData",
@@ -1399,7 +1399,7 @@
             "Entries": {
                 "ItTakesAVillage_SamMusic": "{{i18n:ItTakesAVillage_SamMusicCT_Vincent}}"
             }
-        },
+        }, // %Vincent is singing by imitating a drum.
         /*Jodi CT*/ {
             "LogName": "Sam Music CT - Jodi",
             "Action": "EditData",
@@ -1407,7 +1407,7 @@
             "Entries": {
                 "ItTakesAVillage_SamMusic": "{{i18n:ItTakesAVillage_SamMusicCT_Jodi}}"
             }
-        },
+        }, // Yoba save me, now Vincent wants to play the drums EVERY DAY.$s#$b#Why couldn't Sam have taught him a quieter instrument, like a recorder?$s
         /*Kent CT*/ {
             "LogName": "Sam Music CT - Kent",
             "Action": "EditData",
@@ -1415,7 +1415,7 @@
             "Entries": {
                 "ItTakesAVillage_SamMusic": "{{i18n:ItTakesAVillage_SamMusicCT_Kent}}"
             }
-        },
+        }, // I'm not one to try and discourage the kids, but constant drum practice seems... intense.
         /*Marnie CT*/ {
             "LogName": "Sam Music CT - Marnie",
             "Action": "EditData",
@@ -1423,7 +1423,7 @@
             "Entries": {
                 "ItTakesAVillage_SamMusic": "{{i18n:ItTakesAVillage_SamMusicCT_Marnie}}"
             }
-        },
+        }, // 
         /*Shane CT*/ {
             "LogName": "Sam Music CT - Shane",
             "Action": "EditData",
@@ -1439,7 +1439,7 @@
             "Entries": {
                 "ItTakesAVillage_SamMusic": "{{i18n:ItTakesAVillage_SamMusicCT_Penny}}"
             }
-        }, // Jas said she preferred the nature tour / the potato battery experiment (if you've seen either of those, randomly choose one [gonna get messy if you've only seen 1, choose that one,otherwise if you've seen both, randomly choose], otherwise Jas wasn't too interested in this). Vincent naturally was excited about playing the drums with his brother.
+        }, // I thought Jas had a little fun, but she said she preferred the nature tour / the potato battery experiment (if you've seen either of those, randomly choose one [gonna get messy if you've only seen 1, choose that one, otherwise if you've seen both, randomly choose], otherwise I thought Jas had a little fun, but she said she wasn't too interested in playing music). Vincent was super excited about playing the drums with his brother.
         //
         // Shane Animal Care INCOMPLETE
         // Marnie tending to the shop, proud!
