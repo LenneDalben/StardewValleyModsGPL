@@ -1955,6 +1955,14 @@
                 "ItTakesAVillage_CarolineEvelynGardening": "{{i18n:ItTakesAVillage_CarolineEvelynGardeningCT_George}}"
             }
         },
+        /*Alex CT*/ {
+            "LogName": "Caroline & Evelyn Gardening CT - Alex",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Alex",
+            "Entries": {
+                "ItTakesAVillage_CarolineEvelynGardening": "{{i18n:ItTakesAVillage_CarolineEvelynGardeningCT_Alex}}"
+            }
+        },
         /*Jas CT*/ {
             "LogName": "Caroline & Evelyn Gardening CT - Jas",
             "Action": "EditData",
