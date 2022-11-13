@@ -1348,7 +1348,7 @@
             }
         },
         //
-        // Sam Music IN PROGRESS
+        // Sam Music - Done!
         /*Event proper*/ {
             "LogName": "Sam Music Lesson",
             "Action": "EditData",
@@ -1453,11 +1453,13 @@
         // Marnie tending to the shop, proud!
         // Marnie has slightly different response depending on whether Shane 6 heart event was seen
         // We see some blue chickens if Shane's 8 heart event are seen (will need to find out how to spawn the chickens, check Ranch Expansion's barn events for examples. Presumably it's via temporary actor)
-        // much excite around animals
+            // copy from vanilla event 3900074
+        // much excite around animals, lots of hops and smiling emotes
         // Could be something like "it's important to feed them the right food, and the proper amount."
         // Jas interrupts in total Hermione fashion because she knows how much
         // Also something about giving the animals space, don't want them to feel crowded
-        // fit in Blossom Duck, carefree and enjoys spending time in the garden.
+        // Vincent's Can I pet it?
+        // fit in Blossom Duck, carefree and enjoys spending time in the garden. Hmm, I wonder... let's go out there and see if we have our special guest today. little jump all around. There's Blossom! If there was ever a carefree duck, it's Blossom.#$b#It loves flowers. I imagine it enjoys spending time in gardens.$h/emote Blossom 32/emote Jas <heart>/emote Vincent <heart>/emote Shane 32/emote farmer 32
         /*Event proper*/ {
             "LogName": "Shane Animal Care Lesson",
             "Action": "EditData",
