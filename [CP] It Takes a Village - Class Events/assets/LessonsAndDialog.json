@@ -905,7 +905,6 @@
         // Emily Emotional Health and Dance INCOMPLETE
         // Emily explains sometimes feelings are really strong, and that you can dance party it to help. Emily dances. Can I get the kids to dance via position offset and avoid new sprites? :maruthinking:
         // Jas has a frame with her hands up frame 24. Can fiddle with position offsets to see if moving her back and forth makes her "dance". I got nothing for Vincent.
-        // CHANGE THE CT NAME
         // Add CT for Harvey (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Emily Emotional Health and Dance Lesson",
@@ -1479,6 +1478,14 @@
                 "ItTakesAVillage_ShaneAnimalCare": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Shane}}"
             }
         },
+        /*Sam CT, dynamic dialog*/ {
+            "LogName": "Shane Animal Care CT - Sam",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "Entries": {
+                "ItTakesAVillage_ShaneAnimalCare": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam}}"
+            }
+        },
         /*Sterling? CT ASK HIME*/ {
             "LogName": "Demetrius Oil Makers CT - Demetrius",
             "Action": "EditData",
@@ -1517,14 +1524,6 @@
             "Target": "Characters/Dialogue/Kent",
             "Entries": {
                 "ItTakesAVillage_ShaneAnimalCare": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Kent}}"
-            }
-        },
-        /*Sam CT, dynamic dialog*/ {
-            "LogName": "Shane Animal Care CT - Sam",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Sam",
-            "Entries": {
-                "ItTakesAVillage_ShaneAnimalCare": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam}}"
             }
         },
         /*Marnie CT*/ {
@@ -1593,7 +1592,7 @@
             "Entries": {
                 "ItTakesAVillage_RobinWoodworking": "{{i18n:ItTakesAVillage_RobinWoodworkingCT_Sebastian}}"
             }
-        },
+        }, // I'm glad mom has other students that like building stuff.#$b#Me, I prefer fighting with commas and brackets-I mean, programming.$7
         /*Jas CT*/ {
             "LogName": "Robin Woodworking CT - Jas",
             "Action": "EditData",
