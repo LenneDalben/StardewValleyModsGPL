@@ -94,7 +94,7 @@
 				"LoadBlacksmithConfig": "true"
 			}
 		},
-		// The events themselves check for the value of the token, so like the Abby econ lesson would check SebComputerBasicsAndAbbyEconToken value for either AbbyEconYes or AbbyEconYesSebComputerNo in order to play the Abby econ lesson o:
+		// The events themselves check for the value of the token, so like the Abby econ lesson would check SebProgramBasicsAndAbbyEconToken value for either AbbyEconYes or AbbyEconYesSebProgramNo in order to play the Abby econ lesson o:
 		//
 		// Dynamic Tokens for the HasSeenEvent
 		// Alex PE and Gus Cooking
@@ -294,15 +294,15 @@
 				"HasSeenEvent |contains=31032026": "true"
 			}
 		},
-		// Sebastian Computer Basics and Abigail Economics
+		// Sebastian Programming Basics and Abigail Economics
 		// HasSeenEvents
 		{
-			"Name": "SebComputerAndAbbyEconToken",
-			"Value": "AbbyEconNoSebComputerNo",
+			"Name": "SebProgramAndAbbyEconToken",
+			"Value": "AbbyEconNoSebProgramNo",
 		},
 		{
-			"Name": "SebComputerAndAbbyEconToken",
-			"Value": "{{Random: AbbyEconYes, SebComputerYes}}",
+			"Name": "SebProgramAndAbbyEconToken",
+			"Value": "{{Random: AbbyEconYes, SebProgramYes}}",
 			"When": {
 				"HasSeenEvent |contains=31032022": true, // Penny kickstarts events
 				"HasSeenEvent |contains=31032027": false,
@@ -310,8 +310,8 @@
 			}
 		},
 		{
-			"Name": "SebComputerAndAbbyEconToken",
-			"Value": "AbbyEconYesSebComputerNo",
+			"Name": "SebProgramAndAbbyEconToken",
+			"Value": "AbbyEconYesSebProgramNo",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
 				"HasSeenEvent |contains=31032027": true,
@@ -319,8 +319,8 @@
 			}
 		},
 		{
-			"Name": "SebComputerAndAbbyEconToken",
-			"Value": "SebComputerYesAbbyEconNo",
+			"Name": "SebProgramAndAbbyEconToken",
+			"Value": "SebProgramYesAbbyEconNo",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
 				"HasSeenEvent |contains=31032027": false,
@@ -328,100 +328,100 @@
 			}
 		},
 		{
-			"Name": "SebComputerAndAbbyEconToken",
-			"Value": "SebComputerAndAbbyEconDone",
+			"Name": "SebProgramAndAbbyEconToken",
+			"Value": "SebProgramAndAbbyEconDone",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
 				"HasSeenEvent |contains=31032027": true,
 				"HasSeenEvent |contains=31032028": true,
 			}
 		},
-		// Dynamic dialog for Sebastian Computer Basics
+		// Dynamic dialog for Sebastian Programming Basics
 		/*Dynamic event dialog, saw Abigail Economics*/ {
-			"Name": "SebComputerBasicsSeenAbbyEcon",
+			"Name": "SebProgramBasicsSeenAbbyEcon",
 			"Value": "speak Gunther \"{{i18n:event-31032028.03}}\"/emote Penny 28/speak Penny \"{{i18n:event-31032028.04}}\"/speak Sebastian \"{{i18n:event-31032028.05}}\"/pause 500",
 			"When": {
 				"HasSeenEvent |contains=31032027": "true"
 			}
 		},
 		/*Dynamic event dialog, didn't see Abigail Economics*/ {
-			"Name": "SebComputerBasicsSeenAbbyEcon",
+			"Name": "SebProgramBasicsSeenAbbyEcon",
 			"Value": "speak Gunther \"{{i18n:event-31032028.03}}\"/emote Penny 28",
 			"When": {
 				"HasSeenEvent |contains=31032027": "false"
 			}
 		},
 		/*Dynamic event dialog, saw Video Games "lesson"*/ {
-			"Name": "SebComputerBasicsSeenVideoGamesEvent",
+			"Name": "SebProgramBasicsSeenVideoGamesEvent",
 			"Value": "speak Jas \"{{i18n:event-31032028.20}}\"/speak Sebastian \"{{i18n:event-31032028.21}}\"/emote Vincent 8 true/emote Jas 8/speak Jas \"{{i18n:event-31032028.19}}\"",
 			"When": {
 				"HasSeenEvent |contains=31032033": "true"
 			}
 		},
 		/*Dynamic event dialog, didn't see Video Games "lesson"*/ {
-			"Name": "SebComputerBasicsSeenVideoGamesEvent",
+			"Name": "SebProgramBasicsSeenVideoGamesEvent",
 			"Value": "emote Jas 40 true/emote Vincent 40/speak Jas \"{{i18n:event-31032028.19}}\"",
 			"When": {
 				"HasSeenEvent |contains=31032033": "false"
 			}
 		},
 		/*Dynamic Abigail CT dialog, didn't see econ lesson, saw Video Games "lesson"*/ {
-			"Name": "SebComputerBasicsAbbyCT",
-			"Value": "{{i18n:ItTakesAVillage_SebComputerCT_Abigail_NoEconYesVG}}",
+			"Name": "SebProgramBasicsAbbyCT",
+			"Value": "{{i18n:ItTakesAVillage_SebProgramCT_Abigail_NoEconYesVG}}",
 			"When": {
 				"HasSeenEvent |contains=31032027": "false",
 				"HasSeenEvent |contains=31032033": "true"
 			}
 		},
 		/*Dynamic Abigail CT dialog, didn't see econ lesson or Video Games "lesson"*/ {
-			"Name": "SebComputerBasicsAbbyCT",
-			"Value": "{{i18n:ItTakesAVillage_SebComputerCT_Abigail_NoEconNoVG}}",
+			"Name": "SebProgramBasicsAbbyCT",
+			"Value": "{{i18n:ItTakesAVillage_SebProgramCT_Abigail_NoEconNoVG}}",
 			"When": {
 				"HasSeenEvent |contains=31032027": "false",
 				"HasSeenEvent |contains=31032033": "false"
 			}
 		},
 		/*Dynamic Abigail CT dialog, saw econ and Video Games "lesson"*/ {
-			"Name": "SebComputerBasicsAbbyCT",
-			"Value": "{{i18n:ItTakesAVillage_SebComputerCT_Abigail_YesEconYesVG}}",
+			"Name": "SebProgramBasicsAbbyCT",
+			"Value": "{{i18n:ItTakesAVillage_SebProgramCT_Abigail_YesEconYesVG}}",
 			"When": {
 				"HasSeenEvent |contains=31032027": "true",
 				"HasSeenEvent |contains=31032033": "true"
 			}
 		},
 		/*Dynamic Abigail CT dialog, saw econ lesson, didn't see Video Games "lesson"*/ {
-			"Name": "SebComputerBasicsAbbyCT",
-			"Value": "{{i18n:ItTakesAVillage_SebComputerCT_Abigail_YesEconNoVG}}",
+			"Name": "SebProgramBasicsAbbyCT",
+			"Value": "{{i18n:ItTakesAVillage_SebProgramCT_Abigail_YesEconNoVG}}",
 			"When": {
 				"HasSeenEvent |contains=31032027": "true",
 				"HasSeenEvent |contains=31032033": "false"
 			}
 		},
 		// Dynamic dialog for Abigail Econ
-		/*Dynamic event dialog, saw Computer Basics lesson*/ {
-			"Name": "AbbyEconSeenSebComputer",
+		/*Dynamic event dialog, saw Programming Basics lesson*/ {
+			"Name": "AbbyEconSeenSebProgram",
 			"Value": "speak Penny \"{{i18n:event-31032027.03}}\"/faceDirection Penny 1",
 			"When": {
 				"HasSeenEvent |contains=31032028": "true"
 			}
 		},
-		/*Dynamic event dialog, did not see Computer Basics lesson*/ {
-			"Name": "AbbyEconSeenSebComputer",
+		/*Dynamic event dialog, did not see Programming Basics lesson*/ {
+			"Name": "AbbyEconSeenSebProgram",
 			"Value": "faceDirection Penny 1",
 			"When": {
 				"HasSeenEvent |contains=31032028": "false"
 			}
 		},
-		/*Dynamic Sebastian CT dialog, saw Computer Basics lesson*/ {
+		/*Dynamic Sebastian CT dialog, saw Programming Basics lesson*/ {
 			"Name": "AbbyEconSebCT",
-			"Value": "{{i18n:ItTakesAVillage_AbbyEconCT_Sebastian_YesSebComputer}}",
+			"Value": "{{i18n:ItTakesAVillage_AbbyEconCT_Sebastian_YesSebProgram}}",
 			"When": {
 				"HasSeenEvent |contains=31032028": "true"
 			}
 		},
-		/*Dynamic Sebastian CT dialog, didn't see Computer Basics lesson*/ {
+		/*Dynamic Sebastian CT dialog, didn't see Programming Basics lesson*/ {
 			"Name": "AbbyEconSebCT",
-			"Value": "{{i18n:ItTakesAVillage_AbbyEconCT_Sebastian_NoSebComputer}}",
+			"Value": "{{i18n:ItTakesAVillage_AbbyEconCT_Sebastian_NoSebProgram}}",
 			"When": {
 				"HasSeenEvent |contains=31032028": "false"
 			}
@@ -930,35 +930,35 @@
 				"HasSeenEvent |contains=31032035": "false"
 			}
 		},
-		/*Dynamic Sebastian CT dialog if you have seen Sebastian Computer Basics and at least 1 Abby lesson*/ {
+		/*Dynamic Sebastian CT dialog if you have seen Sebastian Programming Basics and at least 1 Abby lesson*/ {
 			"Name": "AbbyVideoGamesSebastianCT",
-			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Sebastian_YesComputerYesAbby}}",
+			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Sebastian_YesProgramYesAbby}}",
 			"When": {
-				"SebComputerAndAbbyEconToken": "SebComputerYesAbbyEconNo",
+				"SebProgramAndAbbyEconToken": "SebProgramYesAbbyEconNo",
 				"HasSeenEvent |contains=31032033, 31032027, 31032037": "true",
 			}
 		},
-		/*Dynamic Sebastian CT dialog if you have seen Sebastian Computer Basics and no Abby lesson*/ {
+		/*Dynamic Sebastian CT dialog if you have seen Sebastian Programming Basics and no Abby lesson*/ {
 			"Name": "AbbyVideoGamesSebastianCT",
-			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Sebastian_YesComputerNoAbby}}",
+			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Sebastian_YesProgramNoAbby}}",
 			"When": {
-				"SebComputerAndAbbyEconToken": "SebComputerYesAbbyEconNo",
+				"SebProgramAndAbbyEconToken": "SebProgramYesAbbyEconNo",
 				"HasSeenEvent |contains=31032033, 31032027, 31032037": "false",
 			}
 		},
-		/*Dynamic Sebastian CT dialog if you have not seen Sebastian Computer Basics and have seen at least 1 Abby lesson*/ {
+		/*Dynamic Sebastian CT dialog if you have not seen Sebastian Programming Basics and have seen at least 1 Abby lesson*/ {
 			"Name": "AbbyVideoGamesSebastianCT",
-			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Sebastian_NoComputerYesAbby}}",
+			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Sebastian_NoProgramYesAbby}}",
 			"When": {
-				"SebComputerAndAbbyEconToken": "AbbyEconNoSebComputerNo",
+				"SebProgramAndAbbyEconToken": "AbbyEconNoSebProgramNo",
 				"HasSeenEvent |contains=31032033, 31032027, 31032037": "true",
 			}
 		},
-		/*Dynamic Sebastian CT dialog if you have not seen Sebastian Computer Basics and no Abby lesson*/ {
+		/*Dynamic Sebastian CT dialog if you have not seen Sebastian Programming Basics and no Abby lesson*/ {
 			"Name": "AbbyVideoGamesSebastianCT",
-			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Sebastian_NoComputerNoAbby}}",
+			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Sebastian_NoProgramNoAbby}}",
 			"When": {
-				"SebComputerAndAbbyEconToken": "AbbyEconNoSebComputerNo",
+				"SebProgramAndAbbyEconToken": "AbbyEconNoSebProgramNo",
 				"HasSeenEvent |contains=31032033, 31032027, 31032037": "false",
 			}
 		},
@@ -1101,33 +1101,33 @@
 				"HasSeenEvent |contains=31032033": "false"
 			}
 		},
-		/*Dynamic Sebastian CT dialog if you have seen Sebastian Computer Basics and seen Abigail Video Games*/ {
+		/*Dynamic Sebastian CT dialog if you have seen Sebastian Programming Basics and seen Abigail Video Games*/ {
 			"Name": "SamMusicSebastianCT",
-			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Sebastian_YesComputerYesVG}}",
+			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Sebastian_YesProgramYesVG}}",
 			"When": {
 				"HasSeenEvent |contains=31032028": "true",
 				"HasSeenEvent |contains=31032033": "true"
 			}
 		},
-		/*Dynamic Sebastian CT dialog if you have seen Sebastian Computer Basics and have not seen Abigail Video Games*/ {
+		/*Dynamic Sebastian CT dialog if you have seen Sebastian Programming Basics and have not seen Abigail Video Games*/ {
 			"Name": "SamMusicSebastianCT",
-			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Sebastian_YesComputerNoVG}}",
+			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Sebastian_YesProgramNoVG}}",
 			"When": {
 				"HasSeenEvent |contains=31032028": "true",
 				"HasSeenEvent |contains=31032033": "false"
 			}
 		},
-		/*Dynamic Sebastian CT dialog if you have seen Abigail Video Games and have not seen Sebastian Computer Basics*/ {
+		/*Dynamic Sebastian CT dialog if you have seen Abigail Video Games and have not seen Sebastian Programming Basics*/ {
 			"Name": "SamMusicSebastianCT",
-			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Sebastian_NoComputerYesVG}}",
+			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Sebastian_NoProgramYesVG}}",
 			"When": {
 				"HasSeenEvent |contains=31032028": "false",
 				"HasSeenEvent |contains=31032033": "true"
 			}
 		},
-		/*Dynamic Sebastian CT dialog if you have not seen Sebastian Computer Basics and have not seen Abigail Video Games*/ {
+		/*Dynamic Sebastian CT dialog if you have not seen Sebastian Programming Basics and have not seen Abigail Video Games*/ {
 			"Name": "SamMusicSebastianCT",
-			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Sebastian_NoComputerNoVG}}",
+			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Sebastian_NoProgramNoVG}}",
 			"When": {
 				"HasSeenEvent |contains=31032028": "false",
 				"HasSeenEvent |contains=31032033": "false"
@@ -1370,7 +1370,7 @@
 			"When": {
 				"HasSeenEvent |contains= 31032030": false,
 				"MaruElectronicsAndDemetriusBotanyToken": "MaruElectronicsYes, MaruElectronicsYesDemetriusBotanyNo",
-				"HasConversationTopic |contains= ItTakesAVillage_Beginning, ItTakesAVillage_AlexPE, ItTakesAVillage_GusCooking, ItTakesAVillage_ElliottStories, ItTakesAVillage_HaleyLeahArt, ItTakesAVillage_AbbyEcon, ItTakesAVillage_SebComputer, ItTakesAVillage_DemetriusBotany, ItTakesAVillage_EmilyDance, ItTakesAVillage_HarveyHealth, ItTakesAVillage_AbigailVideoGames, ItTakesAVillage_ClintMetalworking, ItTakesAVillage_SamMusic, ItTakesAVillage_ShaneAnimalCare, ItTakesAVillage_AbigailSelfDefense, ItTakesAVillage_RobinWoodworking, ItTakesAVillage_WillyLinusFishing, ItTakesAVillage_CarolineEvelynGardening": false,
+				"HasConversationTopic |contains= ItTakesAVillage_Beginning, ItTakesAVillage_AlexPE, ItTakesAVillage_GusCooking, ItTakesAVillage_ElliottStories, ItTakesAVillage_HaleyLeahArt, ItTakesAVillage_AbbyEcon, ItTakesAVillage_SebProgram, ItTakesAVillage_DemetriusBotany, ItTakesAVillage_EmilyDance, ItTakesAVillage_HarveyHealth, ItTakesAVillage_AbigailVideoGames, ItTakesAVillage_ClintMetalworking, ItTakesAVillage_SamMusic, ItTakesAVillage_ShaneAnimalCare, ItTakesAVillage_AbigailSelfDefense, ItTakesAVillage_RobinWoodworking, ItTakesAVillage_WillyLinusFishing, ItTakesAVillage_CarolineEvelynGardening": false,
 				"LocationName |contains= ScienceHouse, temp": true,
 				"PortraitandSpriteOverlayConfig": true
 			},
