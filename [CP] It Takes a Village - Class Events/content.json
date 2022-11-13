@@ -29,7 +29,7 @@
 			"AllowBlank": false,
 			"AllowMultiple": false
 		},
-		"EditPenny8HeartEvent": { // ask atravita about adding compat with Penny 8 Heart Event Adjusted mod. ask Hanatsuki about adding compat with Gender Neutrality Mod // include an optional tweak for the 8 heart event that edits the guest speaker line to reference the lessons? something like "it's your turn huhu"
+		"EditPenny8HeartEvent": { // ask atravita about adding compat with Penny 8 Heart Event Adjusted mod. ask Hanatsuki about adding compat with Gender Neutrality Mod (HasMod the tokens one) // one combo version of compat for both, and a fourth option which just removes gender references altogether in case you don't have the Gender Neutrality Mod tokens one or Penny 8 heart adjusted // Would you like to join the guest lecturers club and be today's speaker?
 			"Description": "For immersion reasons, Penny's 8 heart event is tweaked to include a reference to the lessons. Set this to false if you have another mod that edits Penny's 8 heart event. Default is true.",
 			"AllowValues": "true, false",
 			"Default": "true",
