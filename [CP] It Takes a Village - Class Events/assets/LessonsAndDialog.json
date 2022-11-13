@@ -934,6 +934,14 @@
                 "ItTakesAVillage_EmilyDance": "{{i18n:ItTakesAVillage_EmilyDanceCT_Haley}}"
             }
         },
+        /*Sandy CT*/ {
+            "LogName": "Emily Emotional Health and Dance CT - Sandy",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sandy",
+            "Entries": {
+                "ItTakesAVillage_EmilyDance": "{{i18n:ItTakesAVillage_EmilyDanceCT_Sandy}}"
+            }
+        },
         /*Jas CT*/ {
             "LogName": "Emily Emotional Health and Dance CT - Jas",
             "Action": "EditData",
