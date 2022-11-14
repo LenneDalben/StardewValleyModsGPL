@@ -51,9 +51,9 @@
     "config.LoadBlacksmithConfig.values.true": "true",
     "config.LoadBlacksmithConfig.values.false": "false",
     //
-    // Edit Penny 8 Heart Event // Add note about compat
+    // Edit Penny 8 Heart Event
     "config.EditPenny8HeartEvent.name": "EditPenny8HeartEvent",
-    "config.EditPenny8HeartEvent.description": "For immersion reasons, Penny's 8 heart event is tweaked to include a reference to the lessons. Set this to false if you have another mod that edits Penny's 8 heart event. Default is true.",
+    "config.EditPenny8HeartEvent.description": "The first question in Penny's 8 heart event is tweaked to include a reference to the lessons. This edit is compatible with atravita's Penny 8 Heart Event Adjusted, Hanatsuki's Gender Neutrality Mod and Hanatsuki's and Fix Dialog Differences. Set this to false if you have another mod that edits Penny's 8 heart event. Default is true.",
     "config.EditPenny8HeartEvent.values.true": "true",
     "config.EditPenny8HeartEvent.values.false": "false",
     //
@@ -81,6 +81,12 @@
     "ItTakesAVillage_BeginningCT_Pam": "Penny means well, but getting everyone in this town to help out will be tough.",
     "ItTakesAVillage_BeginningCT_Marnie": "I'm glad Jas will learning different things in class. It'll be good to get her thinking.$h",
     "ItTakesAVillage_BeginningCT_Shane": "Jas has been talking up a storm about guest lecturers. If Penny's asking everyone in town, it could go badly.$2#$b#What? Not everyone is suited for teaching.$3",
+    //
+    // Edit Penny 8 Heart Event
+    "181928-ITAVEdit.01": "Would you like to join the guest lecturers club and be today's speaker?",
+    "181928-ITAVEdit.02": "I'd love to!",
+    "181928-ITAVEdit.03": "Sure.",
+    "181928-ITAVEdit.04": "No... I can't stand kids.",
     //
     // Alex PE and Healthy Eating event
     "event-31032023.01": "Hi there @! Join our class!",
