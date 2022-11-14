@@ -1465,9 +1465,10 @@
         // Could be something like "it's important to feed them the right food, and the proper amount."
         // Jas interrupts in total Hermione fashion because she knows how much
         // Also something about giving the animals space, don't want them to feel crowded
-        // Vincent's Can I pet it? 
-        // do we need to maybe scooch the viewport towards the right a little to further emphasize?
-        // something about big birbs for that
+        // Vincent's Can I pet it?
+        // CTs could have a variant on "oh wow much calmer and less terrifying than the big birb from the mountains"
+        // also big birb: the kids and Penny jump in fear and move away, shaking, until Shane turns around and is like "hey now, no worries, this be a chill birb!"
+        // STRETCH GOAL: make the blossom duck fren a CC that shows up on Fridays, NO MOVING SPRITES NEEDED :D
         /*Event proper*/ {
             "LogName": "Shane Animal Care Lesson",
             "Action": "EditData",
@@ -1478,6 +1479,7 @@
             "When": {
                 "SamMusicAndShaneAnimalCareToken": "ShaneAnimalCareYes, ShaneAnimalCareYesSamMusicNo"
             }
+            // addTemporaryActor White_Chicken 16 16 8 5 2 false Animal chicken1/addTemporaryActor Brown_Chicken 16 16 8 9 3 false Animal chicken2/addTemporaryActor Brown_Chicken 16 16 7 7 1 false Animal chicken3/addTemporaryActor Blue_Chicken 16 16 14 11 3 false Animal chicken4/addTemporaryActor Blue_Chicken 16 16 9 11 2 false Animal chicken5/
         },
         /*Shane CT*/ {
             "LogName": "Shane Animal Care CT - Shane",
