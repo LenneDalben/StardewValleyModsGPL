@@ -34,7 +34,7 @@ Config Options
 
 * Load Blacksmith Config: Set this to false if you have a mod that adds events to the Blacksmith shop besides Clint Marriage Mod, Looking for Love, or Lucikiel. ITAV automatically detects Clint Marriage Mod, Looking for Love, and Lucikiel so adjusting this setting is not needed for those mods. Default is true.
 
-* Edit Penny 8 Heart Event: For immersion reasons, Penny's 8 heart event is tweaked to include a reference to the lessons. Set this to false if you have another mod that edits Penny's 8 heart event. Default is true.
+* Edit Penny 8 Heart Event: The first question in Penny's 8 heart event is tweaked to include a reference to the lessons. This edit is compatible with atravita's Penny 8 Heart Event Adjusted, Hanatsuki's Gender Neutrality Mod and Hanatsuki's and Fix Dialog Differences. Set this to false if you have another mod that edits Penny's 8 heart event. Default is true.
 
 Note that the mod does not come packaged with a config file. The config file will be generated after you run the game with the mod installed at least once. 
 
