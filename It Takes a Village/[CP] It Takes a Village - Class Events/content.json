@@ -1418,7 +1418,7 @@
 			 ],
 			"When": {
 				"DayofWeek": "Friday",
-				"Weather": "Sun, Wind",
+				"Weather |contains=Sun, Wind": "true",
 				"HasMod": "LenneDalben.CCItTakesaVillageVisitor",
 				"HasSeenEvent": "31032036"
 				},
