@@ -1468,7 +1468,6 @@
         // Vincent's Can I pet it?
         // CTs could have a variant on "oh wow much calmer and less terrifying than the big birb from the mountains"
         // also big birb: the kids and Penny jump in fear and move away, shaking, until Shane turns around and is like "hey now, no worries, this be a chill birb!"
-        // STRETCH GOAL: make the blossom duck fren a CC that shows up on Fridays, NO MOVING SPRITES NEEDED :D
         /*Event proper*/ {
             "LogName": "Shane Animal Care Lesson",
             "Action": "EditData",
