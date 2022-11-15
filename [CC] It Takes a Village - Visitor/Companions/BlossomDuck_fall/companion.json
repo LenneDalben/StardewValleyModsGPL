@@ -1,0 +1,24 @@
+{
+  "Name": "BlossomDuck_fall",
+  "Type": "Walking",
+  "FrameSizeWidth": 32,
+  "FrameSizeHeight": 32,
+  "EnableCharacterCollision": true,
+  "EnableFarmerCollision": false,
+  "EnableShadow": true,
+  "IdleBehavior": "Nothing",
+  "EnableBreathing": true,
+  "UniformAnimation": {
+    "StartingFrame": 0,
+    "NumberOfFrames": 1,
+    "Duration": 5000
+  },
+  "Sounds": [
+    {
+      "SoundName": "Duck",
+      "WhenToPlay": "Always",
+      "TimeBetweenSound": 5000,
+      "ChanceOfPlaying": 0.3
+    }
+  ]
+}

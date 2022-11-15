@@ -1,0 +1,12 @@
+﻿{
+	"Name": "[CC] It Takes a Village - Visitor",
+	"Author": "LenneDalben",
+	"Version": "1.0.0",
+	"Description": "Adds a special visitor to your game.",
+	"UniqueID": "LenneDalben.CCItTakesaVillageVisitor",
+	"UpdateKeys": [ "ModDrop:???" ],
+	"ContentPackFor": {
+		"UniqueID": "PeacefulEnd.CustomCompanions",
+		"MinimumVersion": "1.4.3"
+  }
+}
