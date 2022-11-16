@@ -1183,28 +1183,28 @@
 		// Dynamic tokens for Shane Animal Care
 		/*Dynamic event dialog, less than 3 hearts with Shane*/ {
 			"Name": "ShaneAnimalCareFirstLine",
-			"Value": "",
+			"Value": "{{i18n:event-31032036.03}}",
 			"When": {
 				"Hearts: Shane": "0, 1, 2"
 			}
 		},
 		/*Dynamic event dialog, 3 or more hearts with Shane*/ {
 			"Name": "ShaneAnimalCareFirstLine",
-			"Value": "",
+			"Value": "{{i18n:event-31032036.02}}",
 			"When": {
 				"Hearts: Shane": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
 			}
 		},
 		/*Dynamic event dialog, saw Sam music*/ {
 			"Name": "ShaneAnimalCareSawMusic",
-			"Value": "",
+			"Value": "speak Vincent \"{{i18n:event-31032036.09}}\"/emote Jas 40/speak Shane \"{{i18n:event-31032036.10}}\"/emote Vincent 32/speak Shane \"{{i18n:event-31032036.11}}\"/speak Shane \"{{i18n:event-31032036.12}}\"",
 			"When": {
 				"HasSeenEvent |contains=31032035": "true"
 			}
 		},
 		/*Dynamic event dialog, have not seen Sam music*/ {
 			"Name": "ShaneAnimalCareSawMusic",
-			"Value": "",
+			"Value": "speak Shane \"{{i18n:event-31032036.12}}\"",
 			"When": {
 				"HasSeenEvent |contains=31032035": "false"
 			}
