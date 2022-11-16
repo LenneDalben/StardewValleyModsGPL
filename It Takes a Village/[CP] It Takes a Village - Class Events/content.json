@@ -1180,7 +1180,7 @@
 				"HasSeenEvent |contains=31032033": "false"
 			}
 		},
-		// Dynamic tokens for Shane Animal Care		
+		// Dynamic tokens for Shane Animal Care
 		/*Dynamic event dialog, less than 3 hearts with Shane*/ {
 			"Name": "ShaneAnimalCareFirstLine",
 			"Value": "",
@@ -1193,6 +1193,20 @@
 			"Value": "",
 			"When": {
 				"Hearts: Shane": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+			}
+		},
+		/*Dynamic event dialog, saw Sam music*/ {
+			"Name": "ShaneAnimalCareSawMusic",
+			"Value": "",
+			"When": {
+				"HasSeenEvent |contains=31032035": "true"
+			}
+		},
+		/*Dynamic event dialog, have not seen Sam music*/ {
+			"Name": "ShaneAnimalCareSawMusic",
+			"Value": "",
+			"When": {
+				"HasSeenEvent |contains=31032035": "false"
 			}
 		},
 		/*Include blue chickens if you saw Shane's 8 heart event*/ {
