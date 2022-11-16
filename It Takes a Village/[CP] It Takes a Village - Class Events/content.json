@@ -1180,7 +1180,21 @@
 				"HasSeenEvent |contains=31032033": "false"
 			}
 		},
-		// Dynamic tokens for Shane Animal Care
+		// Dynamic tokens for Shane Animal Care		
+		/*Dynamic event dialog, less than 3 hearts with Shane*/ {
+			"Name": "ShaneAnimalCareFirstLine",
+			"Value": "",
+			"When": {
+				"Hearts: Shane": "0, 1, 2"
+			}
+		},
+		/*Dynamic event dialog, 3 or more hearts with Shane*/ {
+			"Name": "ShaneAnimalCareFirstLine",
+			"Value": "",
+			"When": {
+				"Hearts: Shane": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+			}
+		},
 		/*Include blue chickens if you saw Shane's 8 heart event*/ {
 			"Name": "ShaneAnimalChickenPlacementToken",
 			"Value": "addTemporaryActor White_Chicken 16 16 8 5 2 false Animal chicken1/addTemporaryActor Brown_Chicken 16 16 8 10 3 false Animal chicken2/addTemporaryActor Brown_Chicken 16 16 7 8 1 false Animal chicken3/addTemporaryActor Blue_Chicken 16 16 14 11 3 false Animal chicken4/addTemporaryActor Blue_Chicken 16 16 9 11 2 false Animal chicken5",
