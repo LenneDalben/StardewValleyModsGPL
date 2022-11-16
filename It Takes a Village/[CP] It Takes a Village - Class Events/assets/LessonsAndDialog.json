@@ -1465,6 +1465,8 @@
         },
         //
         // Shane Animal Care IN PROGRESS
+        // Test this out with the zoom at 100% (also tests the i18n and dynamic tokens)
+        // also write and test the alternate response where everyone tries to run if you've seen the Demetrius botany birb edition because I completely forgot before i18n'ing lol
         // CTs could have a variant on "oh wow much calmer and less terrifying than the big birb from the mountains"
         // also big birb: the kids and Penny jump in fear and move away, shaking, until Shane turns around and is like "hey now, no worries, this be a chill birb!"
         /*Event proper*/ {
@@ -1478,8 +1480,6 @@
                 "SamMusicAndShaneAnimalCareToken": "ShaneAnimalCareYes, ShaneAnimalCareYesSamMusicNo",
                 "Weather |contains=Sun, Wind": "true"
             }
-            // addTemporaryActor White_Cow 32 32 106 16 2 false Animal cow1/addTemporaryActor White_Cow 32 32 95 17 3 false Animal cow2/addTemporaryActor Brown_Cow 32 32 103 20 1 false Animal cow3/addTemporaryActor BabySheep 32 32 97 19 0 false Animal sheep1
-            // /move cow3 0 -1 0 true/pause 500/move sheep1 0 1 2/pause 500/move cow2 -1 0 1/move sheep1 -1 0 3 true/pause 500/faceDirection cow1 2/animate cow1 false true 500 12 13
         },
         /*Shane CT*/ {
             "LogName": "Shane Animal Care CT - Shane",
