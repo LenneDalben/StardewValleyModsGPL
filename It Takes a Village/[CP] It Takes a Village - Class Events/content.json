@@ -1223,6 +1223,28 @@
 				"HasSeenEvent |contains=3900074": "false"
 			}
 		},
+		/*Dynamic event dialog TOKEN FOR Demetrius Botany crow*/ {
+			"Name": "ShaneAnimalCareCrow",
+			"Value": "textAboveHead Shane \"{{i18n:event-31032036.28}}\"/emote Jas 16 true/emote Vincent 16 true/emote Penny 16 true/jump Jas 8/jump Vincent 4/jump farmer 4/jump Penny 8/shake Vincent 1500/shake Penny 3000/shake Jas 3000/speed Penny 6/move Penny -2 0 1 true/speed Jas 6/move Jas -3 0 1 true/textAboveHead Jas \"{{i18n:event-31032036.29}}\"/pause 200/shake Penny 3000/shake Jas 3000/faceDirection Shane 3/speak Shane \"{{i18n:event-31032036.30}}\"/emote Penny 28 true/emote Jas 28 false/pause 300/speak Shane \"{{i18n:event-31032036.26}}\"/emote BlossomDuck 32/speak Vincent \"{{i18n:event-31032036.31}}\"/emote Jas 40/speak Jas \"{{i18n:event-31032036.32}}\"/emote Penny 28 true/emote Vincent 32 true/emote Shane 32 true/emote farmer 32 true"
+		},
+		/*Dynamic event dialog TOKEN FOR Demetrius Botany "bug" (same as haven't seen Demetrius botany)*/ {
+			"Name": "ShaneAnimalCareBug",
+			"Value": "jump Jas 8/jump Vincent 8/jump farmer 4/jump Penny 4/speak Shane \"{{i18n:event-31032036.26}}\"/emote BlossomDuck 32/emote Jas 20 true/emote Vincent 20 true/emote Penny 32 true/emote Shane 32 true/emote farmer 32 true"
+		},
+		/*Dynamic event dialog if you have seen Demetrius Botany*/ {
+			"Name": "ShaneAnimalCareEnd",
+			"Value": "{{Random: {{ShaneAnimalCareCrow}} %% {{ShaneAnimalCareBug}} %% {{ShaneAnimalCareBug}} %% {{ShaneAnimalCareBug}} %% {{ShaneAnimalCareBug}} %% {{ShaneAnimalCareBug}} %% {{ShaneAnimalCareBug}} %% {{ShaneAnimalCareBug}} %% {{ShaneAnimalCareBug}} %% {{ShaneAnimalCareBug}} |key=monster |inputSeparator=%%}}",
+			"When": {
+				"HasSeenEvent |contains=31032029": "true"
+			}
+		},
+		/*Dynamic event dialog if you have not seen Demetrius Botany*/ {
+			"Name": "ShaneAnimalCareEnd",
+			"Value": "jump Jas 8/jump Vincent 8/jump farmer 4/jump Penny 4/speak Shane \"{{i18n:event-31032036.26}}\"/emote BlossomDuck 32/emote Jas 20 true/emote Vincent 20 true/emote Penny 32 true/emote Shane 32 true/emote farmer 32 true",
+			"When": {
+				"HasSeenEvent |contains=31032029": "false"
+			}
+		},
 		// Robin Woodworking and Abigail Self-Defense
 		{
 			"Name": "RobinWoodworkAndAbbySelfDefenseToken",
