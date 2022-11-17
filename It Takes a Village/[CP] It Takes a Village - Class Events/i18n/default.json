@@ -535,6 +535,20 @@
     "event-31032036.30": "Wait, y'all, it's not dangerous!$h#$b#Sorry, I should have given you a heads up after what you went through in the mountains.$3",
     "event-31032036.31": "What a cute duck!",
     "event-31032036.32": "It is cute.$3",
+    // Shane Animal Care CTs
+    // CTs could have a variant on "oh wow much calmer and less terrifying than the big birb from the mountains"
+    "ItTakesAVillage_ShaneAnimalCareCT_Shane_YesMusic": "",
+    "ItTakesAVillage_ShaneAnimalCareCT_Shane_NoMusic": "",
+    "ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusic": "",
+    "ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusic": "",
+    "ItTakesAVillage_ShaneAnimalCareCT_Harvey": "",
+    "ItTakesAVillage_ShaneAnimalCareCT_Jas": "", // needs birb edition
+    "ItTakesAVillage_ShaneAnimalCareCT_Vincent": "", // needs birb edition
+    "ItTakesAVillage_ShaneAnimalCareCT_Jodi": "", // needs birb edition
+    "ItTakesAVillage_ShaneAnimalCareCT_Kent": "", // needs birb edition
+    "ItTakesAVillage_ShaneAnimalCareCT_Marnie_Yes6Heart": "",
+    "ItTakesAVillage_ShaneAnimalCareCT_Marnie_No6Heart": "",
+    "ItTakesAVillage_ShaneAnimalCareCT_Penny": "", // needs birb edition // I was surprised to see Shane interested in giving a lesson, let alone one so gentle.#$b#Vincent was happy to see more of what Jas talks about with the animals.
     //
     // Wrap up event
     "event-31032041.01": "That cake looks yummy!$h",

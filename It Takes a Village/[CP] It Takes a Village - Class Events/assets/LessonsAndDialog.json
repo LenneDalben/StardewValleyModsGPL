@@ -1470,7 +1470,6 @@
         },
         //
         // Shane Animal Care IN PROGRESS
-        // CTs could have a variant on "oh wow much calmer and less terrifying than the big birb from the mountains"
         /*Event proper*/ {
             "LogName": "Shane Animal Care Lesson",
             "Action": "EditData",
@@ -1484,20 +1483,12 @@
                 "Update": "OnLocationChange"
             }
         },
-        /*Shane CT*/ {
+        /*Shane CT, dynamic dialog*/ {
             "LogName": "Shane Animal Care CT - Shane",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Shane",
             "Entries": {
                 "ItTakesAVillage_ShaneAnimalCare": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Shane}}"
-            }
-        },
-        /*Harvey CT*/ { // if you've seen Shane's 6 heart event 3910975
-            "LogName": "Shane Animal Care CT - Harvey",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Harvey",
-            "Entries": {
-                "ItTakesAVillage_ShaneAnimalCare": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Harvey}}"
             }
         },
         /*Sam CT, dynamic dialog*/ {
@@ -1506,6 +1497,17 @@
             "Target": "Characters/Dialogue/Sam",
             "Entries": {
                 "ItTakesAVillage_ShaneAnimalCare": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam}}"
+            }
+        },
+        /*Harvey CT if you've seen Shane's 6 heart event*/ {
+            "LogName": "Shane Animal Care CT - Harvey",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Harvey",
+            "Entries": {
+                "ItTakesAVillage_ShaneAnimalCare": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Harvey}}"
+            },
+            "When": {
+                "HasSeenEvent": "3910975"
             }
         },
         /*Sterling? CT ASK HIME*/ {
@@ -1555,7 +1557,7 @@
             "Entries": {
                 "ItTakesAVillage_ShaneAnimalCare": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Marnie}}"
             }
-        }, // slightly different response depending on whether Shane 6 heart event was seen
+        },
         /*Penny CT*/ {
             "LogName": "Shane Animal Care CT - Penny",
             "Action": "EditData",
@@ -1563,7 +1565,7 @@
             "Entries": {
                 "ItTakesAVillage_ShaneAnimalCare": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Penny}}"
             }
-        }, // I was surprised to see Shane interested in giving a lesson, let alone one so gentle.#$b#Vincent was happy to see more of what Jas talks about with the animals.
+        },
         //
         // Robin Woodworking INCOMPLETE
         // Hey kids! This is how you make a flute block!
