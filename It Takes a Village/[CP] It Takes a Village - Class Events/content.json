@@ -470,7 +470,7 @@
 		// Dynamic tokens for Maru Electronics
 		/*Dynamic event dialog if you have seen Demetrius Botany*/ {
 			"Name": "MaruElectronicsFirstLine",
-			"Value": "{{Random: {{i18n:event-31032030.03}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} |key=monster |inputSeparator=%%}}",
+			"Value": "{{Random: {{i18n:event-31032030.03}} %% {{i18n:event-31032030.02}} %% {{i18n:event-31032030.02}} %% {{i18n:event-31032030.02}} %% {{i18n:event-31032030.02}} %% {{i18n:event-31032030.02}} %% {{i18n:event-31032030.02}} %% {{i18n:event-31032030.02}} %% {{i18n:event-31032030.02}} %% {{i18n:event-31032030.02}} |key=monster |inputSeparator=%%}}",
 			"When": {
 				"HasSeenEvent |contains=31032029": "true"
 			}
