@@ -1470,8 +1470,6 @@
         },
         //
         // Shane Animal Care IN PROGRESS
-        // Test this out with the zoom at 100% (also tests the i18n and dynamic tokens)
-        // also write and test the alternate response where everyone tries to run if you've seen the Demetrius botany birb edition because I completely forgot before i18n'ing lol
         // CTs could have a variant on "oh wow much calmer and less terrifying than the big birb from the mountains"
         /*Event proper*/ {
             "LogName": "Shane Animal Care Lesson",
