@@ -1245,6 +1245,48 @@
 				"HasSeenEvent |contains=31032029": "false"
 			}
 		},
+		/*Dynamic CT dialog for Shane, saw Sam Music*/ {
+			"Name": "ShaneAnimalCareShaneCT",
+			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Shane_YesMusic}}",
+			"When": {
+				"HasSeenEvent |contains=3910975": "true"
+			}
+		},
+		/*Dynamic CT dialog for Shane, did not see Sam Music*/ {
+			"Name": "ShaneAnimalCareShaneCT",
+			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Shane_NoMusic}}",
+			"When": {
+				"HasSeenEvent |contains=3910975": "false"
+			}
+		},
+		/*Dynamic CT dialog for Sam, saw Sam Music*/ {
+			"Name": "ShaneAnimalCareShaneCT",
+			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusic}}",
+			"When": {
+				"HasSeenEvent |contains=3910975": "true"
+			}
+		},
+		/*Dynamic CT dialog for Sam, did not see Sam Music*/ {
+			"Name": "ShaneAnimalCareShaneCT",
+			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusic}}",
+			"When": {
+				"HasSeenEvent |contains=3910975": "false"
+			}
+		},
+		/*Dynamic CT dialog for Marnie, saw Shane's 6 heart event*/ {
+			"Name": "ShaneAnimalCareMarnieCT",
+			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Marnie_Yes6Heart}}",
+			"When": {
+				"HasSeenEvent |contains=3910975": "true"
+			}
+		},
+		/*Dynamic CT dialog for Marnie, did not see Shane's 6 heart event*/ {
+			"Name": "ShaneAnimalCareMarnieCT",
+			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Marnie_No6Heart}}",
+			"When": {
+				"HasSeenEvent |contains=3910975": "false"
+			}
+		},
 		// Robin Woodworking and Abigail Self-Defense
 		{
 			"Name": "RobinWoodworkAndAbbySelfDefenseToken",
