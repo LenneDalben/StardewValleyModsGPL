@@ -15,7 +15,8 @@
                 "31032022/f Penny 1500/t 900 1800": "50s/-1000 -1000/farmer 81 94 0 Penny 89 94 2 Jas 89 95 0 Vincent 90 95 0/viewport 87 97 true/{{SkippableToken}}/emote Jas 32/jump Vincent 4/pause 500/speed Jas 4/move Jas 0 4 1 true/speed Vincent 4/move Vincent 0 4 3 true/move Penny -2 0 3/faceDirection Penny 2/faceDirection farmer 1/pause 200/emote Penny 28/emote farmer 8/move farmer 2 0 1 true/pause 100/faceDirection Penny 3/pause 300/speak Penny \"{{i18n:event-31032022.01}}\"/question null \"#{{i18n:event-31032022.02}}#{{i18n:event-31032022.03}}\"/splitSpeak Penny \"{{i18n:event-31032022.04}}~{{i18n:event-31032022.05}}\"/speak Penny \"{{i18n:event-31032022.06}}\"/pause 300/emote Penny 40/speak Penny \"{{i18n:event-31032022.07}}\"/quickQuestion #{{i18n:event-31032022.08}}#{{i18n:event-31032022.09}}#{{i18n:event-31032022.10}}(break)friendship Penny 100\\speak Penny \"{{i18n:event-31032022.11}}\"(break)speak Penny \"{{i18n:event-31032022.12}}\"(break)friendship Penny -100\\speak Penny \"{{i18n:event-31032022.13}}\"/pause 500/speak Penny \"{{i18n:event-31032022.14}}\"/emote Penny 56/speed Penny 4/move Penny 0 1 3/speed Penny 4/move Penny -9 0 3 true/move farmer -2 0 0 true/addConversationTopic ItTakesAVillage_Beginning {{MinimumDaysBetweenLessons}}/fade/viewport -100 -100/pause 200/end"
             },
             "When": {
-                "Weather |contains=Sun, Wind": "true"
+                "Weather |contains=Sun, Wind": "true",
+                "Update": "OnLocationChange"
             }
         },
         /*Jodi CT*/ {
@@ -78,7 +79,8 @@
             },
             "When": {
                 "AlexPEAndGusCookingToken": "AlexPEYes, AlexPEYesGusCookingNo",
-                "Weather |contains=Sun, Wind": "true"
+                "Weather |contains=Sun, Wind": "true",
+                "Update": "OnLocationChange"
             }
         },
         /*Alex CT*/ {
@@ -294,7 +296,8 @@
             },
             "When": {
                 "HaleyLeahArtAndElliottStoriesToken": "HaleyLeahArtYes, HaleyLeahArtYesElliottStoriesNo",
-                "Weather |contains=Sun, Wind": "true"
+                "Weather |contains=Sun, Wind": "true",
+                "Update": "OnLocationChange"
             }
         },
         /*Haley CT*/ {
@@ -817,7 +820,8 @@
             },
             "When": {
                 "MaruElectronicsAndDemetriusBotanyToken": "DemetriusBotanyYes, DemetriusBotanyYesMaruElectronicsNo",
-                "Weather |contains=Sun, Wind": "true"
+                "Weather |contains=Sun, Wind": "true",
+                "Update": "OnLocationChange"
             }
         },
         /*Demetrius CT*/ {
@@ -1372,7 +1376,8 @@
             },
             "When": {
                 "SamMusicAndShaneAnimalCareToken": "SamMusicYes, SamMusicYesShaneAnimalCareNo",
-                "Weather |contains=Sun, Wind": "true"
+                "Weather |contains=Sun, Wind": "true",
+                "Update": "OnLocationChange"
             }
         },
         /*Sam CT*/ {
@@ -1468,7 +1473,6 @@
         // Test this out with the zoom at 100% (also tests the i18n and dynamic tokens)
         // also write and test the alternate response where everyone tries to run if you've seen the Demetrius botany birb edition because I completely forgot before i18n'ing lol
         // CTs could have a variant on "oh wow much calmer and less terrifying than the big birb from the mountains"
-        // also big birb: the kids and Penny jump in fear and move away, shaking, until Shane turns around and is like "hey now, no worries, this be a chill birb!"
         /*Event proper*/ {
             "LogName": "Shane Animal Care Lesson",
             "Action": "EditData",
@@ -1478,7 +1482,8 @@
             },
             "When": {
                 "SamMusicAndShaneAnimalCareToken": "ShaneAnimalCareYes, ShaneAnimalCareYesSamMusicNo",
-                "Weather |contains=Sun, Wind": "true"
+                "Weather |contains=Sun, Wind": "true",
+                "Update": "OnLocationChange"
             }
         },
         /*Shane CT*/ {
@@ -1789,7 +1794,8 @@
             },
             "When": {
                 "WillyLinusFishingAndCarolineEvelynGardeningToken": "WillyLinusFishingYes, WillyLinusFishingYesCarolineEvelynGardeningNo",
-                "Weather |contains=Sun, Wind": "true"
+                "Weather |contains=Sun, Wind": "true",
+                "Update": "OnLocationChange"
             }
         },
         /*Willy CT*/ {
