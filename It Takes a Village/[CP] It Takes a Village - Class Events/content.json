@@ -1259,18 +1259,36 @@
 				"HasSeenEvent |contains=3910975": "false"
 			}
 		},
-		/*Dynamic CT dialog for Sam, saw Sam Music*/ {
-			"Name": "ShaneAnimalCareShaneCT",
-			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusic}}",
+		/*Dynamic CT dialog for Sam, saw Sam Music and saw Demetrius Botany*/ {
+			"Name": "ShaneAnimalCareSamCT",
+			"Value": "{{Random: {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusicYesCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusicNoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusicNoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusicNoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusicNoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusicNoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusicNoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusicNoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusicNoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusicNoCrow}} |key=monster |inputSeparator=%%}}",
 			"When": {
-				"HasSeenEvent |contains=3910975": "true"
+				"HasSeenEvent |contains=3910975": "true",
+				"HasSeenEvent |contains=31032029": "true"
 			}
 		},
-		/*Dynamic CT dialog for Sam, did not see Sam Music*/ {
-			"Name": "ShaneAnimalCareShaneCT",
-			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusic}}",
+		/*Dynamic CT dialog for Sam, saw Demetrius Botany and did not see Sam Music*/ {
+			"Name": "ShaneAnimalCareSamCT",
+			"Value": "{{Random: {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusicYesCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusicNoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusicNoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusicNoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusicNoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusicNoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusicNoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusicNoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusicNoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusicNoCrow}} |key=monster |inputSeparator=%%}}",
 			"When": {
-				"HasSeenEvent |contains=3910975": "false"
+				"HasSeenEvent |contains=3910975": "false",
+				"HasSeenEvent |contains=31032029": "true"
+			}
+		},
+		/*Dynamic CT dialog for Sam, saw Sam Music and did not see Demetrius Botany*/ {
+			"Name": "ShaneAnimalCareSamCT",
+			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusicNoCrow}}",
+			"When": {
+				"HasSeenEvent |contains=3910975": "true",
+				"HasSeenEvent |contains=31032029": "false"
+			}
+		},
+		/*Dynamic CT dialog for Sam, did not see Sam Music and did not see Demetrius Botany*/ {
+			"Name": "ShaneAnimalCareSamCT",
+			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusicNoCrow}}",
+			"When": {
+				"HasSeenEvent |contains=3910975": "false",
+				"HasSeenEvent |contains=31032029": "false"
 			}
 		},
 		/*Dynamic CT dialog for Marnie, saw Shane's 6 heart event*/ {
@@ -1285,6 +1303,76 @@
 			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Marnie_No6Heart}}",
 			"When": {
 				"HasSeenEvent |contains=3910975": "false"
+			}
+		},
+		/*Dynamic CT dialog for Jas if you have seen Demetrius Botany*/ {
+			"Name": "ShaneAnimalCareJasCT",
+			"Value": "{{Random: {{i18n:ItTakesAVillage_ShaneAnimalCareCT_JasYesCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jas_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jas_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jas_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jas_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jas_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jas_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jas_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jas_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jas_NoCrow}} |key=monster |inputSeparator=%%}}",
+			"When": {
+				"HasSeenEvent |contains=31032029": "true"
+			}
+		},
+		/*Dynamic CT dialog for Jas if you have not seen Demetrius Botany*/ {
+			"Name": "ShaneAnimalCareJasCT",
+			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jas_NoCrow}}",
+			"When": {
+				"HasSeenEvent |contains=31032029": "false"
+			}
+		},
+		/*Dynamic CT dialog for Vincent if you have seen Demetrius Botany*/ {
+			"Name": "ShaneAnimalCareVincentCT",
+			"Value": "{{Random: {{i18n:ItTakesAVillage_ShaneAnimalCareCT_VincentYesCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Vincent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Vincent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Vincent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Vincent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Vincent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Vincent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Vincent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Vincent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Vincent_NoCrow}} |key=monster |inputSeparator=%%}}",
+			"When": {
+				"HasSeenEvent |contains=31032029": "true"
+			}
+		},
+		/*Dynamic CT dialog for Vincent if you have not seen Demetrius Botany*/ {
+			"Name": "ShaneAnimalCareVincentCT",
+			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Vincent_NoCrow}}",
+			"When": {
+				"HasSeenEvent |contains=31032029": "false"
+			}
+		},
+		/*Dynamic CT dialog for Jodi if you have seen Demetrius Botany*/ {
+			"Name": "ShaneAnimalCareJodiCT",
+			"Value": "{{Random: {{i18n:ItTakesAVillage_ShaneAnimalCareCT_JodiYesCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jodi_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jodi_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jodi_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jodi_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jodi_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jodi_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jodi_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jodi_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jodi_NoCrow}} |key=monster |inputSeparator=%%}}",
+			"When": {
+				"HasSeenEvent |contains=31032029": "true"
+			}
+		},
+		/*Dynamic CT dialog for Jodi if you have not seen Demetrius Botany*/ {
+			"Name": "ShaneAnimalCareJodiCT",
+			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jodi_NoCrow}}",
+			"When": {
+				"HasSeenEvent |contains=31032029": "false"
+			}
+		},
+		/*Dynamic CT dialog for Kent if you have seen Demetrius Botany*/ {
+			"Name": "ShaneAnimalCareKentCT",
+			"Value": "{{Random: {{i18n:ItTakesAVillage_ShaneAnimalCareCT_KentYesCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Kent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Kent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Kent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Kent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Kent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Kent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Kent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Kent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Kent_NoCrow}} |key=monster |inputSeparator=%%}}",
+			"When": {
+				"HasSeenEvent |contains=31032029": "true"
+			}
+		},
+		/*Dynamic CT dialog for Kent if you have not seen Demetrius Botany*/ {
+			"Name": "ShaneAnimalCareKentCT",
+			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Kent_NoCrow}}",
+			"When": {
+				"HasSeenEvent |contains=31032029": "false"
+			}
+		},
+		/*Dynamic CT dialog for Penny if you have seen Demetrius Botany*/ {
+			"Name": "ShaneAnimalCarePennyCT",
+			"Value": "{{Random: {{i18n:ItTakesAVillage_ShaneAnimalCareCT_PennyYesCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow}} |key=monster |inputSeparator=%%}}",
+			"When": {
+				"HasSeenEvent |contains=31032029": "true"
+			}
+		},
+		/*Dynamic CT dialog for Penny if you have not seen Demetrius Botany*/ {
+			"Name": "ShaneAnimalCarePennyCT",
+			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow}}",
+			"When": {
+				"HasSeenEvent |contains=31032029": "false"
 			}
 		},
 		// Robin Woodworking and Abigail Self-Defense
@@ -1501,19 +1589,22 @@
 			"Target": "Maps/Forest",
 			"MapTiles": [
 				{
-				   "Position": { "X": 108, "Y": 19 },
-				   "Layer": "Back",
-				   "SetProperties": {
-					  "CustomCompanions": "Spawn 1 LenneDalben.CCItTakesaVillageVisitor.BlossomDuck_{{season}}"
-				   },
+					"Position": {
+						"X": 108,
+						"Y": 19
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"CustomCompanions": "Spawn 1 LenneDalben.CCItTakesaVillageVisitor.BlossomDuck_{{season}}"
+					},
 				},
-			 ],
+			],
 			"When": {
 				"DayofWeek": "Friday",
 				"Weather |contains=Sun, Wind": "true",
 				"HasMod": "LenneDalben.CCItTakesaVillageVisitor",
 				"HasSeenEvent": "31032036"
-				},
+			},
 			"Update": "OnLocationChange"
 		},
 	]

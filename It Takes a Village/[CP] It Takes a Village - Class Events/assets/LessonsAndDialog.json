@@ -1483,12 +1483,12 @@
                 "Update": "OnLocationChange"
             }
         },
-        /*Shane CT, dynamic dialog*/ {
+        /*Shane CT*/ {
             "LogName": "Shane Animal Care CT - Shane",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Shane",
             "Entries": {
-                "ItTakesAVillage_ShaneAnimalCare": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Shane}}"
+                "ItTakesAVillage_ShaneAnimalCare": "{{ShaneAnimalCareShaneCT}}"
             }
         },
         /*Sam CT, dynamic dialog*/ {
@@ -1523,7 +1523,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Jas",
             "Entries": {
-                "ItTakesAVillage_ShaneAnimalCare": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jas}}"
+                "ItTakesAVillage_ShaneAnimalCare": "{{ShaneAnimalCareJasCT}}"
             }
         },
         /*Vincent CT*/ {
@@ -1531,7 +1531,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Vincent",
             "Entries": {
-                "ItTakesAVillage_ShaneAnimalCare": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Vincent}}"
+                "ItTakesAVillage_ShaneAnimalCare": "{{ShaneAnimalCareVincentCT}}"
             }
         },
         /*Jodi CT*/ {
@@ -1539,7 +1539,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Jodi",
             "Entries": {
-                "ItTakesAVillage_ShaneAnimalCare": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jodi}}"
+                "ItTakesAVillage_ShaneAnimalCare": "{{ShaneAnimalCareJodiCT}}"
             }
         },
         /*Kent CT*/ {
@@ -1547,7 +1547,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Kent",
             "Entries": {
-                "ItTakesAVillage_ShaneAnimalCare": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Kent}}"
+                "ItTakesAVillage_ShaneAnimalCare": "{{ShaneAnimalCareKentCT}}"
             }
         },
         /*Marnie CT*/ {
@@ -1555,7 +1555,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Marnie",
             "Entries": {
-                "ItTakesAVillage_ShaneAnimalCare": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Marnie}}"
+                "ItTakesAVillage_ShaneAnimalCare": "{{ShaneAnimalCareMarnieCT}}"
             }
         },
         /*Penny CT*/ {
@@ -1563,7 +1563,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Penny",
             "Entries": {
-                "ItTakesAVillage_ShaneAnimalCare": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Penny}}"
+                "ItTakesAVillage_ShaneAnimalCare": "{{ShaneAnimalCarePennyCT}}"
             }
         },
         //

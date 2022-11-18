@@ -537,18 +537,25 @@
     "event-31032036.32": "It is cute.$3",
     // Shane Animal Care CTs
     // CTs could have a variant on "oh wow much calmer and less terrifying than the big birb from the mountains"
-    "ItTakesAVillage_ShaneAnimalCareCT_Shane_YesMusic": "",
-    "ItTakesAVillage_ShaneAnimalCareCT_Shane_NoMusic": "",
-    "ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusic": "",
-    "ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusic": "",
-    "ItTakesAVillage_ShaneAnimalCareCT_Jas": "", // needs birb edition and code
-    "ItTakesAVillage_ShaneAnimalCareCT_Vincent": "", // needs birb edition and code
-    "ItTakesAVillage_ShaneAnimalCareCT_Jodi": "", // needs birb edition and code
-    "ItTakesAVillage_ShaneAnimalCareCT_Kent": "", // needs birb edition and code
+    "ItTakesAVillage_ShaneAnimalCareCT_Shane_YesMusic": "Maybe I should play classical music to the animals?$3",
+    "ItTakesAVillage_ShaneAnimalCareCT_Shane_NoMusic": "I'm glad Jas had a nice time.$6",
+    "ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusicYesCrow": "Maybe the huge duck would dance if I played some classical music?",
+    "ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusicYesCrow": "I'm glad to hear this big bird was nothing like the one from the mountains.",
+    "ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusicNoCrow": "I guess I could look up some sheet music for classical songs. I doubt there will be rad guitar solos.$2#$b#Or rockin' drum solos.$2",
+    "ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusicNoCrow": "Vincent was excited about petting chickens, and kept rambling about washing hands.#$b#Also, apparently a huge duck that visits the forest?$8",
+    "ItTakesAVillage_ShaneAnimalCareCT_Jas_YesCrow": "",
+    "ItTakesAVillage_ShaneAnimalCareCT_Jas_NoCrow": "",
+    "ItTakesAVillage_ShaneAnimalCareCT_Vincent_YesCrow": "",
+    "ItTakesAVillage_ShaneAnimalCareCT_Vincent_NoCrow": "",
+    "ItTakesAVillage_ShaneAnimalCareCT_Jodi_YesCrow": "",
+    "ItTakesAVillage_ShaneAnimalCareCT_Jodi_NoCrow": "",
+    "ItTakesAVillage_ShaneAnimalCareCT_Kent_YesCrow": "",
+    "ItTakesAVillage_ShaneAnimalCareCT_Kent_NoCrow": "",
     "ItTakesAVillage_ShaneAnimalCareCT_Marnie_Yes6Heart": "",
     "ItTakesAVillage_ShaneAnimalCareCT_Marnie_No6Heart": "",
     "ItTakesAVillage_ShaneAnimalCareCT_Harvey": "",
-    "ItTakesAVillage_ShaneAnimalCareCT_Penny": "", // needs birb edition // I was surprised to see Shane interested in giving a lesson, let alone one so gentle.#$b#Vincent was happy to see more of what Jas talks about with the animals.
+    "ItTakesAVillage_ShaneAnimalCareCT_Penny_YesCrow": "",
+    "ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow": "I was surprised to see Shane interested in giving a lesson, let alone one so gentle.#$b#Vincent was happy to see more of what Jas talks about with the animals.",
     //
     // Wrap up event
     "event-31032041.01": "That cake looks yummy!$h",
