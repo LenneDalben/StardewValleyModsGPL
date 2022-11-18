@@ -1491,12 +1491,12 @@
                 "ItTakesAVillage_ShaneAnimalCare": "{{ShaneAnimalCareShaneCT}}"
             }
         },
-        /*Sam CT, dynamic dialog*/ {
+        /*Sam CT*/ {
             "LogName": "Shane Animal Care CT - Sam",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sam",
             "Entries": {
-                "ItTakesAVillage_ShaneAnimalCare": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam}}"
+                "ItTakesAVillage_ShaneAnimalCare": "{{ShaneAnimalCareSamCT}}"
             }
         },
         /*Harvey CT if you've seen Shane's 6 heart event*/ {
