@@ -1643,5 +1643,29 @@
 			"Target": "Characters/VincentCanvas3",
 			"FromFile": "assets/Not-Code/Haley-LeahArt/VincentCanvas3.png",
 		},
+		/*Jas Room Map Patch*/ {
+		  "LogName": "Haley & Leah Art Jas Canvas Map Patch",
+		  "Action": "EditMap",
+		  "PatchMode": "Overlay",
+		  "Target": "Maps/AnimalShop",
+		  "FromFile": "assets/Not-Code/Haley-LeahArt/AnimalShop - Jas Painting.tmx",
+		  "FromArea": { "X": 2, "Y": 1, "Width": 1, "Height": 2 },
+		  "ToArea": { "X": 2, "Y": 1, "Width": 1, "Height": 2 },
+		  "When": {
+			"HasConversationTopic": "ItTakesAVillage_HaleyLeahArt"
+		  }
+		},
+		/*Vincent Room Map Patch*/ {
+		  "LogName": "Haley & Leah Art Vincent Canvas Map Patch",
+		  "Action": "EditMap",
+		  "PatchMode": "Overlay",
+		  "Target": "Maps/SamHouse",
+		  "FromFile": "assets/Not-Code/Haley-LeahArt/SamHouse - Vincent Painting.tmx",
+		  "FromArea": { "X": 12, "Y": 18, "Width": 1, "Height": 2 },
+		  "ToArea": { "X": 12, "Y": 18, "Width": 1, "Height": 2 },
+		  "When": {
+			"HasConversationTopic": "ItTakesAVillage_HaleyLeahArt"
+		  }
+		}
 	]
 }
