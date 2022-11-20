@@ -1,5 +1,5 @@
 {
-    "Changes": [ // 11051 words ()
+    "Changes": [ // 11051 words (10999)
         // Maybe have at least 1 of the teachers try to lowkey crush the kids' spirits? :evilhehe: Then Penny can speak up like "umm how bout no"
         // don't forget to i18n as you go!
         // Thoughts on how to nest the dynamic dialog via dynamic tokens and i18n: some of the dialog for default.json is written here. Within the dynamic tokens, put the i18n tokens. Then in the patches for the CTs, put the dynamic token name. The actual dialog lines go in the default.json. That should work.
@@ -282,7 +282,6 @@
         },
         //
         // Haley & Leah Art IN PROGRESS
-        // gonna need to learn how to call up specificTemporarySprite for the little paint palette (368, 432) 16 by 16 although there is some sort of contraption that looks like it's attached to, starting at (371, 427). that could in theory be attached to the side of the canvas / easel thing
         // rule of thirds and the effect of light while Leah teaches painting techniques and colour theory with complementary & contrasting colours
         // Vincent likes painting
         // *ahem* Haley will definitely throw some judgment. She can be my teacher that lowkey tries to crush their dreams. Penny will politely assert boundaries. Leah will sweatdrop along and agree with Penny. NO TO CRUSHING SPIRITS :junimostab:
