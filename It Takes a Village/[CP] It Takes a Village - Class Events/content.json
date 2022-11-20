@@ -1607,5 +1607,41 @@
 			},
 			"Update": "OnLocationChange"
 		},
+		/*Loading Jas Plain Paper*/ {
+			"LogName": "Loading Jas Plain Paper Sprite by LenneDalben",
+			"Action": "Load",
+			"Target": "Characters/JasPaper1",
+			"FromFile": "assets/Not-Code/Haley-LeahArt/JasPaper1.png",
+		},
+		/*Loading Jas In Progress Paper*/ {
+			"LogName": "Loading Jas In Progress Paper Sprite by LenneDalben",
+			"Action": "Load",
+			"Target": "Characters/JasPaper2",
+			"FromFile": "assets/Not-Code/Haley-LeahArt/JasPaper2.png",
+		},
+		/*Loading Jas Complete Paper*/ {
+			"LogName": "Loading Jas Complete Paper Sprite by LenneDalben",
+			"Action": "Load",
+			"Target": "Characters/JasPaper3",
+			"FromFile": "assets/Not-Code/Haley-LeahArt/JasPaper3.png",
+		},
+		/*Loading Vincent Plain Paper*/ {
+			"LogName": "Loading Vincent Plain Paper Sprite by LenneDalben",
+			"Action": "Load",
+			"Target": "Characters/VincentPaper1",
+			"FromFile": "assets/Not-Code/Haley-LeahArt/VincentPaper1.png",
+		},
+		/*Loading Vincent In Progress Paper*/ {
+			"LogName": "Loading Vincent In Progress Paper Sprite by LenneDalben",
+			"Action": "Load",
+			"Target": "Characters/VincentPaper2",
+			"FromFile": "assets/Not-Code/Haley-LeahArt/VincentPaper2.png",
+		},
+		/*Loading Vincent Complete Paper*/ {
+			"LogName": "Loading Vincent Complete Paper Sprite by LenneDalben",
+			"Action": "Load",
+			"Target": "Characters/VincentPaper3",
+			"FromFile": "assets/Not-Code/Haley-LeahArt/VincentPaper3.png",
+		},
 	]
 }
