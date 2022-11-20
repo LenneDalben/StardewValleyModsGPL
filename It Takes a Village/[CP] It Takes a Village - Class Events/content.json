@@ -47,9 +47,9 @@
 		// Custom Map for Electronics lesson
 		{
 			"Name": "Custom_ItTakesaVillage_Electronics",
-			"FromMapFile": "assets/Not-Code/Electronics.tmx"
+			"FromMapFile": "assets/Not-Code/Electronics/Electronics.tmx"
 		},
-		// Custom Map for Electronics lesson
+		// Custom Map for Music lesson
 		{
 			"Name": "Custom_ItTakesaVillage_Music",
 			"FromMapFile": "assets/Not-Code/Music.tmx"
@@ -1517,6 +1517,20 @@
 				"LoadBlacksmithToken": true
 			}
 		},
+		/*Edit to Penny 8 heart event*/ {
+			"LogName": "Edit Penny 8 Heart Event - Lecturer",
+			"Action": "EditData",
+			"Target": "Data/Events/Forest",
+			"Fields": {
+				"181928/f Penny 2000/t 900 1600": {
+					"15": "speak Penny \"$q -1 null#{{i18n:181928-ITAVEdit.01}}#$r -1 10 event_speaker_yes#{{i18n:181928-ITAVEdit.02}}#$r -1 0 event_speaker_yes#{{i18n:181928-ITAVEdit.03}}#$r -1 -1500 event_speaker_no#{{i18n:181928-ITAVEdit.04}}\""
+				},
+			},
+			"When": {
+				"HasSeenEvent |contains=31032022": "true",
+				"EditPenny8HeartEvent": "true"
+			}
+		},
 		// Loading sprites
 		/*Loading Seb Computer Sprite*/ {
 			"LogName": "Loading Seb Computer Sprite",
@@ -1528,31 +1542,31 @@
 			"LogName": "Loading Potato Table Sprite",
 			"Action": "Load",
 			"Target": "Characters/PotatoTable",
-			"FromFile": "assets/Not-Code/PotatoTable.png",
+			"FromFile": "assets/Not-Code/Electronics/PotatoTable.png",
 		},
 		/*Loading Plain Potato*/ {
 			"LogName": "Loading Plain Potato Sprite by Airyn",
 			"Action": "Load",
 			"Target": "Characters/PlainPotato",
-			"FromFile": "assets/Not-Code/PotatoBattery - Plain.png",
+			"FromFile": "assets/Not-Code/Electronics/PotatoBattery - Plain.png",
 		},
 		/*Loading Off Potato*/ {
 			"LogName": "Loading Off Potato Sprite by Airyn",
 			"Action": "Load",
 			"Target": "Characters/OffPotato",
-			"FromFile": "assets/Not-Code/PotatoBattery - Off.png",
+			"FromFile": "assets/Not-Code/Electronics/PotatoBattery - Off.png",
 		},
 		/*Loading On Potato*/ {
 			"LogName": "Loading On Potato Sprite by Airyn",
 			"Action": "Load",
 			"Target": "Characters/OnPotato",
-			"FromFile": "assets/Not-Code/PotatoBattery - On.png",
+			"FromFile": "assets/Not-Code/Electronics/PotatoBattery - On.png",
 		},
 		/*Goggle squad overlay*/ {
 			"LogName": "Goggle Squad Overlay by Airyn",
 			"Action": "EditImage",
 			"Target": "Portraits/Maru, Characters/Maru, Portraits/Jas, Characters/Jas, Portraits/Vincent, Characters/Vincent",
-			"FromFile": "Assets/Not-Code/GogglesOverlay_{{TargetPathOnly}}_{{TargetWithoutPath}}.png",
+			"FromFile": "Assets/Not-Code/Electronics/GogglesOverlay_{{TargetPathOnly}}_{{TargetWithoutPath}}.png",
 			"PatchMode": "Overlay",
 			"When": {
 				"HasSeenEvent |contains= 31032030": false,
@@ -1568,20 +1582,6 @@
 			"Action": "Load",
 			"Target": "Characters/BlossomDuck",
 			"FromFile": "assets/Not-Code/BlossomDuck.png"
-		},
-		/*Edit to Penny 8 heart event*/ {
-			"LogName": "Edit Penny 8 Heart Event - Lecturer",
-			"Action": "EditData",
-			"Target": "Data/Events/Forest",
-			"Fields": {
-				"181928/f Penny 2000/t 900 1600": {
-					"15": "speak Penny \"$q -1 null#{{i18n:181928-ITAVEdit.01}}#$r -1 10 event_speaker_yes#{{i18n:181928-ITAVEdit.02}}#$r -1 0 event_speaker_yes#{{i18n:181928-ITAVEdit.03}}#$r -1 -1500 event_speaker_no#{{i18n:181928-ITAVEdit.04}}\""
-				},
-			},
-			"When": {
-				"HasSeenEvent |contains=31032022": "true",
-				"EditPenny8HeartEvent": "true"
-			}
 		},
 		/*Adds Blossom Duck to Forest*/ {
 			"LogName": "Blossom Duck in Forest",
