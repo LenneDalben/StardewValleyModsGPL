@@ -1607,41 +1607,41 @@
 			},
 			"Update": "OnLocationChange"
 		},
-		/*Loading Jas Plain Paper*/ {
-			"LogName": "Loading Jas Plain Paper Sprite by LenneDalben",
+		/*Loading Jas Blank Canvas*/ {
+			"LogName": "Loading Jas Plain Canvas Sprite by LenneDalben",
 			"Action": "Load",
-			"Target": "Characters/JasPaper1",
-			"FromFile": "assets/Not-Code/Haley-LeahArt/JasPaper1.png",
+			"Target": "Characters/JasCanvas1",
+			"FromFile": "assets/Not-Code/Haley-LeahArt/JasCanvas1.png",
 		},
-		/*Loading Jas In Progress Paper*/ {
-			"LogName": "Loading Jas In Progress Paper Sprite by LenneDalben",
+		/*Loading Jas In Progress Canvas*/ {
+			"LogName": "Loading Jas In Progress Canvas Sprite by LenneDalben",
 			"Action": "Load",
-			"Target": "Characters/JasPaper2",
-			"FromFile": "assets/Not-Code/Haley-LeahArt/JasPaper2.png",
+			"Target": "Characters/JasCanvas2",
+			"FromFile": "assets/Not-Code/Haley-LeahArt/JasCanvas2.png",
 		},
-		/*Loading Jas Complete Paper*/ {
-			"LogName": "Loading Jas Complete Paper Sprite by LenneDalben",
+		/*Loading Jas Complete Canvas*/ {
+			"LogName": "Loading Jas Complete Canvas Sprite by LenneDalben",
 			"Action": "Load",
-			"Target": "Characters/JasPaper3",
-			"FromFile": "assets/Not-Code/Haley-LeahArt/JasPaper3.png",
+			"Target": "Characters/JasCanvas3",
+			"FromFile": "assets/Not-Code/Haley-LeahArt/JasCanvas3.png",
 		},
-		/*Loading Vincent Plain Paper*/ {
-			"LogName": "Loading Vincent Plain Paper Sprite by LenneDalben",
+		/*Loading Vincent Blank Canvas*/ {
+			"LogName": "Loading Vincent Plain Canvas Sprite by LenneDalben",
 			"Action": "Load",
-			"Target": "Characters/VincentPaper1",
-			"FromFile": "assets/Not-Code/Haley-LeahArt/VincentPaper1.png",
+			"Target": "Characters/VincentCanvas1",
+			"FromFile": "assets/Not-Code/Haley-LeahArt/VincentCanvas1.png",
 		},
-		/*Loading Vincent In Progress Paper*/ {
-			"LogName": "Loading Vincent In Progress Paper Sprite by LenneDalben",
+		/*Loading Vincent In Progress Canvas*/ {
+			"LogName": "Loading Vincent In Progress Canvas Sprite by LenneDalben",
 			"Action": "Load",
-			"Target": "Characters/VincentPaper2",
-			"FromFile": "assets/Not-Code/Haley-LeahArt/VincentPaper2.png",
+			"Target": "Characters/VincentCanvas2",
+			"FromFile": "assets/Not-Code/Haley-LeahArt/VincentCanvas2.png",
 		},
-		/*Loading Vincent Complete Paper*/ {
-			"LogName": "Loading Vincent Complete Paper Sprite by LenneDalben",
+		/*Loading Vincent Complete Canvas*/ {
+			"LogName": "Loading Vincent Complete Canvas Sprite by LenneDalben",
 			"Action": "Load",
-			"Target": "Characters/VincentPaper3",
-			"FromFile": "assets/Not-Code/Haley-LeahArt/VincentPaper3.png",
+			"Target": "Characters/VincentCanvas3",
+			"FromFile": "assets/Not-Code/Haley-LeahArt/VincentCanvas3.png",
 		},
 	]
 }
