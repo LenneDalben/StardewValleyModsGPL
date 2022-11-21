@@ -2,7 +2,7 @@
 Welcome to the respository of my mods for Stardew Valley that have a GPL License! <a href="https://www.moddrop.com/stardew-valley/profile/213628">Releases can be downloaded on ModDrop</a>.
 
 
-<a href="https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/%5BCP%5D%20It%20Takes%20a%20Village%20-%20Class%20Events">(CP) It Takes a Village - Class Events</a>
+<a href="https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/It%20Takes%20a%20Village/%5BCP%5D%20It%20Takes%20a%20Village%20-%20Class%20Events#cp-it-takes-a-village---class-events">(CP) It Takes a Village - Class Events</a>
 
  NPCs help out Penny teach the kiddos by giving lessons.
 
