@@ -12,7 +12,7 @@
  <tileset firstgid="2177" name="Paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
   <image source="paths" width="64" height="144"/>
  </tileset>
- <tileset firstgid="2213" name="zJasCanvas-Decor" tilewidth="16" tileheight="16" tilecount="2" columns="1">
+ <tileset firstgid="2213" name="z_JasCanvas-Decor" tilewidth="16" tileheight="16" tilecount="2" columns="1">
   <image source="JasCanvas-Decor.png" width="16" height="32"/>
  </tileset>
  <layer id="1" name="Back" width="35" height="20">
