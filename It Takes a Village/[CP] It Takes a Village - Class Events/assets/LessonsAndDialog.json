@@ -285,7 +285,7 @@
         // Haley's CT could have something about how she's impressed with Leah's skills and hadn't expected her to know her stuff because blahblah fashion.
         // Leah's CT could be something about how she wasn't too sure how collaborating with Haley would go but *once they found common ground they were able to connect.*
         // Add CT for Elliott (with dynamic dialog!)
-        // fishSlap / slimeHit sound
+        // fishSlap / slimeHit sound for paint?
         /*Event proper*/ {
             "LogName": "Haley & Leah Art Lesson",
             "Action": "EditData",
