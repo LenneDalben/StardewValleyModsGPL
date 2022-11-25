@@ -53,6 +53,11 @@
 		{
 			"Name": "Custom_ItTakesaVillage_Music",
 			"FromMapFile": "assets/Not-Code/Music.tmx"
+		},
+		// Custom Map for Anatomy lesson
+		{
+			"Name": "Custom_ItTakesaVillage_Anatomy",
+			"FromMapFile": "assets/Not-Code/HarveyAnatomy/Anatomy.tmx"
 		}
 	],
 	// Dynamic Tokens section
