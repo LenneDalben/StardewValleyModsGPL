@@ -58,14 +58,14 @@
 	// Dynamic Tokens section
 	"DynamicTokens": [
 		// Skippable Token
-		{
+		/*Doesn't add skip button to the beginning of events when Skippable config is false*/ {
 			"Name": "SkippableToken",
 			"Value": "pause 2000",
 			"When": {
 				"SkippableConfig": "false"
 			}
 		},
-		{
+		/*Add skip button to the beginning of events when Skippable config is true*/ {
 			"Name": "SkippableToken",
 			"Value": "pause 2000/skippable",
 			"When": {
