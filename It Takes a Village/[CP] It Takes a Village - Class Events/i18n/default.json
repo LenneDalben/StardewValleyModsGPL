@@ -188,8 +188,8 @@
     "event-31032025.12": "The horror!$8#$b#Well done, Vincent! You surprised me, but you planted the seeds of the outcome well with the cracks.$h",
     "event-31032025.13": "Thanks for all the positive feedback, Elliott! I think you've really inspired the kids.$h",
     // Elliott Stories CTs
-    "ItTakesAVillage_ElliottStoriesCT_Elliott_NoArt": "I only did what I wish teachers would have done for me at their age: helped me 'play to my strengths', or interests, so to speak.#$b#Hopefully Leah and Haley encourage them as well in their lesson.",
-    "ItTakesAVillage_ElliottStoriesCT_Elliott_YesArt": "", // Customize based on what happens in the art lesson
+    "ItTakesAVillage_ElliottStoriesCT_Elliott_NoArt": "I only did what I wish teachers would have done for me at their age: helped me 'play to my strengths', or interests, so to speak.$h#$b#Hopefully Leah and Haley encourage them as well in their lesson.",
+    "ItTakesAVillage_ElliottStoriesCT_Elliott_YesArt": "I only did what I wish teachers would have done for me at their age: helped me 'play to my strengths', or interests, so to speak.$h#$b#Which is apparently something that was lacking in the art class.$2",
     "ItTakesAVillage_ElliottStoriesCT_Leah_NoArt": "I wish I'd been there for Elliott's dramatic reading!$h#$b#Hopefully Haley and I can match that quality in our lesson.",
     "ItTakesAVillage_ElliottStoriesCT_Leah_YesArt": "I wish I'd been there for Elliott's dramatic reading!$h#$b#It's great the kids are getting exposed to different aspects of art.",
     "ItTakesAVillage_ElliottStoriesCT_Jas": "%Jas appears lost in thought.",
