@@ -309,6 +309,20 @@
 			}
 		},
 		// Dynamic dialog for Haley & Leah Art
+		/*Dynamic event dialog, haven't seen Elliott Stories lesson*/ {
+			"Name": "HaleyLeahArtSeenElliottStories",
+			"Value": "{{i18n:ItTakesAVillage_HaleyLeahArtCT_Haley_NoStories}}",
+			"When": {
+				"HasSeenEvent |contains=31032025": "false"
+			}
+		},
+		/*Dynamic event dialog, have seen Elliott Stories lesson*/ {
+			"Name": "HaleyLeahArtSeenElliottStories",
+			"Value": "{{i18n:ItTakesAVillage_HaleyLeahArtCT_Haley_YesStories}}",
+			"When": {
+				"HasSeenEvent |contains=31032025": "true"
+			}
+		},
 		/*Dynamic Haley CT dialog, haven't seen Elliott Stories lesson*/ {
 			"Name": "HaleyLeahArtHaleyCT",
 			"Value": "{{i18n:ItTakesAVillage_HaleyLeahArtCT_Haley_NoStories}}",
@@ -409,14 +423,14 @@
 			}
 		},
 		/*Dynamic event dialog, saw Video Games "lesson"*/ {
-			"Name": "SebProgramBasicsSeenVideoGamesEvent",
+			"Name": "SebProgramBasicsSeenAbbyVideoGames",
 			"Value": "speak Jas \"{{i18n:event-31032028.20}}\"/speak Sebastian \"{{i18n:event-31032028.21}}\"/emote Vincent 8 true/emote Jas 8/speak Jas \"{{i18n:event-31032028.19}}\"",
 			"When": {
 				"HasSeenEvent |contains=31032033": "true"
 			}
 		},
 		/*Dynamic event dialog, didn't see Video Games "lesson"*/ {
-			"Name": "SebProgramBasicsSeenVideoGamesEvent",
+			"Name": "SebProgramBasicsSeenAbbyVideoGames",
 			"Value": "emote Jas 40 true/emote Vincent 40/speak Jas \"{{i18n:event-31032028.19}}\"",
 			"When": {
 				"HasSeenEvent |contains=31032033": "false"
@@ -918,14 +932,14 @@
 			"Value": "jump Vincent 6/speak Vincent \"{{i18n:event-31032033.14}}\""
 		},
 		/*Dynamic event Abigail dialog, saw Metalworking lesson*/ {
-			"Name": "AbbyVideoGamesSeenMetal",
+			"Name": "AbbyVideoGamesSeenClintMetal",
 			"Value": "{{i18n:event-31032033.09}}",
 			"When": {
 				"HasSeenEvent |contains=31032024": "true"
 			}
 		},
 		/*Dynamic event Abigail dialog, did not see Metalworking lessonn*/ {
-			"Name": "AbbyVideoGamesSeenMetal",
+			"Name": "AbbyVideoGamesSeenClintMetal",
 			"Value": "{{i18n:event-31032033.10}}",
 			"When": {
 				"HasSeenEvent |contains=31032024": "false"
@@ -1253,14 +1267,14 @@
 			}
 		},
 		/*Dynamic event dialog, saw Sam music*/ {
-			"Name": "ShaneAnimalCareSawMusic",
+			"Name": "ShaneAnimalCareSeenSamMusic",
 			"Value": "speak Vincent \"{{i18n:event-31032036.09}}\"/emote Jas 40/speak Shane \"{{i18n:event-31032036.10}}\"/emote Vincent 32/speak Shane \"{{i18n:event-31032036.11}}\"/speak Shane \"{{i18n:event-31032036.12}}\"",
 			"When": {
 				"HasSeenEvent |contains=31032035": "true"
 			}
 		},
 		/*Dynamic event dialog, have not seen Sam music*/ {
-			"Name": "ShaneAnimalCareSawMusic",
+			"Name": "ShaneAnimalCareSeenSamMusic",
 			"Value": "speak Shane \"{{i18n:event-31032036.12}}\"",
 			"When": {
 				"HasSeenEvent |contains=31032035": "false"
