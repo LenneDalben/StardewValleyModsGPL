@@ -1,6 +1,5 @@
 {
     "Changes": [ // 11546 words ()
-        // Maybe have at least 1 of the teachers try to lowkey crush the kids' spirits? :evilhehe: Then Penny can speak up like "umm how bout no"
         // don't forget to i18n as you go!
         // Thoughts on how to nest the dynamic dialog via dynamic tokens and i18n: some of the dialog for default.json is written here. Within the dynamic tokens, put the i18n tokens. Then in the patches for the CTs, put the dynamic token name. The actual dialog lines go in the default.json. That should work.
         // For the audience kids: obviously Vincent and Jas are always there, but what modded kids attend Penny's lessons? I think Eloise, but not sure if anyone else does (Keahi / Trinnie?). Need permissions to include them, and also the mod authors' opinion on how those kids would react to each lesson (enjoy, dislike, indifferent).
@@ -51,7 +50,6 @@
                 "ItTakesAVillage_Beginning": "{{i18n:ItTakesAVillage_BeginningCT_Pam}}"
             }
         },
-        /*
         /*Marnie CT*/ {
             "LogName": "Penny Kickstarts Lessons CT - Marnie",
             "Action": "EditData",
@@ -295,14 +293,6 @@
                 "Update": "OnLocationChange"
             }
         },
-        /*Elliott CT*/ {
-            "LogName": "Haley & Leah Art CT - Elliott",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Elliott",
-            "Entries": {
-                "ItTakesAVillage_HaleyLeahArt": "{{ElliottStoriesElliottCT}}"
-            }
-        },
         /*Haley CT*/ {
             "LogName": "Haley & Leah Art CT - Haley",
             "Action": "EditData",
@@ -317,6 +307,14 @@
             "Target": "Characters/Dialogue/Leah",
             "Entries": {
                 "ItTakesAVillage_HaleyLeahArt": "{{ElliottStoriesLeahCT}}"
+            }
+        },
+        /*Elliott CT*/ {
+            "LogName": "Haley & Leah Art CT - Elliott",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Elliott",
+            "Entries": {
+                "ItTakesAVillage_HaleyLeahArt": "{{ElliottStoriesElliottCT}}"
             }
         },
         /*Emily CT*/ {
@@ -934,7 +932,6 @@
         // Emily Emotional Health and Dance INCOMPLETE
         // Emily explains sometimes feelings are really strong, and that you can dance party it to help. Emily dances. Can I get the kids to dance via position offset and avoid new sprites? :maruthinking:
         // Jas has a frame with her hands up frame 24. Can fiddle with position offsets to see if moving her back and forth makes her "dance". I got nothing for Vincent.
-        // Add CT for Harvey (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Emily Emotional Health and Dance Lesson",
             "Action": "EditData",
@@ -946,7 +943,7 @@
                 "EmilyEmotionalDanceAndHarveyAnatomyToken": "EmilyEmotionalDanceYes, EmilyEmotionalDanceYesHarveyAnatomyNo"
             }
         },
-        /*Emily CT*/ {
+        /*Emily CT - dynamic dialog*/ {
             "LogName": "Emily Emotional Health and Dance CT - Emily",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Emily",
@@ -954,12 +951,20 @@
                 "ItTakesAVillage_EmilyDance": "{{i18n:ItTakesAVillage_EmilyDanceCT_Emily}}"
             }
         },
-        /*Haley CT*/ {
+        /*Haley CT - dynamic dialog*/ {
             "LogName": "Emily Emotional Health and Dance CT - Haley",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Haley",
             "Entries": {
                 "ItTakesAVillage_EmilyDance": "{{i18n:ItTakesAVillage_EmilyDanceCT_Haley}}"
+            }
+        },
+        /*Harvey CT - dynamic dialog*/ {
+            "LogName": "Emily Emotional Health and Dance CT - Harvey",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Harvey",
+            "Entries": {
+                "ItTakesAVillage_EmilyDance": "{{i18n:ItTakesAVillage_EmilyDanceCT_Harvey}}"
             }
         },
         /*Sandy CT*/ {
@@ -1038,7 +1043,6 @@
         // Harvey Anatomy and Health INCOMPLETE
         // use one of the skeleton monster sprites (or the statue, I think there's a statue) as a temp actor "skeleton anatomical model" that Harvey brings from a back room
         // the kids have no idea what to make of him using all the technical terms, like clavicle
-        // Add CT for Emily (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Harvey Anatomy and Health Lesson",
             "Action": "EditData",
@@ -1050,12 +1054,20 @@
                 "EmilyEmotionalDanceAndHarveyAnatomyToken": "HarveyAnatomyYes, HarveyAnatomyYesEmilyEmotionalDanceNo"
             }
         },
-        /*Harvey CT*/ {
+        /*Harvey CT - dynamic dialog*/ {
             "LogName": "Harvey Anatomy and Health CT - Harvey",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/DHarvey",
+            "Target": "Characters/Dialogue/Harvey",
             "Entries": {
                 "ItTakesAVillage_HarveyHealth": "{{i18n:ItTakesAVillage_HarveyHealthCT_Harvey}}"
+            }
+        },
+        /*Emily CT - dynamic dialog*/ {
+            "LogName": "Harvey Anatomy and Health CT - Emily",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Emily",
+            "Entries": {
+                "ItTakesAVillage_HarveyHealth": "{{i18n:ItTakesAVillage_HarveyHealthCT_Emily}}"
             }
         },
         /*Maru CT*/ {
@@ -1166,7 +1178,6 @@
         // Will need to test if I can use the geode crushing animation or not. I can't remember if Clint has a hammering animation that's not smol, otherwise, we could have the kids standing in front of the anvil facing it, fade to black, clank sounds, sparkle sound, fade in. Airyn also recommended little production bubble pop up, maybe a little silver or copper star? Airyn offered sprites for these
         // "wow, Mr Clint, that's so cool!!! :LavrilLayWow: "
         // But Clint is just tight lipped and socially awkward like “um, sure. just is. Don't get too close, it's hot."
-        // Add CT for Abigail (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Clint Metalworking Lesson",
             "Action": "EditData",
@@ -1178,7 +1189,7 @@
                 "ClintMetalworkAndAbbyGamesToken": "ClintMetalworkYes, ClintMetalworkYesAbbyGamesNo"
             }
         },
-        /*Clint CT*/ {
+        /*Clint CT - dynamic dialog*/ {
             "LogName": "Clint Metalworking CT - Clint",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Clint",
@@ -1186,12 +1197,20 @@
                 "ItTakesAVillage_ClintMetalworking": "{{i18n:ItTakesAVillage_ClintMetalworkingCT_Clint}}"
             }
         },
-        /*Willy CT*/ {
+        /*Willy CT - dynamic dialog*/ {
             "LogName": "Clint Metalworking CT - Willy",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Willy",
             "Entries": {
                 "ItTakesAVillage_ClintMetalworking": "{{i18n:ItTakesAVillage_ClintMetalworkingCT_Willy}}"
+            }
+        },
+        /*Abigail CT - dynamic dialog*/ {
+            "LogName": "Clint Metalworking CT - Abigail",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Abigail",
+            "Entries": {
+                "ItTakesAVillage_ClintMetalworking": "{{i18n:ItTakesAVillage_ClintMetalworkingCT_Abigail}}"
             }
         },
         /*Jas CT*/ {
@@ -1583,7 +1602,6 @@
         // Oooh ahhh from the youths
         // something from the player depending on whether you have the recipe too. I wonder if there's something to check that, since it's an artifact (mail flag?)
         // Fade to black, fade in, the kids take turns striking it. Need to find the sound effects for the flute block, if it's usable.
-        // Add CT for Abigail (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Robin Woodworking Lesson",
             "Action": "EditData",
@@ -1595,12 +1613,20 @@
                 "RobinWoodworkAndAbbySelfDefenseToken": "RobinWoodworkYes, RobinWoodworkYesAbbySelfDefenseNo"
             }
         },
-        /*Robin CT*/ {
+        /*Robin CT - dynamic dialog*/ {
             "LogName": "Robin Woodworking CT - Robin",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Robin",
             "Entries": {
                 "ItTakesAVillage_RobinWoodworking": "{{i18n:ItTakesAVillage_RobinWoodworkingCT_Robin}}"
+            }
+        },
+        /*Abigail CT - dynamic dialog*/ {
+            "LogName": "Robin Woodworking CT - Abigail",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Abigail",
+            "Entries": {
+                "ItTakesAVillage_RobinWoodworking": "{{i18n:ItTakesAVillage_RobinWoodworkingCT_Abigail}}"
             }
         },
         /*Demetrius CT*/ {
@@ -1696,7 +1722,6 @@
         // need cute verbal sound effects, kya
         // I am concerned we would need new sprites for this. Pretty sure none of them have anything that would pass for kicks or punches lol maybe could something with combination of jumping, running, and shaking
         // maybe in this one the player could have a show off moment, depending on their combat skill level! :unawow: Abigail could hand player "club" assuming we can spawn a weapon
-        // Add CT for Robin (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Abigail Self-Defense Lesson",
             "Action": "EditData",
@@ -1708,12 +1733,20 @@
                 "RobinWoodworkAndAbbySelfDefenseToken": "AbbySelfDefenseYes, AbbySelfDefenseYesRobinWoodworkNo"
             }
         },
-        /*Abigail CT*/ {
+        /*Abigail CT - dynamic dialog*/ {
             "LogName": "Abigail Self-Defense CT - Abigail",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Abigail",
             "Entries": {
                 "ItTakesAVillage_AbigailSelfDefense": "{{i18n:ItTakesAVillage_AbigailSelfDefenseCT_Abigail}}"
+            }
+        },
+        /*Robin CT - dynamic dialog*/ {
+            "LogName": "Abigail Self-Defense CT - Robin",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Robin",
+            "Entries": {
+                "ItTakesAVillage_AbigailSelfDefense": "{{i18n:ItTakesAVillage_AbigailSelfDefenseCT_Robin}}"
             }
         },
         /*Sam CT*/ {
@@ -1794,7 +1827,6 @@
         // For the Willy & Linus lesson: have Linus mention the wild bait. Vary dialog on it based on whether the player has seen the event where Linus teaches the player the recipe (event 26)
         // Some different dialog (in the event or in CTs) about the crabs, if player has seen Willy's event 711130
         // Also, Kent has lots to say as a fishing fan!
-        // Add CT for Evelyn and Caroline (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Willy & Linus Fishing Lesson",
             "Action": "EditData",
@@ -1808,12 +1840,28 @@
                 "Update": "OnLocationChange"
             }
         },
-        /*Willy CT*/ {
+        /*Willy CT - dynamic dialog*/ {
             "LogName": "Willy & Linus Fishing CT - Willy",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Willy",
             "Entries": {
                 "ItTakesAVillage_WillyLinusFishing": "{{i18n:ItTakesAVillage_WillyLinusFishingCT_Willy}}"
+            }
+        },
+        /*Evelyn CT - dynamic dialog*/ {
+            "LogName": "Willy & Linus Fishing CT - Evelyn",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Evelyn",
+            "Entries": {
+                "ItTakesAVillage_WillyLinusFishing": "{{i18n:ItTakesAVillage_WillyLinusFishingCT_Evelyn}}"
+            }
+        },
+        /*Caroline CT - dynamic dialog*/ {
+            "LogName": "Willy & Linus Fishing CT - Caroline",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Caroline",
+            "Entries": {
+                "ItTakesAVillage_WillyLinusFishing": "{{i18n:ItTakesAVillage_WillyLinusFishingCT_Caroline}}"
             }
         },
         /*Linus CT*/ {
@@ -1947,7 +1995,6 @@
         //
         // Caroline & Evelyn Gardening INCOMPLETE
         // could this include the kids getting a plant and then some concerns about the plants dying to foreshadow their disappearance o: Jodi and Shane be skeptical o.o
-        // Add CT for Willy and Linus (with dynamic dialog!)
         /*Event proper*/ {
             "LogName": "Caroline & Evelyn Gardening Lesson",
             "Action": "EditData",
@@ -1959,7 +2006,7 @@
                 "WillyLinusFishingAndCarolineEvelynGardeningToken": "CarolineEvelynGardeningYes, CarolineEvelynGardeningYesWillyLinusFishingNo"
             }
         },
-        /*Caroline CT*/ {
+        /*Caroline CT - dynamic dialog*/ {
             "LogName": "Caroline & Evelyn Gardening CT - Caroline",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Caroline",
@@ -1967,12 +2014,28 @@
                 "ItTakesAVillage_CarolineEvelynGardening": "{{i18n:ItTakesAVillage_CarolineEvelynGardeningCT_Caroline}}"
             }
         },
-        /*Evelyn CT*/ {
+        /*Evelyn CT - dynamic dialog*/ {
             "LogName": "Caroline & Evelyn Gardening CT - Evelyn",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Evelyn",
             "Entries": {
                 "ItTakesAVillage_CarolineEvelynGardening": "{{i18n:ItTakesAVillage_CarolineEvelynGardeningCT_Evelyn}}"
+            }
+        },
+        /*Willy CT - dynamic dialog*/ {
+            "LogName": "Caroline & Evelyn Gardening CT - Willy",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Willy",
+            "Entries": {
+                "ItTakesAVillage_CarolineEvelynGardening": "{{i18n:ItTakesAVillage_CarolineEvelynGardeningCT_Willy}}"
+            }
+        },
+        /*Linus CT - dynamic dialog*/ {
+            "LogName": "Caroline & Evelyn Gardening CT - Linus",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Linus",
+            "Entries": {
+                "ItTakesAVillage_CarolineEvelynGardening": "{{i18n:ItTakesAVillage_CarolineEvelynGardeningCT_Linus}}"
             }
         },
         /*Pierre CT*/ {
