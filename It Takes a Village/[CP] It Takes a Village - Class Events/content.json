@@ -1723,7 +1723,7 @@
 			"Action": "EditMap",
 			"PatchMode": "Overlay",
 			"Target": "Maps/AnimalShop",
-			"FromFile": "assets/Not-Code/Haley-LeahArt/AnimalShop - Jas Painting.tmx",
+			"FromFile": "assets/Not-Code/Haley-LeahArt/JasPainting.tmx",
 			"FromArea": {
 				"X": 2,
 				"Y": 1,
@@ -1745,7 +1745,7 @@
 			"Action": "EditMap",
 			"PatchMode": "Overlay",
 			"Target": "Maps/SamHouse",
-			"FromFile": "assets/Not-Code/Haley-LeahArt/SamHouse - Vincent Painting.tmx",
+			"FromFile": "assets/Not-Code/Haley-LeahArt/VincentPainting.tmx",
 			"FromArea": {
 				"X": 12,
 				"Y": 18,
