@@ -282,8 +282,6 @@
         },
         //
         // Haley & Leah Art IN PROGRESS
-        // Haley's CT could have something about how she's impressed with Leah's skills and hadn't expected her to know her stuff because blahblah fashion.
-        // Leah's CT could be something about how she wasn't too sure how collaborating with Haley would go but *once they found common ground they were able to connect.*
         // Add CT for Elliott (with dynamic dialog!)
         // fishSlap / slimeHit sound for paint?
         /*Event proper*/ {
@@ -299,12 +297,20 @@
                 "Update": "OnLocationChange"
             }
         },
+        /*Elliott CT*/ {
+            "LogName": "Haley & Leah Art CT - Elliott",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Elliott",
+            "Entries": {
+                "ItTakesAVillage_HaleyLeahArt": "{{ElliottStoriesElliottCT}}"
+            }
+        },
         /*Haley CT*/ {
             "LogName": "Haley & Leah Art CT - Haley",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Haley",
             "Entries": {
-                "ItTakesAVillage_HaleyLeahArt": "{{i18n:ItTakesAVillage_HaleyLeahArtCT_Haley}}"
+                "ItTakesAVillage_HaleyLeahArt": "{{ElliottStoriesHaleyCT}}"
             }
         },
         /*Leah CT*/ {
@@ -312,7 +318,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Leah",
             "Entries": {
-                "ItTakesAVillage_HaleyLeahArt": "{{i18n:ItTakesAVillage_HaleyLeahArtCT_Leah}}"
+                "ItTakesAVillage_HaleyLeahArt": "{{ElliottStoriesLeahCT}}"
             }
         },
         /*Emily CT*/ {
@@ -394,7 +400,7 @@
             "Entries": {
                 "ItTakesAVillage_HaleyLeahArt": "{{i18n:ItTakesAVillage_HaleyLeahArtCT_Penny}}"
             }
-        }, // It looks like some of the more technical details were lost on the kids, but they had a little fun.#$b#That Haley though...$a
+        },
         //
         // Elliott Stories IN PROGRESS
         // Add CT for Haley and Leah (with dynamic dialog!)

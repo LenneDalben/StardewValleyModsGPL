@@ -194,12 +194,31 @@
     "ItTakesAVillage_ElliottStoriesCT_Leah_YesArt": "I wish I'd been there for Elliott's dramatic reading!$h#$b#It's great the kids are getting exposed to different aspects of art.",
     "ItTakesAVillage_ElliottStoriesCT_Jas": "%Jas appears lost in thought.",
     "ItTakesAVillage_ElliottStoriesCT_Vincent": "%Vincent seems to be talking to himself about trapping heroes in unusual situations.",
-    "ItTakesAVillage_ElliottStoriesCT_Jodi": "I hope writing is only a phase for Vincent. I just don't think it's a profitable career path.$s#$b#Look at that long haired man, living in a shack on a beach.$s",
+    "ItTakesAVillage_ElliottStoriesCT_Jodi": "I hope writing is only a phase for Vincent.#$b#I just don't think it's a profitable career path. Look at that long haired man, living in a shack on a beach.$s",
     "ItTakesAVillage_ElliottStoriesCT_Kent": "Jodi doesn't give Vincent enough credit. He can have fun with writing stories at his age.#$b#If he's good at it, I don't see the problem with him thinking about it as a career.",
     "ItTakesAVillage_ElliottStoriesCT_Sam": "Alright, Vincent and I, the sensitive artist brothers!$h",
     "ItTakesAVillage_ElliottStoriesCT_Marnie": "Jas was so precious after Elliott's lesson. She asked me to put her story up on the fridge!$h",
     "ItTakesAVillage_ElliottStoriesCT_Shane": "Look at Jas, little wordsmith at such a young age.$6",
     "ItTakesAVillage_ElliottStoriesCT_Penny": "Jas was the most thrilled I've seen her, thinking up different words for the same expression. Vincent was also enthusiastic, coming up with interesting characters.#$b#We may have future writers in our hands! Elliott did a wonderful job encouraging them.$h",
+    //
+    // Haley & Leah Art event
+    // Haley & Leah Art CTs
+    "ItTakesAVillage_HaleyLeahArtCT_Haley_YesStories": "",
+    "ItTakesAVillage_HaleyLeahArtCT_Haley_NoStories": "Leah's fashion style could use some work, but she at least knows her art theory.",
+    "ItTakesAVillage_HaleyLeahArtCT_Leah_YesStories": "",
+    "ItTakesAVillage_HaleyLeahArtCT_Leah_NoStories": "I wasn't sure how co-teaching with Haley would go. I'm glad we found some common ground with fashion.",
+    "ItTakesAVillage_HaleyLeahArtCT_Elliott_YesStories": "",
+    "ItTakesAVillage_HaleyLeahArtCT_Elliott_NoStories": "",
+    "ItTakesAVillage_HaleyLeahArtCT_Emily": "Haley was critical, huh?$s#$b#Hopefully Jas keeps up her spirits.#$b#Artistic expression is worth it!$h",
+    "ItTakesAVillage_HaleyLeahArtCT_Alex": "",
+    "ItTakesAVillage_HaleyLeahArtCT_Jas": "",
+    "ItTakesAVillage_HaleyLeahArtCT_Vincent": "",
+    "ItTakesAVillage_HaleyLeahArtCT_Jodi": "As long as Vincent keeps the paint to the canvas and not furniture, linens, or walls, I guess I can't complain.",
+    "ItTakesAVillage_HaleyLeahArtCT_Kent": "Vincent was so happy with his painting. I'm glad he's found something that brings him that much joy.$h",
+    "ItTakesAVillage_HaleyLeahArtCT_Sam": "",
+    "ItTakesAVillage_HaleyLeahArtCT_Marnie": "Jackie Polk paintings, huh? Those are out of my price range.#$b#Maybe Jas would be more interested in painting copies of them?$h",
+    "ItTakesAVillage_HaleyLeahArtCT_Shane": "Jas was a little upset about how the art class went.#$b#At least she still liked her painting enough to hang it up in her room.",
+    "ItTakesAVillage_HaleyLeahArtCT_Penny": "It looks like some of the more technical details were lost on the kids, but they had a little fun.#$b#That Haley though...$a",
     //
     // Abigail Economics event
     "event-31032027.01": "Alright kiddos! Who's up for a little econ 101?$h",

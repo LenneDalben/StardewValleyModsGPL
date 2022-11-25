@@ -294,6 +294,49 @@
 				"HasSeenEvent |contains=31032026": "true"
 			}
 		},
+		// Dynamic dialog for Haley & Leah Art
+		/*Dynamic Haley CT dialog, haven't seen Elliott Stories lesson*/ {
+			"Name": "HaleyLeahArtHaleyCT",
+			"Value": "{{i18n:ItTakesAVillage_HaleyLeahArtCT_Haley_NoStories}}",
+			"When": {
+				"HasSeenEvent |contains=31032025": "false"
+			}
+		},
+		/*Dynamic Haley CT dialog, have seen Elliott Stories lesson*/ {
+			"Name": "ElliottStoriesHaleyCT",
+			"Value": "{{i18n:ItTakesAVillage_HaleyLeahArtCT_Haley_YesStories}}",
+			"When": {
+				"HasSeenEvent |contains=31032025": "true"
+			}
+		},
+		/*Dynamic Leah CT dialog, haven't seen Elliott Stories lesson*/ {
+			"Name": "HaleyLeahArtLeahCT",
+			"Value": "{{i18n:ItTakesAVillage_HaleyLeahArtCT_Leah_NoStories}}",
+			"When": {
+				"HasSeenEvent |contains=31032025": "false"
+			}
+		},
+		/*Dynamic Leah CT dialog, have seen Elliott Stories lesson*/ {
+			"Name": "ElliottStoriesLeahCT",
+			"Value": "{{i18n:ItTakesAVillage_HaleyLeahArtCT_Leah_YesStories}}",
+			"When": {
+				"HasSeenEvent |contains=31032025": "true"
+			}
+		},
+		/*Dynamic Elliott CT dialog, haven't seen Elliott Stories lesson*/ {
+			"Name": "HaleyLeahArtElliottCT",
+			"Value": "{{i18n:ItTakesAVillage_HaleyLeahArtCT_Elliott_NoStories}}",
+			"When": {
+				"HasSeenEvent |contains=31032025": "false"
+			}
+		},
+		/*Dynamic Elliott CT dialog, have seen Elliott Stories lesson*/ {
+			"Name": "ElliottStoriesElliottCT",
+			"Value": "{{i18n:ItTakesAVillage_HaleyLeahArtCT_Elliott_YesStories}}",
+			"When": {
+				"HasSeenEvent |contains=31032025": "true"
+			}
+		},
 		// Sebastian Programming Basics and Abigail Economics
 		// HasSeenEvents
 		{
