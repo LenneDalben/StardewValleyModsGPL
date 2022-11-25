@@ -73,21 +73,21 @@
 			}
 		},
 		// Loading Blacksmith empty file
-		{
+		/*Doesn't load the blacksmith empty file if Looking for Love by foggywizard, Clint Marriage Mod by babybird2/yuzu, or Lucikiel by Arknir are installed*/ {
 			"Name": "LoadBlacksmithToken",
 			"Value": "false",
 			"When": {
 				"HasMod |contains=foggy.LfL, ClintMarriageMod, Arknir.Lucikiel": true
 			}
 		},
-		{
+		/*Doesn't load the blacksmith empty file if the config says false*/ {
 			"Name": "LoadBlacksmithToken",
 			"Value": "false",
 			"When": {
 				"LoadBlacksmithConfig": "false"
 			}
 		},
-		{
+		/*Loading the blacksmith empty file if the config says true*/ {
 			"Name": "LoadBlacksmithToken",
 			"Value": "true",
 			"When": {
@@ -98,11 +98,11 @@
 		//
 		// Dynamic Tokens for the HasSeenEvent
 		// Alex PE and Gus Cooking
-		{
+		/*haven't seen either event in the pair*/ {
 			"Name": "AlexPEAndGusCookingToken",
 			"Value": "GusCookingNoAlexPENo",
 		},
-		{
+		/*random token to choose which event plays first, when neither's been seen*/ {
 			"Name": "AlexPEAndGusCookingToken",
 			"Value": "{{Random: GusCookingYes, AlexPEYes}}",
 			"When": {
@@ -111,7 +111,7 @@
 				"HasSeenEvent |contains=31032023": false,
 			}
 		},
-		{
+		/*saw Gus cooking but not Alex PE*/ {
 			"Name": "AlexPEAndGusCookingToken",
 			"Value": "GusCookingYesAlexPENo",
 			"When": {
@@ -120,7 +120,7 @@
 				"HasSeenEvent |contains=31032023": false,
 			}
 		},
-		{
+		/*Saw Alex PE but not Gus cooking*/ {
 			"Name": "AlexPEAndGusCookingToken",
 			"Value": "AlexPEYesGusCookingNo",
 			"When": {
@@ -129,7 +129,7 @@
 				"HasSeenEvent |contains=31032023": true,
 			}
 		},
-		{
+		/*seen both events in the pair*/ {
 			"Name": "AlexPEAndGusCookingToken",
 			"Value": "AlexPEAndGusCookingDone",
 			"When": {
@@ -225,11 +225,11 @@
 			}
 		},
 		// Haley & Leah Art and Elliott Stories
-		{
+		/*haven't seen either event in the pair*/ {
 			"Name": "HaleyLeahArtAndElliottStoriesToken",
 			"Value": "ElliottStoriesNoHaleyLeahArtNo",
 		},
-		{
+		/*random token to choose which event plays first, when neither's been seen*/ {
 			"Name": "HaleyLeahArtAndElliottStoriesToken",
 			"Value": "{{Random: ElliottStoriesYes, HaleyLeahArtYes}}",
 			"When": {
@@ -238,7 +238,7 @@
 				"HasSeenEvent |contains=31032026": false,
 			}
 		},
-		{
+		/*saw Elliott stories but not Haley and Leah art*/ {
 			"Name": "HaleyLeahArtAndElliottStoriesToken",
 			"Value": "ElliottStoriesYesHaleyLeahArtNo",
 			"When": {
@@ -247,7 +247,7 @@
 				"HasSeenEvent |contains=31032026": false,
 			}
 		},
-		{
+		/*saw Haley and Leah art but not Elliott stories*/{
 			"Name": "HaleyLeahArtAndElliottStoriesToken",
 			"Value": "HaleyLeahArtYesElliottStoriesNo",
 			"When": {
@@ -256,7 +256,7 @@
 				"HasSeenEvent |contains=31032026": true,
 			}
 		},
-		{
+		/*seen both events in the pair*/ {
 			"Name": "HaleyLeahArtAndElliottStoriesToken",
 			"Value": "HaleyLeahArtAndElliottStoriesDone",
 			"When": {
@@ -366,12 +366,11 @@
 			}
 		},
 		// Sebastian Programming Basics and Abigail Economics
-		// HasSeenEvents
-		{
+		/*haven't seen either event in the pair*/ {
 			"Name": "SebProgramAndAbbyEconToken",
 			"Value": "AbbyEconNoSebProgramNo",
 		},
-		{
+		/*random token to choose which event plays first, when neither's been seen*/ {
 			"Name": "SebProgramAndAbbyEconToken",
 			"Value": "{{Random: AbbyEconYes, SebProgramYes}}",
 			"When": {
@@ -380,7 +379,7 @@
 				"HasSeenEvent |contains=31032028": false,
 			}
 		},
-		{
+		/*saw Sebastian programming but not Abigail economics*/ {
 			"Name": "SebProgramAndAbbyEconToken",
 			"Value": "AbbyEconYesSebProgramNo",
 			"When": {
@@ -389,7 +388,7 @@
 				"HasSeenEvent |contains=31032028": false,
 			}
 		},
-		{
+		/*saw Abigail economics but not Sebastian programming*/ {
 			"Name": "SebProgramAndAbbyEconToken",
 			"Value": "SebProgramYesAbbyEconNo",
 			"When": {
@@ -398,7 +397,7 @@
 				"HasSeenEvent |contains=31032028": true,
 			}
 		},
-		{
+		/*seen both events in the pair*/ {
 			"Name": "SebProgramAndAbbyEconToken",
 			"Value": "SebProgramAndAbbyEconDone",
 			"When": {
@@ -498,11 +497,11 @@
 			}
 		},
 		// Maru Electronics and Demetrius Botany
-		{
+		/*haven't seen either event in the pair*/ {
 			"Name": "MaruElectronicsAndDemetriusBotanyToken",
 			"Value": "DemetriusBotanyNoMaruElectronicsNo",
 		},
-		{
+		/*random token to choose which event plays first, when neither's been seen*/ {
 			"Name": "MaruElectronicsAndDemetriusBotanyToken",
 			"Value": "{{Random: DemetriusBotanyYes, MaruElectronicsYes}}",
 			"When": {
@@ -511,7 +510,7 @@
 				"HasSeenEvent |contains=31032030": false,
 			}
 		},
-		{
+		/*saw Maru electronics but not Demetrius botany*/ {
 			"Name": "MaruElectronicsAndDemetriusBotanyToken",
 			"Value": "DemetriusBotanyYesMaruElectronicsNo",
 			"When": {
@@ -520,7 +519,7 @@
 				"HasSeenEvent |contains=31032030": false,
 			}
 		},
-		{
+		/*saw Demetrius botany but not Maru electronics*/ {
 			"Name": "MaruElectronicsAndDemetriusBotanyToken",
 			"Value": "MaruElectronicsYesDemetriusBotanyNo",
 			"When": {
@@ -529,7 +528,7 @@
 				"HasSeenEvent |contains=31032030": true,
 			}
 		},
-		{
+		/*seen both events in the pair*/ {
 			"Name": "MaruElectronicsAndDemetriusBotanyToken",
 			"Value": "MaruElectronicsAndDemetriusBotanyDone",
 			"When": {
@@ -797,11 +796,11 @@
 			}
 		},
 		// Emily Emotional Health & Dance and Harvey Anatomy
-		{
+		/*haven't seen either event in the pair*/ {
 			"Name": "EmilyEmotionalDanceAndHarveyAnatomyToken",
 			"Value": "HarveyAnatomyNoEmilyEmotionalDanceNo",
 		},
-		{
+		/*random token to choose which event plays first, when neither's been seen*/ {
 			"Name": "EmilyEmotionalDanceAndHarveyAnatomyToken",
 			"Value": "{{Random: HarveyAnatomyYes, EmilyEmotionalDanceYes}}",
 			"When": {
@@ -810,7 +809,7 @@
 				"HasSeenEvent |contains=31032031": false,
 			}
 		},
-		{
+		/*saw Harvey anatomy but not Emily emotional health and dance*/ {
 			"Name": "EmilyEmotionalDanceAndHarveyAnatomyToken",
 			"Value": "HarveyAnatomyYesEmilyEmotionalDanceNo",
 			"When": {
@@ -819,7 +818,7 @@
 				"HasSeenEvent |contains=31032031": false,
 			}
 		},
-		{
+		/*saw Emily emotional health and dance but not Harvey anatomy*/ {
 			"Name": "EmilyEmotionalDanceAndHarveyAnatomyToken",
 			"Value": "EmilyEmotionalDanceYesHarveyAnatomyNo",
 			"When": {
@@ -828,7 +827,7 @@
 				"HasSeenEvent |contains=31032031": true,
 			}
 		},
-		{
+		/*seen both events in the pair*/ {
 			"Name": "EmilyEmotionalDanceAndHarveyAnatomyToken",
 			"Value": "EmilyEmotionalDanceAndHarveyAnatomyDone",
 			"When": {
@@ -838,11 +837,11 @@
 			}
 		},
 		// Clint Metalworking and Abigail Video Games
-		{
+		/*haven't seen either event in the pair*/ {
 			"Name": "ClintMetalworkAndAbbyGamesToken",
 			"Value": "AbbyGamesNoClintMetalworkNo",
 		},
-		{
+		/*random token to choose which event plays first, when neither's been seen*/ {
 			"Name": "ClintMetalworkAndAbbyGamesToken",
 			"Value": "{{Random: AbbyGamesYes, ClintMetalworkYes}}",
 			"When": {
@@ -851,7 +850,7 @@
 				"HasSeenEvent |contains=31032024": false,
 			}
 		},
-		{
+		/*saw Abigail video games but not Clint metalwork*/ {
 			"Name": "ClintMetalworkAndAbbyGamesToken",
 			"Value": "AbbyGamesYesClintMetalworkNo",
 			"When": {
@@ -860,7 +859,7 @@
 				"HasSeenEvent |contains=31032024": false,
 			}
 		},
-		{
+		/*saw Clint metalwork but not Abigail video games*/ {
 			"Name": "ClintMetalworkAndAbbyGamesToken",
 			"Value": "ClintMetalworkYesAbbyGamesNo",
 			"When": {
@@ -869,7 +868,7 @@
 				"HasSeenEvent |contains=31032024": true,
 			}
 		},
-		{
+		/*seen both events in the pair*/ {
 			"Name": "ClintMetalworkAndAbbyGamesToken",
 			"Value": "ClintMetalworkAndAbbyGamesDone",
 			"When": {
@@ -1034,11 +1033,11 @@
 			}
 		},
 		// Sam Music and Shane Animal Care
-		{
+		/*haven't seen either event in the pair*/ {
 			"Name": "SamMusicAndShaneAnimalCareToken",
 			"Value": "ShaneAnimalCareNoSamMusicNo",
 		},
-		{
+		/*random token to choose which event plays first, when neither's been seen*/ {
 			"Name": "SamMusicAndShaneAnimalCareToken",
 			"Value": "{{Random: ShaneAnimalCareYes, SamMusicYes}}",
 			"When": {
@@ -1047,7 +1046,7 @@
 				"HasSeenEvent |contains=31032035": false,
 			}
 		},
-		{
+		/*saw Shane animal care but not Sam music*/ {
 			"Name": "SamMusicAndShaneAnimalCareToken",
 			"Value": "ShaneAnimalCareYesSamMusicNo",
 			"When": {
@@ -1056,7 +1055,7 @@
 				"HasSeenEvent |contains=31032035": false,
 			}
 		},
-		{
+		/*saw Sam music but not Shane animal care*/ {
 			"Name": "SamMusicAndShaneAnimalCareToken",
 			"Value": "SamMusicYesShaneAnimalCareNo",
 			"When": {
@@ -1065,7 +1064,7 @@
 				"HasSeenEvent |contains=31032035": true,
 			}
 		},
-		{
+		/*seen both events in the pair*/ {
 			"Name": "SamMusicAndShaneAnimalCareToken",
 			"Value": "SamMusicAndShaneAnimalCareDone",
 			"When": {
@@ -1447,11 +1446,11 @@
 			}
 		},
 		// Robin Woodworking and Abigail Self-Defense
-		{
+		/*haven't seen either event in the pair*/ {
 			"Name": "RobinWoodworkAndAbbySelfDefenseToken",
 			"Value": "AbbySelfDefenseNoRobinWoodworkNo",
 		},
-		{
+		/*random token to choose which event plays first, when neither's been seen*/ {
 			"Name": "RobinWoodworkAndAbbySelfDefenseToken",
 			"Value": "{{Random: AbbySelfDefenseYes, RobinWoodworkYes}}",
 			"When": {
@@ -1460,7 +1459,7 @@
 				"HasSeenEvent |contains=31032038": false,
 			}
 		},
-		{
+		/*saw Abigail self-defense but not Robin woodworking*/ {
 			"Name": "RobinWoodworkAndAbbySelfDefenseToken",
 			"Value": "AbbySelfDefenseYesRobinWoodworkNo",
 			"When": {
@@ -1469,7 +1468,7 @@
 				"HasSeenEvent |contains=31032038": false,
 			}
 		},
-		{
+		/*saw Robin woodworking but not Abigail self-defense*/ {
 			"Name": "RobinWoodworkAndAbbySelfDefenseToken",
 			"Value": "RobinWoodworkYesAbbySelfDefenseNo",
 			"When": {
@@ -1478,7 +1477,7 @@
 				"HasSeenEvent |contains=31032038": true,
 			}
 		},
-		{
+		/*seen both events in the pair*/ {
 			"Name": "RobinWoodworkAndAbbySelfDefenseToken",
 			"Value": "RobinWoodworkAndAbbySelfDefenseDone",
 			"When": {
@@ -1488,11 +1487,11 @@
 			}
 		},
 		// Willy & Linus Fishing and Caroline & Evelyn Gardening
-		{
+		/*haven't seen either event in the pair*/ {
 			"Name": "WillyLinusFishingAndCarolineEvelynGardeningToken",
 			"Value": "CarolineEvelynGardeningNoWillyLinusFishingNo",
 		},
-		{
+		/*random token to choose which event plays first, when neither's been seen*/ {
 			"Name": "WillyLinusFishingAndCarolineEvelynGardeningToken",
 			"Value": "{{Random: CarolineEvelynGardeningYes, WillyLinusFishingYes}}",
 			"When": {
@@ -1501,7 +1500,7 @@
 				"HasSeenEvent |contains=31032039": false,
 			}
 		},
-		{
+		/*saw Willy and Linus fishing not Caroline and Evelyn gardening*/ {
 			"Name": "WillyLinusFishingAndCarolineEvelynGardeningToken",
 			"Value": "CarolineEvelynGardeningYesWillyLinusFishingNo",
 			"When": {
@@ -1510,7 +1509,7 @@
 				"HasSeenEvent |contains=31032039": false,
 			}
 		},
-		{
+		/*saw Caroline and Evelyn gardening not Willy and Linus fishing*/ {
 			"Name": "WillyLinusFishingAndCarolineEvelynGardeningToken",
 			"Value": "WillyLinusFishingYesCarolineEvelynGardeningNo",
 			"When": {
@@ -1519,7 +1518,7 @@
 				"HasSeenEvent |contains=31032039": true,
 			}
 		},
-		{
+		/*seen both events in the pair*/ {
 			"Name": "WillyLinusFishingAndCarolineEvelynGardeningToken",
 			"Value": "WillyLinusFishingAndCarolineEvelynGardeningDone",
 			"When": {
@@ -1573,8 +1572,7 @@
 		},
 	],
 	"Changes": [
-		// Include 
-		{
+		/*Include*/ {
 			"LogName": "Include It Takes a Village Lessons and Dialog",
 			"Action": "Include",
 			"FromFile": "assets/LessonsAndDialog.json"
@@ -1721,28 +1719,48 @@
 			"FromFile": "assets/Not-Code/Haley-LeahArt/ArtTable.png",
 		},
 		/*Jas Room Map Patch*/ {
-		  "LogName": "Haley & Leah Art Jas Canvas Map Patch",
-		  "Action": "EditMap",
-		  "PatchMode": "Overlay",
-		  "Target": "Maps/AnimalShop",
-		  "FromFile": "assets/Not-Code/Haley-LeahArt/AnimalShop - Jas Painting.tmx",
-		  "FromArea": { "X": 2, "Y": 1, "Width": 1, "Height": 2 },
-		  "ToArea": { "X": 2, "Y": 1, "Width": 1, "Height": 2 },
-		  "When": {
-			"HasConversationTopic": "ItTakesAVillage_HaleyLeahArt"
-		  }
+			"LogName": "Haley & Leah Art Jas Canvas Map Patch",
+			"Action": "EditMap",
+			"PatchMode": "Overlay",
+			"Target": "Maps/AnimalShop",
+			"FromFile": "assets/Not-Code/Haley-LeahArt/AnimalShop - Jas Painting.tmx",
+			"FromArea": {
+				"X": 2,
+				"Y": 1,
+				"Width": 1,
+				"Height": 2
+			},
+			"ToArea": {
+				"X": 2,
+				"Y": 1,
+				"Width": 1,
+				"Height": 2
+			},
+			"When": {
+				"HasConversationTopic": "ItTakesAVillage_HaleyLeahArt"
+			}
 		},
 		/*Vincent Room Map Patch*/ {
-		  "LogName": "Haley & Leah Art Vincent Canvas Map Patch",
-		  "Action": "EditMap",
-		  "PatchMode": "Overlay",
-		  "Target": "Maps/SamHouse",
-		  "FromFile": "assets/Not-Code/Haley-LeahArt/SamHouse - Vincent Painting.tmx",
-		  "FromArea": { "X": 12, "Y": 18, "Width": 1, "Height": 2 },
-		  "ToArea": { "X": 12, "Y": 18, "Width": 1, "Height": 2 },
-		  "When": {
-			"HasConversationTopic": "ItTakesAVillage_HaleyLeahArt"
-		  }
+			"LogName": "Haley & Leah Art Vincent Canvas Map Patch",
+			"Action": "EditMap",
+			"PatchMode": "Overlay",
+			"Target": "Maps/SamHouse",
+			"FromFile": "assets/Not-Code/Haley-LeahArt/SamHouse - Vincent Painting.tmx",
+			"FromArea": {
+				"X": 12,
+				"Y": 18,
+				"Width": 1,
+				"Height": 2
+			},
+			"ToArea": {
+				"X": 12,
+				"Y": 18,
+				"Width": 1,
+				"Height": 2
+			},
+			"When": {
+				"HasConversationTopic": "ItTakesAVillage_HaleyLeahArt"
+			}
 		}
 	]
 }
