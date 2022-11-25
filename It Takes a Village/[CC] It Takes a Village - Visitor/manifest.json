@@ -3,7 +3,7 @@
 	"Author": "LenneDalben",
 	"Version": "1.0.0",
 	"Description": "Adds a special visitor to your game.",
-	"UniqueID": "LenneDalben.CCItTakesaVillageVisitor",
+	"UniqueID": "LenneDalben.CC.ItTakesaVillageVisitor",
 	"UpdateKeys": [ "ModDrop:???" ],
 	"ContentPackFor": {
 		"UniqueID": "PeacefulEnd.CustomCompanions",

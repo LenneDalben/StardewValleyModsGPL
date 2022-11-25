@@ -1612,7 +1612,7 @@
 					},
 					"Layer": "Back",
 					"SetProperties": {
-						"CustomCompanions": "Spawn 1 LenneDalben.CCItTakesaVillageVisitor.BlossomDuck_{{season}}"
+						"CustomCompanions": "Spawn 1 LenneDalben.CC.ItTakesaVillageVisitor.BlossomDuck_{{season}}"
 					},
 				},
 			],
