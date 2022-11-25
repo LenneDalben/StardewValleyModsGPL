@@ -3,7 +3,7 @@
    "Author": "LenneDalben",
    "Description": "NPCs help out Penny teach the kiddos by giving lessons.",
    "Version": "1.0.0",
-   "UniqueID": "LenneDalben.ItTakesaVillage",
+   "UniqueID": "LenneDalben.CP.ItTakesaVillage",
    "UpdateKeys": [ "" ],
    "ContentPackFor": {
        "UniqueID": "Pathoschild.ContentPatcher",
