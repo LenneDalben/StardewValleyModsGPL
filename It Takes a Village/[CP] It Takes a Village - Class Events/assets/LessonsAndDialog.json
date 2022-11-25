@@ -281,9 +281,7 @@
             }
         },
         //
-        // Haley & Leah Art IN PROGRESS
-        // Add CT for Elliott (with dynamic dialog!)
-        // fishSlap / slimeHit sound for paint?
+        // Haley & Leah Art - Done!
         /*Event proper*/ {
             "LogName": "Haley & Leah Art Lesson",
             "Action": "EditData",
@@ -402,8 +400,7 @@
             }
         },
         //
-        // Elliott Stories IN PROGRESS
-        // Add CT for Haley and Leah (with dynamic dialog!)
+        // Elliott Stories  - Done!
         /*Event proper*/ {
             "LogName": "Elliott Stories Lesson",
             "Action": "EditData",
@@ -420,7 +417,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Elliott",
             "Entries": {
-                "ItTakesAVillage_ElliottStories": "{{i18n:ItTakesAVillage_ElliottStoriesCT_Elliott}}"
+                "ItTakesAVillage_ElliottStories": "{{ElliottStoriesElliottCT}}"
             }
         },
         /*Leah CT*/ {
@@ -428,7 +425,15 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Leah",
             "Entries": {
-                "ItTakesAVillage_ElliottStories": "{{i18n:ItTakesAVillage_ElliottStoriesCT_Leah}}"
+                "ItTakesAVillage_ElliottStories": "{{ElliottStoriesLeahCT}}"
+            }
+        },
+        /*Haley CT*/ {
+            "LogName": "Elliott Stories CT - Haley",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Haley",
+            "Entries": {
+                "ItTakesAVillage_ElliottStories": "{{ElliottStoriesHaleyCT}}"
             }
         },
         /*Jas CT*/ {
