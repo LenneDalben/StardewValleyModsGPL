@@ -1040,9 +1040,12 @@
             }
         }, // I'm grateful Emily spoke to the kids about mental health. It's important to de-stigmatize it.
         //
-        // Harvey Anatomy and Health INCOMPLETE
+        // Harvey Anatomy INCOMPLETE
         // use one of the skeleton monster sprites (or the statue, I think there's a statue) as a temp actor "skeleton anatomical model" that Harvey brings from a back room
-        // the kids have no idea what to make of him using all the technical terms, like clavicle
+        // Harvey oversimplifies at first, he's initially really nervous about teaching since he thinks it's not what he's used to and he's worried about messing things up so he accidentally overcorrects by going too simple in his explanations, and then something causes him to realise that it's not actually that different from how he normally discusses healthcare stuff with the kids during their appointments and he relaxes
+        // Jas could also be precocious and call him out like "Dr. Harvey, you've told me the name for that is clavicle in my appointments$3."
+        // Maru will be over at the counter, Penny sitting on stool next to her
+        // have a little friendship moment between Maru & Harvey (before the kids and Penny arrive!). Harvey could mention that he's feeling nervous, Maru reassuring that she'll be there. Harvey could comment that one day Maru will be running the place
         /*Event proper*/ {
             "LogName": "Harvey Anatomy and Health Lesson",
             "Action": "EditData",
@@ -1995,6 +1998,8 @@
         //
         // Caroline & Evelyn Gardening INCOMPLETE
         // could this include the kids getting a plant and then some concerns about the plants dying to foreshadow their disappearance o: Jodi and Shane be skeptical o.o
+        // Evelyn rambling about "Alex used to mispronounce the name of  'X plant' and called it 'Y', my my, how the years go by" or something. Have it be set off by one of the kids making the same mispronounciation
+        // Caroline can go "oh have you heard the story of how Abigail ate dirt on a dare?" and the kids go "EWW". Caroline is fondly exasperated about it. And maybe that's Penny's cue to step in lol
         /*Event proper*/ {
             "LogName": "Caroline & Evelyn Gardening Lesson",
             "Action": "EditData",
