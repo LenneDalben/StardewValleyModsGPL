@@ -94,9 +94,9 @@
 				"LoadBlacksmithConfig": "true"
 			}
 		},
-		// The events themselves check for the value of the token, so like the Abby econ lesson would check SebProgramBasicsAndAbbyEconToken value for either AbbyEconYes or AbbyEconYesSebProgramNo in order to play the Abby econ lesson o:
+		// Dynamic Tokens for HasSeenEvent: the events themselves check for the value of this token. For example, the Alex PE lesson checks AlexPEAndGusCookingToken value for either AlexPEYes or GusCookingYesAlexPENo in order to play the Alex PE lesson.
+		// QUESTION: should one of the random values have them stay as "no", as part of spacing them out? Or is it ok to have them all roll yes and whichever you get to first, so be it? Will need to play test to be sure.
 		//
-		// Dynamic Tokens for the HasSeenEvent
 		// Alex PE and Gus Cooking
 		/*haven't seen either event in the pair*/ {
 			"Name": "AlexPEAndGusCookingToken",
