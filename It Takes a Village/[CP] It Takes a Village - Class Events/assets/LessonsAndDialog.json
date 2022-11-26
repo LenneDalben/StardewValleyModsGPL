@@ -1040,25 +1040,30 @@
             }
         }, // I'm grateful Emily spoke to the kids about mental health. It's important to de-stigmatize it.
         //
-        // Harvey Anatomy INCOMPLETE
-        // use one of the skeleton monster sprites (or the statue, I think there's a statue) as a temp actor "skeleton anatomical model" that Harvey brings from a back room
+        // Harvey Anatomy - IN PROGRESS
         // Harvey oversimplifies at first, he's initially really nervous about teaching since he thinks it's not what he's used to and he's worried about messing things up so he accidentally overcorrects by going too simple in his explanations, and then something causes him to realise that it's not actually that different from how he normally discusses healthcare stuff with the kids during their appointments and he relaxes
         // Jas could also be precocious and call him out like "Dr. Harvey, you've told me the name for that is clavicle in my appointments$3."
+        /*"backbone" / spine = vertebral column
+        "hipbone" = pelvis
+        "thighbone" = femur
+        "kneebone" = patella
+        "legbone" / shin = tibia
+        "footbone" = tarsal*/
         // Maru will be over at the counter, Penny sitting on stool next to her
         // have a little friendship moment between Maru & Harvey (before the kids and Penny arrive!). Harvey could mention that he's feeling nervous, Maru reassuring that she'll be there. Harvey could comment that one day Maru will be running the place
         /*Event proper*/ {
-            "LogName": "Harvey Anatomy and Health Lesson",
+            "LogName": "Harvey Anatomy Lesson",
             "Action": "EditData",
             "Target": "Data/Events/Hospital",
             "Entries": {
-                "31032032/A ItTakesAVillage_Beginning/A ItTakesAVillage_AlexPE/A ItTakesAVillage_GusCooking/A ItTakesAVillage_ElliottStories/A ItTakesAVillage_HaleyLeahArt/A ItTakesAVillage_AbbyEcon/A ItTakesAVillage_SebProgram/A ItTakesAVillage_DemetriusBotany/A ItTakesAVillage_MaruElectronics/A ItTakesAVillage_EmilyDance/A ItTakesAVillage_AbigailVideoGames/A ItTakesAVillage_ClintMetalworking/A ItTakesAVillage_SamMusic/A ItTakesAVillage_ShaneAnimalCare/A ItTakesAVillage_AbigailSelfDefense/A ItTakesAVillage_RobinWoodworking/A ItTakesAVillage_WillyLinusFishing/A ItTakesAVillage_CarolineEvelynGardening": "50s/-1000 -1000/farmer 81 94 0 Penny 89 94 2 Jas 89 95 0 Vincent 90 95 0/viewport 87 93 true/addConversationTopic ItTakesAVillage_HarveyHealth {{MinimumDaysBetweenLessons}}/{{SkippableToken}}/emote Jas 32/jump Vincent 4/pause 500/speed Jas 4/move Jas 0 4 1 true/speed Vincent 4/move Vincent 0 4 3 true/move Penny -2 0 3/faceDirection Penny 2/faceDirection farmer 1/pause 200/emote Penny 28/emote farmer 8/move farmer 2 0 1 true/pause 100/faceDirection Penny 3/pause 300/speak Penny \"{{i18n:event-31032022.01}}\"/question null \"#{{i18n:event-31032022.02}}#{{i18n:event-31032022.03}}\"/splitSpeak Penny \"{{i18n:event-31032022.04}}~{{i18n:event-31032022.05}}\"/speak Penny \"{{i18n:event-31032022.06}}\"/pause 300/emote Penny 40/speak Penny \"{{i18n:event-31032022.07}}\"/quickQuestion #{{i18n:event-31032022.08}}#{{i18n:event-31032022.09}}(break)friendship Penny 100\\speak Penny \"{{i18n:event-31032022.10}}\"(break)friendship Penny -100\\speak Penny \"{{i18n:event-31032022.11}}\"/pause 500/speak Penny \"{{i18n:event-31032022.12}}\"/emote Penny 56/speed Penny 4/move Penny 0 1 3/speed Penny 4/move Penny -9 0 3 true/move farmer -2 0 0 true/pause 500/end"
+                "31032032/A ItTakesAVillage_Beginning/A ItTakesAVillage_AlexPE/A ItTakesAVillage_GusCooking/A ItTakesAVillage_ElliottStories/A ItTakesAVillage_HaleyLeahArt/A ItTakesAVillage_AbbyEcon/A ItTakesAVillage_SebProgram/A ItTakesAVillage_DemetriusBotany/A ItTakesAVillage_MaruElectronics/A ItTakesAVillage_EmilyDance/A ItTakesAVillage_AbigailVideoGames/A ItTakesAVillage_ClintMetalworking/A ItTakesAVillage_SamMusic/A ItTakesAVillage_ShaneAnimalCare/A ItTakesAVillage_AbigailSelfDefense/A ItTakesAVillage_RobinWoodworking/A ItTakesAVillage_WillyLinusFishing/A ItTakesAVillage_CarolineEvelynGardening": "50s/-1000 -1000/Maru 6 15 2 Harvey 10 11 2 Penny -100 -100 0 Jas -100 -100 0 Vincent -100 -100 0/viewport 10 16 true/addConversationTopic ItTakesAVillage_HarveyHealth {{MinimumDaysBetweenLessons}}/{{SkippableToken}}/doAction 10 13/move Harvey 0 2 3/move Harvey -1 0 3/faceDirection Maru 1/emote Harvey 28/speak Harvey \"I hope this goes well today.$s\"/speak Maru \"I think you'll do fine! Plus I'll be here to chime in, if needed.\"/emote Harvey 32/speak Harvey \"Thanks.#$b#You know, I could see you running the place one day.\"/emote Maru 32/speak Maru \"Thanks! I think my future is in robotics, though.\"/speak Harvey \"Ah, makes sense.$h\"/pause 500/playSound doorClose/warp Penny 10 18/speak Maru \"Hi!$h\"/move Penny -X Y Z true/move Harvey 3 0 2/warp Jas 10 18/move Jas 0 -1 1 false/move Jas 4 0 0 false/warp Vincent 10 18/move Vincent 0 -1 1/move Vincent 2 0 0/speak Harvey \"W-welcome everyone!#$b#Today, we'll be going over, er, anatomy!\"/pause 500/end"
             },
             "When": {
                 "EmilyEmotionalDanceAndHarveyAnatomyToken": "HarveyAnatomyYes, HarveyAnatomyYesEmilyEmotionalDanceNo"
             }
         },
         /*Harvey CT - dynamic dialog*/ {
-            "LogName": "Harvey Anatomy and Health CT - Harvey",
+            "LogName": "Harvey Anatomy CT - Harvey",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Harvey",
             "Entries": {
@@ -1066,7 +1071,7 @@
             }
         },
         /*Emily CT - dynamic dialog*/ {
-            "LogName": "Harvey Anatomy and Health CT - Emily",
+            "LogName": "Harvey Anatomy CT - Emily",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Emily",
             "Entries": {
@@ -1074,7 +1079,7 @@
             }
         },
         /*Maru CT*/ {
-            "LogName": "Harvey Anatomy and Health CT - Maru",
+            "LogName": "Harvey Anatomy CT - Maru",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Maru",
             "Entries": {
@@ -1083,7 +1088,7 @@
         }, // for Maru's CT: Harvey was so excited to have more people in the clinic OR the kids were surprisingly excited / understandably uncomfortable about being at the doctor (maybe 1 can be excited and the other not? Kids ARE different)
         // Airyn mentioned in doctor dialog Jas says she's not scared and asking what the tools do while Vincent is nervous and asks for a lollipop for being brave :pufferaww: WHAT A CUTE KID
         /*Jas CT*/ {
-            "LogName": "Harvey Anatomy and Health CT - Jas",
+            "LogName": "Harvey Anatomy CT - Jas",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Jas",
             "Entries": {
@@ -1091,7 +1096,7 @@
             }
         },
         /*Vincent CT*/ {
-            "LogName": "Harvey Anatomy and Health CT - Vincent",
+            "LogName": "Harvey Anatomy CT - Vincent",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Vincent",
             "Entries": {
@@ -1099,7 +1104,7 @@
             }
         },
         /*Jodi CT*/ {
-            "LogName": "Harvey Anatomy and Health CT - Jodi",
+            "LogName": "Harvey Anatomy CT - Jodi",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Jodi",
             "Entries": {
@@ -1107,7 +1112,7 @@
             }
         },
         /*Kent CT*/ {
-            "LogName": "Harvey Anatomy and Health CT - Kent",
+            "LogName": "Harvey Anatomy CT - Kent",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Kent",
             "Entries": {
@@ -1115,7 +1120,7 @@
             }
         },
         /*Sam CT*/ {
-            "LogName": "Harvey Anatomy and Health CT - Sam",
+            "LogName": "Harvey Anatomy CT - Sam",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sam",
             "Entries": {
@@ -1123,7 +1128,7 @@
             }
         },
         /*Marnie CT*/ {
-            "LogName": "Harvey Anatomy and Health CT - Marnie",
+            "LogName": "Harvey Anatomy CT - Marnie",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Marnie",
             "Entries": {
@@ -1131,7 +1136,7 @@
             }
         },
         /*Shane CT*/ {
-            "LogName": "Harvey Anatomy and Health CT - Shane",
+            "LogName": "Harvey Anatomy CT - Shane",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Shane",
             "Entries": {
@@ -1139,7 +1144,7 @@
             }
         },
         /*Penny CT*/ {
-            "LogName": "Harvey Anatomy and Health CT - Penny",
+            "LogName": "Harvey Anatomy CT - Penny",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Penny",
             "Entries": {
@@ -1147,7 +1152,7 @@
             }
         }, // I was glad to hear Jas was excited by what she was learning. Hopefully poor Vincent will feel a little less nervous at the doctor now.
         /*Vincent Schedule Dialog NEEDS i18n'ING*/ {
-            "LogName": "Harvey Anatomy and Health Vincent Schedule Dialog Changes",
+            "LogName": "Harvey Anatomy Vincent Schedule Dialog Changes",
             "Action": "EditData",
             "Target": "Strings/schedules/Vincent",
             "Entries": {
@@ -1160,7 +1165,7 @@
             }
         },
         /*Jodi Schedule Dialog NEEDS i18n'ING*/ {
-            "LogName": "Harvey Anatomy and Health Jodi Schedule Dialog Changes",
+            "LogName": "Harvey Anatomy Jodi Schedule Dialog Changes",
             "Action": "EditData",
             "Target": "Strings/schedules/Jodi",
             "Entries": {
