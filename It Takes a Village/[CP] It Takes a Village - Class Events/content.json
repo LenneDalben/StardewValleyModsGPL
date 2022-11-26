@@ -1,4 +1,4 @@
-{ // 6510 words ()
+{ // 6510 words (7083)
 	"Format": "1.21.0",
 	"ConfigSchema": {
 		"MinimumDaysBetweenLessons": {
@@ -103,6 +103,7 @@
 		// QUESTION: should one of the random values have them stay as "no", as part of spacing them out? Or is it ok to have them all roll yes and whichever you get to first, so be it? Will need to play test to be sure.
 		//
 		// Alex PE and Gus Cooking
+		// HasSeenEvent tokens
 		/*haven't seen either event in the pair*/ {
 			"Name": "AlexPEAndGusCookingToken",
 			"Value": "GusCookingNoAlexPENo",
@@ -230,6 +231,7 @@
 			}
 		},
 		// Haley & Leah Art and Elliott Stories
+		// HasSeenEvent tokens
 		/*haven't seen either event in the pair*/ {
 			"Name": "HaleyLeahArtAndElliottStoriesToken",
 			"Value": "ElliottStoriesNoHaleyLeahArtNo",
@@ -371,6 +373,7 @@
 			}
 		},
 		// Sebastian Programming Basics and Abigail Economics
+		// HasSeenEvent tokens
 		/*haven't seen either event in the pair*/ {
 			"Name": "SebProgramAndAbbyEconToken",
 			"Value": "AbbyEconNoSebProgramNo",
@@ -502,6 +505,7 @@
 			}
 		},
 		// Maru Electronics and Demetrius Botany
+		// HasSeenEvent tokens
 		/*haven't seen either event in the pair*/ {
 			"Name": "MaruElectronicsAndDemetriusBotanyToken",
 			"Value": "DemetriusBotanyNoMaruElectronicsNo",
@@ -801,6 +805,7 @@
 			}
 		},
 		// Emily Emotional Health & Dance and Harvey Anatomy
+		// HasSeenEvent tokens
 		/*haven't seen either event in the pair*/ {
 			"Name": "EmilyEmotionalDanceAndHarveyAnatomyToken",
 			"Value": "HarveyAnatomyNoEmilyEmotionalDanceNo",
@@ -842,6 +847,7 @@
 			}
 		},
 		// Clint Metalworking and Abigail Video Games
+		// HasSeenEvent tokens
 		/*haven't seen either event in the pair*/ {
 			"Name": "ClintMetalworkAndAbbyGamesToken",
 			"Value": "AbbyGamesNoClintMetalworkNo",
@@ -1038,6 +1044,7 @@
 			}
 		},
 		// Sam Music and Shane Animal Care
+		// HasSeenEvent tokens
 		/*haven't seen either event in the pair*/ {
 			"Name": "SamMusicAndShaneAnimalCareToken",
 			"Value": "ShaneAnimalCareNoSamMusicNo",
@@ -1451,6 +1458,7 @@
 			}
 		},
 		// Robin Woodworking and Abigail Self-Defense
+		// HasSeenEvent tokens
 		/*haven't seen either event in the pair*/ {
 			"Name": "RobinWoodworkAndAbbySelfDefenseToken",
 			"Value": "AbbySelfDefenseNoRobinWoodworkNo",
@@ -1492,6 +1500,7 @@
 			}
 		},
 		// Willy & Linus Fishing and Caroline & Evelyn Gardening
+		// HasSeenEvent tokens
 		/*haven't seen either event in the pair*/ {
 			"Name": "WillyLinusFishingAndCarolineEvelynGardeningToken",
 			"Value": "CarolineEvelynGardeningNoWillyLinusFishingNo",
