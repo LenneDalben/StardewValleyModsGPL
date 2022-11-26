@@ -47,7 +47,6 @@
 	],
 	"Changes": [
 		{
-			// for added fun, is there a compat way to get everyone into their Spirit Eve outfits from DSV if you have DSV just for the event? Airyn said he has to do it on his end
 			//
 			"LogName": "Trick or Treat Event",
 			"Action": "EditData",
