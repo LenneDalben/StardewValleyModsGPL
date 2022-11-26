@@ -1049,8 +1049,6 @@
         "kneebone" = patella
         "legbone" / shin = tibia
         "footbone" = tarsal*/
-        // Maru will be over at the counter, Penny sitting on stool next to her
-        // have a little friendship moment between Maru & Harvey (before the kids and Penny arrive!). Harvey could mention that he's feeling nervous, Maru reassuring that she'll be there. Harvey could comment that one day Maru will be running the place
         /*Event proper*/ {
             "LogName": "Harvey Anatomy Lesson",
             "Action": "EditData",
