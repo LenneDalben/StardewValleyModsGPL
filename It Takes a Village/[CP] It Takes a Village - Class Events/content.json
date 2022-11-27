@@ -876,6 +876,34 @@
 				"HasSeenEvent |contains=31032027": "false"
 			}
 		},
+		/*CT dialog for Harvey - have seen Emily emotional health and dance*/ {
+			"Name": "HarveyAnatomyHarveyCT",
+			"Value": "{{i18n:ItTakesAVillage_HarveyHealthCT_Harvey_YesDance}}",
+			"When": {
+				"HasSeenEvent |contains=31032031": "true"
+			}
+		},
+		/*CT dialog for Harvey - have not seen Emily emotional health and dance*/ {
+			"Name": "HarveyAnatomyHarveyCT",
+			"Value": "{{i18n:ItTakesAVillage_HarveyHealthCT_Harvey_NoDance}}",
+			"When": {
+				"HasSeenEvent |contains=31032031": "false"
+			}
+		},
+		/*CT dialog for Emily - have seen Emily emotional health and dance*/ {
+			"Name": "HarveyAnatomyEmilyCT",
+			"Value": "{{i18n:ItTakesAVillage_HarveyHealthCT_Emily_YesDance}}",
+			"When": {
+				"HasSeenEvent |contains=31032031": "true"
+			}
+		},
+		/*CT dialog for Emily - have not seen Emily emotional health and dance*/ {
+			"Name": "HarveyAnatomyEmilyCT",
+			"Value": "{{i18n:ItTakesAVillage_HarveyHealthCT_Emily_NoDance}}",
+			"When": {
+				"HasSeenEvent |contains=31032031": "false"
+			}
+		},
 		// Clint Metalworking and Abigail Video Games
 		// HasSeenEvent tokens
 		/*haven't seen either event in the pair*/ {

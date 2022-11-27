@@ -485,6 +485,25 @@
   "event-31032032.32": "So many classes telling us to eat healthy.$3",
   "event-31032032.33": "That should reinforce its importance$h!",
   "event-31032032.34": "Let's continue!#$b#The pelvis is connected to the vertebral column...",
+  // Harvey Anatomy CTs
+  "ItTakesAVillage_HarveyHealthCT_Harvey_YesDance": "",
+  "ItTakesAVillage_HarveyHealthCT_Harvey_NoDance": "",
+  "ItTakesAVillage_HarveyHealthCT_Emily_YesDance": "",
+  "ItTakesAVillage_HarveyHealthCT_Emily_NoDance": "",
+  "ItTakesAVillage_HarveyHealthCT_Maru": "",
+  "ItTakesAVillage_HarveyHealthCT_Jas": "",
+  "ItTakesAVillage_HarveyHealthCT_Vincent": "",
+  "ItTakesAVillage_HarveyHealthCT_Jodi": "",
+  "ItTakesAVillage_HarveyHealthCT_Kent": "",
+  "ItTakesAVillage_HarveyHealthCT_Sam": "",
+  "ItTakesAVillage_HarveyHealthCT_Marnie": "",
+  "ItTakesAVillage_HarveyHealthCT_Shane": "",
+  "ItTakesAVillage_HarveyHealthCT_Penny": "I was glad to hear Jas was excited by what she was learning. Hopefully poor Vincent will feel a little less nervous at the doctor now.",
+  // Harvey Anatomy schedule strings
+  "ItTakesAVillage_HarveyHealthSchedule_Vincent_spring_11.000": "*sob*... Shots are still terrible.$s",
+  "ItTakesAVillage_HarveyHealthSchedule_Vincent_spring_11.001": "*gulp*... It's ok Mommy, I think I'm ok.$s",
+  "ItTakesAVillage_HarveyHealthSchedule_Vincent_spring_11.002": "*sniff* Ok no lollipop today, I can do this!$s",
+  "ItTakesAVillage_HarveyHealthSchedule_Jodi_spring_11.000": "Vincent still hates going to the doctor, but he seems a little calmer after that lesson with Harvey.",
   //
   // Abigail Video Games event
   "event-31032033.01": "Hey kids! Don't tell Penny, but we have a ~special~ lesson today. Follow me!",

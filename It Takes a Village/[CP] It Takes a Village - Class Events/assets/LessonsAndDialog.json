@@ -1057,7 +1057,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Harvey",
             "Entries": {
-                "ItTakesAVillage_HarveyHealth": "{{i18n:ItTakesAVillage_HarveyHealthCT_Harvey}}"
+                "ItTakesAVillage_HarveyHealth": "{{HarveyAnatomyHarveyCT}}"
             }
         },
         /*Emily CT - dynamic dialog*/ {
@@ -1065,7 +1065,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Emily",
             "Entries": {
-                "ItTakesAVillage_HarveyHealth": "{{i18n:ItTakesAVillage_HarveyHealthCT_Emily}}"
+                "ItTakesAVillage_HarveyHealth": "{{HarveyAnatomyEmilyCT}}"
             }
         },
         /*Maru CT*/ {
@@ -1075,7 +1075,7 @@
             "Entries": {
                 "ItTakesAVillage_HarveyHealth": "{{i18n:ItTakesAVillage_HarveyHealthCT_Maru}}"
             }
-        }, // for Maru's CT: Harvey was so excited to have more people in the clinic OR the kids were surprisingly excited / understandably uncomfortable about being at the doctor (maybe 1 can be excited and the other not? Kids ARE different)
+        }, // for Maru's CT: The kids were surprisingly excited / understandably uncomfortable about being at the doctor (maybe 1 can be excited and the other not? Kids ARE different)
         // Airyn mentioned in doctor dialog Jas says she's not scared and asking what the tools do while Vincent is nervous and asks for a lollipop for being brave :pufferaww: WHAT A CUTE KID
         /*Jas CT*/ {
             "LogName": "Harvey Anatomy CT - Jas",
@@ -1140,26 +1140,26 @@
             "Entries": {
                 "ItTakesAVillage_HarveyHealth": "{{i18n:ItTakesAVillage_HarveyHealthCT_Penny}}"
             }
-        }, // I was glad to hear Jas was excited by what she was learning. Hopefully poor Vincent will feel a little less nervous at the doctor now.
-        /*Vincent Schedule Dialog NEEDS i18n'ING*/ {
+        },
+        /*Vincent Schedule Dialog*/ {
             "LogName": "Harvey Anatomy Vincent Schedule Dialog Changes",
             "Action": "EditData",
             "Target": "Strings/schedules/Vincent",
             "Entries": {
-                "spring_11.000": "*sob*... Shots are still terrible.$s",
-                "spring_11.001": "*gulp*... It's ok Mommy, I think I'm ok.$s",
-                "spring_11.002": "*sniff* Ok no lollipop today, I can do this!$s"
+                "spring_11.000": "{{i18n:ItTakesAVillage_HarveyHealthSchedule_Vincent_spring_11.000}}",
+                "spring_11.001": "{{i18n:ItTakesAVillage_HarveyHealthSchedule_Vincent_spring_11.001}}",
+                "spring_11.002": "{{i18n:ItTakesAVillage_HarveyHealthSchedule_Vincent_spring_11.002}}"
             },
             "When": {
-                "HasSeenEvent": "31032032"
+                "HasSeenEvent |contains=31032032": "true"
             }
         },
-        /*Jodi Schedule Dialog NEEDS i18n'ING*/ {
+        /*Jodi Schedule Dialog*/ {
             "LogName": "Harvey Anatomy Jodi Schedule Dialog Changes",
             "Action": "EditData",
             "Target": "Strings/schedules/Jodi",
             "Entries": {
-                "spring_11.000": "Vincent still hates going to the doctor, but he seems a little calmer after that lesson with Harvey."
+                "spring_11.000": "{{i18n:ItTakesAVillage_HarveyHealthSchedule_Jodi_spring_11.000}}"
             },
             "When": {
                 "HasSeenEvent": "31032032"
