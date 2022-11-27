@@ -1,36 +1,37 @@
 { // 7158 words ()
+	// QUESTION: should one of the random values have them stay as "no", as part of spacing them out? Or is it ok to have them all roll yes and whichever you get to first, so be it? Will need to play test to be sure.
 	"Format": "1.21.0",
 	"ConfigSchema": {
 		"MinimumDaysBetweenLessons": {
-			"Description": "After kicking off the lessons, at least 7 days must pass between the lessons by default. That's how long you have to talk to the villagers after each lesson to hear their thoughts. This also means it'd take at least 20 weeks in-game to see all the lessons and the wrap up event. If you'd like to reduce the time between lessons to see them faster, or increase the time to spread out the lessons even more, you can! You can select a number between 1 day and 28 days for minimum days between lessons.",
+			"Description": "After kicking off the lessons, at least 7 days must pass between the lessons by default. That's how long you have to talk to the villagers after each lesson to hear their thoughts. This also means it'd take at least 20 weeks in-game to see all the lessons and the wrap up event. -'d like to reduce the time between lessons to see them faster, or increase the time to spread out the lessons even more, you can! You can select a number between 1 day and 28 days for minimum days between lessons.",
 			"AllowValues": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28",
 			"Default": "7",
 			"AllowBlank": false,
 			"AllowMultiple": false
 		},
 		"SkippableConfig": {
-			"Description": "Specify if you want the events in the series to be skippable (true, false). Default is true. Useful for repeat playthroughs if you want to pick and choose which events you see, or if you're worried about getting stuck during an event due to a mod that changes maps.",
+			"Description": "Specify - want the events in the series to be skippable (true, false). Default is true. Useful for repeat playthroughs - want to pick and choose which events you see, or -'re worried about getting stuck during an event due to a mod that changes maps.",
 			"AllowValues": "true, false",
 			"Default": "true",
 			"AllowBlank": false,
 			"AllowMultiple": false
 		},
 		"PortraitandSpriteOverlayConfig": {
-			"Description": "Specify if you want the Maru electronics lesson to include a portrait and sprite overlay as a fun feature (true, false). Default is true. The overlays were designed for vanilla and Diverse Stardew (DSV), and will work for Seasonal Outfits - Slightly Cuter Aesthetic. If you use any other portrait or sprite mod that affect Maru, Jas, and/or Vincent, you may want to set this to false for immersion.",
+			"Description": "Specify - want the Maru electronics lesson to include a portrait and sprite overlay as a fun feature (true, false). Default is true. The overlays were designed for vanilla and Diverse Stardew (DSV), and will work for Seasonal Outfits - Slightly Cuter Aesthetic. - use any other portrait or sprite mod that affect Maru, Jas, and/or Vincent, you may want to set this to false for immersion.",
 			"AllowValues": "true, false",
 			"Default": "true",
 			"AllowBlank": false,
 			"AllowMultiple": false
 		},
 		"LoadBlacksmithConfig": {
-			"Description": "Set this to false if you have a mod that adds events to the Blacksmith shop besides Clint Marriage Mod, Looking for Love, or Lucikiel. ITAV automatically detects Clint Marriage Mod, Looking for Love, and Lucikiel so adjusting this setting is not needed for those mods. Default is true.",
+			"Description": "Set this to false - have a mod that adds events to the Blacksmith shop besides Clint Marriage Mod, Looking for Love, or Lucikiel. ITAV automatically detects Clint Marriage Mod, Looking for Love, and Lucikiel so adjusting this setting is not needed for those mods. Default is true.",
 			"AllowValues": "true, false",
 			"Default": "true",
 			"AllowBlank": false,
 			"AllowMultiple": false
 		},
 		"EditPenny8HeartEvent": {
-			"Description": "The first question in Penny's 8 heart event is tweaked to include a reference to the lessons. This edit is compatible with atravita's Penny 8 Heart Event Adjusted, Hanatsuki's Gender Neutrality Mod and Hanatsuki's and Fix Dialog Differences. Set this to false if you have another mod that edits Penny's 8 heart event. Default is true.",
+			"Description": "The first question in Penny's 8 heart event is tweaked to include a reference to the lessons. This edit is compatible with atravita's Penny 8 Heart Event Adjusted, Hanatsuki's Gender Neutrality Mod and Hanatsuki's and Fix Dialog Differences. Set this to false - have another mod that edits Penny's 8 heart event. Default is true.",
 			"AllowValues": "true, false",
 			"Default": "true",
 			"AllowBlank": false,
@@ -100,7 +101,6 @@
 			}
 		},
 		// Tokens for HasSeenEvent: the events themselves check for the value of this token. For example, the Alex PE lesson checks AlexPEAndGusCookingToken value for either AlexPEYes or GusCookingYesAlexPENo in order to play the Alex PE lesson.
-		// QUESTION: should one of the random values have them stay as "no", as part of spacing them out? Or is it ok to have them all roll yes and whichever you get to first, so be it? Will need to play test to be sure.
 		//
 		// Alex PE and Gus Cooking
 		// HasSeenEvent tokens
@@ -145,14 +145,14 @@
 			}
 		},
 		// Dynamic dialog for Alex PE
-		/*Event dialog, saw Gus Cooking lesson*/ {
+		/*Event dialog - saw Gus Cooking lesson*/ {
 			"Name": "AlexPESeenGusCooking",
 			"Value": "speak Alex \"{{i18n:event-31032023.02}}\"/speak Penny \"{{i18n:event-31032023.03}}\"",
 			"When": {
 				"HasSeenEvent |contains=31032024": "true"
 			}
 		},
-		/*Event dialog, haven't seen Gus Cooking lesson*/ {
+		/*Event dialog - haven't seen Gus Cooking lesson*/ {
 			"Name": "AlexPESeenGusCooking",
 			"Value": "speak Alex \"{{i18n:event-31032023.02}}\"",
 			"When": {
@@ -188,14 +188,14 @@
 			}
 		},
 		// Dynamic dialog for Gus Cooking
-		/*Event dialog, saw Alex PE lesson*/ {
+		/*Event dialog - saw Alex PE lesson*/ {
 			"Name": "GusCookingSeenAlexPE",
 			"Value": "speak Gus \"{{i18n:event-31032024.01}}\"/shake Jas 600/jump Vincent 4/speak Penny \"{{i18n:event-31032024.02}}\"/emote Gus 32",
 			"When": {
 				"HasSeenEvent |contains=31032023": "true"
 			}
 		},
-		/*Event dialog, haven't seen Alex PE lesson*/ {
+		/*Event dialog - haven't seen Alex PE lesson*/ {
 			"Name": "GusCookingSeenAlexPE",
 			"Value": "speak Gus \"{{i18n:event-31032024.01}}\"/shake Jas 600/jump Vincent 4",
 			"When": {
@@ -254,7 +254,7 @@
 				"HasSeenEvent |contains=31032026": false,
 			}
 		},
-		/*saw Haley and Leah art but not Elliott stories*/{
+		/*saw Haley and Leah art but not Elliott stories*/ {
 			"Name": "HaleyLeahArtAndElliottStoriesToken",
 			"Value": "HaleyLeahArtYesElliottStoriesNo",
 			"When": {
@@ -316,14 +316,14 @@
 			}
 		},
 		// Dynamic dialog for Haley & Leah Art
-		/*Event dialog, haven't seen Elliott Stories lesson*/ {
+		/*Event dialog - haven't seen Elliott Stories lesson*/ {
 			"Name": "HaleyLeahArtSeenElliottStories",
 			"Value": "pause 200",
 			"When": {
 				"HasSeenEvent |contains=31032025": "false"
 			}
 		},
-		/*Event dialog, have seen Elliott Stories lesson*/ {
+		/*Event dialog - have seen Elliott Stories lesson*/ {
 			"Name": "HaleyLeahArtSeenElliottStories",
 			"Value": "pause 200/speak Vincent \"{{i18n:event-31032026.31}}\"",
 			"When": {
@@ -415,28 +415,28 @@
 			}
 		},
 		// Dynamic dialog for Sebastian Programming Basics
-		/*Event dialog, saw Abigail Economics*/ {
+		/*Event dialog - saw Abigail Economics*/ {
 			"Name": "SebProgramBasicsSeenAbbyEcon",
 			"Value": "speak Gunther \"{{i18n:event-31032028.03}}\"/emote Penny 28/speak Penny \"{{i18n:event-31032028.04}}\"/speak Sebastian \"{{i18n:event-31032028.05}}\"/pause 500",
 			"When": {
 				"HasSeenEvent |contains=31032027": "true"
 			}
 		},
-		/*Event dialog, didn't see Abigail Economics*/ {
+		/*Event dialog - didn't see Abigail Economics*/ {
 			"Name": "SebProgramBasicsSeenAbbyEcon",
 			"Value": "speak Gunther \"{{i18n:event-31032028.03}}\"/emote Penny 28",
 			"When": {
 				"HasSeenEvent |contains=31032027": "false"
 			}
 		},
-		/*Event dialog, saw Video Games "lesson"*/ {
+		/*Event dialog - saw Video Games "lesson"*/ {
 			"Name": "SebProgramBasicsSeenAbbyVideoGames",
 			"Value": "speak Jas \"{{i18n:event-31032028.20}}\"/speak Sebastian \"{{i18n:event-31032028.21}}\"/emote Vincent 8 true/emote Jas 8/speak Jas \"{{i18n:event-31032028.19}}\"",
 			"When": {
 				"HasSeenEvent |contains=31032033": "true"
 			}
 		},
-		/*Event dialog, didn't see Video Games "lesson"*/ {
+		/*Event dialog - didn't see Video Games "lesson"*/ {
 			"Name": "SebProgramBasicsSeenAbbyVideoGames",
 			"Value": "emote Jas 40 true/emote Vincent 40/speak Jas \"{{i18n:event-31032028.19}}\"",
 			"When": {
@@ -476,14 +476,14 @@
 			}
 		},
 		// Dynamic dialog for Abigail Econ
-		/*Event dialog, saw Programming Basics lesson*/ {
+		/*Event dialog - saw Programming Basics lesson*/ {
 			"Name": "AbbyEconSeenSebProgram",
 			"Value": "speak Penny \"{{i18n:event-31032027.03}}\"/faceDirection Penny 1",
 			"When": {
 				"HasSeenEvent |contains=31032028": "true"
 			}
 		},
-		/*Event dialog, did not see Programming Basics lesson*/ {
+		/*Event dialog - did not see Programming Basics lesson*/ {
 			"Name": "AbbyEconSeenSebProgram",
 			"Value": "faceDirection Penny 1",
 			"When": {
@@ -547,14 +547,14 @@
 			}
 		},
 		// Tokens for Maru Electronics
-		/*Event dialog if you have seen Demetrius Botany*/ {
+		/*Event dialog - have seen Demetrius Botany*/ {
 			"Name": "MaruElectronicsFirstLine",
 			"Value": "{{Random: {{i18n:event-31032030.03}} %% {{i18n:event-31032030.02}} %% {{i18n:event-31032030.02}} %% {{i18n:event-31032030.02}} %% {{i18n:event-31032030.02}} %% {{i18n:event-31032030.02}} %% {{i18n:event-31032030.02}} %% {{i18n:event-31032030.02}} %% {{i18n:event-31032030.02}} %% {{i18n:event-31032030.02}} |key=monster |inputSeparator=%%}}",
 			"When": {
 				"HasSeenEvent |contains=31032029": "true"
 			}
 		},
-		/*Event dialog if you have not seen Demetrius Botany*/ {
+		/*Event dialog - have not seen Demetrius Botany*/ {
 			"Name": "MaruElectronicsFirstLine",
 			"Value": "{{i18n:event-31032030.01}}",
 			"When": {
@@ -575,28 +575,28 @@
 				"PortraitandSpriteOverlayConfig": "false"
 			}
 		},
-		/*CT dialog for Maru if you have seen Demetrius Botany*/ {
+		/*CT dialog for Maru - have seen Demetrius Botany*/ {
 			"Name": "MaruElectronicsMaruCT",
 			"Value": "{{Random: {{i18n:ItTakesAVillage_MaruElectronicsCT_Maru_YesCrow}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Maru_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Maru_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Maru_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Maru_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Maru_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Maru_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Maru_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Maru_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Maru_YesBug}} |key=monster |inputSeparator=%%}}",
 			"When": {
 				"HasSeenEvent |contains=31032029": "true"
 			}
 		},
-		/*CT dialog for Maru if you have not seen Demetrius Botany*/ {
+		/*CT dialog for Maru - have not seen Demetrius Botany*/ {
 			"Name": "MaruElectronicsMaruCT",
 			"Value": "{{i18n:ItTakesAVillage_MaruElectronicsCT_Maru_NoBugorCrow}}",
 			"When": {
 				"HasSeenEvent |contains=31032029": "false"
 			}
 		},
-		/*CT dialog for Demetrius if you have seen Demetrius Botany*/ {
+		/*CT dialog for Demetrius - have seen Demetrius Botany*/ {
 			"Name": "MaruElectronicsDemetriusCT",
 			"Value": "{{Random: {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesCrow}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} %% {{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug}} |key=monster |inputSeparator=%%}}",
 			"When": {
 				"HasSeenEvent |contains=31032029": "true"
 			}
 		},
-		/*CT dialog for Demetrius if you have not seen Demetrius Botany*/ {
+		/*CT dialog for Demetrius - have not seen Demetrius Botany*/ {
 			"Name": "MaruElectronicsDemetriusCT",
 			"Value": "{{i18n:ItTakesAVillage_MaruElectronicsCT_Demetrius_NoBugorCrow}}",
 			"When": {
@@ -734,14 +734,14 @@
 				"Season": "Winter"
 			}
 		},
-		/*Event dialog, saw Maru Electronics*/ {
+		/*Event dialog - saw Maru Electronics*/ {
 			"Name": "DemetriusBotanySeenMaruElectronics",
 			"Value": "emote Vincent 16 true/emote Jas 40 false/pause 200/speak Penny \"{{i18n:event-31032029.30}}\"/emote Vincent 32 true/emote Jas 32 false/pause 50",
 			"When": {
 				"HasSeenEvent |contains=31032030": "true"
 			}
 		},
-		/*Event dialog, didn't see Maru Electronics*/ {
+		/*Event dialog - didn't see Maru Electronics*/ {
 			"Name": "DemetriusBotanySeenMaruElectronics",
 			"Value": "emote Vincent 16",
 			"When": {
@@ -847,28 +847,28 @@
 			}
 		},
 		// Tokens for Harvey Anatomy
-		/*Event dialog, saw Emily emotional health and dance*/ {
+		/*Event dialog - saw Emily emotional health and dance*/ {
 			"Name": "HarveyAnatomySeenEmilyDance",
 			"Value": "speak Vincent \"{{i18n:event-31032032.18}}\"/emote Penny 32/speak Penny \"{{i18n:event-31032032.19}}\"",
 			"When": {
 				"HasSeenEvent |contains=31032031": "true"
 			}
 		},
-		/*Event dialog, have not seen Emily emotional health and dance*/ {
+		/*Event dialog - have not seen Emily emotional health and dance*/ {
 			"Name": "HarveyAnatomySeenEmilyDance",
 			"Value": "emote Penny 32/speak Penny \"{{i18n:event-31032032.19}}\"",
 			"When": {
 				"HasSeenEvent |contains=31032031": "false"
 			}
 		},
-		/*Evvent dialog if you have seen either Alex PE or Gus Cooking*/ {
+		/*Evvent dialog - have seen either Alex PE or Gus Cooking*/ {
 			"Name": "HarveyAnatomyEating",
 			"Value": "speak Jas \"{{i18n:event-31032032.32}}\"/speak Harvey \"{{i18n:event-31032032.33}}\"/emote Penny 32 true/emote Maru 32 false/pause 500",
 			"When": {
 				"HasSeenEvent |contains=31032033, 31032027": "true"
 			}
 		},
-		/*Evvent dialog if you have not seen either Alex PE or Gus Cooking*/ {
+		/*Event dialog - have not seen either Alex PE or Gus Cooking*/ {
 			"Name": "HarveyAnatomyEating",
 			"Value": "pause 500",
 			"When": {
@@ -971,77 +971,77 @@
 			"Name": "AbbyVideoGamesJunimoJumpDialog",
 			"Value": "jump Vincent 6/speak Vincent \"{{i18n:event-31032033.14}}\""
 		},
-		/*Event Abigail dialog, saw Metalworking lesson*/ {
+		/*Event Abigail dialog - saw Metalworking lesson*/ {
 			"Name": "AbbyVideoGamesSeenClintMetal",
 			"Value": "{{i18n:event-31032033.09}}",
 			"When": {
 				"HasSeenEvent |contains=31032024": "true"
 			}
 		},
-		/*Event Abigail dialog, did not see Metalworking lessonn*/ {
+		/*Event Abigail dialog - did not see Metalworking lessonn*/ {
 			"Name": "AbbyVideoGamesSeenClintMetal",
 			"Value": "{{i18n:event-31032033.10}}",
 			"When": {
 				"HasSeenEvent |contains=31032024": "false"
 			}
 		},
-		/*CT dialog for Clint if you have seen Clint Metalworking*/ {
+		/*CT dialog for Clint - have seen Clint Metalworking*/ {
 			"Name": "AbbyVideoGamesClintCT",
 			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Clint_YesMetalwork}}",
 			"When": {
 				"HasSeenEvent |contains=31032024": "true"
 			}
 		},
-		/*CT dialog for Clint if you have not seen Clint Metalworking*/ {
+		/*CT dialog for Clint - have not seen Clint Metalworking*/ {
 			"Name": "AbbyVideoGamesClintCT",
 			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Clint_NoMetalwork}}",
 			"When": {
 				"HasSeenEvent |contains=31032024": "false"
 			}
 		},
-		/*CT dialog for Caroline if you have seen at least 1 Abby lesson*/ {
+		/*CT dialog for Caroline - have seen at least 1 Abby lesson*/ {
 			"Name": "AbbyVideoGamesCarolineCT",
 			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Caroline_YesAbby}}",
 			"When": {
 				"HasSeenEvent |contains=31032033, 31032027, 31032037": "true"
 			}
 		},
-		/*CT dialog for Caroline if you have not seen an Abby lesson*/ {
+		/*CT dialog for Caroline - have not seen an Abby lesson*/ {
 			"Name": "AbbyVideoGamesCarolineCT",
 			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Caroline_NoAbby}}",
 			"When": {
 				"HasSeenEvent |contains=31032033, 31032027, 31032037": "false"
 			}
 		},
-		/*CT dialog for Pierre if you have seen at least 1 Abby lesson*/ {
+		/*CT dialog for Pierre - have seen at least 1 Abby lesson*/ {
 			"Name": "AbbyVideoGamesPierreCT",
 			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Pierre_YesAbby}}",
 			"When": {
 				"HasSeenEvent |contains=31032033, 31032027, 31032037": "true"
 			}
 		},
-		/*CT dialog for Pierre if you have not seen an Abby lesson*/ {
+		/*CT dialog for Pierre - have not seen an Abby lesson*/ {
 			"Name": "AbbyVideoGamesPierreCT",
 			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Pierre_NoAbby}}",
 			"When": {
 				"HasSeenEvent |contains=31032033, 31032027, 31032037": "false"
 			}
 		},
-		/*CT dialog for Sam if you have seen Sam Music*/ {
+		/*CT dialog for Sam - have seen Sam Music*/ {
 			"Name": "AbbyVideoGamesSamCT",
 			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Sam_YesMusic}}",
 			"When": {
 				"HasSeenEvent |contains=31032035": "true"
 			}
 		},
-		/*CT dialog for Sam if you have not seen Sam Music*/ {
+		/*CT dialog for Sam - have not seen Sam Music*/ {
 			"Name": "AbbyVideoGamesSamCT",
 			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Sam_NoMusic}}",
 			"When": {
 				"HasSeenEvent |contains=31032035": "false"
 			}
 		},
-		/*CT dialog for Sebastian if you have seen Sebastian Programming Basics and at least 1 Abby lesson*/ {
+		/*CT dialog for Sebastian - have seen Sebastian Programming Basics and at least 1 Abby lesson*/ {
 			"Name": "AbbyVideoGamesSebastianCT",
 			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Sebastian_YesProgramYesAbby}}",
 			"When": {
@@ -1049,7 +1049,7 @@
 				"HasSeenEvent |contains=31032033, 31032027, 31032037": "true",
 			}
 		},
-		/*CT dialog for Sebastian if you have seen Sebastian Programming Basics and no Abby lesson*/ {
+		/*CT dialog for Sebastian - have seen Sebastian Programming Basics and no Abby lesson*/ {
 			"Name": "AbbyVideoGamesSebastianCT",
 			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Sebastian_YesProgramNoAbby}}",
 			"When": {
@@ -1057,7 +1057,7 @@
 				"HasSeenEvent |contains=31032033, 31032027, 31032037": "false",
 			}
 		},
-		/*CT dialog for Sebastian if you have not seen Sebastian Programming Basics and have seen at least 1 Abby lesson*/ {
+		/*CT dialog for Sebastian - have not seen Sebastian Programming Basics and have seen at least 1 Abby lesson*/ {
 			"Name": "AbbyVideoGamesSebastianCT",
 			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Sebastian_NoProgramYesAbby}}",
 			"When": {
@@ -1065,7 +1065,7 @@
 				"HasSeenEvent |contains=31032033, 31032027, 31032037": "true",
 			}
 		},
-		/*CT dialog for Sebastian if you have not seen Sebastian Programming Basics and no Abby lesson*/ {
+		/*CT dialog for Sebastian - have not seen Sebastian Programming Basics and no Abby lesson*/ {
 			"Name": "AbbyVideoGamesSebastianCT",
 			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Sebastian_NoProgramNoAbby}}",
 			"When": {
@@ -1172,49 +1172,49 @@
 				"Season": "Winter"
 			}
 		},
-		/*CT dialog for Sam if you have seen Shane Animal Care*/ {
+		/*CT dialog for Sam - have seen Shane Animal Care*/ {
 			"Name": "SamMusicSamCT",
 			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Sam_YesAnimalCare}}",
 			"When": {
 				"HasSeenEvent |contains=31032036": "true"
 			}
 		},
-		/*CT dialog for Sam if you have not seen Shane Animal Care*/ {
+		/*CT dialog for Sam - have not seen Shane Animal Care*/ {
 			"Name": "SamMusicSamCT",
 			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Sam_NoAnimalCare}}",
 			"When": {
 				"HasSeenEvent |contains=31032036": "false"
 			}
 		},
-		/*CT dialog for Shane if you have seen Shane Animal Care*/ {
+		/*CT dialog for Shane - have seen Shane Animal Care*/ {
 			"Name": "SamMusicShaneCT",
 			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Shane_YesAnimalCare}}",
 			"When": {
 				"HasSeenEvent |contains=31032036": "true"
 			}
 		},
-		/*CT dialog for Shane if you have not seen Shane Animal Care*/ {
+		/*CT dialog for Shane - have not seen Shane Animal Care*/ {
 			"Name": "SamMusicShaneCT",
 			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Shane_NoAnimalCare}}",
 			"When": {
 				"HasSeenEvent |contains=31032036": "false"
 			}
 		},
-		/*CT dialog for Abigail if you have seen Abigail Video Games*/ {
+		/*CT dialog for Abigail - have seen Abigail Video Games*/ {
 			"Name": "SamMusicAbigailCT",
 			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Abigail_YesVG}}",
 			"When": {
 				"HasSeenEvent |contains=31032033": "true"
 			}
 		},
-		/*CT dialog for Abigail if you have not seen Abigail Video Games*/ {
+		/*CT dialog for Abigail - have not seen Abigail Video Games*/ {
 			"Name": "SamMusicAbigailCT",
 			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Abigail_NoVG}}",
 			"When": {
 				"HasSeenEvent |contains=31032033": "false"
 			}
 		},
-		/*CT dialog for Sebastian if you have seen Sebastian Programming Basics and seen Abigail Video Games*/ {
+		/*CT dialog for Sebastian - have seen Sebastian Programming Basics and seen Abigail Video Games*/ {
 			"Name": "SamMusicSebastianCT",
 			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Sebastian_YesProgramYesVG}}",
 			"When": {
@@ -1222,7 +1222,7 @@
 				"HasSeenEvent |contains=31032033": "true"
 			}
 		},
-		/*CT dialog for Sebastian if you have seen Sebastian Programming Basics and have not seen Abigail Video Games*/ {
+		/*CT dialog for Sebastian - have seen Sebastian Programming Basics and have not seen Abigail Video Games*/ {
 			"Name": "SamMusicSebastianCT",
 			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Sebastian_YesProgramNoVG}}",
 			"When": {
@@ -1230,7 +1230,7 @@
 				"HasSeenEvent |contains=31032033": "false"
 			}
 		},
-		/*CT dialog for Sebastian if you have seen Abigail Video Games and have not seen Sebastian Programming Basics*/ {
+		/*CT dialog for Sebastian - have seen Abigail Video Games and have not seen Sebastian Programming Basics*/ {
 			"Name": "SamMusicSebastianCT",
 			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Sebastian_NoProgramYesVG}}",
 			"When": {
@@ -1238,7 +1238,7 @@
 				"HasSeenEvent |contains=31032033": "true"
 			}
 		},
-		/*CT dialog for Sebastian if you have not seen Sebastian Programming Basics and have not seen Abigail Video Games*/ {
+		/*CT dialog for Sebastian - have not seen Sebastian Programming Basics and have not seen Abigail Video Games*/ {
 			"Name": "SamMusicSebastianCT",
 			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Sebastian_NoProgramNoVG}}",
 			"When": {
@@ -1246,21 +1246,21 @@
 				"HasSeenEvent |contains=31032033": "false"
 			}
 		},
-		/*CT dialog for Marnie if you have seen Shane Animal Care*/ {
+		/*CT dialog for Marnie - have seen Shane Animal Care*/ {
 			"Name": "SamMusicMarnieCT",
 			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Marnie_YesAnimalCare}}",
 			"When": {
 				"HasSeenEvent |contains=31032036": "true"
 			}
 		},
-		/*CT dialog for Marnie if you have not seen Shane Animal Care*/ {
+		/*CT dialog for Marnie - have not seen Shane Animal Care*/ {
 			"Name": "SamMusicMarnieCT",
 			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Marnie_NoAnimalCare}}",
 			"When": {
 				"HasSeenEvent |contains=31032036": "false"
 			}
 		},
-		/*CT dialog for Penny if you have seen Maru Electronics and seen Demetrius Botany*/ {
+		/*CT dialog for Penny - have seen Maru Electronics and seen Demetrius Botany*/ {
 			"Name": "SamMusicPennyCT",
 			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Penny_{{Random: YesElectronics %% YesBotany |inputSeparator=%%}}}}",
 			"When": {
@@ -1268,7 +1268,7 @@
 				"HasSeenEvent |contains=31032033": "true"
 			}
 		},
-		/*CT dialog for Penny if you have seen Maru Electronics and have not seen Demetrius Botany*/ {
+		/*CT dialog for Penny - have seen Maru Electronics and have not seen Demetrius Botany*/ {
 			"Name": "SamMusicPennyCT",
 			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Penny_YesElectronics}}",
 			"When": {
@@ -1276,7 +1276,7 @@
 				"HasSeenEvent |contains=31032033": "false"
 			}
 		},
-		/*CT dialog for Penny if you have seen Demetrius Botany and have not seen Maru Electronics*/ {
+		/*CT dialog for Penny - have seen Demetrius Botany and have not seen Maru Electronics*/ {
 			"Name": "SamMusicPennyCT",
 			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Penny_YesBotany}}",
 			"When": {
@@ -1284,7 +1284,7 @@
 				"HasSeenEvent |contains=31032033": "true"
 			}
 		},
-		/*CT dialog for Penny if you have not seen Maru Electronics and have not seen Demetrius Botany*/ {
+		/*CT dialog for Penny - have not seen Maru Electronics and have not seen Demetrius Botany*/ {
 			"Name": "SamMusicPennyCT",
 			"Value": "{{ItTakesAVillage_SamMusicCT_Penny_NeitherElectronicsNorBotany}}",
 			"When": {
@@ -1293,42 +1293,42 @@
 			}
 		},
 		// Tokens for Shane Animal Care
-		/*Event dialog, less than 3 hearts with Shane*/ {
+		/*Event dialog - less than 3 hearts with Shane*/ {
 			"Name": "ShaneAnimalCareFirstLine",
 			"Value": "{{i18n:event-31032036.03}}",
 			"When": {
 				"Hearts: Shane": "0, 1, 2"
 			}
 		},
-		/*Event dialog, 3 or more hearts with Shane*/ {
+		/*Event dialog - 3 or more hearts with Shane*/ {
 			"Name": "ShaneAnimalCareFirstLine",
 			"Value": "{{i18n:event-31032036.02}}",
 			"When": {
 				"Hearts: Shane": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
 			}
 		},
-		/*Event dialog, saw Sam music*/ {
+		/*Event dialog - saw Sam music*/ {
 			"Name": "ShaneAnimalCareSeenSamMusic",
 			"Value": "speak Vincent \"{{i18n:event-31032036.09}}\"/emote Jas 40/speak Shane \"{{i18n:event-31032036.10}}\"/emote Vincent 32/speak Shane \"{{i18n:event-31032036.11}}\"/speak Shane \"{{i18n:event-31032036.12}}\"",
 			"When": {
 				"HasSeenEvent |contains=31032035": "true"
 			}
 		},
-		/*Event dialog, have not seen Sam music*/ {
+		/*Event dialog - have not seen Sam music*/ {
 			"Name": "ShaneAnimalCareSeenSamMusic",
 			"Value": "speak Shane \"{{i18n:event-31032036.12}}\"",
 			"When": {
 				"HasSeenEvent |contains=31032035": "false"
 			}
 		},
-		/*Include blue chickens if you saw Shane's 8 heart event*/ {
+		/*Include blue chickens - saw Shane's 8 heart event*/ {
 			"Name": "ShaneAnimalChickenPlacementToken",
 			"Value": "addTemporaryActor White_Chicken 16 16 8 5 2 false Animal chicken1/addTemporaryActor Brown_Chicken 16 16 8 10 3 false Animal chicken2/addTemporaryActor Brown_Chicken 16 16 7 8 1 false Animal chicken3/addTemporaryActor Blue_Chicken 16 16 14 11 3 false Animal chicken4/addTemporaryActor Blue_Chicken 16 16 9 11 2 false Animal chicken5",
 			"When": {
 				"HasSeenEvent |contains=3900074": "true"
 			}
 		},
-		/*Only white and brown chickens if you haven't seen Shane's 8 heart event*/ {
+		/*Only white and brown chickens - haven't seen Shane's 8 heart event*/ {
 			"Name": "ShaneAnimalChickenPlacementToken",
 			"Value": "addTemporaryActor White_Chicken 16 16 8 5 2 false Animal chicken1/addTemporaryActor Brown_Chicken 16 16 8 10 3 false Animal chicken2/addTemporaryActor Brown_Chicken 16 16 7 8 1 false Animal chicken3/addTemporaryActor White_Chicken 16 16 14 11 3 false Animal chicken4/addTemporaryActor Brown_Chicken 16 16 9 11 2 false Animal chicken5",
 			"When": {
@@ -1343,14 +1343,14 @@
 			"Name": "ShaneAnimalCareBug",
 			"Value": "jump Jas 8/jump Vincent 8/jump farmer 4/jump Penny 4/speak Shane \"{{i18n:event-31032036.26}}\"/emote BlossomDuck 32/emote Jas 20 true/emote Vincent 20 true/emote Penny 32 true/emote Shane 32 true/emote farmer 32 true"
 		},
-		/*Event dialog if you have seen Demetrius Botany*/ {
+		/*Event dialog - have seen Demetrius Botany*/ {
 			"Name": "ShaneAnimalCareEnd",
 			"Value": "{{Random: {{ShaneAnimalCareCrow}} %% {{ShaneAnimalCareBug}} %% {{ShaneAnimalCareBug}} %% {{ShaneAnimalCareBug}} %% {{ShaneAnimalCareBug}} %% {{ShaneAnimalCareBug}} %% {{ShaneAnimalCareBug}} %% {{ShaneAnimalCareBug}} %% {{ShaneAnimalCareBug}} %% {{ShaneAnimalCareBug}} |key=monster |inputSeparator=%%}}",
 			"When": {
 				"HasSeenEvent |contains=31032029": "true"
 			}
 		},
-		/*Event dialog if you have not seen Demetrius Botany*/ {
+		/*Event dialog - have not seen Demetrius Botany*/ {
 			"Name": "ShaneAnimalCareEnd",
 			"Value": "jump Jas 8/jump Vincent 8/jump farmer 4/jump Penny 4/speak Shane \"{{i18n:event-31032036.26}}\"/emote BlossomDuck 32/emote Jas 20 true/emote Vincent 20 true/emote Penny 32 true/emote Shane 32 true/emote farmer 32 true",
 			"When": {
@@ -1417,70 +1417,70 @@
 				"HasSeenEvent |contains=3910975": "false"
 			}
 		},
-		/*CT dialog for Jas if you have seen Demetrius Botany*/ {
+		/*CT dialog for Jas - have seen Demetrius Botany*/ {
 			"Name": "ShaneAnimalCareJasCT",
 			"Value": "{{Random: {{i18n:ItTakesAVillage_ShaneAnimalCareCT_JasYesCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jas_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jas_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jas_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jas_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jas_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jas_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jas_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jas_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jas_NoCrow}} |key=monster |inputSeparator=%%}}",
 			"When": {
 				"HasSeenEvent |contains=31032029": "true"
 			}
 		},
-		/*CT dialog for Jas if you have not seen Demetrius Botany*/ {
+		/*CT dialog for Jas - have not seen Demetrius Botany*/ {
 			"Name": "ShaneAnimalCareJasCT",
 			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jas_NoCrow}}",
 			"When": {
 				"HasSeenEvent |contains=31032029": "false"
 			}
 		},
-		/*CT dialog for Vincent if you have seen Demetrius Botany*/ {
+		/*CT dialog for Vincent - have seen Demetrius Botany*/ {
 			"Name": "ShaneAnimalCareVincentCT",
 			"Value": "{{Random: {{i18n:ItTakesAVillage_ShaneAnimalCareCT_VincentYesCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Vincent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Vincent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Vincent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Vincent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Vincent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Vincent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Vincent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Vincent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Vincent_NoCrow}} |key=monster |inputSeparator=%%}}",
 			"When": {
 				"HasSeenEvent |contains=31032029": "true"
 			}
 		},
-		/*CT dialog for Vincent if you have not seen Demetrius Botany*/ {
+		/*CT dialog for Vincent - have not seen Demetrius Botany*/ {
 			"Name": "ShaneAnimalCareVincentCT",
 			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Vincent_NoCrow}}",
 			"When": {
 				"HasSeenEvent |contains=31032029": "false"
 			}
 		},
-		/*CT dialog for Jodi if you have seen Demetrius Botany*/ {
+		/*CT dialog for Jodi - have seen Demetrius Botany*/ {
 			"Name": "ShaneAnimalCareJodiCT",
 			"Value": "{{Random: {{i18n:ItTakesAVillage_ShaneAnimalCareCT_JodiYesCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jodi_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jodi_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jodi_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jodi_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jodi_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jodi_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jodi_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jodi_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jodi_NoCrow}} |key=monster |inputSeparator=%%}}",
 			"When": {
 				"HasSeenEvent |contains=31032029": "true"
 			}
 		},
-		/*CT dialog for Jodi if you have not seen Demetrius Botany*/ {
+		/*CT dialog for Jodi - have not seen Demetrius Botany*/ {
 			"Name": "ShaneAnimalCareJodiCT",
 			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jodi_NoCrow}}",
 			"When": {
 				"HasSeenEvent |contains=31032029": "false"
 			}
 		},
-		/*CT dialog for Kent if you have seen Demetrius Botany*/ {
+		/*CT dialog for Kent - have seen Demetrius Botany*/ {
 			"Name": "ShaneAnimalCareKentCT",
 			"Value": "{{Random: {{i18n:ItTakesAVillage_ShaneAnimalCareCT_KentYesCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Kent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Kent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Kent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Kent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Kent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Kent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Kent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Kent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Kent_NoCrow}} |key=monster |inputSeparator=%%}}",
 			"When": {
 				"HasSeenEvent |contains=31032029": "true"
 			}
 		},
-		/*CT dialog for Kent if you have not seen Demetrius Botany*/ {
+		/*CT dialog for Kent - have not seen Demetrius Botany*/ {
 			"Name": "ShaneAnimalCareKentCT",
 			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Kent_NoCrow}}",
 			"When": {
 				"HasSeenEvent |contains=31032029": "false"
 			}
 		},
-		/*CT dialog for Penny if you have seen Demetrius Botany*/ {
+		/*CT dialog for Penny - have seen Demetrius Botany*/ {
 			"Name": "ShaneAnimalCarePennyCT",
 			"Value": "{{Random: {{i18n:ItTakesAVillage_ShaneAnimalCareCT_PennyYesCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow}} |key=monster |inputSeparator=%%}}",
 			"When": {
 				"HasSeenEvent |contains=31032029": "true"
 			}
 		},
-		/*CT dialog for Penny if you have not seen Demetrius Botany*/ {
+		/*CT dialog for Penny - have not seen Demetrius Botany*/ {
 			"Name": "ShaneAnimalCarePennyCT",
 			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow}}",
 			"When": {
