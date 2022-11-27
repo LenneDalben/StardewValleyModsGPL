@@ -861,7 +861,7 @@
 				"HasSeenEvent |contains=31032031": "false"
 			}
 		},
-		/*Evvent dialog - have seen either Alex PE or Gus Cooking*/ {
+		/*Event dialog - have seen either Alex PE or Gus Cooking*/ {
 			"Name": "HarveyAnatomyEating",
 			"Value": "speak Jas \"{{i18n:event-31032032.32}}\"/speak Harvey \"{{i18n:event-31032032.33}}\"/emote Penny 32 true/emote Maru 32 false/pause 500",
 			"When": {
