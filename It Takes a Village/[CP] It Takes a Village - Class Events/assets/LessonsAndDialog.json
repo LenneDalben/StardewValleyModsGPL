@@ -1,5 +1,5 @@
 {
-    "Changes": [ // 11710 words ()
+    "Changes": [ // 11412 words ()
         // don't forget to i18n as you go!
         // Thoughts on how to nest the dynamic dialog via dynamic tokens and i18n: some of the dialog for default.json is written here. Within the dynamic tokens, put the i18n tokens. Then in the patches for the CTs, put the dynamic token name. The actual dialog lines go in the default.json. That should work.
         // For the audience kids: obviously Vincent and Jas are always there, but what modded kids attend Penny's lessons? I think Eloise, but not sure if anyone else does (Keahi / Trinnie?). Need permissions to include them, and also the mod authors' opinion on how those kids would react to each lesson (enjoy, dislike, indifferent).
@@ -1041,8 +1041,6 @@
         }, // I'm grateful Emily spoke to the kids about mental health. It's important to de-stigmatize it.
         //
         // Harvey Anatomy - IN PROGRESS
-        // Jas' line about classes on eating healthy and Harvey's response will vary depending on whether you've seen either Gus cooking or Alex PE and Healthy Eating. Will need a token for seen either one, seen both, and seen neither (which can just go to the "let's continue where we left off")
-        // The part about it being a dance will have the additional stretching thing from Vincent if you saw Emily's dance lesson
         /*Event proper*/ {
             "LogName": "Harvey Anatomy Lesson",
             "Action": "EditData",
