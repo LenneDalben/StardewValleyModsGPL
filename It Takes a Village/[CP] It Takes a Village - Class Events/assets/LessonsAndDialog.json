@@ -1052,7 +1052,7 @@
                 "EmilyEmotionalDanceAndHarveyAnatomyToken": "HarveyAnatomyYes, HarveyAnatomyYesEmilyEmotionalDanceNo"
             }
         },
-        /*Harvey CT - dynamic dialog*/ {
+        /*Harvey CT*/ {
             "LogName": "Harvey Anatomy CT - Harvey",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Harvey",
@@ -1060,7 +1060,7 @@
                 "ItTakesAVillage_HarveyHealth": "{{HarveyAnatomyHarveyCT}}"
             }
         },
-        /*Emily CT - dynamic dialog*/ {
+        /*Emily CT*/ {
             "LogName": "Harvey Anatomy CT - Emily",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Emily",
