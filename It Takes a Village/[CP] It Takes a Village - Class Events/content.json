@@ -318,14 +318,14 @@
 		// Dynamic dialog for Haley & Leah Art
 		/*Event dialog, haven't seen Elliott Stories lesson*/ {
 			"Name": "HaleyLeahArtSeenElliottStories",
-			"Value": "{{i18n:ItTakesAVillage_HaleyLeahArtCT_Haley_NoStories}}",
+			"Value": "pause 200",
 			"When": {
 				"HasSeenEvent |contains=31032025": "false"
 			}
 		},
 		/*Event dialog, have seen Elliott Stories lesson*/ {
 			"Name": "HaleyLeahArtSeenElliottStories",
-			"Value": "{{i18n:ItTakesAVillage_HaleyLeahArtCT_Haley_YesStories}}",
+			"Value": "pause 200/speak Vincent \"{{i18n:event-31032026.31}}\"",
 			"When": {
 				"HasSeenEvent |contains=31032025": "true"
 			}
