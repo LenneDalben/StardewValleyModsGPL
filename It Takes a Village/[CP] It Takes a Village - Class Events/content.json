@@ -1357,6 +1357,20 @@
 				"HasSeenEvent |contains=31032029": "false"
 			}
 		},
+		/*Event dialog - have the CC component*/ {
+			"Name": "ShaneAnimalCareHaveCCVisitor",
+			"Value": "viewport -1000 -1000/message \"{{i18n:event-31032036.27}}\"",
+			"When": {
+				"HasMod |contains=LenneDalben.CCItTakesaVillageVisitor": "true"
+			}
+		},
+		/*Event dialog - do not have the CC component*/ {
+			"Name": "ShaneAnimalCareHaveCCVisitor",
+			"Value": "viewport -1000 -1000",
+			"When": {
+				"HasMod |contains=LenneDalben.CCItTakesaVillageVisitor": "false"
+			}
+		},
 		/*CT dialog for Shane, saw Sam Music*/ {
 			"Name": "ShaneAnimalCareShaneCT",
 			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Shane_YesMusic}}",
