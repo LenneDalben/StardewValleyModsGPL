@@ -1075,8 +1075,7 @@
             "Entries": {
                 "ItTakesAVillage_HarveyHealth": "{{i18n:ItTakesAVillage_HarveyHealthCT_Maru}}"
             }
-        }, // for Maru's CT: The kids were surprisingly excited / understandably uncomfortable about being at the doctor (maybe 1 can be excited and the other not? Kids ARE different)
-        // Airyn mentioned in doctor dialog Jas says she's not scared and asking what the tools do while Vincent is nervous and asks for a lollipop for being brave :pufferaww: WHAT A CUTE KID
+        },
         /*Jas CT*/ {
             "LogName": "Harvey Anatomy CT - Jas",
             "Action": "EditData",
