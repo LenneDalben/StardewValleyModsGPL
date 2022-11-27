@@ -846,6 +846,36 @@
 				"HasSeenEvent |contains=31032031": true,
 			}
 		},
+		// Tokens for Harvey Anatomy
+		/*Event dialog, saw Emily emotional health and dance*/ {
+			"Name": "HarveyAnatomySeenEmilyDance",
+			"Value": "speak Vincent \"{{i18n:event-31032032.18}}\"/emote Penny 32/speak Penny \"{{i18n:event-31032032.19}}\"",
+			"When": {
+				"HasSeenEvent |contains=31032031": "true"
+			}
+		},
+		/*Event dialog, have not seen Emily emotional health and dance*/ {
+			"Name": "HarveyAnatomySeenEmilyDance",
+			"Value": "emote Penny 32/speak Penny \"{{i18n:event-31032032.19}}\"",
+			"When": {
+				"HasSeenEvent |contains=31032031": "false"
+			}
+		},
+		/*Evvent dialog if you have seen either Alex PE or Gus Cooking*/ {
+			"Name": "HarveyAnatomyEating",
+			"Value": "speak Jas \"{{i18n:event-31032032.32}}\"/speak Harvey \"{{i18n:event-31032032.33}}\"/emote Penny 32 true/emote Maru 32 false/pause 500",
+			"When": {
+				"HasSeenEvent |contains=31032033, 31032027": "true"
+			}
+		},
+		/*Evvent dialog if you have not seen either Alex PE or Gus Cooking*/ {
+			"Name": "HarveyAnatomyEating",
+			"Value": "pause 500",
+			"When": {
+				"HasSeenEvent |contains=31032033": "false",
+				"HasSeenEvent |contains=31032027": "false"
+			}
+		},
 		// Clint Metalworking and Abigail Video Games
 		// HasSeenEvent tokens
 		/*haven't seen either event in the pair*/ {
@@ -973,28 +1003,28 @@
 			"Name": "AbbyVideoGamesCarolineCT",
 			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Caroline_YesAbby}}",
 			"When": {
-				"HasSeenEvent |contains=31032033, 31032027, 31032037": "true",
+				"HasSeenEvent |contains=31032033, 31032027, 31032037": "true"
 			}
 		},
 		/*CT dialog for Caroline if you have not seen an Abby lesson*/ {
 			"Name": "AbbyVideoGamesCarolineCT",
 			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Caroline_NoAbby}}",
 			"When": {
-				"HasSeenEvent |contains=31032033, 31032027, 31032037": "false",
+				"HasSeenEvent |contains=31032033, 31032027, 31032037": "false"
 			}
 		},
 		/*CT dialog for Pierre if you have seen at least 1 Abby lesson*/ {
 			"Name": "AbbyVideoGamesPierreCT",
 			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Pierre_YesAbby}}",
 			"When": {
-				"HasSeenEvent |contains=31032033, 31032027, 31032037": "true",
+				"HasSeenEvent |contains=31032033, 31032027, 31032037": "true"
 			}
 		},
 		/*CT dialog for Pierre if you have not seen an Abby lesson*/ {
 			"Name": "AbbyVideoGamesPierreCT",
 			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Pierre_NoAbby}}",
 			"When": {
-				"HasSeenEvent |contains=31032033, 31032027, 31032037": "false",
+				"HasSeenEvent |contains=31032033, 31032027, 31032037": "false"
 			}
 		},
 		/*CT dialog for Sam if you have seen Sam Music*/ {
