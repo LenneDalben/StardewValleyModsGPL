@@ -10,7 +10,7 @@
 			"AllowMultiple": false
 		},
 		"SkippableConfig": {
-			"Description": "Specify if you want the events in the series to be skippable (true, false). Default is true. Useful for repeat playthroughs if you want to pick and choose which events you see, or if you're worried about getting stuck during an event due to a mod that changes maps.",
+			"Description": "Specify if you want the events in the series to be skippable (true, false). Default is true. Useful if you're worried about getting stuck during an event due to a mod that changes maps.",
 			"AllowValues": "true, false",
 			"Default": "true",
 			"AllowBlank": false,
