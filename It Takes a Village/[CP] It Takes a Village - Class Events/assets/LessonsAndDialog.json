@@ -932,7 +932,7 @@
         // Emily Emotional Health and Dance INCOMPLETE
         // Emily explains sometimes feelings are really strong, and that you can dance party it to help. Emily dances. Can I get the kids to dance via position offset and avoid new sprites? :maruthinking:
         // Jas has a frame with her hands up frame 24. Can fiddle with position offsets to see if moving her back and forth makes her "dance". I got nothing for Vincent.
-        /*Event proper*/ {
+        /*Event proper*/ /*{
             "LogName": "Emily Emotional Health and Dance Lesson",
             "Action": "EditData",
             "Target": "Data/Events/SeedShop", // Aerobics club room!
@@ -942,7 +942,7 @@
             "When": {
                 "EmilyEmotionalDanceAndHarveyAnatomyToken": "EmilyEmotionalDanceYes, EmilyEmotionalDanceYesHarveyAnatomyNo"
             }
-        },
+        },*/
         /*Emily CT - dynamic dialog*/ {
             "LogName": "Emily Emotional Health and Dance CT - Emily",
             "Action": "EditData",
@@ -1041,7 +1041,7 @@
         }, // I'm grateful Emily spoke to the kids about mental health. It's important to de-stigmatize it.
         //
         // Harvey Anatomy - IN PROGRESS
-        /*Event proper*/ {
+        /*Event proper*/ /*{
             "LogName": "Harvey Anatomy Lesson",
             "Action": "EditData",
             "Target": "Data/Events/Hospital",
@@ -1051,7 +1051,7 @@
             "When": {
                 "EmilyEmotionalDanceAndHarveyAnatomyToken": "HarveyAnatomyYes, HarveyAnatomyYesEmilyEmotionalDanceNo"
             }
-        },
+        },*/
         /*Harvey CT*/ {
             "LogName": "Harvey Anatomy CT - Harvey",
             "Action": "EditData",
@@ -1175,7 +1175,7 @@
         // Will need to test if I can use the geode crushing animation or not. I can't remember if Clint has a hammering animation that's not smol, otherwise, we could have the kids standing in front of the anvil facing it, fade to black, clank sounds, sparkle sound, fade in. Airyn also recommended little production bubble pop up, maybe a little silver or copper star? Airyn offered sprites for these
         // "wow, Mr Clint, that's so cool!!! :LavrilLayWow: "
         // But Clint is just tight lipped and socially awkward like “um, sure. just is. Don't get too close, it's hot."
-        /*Event proper*/ {
+        /*Event proper*/ /*{
             "LogName": "Clint Metalworking Lesson",
             "Action": "EditData",
             "Target": "Data/Events/Blacksmith",
@@ -1185,7 +1185,7 @@
             "When": {
                 "ClintMetalworkAndAbbyGamesToken": "ClintMetalworkYes, ClintMetalworkYesAbbyGamesNo"
             }
-        },
+        },*/
         /*Clint CT - dynamic dialog*/ {
             "LogName": "Clint Metalworking CT - Clint",
             "Action": "EditData",
@@ -1599,7 +1599,7 @@
         // Oooh ahhh from the youths
         // something from the player depending on whether you have the recipe too. I wonder if there's something to check that, since it's an artifact (mail flag?)
         // Fade to black, fade in, the kids take turns striking it. Need to find the sound effects for the flute block, if it's usable.
-        /*Event proper*/ {
+        /*Event proper*/ /*{
             "LogName": "Robin Woodworking Lesson",
             "Action": "EditData",
             "Target": "Data/Events/ScienceHouse",
@@ -1609,7 +1609,7 @@
             "When": {
                 "RobinWoodworkAndAbbySelfDefenseToken": "RobinWoodworkYes, RobinWoodworkYesAbbySelfDefenseNo"
             }
-        },
+        },*/
         /*Robin CT - dynamic dialog*/ {
             "LogName": "Robin Woodworking CT - Robin",
             "Action": "EditData",
@@ -1719,7 +1719,7 @@
         // need cute verbal sound effects, kya
         // I am concerned we would need new sprites for this. Pretty sure none of them have anything that would pass for kicks or punches lol maybe could something with combination of jumping, running, and shaking
         // maybe in this one the player could have a show off moment, depending on their combat skill level! :unawow: Abigail could hand player "club" assuming we can spawn a weapon
-        /*Event proper*/ {
+        /*Event proper*/ /*{
             "LogName": "Abigail Self-Defense Lesson",
             "Action": "EditData",
             "Target": "Data/Events/SeedShop", // Aerobics club room!
@@ -1729,7 +1729,7 @@
             "When": {
                 "RobinWoodworkAndAbbySelfDefenseToken": "AbbySelfDefenseYes, AbbySelfDefenseYesRobinWoodworkNo"
             }
-        },
+        },*/
         /*Abigail CT - dynamic dialog*/ {
             "LogName": "Abigail Self-Defense CT - Abigail",
             "Action": "EditData",
@@ -1825,7 +1825,7 @@
         // Some different dialog (in the event or in CTs) about the crabs, if player has seen Willy's event 711130
         // Take screenie in winter!
         // Also, Kent has lots to say as a fishing fan!
-        /*Event proper*/ {
+        /*Event proper*/ /*{
             "LogName": "Willy & Linus Fishing Lesson",
             "Action": "EditData",
             "Target": "Data/Events/Beach",
@@ -1837,7 +1837,7 @@
                 "Weather |contains=Sun, Wind": "true"
             },
             "Update": "OnLocationChange"
-        },
+        },*/
         /*Willy CT - dynamic dialog*/ {
             "LogName": "Willy & Linus Fishing CT - Willy",
             "Action": "EditData",
@@ -1995,7 +1995,7 @@
         // could this include the kids getting a plant and then some concerns about the plants dying to foreshadow their disappearance o: Jodi and Shane be skeptical o.o
         // Evelyn rambling about "Alex used to mispronounce the name of  'X plant' and called it 'Y', my my, how the years go by" or something. Have it be set off by one of the kids making the same mispronounciation
         // Caroline can go "oh have you heard the story of how Abigail ate dirt on a dare?" and the kids go "EWW". Caroline is fondly exasperated about it. And maybe that's Penny's cue to step in lol
-        /*Event proper*/ {
+        /*Event proper*/ /*{
             "LogName": "Caroline & Evelyn Gardening Lesson",
             "Action": "EditData",
             "Target": "Data/Events/SeedShop", // start in Pierre's shop, move to the sunroom, literally Sunroom, requirement of HasSeenEvent 719926, the event in the Sunroom
@@ -2005,7 +2005,7 @@
             "When": {
                 "WillyLinusFishingAndCarolineEvelynGardeningToken": "CarolineEvelynGardeningYes, CarolineEvelynGardeningYesWillyLinusFishingNo"
             }
-        },
+        },*/
         /*Caroline CT - dynamic dialog*/ {
             "LogName": "Caroline & Evelyn Gardening CT - Caroline",
             "Action": "EditData",
@@ -2136,7 +2136,7 @@
         }, // Caroline's sunroom is private, so I feel honored she was willing to share it with us.
         //
         // Lesson wrap up! - IN PROGRESS
-        /*Event proper*/ {
+        /*Event proper*/ /*{
             "LogName": "Lesson wrap up",
             "Action": "EditData",
             "Target": "Data/Events/Saloon",
@@ -2154,7 +2154,7 @@
                 "RobinWoodworkAndAbbySelfDefenseToken": "RobinWoodworkAndAbbySelfDefenseDone",
                 "WillyLinusFishingAndCarolineEvelynGardeningToken": "WillyLinusFishingAndCarolineEvelynGardeningDone"
             }
-        },
+        },*/
         /*Jodi CT*/ {
             "LogName": "Lesson wrap up CT - Jodi",
             "Action": "EditData",
