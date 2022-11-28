@@ -97,7 +97,10 @@
 			"Name": "LoadBlacksmithToken",
 			"Value": "true",
 			"When": {
-				"LoadBlacksmithConfig": "true"
+				"LoadBlacksmithConfig": "true",
+				"HasMod |contains=foggy.LfL": false,
+				"HasMod |contains=ClintMarriageMod": false,
+				"HasMod |contains=Arknir.Lucikiel": false
 			}
 		},
 		// Tokens for HasSeenEvent: the events themselves check for the value of this token. For example, the Alex PE lesson checks AlexPEAndGusCookingToken value for either AlexPEYes or GusCookingYesAlexPENo in order to play the Alex PE lesson.
