@@ -28,7 +28,7 @@ Config Options
 
 * Minimum Days Between Lessons: After kicking off the lessons, at least 7 days must pass between the lessons by default. That's how long you have to talk to the villagers after each lesson to hear their thoughts. This also means it'd take at least 20 weeks in-game to see all the lessons and the wrap up event. If you'd like to reduce the time between lessons to see them faster, or increase the time to spread out the lessons even more, you can! You can select a number between 1 day and 28 days for minimum days between lessons.
 
-* Skippable Config: Specify if you want the events in the series to be skippable (true, false). Default is true. Useful for repeat playthroughs if you want to pick and choose which events you see, or if you're worried about getting stuck during an event due to a mod that changes maps.
+* Skippable Config: Specify if you want the events in the series to be skippable (true, false). Default is true. Useful if you're worried about getting stuck during an event due to a mod that changes maps.
 
 * Portrait and Sprite Overlay Goggle Config: Specify if you want the Maru electronics lesson to include a portrait and sprite goggle overlay as a fun feature (true, false). Default is true. The overlays were designed for vanilla and Diverse Stardew (DSV), and will work for Seasonal Outfits - Slightly Cuter Aesthetic. If you use any other portrait or sprite mod that affect Maru, Jas, and/or Vincent, you may want to set this to false for immersion.
 
@@ -77,8 +77,8 @@ I would like to include the kids from Ridgeside Village (RSV) and East Scarp (ES
 
 <a href ="https://www.nexusmods.com/stardewvalley/users/108124018?tab=user+files">Hime / Himetarts</a>, for letting me poke at Sterling's excellent draft event code
 
-<a href="https://www.nexusmods.com/stardewvalley/users/68088657?tab=user+files">Lemurkat</a>, for helping me troubleshoot.
+<a href="https://www.nexusmods.com/stardewvalley/users/68088657?tab=user+files">Lemurkat</a>, for helping me troubleshoot
 
-<a href="https://www.nexusmods.com/stardewvalley/users/92060238?tab=user+files">Taiyo</a> and <a href ="https://www.nexusmods.com/stardewvalley/users/112768378?tab=user+files">tiakall</a>, for some art feedback sprites I drew.
+<a href="https://www.nexusmods.com/stardewvalley/users/92060238?tab=user+files">Taiyo</a> and <a href ="https://www.nexusmods.com/stardewvalley/users/112768378?tab=user+files">tiakall</a>, for some art feedback sprites I drew
 
-<a href="https://www.nexusmods.com/stardewvalley/users/1552317?tab=user+files">Pathoschild</a>, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible.
+<a href="https://www.nexusmods.com/stardewvalley/users/1552317?tab=user+files">Pathoschild</a>, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible
