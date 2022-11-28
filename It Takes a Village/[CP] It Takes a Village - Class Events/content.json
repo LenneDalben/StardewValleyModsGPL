@@ -1314,7 +1314,7 @@
 		},
 		/*CT dialog for Penny - have not seen Maru Electronics and have not seen Demetrius Botany*/ {
 			"Name": "SamMusicPennyCT",
-			"Value": "{{ItTakesAVillage_SamMusicCT_Penny_NeitherElectronicsNorBotany}}",
+			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Penny_NeitherElectronicsNorBotany}}",
 			"When": {
 				"HasSeenEvent |contains=31032028": "false",
 				"HasSeenEvent |contains=31032033": "false"
