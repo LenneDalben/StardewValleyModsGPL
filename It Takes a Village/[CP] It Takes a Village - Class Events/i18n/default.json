@@ -39,11 +39,11 @@
   "config.SkippableConfig.values.true": "true",
   "config.SkippableConfig.values.false": "false",
   //
-  // Portrait and Sprite Overlay Config
-  "config.PortraitandSpriteOverlayConfig.name": "PortraitandSpriteOverlayConfig",
-  "config.PortraitandSpriteOverlayConfig.description": "Specify if you want the Maru electronics lesson to include a portrait and sprite overlay as a fun feature (true, false). Default is true. The overlays were designed for vanilla and the Diverse Stardew (DSV) mod. If you use any other portrait or sprite mod that affect Maru, Jas, and/or Vincent, you may want to set this to false for immersion.",
-  "config.PortraitandSpriteOverlayConfig.values.true": "true",
-  "config.PortraitandSpriteOverlayConfig.values.false": "false",
+  // Portrait and Sprite Overlay Goggle Config
+  "config.PortraitandSpriteOverlayGoggleConfig.name": "PortraitandSpriteOverlayGoggleConfig",
+  "config.PortraitandSpriteOverlayGoggleConfig.description": "Specify if you want the Maru electronics lesson to include a portrait and sprite goggle overlay as a fun feature (true, false). Default is true. The overlays were designed for vanilla and the Diverse Stardew (DSV) mod. If you use any other portrait or sprite mod that affect Maru, Jas, and/or Vincent, you may want to set this to false for immersion.",
+  "config.PortraitandSpriteOverlayGoggleConfig.values.true": "true",
+  "config.PortraitandSpriteOverlayGoggleConfig.values.false": "false",
   //
   // Load Blacksmith
   "config.LoadBlacksmithConfig.name": "LoadBlacksmithConfig",

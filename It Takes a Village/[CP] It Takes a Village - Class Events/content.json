@@ -10,28 +10,28 @@
 			"AllowMultiple": false
 		},
 		"SkippableConfig": {
-			"Description": "Specify - want the events in the series to be skippable (true, false). Default is true. Useful for repeat playthroughs - want to pick and choose which events you see, or -'re worried about getting stuck during an event due to a mod that changes maps.",
+			"Description": "Specify if you want the events in the series to be skippable (true, false). Default is true. Useful for repeat playthroughs if you want to pick and choose which events you see, or if you're worried about getting stuck during an event due to a mod that changes maps.",
 			"AllowValues": "true, false",
 			"Default": "true",
 			"AllowBlank": false,
 			"AllowMultiple": false
 		},
-		"PortraitandSpriteOverlayConfig": {
-			"Description": "Specify - want the Maru electronics lesson to include a portrait and sprite overlay as a fun feature (true, false). Default is true. The overlays were designed for vanilla and Diverse Stardew (DSV), and will work for Seasonal Outfits - Slightly Cuter Aesthetic. - use any other portrait or sprite mod that affect Maru, Jas, and/or Vincent, you may want to set this to false for immersion.",
+		"PortraitandSpriteOverlayGoggleConfig": {
+			"Description": "Specify if you want the Maru electronics lesson to include a portrait and sprite goggle overlay as a fun feature (true, false). Default is true. The overlays were designed for vanilla and Diverse Stardew (DSV), and will work for Seasonal Outfits - Slightly Cuter Aesthetic. If you use any other portrait or sprite mod that affect Maru, Jas, and/or Vincent, you may want to set this to false for immersion.",
 			"AllowValues": "true, false",
 			"Default": "true",
 			"AllowBlank": false,
 			"AllowMultiple": false
 		},
 		"LoadBlacksmithConfig": {
-			"Description": "Set this to false - have a mod that adds events to the Blacksmith shop besides Clint Marriage Mod, Looking for Love, or Lucikiel. ITAV automatically detects Clint Marriage Mod, Looking for Love, and Lucikiel so adjusting this setting is not needed for those mods. Default is true.",
+			"Description": "Set this to false if you have a mod that adds events to the Blacksmith shop besides Clint Marriage Mod, Looking for Love, or Lucikiel. ITAV automatically detects Clint Marriage Mod, Looking for Love, and Lucikiel so adjusting this setting is not needed for those mods. Default is true.",
 			"AllowValues": "true, false",
 			"Default": "true",
 			"AllowBlank": false,
 			"AllowMultiple": false
 		},
 		"EditPenny8HeartEvent": {
-			"Description": "The first question in Penny's 8 heart event is tweaked to include a reference to the lessons. This edit is compatible with atravita's Penny 8 Heart Event Adjusted, Hanatsuki's Gender Neutrality Mod and Hanatsuki's and Fix Dialog Differences. Set this to false - have another mod that edits Penny's 8 heart event. Default is true.",
+			"Description": "The first question in Penny's 8 heart event is tweaked to include a reference to the lessons. This edit is compatible with atravita's Penny 8 Heart Event Adjusted, Hanatsuki's Gender Neutrality Mod and Hanatsuki's and Fix Dialog Differences. Set this to false if you have another mod that edits Penny's 8 heart event. Default is true.",
 			"AllowValues": "true, false",
 			"Default": "true",
 			"AllowBlank": false,
@@ -568,14 +568,14 @@
 			"Name": "MaruElectronicsGoggles",
 			"Value": "speak Maru \"{{i18n:event-31032030.04}}\"/pause 50/faceDirection Jas 2 true/faceDirection Vincent 2 false/pause 1000/move Jas 0 -1 1 true/move Vincent 0 -1 3 false/pause 500/speak Vincent \"{{i18n:event-31032030.05}}\"/speak Maru \"{{i18n:event-31032030.06}}\"/emote Penny 32/speak Maru \"{{i18n:event-31032030.07}}\"",
 			"When": {
-				"PortraitandSpriteOverlayConfig": "true"
+				"PortraitandSpriteOverlayGoggleConfig": "true"
 			}
 		},
 		/*No goggle moment based on config*/ {
 			"Name": "MaruElectronicsGoggles",
 			"Value": "speak Maru \"{{i18n:event-31032030.07}}\"",
 			"When": {
-				"PortraitandSpriteOverlayConfig": "false"
+				"PortraitandSpriteOverlayGoggleConfig": "false"
 			}
 		},
 		/*CT dialog for Maru - have seen Demetrius Botany*/ {
@@ -1755,7 +1755,7 @@
 				"MaruElectronicsAndDemetriusBotanyToken": "MaruElectronicsYes, MaruElectronicsYesDemetriusBotanyNo",
 				"HasConversationTopic |contains= ItTakesAVillage_Beginning, ItTakesAVillage_AlexPE, ItTakesAVillage_GusCooking, ItTakesAVillage_ElliottStories, ItTakesAVillage_HaleyLeahArt, ItTakesAVillage_AbbyEcon, ItTakesAVillage_SebProgram, ItTakesAVillage_DemetriusBotany, ItTakesAVillage_EmilyDance, ItTakesAVillage_HarveyHealth, ItTakesAVillage_AbigailVideoGames, ItTakesAVillage_ClintMetalworking, ItTakesAVillage_SamMusic, ItTakesAVillage_ShaneAnimalCare, ItTakesAVillage_AbigailSelfDefense, ItTakesAVillage_RobinWoodworking, ItTakesAVillage_WillyLinusFishing, ItTakesAVillage_CarolineEvelynGardening": false,
 				"LocationName |contains= ScienceHouse, temp": true,
-				"PortraitandSpriteOverlayConfig": true
+				"PortraitandSpriteOverlayGoggleConfig": true
 			},
 			"Update": "OnLocationChange"
 		},
