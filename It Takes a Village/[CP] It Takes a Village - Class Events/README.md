@@ -79,6 +79,6 @@ I would like to include the kids from Ridgeside Village (RSV) and East Scarp (ES
 
 <a href="https://www.nexusmods.com/stardewvalley/users/68088657?tab=user+files">Lemurkat</a>, for helping me troubleshoot.
 
-<a href="https://www.nexusmods.com/stardewvalley/users/92060238?tab=user+files">Taiyo</a> and <a href ="https://www.nexusmods.com/stardewvalley/users/112768378?tab=user+files">tiakall</a>, for some art feedback on the one sprite I drew.
+<a href="https://www.nexusmods.com/stardewvalley/users/92060238?tab=user+files">Taiyo</a> and <a href ="https://www.nexusmods.com/stardewvalley/users/112768378?tab=user+files">tiakall</a>, for some art feedback sprites I drew.
 
 <a href="https://www.nexusmods.com/stardewvalley/users/1552317?tab=user+files">Pathoschild</a>, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible.
