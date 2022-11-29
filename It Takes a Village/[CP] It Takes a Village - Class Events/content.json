@@ -1,4 +1,4 @@
-{ // 7158 words ()
+{ // 7269 words ()
 	// QUESTION: should one of the random values have them stay as "no", as part of spacing them out? Or is it ok to have them all roll yes and whichever you get to first, so be it? Will need to play test to be sure.
 	"Format": "1.21.0",
 	"ConfigSchema": {
