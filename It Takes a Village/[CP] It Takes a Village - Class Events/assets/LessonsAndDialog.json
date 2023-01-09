@@ -1040,8 +1040,8 @@
             }
         }, // I'm grateful Emily spoke to the kids about mental health. It's important to de-stigmatize it.
         //
-        // Harvey Anatomy - IN PROGRESS
-        /*Event proper*/ /*{
+        // Harvey Anatomy - Done!
+        /*Event proper*/ {
             "LogName": "Harvey Anatomy Lesson",
             "Action": "EditData",
             "Target": "Data/Events/Hospital",
@@ -1051,7 +1051,7 @@
             "When": {
                 "EmilyEmotionalDanceAndHarveyAnatomyToken": "HarveyAnatomyYes, HarveyAnatomyYesEmilyEmotionalDanceNo"
             }
-        },*/
+        },
         /*Harvey CT*/ {
             "LogName": "Harvey Anatomy CT - Harvey",
             "Action": "EditData",
