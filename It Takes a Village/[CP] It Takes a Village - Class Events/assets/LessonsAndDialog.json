@@ -1617,7 +1617,7 @@
             "Entries": {
                 "ItTakesAVillage_RobinWoodworking": "{{i18n:ItTakesAVillage_RobinWoodworkingCT_Robin}}"
             }
-        },
+        }, // Vary depending on whether the kids saw the metalworking lesson 
         /*Abigail CT - dynamic dialog*/ {
             "LogName": "Robin Woodworking CT - Abigail",
             "Action": "EditData",
