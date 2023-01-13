@@ -24,7 +24,7 @@
 			"AllowMultiple": false
 		},
 		"LoadBlacksmithConfig": {
-			"Description": "Set this to false if you have a mod that adds events to the Blacksmith shop besides Clint Marriage Mod, Looking for Love, or Lucikiel. ITAV automatically detects Clint Marriage Mod, Looking for Love, and Lucikiel so adjusting this setting is not needed for those mods. Default is true.",
+			"Description": "Set this to false if you have a mod that adds events to the Blacksmith shop besides Clint Marriage Mod, Looking for Love, or Lucikiel. Default is true. ITAV automatically detects Clint Marriage Mod, Looking for Love, and Lucikiel so adjusting this setting is not needed for those mods.",
 			"AllowValues": "true, false",
 			"Default": "true",
 			"AllowBlank": false,
