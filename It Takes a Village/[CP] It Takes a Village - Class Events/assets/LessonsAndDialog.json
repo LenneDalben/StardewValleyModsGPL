@@ -1536,12 +1536,15 @@
                 "HasSeenEvent": "3910975"
             }
         },
-        /*Sterling? CT ASK HIME*/ {
-            "LogName": "Demetrius Oil Makers CT - Demetrius",
+        /*Sterling CT*/ {
+            "LogName": "Shane Animal Care CT - Sterling",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
+            "Target": "Characters/Dialogue/Sterling",
             "Entries": {
-                "Demetrius_oilmakers": "{{i18n:Demetrius_oilmakersCT_Demetrius}}"
+                "ItTakesAVillage_ShaneAnimalCare": "{{ShaneAnimalCareSterlingCT}}"
+            },
+            "When": {
+                "HasMod": "Himetarts.ARV.CP"
             }
         },
         /*Jas CT*/ {

@@ -1448,6 +1448,20 @@
 				"HasSeenEvent |contains=31032029": "false"
 			}
 		},
+		/*CT dialog for Sterling, saw Sterling's 8 heart event*/ {
+			"Name": "ShaneAnimalCareSterlingCT",
+			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sterling_Yes8}}",
+			"When": {
+				"HasSeenEvent |contains=40180010": "true"
+			}
+		},
+		/*CT dialog for Sterling, did not see Sterling's 8 heart event*/ {
+			"Name": "ShaneAnimalCareSterlingCT",
+			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sterling_No8}}",
+			"When": {
+				"HasSeenEvent |contains=40180010": "false"
+			}
+		},
 		/*CT dialog for Marnie, saw Shane's 6 heart event*/ {
 			"Name": "ShaneAnimalCareMarnieCT",
 			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Marnie_Yes6Heart}}",
