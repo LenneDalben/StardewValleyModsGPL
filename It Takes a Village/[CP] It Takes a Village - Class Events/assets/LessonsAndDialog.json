@@ -633,7 +633,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sebastian",
             "Entries": {
-                "ItTakesAVillage_AbbyEcon": "{{i18n:ItTakesAVillage_AbbyEconCT_Sebastian}}"
+                "ItTakesAVillage_AbbyEcon": "{{AbbyEconSebCT}}"
             }
         },
         /*Jas CT*/ {

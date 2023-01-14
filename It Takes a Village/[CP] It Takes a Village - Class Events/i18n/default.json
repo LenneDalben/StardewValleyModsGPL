@@ -53,7 +53,7 @@
   //
   // Edit Penny 8 Heart Event
   "config.EditPenny8HeartEvent.name": "EditPenny8HeartEvent",
-  "config.EditPenny8HeartEvent.description": "The first question in Penny's 8 heart event is tweaked to include a reference to the lessons. This edit is compatible with atravita's Penny 8 Heart Event Adjusted, Hanatsuki's Gender Neutrality Mod and Hanatsuki's and Fix Dialog Differences. Set this to false if you have another mod that edits Penny's 8 heart event. Default is true.",
+  "config.EditPenny8HeartEvent.description": "The first question in Penny's 8 heart event is tweaked to include a reference to the lessons. This edit is compatible with atravita's Penny 8 Heart Event Adjusted, Hanatsuki's Gender Neutrality Mod, and Hanatsuki's Fix Dialog Differences. Set this to false if you have another mod that edits Penny's 8 heart event. Default is true.",
   "config.EditPenny8HeartEvent.values.true": "true",
   "config.EditPenny8HeartEvent.values.false": "false",
   //
@@ -262,7 +262,7 @@
   "event-31032027.01": "Alright kiddos! Who's up for a little econ 101?$h",
   "event-31032027.02": "Hi @, I was just about to start a little lesson.",
   "event-31032027.03": "Hopefully this goes well today...$3",
-  "event-31032027.04": "Ok, for our first example: Gus comes into Dad's store to buy some supplies for the Saloon.#$b#If he wants to buy 3 boxes wheat flour at 100 each, 1 jar of sugar at 100 each, and 2 bottles of vinegar at 200 each,#$b#what's the total Gus owes?",
+  "event-31032027.04": "Ok, for our first example: Gus comes into Dad's store to buy some supplies for the Saloon.#$b#If he wants to buy 3 boxes of wheat flour at 100 each, 1 jar of sugar at 100 each, and 2 bottles of vinegar at 200 each,#$b#what's the total Gus owes?",
   "event-31032027.05": "Um, Ms. Abigail, could you repeat the question?$3",
   "event-31032027.06": "Sure! This time I'll get some visual aids.$h",
   "event-31032027.07": "3 boxes of wheat flour costing 100 each,",
@@ -285,7 +285,7 @@
   "ItTakesAVillage_AbbyEconCT_Sebastian_NoSebProgram": "Hmm, basic arithmetic? I think what I have in store is more exciting.",
   "ItTakesAVillage_AbbyEconCT_Jas": "Ms. Abigail is such a good teacher.",
   "ItTakesAVillage_AbbyEconCT_Vincent": "I'd take another class with Ms. Abigail any day!",
-  "ItTakesAVillage_AbbyEconCT_Caroline": "I wouldn't have expected Abby to enjoy teaching so much. I'm happy she found this outlet.",
+  "ItTakesAVillage_AbbyEconCT_Caroline": "I didn't expect Abby to enjoy teaching so much. I'm happy she found this outlet.",
   "ItTakesAVillage_AbbyEconCT_Pierre": "Thankfully Abigail straightened up after her class was over.#$b#... Alright, I suppose I'm also proud she took an interest in the business.$h",
   "ItTakesAVillage_AbbyEconCT_Jodi": "Vincent came home rattling off numbers nonstop...$2",
   "ItTakesAVillage_AbbyEconCT_Kent": "That young lad was... excitable.",
@@ -536,7 +536,7 @@
   "ItTakesAVillage_AbigailVideoGamesCT_Vincent": "%Vincent is singing a familiar song with a huge grin on his face.",
   "ItTakesAVillage_AbigailVideoGamesCT_Jodi": "I'm not happy Abigail decided to rot Vincent's brain with this screen time.$3",
   "ItTakesAVillage_AbigailVideoGamesCT_Kent": "Jodi means well, but she gets very stressed out about how the kids spend their time.",
-  "ItTakesAVillage_AbigailVideoGamesCT_Sam_YesMusic": "Kinda feel like Abigail showing the kids video games is cheating for popularity points...$s#$b#At least Vincent enjoyed jamming out with me!s",
+  "ItTakesAVillage_AbigailVideoGamesCT_Sam_YesMusic": "Kinda feel like Abigail showing the kids video games is cheating for popularity points...$s#$b#At least Vincent enjoyed jamming out with me!",
   "ItTakesAVillage_AbigailVideoGamesCT_Sam_NoMusic": "Kinda feel like Abigail showing the kids video games is cheating for popularity points...$s",
   "ItTakesAVillage_AbigailVideoGamesCT_Marnie": "A little downtime isn't the worst thing for the kids.",
   "ItTakesAVillage_AbigailVideoGamesCT_Shane": "Maybe Jas can share some tips she learned from Abigail.$6",
@@ -602,7 +602,7 @@
   "ItTakesAVillage_SamMusicCT_Sebastian_YesProgramYesVG": "I'm not taking it personally that Vincent preferred playing music with Sam over my lesson. Vincent is Sam's little brother.#$b#Jas too, huh? Oh well. I'm not quitting my day job, that's for sure.$s#$b#At least Sam's still in the running for fun teacher.$s",
   "ItTakesAVillage_SamMusicCT_Sebastian_YesProgramNoVG": "Sam had way more fun teaching the kids than I did.",
   "ItTakesAVillage_SamMusicCT_Sebastian_NoProgramYesVG": "The kids may have preferred Abigail's video game lesson over Sam's music, but wait until they see my lesson. The tables could be turning!$h",
-  "ItTakesAVillage_SamMusicCT_Sebastian_NoProgramNoVG": "Sam seemed to have fun teaching the kids. Maybr my lesson will go smoothly too.",
+  "ItTakesAVillage_SamMusicCT_Sebastian_NoProgramNoVG": "Sam seemed to have fun teaching the kids. Maybe my lesson will go smoothly too.",
   "ItTakesAVillage_SamMusicCT_Lewis": "That brother of Vincent's sure knows how to disturb the peace in this town. I got noise complaints!$3#$b#Who complained?#$b#That's not important.",
   "ItTakesAVillage_SamMusicCT_Jas": "Vincent liked playing music more than I did.$3",
   "ItTakesAVillage_SamMusicCT_Vincent": "%Vincent is singing by imitating a drum.",
@@ -610,8 +610,8 @@
   "ItTakesAVillage_SamMusicCT_Kent": "I'm not one to try and discourage the kids, but constant drum practice seems... intense.",
   "ItTakesAVillage_SamMusicCT_Marnie_YesAnimalCare": "I think Jas was more excited about Shane's animal care lesson over the music lesson.#$b#He'll probably be 'preening' over that during dinner, as it were.$h",
   "ItTakesAVillage_SamMusicCT_Marnie_NoAnimalCare": "Jas didn't have much to say about the music lesson.$3",
-  "ItTakesAVillage_SamMusicCT_Penny_YesElectronics": "I thought Jas had a little fun, but she said she preferred the nature tour.#$b#Vincent was super excited about playing the drums with his brother.",
-  "ItTakesAVillage_SamMusicCT_Penny_YesBotany": "I thought Jas had a little fun, but she said she preferred the potato battery experiment.#$b#Vincent was super excited about playing the drums with his brother.",
+  "ItTakesAVillage_SamMusicCT_Penny_YesElectronics": "I thought Jas had a little fun, but she said she preferred the potato battery experiment.#$b#Vincent was super excited about playing the drums with his brother.",
+  "ItTakesAVillage_SamMusicCT_Penny_YesBotany": "I thought Jas had a little fun, but she said she preferred the nature tour.#$b#Vincent was super excited about playing the drums with his brother.",
   "ItTakesAVillage_SamMusicCT_Penny_NeitherElectronicsNorBotany": "I thought Jas had a little fun, but she said she wasn't too interested in playing music.#$b#Vincent was super excited about playing the drums with his brother.",
   //
   // Shane Animal Care event
@@ -665,8 +665,8 @@
   "ItTakesAVillage_ShaneAnimalCareCT_Marnie_Yes6Heart": "%Marnie is looking proud.",
   "ItTakesAVillage_ShaneAnimalCareCT_Marnie_No6Heart": "Maybe this experience will help Shane turn over a new leaf.$h",
   "ItTakesAVillage_ShaneAnimalCareCT_Harvey": "I'm glad to see Shane have a positive outlet.",
-  "ItTakesAVillage_ShaneAnimalCareCT_Sterling_Yes8": "Well, well, look who's maybe finally getting his life together. Good for Shane.$10",
-  "ItTakesAVillage_ShaneAnimalCareCT_Sterling_No8": "A lesson for the kids huh? I'm happy Shane is doing more positive stuff.",
+  "ItTakesAVillage_ShaneAnimalCareCT_Sterling_Yes8Heart": "A lesson for the kids huh? I'm happy Shane is doing more positive stuff.",
+  "ItTakesAVillage_ShaneAnimalCareCT_Sterling_No8Heart": "Well, well, look who's maybe finally getting his life together. Good for Shane.$10",
   "ItTakesAVillage_ShaneAnimalCareCT_Penny_YesCrow": "I really would have appreciated a heads up from Shane.$5#$b#Blossom was a calmer big bird, at least.$3",
   "ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow": "I was surprised to see Shane interested in giving a lesson, let alone one so gentle. It's a good side to him!#$b#Plus, Vincent was happy to see more of what Jas talks about with the animals.",
   //

@@ -34,12 +34,14 @@ Config Options
 
 * Load Blacksmith Config: Set this to false if you have a mod that adds events to the Blacksmith shop besides Clint Marriage Mod, Looking for Love, or Lucikiel. Default is true. ITAV automatically detects Clint Marriage Mod, Looking for Love, and Lucikiel so adjusting this setting is not needed for those mods.
 
-* Edit Penny 8 Heart Event: The first question in Penny's 8 heart event is tweaked to include a reference to the lessons. This edit is compatible with atravita's Penny 8 Heart Event Adjusted, Hanatsuki's Gender Neutrality Mod and Hanatsuki's and Fix Dialog Differences. Set this to false if you have another mod that edits Penny's 8 heart event. Default is true.
+* Edit Penny 8 Heart Event: The first question in Penny's 8 heart event is tweaked to include a reference to the lessons. This edit is compatible with atravita's Penny 8 Heart Event Adjusted, Hanatsuki's Gender Neutrality Mod, and Hanatsuki's Fix Dialog Differences. Set this to false if you have another mod that edits Penny's 8 heart event. Default is true.
 
 Note that the mod does not come packaged with a config file. The config file will be generated after you run the game with the mod installed at least once. 
 
 
 ||Compatibility||
+
+If you have a mod that changes map layout, you may be interested in the Skippable config setting. It will allow you to skip the event if you or an NPC gets stuck.
 
 A note on Stardew Valley Expanded (SVE): I don’t use it and never will, so I will not add compatibility for it. Use ITAV and SVE together at your own risk.
 
@@ -54,7 +56,7 @@ A note on Stardew Valley Expanded (SVE): I don’t use it and never will, so I w
 
 ||Future Plans||
 
-I would like to include the kids from Ridgeside Village (RSV) and East Scarp (ES) someday in a future update, but I don't have a target date for that, or detailed plans to ask for permission. Writing the vanilla version of this has been a huge undertaking as it is.
+I would like to include the kids from Ridgeside Village (RSV) someday in a future update, but I don't have a target date for that, or detailed plans to ask for permission. Writing the vanilla version of this has been a huge undertaking as it is.
 
 
 ||Shout Outs||
@@ -79,6 +81,6 @@ I would like to include the kids from Ridgeside Village (RSV) and East Scarp (ES
 
 <a href="https://www.nexusmods.com/stardewvalley/users/68088657?tab=user+files">Lemurkat</a>, for helping me troubleshoot
 
-<a href="https://www.nexusmods.com/stardewvalley/users/92060238?tab=user+files">Taiyo</a> and <a href ="https://www.nexusmods.com/stardewvalley/users/112768378?tab=user+files">tiakall</a>, for some art feedback sprites I drew
+<a href="https://www.nexusmods.com/stardewvalley/users/92060238?tab=user+files">Taiyo</a> and <a href ="https://www.nexusmods.com/stardewvalley/users/112768378?tab=user+files">tiakall</a>, for some art feedback on sprites I drew
 
 <a href="https://www.nexusmods.com/stardewvalley/users/1552317?tab=user+files">Pathoschild</a>, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible

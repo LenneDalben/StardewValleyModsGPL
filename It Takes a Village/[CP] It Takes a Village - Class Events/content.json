@@ -31,7 +31,7 @@
 			"AllowMultiple": false
 		},
 		"EditPenny8HeartEvent": {
-			"Description": "The first question in Penny's 8 heart event is tweaked to include a reference to the lessons. This edit is compatible with atravita's Penny 8 Heart Event Adjusted, Hanatsuki's Gender Neutrality Mod and Hanatsuki's and Fix Dialog Differences. Set this to false if you have another mod that edits Penny's 8 heart event. Default is true.",
+			"Description": "The first question in Penny's 8 heart event is tweaked to include a reference to the lessons. This edit is compatible with atravita's Penny 8 Heart Event Adjusted, Hanatsuki's Gender Neutrality Mod, and Hanatsuki's Fix Dialog Differences. Set this to false if you have another mod that edits Penny's 8 heart event. Default is true.",
 			"AllowValues": "true, false",
 			"Default": "true",
 			"AllowBlank": false,
@@ -115,7 +115,7 @@
 			"Name": "AlexPEAndGusCookingToken",
 			"Value": "{{Random: GusCookingYes, AlexPEYes}}",
 			"When": {
-				"HasSeenEvent |contains=31032022": true, // Penny kickstarts events
+				"HasSeenEvent |contains=31032022": true, // Penny kickstarts lessons
 				"HasSeenEvent |contains=31032024": false,
 				"HasSeenEvent |contains=31032023": false,
 			}
@@ -243,7 +243,7 @@
 			"Name": "HaleyLeahArtAndElliottStoriesToken",
 			"Value": "{{Random: ElliottStoriesYes, HaleyLeahArtYes}}",
 			"When": {
-				"HasSeenEvent |contains=31032022": true, // Penny kickstarts events
+				"HasSeenEvent |contains=31032022": true, // Penny kickstarts lessons
 				"HasSeenEvent |contains=31032025": false,
 				"HasSeenEvent |contains=31032026": false,
 			}
@@ -385,7 +385,7 @@
 			"Name": "SebProgramAndAbbyEconToken",
 			"Value": "{{Random: AbbyEconYes, SebProgramYes}}",
 			"When": {
-				"HasSeenEvent |contains=31032022": true, // Penny kickstarts events
+				"HasSeenEvent |contains=31032022": true, // Penny kickstarts lessons
 				"HasSeenEvent |contains=31032027": false,
 				"HasSeenEvent |contains=31032028": false,
 			}
@@ -517,7 +517,7 @@
 			"Name": "MaruElectronicsAndDemetriusBotanyToken",
 			"Value": "{{Random: DemetriusBotanyYes, MaruElectronicsYes}}",
 			"When": {
-				"HasSeenEvent |contains=31032022": true, // Penny kickstarts events
+				"HasSeenEvent |contains=31032022": true, // Penny kickstarts lessons
 				"HasSeenEvent |contains=31032029": false,
 				"HasSeenEvent |contains=31032030": false,
 			}
@@ -817,7 +817,7 @@
 			"Name": "EmilyEmotionalDanceAndHarveyAnatomyToken",
 			"Value": "{{Random: HarveyAnatomyYes, EmilyEmotionalDanceYes}}",
 			"When": {
-				"HasSeenEvent |contains=31032022": true, // Penny kickstarts events
+				"HasSeenEvent |contains=31032022": true, // Penny kickstarts lessons
 				"HasSeenEvent |contains=31032032": false,
 				"HasSeenEvent |contains=31032031": false,
 			}
@@ -917,7 +917,7 @@
 			"Name": "ClintMetalworkAndAbbyGamesToken",
 			"Value": "{{Random: AbbyGamesYes, ClintMetalworkYes}}",
 			"When": {
-				"HasSeenEvent |contains=31032022": true, // Penny kickstarts events
+				"HasSeenEvent |contains=31032022": true, // Penny kickstarts lessons
 				"HasSeenEvent |contains=31032033": false,
 				"HasSeenEvent |contains=31032024": false,
 			}
@@ -1114,7 +1114,7 @@
 			"Name": "SamMusicAndShaneAnimalCareToken",
 			"Value": "{{Random: ShaneAnimalCareYes, SamMusicYes}}",
 			"When": {
-				"HasSeenEvent |contains=31032022": true, // Penny kickstarts events
+				"HasSeenEvent |contains=31032022": true, // Penny kickstarts lessons
 				"HasSeenEvent |contains=31032036": false,
 				"HasSeenEvent |contains=31032035": false,
 			}
@@ -1450,14 +1450,14 @@
 		},
 		/*CT dialog for Sterling, saw Sterling's 8 heart event*/ {
 			"Name": "ShaneAnimalCareSterlingCT",
-			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sterling_Yes8}}",
+			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sterling_Yes8Heart}}",
 			"When": {
 				"HasSeenEvent |contains=40180010": "true"
 			}
 		},
 		/*CT dialog for Sterling, did not see Sterling's 8 heart event*/ {
 			"Name": "ShaneAnimalCareSterlingCT",
-			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sterling_No8}}",
+			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sterling_No8Heart}}",
 			"When": {
 				"HasSeenEvent |contains=40180010": "false"
 			}
@@ -1556,7 +1556,7 @@
 			"Name": "RobinWoodworkAndAbbySelfDefenseToken",
 			"Value": "{{Random: AbbySelfDefenseYes, RobinWoodworkYes}}",
 			"When": {
-				"HasSeenEvent |contains=31032022": true, // Penny kickstarts events
+				"HasSeenEvent |contains=31032022": true, // Penny kickstarts lessons
 				"HasSeenEvent |contains=31032037": false,
 				"HasSeenEvent |contains=31032038": false,
 			}
@@ -1598,7 +1598,7 @@
 			"Name": "WillyLinusFishingAndCarolineEvelynGardeningToken",
 			"Value": "{{Random: CarolineEvelynGardeningYes, WillyLinusFishingYes}}",
 			"When": {
-				"HasSeenEvent |contains=31032022": true, // Penny kickstarts events
+				"HasSeenEvent |contains=31032022": true, // Penny kickstarts lessons
 				"HasSeenEvent |contains=31032040": false,
 				"HasSeenEvent |contains=31032039": false,
 			}
