@@ -83,8 +83,8 @@ I would like to include the kids from Ridgeside Village (RSV) someday in a futur
 
 <a href="https://www.nexusmods.com/stardewvalley/users/68088657?tab=user+files">Lemurkat</a>, for helping me troubleshoot
 
-<a href="https://www.nexusmods.com/stardewvalley/users/92060238?tab=user+files">Taiyo</a> and <a href ="https://www.nexusmods.com/stardewvalley/users/112768378?tab=user+files">tiakall</a>, for some art feedback on sprites I drew
+<a href="https://www.nexusmods.com/stardewvalley/users/92060238?tab=user+files">Taiyo</a>, <a href ="https://www.nexusmods.com/stardewvalley/users/112768378?tab=user+files">tiakall</a>, and <a href="https://www.nexusmods.com/stardewvalley/users/2893756?tab=user+files">Yri</a> for some art feedback and encouragement on sprites I drew
 
-<a href="https://www.nexusmods.com/stardewvalley/mods/13609">nicole / beyond recovery</a>, for help with figuring out the "walking off screen while fading out" effect
+<a href="https://www.nexusmods.com/stardewvalley/users/104804993?tab=user+files">nicole / beyond recovery</a>, for help with figuring out the "walking off screen while fading out" effect
 
 <a href="https://www.nexusmods.com/stardewvalley/users/1552317?tab=user+files">Pathoschild</a>, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible
