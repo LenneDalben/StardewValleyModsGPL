@@ -43,6 +43,8 @@ Note that the mod does not come packaged with a config file. The config file wil
 
 If you have a mod that changes map layout, you may be interested in the Skippable config setting. It will allow you to skip the event if you or an NPC gets stuck.
 
+The discussion after the Shane lesson includes dialog for <a href="https://www.nexusmods.com/stardewvalley/mods/9999">Sterling from Always Raining in the Valley (ARV)</a>, if you have ARV installed.
+
 A note on Stardew Valley Expanded (SVE): I don’t use it and never will, so I will not add compatibility for it. Use ITAV and SVE together at your own risk.
 
 
