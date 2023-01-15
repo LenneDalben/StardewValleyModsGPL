@@ -849,6 +849,49 @@
 				"HasSeenEvent |contains=31032031": true,
 			}
 		},
+		// Tokens for Emily Emotional Health & Dance
+		/*Event dialog - saw Harvey Anatomy - One*/ {
+			"Name": "EmilyDanceSeenHarveyAnatomyOne",
+			"Value": "textAboveHead Vincent \"{{i18n:event-31032031.19}}\"/pause 500",
+			"When": {
+				"HasSeenEvent |contains=31032032": "true"
+			}
+		},
+		/*Event dialog - did not see Harvey Anatomy - One*/ {
+			"Name": "EmilyDanceSeenHarveyAnatomyOne",
+			"Value": "pause 500",
+			"When": {
+				"HasSeenEvent |contains=31032032": "false"
+			}
+		},
+		/*Event dialog - saw Harvey Anatomy - Two*/ {
+			"Name": "EmilyDanceSeenHarveyAnatomyTwo",
+			"Value": "pause 200/textAboveHead Vincent \"{{i18n:event-31032031.24}}\"/pause 4000",
+			"When": {
+				"HasSeenEvent |contains=31032032": "true"
+			}
+		},
+		/*Event dialog - did not see Harvey Anatomy - Two*/ {
+			"Name": "EmilyDanceSeenHarveyAnatomyTwo",
+			"Value": "pause 4000",
+			"When": {
+				"HasSeenEvent |contains=31032032": "false"
+			}
+		},
+		/*Event dialog - saw Harvey Anatomy - Three*/ {
+			"Name": "EmilyDanceSeenHarveyAnatomyThree",
+			"Value": "pause 200/textAboveHead Vincent \"{{i18n:event-31032031.24}}\"/pause 3000",
+			"When": {
+				"HasSeenEvent |contains=31032032": "true"
+			}
+		},
+		/*Event dialog - did not see Harvey Anatomy - Three*/ {
+			"Name": "EmilyDanceSeenHarveyAnatomyThree",
+			"Value": "pause 3000",
+			"When": {
+				"HasSeenEvent |contains=31032032": "false"
+			}
+		},
 		// Tokens for Harvey Anatomy
 		/*Event dialog - saw Emily emotional health and dance*/ {
 			"Name": "HarveyAnatomySeenEmilyDance",
