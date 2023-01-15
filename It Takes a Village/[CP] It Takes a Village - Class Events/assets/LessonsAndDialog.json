@@ -930,7 +930,6 @@
         },
         //
         // Emily Emotional Health and Dance - IN PROGRESS
-        // BONUS: can the farmer dance? If so, have that be a question on whether the farmer joins in or not. Semi complex fork? Ugh because I'd like for the farmer to be able to have 3 choices of "I'd rather not", "sure!", "hell no, how dare you" because it's always fun to have a rude option lol And then while everyone will react differently for the polite decline (that's ok, maybe your spirit will be moved on another day) and for the rude option (lose friendship, sweatdrops all around, will anyone call you out on it? Who would?), both will have Emily dance alone
         /*Event proper*/ {
             "LogName": "Emily Emotional Health and Dance Lesson",
             "Action": "EditData",
