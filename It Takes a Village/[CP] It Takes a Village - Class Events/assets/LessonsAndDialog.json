@@ -942,28 +942,28 @@
                 "EmilyEmotionalDanceAndHarveyAnatomyToken": "EmilyEmotionalDanceYes, EmilyEmotionalDanceYesHarveyAnatomyNo"
             }
         },
-        /*Emily CT - dynamic dialog*/ {
+        /*Emily CT*/ {
             "LogName": "Emily Emotional Health and Dance CT - Emily",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Emily",
             "Entries": {
-                "ItTakesAVillage_EmilyDance": "{{i18n:ItTakesAVillage_EmilyDanceCT_Emily}}"
+                "ItTakesAVillage_EmilyDance": "{{EmilyDanceEmilyCT}}"
             }
         },
-        /*Haley CT - dynamic dialog*/ {
+        /*Harvey CT*/ {
+            "LogName": "Emily Emotional Health and Dance CT - Harvey",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Harvey",
+            "Entries": {
+                "ItTakesAVillage_EmilyDance": "{{EmilyDanceHarveyCT}}"
+            }
+        },
+        /*Haley CT*/ {
             "LogName": "Emily Emotional Health and Dance CT - Haley",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Haley",
             "Entries": {
                 "ItTakesAVillage_EmilyDance": "{{i18n:ItTakesAVillage_EmilyDanceCT_Haley}}"
-            }
-        },
-        /*Harvey CT - dynamic dialog*/ {
-            "LogName": "Emily Emotional Health and Dance CT - Harvey",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Harvey",
-            "Entries": {
-                "ItTakesAVillage_EmilyDance": "{{i18n:ItTakesAVillage_EmilyDanceCT_Harvey}}"
             }
         },
         /*Sandy CT*/ {
@@ -981,7 +981,7 @@
             "Entries": {
                 "ItTakesAVillage_EmilyDance": "{{i18n:ItTakesAVillage_EmilyDanceCT_Jas}}"
             }
-        }, // %Jas has a small smile on her face.
+        },
         /*Vincent CT*/ {
             "LogName": "Emily Emotional Health and Dance CT - Vincent",
             "Action": "EditData",
@@ -1037,7 +1037,7 @@
             "Entries": {
                 "ItTakesAVillage_EmilyDance": "{{i18n:ItTakesAVillage_EmilyDanceCT_Penny}}"
             }
-        }, // I'm grateful Emily spoke to the kids about mental health. It's important to de-stigmatize it.
+        },
         //
         // Harvey Anatomy - Done!
         /*Event proper*/ {

@@ -892,6 +892,34 @@
 				"HasSeenEvent |contains=31032032": "false"
 			}
 		},
+		/*CT dialog for Harvey - have seen Harvey Anatomy*/ {
+			"Name": "EmilyDanceHarveyCT",
+			"Value": "{{i18n:ItTakesAVillage_EmilyDanceCT_Harvey_YesAnatomy}}",
+			"When": {
+				"HasSeenEvent |contains=31032032": "true"
+			}
+		},
+		/*CT dialog for Harvey - have not seen Harvey Anatomy*/ {
+			"Name": "EmilyDanceHarveyCT",
+			"Value": "{{i18n:ItTakesAVillage_EmilyDanceCT_Harvey_NoAnatomy}}",
+			"When": {
+				"HasSeenEvent |contains=31032032": "false"
+			}
+		},
+		/*CT dialog for Emily - have seen Harvey Anatomy*/ {
+			"Name": "EmilyDanceEmilyCT",
+			"Value": "{{i18n:ItTakesAVillage_EmilyDanceCT_Emily_YesAnatomy}}",
+			"When": {
+				"HasSeenEvent |contains=31032032": "true"
+			}
+		},
+		/*CT dialog for Emily - have not seen Harvey Anatomy*/ {
+			"Name": "EmilyDanceEmilyCT",
+			"Value": "{{i18n:ItTakesAVillage_EmilyDanceCT_Emily_NoAnatomy}}",
+			"When": {
+				"HasSeenEvent |contains=31032032": "false"
+			}
+		},
 		// Tokens for Harvey Anatomy
 		/*Event dialog - saw Emily emotional health and dance*/ {
 			"Name": "HarveyAnatomySeenEmilyDance",

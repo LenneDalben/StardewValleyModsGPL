@@ -476,6 +476,21 @@
   "event-31032031.23": "No thanks, I'm not much of a dancer.",
   "event-31032031.24": "The 'leg bone' is connected to the 'knee bone'...",
   "event-31032031.NoDancing.01": "Ah, well. Suit yourself!",
+  // Emily Emotional Health and Dance CTs
+  "ItTakesAVillage_EmilyDanceCT_Emily_YesAnatomy": "",
+  "ItTakesAVillage_EmilyDanceCT_Emily_NoAnatomy": "It's important for the kids to know about all the different aspects of health. It's nice Harvey will cover the physical side.",
+  "ItTakesAVillage_EmilyDanceCT_Harvey_YesAnatomy": "",
+  "ItTakesAVillage_EmilyDanceCT_Harvey_NoAnatomy": "",
+  "ItTakesAVillage_EmilyDanceCT_Haley": "",
+  "ItTakesAVillage_EmilyDanceCT_Sandy": "",
+  "ItTakesAVillage_EmilyDanceCT_Jas": "%Jas has a small smile on her face.",
+  "ItTakesAVillage_EmilyDanceCT_Vincent": "",
+  "ItTakesAVillage_EmilyDanceCT_Jodi": "",
+  "ItTakesAVillage_EmilyDanceCT_Kent": "",
+  "ItTakesAVillage_EmilyDanceCT_Sam": "",
+  "ItTakesAVillage_EmilyDanceCT_Marnie": "",
+  "ItTakesAVillage_EmilyDanceCT_Shane": "",
+  "ItTakesAVillage_EmilyDanceCT_Penny": "I'm grateful Emily spoke to the kids about mental health. It's important to de-stigmatize it.",
   //
   // Harvey Anatomy event
   "event-31032032.01": "I hope this goes well today.$s",
