@@ -52,7 +52,9 @@ A note on Stardew Valley Expanded (SVE): I don’t use it and never will, so I w
 
 1. Install <a href="https://www.nexusmods.com/stardewvalley/mods/2400">SMAPI</a> (version 3.9.3 or higher)
 2. Install <a href="https://www.nexusmods.com/stardewvalley/mods/1915">Content Patcher (CP)</a> (version 1.21.0 or higher)
+- Optional: Install <a href="https://www.nexusmods.com/stardewvalley/mods/8626">Custom Companions (CC)</a> (version 1.4.3 or higher)
 3. Download the mod from ModDrop (link TBD) and unzip the mod folder into Stardew Valley/Mods.
+- If you do not use CC, you can delete that folder from your Mods folder.
 4. Play the game using SMAPI!
 
 
