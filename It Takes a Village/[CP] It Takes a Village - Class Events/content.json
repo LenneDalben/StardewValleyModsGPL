@@ -1936,7 +1936,7 @@
 				"HasConversationTopic": "ItTakesAVillage_HaleyLeahArt"
 			}
 		},
-		/*Loading Emily Emotional Health and Dance Sprite*/ {
+		/*Loading Emily Emotional Health and Dance Radio Sprite*/ {
 			"LogName": "Loading Emily Emotional Health and Dance Radio Sprite",
 			"Action": "Load",
 			"Target": "Characters/EmilyRadio",
