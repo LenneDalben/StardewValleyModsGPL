@@ -314,7 +314,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Elliott",
             "Entries": {
-                "ItTakesAVillage_HaleyLeahArt": "{{ElliottStoriesElliottCT}}"
+                "ItTakesAVillage_HaleyLeahArt": "{{HaleyLeahArtElliottCT}}"
             }
         },
         /*Emily CT*/ {

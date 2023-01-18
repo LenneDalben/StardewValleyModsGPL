@@ -369,7 +369,7 @@
 			}
 		},
 		/*CT dialog for Elliott, have seen Elliott Stories lesson*/ {
-			"Name": "ElliottStoriesElliottCT",
+			"Name": "HaleyLeahArtElliottCT",
 			"Value": "{{i18n:ItTakesAVillage_HaleyLeahArtCT_Elliott_YesStories}}",
 			"When": {
 				"HasSeenEvent |contains=31032025": "true"
