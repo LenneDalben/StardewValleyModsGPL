@@ -1374,24 +1374,24 @@
 			"Name": "SamMusicPennyCT",
 			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Penny_YesElectronics}}",
 			"When": {
-				"HasSeenEvent |contains=31032028": "true",
-				"HasSeenEvent |contains=31032033": "false"
+				"HasSeenEvent |contains=31032030": "true",
+				"HasSeenEvent |contains=31032029": "false"
 			}
 		},
 		/*CT dialog for Penny - have seen Demetrius Botany and have not seen Maru Electronics*/ {
 			"Name": "SamMusicPennyCT",
 			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Penny_YesBotany}}",
 			"When": {
-				"HasSeenEvent |contains=31032028": "false",
-				"HasSeenEvent |contains=31032033": "true"
+				"HasSeenEvent |contains=31032030": "false",
+				"HasSeenEvent |contains=31032029": "true"
 			}
 		},
 		/*CT dialog for Penny - have not seen Maru Electronics and have not seen Demetrius Botany*/ {
 			"Name": "SamMusicPennyCT",
 			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Penny_NeitherElectronicsNorBotany}}",
 			"When": {
-				"HasSeenEvent |contains=31032028": "false",
-				"HasSeenEvent |contains=31032033": "false"
+				"HasSeenEvent |contains=31032030": "false",
+				"HasSeenEvent |contains=31032029": "false"
 			}
 		},
 		// Tokens for Shane Animal Care
