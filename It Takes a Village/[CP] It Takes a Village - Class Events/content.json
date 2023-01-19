@@ -513,21 +513,12 @@
 			"Name": "MaruElectronicsAndDemetriusBotanyToken",
 			"Value": "DemetriusBotanyNoMaruElectronicsNo",
 		},
-		/*random token to choose which event plays first, when neither's been seen*/ {
+		/*play Demetrius botany first, for goggle overlay to play correctly*/ {
 			"Name": "MaruElectronicsAndDemetriusBotanyToken",
-			"Value": "{{Random: DemetriusBotanyYes, MaruElectronicsYes}}",
+			"Value": "DemetriusBotanyYes",
 			"When": {
 				"HasSeenEvent |contains=31032022": true, // Penny kickstarts lessons
 				"HasSeenEvent |contains=31032029": false,
-				"HasSeenEvent |contains=31032030": false,
-			}
-		},
-		/*saw Maru electronics but not Demetrius botany*/ {
-			"Name": "MaruElectronicsAndDemetriusBotanyToken",
-			"Value": "DemetriusBotanyYesMaruElectronicsNo",
-			"When": {
-				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=31032029": true,
 				"HasSeenEvent |contains=31032030": false,
 			}
 		},
@@ -1837,7 +1828,9 @@
 			"PatchMode": "Overlay",
 			"When": {
 				"HasSeenEvent |contains= 31032030": false,
-				"MaruElectronicsAndDemetriusBotanyToken": "MaruElectronicsYes, MaruElectronicsYesDemetriusBotanyNo",
+				"MaruElectronicsAndDemetriusBotanyToken": "MaruElectronicsYesDemetriusBotanyNo",
+				"HasSeenEvent |contains=31032032": true, // Harvey Anatomy, for temp map shenanigans
+                "HasSeenEvent |contains=31032035": true, // Sam Music, for temp map shenanigans
 				"HasConversationTopic |contains= ItTakesAVillage_Beginning, ItTakesAVillage_AlexPE, ItTakesAVillage_GusCooking, ItTakesAVillage_ElliottStories, ItTakesAVillage_HaleyLeahArt, ItTakesAVillage_AbbyEcon, ItTakesAVillage_SebProgram, ItTakesAVillage_DemetriusBotany, ItTakesAVillage_EmilyDance, ItTakesAVillage_HarveyHealth, ItTakesAVillage_AbigailVideoGames, ItTakesAVillage_ClintMetalworking, ItTakesAVillage_SamMusic, ItTakesAVillage_ShaneAnimalCare, ItTakesAVillage_AbigailSelfDefense, ItTakesAVillage_RobinWoodworking, ItTakesAVillage_WillyLinusFishing, ItTakesAVillage_CarolineEvelynGardening": false,
 				"LocationName |contains= ScienceHouse, temp": true,
 				"PortraitandSpriteOverlayGoggleConfig": true
