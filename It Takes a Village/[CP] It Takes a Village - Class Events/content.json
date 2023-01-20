@@ -883,6 +883,10 @@
 				"HasSeenEvent |contains=31032032": "false"
 			}
 		},
+		/*Random dance!*/ {
+			"Name": "EmilyDanceRandomPlayerDance",
+			"Value": "{{Random: animate farmer false true 250 0 0 3 3, animate farmer false true 250 0 0 3 3, animate farmer false true 250 0 0 27 27 24 24 27 27, animate farmer false true 250 0 0 86 86 86 57 57 57}}",
+		},
 		/*CT dialog for Harvey - have seen Harvey Anatomy*/ {
 			"Name": "EmilyDanceHarveyCT",
 			"Value": "{{i18n:ItTakesAVillage_EmilyDanceCT_Harvey_YesAnatomy}}",
