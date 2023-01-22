@@ -931,7 +931,7 @@
             }
         },
         //
-        // Emily Emotional Health and Dance - IN PROGRESS
+        // Emily Emotional Health and Dance - Done!
         /*Event proper*/ {
             "LogName": "Emily Emotional Health and Dance Lesson",
             "Action": "EditData",
