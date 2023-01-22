@@ -527,8 +527,8 @@
 			"Value": "MaruElectronicsYesDemetriusBotanyNo",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=31032029": false,
-				"HasSeenEvent |contains=31032030": true,
+				"HasSeenEvent |contains=31032029": true,
+				"HasSeenEvent |contains=31032030": false,
 			}
 		},
 		/*saw both events in the pair*/ {
