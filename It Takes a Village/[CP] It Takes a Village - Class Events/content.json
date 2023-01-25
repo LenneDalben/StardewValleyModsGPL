@@ -1740,6 +1740,7 @@
 			}
 		},
 	],
+	// Patches section
 	"Changes": [
 		/*Include*/ {
 			"LogName": "Include It Takes a Village Lessons and Dialog",
