@@ -1,0 +1,13 @@
+{
+   "Name": "[CP] Dream",
+   "Author": "LenneDalben",
+   "Description": "Dream event with dialog after and a map edit, for the Mod Jam.",
+   "Version": "0.9.0",
+   "UniqueID": "LenneDalben.DreamEvent",
+   "MinimumApiVersion": "3.9.3",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher",
+       "MinimumVersion": "1.21.0"
+    },
+   "UpdateKeys": [ "" ],
+}
