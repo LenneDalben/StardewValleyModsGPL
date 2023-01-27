@@ -31,7 +31,7 @@
 				"27012023/t 1850 2150": "spirits_eve/-1000 -1000/{{NPCPlacement}}/changeToTemporaryMap NightSceneMaruMap/viewport -1000 -1000/{{NPCWarp}}/addLantern 735 31 61 2/pause 50/positionOffset Jas 0 -30/positionOffset Vincent 0 -30/viewport 14 10/addConversationTopic DreamEvent_CT {{DaysTalkingAboutEvent}}/pause 2500/skippable/end"
 			}
 		},
-		// Map Edit, going with Backwoods
+		// Map Edit, going with Backwoods. Look at dynamic map tiles for the rest of the things
 		/*{
 		  "LogName": "Dream Map Patch",
 		  "Action": "EditMap",
