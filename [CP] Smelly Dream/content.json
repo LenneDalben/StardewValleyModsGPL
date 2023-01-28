@@ -17,6 +17,20 @@
 		}
 	],*/
 	"Changes": [
+		// Patching in art
+		/*Loading Blue Submarine Sprite*/ {
+			"LogName": "Loading Blue Submarine Sprite",
+			"Action": "Load",
+			"Target": "Characters/BlueSubmarine",
+			"FromFile": "assets/BlueSubmarine.png"
+		},
+		/*Loading Yellow Submarine Sprite*/ {
+			"LogName": "Loading Yellow Submarine Sprite",
+			"Action": "Load",
+			"Target": "Characters/YellowSubmarine",
+			"FromFile": "assets/YellowSubmarine.png"
+		},
+		// Event
 		{
 			// addTemporaryActor Grandpa 1 1 -100 -100 2 true/specificTemporarySprite grandpaSpirit
 			// twinkly effect specificTemporarySprite grandpaNight
@@ -24,16 +38,23 @@
 			// have grandpa just float in from one corner of the screen and disappear into another, maybe with a speech bubble 😂 look at Lavril x Sterling's event for guidance
 			//Maybe try tying story into it? Is there an interesting / relevant event or occasion that could help trigger this
 			// map edit could fit the rotten part
-			"LogName": "Dream Event",
+			// 2 different submarines floating by, in opposite directions... twice they pass each other... the third time, explosion? dunno if I can use an existing animation for explosion
+			// how strange
+			// then the CTs about there being a rotten smell wafting around, seems to be coming from the backwoods.
+			// player sees something there. Around it, some tiles are slippery and sap energy. you can interact with the object and it says "the smell is so awful, you worry you'll pass out.
+			// could send a letter when the CT is done but seen event, and then talk to the Wizard, who'll tell you what happened.
+			// addTemporaryActor BlueSubmarine 166 152 0 5 2 false // first move to the right (positive)
+			// addTemporaryActor YellowSubmarine 166 152 29 5 2 false // first move to the left (negative)
+			"LogName": "Smelly Dream Event",
 			"Action": "EditData",
-			"Target": "Data/Events/Farmhouse",
+			"Target": "Data/Events/Farmhouse", // check with the zoom all the way out 
 			"Entries": {
-				"27012023/t 1850 2150": "spirits_eve/-1000 -1000/{{NPCPlacement}}/changeToTemporaryMap NightSceneMaruMap/viewport -1000 -1000/{{NPCWarp}}/addLantern 735 31 61 2/pause 50/positionOffset Jas 0 -30/positionOffset Vincent 0 -30/viewport 14 10/addConversationTopic DreamEvent_CT {{DaysTalkingAboutEvent}}/pause 2500/skippable/end"
+				"27012023/t 1850 2150": "none/-1000 -1000/farmer -100 -100 0/changeToTemporaryMap NightSceneMaruMap/viewport -1000 -1000/viewport 14 10/addConversationTopic SmellyDreamEvent_CT {{DaysTalkingAboutEvent}}/pause 2500/skippable/message \"Hmm... what's this?\"/specificTemporarySprite grandpaNight/pause 1000/move BlueSubmarine 30 0 2/message \"That's... unexpected.\"/move YellowSubmarine -30 0 2/pause 50/move BlueSubmarine -15 0 2 true/move YellowSubmarine 15 0 2 false/playSound explosion/warp BlueSubmarine -100 -100/warp YellowSubmarine -100 -100/message\"!!\"/message \"... There's a strange smell.\"/pause 500/end"
 			}
 		},
 		// Map Edit, going with Backwoods. Look at dynamic map tiles for the rest of the things
 		/*{
-		  "LogName": "Dream Map Patch",
+		  "LogName": "Smelly Dream Map Patch",
 		  "Action": "EditMap",
 		  "PatchMode": "Overlay",
 		  "Target": "Maps/ElliottHouse",
@@ -275,6 +296,6 @@
 			"Entries": {
 				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Kent}}"
 			}
-		},
+		}
 	]
 }

@@ -1,9 +1,9 @@
 {
-   "Name": "[CP] Dream",
+   "Name": "[CP] Smelly Dream",
    "Author": "LenneDalben",
    "Description": "Dream event with dialog after and a map edit, for the Mod Jam.",
    "Version": "0.9.0",
-   "UniqueID": "LenneDalben.DreamEvent",
+   "UniqueID": "LenneDalben.CP.SmellyDreamEvent",
    "MinimumApiVersion": "3.9.3",
    "ContentPackFor": {
        "UniqueID": "Pathoschild.ContentPatcher",
