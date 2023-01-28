@@ -32,22 +32,15 @@
 		},
 		// Event
 		{
-			// addTemporaryActor Grandpa 1 1 -100 -100 2 true/specificTemporarySprite grandpaSpirit
-			// twinkly effect specificTemporarySprite grandpaNight
 			// Constellation, voyage, boom: wild dream player had. It was weird but people seem to know (CTs, could end most of them with %wait what). Then later a letter (!) and then a second CT, but that one is tied to an object on the map... somewhere. That object will only be there for the length of the CT
-			// have grandpa just float in from one corner of the screen and disappear into another, maybe with a speech bubble 😂 look at Lavril x Sterling's event for guidance
 			//Maybe try tying story into it? Is there an interesting / relevant event or occasion that could help trigger this
 			// map edit could fit the rotten part
-			// 2 different submarines floating by, in opposite directions... twice they pass each other... the third time, explosion? dunno if I can use an existing animation for explosion
-			// how strange
 			// then the CTs about there being a rotten smell wafting around, seems to be coming from the backwoods.
 			// player sees something there. Around it, some tiles are slippery and sap energy. you can interact with the object and it says "the smell is so awful, you worry you'll pass out.
 			// could send a letter when the CT is done but seen event, and then talk to the Wizard, who'll tell you what happened.
-			// addTemporaryActor BlueSubmarine 166 152 0 5 2 false // first move to the right (positive)
-			// addTemporaryActor YellowSubmarine 166 152 29 5 2 false // first move to the left (negative)
 			"LogName": "Smelly Dream Event",
 			"Action": "EditData",
-			"Target": "Data/Events/Farmhouse", // check with the zoom all the way out 
+			"Target": "Data/Events/Farmhouse", 
 			"Entries": {
 				"27012023/t 600 630": "none/-1000 -1000/farmer -100 -100 0/changeToTemporaryMap NightSceneMaruMap false/viewport 14 10/addConversationTopic SmellyDreamEvent_CT {{DaysTalkingAboutEvent}}/pause 3000/skippable/message \"Hmm... what's this?\"/playMusic moonlightJellies/pause 2000/addTemporaryActor BlueSubmarine 166 152 0 11 2 false/positionOffset BlueSubmarine 30 0/pause 100/positionOffset BlueSubmarine 30 0/pause 100/positionOffset BlueSubmarine 30 0/pause 100/positionOffset BlueSubmarine 30 0/pause 100/positionOffset BlueSubmarine 30 0/pause 100/positionOffset BlueSubmarine 30 0/pause 100/positionOffset BlueSubmarine 30 0/pause 100/positionOffset BlueSubmarine 30 0/pause 100/pause 1000/message \"That's... unexpected.\"/addTemporaryActor YellowSubmarine 166 152 18 11 2 false/positionOffset YellowSubmarine -30 0/pause 100/positionOffset YellowSubmarine -30 0/pause 100/positionOffset YellowSubmarine -30 0/pause 100/positionOffset YellowSubmarine -30 0/pause 100/positionOffset YellowSubmarine -30 0/pause 100/positionOffset YellowSubmarine -30 0/pause 100/positionOffset YellowSubmarine -30 0/pause 500/positionOffset BlueSubmarine 30 0/pause 100/positionOffset YellowSubmarine -30 0/positionOffset BlueSubmarine 30 0/pause 100/positionOffset YellowSubmarine -30 0/stopMusic/playSound explosion/warp BlueSubmarine -100 -100/warp YellowSubmarine -100 -100/message \"!!\"/pause 500/message \"... There's a strange smell.\"/pause 500/end"
 			}
