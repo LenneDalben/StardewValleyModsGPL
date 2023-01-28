@@ -23,6 +23,12 @@
 			"Target": "Characters/YellowSubmarine",
 			"FromFile": "assets/YellowSubmarine.png"
 		},
+		/*Loading Explosion Sprite*/ {
+			"LogName": "Loading Explosion Sprite",
+			"Action": "Load",
+			"Target": "Characters/SubExplosion",
+			"FromFile": "assets/Explosion.png"
+		},
 		// Event
 		{
 			// Constellation, voyage, boom: wild dream player had. It was weird but people seem to know (CTs, could end most of them with %wait what). Then later a letter (!) and then a second CT, but that one is tied to an object on the map... somewhere. That object will only be there for the length of the CT
@@ -35,7 +41,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/Farmhouse", 
 			"Entries": {
-				"27012023/t 600 630": "none/-1000 -1000/farmer -100 -100 0/changeToTemporaryMap NightSceneMaruMap false/viewport 14 10/addConversationTopic SmellyDreamEvent_CT {{DaysTalkingAboutEvent}}/pause 3000/skippable/message \"Hmm... what's this?\"/playMusic moonlightJellies/pause 2000/addTemporaryActor BlueSubmarine 166 152 0 11 2 false/positionOffset BlueSubmarine 30 0/pause 100/positionOffset BlueSubmarine 30 0/pause 100/positionOffset BlueSubmarine 30 0/pause 100/positionOffset BlueSubmarine 30 0/pause 100/positionOffset BlueSubmarine 30 0/pause 100/positionOffset BlueSubmarine 30 0/pause 100/positionOffset BlueSubmarine 30 0/pause 100/positionOffset BlueSubmarine 30 0/pause 100/pause 1000/message \"That's... unexpected.\"/addTemporaryActor YellowSubmarine 166 152 18 11 2 false/positionOffset YellowSubmarine -30 0/pause 100/positionOffset YellowSubmarine -30 0/pause 100/positionOffset YellowSubmarine -30 0/pause 100/positionOffset YellowSubmarine -30 0/pause 100/positionOffset YellowSubmarine -30 0/pause 100/positionOffset YellowSubmarine -30 0/pause 100/positionOffset YellowSubmarine -30 0/pause 500/positionOffset BlueSubmarine 30 0/pause 100/positionOffset YellowSubmarine -30 0/positionOffset BlueSubmarine 30 0/pause 100/positionOffset YellowSubmarine -30 0/stopMusic/playSound explosion/warp BlueSubmarine -100 -100/warp YellowSubmarine -100 -100/message \"!!\"/pause 500/message \"... There's a strange smell.\"/pause 500/end"
+				"27012023/t 600 630": "none/-1000 -1000/farmer -100 -100 0/changeToTemporaryMap NightSceneMaruMap false/viewport 14 10/addConversationTopic SmellyDreamEvent_CT {{DaysTalkingAboutEvent}}/pause 3000/skippable/message \"Hmm... what's this?\"/playMusic moonlightJellies/pause 2000/addTemporaryActor BlueSubmarine 166 152 0 11 2 false/positionOffset BlueSubmarine 30 0/pause 100/positionOffset BlueSubmarine 30 0/pause 100/positionOffset BlueSubmarine 30 0/pause 100/positionOffset BlueSubmarine 30 0/pause 100/positionOffset BlueSubmarine 30 0/pause 100/positionOffset BlueSubmarine 30 0/pause 100/positionOffset BlueSubmarine 30 0/pause 100/positionOffset BlueSubmarine 30 0/pause 100/pause 1000/message \"That's... unexpected.\"/addTemporaryActor YellowSubmarine 166 152 18 11 2 false/positionOffset YellowSubmarine -30 0/pause 100/positionOffset YellowSubmarine -30 0/pause 100/positionOffset YellowSubmarine -30 0/pause 100/positionOffset YellowSubmarine -30 0/pause 100/positionOffset YellowSubmarine -30 0/pause 100/positionOffset YellowSubmarine -30 0/pause 100/positionOffset YellowSubmarine -30 0/pause 500/positionOffset BlueSubmarine 30 0/pause 100/positionOffset YellowSubmarine -30 0/positionOffset BlueSubmarine 30 0/pause 100/positionOffset YellowSubmarine -30 0/addTemporaryActor SubExplosion 96 96 5 11 2 false/stopMusic/playSound explosion/warp BlueSubmarine -100 -100/warp YellowSubmarine -100 -100/warp SubExplosion -100 -100/message \"!!\"/pause 500/message \"... There's a strange smell.\"/pause 500/end"
 			}
 		},
 		// Map Edit, going with Backwoods. Look at dynamic map tiles for the rest of the things
@@ -54,233 +60,233 @@
 		// CTs
 		// Jas, Vincent, Abigail, Sebastian, Sam, Penny, Maru, Shane, Marnie, Jodi, Robin, Demetrius, Emily, Gus, Willy, Clint, Elliott, Leah, Haley, Alex, Lewis, Harvey, Caroline, Pierre, Evelyn, George, Kent
 		/*Jas CT*/ {
-			"LogName": "Trick or Treat CT - Jas",
+			"LogName": "Smelly Dream CT - Jas",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Jas",
 			"Entries": {
-				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Jas}}"
+				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Jas}}"
 			}
 		},
 		/*Vincent CT*/ {
-			"LogName": "Trick or Treat CT - Vincent Yes Cola Shop",
+			"LogName": "Smelly Dream CT - Vincent Yes Cola Shop",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Vincent",
 			"Entries": {
-				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Vincent_YCS}}"
+				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Vincent_YCS}}"
 			},
 			"When": {
 				"HasSeenEvent |contains=26431000": "true"
 			}
 		},
 		/*Vincent CT*/ {
-			"LogName": "Trick or Treat CT - Vincent No Cola Shop",
+			"LogName": "Smelly Dream CT - Vincent No Cola Shop",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Vincent",
 			"Entries": {
-				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Vincent_NCS}}"
+				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Vincent_NCS}}"
 			},
 			"When": {
 				"HasSeenEvent |contains=26431000": "false"
 			}
 		},
 		/*Abigail CT*/ {
-			"LogName": "Trick or Treat CT - Abigail",
+			"LogName": "Smelly Dream CT - Abigail",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Abigail",
 			"Entries": {
-				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Abigail}}"
+				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Abigail}}"
 			}
 		},
 		/*Sebastian CT*/ {
-			"LogName": "Trick or Treat CT - Sebastian",
+			"LogName": "Smelly Dream CT - Sebastian",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sebastian",
 			"Entries": {
-				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Sebastian}}"
+				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Sebastian}}"
 			}
 		},
 		/*Sam CT*/ {
-			"LogName": "Trick or Treat CT - Sam",
+			"LogName": "Smelly Dream CT - Sam",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sam",
 			"Entries": {
-				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Sam}}"
+				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Sam}}"
 			}
 		},
 		/*Penny CT*/ {
-			"LogName": "Trick or Treat CT - Penny",
+			"LogName": "Smelly Dream CT - Penny",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Penny",
 			"Entries": {
-				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Penny}}"
+				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Penny}}"
 			}
 		},
 		/*Maru CT*/ {
-			"LogName": "Trick or Treat CT - Maru",
+			"LogName": "Smelly Dream CT - Maru",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Maru",
 			"Entries": {
-				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Maru}}"
+				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Maru}}"
 			}
 		},
 		/*Shane CT*/ {
-			"LogName": "Trick or Treat CT - Shane",
+			"LogName": "Smelly Dream CT - Shane",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Shane",
 			"Entries": {
-				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Shane}}"
+				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Shane}}"
 			}
 		},
 		/*Marnie CT*/ {
-			"LogName": "Trick or Treat CT - Marnie",
+			"LogName": "Smelly Dream CT - Marnie",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Marnie",
 			"Entries": {
-				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Marnie}}"
+				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Marnie}}"
 			}
 		},
 		/*Jodi CT*/ {
-			"LogName": "Trick or Treat CT - Jodi",
+			"LogName": "Smelly Dream CT - Jodi",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Jodi",
 			"Entries": {
-				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Jodi}}"
+				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Jodi}}"
 			}
 		},
 		/*Robin CT*/ {
-			"LogName": "Trick or Treat CT - Robin",
+			"LogName": "Smelly Dream CT - Robin",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Robin",
 			"Entries": {
-				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Robin}}"
+				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Robin}}"
 			}
 		},
 		/*Demetrius CT*/ {
-			"LogName": "Trick or Treat CT - Demetrius",
+			"LogName": "Smelly Dream CT - Demetrius",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Demetrius",
 			"Entries": {
-				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Demetrius}}"
+				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Demetrius}}"
 			}
 		},
 		/*Emily CT*/ {
-			"LogName": "Trick or Treat CT - Emily",
+			"LogName": "Smelly Dream CT - Emily",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Emily",
 			"Entries": {
-				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Emily}}"
+				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Emily}}"
 			}
 		},
 		/*Gus CT*/ {
-			"LogName": "Trick or Treat CT - Gus",
+			"LogName": "Smelly Dream CT - Gus",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Gus",
 			"Entries": {
-				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Gus}}"
+				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Gus}}"
 			}
 		},
 		/*Willy CT*/ {
-			"LogName": "Trick or Treat CT - Willy",
+			"LogName": "Smelly Dream CT - Willy",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Willy",
 			"Entries": {
-				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Willy}}"
+				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Willy}}"
 			}
 		},
 		/*Clint CT*/ {
-			"LogName": "Trick or Treat CT - Clint",
+			"LogName": "Smelly Dream CT - Clint",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Clint",
 			"Entries": {
-				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Clint}}"
+				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Clint}}"
 			}
 		},
 		/*Elliott CT*/ {
-			"LogName": "Trick or Treat CT - Elliott",
+			"LogName": "Smelly Dream CT - Elliott",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Elliott",
 			"Entries": {
-				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Elliott}}"
+				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Elliott}}"
 			}
 		},
 		/*Leah CT*/ {
-			"LogName": "Trick or Treat CT - Leah",
+			"LogName": "Smelly Dream CT - Leah",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Leah",
 			"Entries": {
-				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Leah}}"
+				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Leah}}"
 			}
 		},
 		/*Haley CT*/ {
-			"LogName": "Trick or Treat CT - Haley",
+			"LogName": "Smelly Dream CT - Haley",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Haley",
 			"Entries": {
-				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Haley}}"
+				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Haley}}"
 			}
 		},
 		/*Alex CT*/ {
-			"LogName": "Trick or Treat CT - Alex",
+			"LogName": "Smelly Dream CT - Alex",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Alex",
 			"Entries": {
-				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Alex}}"
+				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Alex}}"
 			}
 		},
 		/*Lewis CT*/ {
-			"LogName": "Trick or Treat CT - Lewis",
+			"LogName": "Smelly Dream CT - Lewis",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Lewis",
 			"Entries": {
-				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Lewis}}"
+				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Lewis}}"
 			}
 		},
 		/*Harvey CT*/ {
-			"LogName": "Trick or Treat CT - Harvey",
+			"LogName": "Smelly Dream CT - Harvey",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Harvey",
 			"Entries": {
-				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Harvey}}"
+				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Harvey}}"
 			}
 		},
 		/*Caroline CT*/ {
-			"LogName": "Trick or Treat CT - Caroline",
+			"LogName": "Smelly Dream CT - Caroline",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Caroline",
 			"Entries": {
-				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Caroline}}"
+				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Caroline}}"
 			}
 		},
 		/*Pierre CT*/ {
-			"LogName": "Trick or Treat CT - Pierre",
+			"LogName": "Smelly Dream CT - Pierre",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Pierre",
 			"Entries": {
-				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Pierre}}"
+				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Pierre}}"
 			}
 		},
 		/*Evelyn CT*/ {
-			"LogName": "Trick or Treat CT - Evelyn",
+			"LogName": "Smelly Dream CT - Evelyn",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Evelyn",
 			"Entries": {
-				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Evelyn}}"
+				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Evelyn}}"
 			}
 		},
 		/*George CT*/ {
-			"LogName": "Trick or Treat CT - George",
+			"LogName": "Smelly Dream CT - George",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/George",
 			"Entries": {
-				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_George}}"
+				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_George}}"
 			}
 		},
 		/*Kent CT*/ {
-			"LogName": "Trick or Treat CT - Kent",
+			"LogName": "Smelly Dream CT - Kent",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Kent",
 			"Entries": {
-				"TrickorTreatEvent_CT": "{{i18n:TrickorTreatEvent_CT_Kent}}"
+				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Kent}}"
 			}
 		}
 	]
