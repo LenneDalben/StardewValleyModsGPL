@@ -75,25 +75,27 @@
 			"Action": "EditData",
             "Target": "aedenthorn.DynamicMapTiles/dictionary",
 			"Entries": {
-            "LenneDalben.SlipperyTiles": {
-				"locations": [
-					"Backwoods"
-				],
-				"layers": [
-					"Back"
-				],
-				"rectangles": [
-					{
-					"X": 13,
-					"Y": 25,
-					"Width": 1,
-					"Height": 1
+				"LenneDalben.CP.SmellyDreamEvent": {
+					"locations": [
+						"Backwoods"
+					],
+					"layers": [
+						"Back"
+					],
+					"rectangles": [
+						{
+						"X": 13,
+						"Y": 23,
+						"Width": 3,
+						"Height": 4
+						}
+					],
+					"properties": {
+						"DMT/slippery": "0.25",
+						"DMT/staminaPerSecond": -3,
+						"DMT/buffOn": "25"
 					}
-				],
-				"properties": {
-					"DMT/slippery": "0.25"
-				}
-			},
+				},
 			"When": {
 				"HasConversationTopic": "SmellyDreamEvent_CT",
 				"HasMod |contains=aedenthorn.DynamicMapTiles": "true"
