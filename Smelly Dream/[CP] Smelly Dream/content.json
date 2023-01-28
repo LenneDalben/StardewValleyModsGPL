@@ -54,8 +54,18 @@
 			"PatchMode": "Overlay",
 			"Target": "Maps/Backwoods",
 			"FromFile": "assets/Backwoods - Sus.tmx",
-			"FromArea": { "X": 14, "Y": 24, "Width": 2, "Height": 2 },
-			"ToArea":  { "X": 14, "Y": 24, "Width": 2, "Height": 2 },
+			"FromArea": {
+				"X": 14,
+				"Y": 24,
+				"Width": 2,
+				"Height": 2
+			},
+			"ToArea": {
+				"X": 14,
+				"Y": 24,
+				"Width": 2,
+				"Height": 2
+			},
 			"When": {
 				"HasConversationTopic": "SmellyDreamEvent_CT"
 			}
@@ -67,13 +77,16 @@
 			"Target": "Strings/StringsFromMaps",
 			"Entries": {
 				"SuspiciousMassMessage.01": "{{i18n:SuspiciousMassMessage.01.String}}"
+			},
+			"When": {
+				"HasConversationTopic": "SmellyDreamEvent_CT"
 			}
 		},
 		// Dynamic Map Tiles
 		{
-            "LogName": "Smelly Dream Dynamic Map Tiles Patch",
+			"LogName": "Smelly Dream Dynamic Map Tiles Patch",
 			"Action": "EditData",
-            "Target": "aedenthorn.DynamicMapTiles/dictionary",
+			"Target": "aedenthorn.DynamicMapTiles/dictionary",
 			"Entries": {
 				"LenneDalben.CP.SmellyDreamEvent": {
 					"locations": [
@@ -84,10 +97,10 @@
 					],
 					"rectangles": [
 						{
-						"X": 13,
-						"Y": 23,
-						"Width": 3,
-						"Height": 4
+							"X": 13,
+							"Y": 23,
+							"Width": 3,
+							"Height": 4
 						}
 					],
 					"properties": {
@@ -96,12 +109,12 @@
 						"DMT/buffOn": "25"
 					}
 				},
-			"When": {
-				"HasConversationTopic": "SmellyDreamEvent_CT",
-				"HasMod |contains=aedenthorn.DynamicMapTiles": "true"
+				"When": {
+					"HasConversationTopic": "SmellyDreamEvent_CT",
+					"HasMod |contains=aedenthorn.DynamicMapTiles": "true"
+				}
 			}
-		}
-	},
+		},
 		// CTs
 		// For the CTs, could have some people being like, I think you're a little off for thinking a weird dream you had is real
 		// Then others might say well, something odd did seem to pop up in the backwoods
