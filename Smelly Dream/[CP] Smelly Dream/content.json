@@ -54,8 +54,8 @@
 			"PatchMode": "Overlay",
 			"Target": "Maps/Backwoods",
 			"FromFile": "assets/Backwoods - Sus.tmx",
-			"FromArea": { "X": 13, "Y": 23, "Width": 2, "Height": 2 },
-			"ToArea":  { "X": 13, "Y": 23, "Width": 2, "Height": 2 },
+			"FromArea": { "X": 14, "Y": 24, "Width": 2, "Height": 2 },
+			"ToArea":  { "X": 14, "Y": 24, "Width": 2, "Height": 2 },
 			"When": {
 				"HasConversationTopic": "SmellyDreamEvent_CT"
 			}
