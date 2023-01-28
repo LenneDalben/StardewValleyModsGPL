@@ -66,7 +66,7 @@
 			"Action": "EditData",
 			"Target": "Strings/StringsFromMaps",
 			"Entries": {
-				"SuspiciousMassMessage.01": "The smell is so awful, you worry you'll pass out."
+				"SuspiciousMassMessage.01": "The rotten smell is so awful, you worry you'll pass out."
 			}
 		},
 		// CTs

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="50" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="7">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="50" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="10">
  <properties>
   <property name="Outdoors" type="bool" value="true"/>
   <property name="Warp" value="50 11 Mountain 0 13 50 12 Mountain 0 13 50 13 Mountain 0 13 50 14 Mountain 0 13 50 15 Mountain 0 13 50 16 Mountain 0 13 50 16 Mountain 0 13 13 40 Farm 40 0 14 40 Farm 40 0 15 40 Farm 40 0 50 28 BusStop 0 8 50 29 BusStop 0 8 50 30 BusStop 0 8 50 31 BusStop 0 8 50 32 BusStop 0 8 22 29 Tunnel 39 9 22 30 Tunnel 39 9 22 31 Tunnel 39 9 22 32 Tunnel 39 9"/>
@@ -1578,7 +1578,7 @@
  </layer>
  <objectgroup id="6" name="Back"/>
  <objectgroup id="7" name="Buildings">
-  <object id="6" name="TileData" x="223.095" y="382.609" width="36.9091" height="33.2727">
+  <object id="6" name="TileData" x="223.501" y="384.445" width="32.1591" height="31.9359">
    <properties>
     <property name="Action" value="Message &quot;SuspiciousMassMessage.01&quot;"/>
    </properties>
