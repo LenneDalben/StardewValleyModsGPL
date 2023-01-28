@@ -18,7 +18,7 @@ Wake up at the farmhouse.
 
 Config Option
 
-* DaysTalkingAboutEvent: By default, after the dream event, the villagers will talk about it for 7 days. If you'd like to reduce how long people talk about the event for, or make them talk about it even longer, you can! You can select a number between 1 day and 28 days for the days people will talk about the event.
+* DaysTalkingAboutEvent: By default, after the dream event, the villagers will talk about it for 4 days. If you'd like to reduce how long people talk about the event for, or make them talk about it even longer, you can! You can select a number between 1 day and 28 days for the days people will talk about the event.
 
 Note that the mod does not come packaged with a config file. The config file will be generated after you run the game with the mod installed at least once. 
 

@@ -3,7 +3,7 @@
   //
   // DaysTalkingAboutEvent
   "config.DaysTalkingAboutEvent.name": "DaysTalkingAboutEvent",
-  "config.DaysTalkingAboutEvent.description": "By default, after the trick or treat event, the villagers will talk about it for 7 days. If you'd like to reduce how long people talk about the event for, or make them talk about it even longer, you can! You can select a number between 1 day and 28 days for the days people will talk about the event.",
+  "config.DaysTalkingAboutEvent.description": "By default, after the trick or treat event, the villagers will talk about it for 4 days. If you'd like to reduce how long people talk about the event for, or make them talk about it even longer, you can! You can select a number between 1 day and 28 days for the days people will talk about the event.",
   "config.DaysTalkingAboutEvent.values.1": "1",
   "config.DaysTalkingAboutEvent.values.2": "2",
   "config.DaysTalkingAboutEvent.values.3": "3",
