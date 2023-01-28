@@ -91,7 +91,7 @@
 						}
 					],
 					"properties": {
-						"DMT/slippery": "0.25",
+						"DMT/slippery": "0.5",
 						"DMT/staminaPerSecond": -3,
 						"DMT/buffOn": "25"
 					}
