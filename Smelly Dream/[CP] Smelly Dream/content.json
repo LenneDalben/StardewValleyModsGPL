@@ -72,22 +72,34 @@
 		// Dynamic Map Tiles
 		{
             "LogName": "Smelly Dream Dynamic Map Tiles Patch",
-			"Action": "EditMap",
-            "Target": "Maps/Backwoods",
-            "MapTiles": [
-                {
-                    "Position": { "X": 13, "Y": 25 },
-                    "Layer": "Back",
-                    "SetProperties": {
-                        "DMT/slippery": "0.25"
-                    }
-                }
-            ],
+			"Action": "EditData",
+            "Target": "aedenthorn.DynamicMapTiles/dictionary",
+			"Entries": {
+            "LenneDalben.SlipperyTiles": {
+				"locations": [
+					"Backwoods"
+				],
+				"layers": [
+					"Back"
+				],
+				"rectangles": [
+					{
+					"X": 13,
+					"Y": 25,
+					"Width": 1,
+					"Height": 1
+					}
+				],
+				"properties": {
+					"DMT/slippery": "0.25"
+				}
+			},
 			"When": {
 				"HasConversationTopic": "SmellyDreamEvent_CT",
 				"HasMod |contains=aedenthorn.DynamicMapTiles": "true"
 			}
-        },
+		}
+	},
 		// CTs
 		// For the CTs, could have some people being like, I think you're a little off for thinking a weird dream you had is real
 		// Then others might say well, something odd did seem to pop up in the backwoods
