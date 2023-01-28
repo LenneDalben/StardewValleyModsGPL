@@ -53,7 +53,7 @@
   //
   // Edit Penny 8 Heart Event
   "config.EditPenny8HeartEvent.name": "EditPenny8HeartEvent",
-  "config.EditPenny8HeartEvent.description": "The first question in Penny's 8 heart event is tweaked to include a reference to the lessons. Default is true. This edit is compatible with atravita's Penny 8 Heart Event Adjusted, Hanatsuki's Gender Neutrality Mod, and Hanatsuki's Fix Dialog Differences. Set this to false if you have another mod that edits Penny's 8 heart event.",
+  "config.EditPenny8HeartEvent.description": "The first question in Penny's 8 heart event is tweaked to include a reference to the lessons. Default is true. This edit is compatible with atravita's Penny 8 Heart Event Adjusted, Hanatsuki's Gender Neutrality Mod, Hanatsuki's Fix Dialog Differences, Not a Farmer - Job Title Replacer, and Villager Name Replacer. Set this to false if you have another mod that edits Penny's 8 heart event.",
   "config.EditPenny8HeartEvent.values.true": "true",
   "config.EditPenny8HeartEvent.values.false": "false",
   //

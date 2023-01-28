@@ -8,5 +8,19 @@
    "ContentPackFor": {
        "UniqueID": "Pathoschild.ContentPatcher",
 	   "MinimumVersion": "1.21.0"
-    }
+    },
+    "Dependencies": [
+        {
+            "UniqueID": "drowsyprince.NotAFarmer",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "Hana.GenderNeutralityMod",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "Apollyon.VillagerNameReplacerVanilla",
+            "IsRequired": false
+        }
+    ]
 }
