@@ -36,6 +36,7 @@
 			// map edit could fit the rotten part
 			// then the CTs about there being a rotten smell wafting around, seems to be coming from the backwoods.
 			// player sees something there. Around it, some tiles are slippery and sap energy. you can interact with the object and it says "the smell is so awful, you worry you'll pass out.
+			// center it on 14 25. Haven't decided the size of that thing, but you can put it on up to 6 squares (6*16 is a lot of pixels to work with). Then have a 1 tile radius around it for the slippery / health drain, and the tile action on it having a rotten smell.
 			// could send a letter when the CT is done but seen event, and then talk to the Wizard, who'll tell you what happened.
 			// for the bigger explosion: addTemporaryActor SubExplosion 332 166 4 12 2 false
 			"LogName": "Smelly Dream Event",
