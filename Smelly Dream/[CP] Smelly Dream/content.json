@@ -128,25 +128,11 @@
 			}
 		},
 		/*Vincent CT*/ {
-			"LogName": "Smelly Dream CT - Vincent Yes Cola Shop",
+			"LogName": "Smelly Dream CT - Vincent",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Vincent",
 			"Entries": {
-				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Vincent_YCS}}"
-			},
-			"When": {
-				"HasSeenEvent |contains=26431000": "true"
-			}
-		},
-		/*Vincent CT*/ {
-			"LogName": "Smelly Dream CT - Vincent No Cola Shop",
-			"Action": "EditData",
-			"Target": "Characters/Dialogue/Vincent",
-			"Entries": {
-				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Vincent_NCS}}"
-			},
-			"When": {
-				"HasSeenEvent |contains=26431000": "false"
+				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Vincent}}"
 			}
 		},
 		/*Abigail CT*/ {
