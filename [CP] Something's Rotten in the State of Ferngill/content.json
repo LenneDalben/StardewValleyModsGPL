@@ -234,7 +234,7 @@
 			"Action": "EditData",
 			"Target": "Data/mail",
 			"Entries": {
-				"SomethingRotteninFerngillLetter_Wizard": "{{i18n:SomethingRotteninFerngillLetter_Wizard.01}} [letterbg 1]%%[#]{{i18n:SomethingRotteninFerngillLetter_Wizard.02}}" 
+				"SomethingRotteninFerngillLetter_Wizard": "{{i18n:SomethingRotteninFerngillLetter_Wizard.01}} [letterbg 2]%%[#]{{i18n:SomethingRotteninFerngillLetter_Wizard.02}}"
 			},
 			"When": {
 				"HasSeenEvent": "270120231",
@@ -247,7 +247,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/WizardHouse",
 			"Entries": {
-				"270120232/n SomethingRotteninFerngillLetter_Wizard": "none/-1000 -1000/farmer -100 -100 0/changeToTemporaryMap NightSceneMaruMap false/viewport 14 10/pause 2000/skippable/pause 500/end"
+				"270120232/n SomethingRotteninFerngillLetter_Wizard": "none/-1000 -1000/farmer -100 -100 0/viewport 14 10/pause 2000/skippable/pause 500/end"
 			}
 		},
 	]
