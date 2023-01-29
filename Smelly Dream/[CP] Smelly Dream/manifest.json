@@ -1,9 +1,9 @@
 {
-   "Name": "[CP] Smelly Dream",
+   "Name": "[CP] Something's Rotten in the State of Ferngill",
    "Author": "LenneDalben",
-   "Description": "Dream event with dialog after and a map edit, for the Mod Jam.",
+   "Description": "Dream event with dialog after, a map edit, and a resolution event, for the Mod Jam.",
    "Version": "0.9.0",
-   "UniqueID": "LenneDalben.CP.SmellyDreamEvent",
+   "UniqueID": "LenneDalben.CP.SomethingRotteninFerngill",
    "MinimumApiVersion": "3.9.3",
    "ContentPackFor": {
        "UniqueID": "Pathoschild.ContentPatcher",

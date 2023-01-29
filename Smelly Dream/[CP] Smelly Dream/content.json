@@ -31,20 +31,20 @@
 			"Target": "Characters/SubExplosion",
 			"FromFile": "assets/Explosion.png"
 		},
-		// Event
+		// Initial Event
 		{
 			// for the bigger explosion: addTemporaryActor SubExplosion 332 166 4 12 2 false
 			// for the smaller explosion addTemporaryActor SubExplosion 96 96 11 11 2 false
-			"LogName": "Smelly Dream Event",
+			"LogName": "Something Rotten in Ferngill Initial Event",
 			"Action": "EditData",
 			"Target": "Data/Events/Farmhouse",
 			"Entries": {
-				"270120231/t 600 630": "none/-1000 -1000/farmer -100 -100 0/changeToTemporaryMap NightSceneMaruMap false/viewport 14 10/addConversationTopic SmellyDreamEvent_CT {{DaysTalkingAboutEvent}}/pause 3000/skippable/message \"{{i18n:event-270120231.01}}\"/playMusic moonlightJellies/pause 2000/addTemporaryActor BlueSubmarine 166 152 0 11 2 false/positionOffset BlueSubmarine 30 0/pause 800/positionOffset BlueSubmarine 30 0/pause 800/positionOffset BlueSubmarine 30 0/pause 800/positionOffset BlueSubmarine 30 0/pause 800/positionOffset BlueSubmarine 30 0/pause 800/positionOffset BlueSubmarine 30 0/pause 800/positionOffset BlueSubmarine 30 0/pause 800/positionOffset BlueSubmarine 30 0/pause 500/pause 1000/message \"{{i18n:event-270120231.02}}\"/pause 1500/addTemporaryActor YellowSubmarine 166 152 18 11 2 false/positionOffset YellowSubmarine -30 0/pause 800/positionOffset YellowSubmarine -30 0/pause 800/positionOffset YellowSubmarine -30 0/pause 800/positionOffset YellowSubmarine -30 0/pause 800/positionOffset YellowSubmarine -30 0/pause 800/positionOffset YellowSubmarine -30 0/pause 800/positionOffset YellowSubmarine -30 0/pause 800/positionOffset BlueSubmarine 30 0/pause 800/positionOffset YellowSubmarine -30 0/positionOffset BlueSubmarine 30 0/pause 800/positionOffset YellowSubmarine -30 0/addTemporaryActor SubExplosion 332 166 4 12 2 false/stopMusic/playSound explosion/warp BlueSubmarine -100 -100/warp YellowSubmarine -100 -100/pause 800/warp SubExplosion -100 -100/message \"{{i18n:event-270120231.03}}\"/pause 500/message \"{{i18n:event-270120231.04}}\"/pause 500/fade/viewport -1000 -1000/message \"{{i18n:event-270120231.05}}\"/end"
+				"270120231/t 600 630": "none/-1000 -1000/farmer -100 -100 0/changeToTemporaryMap NightSceneMaruMap false/viewport 14 10/addConversationTopic SomethingRotteninFerngill_CT {{DaysTalkingAboutEvent}}/pause 3000/skippable/message \"{{i18n:event-270120231.01}}\"/playMusic moonlightJellies/pause 2000/addTemporaryActor BlueSubmarine 166 152 0 11 2 false/positionOffset BlueSubmarine 30 0/pause 800/positionOffset BlueSubmarine 30 0/pause 800/positionOffset BlueSubmarine 30 0/pause 800/positionOffset BlueSubmarine 30 0/pause 800/positionOffset BlueSubmarine 30 0/pause 800/positionOffset BlueSubmarine 30 0/pause 800/positionOffset BlueSubmarine 30 0/pause 800/positionOffset BlueSubmarine 30 0/pause 500/pause 1000/message \"{{i18n:event-270120231.02}}\"/pause 1500/addTemporaryActor YellowSubmarine 166 152 18 11 2 false/positionOffset YellowSubmarine -30 0/pause 800/positionOffset YellowSubmarine -30 0/pause 800/positionOffset YellowSubmarine -30 0/pause 800/positionOffset YellowSubmarine -30 0/pause 800/positionOffset YellowSubmarine -30 0/pause 800/positionOffset YellowSubmarine -30 0/pause 800/positionOffset YellowSubmarine -30 0/pause 800/positionOffset BlueSubmarine 30 0/pause 800/positionOffset YellowSubmarine -30 0/positionOffset BlueSubmarine 30 0/pause 800/positionOffset YellowSubmarine -30 0/addTemporaryActor SubExplosion 332 166 4 12 2 false/stopMusic/playSound explosion/warp BlueSubmarine -100 -100/warp YellowSubmarine -100 -100/pause 800/warp SubExplosion -100 -100/message \"{{i18n:event-270120231.03}}\"/pause 500/message \"{{i18n:event-270120231.04}}\"/pause 500/fade/viewport -1000 -1000/message \"{{i18n:event-270120231.05}}\"/end"
 			}
 		},
 		// Map
 		{
-			"LogName": "Smelly Dream Map Patch",
+			"LogName": "Something Rotten in Ferngill Map Patch",
 			"Action": "EditMap",
 			"PatchMode": "Overlay",
 			"Target": "Maps/Backwoods",
@@ -62,7 +62,7 @@
 				"Height": 2
 			},
 			"When": {
-				"HasConversationTopic": "SmellyDreamEvent_CT"
+				"HasConversationTopic": "SomethingRotteninFerngill_CT"
 			}
 		},
 		//Strings from Maps
@@ -74,16 +74,16 @@
 				"SuspiciousMassMessage.01": "{{i18n:SuspiciousMassMessage.01.String}}"
 			},
 			"When": {
-				"HasConversationTopic": "SmellyDreamEvent_CT"
+				"HasConversationTopic": "SomethingRotteninFerngill_CT"
 			}
 		},
 		// Dynamic Map Tiles
 		{
-			"LogName": "Smelly Dream Dynamic Map Tiles Patch",
+			"LogName": "Something Rotten in Ferngill Dynamic Map Tiles Patch",
 			"Action": "EditData",
 			"Target": "aedenthorn.DynamicMapTiles/dictionary",
 			"Entries": {
-				"LenneDalben.CP.SmellyDreamEvent": {
+				"LenneDalben.CP.SomethingRotteninFerngill": {
 					"locations": [
 						"Backwoods"
 					],
@@ -105,252 +105,150 @@
 					}
 				},
 				"When": {
-					"HasConversationTopic": "SmellyDreamEvent_CT",
-					"HasMod |contains=aedenthorn.DynamicMapTiles": "true"
+					"HasConversationTopic": "SomethingRotteninFerngill_CT",
+					"HasMod |contains=aedenthorn.DynamicMapTiles": true
 				}
 			}
 		},
 		// CTs
-		// then the CTs about there being a rotten smell wafting around, seems to be coming from the backwoods.
-		// could send a letter when the CT is done but seen event, and then talk to the Wizard, who'll tell you what happened.
-		// For the CTs, could have some people being like, I think you're a little off for thinking a weird dream you had is real
-		// Then others might say well, something odd did seem to pop up in the backwoods
-		// - Need to establish who would have inspected it
-		// People complain about the smell: specifically Robin, Demetrius, Maru, Sebastian, and Linus, since they're closest. Pam if you unlocked the bus stop
-		// Letter from wizard telling you to come see him. Then event for him explaining it seemed extra terrestrial and he... Took care of it. In another dimension. Not for you to worry.
-		// The letter could say something by about a prophetic dream 
-		// Jas, Vincent, Abigail, Sebastian, Sam, Penny, Maru, Shane, Marnie, Jodi, Robin, Demetrius, Emily, Gus, Willy, Clint, Elliott, Leah, Haley, Alex, Lewis, Harvey, Caroline, Pierre, Evelyn, George, Kent
-		/*Jas CT*/ {
-			"LogName": "Smelly Dream CT - Jas",
-			"Action": "EditData",
-			"Target": "Characters/Dialogue/Jas",
-			"Entries": {
-				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Jas}}"
-			}
-		},
-		/*Vincent CT*/ {
-			"LogName": "Smelly Dream CT - Vincent",
-			"Action": "EditData",
-			"Target": "Characters/Dialogue/Vincent",
-			"Entries": {
-				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Vincent}}"
-			}
-		},
+		// Abigail, Sebastian, Sam, Penny, Maru, Robin, Demetrius, Emily, Harvey, Caroline, Pierre, Wizard, Pam (if you unlocked bus stop)
 		/*Abigail CT*/ {
-			"LogName": "Smelly Dream CT - Abigail",
+			"LogName": "Something Rotten in Ferngill CT - Abigail",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Abigail",
 			"Entries": {
-				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Abigail}}"
+				"SomethingRotteninFerngill_CT": "{{i18n:SomethingRotteninFerngill_CT_Abigail}}"
 			}
 		},
 		/*Sebastian CT*/ {
-			"LogName": "Smelly Dream CT - Sebastian",
+			"LogName": "Something Rotten in Ferngill CT - Sebastian",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sebastian",
 			"Entries": {
-				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Sebastian}}"
+				"SomethingRotteninFerngill_CT": "{{i18n:SomethingRotteninFerngill_CT_Sebastian}}"
 			}
 		},
 		/*Sam CT*/ {
-			"LogName": "Smelly Dream CT - Sam",
+			"LogName": "Something Rotten in Ferngill CT - Sam",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sam",
 			"Entries": {
-				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Sam}}"
+				"SomethingRotteninFerngill_CT": "{{i18n:SomethingRotteninFerngill_CT_Sam}}"
 			}
 		},
 		/*Penny CT*/ {
-			"LogName": "Smelly Dream CT - Penny",
+			"LogName": "Something Rotten in Ferngill CT - Penny",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Penny",
 			"Entries": {
-				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Penny}}"
+				"SomethingRotteninFerngill_CT": "{{i18n:SomethingRotteninFerngill_CT_Penny}}"
 			}
 		},
 		/*Maru CT*/ {
-			"LogName": "Smelly Dream CT - Maru",
+			"LogName": "Something Rotten in Ferngill CT - Maru",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Maru",
 			"Entries": {
-				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Maru}}"
-			}
-		},
-		/*Shane CT*/ {
-			"LogName": "Smelly Dream CT - Shane",
-			"Action": "EditData",
-			"Target": "Characters/Dialogue/Shane",
-			"Entries": {
-				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Shane}}"
-			}
-		},
-		/*Marnie CT*/ {
-			"LogName": "Smelly Dream CT - Marnie",
-			"Action": "EditData",
-			"Target": "Characters/Dialogue/Marnie",
-			"Entries": {
-				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Marnie}}"
-			}
-		},
-		/*Jodi CT*/ {
-			"LogName": "Smelly Dream CT - Jodi",
-			"Action": "EditData",
-			"Target": "Characters/Dialogue/Jodi",
-			"Entries": {
-				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Jodi}}"
+				"SomethingRotteninFerngill_CT": "{{i18n:SomethingRotteninFerngill_CT_Maru}}"
 			}
 		},
 		/*Robin CT*/ {
-			"LogName": "Smelly Dream CT - Robin",
+			"LogName": "Something Rotten in Ferngill CT - Robin",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Robin",
 			"Entries": {
-				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Robin}}"
+				"SomethingRotteninFerngill_CT": "{{i18n:SomethingRotteninFerngill_CT_Robin}}"
 			}
 		},
 		/*Demetrius CT*/ {
-			"LogName": "Smelly Dream CT - Demetrius",
+			"LogName": "Something Rotten in Ferngill CT - Demetrius",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Demetrius",
 			"Entries": {
-				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Demetrius}}"
+				"SomethingRotteninFerngill_CT": "{{i18n:SomethingRotteninFerngill_CT_Demetrius}}"
 			}
 		},
 		/*Linus CT*/ {
-			"LogName": "Smelly Dream CT - Linus",
+			"LogName": "Something Rotten in Ferngill CT - Linus",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Linus",
 			"Entries": {
-				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Linus}}"
+				"SomethingRotteninFerngill_CT": "{{i18n:SomethingRotteninFerngill_CT_Linus}}"
 			}
 		},
 		/*Emily CT*/ {
-			"LogName": "Smelly Dream CT - Emily",
+			"LogName": "Something Rotten in Ferngill CT - Emily",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Emily",
 			"Entries": {
-				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Emily}}"
-			}
-		},
-		/*Gus CT*/ {
-			"LogName": "Smelly Dream CT - Gus",
-			"Action": "EditData",
-			"Target": "Characters/Dialogue/Gus",
-			"Entries": {
-				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Gus}}"
-			}
-		},
-		/*Willy CT*/ {
-			"LogName": "Smelly Dream CT - Willy",
-			"Action": "EditData",
-			"Target": "Characters/Dialogue/Willy",
-			"Entries": {
-				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Willy}}"
-			}
-		},
-		/*Clint CT*/ {
-			"LogName": "Smelly Dream CT - Clint",
-			"Action": "EditData",
-			"Target": "Characters/Dialogue/Clint",
-			"Entries": {
-				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Clint}}"
-			}
-		},
-		/*Elliott CT*/ {
-			"LogName": "Smelly Dream CT - Elliott",
-			"Action": "EditData",
-			"Target": "Characters/Dialogue/Elliott",
-			"Entries": {
-				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Elliott}}"
-			}
-		},
-		/*Leah CT*/ {
-			"LogName": "Smelly Dream CT - Leah",
-			"Action": "EditData",
-			"Target": "Characters/Dialogue/Leah",
-			"Entries": {
-				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Leah}}"
-			}
-		},
-		/*Haley CT*/ {
-			"LogName": "Smelly Dream CT - Haley",
-			"Action": "EditData",
-			"Target": "Characters/Dialogue/Haley",
-			"Entries": {
-				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Haley}}"
-			}
-		},
-		/*Alex CT*/ {
-			"LogName": "Smelly Dream CT - Alex",
-			"Action": "EditData",
-			"Target": "Characters/Dialogue/Alex",
-			"Entries": {
-				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Alex}}"
-			}
-		},
-		/*Lewis CT*/ {
-			"LogName": "Smelly Dream CT - Lewis",
-			"Action": "EditData",
-			"Target": "Characters/Dialogue/Lewis",
-			"Entries": {
-				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Lewis}}"
+				"SomethingRotteninFerngill_CT": "{{i18n:SomethingRotteninFerngill_CT_Emily}}"
 			}
 		},
 		/*Harvey CT*/ {
-			"LogName": "Smelly Dream CT - Harvey",
+			"LogName": "Something Rotten in Ferngill CT - Harvey",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Harvey",
 			"Entries": {
-				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Harvey}}"
+				"SomethingRotteninFerngill_CT": "{{i18n:SomethingRotteninFerngill_CT_Harvey}}"
 			}
 		},
 		/*Caroline CT*/ {
-			"LogName": "Smelly Dream CT - Caroline",
+			"LogName": "Something Rotten in Ferngill CT - Caroline",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Caroline",
 			"Entries": {
-				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Caroline}}"
+				"SomethingRotteninFerngill_CT": "{{i18n:SomethingRotteninFerngill_CT_Caroline}}"
 			}
 		},
 		/*Pierre CT*/ {
-			"LogName": "Smelly Dream CT - Pierre",
+			"LogName": "Something Rotten in Ferngill CT - Pierre",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Pierre",
 			"Entries": {
-				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Pierre}}"
-			}
-		},
-		/*Evelyn CT*/ {
-			"LogName": "Smelly Dream CT - Evelyn",
-			"Action": "EditData",
-			"Target": "Characters/Dialogue/Evelyn",
-			"Entries": {
-				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Evelyn}}"
-			}
-		},
-		/*George CT*/ {
-			"LogName": "Smelly Dream CT - George",
-			"Action": "EditData",
-			"Target": "Characters/Dialogue/George",
-			"Entries": {
-				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_George}}"
-			}
-		},
-		/*Kent CT*/ {
-			"LogName": "Smelly Dream CT - Kent",
-			"Action": "EditData",
-			"Target": "Characters/Dialogue/Kent",
-			"Entries": {
-				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Kent}}"
+				"SomethingRotteninFerngill_CT": "{{i18n:SomethingRotteninFerngill_CT_Pierre}}"
 			}
 		},
 		/*Wizard CT*/ {
-			"LogName": "Smelly Dream CT - Wizard",
+			"LogName": "Something Rotten in Ferngill CT - Wizard",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Wizard",
 			"Entries": {
-				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Wizard}}"
+				"SomethingRotteninFerngill_CT": "{{i18n:SomethingRotteninFerngill_CT_Wizard}}"
 			}
-		}
+		},
+		/*Pam CT*/ {
+			"LogName": "Something Rotten in Ferngill CT - Pam",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Pam",
+			"Entries": {
+				"SomethingRotteninFerngill_CT": "{{i18n:SomethingRotteninFerngill_CT_Pam}}"
+			},
+			"When": {
+				"HasFlag |contains=ccVault, jojaVault": true
+			}
+		},
+		// Letter
+		// Then event for him explaining it seemed extra terrestrial and he... Took care of it. In another dimension. Not for you to worry.
+		{
+			"LogName": "Something Rotten in Ferngill Letter",
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				"SomethingRotteninFerngillLetter_Wizard": "{{i18n:SomethingRotteninFerngillLetter_Wizard.01}} [letterbg 1]%%[#]{{i18n:SomethingRotteninFerngillLetter_Wizard.02}}" 
+			},
+			"When": {
+				"HasSeenEvent": "270120231",
+				"HasConversationTopic |contains=SomethingRotteninFerngill_CT": false
+			}
+		},
+		// Wrap Up Event
+		{
+			"LogName": "Something Rotten in Ferngill Wrap Up Event",
+			"Action": "EditData",
+			"Target": "Data/Events/WizardHouse",
+			"Entries": {
+				"270120232/n SomethingRotteninFerngillLetter_Wizard": "none/-1000 -1000/farmer -100 -100 0/changeToTemporaryMap NightSceneMaruMap false/viewport 14 10/pause 2000/skippable/pause 500/end"
+			}
+		},
 	]
 }

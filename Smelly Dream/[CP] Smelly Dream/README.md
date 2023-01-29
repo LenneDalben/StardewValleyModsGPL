@@ -1,4 +1,4 @@
-# (CP) Dream
+# (CP) Something's Rotten in the State of Ferngill
 
 TBD
 
@@ -9,9 +9,9 @@ My submission to the Mod Jam!
 Translations are welcome! You can submit either the language.json to me or the strings in another language for all the strings and I will incorporate it into the mod. See more information on the <a href="https://stardewvalleywiki.com/Modding:Translations">wiki</a>.
 
 
-||How to trigger the event||
+||How to progress||
 
-Wake up at the farmhouse.
+Wake up at the farmhouse to trigger the event. Then, talk to Abigail, Sebastian, Sam, Penny, Maru, Robin, Demetrius, Emily, Harvey, Caroline, Pierre, Wizard, and Pam (if you unlocked bus stop), then visit where they say to visit. You'll receive a letter after the number of days on the DaysTalkingAboutEvent config setting. Follow the instructions to see the wrap up.
 
 
 ||Configuration||
