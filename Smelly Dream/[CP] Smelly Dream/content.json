@@ -215,6 +215,14 @@
 				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Demetrius}}"
 			}
 		},
+		/*Linus CT*/ {
+			"LogName": "Smelly Dream CT - Linus",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Linus",
+			"Entries": {
+				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Linus}}"
+			}
+		},
 		/*Emily CT*/ {
 			"LogName": "Smelly Dream CT - Emily",
 			"Action": "EditData",
@@ -333,6 +341,14 @@
 			"Target": "Characters/Dialogue/Kent",
 			"Entries": {
 				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Kent}}"
+			}
+		},
+		/*Wizard CT*/ {
+			"LogName": "Smelly Dream CT - Wizard",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			"Entries": {
+				"SmellyDreamEvent_CT": "{{i18n:SmellyDreamEvent_CT_Wizard}}"
 			}
 		}
 	]
