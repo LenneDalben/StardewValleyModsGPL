@@ -4,14 +4,14 @@ A strange dream appears to be real... talk with the villagers to investigate.
 
 ||Background||
 
-My submission to the Stardew Valley Mod Jam! The theme was to incorporate: slippery, boom, voyage, rotten, and constlelation in some way.
+My submission to the Stardew Valley Mod Jam! The theme was to incorporate 3 of these 5 elements in some way: slippery, boom, voyage, rotten, and constellation.
 
 Translations are welcome! You can submit either the language.json to me or the strings in another language for all the strings and I will incorporate it into the mod. See more information on the <a href="https://stardewvalleywiki.com/Modding:Translations">wiki</a>.
 
 
 ||How to progress||
 
-Wake up at the farmhouse to trigger the event. Then, talk to Abigail, Sebastian, Sam, Penny, Maru, Robin, Demetrius, Emily, Harvey, Caroline, Pierre, Wizard, and Pam (if you unlocked bus stop). Then visit where they say to visit. You'll receive a letter after the number of days on the DaysTalkingAboutEvent config setting. Follow the instructions to see the wrap up.
+Wake up at the farmhouse to trigger the event. Then, talk to Abigail, Sebastian, Sam, Penny, Maru, Robin, Demetrius, Emily, Harvey, Caroline, Pierre, Wizard, and Pam (if you unlocked bus stop). Then visit where they say to visit. You'll receive a letter after the number of days on the DaysTalkingAboutEvent config setting. Follow the instructions in the letter to see the wrap up.
 
 
 ||Configuration||
@@ -25,7 +25,7 @@ Note that the mod does not come packaged with a config file. The config file wil
 
 ||Compatibility||
 
-This mod makes a temporary change to the Backwoods map tile X Y. I did my best to make sure it'd be a small edit so it'd be compatible with most maps. However, a note on Stardew Valley Expanded (SVE): I don’t use it and never will, so I will not add compatibility for it. Use this mod and SVE together at your own risk.
+This mod makes a temporary change to the Backwoods map, from tiles (14, 24) to tiles (16, 26). I did my best to make sure it'd be a small edit so it'd be compatible with most maps by making it an overlay. However, a note on Stardew Valley Expanded (SVE): I don’t use it and never will, so I will not add compatibility for it. Use this mod and SVE together at your own risk.
 
 
 ||Installation||
