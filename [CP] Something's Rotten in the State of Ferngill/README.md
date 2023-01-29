@@ -33,7 +33,7 @@ This mod makes a temporary change to the Backwoods map, from tiles (14, 24) to t
 1. Install <a href="https://www.nexusmods.com/stardewvalley/mods/2400">SMAPI</a> (version 3.9.3 or higher)
 2. Install <a href="https://www.nexusmods.com/stardewvalley/mods/1915">Content Patcher (CP)</a> (version 1.21.0 or higher)
 - Optional: for the full features, install <a href="https://www.nexusmods.com/stardewvalley/mods/14566">Dynamic Map Tiles (DMT)</a> (version 0.9.4 or higher)
-3. Download the mod from TBD and unzip the mod folder into Stardew Valley/Mods.
+3. Download the mod from <a href="">ModDrop</a> and unzip the mod folder into Stardew Valley/Mods.
 4. Play the game using SMAPI!
 
 
