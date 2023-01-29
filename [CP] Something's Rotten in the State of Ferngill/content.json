@@ -10,8 +10,6 @@
 		},
 	},
 	"Changes": [
-		// Constellation, voyage, boom: wild dream player had. It was weird but people seem to know (CTs, could end most of them with %wait what). Then later a letter (!) and then a second CT, but that one is tied to an object on the map... somewhere. That object will only be there for the length of the CT
-		//Maybe try tying story into it? Is there an interesting / relevant event or occasion that could help trigger this
 		// Patching in art
 		/*Loading Blue Submarine Sprite*/ {
 			"LogName": "Loading Blue Submarine Sprite",
@@ -33,8 +31,6 @@
 		},
 		// Initial Event
 		{
-			// for the bigger explosion: addTemporaryActor SubExplosion 332 166 4 12 2 false
-			// for the smaller explosion addTemporaryActor SubExplosion 96 96 11 11 2 false
 			"LogName": "Something Rotten in Ferngill Initial Event",
 			"Action": "EditData",
 			"Target": "Data/Events/Farmhouse",
