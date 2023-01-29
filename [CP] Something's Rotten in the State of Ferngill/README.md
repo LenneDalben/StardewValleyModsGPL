@@ -1,17 +1,17 @@
 # (CP) Something's Rotten in the State of Ferngill
 
-TBD
+A strange dream appears to be real... talk with the villagers to investigate.
 
 ||Background||
 
-My submission to the Stardew Valley Mod Jam!
+My submission to the Stardew Valley Mod Jam! The theme was to incorporate: slippery, boom, voyage, rotten, and constlelation in some way.
 
 Translations are welcome! You can submit either the language.json to me or the strings in another language for all the strings and I will incorporate it into the mod. See more information on the <a href="https://stardewvalleywiki.com/Modding:Translations">wiki</a>.
 
 
 ||How to progress||
 
-Wake up at the farmhouse to trigger the event. Then, talk to Abigail, Sebastian, Sam, Penny, Maru, Robin, Demetrius, Emily, Harvey, Caroline, Pierre, Wizard, and Pam (if you unlocked bus stop), then visit where they say to visit. You'll receive a letter after the number of days on the DaysTalkingAboutEvent config setting. Follow the instructions to see the wrap up.
+Wake up at the farmhouse to trigger the event. Then, talk to Abigail, Sebastian, Sam, Penny, Maru, Robin, Demetrius, Emily, Harvey, Caroline, Pierre, Wizard, and Pam (if you unlocked bus stop). Then visit where they say to visit. You'll receive a letter after the number of days on the DaysTalkingAboutEvent config setting. Follow the instructions to see the wrap up.
 
 
 ||Configuration||

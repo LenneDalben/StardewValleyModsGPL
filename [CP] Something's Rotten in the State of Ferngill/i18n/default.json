@@ -48,7 +48,7 @@
   "SomethingRotteninFerngill_CT_Sebastian": "Abigail said she saw something awful in the backwoods, maybe it has to do with that stench in the air?",
   "SomethingRotteninFerngill_CT_Sam": "You had a strange dream, huh? Been there.#$b#You're not sure if it really happened? What was it#$b#%Sam listens.#$b#Nah, no way that happened, that's way too weird!$h",
   "SomethingRotteninFerngill_CT_Penny": "Maru seemed sensitive about a bad smell around her house.$3#$b#She was very intent in saying it wasn't her fault.",
-  "SomethingRotteninFerngill_CT_Maru": "It wasn't me!$9#$b#Huh?$8#$b#I'm-I'm just saying.$2#$b#My experiments may go wrong sometimes, but I didn't cause that awful smell.",
+  "SomethingRotteninFerngill_CT_Maru": "It wasn't me!$9#$b#My experiments may go wrong sometimes, but I didn't cause that awful smell.$8",
   "SomethingRotteninFerngill_CT_Robin": "There's an rotten smell near our house. Not sure what's up with that.$2",
   "SomethingRotteninFerngill_CT_Demetrius": "I concur with Robin. That smell is extremely unpleasant.$3",
   "SomethingRotteninFerngill_CT_Linus": "I was worried that stink was something ominous, so I went looking around.$2#$b#There is something extremely foul in the backwoods!$3",
@@ -60,6 +60,6 @@
   "SomethingRotteninFerngill_CT_Pam": "There's a strange smell around the bus stop. I hope it goes away soon.$2",
   //
   // Letter
-  "SmellyDreamLetter_Wizard.01": "Greetings, young adept.^I've finished my investigation into that substance in the backwoods. I have also heard of your prophetic dream from my sources. Come by the tower at once.^   -M. Rasmodius, Wizard",
-  "SmellyDreamLetter_Wizard.02": "A Smelly Dream",
+  "SomethingRotteninFerngillLetter_Wizard.01": "Greetings, young adept.^I've finished my investigation into that substance in the backwoods. I have also heard of your dream from my sources. Come by the tower at once.^   -M. Rasmodius, Wizard",
+  "SomethingRotteninFerngillLetter_Wizard.02": "Something's Rotten in the State of Ferngill",
 }
