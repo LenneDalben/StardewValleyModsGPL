@@ -34,11 +34,11 @@
   "config.DaysTalkingAboutEvent.values.28": "28",
   //
   // Event
-  "event-27012023.01": "Hmm... what's this?",
-  "event-27012023.02": "That's... unexpected.",
-  "event-27012023.03": "!!",
-  "event-27012023.04": "... There's a putrid smell.",
-  "event-27012023.05": "What a strange dream...",
+  "event-270120231.01": "Hmm... what's this?",
+  "event-270120231.02": "That's... unexpected.",
+  "event-270120231.03": "!!",
+  "event-270120231.04": "... There's a putrid smell.",
+  "event-270120231.05": "What a strange dream...",
   //
   // Map String
   "SuspiciousMassMessage.01.String": "The rotten smell is so awful, I'm worried I'll pass out.",
