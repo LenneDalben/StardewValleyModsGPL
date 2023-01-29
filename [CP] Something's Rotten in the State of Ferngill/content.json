@@ -228,7 +228,6 @@
 			}
 		},
 		// Letter
-		// Then event for him explaining it seemed extra terrestrial and he... Took care of it. In another dimension. Not for you to worry.
 		{
 			"LogName": "Something Rotten in Ferngill Letter",
 			"Action": "EditData",
