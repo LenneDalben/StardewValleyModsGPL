@@ -4,7 +4,7 @@ TBD
 
 ||Background||
 
-My submission to the Mod Jam!
+My submission to the Stardew Valley Mod Jam!
 
 Translations are welcome! You can submit either the language.json to me or the strings in another language for all the strings and I will incorporate it into the mod. See more information on the <a href="https://stardewvalleywiki.com/Modding:Translations">wiki</a>.
 
