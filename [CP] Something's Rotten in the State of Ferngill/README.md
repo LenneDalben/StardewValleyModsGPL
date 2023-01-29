@@ -45,4 +45,6 @@ This mod makes a temporary change to the Backwoods map tile X Y. I did my best t
 
 <a href="https://www.nexusmods.com/stardewvalley/users/2893756?tab=user+files">Yri</a>, for encouragement and feedback.
 
+<a href="https://www.nexusmods.com/stardewvalley/users/18901754?tab=user+files">aedenthorn / Lucy</a>, author of Dynamic Map Tiles, for their quick support. Without them, the extra effects on map tiles in this mod wouldn't be possible.
+
 <a href="https://www.nexusmods.com/stardewvalley/users/1552317?tab=user+files">Pathoschild</a>, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible.
