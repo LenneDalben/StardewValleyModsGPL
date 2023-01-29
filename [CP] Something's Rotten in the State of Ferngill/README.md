@@ -40,3 +40,9 @@ This mod makes a temporary change to the Backwoods map tile X Y. I did my best t
 
 
 <a href="https://www.nexusmods.com/stardewvalley/users/1552317?tab=user+files">Pathoschild</a>, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible.
+
+<a href="">Airyn</a>, for the beautiful explosion art, and the fantastic mod name.
+
+<a href="">nicole</a> and <a href="">soph</a>, for help with the letter.
+
+<a href="">Yri</a>, for encouragement and feedback.
