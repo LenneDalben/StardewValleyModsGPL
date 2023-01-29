@@ -33,7 +33,7 @@
   "config.DaysTalkingAboutEvent.values.27": "27",
   "config.DaysTalkingAboutEvent.values.28": "28",
   //
-  // Event
+  // Initial Event
   "event-270120231.01": "Hmm... what's this?",
   "event-270120231.02": "That's... unexpected.",
   "event-270120231.03": "!!",
@@ -62,4 +62,22 @@
   // Letter
   "SomethingRotteninFerngillLetter_Wizard.01": "Greetings, young adept.^I've finished my investigation into that substance in the backwoods. I have also heard of your dream from my sources. Come by the tower at once.^   -M. Rasmodius, Wizard",
   "SomethingRotteninFerngillLetter_Wizard.02": "Something's Rotten in the State of Ferngill",
+  //
+  // Wrap up event
+  "event-270120233.01": "@, you're here. I have news.",
+  "event-270120233.02": "That mass in the backwoods... it appears to be extraterrestrial.",
+  "event-270120233.03": "It's always aliens.",
+  "event-270120233.04": "That seems unlikely.",
+  "event-270120233.05": "That's reductive... sometimes it's magic.",
+  "event-270120233.06" :"You dare question my methods?",
+  "event-270120233.07": "Anyways.",
+  "event-270120233.08": "As I said in my summons, I heard about your prophetic dream. Your magical abilities are greater than I thought.",
+  "event-270120233.09": "It seems that crash may have been the source of the mass in the backwoods.#$b#Was it an act of war? It's hard to imagine such large moving objects not seeing each other before the crash.#$b#One can only wonder the cause, I suppose.",
+  "event-270120233.10": "It's entirely possible the mass we saw were the remains of the inhabitants of those... ships.",
+  "event-270120233.11": "Isn't that an extreme assumption?",
+  "event-270120233.12": "Alien life, in Stardew Valley?",
+  "event-270120233.13": "I do not reach my conclusions lightly.",
+  "event-270120233.14": "It's hardly the strangest thing to happen around here.",
+  "event-270120233.15": "For everyone's safety, I took care of the remains.",
+  "event-270120233.16": "It's in another dimension now. It's not for you to worry."
 }
