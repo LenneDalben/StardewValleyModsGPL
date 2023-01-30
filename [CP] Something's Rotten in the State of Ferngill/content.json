@@ -61,7 +61,7 @@
 				"HasConversationTopic": "SomethingRotteninFerngill_CT"
 			}
 		},
-		//Strings from Maps
+		// Strings from Maps
 		{
 			"LogName": "Smelly Suspicious Mass Map String",
 			"Action": "EditData",
