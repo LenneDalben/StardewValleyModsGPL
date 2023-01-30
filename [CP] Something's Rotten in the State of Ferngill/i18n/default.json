@@ -58,6 +58,7 @@
   "SomethingRotteninFerngill_CT_Pierre": "%Pierre looks concerned.#$b#Sorry, @, didn't notice you there.#$b#I'm worried about Abigail. She seems upset.$s",
   "SomethingRotteninFerngill_CT_Wizard": "Linus told me there's something suspicious in the backwoods.#$b#I'll investigate this immediately.#$b#Just as soon as I'm done with my latest experiment.",
   "SomethingRotteninFerngill_CT_Pam": "There's a strange smell around the bus stop. I hope it goes away soon.$2",
+  "SomethingRotteninFerngill_CT_Lorax": "That green stuff over there REEKS! Someone should clean it up, it's polluting the woods.$5#$b#%Lorax stares at you pointedly.",
   //
   // Letter
   "SomethingRotteninFerngillLetter_Wizard.01": "Greetings, young adept.^I've finished my investigation into that substance in the backwoods. I have also heard of your dream from my sources. Come by the tower at once.^   -M. Rasmodius, Wizard",

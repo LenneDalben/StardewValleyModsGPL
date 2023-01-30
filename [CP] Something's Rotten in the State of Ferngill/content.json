@@ -223,6 +223,17 @@
 				"HasFlag |contains=ccVault, jojaVault": true
 			}
 		},
+		/*Lorax CT*/ {
+			"LogName": "Something Rotten in Ferngill CT - Lorax",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Lorax",
+			"Entries": {
+				"SomethingRotteninFerngill_CT": "{{i18n:SomethingRotteninFerngill_CT_Lorax}}"
+			},
+			"When": {
+				"HasMod |contains=CopperSun.TruffulaTreesCP": true
+			}
+		},
 		// Letter
 		{
 			"LogName": "Something Rotten in Ferngill event to send letter",
