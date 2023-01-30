@@ -5,15 +5,15 @@
    "Version": "1.0.1",
    "UniqueID": "LenneDalben.CP.SomethingRotteninFerngill",
    "MinimumApiVersion": "3.9.3",
-   "ContentPackFor": {
-       "UniqueID": "Pathoschild.ContentPatcher",
-       "MinimumVersion": "1.21.0"
-    },
    "UpdateKeys": [ "ModDrop:1308573" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "1.21.0"
+   },
    "Dependencies": [
-     {
-       "UniqueID": "aedenthorn.DynamicMapTiles",
-       "IsRequired": false
-     }
+      {
+         "UniqueID": "aedenthorn.DynamicMapTiles",
+         "IsRequired": false
+      }
    ],
 }
