@@ -10,4 +10,10 @@
        "MinimumVersion": "1.21.0"
     },
    "UpdateKeys": [ "ModDrop:1308573" ],
+   "Dependencies": [
+     {
+       "UniqueID": "aedenthorn.DynamicMapTiles",
+       "IsRequired": false
+     }
+   ],
 }
