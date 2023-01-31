@@ -25,7 +25,11 @@ Note that the mod does not come packaged with a config file. The config file wil
 
 ||Compatibility||
 
-This mod makes a temporary change to the Backwoods map, from tiles (14, 24) to tiles (16, 26). I did my best to make sure it'd be a small edit so it'd be compatible with most maps by making it an overlay. However, a note on Stardew Valley Expanded (SVE): I don’t use it and never will, so I will not add compatibility for it. Use this mod and SVE together at your own risk.
+This mod makes a temporary change to the Backwoods map, from tiles (14, 24) to tiles (16, 26). I did my best to make sure it'd be a small edit so it'd be compatible with most maps by making it an overlay.
+
+If you have <a href="https://www.nexusmods.com/stardewvalley/mods/15012">the Lorax</a> installed, you'll see dialog from him after the initial event.
+
+A note on Stardew Valley Expanded (SVE): I don’t use it and never will, so I will not add compatibility for it. Use this mod and SVE together at your own risk.
 
 
 ||Installation||
