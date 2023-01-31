@@ -333,7 +333,7 @@
   "ItTakesAVillage_SebProgramCT_Shane": "Pff, of course that recluse didn't do well with kids.$3#$b#What are you looking at?",
   "ItTakesAVillage_SebProgramCT_Penny": "The kids were not very talkative about this lesson...$3",
   //
-  // Maru Electronics event
+  // Maru Electronics *** NEED TO UDPATE EVENT CODE AND DYNAMIC TOKENS to remove the initial line, I think, and then the rest are fine. 
   "event-31032030.01": "Who's ready for some time with Maru the Science Guru?!$h",
   "event-31032030.02": "You've had some fun with nature and bugs, now we'll have some fun in the lab!#$b#Who's ready for some time with Maru the Science Guru?!$h",
   "event-31032030.03": "(I don't know if this will live up to the bird hype, but here goes.$s)#$b#Who's ready for some time with Maru the Science Guru?!",
@@ -368,13 +368,13 @@
   "event-31032030.32": "Nice job everyone! Say thanks to Maru for the lesson!",
   "event-31032030.33": "Thanks!",
   "event-31032030.34": "You're welcome! Maru the Science Guru is happy to teach you about science any time!$h",
-  // Maru Electronics CTs
+  // Maru Electronics CTs *** NEED TO UPDATE DYNAMIC TOKENS AND THE PATCHES
   "ItTakesAVillage_MaruElectronicsCT_Demetrius_YesBug": "Our young students enjoyed both their botany lesson and the potato battery experiment.",
   "ItTakesAVillage_MaruElectronicsCT_Demetrius_YesCrow": "Our young students enjoyed both their botany lesson and the potato battery experiment.#$b#I suppose despite Maru, Penny, and Robin's worries, the greater glossy puffle didn't take over the students' attention.$h",
-  "ItTakesAVillage_MaruElectronicsCT_Demetrius_NoBugorCrow": "I heard the potato battery experiment went well.#$b#If our young students haven't fallen in love with science yet, they will after my nature tour!$h",
+  // "ItTakesAVillage_MaruElectronicsCT_Demetrius_NoBugorCrow": "I heard the potato battery experiment went well.#$b#If our young students haven't fallen in love with science yet, they will after my nature tour!$h",
   "ItTakesAVillage_MaruElectronicsCT_Maru_YesBug": "Yep, called it. The kids are definitely future lab assistants!$h",
   "ItTakesAVillage_MaruElectronicsCT_Maru_YesCrow": "I'm glad the big bird faded enough from the kids' memory to enjoy the potato battery.#$b#I wasn't sure how well that would go.$s",
-  "ItTakesAVillage_MaruElectronicsCT_Maru_NoBugorCrow": "Jas picked up the concepts pretty well!#$b#Vincent had fun with the goggles too, so a little something for everyone!$h",
+  // "ItTakesAVillage_MaruElectronicsCT_Maru_NoBugorCrow": "Jas picked up the concepts pretty well!#$b#Vincent had fun with the goggles too, so a little something for everyone!$h",
   "ItTakesAVillage_MaruElectronicsCT_Robin": "Maru was as excited as the kids were, raving about 'Maru the Science Guru'. I'm glad to hear they had a blast.",
   "ItTakesAVillage_MaruElectronicsCT_Jas": "Experiments are a lot of fun.",
   "ItTakesAVillage_MaruElectronicsCT_Vincent": "I want to keep the goggles!",
@@ -418,12 +418,12 @@
   "event-31032029.27": "That's still a treat for us, Jas! We're not likely to venture in there.$h#$b#After all, it's not safe.#$b#There are also unique crabs and a whole host of other creatures. What I would give to be able to study them safely.",
   "event-31032029.28": "That's so cool, Mr. Demetrius!",
   "event-31032029.29": "Well, let's continue with the nature tour.$h",
-  // Demetrius Botany CTs
+  // Demetrius Botany CTs *** NEED TO UPDATE DYNAMIC TOKENS AND THE PATCHES
   // Demetrius Botany Birb edition
   "ItTakesAVillage_DemetriusBotanyCT_Demetrius_NoElectronicsCrow": "It was great to share botany knowledge with more than just Maru, although of course that's great too.$h#$b#Oh, the greater glossy puffle? Yes, it was quite a marvelous sight.",
-  "ItTakesAVillage_DemetriusBotanyCT_Demetrius_YesElectronicsCrow": "It was great to share botany knowledge with more than just Maru, although of course that's great too.$h#$b#She also seemed to enjoy sharing her knowledge of electronics, so enjoying teaching might run in the family.$h#$b#Oh, the greater glossy puffle? Yes, it was quite a marvelous sight.",
+  // "ItTakesAVillage_DemetriusBotanyCT_Demetrius_YesElectronicsCrow": "It was great to share botany knowledge with more than just Maru, although of course that's great too.$h#$b#She also seemed to enjoy sharing her knowledge of electronics, so enjoying teaching might run in the family.$h#$b#Oh, the greater glossy puffle? Yes, it was quite a marvelous sight.",
   "ItTakesAVillage_DemetriusBotanyCT_Maru_NoElectronicsCrow": "I don't know if I can compete with a cool big bird.$2",
-  "ItTakesAVillage_DemetriusBotanyCT_Maru_YesElectronicsCrow": "Wow, I'm glad my lesson didn't have to follow that bird!$h",
+  // "ItTakesAVillage_DemetriusBotanyCT_Maru_YesElectronicsCrow": "Wow, I'm glad my lesson didn't have to follow that bird!$h",
   "ItTakesAVillage_DemetriusBotanyCT_RobinCrow": "Demetrius is brave to have underreacted as much as he did to that... what did he call it? 'Greater glossy puffle'?$h#$b#I would have run back into the house!$h",
   "ItTakesAVillage_DemetriusBotanyCT_LewisCrow": "I am STUNNED to hear such a creature was in our valley!$2#$b#I will have to have strong words with Marlon about keeping the valley safe.$3",
   "ItTakesAVillage_DemetriusBotanyCT_JasCrow": "%Jas looks a little haunted.",
@@ -436,9 +436,9 @@
   "ItTakesAVillage_DemetriusBotanyCT_PennyCrow": "I think that huge bird stole the show...$3#$b#Thankfully we were safe.$5",
   // Demetrius Botany Bug edition
   "ItTakesAVillage_DemetriusBotanyCT_Demetrius_NoElectronicsBug": "Maybe I could talk to the guild about a guided expedition into the mines?$3#$b#For science!#$b#Maybe Maru would join me. She might find something to inspire her electronics class.",
-  "ItTakesAVillage_DemetriusBotanyCT_Demetrius_YesElectronicsBug": "Maybe I could talk to the guild about a guided expedition into the mines?$3#$b#For science!#$b#Maybe Maru would join me.",
+  // "ItTakesAVillage_DemetriusBotanyCT_Demetrius_YesElectronicsBug": "Maybe I could talk to the guild about a guided expedition into the mines?$3#$b#For science!#$b#Maybe Maru would join me.",
   "ItTakesAVillage_DemetriusBotanyCT_Maru_NoElectronicsBug": "The kids already seem excited about science. Maybe after my class, they will be completely sold on being future lab assistants!$h",
-  "ItTakesAVillage_DemetriusBotanyCT_Maru_YesElectronicsBug": "It's cool that Jas and Vincent got to see what my dad does.#$b#Combined with my electronics class, I think we may have some future lab assistants!$h",
+  // "ItTakesAVillage_DemetriusBotanyCT_Maru_YesElectronicsBug": "It's cool that Jas and Vincent got to see what my dad does.#$b#Combined with my electronics class, I think we may have some future lab assistants!$h",
   "ItTakesAVillage_DemetriusBotanyCT_RobinBug": "It was nice to hear Demetrius was able to share some of his love of science with the kids.",
   "ItTakesAVillage_DemetriusBotanyCT_LewisBug": "I thought Marlon was supposed to keep those vile things contained in the mines.$4",
   "ItTakesAVillage_DemetriusBotanyCT_JasBug": "Mr. Demetrius had so many cool facts about plants!",
