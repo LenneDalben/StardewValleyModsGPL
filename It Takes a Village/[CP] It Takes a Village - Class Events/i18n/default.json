@@ -333,8 +333,8 @@
   "ItTakesAVillage_SebProgramCT_Shane": "Pff, of course that recluse didn't do well with kids.$3#$b#What are you looking at?",
   "ItTakesAVillage_SebProgramCT_Penny": "The kids were not very talkative about this lesson...$3",
   //
-  // Maru Electronics *** NEED TO UDPATE EVENT CODE AND DYNAMIC TOKENS to remove the initial line, I think, and then the rest are fine. 
-  "event-31032030.01": "Who's ready for some time with Maru the Science Guru?!$h",
+  // Maru Electronics
+  // "event-31032030.01": "Who's ready for some time with Maru the Science Guru?!$h", *** there is no .01 line for this event, it's on purpose.
   "event-31032030.02": "You've had some fun with nature and bugs, now we'll have some fun in the lab!#$b#Who's ready for some time with Maru the Science Guru?!$h",
   "event-31032030.03": "(I don't know if this will live up to the bird hype, but here goes.$s)#$b#Who's ready for some time with Maru the Science Guru?!",
   "event-31032030.04": "Alright, goggles on!$h",
@@ -401,7 +401,6 @@
   "event-31032029.15": "Great question, Jas! When one plant hybridizes with another, it means they reproduce together.#$b#The spice berry is 'joining' the native plants if it doesn't kill them off!$2",
   "event-31032029.16": "Great question, Jas! An aggregate fruit is made of many smaller drupelets.#$b#One drupe is a fruit with an outer flesh surrounding a shell with a seed inside.#$b#Our blackberry has company in the aggregate fruit club with raspberries!",
   "event-31032029.17": "Great question, Jas! A drupe is a fruit with an outer flesh surrounding a shell with a seed inside.#$b#Our holly has company in the drupe club with peaches!",
-  "event-31032029.30": "It's fun to see different types of science, isn't it?$h",
   "event-31032029.18": "Any other ques-",
   "event-31032029.19": "Did you hear that?",
   // Demetrius Botany Birb edition    
@@ -416,6 +415,7 @@
   "event-31032029.27": "That's still a treat for us, Jas! We're not likely to venture in there.$h#$b#After all, it's not safe.#$b#There are also unique crabs and a whole host of other creatures. What I would give to be able to study them safely.",
   "event-31032029.28": "That's so cool, Mr. Demetrius!",
   "event-31032029.29": "Well, let's continue with the nature tour.$h",
+  // "event-31032029.30": "It's fun to see different types of science, isn't it?$h", *** there is no .30 line for this event, it's on purpose.
   // Demetrius Botany CTs
   // Demetrius Botany Birb edition
   "ItTakesAVillage_DemetriusBotanyCT_Crow_Demetrius": "It was great to share botany knowledge with more than just Maru, although of course that's great too.$h#$b#Oh, the greater glossy puffle? Yes, it was quite a marvelous sight.",
@@ -693,7 +693,7 @@
   // Shane Animal Care CTs
   "ItTakesAVillage_ShaneAnimalCareCT_Shane_YesMusic": "Maybe I should play classical music to the animals?$3",
   "ItTakesAVillage_ShaneAnimalCareCT_Shane_NoMusic": "I'm glad Jas had a nice time.$6",
-  "ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusicYesCrow": "Maybe the huge duck would dance if I played some classical music?",
+  "ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusicYesCrow": "I'm glad to hear this big bird was nothing like the one from the mountains.#$b#Maybe the duck would dance if I played some classical music?",
   "ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusicYesCrow": "I'm glad to hear this big bird was nothing like the one from the mountains.",
   "ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusicNoCrow": "I guess I could look up some sheet music for classical songs. I doubt there will be rad guitar solos.$2#$b#Or rockin' drum solos for Vincent.$2",
   "ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusicNoCrow": "Vincent was excited about petting chickens, and kept rambling about washing hands.#$b#Also, apparently a huge duck that visits the forest?$8",

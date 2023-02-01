@@ -1,5 +1,4 @@
 { // 7269 words ()
-	// QUESTION: should one of the random values have them stay as "no", as part of spacing them out? Or is it ok to have them all roll yes and whichever you get to first, so be it? Will need to play test to be sure.
 	"Format": "1.21.0",
 	"ConfigSchema": {
 		"MinimumDaysBetweenLessons": {
@@ -542,20 +541,28 @@
 			}
 		},
 		// Tokens for Maru Electronics
-		/*Event dialog - have seen Demetrius Botany*/ {
+		/*Event dialog - have seen Demetrius Botany - Crow*/ {
 			"Name": "MaruElectronicsFirstLine",
-			"Value": "{{Random: {{i18n:event-31032030.03}} %% {{i18n:event-31032030.02}} %% {{i18n:event-31032030.02}} %% {{i18n:event-31032030.02}} %% {{i18n:event-31032030.02}} %% {{i18n:event-31032030.02}} %% {{i18n:event-31032030.02}} %% {{i18n:event-31032030.02}} %% {{i18n:event-31032030.02}} %% {{i18n:event-31032030.02}} |key=monster |inputSeparator=%%}}",
+			"Value": "{{i18n:event-31032030.03}}",
+			"When": {
+				"HasSeenEvent |contains=31032042": "true"
+			}
+		},
+		/*Event dialog - have seen Demetrius Botany - Bug*/ {
+			"Name": "MaruElectronicsFirstLine",
+			"Value": "{{i18n:event-31032030.02}}",
 			"When": {
 				"HasSeenEvent |contains=31032029": "true"
 			}
 		},
-		/*Event dialog - have not seen Demetrius Botany*/ {
+		/*Event dialog - have not seen Demetrius Botany - shouldn't be needed {
 			"Name": "MaruElectronicsFirstLine",
 			"Value": "{{i18n:event-31032030.01}}",
 			"When": {
-				"HasSeenEvent |contains=31032029": "false"
+				"HasSeenEvent |contains=31032029": "false",
+				"HasSeenEvent |contains=31032042": "false"
 			}
-		},
+		},*/
 		/*Goggle moment in event based on config*/ {
 			"Name": "MaruElectronicsGoggles",
 			"Value": "speak Maru \"{{i18n:event-31032030.04}}\"/pause 50/faceDirection Jas 2 true/faceDirection Vincent 2 false/pause 1000/move Jas 0 -1 1 true/move Vincent 0 -1 3 false/pause 500/speak Vincent \"{{i18n:event-31032030.05}}\"/speak Maru \"{{i18n:event-31032030.06}}\"/emote Penny 32/speak Maru \"{{i18n:event-31032030.07}}\"",
@@ -702,20 +709,13 @@
 				"Season": "Winter"
 			}
 		},
-		/*Event dialog - saw Maru Electronics*/ {
+		/*Event dialog - saw Maru Electronics - shouldn't be needed {
 			"Name": "DemetriusBotanySeenMaruElectronics",
 			"Value": "emote Vincent 16 true/emote Jas 40 false/pause 200/speak Penny \"{{i18n:event-31032029.30}}\"/emote Vincent 32 true/emote Jas 32 false/pause 50",
 			"When": {
 				"HasSeenEvent |contains=31032030": "true"
 			}
-		},
-		/*Event dialog - didn't see Maru Electronics*/ {
-			"Name": "DemetriusBotanySeenMaruElectronics",
-			"Value": "emote Vincent 16",
-			"When": {
-				"HasSeenEvent |contains=31032030": "false"
-			}
-		},
+		},*/
 		// Emily Emotional Health & Dance and Harvey Anatomy
 		// HasSeenEvent tokens
 		/*haven't seen either event in the pair*/ {
@@ -1275,8 +1275,7 @@
 				"HasSeenEvent |contains=31032036": "false"
 			}
 		},
-		// Need to fix this
-		/*CT dialog for Penny - have seen Maru Electronics and seen Demetrius Botany*/ {
+		/*CT dialog for Penny - have seen Maru Electronics and seen Demetrius Botany - Bug*/ {
 			"Name": "SamMusicPennyCT",
 			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Penny_{{Random: YesElectronics %% YesBotany |inputSeparator=%%}}}}",
 			"When": {
@@ -1284,7 +1283,7 @@
 				"HasSeenEvent |contains=31032029": "true"
 			}
 		},
-		/*CT dialog for Penny - have seen Demetrius Botany and have not seen Maru Electronics*/ {
+		/*CT dialog for Penny - have seen Demetrius Botany - Bug and have not seen Maru Electronics*/ {
 			"Name": "SamMusicPennyCT",
 			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Penny_YesBotany}}",
 			"When": {
@@ -1292,22 +1291,22 @@
 				"HasSeenEvent |contains=31032029": "true"
 			}
 		},
-		/*CT dialog for Penny - have seen Maru Electronics and have not seen Demetrius Botany {
+		/*CT dialog for Penny - have seen Maru Electronics and have not seen Demetrius Botany - Bug*/ {
 			"Name": "SamMusicPennyCT",
 			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Penny_YesElectronics}}",
 			"When": {
 				"HasSeenEvent |contains=31032030": "true",
 				"HasSeenEvent |contains=31032029": "false"
 			}
-		},*/
-		/*CT dialog for Penny - have not seen Maru Electronics and have not seen Demetrius Botany {
+		},
+		/*CT dialog for Penny - have not seen Maru Electronics and have not seen Demetrius Botany - Bug*/ {
 			"Name": "SamMusicPennyCT",
 			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Penny_NeitherElectronicsNorBotany}}",
 			"When": {
 				"HasSeenEvent |contains=31032030": "false",
 				"HasSeenEvent |contains=31032029": "false"
 			}
-		},*/
+		},
 		// Tokens for Shane Animal Care
 		/*Event dialog - less than 3 hearts with Shane*/ {
 			"Name": "ShaneAnimalCareFirstLine",
@@ -1351,18 +1350,18 @@
 				"HasSeenEvent |contains=3900074": "false"
 			}
 		},
-		/*Event dialog - Demetrius Botany crow*/ {
+		/*Event dialog - Demetrius Botany - Crow*/ {
 			"Name": "ShaneAnimalCareCrowOrBug",
 			"Value": "textAboveHead Shane \"{{i18n:event-31032036.28}}\"/emote Jas 16 true/emote Vincent 16 true/emote Penny 16 true/jump Jas 8/jump Vincent 4/jump farmer 4/jump Penny 8/shake Vincent 1500/shake Penny 3000/shake Jas 3000/pause 300/speed Penny 6/move Penny -1 0 1 true/speed Jas 6/move Jas 0 -1 3 false/speed Jas 6/move Jas -3 0 1/pause 300/textAboveHead Jas \"{{i18n:event-31032036.29}}\"/pause 200/shake Penny 3000/shake Jas 3000/faceDirection Shane 3/speak Shane \"{{i18n:event-31032036.30}}\"/emote Penny 28 true/emote Jas 28 false/pause 300/speak Shane \"{{i18n:event-31032036.26}}\"/emote BlossomDuck 32/speak Vincent \"{{i18n:event-31032036.31}}\"/emote Jas 40/speak Jas \"{{i18n:event-31032036.32}}\"/emote Penny 28 true/emote Vincent 32 true/emote Shane 32 true/emote farmer 32 true",
 			"When": {
-				"CrowOrBug": "Crow"
+				"HasSeenEvent |contains=31032042": "true"
 			}
 		},
-		/*Event dialog - Demetrius Botany "bug"*/ {
+		/*Event dialog - Demetrius Botany - Bug*/ {
 			"Name": "ShaneAnimalCareBugOrBug",
 			"Value": "jump Jas 8/jump Vincent 8/jump farmer 4/jump Penny 4/speak Shane \"{{i18n:event-31032036.26}}\"/emote BlossomDuck 32/emote Jas 20 true/emote Vincent 20 true/emote Penny 32 true/emote Shane 32 true/emote farmer 32 true",
 				"When": {
-					"CrowOrBug": "Bug"
+					"HasSeenEvent |contains=31032029": "true"
 				}
 		},
 		/*Event dialog - have not seen Demetrius botany*/ {
@@ -1401,18 +1400,33 @@
 				"HasSeenEvent |contains=3910975": "false"
 			}
 		},
-		// Need to fix this
-		/*CT dialog for Sam, saw Sam Music and saw Demetrius Botany*/ {
+		/*CT dialog for Sam, saw Sam Music and saw Demetrius Botany - Crow*/ {
 			"Name": "ShaneAnimalCareSamCT",
-			"Value": "{{Random: {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusicYesCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusicNoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusicNoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusicNoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusicNoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusicNoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusicNoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusicNoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusicNoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusicNoCrow}} |key=monster |inputSeparator=%%}}",
+			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusicYesCrow}}",
+			"When": {
+				"HasSeenEvent |contains=3910975": "true",
+				"HasSeenEvent |contains=31032042": "true"
+			}
+		},
+		/*CT dialog for Sam, saw Sam Music and saw Demetrius Botany - Bug*/ {
+			"Name": "ShaneAnimalCareSamCT",
+			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusicNoCrow}}",
 			"When": {
 				"HasSeenEvent |contains=3910975": "true",
 				"HasSeenEvent |contains=31032029": "true"
 			}
 		},
-		/*CT dialog for Sam, saw Demetrius Botany and did not see Sam Music*/ {
+		/*CT dialog for Sam, saw Demetrius Botany - Crow and did not see Sam Music*/ {
 			"Name": "ShaneAnimalCareSamCT",
-			"Value": "{{Random: {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusicYesCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusicNoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusicNoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusicNoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusicNoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusicNoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusicNoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusicNoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusicNoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusicNoCrow}} |key=monster |inputSeparator=%%}}",
+			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusicYesCrow}}",
+			"When": {
+				"HasSeenEvent |contains=3910975": "false",
+				"HasSeenEvent |contains=31032042": "true"
+			}
+		},
+		/*CT dialog for Sam, saw Demetrius Botany - Bug and did not see Sam Music*/ {
+			"Name": "ShaneAnimalCareSamCT",
+			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusicNoCrow}}",
 			"When": {
 				"HasSeenEvent |contains=3910975": "false",
 				"HasSeenEvent |contains=31032029": "true"
@@ -1423,7 +1437,8 @@
 			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusicNoCrow}}",
 			"When": {
 				"HasSeenEvent |contains=3910975": "true",
-				"HasSeenEvent |contains=31032029": "false"
+				"HasSeenEvent |contains=31032029": "false",
+				"HasSeenEvent |contains=31032042": "false"
 			}
 		},
 		/*CT dialog for Sam, did not see Sam Music and did not see Demetrius Botany*/ {
@@ -1431,7 +1446,8 @@
 			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusicNoCrow}}",
 			"When": {
 				"HasSeenEvent |contains=3910975": "false",
-				"HasSeenEvent |contains=31032029": "false"
+				"HasSeenEvent |contains=31032029": "false",
+				"HasSeenEvent |contains=31032042": "false"
 			}
 		},
 		/*CT dialog for Sterling, saw Sterling's 8 heart event*/ {
@@ -1462,9 +1478,16 @@
 				"HasSeenEvent |contains=3910975": "false"
 			}
 		},
-		/*CT dialog for Jas - have seen Demetrius Botany*/ {
+		/*CT dialog for Jas - have seen Demetrius Botany - Crow*/ {
 			"Name": "ShaneAnimalCareJasCT",
-			"Value": "{{Random: {{i18n:ItTakesAVillage_ShaneAnimalCareCT_JasYesCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jas_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jas_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jas_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jas_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jas_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jas_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jas_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jas_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jas_NoCrow}} |key=monster |inputSeparator=%%}}",
+			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_JasYesCrow}}",
+			"When": {
+				"HasSeenEvent |contains=31032042": "true"
+			}
+		},
+		/*CT dialog for Jas - have seen Demetrius Botany - Bug*/ {
+			"Name": "ShaneAnimalCareJasCT",
+			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jas_NoCrow}}",
 			"When": {
 				"HasSeenEvent |contains=31032029": "true"
 			}
@@ -1473,12 +1496,20 @@
 			"Name": "ShaneAnimalCareJasCT",
 			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jas_NoCrow}}",
 			"When": {
-				"HasSeenEvent |contains=31032029": "false"
+				"HasSeenEvent |contains=31032029": "false",
+				"HasSeenEvent |contains=31032042": "false"
 			}
 		},
-		/*CT dialog for Vincent - have seen Demetrius Botany*/ {
+		/*CT dialog for Vincent - have seen Demetrius Botany - Crow*/ {
 			"Name": "ShaneAnimalCareVincentCT",
-			"Value": "{{Random: {{i18n:ItTakesAVillage_ShaneAnimalCareCT_VincentYesCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Vincent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Vincent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Vincent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Vincent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Vincent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Vincent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Vincent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Vincent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Vincent_NoCrow}} |key=monster |inputSeparator=%%}}",
+			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_VincentYesCrow}}",
+			"When": {
+				"HasSeenEvent |contains=31032042": "true"
+			}
+		},
+		/*CT dialog for Vincent - have seen Demetrius Botany - Bug*/ {
+			"Name": "ShaneAnimalCareVincentCT",
+			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Vincent_NoCrow}}",
 			"When": {
 				"HasSeenEvent |contains=31032029": "true"
 			}
@@ -1487,12 +1518,20 @@
 			"Name": "ShaneAnimalCareVincentCT",
 			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Vincent_NoCrow}}",
 			"When": {
-				"HasSeenEvent |contains=31032029": "false"
+				"HasSeenEvent |contains=31032029": "false",
+				"HasSeenEvent |contains=31032042": "false"
 			}
 		},
-		/*CT dialog for Jodi - have seen Demetrius Botany*/ {
+		/*CT dialog for Jodi - have seen Demetrius Botany - Crow*/ {
 			"Name": "ShaneAnimalCareJodiCT",
-			"Value": "{{Random: {{i18n:ItTakesAVillage_ShaneAnimalCareCT_JodiYesCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jodi_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jodi_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jodi_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jodi_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jodi_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jodi_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jodi_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jodi_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jodi_NoCrow}} |key=monster |inputSeparator=%%}}",
+			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_JodiYesCrow}}",
+			"When": {
+				"HasSeenEvent |contains=31032042": "true"
+			}
+		},
+		/*CT dialog for Jodi - have seen Demetrius Botany - Bug*/ {
+			"Name": "ShaneAnimalCareJodiCT",
+			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jodi_NoCrow}}",
 			"When": {
 				"HasSeenEvent |contains=31032029": "true"
 			}
@@ -1501,12 +1540,20 @@
 			"Name": "ShaneAnimalCareJodiCT",
 			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jodi_NoCrow}}",
 			"When": {
-				"HasSeenEvent |contains=31032029": "false"
+				"HasSeenEvent |contains=31032029": "false",
+				"HasSeenEvent |contains=31032042": "false"
 			}
 		},
-		/*CT dialog for Kent - have seen Demetrius Botany*/ {
+		/*CT dialog for Kent - have seen Demetrius Botany - Crow*/ {
 			"Name": "ShaneAnimalCareKentCT",
-			"Value": "{{Random: {{i18n:ItTakesAVillage_ShaneAnimalCareCT_KentYesCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Kent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Kent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Kent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Kent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Kent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Kent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Kent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Kent_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Kent_NoCrow}} |key=monster |inputSeparator=%%}}",
+			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_KentYesCrow}}",
+			"When": {
+				"HasSeenEvent |contains=31032042": "true"
+			}
+		},
+		/*CT dialog for Kent - have seen Demetrius Botany - Bug*/ {
+			"Name": "ShaneAnimalCareKentCT",
+			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Kent_NoCrow}}",
 			"When": {
 				"HasSeenEvent |contains=31032029": "true"
 			}
@@ -1515,12 +1562,20 @@
 			"Name": "ShaneAnimalCareKentCT",
 			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Kent_NoCrow}}",
 			"When": {
-				"HasSeenEvent |contains=31032029": "false"
+				"HasSeenEvent |contains=31032029": "false",
+				"HasSeenEvent |contains=31032042": "false"
 			}
 		},
-		/*CT dialog for Penny - have seen Demetrius Botany*/ {
+		/*CT dialog for Penny - have seen Demetrius Botany - Crow*/ {
 			"Name": "ShaneAnimalCarePennyCT",
-			"Value": "{{Random: {{i18n:ItTakesAVillage_ShaneAnimalCareCT_PennyYesCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow}} %% {{i18n:ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow}} |key=monster |inputSeparator=%%}}",
+			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_PennyYesCrow}}",
+			"When": {
+				"HasSeenEvent |contains=31032042": "true"
+			}
+		},
+		/*CT dialog for Penny - have seen Demetrius Botany - Bug*/ {
+			"Name": "ShaneAnimalCarePennyCT",
+			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow}}",
 			"When": {
 				"HasSeenEvent |contains=31032029": "true"
 			}
@@ -1529,7 +1584,8 @@
 			"Name": "ShaneAnimalCarePennyCT",
 			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow}}",
 			"When": {
-				"HasSeenEvent |contains=31032029": "false"
+				"HasSeenEvent |contains=31032029": "false",
+				"HasSeenEvent |contains=31032042": "false"
 			}
 		},
 		// Robin Woodworking and Abigail Self-Defense
