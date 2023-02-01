@@ -24,7 +24,7 @@
         }
     ]
     /*Updates in ITAV version 0.9.4:
-- Updated Demetrius Botany code to split up the bug / crow randomness into separate events. Cleaned up references to it. The villagers should now correctly remember whether it was the bug or the crow.
-- Updated Harvey Anatomy event to include new dialog if Emily Dance hasn't been seen.
-- Updated several events to include references to the dynamic tokens for the dynamic dialog (Harvey Anatomy, Alex PE, Gus Cooking). They should all now properly reflect the dynamic lines as intended.*/
+- Updated Demetrius Botany code to split up the bug / crow randomness into separate events. Cleaned up references to it. The villagers should now correctly remember whether it was the bug or the crow in their CTs.
+- Updated Harvey Anatomy event to include new dialog if Emily Emotional Health & Dance hasn't been seen.
+- Updated several events to include references to the dynamic tokens for the dynamic dialog (Harvey Anatomy, Alex PE and Healthy Eating, and Gus Cooking). They should all now properly reflect the dynamic lines as intended.*/
 }
