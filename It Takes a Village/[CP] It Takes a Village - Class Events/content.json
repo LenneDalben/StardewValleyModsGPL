@@ -518,7 +518,8 @@
 			"Value": "DemetriusBotanyYes",
 			"When": {
 				"HasSeenEvent |contains=31032022": true, // Penny kickstarts lessons
-				"HasSeenEvent |contains=31032029": false, // 31032042
+				"HasSeenEvent |contains=31032029": false,
+				"HasSeenEvent |contains=31032042": false,
 				"HasSeenEvent |contains=31032030": false,
 			}
 		},
@@ -527,7 +528,7 @@
 			"Value": "MaruElectronicsYesDemetriusBotanyNo",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=31032029": true,
+				"HasSeenEvent |contains=31032029, 31032042": true,
 				"HasSeenEvent |contains=31032030": false,
 			}
 		},
@@ -536,7 +537,7 @@
 			"Value": "MaruElectronicsAndDemetriusBotanyDone",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=31032029": true, // 31032042
+				"HasSeenEvent |contains=31032029, 31032042": true,
 				"HasSeenEvent |contains=31032030": true,
 			}
 		},
@@ -1274,20 +1275,13 @@
 				"HasSeenEvent |contains=31032036": "false"
 			}
 		},
+		// Need to fix this
 		/*CT dialog for Penny - have seen Maru Electronics and seen Demetrius Botany*/ {
 			"Name": "SamMusicPennyCT",
 			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Penny_{{Random: YesElectronics %% YesBotany |inputSeparator=%%}}}}",
 			"When": {
 				"HasSeenEvent |contains=31032030": "true",
 				"HasSeenEvent |contains=31032029": "true"
-			}
-		},
-		/*CT dialog for Penny - have seen Maru Electronics and have not seen Demetrius Botany*/ {
-			"Name": "SamMusicPennyCT",
-			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Penny_YesElectronics}}",
-			"When": {
-				"HasSeenEvent |contains=31032030": "true",
-				"HasSeenEvent |contains=31032029": "false"
 			}
 		},
 		/*CT dialog for Penny - have seen Demetrius Botany and have not seen Maru Electronics*/ {
@@ -1298,14 +1292,22 @@
 				"HasSeenEvent |contains=31032029": "true"
 			}
 		},
-		/*CT dialog for Penny - have not seen Maru Electronics and have not seen Demetrius Botany*/ {
+		/*CT dialog for Penny - have seen Maru Electronics and have not seen Demetrius Botany {
+			"Name": "SamMusicPennyCT",
+			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Penny_YesElectronics}}",
+			"When": {
+				"HasSeenEvent |contains=31032030": "true",
+				"HasSeenEvent |contains=31032029": "false"
+			}
+		},*/
+		/*CT dialog for Penny - have not seen Maru Electronics and have not seen Demetrius Botany {
 			"Name": "SamMusicPennyCT",
 			"Value": "{{i18n:ItTakesAVillage_SamMusicCT_Penny_NeitherElectronicsNorBotany}}",
 			"When": {
 				"HasSeenEvent |contains=31032030": "false",
 				"HasSeenEvent |contains=31032029": "false"
 			}
-		},
+		},*/
 		// Tokens for Shane Animal Care
 		/*Event dialog - less than 3 hearts with Shane*/ {
 			"Name": "ShaneAnimalCareFirstLine",
