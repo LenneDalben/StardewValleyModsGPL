@@ -836,14 +836,14 @@
 		// Tokens for Harvey Anatomy
 		/*Event dialog - saw Emily emotional health and dance*/ {
 			"Name": "HarveyAnatomySeenEmilyDance",
-			"Value": "speak Vincent \"{{i18n:event-31032032.18}}\"/emote Penny 32/speak Penny \"{{i18n:event-31032032.19}}\"",
+			"Value": "speak Vincent \"{{i18n:event-31032032.15}}\"/faceDirection Harvey 2/textAboveHead Harvey \"{{i18n:event-31032032.16}}\"/pause 900/textAboveHead Maru \"{{i18n:event-31032032.17}}\"speak Vincent \"{{i18n:event-31032032.18}}\"/emote Penny 32/speak Penny \"{{i18n:event-31032032.19}}\"",
 			"When": {
 				"HasSeenEvent |contains=31032031": "true"
 			}
 		},
 		/*Event dialog - have not seen Emily emotional health and dance*/ {
 			"Name": "HarveyAnatomySeenEmilyDance",
-			"Value": "emote Penny 32/speak Penny \"{{i18n:event-31032032.19}}\"",
+			"Value": "speak Vincent \"{{i18n:event-31032032.35}}\"/faceDirection Harvey 2/textAboveHead Harvey \"{{i18n:event-31032032.36}}\"/pause 900/textAboveHead Maru \"{{i18n:event-31032032.37}}\"/speak Vincent \"{{i18n:event-31032032.38}}\"/emote Harvey 28 true/emote Penny 32 false/pause 50/speak Penny \"{{i18n:event-31032032.39}}\"",
 			"When": {
 				"HasSeenEvent |contains=31032031": "false"
 			}
