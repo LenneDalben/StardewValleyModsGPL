@@ -1358,14 +1358,14 @@
 			}
 		},
 		/*Event dialog - Demetrius Botany - Bug*/ {
-			"Name": "ShaneAnimalCareBugOrBug",
+			"Name": "ShaneAnimalCareCrowOrBug",
 			"Value": "jump Jas 8/jump Vincent 8/jump farmer 4/jump Penny 4/speak Shane \"{{i18n:event-31032036.26}}\"/emote BlossomDuck 32/emote Jas 20 true/emote Vincent 20 true/emote Penny 32 true/emote Shane 32 true/emote farmer 32 true",
 				"When": {
 					"HasSeenEvent |contains=31032029": "true"
 				}
 		},
 		/*Event dialog - have not seen Demetrius botany*/ {
-			"Name": "ShaneAnimalCareBugOrBug",
+			"Name": "ShaneAnimalCareCrowOrBug",
 			"Value": "jump Jas 8/jump Vincent 8/jump farmer 4/jump Penny 4/speak Shane \"{{i18n:event-31032036.26}}\"/emote BlossomDuck 32/emote Jas 20 true/emote Vincent 20 true/emote Penny 32 true/emote Shane 32 true/emote farmer 32 true",
 				"When": {
 					"HasSeenEvent |contains=31032029": false,
