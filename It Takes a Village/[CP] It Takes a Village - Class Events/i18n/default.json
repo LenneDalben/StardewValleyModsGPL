@@ -334,7 +334,7 @@
   "ItTakesAVillage_SebProgramCT_Penny": "The kids were not very talkative about this lesson...$3",
   //
   // Maru Electronics
-  // "event-31032030.01": "Who's ready for some time with Maru the Science Guru?!$h", *** there is no .01 line for this event, it's on purpose.
+  // there is no .01 line for this event, it's on purpose.
   "event-31032030.02": "You've had some fun with nature and bugs, now we'll have some fun in the lab!#$b#Who's ready for some time with Maru the Science Guru?!$h",
   "event-31032030.03": "(I don't know if this will live up to the bird hype, but here goes.$s)#$b#Who's ready for some time with Maru the Science Guru?!",
   "event-31032030.04": "Alright, goggles on!$h",
@@ -415,7 +415,6 @@
   "event-31032029.27": "That's still a treat for us, Jas! We're not likely to venture in there.$h#$b#After all, it's not safe.#$b#There are also unique crabs and a whole host of other creatures. What I would give to be able to study them safely.",
   "event-31032029.28": "That's so cool, Mr. Demetrius!",
   "event-31032029.29": "Well, let's continue with the nature tour.$h",
-  // "event-31032029.30": "It's fun to see different types of science, isn't it?$h", *** there is no .30 line for this event, it's on purpose.
   // Demetrius Botany CTs
   // Demetrius Botany Birb edition
   "ItTakesAVillage_DemetriusBotanyCT_Crow_Demetrius": "It was great to share botany knowledge with more than just Maru, although of course that's great too.$h#$b#Oh, the greater glossy puffle? Yes, it was quite a marvelous sight.",
