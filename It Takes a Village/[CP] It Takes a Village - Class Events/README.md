@@ -2,7 +2,7 @@
 
 This mod is in development! NPCs help Penny teach the kiddos (Vincent and Jas) by giving lessons.
 
-Features include semi-randomized order of lessons and semi-dynamic dialog based on which lesson(s) played first! In repeat playthroughs, you may see the lessons in a different order, and with slightly different dialog, some which is seasonal.
+Features include randomized order of lessons and semi-dynamic dialog based on which lesson(s) played first! In repeat playthroughs, you may see the lessons in a different order, and with slightly different dialog, some which is seasonal.
 
 ||Background||
 
@@ -19,7 +19,7 @@ Translations are welcome! You can submit either the language.json to me or the s
 
 To begin the lesson series, reach 6 hearts with Penny, then visit the town on a sunny day between 9:30am and 6:00pm. An event will play with Penny outside the Library / Museum. By default, at least 7 days later, a lesson event will happen somewhere in town! Refer to the Configuration section on how to customize the Minimum Days Between Lessons.
 
-Refer to the spoiler guide for details [TODO] on activating the other events (a few have weather and/or time conditions).
+Refer to the spoiler guide for details on activating the other events (a few have weather and/or time conditions).
 
 
 ||Configuration||
@@ -53,7 +53,7 @@ A note on Stardew Valley Expanded (SVE): I don’t use it and never will, so I w
 1. Install <a href="https://www.nexusmods.com/stardewvalley/mods/2400">SMAPI</a> (version 3.9.3 or higher)
 2. Install <a href="https://www.nexusmods.com/stardewvalley/mods/1915">Content Patcher (CP)</a> (version 1.21.0 or higher)
 - Optional: Install <a href="https://www.nexusmods.com/stardewvalley/mods/8626">Custom Companions (CC)</a> (version 1.4.3 or higher)
-3. Download the mod from ModDrop (link TBD) and unzip the mod folder into Stardew Valley/Mods.
+3. Download the mod from ModDrop (link TBD) and unzip the mod folders into Stardew Valley/Mods.
 - If you do not use CC, you can delete that folder from your Mods folder.
 4. Play the game using SMAPI!
 
@@ -77,7 +77,7 @@ I would like to include the kids from Ridgeside Village (RSV) someday in a futur
 
 <a href ="https://www.nexusmods.com/stardewvalley/users/5575844?tab=user+files">Lumina / Lumisteria</a> and <a href ="https://www.nexusmods.com/stardewvalley/users/48380238?tab=user+files">foggywizard</a>, for guidance on conversation topics stuff
 
-<a href ="https://www.nexusmods.com/stardewvalley/users/95265773?tab=user+files">max / skellady</a>, for information on Saloon schedules
+<a href ="https://www.nexusmods.com/stardewvalley/users/95265773?tab=user+files">max / skellady</a>, for information on Saloon schedules and being a beta tester
 
 <a href ="https://www.nexusmods.com/stardewvalley/users/120958053?tab=user+files">Elizabeth / violetlizabet</a>, for helping me figure out some conditions for conversation topics and fun with randomization
 
@@ -87,6 +87,6 @@ I would like to include the kids from Ridgeside Village (RSV) someday in a futur
 
 <a href="https://www.nexusmods.com/stardewvalley/users/92060238?tab=user+files">Taiyo</a>, <a href ="https://www.nexusmods.com/stardewvalley/users/112768378?tab=user+files">tiakall</a>, and <a href="https://www.nexusmods.com/stardewvalley/users/2893756?tab=user+files">Yri</a> for some art feedback and encouragement on sprites I drew
 
-<a href="https://www.nexusmods.com/stardewvalley/users/104804993?tab=user+files">nicole / beyond recovery</a>, for help with figuring out the "walking off screen while fading out" effect
+<a href="https://www.nexusmods.com/stardewvalley/users/104804993?tab=user+files">nicole / beyond recovery</a>, for help with figuring out the "walking off screen while fading out" effect, encouragement, and being a beta tester
 
 <a href="https://www.nexusmods.com/stardewvalley/users/1552317?tab=user+files">Pathoschild</a>, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible
