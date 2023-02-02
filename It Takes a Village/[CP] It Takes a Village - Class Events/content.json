@@ -555,14 +555,6 @@
 				"HasSeenEvent |contains=31032029": "true"
 			}
 		},
-		/*Event dialog - have not seen Demetrius Botany - shouldn't be needed {
-			"Name": "MaruElectronicsFirstLine",
-			"Value": "{{i18n:event-31032030.01}}",
-			"When": {
-				"HasSeenEvent |contains=31032029": "false",
-				"HasSeenEvent |contains=31032042": "false"
-			}
-		},*/
 		/*Goggle moment in event based on config*/ {
 			"Name": "MaruElectronicsGoggles",
 			"Value": "speak Maru \"{{i18n:event-31032030.04}}\"/pause 50/faceDirection Jas 2 true/faceDirection Vincent 2 false/pause 1000/move Jas 0 -1 1 true/move Vincent 0 -1 3 false/pause 500/speak Vincent \"{{i18n:event-31032030.05}}\"/speak Maru \"{{i18n:event-31032030.06}}\"/emote Penny 32/speak Maru \"{{i18n:event-31032030.07}}\"",
@@ -709,13 +701,6 @@
 				"Season": "Winter"
 			}
 		},
-		/*Event dialog - saw Maru Electronics - shouldn't be needed {
-			"Name": "DemetriusBotanySeenMaruElectronics",
-			"Value": "emote Vincent 16 true/emote Jas 40 false/pause 200/speak Penny \"{{i18n:event-31032029.30}}\"/emote Vincent 32 true/emote Jas 32 false/pause 50",
-			"When": {
-				"HasSeenEvent |contains=31032030": "true"
-			}
-		},*/
 		// Emily Emotional Health & Dance and Harvey Anatomy
 		// HasSeenEvent tokens
 		/*haven't seen either event in the pair*/ {
