@@ -821,19 +821,19 @@
         },
         //
         // Demetrius Botany - Done!
-        /*Event proper - Extra Copy just in case*/ {
+        /*Event proper - Extra Copy just in case {
             "LogName": "Demetrius Botany Lesson",
-            // "Action": "EditData",
-            // "Target": "Data/Events/Mountain",
-            // "Entries": {
-            // "31032029/t 900 1800/A ItTakesAVillage_Beginning/A ItTakesAVillage_AlexPE/A ItTakesAVillage_GusCooking/A ItTakesAVillage_ElliottStories/A ItTakesAVillage_HaleyLeahArt/A ItTakesAVillage_AbbyEcon/A ItTakesAVillage_SebProgram/A ItTakesAVillage_MaruElectronics/A ItTakesAVillage_EmilyDance/A ItTakesAVillage_HarveyHealth/A ItTakesAVillage_AbigailVideoGames/A ItTakesAVillage_ClintMetalworking/A ItTakesAVillage_SamMusic/A ItTakesAVillage_ShaneAnimalCare/A ItTakesAVillage_AbigailSelfDefense/A ItTakesAVillage_RobinWoodworking/A ItTakesAVillage_WillyLinusFishing/A ItTakesAVillage_CarolineEvelynGardening": "spring_day_ambient/-1000 -1000/Penny 18 29 1 Jas 20 30 0 Vincent 20 29 2 Demetrius 24 29 3/{{Random: {{DemetriusBotanyTempActorCrow}} %% {{DemetriusBotanyTempActorBug}} %% {{DemetriusBotanyTempActorBug}}%% {{DemetriusBotanyTempActorBug}}%% {{DemetriusBotanyTempActorBug}}%% {{DemetriusBotanyTempActorBug}}%% {{DemetriusBotanyTempActorBug}}%% {{DemetriusBotanyTempActorBug}}%% {{DemetriusBotanyTempActorBug}}%% {{DemetriusBotanyTempActorBug}} |key=monster |inputSeparator=%%}}/changeToTemporaryMap Custom_ItTakesaVillage_Botany false/warp Penny 18 29/warp Jas 20 30/warp Vincent 20 29/warp Demetrius 24 29/viewport 16 32/addConversationTopic ItTakesAVillage_DemetriusBotany {{MinimumDaysBetweenLessons}}/{{DemetriusBotanySeasonalForageObject}}/{{SkippableToken}}/pause 1000/faceDirection Jas 2/faceDirection Vincent 3/faceDirection Jas 3/emote Demetrius 56/faceDirection Jas 1 true/faceDirection Vincent 1/speak Demetrius \"{{i18n:event-31032029.01}}\"/emote Jas 8/playMusic event1/viewport move 3 0 2500 true/move Demetrius 5 0 2 true/move Jas 5 0 2 true/move Vincent 5 0 2 true/move Penny 5 0 2 false/pause 100/speak Demetrius \"{{i18n:event-31032029.02}}\"/speak Vincent \"{{i18n:event-31032029.03}}\"/emote Penny 28/speak Demetrius \"{{i18n:event-31032029.04}}\"/viewport move 3 0 2500 true/move Demetrius 5 0 2 true/move Jas 6 0 1 true/move Vincent 6 0 1 true/move Penny 6 0 1 false/pause 100/speak Demetrius \"{{i18n:event-31032029.05}}\"/speak Demetrius \"{{DemetriusBotanySeasonalForageDialog}}\"/emote Vincent 40/speak Jas \"{{DemetriusBotanySeasonalQuestion}}\"/speak Demetrius \"{{DemetriusBotanySeasonalAnswer}}\"/{{DemetriusBotanySeenMaruElectronics}}/speak Demetrius \"{{i18n:event-31032029.18}}\"/pause 500/{{Random: {{DemetriusBotanyEnterCrow}} %% {{DemetriusBotanyEnterBug}} %% {{DemetriusBotanyEnterBug}} %% {{DemetriusBotanyEnterBug}} %% {{DemetriusBotanyEnterBug}} %% {{DemetriusBotanyEnterBug}} %% {{DemetriusBotanyEnterBug}} %% {{DemetriusBotanyEnterBug}} %% {{DemetriusBotanyEnterBug}} %% {{DemetriusBotanyEnterBug}} |key=monster |inputSeparator=%%}}/pause 500/end"
-            // },
-            // "When": {
-            // "MaruElectronicsAndDemetriusBotanyToken": "DemetriusBotanyYes",
-            // "Weather |contains=Sun, Wind": "true"
-            // },
-            // "Update": "OnLocationChange"
-        },
+            "Action": "EditData",
+            "Target": "Data/Events/Mountain",
+            "Entries": {
+            "31032029/t 900 1800/A ItTakesAVillage_Beginning/A ItTakesAVillage_AlexPE/A ItTakesAVillage_GusCooking/A ItTakesAVillage_ElliottStories/A ItTakesAVillage_HaleyLeahArt/A ItTakesAVillage_AbbyEcon/A ItTakesAVillage_SebProgram/A ItTakesAVillage_MaruElectronics/A ItTakesAVillage_EmilyDance/A ItTakesAVillage_HarveyHealth/A ItTakesAVillage_AbigailVideoGames/A ItTakesAVillage_ClintMetalworking/A ItTakesAVillage_SamMusic/A ItTakesAVillage_ShaneAnimalCare/A ItTakesAVillage_AbigailSelfDefense/A ItTakesAVillage_RobinWoodworking/A ItTakesAVillage_WillyLinusFishing/A ItTakesAVillage_CarolineEvelynGardening": "spring_day_ambient/-1000 -1000/Penny 18 29 1 Jas 20 30 0 Vincent 20 29 2 Demetrius 24 29 3/{{Random: {{DemetriusBotanyTempActorCrow}} %% {{DemetriusBotanyTempActorBug}} %% {{DemetriusBotanyTempActorBug}}%% {{DemetriusBotanyTempActorBug}}%% {{DemetriusBotanyTempActorBug}}%% {{DemetriusBotanyTempActorBug}}%% {{DemetriusBotanyTempActorBug}}%% {{DemetriusBotanyTempActorBug}}%% {{DemetriusBotanyTempActorBug}}%% {{DemetriusBotanyTempActorBug}} |key=monster |inputSeparator=%%}}/changeToTemporaryMap Custom_ItTakesaVillage_Botany false/warp Penny 18 29/warp Jas 20 30/warp Vincent 20 29/warp Demetrius 24 29/viewport 16 32/addConversationTopic ItTakesAVillage_DemetriusBotany {{MinimumDaysBetweenLessons}}/{{DemetriusBotanySeasonalForageObject}}/{{SkippableToken}}/pause 1000/faceDirection Jas 2/faceDirection Vincent 3/faceDirection Jas 3/emote Demetrius 56/faceDirection Jas 1 true/faceDirection Vincent 1/speak Demetrius \"{{i18n:event-31032029.01}}\"/emote Jas 8/playMusic event1/viewport move 3 0 2500 true/move Demetrius 5 0 2 true/move Jas 5 0 2 true/move Vincent 5 0 2 true/move Penny 5 0 2 false/pause 100/speak Demetrius \"{{i18n:event-31032029.02}}\"/speak Vincent \"{{i18n:event-31032029.03}}\"/emote Penny 28/speak Demetrius \"{{i18n:event-31032029.04}}\"/viewport move 3 0 2500 true/move Demetrius 5 0 2 true/move Jas 6 0 1 true/move Vincent 6 0 1 true/move Penny 6 0 1 false/pause 100/speak Demetrius \"{{i18n:event-31032029.05}}\"/speak Demetrius \"{{DemetriusBotanySeasonalForageDialog}}\"/emote Vincent 40/speak Jas \"{{DemetriusBotanySeasonalQuestion}}\"/speak Demetrius \"{{DemetriusBotanySeasonalAnswer}}\"/{{DemetriusBotanySeenMaruElectronics}}/speak Demetrius \"{{i18n:event-31032029.18}}\"/pause 500/{{Random: {{DemetriusBotanyEnterCrow}} %% {{DemetriusBotanyEnterBug}} %% {{DemetriusBotanyEnterBug}} %% {{DemetriusBotanyEnterBug}} %% {{DemetriusBotanyEnterBug}} %% {{DemetriusBotanyEnterBug}} %% {{DemetriusBotanyEnterBug}} %% {{DemetriusBotanyEnterBug}} %% {{DemetriusBotanyEnterBug}} %% {{DemetriusBotanyEnterBug}} |key=monster |inputSeparator=%%}}/pause 500/end"
+            },
+            "When": {
+            "MaruElectronicsAndDemetriusBotanyToken": "DemetriusBotanyYes",
+            "Weather |contains=Sun, Wind": "true"
+            },
+            "Update": "OnLocationChange"
+        },*/
         /*Event proper - Bug*/ {
             "LogName": "Demetrius Botany Lesson - Bug",
             "Action": "EditData",
@@ -1526,6 +1526,16 @@
         },
         //
         // Shane Animal Care - Done!
+        // After fade to black, right before the end, warp everyone back to the barn (see if the chickens stay in position). Then Shane suggests eggie for Jas and Vincent and catching up in 1 week. Random chance 1 gets crushed and the other is fine, random chance 1 hatches and the other is fine, random chance 1 hatches and the other is crushed
+        // use the same dialogue lines for some of it and just use a dynamic token to randomly select which kid it is, with a key or check to make sure it doesn't pick the same kid twice
+        // Make sure you follow the dynamic token route for the random like you did Demetrius botany, so the villagers don't forget who did what
+        // Need to figure out timing on the black event similar to the "noticed your friendship" mod, then go "hmm I wonder how the kids are doing with the egg, maybe I should ask"
+        // ^ CT chain. Shane Animal Care has its own CT for the other lessons to happen. Then new second CT for the timing the black event (go with 3 or 4 days?). Kids and parents could still comment on the egg thing, I guess, so there really would be 2 CTs from 1 event. Then, when second CT expires, fire the black event, third CT in place for "how's it going with the egg" (go with 3 or 4 days, based on the previous one?). When the third CT expires, The Reckoning at Marnie's ranch.
+        // The egg?$3#$b#%Jas looks away, as if something bad happened. (sub in Vincent)
+        // heart wrenching rendition of Jas crying as she tries to explain what happened to the egg in my head (sub in Vincent)
+        // something initially heartwarming, like "I wanted to keep the egg warm, so I put it close to me while I slept" :cut to a flashback, terrible things happened:
+        // we could actually see the kiddos lying in bed, then accidentally rolling over the eggie, cue the sprite, the sobs, etc.
+        // need to confirm I fake night time when the kiddos are lying in bed... maybe something at the map level? Tia said "Set music to ambientnight (or whatever it's called) and dim the screen, done" but idk what dim the screen means lol
         /*Event proper*/ {
             "LogName": "Shane Animal Care Lesson",
             "Action": "EditData",
