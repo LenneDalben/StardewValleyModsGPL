@@ -35,6 +35,13 @@
 			"Default": "true",
 			"AllowBlank": false,
 			"AllowMultiple": false
+		},
+		"CrowOrBugConfig": {
+			"Description": "The chance to see either a crow or a bug in the Demetrius botany lesson. By default, there is a 10% chance to see the crow and 90% chance to see the bug, indicated by the ratio. If you'd like to change this ratio, change the number of mentions of crow and/or bug to suit your preference, separated by a comma. Note the first letter is capitalized.",
+			"AllowValues": "Crow, Bug",
+			"Default": "Crow, Bug, Bug, Bug, Bug, Bug, Bug, Bug, Bug, Bug",
+			"AllowBlank": false,
+			"AllowMultiple": true
 		}
 	},
 	// Custom Temporary Maps
@@ -572,8 +579,8 @@
 		// Tokens for Demetrius Botany
 		/*Deciding Crow or Bug*/ {
 			"Name": "CrowOrBug",
-			"Value": "{{Random: Crow, Bug, Bug, Bug, Bug, Bug, Bug, Bug, Bug, Bug |key=monster}}"
-		},
+			"Value": "{{Random: {{CrowOrBugConfig}} |key=monster}}" // Crow, Bug, Bug, Bug, Bug, Bug, Bug, Bug, Bug, Bug
+		},		
 		/*Set value to Bug if you saw that event*/ {
 			"Name": "CrowOrBug",
 			"Value": "Bug",
