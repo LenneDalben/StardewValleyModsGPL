@@ -19,6 +19,10 @@
             "IsRequired": false
         },
         {
+            "UniqueID": "Hana.FixDialogueDifferences",
+            "IsRequired": false
+        },
+        {
             "UniqueID": "Apollyon.VillagerNameReplacerVanilla",
             "IsRequired": false
         }
