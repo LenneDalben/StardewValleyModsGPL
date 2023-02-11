@@ -58,6 +58,11 @@
 		{
 			"Name": "Custom_ItTakesaVillage_Anatomy",
 			"FromMapFile": "assets/Not-Code/HarveyAnatomy/Anatomy.tmx"
+		},
+		// Custom Map for Metalwork lesson
+		{
+			"Name": "Custom_ItTakesaVillage_Metalwork",
+			"FromMapFile": "assets/Not-Code/ClintMetalworking/Metalwork.tmx"
 		}
 	],
 	// Dynamic Tokens section
@@ -1901,17 +1906,23 @@
 			"Target": "Characters/EmilyRadio",
 			"FromFile": "assets/Not-Code/EmilyRadio.png"
 		},
-		/*Loading Glowing Metal Bar Sprite*/ {
+		/*Loading Empty Anvil Sprite*/ {
+			"LogName": "Loading Empty Anvil Sprite",
+			"Action": "Load",
+			"Target": "Characters/AnvilEmpty",
+			"FromFile": "assets/Not-Code/ClintMetalworking/AnvilEmpty.png",
+		},
+		/*Loading Anvil with Glowing Metal Bar Sprite*/ {
 			"LogName": "Loading Glowing Metal Bar Sprite by Airyn",
 			"Action": "Load",
-			"Target": "Characters/GlowingMetalBar",
-			"FromFile": "assets/Not-Code/ClintMetalworking/GlowingMetalBar.png",
+			"Target": "Characters/AnvilGlowingMetalBar",
+			"FromFile": "assets/Not-Code/ClintMetalworking/AnvilGlowingMetalBar.png",
 		},
-		/*Loading Copper Pan Sprite*/ {
+		/*Loading Anvil with Copper Pan Sprite*/ {
 			"LogName": "Loading Copper Pan Sprite",
 			"Action": "Load",
-			"Target": "Characters/CopperPan",
-			"FromFile": "assets/Not-Code/ClintMetalworking/CopperPan.png",
+			"Target": "Characters/AnvilCopperPan",
+			"FromFile": "assets/Not-Code/ClintMetalworking/AnvilCopperPan.png",
 		},
 		/*Clint Metalwork Jas Room Map Patch*/ {
 			"LogName": "Clint Metalwork Jas Copper Pan Map Patch",
