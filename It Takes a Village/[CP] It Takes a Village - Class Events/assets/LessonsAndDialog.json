@@ -728,7 +728,8 @@
             "When": {
                 "MaruElectronicsAndDemetriusBotanyToken": "MaruElectronicsYesDemetriusBotanyNo",
                 "HasSeenEvent |contains=31032032": true, // Harvey Anatomy, for temp map shenanigans
-                "HasSeenEvent |contains=31032035": true // Sam Music, for temp map shenanigans
+                "HasSeenEvent |contains=31032035": true, // Sam Music, for temp map shenanigans
+                "HasSeenEvent |contains=31032024": true // Clint Metalwork, for temp map shenanigans
             }
         },
         /*Maru CT*/ {
