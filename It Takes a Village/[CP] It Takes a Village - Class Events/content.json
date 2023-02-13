@@ -893,7 +893,7 @@
 			"When": {
 				"HasSeenEvent |contains=31032022": true, // Penny kickstarts lessons
 				"HasSeenEvent |contains=31032033": false,
-				"HasSeenEvent |contains=31032024": false,
+				"HasSeenEvent |contains=31032034": false,
 			}
 		},
 		/*saw Abigail video games but not Clint metalwork*/ {
@@ -902,7 +902,7 @@
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
 				"HasSeenEvent |contains=31032033": true,
-				"HasSeenEvent |contains=31032024": false,
+				"HasSeenEvent |contains=31032034": false,
 			}
 		},
 		/*saw Clint metalwork but not Abigail video games*/ {
@@ -911,7 +911,7 @@
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
 				"HasSeenEvent |contains=31032033": false,
-				"HasSeenEvent |contains=31032024": true,
+				"HasSeenEvent |contains=31032034": true,
 			}
 		},
 		/*saw both events in the pair*/ {
@@ -920,7 +920,7 @@
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
 				"HasSeenEvent |contains=31032033": true,
-				"HasSeenEvent |contains=31032024": true,
+				"HasSeenEvent |contains=31032034": true,
 			}
 		},
 		// Tokens for Abigail Video Games
@@ -980,28 +980,28 @@
 			"Name": "AbbyVideoGamesSeenClintMetal",
 			"Value": "{{i18n:event-31032033.09}}",
 			"When": {
-				"HasSeenEvent |contains=31032024": "true"
+				"HasSeenEvent |contains=31032034": "true"
 			}
 		},
 		/*Event Abigail dialog - did not see Metalworking lessonn*/ {
 			"Name": "AbbyVideoGamesSeenClintMetal",
 			"Value": "{{i18n:event-31032033.10}}",
 			"When": {
-				"HasSeenEvent |contains=31032024": "false"
+				"HasSeenEvent |contains=31032034": "false"
 			}
 		},
 		/*CT dialog for Clint - have seen Clint Metalworking*/ {
 			"Name": "AbbyVideoGamesClintCT",
 			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Clint_YesMetalwork}}",
 			"When": {
-				"HasSeenEvent |contains=31032024": "true"
+				"HasSeenEvent |contains=31032034": "true"
 			}
 		},
 		/*CT dialog for Clint - have not seen Clint Metalworking*/ {
 			"Name": "AbbyVideoGamesClintCT",
 			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Clint_NoMetalwork}}",
 			"When": {
-				"HasSeenEvent |contains=31032024": "false"
+				"HasSeenEvent |contains=31032034": "false"
 			}
 		},
 		/*CT dialog for Caroline - have seen at least 1 Abby lesson*/ {
