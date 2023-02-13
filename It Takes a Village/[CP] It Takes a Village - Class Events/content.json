@@ -590,7 +590,7 @@
 			"Name": "CrowOrBug",
 			"Value": "Crow",
 			"When": {
-				"HasSeenEvent |contains= 310320242": true
+				"HasSeenEvent |contains= 31032042": true
 			}
 		},
 		// Forage tokens
