@@ -1736,32 +1736,8 @@
 				"EditPenny8HeartEvent": "true"
 			}
 		},
-		/*Adds Blossom Duck to Forest*/ {
-			"LogName": "Blossom Duck in Forest",
-			"Action": "EditMap",
-			"Target": "Maps/Forest",
-			"MapTiles": [
-				{
-					"Position": {
-						"X": 108,
-						"Y": 19
-					},
-					"Layer": "Back",
-					"SetProperties": {
-						"CustomCompanions": "Spawn 1 LenneDalben.CC.ItTakesaVillageVisitor.BlossomDuck_{{season}}"
-					},
-				},
-			],
-			"When": {
-				"DayofWeek": "Friday",
-				"Weather |contains=Sun, Wind": "true",
-				"HasMod |contains=LenneDalben.CCItTakesaVillageVisitor": "true",
-				"HasSeenEvent |contains=31032036": "true"
-			},
-			"Update": "OnLocationChange"
-		},
 		// Loading sprites
-		/*Loading Seb Computer Sprite*/ {
+		/*Loading Seb Computer*/ {
 			"LogName": "Loading Seb Computer Sprite",
 			"Action": "Load",
 			"Target": "Characters/SebComputer",
@@ -1808,7 +1784,7 @@
 			},
 			"Update": "OnLocationChange"
 		},
-		/*Loading Blossom Duck Sprite*/ {
+		/*Loading Blossom Duck*/ {
 			"LogName": "Loading BlossomDuck Sprite by LenneDalben",
 			"Action": "Load",
 			"Target": "Characters/BlossomDuck",
@@ -1856,7 +1832,56 @@
 			"Target": "Characters/ArtTable",
 			"FromFile": "assets/Not-Code/Haley-LeahArt/ArtTable.png",
 		},
-		/*Haley & Leah Art Jas Room Map Patch*/ {
+		/*Loading Emily Emotional Health and Dance Radio*/ {
+			"LogName": "Loading Emily Emotional Health and Dance Radio Sprite",
+			"Action": "Load",
+			"Target": "Characters/EmilyRadio",
+			"FromFile": "assets/Not-Code/EmilyRadio.png"
+		},
+		/*Loading Empty Anvil*/ {
+			"LogName": "Loading Empty Anvil Sprite",
+			"Action": "Load",
+			"Target": "Characters/AnvilEmpty",
+			"FromFile": "assets/Not-Code/ClintMetalworking/AnvilEmpty.png",
+		},
+		/*Loading Anvil with Glowing Metal Bar*/ {
+			"LogName": "Loading Glowing Metal Bar Sprite by Airyn",
+			"Action": "Load",
+			"Target": "Characters/AnvilGlowingMetalBar",
+			"FromFile": "assets/Not-Code/ClintMetalworking/AnvilGlowingMetalBar.png",
+		},
+		/*Loading Anvil with Copper Pan*/ {
+			"LogName": "Loading Copper Pan Sprite",
+			"Action": "Load",
+			"Target": "Characters/AnvilCopperPan",
+			"FromFile": "assets/Not-Code/ClintMetalworking/AnvilCopperPan.png",
+		},
+		// Map Patches
+		/*Adds Blossom Duck to Forest*/ {
+			"LogName": "Blossom Duck in Forest",
+			"Action": "EditMap",
+			"Target": "Maps/Forest",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 108,
+						"Y": 19
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"CustomCompanions": "Spawn 1 LenneDalben.CC.ItTakesaVillageVisitor.BlossomDuck_{{season}}"
+					},
+				},
+			],
+			"When": {
+				"DayofWeek": "Friday",
+				"Weather |contains=Sun, Wind": "true",
+				"HasMod |contains=LenneDalben.CCItTakesaVillageVisitor": "true",
+				"HasSeenEvent |contains=31032036": "true"
+			},
+			"Update": "OnLocationChange"
+		},
+		/*Haley & Leah Art Jas Room*/ {
 			"LogName": "Haley & Leah Art Jas Canvas Map Patch",
 			"Action": "EditMap",
 			"PatchMode": "Overlay",
@@ -1878,7 +1903,7 @@
 				"HasConversationTopic": "ItTakesAVillage_HaleyLeahArt"
 			}
 		},
-		/*Haley & Leah Art Vincent Room Map Patch*/ {
+		/*Haley & Leah Art Vincent Room*/ {
 			"LogName": "Haley & Leah Art Vincent Canvas Map Patch",
 			"Action": "EditMap",
 			"PatchMode": "Overlay",
@@ -1900,31 +1925,7 @@
 				"HasConversationTopic": "ItTakesAVillage_HaleyLeahArt"
 			}
 		},
-		/*Loading Emily Emotional Health and Dance Radio Sprite*/ {
-			"LogName": "Loading Emily Emotional Health and Dance Radio Sprite",
-			"Action": "Load",
-			"Target": "Characters/EmilyRadio",
-			"FromFile": "assets/Not-Code/EmilyRadio.png"
-		},
-		/*Loading Empty Anvil Sprite*/ {
-			"LogName": "Loading Empty Anvil Sprite",
-			"Action": "Load",
-			"Target": "Characters/AnvilEmpty",
-			"FromFile": "assets/Not-Code/ClintMetalworking/AnvilEmpty.png",
-		},
-		/*Loading Anvil with Glowing Metal Bar Sprite*/ {
-			"LogName": "Loading Glowing Metal Bar Sprite by Airyn",
-			"Action": "Load",
-			"Target": "Characters/AnvilGlowingMetalBar",
-			"FromFile": "assets/Not-Code/ClintMetalworking/AnvilGlowingMetalBar.png",
-		},
-		/*Loading Anvil with Copper Pan Sprite*/ {
-			"LogName": "Loading Copper Pan Sprite",
-			"Action": "Load",
-			"Target": "Characters/AnvilCopperPan",
-			"FromFile": "assets/Not-Code/ClintMetalworking/AnvilCopperPan.png",
-		},
-		/*Clint Metalwork Jas Room Map Patch*/ {
+		/*Clint Metalwork Jas Room*/ {
 			"LogName": "Clint Metalwork Jas Copper Pan Map Patch",
 			"Action": "EditMap",
 			"PatchMode": "Overlay",
@@ -1946,7 +1947,7 @@
 				"HasConversationTopic": "ItTakesAVillage_ClintMetalworking"
 			}
 		},
-		/*Clint Metalwork Vincent Room Map Patch*/ {
+		/*Clint Metalwork Vincent Room*/ {
 			"LogName": "Clint Metalwork Vincent Copper Pan Map Patch",
 			"Action": "EditMap",
 			"PatchMode": "Overlay",
