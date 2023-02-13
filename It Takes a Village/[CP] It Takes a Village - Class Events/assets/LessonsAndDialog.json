@@ -5,7 +5,7 @@
         // For the audience kids: obviously Vincent and Jas are always there, but what modded kids attend Penny's lessons? I think Eloise, but not sure if anyone else does (Keahi / Trinnie?). Need permissions to include them, and also the mod authors' opinion on how those kids would react to each lesson (enjoy, dislike, indifferent).
         //
         // Events and CTs
-        // Penny kickstarts the lessons! - Done!
+        // Penny kickstarts the lessons - Done!
         /*Event proper*/ {
             "LogName": "Penny Kickstarts Lessons",
             "Action": "EditData",
