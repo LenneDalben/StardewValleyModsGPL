@@ -983,7 +983,7 @@
 				"HasSeenEvent |contains=31032034": "true"
 			}
 		},
-		/*Event Abigail dialog - did not see Metalworking lessonn*/ {
+		/*Event Abigail dialog - did not see Metalworking lesson*/ {
 			"Name": "AbbyVideoGamesSeenClintMetal",
 			"Value": "{{i18n:event-31032033.10}}",
 			"When": {
@@ -1076,6 +1076,49 @@
 			"When": {
 				"SebProgramAndAbbyEconToken": "AbbyEconNoSebProgramNo",
 				"HasSeenEvent |contains=31032033, 31032027, 31032037": "false",
+			}
+		},
+		// Tokens for Clint Metalworking
+		/*Event Clint dialog - saw Video Games lesson*/ {
+			"Name": "ClintMetalSeenAbbyVideoGames",
+			"Value": "speak Clint \"{{i18n:event-31032034.10}}\"/speak Jas \"{{i18n:event-31032034.11}}\"/emote Clint 28/speak Clint \"{{i18n:event-31032034.12}}\"",
+			"When": {
+				"HasSeenEvent |contains=31032033": "true"
+			}
+		},
+		/*Event Clint dialog - did not see Video Games lesson*/ {
+			"Name": "ClintMetalSeenAbbyVideoGames",
+			"Value": "speak Clint \"{{i18n:event-31032034.09}}\"",
+			"When": {
+				"HasSeenEvent |contains=31032033": "false"
+			}
+		},
+		/*Event Vincent dialog - saw Shane Animal Care lesson*/ {
+			"Name": "ClintMetalSeenShaneAnimalCare",
+			"Value": "{{i18n:event-31032034.31}}",
+			"When": {
+				"HasSeenEvent |contains=31032036": "true"
+			}
+		},
+		/*Event Vincent dialog - saw Shane Animal Care lesson*/ {
+			"Name": "ClintMetalSeenShaneAnimalCare",
+			"Value": "{{i18n:event-31032034.30}}",
+			"When": {
+				"HasSeenEvent |contains=31032036": "false"
+			}
+		},
+		/*Event Jas dialog - saw Demetrius Botany - Crow lesson*/ {
+			"Name": "ClintMetalSeenDemetriusBotanyCrow",
+			"Value": "speak Jas \"{{i18n:event-31032034.33}}\"/emote Penny 28",
+			"When": {
+				"HasSeenEvent |contains=31032042": "true"
+			}
+		},
+		/*Event Jas dialog - did not see Demetrius Botany - Crow lesson*/ {
+			"Name": "ClintMetalSeenDemetriusBotanyCrow",
+			"Value": "speak Jas \"{{i18n:event-31032034.32}}\"",
+			"When": {
+				"HasSeenEvent |contains=31032042": "false"
 			}
 		},
 		// Sam Music and Shane Animal Care
