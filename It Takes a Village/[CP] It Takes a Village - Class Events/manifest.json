@@ -2,7 +2,7 @@
    "Name": "[CP] It Takes a Village - Class Events",
    "Author": "LenneDalben",
    "Description": "NPCs help out Penny teach the kiddos by giving lessons.",
-   "Version": "0.9.4",
+   "Version": "0.9.5",
    "UniqueID": "LenneDalben.CP.ItTakesaVillage",
    "UpdateKeys": [ "" ],
    "ContentPackFor": {
@@ -27,4 +27,15 @@
             "IsRequired": false
         }
     ]
+    /*
+    Updates and fixes in 0.9.5:
+    • Added Clint metalworking lesson! :hammer:
+    • Added false dependencies to Fix Dialog Differences to ensure change to Penny's 8 heart event works as intended
+    • Updated conditions for Blosom Duck CC patch (added |contains= hoping it'll be stronger)
+    • Updated Maru Electronics to also require Clint metalworking (temp map shenanigans). Updated event guide to reflect this
+    • Changed the song for Harvey anatomy
+    • Updated Demetrius botany music
+    • Fixed a typo in the HasSeenEvent dynamic tokens for Demetrius botany (this lesson is the bane of my existence)
+    • Reorganized a bit of the code in content.json and LessonsandDialog.json for organization purposes (you shan't experience any benefit unless you're poking at the code lol)
+    */
 }
