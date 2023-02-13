@@ -561,7 +561,7 @@
   "event-31032033.13": "I got one!$h",
   "event-31032033.14": "Oh no, I died already!$3",
   // Abigail Video Games CTs
-  "ItTakesAVillage_AbigailVideoGamesCT_Clint_YesMetalwork": "Well, that's practical.$s#$b#Metalworking can be fun too!... I guess.$s",
+  "ItTakesAVillage_AbigailVideoGamesCT_Clint_YesMetalwork": "Well, that's practical.$s#$b#Metalworking can be fun too! Hopefully the kids see that.$s",
   "ItTakesAVillage_AbigailVideoGamesCT_Clint_NoMetalwork": "I don't think the lesson I had planned for the kids will compete with that.$s",
   "ItTakesAVillage_AbigailVideoGamesCT_Abigail": "It's good for the kids to have a little fun every now and then.$h#$b#It also feels great to have them rave about how awesome Ms. Abigail is.$h",
   "ItTakesAVillage_AbigailVideoGamesCT_Caroline_YesAbby": "Hmph.$3.#$b#Well at least Abigail has taught the kids actual things, but I still don't approve of wasting their time with video games.$2",
@@ -622,6 +622,19 @@
   "event-31032034.37": "Hooray, a present!$h",
   "event-31032034.38": "Thanks, Mr. Clint!$h",
   // Clint Metalworking CTs
+  "ItTakesAVillage_ClintMetalworkingCT_Clint_YesAbbyVG": "I hope the kids still found it entertaining. My work might not seem like much compared to video games.$s",
+  "ItTakesAVillage_ClintMetalworkingCT_Clint_NoAbbyVG": "The kids seemed to have a nice time with my lesson.#$b#It went better than I expected.$h",
+  "ItTakesAVillage_ClintMetalworkingCT_Abigail_YesAbbyVG": "Clint was never in the running for the compe-$6#$b#I've said too much. I'm just glad the kids enjoyed blacksmithing!",
+  "ItTakesAVillage_ClintMetalworkingCT_Abigail_NoAbbyVG": "Clint set up the stage for my lesson, mine's way more entertaining.$h",
+  "ItTakesAVillage_ClintMetalworkingCT_Willy": "I'm proud of Clint, stepping out of his comfort zone and doing his best.$h",
+  "ItTakesAVillage_ClintMetalworkingCT_Jas": "From the heat of the furnace to cold water...$3#$b#I don't know, I might just use the tray to organize my toys.$h",
+  "ItTakesAVillage_ClintMetalworkingCT_Vincent": "I like playing in mud, but mom knows right away...$3#$b#Maybe water won't be as obvious, so panning in the river could work!",
+  "ItTakesAVillage_ClintMetalworkingCT_Jodi": "I don't want Vincent to play in the river, leaving puddles in the house. Clint should have known better than to encourage that!$s",
+  "ItTakesAVillage_ClintMetalworkingCT_Kent": "Jodi means well, but I could go panning with Vincent. Better than the tray collecting dust in his room.",
+  "ItTakesAVillage_ClintMetalworkingCT_Sam": "I doubt Vincent will stay interested in playing in the river.#$b#He prefers mud to water.$h",
+  "ItTakesAVillage_ClintMetalworkingCT_Marnie": "I'm sure it was special to see Clint working with metal!#$b#At some of the bigger fairs, blacksmiths or glass blowers will work on something live. It's pretty neat.$h",
+  "ItTakesAVillage_ClintMetalworkingCT_Shane": "I know Jas enjoys some physical activity, but I can't imagine her panning much.#$b#I wouldn't be surprised if that tray in her room disappears one day.$3",
+  "ItTakesAVillage_ClintMetalworkingCT_Penny": "The kids are so used to metal being a solid thing, they really enjoyed seeing it melt.",
   //
   // Sam Music event
   "event-31032035.01": "Hey there!$h#$b#Today we'll-achoo!$8",
