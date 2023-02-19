@@ -1642,6 +1642,7 @@
             "Entries": {
                 "31032038/A ItTakesAVillage_Beginning/A ItTakesAVillage_AlexPE/A ItTakesAVillage_GusCooking/A ItTakesAVillage_ElliottStories/A ItTakesAVillage_HaleyLeahArt/A ItTakesAVillage_AbbyEcon/A ItTakesAVillage_SebProgram/A ItTakesAVillage_DemetriusBotany/A ItTakesAVillage_MaruElectronics/A ItTakesAVillage_EmilyDance/A ItTakesAVillage_HarveyHealth/A ItTakesAVillage_AbigailVideoGames/A ItTakesAVillage_ClintMetalworking/A ItTakesAVillage_SamMusic/A ItTakesAVillage_ShaneAnimalCare/A ItTakesAVillage_AbigailSelfDefense/A ItTakesAVillage_WillyLinusFishing/A ItTakesAVillage_CarolineEvelynGardening": "50s/-1000 -1000/farmer -100 -100 0 Robin 3 18 2 Penny 8 21 3 Jas 2 22 0 Vincent 4 22 0/addObject 2 19 388/addObject 3 19 378/addObject 4 19 378/addObject 5 19 771/viewport 6 22 true/addConversationTopic ItTakesAVillage_RobinWoodworking {{MinimumDaysBetweenLessons}}/{{SkippableToken}}/emote Jas 32/jump Vincent 4/pause 500/end"
                 // warping farmer in, doorClose sound effect, etc.
+                // playSound crafting/pause 1200/playSound crafting/pause 1200/playSound crafting/pause 1200/playSound crafting/
             },
             "When": {
                 "RobinWoodworkAndAbbySelfDefenseToken": "RobinWoodworkYes, RobinWoodworkYesAbbySelfDefenseNo"
