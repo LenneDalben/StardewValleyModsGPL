@@ -60,7 +60,7 @@ A note on Stardew Valley Expanded (SVE): I don’t use it and never will, so I w
 
 ||Future Plans||
 
-I would like to include the kids from Ridgeside Village (RSV) someday in a future update, but I don't have a target date for that, or detailed plans to ask for permission. Writing the vanilla version of this has been a huge undertaking as it is.
+I think it'd be nice to include the kids from Ridgeside Village (RSV) someday in a future update, but I don't have a target date for that, or detailed plans to ask for permission. Writing the vanilla version of this has been a huge undertaking as it is.
 
 
 ||Shout Outs||
@@ -87,7 +87,7 @@ I would like to include the kids from Ridgeside Village (RSV) someday in a futur
 
 <a href="https://www.nexusmods.com/stardewvalley/users/92060238?tab=user+files">Taiyo</a>, <a href ="https://www.nexusmods.com/stardewvalley/users/112768378?tab=user+files">tiakall</a>, and <a href="https://www.nexusmods.com/stardewvalley/users/2893756?tab=user+files">Yri</a> for some art feedback and encouragement on sprites I drew
 
-<a href="https://www.nexusmods.com/stardewvalley/users/104804993?tab=user+files">nicole / beyond recovery</a>, for help with figuring out the "walking off screen while fading out" effect, encouragement, and being a beta testers
+<a href="https://www.nexusmods.com/stardewvalley/users/104804993?tab=user+files">nicole / beyondrecovery</a>, for help with figuring out the "walking off screen while fading out" effect, encouragement, and being a beta tester
 
 <a href="https://www.kdau.com/scrollish/">kdau's scroll generator</a>, for the scroll captions in the preview images
 
