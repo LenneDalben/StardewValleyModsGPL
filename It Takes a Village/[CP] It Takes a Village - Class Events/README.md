@@ -45,6 +45,8 @@ If you have a mod that changes map layout, you may be interested in the Skippabl
 
 The discussion after the Shane lesson includes dialog for <a href="https://www.nexusmods.com/stardewvalley/mods/9999">Sterling from Always Raining in the Valley (ARV)</a>, if you have ARV installed.
 
+If you're using Event Lookup, events are listed even if they're not actually going to happen that day, because of the random token.
+
 A note on Stardew Valley Expanded (SVE): I don’t use it and never will, so I will not add compatibility for it. Use ITAV and SVE together at your own risk.
 
 
@@ -88,6 +90,8 @@ I think it'd be nice to include the kids from Ridgeside Village (RSV) someday in
 <a href="https://www.nexusmods.com/stardewvalley/users/92060238?tab=user+files">Taiyo</a>, <a href ="https://www.nexusmods.com/stardewvalley/users/112768378?tab=user+files">tiakall</a>, and <a href="https://www.nexusmods.com/stardewvalley/users/2893756?tab=user+files">Yri</a> for some art feedback and encouragement on sprites I drew
 
 <a href="https://www.nexusmods.com/stardewvalley/users/104804993?tab=user+files">nicole / beyondrecovery</a>, for help with figuring out the "walking off screen while fading out" effect, encouragement, and being a beta tester
+
+<a href="https://www.nexusmods.com/stardewvalley/users/69153238?tab=user+files">shekurika</a>, for help with figuring out Clint's hammering animation
 
 <a href="https://www.kdau.com/scrollish/">kdau's scroll generator</a>, for the scroll captions in the preview images
 
