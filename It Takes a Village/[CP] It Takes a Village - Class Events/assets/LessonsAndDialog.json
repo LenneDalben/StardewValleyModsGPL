@@ -1715,7 +1715,7 @@
             "Entries": {
                 "ItTakesAVillage_RobinWoodworking": "{{i18n:ItTakesAVillage_RobinWoodworkingCT_Jodi}}"
             }
-        },
+        }, // I'm glad Robin showed the kids a way to be productive with their own hands.#$b#Just have to be mindful of safety.
         /*Kent CT*/ {
             "LogName": "Robin Woodworking CT - Kent",
             "Action": "EditData",
