@@ -1197,6 +1197,7 @@
         },
         //
         // Abigail Video Games - Done!
+        // may need to adjust the viewport in the 2 saloon portions so the kiddos are visible over the dialog box
         /*Event proper*/ {
             "LogName": "Abigail Video Games Lesson",
             "Action": "EditData",
