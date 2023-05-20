@@ -32,6 +32,11 @@
   "config.DaysTalkingAboutEvent.values.26": "26",
   "config.DaysTalkingAboutEvent.values.27": "27",
   "config.DaysTalkingAboutEvent.values.28": "28",
+  // Year One or Later
+  "config.YearOneOrLater.name": "YearOneOrLater",
+  "config.YearOneOrLater.description": "By default, the trick or treat event can happen in year 1 if you install it in your first year and visit the town on the appropriate days (YearOnePossible). However, Kent won't attend. If you'd like to delay this event to only happen after year 1 so that Kent can attend, set this to Later.",
+  "config.YearOneOrLater.values.YearOnePossible": "YearOnePossible",
+  "config.YearOneOrLater.values.Later": "Later",
   //
   // Event
   "event-29102022.01": "Hey you!",
