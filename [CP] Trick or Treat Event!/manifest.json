@@ -2,7 +2,7 @@
    "Name": "[CP] Trick or Treat Event!",
    "Author": "LenneDalben",
    "Description": "Short event for trick or treating with dialog after.",
-   "Version": "1.0.1",
+   "Version": "1.1.0",
    "UniqueID": "LenneDalben.TrickorTreatEvent",
    "MinimumApiVersion": "3.9.3",
    "ContentPackFor": {
