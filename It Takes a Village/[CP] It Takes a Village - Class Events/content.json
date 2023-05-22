@@ -1691,6 +1691,37 @@
 				"HasSeenEvent |contains=31032038": true,
 			}
 		},
+		// Tokens for Robin Woodworking
+		/*Event dialog - seen at least one of Elliott Stories, Haley and Leah Art, or Gus Cooking*/ {
+			"Name": "RobinWoodworkPersonalTouch",
+			"Value": "speak Penny \"Adding your own personal touch? We've heard that before, haven't we?\"/emote Jas 32 true/emote Robin 32 true/textAboveHead Vincent \"Yea!\"/pause 1750",
+			"When": {
+				"HasSeenEvent |contains=31032025, 31032026, 31032024": true
+			}
+		},
+		/*Event dialog - have not seen at least one of Elliott Stories, Haley and Leah Art, or Gus Cooking*/ {
+			"Name": "RobinWoodworkPersonalTouch",
+			"Value": "pause 500",
+			"When": {
+				"HasSeenEvent |contains=31032025": false,
+				"HasSeenEvent |contains=31032026": false,
+				"HasSeenEvent |contains=31032024": false
+			}
+		},
+		/*Event dialog - have seen Robin's 6 heart event to learn Flute Block recipe*/ {
+			"Name": "RobinWoodworkPersonalTouch",
+			"Value": "speak Robin \"@ knows all about it.$h\"/faceDirection farmer 2/showFrame farmer 3/emote farmer 32/faceDirection farmer 0/showFrame farmer 12",
+			"When": {
+				"HasSeenEvent |contains=33": true
+			}
+		},
+		/*Event dialog - have not seen Robin's 6 heart event to learn Flute Block recipe*/ {
+			"Name": "RobinWoodworkPersonalTouch",
+			"Value": "speak Robin \"We'll keep the details a secret from @. @ hasn't earned learning the recipe yet.\"/emote farmer 16/faceDirection farmer 2/showFrame farmer 49",
+			"When": {
+				"HasSeenEvent |contains=33": false
+			}
+		},
 		// Willy & Linus Fishing and Caroline & Evelyn Gardening
 		// HasSeenEvent tokens
 		/*haven't seen either event in the pair*/ {

@@ -1631,10 +1631,6 @@
         //
         // Robin Woodworking In Progress
         // The strength thing could be a segue / lead-in for the self-defense class
-        // Adding your own personal touch: if you've seen art, cooking, or stories, play that dialog and Vincent's reaction, otherwise, just pause 500.
-        // "@ knows all about it", or "We'll keep the details a secret from @. @ hasn't earned learning the recipe yet." based on HasSeenEvent 33
-        // may want to add /pause 1000 after changing viewport (already have pause 500, could lengthen)
-        // maybe we start losing attention from the kids (looking around). Vincent could intervene by asking about the supplies.
         // clam_tone: listed via soundspatcher, but not in the game?
         /*Event proper*/ {
             "LogName": "Robin Woodworking Lesson",
