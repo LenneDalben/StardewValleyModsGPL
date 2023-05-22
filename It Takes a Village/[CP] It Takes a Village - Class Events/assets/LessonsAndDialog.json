@@ -1636,6 +1636,7 @@
         // Put this after the "musical instruments so much fun": "@ knows all about it", or "We'll keep the details a secret from @. @ hasn't earned learning the recipe yet." Maybe she kicks you out if she doesn't think you're worthy of the recipe LOL HasSeenEvent 33 showFrame for the farmer 16 for facing down with eyes closed, in theory have arms up too?. For "resetting" farmer frame 12 has farmer facing up normal
         // may want to add /pause 1000 after changing viewport (already have pause 500, could lengthen)
         // maybe we start losing attention from the kids (looking around). Vincent could intervene by asking about the supplies.
+        // clam_tone: listed via soundspatcher, but not in the game?
         /*Event proper*/ {
             "LogName": "Robin Woodworking Lesson",
             "Action": "EditData",
