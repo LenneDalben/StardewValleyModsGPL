@@ -426,8 +426,8 @@
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
-        "TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Text": "{{i18n:TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Text}}",
-        "TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Objective_Text_0}}"
+        "TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Text": "{{i18n:TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Text}}",
+        "TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Objective_Text_0}}"
       },
       "When": {
         "EasyMode": "true"
