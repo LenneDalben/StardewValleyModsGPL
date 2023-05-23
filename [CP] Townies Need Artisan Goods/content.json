@@ -638,8 +638,8 @@
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
-        "TowniesNeedArtisanGoods_Maru_PowerforProjectE_Text": "{{i18n:TowniesNeedArtisanGoods_Maru_PowerforProject_Text}}",
-        "TowniesNeedArtisanGoods_Maru_PowerforProjectE_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Maru_PowerforProject_Objective_Text_0}}"
+        "TowniesNeedArtisanGoods_Maru_PowerforProjectE_Text": "{{i18n:TowniesNeedArtisanGoods_Maru_PowerforProjectE_Text}}",
+        "TowniesNeedArtisanGoods_Maru_PowerforProjectE_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Maru_PowerforProjectE_Objective_Text_0}}"
       },
       "When": {
         "EasyMode": "true"
