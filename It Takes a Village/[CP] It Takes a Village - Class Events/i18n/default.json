@@ -763,6 +763,20 @@
   "ItTakesAVillage_ShaneAnimalCareCT_Sterling_No8Heart": "Well, well, look who's maybe finally getting his life together. Good for Shane.$10",
   "ItTakesAVillage_ShaneAnimalCareCT_Penny_YesCrow": "I really would have appreciated a heads up from Shane.$5#$b#Blossom was a calmer big bird, at least.$3",
   "ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow": "I was surprised to see Shane interested in giving a lesson, let alone one so gentle. It's a good side to him!#$b#Plus, Vincent was happy to see more of what Jas talks about with the animals.",
+  // 
+  // Robin Woodworking event
+  // Robin Woodworking CTs
+  // Robin and Abigail dynamic dialog. And Penny is also dynamic for metalworking
+  "ItTakesAVillage_RobinWoodworkingCT_Demetrius": "",
+  "ItTakesAVillage_RobinWoodworkingCT_Maru": "",
+  "ItTakesAVillage_RobinWoodworkingCT_Sebastian": "I'm glad mom has other students that like building stuff.#$b#Me, I prefer fighting with commas and brackets-I mean, programming.$7",
+  "ItTakesAVillage_RobinWoodworkingCT_Jas": "",
+  "ItTakesAVillage_RobinWoodworkingCT_Vincent": "",
+  "ItTakesAVillage_RobinWoodworkingCT_Jodi": "I'm glad Robin showed the kids a way to be productive with their own hands.#$b#We just have to be mindful of safety.",
+  "ItTakesAVillage_RobinWoodworkingCT_Kent": "",
+  "ItTakesAVillage_RobinWoodworkingCT_Sam": "",
+  "ItTakesAVillage_RobinWoodworkingCT_Marnie": "",
+  "ItTakesAVillage_RobinWoodworkingCT_Shane": "",
   //
   // Wrap up event
   "event-31032041.01": "That cake looks yummy!$h",
