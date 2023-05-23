@@ -113,7 +113,6 @@
       "When": {
         "HasSeenEvent": "67",
         "HasCraftingRecipe": "Loom",
-        "Rewards |contains=both, eventsonly": true
       }
     },
     // Evelyn Special Stand Host Trees
@@ -220,8 +219,7 @@
       },
       "When": {
         "HasWalletItem": "DwarvishTranslationGuide",
-        "HasCraftingRecipe": "Furnace",
-        "Rewards |contains=both, goldonly": true
+        "HasCraftingRecipe": "Furnace"
       }
     },
     // Jas Plushie of Love Host Trees
@@ -288,7 +286,6 @@
       "When": {
         "Hearts:Sandy": "5, 6, 7, 8, 9, 10",
         "HasCraftingRecipe": "Mossy Junimo",
-        "Rewards |contains=both, eventsonly": true
       }
     },
     // Sandy Cheery Indoor Plants Host Trees
@@ -358,7 +355,6 @@
         "Hearts:Sandy": "5, 6, 7, 8, 9, 10",
         "HasCraftingRecipe |contains=Reindeer Lichen Terrarium": "true",
         "HasCraftingRecipe |contains=Air Plant Terrarium": "true",
-        "Rewards |contains=both, eventsonly": true
       }
     },
     // Wizard Safety First Host Trees
@@ -408,8 +404,7 @@
       "When": {
         "HasWalletItem": "DwarvishTranslationGuide",
         "HasCraftingRecipe": "Oil of Garlic",
-        "Year |contains=1": false,
-        "Rewards |contains=both, goldonly": true
+        "Year |contains=1": false
       }
     },
     // Jorts and Jean Fun String Host Trees
@@ -478,7 +473,6 @@
         "HasSeenEvent |contains=10950100": "true",
         "HasCraftingRecipe": "Loom",
         "HasMod": "tiakall.jortsandjean",
-        "Rewards |contains=both, eventsonly": true
       }
     },
     //

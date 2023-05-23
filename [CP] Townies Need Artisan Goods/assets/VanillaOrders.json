@@ -46,8 +46,7 @@
       },
       "When": {
         "OrderType": "juice",
-        "HasCraftingRecipe": "Keg",
-        "Rewards |contains=both, goldonly": true
+        "HasCraftingRecipe": "Keg"
       }
     },
     // Abigail Yellow Mayo
@@ -154,8 +153,7 @@
       "When": {
         "OrderType": "wine",
         "PlayerHasCellarOrQAP": "true",
-        "HasCraftingRecipe": "Keg",
-        "Rewards |contains=both, goldonly": true
+        "HasCraftingRecipe": "Keg"
       }
     },
     // Alex Training Diet
@@ -204,8 +202,7 @@
       },
       "When": {
         "OrderType": "roe",
-        "HasCraftingRecipe": "Preserves Jar",
-        "Rewards |contains=both, goldonly": true
+        "HasCraftingRecipe": "Preserves Jar"
       }
     },
     // Caroline Juicy Electrolytes
@@ -254,8 +251,7 @@
       },
       "When": {
         "OrderType": "juice",
-        "HasCraftingRecipe": "Keg",
-        "Rewards |contains=both, goldonly": true
+        "HasCraftingRecipe": "Keg"
       }
     },
     // Caroline Spangle Honey
@@ -304,8 +300,7 @@
       },
       "When": {
         "OrderType": "honey",
-        "HasCraftingRecipe": "Bee House",
-        "Rewards |contains=both, goldonly": true
+        "HasCraftingRecipe": "Bee House"
       }
     },
     // Clint Pickled Artichokes
@@ -355,8 +350,7 @@
       "When": {
         "OrderType": "pickle",
         "HasCraftingRecipe": "Preserves Jar",
-        "Year |contains=1": false,
-        "Rewards |contains=both, goldonly": true
+        "Year |contains=1": false
       }
     },
     // Demetrius Oil Makers
@@ -413,8 +407,7 @@
       },
       "When": {
         "OrderType": "machine",
-        "HasCraftingRecipe": "Oil Maker",
-        "Rewards |contains=both, eventsonly": true
+        "HasCraftingRecipe": "Oil Maker"
       }
     },
     // Elliott Elegant Quill
@@ -520,8 +513,7 @@
       },
       "When": {
         "OrderType": "mead",
-        "HasCraftingRecipe": "Keg",
-        "Rewards |contains=both, goldonly": true
+        "HasCraftingRecipe": "Keg"
       }
     },
     // Emily Rainbow
@@ -641,8 +633,7 @@
       "When": {
         "OrderType": "jelly, honey, pickle, wine, animal",
         "HasCraftingRecipe": "Keg",
-        "Year |contains=1": false,
-        "Rewards |contains=both, goldonly": true
+        "Year |contains=1": false
       }
     },
     // Emily Tailoring Materials - Default
@@ -692,8 +683,7 @@
       "When": {
         "OrderType": "animal",
         "HasCraftingRecipe": "Loom",
-        "EasyMode": "false",
-        "Rewards |contains=both, goldonly": true
+        "EasyMode": "false"
       }
     },
     // Emily Tailoring Materials - Easy Mode
@@ -743,8 +733,7 @@
       "When": {
         "OrderType": "animal",
         "HasCraftingRecipe": "Loom",
-        "EasyMode": "true",
-        "Rewards |contains=both, goldonly": true
+        "EasyMode": "true"
       }
     },
     // Evelyn Sugar Substitute
@@ -793,8 +782,7 @@
       },
       "When": {
         "OrderType": "honey",
-        "HasCraftingRecipe": "Bee House",
-        "Rewards |contains=both, goldonly": true
+        "HasCraftingRecipe": "Bee House"
       }
     },
     // George Advanced Knee Therapy
@@ -844,8 +832,7 @@
       "When": {
         "OrderType": "jelly",
         "HasCraftingRecipe": "Preserves Jar",
-        "Year |contains=1": false,
-        "Rewards |contains=both, goldonly": true
+        "Year |contains=1": false
       }
     },
     // George Healthy Roe
@@ -894,8 +881,7 @@
       },
       "When": {
         "OrderType": "roe",
-        "HasCraftingRecipe": "Preserves Jar",
-        "Rewards |contains=both, goldonly": true
+        "HasCraftingRecipe": "Preserves Jar"
       }
     },
     // Gus Drinks for the Fair- Default
@@ -945,8 +931,7 @@
       "When": {
         "OrderType": "beer",
         "HasCraftingRecipe": "Keg",
-        "EasyMode": "false",
-        "Rewards |contains=both, goldonly": true
+        "EasyMode": "false"
       }
     },
     // Gus Drinks for the Fair - Easy Mode
@@ -996,8 +981,7 @@
       "When": {
         "OrderType": "beer",
         "HasCraftingRecipe": "Keg",
-        "EasyMode": "true",
-        "Rewards |contains=both, goldonly": true
+        "EasyMode": "true"
       }
     },
     // Gus Special Ingredient
@@ -1047,8 +1031,7 @@
       "When": {
         "OrderType": "animal",
         "HasCraftingRecipe": "Cheese Press",
-        "PlayerHasCellarOrQAP": "true",
-        "Rewards |contains=both, goldonly": true
+        "PlayerHasCellarOrQAP": "true"
       }
     },
     // Haley DIY Haircare
@@ -1098,8 +1081,7 @@
       "When": {
         "OrderType": "jelly",
         "HasCraftingRecipe": "Preserves Jar",
-        "HasFlag |contains=ccVault, jojaVault": "true",
-        "Rewards |contains=both, goldonly": true
+        "HasFlag |contains=ccVault, jojaVault": "true"
       }
     },
     // Harvey Nutritious Pickles
@@ -1148,8 +1130,7 @@
       },
       "When": {
         "OrderType": "pickle",
-        "HasCraftingRecipe": "Preserves Jar",
-        "Rewards |contains=both, goldonly": true
+        "HasCraftingRecipe": "Preserves Jar"
       }
     },
     // Jas Tea Party
@@ -1205,8 +1186,7 @@
       },
       "When": {
         "OrderType": "misc",
-        "HasCraftingRecipe": "Keg",
-        "Rewards |contains=both, eventsonly": true
+        "HasCraftingRecipe": "Keg"
       }
     },
     // Jodi Bass Aged Roe
@@ -1255,8 +1235,7 @@
       },
       "When": {
         "OrderType": "roe",
-        "HasCraftingRecipe": "Preserves Jar",
-        "Rewards |contains=both, goldonly": true
+        "HasCraftingRecipe": "Preserves Jar"
       }
     },
     // Kent Jelly for PB&J
@@ -1313,8 +1292,7 @@
       "When": {
         "OrderType": "jelly",
         "HasCraftingRecipe": "Preserves Jar",
-        "HasSeenEvent": "63",
-        "Rewards |contains=both, eventsonly": true
+        "HasSeenEvent": "63"
       }
     },
     // Krobus Pasty Treat
@@ -1372,8 +1350,7 @@
         "OrderType": "animal",
         "HasCraftingRecipe": "Mayonnaise Machine",
         "HasSeenEvent": "66",
-        "Year |contains=1": false,
-        "Rewards |contains=both, eventsonly": true
+        "Year |contains=1": false
       }
     },
     // Leah Bees in the Meadow
@@ -1430,8 +1407,7 @@
       },
       "When": {
         "OrderType": "machine",
-        "HasCraftingRecipe": "Bee House",
-        "Rewards |contains=both, eventsonly": true
+        "HasCraftingRecipe": "Bee House"
       }
     },
     // Leah Spreadable Mayo
@@ -1480,8 +1456,7 @@
       },
       "When": {
         "OrderType": "animal",
-        "HasCraftingRecipe": "Mayonnaise Machine",
-        "Rewards |contains=both, goldonly": true
+        "HasCraftingRecipe": "Mayonnaise Machine"
       }
     },
     // Leo Sweet Jelly
@@ -1532,8 +1507,7 @@
         "OrderType": "jelly",
         "HasCraftingRecipe": "Preserves Jar",
         "IncludeIslandContent": "true",
-        "HasSeenEvent": "1039573",
-        "Rewards |contains=both, goldonly": true
+        "HasSeenEvent": "1039573"
       }
     },
     // Lewis Special Night
@@ -1692,8 +1666,7 @@
       "When": {
         "OrderType": "jelly",
         "HasCraftingRecipe": "Preserves Jar",
-        "Year |contains=1": false,
-        "Rewards |contains=both, goldonly": true
+        "Year |contains=1": false
       }
     },
     // Marnie Casks for Cheese
@@ -1867,8 +1840,7 @@
         "OrderType": "misc",
         "HasCraftingRecipe": "Lightning Rod",
         "HasSeenEvent": "9",
-        "EasyMode": "false",
-        "Rewards |contains=both, eventsonly": true
+        "EasyMode": "false"
       }
     },
     // Maru Power for Project - Easy Mode
@@ -1926,8 +1898,7 @@
         "OrderType": "misc",
         "HasCraftingRecipe": "Lightning Rod",
         "HasSeenEvent": "9",
-        "EasyMode": "true",
-        "Rewards |contains=both, eventsonly": true
+        "EasyMode": "true"
       }
     },
     // Pam Preserved Parsnip
@@ -1976,8 +1947,7 @@
       },
       "When": {
         "OrderType": "pickle",
-        "HasCraftingRecipe": "Preserves Jar",
-        "Rewards |contains=both, goldonly": true
+        "HasCraftingRecipe": "Preserves Jar"
       }
     },
     // Penny Tie-Dye Project
@@ -2027,8 +1997,7 @@
       "When": {
         "OrderType": "juice",
         "HasCraftingRecipe": "Keg",
-        "Query: '{{Year |contains=1}}' = 'false' OR '{{HasFlag |contains=ccVault, jojaVault}}' = 'true'": true,
-        "Rewards |contains=both, goldonly": true
+        "Query: '{{Year |contains=1}}' = 'false' OR '{{HasFlag |contains=ccVault, jojaVault}}' = 'true'": true
       }
     },
     // Robin Cheesy Delight
@@ -2078,8 +2047,7 @@
       "When": {
         "OrderType": "animal",
         "HasCraftingRecipe": "Cheese Press",
-        "PlayerHasCellarOrQAP": true,
-        "Rewards |contains=both, goldonly": true
+        "PlayerHasCellarOrQAP": true
       }
     },
     // Robin Like Strawberry Wine
@@ -2203,8 +2171,7 @@
       "When": {
         "OrderType": "mead",
         "HasCraftingRecipe": "Keg",
-        "HasSeenEvent": "27",
-        "Rewards |contains=both, eventsonly": true
+        "HasSeenEvent": "27"
       }
     },
     // Sam Grease for Wheels
@@ -2310,8 +2277,7 @@
       },
       "When": {
         "OrderType": "honey",
-        "HasCraftingRecipe": "Bee House",
-        "Rewards |contains=both, goldonly": true
+        "HasCraftingRecipe": "Bee House"
       }
     },
     // Sandy Light Beverage - No DSV installed, so it's beer
@@ -2536,8 +2502,7 @@
       "When": {
         "OrderType": "juice",
         "HasCraftingRecipe": "Keg",
-        "HasSeenEvent": "2118991",
-        "Rewards |contains=both, goldonly": true
+        "HasSeenEvent": "2118991"
       }
     },
     // Vincent Dino Mayo
@@ -2594,8 +2559,7 @@
       "When": {
         "OrderType": "animal",
         "HasCraftingRecipe": "Mayonnaise Machine",
-        "Year |contains=1": false,
-        "Rewards |contains=both, eventsonly": true
+        "Year |contains=1": false
       }
     },
     // Willy Mildly Salty
@@ -2651,8 +2615,7 @@
       },
       "When": {
         "OrderType": "roe",
-        "HasCraftingRecipe": "Preserves Jar",
-        "Rewards |contains=both, eventsonly": true
+        "HasCraftingRecipe": "Preserves Jar"
       }
     },
     // Willy Tone of Honey
@@ -2701,8 +2664,7 @@
       },
       "When": {
         "OrderType": "mead",
-        "HasCraftingRecipe": "Keg",
-        "Rewards |contains=both, goldonly": true
+        "HasCraftingRecipe": "Keg"
       }
     },
     // Wizard Underworld Drink
@@ -2753,8 +2715,7 @@
         "OrderType": "wine",
         "HasCraftingRecipe": "Keg",
         "PlayerHasCellarOrQAP": true,
-        "Year |contains=1": false,
-        "Rewards |contains=both, goldonly": true
+        "Year |contains=1": false
       }
     }
   ]
