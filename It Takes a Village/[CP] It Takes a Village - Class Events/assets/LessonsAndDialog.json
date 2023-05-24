@@ -1752,6 +1752,7 @@
         // need cute verbal sound effects, kya! (speech bubbles)
         // I am concerned we would need new sprites for this. Pretty sure none of them have anything that would pass for kicks or punches lol maybe could something with combination of jumping, running, and shaking
         // maybe in this one the player could have a show off moment, depending on their combat skill level! :wow: Abigail could hand player "club" assuming we can spawn a weapon (from her dad's baseball days? insert my own canon lol)
+        // The kids could reference the dirt incident from gardening. Maybe Caroline's in the kitchen, overhears Abigail play it off as strength conditioning / building character, and Caroline runs in to be like "don't you feed them lies!" very lol much wow
         /*Event proper*/ /*{
             "LogName": "Abigail Self-Defense Lesson",
             "Action": "EditData",
@@ -2026,8 +2027,8 @@
         //
         // Caroline & Evelyn Gardening INCOMPLETE
         // could this include the kids getting a plant and then some concerns about the plants dying to foreshadow their disappearance o: Jodi and Shane be skeptical o.o
-        // Evelyn rambling about "Alex used to mispronounce the name of  'X plant' and called it 'Y', my my, how the years go by" or something. Have it be set off by one of the kids making the same mispronounciation
-        // Caroline can go "oh have you heard the story of how Abigail ate dirt on a dare?" and the kids go "EWW". Caroline is fondly exasperated about it. And maybe that's Penny's cue to step in lol
+        // One the kids mispronounces the name of a plant, which sets of Evelyn rambling about "Alex used to mispronounce the name of  'X plant' too, and called it 'Y', my my, how the years go by" or something. Have it be set off by one of the kids making the same mispronounciation
+        // Caroline can go "oh have you heard the story of how Abigail ate dirt on a dare?" and the kids go "EWW". Caroline is fondly exasperated about it. "Harvey and I both were worried. Thankfully she was ok" And maybe that's Penny's cue to step in lol
         /*Event proper*/ /*{
             "LogName": "Caroline & Evelyn Gardening Lesson",
             "Action": "EditData",
