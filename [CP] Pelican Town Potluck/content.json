@@ -121,7 +121,7 @@
 				"summer_10": "{{i18n:ShaneSummer10_marriage}}",
 			}
 		},
-		// Decorations changes (provided  by Airyn!)
+		// Decorations changes (provided by Airyn!)
 		// Decoration Blanket Middle
 		{
 			"LogName": "Pelican Town Potluck Blanket Middle",
@@ -287,7 +287,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Ysabelle",
 			"Entries": {
-				"summer_1": "{{i18n:RSV_YsabelleSummer1}}", // "Ysabelle.Dialogue.summer_1" is the key. Airyn recommended this line!
+				"summer_1": "{{i18n:RSV_YsabelleSummer1}}", // "Ysabelle.Dialogue.summer_10" is the key. Airyn recommended this line!
 				"summer_10": "{{i18n:RSV_YsabelleSummer10}}", // "Ysabelle.Dialogue.summer_10" is the key
 			},
 			"When": {
@@ -318,7 +318,7 @@
 				"HasMod": "Rafseazz.RSVCP, Rafseazz.RidgesideMobileCP"
 			}
 		},
-		// RSV Kenneth Dialog
+		// RSV Kenneth Dialog double check, there are 2 "Festivals.Luau.Kenneth_spouse": "I offered to help, but I think Ian likes carrying the luau pot down here. #$b#Big guy gets a workout AND a feast! $h#$e#Who am I to get in the way of a man and his work?$h",
 		{
 			"LogName": "Pelican Town Potluck RSV Kenneth Marriage Dialog",
 			"Action": "EditData",
@@ -330,6 +330,14 @@
 				"HasMod": "Rafseazz.RSVCP, Rafseazz.RidgesideMobileCP"
 			}
 		},
+		// "Sonny.Dialogue.summer_10.1": "Have you gathered the necessary ingredients for the Luau tomorrow?" "Sonny.Dialogue.summer_10": "Have you gathered the necessary ingredients for the Luau tomorrow, Mr. @?$h^Have you gathered the necessary materials for the Luau tomorrow, Ms. @?$h",
+		// "Festivals.Luau.Richard": "It's humbling to consider how old a tradition the Luau is for the valley.#$b#It came before me, and will be here long after I'm gone.#$e#Anytime we can all come together is truly a special time.$h",
+		// "Naomi.Dialogue.summer_10": "Oh, the governor will be here tomorrow for the Luau. I wonder if he remembers that one year someone added tons of hot peppers into the soup...#$e# Hm? Who did that, you ask?#$b#Haha, oh, it definitely wasn't me...$h",
+		// "Anton.Dialogue.summer_10": "The governor's going to be in the valley tomorrow for that big Luau down on the beach.#$e#Usually, I help set up, but maybe I'll just sit out this year.$4#$b#I don't know yet.$s",
+		// "Paula.Dialogue.summer_10": "If you get sick after eating the Luau soup, go see Harvey.$h#$b#If you're a klutz and you fall into the scorching hot cauldron, come see me.$6",
+		// "Sean.Dialogue.summer_10": "You should've seen last year's Luau. A fight broke out and Abigail hit me with her flute.#$b#It was a real lute-ow.$h#$b#Hey, 'luau' puns are hard.",
+		// "Sean.MarriageDialogue.summer_10": "The Luau is nice and all, but you know what the best part is?#$b#You-aw!$h#$b#Hey, you know luau puns are hard!",
+		// "Festivals.Luau.Sean_spouse": "The luau must cost lot of moola-au!$h#$b#Hey! These luau puns are hard to come up with!$h",
 		//
 		// Canon Friendly Dialog Expansion (CFDE) Compatibility Patches
 		//
