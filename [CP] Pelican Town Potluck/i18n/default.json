@@ -109,6 +109,32 @@
 	// RSV Kenneth Dialog
 	"RSV_KennethSummer10_marriage": "I've been working with Maru to create a machine to help move the Potluck pot for tomorrow.#$b#Poor Ian always gets so worn out carrying the thing he passes out in the sand after we eat, ha ha!$h",
 	//
+	// RSV Sonny Dialog
+	// Gender Neutral
+	"RSV_Sonny.Dialogue.summer10.1": "Have you gathered the necessary ingredients for the Pelican Town Potluck tomorrow, ",
+	// Non-Gender Neutral
+	"RSV_Sonny.Dialogue.summer10": "Have you gathered the necessary ingredients for the Pelican Town Potluck tomorrow, Mr. @?$h^Have you gathered the necessary materials for the Pelican Town Potluck tomorrow, Ms. @?$h",
+	//
+	// RSV Naomi Dialog
+	"RSV_Naomi.Dialogue.summer10": "Oh, the governor will be here tomorrow for the Pelican Town Potluck. I wonder if he remembers that one year someone added tons of hot peppers into the soup...#$e# Hm? Who did that, you ask?#$b#Haha, oh, it definitely wasn't me...$h",
+	//
+	// RSV Anton Dialog
+	"RSV_Anton.Dialogue.summer10": "The governor's going to be in the valley tomorrow for that big Pelican Town Potluck down on the beach.#$e#Usually, I help set up, but maybe I'll just sit out this year.$4#$b#I don't know yet.$s",
+	//
+	// RSV Paula Dialog
+	"RSV_Paula.Dialogue.summer10": "If you get sick after eating the Pelican Town Potluck soup, go see Harvey.$h#$b#If you're a klutz and you fall into the scorching hot cauldron, come see me.$6",
+	//
+	// RSV Malaya Dialog
+	"RSV_Malaya.Dialogue.summer10": "I'll be honest, I go to the Pelican Town Potluck for the dance floor more than the food.$h",
+	//
+	// RSV June Dialog
+	"RSV_June.summer10_spouse": "The Pelican Town Potluck's tomorrow, huh?$2#$b#Okay, if I start lathering on the sunscreen now, I should only get a first degree burn.$2",
+	//
+	// RSV Sean Dialog
+	"RSV_Sean.Dialogue.summer10": "You should've seen last year's Potluck. A fight broke out and Abigail hit me with her flute.#$b#I guess you could say it wasn't my pot-lucky day.$h#$b#Hey, potluck puns are hard.",
+	"RSV_Sean.MarriageDialogue.summer10": "The Potluck is nice and all, but you know what the best part is?#$b#A good luck pat, because it's Pat-luck day!$h#$b#Hey, you know potluck puns are hard!",
+	"RSV_SeanSummer11_spouse": "A potluck in summer is expensive, you know. It costs a lot of hot-bucks!$h#$b#Aww yeah, double pun!$h",
+	//
 	// Canon Friendly Dialog Expansion (CFDE) Compatibility Patches
 	//
 	// CFDE Abigail Dialog
