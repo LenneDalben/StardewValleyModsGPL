@@ -28,14 +28,11 @@
         }
     ]
     /*
-    Updates and fixes in 0.9.5:
-    • Added Clint metalworking lesson! :hammer:
-    • Added false dependencies to Fix Dialog Differences to ensure change to Penny's 8 heart event works as intended
-    • Updated conditions for Blosom Duck CC patch (added |contains= hoping it'll be stronger)
-    • Updated Maru Electronics to also require Clint metalworking (temp map shenanigans). Updated event guide to reflect this
-    • Changed the song for Harvey anatomy
-    • Updated Demetrius botany music
-    • Fixed a typo in the HasSeenEvent dynamic tokens for Demetrius botany (this lesson is the bane of my existence)
-    • Reorganized a bit of the code in content.json and LessonsandDialog.json for organization purposes (you shan't experience any benefit unless you're poking at the code lol)
+    Updates and fixes in 0.9.6:
+    * Added Robin woodworking lesson!
+    * Added ProgressionMode config option: By default, this is set to false. This means the order of the lessons will be completely random. Set this to true if you want events to be grouped and play in a semi-randomized sequence according to the bracket grouping (see spoiler guide for the bracket groupings).
+    * Added screenshot of Alex CTs for preview images
+    * Updated viewport commands in Abigail video games to use clamp (thanks max!)
+    * Updated wording, punctuation, and fixed some typos throughout
     */
 }
