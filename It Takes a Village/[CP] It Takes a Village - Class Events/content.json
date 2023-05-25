@@ -35,6 +35,13 @@
 			"Default": "true",
 			"AllowBlank": false,
 			"AllowMultiple": false
+		},
+		"ProgressionMode": {
+			"Description": "By default, this is set to false. This means the order of the lessons will be completely random. Set this to true if you want events to be grouped and play in a semi-randomized sequence according to the bracket grouping (see spoiler guide for the bracket groupings).",
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false,
+			"AllowMultiple": false
 		}
 	},
 	// Custom Temporary Maps
@@ -279,6 +286,20 @@
 				"HasSeenEvent |contains=31032026": true,
 			}
 		},
+		/*Haley and Leah Art and Elliott Stories Progression Mode Off*/ {
+			"Name": "ArtandStoriesProgressionToken",
+			"Value": "A ItTakesAVillage_Beginning",
+			"When": {
+				"ProgressionMode": "false"
+			},
+		},
+		/*Haley and Leah Art and Elliott Stories Progression Mode On (must have seen Alex PE and Healthy Eating and Gus Cooking first)*/ {
+			"Name": "ArtandStoriesProgressionToken",
+			"Value": "e 31032023/e 31032024/A ItTakesAVillage_Beginning",
+			"When": {
+				"ProgressionMode": "true"
+			},
+		},
 		// Dynamic dialog for Elliott Stories
 		/*CT dialog for Elliott, haven't seen Haley and Leah Art*/ {
 			"Name": "ElliottStoriesElliottCT",
@@ -421,6 +442,20 @@
 				"HasSeenEvent |contains=31032028": true,
 			}
 		},
+		/*Abigail Economics and Sebastian Programming Progression Mode Off*/ {
+			"Name": "EconandProgrammingProgressionToken",
+			"Value": "A ItTakesAVillage_Beginning",
+			"When": {
+				"ProgressionMode": "false"
+			},
+		},
+		/*Abigail Economics and Sebastian Programming Progression Mode On (must have seen Haley and Leah Art and Elliott Stories first)*/ {
+			"Name": "EconandProgrammingProgressionToken",
+			"Value": "e 31032026/e 31032025/A ItTakesAVillage_Beginning",
+			"When": {
+				"ProgressionMode": "true"
+			},
+		},
 		// Dynamic dialog for Sebastian Programming Basics
 		/*Event dialog - saw Abigail Economics*/ {
 			"Name": "SebProgramBasicsSeenAbbyEcon",
@@ -544,6 +579,20 @@
 				"HasSeenEvent |contains=31032029, 31032042": true,
 				"HasSeenEvent |contains=31032030": true,
 			}
+		},
+		/*Maru Electronics and Demetrius Botany Progression Mode Off*/ {
+			"Name": "FishingandGardeningProgressionToken",
+			"Value": "A ItTakesAVillage_Beginning",
+			"When": {
+				"ProgressionMode": "false"
+			},
+		},
+		/*Maru Electronics and Demetrius Botany Progression Mode On (must have seen Willy and Linus Fishing and Caroline and Evelyn Gardening first)*/ {
+			"Name": "FishingandGardeningProgressionToken",
+			"Value": "e 31032035/e 31032036/A ItTakesAVillage_Beginning",
+			"When": {
+				"ProgressionMode": "true"
+			},
 		},
 		// Tokens for Maru Electronics
 		/*Event dialog - saw Demetrius Botany - Crow*/ {
@@ -748,6 +797,20 @@
 				"HasSeenEvent |contains=31032031": true,
 			}
 		},
+		/*Emily Emotional Health and Dance and Harvey Anatomy Progression Mode Off*/ {
+			"Name": "HealthDanceandAnatomyProgressionToken",
+			"Value": "A ItTakesAVillage_Beginning",
+			"When": {
+				"ProgressionMode": "false"
+			},
+		},
+		/*Emily Emotional Health and Dance and Harvey Anatomy Progression Mode On (must have seen Abigail Economics and Sebastian Programming first)*/ {
+			"Name": "HealthDanceandAnatomyProgressionToken",
+			"Value": "e 31032028/e 31032027/A ItTakesAVillage_Beginning",
+			"When": {
+				"ProgressionMode": "true"
+			},
+		},
 		// Tokens for Emily Emotional Health & Dance
 		/*Event dialog - saw Harvey Anatomy - One*/ {
 			"Name": "EmilyDanceSeenHarveyAnatomyOne",
@@ -922,6 +985,20 @@
 				"HasSeenEvent |contains=31032033": true,
 				"HasSeenEvent |contains=31032034": true,
 			}
+		},
+		/*Abigail Video Games and Clint Metalworking Progression Mode Off*/ {
+			"Name": "VideoGameandMetalworkProgressionToken",
+			"Value": "A ItTakesAVillage_Beginning",
+			"When": {
+				"ProgressionMode": "false"
+			},
+		},
+		/*Abigail Video Games and Clint Metalworking Progression Mode On (must have seen Emily Emotional Health and Dance and Harvey Anatomy first)*/ {
+			"Name": "VideoGameandMetalworkProgressionToken",
+			"Value": "e 31032031/e 31032032/A ItTakesAVillage_Beginning",
+			"When": {
+				"ProgressionMode": "true"
+			},
 		},
 		// Tokens for Abigail Video Games
 		/*Event dish, season is spring*/ {
@@ -1190,6 +1267,20 @@
 				"HasSeenEvent |contains=31032036": true,
 				"HasSeenEvent |contains=31032035": true,
 			}
+		},
+		/*Sam Music and Shane Animal Care Progression Mode Off*/ {
+			"Name": "MusicandAnimalCareProgressionToken",
+			"Value": "A ItTakesAVillage_Beginning",
+			"When": {
+				"ProgressionMode": "false"
+			},
+		},
+		/*Sam Music and Shane Animal Care Progression Mode On (must have seen Abigail Video Games and Clint Metalworking first)*/ {
+			"Name": "MusicandAnimalCareProgressionToken",
+			"Value": "e 31032033/e 31032034/A ItTakesAVillage_Beginning",
+			"When": {
+				"ProgressionMode": "true"
+			},
 		},
 		// Tokens for Sam Music
 		/*Event dialog intro, season is spring*/ {
@@ -1691,6 +1782,20 @@
 				"HasSeenEvent |contains=31032038": true,
 			}
 		},
+		/*Robin Woodworking and Abigail Self-Defense Progression Mode Off*/ {
+			"Name": "WoodworkingandSelfDefenseProgressionToken",
+			"Value": "A ItTakesAVillage_Beginning",
+			"When": {
+				"ProgressionMode": "false"
+			},
+		},
+		/*Robin Woodworking and Abigail Self-Defense Progression Mode On (must have seen Willy and Linus Fishing and Caroline and Evelyn Gardening first)*/ {
+			"Name": "WoodworkingandSelfDefenseProgressionToken",
+			"Value": "e 31032039/e 31032040/A ItTakesAVillage_Beginning",
+			"When": {
+				"ProgressionMode": "true"
+			},
+		},
 		// Tokens for Robin Woodworking
 		/*Event dialog - seen Abigail Self-Defense*/ {
 			"Name": "RobinWoodworkSeenAbbySelfDefense",
@@ -1777,6 +1882,20 @@
 				"HasSeenEvent |contains=31032040": true,
 				"HasSeenEvent |contains=31032039": true,
 			}
+		},
+		/*Willy and Linus Fishing and Caroline and Evelyn Gardening Progression Mode Off*/ {
+			"Name": "FishingandGardeningProgressionToken",
+			"Value": "A ItTakesAVillage_Beginning",
+			"When": {
+				"ProgressionMode": "false"
+			},
+		},
+		/*Willy and Linus Fishing and Caroline and Evelyn Gardening Progression Mode On (must have seen Sam Music and Shane Animal Care first)*/ {
+			"Name": "FishingandGardeningProgressionToken",
+			"Value": "e 31032035/e 31032036/A ItTakesAVillage_Beginning",
+			"When": {
+				"ProgressionMode": "true"
+			},
 		},
 		// Wrap up event
 		/*Character placement, have met Kent*/ {

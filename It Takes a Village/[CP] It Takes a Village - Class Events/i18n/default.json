@@ -57,6 +57,12 @@
   "config.EditPenny8HeartEvent.values.true": "true",
   "config.EditPenny8HeartEvent.values.false": "false",
   //
+  // Progression Mode
+  "config.ProgressionMode.name": "ProgressionMode",
+  "config.ProgressionMode.description": "By default, this is set to false. This means the order of the lessons will be completely random. Set this to true if you want events to be grouped and play in a semi-randomized sequence according to the bracket grouping (see spoiler guide for the bracket groupings).",
+  "config.ProgressionMode.values.true": "true",
+  "config.ProgressionMode.values.false": "false",
+  //
   //
   // ***Event and CT strings***
   // Penny Kickstarts Lessons event
