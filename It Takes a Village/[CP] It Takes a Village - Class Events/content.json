@@ -1692,9 +1692,23 @@
 			}
 		},
 		// Tokens for Robin Woodworking
+		/*Event dialog - seen Abigail Self-Defense*/ {
+			"Name": "RobinWoodworkSeenAbbySelfDefense",
+			"Value": "speak Vincent \"{{i18n:event-31032038.07}}\"/emote Robin 16/speak Robin \"{{i18n:event-31032038.08}}\"",
+			"When": {
+				"HasSeenEvent |contains=31032037": true
+			}
+		},
+		/*Event dialog - have not seen Abigail Self-Defense*/ {
+			"Name": "RobinWoodworkSeenAbbySelfDefense",
+			"Value": "speak Vincent \"{{i18n:event-31032038.04}}\"/emote Robin 32/speak Robin \"{{i18n:event-31032038.05}}\"/textAboveHead Vincent \"{{i18n:event-31032038.06}}\"",
+			"When": {
+				"HasSeenEvent |contains=31032037": false
+			}
+		},
 		/*Event dialog - seen at least one of Elliott Stories, Haley and Leah Art, or Gus Cooking*/ {
 			"Name": "RobinWoodworkPersonalTouch",
-			"Value": "speak Penny \"Adding your own personal touch? We've heard that before, haven't we?\"/emote Jas 32 true/emote Robin 32 true/textAboveHead Vincent \"Yea!\"/pause 1750",
+			"Value": "speak Penny \"{{i18n:event-31032038.12}}\"/emote Jas 32 true/emote Robin 32 true/textAboveHead Vincent \"{{i18n:event-31032038.13}}\"/pause 1750",
 			"When": {
 				"HasSeenEvent |contains=31032025, 31032026, 31032024": true
 			}
@@ -1709,15 +1723,15 @@
 			}
 		},
 		/*Event dialog - have seen Robin's 6 heart event to learn Flute Block recipe*/ {
-			"Name": "RobinWoodworkPersonalTouch",
-			"Value": "speak Robin \"@ knows all about it.$h\"/faceDirection farmer 2/showFrame farmer 3/emote farmer 32/faceDirection farmer 0/showFrame farmer 12",
+			"Name": "RobinWoodworkFluteBlockRecipe",
+			"Value": "speak Robin \"{{i18n:event-31032038.23}}\"/faceDirection farmer 2/showFrame farmer 3/emote farmer 32/faceDirection farmer 0/showFrame farmer 12",
 			"When": {
 				"HasSeenEvent |contains=33": true
 			}
 		},
 		/*Event dialog - have not seen Robin's 6 heart event to learn Flute Block recipe*/ {
-			"Name": "RobinWoodworkPersonalTouch",
-			"Value": "speak Robin \"We'll keep the details a secret from @. @ hasn't earned learning the recipe yet.\"/emote farmer 16/faceDirection farmer 2/showFrame farmer 49",
+			"Name": "RobinWoodworkFluteBlockRecipe",
+			"Value": "speak Robin \"{{i18n:event-31032038.24}}\"/emote farmer 16/faceDirection farmer 2/showFrame farmer 49",
 			"When": {
 				"HasSeenEvent |contains=33": false
 			}
