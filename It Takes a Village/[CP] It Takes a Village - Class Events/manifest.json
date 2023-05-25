@@ -32,7 +32,8 @@
     * Added Robin woodworking lesson!
     * Added ProgressionMode config option: By default, this is set to false. This means the order of the lessons will be completely random. Set this to true if you want events to be grouped and play in a semi-randomized sequence according to the bracket grouping (see spoiler guide for the bracket groupings).
     * Added screenshot of Alex CTs for preview images
-    * Updated viewport commands in Abigail video games to use clamp (thanks max!)
+    * Updated viewport commands in Abigail video games to use clamp and adjusted viewport coordinates (thanks max!)
+    * Updated viewport and Pierre position in Abigail Economics lesson
     * Updated wording, punctuation, and fixed some typos throughout
     */
 }
