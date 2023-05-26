@@ -1542,21 +1542,21 @@
 			"Name": "ShaneAnimalCareShaneCT",
 			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Shane_YesMusic}}",
 			"When": {
-				"HasSeenEvent |contains=3910975": "true"
+				"HasSeenEvent |contains=31032035": "true"
 			}
 		},
 		/*CT dialog for Shane, did not see Sam Music*/ {
 			"Name": "ShaneAnimalCareShaneCT",
 			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Shane_NoMusic}}",
 			"When": {
-				"HasSeenEvent |contains=3910975": "false"
+				"HasSeenEvent |contains=31032035": "false"
 			}
 		},
 		/*CT dialog for Sam, saw Sam Music and saw Demetrius Botany - Crow*/ {
 			"Name": "ShaneAnimalCareSamCT",
 			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusicYesCrow}}",
 			"When": {
-				"HasSeenEvent |contains=3910975": "true",
+				"HasSeenEvent |contains=31032035": "true",
 				"HasSeenEvent |contains=31032042": "true"
 			}
 		},
@@ -1564,7 +1564,7 @@
 			"Name": "ShaneAnimalCareSamCT",
 			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusicNoCrow}}",
 			"When": {
-				"HasSeenEvent |contains=3910975": "true",
+				"HasSeenEvent |contains=31032035": "true",
 				"HasSeenEvent |contains=31032029": "true"
 			}
 		},
@@ -1572,7 +1572,7 @@
 			"Name": "ShaneAnimalCareSamCT",
 			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusicYesCrow}}",
 			"When": {
-				"HasSeenEvent |contains=3910975": "false",
+				"HasSeenEvent |contains=31032035": "false",
 				"HasSeenEvent |contains=31032042": "true"
 			}
 		},
@@ -1580,7 +1580,7 @@
 			"Name": "ShaneAnimalCareSamCT",
 			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusicNoCrow}}",
 			"When": {
-				"HasSeenEvent |contains=3910975": "false",
+				"HasSeenEvent |contains=31032035": "false",
 				"HasSeenEvent |contains=31032029": "true"
 			}
 		},
@@ -1588,7 +1588,7 @@
 			"Name": "ShaneAnimalCareSamCT",
 			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusicNoCrow}}",
 			"When": {
-				"HasSeenEvent |contains=3910975": "true",
+				"HasSeenEvent |contains=31032035": "true",
 				"HasSeenEvent |contains=31032029": "false",
 				"HasSeenEvent |contains=31032042": "false"
 			}
@@ -1597,7 +1597,7 @@
 			"Name": "ShaneAnimalCareSamCT",
 			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusicNoCrow}}",
 			"When": {
-				"HasSeenEvent |contains=3910975": "false",
+				"HasSeenEvent |contains=31032035": "false",
 				"HasSeenEvent |contains=31032029": "false",
 				"HasSeenEvent |contains=31032042": "false"
 			}
@@ -1839,6 +1839,20 @@
 			"Value": "speak Robin \"{{i18n:event-31032038.24}}\"/emote farmer 16/faceDirection farmer 2/showFrame farmer 49",
 			"When": {
 				"HasSeenEvent |contains=33": false
+			}
+		},
+		/*CT dialog for Abigail, saw Abigail Self-Defense*/ {
+			"Name": "RobinWoodworkingAbigailCT",
+			"Value": "{{i18n:ItTakesAVillage_RobinWoodworkingCT_Abigail_YesSelfDefense}}",
+			"When": {
+				"HasSeenEvent |contains=31032037": "true"
+			}
+		},
+		/*CT dialog for Abigail, did not see Abigail Self-Defense*/ {
+			"Name": "RobinWoodworkingAbigailCT",
+			"Value": "{{i18n:ItTakesAVillage_RobinWoodworkingCT_Abigail_NoSelfDefense}}",
+			"When": {
+				"HasSeenEvent |contains=31032037": "false"
 			}
 		},
 		// Willy & Linus Fishing and Caroline & Evelyn Gardening
