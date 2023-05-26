@@ -168,7 +168,7 @@
 		}
 	},
 	"Changes": [
-		//Abigail mobile phone dialog changes - friendly
+		// Abigail mobile phone dialog changes - friendly
 		{
 			"LogName": "UMG Abigail Dialog Friendly",
 			"Action": "EditData",
@@ -182,7 +182,7 @@
 				"AbigailChanges": true
 			}
 		},
-		//Abigail mobile phone dialog changes - dating, engaged, married
+		// Abigail mobile phone dialog changes - dating, engaged, married
 		{
 			"LogName": "UMG Abigail Dialog Love",
 			"Action": "EditData",
@@ -196,7 +196,7 @@
 				"AbigailChanges": true
 			}
 		},
-		//Abigail mobile phone dialog changes - divorced
+		// Abigail mobile phone dialog changes - divorced
 		{
 			"LogName": "UMG Abigail Dialog Divorced",
 			"Action": "EditData",
@@ -210,7 +210,7 @@
 				"AbigailChanges": true
 			}
 		},
-		//Alex mobile phone dialog changes - friendly
+		// Alex mobile phone dialog changes - friendly
 		{
 			"LogName": "UMG Alex Dialog Friendly",
 			"Action": "EditData",
@@ -224,7 +224,7 @@
 				"AlexChanges": true
 			}
 		},
-		//Alex mobile phone dialog changes - dating, engaged, married
+		// Alex mobile phone dialog changes - dating, engaged, married
 		{
 			"LogName": "UMG Alex Dialog Love",
 			"Action": "EditData",
@@ -238,7 +238,7 @@
 				"AlexChanges": true
 			}
 		},
-		//Alex mobile phone dialog changes - divorced
+		// Alex mobile phone dialog changes - divorced
 		{
 			"LogName": "UMG Alex Dialog Divorced",
 			"Action": "EditData",
@@ -252,7 +252,7 @@
 				"AlexChanges": true
 			}
 		},
-		//Caroline mobile phone dialog changes
+		// Caroline mobile phone dialog changes
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Caroline",
@@ -265,7 +265,7 @@
 				"CarolineChanges": true
 			}
 		},
-		//Clint mobile phone dialog changes
+		// Clint mobile phone dialog changes
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Clint",
@@ -278,634 +278,634 @@
 				"ClintChanges": true
 			}
 		},
-		//Demetrius mobile phone dialog changes
+		// Demetrius mobile phone dialog changes
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Demetrius",
 			"Entries": {
-				"MobilePhoneGreeting": "Greetings {0}! Are you enjoying this fine day?",
-				"MobilePhoneInvite": "Sure, what would you like to do?",
-				"MobilePhoneGoodBye": "Goodbye @!"
+				"MobilePhoneGreeting": "{{i18n:DemetriusGreeting}}",
+				"MobilePhoneInvite": "{{i18n:DemetriusInvite}}",
+				"MobilePhoneGoodBye": "{{i18n:DemetriusGoodbye}}"
 			},
 			"When": {
 				"DemetriusChanges": true
 			}
 		},
-		//Dwarf mobile phone dialog changes
+		// Dwarf mobile phone dialog changes
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Dwarf",
 			"Entries": {
-				"MobilePhoneGreeting": "Greetings {0}! Are you enjoying this fine day?",
-				"MobilePhoneInvite": "Okay, what would you like to do?",
-				"MobilePhoneGoodBye": "Come by the shop soon."
+				"MobilePhoneGreeting": "{{i18n:DwarfGreeting}}",
+				"MobilePhoneInvite": "{{i18n:DwarfInvite}}",
+				"MobilePhoneGoodBye": "{{i18n:DwarfGoodbye}}"
 			},
 			"When": {
 				"DwarfChanges": true
 			}
 		},
-		//Elliott mobile phone dialog changes - friendly
+		// Elliott mobile phone dialog changes - friendly
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Elliott",
 			"Entries": {
-				"MobilePhoneGreeting": "Hello {0}, are you well?",
-				"MobilePhoneInvite": "Sure, what would you like to do?",
-				"MobilePhoneGoodBye": "Goodbye @!$h"
+				"MobilePhoneGreeting": "{{i18n:ElliottGreetingFriendly}}",
+				"MobilePhoneInvite": "{{i18n:ElliottInviteFriendly}}",
+				"MobilePhoneGoodBye": "{{i18n:ElliottGoodbyeFriendly}}"
 			},
 			"When": {
 				"Relationship:Elliott": "Friendly",
 				"ElliottChanges": true
 			}
 		},
-		//Elliott mobile phone dialog changes - dating, engaged, married
+		// Elliott mobile phone dialog changes - dating, engaged, married
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Elliott",
 			"Entries": {
-				"MobilePhoneGreeting": "Hi {0}!",
-				"MobilePhoneInvite": "I'd love to, what would you like to do?",
-				"MobilePhoneGoodBye": "Goodbye, my sweet!$h"
+				"MobilePhoneGreeting": "{{i18n:ElliottGreetingLove}}",
+				"MobilePhoneInvite": "{{i18n:ElliottInviteLove}}",
+				"MobilePhoneGoodBye": "{{i18n:ElliottGoodbyeLove}}"
 			},
 			"When": {
 				"Relationship:Elliott": "Dating, Engaged, Married",
 				"ElliottChanges": true
 			}
 		},
-		//Elliott mobile phone dialog changes - divorced
+		// Elliott mobile phone dialog changes - divorced
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Elliott",
 			"Entries": {
-				"MobilePhoneGreeting": "What do you want?",
-				"MobilePhoneGoodBye": "I do not wish to hear from you again.$s"
+				"MobilePhoneGreeting": "{{i18n:ElliottGreetingDivorced}}",
+				"MobilePhoneGoodBye": "{{i18n:ElliottGoodbyeDivorced}}"
 			},
 			"When": {
 				"Relationship:Elliott": "Divorced",
 				"ElliottChanges": true
 			}
 		},
-		//Emily mobile phone dialog changes- friendly
+		// Emily mobile phone dialog changes- friendly
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Emily",
 			"Entries": {
-				"MobilePhoneGreeting": "Hi {0}, how are things?",
-				"MobilePhoneGoodBye": "Bye @, have a good one!$h"
+				"MobilePhoneGreeting": "{{i18n:EmilyGreetingFriendly}}",
+				"MobilePhoneGoodBye": "{{i18n:EmilyGoodbyeFriendly}}"
 			},
 			"When": {
 				"Relationship:Emily": "Friendly",
 				"EmilyChanges": true
 			}
 		},
-		//Emily mobile phone dialog changes- dating, engaged, married
+		// Emily mobile phone dialog changes- dating, engaged, married
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Emily",
 			"Entries": {
-				"MobilePhoneGreeting": "Hi honey!",
-				"MobilePhoneGoodBye": "Bye honey!$h"
+				"MobilePhoneGreeting": "{{i18n:EmilyGreetingLove}}",
+				"MobilePhoneGoodBye": "{{i18n:EmilyGoodbyeLove}}"
 			},
 			"When": {
 				"Relationship:Emily": "Dating, Engaged, Married",
 				"EmilyChanges": true
 			}
 		},
-		//Emily mobile phone dialog changes- divorced
+		// Emily mobile phone dialog changes- divorced
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Emily",
 			"Entries": {
-				"MobilePhoneGreeting": "What?",
-				"MobilePhoneGoodBye": "Leave me alone, please.$s"
+				"MobilePhoneGreeting": "{{i18n:EmilyGreetingDivorced}}",
+				"MobilePhoneGoodBye": "{{i18n:EmilyGoodbyeDivorced}}"
 			},
 			"When": {
 				"Relationship:Emily": "Divorced",
 				"EmilyChanges": true
 			}
 		},
-		//Evelyn mobile phone dialog changes
+		// Evelyn mobile phone dialog changes
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Evelyn",
 			"Entries": {
-				"MobilePhoneGreeting": "Hello my dear, I hope you're doing well!",
-				"MobilePhoneInvite": "So kind of you to ask, dear. What do you want to do?",
-				"MobilePhoneGoodBye": "Have a nice day, dear.$h"
+				"MobilePhoneGreeting": "{{i18n:EvelynGreeting}}",
+				"MobilePhoneInvite": "{{i18n:EvelynInvite}}",
+				"MobilePhoneGoodBye": "{{i18n:EvelynGoodbye}}"
 			},
 			"When": {
 				"EvelynChanges": true
 			}
 		},
-		//George mobile phone dialog changes
+		// George mobile phone dialog changes
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/George",
 			"Entries": {
-				"MobilePhoneGreeting": "Hello?",
-				"MobilePhoneInvite": "You want to spend time with an old geezer like me? Well okay, what do you want to do?",
-				"MobilePhoneGoodBye": "Goodbye."
+				"MobilePhoneGreeting": "{{i18n:GeorgeGreeting}}",
+				"MobilePhoneInvite": "{{i18n:GeorgeInvite}}",
+				"MobilePhoneGoodBye": "{{i18n:GeorgeGoodbye}}"
 			},
 			"When": {
 				"GeorgeChanges": true
 			}
 		},
-		//Gus mobile phone dialog changes
+		// Gus mobile phone dialog changes
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Gus",
 			"Entries": {
-				"MobilePhoneGreeting": "Hi there, {0}!",
-				"MobilePhoneInvite": "Sure, what do you want to do?",
-				"MobilePhoneGoodBye": "Bye, don't be a stranger!$h"
+				"MobilePhoneGreeting": "{{i18n:GusGreeting}}",
+				"MobilePhoneInvite": "{{i18n:GusInvite}}",
+				"MobilePhoneGoodBye": "{{i18n:GusGoodbye}}"
 			},
 			"When": {
 				"GusChanges": true
 			}
 		},
-		//Haley mobile phone dialog changes - friendly
+		// Haley mobile phone dialog changes - friendly
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Haley",
 			"Entries": {
-				"MobilePhoneGreeting": "Hi {0}. Anything exciting happening?",
-				"MobilePhoneGoodBye": "Byeeeeee!$h"
+				"MobilePhoneGreeting": "{{i18n:HaleyGreetingFriendly}}",
+				"MobilePhoneGoodBye": "{{i18n:HaleyGoodbyeFriendly}}"
 			},
 			"When": {
 				"Relationship:Haley": "Friendly",
 				"HaleyChanges": true
 			}
 		},
-		//Haley mobile phone dialog changes - dating, engaged, married
+		// Haley mobile phone dialog changes - dating, engaged, married
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Haley",
 			"Entries": {
-				"MobilePhoneGreeting": "Hi!",
-				"MobilePhoneGoodBye": "Bye pookie!$h"
+				"MobilePhoneGreeting": "{{i18n:HaleyGreetingLove}}",
+				"MobilePhoneGoodBye": "{{i18n:HaleyGoodbyeLove}}"
 			},
 			"When": {
 				"Relationship:Haley": "Dating, Engaged, Married",
 				"HaleyChanges": true
 			}
 		},
-		//Haley mobile phone dialog changes - divorced
+		// Haley mobile phone dialog changes - divorced
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Haley",
 			"Entries": {
-				"MobilePhoneGreeting": "Ugh, what?",
-				"MobilePhoneGoodBye": "Buzz off.$7"
+				"MobilePhoneGreeting": "{{i18n:HaleyGreetingDivorced}}",
+				"MobilePhoneGoodBye": "{{i18n:HaleyGoodbyeDivorced}}"
 			},
 			"When": {
 				"Relationship:Haley": "Divorced",
 				"HaleyChanges": true
 			}
 		},
-		//Harvey mobile phone dialog changes - friendly
+		// Harvey mobile phone dialog changes - friendly
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Harvey",
 			"Entries": {
-				"MobilePhoneGreeting": "Hey {0}, how's it going?",
-				"MobilePhoneGoodBye": "Take care! Stay healthy."
+				"MobilePhoneGreeting": "{{i18n:HarveyGreetingFriendly}}",
+				"MobilePhoneGoodBye": "{{i18n:HarveyGoodbyeFriendly}}"
 			},
 			"When": {
 				"Relationship:Harvey": "Friendly",
 				"HarveyChanges": true
 			}
 		},
-		//Harvey mobile phone dialog changes - dating, engaged, married
+		// Harvey mobile phone dialog changes - dating, engaged, married
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Harvey",
 			"Entries": {
-				"MobilePhoneGreeting": "Hey, everything okay?",
-				"MobilePhoneGoodBye": "Take care, ducky.$h"
+				"MobilePhoneGreeting": "{{i18n:HarveyGreetingLove}}",
+				"MobilePhoneGoodBye": "{{i18n:HarveyGoodbyeLove}}"
 			},
 			"When": {
 				"Relationship:Harvey": "Dating, Engaged, Married",
 				"HarveyChanges": true
 			}
 		},
-		//Harvey mobile phone dialog changes - divorced
+		// Harvey mobile phone dialog changes - divorced
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Harvey",
 			"Entries": {
-				"MobilePhoneGreeting": "Why are you calling?",
-				"MobilePhoneGoodBye": "I shouldn't have picked up.$s"
+				"MobilePhoneGreeting": "{{i18n:HarveyGreetingDivorced}}",
+				"MobilePhoneGoodBye": "{{i18n:HarveyGoodbyeDivorced}}"
 			},
 			"When": {
 				"Relationship:Harvey": "Divorced",
 				"HarveyChanges": true
 			}
 		},
-		//Jas mobile phone dialog changes
+		// Jas mobile phone dialog changes
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Jas",
 			"Entries": {
-				"MobilePhoneGreeting": "Hiya {0}!",
-				"MobilePhoneInvite": "Yay! What do you want to do?",
-				"MobilePhoneGoodBye": "...$3#$b#Okay g-*click*$h"
+				"MobilePhoneGreeting": "{{i18n:JasGreeting}}",
+				"MobilePhoneInvite": "{{i18n:JasInvite}}",
+				"MobilePhoneGoodBye": "{{i18n:JasGoodbye}}"
 			},
 			"When": {
 				"JasChanges": true
 			}
 		},
-		//Jodi mobile phone dialog changes
+		// Jodi mobile phone dialog changes
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Jodi",
 			"Entries": {
-				"MobilePhoneGreeting": "Hi {0}, I have a minute to chat.",
-				"MobilePhoneInvite": "It'd be nice to take a break, what do you want to do?",
-				"MobilePhoneGoodBye": "I'd better get going, bye!"
+				"MobilePhoneGreeting": "{{i18n:JodiGreeting}}",
+				"MobilePhoneInvite": "{{i18n:JodiInvite}}",
+				"MobilePhoneGoodBye": "{{i18n:JodiGoodbye}}"
 			},
 			"When": {
 				"JodiChanges": true
 			}
 		},
-		//Kent mobile phone dialog changes
+		// Kent mobile phone dialog changes
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Kent",
 			"Entries": {
-				"MobilePhoneGreeting": "...Hi.",
-				"MobilePhoneInvite": "Erm... okay. What do you want to do?",
-				"MobilePhoneGoodBye": "Bye..."
+				"MobilePhoneGreeting": "{{i18n:KentGreeting}}",
+				"MobilePhoneInvite": "{{i18n:KentInvite}}",
+				"MobilePhoneGoodBye": "{{i18n:KentGoodbye}}"
 			},
 			"When": {
 				"KentChanges": true
 			}
 		},
-		//Krobus mobile phone dialog changes
+		// Krobus mobile phone dialog changes
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Krobus",
 			"Entries": {
-				"MobilePhoneGreeting": "...Hello.",
-				"MobilePhoneGoodBye": "...Goodbye."
+				"MobilePhoneGreeting": "{{i18n:KrobusGreeting}}",
+				"MobilePhoneGoodBye": "{{i18n:KrobusGoodbye}}"
 			},
 			"When": {
 				"KrobusChanges": true
 			}
 		},
-		//Leah mobile phone dialog changes - friendly
+		// Leah mobile phone dialog changes - friendly
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Leah",
 			"Entries": {
-				"MobilePhoneGreeting": "Hey {0}! Staying busy?",
-				"MobilePhoneGoodBye": "See you soon!$h"
+				"MobilePhoneGreeting": "{{i18n:LeahGreetingFriendly}}",
+				"MobilePhoneGoodBye": "{{i18n:LeahGoodbyeFriendly}}"
 			},
 			"When": {
 				"Relationship:Leah": "Friendly",
 				"LeahChanges": true
 			}
 		},
-		//Leah mobile phone dialog changes - dating, engaged, married
+		// Leah mobile phone dialog changes - dating, engaged, married
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Leah",
 			"Entries": {
-				"MobilePhoneGreeting": "Hey, hot stuff!",
-				"MobilePhoneGoodBye": "See you later!$h"
+				"MobilePhoneGreeting": "{{i18n:LeahGreetingLove}}",
+				"MobilePhoneGoodBye": "{{i18n:LeahGoodbyeLove}}"
 			},
 			"When": {
 				"Relationship:Leah": "Dating, Engaged, Married",
 				"LeahChanges": true
 			}
 		},
-		//Leah mobile phone dialog changes - divorced
+		// Leah mobile phone dialog changes - divorced
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Leah",
 			"Entries": {
-				"MobilePhoneGreeting": "What could you possibly want?",
-				"MobilePhoneGoodBye": "Feel free to never call me again.$u"
+				"MobilePhoneGreeting": "{{i18n:LeahGreetingDivorced}}",
+				"MobilePhoneGoodBye": "{{i18n:LeahGoodbyeDivorced}}"
 			},
 			"When": {
 				"Relationship:Leah": "Divorced",
 				"LeahChanges": true
 			}
 		},
-		//Lewis mobile phone dialog changes
+		// Lewis mobile phone dialog changes
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Lewis",
 			"Entries": {
-				"MobilePhoneGreeting": "Hi there {0}! What have you been up to?",
-				"MobilePhoneInvite": "Sure, what do you want to do?",
-				"MobilePhoneGoodBye": "Bye @!$h"
+				"MobilePhoneGreeting": "{{i18n:LewisGreeting}}",
+				"MobilePhoneInvite": "{{i18n:LewisInvite}}",
+				"MobilePhoneGoodBye": "{{i18n:LewisGoodbye}}"
 			},
 			"When": {
 				"KrobusChanges": true
 			}
 		},
-		//Linus mobile phone dialog changes
+		// Linus mobile phone dialog changes
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Linus",
 			"Entries": {
-				"MobilePhoneGreeting": "Greetings {0}!",
-				"MobilePhoneInvite": "It's nice of you to think about me, what do you want to do?",
-				"MobilePhoneGoodBye": "Go in peace.$h"
+				"MobilePhoneGreeting": "{{i18n:LinusGreeting}}",
+				"MobilePhoneInvite": "{{i18n:LinusInvite}}",
+				"MobilePhoneGoodBye": "{{i18n:LinusGoodbye}}"
 			},
 			"When": {
 				"KrobusChanges": true
 			}
 		},
-		//Marnie mobile phone dialog changes
+		// Marnie mobile phone dialog changes
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Marnie",
 			"Entries": {
-				"MobilePhoneGreeting": "Howdy {0}!",
-				"MobilePhoneGoodBye": "Take care!$h"
+				"MobilePhoneGreeting": "{{i18n:MarnieGreeting}}",
+				"MobilePhoneGoodBye": "{{i18n:MarnieGoodbye}}"
 			},
 			"When": {
 				"KrobusChanges": true
 			}
 		},
-		//Maru mobile phone dialog changes - friendly
+		// Maru mobile phone dialog changes - friendly
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Maru",
 			"Entries": {
-				"MobilePhoneGreeting": "Hey {0}! How's it going?",
-				"MobilePhoneGoodBye": "Bye, have fun!$h"
+				"MobilePhoneGreeting": "{{i18n:MaruGreetingFriendly}}",
+				"MobilePhoneGoodBye": "{{i18n:MaruGoodbyeFriendly}}"
 			},
 			"When": {
 				"Relationship:Maru": "Friendly",
 				"MaruChanges": true
 			}
 		},
-		//Maru mobile phone dialog changes - dating, engaged, married
+		// Maru mobile phone dialog changes - dating, engaged, married
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Maru",
 			"Entries": {
-				"MobilePhoneGreeting": "Hey {0}!",
-				"MobilePhoneGoodBye": "Bye, darling!$h"
+				"MobilePhoneGreeting": "{{i18n:MaruGreetingLove}}",
+				"MobilePhoneGoodBye": "{{i18n:MaruGoodbyeLove}}"
 			},
 			"When": {
 				"Relationship:Maru": "Dating, Engaged, Married",
 				"MaruChanges": true
 			}
 		},
-		//Maru mobile phone dialog changes - divorced
+		// Maru mobile phone dialog changes - divorced
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Maru",
 			"Entries": {
-				"MobilePhoneGreeting": "I thought the whole point of divorce was not talking to each other again.",
-				"MobilePhoneGoodBye": "%You can feel Maru rolling her eyes as she hangs up."
+				"MobilePhoneGreeting": "{{i18n:MaruGreetingDivorced}}",
+				"MobilePhoneGoodBye": "{{i18n:MaruGoodbyeDivorced}}"
 			},
 			"When": {
 				"Relationship:Maru": "Divorced",
 				"MaruChanges": true
 			}
 		},
-		//Pam mobile phone dialog changes
+		// Pam mobile phone dialog changes
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Pam",
 			"Entries": {
-				"MobilePhoneGreeting": "Hey, kid!",
-				"MobilePhoneGoodBye": "See ya later!"
+				"MobilePhoneGreeting": "{{i18n:PamGreeting}}",
+				"MobilePhoneGoodBye": "{{i18n:PamGoodbye}}"
 			},
 			"When": {
 				"PamChanges": true
 			}
 		},
-		//Penny mobile phone dialog changes - friendly
+		// Penny mobile phone dialog changes - friendly
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Penny",
 			"Entries": {
-				"MobilePhoneGreeting": "Hi {0}.",
-				"MobilePhoneGoodBye": "Nice talking to you!$h"
+				"MobilePhoneGreeting": "{{i18n:PennyGreetingFriendly}}",
+				"MobilePhoneGoodBye": "{{i18n:PennyGoodbyeFriendly}}"
 			},
 			"When": {
 				"Relationship:Penny": "Friendly",
 				"PennyChanges": true
 			}
 		},
-		//Penny mobile phone dialog changes - dating, engaged, married
+		// Penny mobile phone dialog changes - dating, engaged, married
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Penny",
 			"Entries": {
-				"MobilePhoneGreeting": "Hi {0}!",
-				"MobilePhoneGoodBye": "Can't wait to snuggle you, cuddlebug!$h"
+				"MobilePhoneGreeting": "{{i18n:PennyGreetingLove}}",
+				"MobilePhoneGoodBye": "{{i18n:PennyGoodbyeLove}}"
 			},
 			"When": {
 				"Relationship:Penny": "Dating, Engaged, Married",
 				"PennyChanges": true
 			}
 		},
-		//Penny mobile phone dialog changes - divorced
+		// Penny mobile phone dialog changes - divorced
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Penny",
 			"Entries": {
-				"MobilePhoneGreeting": "My day was going fine and then you called. What?",
-				"MobilePhoneGoodBye": "Leave me alone.$s"
+				"MobilePhoneGreeting": "{{i18n:PennyGreetingDivorced}}",
+				"MobilePhoneGoodBye": "{{i18n:PennyGoodbyeDivorced}}"
 			},
 			"When": {
 				"Relationship:Penny": "Divorced",
 				"PennyChanges": true
 			}
 		},
-		//Pierre mobile phone dialog changes
+		// Pierre mobile phone dialog changes
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Pierre",
 			"Entries": {
-				"MobilePhoneGreeting": "Hey there {0}!",
-				"MobilePhoneGoodBye": "Hope to see you at the shop soon!$h"
+				"MobilePhoneGreeting": "{{i18n:PierreGreeting}}",
+				"MobilePhoneGoodBye": "{{i18n:PierreGoodbye}}"
 			},
 			"When": {
 				"PierreChanges": true
 			}
 		},
-		//Robin mobile phone dialog changes
+		// Robin mobile phone dialog changes
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Robin",
 			"Entries": {
-				"MobilePhoneGreeting": "Hi {0}!",
-				"MobilePhoneGoodBye": "Have a good one!$h"
+				"MobilePhoneGreeting": "{{i18n:RobinGreeting}}",
+				"MobilePhoneGoodBye": "{{i18n:RobinGoodbye}}"
 			},
 			"When": {
 				"RobinChanges": true
 			}
 		},
-		//Sam mobile phone dialog changes - friendly
+		// Sam mobile phone dialog changes - friendly
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sam",
 			"Entries": {
-				"MobilePhoneGreeting": "Yo!",
-				"MobilePhoneGoodBye": "Alright, take it easy!$h"
+				"MobilePhoneGreeting": "{{i18n:SamGreetingFriendly}}",
+				"MobilePhoneGoodBye": "{{i18n:SamGoodbyeFriendly}}"
 			},
 			"When": {
 				"Relationship:Sam": "Friendly",
 				"SamChanges": true
 			}
 		},
-		//Sam mobile phone dialog changes - dating, engaged, married
+		// Sam mobile phone dialog changes - dating, engaged, married
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sam",
 			"Entries": {
-				"MobilePhoneGreeting": "Hey cutie!",
-				"MobilePhoneGoodBye": "Alright, bye!$h"
+				"MobilePhoneGreeting": "{{i18n:SamGreetingLove}}",
+				"MobilePhoneGoodBye": "{{i18n:SamGoodbyeLove}}"
 			},
 			"When": {
 				"Relationship:Sam": "Dating, Engaged, Married",
 				"SamChanges": true
 			}
 		},
-		//Sam mobile phone dialog changes - divorced
+		// Sam mobile phone dialog changes - divorced
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sam",
 			"Entries": {
-				"MobilePhoneGreeting": "Not cool of you to call.",
-				"MobilePhoneGoodBye": "*click*$s"
+				"MobilePhoneGreeting": "{{i18n:SamGreetingDivorced}}",
+				"MobilePhoneGoodBye": "{{i18n:SamGoodbyeDivorced}}"
 			},
 			"When": {
 				"Relationship:Sam": "Divorced",
 				"SamChanges": true
 			}
 		},
-		//Sandy mobile phone dialog changes
+		// Sandy mobile phone dialog changes
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sandy",
 			"Entries": {
-				"MobilePhoneGreeting": "Hello hello {0}!",
-				"MobilePhoneInvite": "Ooh... I'd love to; what do you want to do?",
-				"MobilePhoneGoodBye": "I hope you visit soon!$h"
+				"MobilePhoneGreeting": "{{i18n:SandyGreeting}}",
+				"MobilePhoneInvite": "{{i18n:SandyInvite}}",
+				"MobilePhoneGoodBye": "{{i18n:SandyGoodbye}}"
 			},
 			"When": {
 				"SandyChanges": true
 			}
 		},
-		//Sebastian mobile phone dialog changes - friendly
+		// Sebastian mobile phone dialog changes - friendly
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sebastian",
 			"Entries": {
-				"MobilePhoneGreeting": "What's up?",
-				"MobilePhoneGoodBye": "Later!"
+				"MobilePhoneGreeting": "{{i18n:SebastianGreetingFriendly}}",
+				"MobilePhoneGoodBye": "{{i18n:SebastianGoodbyeFriendly}}"
 			},
 			"When": {
 				"Relationship:Sebastian": "Friendly",
 				"SebastianChanges": true
 			}
 		},
-		//Sebastian mobile phone dialog changes - dating, engaged, married
+		// Sebastian mobile phone dialog changes - dating, engaged, married
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sebastian",
 			"Entries": {
-				"MobilePhoneGreeting": "Hey!",
-				"MobilePhoneGoodBye": "See you later, love!$h"
+				"MobilePhoneGreeting": "{{i18n:SebastianGreetingLove}}",
+				"MobilePhoneGoodBye": "{{i18n:SebastianGoodbyeLove}}"
 			},
 			"When": {
 				"Relationship:Sebastian": "Dating, Engaged, Married",
 				"SebastianChanges": true
 			}
 		},
-		//Sebastian mobile phone dialog changes - divorced
+		// Sebastian mobile phone dialog changes - divorced
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sebastian",
 			"Entries": {
-				"MobilePhoneGreeting": "You've got to be kidding me. What do you want?",
-				"MobilePhoneGoodBye": "*sigh* I don't want to hear from you anymore.$s"
+				"MobilePhoneGreeting": "{{i18n:SebastianGreetingDivorced}}",
+				"MobilePhoneGoodBye": "{{i18n:SebastianGoodbyeDivorced}}"
 			},
 			"When": {
 				"Relationship:Sebastian": "Divorced",
 				"SebastianChanges": true
 			}
 		},
-		//Shane mobile phone dialog changes - friendly
+		// Shane mobile phone dialog changes - friendly
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Shane",
 			"Entries": {
-				"MobilePhoneGreeting": "...Hey.",
-				"MobilePhoneGoodBye": "*click*"
+				"MobilePhoneGreeting": "{{i18n:ShaneGreetingFriendly}}...Hey.",
+				"MobilePhoneGoodBye": "{{i18n:ShaneGoodbyeFriendly}}*click*"
 			},
 			"When": {
 				"Relationship:Shane": "Friendly",
 				"ShaneChanges": true
 			}
 		},
-		//Shane mobile phone dialog changes - dating, engaged, married
+		// Shane mobile phone dialog changes - dating, engaged, married
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Shane",
 			"Entries": {
-				"MobilePhoneGreeting": "Hey babe.",
-				"MobilePhoneGoodBye": "See ya."
+				"MobilePhoneGreeting": "{{i18n:ShaneGreetingLove}}Hey babe.",
+				"MobilePhoneGoodBye": "{{i18n:ShaneGoodbyeLove}}See ya."
 			},
 			"When": {
 				"Relationship:Shane": "Dating, Engaged, Married",
 				"ShaneChanges": true
 			}
 		},
-		//Shane mobile phone dialog changes - divorced
+		// Shane mobile phone dialog changes - divorced
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Shane",
 			"Entries": {
-				"MobilePhoneGreeting": "...Why are you bothering me?",
-				"MobilePhoneGoodBye": "Don't call again. *click*$a"
+				"MobilePhoneGreeting": "{{i18n:ShaneGreetingDivorced}}...Why are you bothering me?",
+				"MobilePhoneGoodBye": "{{i18n:ShaneGoodbyeDivorced}}Don't call again. *click*$a"
 			},
 			"When": {
 				"Relationship:Shane": "Divorced",
 				"ShaneChanges": true
 			}
 		},
-		//Vincent mobile phone dialog changes
+		// Vincent mobile phone dialog changes
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Vincent",
 			"Entries": {
-				"MobilePhoneGreeting": "Hihi {0}!",
-				"MobilePhoneInvite": "Yay! What do you want to do?",
-				"MobilePhoneGoodBye": "See you later, alligator!$h"
+				"MobilePhoneGreeting": "{{i18n:VincentGreeting}}",
+				"MobilePhoneInvite": "{{i18n:VincentInvite}}",
+				"MobilePhoneGoodBye": "{{i18n:VincentGoodbye}}"
 			},
 			"When": {
 				"VincentChanges": true
 			}
 		},
-		//Willy mobile phone dialog changes
+		// Willy mobile phone dialog changes
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Willy",
 			"Entries": {
-				"MobilePhoneGreeting": "Ahoy there {0}!",
-				"MobilePhoneGoodBye": "See you later!$h"
+				"MobilePhoneGreeting": "{{i18n:WillyGreeting}}",
+				"MobilePhoneGoodBye": "{{i18n:WillyGoodbye}}"
 			},
 			"When": {
 				"WillyChanges": true
 			}
 		},
-		//Wizard mobile phone dialog changes
+		// Wizard mobile phone dialog changes
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Wizard",
 			"Entries": {
-				"MobilePhoneGreeting": "Can you feel the energy today, {0}?",
-				"MobilePhoneInvite": "Hmm... I suppose I could accompany you, what do you want to do?",
-				"MobilePhoneGoodBye": "Farewell."
+				"MobilePhoneGreeting": "{{i18n:WizardGreeting}}Can you feel the energy today, {0}?",
+				"MobilePhoneInvite": "{{i18n:WizardInvite}}Hmm... I suppose I could accompany you, what do you want to do?",
+				"MobilePhoneGoodBye": "{{i18n:WizardGoodbye}}Farewell."
 			},
 			"When": {
 				"WizardChanges": true

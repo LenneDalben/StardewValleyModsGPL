@@ -10,18 +10,189 @@
 	// Alex
 	"AlexGreetingFriendly": "Hey you!",
 	"AlexGoodbyeFriendly": "See ya!$h",
-	"{{i18n:AlexGreetingLove": "Hey {0}!",
-	"{{i18n:AlexGoodbyeLove": "See ya, my cutie!$h",
-	"{{i18n:AlexGreetingDivorced": "*sigh*",
-	"{{i18n:AlexGoodbyeDivorced": "Lose my number.$s",
+	"AlexGreetingLove": "Hey {0}!",
+	"AlexGoodbyeLove": "See ya, my cutie!$h",
+	"AlexGreetingDivorced": "*sigh*",
+	"AlexGoodbyeDivorced": "Lose my number.$s",
 	//
 	// Caroline
-	"{{i18n:CarolineGreeting": "Hi {0}, how are you doing?",
-	"{{i18n:CarolineInvite": "Sure, what would you like to do?",
-	"{{i18n:CarolineGoodbye": "Talk to you later!$h",
+	"CarolineGreeting": "Hi {0}, how are you doing?",
+	"CarolineInvite": "Sure, what would you like to do?",
+	"CarolineGoodbye": "Talk to you later!$h",
 	//
 	// Clint
-	"{{i18n:ClintGreeting": "Hello {0}!",
-	"{{i18n:ClintInvite": "Um, okay. What do you want to do?",
-	"{{i18n:ClintGoodbye": "Bye!",
+	"ClintGreeting": "Hello {0}!",
+	"ClintInvite": "Um, okay. What do you want to do?",
+	"ClintGoodbye": "Bye!",
+	//
+	// Demetrius
+	"DemetriusGreeting": "Greetings {0}! Are you enjoying this fine day?",
+	"DemetriusInvite": "Sure, what would you like to do?",
+	"DemetriusGoodbye": "Goodbye @!",
+	//
+	// Dwarf
+	"DwarfGreeting": "Hello.",
+	"DwarfInvite": "Okay, what would you like to do?",
+	"DwarfGoodbye": "Come by the shop soon.",
+	//
+	// Elliott
+	"ElliottGreetingFriendly": "Hello {0}, are you well?",
+	"ElliottInviteFriendly": "Sure, what would you like to do?",
+	"ElliottGoodbyeFriendly": "Goodbye @!$h",
+	"ElliottGreetingLove": "Hi {0}!",
+	"ElliottInviteLove": "I'd love to, what would you like to do?",
+	"ElliottGoodbyeLove": "Goodbye, my sweet!$h",
+	"ElliottGreetingDivorced": "What do you want?",
+	"ElliottGoodbyeDivorced": "I do not wish to hear from you again.$s",
+	//
+	// Emily
+	"EmilyGreetingFriendly": "Hi {0}, how are things?",
+	"EmilyGoodbyeFriendly": "Bye @, have a good one!$h",
+	"EmilyGreetingLove": "Hi honey!",
+	"EmilyGoodbyeLove": "Bye honey!$h",
+	"EmilyGreetingDivorced": "What?",
+	"EmilyGoodbyeDivorced": "Leave me alone, please.$s",
+	//
+	// Evelyn
+	"EvelynGreeting": "Hello my dear, I hope you're doing well!",
+	"EvelynInvite": "So kind of you to ask, dear. What do you want to do?",
+	"EvelynGoodbye": "Have a nice day, dear.$h",
+	//
+	// George
+	"GeorgeGreeting": "Hello?",
+	"GeorgeInvite": "You want to spend time with an old geezer like me? Well okay, what do you want to do?",
+	"GeorgeGoodbye": "Goodbye.",
+	//
+	// Gus
+	"GusGreeting": "Hi there, {0}!",
+	"GusInvite": "Sure, what do you want to do?",
+	"GusGoodbye": "Bye, don't be a stranger!$h",
+	//
+	// Haley
+	"HaleyGreetingFriendly": "Hi {0}. Anything exciting happening?",
+	"HaleyGoodbyeFriendly": "Byeeeeee!$h",
+	"HaleyGreetingLove": "Hi!",
+	"HaleyGoodbyeLove": "Bye pookie!$h",
+	"HaleyGreetingDivorced": "Ugh, what?",
+	"HaleyGoodbyeDivorced": "Buzz off.$7",
+	//
+	// Harvey
+	"HarveyGreetingFriendly": "Hey {0}, how's it going?",
+	"HarveyGoodbyeFriendly": "Take care! Stay healthy.",
+	"HarveyGreetingLove": "Hey, everything okay?",
+	"HarveyGoodbyeLove": "Take care, ducky.$h",
+	"HarveyGreetingDivorced": "Why are you calling?",
+	"HarveyGoodbyeDivorced": "I shouldn't have picked up.$s",
+	//
+	// Jas
+	"JasGreeting": "Hiya {0}!",
+	"JasInvite": "Yay! What do you want to do?",
+	"JasGoodbye": "...$3#$b#Okay g-*click*$h",
+	//
+	// Jodi
+	"JodiGreeting": "Hi {0}, I have a minute to chat.",
+	"JodiInvite": "It'd be nice to take a break, what do you want to do?",
+	"JodiGoodbye": "I'd better get going, bye!",
+	//
+	// Kent
+	"KentGreeting": "...Hi.",
+	"KentInvite": "Erm... okay. What do you want to do?",
+	"KentGoodbye": "Bye...",
+	//
+	// Krobus
+	"KrobusGreeting": "...Hello.",
+	"KrobusGoodbye": "...Goodbye.",
+	//
+	// Leah
+	"LeahGreetingFriendly": "Hey {0}! Staying busy?",
+	"LeahGoodbyeFriendly": "See you soon!$h",
+	"LeahGreetingLove": "Hey, hot stuff!",
+	"LeahGoodbyeLove": "See you later!$h",
+	"LeahGreetingDivorced": "What could you possibly want?",
+	"LeahGoodbyeDivorced": "Feel free to never call me again.$u",
+	//
+	// Lewis
+	"LewisGreeting": "Hi there {0}! What have you been up to?",
+	"LewisInvite": "Sure, what do you want to do?",
+	"LewisGoodbye": "Bye @!$h",
+	//
+	// Linus
+	"LinusGreeting": "Greetings {0}!",
+	"LinusInvite": "It's nice of you to think about me, what do you want to do?",
+	"LinusGoodbye": "Go in peace.$h",
+	//
+	// Marnie
+	"MarnieGreeting": "Howdy {0}!",
+	"MarnieGoodbye": "Take care!$h",
+	//
+	// Maru
+	"MaruGreetingFriendly": "Hey {0}! How's it going?",
+	"MaruGoodbyeFriendly": "Bye, have fun!$h",
+	"MaruGreetingLove": "Hey {0}!",
+	"MaruGoodbyeLove": "Bye, darling!$h",
+	"MaruGreetingDivorced": "I thought the whole point of divorce was not talking to each other again.",
+	"MaruGoodbyeDivorced": "%You can feel Maru rolling her eyes as she hangs up.",
+	//
+	// Pam
+	"PamGreeting": "Hey, kid!",
+	"PamGoodbye": "See ya later!",
+	//
+	// Penny
+	"PennyGreetingFriendly": "Hi {0}.",
+	"PennyGoodbyeFriendly": "Nice talking to you!",
+	"PennyGreetingLove": "Hi {0}!",
+	"PennyGoodbyeLove": "Can't wait to snuggle you, cuddlebug!$h",
+	"PennyGreetingDivorced": "My day was going fine and then you called. What?",
+	"PennyGoodbyeDivorced": "Leave me alone.$s",
+	//
+	// Pierre
+	"PierreGreeting": "Hey there {0}!",
+	"PierreGoodbye": "Hope to see you at the shop soon!$h",
+	//
+	// Robin
+	"RobinGreeting": "Hi {0}!",
+	"RobinGoodbye": "Have a good one!$h",
+	//
+	// Sam
+	"SamGreetingFriendly": "Yo!",
+	"SamGoodbyeFriendly": "Alright, take it easy!$h",
+	"SamGreetingLove": "Hey cutie!",
+	"SamGoodbyeLove": "Alright, bye!$h",
+	"SamGreetingDivorced": "Not cool of you to call.",
+	"SamGoodbyeDivorced": "*click*$s",
+	//
+	// Sandy
+	"SandyGreeting": "Hello hello {0}!",
+	"SandyInvite": "Ooh... I'd love to; what do you want to do?",
+	"SandyGoodbye": "I hope you visit soon!$h",
+	//
+	// Sebastian
+	"SebastianGreetingFriendly": "What's up?",
+	"SebastianGoodbyeFriendly": "Later!",
+	"SebastianGreetingLove": "Hey!",
+	"SebastianGoodbyeLove": "See you later, love!$h",
+	"SebastianGreetingDivorced": "You've got to be kidding me. What do you want?",
+	"SebastianGoodbyeDivorced": "*sigh* I don't want to hear from you anymore.$s",
+	//
+	// Shane
+	"ShaneGreetingFriendly": "...Hey.",
+	"ShaneGoodbyeFriendly": "*click*",
+	"ShaneGreetingLove": "Hey babe.",
+	"ShaneGoodbyeLove": "See ya.",
+	"ShaneGreetingDivorced": "...Why are you bothering me?",
+	"ShaneGoodbyeDivorced": "Don't call again. *click*$a",
+	//
+	// Vincent
+	"VincentGreeting": "Hihi {0}!",
+	"VincentInvite": "Yay! What do you want to do?",
+	"VincentGoodbye": "See you later, alligator!$h",
+	//
+	// Willy
+	"WillyGreeting": "Ahoy there {0}!",
+	"WillyGoodbye": "See you later!$h",
+	//
+	// Wizard
+	"WizardGreeting": "Can you feel the energy today, {0}?",
+	"WizardInvite": "Hmm... I suppose I could accompany you, what do you want to do?",
+	"WizardGoodbye": "Farewell."
 }
