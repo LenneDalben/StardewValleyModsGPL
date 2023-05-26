@@ -254,6 +254,7 @@
 		},
 		// Caroline mobile phone dialog changes
 		{
+			"LogName": "UMG Caroline Dialog",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Caroline",
 			"Entries": {
@@ -267,6 +268,7 @@
 		},
 		// Clint mobile phone dialog changes
 		{
+			"LogName": "UMG Clint Dialog",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Clint",
 			"Entries": {
@@ -280,6 +282,7 @@
 		},
 		// Demetrius mobile phone dialog changes
 		{
+			"LogName": "UMG Demetrius Dialog",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Demetrius",
 			"Entries": {
@@ -293,6 +296,7 @@
 		},
 		// Dwarf mobile phone dialog changes
 		{
+			"LogName": "UMG Dwarf Dialog",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Dwarf",
 			"Entries": {
@@ -306,6 +310,7 @@
 		},
 		// Elliott mobile phone dialog changes - friendly
 		{
+			"LogName": "UMG Elliott Dialog Friendly",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Elliott",
 			"Entries": {
@@ -320,6 +325,7 @@
 		},
 		// Elliott mobile phone dialog changes - dating, engaged, married
 		{
+			"LogName": "UMG Elliott Dialog Love",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Elliott",
 			"Entries": {
@@ -334,6 +340,7 @@
 		},
 		// Elliott mobile phone dialog changes - divorced
 		{
+			"LogName": "UMG Elliott Dialog Divorced",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Elliott",
 			"Entries": {
@@ -347,6 +354,7 @@
 		},
 		// Emily mobile phone dialog changes- friendly
 		{
+			"LogName": "UMG Emily Dialog Friendly",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Emily",
 			"Entries": {
@@ -360,6 +368,7 @@
 		},
 		// Emily mobile phone dialog changes- dating, engaged, married
 		{
+			"LogName": "UMG Emily Dialog Love",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Emily",
 			"Entries": {
@@ -373,6 +382,7 @@
 		},
 		// Emily mobile phone dialog changes- divorced
 		{
+			"LogName": "UMG Emily Dialog Divorced",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Emily",
 			"Entries": {
@@ -386,6 +396,7 @@
 		},
 		// Evelyn mobile phone dialog changes
 		{
+			"LogName": "UMG Evelyn Dialog",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Evelyn",
 			"Entries": {
@@ -399,6 +410,7 @@
 		},
 		// George mobile phone dialog changes
 		{
+			"LogName": "UMG George Dialog",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/George",
 			"Entries": {
@@ -412,6 +424,7 @@
 		},
 		// Gus mobile phone dialog changes
 		{
+			"LogName": "UMG Gus Dialog",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Gus",
 			"Entries": {
@@ -425,6 +438,7 @@
 		},
 		// Haley mobile phone dialog changes - friendly
 		{
+			"LogName": "UMG Haley Dialog Friendly",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Haley",
 			"Entries": {
@@ -438,6 +452,7 @@
 		},
 		// Haley mobile phone dialog changes - dating, engaged, married
 		{
+			"LogName": "UMG Haley Dialog Love",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Haley",
 			"Entries": {
@@ -451,6 +466,7 @@
 		},
 		// Haley mobile phone dialog changes - divorced
 		{
+			"LogName": "UMG Haley Dialog Divorced",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Haley",
 			"Entries": {
@@ -464,6 +480,7 @@
 		},
 		// Harvey mobile phone dialog changes - friendly
 		{
+			"LogName": "UMG Harvey Dialog Friendly",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Harvey",
 			"Entries": {
@@ -477,6 +494,7 @@
 		},
 		// Harvey mobile phone dialog changes - dating, engaged, married
 		{
+			"LogName": "UMG Harvey Dialog Love",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Harvey",
 			"Entries": {
@@ -490,6 +508,7 @@
 		},
 		// Harvey mobile phone dialog changes - divorced
 		{
+			"LogName": "UMG Harvey Dialog Divorced",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Harvey",
 			"Entries": {
@@ -503,6 +522,7 @@
 		},
 		// Jas mobile phone dialog changes
 		{
+			"LogName": "UMG Jas Dialog",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Jas",
 			"Entries": {
@@ -516,6 +536,7 @@
 		},
 		// Jodi mobile phone dialog changes
 		{
+			"LogName": "UMG Jodi Dialog",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Jodi",
 			"Entries": {
@@ -529,6 +550,7 @@
 		},
 		// Kent mobile phone dialog changes
 		{
+			"LogName": "UMG Kent Dialog",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Kent",
 			"Entries": {
@@ -542,6 +564,7 @@
 		},
 		// Krobus mobile phone dialog changes
 		{
+			"LogName": "UMG Krobus Dialog",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Krobus",
 			"Entries": {
@@ -554,6 +577,7 @@
 		},
 		// Leah mobile phone dialog changes - friendly
 		{
+			"LogName": "UMG Leah Dialog Friendly",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Leah",
 			"Entries": {
@@ -567,6 +591,7 @@
 		},
 		// Leah mobile phone dialog changes - dating, engaged, married
 		{
+			"LogName": "UMG Leah Dialog Love",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Leah",
 			"Entries": {
@@ -580,6 +605,7 @@
 		},
 		// Leah mobile phone dialog changes - divorced
 		{
+			"LogName": "UMG Leah Dialog Divorced",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Leah",
 			"Entries": {
@@ -593,6 +619,7 @@
 		},
 		// Lewis mobile phone dialog changes
 		{
+			"LogName": "UMG Lewis Dialog",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Lewis",
 			"Entries": {
@@ -606,6 +633,7 @@
 		},
 		// Linus mobile phone dialog changes
 		{
+			"LogName": "UMG Linus Dialog",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Linus",
 			"Entries": {
@@ -619,6 +647,7 @@
 		},
 		// Marnie mobile phone dialog changes
 		{
+			"LogName": "UMG Marnie Dialog",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Marnie",
 			"Entries": {
@@ -631,6 +660,7 @@
 		},
 		// Maru mobile phone dialog changes - friendly
 		{
+			"LogName": "UMG Maru Dialog Friendly",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Maru",
 			"Entries": {
@@ -644,6 +674,7 @@
 		},
 		// Maru mobile phone dialog changes - dating, engaged, married
 		{
+			"LogName": "UMG Maru Dialog Love",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Maru",
 			"Entries": {
@@ -657,6 +688,7 @@
 		},
 		// Maru mobile phone dialog changes - divorced
 		{
+			"LogName": "UMG Maru Dialog Divorced",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Maru",
 			"Entries": {
@@ -670,6 +702,7 @@
 		},
 		// Pam mobile phone dialog changes
 		{
+			"LogName": "UMG Pam Dialog",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Pam",
 			"Entries": {
@@ -682,6 +715,7 @@
 		},
 		// Penny mobile phone dialog changes - friendly
 		{
+			"LogName": "UMG Penny Dialog Friendly",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Penny",
 			"Entries": {
@@ -695,6 +729,7 @@
 		},
 		// Penny mobile phone dialog changes - dating, engaged, married
 		{
+			"LogName": "UMG Penny Dialog Love",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Penny",
 			"Entries": {
@@ -708,6 +743,7 @@
 		},
 		// Penny mobile phone dialog changes - divorced
 		{
+			"LogName": "UMG Penny Dialog Divorced",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Penny",
 			"Entries": {
@@ -721,6 +757,7 @@
 		},
 		// Pierre mobile phone dialog changes
 		{
+			"LogName": "UMG Pierre Dialog",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Pierre",
 			"Entries": {
@@ -733,6 +770,7 @@
 		},
 		// Robin mobile phone dialog changes
 		{
+			"LogName": "UMG Robin Dialog",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Robin",
 			"Entries": {
@@ -745,6 +783,7 @@
 		},
 		// Sam mobile phone dialog changes - friendly
 		{
+			"LogName": "UMG Sam Dialog Friendly",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sam",
 			"Entries": {
@@ -758,6 +797,7 @@
 		},
 		// Sam mobile phone dialog changes - dating, engaged, married
 		{
+			"LogName": "UMG Sam Dialog Love",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sam",
 			"Entries": {
@@ -771,6 +811,7 @@
 		},
 		// Sam mobile phone dialog changes - divorced
 		{
+			"LogName": "UMG Sam Dialog Divorced",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sam",
 			"Entries": {
@@ -784,6 +825,7 @@
 		},
 		// Sandy mobile phone dialog changes
 		{
+			"LogName": "UMG Sandy Dialog",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sandy",
 			"Entries": {
@@ -797,6 +839,7 @@
 		},
 		// Sebastian mobile phone dialog changes - friendly
 		{
+			"LogName": "UMG Sebastian Dialog Friendly",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sebastian",
 			"Entries": {
@@ -810,6 +853,7 @@
 		},
 		// Sebastian mobile phone dialog changes - dating, engaged, married
 		{
+			"LogName": "UMG Sebastian Dialog Love",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sebastian",
 			"Entries": {
@@ -823,6 +867,7 @@
 		},
 		// Sebastian mobile phone dialog changes - divorced
 		{
+			"LogName": "UMG Sebastian Dialog Divorced",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sebastian",
 			"Entries": {
@@ -836,6 +881,7 @@
 		},
 		// Shane mobile phone dialog changes - friendly
 		{
+			"LogName": "UMG Shane Dialog Friendly",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Shane",
 			"Entries": {
@@ -849,6 +895,7 @@
 		},
 		// Shane mobile phone dialog changes - dating, engaged, married
 		{
+			"LogName": "UMG Shane Dialog Love",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Shane",
 			"Entries": {
@@ -862,6 +909,7 @@
 		},
 		// Shane mobile phone dialog changes - divorced
 		{
+			"LogName": "UMG Shane Dialog Divorced",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Shane",
 			"Entries": {
@@ -875,6 +923,7 @@
 		},
 		// Vincent mobile phone dialog changes
 		{
+			"LogName": "UMG Vincent Dialog",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Vincent",
 			"Entries": {
@@ -888,6 +937,7 @@
 		},
 		// Willy mobile phone dialog changes
 		{
+			"LogName": "UMG Willy Dialog",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Willy",
 			"Entries": {
@@ -900,6 +950,7 @@
 		},
 		// Wizard mobile phone dialog changes
 		{
+			"LogName": "UMG Wizard Dialog",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Wizard",
 			"Entries": {
