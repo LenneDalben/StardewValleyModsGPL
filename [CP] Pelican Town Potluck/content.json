@@ -484,7 +484,7 @@
 		},
 		// RSV Decoration Bunting - Colorful or Green
 		{
-			"LogName": "Pelican Town Potluck RSV Bunting - Colorful",
+			"LogName": "Pelican Town Potluck RSV Bunting",
 			"Action": "EditImage",
 			"Target": "Maps/zrsvfestivals",
 			"FromFile": "assets/Railing_bunting_{{RSVRailing}}.png",
@@ -493,7 +493,7 @@
 				"X": 128,
 				"Y": 80,
 				"Width": 48,
-				"Height": 48
+				"Height": 32
 			},
 			"When": {
 				"HasMod": "Rafseazz.RSVCP, Rafseazz.RidgesideMobileCP"
