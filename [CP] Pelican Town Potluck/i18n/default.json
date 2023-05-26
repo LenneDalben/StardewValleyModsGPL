@@ -1,4 +1,12 @@
 {
+	// ***Config Options***
+	//
+	"config.RSVRailing.name": "RSVRailing",
+	"config.RSVRailing.description": "Select between colorful or green bunting for the RSV railing. Default is colorful.",
+	"config.RSVRailing.values.colorful": "colorful",
+	"config.RSVRailing.values.green": "green",
+	//
+	// ***Strings***
 	// Strings for letter from Lewis
 	"Summer10Letter_text": "Dear @,^Tomorrow we're all gathering at the beach for the annual Pelican Town Potluck.^^The highlight of the event is the communal soup. Make sure you bring something good to contribute!^The governor himself is attending the event, so make sure you're on your best behavior.^Come to the beach sometime between 9 AM and 2 PM.^   -Mayor Lewis[#]Potluck Notice",
 	"Summer10Letter_title": "Potluck Notice",

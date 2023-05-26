@@ -1,5 +1,14 @@
 {
 	"Format": "1.19.0",
+	"ConfigSchema": {
+		"RSVRailing": {
+			"Description": "Select between colorful or green bunting for the RSV railing. Default is colorful.",
+			"AllowValues": "colorful, green",
+			"Default": "colorful",
+			"AllowBlank": false,
+			"AllowMultiple": false
+		}
+	},
 	"Changes": [
 		//
 		// Vanilla changes
@@ -434,6 +443,57 @@
 			"Target": "Characters/Dialogue/MarriageDialogueSean",
 			"Entries": {
 				"summer_10": "{{i18n:RSV_Sean.MarriageDialogue.summer10}}", // "Sean.MarriageDialogue.summer_10" is the key
+			},
+			"When": {
+				"HasMod": "Rafseazz.RSVCP, Rafseazz.RidgesideMobileCP"
+			}
+		},
+		// RSV Decorations changes (provided by Airyn!)
+		// RSV Decoration Blanket Middle
+		{
+			"LogName": "Pelican Town Potluck RSV Blanket Middle",
+			"Action": "EditImage",
+			"Target": "Maps/zrsvfestivals",
+			"FromFile": "assets/Blanket_middle.png",
+			"ToArea": {
+				"X": 176,
+				"Y": 80,
+				"Width": 32,
+				"Height": 32
+			},
+			"When": {
+				"HasMod": "Rafseazz.RSVCP, Rafseazz.RidgesideMobileCP"
+			}
+		},
+		// RSV Decoration Blanket Edges
+		{
+			"LogName": "Pelican Town Potluck RSV Blanket Edges",
+			"Action": "EditImage",
+			"Target": "Maps/zrsvfestivals",
+			"FromFile": "assets/Blanket_edges.png",
+			"PatchMode": "Overlay",
+			"ToArea": {
+				"X": 128,
+				"Y": 80,
+				"Width": 48,
+				"Height": 48
+			},
+			"When": {
+				"HasMod": "Rafseazz.RSVCP, Rafseazz.RidgesideMobileCP"
+			}
+		},
+		// RSV Decoration Bunting - Colorful or Green
+		{
+			"LogName": "Pelican Town Potluck RSV Bunting - Colorful",
+			"Action": "EditImage",
+			"Target": "Maps/zrsvfestivals",
+			"FromFile": "assets/Railing_bunting_{{RSVRailing}}.png",
+			"PatchMode": "Overlay",
+			"ToArea": {
+				"X": 128,
+				"Y": 80,
+				"Width": 48,
+				"Height": 48
 			},
 			"When": {
 				"HasMod": "Rafseazz.RSVCP, Rafseazz.RidgesideMobileCP"
