@@ -237,7 +237,7 @@
 			"Entries": {
 				"Richard": "{{i18n:RSV_RichardSummer11}}", // "Festivals.Luau.Richard" is the key
 				"Kenneth_spouse": "{{i18n:RSV_KennethSummer11_spouse}}", // "Festivals.Luau.Kenneth_spouse" is the key
-				"Sean_spouse": "{{i28n:RSV_SeanSummer11_spouse}}", // "Festivals.Luau.Sean_spouse" is the key
+				"Sean_spouse": "{{i18n:RSV_SeanSummer11_spouse}}", // "Festivals.Luau.Sean_spouse" is the key
 			},
 			"When": {
 				"HasMod": "Rafseazz.RSVCP, Rafseazz.RidgesideMobileCP"
