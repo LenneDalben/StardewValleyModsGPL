@@ -5,6 +5,8 @@ With this mod, Joja's inventory is expanded to include basic cooking ingredients
 
 I think the mod <a href="https://www.nexusmods.com/stardewvalley/mods/2658">Lore-Friendly Joja Prices</a> will pair well with this one, but note it's not required. 
 
+Translations are welcome! You can submit either the language.json to me or the strings in another language for all the orders and I will incorporate it into the mod. See more information on the <a href="https://stardewvalleywiki.com/Modding:Translations">wiki</a>.
+
 ||Installation||
 
 1. Install <a href="https://smapi.io/">SMAPI</a> (version 3.4 or higher)

@@ -19,6 +19,7 @@ Caroline
 Demetrius
 * Friendly: "Greetings FARMERNAME! Are you enjoying this fine day?" / "Goodbye FARMERNAME!"
 
+Translations are welcome! You can submit either the language.json to me or the strings in another language for all the orders and I will incorporate it into the mod. See more information on the <a href="https://stardewvalleywiki.com/Modding:Translations">wiki</a>.
 
 ||Configuration||
 Each NPCs changes can be toggled on or off. By default all NPC changes are on (true).

@@ -4,6 +4,8 @@ Have you ever been rolling in the gold, flooded with cash, or just had some extr
 
 With this mod, the shop owners in the valley (and in the desert) will sell artisan equipment after you have unlocked it, every Thursday, and only to their friends.
 
+Translations are welcome! You can submit either the language.json to me or the strings in another language for all the orders and I will incorporate it into the mod. See more information on the <a href="https://stardewvalleywiki.com/Modding:Translations">wiki</a>.
+
 German translation courtesy of Nexus user kupiqo.
 
 

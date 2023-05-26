@@ -8,6 +8,8 @@ The Diverse Stardew (DSV) server continues to provide excellent ideas and were d
 
 It took a lot of effort to learn some new modding skills for the rewards, so I hope you enjoy :)
 
+Translations are welcome! You can submit either the language.json to me or the strings in another language for all the orders and I will incorporate it into the mod. See more information on the <a href="https://stardewvalleywiki.com/Modding:Translations">wiki</a>.
+
 Turkish translation provided by <a href="https://www.moddrop.com/stardew-valley/profile/225898">KediDili</a>!
 
 

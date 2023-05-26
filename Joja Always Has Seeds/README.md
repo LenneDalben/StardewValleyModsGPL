@@ -3,6 +3,8 @@ Have you ever wondered why JojaMart, an alleged super-powered grocery store, doe
 
 As it says on the tin, with Joja Always Has Seeds, JojaMart will sell seeds all year round. There are some seeds JojaMart doesn't carry in vanilla game; they still won't (refer to the wiki page on Crops). You'll receive a one-time letter from Morris when you install the mod advertising the change in stock.
 
+Translations are welcome! You can submit either the language.json to me or the strings in another language for all the orders and I will incorporate it into the mod. See more information on the <a href="https://stardewvalleywiki.com/Modding:Translations">wiki</a>.
+
 
 ||Compatibility||
 
