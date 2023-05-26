@@ -257,9 +257,9 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Caroline",
 			"Entries": {
-				"MobilePhoneGreeting": "Hi {0}, how are you doing?",
-				"MobilePhoneInvite": "Sure, what would you like to do?",
-				"MobilePhoneGoodBye": "Talk to you later!$h"
+				"MobilePhoneGreeting": "{{i18n:CarolineGreeting}}",
+				"MobilePhoneInvite": "{{i18n:CarolineInvite}}",
+				"MobilePhoneGoodBye": "{{i18n:CarolineGoodbye}}"
 			},
 			"When": {
 				"CarolineChanges": true
@@ -270,9 +270,9 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Clint",
 			"Entries": {
-				"MobilePhoneGreeting": "Hello {0}!",
-				"MobilePhoneInvite": "Um, okay. What do you want to do?",
-				"MobilePhoneGoodBye": "Bye!"
+				"MobilePhoneGreeting": "{{i18n:ClintGreeting}}",
+				"MobilePhoneInvite": "{{i18n:ClintInvite}}",
+				"MobilePhoneGoodBye": "{{i18n:ClintGoodbye}}"
 			},
 			"When": {
 				"ClintChanges": true

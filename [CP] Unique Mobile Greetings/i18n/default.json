@@ -6,11 +6,22 @@
 	"AbigailGoodbyeLove": "I gotta go sweetie, bye!$h",
 	"AbigailGreetingDivorced": "...",
 	"AbigailGoodbyeDivorced": "Stop calling me, jerk!$a",
+	//
 	// Alex
 	"AlexGreetingFriendly": "Hey you!",
 	"AlexGoodbyeFriendly": "See ya!$h",
 	"{{i18n:AlexGreetingLove": "Hey {0}!",
 	"{{i18n:AlexGoodbyeLove": "See ya, my cutie!$h",
 	"{{i18n:AlexGreetingDivorced": "*sigh*",
-	"{{i18n:AlexGoodbyeDivorced": "Lose my number.$s"
+	"{{i18n:AlexGoodbyeDivorced": "Lose my number.$s",
+	//
+	// Caroline
+	"{{i18n:CarolineGreeting": "Hi {0}, how are you doing?",
+	"{{i18n:CarolineInvite": "Sure, what would you like to do?",
+	"{{i18n:CarolineGoodbye": "Talk to you later!$h",
+	//
+	// Clint
+	"{{i18n:ClintGreeting": "Hello {0}!",
+	"{{i18n:ClintInvite": "Um, okay. What do you want to do?",
+	"{{i18n:ClintGoodbye": "Bye!",
 }
