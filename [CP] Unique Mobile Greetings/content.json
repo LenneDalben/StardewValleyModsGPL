@@ -173,8 +173,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Abigail",
 			"Entries": {
-				"MobilePhoneGreeting": "Hi, what's new?",
-				"MobilePhoneGoodBye": "I'd better go, bye!$h"
+				"MobilePhoneGreeting": "{{i18n:AbigailGreetingFriendly}}",
+				"MobilePhoneGoodBye": "{{i18n:AbigailGoodbyeFriendly}}"
 			},
 			"When": {
 				"Relationship:Abigail": "Friendly",
@@ -186,8 +186,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Abigail",
 			"Entries": {
-				"MobilePhoneGreeting": "Hi!",
-				"MobilePhoneGoodBye": "I gotta go sweetie, bye!$h"
+				"MobilePhoneGreeting": "{{i18n:AbigailGreetingLove}}",
+				"MobilePhoneGoodBye": "{{i18n:AbigailGoodbyeLove}}"
 			},
 			"When": {
 				"Relationship:Abigail": "Dating, Engaged, Married",
@@ -199,8 +199,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Abigail",
 			"Entries": {
-				"MobilePhoneGreeting": "...",
-				"MobilePhoneGoodBye": "Stop calling me, jerk!$a"
+				"MobilePhoneGreeting": "{{i18n:AbigailGreetingDivorced}}",
+				"MobilePhoneGoodBye": "{{i18n:AbigailGoodbyeDivorced}}"
 			},
 			"When": {
 				"Relationship:Abigail": "Divorced",

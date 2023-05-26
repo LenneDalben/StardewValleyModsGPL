@@ -1,0 +1,9 @@
+{
+	//Abigail mobile phone dialog changes - friendly
+	"AbigailGreetingFriendly": "Hi, what's new?",
+	"AbigailGoodbyeFriendly": "I'd better go, bye!$h",
+	"AbigailGreetingLove": "Hi!",
+	"AbigailGoodbyeLove": "I gotta go sweetie, bye!$h",
+	"AbigailGreetingDivorced": "...",
+	"AbigailGoodbyeDivorced": "Stop calling me, jerk!$a"
+}
