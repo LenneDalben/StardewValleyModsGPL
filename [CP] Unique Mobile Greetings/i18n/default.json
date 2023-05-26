@@ -1,4 +1,205 @@
 {
+	// ***Config Options***
+	//
+	// Abigail Changes
+	"config.AbigailChanges.name": "AbigailChanges",
+	"config.AbigailChanges.description": "Toggle greetings for Abigail.",
+	"config.AbigailChanges.values.true": "true",
+	"config.AbigailChanges.values.false": "false",
+	//
+	// Alex Changes
+	"config.AlexChanges.name": "AlexChanges",
+	"config.AlexChanges.description": "Toggle greetings for Alex.",
+	"config.AlexChanges.values.true": "true",
+	"config.AlexChanges.values.false": "false",
+	//
+	// Caroline Changes
+	"config.CarolineChanges.name": "CarolineChanges",
+	"config.CarolineChanges.description": "Toggle greetings for Caroline.",
+	"config.CarolineChanges.values.true": "true",
+	"config.CarolineChanges.values.false": "false",
+	//
+	// Clint Changes
+	"config.ClintChanges.name": "ClintChanges",
+	"config.ClintChanges.description": "Toggle greetings for Clint.",
+	"config.ClintChanges.values.true": "true",
+	"config.ClintChanges.values.false": "false",
+	//
+	// Demetrius Changes
+	"config.DemetriusChanges.name": "DemetriusChanges",
+	"config.DemetriusChanges.description": "Toggle greetings for Demetrius.",
+	"config.DemetriusChanges.values.true": "true",
+	"config.DemetriusChanges.values.false": "false",
+	//
+	// Dwarf Changes
+	"config.DwarfChanges.name": "DwarfChanges",
+	"config.DwarfChanges.description": "Toggle greetings for Dwarf.",
+	"config.DwarfChanges.values.true": "true",
+	"config.DwarfChanges.values.false": "false",
+	//
+	// Elliott Changes
+	"config.ElliottChanges.name": "ElliottChanges",
+	"config.ElliottChanges.description": "Toggle greetings for Elliott.",
+	"config.ElliottChanges.values.true": "true",
+	"config.ElliottChanges.values.false": "false",
+	//
+	// Emily Changes
+	"config.EmilyChanges.name": "EmilyChanges",
+	"config.EmilyChanges.description": "Toggle greetings for Emily.",
+	"config.EmilyChanges.values.true": "true",
+	"config.EmilyChanges.values.false": "false",
+	//
+	// Evelyn Changes
+	"config.EvelynChanges.name": "EvelynChanges",
+	"config.EvelynChanges.description": "Toggle greetings for Evelyn.",
+	"config.EvelynChanges.values.true": "true",
+	"config.EvelynChanges.values.false": "false",
+	//
+	// George Changes
+	"config.GeorgeChanges.name": "GeorgeChanges",
+	"config.GeorgeChanges.description": "Toggle greetings for George.",
+	"config.GeorgeChanges.values.true": "true",
+	"config.GeorgeChanges.values.false": "false",
+	//
+	// Gus Changes
+	"config.GusChanges.name": "GusChanges",
+	"config.GusChanges.description": "Toggle greetings for Gus.",
+	"config.GusChanges.values.true": "true",
+	"config.GusChanges.values.false": "false",
+	//
+	// Haley Changes
+	"config.HaleyChanges.name": "HaleyChanges",
+	"config.HaleyChanges.description": "Toggle greetings for Haley.",
+	"config.HaleyChanges.values.true": "true",
+	"config.HaleyChanges.values.false": "false",
+	//
+	// Harvey Changes
+	"config.HarveyChanges.name": "HarveyChanges",
+	"config.HarveyChanges.description": "Toggle greetings for Harvey.",
+	"config.HarveyChanges.values.true": "true",
+	"config.HarveyChanges.values.false": "false",
+	//
+	// Jas Changes
+	"config.JasChanges.name": "JasChanges",
+	"config.JasChanges.description": "Toggle greetings for Jas.",
+	"config.JasChanges.values.true": "true",
+	"config.JasChanges.values.false": "false",
+	//
+	// Jodi Changes
+	"config.JodiChanges.name": "JodiChanges",
+	"config.JodiChanges.description": "Toggle greetings for Jodi.",
+	"config.JodiChanges.values.true": "true",
+	"config.JodiChanges.values.false": "false",
+	//
+	// Kent Changes
+	"config.KentChanges.name": "KentChanges",
+	"config.KentChanges.description": "Toggle greetings for Kent.",
+	"config.KentChanges.values.true": "true",
+	"config.KentChanges.values.false": "false",
+	//
+	// Krobus Changes
+	"config.KrobusChanges.name": "KrobusChanges",
+	"config.KrobusChanges.description": "Toggle greetings for Krobus.",
+	"config.KrobusChanges.values.true": "true",
+	"config.KrobusChanges.values.false": "false",
+	//
+	// Leah Changes
+	"config.LeahChanges.name": "LeahChanges",
+	"config.LeahChanges.description": "Toggle greetings for Leah.",
+	"config.LeahChanges.values.true": "true",
+	"config.LeahChanges.values.false": "false",
+	//
+	// Lewis Changes
+	"config.LewisChanges.name": "LewisChanges",
+	"config.LewisChanges.description": "Toggle greetings for Lewis.",
+	"config.LewisChanges.values.true": "true",
+	"config.LewisChanges.values.false": "false",
+	//
+	// Linus Changes
+	"config.LinusChanges.name": "LinusChanges",
+	"config.LinusChanges.description": "Toggle greetings for Linus.",
+	"config.LinusChanges.values.true": "true",
+	"config.LinusChanges.values.false": "false",
+	//
+	// Marnie Changes
+	"config.MarnieChanges.name": "MarnieChanges",
+	"config.MarnieChanges.description": "Toggle greetings for Marnie.",
+	"config.MarnieChanges.values.true": "true",
+	"config.MarnieChanges.values.false": "false",
+	//
+	// Maru Changes
+	"config.MaruChanges.name": "MaruChanges",
+	"config.MaruChanges.description": "Toggle greetings for Maru.",
+	"config.MaruChanges.values.true": "true",
+	"config.MaruChanges.values.false": "false",
+	//
+	// Pam Changes
+	"config.PamChanges.name": "PamChanges",
+	"config.PamChanges.description": "Toggle greetings for Pam.",
+	"config.PamChanges.values.true": "true",
+	"config.PamChanges.values.false": "false",
+	//
+	// Penny Changes
+	"config.PennyChanges.name": "PennyChanges",
+	"config.PennyChanges.description": "Toggle greetings for Penny.",
+	"config.PennyChanges.values.true": "true",
+	"config.PennyChanges.values.false": "false",
+	//
+	// Pierre Changes
+	"config.PierreChanges.name": "PierreChanges",
+	"config.PierreChanges.description": "Toggle greetings for Pierre.",
+	"config.PierreChanges.values.true": "true",
+	"config.PierreChanges.values.false": "false",
+	//
+	// Robin Changes
+	"config.RobinChanges.name": "RobinChanges",
+	"config.RobinChanges.description": "Toggle greetings for Robin.",
+	"config.RobinChanges.values.true": "true",
+	"config.RobinChanges.values.false": "false",
+	//
+	// Sam Changes
+	"config.SamChanges.name": "SamChanges",
+	"config.SamChanges.description": "Toggle greetings for Sam.",
+	"config.SamChanges.values.true": "true",
+	"config.SamChanges.values.false": "false",
+	//
+	// Sandy Changes
+	"config.SandyChanges.name": "SandyChanges",
+	"config.SandyChanges.description": "Toggle greetings for Sandy.",
+	"config.SandyChanges.values.true": "true",
+	"config.SandyChanges.values.false": "false",
+	//
+	// Sebastian Changes
+	"config.SebastianChanges.name": "SebastianChanges",
+	"config.SebastianChanges.description": "Toggle greetings for Sebastian.",
+	"config.SebastianChanges.values.true": "true",
+	"config.SebastianChanges.values.false": "false",
+	//
+	// Shane Changes
+	"config.ShaneChanges.name": "ShaneChanges",
+	"config.ShaneChanges.description": "Toggle greetings for Shane.",
+	"config.ShaneChanges.values.true": "true",
+	"config.ShaneChanges.values.false": "false",
+	//
+	// Vincent Changes
+	"config.VincentChanges.name": "VincentChanges",
+	"config.VincentChanges.description": "Toggle greetings for Vincent.",
+	"config.VincentChanges.values.true": "true",
+	"config.VincentChanges.values.false": "false",
+	//
+	// Willy Changes
+	"config.WillyChanges.name": "WillyChanges",
+	"config.WillyChanges.description": "Toggle greetings for Willy.",
+	"config.WillyChanges.values.true": "true",
+	"config.WillyChanges.values.false": "false",
+	//
+	// Wizard Changes
+	"config.WizardChanges.name": "WizardChanges",
+	"config.WizardChanges.description": "Toggle greetings for Wizard.",
+	"config.WizardChanges.values.true": "true",
+	"config.WizardChanges.values.false": "false",
+	//
+	// ***Strings***
 	//Abigail
 	"AbigailGreetingFriendly": "Hi, what's new?",
 	"AbigailGoodbyeFriendly": "I'd better go, bye!$h",
