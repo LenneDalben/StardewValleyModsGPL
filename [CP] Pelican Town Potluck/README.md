@@ -9,6 +9,11 @@ There was discussion on the Diverse Stardew (DSV) Discord server about how the L
 Turkish translation provided by <a href="https://www.moddrop.com/stardew-valley/profile/225898">KediDili</a>!
 
 
+||Configuration||
+
+Config Option
+RSVRailing: Select between colorful or green bunting for the Ridgeside Village (RSV) railing. Default is colorful. If you don't have RSV installed, this setting doesn't do anything.
+
 ||Compatibility||
 
 Pelican Town Potluck has built-in compatibility with <a href="https://www.nexusmods.com/stardewvalley/mods/9972">FarmerJack's Dialog Expansions</a>, <a href="https://www.nexusmods.com/stardewvalley/mods/2612">Immersive Festival Dialog by tangeriney</a> and <a href="https://www.nexusmods.com/stardewvalley/mods/7286">Ridgeside Village (RSV)</a>. For RSV, the compatibility applies to the latest version as well as the Android version!

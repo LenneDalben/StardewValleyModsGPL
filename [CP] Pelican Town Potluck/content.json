@@ -2,7 +2,7 @@
 	"Format": "1.19.0",
 	"ConfigSchema": {
 		"RSVRailing": {
-			"Description": "Select between colorful or green bunting for the RSV railing. Default is colorful.",
+			"Description": "Select between colorful or green bunting for the Ridgeside Village (RSV) railing. Default is colorful. If you don't have RSV installed, this setting doesn't do anything.",
 			"AllowValues": "colorful, green",
 			"Default": "colorful",
 			"AllowBlank": false,

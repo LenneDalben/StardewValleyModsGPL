@@ -2,7 +2,7 @@
 	// ***Config Options***
 	//
 	"config.RSVRailing.name": "RSVRailing",
-	"config.RSVRailing.description": "Select between colorful or green bunting for the RSV railing. Default is colorful.",
+	"config.RSVRailing.description": "Select between colorful or green bunting for the Ridgeside Village (RSV) railing. Default is colorful. If you don't have RSV installed, this setting doesn't do anything.",
 	"config.RSVRailing.values.colorful": "colorful",
 	"config.RSVRailing.values.green": "green",
 	//
