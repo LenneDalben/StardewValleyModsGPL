@@ -170,6 +170,7 @@
 	"Changes": [
 		//Abigail mobile phone dialog changes - friendly
 		{
+			"LogName": "UMG Abigail Dialog Friendly",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Abigail",
 			"Entries": {
@@ -183,6 +184,7 @@
 		},
 		//Abigail mobile phone dialog changes - dating, engaged, married
 		{
+			"LogName": "UMG Abigail Dialog Love",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Abigail",
 			"Entries": {
@@ -196,6 +198,7 @@
 		},
 		//Abigail mobile phone dialog changes - divorced
 		{
+			"LogName": "UMG Abigail Dialog Divorced",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Abigail",
 			"Entries": {
@@ -209,11 +212,12 @@
 		},
 		//Alex mobile phone dialog changes - friendly
 		{
+			"LogName": "UMG Alex Dialog Friendly",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Alex",
 			"Entries": {
-				"MobilePhoneGreeting": "Hey you!",
-				"MobilePhoneGoodBye": "See ya!$h"
+				"MobilePhoneGreeting": "{{i18n:AlexGreetingFriendly}}",
+				"MobilePhoneGoodBye": "{{i18n:AlexGoodbyeFriendly}}"
 			},
 			"When": {
 				"Relationship:Alex": "Friendly",
@@ -222,11 +226,12 @@
 		},
 		//Alex mobile phone dialog changes - dating, engaged, married
 		{
+			"LogName": "UMG Alex Dialog Love",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Alex",
 			"Entries": {
-				"MobilePhoneGreeting": "Hey {0}!",
-				"MobilePhoneGoodBye": "See ya, my cutie!$h"
+				"MobilePhoneGreeting": "{{i18n:AlexGreetingFriendly}}",
+				"MobilePhoneGoodBye": "{{i18n:AlexGoodbyeFriendly}}"
 			},
 			"When": {
 				"Relationship:Alex": "Dating, Engaged, Married",
@@ -235,11 +240,12 @@
 		},
 		//Alex mobile phone dialog changes - divorced
 		{
+			"LogName": "UMG Alex Dialog Divorced",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Alex",
 			"Entries": {
-				"MobilePhoneGreeting": "*sigh*",
-				"MobilePhoneGoodBye": "Lose my number.$s"
+				"MobilePhoneGreeting": "{{i18n:AlexGreetingFriendly}}",
+				"MobilePhoneGoodBye": "{{i18n:AlexGoodbyeFriendly}}"
 			},
 			"When": {
 				"Relationship:Alex": "Divorced",

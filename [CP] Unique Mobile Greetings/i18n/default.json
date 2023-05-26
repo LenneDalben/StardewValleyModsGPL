@@ -1,9 +1,16 @@
 {
-	//Abigail mobile phone dialog changes - friendly
+	//Abigail
 	"AbigailGreetingFriendly": "Hi, what's new?",
 	"AbigailGoodbyeFriendly": "I'd better go, bye!$h",
 	"AbigailGreetingLove": "Hi!",
 	"AbigailGoodbyeLove": "I gotta go sweetie, bye!$h",
 	"AbigailGreetingDivorced": "...",
-	"AbigailGoodbyeDivorced": "Stop calling me, jerk!$a"
+	"AbigailGoodbyeDivorced": "Stop calling me, jerk!$a",
+	// Alex
+	"AlexGreetingFriendly": "Hey you!",
+	"AlexGoodbyeFriendly": "See ya!$h",
+	"{{i18n:AlexGreetingLove": "Hey {0}!",
+	"{{i18n:AlexGoodbyeLove": "See ya, my cutie!$h",
+	"{{i18n:AlexGreetingDivorced": "*sigh*",
+	"{{i18n:AlexGoodbyeDivorced": "Lose my number.$s"
 }
