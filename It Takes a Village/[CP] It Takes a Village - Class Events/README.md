@@ -36,6 +36,8 @@ Config Options
 
 * Edit Penny 8 Heart Event: The first question in Penny's 8 heart event is tweaked to include a reference to the lessons. Default is true. This edit is compatible with atravita's Penny 8 Heart Event Adjusted, Hanatsuki's Gender Neutrality Mod, Hanatsuki's Fix Dialog Differences, Not a Farmer - Job Title Replacer, and Villager Name Replacer. Set this to false if you have another mod that edits Penny's 8 heart event.
 
+* Progression Mode: By default, this is set to false. This means the order of the lessons will be completely random and you'll have a chance of seeing wider variety of bonus dynamic dialog. Set this to true if you want events to be grouped and play in a semi-randomized sequence according to the bracket grouping (see spoiler guide for the bracket groupings), but see a smaller variety of dynamic dialog.
+
 Note that the mod does not come packaged with a config file. The config file will be generated after you run the game with the mod installed at least once. 
 
 
