@@ -802,6 +802,10 @@
   "event-31032038.29": "I'll try it too!",
   // Robin Woodworking CTs
   // Robin and Abigail dynamic dialog. And Penny is also dynamic for metalworking
+  "ItTakesAVillage_RobinWoodworkingCT_Robin_YesDefenseYesMetalwork": "",
+  "ItTakesAVillage_RobinWoodworkingCT_Robin_YesDefenseNoMetalwork": "",
+  "ItTakesAVillage_RobinWoodworkingCT_Robin_NoDefenseYesMetalwork": "",
+  "ItTakesAVillage_RobinWoodworkingCT_Robin_NoDefenseNoMetalwork": "",
   "ItTakesAVillage_RobinWoodworkingCT_Abigail_YesSelfDefense": "",
   "ItTakesAVillage_RobinWoodworkingCT_Abigail_NoSelfDefense": "",
   "ItTakesAVillage_RobinWoodworkingCT_Demetrius": "",
@@ -814,6 +818,8 @@
   "ItTakesAVillage_RobinWoodworkingCT_Sam": "",
   "ItTakesAVillage_RobinWoodworkingCT_Marnie": "",
   "ItTakesAVillage_RobinWoodworkingCT_Shane": "",
+  "ItTakesAVillage_RobinWoodworkingCT_Penny_YesClintMetalworking": "",
+  "ItTakesAVillage_RobinWoodworkingCT_Penny_NoClintMetalworking": "",  // Vary depending on whether the kids saw the metalworking lesson (Hopefully the kids enjoyed the contrast of this versus working with metal with Clint. / It's nice that they get to see how to work with another material.)
   //
   // Wrap up event
   "event-31032041.01": "That cake looks yummy!$h",

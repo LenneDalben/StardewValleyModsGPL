@@ -1846,6 +1846,38 @@
 				"HasSeenEvent |contains=33": false
 			}
 		},
+		/*CT dialog for Robin, saw Abigail Self-Defense and saw Clint Metalworking*/ {
+			"Name": "RobinWoodworkingRobinCT",
+			"Value": "{{i18n:ItTakesAVillage_RobinWoodworkingCT_Robin_YesDefenseYesMetalwork}}",
+			"When": {
+				"HasSeenEvent |contains=31032037": "true",
+				"HasSeenEvent |contains=31032034": "true"
+			}
+		},
+		/*CT dialog for Robin, saw Abigail Self-Defense and not Clint Metalworking*/ {
+			"Name": "RobinWoodworkingRobinCT",
+			"Value": "{{i18n:ItTakesAVillage_RobinWoodworkingCT_Robin_YesDefenseNoMetalwork}}",
+			"When": {
+				"HasSeenEvent |contains=31032037": "true",
+				"HasSeenEvent |contains=31032034": "false"
+			}
+		},
+		/*CT dialog for Robin, saw Clint Metalworking and not Abigail Self-Defense*/ {
+			"Name": "RobinWoodworkingRobinCT",
+			"Value": "{{i18n:ItTakesAVillage_RobinWoodworkingCT_Robin_NoDefenseYesMetalwork}}",
+			"When": {
+				"HasSeenEvent |contains=31032034": "true",
+				"HasSeenEvent |contains=31032037": "false"
+			}
+		},
+		/*CT dialog for Robin, did not see Abigail Self-Defense and did not see Clint Metalworking*/ {
+			"Name": "RobinWoodworkingRobinCT",
+			"Value": "{{i18n:ItTakesAVillage_RobinWoodworkingCT_Robin_NoDefenseNoMetalwork}}",
+			"When": {
+				"HasSeenEvent |contains=31032037": "false",
+				"HasSeenEvent |contains=31032034": "false"
+			}
+		},
 		/*CT dialog for Abigail, saw Abigail Self-Defense*/ {
 			"Name": "RobinWoodworkingAbigailCT",
 			"Value": "{{i18n:ItTakesAVillage_RobinWoodworkingCT_Abigail_YesSelfDefense}}",
@@ -1858,6 +1890,20 @@
 			"Value": "{{i18n:ItTakesAVillage_RobinWoodworkingCT_Abigail_NoSelfDefense}}",
 			"When": {
 				"HasSeenEvent |contains=31032037": "false"
+			}
+		},
+		/*CT dialog for Penny, saw Abigail Self-Defense and saw Clint Metalworking*/ {
+			"Name": "RobinWoodworkingPennyCT",
+			"Value": "{{i18n:ItTakesAVillage_RobinWoodworkingCT_Penny_YesClintMetalworking}}",
+			"When": {
+				"HasSeenEvent |contains=31032034": "true"
+			}
+		},
+		/*CT dialog for Penny, saw Abigail Self-Defense and not Clint Metalworking*/ {
+			"Name": "RobinWoodworkingPennyCT",
+			"Value": "{{i18n:ItTakesAVillage_RobinWoodworkingCT_Penny_ClintMetalworking}}",
+			"When": {
+				"HasSeenEvent |contains=31032034": "false"
 			}
 		},
 		// Willy & Linus Fishing and Caroline & Evelyn Gardening

@@ -1640,20 +1640,20 @@
                 "RobinWoodworkAndAbbySelfDefenseToken": "RobinWoodworkYes, RobinWoodworkYesAbbySelfDefenseNo"
             }
         },
-        /*Robin CT - dynamic dialog*/ {
+        /*Robin CT*/ {
             "LogName": "Robin Woodworking CT - Robin",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Robin",
             "Entries": {
-                "ItTakesAVillage_RobinWoodworking": "{{i18n:ItTakesAVillage_RobinWoodworkingCT_Robin}}"
+                "ItTakesAVillage_RobinWoodworking": "{{RobinWoodworkingRobinCT}}"
             }
-        }, // Vary depending on whether the kids saw the metalworking lesson 
-        /*Abigail CT - dynamic dialog*/ {
+        },
+        /*Abigail CT*/ {
             "LogName": "Robin Woodworking CT - Abigail",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Abigail",
             "Entries": {
-                "ItTakesAVillage_RobinWoodworking": "{{i18n:ItTakesAVillage_RobinWoodworkingCT_Abigail}}"
+                "ItTakesAVillage_RobinWoodworking": "{{RobinWoodworkingAbigailCT}}"
             }
         },
         /*Demetrius CT*/ {
@@ -1743,7 +1743,7 @@
             "Entries": {
                 "ItTakesAVillage_RobinWoodworking": "{{i18n:ItTakesAVillage_RobinWoodworkingCT_Penny}}"
             }
-        }, // Vary depending on whether the kids saw the metalworking lesson (Hopefully the kids enjoy the contrast of this versus working with metal with Clint. / It's nice that they get to see how to work with another material.)
+        },
         //
         // Abigail Self-Defense INCOMPLETE
         // need cute verbal sound effects, kya! (speech bubbles)
