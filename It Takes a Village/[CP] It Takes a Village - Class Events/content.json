@@ -118,7 +118,7 @@
 		//
 		// Alex PE and Gus Cooking
 		// HasSeenEvent tokens
-		/*haven't seen either event in the pair*/ {
+		/*have not seen either event in the pair*/ {
 			"Name": "AlexPEAndGusCookingToken",
 			"Value": "GusCookingNoAlexPENo",
 		},
@@ -166,14 +166,14 @@
 				"HasSeenEvent |contains=31032024": "true"
 			}
 		},
-		/*Event dialog - haven't seen Gus Cooking*/ {
+		/*Event dialog - did not see Gus Cooking*/ {
 			"Name": "AlexPESeenGusCooking",
 			"Value": "speak Alex \"{{i18n:event-31032023.02}}\"",
 			"When": {
 				"HasSeenEvent |contains=31032024": "false"
 			}
 		},
-		/*CT dialog for Alex, haven't seen Gus Cooking*/ {
+		/*CT dialog for Alex, did not see Gus Cooking*/ {
 			"Name": "AlexPEAlexCT",
 			"Value": "{{i18n:ItTakesAVillage_AlexPECT_Alex_NoCooking}}",
 			"When": {
@@ -187,7 +187,7 @@
 				"HasSeenEvent |contains=31032024": "true"
 			}
 		},
-		/*CT dialog for Gus, haven't seen Gus Cooking*/ {
+		/*CT dialog for Gus, did not see Gus Cooking*/ {
 			"Name": "AlexPEGusCT",
 			"Value": "{{i18n:ItTakesAVillage_AlexPECT_Gus_NoCooking}}",
 			"When": {
@@ -209,14 +209,14 @@
 				"HasSeenEvent |contains=31032023": "true"
 			}
 		},
-		/*Event dialog - haven't seen Alex PE*/ {
+		/*Event dialog - did not see Alex PE*/ {
 			"Name": "GusCookingSeenAlexPE",
 			"Value": "speak Gus \"{{i18n:event-31032024.01}}\"/shake Jas 600/jump Vincent 4",
 			"When": {
 				"HasSeenEvent |contains=31032023": "false"
 			}
 		},
-		/*CT dialog for Gus, haven't seen Alex PE*/ {
+		/*CT dialog for Gus, did not see Alex PE*/ {
 			"Name": "GusCookingGusCT",
 			"Value": "{{i18n:ItTakesAVillage_GusCookingCT_Gus_NoPE}}",
 			"When": {
@@ -230,7 +230,7 @@
 				"HasSeenEvent |contains=31032023": "true"
 			}
 		},
-		/*CT dialog for Alex, haven't seen Alex PE*/ {
+		/*CT dialog for Alex, did not see Alex PE*/ {
 			"Name": "GusCookingAlexCT",
 			"Value": "{{i18n:ItTakesAVillage_GusCookingCT_Alex_NoPE}}",
 			"When": {
@@ -244,9 +244,10 @@
 				"HasSeenEvent |contains=31032023": "true"
 			}
 		},
+		//
 		// Haley & Leah Art and Elliott Stories
 		// HasSeenEvent tokens
-		/*haven't seen either event in the pair*/ {
+		/*have not seen either event in the pair*/ {
 			"Name": "HaleyLeahArtAndElliottStoriesToken",
 			"Value": "ElliottStoriesNoHaleyLeahArtNo",
 		},
@@ -301,7 +302,7 @@
 			},
 		},
 		// Dynamic dialog for Elliott Stories
-		/*CT dialog for Elliott, haven't seen Haley and Leah Art*/ {
+		/*CT dialog for Elliott, did not see Haley and Leah Art*/ {
 			"Name": "ElliottStoriesElliottCT",
 			"Value": "{{i18n:ItTakesAVillage_ElliottStoriesCT_Elliott_NoArt}}",
 			"When": {
@@ -315,7 +316,7 @@
 				"HasSeenEvent |contains=31032026": "true"
 			}
 		},
-		/*CT dialog for Leah, haven't seen Haley and Leah Art*/ {
+		/*CT dialog for Leah, did not see Haley and Leah Art*/ {
 			"Name": "ElliottStoriesLeahCT",
 			"Value": "{{i18n:ItTakesAVillage_ElliottStoriesCT_Leah_NoArt}}",
 			"When": {
@@ -329,7 +330,7 @@
 				"HasSeenEvent |contains=31032026": "true"
 			}
 		},
-		/*CT dialog for Haley, haven't seen Haley and Leah Art*/ {
+		/*CT dialog for Haley, did not see Haley and Leah Art*/ {
 			"Name": "ElliottStoriesHaleyCT",
 			"Value": "{{i18n:ItTakesAVillage_ElliottStoriesCT_Haley_NoArt}}",
 			"When": {
@@ -344,7 +345,7 @@
 			}
 		},
 		// Dynamic dialog for Haley & Leah Art
-		/*Event dialog - haven't seen Elliott Stories*/ {
+		/*Event dialog - did not see Elliott Stories*/ {
 			"Name": "HaleyLeahArtSeenElliottStories",
 			"Value": "pause 200",
 			"When": {
@@ -358,7 +359,7 @@
 				"HasSeenEvent |contains=31032025": "true"
 			}
 		},
-		/*CT dialog for Haley, haven't seen Elliott Stories*/ {
+		/*CT dialog for Haley, did not see Elliott Stories*/ {
 			"Name": "HaleyLeahArtHaleyCT",
 			"Value": "{{i18n:ItTakesAVillage_HaleyLeahArtCT_Haley_NoStories}}",
 			"When": {
@@ -372,7 +373,7 @@
 				"HasSeenEvent |contains=31032025": "true"
 			}
 		},
-		/*CT dialog for Leah, haven't seen Elliott Stories*/ {
+		/*CT dialog for Leah, did not see Elliott Stories*/ {
 			"Name": "HaleyLeahArtLeahCT",
 			"Value": "{{i18n:ItTakesAVillage_HaleyLeahArtCT_Leah_NoStories}}",
 			"When": {
@@ -386,7 +387,7 @@
 				"HasSeenEvent |contains=31032025": "true"
 			}
 		},
-		/*CT dialog for Elliott, haven't seen Elliott Stories*/ {
+		/*CT dialog for Elliott, did not see Elliott Stories*/ {
 			"Name": "HaleyLeahArtElliottCT",
 			"Value": "{{i18n:ItTakesAVillage_HaleyLeahArtCT_Elliott_NoStories}}",
 			"When": {
@@ -400,9 +401,10 @@
 				"HasSeenEvent |contains=31032025": "true"
 			}
 		},
+		//
 		// Sebastian Programming Basics and Abigail Economics
 		// HasSeenEvent tokens
-		/*haven't seen either event in the pair*/ {
+		/*have not seen either event in the pair*/ {
 			"Name": "SebProgramAndAbbyEconToken",
 			"Value": "AbbyEconNoSebProgramNo",
 		},
@@ -464,7 +466,7 @@
 				"HasSeenEvent |contains=31032027": "true"
 			}
 		},
-		/*Event dialog - didn't see Abigail Economics*/ {
+		/*Event dialog - did not see Abigail Economics*/ {
 			"Name": "SebProgramBasicsSeenAbbyEcon",
 			"Value": "speak Gunther \"{{i18n:event-31032028.03}}\"/emote Penny 28",
 			"When": {
@@ -478,14 +480,14 @@
 				"HasSeenEvent |contains=31032033": "true"
 			}
 		},
-		/*Event dialog - didn't see Abigail Video Games*/ {
+		/*Event dialog - did not see Abigail Video Games*/ {
 			"Name": "SebProgramBasicsSeenAbbyVideoGames",
 			"Value": "emote Jas 40 true/emote Vincent 40/speak Jas \"{{i18n:event-31032028.19}}\"",
 			"When": {
 				"HasSeenEvent |contains=31032033": "false"
 			}
 		},
-		/*CT dialog for Abigail, didn't see econ lesson, saw Abigail Video Games*/ {
+		/*CT dialog for Abigail, did not see econ lesson, saw Abigail Video Games*/ {
 			"Name": "SebProgramBasicsAbbyCT",
 			"Value": "{{i18n:ItTakesAVillage_SebProgramCT_Abigail_NoEconYesVG}}",
 			"When": {
@@ -493,7 +495,7 @@
 				"HasSeenEvent |contains=31032033": "true"
 			}
 		},
-		/*CT dialog for Abigail, didn't see econ lesson or Abigail Video Games*/ {
+		/*CT dialog for Abigail, did not see econ lesson or Abigail Video Games*/ {
 			"Name": "SebProgramBasicsAbbyCT",
 			"Value": "{{i18n:ItTakesAVillage_SebProgramCT_Abigail_NoEconNoVG}}",
 			"When": {
@@ -509,7 +511,7 @@
 				"HasSeenEvent |contains=31032033": "true"
 			}
 		},
-		/*CT dialog for Abigail, saw econ lesson, didn't see Abigail Video Games*/ {
+		/*CT dialog for Abigail, saw econ lesson, did not see Abigail Video Games*/ {
 			"Name": "SebProgramBasicsAbbyCT",
 			"Value": "{{i18n:ItTakesAVillage_SebProgramCT_Abigail_YesEconNoVG}}",
 			"When": {
@@ -539,16 +541,17 @@
 				"HasSeenEvent |contains=31032028": "true"
 			}
 		},
-		/*CT dialog for Sebastian, didn't see Programming Basics*/ {
+		/*CT dialog for Sebastian, did not see Programming Basics*/ {
 			"Name": "AbbyEconSebCT",
 			"Value": "{{i18n:ItTakesAVillage_AbbyEconCT_Sebastian_NoSebProgram}}",
 			"When": {
 				"HasSeenEvent |contains=31032028": "false"
 			}
 		},
+		//
 		// Maru Electronics and Demetrius Botany
 		// HasSeenEvent tokens
-		/*haven't seen either event in the pair*/ {
+		/*have not seen either event in the pair*/ {
 			"Name": "MaruElectronicsAndDemetriusBotanyToken",
 			"Value": "DemetriusBotanyNoMaruElectronicsNo",
 		},
@@ -755,9 +758,10 @@
 				"Season": "Winter"
 			}
 		},
+		//
 		// Emily Emotional Health & Dance and Harvey Anatomy
 		// HasSeenEvent tokens
-		/*haven't seen either event in the pair*/ {
+		/*have not seen either event in the pair*/ {
 			"Name": "EmilyEmotionalDanceAndHarveyAnatomyToken",
 			"Value": "HarveyAnatomyNoEmilyEmotionalDanceNo",
 		},
@@ -944,9 +948,10 @@
 				"HasSeenEvent |contains=31032031": "false"
 			}
 		},
+		//
 		// Clint Metalworking and Abigail Video Games
 		// HasSeenEvent tokens
-		/*haven't seen either event in the pair*/ {
+		/*have not seen either event in the pair*/ {
 			"Name": "ClintMetalworkAndAbbyGamesToken",
 			"Value": "AbbyGamesNoClintMetalworkNo",
 		},
@@ -1053,14 +1058,14 @@
 			"Name": "AbbyVideoGamesJunimoJumpDialog",
 			"Value": "jump Vincent 6/speak Vincent \"{{i18n:event-31032033.14}}\""
 		},
-		/*Event Abigail dialog - saw Clint Metalworking*/ {
+		/*Event dialog - saw Clint Metalworking*/ {
 			"Name": "AbbyVideoGamesSeenClintMetal",
 			"Value": "{{i18n:event-31032033.09}}",
 			"When": {
 				"HasSeenEvent |contains=31032034": "true"
 			}
 		},
-		/*Event Abigail dialog - did not see Clint Metalworking*/ {
+		/*Event dialog - did not see Clint Metalworking*/ {
 			"Name": "AbbyVideoGamesSeenClintMetal",
 			"Value": "{{i18n:event-31032033.10}}",
 			"When": {
@@ -1156,42 +1161,42 @@
 			}
 		},
 		// Tokens for Clint Metalworking
-		/*Event Clint dialog - saw Abigail Video Games*/ {
+		/*Event dialog - saw Abigail Video Games*/ {
 			"Name": "ClintMetalSeenAbbyVideoGames",
 			"Value": "speak Clint \"{{i18n:event-31032034.10}}\"/speak Jas \"{{i18n:event-31032034.11}}\"/emote Clint 28/speak Clint \"{{i18n:event-31032034.12}}\"",
 			"When": {
 				"HasSeenEvent |contains=31032033": "true"
 			}
 		},
-		/*Event Clint dialog - did not see Abigail Video Games*/ {
+		/*Event dialog - did not see Abigail Video Games*/ {
 			"Name": "ClintMetalSeenAbbyVideoGames",
 			"Value": "speak Clint \"{{i18n:event-31032034.09}}\"",
 			"When": {
 				"HasSeenEvent |contains=31032033": "false"
 			}
 		},
-		/*Event Vincent dialog - saw Shane Animal Care*/ {
+		/*Event dialog - saw Shane Animal Care*/ {
 			"Name": "ClintMetalSeenShaneAnimalCare",
 			"Value": "{{i18n:event-31032034.31}}",
 			"When": {
 				"HasSeenEvent |contains=31032036": "true"
 			}
 		},
-		/*Event Vincent dialog - saw Shane Animal Care*/ {
+		/*Event dialog - saw Shane Animal Care*/ {
 			"Name": "ClintMetalSeenShaneAnimalCare",
 			"Value": "{{i18n:event-31032034.30}}",
 			"When": {
 				"HasSeenEvent |contains=31032036": "false"
 			}
 		},
-		/*Event Jas dialog - saw Demetrius Botany - Crow*/ {
+		/*Event dialog - saw Demetrius Botany - Crow*/ {
 			"Name": "ClintMetalSeenDemetriusBotanyCrow",
 			"Value": "speak Jas \"{{i18n:event-31032034.33}}\"/emote Penny 28",
 			"When": {
 				"HasSeenEvent |contains=31032042": "true"
 			}
 		},
-		/*Event Jas dialog - did not see Demetrius Botany - Crow*/ {
+		/*Event dialog - did not see Demetrius Botany - Crow*/ {
 			"Name": "ClintMetalSeenDemetriusBotanyCrow",
 			"Value": "speak Jas \"{{i18n:event-31032034.32}}\"",
 			"When": {
@@ -1228,7 +1233,7 @@
 		},
 		// Sam Music and Shane Animal Care
 		// HasSeenEvent tokens
-		/*haven't seen either event in the pair*/ {
+		/*have not seen either event in the pair*/ {
 			"Name": "SamMusicAndShaneAnimalCareToken",
 			"Value": "ShaneAnimalCareNoSamMusicNo",
 		},
@@ -1495,7 +1500,7 @@
 				"HasSeenEvent |contains=3900074": "true"
 			}
 		},
-		/*Only white and brown chickens - haven't seen Shane's 8 heart event*/ {
+		/*Only white and brown chickens - did not see Shane's 8 heart event*/ {
 			"Name": "ShaneAnimalChickenPlacementToken",
 			"Value": "addTemporaryActor White_Chicken 16 16 8 5 2 false Animal chicken1/addTemporaryActor Brown_Chicken 16 16 8 10 3 false Animal chicken2/addTemporaryActor Brown_Chicken 16 16 7 8 1 false Animal chicken3/addTemporaryActor White_Chicken 16 16 14 11 3 false Animal chicken4/addTemporaryActor Brown_Chicken 16 16 9 11 2 false Animal chicken5",
 			"When": {
@@ -1742,7 +1747,7 @@
 		},
 		// Robin Woodworking and Abigail Self-Defense
 		// HasSeenEvent tokens
-		/*haven't seen either event in the pair*/ {
+		/*have not seen either event in the pair*/ {
 			"Name": "RobinWoodworkAndAbbySelfDefenseToken",
 			"Value": "AbbySelfDefenseNoRobinWoodworkNo",
 		},
@@ -1797,28 +1802,28 @@
 			},
 		},
 		// Tokens for Robin Woodworking
-		/*Event dialog - seen Abigail Self-Defense*/ {
+		/*Event dialog - saw Abigail Self-Defense*/ {
 			"Name": "RobinWoodworkSeenAbbySelfDefense",
 			"Value": "speak Vincent \"{{i18n:event-31032038.07}}\"/emote Robin 16/speak Robin \"{{i18n:event-31032038.08}}\"",
 			"When": {
 				"HasSeenEvent |contains=31032037": true
 			}
 		},
-		/*Event dialog - have not seen Abigail Self-Defense*/ {
+		/*Event dialog - did not see Abigail Self-Defense*/ {
 			"Name": "RobinWoodworkSeenAbbySelfDefense",
 			"Value": "speak Vincent \"{{i18n:event-31032038.04}}\"/emote Robin 32/speak Robin \"{{i18n:event-31032038.05}}\"/textAboveHead Vincent \"{{i18n:event-31032038.06}}\"",
 			"When": {
 				"HasSeenEvent |contains=31032037": false
 			}
 		},
-		/*Event dialog - seen at least one of Elliott Stories, Haley and Leah Art, or Gus Cooking*/ {
+		/*Event dialog - saw at least one of Elliott Stories, Haley and Leah Art, or Gus Cooking*/ {
 			"Name": "RobinWoodworkPersonalTouch",
 			"Value": "speak Penny \"{{i18n:event-31032038.12}}\"/emote Jas 32 true/emote Robin 32 true/textAboveHead Vincent \"{{i18n:event-31032038.13}}\"/pause 1750",
 			"When": {
 				"HasSeenEvent |contains=31032025, 31032026, 31032024": true
 			}
 		},
-		/*Event dialog - have not seen at least one of Elliott Stories, Haley and Leah Art, or Gus Cooking*/ {
+		/*Event dialog - did not see at least one of Elliott Stories, Haley and Leah Art, or Gus Cooking*/ {
 			"Name": "RobinWoodworkPersonalTouch",
 			"Value": "pause 500",
 			"When": {
@@ -1827,14 +1832,14 @@
 				"HasSeenEvent |contains=31032024": false
 			}
 		},
-		/*Event dialog - have seen Robin's 6 heart event to learn Flute Block recipe*/ {
+		/*Event dialog - saw Robin's 6 heart event to learn Flute Block recipe*/ {
 			"Name": "RobinWoodworkFluteBlockRecipe",
 			"Value": "speak Robin \"{{i18n:event-31032038.23}}\"/faceDirection farmer 2/showFrame farmer 3/emote farmer 32/faceDirection farmer 0/showFrame farmer 12",
 			"When": {
 				"HasSeenEvent |contains=33": true
 			}
 		},
-		/*Event dialog - have not seen Robin's 6 heart event to learn Flute Block recipe*/ {
+		/*Event dialog - did not see Robin's 6 heart event to learn Flute Block recipe*/ {
 			"Name": "RobinWoodworkFluteBlockRecipe",
 			"Value": "speak Robin \"{{i18n:event-31032038.24}}\"/emote farmer 16/faceDirection farmer 2/showFrame farmer 49",
 			"When": {
@@ -1857,7 +1862,7 @@
 		},
 		// Willy & Linus Fishing and Caroline & Evelyn Gardening
 		// HasSeenEvent tokens
-		/*haven't seen either event in the pair*/ {
+		/*have not seen either event in the pair*/ {
 			"Name": "WillyLinusFishingAndCarolineEvelynGardeningToken",
 			"Value": "CarolineEvelynGardeningNoWillyLinusFishingNo",
 		},
