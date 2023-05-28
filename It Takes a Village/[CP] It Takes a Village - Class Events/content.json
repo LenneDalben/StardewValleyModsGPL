@@ -37,7 +37,7 @@
 			"AllowMultiple": false
 		},
 		"ProgressionMode": {
-			"Description": "By default, this is set to false. This means the order of the lessons will be completely random. Set this to true if you want events to be grouped and play in a semi-randomized sequence according to the bracket grouping (see spoiler guide for the bracket groupings).",
+			"Description": "By default, this is set to false. This means the order of the lessons will be completely random and you'll have a chance of seeing wider variety of bonus dynamic dialog. Set this to true if you want events to be grouped and play in a semi-randomized sequence according to the bracket grouping (see spoiler guide for the bracket groupings), but see a smaller variety of dynamic dialog.",
 			"AllowValues": "true, false",
 			"Default": "true",
 			"AllowBlank": false,
