@@ -1750,7 +1750,7 @@
         // I am concerned we would need new sprites for this. Pretty sure none of them have anything that would pass for kicks or punches lol maybe could something with combination of jumping, running, and shaking
         // maybe in this one the player could have a show off moment, depending on their combat skill level! :wow: Abigail could hand player "club" assuming we can spawn a weapon (from her dad's baseball days? insert my own canon lol)
         // The kids could reference the dirt incident from gardening. Maybe Caroline's in the kitchen, overhears Abigail play it off as strength conditioning / building character, and Caroline runs in to be like "don't you feed them lies!" very lol much wow
-        /*Event proper*/ /*{
+        /*Event proper*/ {
             "LogName": "Abigail Self-Defense Lesson",
             "Action": "EditData",
             "Target": "Data/Events/SeedShop", // Aerobics club room!
@@ -1760,7 +1760,7 @@
             "When": {
                 "RobinWoodworkAndAbbySelfDefenseToken": "AbbySelfDefenseYes, AbbySelfDefenseYesRobinWoodworkNo"
             }
-        },*/
+        },
         /*Abigail CT - dynamic dialog*/ {
             "LogName": "Abigail Self-Defense CT - Abigail",
             "Action": "EditData",
