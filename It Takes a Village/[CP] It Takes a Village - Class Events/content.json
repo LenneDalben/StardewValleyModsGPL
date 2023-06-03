@@ -1794,9 +1794,9 @@
 				"ProgressionMode": "false"
 			},
 		},
-		/*Robin Woodworking and Abigail Self-Defense Progression Mode On (must have seen Willy and Linus Fishing and Caroline and Evelyn Gardening first)*/ {
+		/*Robin Woodworking and Abigail Self-Defense Progression Mode On (must have seen Sam Music and Shane Animal Care first)*/ {
 			"Name": "WoodworkingandSelfDefenseProgressionToken",
-			"Value": "e 31032039/e 31032040/A ItTakesAVillage_Beginning",
+			"Value": "e 31032035/e 31032036/A ItTakesAVillage_Beginning",
 			"When": {
 				"ProgressionMode": "true"
 			},
@@ -1955,9 +1955,9 @@
 				"ProgressionMode": "false"
 			},
 		},
-		/*Willy and Linus Fishing and Caroline and Evelyn Gardening Progression Mode On (must have seen Sam Music and Shane Animal Care first)*/ {
+		/*Willy and Linus Fishing and Caroline and Evelyn Gardening Progression Mode On (must have seen Robin Woodworking and Abigail Self-Defense first)*/ {
 			"Name": "FishingandGardeningProgressionToken",
-			"Value": "e 31032035/e 31032036/A ItTakesAVillage_Beginning",
+			"Value": "e 31032038/e 31032037/A ItTakesAVillage_Beginning",
 			"When": {
 				"ProgressionMode": "true"
 			},

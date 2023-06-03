@@ -961,7 +961,6 @@
         },
         //
         // Emily Emotional Health and Dance - Done!
-        // the question could be coded without the top box with question null, see Penny kickstarts lessons for an example
         /*Event proper*/ {
             "LogName": "Emily Emotional Health and Dance Lesson",
             "Action": "EditData",
