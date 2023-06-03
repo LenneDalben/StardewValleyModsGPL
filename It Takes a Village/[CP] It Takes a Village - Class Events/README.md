@@ -75,7 +75,7 @@ I think it'd be nice to include the kids from Ridgeside Village (RSV) someday in
 
 <a href ="https://www.nexusmods.com/stardewvalley/users/114762643?tab=user+files">Calcite / CopperSun</a>, for the skippable token idea and some help with wording
 
-<a href ="https://www.nexusmods.com/stardewvalley/users/92469153?tab=user+files">Arknir</a>, for being an expert eventsmith, teaching me through code
+<a href ="https://www.nexusmods.com/stardewvalley/users/92469153?tab=user+files">Arknir</a>, for being an expert eventsmith, teaching me through code and answering questions
 
 <a href ="https://www.moddrop.com/stardew-valley/profile/225898/mods">KediDili</a>, for providing some suggestions
 
