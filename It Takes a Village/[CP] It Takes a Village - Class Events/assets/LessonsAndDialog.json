@@ -1749,6 +1749,8 @@
         // I am concerned we would need new sprites for this. Pretty sure none of them have anything that would pass for kicks or punches lol maybe could something with combination of jumping, running, and shaking
         // maybe in this one the player could have a show off moment, depending on their combat skill level! :wow: Abigail could hand player "club" assuming we can spawn a weapon (from her dad's baseball days? insert my own canon lol)
         // The kids could reference the dirt incident from gardening. Maybe Caroline's in the kitchen, overhears Abigail play it off as strength conditioning / building character, and Caroline runs in to be like "don't you feed them lies!" very lol much wow
+        // From Arknir: make the skeleton a temporary actor. Some convincing broken particle effects would be in the springObjects.png for rocks/crystals that get crushed. You could also change their color into whatever it is you like. Warp in the temp actor, play the sound effect, do an animation if you have one with appropriate pause, then warp back into the void. You can also make the temp actor larger for this case, like the bear. 32x32 pixels to make it easier to position on one frame
+        // Talking through the idea: have the skeleton and the broken parts on the same "sheet", use "showFrame 0" for it standing still, and then use the animate command to go through the other frames for the explode-y bits, before warping out
         /*Event proper*/ {
             "LogName": "Abigail Self-Defense Lesson",
             "Action": "EditData",
