@@ -584,15 +584,15 @@
 			}
 		},
 		/*Maru Electronics and Demetrius Botany Progression Mode Off*/ {
-			"Name": "FishingandGardeningProgressionToken",
+			"Name": "ElectronicsandBotanyProgressionToken",
 			"Value": "A ItTakesAVillage_Beginning",
 			"When": {
 				"ProgressionMode": "false"
 			},
 		},
-		/*Maru Electronics and Demetrius Botany Progression Mode On (must have seen Willy and Linus Fishing and Caroline and Evelyn Gardening first)*/ {
-			"Name": "FishingandGardeningProgressionToken",
-			"Value": "e 31032035/e 31032036/A ItTakesAVillage_Beginning",
+		/*Maru Electronics and Demetrius Botany Progression Mode On (temporarily: for Maru Electronics, must have seen Demetrius Botany, Harvey Anatomy, Sam Music, and Clint Metalworking first, so not using this token. For Demetrius Botany, must have seen Sam Music and Shane Animal Care. In the future, it will be must have seen Willy and Linus Fishing and Caroline and Evelyn Gardening first, for both Maru and Demetrius' lessons)*/ {
+			"Name": "ElectronicsandBotanyProgressionToken",
+			"Value": "e 31032035/e 31032036/A ItTakesAVillage_Beginning", // Future "Value": "e 31032039/e 31032040/A ItTakesAVillage_Beginning",
 			"When": {
 				"ProgressionMode": "true"
 			},
