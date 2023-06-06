@@ -1744,11 +1744,82 @@
             }
         },
         //
-        // Abigail Self-Defense INCOMPLETE
-        // need cute verbal sound effects, kya! (speech bubbles)
-        // I am concerned we would need new sprites for this. Pretty sure none of them have anything that would pass for kicks or punches lol maybe could something with combination of jumping, running, and shaking
+        // Abigail Self-Defense In Progress
+        // get a fun song! Could swap it once the actual demonstration or fighting begins
+        // Abigail: Hey kids! Today, we'll learn a little bit of self-defense.
+        // Abigail: I have learned my moves from all sorts of great experts. I borrowed and modified some rules for us (because always respecting parents can be tough).
+        // Peny: What was that?
+        // Abigail: Ahem anyways! Rule number 1 of self-defense: believe in yourself, no matter what! The shocko face
+        // Kids jump
+        // Abigail: You can't rely on someone else believing in you. Believe in yourself! You practice, you get better!
+        // Kids: Yes ma'am!
+        // Abigail: Rule number 2 of self-defense: do your best, every time! You can't half-ass (tone down the wording lol) things
+        // Kids sweatdrop
+        // Penny: uh, Abigail, is this maybe a little intense-
+        // Abigail: Nonsense! Self-defense is Serious Business.
+        // Penny and kids sweatdrop
+        // Abigail: You believe in yourself, and do your best, and you'll get there. You might not be perfect, but good enough is good enough.
+        // kids question mark
+        // Vincent: is that why you accepted the dare to eat dirt? (Assuming you saw Gardening lesson)
+        // Abigail sweatdrop
+        // Abigail textAboveHead: ...Yes! long pause
+        // Abigail: It... it was strength conditioning! It builds character!
+        // Caroline exclamation mark 
+        // Caroline runs in from the kitchen: "Don't lie to the kids, Abigail! You were trying to impress your friends, and you were sick for several days."
+        // Abigail angry emote
+        // Abigail: Mom!#$b#Not cool to interrupt my lesson!"
+        // Caroline angry emote
+        // Caroline: Keep it truthful, and I won't!
+        // Abigail sweatdrop
+        // Caroline runs to her room
+        // Penny and kids sweatdrop
+        // Abigail turns back to the kids: Anyway. Mom's technically right, you shouldn't be eating dirt or whatever. :sideeye:
+        // ALTERNATE if you haven't seen the Gardening lesson
+        // // kids pause emote
+        // // Jas: How do you know if it's good enough?$3
+        // // Vincent: You knock out the attacker in one go?
+        // // emote Abigail 32, Penny sweatdrop
+        // // Abigail: That's one way!$h
+        // // emote Vincent 32
+        // // Abigail: But Jas, if you get the gist of the move, even if it could have been a little more powerful, or more aligned, or faster, that's good enough.
+        // // Jas pause emote
+        // // Jas: I guess that makes sense.$3
+        // // Abigail: So, what were the 2 rules of self-defense again?
+        // Abigail: But you should still remember the 2 rules of self-defense. What were they?
+        // Kids speech bubble simultaneous: Do your best! Believe in yourself! Long pause
+        // Abigail: That's right!
+        // Abigail: Now, onto the fun. I have a friend to demonstrate here today.
+        // Abigail turns to the skeleton
+        // Penny: Did you get this from Harvey?
+        // Abigail sweatdrop
+        // Abigail: No!#$b#This is... a special self-defense dummy target.#$b#The Punchinator 3000.
+        // Jas giggle, Vincent exclamation point
+        // Abigail: I will demonstrate a punch.
+        // kids jump
+        // Abigail: The key to a good punch is to rotate your hips, and make the punch fast as you can. That way, you catch your attacker off guard.#$b#Don't make the first move though, because then it's not defense.
+        // Abigail: here we go. Prepare yourself, Punchinator 3000! shocko face
+        // MUSIC STOPS
+        // Abigail animate throws the punch. Sound effect and skeleton shatters. (skeletonDie or skeletonHit)
+        // Penny sweatdrops, kids jump a mile high
+        // Vincent: Wow, knock out in one hit!$h
+        // Abigail returns from punch stance
+        // emote Abigail pause
+        // Abigail: we'll... have you practice without a target. But imagine a target in front of you!
+        // Caroline runs in (from kitchen or room, depending on whether you saw Gardening lesson)
+        // Caroline exclamation point (maybe also jump)
+        // Caroline: What on earth is going on out here?! <angery>$b#Abigail, are you going to clean this up?
+        // Abigail sweatdrop
+        // Abigail: Yes, mom. Right after the lesson.$s
+        // Caroline: Good <serious face>. Walks back to kitchen or room, depending on whether you saw Gardening lesson
+        // Abigail turns back to the kids
+        // Music resumes
+        // Abigail: Let's get you practicing your punch!
+        // Abigail demonstrates punch again textAboveHead Kya!
+        // Something the kids can do to vaguely look like they're doing it too (shaking) with the textAboveHead Kya!
+        // fade to black
         // maybe in this one the player could have a show off moment, depending on their combat skill level! :wow: Abigail could hand player "club" assuming we can spawn a weapon (from her dad's baseball days? insert my own canon lol)
         // The kids could reference the dirt incident from gardening. Maybe Caroline's in the kitchen, overhears Abigail play it off as strength conditioning / building character, and Caroline runs in to be like "don't you feed them lies!" very lol much wow
+        // 
         // From Arknir: make the skeleton a temporary actor. Some convincing broken particle effects would be in the springObjects.png for rocks/crystals that get crushed. You could also change their color into whatever it is you like. Warp in the temp actor, play the sound effect, do an animation if you have one with appropriate pause, then warp back into the void. You can also make the temp actor larger for this case, like the bear. 32x32 pixels to make it easier to position on one frame
         // Talking through the idea: have the skeleton and the broken parts on the same "sheet", use "showFrame 0" for it standing still, and then use the animate command to go through the other frames for the explode-y bits, before warping out
         /*Event proper*/ {
@@ -1756,7 +1827,7 @@
             "Action": "EditData",
             "Target": "Data/Events/SeedShop", // Aerobics club room!
             "Entries": {
-                "31032037/{{WoodworkingandSelfDefenseProgressionToken}}/A ItTakesAVillage_AlexPE/A ItTakesAVillage_GusCooking/A ItTakesAVillage_ElliottStories/A ItTakesAVillage_HaleyLeahArt/A ItTakesAVillage_AbbyEcon/A ItTakesAVillage_SebProgram/A ItTakesAVillage_DemetriusBotany/A ItTakesAVillage_MaruElectronics/A ItTakesAVillage_EmilyDance/A ItTakesAVillage_HarveyHealth/A ItTakesAVillage_AbigailVideoGames/A ItTakesAVillage_ClintMetalworking/A ItTakesAVillage_SamMusic/A ItTakesAVillage_ShaneAnimalCare/A ItTakesAVillage_RobinWoodworking/A ItTakesAVillage_WillyLinusFishing/A ItTakesAVillage_CarolineEvelynGardening": "50s/-1000 -1000/farmer 81 94 0 Penny 89 94 2 Jas 89 95 0 Vincent 90 95 0/viewport 87 93 true/addConversationTopic ItTakesAVillage_AbigailSelfDefense {{MinimumDaysBetweenLessons}}/{{SkippableToken}}/emote Jas 32/jump Vincent 4/pause 500/speed Jas 4/move Jas 0 4 1 true/speed Vincent 4/move Vincent 0 4 3 true/move Penny -2 0 3/faceDirection Penny 2/faceDirection farmer 1/pause 200/emote Penny 28/emote farmer 8/move farmer 2 0 1 true/pause 100/faceDirection Penny 3/pause 300/speak Penny \"{{i18n:event-31032022.01}}\"/question null \"#{{i18n:event-31032022.02}}#{{i18n:event-31032022.03}}\"/splitSpeak Penny \"{{i18n:event-31032022.04}}~{{i18n:event-31032022.05}}\"/speak Penny \"{{i18n:event-31032022.06}}\"/pause 300/emote Penny 40/speak Penny \"{{i18n:event-31032022.07}}\"/quickQuestion #{{i18n:event-31032022.08}}#{{i18n:event-31032022.09}}(break)friendship Penny 100\\speak Penny \"{{i18n:event-31032022.10}}\"(break)friendship Penny -100\\speak Penny \"{{i18n:event-31032022.11}}\"/pause 500/speak Penny \"{{i18n:event-31032022.12}}\"/emote Penny 56/speed Penny 4/move Penny 0 1 3/speed Penny 4/move Penny -9 0 3 true/move farmer -2 0 0 true/pause 500/end"
+                "31032037/{{WoodworkingandSelfDefenseProgressionToken}}/A ItTakesAVillage_AlexPE/A ItTakesAVillage_GusCooking/A ItTakesAVillage_ElliottStories/A ItTakesAVillage_HaleyLeahArt/A ItTakesAVillage_AbbyEcon/A ItTakesAVillage_SebProgram/A ItTakesAVillage_DemetriusBotany/A ItTakesAVillage_MaruElectronics/A ItTakesAVillage_EmilyDance/A ItTakesAVillage_HarveyHealth/A ItTakesAVillage_AbigailVideoGames/A ItTakesAVillage_ClintMetalworking/A ItTakesAVillage_SamMusic/A ItTakesAVillage_ShaneAnimalCare/A ItTakesAVillage_RobinWoodworking/A ItTakesAVillage_WillyLinusFishing/A ItTakesAVillage_CarolineEvelynGardening": "50s/-1000 -1000/farmer X Y Z Caroline X Y Z Penny X Y Z Jas X Y Z Vincent X Y Z Abigail X Y Z/viewport X Y true/addConversationTopic ItTakesAVillage_AbigailSelfDefense {{MinimumDaysBetweenLessons}}/{{SkippableToken}}/emote Jas <questionmark>/faceDirection Vincent X/pause 500/faceDirection Vincent Y/pause 300/speak Abigail \"Hey kids! Today, we'll learn a little bit of self-defense.\"/speak Abigail \"I have learned my moves from all sorts of great experts. I borrowed and modified some rules for us (because always respecting parents can be tough).\"/speak Penny \"What was that?\"/speak Abigail \"*Ahem* anyways!#$b#Rule number 1 of self-defense: believe in yourself, no matter what!$7\"/jump Jas 4/jump Vincent 4/speak Abigail \"You can't rely on someone else believing in you. Believe in yourself! You practice, you get better!\"/textAboveHead Vincent \"Yes ma'am!\"/textAboveHead Jas \"Yes ma'am!\"/pause 1250/speak Abigail \"Rule number 2 of self-defense: do your best, every time! You can't be sloppy and do things half-baked.$7\"/emote Vincent <sweatdrop> true/emote Jas <sweatdrop> false/pause 50/speak Penny \"Uh, Abigail, is this maybe a little intense-\"/speak Abigail \"Nonsense! Self-defense is Serious Business.$6\"/emote Vincent <sweatdrop> true/emote Penny <sweatdrop> true/emote Jas <sweatdrop> false/pause 50/speak Abigail \"You believe in yourself, and do your best, and you'll get there. You might not be perfect, but good enough is good enough.\"/emote Vincent <sweatdrop> true/emote Jas <sweatdrop> false/pause 50/speak Abigail \"You believe in yourself, and do your best, and you'll get there. You might not be perfect, but good enough is good enough. EMOTE AFTER THIS BEGINS GARDENING\"/emote Vincent <questionmark> true/emote Jas <questionmark> false/pause 50/speak Vincent \"Is that why you accepted the dare to eat dirt?\"/emote Abigail <sweatdrop>/textAboveHead Abigail \"... Yes!\"/pause 2000/speak Abigail \"It... it was strength conditioning! It builds character!$6\"/emote Caroline <exclamationpoint>/speed Caroline 5/move Caroline 0 Y 2/speak Caroline \"Don't lie to the kids, Abigail!$3#$b#You were trying to impress your friends, and you were sick for several days.$2\"/emote Abigail <angry>/faceDirection Abigail 0/speak Abigail \"Mom!$7#$b#Not cool to interrupt my lesson!$6\"/emote Caroline <angry>/speak Caroline \"Keep it truthful, and I won't!$3\"/emote Abigail <sweatdrop>/speed Caroline 5/move Caroline X 0 0/speed Caroline 5/move Caroline 0 Y 0/emote Vincent <sweatdrop> true/emote Penny <sweatdrop> true/emote Jas <sweatdrop> false/pause 50/faceDirection Abigail 2/speak Abigail \"Anyway. Mom's technically right, you shouldn't be eating dirt or whatever.$3\"/speak Abigail \"But you should still remember the 2 rules of self-defense. What were they? END OF GARDENING VERSION\"/emote Vincent <pause> true/emote Jas <pause> false/pause 50/speak Jas \"How do you know if it's good enough? STARTING NON-GARDENING VERSION$3\"/speak Vincent \"You knock out the attacker in one go?\"/emote Abigail 32 true/emote Penny <sweatdrop> false/pause 50/speak Abigail \"That's one way!$h\"/emote Vincent 32/speak Abigail \"If you get the gist of the move, even if it could have been a little more powerful, or more aligned, or faster, that's good enough.\"/emote Jas <pause>/speak Jas \"I guess that makes sense.$3\"/speak Abigail \"So, what were the 2 rules of self-defense again? END OF NON-GARDENING VERSION\"/textAboveHead Vincent \"Believe in yourself!\"/textAboveHead Jas \"Do your best!\"/emote Abigail 32/pause 1250/speak Abigail \"That's right!$h\"/speak Abigail \"Now, onto the fun. I have a friend to demonstrate here today.\"/faceDirection Abigail X/speak Penny \"Did you get this from Harvey?\"/emote Abigail <sweatdrop>/faceDirection Abigail X/speak Abigail \"No!$2#$b#This is... a special self-defense dummy target.$6#$b#The Punchinator 3000.\"/textAboveHead Penny \"I see...\"/emote Vincent <exclamationpoint> true/emote Jas 32 true/shake Jas 500/pause 50/speak Abigail \"I will demonstrate a punch.\"/jump Vincent 4/jump Jas 4/speak Abigail \"The key to a good punch is to rotate your hips when you punch. That's how you get power behind it.#$b#You also want to make the punch as fast as you can, for more power and to catch your attacker off guard.\"/faceDirection Abigail X/speak Abigail \"Here we go.#$b#Prepare yourself, Punchinator 3000!$7\"/stopMusic/pause 500/showFrame Abigail X/animate the skelly/playSound skeletonDie/emote Penny <sweatdrop> true/jump Vincent 8/jump Jas 8/speak Vincent \"Wow, knock out in one hit!$h\"/showFrame Abigail X/faceDirection Abigail X/emote Abigail <pause>/speak Abigail \"We'll... have you practice without a target.$6#$b#But imagine a target in front of you!\"/speed Caroline 5/move Caroline 0 Y 2/jump Caroline 4/emote Caroline <exclamationpoint>/faceDirection Abigail 0/speak Caroline \"What on earth is going on out here?!$3\"/speak Caroline \"Abigail, are you going to clean this up?$2\"/emote Abigail <sweatdrop>/speak Abigail \"Yes, mom. Right after the lesson.$s\"/speak Caroline \"Good.\"/move Caroline 0 Y 0/faceDirection Abigail X/playMusic X/speak Abigail \"Let's get you practicing your punch! Remember, imaginary target.#$b#Aim for right above the stomach.#$b#I saw this in a game, you hit someone there, they stay down.\"/faceDirection Abigail X/showFrame Abigail X/textAboveHead Abigail \"Kya!\"/shake Jas 500/shake Vincent 500/textAboveHead Jas \"KYA!\"/textAboveHead Vincent \"KYA!\"/pause 500/end"
             },
             "When": {
                 "RobinWoodworkAndAbbySelfDefenseToken": "AbbySelfDefenseYes, AbbySelfDefenseYesRobinWoodworkNo"
