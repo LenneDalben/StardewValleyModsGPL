@@ -719,6 +719,7 @@
         },
         //
         // Maru Electronics - Done!
+        // test out animating the potato instead of the warping actors in and out with the fade out/in!
         /*Event proper*/ {
             "LogName": "Maru Electronics Lesson",
             "Action": "EditData",
