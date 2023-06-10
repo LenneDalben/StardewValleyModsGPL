@@ -1746,6 +1746,9 @@
         },
         //
         // Abigail Self Defense In Progress
+        // Test adding both punchinators and just warping the second one into position while warping the other one out? See if that helps minimize on what's goin on in the same spot (adding temp actor, position offsetting, and warping). Cutting it down to 2/3 instead of all 3, but who knows. Otherwise, idk. idk why this thing doesn't want to showFrame when asked.
+        // change the position offset to be for Abigail while punching, see if there's a way to do that: Like she's moving forward with the motion of the punch
+        // Also test if it's possible to change showFrame ahead of the animation, to see where the point of failure is.
         // Harvey devastate at the death of Mr. Skelly in CT. Could vary the dialog in Harvey Anatomy depending on if you saw self-defense first (had to get a replacement). Also do we want to vary the line in THIS event as well? Right now we just have Penny saying "did you borrow that from Harvey" so that could play IF you saw Anatomy first, and then be something else if you didn't?
         // maybe in this one the player could have a show off moment, depending on their combat skill level! :wow: Abigail could hand player "club" assuming we can spawn a weapon (from her dad's baseball days? insert my own canon lol)
         // 
