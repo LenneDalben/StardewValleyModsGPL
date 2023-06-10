@@ -2156,6 +2156,18 @@
 			"Target": "Characters/AnvilCopperPan",
 			"FromFile": "assets/Not-Code/ClintMetalworking/AnvilCopperPan.png",
 		},
+		/*Loading Punchinator 3000*/ {
+			"LogName": "Loading Punchinator 3000 Sprite",
+			"Action": "Load",
+			"Target": "Characters/Punchinator",
+			"FromFile": "assets/Not-Code/AbigailSelfDefense/Punchinator3000_32x32.png",
+		},
+		/*Loading Punchinator 3000 {
+			"LogName": "Loading Punchinator 3000 Sprite",
+			"Action": "Load",
+			"Target": "Characters/Punchinator",
+			"FromFile": "assets/Not-Code/AbigailSelfDefense/Punchinator3000_48x32.png",
+		},*/
 		// Map Patches
 		/*Adds Blossom Duck to Forest*/ {
 			"LogName": "Blossom Duck in Forest",
