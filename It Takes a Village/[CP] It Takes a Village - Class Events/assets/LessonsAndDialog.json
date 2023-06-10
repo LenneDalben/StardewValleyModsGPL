@@ -279,7 +279,8 @@
             }
         },
         //
-        // Haley & Leah Art - Done!
+        // Haley and Leah Art - Done!
+        // Check Ark's guide about advancedMove and see if it would be nice for the walking around that didn't happen
         /*Event proper*/ {
             "LogName": "Haley & Leah Art Lesson",
             "Action": "EditData",
