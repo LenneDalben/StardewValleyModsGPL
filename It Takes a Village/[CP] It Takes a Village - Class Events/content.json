@@ -1906,6 +1906,63 @@
 				"HasSeenEvent |contains=31032034": "false"
 			}
 		},
+		// Tokens for Abigail Self-Defense
+		/*Event dialog - saw Robin Woodworking*/ {
+			"Name": "AbigailSelfDefenseSeenRobinWoodwork",
+			"Value": "?",
+			"When": {
+				"HasSeenEvent |contains=31032038": true
+			}
+		},
+		/*Event dialog - did not see Robin Woodworking*/ {
+			"Name": "AbigailSelfDefenseSeenRobinWoodwork",
+			"Value": "?",
+			"When": {
+				"HasSeenEvent |contains=31032038": false
+			}
+		},
+		/*Event dialog - saw Caroline & Evelyn Gardening 1*/ {
+			"Name": "AbigailSelfDefenseSeenCarolineEvelynGardeningOne",
+			"Value": "emote Vincent 8 true/emote Jas 8 false/pause 50/speak Vincent \"Is that why you accepted the dare to eat dirt?\"/emote Abigail 28/textAboveHead Abigail \"... Yes!\"/pause 2000/speak Abigail \"It... it was strength conditioning! It builds character!$6\"/showFrame Caroline 0/emote Caroline 16/speed Caroline 5/move Caroline -9 0 0/pause 200/faceDirection Abigail 2/speak Caroline \"Don't lie to the kids, Abigail!$3#$b#You were trying to impress your friends. I was so scared, I took you to see Harvey. You were sick for a day.$2\"/emote Abigail 12/speak Abigail \"Mom!$7#$b#Not cool to interrupt my lesson!$6\"/emote Caroline 12/speak Caroline \"Keep it truthful, and I won't!$3\"/emote Abigail 28/speed Caroline 5/move Caroline 9 0 2/showFrame Caroline 24/emote Vincent 28 true/emote Penny 28 true/emote Jas 28 false/pause 50/faceDirection Abigail 3/speak Abigail \"Anyway. Mom's technically right, you shouldn't be eating dirt or whatever.$3\"/speak Abigail \"But you should still remember the 2 rules of self-defense. What were they? END OF GARDENING VERSION\"",
+			"When": {
+				"HasSeenEvent |contains=31032040": true
+			}
+		},
+		/*Event dialog - did not see Caroline & Evelyn Gardening 1*/ {
+			"Name": "AbigailSelfDefenseSeenCarolineEvelynGardeningOne",
+			"Value": "emote Vincent 40 true/emote Jas 40 false/pause 50/speak Jas \"How do you know if it's good enough? STARTING NON-GARDENING VERSION$3\"/speak Vincent \"You knock out the attacker in one hit?\"/emote Abigail 32 true/emote Penny 28 false/pause 50/speak Abigail \"That's one way!$h\"/emote Vincent 32/speak Abigail \"If you get the gist of the move, even if it could have been a little more powerful, or more aligned, or faster, that's good enough.\"/emote Jas 40/speak Jas \"I guess that makes sense.$3\"/speak Abigail \"So, what were the 2 rules of self-defense again? END OF NON-GARDENING VERSION\"",
+			"When": {
+				"HasSeenEvent |contains=31032040": false
+			}
+		},
+		/*Event dialog - saw Harvey Anatomy*/ {
+			"Name": "AbigailSelfDefenseSeenHarveyAnatomy",
+			"Value": "Did you get this from Harvey?",
+			"When": {
+				"HasSeenEvent |contains=31032032": true
+			}
+		},
+		/*Event dialog - did not see Harvey Anatomy*/ {
+			"Name": "AbigailSelfDefenseSeenHarveyAnatomy",
+			"Value": "Is that a statue?",
+			"When": {
+				"HasSeenEvent |contains=31032032": false
+			}
+		},
+		/*Event dialog - saw Caroline & Evelyn Gardening 2*/ {
+			"Name": "AbigailSelfDefenseSeenCarolineEvelynGardeningTwo",
+			"Value": "What on earth is going on this time?!$3",
+			"When": {
+				"HasSeenEvent |contains=31032040": true
+			}
+		},
+		/*Event dialog - did not see Caroline & Evelyn Gardening 2*/ {
+			"Name": "AbigailSelfDefenseSeenCarolineEvelynGardeningTwo",
+			"Value": "What on earth is going on out here?!$3",
+			"When": {
+				"HasSeenEvent |contains=31032040": false
+			}
+		},
 		// Willy & Linus Fishing and Caroline & Evelyn Gardening
 		// HasSeenEvent tokens
 		/*have not seen either event in the pair*/ {
