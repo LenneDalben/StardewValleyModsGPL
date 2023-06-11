@@ -2103,6 +2103,12 @@
 		/*Loading Potato Table*/ {
 			"LogName": "Loading Potato Table Sprite",
 			"Action": "Load",
+			"Target": "Characters/PotatoTableComplete",
+			"FromFile": "assets/Not-Code/MaruElectronics/PotatoTable - Complete.png",
+		},
+		/*Loading Potato Table*/ {
+			"LogName": "Loading Potato Table Sprite",
+			"Action": "Load",
 			"Target": "Characters/PotatoTable",
 			"FromFile": "assets/Not-Code/MaruElectronics/PotatoTable.png",
 		},
