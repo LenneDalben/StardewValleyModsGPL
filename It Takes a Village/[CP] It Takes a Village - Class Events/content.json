@@ -1906,7 +1906,7 @@
 				"HasSeenEvent |contains=31032034": "false"
 			}
 		},
-		// Tokens for Abigail Self Defense
+		// Tokens for Abigail Self Defense (Self-Defense)
 		/*Event dialog - saw Caroline & Evelyn Gardening 1*/ {
 			"Name": "AbigailSelfDefenseSeenCarolineEvelynGardeningOne",
 			"Value": "emote Vincent 8 true/emote Jas 8 false/pause 50/speak Vincent \"{{i18n:event-31032037.12}}\"/emote Abigail 28/textAboveHead Abigail \"{{i18n:event-31032037.13}}\"/pause 2000/speak Abigail \"{{i18n:event-31032037.14}}\"/showFrame Caroline 0/emote Caroline 16/speed Caroline 5/move Caroline -9 0 0/pause 200/faceDirection Abigail 2/speak Caroline \"{{i18n:event-31032037.15}}\"/emote Abigail 12/speak Abigail \"{{i18n:event-31032037.16}}\"/emote Caroline 12/speak Caroline \"{{i18n:event-31032037.17}}\"/emote Abigail 28/speed Caroline 5/move Caroline 9 0 2/showFrame Caroline 19/emote Vincent 28 true/emote Penny 28 true/emote Jas 28 false/pause 50/faceDirection Abigail 3/speak Abigail \"{{i18n:event-31032037.18}}\"/speak Abigail \"{{i18n:event-31032037.19}}\"",

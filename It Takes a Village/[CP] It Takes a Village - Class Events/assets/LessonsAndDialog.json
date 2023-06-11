@@ -1760,7 +1760,7 @@
                 "RobinWoodworkAndAbbySelfDefenseToken": "AbbySelfDefenseYes, AbbySelfDefenseYesRobinWoodworkNo"
             }
         },
-        /*Abigail CT - dynamic dialog*/ {
+        /*Abigail CT - dynamic dialog, include variation if you saw Harvey Anatomy*/ {
             "LogName": "Abigail Self-Defense CT - Abigail",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Abigail",
@@ -1790,6 +1790,17 @@
             "Target": "Characters/Dialogue/Sebastian",
             "Entries": {
                 "ItTakesAVillage_AbigailSelfDefense": "{{i18n:ItTakesAVillage_AbigailSelfDefenseCT_Sebastian}}"
+            }
+        },
+        /*Harvey CT - if you saw Harvey Anatomy*/ {
+            "LogName": "Abigail Self-Defense CT - Harvey",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Harvey",
+            "Entries": {
+                "ItTakesAVillage_AbigailSelfDefense": "{{i18n:ItTakesAVillage_AbigailSelfDefenseCT_Harvey}}"
+            },
+            "When": {
+                "HasSeenEvent |contains=31032032": true
             }
         },
         /*Jas CT*/ {
