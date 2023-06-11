@@ -1747,8 +1747,6 @@
         },
         //
         // Abigail Self Defense In Progress
-        // try testing the speed at 150 for animating the Punchinator getting smashed. It feels a little too quick right now
-        // Have Abigail textAboveHead "Kya!" when she punches the Punchinator
         // Harvey devastate at the death of Mr. Skelly in CT. Could vary the dialog in Harvey Anatomy depending on if you saw self-defense first (had to get a replacement).
         // maybe in this one the player could have a show off moment, depending on their combat skill level! :wow: Abigail could hand player "club" assuming we can spawn a weapon (from her dad's baseball days? insert my own canon lol)
         /*Event proper*/ {
