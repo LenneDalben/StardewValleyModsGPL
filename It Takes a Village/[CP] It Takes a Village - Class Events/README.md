@@ -95,6 +95,8 @@ I think it'd be nice to include the kids from Ridgeside Village (RSV) someday in
 
 <a href="https://www.nexusmods.com/stardewvalley/users/69153238?tab=user+files">shekurika</a>, for help with figuring out Clint's hammering animation
 
+<a href="https://www.nexusmods.com/stardewvalley/users/7439530?tab=user+files">ZoeDoll</a>, for being a beta tester
+
 <a href="https://www.kdau.com/scrollish/">kdau's scroll generator</a>, for the scroll captions in the preview images
 
 <a href="https://www.nexusmods.com/stardewvalley/users/1552317?tab=user+files">Pathoschild</a>, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible
