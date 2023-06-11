@@ -30,6 +30,9 @@
     /*
     Updates and fixes in 0.9.7:
     * Added Robin woodworking lesson!
+    * Added Abigail self-defense lesson!
+    * Updated Maru Electronics lesson to use an "animated" temp actor for the potato table instead of warping temp actors in and out (thank you Arknir for the tip!)
+    * Fixed ProgressionMode default; it is now correctly set to false
 
     Updates and fixes in 0.9.6:
     * Added ProgressionMode config option: By default, this is set to false. This means the order of the lessons will be completely random and you'll have a chance of seeing wider variety of bonus dynamic dialog. Set this to true if you want events to be grouped and play in a semi-randomized sequence according to the bracket grouping (see spoiler guide for the bracket groupings), but see a smaller variety of dynamic dialog.
