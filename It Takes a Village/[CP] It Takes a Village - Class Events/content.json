@@ -1907,20 +1907,6 @@
 			}
 		},
 		// Tokens for Abigail Self-Defense
-		/*Event dialog - saw Robin Woodworking*/ {
-			"Name": "AbigailSelfDefenseSeenRobinWoodwork",
-			"Value": "?",
-			"When": {
-				"HasSeenEvent |contains=31032038": true
-			}
-		},
-		/*Event dialog - did not see Robin Woodworking*/ {
-			"Name": "AbigailSelfDefenseSeenRobinWoodwork",
-			"Value": "?",
-			"When": {
-				"HasSeenEvent |contains=31032038": false
-			}
-		},
 		/*Event dialog - saw Caroline & Evelyn Gardening 1*/ {
 			"Name": "AbigailSelfDefenseSeenCarolineEvelynGardeningOne",
 			"Value": "emote Vincent 8 true/emote Jas 8 false/pause 50/speak Vincent \"Is that why you accepted the dare to eat dirt?\"/emote Abigail 28/textAboveHead Abigail \"... Yes!\"/pause 2000/speak Abigail \"It... it was strength conditioning! It builds character!$6\"/showFrame Caroline 0/emote Caroline 16/speed Caroline 5/move Caroline -9 0 0/pause 200/faceDirection Abigail 2/speak Caroline \"Don't lie to the kids, Abigail!$3#$b#You were trying to impress your friends. I was so scared, I took you to see Harvey. You were sick for a day.$2\"/emote Abigail 12/speak Abigail \"Mom!$7#$b#Not cool to interrupt my lesson!$6\"/emote Caroline 12/speak Caroline \"Keep it truthful, and I won't!$3\"/emote Abigail 28/speed Caroline 5/move Caroline 9 0 2/showFrame Caroline 24/emote Vincent 28 true/emote Penny 28 true/emote Jas 28 false/pause 50/faceDirection Abigail 3/speak Abigail \"Anyway. Mom's technically right, you shouldn't be eating dirt or whatever.$3\"/speak Abigail \"But you should still remember the 2 rules of self-defense. What were they? END OF GARDENING VERSION\"",
@@ -1947,6 +1933,20 @@
 			"Value": "Is that a statue?",
 			"When": {
 				"HasSeenEvent |contains=31032032": false
+			}
+		},
+		/*Event dialog - saw Robin Woodworking*/ {
+			"Name": "AbigailSelfDefenseSeenRobinWoodwork",
+			"Value": "playMusic playful/speak Jas \"Maybe Robin could help us make a new dummy out of wood? ROBIN WOODWORKING$3\"/speak Abigail \"That's a great idea! Let's keep that for another day.\"/emote Jas 32",
+			"When": {
+				"HasSeenEvent |contains=31032038": true
+			}
+		},
+		/*Event dialog - did not see Robin Woodworking*/ {
+			"Name": "AbigailSelfDefenseSeenRobinWoodwork",
+			"Value": "playMusic playful",
+			"When": {
+				"HasSeenEvent |contains=31032038": false
 			}
 		},
 		/*Event dialog - saw Caroline & Evelyn Gardening 2*/ {
