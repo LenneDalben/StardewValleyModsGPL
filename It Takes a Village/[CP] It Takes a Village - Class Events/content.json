@@ -1963,6 +1963,66 @@
 				"HasSeenEvent |contains=31032040": false
 			}
 		},
+		/*CT dialog for Robin, saw Robin Woodworking*/ {
+			"Name": "RobinWoodworkingRobinCT",
+			"Value": "{{i18n:ItTakesAVillage_AbigailSelfDefenseCT_Robin_YesWoodwork}}",
+			"When": {
+				"HasSeenEvent |contains=31032038": "true"
+			}
+		},
+		/*CT dialog for Robin, did not see Robin Woodworking*/ {
+			"Name": "RobinWoodworkingRobinCT",
+			"Value": "{{i18n:ItTakesAVillage_AbigailSelfDefenseCT_Robin_NoWoodwork}}",
+			"When": {
+				"HasSeenEvent |contains=31032038": "false"
+			}
+		},
+		/*CT dialog for Abigail, saw Robin Woodworking and saw Harvey Anatomy*/ {
+			"Name": "AbigailSelfDefenseAbigailCT",
+			"Value": "{{i18n:ItTakesAVillage_AbigailSelfDefenseCT_Abigail_YesWoodworkYesAnatomy}}",
+			"When": {
+				"HasSeenEvent |contains=31032038": "true",
+				"HasSeenEvent |contains=31032032": "true"
+			}
+		},
+		/*CT dialog for Abigail, saw Robin Woodworking and not Harvey Anatomy*/ {
+			"Name": "AbigailSelfDefenseAbigailCT",
+			"Value": "{{i18n:ItTakesAVillage_AbigailSelfDefenseCT_Abigail_YesWoodworkNoAnatomy}}",
+			"When": {
+				"HasSeenEvent |contains=31032038": "true",
+				"HasSeenEvent |contains=31032032": "false"
+			}
+		},
+		/*CT dialog for Abigail, saw Harvey Anatomy and not Robin Woodworking*/ {
+			"Name": "AbigailSelfDefenseAbigailCT",
+			"Value": "{{i18n:ItTakesAVillage_AbigailSelfDefenseCT_Abigail_NoWoodworkYesAnatomy}}",
+			"When": {
+				"HasSeenEvent |contains=31032032": "true",
+				"HasSeenEvent |contains=31032038": "false"
+			}
+		},
+		/*CT dialog for Abigail, did not see Robin Woodworking and did not see Harvey Anatomy*/ {
+			"Name": "AbigailSelfDefenseAbigailCT",
+			"Value": "{{i18n:ItTakesAVillage_AbigailSelfDefenseCT_Abigail_NoWoodworkNoAnatomy}}",
+			"When": {
+				"HasSeenEvent |contains=31032038": "false",
+				"HasSeenEvent |contains=31032032": "false"
+			}
+		},
+		/*CT dialog for Penny, saw Harvey Anatomy*/ {
+			"Name": "RobinWoodworkingPennyCT",
+			"Value": "{{i18n:ItTakesAVillage_AbigailSelfDefenseCT_Penny_YesAnatomy}}",
+			"When": {
+				"HasSeenEvent |contains=31032032": "true"
+			}
+		},
+		/*CT dialog for Robin, did not see Harvey Anatomy*/ {
+			"Name": "RobinWoodworkingPennyCT",
+			"Value": "{{i18n:ItTakesAVillage_AbigailSelfDefenseCT_Penny_NoAnatomy}}",
+			"When": {
+				"HasSeenEvent |contains=31032032": "false"
+			}
+		},
 		// Willy & Linus Fishing and Caroline & Evelyn Gardening
 		// HasSeenEvent tokens
 		/*have not seen either event in the pair*/ {

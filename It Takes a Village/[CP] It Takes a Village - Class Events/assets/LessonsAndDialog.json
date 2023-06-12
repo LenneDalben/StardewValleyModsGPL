@@ -1759,20 +1759,20 @@
                 "RobinWoodworkAndAbbySelfDefenseToken": "AbbySelfDefenseYes, AbbySelfDefenseYesRobinWoodworkNo"
             }
         },
-        /*Abigail CT - dynamic dialog, include variation if you saw Harvey Anatomy*/ {
+        /*Abigail CT*/ {
             "LogName": "Abigail Self-Defense CT - Abigail",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Abigail",
             "Entries": {
-                "ItTakesAVillage_AbigailSelfDefense": "{{i18n:ItTakesAVillage_AbigailSelfDefenseCT_Abigail}}"
+                "ItTakesAVillage_AbigailSelfDefense": "{{AbigailSelfDefenseAbigailCT}}"
             }
         },
-        /*Robin CT - dynamic dialog*/ {
+        /*Robin CT*/ {
             "LogName": "Abigail Self-Defense CT - Robin",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Robin",
             "Entries": {
-                "ItTakesAVillage_AbigailSelfDefense": "{{i18n:ItTakesAVillage_AbigailSelfDefenseCT_Robin}}"
+                "ItTakesAVillage_AbigailSelfDefense": "{{RobinWoodworkingRobinCT}}"
             }
         },
         /*Sam CT*/ {
@@ -1855,9 +1855,9 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Penny",
             "Entries": {
-                "ItTakesAVillage_AbigailSelfDefense": "{{i18n:ItTakesAVillage_AbigailSelfDefenseCT_Penny}}"
+                "ItTakesAVillage_AbigailSelfDefense": "{{RobinWoodworkingPennyCT}}"
             }
-        }, // I wonder if I should ask Abigail if she can teach me a move or two...
+        },
         //
         // Willy & Linus Fishing INCOMPLETE
         // Willy could teach a lesson about fishing or fish pots (since I think his vanilla intro dialogue mentions he wants to pass on the art to a new generation) and Linus could join & mention something about finding bait?
