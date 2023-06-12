@@ -1747,7 +1747,6 @@
         //
         // Abigail Self Defense In Progress
         // Harvey devastate at the death of Mr. Skelly in CT. Could vary the dialog in Harvey Anatomy depending on if you saw self-defense first (had to get a replacement).
-        // maybe in this one the player could have a show off moment, depending on their combat skill level! :wow: Abigail could hand player "club" assuming we can spawn a weapon (from her dad's baseball days? insert my own canon lol)
         /*Event proper*/ {
             "LogName": "Abigail Self-Defense Lesson",
             "Action": "EditData",
@@ -1772,7 +1771,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Robin",
             "Entries": {
-                "ItTakesAVillage_AbigailSelfDefense": "{{RobinWoodworkingRobinCT}}"
+                "ItTakesAVillage_AbigailSelfDefense": "{{AbigailSelfDefenseRobinCT}}"
             }
         },
         /*Sam CT*/ {

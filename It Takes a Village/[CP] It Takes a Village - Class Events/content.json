@@ -1963,18 +1963,36 @@
 				"HasSeenEvent |contains=31032040": false
 			}
 		},
-		/*CT dialog for Robin, saw Robin Woodworking*/ {
-			"Name": "RobinWoodworkingRobinCT",
-			"Value": "{{i18n:ItTakesAVillage_AbigailSelfDefenseCT_Robin_YesWoodwork}}",
+		/*CT dialog for Robin, saw Robin Woodworking and saw Harvey Anatomy*/ {
+			"Name": "AbigailSelfDefenseRobinCT",
+			"Value": "{{i18n:ItTakesAVillage_AbigailSelfDefenseCT_Robin_YesWoodworkYesAnatomy}}",
 			"When": {
-				"HasSeenEvent |contains=31032038": "true"
+				"HasSeenEvent |contains=31032038": "true",
+				"HasSeenEvent |contains=31032032": "true"
 			}
 		},
-		/*CT dialog for Robin, did not see Robin Woodworking*/ {
-			"Name": "RobinWoodworkingRobinCT",
-			"Value": "{{i18n:ItTakesAVillage_AbigailSelfDefenseCT_Robin_NoWoodwork}}",
+		/*CT dialog for Robin, saw Robin Woodworking and not Harvey Anatomy*/ {
+			"Name": "AbigailSelfDefenseRobinCT",
+			"Value": "{{i18n:ItTakesAVillage_AbigailSelfDefenseCT_Robin_YesWoodworkNoAnatomy}}",
 			"When": {
+				"HasSeenEvent |contains=31032038": "true",
+				"HasSeenEvent |contains=31032032": "false"
+			}
+		},
+		/*CT dialog for Robin, saw Harvey Anatomy and not Robin Woodworking*/ {
+			"Name": "AbigailSelfDefenseRobinCT",
+			"Value": "{{i18n:ItTakesAVillage_AbigailSelfDefenseCT_Robin_NoWoodworkYesAnatomy}}",
+			"When": {
+				"HasSeenEvent |contains=31032032": "true",
 				"HasSeenEvent |contains=31032038": "false"
+			}
+		},
+		/*CT dialog for Robin, did not see Robin Woodworking and did not see Harvey Anatomy*/ {
+			"Name": "AbigailSelfDefenseRobinCT",
+			"Value": "{{i18n:ItTakesAVillage_AbigailSelfDefenseCT_Robin_NoWoodworkNoAnatomy}}",
+			"When": {
+				"HasSeenEvent |contains=31032038": "false",
+				"HasSeenEvent |contains=31032032": "false"
 			}
 		},
 		/*CT dialog for Abigail, saw Robin Woodworking and saw Harvey Anatomy*/ {
