@@ -2181,32 +2181,8 @@
 		/*Loading Potato Table*/ {
 			"LogName": "Loading Potato Table Sprite",
 			"Action": "Load",
-			"Target": "Characters/PotatoTableComplete",
-			"FromFile": "assets/Not-Code/MaruElectronics/PotatoTable - Complete.png",
-		},
-		/*Loading Potato Table*/ {
-			"LogName": "Loading Potato Table Sprite",
-			"Action": "Load",
 			"Target": "Characters/PotatoTable",
 			"FromFile": "assets/Not-Code/MaruElectronics/PotatoTable.png",
-		},
-		/*Loading Plain Potato*/ {
-			"LogName": "Loading Plain Potato Sprite by Airyn",
-			"Action": "Load",
-			"Target": "Characters/PlainPotato",
-			"FromFile": "assets/Not-Code/MaruElectronics/PotatoBattery - Plain.png",
-		},
-		/*Loading Off Potato*/ {
-			"LogName": "Loading Off Potato Sprite by Airyn",
-			"Action": "Load",
-			"Target": "Characters/OffPotato",
-			"FromFile": "assets/Not-Code/MaruElectronics/PotatoBattery - Off.png",
-		},
-		/*Loading On Potato*/ {
-			"LogName": "Loading On Potato Sprite by Airyn",
-			"Action": "Load",
-			"Target": "Characters/OnPotato",
-			"FromFile": "assets/Not-Code/MaruElectronics/PotatoBattery - On.png",
 		},
 		/*Goggle squad overlay*/ {
 			"LogName": "Goggle Squad Overlay by Airyn",
