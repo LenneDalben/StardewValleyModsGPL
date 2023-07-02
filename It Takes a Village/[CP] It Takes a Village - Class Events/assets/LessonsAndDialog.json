@@ -1628,7 +1628,7 @@
             }
         },
         //
-        // Robin Woodworking In Progress
+        // Robin Woodworking - Done!
         /*Event proper*/ {
             "LogName": "Robin Woodworking Lesson",
             "Action": "EditData",
@@ -1745,7 +1745,7 @@
             }
         },
         //
-        // Abigail Self Defense In Progress
+        // Abigail Self Defense - Done!
         // Harvey devastate at the death of Mr. Skelly in CT. Could vary the dialog in Harvey Anatomy depending on if you saw self-defense first (had to get a replacement).
         /*Event proper*/ {
             "LogName": "Abigail Self-Defense Lesson",
