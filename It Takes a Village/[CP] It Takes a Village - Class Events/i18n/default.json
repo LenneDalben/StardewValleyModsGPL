@@ -803,7 +803,7 @@
   // Robin Woodworking CTs
   "ItTakesAVillage_RobinWoodworkingCT_Robin_YesDefenseYesMetalwork": "No offense to Abigail, but I feel woodworking is a more constructive outlet for kids",
   "ItTakesAVillage_RobinWoodworkingCT_Robin_YesDefenseNoMetalwork": "No offense to Abigail, but I feel woodworking is a more constructive outlet for kids.",
-  "ItTakesAVillage_RobinWoodworkingCT_Robin_NoDefenseYesMetalwork": "Well, I didn't have something for the kids to take home, unlike Clint, but they still had fun.#$b#Besides, as a fellow parent, no way I'd give them a present that makes noise.$h#$b#Unlike some people.$6", // the $h could be $4
+  "ItTakesAVillage_RobinWoodworkingCT_Robin_NoDefenseYesMetalwork": "Well, I didn't have something for the kids to take home, unlike Clint, but they still had fun.#$b#Besides, as a fellow parent, no way I'd give them a present that makes noise.$4#$b#Unlike some people.$6", // #BlameNicole for the cursed hand smile instead of just smile
   "ItTakesAVillage_RobinWoodworkingCT_Robin_NoDefenseNoMetalwork": "It was good to see both VIncent and Jas get something out of the lesson.#$b#It's hard not to love making music.$h",
   "ItTakesAVillage_RobinWoodworkingCT_Abigail_YesSelfDefense": "Hauling wood is one way to get strong.#$b#I prefer throwing kicks and punches though!$h",
   "ItTakesAVillage_RobinWoodworkingCT_Abigail_NoSelfDefense": "I hadn't considered creating my own instrument...#$b#I wonder if Robin knows about crafting a proper flute.$3",
