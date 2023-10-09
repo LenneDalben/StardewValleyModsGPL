@@ -47,7 +47,7 @@ If you have a mod that changes map layout, you may be interested in the Skippabl
 
 The discussion after the Shane lesson includes dialog for <a href="https://www.nexusmods.com/stardewvalley/mods/9999">Sterling from Always Raining in the Valley (ARV)</a>, if you have ARV installed.
 
-If you're using Event Lookup, events are listed even if they're not actually going to happen that day, because of the random token.
+If you're using Event Lookup, events are listed even if they're not actually going to happen that day, because of the random token. There Can Be Only One ITAV event on the same day, regardless of what Event Lookup says.
 
 A note on Stardew Valley Expanded (SVE): I don’t use it and never will, so I will not add compatibility for it. Use ITAV and SVE together at your own risk.
 
