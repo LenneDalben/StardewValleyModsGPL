@@ -2277,7 +2277,7 @@
 			"LogName": "Loading Punchinator 3000 Sprite",
 			"Action": "Load",
 			"Target": "Characters/Punchinator",
-			"FromFile": "assets/Not-Code/AbigailSelfDefense/Punchinator3000_32x32.png",
+			"FromFile": "assets/Not-Code/AbigailSelfDefense/Punchinator3000.png",
 		},
 		// Map Patches
 		/*Adds Blossom Duck to Forest*/ {
