@@ -1,0 +1,225 @@
+{
+	"Format": "1.25.0",
+	"Changes": [
+		/*ITAV Beginning Lessons*/ {
+			"LogName": "ITAV Beginning Lessons CT Lasts",
+			"Action": "EditData",
+			"Target": "sophie.ConversationTopics",
+			"Entries": {
+				"ItTakesAVillage_Beginning": "true"
+			},
+			"When": {
+				"HasConversationTopic": "ItTakesAVillage_Beginning"
+			}
+		},
+		/*ITAV Alex PE & Healthy Eating*/ {
+			"LogName": "ITAV Alex PE and Healthy Eating CT Lasts",
+			"Action": "EditData",
+			"Target": "sophie.ConversationTopics",
+			"Entries": {
+				"ItTakesAVillage_AlexPE": "true"
+			},
+			"When": {
+				"HasConversationTopic": "ItTakesAVillage_AlexPE"
+			}
+		},
+		/*ITAV Gus Cooking*/ {
+			"LogName": "ITAV Gus Cooking CT Lasts",
+			"Action": "EditData",
+			"Target": "sophie.ConversationTopics",
+			"Entries": {
+				"ItTakesAVillage_GusCooking": "true"
+			},
+			"When": {
+				"HasConversationTopic": "ItTakesAVillage_GusCooking"
+			}
+		},
+		/*ITAV Haley & Leah Art*/ {
+			"LogName": "ITAV Haley and Leah Art CT Lasts",
+			"Action": "EditData",
+			"Target": "sophie.ConversationTopics",
+			"Entries": {
+				"ItTakesAVillage_HaleyLeahArt": "true"
+			},
+			"When": {
+				"HasConversationTopic": "ItTakesAVillage_HaleyLeahArt"
+			}
+		},
+		/*ITAV Elliott Stories*/ {
+			"LogName": "ITAV Elliott Stories CT Lasts",
+			"Action": "EditData",
+			"Target": "sophie.ConversationTopics",
+			"Entries": {
+				"ItTakesAVillage_ElliottStories": "true"
+			},
+			"When": {
+				"HasConversationTopic": "ItTakesAVillage_ElliottStories"
+			}
+		},
+		/*ITAV Sebastian Programming Basics*/ {
+			"LogName": "ITAV Sebastian Programming Basics CT Lasts",
+			"Action": "EditData",
+			"Target": "sophie.ConversationTopics",
+			"Entries": {
+				"ItTakesAVillage_SebProgram": "true"
+			},
+			"When": {
+				"HasConversationTopic": "ItTakesAVillage_SebProgram"
+			}
+		},
+		/*ITAV Abigail Economics*/ {
+			"LogName": "ITAV Abigail Economics CT Lasts",
+			"Action": "EditData",
+			"Target": "sophie.ConversationTopics",
+			"Entries": {
+				"ItTakesAVillage_AbigailEconomics": "true"
+			},
+			"When": {
+				"HasConversationTopic": "ItTakesAVillage_AbigailEconomics"
+			}
+		},
+		/*ITAV Maru Electronics*/ {
+			"LogName": "ITAV Maru Electronics CT Lasts",
+			"Action": "EditData",
+			"Target": "sophie.ConversationTopics",
+			"Entries": {
+				"ItTakesAVillage_MaruElectronics": "true"
+			},
+			"When": {
+				"HasConversationTopic": "ItTakesAVillage_MaruElectronics"
+			}
+		},
+		/*ITAV Demetrius Botany*/ {
+			"LogName": "ITAV Demetrius Botany CT Lasts",
+			"Action": "EditData",
+			"Target": "sophie.ConversationTopics",
+			"Entries": {
+				"ItTakesAVillage_DemetriusBotany": "true"
+			},
+			"When": {
+				"HasConversationTopic": "ItTakesAVillage_DemetriusBotany"
+			}
+		},
+		/*ITAV Emily Emotional Health & Dance*/ {
+			"LogName": "ITAV Emily Emotional Health and Dance CT Lasts",
+			"Action": "EditData",
+			"Target": "sophie.ConversationTopics",
+			"Entries": {
+				"ItTakesAVillage_EmilyDance": "true"
+			},
+			"When": {
+				"HasConversationTopic": "ItTakesAVillage_EmilyDance"
+			}
+		},
+		/*ITAV Harvey Anatomy*/ {
+			"LogName": "ITAV Harvey Anatomy CT Lasts",
+			"Action": "EditData",
+			"Target": "sophie.ConversationTopics",
+			"Entries": {
+				"ItTakesAVillage_HarveyAnatomy": "true"
+			},
+			"When": {
+				"HasConversationTopic": "ItTakesAVillage_HarveyAnatomy"
+			}
+		},
+		/*ITAV Abigail Video Games*/ {
+			"LogName": "ITAV Abigail Video Games CT Lasts",
+			"Action": "EditData",
+			"Target": "sophie.ConversationTopics",
+			"Entries": {
+				"ItTakesAVillage_AbigailVideoGames": "true"
+			},
+			"When": {
+				"HasConversationTopic": "ItTakesAVillage_AbigailVideoGames"
+			}
+		},
+		/*ITAV Clint Metalworking*/ {
+			"LogName": "ITAV Clint Metalworking CT Lasts",
+			"Action": "EditData",
+			"Target": "sophie.ConversationTopics",
+			"Entries": {
+				"ItTakesAVillage_ClintMetalworking": "true"
+			},
+			"When": {
+				"HasConversationTopic": "ItTakesAVillage_ClintMetalworking"
+			}
+		},
+		/*ITAV Sam Music*/ {
+			"LogName": "ITAV Sam Music CT Lasts",
+			"Action": "EditData",
+			"Target": "sophie.ConversationTopics",
+			"Entries": {
+				"ItTakesAVillage_SamMusic": "true"
+			},
+			"When": {
+				"HasConversationTopic": "ItTakesAVillage_SamMusic"
+			}
+		},
+		/*ITAV Shane Animal Care*/ {
+			"LogName": "ITAV Shane Animal Care CT Lasts",
+			"Action": "EditData",
+			"Target": "sophie.ConversationTopics",
+			"Entries": {
+				"ItTakesAVillage_ShaneAnimalCare": "true"
+			},
+			"When": {
+				"HasConversationTopic": "ItTakesAVillage_ShaneAnimalCare"
+			}
+		},
+		/*ITAV Robin Woodworking*/ {
+			"LogName": "ITAV Robin Woodworking CT Lasts",
+			"Action": "EditData",
+			"Target": "sophie.ConversationTopics",
+			"Entries": {
+				"ItTakesAVillage_RobinWoodworking": "true"
+			},
+			"When": {
+				"HasConversationTopic": "ItTakesAVillage_RobinWoodworking"
+			}
+		},
+		/*ITAV Abigail Self Defense*/ {
+			"LogName": "ITAV Abigail Self-Defense CT Lasts",
+			"Action": "EditData",
+			"Target": "sophie.ConversationTopics",
+			"Entries": {
+				"ItTakesAVillage_AbigailSelfDefense": "true"
+			},
+			"When": {
+				"HasConversationTopic": "ItTakesAVillage_AbigailSelfDefense"
+			}
+		},
+		/*ITAV Willy & Linus Fishing*/ {
+			"LogName": "ITAV Willy and Linus Fishing CT Lasts",
+			"Action": "EditData",
+			"Target": "sophie.ConversationTopics",
+			"Entries": {
+				"ItTakesAVillage_WillyLinusFishing": "true"
+			},
+			"When": {
+				"HasConversationTopic": "ItTakesAVillage_WillyLinusFishing"
+			}
+		},
+		/*ITAV Caroline & Evelyn Gardening*/ {
+			"LogName": "ITAV Caroline and Evelyn Gardening CT Lasts",
+			"Action": "EditData",
+			"Target": "sophie.ConversationTopics",
+			"Entries": {
+				"ItTakesAVillage_CarolineEvelynGardening": "true"
+			},
+			"When": {
+				"HasConversationTopic": "ItTakesAVillage_CarolineEvelynGardening"
+			}
+		},
+		/*ITAV Lesson Wrap Up*/ {
+			"LogName": "ITAV Lesson WrapUp CT Lasts",
+			"Action": "EditData",
+			"Target": "sophie.ConversationTopics",
+			"Entries": {
+				"ItTakesAVillage_End": "true"
+			},
+			"When": {
+				"HasConversationTopic": "ItTakesAVillage_End"
+			}
+		},
+	]
+}

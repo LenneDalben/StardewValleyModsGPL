@@ -1,0 +1,17 @@
+{
+    "Name": "(CP) It Takes a Village - Lasting CTs",
+    "Author": "LenneDalben",
+    "Version": "1.0.0",
+    "Description": "Pack of Lasting CTs for It Takes a Village.",
+    "UniqueID": "LenneDalben.CP.ItTakesaVillageLastingCTs",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+        {
+            "UniqueID": "LenneDalben.CP.ItTakesaVillage",
+            "IsRequired": true
+        }
+    ]
+}
