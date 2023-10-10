@@ -69,13 +69,6 @@
       "Name": "LoadAdventurerGuildToken",
       "Value": "false",
       "When": {
-        "HasMod": "Wolf.Marlon"
-      }
-    },
-    {
-      "Name": "LoadAdventurerGuildToken",
-      "Value": "false",
-      "When": {
         "LoadAdventurerGuildConfig": "false"
       }
     },
@@ -85,7 +78,14 @@
       "When": {
         "LoadAdventurerGuildConfig": "true"
       }
-    }
+    },
+    {
+      "Name": "LoadAdventurerGuildToken",
+      "Value": "false",
+      "When": {
+        "HasMod |contains =Wolf.Marlon": "true"
+      }
+    },
   ],
   "Changes": [
     // Include Vanilla Orders
