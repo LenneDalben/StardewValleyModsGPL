@@ -32,7 +32,11 @@
     * Added Robin woodworking lesson!
     * Added Abigail self-defense lesson!
     * Updated Maru Electronics lesson to use an "animated" temp actor for the potato table instead of warping temp actors in and out (thank you Arknir for the tip!)
+    * Created optional Lasting CTs pack to have the option of the CTs lasting until you talk to every last NPC, instead of being governed by the MinimumDaysBetweenLessons config setting
     * Fixed ProgressionMode default; it is now correctly set to false
+    * Fixed WIP Beta issue with Maru and Demetrius CTs for Maru Electronics (thanks tia!)
+    * Renamed Harvey Anatomy CT to HarveyAnatomy instead of HarveyHealth
+    * Renamed Abigail Economics CT to AbigailEconomics instead of AbbyEcon
 
     Updates and fixes in 0.9.6:
     * Added ProgressionMode config option: By default, this is set to false. This means the order of the lessons will be completely random and you'll have a chance of seeing wider variety of bonus dynamic dialog. Set this to true if you want events to be grouped and play in a semi-randomized sequence according to the bracket grouping (see spoiler guide for the bracket groupings), but see a smaller variety of dynamic dialog.
