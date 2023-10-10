@@ -536,14 +536,14 @@
 		},
 		/*CT dialog for Sebastian, saw Programming Basics*/ {
 			"Name": "AbbyEconSebCT",
-			"Value": "{{i18n:ItTakesAVillage_AbbyEconCT_Sebastian_YesSebProgram}}",
+			"Value": "{{i18n:ItTakesAVillage_AbigailEconomicsCT_Sebastian_YesSebProgram}}",
 			"When": {
 				"HasSeenEvent |contains=31032028": "true"
 			}
 		},
 		/*CT dialog for Sebastian, did not see Programming Basics*/ {
 			"Name": "AbbyEconSebCT",
-			"Value": "{{i18n:ItTakesAVillage_AbbyEconCT_Sebastian_NoSebProgram}}",
+			"Value": "{{i18n:ItTakesAVillage_AbigailEconomicsCT_Sebastian_NoSebProgram}}",
 			"When": {
 				"HasSeenEvent |contains=31032028": "false"
 			}
@@ -922,28 +922,28 @@
 		},
 		/*CT dialog for Harvey - saw Emily Emotional Health and Dance*/ {
 			"Name": "HarveyAnatomyHarveyCT",
-			"Value": "{{i18n:ItTakesAVillage_HarveyHealthCT_Harvey_YesDance}}",
+			"Value": "{{i18n:ItTakesAVillage_HarveyAnatomyCT_Harvey_YesDance}}",
 			"When": {
 				"HasSeenEvent |contains=31032031": "true"
 			}
 		},
 		/*CT dialog for Harvey - did not see Emily Emotional Health and Dance*/ {
 			"Name": "HarveyAnatomyHarveyCT",
-			"Value": "{{i18n:ItTakesAVillage_HarveyHealthCT_Harvey_NoDance}}",
+			"Value": "{{i18n:ItTakesAVillage_HarveyAnatomyCT_Harvey_NoDance}}",
 			"When": {
 				"HasSeenEvent |contains=31032031": "false"
 			}
 		},
 		/*CT dialog for Emily - saw Emily Emotional Health and Dance*/ {
 			"Name": "HarveyAnatomyEmilyCT",
-			"Value": "{{i18n:ItTakesAVillage_HarveyHealthCT_Emily_YesDance}}",
+			"Value": "{{i18n:ItTakesAVillage_HarveyAnatomyCT_Emily_YesDance}}",
 			"When": {
 				"HasSeenEvent |contains=31032031": "true"
 			}
 		},
 		/*CT dialog for Emily - did not see Emily Emotional Health and Dance*/ {
 			"Name": "HarveyAnatomyEmilyCT",
-			"Value": "{{i18n:ItTakesAVillage_HarveyHealthCT_Emily_NoDance}}",
+			"Value": "{{i18n:ItTakesAVillage_HarveyAnatomyCT_Emily_NoDance}}",
 			"When": {
 				"HasSeenEvent |contains=31032031": "false"
 			}
@@ -1907,14 +1907,14 @@
 			}
 		},
 		// Tokens for Abigail Self Defense (Self-Defense)
-		/*Event dialog - saw Caroline & Evelyn Gardening 1*/ {
+		/*Event dialog - saw Caroline & Evelyn Gardening - One*/ {
 			"Name": "AbigailSelfDefenseSeenCarolineEvelynGardeningOne",
 			"Value": "emote Vincent 8 true/emote Jas 8 false/pause 50/speak Vincent \"{{i18n:event-31032037.12}}\"/emote Abigail 28/pause 500/textAboveHead Abigail \"{{i18n:event-31032037.13}}\"/pause 2000/speak Abigail \"{{i18n:event-31032037.14}}\"/showFrame Caroline 0/emote Caroline 16/speed Caroline 5/move Caroline -9 0 0/pause 200/faceDirection Abigail 2/speak Caroline \"{{i18n:event-31032037.15}}\"/emote Abigail 12/speak Abigail \"{{i18n:event-31032037.16}}\"/emote Caroline 12/speak Caroline \"{{i18n:event-31032037.17}}\"/emote Abigail 28/speed Caroline 5/move Caroline 9 0 2/showFrame Caroline 19/emote Vincent 28 true/emote Penny 28 true/emote Jas 28 false/pause 50/faceDirection Abigail 3/speak Abigail \"{{i18n:event-31032037.18}}\"/speak Abigail \"{{i18n:event-31032037.19}}\"",
 			"When": {
 				"HasSeenEvent |contains=31032040": true
 			}
 		},
-		/*Event dialog - did not see Caroline & Evelyn Gardening 1*/ {
+		/*Event dialog - did not see Caroline & Evelyn Gardening - One*/ {
 			"Name": "AbigailSelfDefenseSeenCarolineEvelynGardeningOne",
 			"Value": "emote Vincent 40 true/emote Jas 40 false/pause 50/speak Jas \"{{i18n:event-31032037.20}}\"/speak Vincent \"{{i18n:event-31032037.21}}\"/emote Abigail 32 true/emote Penny 28 false/pause 50/speak Abigail \"{{i18n:event-31032037.22}}\"/emote Vincent 32/speak Abigail \"{{i18n:event-31032037.23}}\"/emote Jas 40/speak Jas \"{{i18n:event-31032037.24}}\"/speak Abigail \"{{i18n:event-31032037.25}}\"",
 			"When": {
@@ -1949,14 +1949,14 @@
 				"HasSeenEvent |contains=31032038": false
 			}
 		},
-		/*Event dialog - saw Caroline & Evelyn Gardening 2*/ {
+		/*Event dialog - saw Caroline & Evelyn Gardening - Two*/ {
 			"Name": "AbigailSelfDefenseSeenCarolineEvelynGardeningTwo",
 			"Value": "{{i18n:event-31032037.42}}",
 			"When": {
 				"HasSeenEvent |contains=31032040": true
 			}
 		},
-		/*Event dialog - did not see Caroline & Evelyn Gardening 2*/ {
+		/*Event dialog - did not see Caroline & Evelyn Gardening - Two*/ {
 			"Name": "AbigailSelfDefenseSeenCarolineEvelynGardeningTwo",
 			"Value": "{{i18n:event-31032037.41}}",
 			"When": {
@@ -2195,7 +2195,7 @@
 				"MaruElectronicsAndDemetriusBotanyToken": "MaruElectronicsYesDemetriusBotanyNo",
 				"HasSeenEvent |contains=31032032": true, // Harvey Anatomy, for temp map shenanigans
 				"HasSeenEvent |contains=31032035": true, // Sam Music, for temp map shenanigans
-				"HasConversationTopic |contains= ItTakesAVillage_Beginning, ItTakesAVillage_AlexPE, ItTakesAVillage_GusCooking, ItTakesAVillage_ElliottStories, ItTakesAVillage_HaleyLeahArt, ItTakesAVillage_AbbyEcon, ItTakesAVillage_SebProgram, ItTakesAVillage_DemetriusBotany, ItTakesAVillage_EmilyDance, ItTakesAVillage_HarveyHealth, ItTakesAVillage_AbigailVideoGames, ItTakesAVillage_ClintMetalworking, ItTakesAVillage_SamMusic, ItTakesAVillage_ShaneAnimalCare, ItTakesAVillage_AbigailSelfDefense, ItTakesAVillage_RobinWoodworking, ItTakesAVillage_WillyLinusFishing, ItTakesAVillage_CarolineEvelynGardening": false,
+				"HasConversationTopic |contains= ItTakesAVillage_Beginning, ItTakesAVillage_AlexPE, ItTakesAVillage_GusCooking, ItTakesAVillage_ElliottStories, ItTakesAVillage_HaleyLeahArt, ItTakesAVillage_AbigailEconomics, ItTakesAVillage_SebProgram, ItTakesAVillage_DemetriusBotany, ItTakesAVillage_EmilyDance, ItTakesAVillage_HarveyAnatomy, ItTakesAVillage_AbigailVideoGames, ItTakesAVillage_ClintMetalworking, ItTakesAVillage_SamMusic, ItTakesAVillage_ShaneAnimalCare, ItTakesAVillage_AbigailSelfDefense, ItTakesAVillage_RobinWoodworking, ItTakesAVillage_WillyLinusFishing, ItTakesAVillage_CarolineEvelynGardening": false,
 				"LocationName |contains= ScienceHouse, temp": true,
 				"PortraitandSpriteOverlayGoggleConfig": true
 			},
