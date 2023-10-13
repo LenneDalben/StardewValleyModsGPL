@@ -90,11 +90,14 @@
 			}
 		},
 		// Loading Blacksmith empty file
-		/*Doesn't load the blacksmith empty file if Looking for Love by foggywizard, Clint Marriage Mod by babybird2/yuzu, or Lucikiel by Arknir are installed*/ {
+		/*Loading the blacksmith empty file if the config says true*/ {
 			"Name": "LoadBlacksmithToken",
-			"Value": "false",
+			"Value": "true",
 			"When": {
-				"HasMod |contains=foggy.LfL, ClintMarriageMod, Arknir.Lucikiel": true
+				"LoadBlacksmithConfig": "true",
+				"HasMod |contains=foggy.LfL": false,
+				"HasMod |contains=ClintMarriageMod": false,
+				"HasMod |contains=Arknir.Lucikiel": false
 			}
 		},
 		/*Doesn't load the blacksmith empty file if the config says false*/ {
@@ -104,14 +107,11 @@
 				"LoadBlacksmithConfig": "false"
 			}
 		},
-		/*Loading the blacksmith empty file if the config says true*/ {
+		/*Doesn't load the blacksmith empty file if Looking for Love by foggywizard, Clint Marriage Mod by babybird2/yuzu, or Lucikiel by Arknir are installed*/ {
 			"Name": "LoadBlacksmithToken",
-			"Value": "true",
+			"Value": "false",
 			"When": {
-				"LoadBlacksmithConfig": "true",
-				"HasMod |contains=foggy.LfL": false,
-				"HasMod |contains=ClintMarriageMod": false,
-				"HasMod |contains=Arknir.Lucikiel": false
+				"HasMod |contains=foggy.LfL, ClintMarriageMod, Arknir.Lucikiel": true
 			}
 		},
 		// Tokens for HasSeenEvent: the events themselves check for the value of this token. For example, the Alex PE lesson checks AlexPEAndGusCookingToken value for either AlexPEYes or GusCookingYesAlexPENo in order to play the Alex PE lesson.
