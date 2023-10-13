@@ -1856,32 +1856,34 @@
             }
         },
         //
-        // Willy & Linus Fishing INCOMPLETE
-        // Willy could teach a lesson about fishing or fish pots (since I think his vanilla intro dialogue mentions he wants to pass on the art to a new generation) and Linus could join & mention something about finding bait?
-        // For the Willy & Linus lesson: have Linus mention the wild bait. Vary dialog on it based on whether the player has seen the event where Linus teaches the player the recipe (event 26)
-        // Some different dialog (in the event or in CTs) about the crabs, if player has seen Willy's event 711130
-        // Fun animation of Willy catching fishie?
-        // Linus could talk about crab pots? Or just chime into Willy's fun facts
-        // // Sardines (Spring, Fall, Winter) during the morning and afternoon: common ocean fish, "dart" randomly moves up and down, key ingredient in Linus' favorite meal (Dish o' the Sea)
-        // // Spring Flounder during the morning and afternoon: lives on bottom eyes on top of the head, "sinker" moves down fast, in a salty pudding it's useful for getting into maritime mindset
-        // // Summer Octopus during morning: mysterious and intelligent, "sinker" moves down fast, one of Willy's favorite fish, CHECK JOHN OLIVER FOR OCTOPUS FUN FACTS
-        // // Fall Sea Cucumber (also found in Winter) during morning and afternoon: slippery and slimy, "sinker" moves down fast, one of Willy's favorite fish, in a special little meal it's useful for luck!
-        // // Winter Squid during evening: huge, "sinker" moves down fast, makes squid ink (confuses predators), tasty calamari
-        // Take screenie in winter!
-        // Also, Kent has lots to say as a fishing fan!
-        /*Event proper*/ /*{
+        // Willy & Linus Fishing - In Progress
+        // Take the preview screenie in winter!
+        /*Event proper*/ {
             "LogName": "Willy & Linus Fishing Lesson",
             "Action": "EditData",
             "Target": "Data/Events/Beach",
             "Entries": {
-                "31032039/t 900 1800/{{FishingandGardeningProgressionToken}}/A ItTakesAVillage_AlexPE/A ItTakesAVillage_GusCooking/A ItTakesAVillage_ElliottStories/A ItTakesAVillage_HaleyLeahArt/A ItTakesAVillage_AbigailEconomics/A ItTakesAVillage_SebProgram/A ItTakesAVillage_DemetriusBotany/A ItTakesAVillage_MaruElectronics/A ItTakesAVillage_EmilyDance/A ItTakesAVillage_HarveyAnatomy/A ItTakesAVillage_AbigailVideoGames/A ItTakesAVillage_ClintMetalworking/A ItTakesAVillage_SamMusic/A ItTakesAVillage_ShaneAnimalCare/A ItTakesAVillage_AbigailSelfDefense/A ItTakesAVillage_RobinWoodworking/A ItTakesAVillage_CarolineEvelynGardening": "50s/-1000 -1000/farmer 81 94 0 Penny 89 94 2 Jas 89 95 0 Vincent 90 95 0/viewport 35 37 true/addConversationTopic ItTakesAVillage_WillyLinusFishing {{MinimumDaysBetweenLessons}}/{{SkippableToken}}/emote Jas 32/jump Vincent 4/pause 500/speed Jas 4/move Jas 0 4 1 true/speed Vincent 4/move Vincent 0 4 3 true/move Penny -2 0 3/faceDirection Penny 2/faceDirection farmer 1/pause 200/emote Penny 28/emote farmer 8/move farmer 2 0 1 true/pause 100/faceDirection Penny 3/pause 300/speak Penny \"{{i18n:event-31032022.01}}\"/question null \"#{{i18n:event-31032022.02}}#{{i18n:event-31032022.03}}\"/splitSpeak Penny \"{{i18n:event-31032022.04}}~{{i18n:event-31032022.05}}\"/speak Penny \"{{i18n:event-31032022.06}}\"/pause 300/emote Penny 40/speak Penny \"{{i18n:event-31032022.07}}\"/quickQuestion #{{i18n:event-31032022.08}}#{{i18n:event-31032022.09}}(break)friendship Penny 100\\speak Penny \"{{i18n:event-31032022.10}}\"(break)friendship Penny -100\\speak Penny \"{{i18n:event-31032022.11}}\"/pause 500/speak Penny \"{{i18n:event-31032022.12}}\"/emote Penny 56/speed Penny 4/move Penny 0 1 3/speed Penny 4/move Penny -9 0 3 true/move farmer -2 0 0 true/pause 500/end"
+                "31032039/t 900 1800/{{FishingandGardeningProgressionToken}}/A ItTakesAVillage_AlexPE/A ItTakesAVillage_GusCooking/A ItTakesAVillage_ElliottStories/A ItTakesAVillage_HaleyLeahArt/A ItTakesAVillage_AbigailEconomics/A ItTakesAVillage_SebProgram/A ItTakesAVillage_DemetriusBotany/A ItTakesAVillage_MaruElectronics/A ItTakesAVillage_EmilyDance/A ItTakesAVillage_HarveyAnatomy/A ItTakesAVillage_AbigailVideoGames/A ItTakesAVillage_ClintMetalworking/A ItTakesAVillage_SamMusic/A ItTakesAVillage_ShaneAnimalCare/A ItTakesAVillage_AbigailSelfDefense/A ItTakesAVillage_RobinWoodworking/A ItTakesAVillage_CarolineEvelynGardening": "event1/-1000 -1000/Jas 38 35 1 Vincent 38 34 2 Willy 40 35 3 farmer 26 24 2 Linus 25 24 2 Penny 43 34 2/showFrame Penny 34/viewport 38 38 true/addConversationTopic ItTakesAVillage_WillyLinusFishing {{MinimumDaysBetweenLessons}}/{{SkippableToken}}/speed farmer 5/move farmer 0 11 1/emote farmer <questionmark>/faceDirection Vincent 3 true/faceDirection Jas 3 false/pause 500/speak Willy \"Ahoy there, @! Feel free to join us.#$b#@ here is still a fishing novice, might benefit from this! SKILL 0-4$h#$b#@ here knows a thing or 2 about fishing. SKILL 5-8$h#$b#@ here could almost give me a run for my money with fishing! SKILL 9-10$h\"/emote farmer 32/speed farmer 5/move farmer 9 0 2/move farmer 0 1 2/pause 500/faceDirection Vincent 2 true/faceDirection Jas 2 false/pause 250/speak Willy \"Today I'll give you some fishing tips!\"/speak Jas \"TEXT\"/speak Vincent \"Yay!#$b#Alex said fish is a good source of protein.$3\"/speak Willy \"You're right to be excited, Vincent!#$b#Fishing is not just for fun, they make a healthy food!\"/emote Vincent 32/speak Willy \"Here's a little something about sardines. They're common in the ocean. QUICK QUESTION: What seasons do you think you can find them? 1) Spring, Summer, Fall <Not quite, spring, fall, and winter> 2) Summer, Fall, Winter <Not quite, spring, fall, and winter> 3) Spring, Fall, Winter <that's right!>\"/speak Linus \"Sardines are also part of my favorite meal, dish o' the sea.$h\"/emote Willy 32/pause 500/end"
+        // Also to make the info on the fishies more interesting, give the player a chance to answer a question about the fish (season? recipe they're used in? idk. You get friendship with Willy if you answer correctly, nothing if you don't)
+
+        // // Spring Sardines (Spring, Fall, Winter) during the morning and afternoon: common ocean fish, "dart" randomly moves up and down, key ingredient in Linus' favorite meal (Dish o' the Sea). FUN FACT ABOUT SARDINES: "People mostly use sardines as food, 'specially since it's lower in mercury than other fish, but its oil is also very useful!#$b#It's part of making paint, varnish and linoleum, if you're into construction, heh."
+        // // Summer Octopus during morning: mysterious and intelligent, "sinker" moves down fast, one of Willy's favorite fish, CHECK JOHN OLIVER FOR OCTOPUS FUN FACTS: "Octopuses is the correct plural term, so you know.#$b#You know, mimic octopuses are just the darndest thing. They can change their color, shape, and texture to look like almost anything.#$b#Why, one time I accidentally bumped into one that looked like a rock!#$b#Scared me half to death to see it move and change into an octopus!$h"
+        // // Fall Sea Cucumber (also found in Winter) during morning and afternoon: slippery and slimy, "sinker" moves down fast, one of Willy's favorite fish, in a special little meal it's useful for luck! FUN FACT ABOUT SEA CUCUMBER: " it's an interesting looking animal to be sure. You may be surprised to hear they're in the family of sand dollars, urchins, and sea stars, even though they look nothing alike."
+        // // Winter Squid during evening: huge, "sinker" moves down fast, makes squid ink (confuses predators), tasty calamari. FUN FACT ABOUT SQUID: "Squid can change color to disguise themselves. Some even glow!"
+        // Kids must ooh and ahh at the facts, ask a follow up question. Willy answers.
+        // Linus walks up, stops. Willy and kids turn around. Linus walks up further. Pause emoji.
+        // Willy greets Linus, notes they're just getting ready to do some fishing. Linus says he has a tip on bait he'd like to share. Willy does a tiny lil hop. "Well, you're welcome to stay!" Linus smiles, Penny sweatdrops. Linus comes closer.
+        // Linus mentions there's some bait that does WHATEVER THE BAIT DOES, varies if player has learned the wild bait recipe via event 26.
+        // Linus raves about using this for a crab pot. Some different dialog (in the event or in CTs) about the crabs, if player has seen Willy's event 711130
+        // "That's enough theory, let's get fishin'!$h"
+        // Fun animation of Willy catching a fishie? idk if we can get Willy to actually catch a fish and have it above his head like the player...
             },
             "When": {
                 "WillyLinusFishingAndCarolineEvelynGardeningToken": "WillyLinusFishingYes, WillyLinusFishingYesCarolineEvelynGardeningNo",
                 "Weather |contains=Sun, Wind": "true"
             },
             "Update": "OnLocationChange"
-        },*/
+        },
         /*Willy CT - dynamic dialog*/ {
             "LogName": "Willy & Linus Fishing CT - Willy",
             "Action": "EditData",
@@ -2001,7 +2003,7 @@
             "Entries": {
                 "ItTakesAVillage_WillyLinusFishing": "{{i18n:ItTakesAVillage_WillyLinusFishingCT_Kent}}"
             }
-        },
+        }, // Kent has lots to say as a fishing fan!
         /*Sam CT*/ {
             "LogName": "Willy & Linus Fishing CT - Sam",
             "Action": "EditData",
