@@ -1,6 +1,6 @@
 # (CP) It Takes a Village - Class Events
 
-This mod is in development! NPCs help Penny teach the kiddos (Vincent and Jas) by giving lessons.
+This mod is in development! Penny will recruit fellow townspeople to teach Vincent and Jas something they know.
 
 Features include randomized order of lessons and semi-dynamic dialog based on which lesson(s) played first! In repeat playthroughs, you may see the lessons in a different order, and with slightly different dialog, some which is seasonal.
 
@@ -17,7 +17,7 @@ Translations are welcome! You can submit either the language.json to me or the s
 
 ||Getting started||
 
-To begin the lesson series, reach 6 hearts with Penny, then visit the town on a sunny day between 9:30am and 6:00pm. An event will play with Penny outside the Library / Museum. By default, at least 7 days later, a lesson event will happen somewhere in town! Refer to the Configuration section on how to customize the Minimum Days Between Lessons.
+To begin the lesson series, reach 6 hearts with Penny, then visit the town on a sunny day between 9:30am and 6:00pm. An event will play with Penny outside the Library. By default, at least 7 days later, a lesson event will happen somewhere in town! Refer to the Configuration section on how to customize the Minimum Days Between Lessons.
 
 Refer to the spoiler guide for details on activating the other events (a few have weather and/or time conditions).
 
@@ -43,11 +43,13 @@ Note that the mod does not come packaged with a config file. The config file wil
 
 ||Compatibility||
 
-If you have a mod that changes map layout, you may be interested in the Skippable config setting. It will allow you to skip the event if you or an NPC gets stuck.
+If you have a mod that changes map layouts, use the Skippable Config setting. It will allow you to skip the event if you or an NPC gets stuck.
 
 The discussion after the Shane lesson includes dialog for <a href="https://www.nexusmods.com/stardewvalley/mods/9999">Sterling from Always Raining in the Valley (ARV)</a>, if you have ARV installed.
 
 If you're using Event Lookup, events are listed even if they're not actually going to happen that day, because of the random token. There Can Be Only One ITAV event on the same day, regardless of what Event Lookup says.
+
+Writing the vanilla version of this has been a huge undertaking as it is, so I will not add kids from other mods or add lessons led by custom NPCs. If custom NPC mod authors want to add lessons for their NPCs in a similar format, they're welcome to do so in their own mod!
 
 A note on Stardew Valley Expanded (SVE): I don’t use it and never will, so I will not add compatibility for it. Use ITAV and SVE together at your own risk.
 
@@ -60,11 +62,6 @@ A note on Stardew Valley Expanded (SVE): I don’t use it and never will, so I w
 3. Download the mod from ModDrop (link TBD) and unzip the mod folders into Stardew Valley/Mods.
 - If you do not use CC, you can delete that folder from your Mods folder.
 4. Play the game using SMAPI!
-
-
-||Future Plans||
-
-I think it'd be nice to include the kids from Ridgeside Village (RSV) someday in a future update, but I don't have a target date for that, or detailed plans to ask for permission. Writing the vanilla version of this has been a huge undertaking as it is.
 
 
 ||Shout Outs||
@@ -89,7 +86,7 @@ I think it'd be nice to include the kids from Ridgeside Village (RSV) someday in
 
 <a href="https://www.nexusmods.com/stardewvalley/users/68088657?tab=user+files">Lemurkat</a>, for helping me troubleshoot
 
-<a href="https://www.nexusmods.com/stardewvalley/users/92060238?tab=user+files">Taiyo</a>, <a href ="https://www.nexusmods.com/stardewvalley/users/112768378?tab=user+files">tiakall</a>, and <a href="https://www.nexusmods.com/stardewvalley/users/2893756?tab=user+files">Yri</a> for some art feedback and encouragement on sprites I drew
+<a href="https://www.nexusmods.com/stardewvalley/users/92060238?tab=user+files">Taiyo</a>, <a href ="https://www.nexusmods.com/stardewvalley/users/112768378?tab=user+files">tiakall</a>, and <a href="https://www.nexusmods.com/stardewvalley/users/2893756?tab=user+files">Yri</a> for some art feedback and encouragement on sprites I drew. Tiakall was also a beta tester.
 
 <a href="https://www.nexusmods.com/stardewvalley/users/104804993?tab=user+files">nicole / beyondrecovery</a>, for help with figuring out the "walking off screen while fading out" effect, encouragement, wording help, and being a beta tester
 
