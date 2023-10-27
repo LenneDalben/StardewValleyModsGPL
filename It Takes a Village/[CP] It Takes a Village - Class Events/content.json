@@ -590,7 +590,7 @@
 				"ProgressionMode": "false"
 			},
 		},
-		/*Maru Electronics and Demetrius Botany Progression Mode On (temporarily: for Maru Electronics, must have seen Demetrius Botany, Harvey Anatomy, Sam Music, and Clint Metalworking first, so not using this token. For Demetrius Botany, must have seen Sam Music and Shane Animal Care. In the future, it will be must have seen Willy and Linus Fishing and Caroline and Evelyn Gardening first, for both Maru and Demetrius' lessons)*/ {
+		/*Maru Electronics and Demetrius Botany Progression Mode On (temporarily: for Maru Electronics, must have seen Demetrius Botany, Harvey Anatomy, Sam Music, and Clint Metalworking first, so not using this token. For Demetrius Botany, must have seen Sam Music and Shane Animal Care.)*/ {
 			"Name": "ElectronicsandBotanyProgressionToken",
 			"Value": "e 31032035/e 31032036/A ItTakesAVillage_Beginning", // Future "Value": "e 31032039/e 31032040/A ItTakesAVillage_Beginning",
 			"When": {
@@ -1907,20 +1907,6 @@
 			}
 		},
 		// Tokens for Abigail Self Defense (Abigail Self-Defense)
-		/*Event dialog - saw Caroline & Evelyn Gardening - One*/ {
-			"Name": "AbigailSelfDefenseSeenCarolineEvelynGardeningOne",
-			"Value": "emote Vincent 8 true/emote Jas 8 false/pause 50/speak Vincent \"{{i18n:event-31032037.12}}\"/emote Abigail 28/pause 500/textAboveHead Abigail \"{{i18n:event-31032037.13}}\"/pause 2000/speak Abigail \"{{i18n:event-31032037.14}}\"/showFrame Caroline 0/emote Caroline 16/speed Caroline 5/move Caroline -9 0 0/pause 200/faceDirection Abigail 2/speak Caroline \"{{i18n:event-31032037.15}}\"/emote Abigail 12/speak Abigail \"{{i18n:event-31032037.16}}\"/emote Caroline 12/speak Caroline \"{{i18n:event-31032037.17}}\"/emote Abigail 28/speed Caroline 5/move Caroline 9 0 2/showFrame Caroline 19/emote Vincent 28 true/emote Penny 28 true/emote Jas 28 false/pause 50/faceDirection Abigail 3/speak Abigail \"{{i18n:event-31032037.18}}\"/speak Abigail \"{{i18n:event-31032037.19}}\"",
-			"When": {
-				"HasSeenEvent |contains=31032040": true
-			}
-		},
-		/*Event dialog - did not see Caroline & Evelyn Gardening - One*/ {
-			"Name": "AbigailSelfDefenseSeenCarolineEvelynGardeningOne",
-			"Value": "emote Vincent 40 true/emote Jas 40 false/pause 50/speak Jas \"{{i18n:event-31032037.20}}\"/speak Vincent \"{{i18n:event-31032037.21}}\"/emote Abigail 32 true/emote Penny 28 false/pause 50/speak Abigail \"{{i18n:event-31032037.22}}\"/emote Vincent 32/speak Abigail \"{{i18n:event-31032037.23}}\"/emote Jas 40/speak Jas \"{{i18n:event-31032037.24}}\"/speak Abigail \"{{i18n:event-31032037.25}}\"",
-			"When": {
-				"HasSeenEvent |contains=31032040": false
-			}
-		},
 		/*Event dialog - saw Harvey Anatomy*/ {
 			"Name": "AbigailSelfDefenseSeenHarveyAnatomy",
 			"Value": "{{i18n:event-31032037.30}}",
@@ -1947,20 +1933,6 @@
 			"Value": "playMusic playful",
 			"When": {
 				"HasSeenEvent |contains=31032038": false
-			}
-		},
-		/*Event dialog - saw Caroline & Evelyn Gardening - Two*/ {
-			"Name": "AbigailSelfDefenseSeenCarolineEvelynGardeningTwo",
-			"Value": "{{i18n:event-31032037.42}}",
-			"When": {
-				"HasSeenEvent |contains=31032040": true
-			}
-		},
-		/*Event dialog - did not see Caroline & Evelyn Gardening - Two*/ {
-			"Name": "AbigailSelfDefenseSeenCarolineEvelynGardeningTwo",
-			"Value": "{{i18n:event-31032037.41}}",
-			"When": {
-				"HasSeenEvent |contains=31032040": false
 			}
 		},
 		/*CT dialog for Robin, saw Robin Woodworking and saw Harvey Anatomy*/ {
@@ -2041,73 +2013,17 @@
 				"HasSeenEvent |contains=31032032": "false"
 			}
 		},
-		// Willy & Linus Fishing and Caroline & Evelyn Gardening
-		// HasSeenEvent tokens
-		/*have not seen either event in the pair*/ {
-			"Name": "WillyLinusFishingAndCarolineEvelynGardeningToken",
-			"Value": "CarolineEvelynGardeningNoWillyLinusFishingNo",
-		},
-		/*random token to choose which event plays first, when neither's been seen*/ {
-			"Name": "WillyLinusFishingAndCarolineEvelynGardeningToken",
-			"Value": "{{Random: CarolineEvelynGardeningYes, WillyLinusFishingYes}}",
-			"When": {
-				"HasSeenEvent |contains=31032022": true, // Penny kickstarts lessons
-				"HasSeenEvent |contains=31032040": false,
-				"HasSeenEvent |contains=31032039": false,
-			}
-		},
-		/*saw Willy and Linus Fishing not Caroline and Evelyn Gardening*/ {
-			"Name": "WillyLinusFishingAndCarolineEvelynGardeningToken",
-			"Value": "CarolineEvelynGardeningYesWillyLinusFishingNo",
-			"When": {
-				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=31032040": true,
-				"HasSeenEvent |contains=31032039": false,
-			}
-		},
-		/*saw Caroline and Evelyn Gardening not Willy and Linus Fishing*/ {
-			"Name": "WillyLinusFishingAndCarolineEvelynGardeningToken",
-			"Value": "WillyLinusFishingYesCarolineEvelynGardeningNo",
-			"When": {
-				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=31032040": false,
-				"HasSeenEvent |contains=31032039": true,
-			}
-		},
-		/*saw both events in the pair*/ {
-			"Name": "WillyLinusFishingAndCarolineEvelynGardeningToken",
-			"Value": "WillyLinusFishingAndCarolineEvelynGardeningDone",
-			"When": {
-				"HasSeenEvent |contains=31032022": true,
-				"HasSeenEvent |contains=31032040": true,
-				"HasSeenEvent |contains=31032039": true,
-			}
-		},
-		/*Willy and Linus Fishing and Caroline and Evelyn Gardening Progression Mode Off*/ {
-			"Name": "FishingandGardeningProgressionToken",
-			"Value": "A ItTakesAVillage_Beginning",
-			"When": {
-				"ProgressionMode": "false"
-			},
-		},
-		/*Willy and Linus Fishing and Caroline and Evelyn Gardening Progression Mode On (must have seen Robin Woodworking and Abigail Self-Defense first)*/ {
-			"Name": "FishingandGardeningProgressionToken",
-			"Value": "e 31032038/e 31032037/A ItTakesAVillage_Beginning",
-			"When": {
-				"ProgressionMode": "true"
-			},
-		},
 		// Wrap up event
 		/*Character placement, have met Kent*/ {
 			"Name": "WrapUpEventNPCPlacement",
-			"Value": "Wizard -100 -100 1 Krobus -100 -100 3 Kent 21 20 0 Jodi 21 19 2 Vincent 20 20 0 Jas 20 19 3 Shane 21 17 2 Marnie 21 18 0 Pam 7 18 1 Abigail 25 18 2 Sebastian 26 18 3 Sam 26 19 0 Robin 22 18 1 Demetrius 23 18 3 Maru 16 21 2 Harvey 16 22 0 Caroline 9 23 0 Pierre 9 22 2 Evelyn 10 23 0 George 11 23 3 Linus 15 23 0 Willy 17 22 1 Clint 18 22 3 Elliott 4 19 2 Leah 2 20 1 Haley 2 21 1 Alex 3 21 3 Gus 13 18 2 Emily 17 18 2 Lewis 12 20 0 Penny -100 -100 0 farmer 12 21 3",
+			"Value": "Wizard -100 -100 1 Krobus -100 -100 3 Linus -100 -100 2 Kent 21 20 0 Jodi 21 19 2 Vincent 20 20 0 Jas 20 19 3 Shane 21 17 2 Marnie 21 18 0 Pam 7 18 1 Abigail 25 18 2 Sebastian 26 18 3 Sam 26 19 0 Robin 22 18 1 Demetrius 23 18 3 Maru 16 21 2 Harvey 16 22 0 Caroline 9 23 0 Pierre 9 22 2 Evelyn 10 23 0 George 11 23 3 Willy 17 22 1 Clint 18 22 3 Elliott 4 19 2 Leah 2 20 1 Haley 2 21 1 Alex 3 21 3 Gus 13 18 2 Emily 17 18 2 Lewis 12 20 0 Penny -100 -100 0 farmer 12 21 3",
 			"When": {
 				"HasSeenEvent |contains=63": "true"
 			}
 		},
 		/*Character placement, have not met Kent*/ {
 			"Name": "WrapUpEventNPCPlacement",
-			"Value": "Wizard -100 -100 1 Krobus -100 -100 3 Jodi 21 19 2 Vincent 20 20 0 Jas 20 19 3 Shane 21 17 2 Marnie 21 18 0 Pam 7 18 1 Abigail 25 18 2 Sebastian 26 18 3 Sam 26 19 0 Robin 22 18 1 Demetrius 23 18 3 Maru 16 21 2 Harvey 16 22 0 Caroline 9 23 0 Pierre 9 22 2 Evelyn 10 23 0 George 11 23 3 Linus 15 23 0 Willy 17 22 1 Clint 18 22 3 Elliott 4 19 2 Leah 2 20 1 Haley 2 21 1 Alex 3 21 3 Gus 13 18 2 Emily 17 18 2 Lewis 12 20 0 Penny -100 -100 0 farmer 12 21 3",
+			"Value": "Wizard -100 -100 1 Krobus -100 -100 3 Linus -100 -100 2 Jodi 21 19 2 Vincent 20 20 0 Jas 20 19 3 Shane 21 17 2 Marnie 21 18 0 Pam 7 18 1 Abigail 25 18 2 Sebastian 26 18 3 Sam 26 19 0 Robin 22 18 1 Demetrius 23 18 3 Maru 16 21 2 Harvey 16 22 0 Caroline 9 23 0 Pierre 9 22 2 Evelyn 10 23 0 George 11 23 3 Willy 17 22 1 Clint 18 22 3 Elliott 4 19 2 Leah 2 20 1 Haley 2 21 1 Alex 3 21 3 Gus 13 18 2 Emily 17 18 2 Lewis 12 20 0 Penny -100 -100 0 farmer 12 21 3",
 			"When": {
 				"HasSeenEvent |contains=63": "false"
 			}
@@ -2195,7 +2111,7 @@
 				"MaruElectronicsAndDemetriusBotanyToken": "MaruElectronicsYesDemetriusBotanyNo",
 				"HasSeenEvent |contains=31032032": true, // Harvey Anatomy, for temp map shenanigans
 				"HasSeenEvent |contains=31032035": true, // Sam Music, for temp map shenanigans
-				"HasConversationTopic |contains= ItTakesAVillage_Beginning, ItTakesAVillage_AlexPE, ItTakesAVillage_GusCooking, ItTakesAVillage_ElliottStories, ItTakesAVillage_HaleyLeahArt, ItTakesAVillage_AbigailEconomics, ItTakesAVillage_SebProgram, ItTakesAVillage_DemetriusBotany, ItTakesAVillage_EmilyDance, ItTakesAVillage_HarveyAnatomy, ItTakesAVillage_AbigailVideoGames, ItTakesAVillage_ClintMetalworking, ItTakesAVillage_SamMusic, ItTakesAVillage_ShaneAnimalCare, ItTakesAVillage_AbigailSelfDefense, ItTakesAVillage_RobinWoodworking, ItTakesAVillage_WillyLinusFishing, ItTakesAVillage_CarolineEvelynGardening": false,
+				"HasConversationTopic |contains= ItTakesAVillage_Beginning, ItTakesAVillage_AlexPE, ItTakesAVillage_GusCooking, ItTakesAVillage_ElliottStories, ItTakesAVillage_HaleyLeahArt, ItTakesAVillage_AbigailEconomics, ItTakesAVillage_SebProgram, ItTakesAVillage_DemetriusBotany, ItTakesAVillage_EmilyDance, ItTakesAVillage_HarveyAnatomy, ItTakesAVillage_AbigailVideoGames, ItTakesAVillage_ClintMetalworking, ItTakesAVillage_SamMusic, ItTakesAVillage_ShaneAnimalCare, ItTakesAVillage_AbigailSelfDefense, ItTakesAVillage_RobinWoodworking": false,
 				"LocationName |contains= ScienceHouse, temp": true,
 				"PortraitandSpriteOverlayGoggleConfig": true
 			},

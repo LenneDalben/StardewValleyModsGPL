@@ -821,6 +821,7 @@
   "ItTakesAVillage_RobinWoodworkingCT_Penny_NoClintMetalworking": "Hopefully the kids enjoy the contrast of Robin's lesson, compared to working with metal with Clint.",
   //
   // Abigail Self-Defense event
+  // NOTE: some string numbers are skipped (12-19, 42). This is intentional.
   "event-31032037.01": "Hey kids! Today, we'll learn a little bit of self-defense.",
   "event-31032037.02": "I have learned my moves from all sorts of great experts. I borrowed and modified some rules for us.#$b#(Because always respecting parents can be tough).$3",
   "event-31032037.03": "What was that?",
@@ -832,14 +833,6 @@
   "event-31032037.09": "Uh, Abigail, is this maybe a little intense-$3",
   "event-31032037.10": "Nonsense! Self-defense is Serious Business.$6",
   "event-31032037.11": "You believe in yourself, and do your best, and you'll get there. You might not be perfect, but good enough is good enough.",
-  "event-31032037.12": "Is that why you accepted the dare to eat dirt?",
-  "event-31032037.13": "... Yes!",
-  "event-31032037.14": "It... it was strength conditioning! It builds character!$6",
-  "event-31032037.15": "Don't lie to the kids, Abigail!$3#$b#You were trying to impress your friends. I was so scared, I took you to see Harvey. You were sick for a day.$2",
-  "event-31032037.16": "Mom!$7#$b#Not cool to interrupt my lesson!$6",
-  "event-31032037.17": "Keep it truthful, and I won't!$3",
-  "event-31032037.18": "Anyway. Mom's technically right, you shouldn't be eating dirt or whatever.$3",
-  "event-31032037.19": "But you should still remember the 2 rules of self-defense. What were they?",
   "event-31032037.20": "How do you know if it's good enough?$3",
   "event-31032037.21": "You knock out the attacker in one hit?",
   "event-31032037.22": "That's one way!$h",
@@ -862,7 +855,6 @@
   "event-31032037.39": "Wow, knock out in one hit!$h",
   "event-31032037.40": "We'll... have you practice without a target.$6#$b#Imagine a target in front of you!",
   "event-31032037.41": "What on earth is going on out here?!$3",
-  "event-31032037.42": "What on earth is going on this time?!$3",
   "event-31032037.43": "Abigail, are you going to clean this up?$2",
   "event-31032037.44": "Yes, mom. Right after the lesson.$s",
   "event-31032037.45": "Good.",
@@ -913,7 +905,7 @@
   "event-31032041.18": "Our teachers should get credit as well.$l#$b#Thank you all for your dedication!$h",
   "event-31032041.19": "Love you Penny!",
   "event-31032041.20": "With that, let's eat!$h",
-  "event-31032041.21": "Sounds like an exciting night!$8",
+  "event-31032041.21": "Sounds like it was an exciting night at the Saloon!$8",
   "event-31032041.22": "Hmm... I suppose it does.#$b#I wouldn't have volunteered to teach the youth the ways of the arcane.",
   "event-31032041.23": "Well, my friend, did Penny ask you?",
   "event-31032041.24": "That's neither here nor there."
