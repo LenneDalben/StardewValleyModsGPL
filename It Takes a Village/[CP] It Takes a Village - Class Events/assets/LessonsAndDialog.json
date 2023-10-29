@@ -1516,16 +1516,6 @@
         },
         //
         // Shane Animal Care - Done!
-        // Random chance 1 is fine (Jas) and the other gets crushed (Vincent), random chance 1 hatches (Jas) and the other is fine (Vincent), random chance 1 hatches (Jas) and the other is crushed (Vincent)
-        // use the same dialogue lines for some of it and just use a dynamic token to randomly select which kid it is, with a key or check to make sure it doesn't pick the same kid twice
-        // Make sure you follow the dynamic token route for the random like you did Demetrius botany, so the villagers don't forget who did what
-        // Need to figure out timing on the black event similar to the "noticed your friendship" mod, then go "hmm I wonder how the kids are doing with the egg, maybe I should ask"
-        // ^ CT chain. Shane Animal Care has its own CT for the other lessons to happen. Then new second CT for the timing the black event (go with 3 or 4 days?). Kids and parents could still comment on the egg thing, I guess, so there really would be 2 CTs from 1 event. Then, when second CT expires, fire the black event, third CT in place for "how's it going with the egg" (go with 3 or 4 days, based on the previous one?). When the third CT expires, The Reckoning at Marnie's ranch.
-        // The egg?$3#$b#%Jas looks away, as if something bad happened. (sub in Vincent)
-        // heart wrenching rendition of Jas crying as she tries to explain what happened to the egg in my head (sub in Vincent)
-        // something initially heartwarming, like "I wanted to keep the egg warm, so I put it close to me while I slept" :cut to a flashback, terrible things happened:
-        // we could actually see the kiddos lying in bed, then accidentally rolling over the eggie, cue the sprite, the sobs, etc.
-        // need to confirm if I can fake night time when the kiddos are lying in bed... maybe something at the map level? Tia said "Set music to ambientnight (or whatever it's called) and dim the screen, done" but idk what dim the screen means lol
         /*Event proper*/ {
             "LogName": "Shane Animal Care Lesson",
             "Action": "EditData",
@@ -1690,9 +1680,9 @@
                 "ItTakesAVillage_KidEggCareStart": "{{i18n:ItTakesAVillage_KidEggCareStartCT_Penny}}"
             }
         },
-        // Suggest Egg Check In
-        {
-            "LogName": "Suggest Egg Check In Event",
+        // Suggest Kid Egg Check In - Done!
+        /*Event proper*/ {
+            "LogName": "Suggest Kid Egg Check In Event",
             "Action": "EditData",
             "Target": "Data/Events/Farm",
             "Entries": {
@@ -1702,9 +1692,9 @@
                 "HasSeenEvent |contains=31032036": true
             }
         },
-        // Egg Check In CTs
+        // Suggest Kid Egg Check In CTs
         /*Shane CT*/ {
-            "LogName": "Kid Egg Care Start CT - Shane",
+            "LogName": "Kid Egg Check In CT - Shane",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Shane",
             "Entries": {
@@ -1712,7 +1702,7 @@
             }
         },
         /*Sam CT*/ {
-            "LogName": "Kid Egg Care Start CT - Sam",
+            "LogName": "Kid Egg Check In CT - Sam",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sam",
             "Entries": {
@@ -1720,7 +1710,7 @@
             }
         },
         /*Jas CT*/ {
-            "LogName": "Kid Egg Care Start CT - Jas",
+            "LogName": "Kid Egg Check In CT - Jas",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Jas",
             "Entries": {
@@ -1728,7 +1718,7 @@
             }
         },
         /*Vincent CT*/ {
-            "LogName": "Kid Egg Care Start CT - Vincent",
+            "LogName": "Kid Egg Check In CT - Vincent",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Vincent",
             "Entries": {
@@ -1736,7 +1726,7 @@
             }
         },
         /*Jodi CT*/ {
-            "LogName": "Kid Egg Care Start CT - Jodi",
+            "LogName": "Kid Egg Check In CT - Jodi",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Jodi",
             "Entries": {
@@ -1744,7 +1734,7 @@
             }
         },
         /*Kent CT*/ {
-            "LogName": "Kid Egg Care Start CT - Kent",
+            "LogName": "Kid Egg Check In CT - Kent",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Kent",
             "Entries": {
@@ -1752,7 +1742,7 @@
             }
         },
         /*Marnie CT*/ {
-            "LogName": "Kid Egg Care Start CT - Marnie",
+            "LogName": "Kid Egg Check In CT - Marnie",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Marnie",
             "Entries": {
@@ -1760,15 +1750,106 @@
             }
         },
         /*Penny CT*/ {
-            "LogName": "Kid Egg Care Start CT - Penny",
+            "LogName": "Kid Egg Check In CT - Penny",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Penny",
             "Entries": {
                 "ItTakesAVillage_KidEggCheckIn": "{{i18n:ItTakesAVillage_KidEggCheckInCT_Penny}}"
             }
         },
-        // Kid Egg Care Wrap Up Event
-        // <INSERT EVENT CODE HERE>
+        // Suggest Kid Egg Care End - Done!
+        /*Event proper*/ {
+            "LogName": "Suggest Kid Egg Care End Event",
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries": {
+                "31032044/t 600 700/A ItTakesAVillage_KidEggCheckIn": "none/-100 -100/farmer -100 -100 0/message \"{{i18n:event-31032044.01}}\"/end"
+            },
+            "When": {
+                "HasSeenEvent |contains=31032043": true
+            }
+        },
+        // Kid Egg Care End Event - IN PROGRESS
+        // Random chance 1 is fine (Jas) and the other gets crushed (Vincent), random chance 1 hatches (Jas) and the other is fine (Vincent), random chance 1 hatches (Jas) and the other is crushed (Vincent)
+        // use the same dialogue lines for some of it and just use a dynamic token to randomly select which kid it is, with a key or check to make sure it doesn't pick the same kid twice
+        // Make sure you follow the dynamic token route for the random like you did Demetrius botany, so the villagers don't forget who did what
+        // heart wrenching rendition of Vincent crying as he tries to explain what happened to the egg
+        // something initially heartwarming, like "I wanted to keep the egg warm, so I put it close to me while I slept" :cut to a flashback, terrible things happened:
+        // we could actually see him lying in bed, then accidentally rolling over the eggie, cue the sprite, the sobs, etc.
+        // need to confirm if I can fake night time when Vincent is lying in bed... maybe something at the map level? Set music to nightTime and use ambientLight 120 120 120 (That's a grey. The numbers go from 0 to 255, see about testing a light/dark orange)
+        /*Event proper*/ {
+            "LogName": "Kid Egg Care End Event",
+            "Action": "EditData",
+            "Target": "Data/Events/AnimalShop",
+            "Entries": {
+                "31032045/e 31032044": "distantBanjo/-1000 -1000/farmer -100 -100 0 Penny 11 16 1 Jas 12 17 1 Vincent 14 17 3 Shane 13 16 2 Marnie 12 14 2/viewport 13 18 true/addConversationTopic ItTakesAVillage_KidEggCareEnd 3/{{SkippableToken}}/emote Vincent 40/jump Jas 4/pause 500/emote Shane 32 true/emote Penny 32 false/pause 50/playSound doorClose/warp farmer 13 18/pause 400/faceDirection Penny 2 true/faceDirection Vincent 2 true/faceDirection Jas 2 false/pause 200/speak Marnie \"Hi @! We were just about to hear how Jas and Vincent did with taking care of their eggs.$h\"/emote Shane 32/faceDirection Penny 1 true/faceDirection Vincent 0 true/faceDirection Jas 0 false/pause 200/speak Shane \"That's right! Who wants to go first?\"/jump Jas 6/animate Jas false true 50 20 21/speak Shane \"Go ahead, Jas!$h\"/stopanimation Jas/speak Jas \"My eggie did great!#$b#It's safe and sound.#$b#It hatched!$h\"/emote Marnie 32 true/emote Shane 32 true/emote Penny 32 false/pause 500/speak Shane \"Very nice, Jas!#$b#Woah, that's great, Jas! We'll need to bring it into the barn with the other animals.\"/emote Jas 56/speak Shane \"How about you, Vincent? How did it go with your egg?\"/speak Vincent \"My eggie is safe too!#$b#Well...$3\"/emote Shane 8/shake Vincent 600/speak Vincent \"I just wanted to keep the egg warm!$s\"/stopMusic/textAboveHead Vincent \"*sob*\"/faceDirection Jas 1 true/emote Jas 16 true/emote Shane 28 true/emote Penny 16 true/emote Marnie 16 false/pause 500/faceDirection Shane 0/speak Shane \"(Marnie, please help).$10\"/speak Marnie \"It's ok, Vincent, take a breath.\"/textAboveHead Vincent \"*sniff*\"/faceDirection Shane 2/pause 800/speak Penny \"Just tell us what happened, sweetie.\"/speak Vincent \"Ok.$s\"/fade/viewport -1000 -1000/pause 400/speak Vincent \"It all started one night when I was cozy in bed.$3\"/changeToTemporaryMap SamHouse/warp farmer -100 -100/warp Penny -100 -100/warp Jas -100 -100/warp Shane -100 -100/warp Marnie -100 -100/warp Vincent 8 21/faceDirection Vincent 3/addObject 9 21 176/fade/viewport 10 23/playMusic nightTime/ambientLight 120 120 120/pause 1000/speak Vincent \"I thought it'd be a good idea for the eggie to be warm, too!#$b#So I put the eggie right next to me, and...\"/faceDirection Vincent 1/pause 200/playSound dwop/specificTemporarySprite dropEgg/jump Vincent 8/speak Vincent \"Mr. Eggie? Noooo!$s\"/shake Vincent 1200/fade/viewport -1000 -1000/stopMusic/pause 400/changeLocation AnimalShop/warp Penny 11 16/warp Jas 12 17/warp Shane 13 16/warp Marnie 12 14/warp Vincent 14 17/faceDirection Vincent 0/viewport 13 18/playMusic distantBanjo/pause 1000/emote Vincent 28/speak Vincent \"I didn't know I'd roll over Mr. Eggie in my sleep! *sniff*$s\"/emote Shane 28/speak Shane \"It's ok, Vincent. You learned something new about yourself, at least!\"/emote Vincent 8/speak Shane \"You learned you move around when you sleep! That's something.#$b#I'm pretty sure I snore.\"/textAboveHead Marnie \"Yes, you do!\"/pause 500/emote Shane 28/pause 500/speak Shane \"Confirmed. See? Learning about yourself is good!\"/emote Vincent 60/speak Jas \"Shane, haven't you ever broken an egg?$3\"/emote Shane 16/speak Shane \"I sure have.$h#$b#Actually, when I was younger and in school, we did the same exercise of taking care of an egg for a week.\"/jump Jas 4/jump Vincent 4/speak Shane \"We called it 'reality strikes'. We had a 'day care' set up so you could leave your egg there while you went to class.#$b#I forgot it at daycare the first day!\"/emote Jas 16 true/emote Vincent 16 false/pause 500/speak Jas \"The horror!$3\"/speak Shane \"It was. Imagine if it was a real baby!$10\"/emote Jas 28 true/emote Vincent 28 false/pause 500/speak Shane \"The day I was supposed to turn in my egg, I was in a rush and didn't tie my shoelaces. I tripped while carrying the egg and it fell, making a mess.#$b#I didn't pass the assignment, unfortunately.\"/jump Vincent 4/speak Shane \"The next year, when we had the assignment again, I made sure I double-knotted my shoelaces!$h#$b#I got an A.\"/emote Vincent 32/speak Penny \"There's a lesson in everything, then. Thanks, Shane!\"/emote Marnie 20 true/emote Vincent 32 true/emote Shane 32 true/emote Jas 56 false/pause 500/end"
+            }
+        },
+        // Kid Egg Care End CTs
+        /*Shane CT*/ {
+            "LogName": "Kid Egg Care End CT - Shane",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Shane",
+            "Entries": {
+                "ItTakesAVillage_KidEggCareEnd": "{{i18n:ItTakesAVillage_KidEggCareEndCT_Shane}}"
+            }
+        },
+        /*Sam CT*/ {
+            "LogName": "Kid Egg Care End CT - Sam",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "Entries": {
+                "ItTakesAVillage_KidEggCareEnd": "{{i18n:ItTakesAVillage_KidEggCareEndCT_Sam}}"
+            }
+        },
+        /*Jas CT*/ {
+            "LogName": "Kid Egg Care End CT - Jas",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jas",
+            "Entries": {
+                "ItTakesAVillage_KidEggCareEnd": "{{i18n:ItTakesAVillage_KidEggCareEndCT_Jas}}"
+            }
+        },
+        /*Vincent CT*/ {
+            "LogName": "Kid Egg Care End CT - Vincent",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Vincent",
+            "Entries": {
+                "ItTakesAVillage_KidEggCareEnd": "{{i18n:ItTakesAVillage_KidEggCareEndCT_Vincent}}"
+            }
+        },
+        /*Jodi CT*/ {
+            "LogName": "Kid Egg Care End CT - Jodi",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jodi",
+            "Entries": {
+                "ItTakesAVillage_KidEggCareEnd": "{{i18n:ItTakesAVillage_KidEggCareEndCT_Jodi}}"
+            }
+        },
+        /*Kent CT*/ {
+            "LogName": "Kid Egg Care End CT - Kent",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kent",
+            "Entries": {
+                "ItTakesAVillage_KidEggCareEnd": "{{i18n:ItTakesAVillage_KidEggCareEndCT_Kent}}"
+            }
+        },
+        /*Marnie CT*/ {
+            "LogName": "Kid Egg Care End CT - Marnie",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Marnie",
+            "Entries": {
+                "ItTakesAVillage_KidEggCareEnd": "{{i18n:ItTakesAVillage_KidEggCareEndCT_Marnie}}"
+            }
+        },
+        /*Penny CT*/ {
+            "LogName": "Kid Egg Care End CT - Penny",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Penny",
+            "Entries": {
+                "ItTakesAVillage_KidEggCareEnd": "{{i18n:ItTakesAVillage_KidEggCareEndCT_Penny}}"
+            }
+        },
         //
         // Robin Woodworking - Done!
         /*Event proper*/ {
