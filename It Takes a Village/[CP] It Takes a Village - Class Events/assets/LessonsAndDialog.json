@@ -1774,9 +1774,7 @@
         // use the same dialogue lines for some of it and just use a dynamic token to randomly select which kid it is, with a key or check to make sure it doesn't pick the same kid twice
         // Make sure you follow the dynamic token route for the random like you did Demetrius botany, so the villagers don't forget who did what
         // heart wrenching rendition of Vincent crying as he tries to explain what happened to the egg
-        // something initially heartwarming, like "I wanted to keep the egg warm, so I put it close to me while I slept" :cut to a flashback, terrible things happened:
-        // we could actually see him lying in bed, then accidentally rolling over the eggie, cue the sprite, the sobs, etc.
-        // need to confirm if I can fake night time when Vincent is lying in bed... maybe something at the map level? Set music to nightTime and use ambientLight 120 120 120 (That's a grey. The numbers go from 0 to 255, see about testing a light/dark orange)
+        // need to confirm if I can fake night time when Vincent is lying in bed... maybe something at the map level? Set music to nightTime and use ambientLight 120 120 120 (That's a grey. The numbers go from 0 to 255, vanilla uses 0 0 0 for an event at night)
         /*Event proper*/ {
             "LogName": "Kid Egg Care End Event",
             "Action": "EditData",
