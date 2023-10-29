@@ -1532,7 +1532,7 @@
             "Action": "EditData",
             "Target": "Data/Events/AnimalShop",
             "Entries": {
-                "31032036/t 900 1800/A ItTakesAVillage_Beginning/A ItTakesAVillage_AlexPE/A ItTakesAVillage_GusCooking/A ItTakesAVillage_ElliottStories/A ItTakesAVillage_HaleyLeahArt/A ItTakesAVillage_AbigailEconomics/A ItTakesAVillage_SebProgram/A ItTakesAVillage_DemetriusBotany/A ItTakesAVillage_MaruElectronics/A ItTakesAVillage_EmilyDance/A ItTakesAVillage_HarveyAnatomy/A ItTakesAVillage_AbigailVideoGames/A ItTakesAVillage_ClintMetalworking/A ItTakesAVillage_SamMusic/A ItTakesAVillage_AbigailSelfDefense/A ItTakesAVillage_RobinWoodworking": "distantBanjo/-1000 -1000/farmer -100 -100 0 Penny 29 18 3 Jas 30 16 0 Vincent 31 18 0 Shane 30 15 2 Marnie 23 18 1/viewport 23 16 true/addConversationTopic ItTakesAVillage_ShaneAnimalCare {{MinimumDaysBetweenLessons}}/{{SkippableToken}}/emote Vincent 32/jump Jas 4/pause 500/emote Shane 32 true/emote Penny 32 false/pause 50/emote Marnie 32/speak Marnie \"{{i18n:event-31032036.01}}\"/emote Penny 32 true/speed Marnie 5/move Marnie -8 0 0/speed Marnie 5/move Marnie 0 -5 3/speed Marnie 5/move Marnie -2 0 2/speed Marnie 5/move Marnie 0 1 3/speed Marnie 5/move Marnie -1 0 2/pause 50/faceDirection Penny 0 false/pause 1300/playSound doorClose/warp farmer 13 18/pause 400/emote Marnie 20/pause 200/emote farmer 8/faceDirection farmer 1/pause 100/speed farmer 4/move farmer 7 0 1/speed farmer 3/faceDirection Penny 3 true/faceDirection Shane 3 false/pause 50/faceDirection Jas 3 true/faceDirection Vincent 3 true/pause 200/speak Shane \"{{ShaneAnimalCareFirstLine}}\"/emote farmer 32/pause 200/move farmer 3 0 0 true/fade/viewport -1000 -1000/halt/pause 400/playSound doorClose/pause 400/changetoTemporaryMap MarnieBarn false/warp Shane 11 6/warp Jas 10 5/warp Vincent 8 7/warp Penny 6 4/warp farmer 5 5/warp Marnie -100 -100/faceDirection Shane 3 true/faceDirection Jas 2 true/faceDirection Vincent 2 true/faceDirection Penny 1 true/faceDirection farmer 1 false/{{ShaneAnimalChickenPlacementToken}}/pause 200/viewport 8 7/pause 1000/faceDirection Vincent 1/move chicken5 -1 0 2 true/pause 400/move chicken2 3 0 1 true/faceDirection chicken1 3/faceDirection Vincent 0/pause 200/faceDirection Vincent 2/pause 400/move chicken4 0 1 2 true/pause 300/textAboveHead Vincent \"{{i18n:event-31032036.04}}\"/faceDirection Vincent 1/speak Shane \"{{i18n:event-31032036.05}}\"/emote Jas 16 true/jump Jas 4/speak Jas \"{{i18n:event-31032036.06}}\"/speak Shane \"{{i18n:event-31032036.07}}\"/emote Jas 32/move chicken3 0 1 0 true/pause 500/move chicken4 0 -1 0/pause 500/move chicken4 -1 0 2/animate chicken4 false true 700 16 17/speak Shane \"{{i18n:event-31032036.08}}\"/pause 200/{{ShaneAnimalCareSeenSamMusic}}/jump Jas 4/speak Jas \"{{i18n:event-31032036.13}}\"/speak Shane \"{{i18n:event-31032036.14}}\"/emote Vincent 40 true/move chicken3 1 0 1 true/move chicken2 2 0 1 true/pause 500/faceDirection chicken1 1/speak Vincent \"{{i18n:event-31032036.15}}\"/speak Shane \"{{i18n:event-31032036.16}}\"/emote Vincent 32/speak Shane \"{{i18n:event-31032036.17}}\"/jump Jas 4/speak Jas \"{{i18n:event-31032036.18}}\"/emote Shane 32/speak Penny \"{{i18n:event-31032036.19}}\"/emote Jas 60/speak Jas \"{{i18n:event-31032036.20}}\"/speak Shane \"{{i18n:event-31032036.21}}\"/pause 500/faceDirection chicken1 2/animate chicken1 false true 500 16 17/move chicken2 0 -1 0 true/pause 500/move chicken3 -1 0 3/faceDirection chicken3 2/speak Shane \"{{i18n:event-31032036.22}}\"/emote Vincent 16/speak Vincent \"{{i18n:event-31032036.23}}\"/faceDirection Jas 3/speak Jas \"{{i18n:event-31032036.24}}\"/emote Shane 20 true/emote Penny 32 false/pause 500/speak Shane \"{{i18n:event-31032036.25}}\"/faceDirection Jas 2/emote Jas 8 true/emote Vincent 8 true/pause 400/move Shane 0 3 2 true/fade/viewport -1000 -1000/halt/changeToTemporaryMap Forest false/warp Shane 101 18/warp Jas 100 17/warp Vincent 100 19/warp Penny 99 17/warp farmer 99 19/addTemporaryActor BlossomDuck 32 32 108 19 2 true/faceDirection Shane 2 true/faceDirection Jas 2 true/faceDirection Vincent 2 true/faceDirection Penny 2 true/faceDirection farmer 2 false/addTemporaryActor White_Cow 32 32 106 16 2 false Animal cow1/addTemporaryActor White_Cow 32 32 95 17 3 false Animal cow2/addTemporaryActor Brown_Cow 32 32 102 21 1 false Animal cow3/addTemporaryActor BabySheep 32 32 97 20 0 false Animal sheep1/viewport 100 18/pause 1000/move cow3 0 -1 0 true/pause 500/move sheep1 0 1 2/pause 500/move cow2 0 1 1/faceDirection Shane 3/faceDirection Penny 3 true/faceDirection farmer 3 false/faceDirection Jas 3 true/faceDirection Vincent 3 false/emote Shane 8/pause 300/pause 500/faceDirection cow1 2/animate cow1 false true 900 12 13/playSound Duck/pause 400/faceDirection Jas 1 true/faceDirection Shane 1 true/faceDirection Penny 1 true/faceDirection Vincent 1 true/faceDirection farmer 1 false/pause 100/{{ShaneAnimalCareCrowOrBug}}/pause 800/fade/{{ShaneAnimalCareHaveCCVisitor}}/viewport -1000 -1000/pause 400/changetoTemporaryMap MarnieBarn false/warp Shane 11 13/warp Penny 10 10/warp Jas 11 11/warp Vincent 10 12/warp farmer 11 9/faceDirection Shane 0 true/faceDirection Jas 0 true/faceDirection Vincent 0 true/faceDirection Penny 0 true/faceDirection farmer 0 false/pause 200/viewport 8 7/pause 1000/emote Shane 16/faceDirection Jas 2 true/faceDirection Vincent 2 true/faceDirection Penny 2 true/faceDirection farmer 2 false/pause 200/speak Shane \"{{i18n:event-31032036.33}}\"/jump Jas 5/pause 200/jump Vincent 5/pause 200/jump Jas 5/pause 200/jump Vincent 5/speak Penny \"{{i18n:event-31032036.34}}\"/emote Shane 32/speak Shane \"{{i18n:event-31032036.35}}\"/emote Jas 56 true/emote Vincent 56 false/addConversationTopic ItTakesAVillage_KidEggCare 3/pause 500/end"
+                "31032036/t 900 1800/A ItTakesAVillage_Beginning/A ItTakesAVillage_AlexPE/A ItTakesAVillage_GusCooking/A ItTakesAVillage_ElliottStories/A ItTakesAVillage_HaleyLeahArt/A ItTakesAVillage_AbigailEconomics/A ItTakesAVillage_SebProgram/A ItTakesAVillage_DemetriusBotany/A ItTakesAVillage_MaruElectronics/A ItTakesAVillage_EmilyDance/A ItTakesAVillage_HarveyAnatomy/A ItTakesAVillage_AbigailVideoGames/A ItTakesAVillage_ClintMetalworking/A ItTakesAVillage_SamMusic/A ItTakesAVillage_AbigailSelfDefense/A ItTakesAVillage_RobinWoodworking": "distantBanjo/-1000 -1000/farmer -100 -100 0 Penny 29 18 3 Jas 30 16 0 Vincent 31 18 0 Shane 30 15 2 Marnie 23 18 1/viewport 23 16 true/addConversationTopic ItTakesAVillage_ShaneAnimalCare {{MinimumDaysBetweenLessons}}/{{SkippableToken}}/emote Vincent 32/jump Jas 4/pause 500/emote Shane 32 true/emote Penny 32 false/pause 50/emote Marnie 32/speak Marnie \"{{i18n:event-31032036.01}}\"/emote Penny 32 true/speed Marnie 5/move Marnie -8 0 0/speed Marnie 5/move Marnie 0 -5 3/speed Marnie 5/move Marnie -2 0 2/speed Marnie 5/move Marnie 0 1 3/speed Marnie 5/move Marnie -1 0 2/pause 50/faceDirection Penny 0 false/pause 1300/playSound doorClose/warp farmer 13 18/pause 400/emote Marnie 20/pause 200/emote farmer 8/faceDirection farmer 1/pause 100/speed farmer 4/move farmer 7 0 1/speed farmer 3/faceDirection Penny 3 true/faceDirection Shane 3 false/pause 50/faceDirection Jas 3 true/faceDirection Vincent 3 true/pause 200/speak Shane \"{{ShaneAnimalCareFirstLine}}\"/emote farmer 32/pause 200/move farmer 3 0 0 true/fade/viewport -1000 -1000/halt/pause 400/playSound doorClose/pause 400/changetoTemporaryMap MarnieBarn false/warp Shane 11 6/warp Jas 10 5/warp Vincent 8 7/warp Penny 6 4/warp farmer 5 5/warp Marnie -100 -100/faceDirection Shane 3 true/faceDirection Jas 2 true/faceDirection Vincent 2 true/faceDirection Penny 1 true/faceDirection farmer 1 false/{{ShaneAnimalChickenPlacementToken}}/pause 200/viewport 8 7/pause 1000/faceDirection Vincent 1/move chicken5 -1 0 2 true/pause 400/move chicken2 3 0 1 true/faceDirection chicken1 3/faceDirection Vincent 0/pause 200/faceDirection Vincent 2/pause 400/move chicken4 0 1 2 true/pause 300/textAboveHead Vincent \"{{i18n:event-31032036.04}}\"/faceDirection Vincent 1/speak Shane \"{{i18n:event-31032036.05}}\"/emote Jas 16 true/jump Jas 4/speak Jas \"{{i18n:event-31032036.06}}\"/speak Shane \"{{i18n:event-31032036.07}}\"/emote Jas 32/move chicken3 0 1 0 true/pause 500/move chicken4 0 -1 0/pause 500/move chicken4 -1 0 2/animate chicken4 false true 700 16 17/speak Shane \"{{i18n:event-31032036.08}}\"/pause 200/{{ShaneAnimalCareSeenSamMusic}}/jump Jas 4/speak Jas \"{{i18n:event-31032036.13}}\"/speak Shane \"{{i18n:event-31032036.14}}\"/emote Vincent 40 true/move chicken3 1 0 1 true/move chicken2 2 0 1 true/pause 500/faceDirection chicken1 1/speak Vincent \"{{i18n:event-31032036.15}}\"/speak Shane \"{{i18n:event-31032036.16}}\"/emote Vincent 32/speak Shane \"{{i18n:event-31032036.17}}\"/jump Jas 4/speak Jas \"{{i18n:event-31032036.18}}\"/emote Shane 32/speak Penny \"{{i18n:event-31032036.19}}\"/emote Jas 60/speak Jas \"{{i18n:event-31032036.20}}\"/speak Shane \"{{i18n:event-31032036.21}}\"/pause 500/faceDirection chicken1 2/animate chicken1 false true 500 16 17/move chicken2 0 -1 0 true/pause 500/move chicken3 -1 0 3/faceDirection chicken3 2/speak Shane \"{{i18n:event-31032036.22}}\"/emote Vincent 16/speak Vincent \"{{i18n:event-31032036.23}}\"/faceDirection Jas 3/speak Jas \"{{i18n:event-31032036.24}}\"/emote Shane 20 true/emote Penny 32 false/pause 500/speak Shane \"{{i18n:event-31032036.25}}\"/faceDirection Jas 2/emote Jas 8 true/emote Vincent 8 true/pause 400/move Shane 0 3 2 true/fade/viewport -1000 -1000/halt/changeToTemporaryMap Forest false/warp Shane 101 18/warp Jas 100 17/warp Vincent 100 19/warp Penny 99 17/warp farmer 99 19/addTemporaryActor BlossomDuck 32 32 108 19 2 true/faceDirection Shane 2 true/faceDirection Jas 2 true/faceDirection Vincent 2 true/faceDirection Penny 2 true/faceDirection farmer 2 false/addTemporaryActor White_Cow 32 32 106 16 2 false Animal cow1/addTemporaryActor White_Cow 32 32 95 17 3 false Animal cow2/addTemporaryActor Brown_Cow 32 32 102 21 1 false Animal cow3/addTemporaryActor BabySheep 32 32 97 20 0 false Animal sheep1/viewport 100 18/pause 1000/move cow3 0 -1 0 true/pause 500/move sheep1 0 1 2/pause 500/move cow2 0 1 1/faceDirection Shane 3/faceDirection Penny 3 true/faceDirection farmer 3 false/faceDirection Jas 3 true/faceDirection Vincent 3 false/emote Shane 8/pause 300/pause 500/faceDirection cow1 2/animate cow1 false true 900 12 13/playSound Duck/pause 400/faceDirection Jas 1 true/faceDirection Shane 1 true/faceDirection Penny 1 true/faceDirection Vincent 1 true/faceDirection farmer 1 false/pause 100/{{ShaneAnimalCareCrowOrBug}}/pause 800/fade/{{ShaneAnimalCareHaveCCVisitor}}/viewport -1000 -1000/pause 400/changetoTemporaryMap MarnieBarn false/warp Shane 11 13/warp Penny 10 10/warp Jas 11 11/warp Vincent 10 12/warp farmer 11 9/faceDirection Shane 0 true/faceDirection Jas 0 true/faceDirection Vincent 0 true/faceDirection Penny 0 true/faceDirection farmer 0 false/pause 200/viewport 8 7/pause 1000/emote Shane 16/faceDirection Jas 2 true/faceDirection Vincent 2 true/faceDirection Penny 2 true/faceDirection farmer 2 false/pause 200/speak Shane \"{{i18n:event-31032036.33}}\"/jump Jas 5/pause 200/jump Vincent 5/pause 200/jump Jas 5/pause 200/jump Vincent 5/speak Penny \"{{i18n:event-31032036.34}}\"/emote Shane 32/speak Shane \"{{i18n:event-31032036.35}}\"/emote Jas 56 true/emote Vincent 56 false/addConversationTopic ItTakesAVillage_KidEggCareStart 3/pause 500/end"
             },
             "When": {
                 "SamMusicAndShaneAnimalCareToken": "ShaneAnimalCareYes, ShaneAnimalCareYesSamMusicNo",
@@ -1624,6 +1624,71 @@
             "Target": "Characters/Dialogue/Penny",
             "Entries": {
                 "ItTakesAVillage_ShaneAnimalCare": "{{ShaneAnimalCarePennyCT}}"
+            }
+        },
+        // Kid Egg Care CTs
+        /*Shane CT*/ {
+            "LogName": "Kid Egg Care Start CT - Shane",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Shane",
+            "Entries": {
+                "ItTakesAVillage_KidEggCareStart": "{{KidEggCareStartShaneCT}}"
+            }
+        },
+        /*Sam CT*/ {
+            "LogName": "Kid Egg Care Start CT - Sam",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "Entries": {
+                "ItTakesAVillage_KidEggCareStart": "{{KidEggCareStartSamCT}}"
+            }
+        },
+        /*Jas CT*/ {
+            "LogName": "Kid Egg Care Start CT - Jas",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jas",
+            "Entries": {
+                "ItTakesAVillage_KidEggCareStart": "{{KidEggCareStartJasCT}}"
+            }
+        },
+        /*Vincent CT*/ {
+            "LogName": "Kid Egg Care Start CT - Vincent",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Vincent",
+            "Entries": {
+                "ItTakesAVillage_KidEggCareStart": "{{KidEggCareStartVincentCT}}"
+            }
+        },
+        /*Jodi CT*/ {
+            "LogName": "Kid Egg Care Start CT - Jodi",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jodi",
+            "Entries": {
+                "ItTakesAVillage_KidEggCareStart": "{{KidEggCareStartJodiCT}}"
+            }
+        },
+        /*Kent CT*/ {
+            "LogName": "Kid Egg Care Start CT - Kent",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kent",
+            "Entries": {
+                "ItTakesAVillage_KidEggCareStart": "{{KidEggCareStartKentCT}}"
+            }
+        },
+        /*Marnie CT*/ {
+            "LogName": "Kid Egg Care Start CT - Marnie",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Marnie",
+            "Entries": {
+                "ItTakesAVillage_KidEggCareStart": "{{KidEggCareStartMarnieCT}}"
+            }
+        },
+        /*Penny CT*/ {
+            "LogName": "Kid Egg Care Start CT - Penny",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Penny",
+            "Entries": {
+                "ItTakesAVillage_KidEggCareStart": "{{KidEggCareStartPennyCT}}"
             }
         },
         //
