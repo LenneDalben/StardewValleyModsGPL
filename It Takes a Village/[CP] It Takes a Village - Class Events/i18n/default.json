@@ -772,6 +772,15 @@
   "ItTakesAVillage_ShaneAnimalCareCT_Sterling_No8Heart": "Well, well, look who's maybe finally getting his life together. Good for Shane.$10",
   "ItTakesAVillage_ShaneAnimalCareCT_Penny_YesCrow": "I really would have appreciated a heads up from Shane.$5#$b#Blossom was a calmer big bird, at least.$3",
   "ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow": "I was surprised to see Shane interested in giving a lesson, let alone one so gentle. It's a good side to him!#$b#Plus, Vincent was happy to see more of what Jas talks about with the animals.",
+  // Kid Egg Care Start CTs
+  "ItTakesAVillage_KidEggCareStartCT_Shane": "",
+  "ItTakesAVillage_KidEggCareStartCT_Sam": "",
+  "ItTakesAVillage_KidEggCareStartCT_Jas": "",
+  "ItTakesAVillage_KidEggCareStartCT_Vincent": "",
+  "ItTakesAVillage_KidEggCareStartCT_Jodi": "",
+  "ItTakesAVillage_KidEggCareStartCT_Kent": "",
+  "ItTakesAVillage_KidEggCareStartCT_Marnie": "",
+  "ItTakesAVillage_KidEggCareStartCT_Penny": "",
   // 
   // Robin Woodworking event
   "event-31032038.01": "Welcome one and all to Robin's woodshop!$h",
