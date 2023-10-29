@@ -30,6 +30,7 @@
     /*
     Updates and fixes 0.9.9:
     * Updated readme to reflect change in plans: I will not add kids from other mods or add lessons led by custom NPCs. If custom NPC mod authors want to add lessons for their NPCs in a similar format, they're welcome to do so in their own mod!
+    * Added East Scarp to the list of mods supported by the automatic Load Blacksmith Token
 
     Updates and fixes in 0.9.8:
     * Fixed filename issue for Punchinator 3000's Load patch (thanks nicole for reporting!)
