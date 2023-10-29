@@ -781,6 +781,18 @@
   "ItTakesAVillage_KidEggCareStartCT_Kent": "",
   "ItTakesAVillage_KidEggCareStartCT_Marnie": "",
   "ItTakesAVillage_KidEggCareStartCT_Penny": "",
+  // Suggest Egg Check In event
+  "event-31032043.01": "Hmm, I should check in with how Jas and Vincent are doing with their eggs.",
+  // Suggest Egg Check In CTs
+  "ItTakesAVillage_KidEggCheckInCT_Shane": "",
+  "ItTakesAVillage_KidEggCheckInCT_Sam": "",
+  "ItTakesAVillage_KidEggCheckInCT_Jas": "",
+  "ItTakesAVillage_KidEggCheckInCT_Vincent": "",
+  "ItTakesAVillage_KidEggCheckInCT_Jodi": "",
+  "ItTakesAVillage_KidEggCheckInCT_Kent": "",
+  "ItTakesAVillage_KidEggCheckInCT_Marnie": "",
+  "ItTakesAVillage_KidEggCheckInCT_Penny": "",
+  // 
   // 
   // Robin Woodworking event
   "event-31032038.01": "Welcome one and all to Robin's woodshop!$h",
