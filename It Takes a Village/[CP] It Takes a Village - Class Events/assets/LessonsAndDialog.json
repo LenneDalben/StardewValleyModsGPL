@@ -1632,7 +1632,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Shane",
             "Entries": {
-                "ItTakesAVillage_KidEggCareStart": "{{KidEggCareStartShaneCT}}"
+                "ItTakesAVillage_KidEggCareStart": "{{i18n:ItTakesAVillage_KidEggCareStartCT_Shane}}"
             }
         },
         /*Sam CT*/ {
@@ -1640,7 +1640,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sam",
             "Entries": {
-                "ItTakesAVillage_KidEggCareStart": "{{KidEggCareStartSamCT}}"
+                "ItTakesAVillage_KidEggCareStart": "{{i18n:ItTakesAVillage_KidEggCareStartCT_Sam}}"
             }
         },
         /*Jas CT*/ {
@@ -1648,7 +1648,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Jas",
             "Entries": {
-                "ItTakesAVillage_KidEggCareStart": "{{KidEggCareStartJasCT}}"
+                "ItTakesAVillage_KidEggCareStart": "{{i18n:ItTakesAVillage_KidEggCareStartCT_Jas}}"
             }
         },
         /*Vincent CT*/ {
@@ -1656,7 +1656,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Vincent",
             "Entries": {
-                "ItTakesAVillage_KidEggCareStart": "{{KidEggCareStartVincentCT}}"
+                "ItTakesAVillage_KidEggCareStart": "{{i18n:ItTakesAVillage_KidEggCareStartCT_Vincent}}"
             }
         },
         /*Jodi CT*/ {
@@ -1664,7 +1664,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Jodi",
             "Entries": {
-                "ItTakesAVillage_KidEggCareStart": "{{KidEggCareStartJodiCT}}"
+                "ItTakesAVillage_KidEggCareStart": "{{i18n:ItTakesAVillage_KidEggCareStartCT_Jodi}}"
             }
         },
         /*Kent CT*/ {
@@ -1672,7 +1672,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Kent",
             "Entries": {
-                "ItTakesAVillage_KidEggCareStart": "{{KidEggCareStartKentCT}}"
+                "ItTakesAVillage_KidEggCareStart": "{{i18n:ItTakesAVillage_KidEggCareStartCT_Kent}}"
             }
         },
         /*Marnie CT*/ {
@@ -1680,7 +1680,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Marnie",
             "Entries": {
-                "ItTakesAVillage_KidEggCareStart": "{{KidEggCareStartMarnieCT}}"
+                "ItTakesAVillage_KidEggCareStart": "{{i18n:ItTakesAVillage_KidEggCareStartCT_Marnie}}"
             }
         },
         /*Penny CT*/ {
@@ -1688,7 +1688,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Penny",
             "Entries": {
-                "ItTakesAVillage_KidEggCareStart": "{{KidEggCareStartPennyCT}}"
+                "ItTakesAVillage_KidEggCareStart": "{{i18n:ItTakesAVillage_KidEggCareStartCT_Penny}}"
             }
         },
         //
