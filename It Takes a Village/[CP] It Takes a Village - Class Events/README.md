@@ -32,7 +32,7 @@ Config Options
 
 * Portrait and Sprite Overlay Goggle Config: Specify if you want the Maru electronics lesson to include a portrait and sprite goggle overlay as a fun feature (true, false). Default is true. The overlays were designed for vanilla and Diverse Stardew (DSV), and will work for Seasonal Outfits - Slightly Cuter Aesthetic. If you use any other portrait or sprite mod that affect Maru, Jas, and/or Vincent, you may want to set this to false for immersion.
 
-* Load Blacksmith Config: Set this to false to avoid a Load error if you have a mod that adds events to the Blacksmith shop besides Clint Marriage Mod, Looking for Love, or Lucikiel. Default is true. ITAV automatically detects Clint Marriage Mod, Looking for Love, and Lucikiel so adjusting this setting is not needed for those mods.
+* Load Blacksmith Config: Set this to false to avoid a Load error if you have a mod that adds events to the Blacksmith shop besides Clint Marriage Mod, Looking for Love, Lucikiel, or East Scarp. Default is true. ITAV automatically detects Clint Marriage Mod, Looking for Love, Lucikiel, and East Scarp so adjusting this setting is not needed for those mods.
 
 * Edit Penny 8 Heart Event: The first question in Penny's 8 heart event is tweaked to include a reference to the lessons. Default is true. This edit is compatible with atravita's Penny 8 Heart Event Adjusted, Hanatsuki's Gender Neutrality Mod, Hanatsuki's Fix Dialog Differences, Not a Farmer - Job Title Replacer, and Villager Name Replacer. Set this to false if you have another mod that edits Penny's 8 heart event.
 

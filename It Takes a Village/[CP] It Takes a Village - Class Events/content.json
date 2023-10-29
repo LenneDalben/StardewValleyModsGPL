@@ -97,7 +97,8 @@
 				"LoadBlacksmithConfig": "true",
 				"HasMod |contains=foggy.LfL": false,
 				"HasMod |contains=ClintMarriageMod": false,
-				"HasMod |contains=Arknir.Lucikiel": false
+				"HasMod |contains=Arknir.Lucikiel": false,
+				"HasMod |contains=Arknir.Lemurkat.JacobEloise.CP": false
 			}
 		},
 		/*Doesn't load the blacksmith empty file if the config says false*/ {
@@ -107,11 +108,11 @@
 				"LoadBlacksmithConfig": "false"
 			}
 		},
-		/*Doesn't load the blacksmith empty file if Looking for Love by foggywizard, Clint Marriage Mod by babybird2/yuzu, or Lucikiel by Arknir are installed*/ {
+		/*Doesn't load the blacksmith empty file if Looking for Love by foggywizard, Clint Marriage Mod by babybird2/yuzu, Lucikiel by Arknir, or East Scarp by Lemurkat are installed*/ {
 			"Name": "LoadBlacksmithToken",
 			"Value": "false",
 			"When": {
-				"HasMod |contains=foggy.LfL, ClintMarriageMod, Arknir.Lucikiel": true
+				"HasMod |contains=foggy.LfL, ClintMarriageMod, Arknir.Lucikiel, Lemurkat.JacobEloise.CP": true
 			}
 		},
 		// Tokens for HasSeenEvent: the events themselves check for the value of this token. For example, the Alex PE lesson checks AlexPEAndGusCookingToken value for either AlexPEYes or GusCookingYesAlexPENo in order to play the Alex PE lesson.
