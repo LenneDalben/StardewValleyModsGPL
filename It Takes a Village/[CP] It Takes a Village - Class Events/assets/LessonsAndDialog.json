@@ -1691,6 +1691,8 @@
                 "ItTakesAVillage_KidEggCareStart": "{{i18n:ItTakesAVillage_KidEggCareStartCT_Penny}}"
             }
         },
+        // The short void event telling you to check in with the kids.
+        // <INSERT EVENT CODE HERE>
         //
         // Robin Woodworking - Done!
         /*Event proper*/ {
