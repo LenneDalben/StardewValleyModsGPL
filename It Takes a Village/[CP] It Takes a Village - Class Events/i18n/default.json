@@ -782,16 +782,29 @@
   "ItTakesAVillage_KidEggCareStartCT_Marnie": "",
   "ItTakesAVillage_KidEggCareStartCT_Penny": "",
   // Suggest Egg Check In event
-  "event-31032043.01": "Hmm, I should check in with how Jas and Vincent are doing with their eggs.",
+  "event-31032043.01": "Hmm, I wonder how Jas and Vincent are doing with their eggs, maybe I should ask. Their families might also have some thoughts.",
   // Suggest Egg Check In CTs
   "ItTakesAVillage_KidEggCheckInCT_Shane": "",
   "ItTakesAVillage_KidEggCheckInCT_Sam": "",
   "ItTakesAVillage_KidEggCheckInCT_Jas": "",
-  "ItTakesAVillage_KidEggCheckInCT_Vincent": "",
+  "ItTakesAVillage_KidEggCheckInCT_Vincent": "The egg?$3#$b#%Vincent looks away, as if something bad happened.",
   "ItTakesAVillage_KidEggCheckInCT_Jodi": "",
   "ItTakesAVillage_KidEggCheckInCT_Kent": "",
   "ItTakesAVillage_KidEggCheckInCT_Marnie": "",
   "ItTakesAVillage_KidEggCheckInCT_Penny": "",
+  // Suggest Kid Egg Care End event
+  "event-31032044.01": "It's been a week since Vincent and Jas got their eggs. I should head over to Marnie's shop and see how they did.",
+  // Kid Egg Care End event
+  // <INSERT LINES HERE>
+  // Kid Egg Care End CTs
+  "ItTakesAVillage_KidEggCareEndCT_Shane": "",
+  "ItTakesAVillage_KidEggCareEndCT_Sam": "",
+  "ItTakesAVillage_KidEggCareEndCT_Jas": "",
+  "ItTakesAVillage_KidEggCareEndCT_Vincent": "",
+  "ItTakesAVillage_KidEggCareEndCT_Jodi": "",
+  "ItTakesAVillage_KidEggCareEndCT_Kent": "",
+  "ItTakesAVillage_KidEggCareEndCT_Marnie": "",
+  "ItTakesAVillage_KidEggCareEndCT_Penny": "",
   // 
   // 
   // Robin Woodworking event
