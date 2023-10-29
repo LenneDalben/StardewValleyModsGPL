@@ -2,7 +2,7 @@
    "Name": "[CP] It Takes a Village - Class Events",
    "Author": "LenneDalben",
    "Description": "NPCs help out Penny teach the kiddos by giving lessons.",
-   "Version": "0.9.7",
+   "Version": "0.9.8",
    "UniqueID": "LenneDalben.CP.ItTakesaVillage",
    "UpdateKeys": [ "" ],
    "ContentPackFor": {
@@ -28,17 +28,10 @@
         }
     ]
     /*
-    Updates and fixes 0.9.8:
+    Updates and fixes 0.9.9:
     * Updated readme to reflect change in plans: I will not add kids from other mods or add lessons led by custom NPCs. If custom NPC mod authors want to add lessons for their NPCs in a similar format, they're welcome to do so in their own mod!
 
-    Updates and fixes in 0.9.7:
-    * Added Robin woodworking lesson!
-    * Added Abigail self-defense lesson!
-    * Updated Maru Electronics lesson to use an "animated" temp actor for the potato table instead of warping temp actors in and out (thank you Arknir for the tip!)
-    * Created optional Lasting CTs pack to have the option of the CTs lasting until you talk to every last NPC, instead of being governed by the MinimumDaysBetweenLessons config setting. It is a separate folder that has the little period in the name by default to get SMAPI to skip it. If you want to use it, remove the period and the all-caps note from teh folder name.
-    * Fixed ProgressionMode default; it is now correctly set to false
-    * Fixed WIP Beta issue with Maru and Demetrius CTs for Maru Electronics (thanks tia!)
-    * Renamed Harvey Anatomy CT to HarveyAnatomy instead of HarveyHealth
-    * Renamed Abigail Economics CT to AbigailEconomics instead of AbbyEcon
+    Updates and fixes in 0.9.8:
+    * Fixed filename issue for Punchinator 3000's Load patch (thanks nicole for reporting!)
     */
 }
