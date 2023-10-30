@@ -68,7 +68,7 @@ A note on Stardew Valley Expanded (SVE): I don’t use it and never will, so I w
 
 <a href="https://www.nexusmods.com/stardewvalley/users/70148453?tab=user+files">Airyn</a>, fantastic modder and friend. You provided the initial idea, created most of the custom sprites, and provided so much support and editing guidance on wording, in-character-ness, dynamic token magic, random token magic, etc. Without you, this mod would never have happened. Thank you so much <3
 
-<a href ="https://www.nexusmods.com/stardewvalley/users/116553368?tab=user+files">Atravita</a>, for helping me out with event forks
+<a href ="https://www.nexusmods.com/stardewvalley/users/116553368?tab=user+files">Atravita</a>, for helping me out with event forks and lighting
 
 <a href ="https://www.nexusmods.com/stardewvalley/users/114762643?tab=user+files">Calcite / CopperSun</a>, for the skippable token idea and some help with wording
 
@@ -78,7 +78,7 @@ A note on Stardew Valley Expanded (SVE): I don’t use it and never will, so I w
 
 <a href ="https://www.nexusmods.com/stardewvalley/users/5575844?tab=user+files">Lumina / Lumisteria</a> and <a href ="https://www.nexusmods.com/stardewvalley/users/48380238?tab=user+files">foggywizard</a>, for guidance on conversation topics stuff
 
-<a href ="https://www.nexusmods.com/stardewvalley/users/95265773?tab=user+files">max / skellady</a>, for information on Saloon schedules and being a beta tester
+<a href ="https://www.nexusmods.com/stardewvalley/users/95265773?tab=user+files">max / skellady</a>, for information on Saloon schedules, fades, and being a beta tester
 
 <a href ="https://www.nexusmods.com/stardewvalley/users/120958053?tab=user+files">Elizabeth / violetlizabet</a>, for helping me figure out some conditions for conversation topics and fun with randomization
 
@@ -90,7 +90,7 @@ A note on Stardew Valley Expanded (SVE): I don’t use it and never will, so I w
 
 <a href="https://www.nexusmods.com/stardewvalley/users/104804993?tab=user+files">nicole / beyondrecovery</a>, for help with figuring out the "walking off screen while fading out" effect, encouragement, wording help, and being a beta tester
 
-<a href="https://www.nexusmods.com/stardewvalley/users/69153238?tab=user+files">shekurika</a>, for help with figuring out Clint's hammering animation
+<a href="https://www.nexusmods.com/stardewvalley/users/69153238?tab=user+files">shekurika</a>, for help with figuring out Clint's hammering animation and fades
 
 <a href="https://www.nexusmods.com/stardewvalley/users/7439530?tab=user+files">ZoeDoll</a>, for being a beta tester
 
