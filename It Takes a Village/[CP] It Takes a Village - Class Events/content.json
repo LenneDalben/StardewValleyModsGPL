@@ -1638,7 +1638,7 @@
 		},
 		/*CT dialog for Jas - saw Demetrius Botany - Crow*/ {
 			"Name": "ShaneAnimalCareJasCT",
-			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_JasYesCrow}}",
+			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jas_YesCrow}}",
 			"When": {
 				"HasSeenEvent |contains=31032042": "true"
 			}
@@ -1660,7 +1660,7 @@
 		},
 		/*CT dialog for Vincent - saw Demetrius Botany - Crow*/ {
 			"Name": "ShaneAnimalCareVincentCT",
-			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_VincentYesCrow}}",
+			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Vincent_YesCrow}}",
 			"When": {
 				"HasSeenEvent |contains=31032042": "true"
 			}
@@ -1682,7 +1682,7 @@
 		},
 		/*CT dialog for Jodi - saw Demetrius Botany - Crow*/ {
 			"Name": "ShaneAnimalCareJodiCT",
-			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_JodiYesCrow}}",
+			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Jodi_YesCrow}}",
 			"When": {
 				"HasSeenEvent |contains=31032042": "true"
 			}
@@ -1704,7 +1704,7 @@
 		},
 		/*CT dialog for Kent - saw Demetrius Botany - Crow*/ {
 			"Name": "ShaneAnimalCareKentCT",
-			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_KentYesCrow}}",
+			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Kent_YesCrow}}",
 			"When": {
 				"HasSeenEvent |contains=31032042": "true"
 			}
@@ -1726,7 +1726,7 @@
 		},
 		/*CT dialog for Penny - saw Demetrius Botany - Crow*/ {
 			"Name": "ShaneAnimalCarePennyCT",
-			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_PennyYesCrow}}",
+			"Value": "{{i18n:ItTakesAVillage_ShaneAnimalCareCT_Penny_YesCrow}}",
 			"When": {
 				"HasSeenEvent |contains=31032042": "true"
 			}
