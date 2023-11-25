@@ -812,8 +812,8 @@
   "event-31032045.12": "How about you, Vincent? How did it go with your egg?",
   // Vincent egg is safe route
   "event-31032045.13": "VINCENT EGGIE SAFE ROUTE Mr. Eggie is safe!",
-  "event-31032045.14": "That's good, Vincent!#$b#I'm glad to see both our students did well.",
-  "event-31032045.15": "I'm glad to see neither of you broke your egg. PROCEED TO JAS ASKING SHANE IF HE EVER BROKE AN EGG",
+  "event-31032045.14": "That's good, Vincent!#$b#It's nice to see both our students did well.",
+  "event-31032045.15": "I'm also glad to see neither of you broke your egg. PROCEED TO JAS ASKING SHANE IF HE EVER BROKE AN EGG",
   // Vincent egg splat route
   "event-31032045.16": "VINCENT EGGIE SPLAT ROUTE Well...$3",
   "event-31032045.17": "I just wanted to keep Mr. Eggie warm!$s",
