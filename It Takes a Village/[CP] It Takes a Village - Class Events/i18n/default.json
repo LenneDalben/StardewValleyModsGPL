@@ -772,7 +772,7 @@
   "ItTakesAVillage_ShaneAnimalCareCT_Sterling_No8Heart": "Well, well, look who's maybe finally getting his life together. Good for Shane.$10",
   "ItTakesAVillage_ShaneAnimalCareCT_Penny_YesCrow": "I really would have appreciated a heads up from Shane.$5#$b#Blossom was a calmer big bird, at least.$3",
   "ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow": "I was surprised to see Shane interested in giving a lesson, let alone one so gentle. It's a good side to him!#$b#Plus, Vincent was happy to see more of what Jas talks about with the animals.",
-  // Kid Egg Care Start CTs
+  //Shane Kid Egg Care Start CTs
   "ItTakesAVillage_KidEggCareStartCT_Shane": "",
   "ItTakesAVillage_KidEggCareStartCT_Sam": "",
   "ItTakesAVillage_KidEggCareStartCT_Jas": "",
@@ -792,11 +792,56 @@
   "ItTakesAVillage_KidEggCheckInCT_Kent": "",
   "ItTakesAVillage_KidEggCheckInCT_Marnie": "",
   "ItTakesAVillage_KidEggCheckInCT_Penny": "",
-  // Suggest Kid Egg Care End event
+  // SuggestShane Kid Egg Care End event
   "event-31032044.01": "It's been a week since Vincent and Jas got their eggs. I should head over to Marnie's shop and see how they did.",
-  // Kid Egg Care End event
-  // <INSERT LINES HERE>
-  // Kid Egg Care End CTs
+  //Shane Kid Egg Care End event
+  "event-31032045.01": "Hi @! We were just about to hear how Jas and Vincent did with taking care of their eggs.$h",
+  "event-31032045.02": "That's right! Who wants to go first?",
+  "event-31032045.03": "Go ahead, Jas!$h",
+  // Jas egg is safe route
+  "event-31032045.04": "JAS EGGIE SAFE ROUTE My eggie did great!#$b#It's safe and sound.",
+  "event-31032045.05": "Very nice, Jas!$6",
+  "event-31032045.06": "You've learned well from us.$h",
+  // Jas egg hatched route
+  "event-31032045.07": "JAS EGGIE HATCHED ROUTE My eggie did great!#$b#It hatched!$h",
+  "event-31032045.08": "Woah, that's great, Jas! We'll need to bring it into the barn with the other animals.$h",
+  "event-31032045.09": "I'm so proud, Jas.$h",
+  "event-31032045.10": "I want to name it Waddles!$h",
+  "event-31032045.11": "That's a great name! END JAS EGGIE HATCHED ROUTE$h",
+  // question in the middle
+  "event-31032045.12": "How about you, Vincent? How did it go with your egg?",
+  // Vincent egg is safe route
+  "event-31032045.13": "VINCENT EGGIE SAFE ROUTE Mr. Eggie is safe!",
+  "event-31032045.14": "That's good, Vincent!#$b#I'm glad to see both our students did well.",
+  "event-31032045.15": "I'm glad to see neither of you broke your egg. PROCEED TO JAS ASKING SHANE IF HE EVER BROKE AN EGG",
+  // Vincent egg splat route
+  "event-31032045.16": "VINCENT EGGIE SPLAT ROUTE Well...$3",
+  "event-31032045.17": "I just wanted to keep Mr. Eggie warm!$s",
+  "event-31032045.18": "*sob*",
+  "event-31032045.19": "(Marnie, please help).$10",
+  "event-31032045.20": "It's ok, Vincent, take a breath.",
+  "event-31032045.21": "*sniff*",
+  "event-31032045.22": "Just tell us what happened, sweetie.",
+  "event-31032045.23": "Okay.$s",
+  "event-31032045.24": "It all started one night when I was cozy in bed.$3",
+  "event-31032045.25": "I thought it'd be a good idea for Mr. Eggie to be warm, too!$3#$b#So I put it right next to me, and...$3",
+  "event-31032045.26": "Mr. Eggie? Noooo!$s",
+  "event-31032045.27": "I didn't know I'd roll over Mr. Eggie in my sleep! *sniff*$s",
+  "event-31032045.28": "It's ok, Vincent. You learned something new about yourself, at least!",
+  "event-31032045.29": "You learned you move around when you sleep! That's something.#$b#I'm pretty sure I snore.",
+  "event-31032045.30": "Yes, you do!",
+  "event-31032045.31": "Confirmed. See? Learning about yourself is good!",
+  // this line is no longer in the event, keeping this here for the note to fix the breakage "event-31032045.32": "END VINCENT EGGIE SPLAT ROUTE AT JAS CHANGING DIRECTION RIGHT BEFORE THIS",
+  // forks rejoin for the end
+  "event-31032045.32": "Shane, have you ever broken an egg?$3",
+  "event-31032045.33": "I sure have.$h#$b#When I was younger and in school, we did the same exercise of taking care of an egg for a week.",
+  "event-31032045.34": "We called it 'reality strikes'. We had a 'day care' set up so you could leave your egg there while you went to class.#$b#I forgot it at daycare the first day!",
+  "event-31032045.35": "The horror!$3",
+  "event-31032045.36": "It was. Imagine if it was a real baby!$10",
+  "event-31032045.37": "The day I was supposed to turn in my egg, I was in a rush and didn't tie my shoelaces. I tripped while carrying the egg and it fell, making a mess.#$b#I didn't pass the assignment, unfortunately.",
+  "event-31032045.38": "The next year, when we had the assignment again, I made sure I double-knotted my shoelaces!$h#$b#I got an A.$6",
+  "event-31032045.39": "There's a lesson in everything, then. Thanks, Shane!",
+  //Shane Kid Egg Care End CTs
   "ItTakesAVillage_KidEggCareEndCT_Shane": "",
   "ItTakesAVillage_KidEggCareEndCT_Sam": "",
   "ItTakesAVillage_KidEggCareEndCT_Jas": "",

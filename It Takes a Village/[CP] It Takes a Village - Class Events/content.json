@@ -1746,6 +1746,43 @@
 				"HasSeenEvent |contains=31032042": "false"
 			}
 		},
+		// Tokens for Shane Kid Egg Care End
+		/*Deciding Jas egg outcome*/ {
+			"Name": "SetJasOutcome",
+			"Value": "{{Random: safe, hatch, hatch}}"
+		},
+		/*Deciding Vincent egg outcome*/ {
+			"Name": "SetVincentOutcome",
+			"Value": "{{Random: safe, splat, splat}}"
+		},
+		/*Set combined outcome to both safe for CTs*/ {
+			"Name": "CombinedOutcome",
+			"Value": "bothsafe",
+			"When": {
+				"SetVincentOutcome": "safe" // "HasSeenEvent |contains= ": where bothsafe
+			}
+		},
+		/*Set combined outcome to both safe for CTs*/ {
+			"Name": "CombinedOutcome",
+			"Value": "bothsafe",
+			"When": {
+				"SetVincentOutcome": "safe" // "HasSeenEvent |contains= ": where hatchsafe
+			}
+		},
+		/*Set combined outcome to splat for CTs*/ {
+			"Name": "CombinedOutcome",
+			"Value": "safesplat",
+			"When": {
+				"SetVincentOutcome": "splat" // "HasSeenEvent |contains= ": where safesplat
+			}
+		},
+		/*Set combined outcome to splat for CTs*/ {
+			"Name": "CombinedOutcome",
+			"Value": "hatchsplat",
+			"When": {
+				"SetVincentOutcome": "splat" // "HasSeenEvent |contains= ": where hatchsplat
+			}
+		},
 		// Robin Woodworking and Abigail Self-Defense
 		// HasSeenEvent tokens
 		/*have not seen either event in the pair*/ {
