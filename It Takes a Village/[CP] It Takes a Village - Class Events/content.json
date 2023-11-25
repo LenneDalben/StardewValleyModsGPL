@@ -1759,28 +1759,28 @@
 			"Name": "CombinedOutcome",
 			"Value": "bothsafe",
 			"When": {
-				"SetVincentOutcome": "safe" // "HasSeenEvent |contains= ": where bothsafe
+				"HasSeenEvent |contains= 31032045": true
 			}
 		},
-		/*Set combined outcome to both safe for CTs*/ {
+		/*Set combined outcome to hatch safe for CTs*/ {
 			"Name": "CombinedOutcome",
-			"Value": "bothsafe",
+			"Value": "hatchsafe",
 			"When": {
-				"SetVincentOutcome": "safe" // "HasSeenEvent |contains= ": where hatchsafe
+				"HasSeenEvent |contains= 31032046": true
 			}
 		},
-		/*Set combined outcome to splat for CTs*/ {
+		/*Set combined outcome to safe splat for CTs*/ {
 			"Name": "CombinedOutcome",
 			"Value": "safesplat",
 			"When": {
-				"SetVincentOutcome": "splat" // "HasSeenEvent |contains= ": where safesplat
+				"HasSeenEvent |contains= 31032047": true
 			}
 		},
-		/*Set combined outcome to splat for CTs*/ {
+		/*Set combined outcome to hatch splat for CTs*/ {
 			"Name": "CombinedOutcome",
 			"Value": "hatchsplat",
 			"When": {
-				"SetVincentOutcome": "splat" // "HasSeenEvent |contains= ": where hatchsplat
+				"HasSeenEvent |contains= 31032048": true
 			}
 		},
 		// Robin Woodworking and Abigail Self-Defense
