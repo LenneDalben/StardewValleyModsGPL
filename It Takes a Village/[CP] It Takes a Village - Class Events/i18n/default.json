@@ -326,7 +326,7 @@
   "ItTakesAVillage_SebProgramCT_Sebastian": "I'm... not really sure how that class went, to be honest.",
   "ItTakesAVillage_SebProgramCT_Abigail_NoEconYesVG": "Pff, as if Seb's programming had a chance after I introduced the kiddos to gaming.$h",
   "ItTakesAVillage_SebProgramCT_Abigail_NoEconNoVG": "Hehe, I think my interactive math class will go over better.",
-  "ItTakesAVillage_SebProgramCT_Abigail_YesEconYesVG": "Pff, as if Seb's programming had a chance after I wowed the kids with an interactive math class AND introduced themselves to gaming.$h",
+  "ItTakesAVillage_SebProgramCT_Abigail_YesEconYesVG": "Pff, as if Seb's programming had a chance after I wowed the kids with an interactive math class AND introduced them to gaming.$h",
   "ItTakesAVillage_SebProgramCT_Abigail_YesEconNoVG": "Hehe, the kids definitely had more fun in my interactive math class.",
   "ItTakesAVillage_SebProgramCT_Jas": "Controlling a computer doesn't seem fun.$3",
   "ItTakesAVillage_SebProgramCT_Vincent": "I guess Mr. Sebastian plays with a turtle in the computer. It doesn't look like a turtle though.$3",
@@ -878,7 +878,6 @@
   "ItTakesAVillage_KidEggCareEndCT_hatchsplat_Marnie": "",
   "ItTakesAVillage_KidEggCareEndCT_hatchsplat_Penny": "",
   // 
-  // 
   // Robin Woodworking event
   "event-31032038.01": "Welcome one and all to Robin's woodshop!$h",
   "event-31032038.02": "Hey @, you're just in time to see our lesson.",
@@ -913,7 +912,7 @@
   "ItTakesAVillage_RobinWoodworkingCT_Robin_YesDefenseYesMetalwork": "No offense to Abigail, but I feel woodworking is a more constructive outlet for kids",
   "ItTakesAVillage_RobinWoodworkingCT_Robin_YesDefenseNoMetalwork": "No offense to Abigail, but I feel woodworking is a more constructive outlet for kids.",
   "ItTakesAVillage_RobinWoodworkingCT_Robin_NoDefenseYesMetalwork": "Well, I didn't have something for the kids to take home, unlike Clint, but they still had fun.#$b#Besides, as a fellow parent, no way I'd give them a present that makes noise.$4#$b#Unlike some people.$6", // #BlameNicole for the cursed hand smile instead of just smile
-  "ItTakesAVillage_RobinWoodworkingCT_Robin_NoDefenseNoMetalwork": "It was good to see both VIncent and Jas get something out of the lesson.#$b#It's hard not to love making music.$h",
+  "ItTakesAVillage_RobinWoodworkingCT_Robin_NoDefenseNoMetalwork": "It was good to see both Vincent and Jas get something out of the lesson.#$b#It's hard not to love making music.$h",
   "ItTakesAVillage_RobinWoodworkingCT_Abigail_YesSelfDefense": "Hauling wood is one way to get strong.#$b#I prefer throwing kicks and punches though!$h",
   "ItTakesAVillage_RobinWoodworkingCT_Abigail_NoSelfDefense": "I hadn't considered creating my own instrument...#$b#I wonder if Robin knows about crafting a proper flute.$3",
   "ItTakesAVillage_RobinWoodworkingCT_Demetrius": "I'm proud of Robin! Imparting crafting knowledge helps prepare the youth for tomorrow.",
@@ -973,15 +972,15 @@
   "event-31032037.49": "Kya!",
   "event-31032037.50": "KYA!",
   // Abigail Self-Defense CTs
-  "ItTakesAVillage_AbigailSelfDefenseCT_Robin_YesWoodworkYesAnatomy": "Bones are certainly not my strong suit, but I'm open to try carving them out of wood, if it helps cheer up Harvey.?#$b#I hope the kids didn't get hurt by flying debris.",
+  "ItTakesAVillage_AbigailSelfDefenseCT_Robin_YesWoodworkYesAnatomy": "Bones are certainly not my strong suit, but I'm open to try carving them out of wood, if it helps cheer up Harvey.#$b#I hope the kids didn't get hurt by flying debris.",
   "ItTakesAVillage_AbigailSelfDefenseCT_Robin_YesWoodworkNoAnatomy": "Abigail seems quite strong! I think those statues are pretty tough to break with only one hit.$h#$b#Although I'm not sure how appropriate a lesson it is for children.",
   "ItTakesAVillage_AbigailSelfDefenseCT_Robin_NoWoodworkYesAnatomy": "Harvey seemed quite distraught.#$b#Surely a replacement wouldn't be hard to come by?#$b#I hope the kids didn't get hurt by flying debris.",
   "ItTakesAVillage_AbigailSelfDefenseCT_Robin_NoWoodworkNoAnatomy": "That's... an interesting lesson to teach kids. I hope they don't hurt themselves.",
   "ItTakesAVillage_AbigailSelfDefenseCT_Abigail_YesWoodworkYesAnatomy": "I'll have to apologize to Harvey, I really didn't think I'd be strong enough to 'kill' Punchinator 3000.$s#$b#Maybe Robin would take pity and be willing to make him a replacement target?",
-  "ItTakesAVillage_AbigailSelfDefenseCT_Abigail_YesWoodworkNoAnatomy": "I know Robin wasn't too thrilled with my lesson...#$b#Maybe if she'd actually seen it she'd have a different opinion.",
+  "ItTakesAVillage_AbigailSelfDefenseCT_Abigail_YesWoodworkNoAnatomy": "I know Robin wasn't too thrilled with my lesson...#$b#Maybe if she'd actually seen it she'd have a different opinion.#$b#It's so important to feel safe and confident. That's why I shared this lesson with Vincent and Jas.",
   "ItTakesAVillage_AbigailSelfDefenseCT_Abigail_NoWoodworkYesAnatomy": "I'll have to apologize to Harvey, I really didn't think I'd be strong enough to 'kill' Punchinator 3000.$s#$b#Maybe I can make it up to him somehow?",
   "ItTakesAVillage_AbigailSelfDefenseCT_Abigail_NoWoodworkNoAnatomy": "It's so important to feel safe and confident. That's why I shared this lesson with Vincent and Jas.#$b#Kicking butt is just a bonus.$h",
-  "ItTakesAVillage_AbigailSelfDefenseCT_Sam": "I knew Abigail was though, but wow. Gotta make sure I stay on her good side!$h",
+  "ItTakesAVillage_AbigailSelfDefenseCT_Sam": "I knew Abigail was tough, but wow. Gotta make sure I stay on her good side!$h",
   "ItTakesAVillage_AbigailSelfDefenseCT_Sebastian": "I'm not sure how useful self-defense is in a small town, but you never know.#$b#Better for people to feel safe.",
   "ItTakesAVillage_AbigailSelfDefenseCT_Harvey": "%It almost looks like Harvey is holding back tears.#$b#Poor Mr. Skelly!$s#$b#And to give him a new name?!$s#$b#%Harvey is beside himself and can't speak.",
   "ItTakesAVillage_AbigailSelfDefenseCT_Jas": "I'm not sure I can do this well... I guess that's where practice comes in.$3",
