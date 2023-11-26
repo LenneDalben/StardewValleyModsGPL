@@ -1133,7 +1133,7 @@
 			"Name": "AbbyVideoGamesSebastianCT",
 			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Sebastian_YesProgramYesAbby}}",
 			"When": {
-				"SebProgramAndAbbyEconToken": "SebProgramYesAbbyEconNo",
+				"SebProgramAndAbbyEconToken |contains=SebProgramAndAbbyEconDone, SebProgramYesAbbyEconNo": "true",
 				"HasSeenEvent |contains=31032033, 31032027, 31032037": "true",
 			}
 		},
@@ -1149,7 +1149,7 @@
 			"Name": "AbbyVideoGamesSebastianCT",
 			"Value": "{{i18n:ItTakesAVillage_AbigailVideoGamesCT_Sebastian_NoProgramYesAbby}}",
 			"When": {
-				"SebProgramAndAbbyEconToken": "AbbyEconNoSebProgramNo",
+				"SebProgramAndAbbyEconToken |contains=SebProgramYesAbbyEconNo, AbbyEconNoSebProgramNo": "true",
 				"HasSeenEvent |contains=31032033, 31032027, 31032037": "true",
 			}
 		},
