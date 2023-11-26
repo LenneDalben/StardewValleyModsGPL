@@ -2094,6 +2094,48 @@
 				"HasSeenEvent |contains=63": "false"
 			}
 		},
+		// Sebastian Troubleshooting
+		// HasSeenEvent token
+		/*Saw Sebastian Programming Basics and at least 2 Abby lessons*/ {
+			"Name": "SebTroubleshootPlay",
+			"Value": "Yes",
+			"When": {
+				"HasSeenEvent |contains=31032038": "true", // Sebastian Programming Basics
+				"Query: ({{HasSeenEvent |contains=31032033}} AND {{HasSeenEvent |contains=31032027}}) OR ({{HasSeenEvent |contains=31032033}} AND {{HasSeenEvent |contains=31032037}}) OR ({{HasSeenEvent |contains=31032027}} AND {{HasSeenEvent |contains=31032027}})": true
+				// "HasSeenEvent |contains=31032033, 31032027, 31032037": "true"
+				// for testing patch parse "{{Query: ({{HasSeenEvent|contains= 31032033}} AND {{HasSeenEvent|contains= 31032027}}) OR ({{HasSeenEvent|contains= 31032033}} AND {{HasSeenEvent|contains= 31032037}}) OR ({{HasSeenEvent|contains= 31032027}} AND {{HasSeenEvent|contains= 31032027}})}}"
+			}
+		},
+		/*Have not seen Sebastian Programming Basics or at least 2 Abby lessons*/ {
+			"Name": "SebTroubleshootPlay",
+			"Value": "No",
+			"When": {
+				"HasSeenEvent |contains=31032038": "false", // Sebastian Programming Basics
+				"Query: ({{HasSeenEvent |contains=31032033}} AND {{HasSeenEvent |contains=31032027}}) OR ({{HasSeenEvent |contains=31032033}} AND {{HasSeenEvent |contains=31032037}}) OR ({{HasSeenEvent |contains=31032027}} AND {{HasSeenEvent |contains=31032027}})": false
+				// "HasSeenEvent |contains=31032033, 31032027, 31032037": "true"
+				// for testing patch parse "{{Query: ({{HasSeenEvent|contains= 31032033}} AND {{HasSeenEvent|contains= 31032027}}) OR ({{HasSeenEvent|contains= 31032033}} AND {{HasSeenEvent|contains= 31032037}}) OR ({{HasSeenEvent|contains= 31032027}} AND {{HasSeenEvent|contains= 31032027}})}}"
+			}
+		},
+		/*Have not seen Sebastian Programming Basics but saw at least 2 Abby lessons*/ {
+			"Name": "SebTroubleshootPlay",
+			"Value": "No",
+			"When": {
+				"HasSeenEvent |contains=31032038": "false", // Sebastian Programming Basics
+				"Query: ({{HasSeenEvent |contains=31032033}} AND {{HasSeenEvent |contains=31032027}}) OR ({{HasSeenEvent |contains=31032033}} AND {{HasSeenEvent |contains=31032037}}) OR ({{HasSeenEvent |contains=31032027}} AND {{HasSeenEvent |contains=31032027}})": true
+				// "HasSeenEvent |contains=31032033, 31032027, 31032037": "true"
+				// for testing patch parse "{{Query: ({{HasSeenEvent|contains= 31032033}} AND {{HasSeenEvent|contains= 31032027}}) OR ({{HasSeenEvent|contains= 31032033}} AND {{HasSeenEvent|contains= 31032037}}) OR ({{HasSeenEvent|contains= 31032027}} AND {{HasSeenEvent|contains= 31032027}})}}"
+			}
+		},
+		/*Saw Sebastian Programming Basics but did not see at least 2 Abby lessons*/ {
+			"Name": "SebTroubleshootPlay",
+			"Value": "No",
+			"When": {
+				"HasSeenEvent |contains=31032038": "true", // Sebastian Programming Basics
+				"Query: ({{HasSeenEvent |contains=31032033}} AND {{HasSeenEvent |contains=31032027}}) OR ({{HasSeenEvent |contains=31032033}} AND {{HasSeenEvent |contains=31032037}}) OR ({{HasSeenEvent |contains=31032027}} AND {{HasSeenEvent |contains=31032027}})": false
+				// "HasSeenEvent |contains=31032033, 31032027, 31032037": "true"
+				// for testing patch parse "{{Query: ({{HasSeenEvent|contains= 31032033}} AND {{HasSeenEvent|contains= 31032027}}) OR ({{HasSeenEvent|contains= 31032033}} AND {{HasSeenEvent|contains= 31032037}}) OR ({{HasSeenEvent|contains= 31032027}} AND {{HasSeenEvent|contains= 31032027}})}}"
+			}
+		},
 	],
 	// Patches section
 	"Changes": [

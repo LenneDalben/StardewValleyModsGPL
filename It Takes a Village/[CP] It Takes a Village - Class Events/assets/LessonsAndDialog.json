@@ -2121,7 +2121,123 @@
             }
         },
         //
-        // Sebastian Troubleshooting (Gunther: back again eh? Sebastian sweatdrop or angry emote. Yes! I have a much better plan today.)
+        // Sebastian Troubleshooting - IN PROGRESS
+        // Update the readme and config (and default.json) on the timing of the weeks since you added the seb troubleshooting lesson and Shane's egg series (which is multiple events maybe?)
+        // Gunther: back again eh? Sebastian sweatdrop or angry emote. Yes! I have a much better plan today.
+        // Have a question there, earn friendship with Seb if you get it right
+        // Seb could cover it as "method to troubleshoot any problem" using a computer one as an example. He could enlist Abigail's help to better engage the kiddos, since her lessons were a success. Puzzle style!
+        // Learning how to approach problems and handle failure is a really valuable skill for kids to learn (and adults, hehe)
+        // the list of todos is getting long here:
+        // // need to make the wrap up event dependent on seeing this lesson
+        // // create the tokens for "have seen Sebastian Programming and at least 2 Abigail"
+        // // figure out the progression token stuff. Idk where this would go. I guess just last lol Maru electronics is finally not last? :celebrate:
+        /*Event proper*/ {
+            "LogName": "Sebastian Troubleshooting Lesson",
+            "Action": "EditData",
+            "Target": "Data/Events/ArchaeologyHouse",
+            "Entries": {
+                "31032049/{{EconandProgrammingProgressionToken}}/A ItTakesAVillage_AlexPE/A ItTakesAVillage_GusCooking/A ItTakesAVillage_ElliottStories/A ItTakesAVillage_HaleyLeahArt/A ItTakesAVillage_AbigailEconomics/A ItTakesAVillage_DemetriusBotany/A ItTakesAVillage_MaruElectronics/A ItTakesAVillage_EmilyDance/A ItTakesAVillage_HarveyAnatomy/A ItTakesAVillage_AbigailVideoGames/A ItTakesAVillage_ClintMetalworking/A ItTakesAVillage_SamMusic/A ItTakesAVillage_ShaneAnimalCare/A ItTakesAVillage_AbigailSelfDefense/A ItTakesAVillage_RobinWoodworking": "continue/-1000 -1000/farmer -100 -100 0 Gunther 3 8 2 Sebastian 4 10 3 Vincent 3 10 2 Jas 3 11 0 Penny 1 11 1/addTemporaryActor SebComputer 16 44 5 11 2 false/viewport 6 12 true/addConversationTopic ItTakesAVillage_SebTroubleshoot {{MinimumDaysBetweenLessons}}/{{SkippableToken}}/emote Vincent 32/jump Jas 4/pause 500/faceDirection Sebastian 1/pause 100/faceDirection Sebastian 3/pause 100/faceDirection Jas 1/faceDirection Vincent 1/pause 200/pause 500/end"
+            },
+            "When": {
+                "SebTroubleshootAndAbbyEconToken": "SebTroubleshootYes, SebTroubleshootYesAbbyEconNo"
+            }
+        },
+        /*Sebastian CT*/ {
+            "LogName": "Sebastian Troubleshooting CT - Sebastian",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sebastian",
+            "Entries": {
+                "ItTakesAVillage_SebTroubleshoot": "{{i18n:ItTakesAVillage_SebTroubleshootCT_Sebastian}}"
+            }
+        },
+        /*Abigail CT*/ {
+            "LogName": "Sebastian Troubleshooting CT - Abigail",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Abigail",
+            "Entries": {
+                "ItTakesAVillage_SebTroubleshoot": "{{i18n:ItTakesAVillage_SebTroubleshootCT_Abigail}}"
+            }
+        },
+        /*Jas CT*/ {
+            "LogName": "Sebastian Troubleshooting CT - Jas",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jas",
+            "Entries": {
+                "ItTakesAVillage_SebTroubleshoot": "{{i18n:ItTakesAVillage_SebTroubleshootCT_Jas}}"
+            }
+        },
+        /*Vincent CT*/ {
+            "LogName": "Sebastian Troubleshooting CT - Vincent",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Vincent",
+            "Entries": {
+                "ItTakesAVillage_SebTroubleshoot": "{{i18n:ItTakesAVillage_SebTroubleshootCT_Vincent}}"
+            }
+        },
+        /*Robin CT*/ {
+            "LogName": "Sebastian Troubleshooting CT - Robin",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Robin",
+            "Entries": {
+                "ItTakesAVillage_SebTroubleshoot": "{{i18n:ItTakesAVillage_SebTroubleshootCT_Robin}}"
+            }
+        },
+        /*Maru CT*/ {
+            "LogName": "Sebastian Troubleshooting CT - Maru",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Maru",
+            "Entries": {
+                "ItTakesAVillage_SebTroubleshoot": "{{i18n:ItTakesAVillage_SebTroubleshootCT_Maru}}"
+            }
+        },
+        /*Jodi CT*/ {
+            "LogName": "Sebastian Troubleshooting CT - Jodi",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jodi",
+            "Entries": {
+                "ItTakesAVillage_SebTroubleshoot": "{{i18n:ItTakesAVillage_SebTroubleshootCT_Jodi}}"
+            }
+        },
+        /*Kent CT*/ {
+            "LogName": "Sebastian Troubleshooting CT - Kent",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kent",
+            "Entries": {
+                "ItTakesAVillage_SebTroubleshoot": "{{i18n:ItTakesAVillage_SebTroubleshootCT_Kent}}"
+            }
+        },
+        /*Sam CT*/ {
+            "LogName": "Sebastian Troubleshooting CT - Sam",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "Entries": {
+                "ItTakesAVillage_SebTroubleshoot": "{{i18n:ItTakesAVillage_SebTroubleshootCT_Sam}}"
+            }
+        },
+        /*Marnie CT*/ {
+            "LogName": "Sebastian Troubleshooting CT - Marnie",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Marnie",
+            "Entries": {
+                "ItTakesAVillage_SebTroubleshoot": "{{i18n:ItTakesAVillage_SebTroubleshootCT_Marnie}}"
+            }
+        },
+        /*Shane CT*/ {
+            "LogName": "Sebastian Troubleshooting CT - Shane",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Shane",
+            "Entries": {
+                "ItTakesAVillage_SebTroubleshoot": "{{i18n:ItTakesAVillage_SebTroubleshootCT_Shane}}"
+            }
+        },
+        /*Penny CT*/ {
+            "LogName": "Sebastian Troubleshooting CT - Penny",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Penny",
+            "Entries": {
+                "ItTakesAVillage_SebTroubleshoot": "{{i18n:ItTakesAVillage_SebTroubleshootCT_Penny}}"
+            }
+        },
         //
         // Lesson wrap up! - IN PROGRESS
         /*Event proper*/ /*{
