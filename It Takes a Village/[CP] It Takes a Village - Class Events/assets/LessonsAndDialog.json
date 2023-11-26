@@ -2129,7 +2129,7 @@
         // Learning how to approach problems and handle failure is a really valuable skill for kids to learn (and adults, hehe)
         // the list of todos is getting long here:
         // // need to make the wrap up event dependent on seeing this lesson
-        // // create the tokens for "have seen Sebastian Programming and at least 2 Abigail"
+        // // create the tokens for "have seen Sebastian Programming and at least 2 Abigail": drafted, need testing
         // // figure out the progression token stuff. Idk where this would go. I guess just last lol Maru electronics is finally not last? :celebrate:
         /*Event proper*/ {
             "LogName": "Sebastian Troubleshooting Lesson",
