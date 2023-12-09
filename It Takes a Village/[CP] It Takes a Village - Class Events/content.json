@@ -2275,6 +2275,12 @@
 			"Target": "Characters/Punchinator",
 			"FromFile": "assets/Not-Code/AbigailSelfDefense/Punchinator3000.png",
 		},
+		/*Loading Seb Manual*/ {
+			"LogName": "Loading Seb Manual Sprite",
+			"Action": "Load",
+			"Target": "Characters/SebManual",
+			"FromFile": "assets/Not-Code/SebManual.png"
+		},
 		// Map Patches
 		/*Adds Blossom Duck to Forest*/ {
 			"LogName": "Blossom Duck in Forest",
