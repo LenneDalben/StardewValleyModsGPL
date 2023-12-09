@@ -2123,54 +2123,6 @@
         //
         // Sebastian Troubleshooting - IN PROGRESS
         // Update the readme and config (and default.json) on the timing of the weeks since you added the seb troubleshooting lesson and Shane's egg series (which is multiple events maybe?)
-        // Computer won't turn on. What do we do?
-        // Jas and Vincent: pause emote
-        // Vincent: Does it have power? Sometimes my toys don't work because they need new batteries.$3
-        // Sebastian emote 32
-        // Sebastian: Excellent, Vincent! Yes, it seems it's not getting power. Looks like we need to plug it in!#$b#At home, I might have kicked the cord in frustration and forgot about it.
-        // Vincent jump, Vincent emote 32
-        // Sebastian turns to computer, make some clicking sound effect (openBox, shiny4, smallSelect, mouseClick - might literally be too click-y)        
-        // When it finally boots up, have speech bubble "Welcome, Professor~" for a sweet X-Men reference lol 
-        // Penny does the jitter laugh and emote 32 while Sebastian is all sheepish and "uh, don't worry about that" sweatdrop
-        // ok great, now when I boot up the computer, I need to run Turtle. Let's try to run this print program.
-        // Computer emote X
-        // Sebastian: The program is giving an error, but I don't understand it.#$b#Maybe there's something wrong with the formatting. Can you remember what I said about what punctuation you need to indicate functions?
-        // Jas and Vincent sweatdrop
-        // Jas: sorry, no, Mr. Sebastian.$3
-        // Sebastian: That's alright, no worries. Well, @, you're here. Any guesses on what punctuation you need to indicate functions?$h
-        // Player choices: semicolons, parentheses, commas. Parentheses is correct (for the other 2 Sebastian says, not quite, it's parentheses! For the correct one, Sebastian goes, that's right! and you get some friendship points)
-        // Sebastian: so let's add the missing parentheses, and then try running this again...
-        // Computer emote X
-        // Sebastian: Ah, we're still getting an error.#$b#The last thing I did was specify the string literal. Does anyone remember what punctuation I said you needed to display string literals, or characters?     
-        // Jas and Vincent pause emote
-        // Jas jump "Mr. Sebastian, I don't remember, but I want to check the manual!$3"
-        // Sebastian emote heart "Go for it!"
-        // Jas moves to manual, showFrame reading it, poof the manual (removeSprite)
-        // Jas emote pause
-        // Jas jump
-        // Jas: "You need quotation marks to display string literals!"
-        // Sebastian: "Yes, that's right!$h"
-        // Jas emote music note. Jas puts book back on the counter and then walks back
-        // Sebastian: "Let's move the quotation marks to the correct place in the code, and then try running this again..."
-        //  playSound getNewSpecialItem Computer speech bubble: Resistance is futile!
-        // Sebastian: Success!$h
-        // Jas jump, pause, Vincent jump (not sure where I did this but I know I had them jump one after the other somewhere rather than simultaneous)
-        // Now, we know the individual things we did to solve our 'puzzle': connecting the computer to a power source, fixing the quotation marks, and fixing the parentheses. Did either of you notice how we came up with those solutions?
-        // Jas and Vincent pause emoji
-        // Vincent: Well, I remembered how I play with my toys.$3
-        // Sebastian: That's right! You had experience with something else, and even though this wasn't the exact same situation, you could apply some of that experience here.
-        // Vincent emote 32
-        // Sebastian: How else did we come up with our solutions for fixing the quotation marks and parentheses?
-        // Jas and Vincent pause emoji
-        // Jas: I checked the manual!$3
-        // Sebastian: You got it! Checking the documentation we have is always a great step.#$b#For the parentheses, which neither of you could remember, someone else was able to help! Obviously you won't always have someone around to answer questions, so you don't want to rely on this as your go-to step, especially if there's documentation around.
-        // Jas emote 32
-        // Sebastian: While we were specifically troubleshooting issues with a computer, learning how to approach problems or puzzles is a valuable life skill in general!#$b#Applying knowledge from a different situation, referring to the documents, and asking for help if you get stuck are great tips to help you solve most problems in life.
-        // emote Penny 32
-        // Penny: Thanks for the lesson, Sebastian!
-        // emote Jas music note
-        // Vincent speech bubble "Yay puzzles!"
-        // Sebastian emote 32
         // the list of todos is getting long here:
         // // need to make the wrap up event dependent on seeing this lesson
         // // create the tokens for "have seen Sebastian Programming and at least 2 Abigail": drafted, need testing
