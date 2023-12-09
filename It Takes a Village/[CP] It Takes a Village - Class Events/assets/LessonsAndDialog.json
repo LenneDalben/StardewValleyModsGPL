@@ -2123,31 +2123,14 @@
         //
         // Sebastian Troubleshooting - IN PROGRESS
         // Update the readme and config (and default.json) on the timing of the weeks since you added the seb troubleshooting lesson and Shane's egg series (which is multiple events maybe?)
-        // Gunther: back again eh?
-        // Sebastian angry emote, turns to Gunther. Yes! I have a much better plan today.
-        // Penny sweatdrop
-        // Sebastian turns to students/kids. Welcome back! Sebastian pause emoji
-        // Sebastian: Today I have something I hope you find a little more exciting.
-        // Vincent and Jas question mark.
-        // player walks in. Sebastian turns to player.
-        // Sebastian: hi @. I'm uh, redeeming my programming lesson. (vary based on heart level with Sebastian? Like he might just say hi shyly vs. admitting what he's up to all embarrassed-like lol)
-        // player question mark emoji, stand nearby.
-        // Sebastian turns back to students/kids. We are going to solve a puzzle!
-        // Jas jumps, Vincent exclamation point
-        // Vincent raising hand animation
-        // Sebastian: yes Vincent?
-        // vincent: Mr. Sebastian, what's the puzzle?
-        // Sebastian: I'm so glad you asked! Vincent emote 32
-        // Sebastian: I chatted with, uh, Ms. Abigail and she helped me design this.
-        // Sebastian: I was thinking, I often have to troubleshoot problems with my computer. Something doesn't behave the way I expect it to, and then I need to figure out why, so that I can get back to what I was working on.#$b#Troubleshooting is sort of like a puzzle!#$b#To help us, we also have the manual here, which we can refer to if we get stuck.
         // Computer won't turn on. What do we do?
         // Jas and Vincent: pause emote
         // Vincent: Does it have power? Sometimes my toys don't work because they need new batteries.$3
         // Sebastian emote 32
         // Sebastian: Excellent, Vincent! Yes, it seems it's not getting power. Looks like we need to plug it in!#$b#At home, I might have kicked the cord in frustration and forgot about it.
         // Vincent jump, Vincent emote 32
-        // Sebastian turns to computer, make some clicking sound effect (going to need to check the soundbank)        
-        // When it finally boots up, have speech bubble "Welcome, Professor" for a sweet X-Men reference lol 
+        // Sebastian turns to computer, make some clicking sound effect (openBox, shiny4, smallSelect, mouseClick - might literally be too click-y)        
+        // When it finally boots up, have speech bubble "Welcome, Professor~" for a sweet X-Men reference lol 
         // Penny does the jitter laugh and emote 32 while Sebastian is all sheepish and "uh, don't worry about that" sweatdrop
         // ok great, now when I boot up the computer, I need to run Turtle. Let's try to run this print program.
         // Computer emote X
@@ -2169,7 +2152,7 @@
         // Sebastian: "Yes, that's right!$h"
         // Jas emote music note. Jas puts book back on the counter and then walks back
         // Sebastian: "Let's move the quotation marks to the correct place in the code, and then try running this again..."
-        // Computer speech bubble: <uh, some other joking meme> CAN WE DO A SOUND EFFECT FOR THE SPEECH BUBBLE?
+        //  playSound getNewSpecialItem Computer speech bubble: Resistance is futile!
         // Sebastian: Success!$h
         // Jas jump, pause, Vincent jump (not sure where I did this but I know I had them jump one after the other somewhere rather than simultaneous)
         // Now, we know the individual things we did to solve our 'puzzle': connecting the computer to a power source, fixing the quotation marks, and fixing the parentheses. Did either of you notice how we came up with those solutions?
@@ -2197,7 +2180,7 @@
             "Action": "EditData",
             "Target": "Data/Events/ArchaeologyHouse",
             "Entries": {
-                "31032049/{{EconandProgrammingProgressionToken}}/A ItTakesAVillage_AlexPE/A ItTakesAVillage_GusCooking/A ItTakesAVillage_ElliottStories/A ItTakesAVillage_HaleyLeahArt/A ItTakesAVillage_AbigailEconomics/A ItTakesAVillage_DemetriusBotany/A ItTakesAVillage_MaruElectronics/A ItTakesAVillage_EmilyDance/A ItTakesAVillage_HarveyAnatomy/A ItTakesAVillage_AbigailVideoGames/A ItTakesAVillage_ClintMetalworking/A ItTakesAVillage_SamMusic/A ItTakesAVillage_ShaneAnimalCare/A ItTakesAVillage_AbigailSelfDefense/A ItTakesAVillage_RobinWoodworking/A ItTakesAVillage_SebTroubleshoot": "continue/-1000 -1000/farmer -100 -100 0 Gunther 3 8 2 Sebastian 4 10 3 Vincent 3 10 2 Jas 3 11 0 Penny 1 11 1 farmer -100 -100 0/addTemporaryActor SebComputer 16 44 5 11 2 false/addTemporaryActor SebManual 16 16 4 8 2 false/viewport 6 12 true/addConversationTopic ItTakesAVillage_SebTroubleshoot {{MinimumDaysBetweenLessons}}/{{SkippableToken}}/pause 500/end"
+                "31032049/{{EconandProgrammingProgressionToken}}/A ItTakesAVillage_AlexPE/A ItTakesAVillage_GusCooking/A ItTakesAVillage_ElliottStories/A ItTakesAVillage_HaleyLeahArt/A ItTakesAVillage_AbigailEconomics/A ItTakesAVillage_DemetriusBotany/A ItTakesAVillage_MaruElectronics/A ItTakesAVillage_EmilyDance/A ItTakesAVillage_HarveyAnatomy/A ItTakesAVillage_AbigailVideoGames/A ItTakesAVillage_ClintMetalworking/A ItTakesAVillage_SamMusic/A ItTakesAVillage_ShaneAnimalCare/A ItTakesAVillage_AbigailSelfDefense/A ItTakesAVillage_RobinWoodworking/A ItTakesAVillage_SebTroubleshoot": "libraryTheme/-1000 -1000/farmer -100 -100 0 Gunther 3 8 2 Sebastian 4 10 3 Vincent 3 11 3 Jas 3 10 3 Penny 1 11 1 farmer -100 -100 0/addTemporaryActor SebComputer 16 44 5 11 2 false/viewport 6 12 true/addConversationTopic ItTakesAVillage_SebTroubleshoot {{MinimumDaysBetweenLessons}}/{{SkippableToken}}/jump Vincent 3/emote Penny <pause>/emote Vincent <sweatdrop>/speak Gunther \"Back again, eh?\"/emote Sebastian <angry>/faceDirection Sebastian 0/speak Sebastian \"Yes! I have a much better plan today.\"/emote Penny <sweatdrop>/faceDirection Vincent 1/faceDirection Jas 1/faceDirection Sebastian 3/speak Sebastian \"Welcome back! Today I have something I hope you find a little more exciting than our last lesson.\"/emote Vincent <questionmark> true/emote Jas <question mark> false/pause 500/playSound doorClose/warp farmer 3 16/pause 400/faceDirection Vincent 2 true/faceDirection Jas 2 true/faceDirection Penny 2 true/faceDirection Sebastian 2 false/pause 400/speak Sebastian \"Hi @. I'm uh, redeeming my programming lesson.(VARY BASED ON HEART LEVEL WITH SEBASTIAN? LIKE HE MIGHT JUST SAY HI SHYLY VS ADMITTING WHAT HE'S UP TO ALL EMBARRASSED-LIKE LOL)\"/emote farmer <questionmark>/move Penny 0 -1 2/showFrame Penny <sitting>/move farmer -2 0 0/move farmer 0 -1 2/faceDirection Jas 1 true/faceDirection Vincent 1 true/faceDirection Sebastian 3 false/pause 400/speak Sebastian\"We are going to solve a puzzle!\"/jump Jas 3/emote Vincent <exclamationpoint>/animate Vincent false true 50 16 17/speak Sebastian \"Yes, Vincent?\"/stopAnimation Vincent/speak Vincent \"Mr. Sebastian, what's the puzzle?\"/speak Sebastian \"I'm so glad you asked!$h\"/emote Vincent 32/speak Sebastian \"I chatted with, uh, Abigail, and she helped me design this.#$b#I was thinking, I often have to troubleshoot problems with my computer. Something doesn't behave the way I expect it to, and then I need to figure out why, so that I can get back to what I was working on.#$b#Troubleshooting is sort of like a puzzle! So we'll solve the issues with the computer, which will be our puzzle.#$b#To help us, we also have the manual here, which we can refer to if we get stuck.\"/playSound getNewSpecialItem/addTemporaryActor SebManual 16 16 4 8 2 false/speak Sebastian \"Let's get started!\"/faceDirection Sebastian 1/pause 500/faceDirection Sebastian 3/speak Sebastian \"Hmm, the computer won't turn on. Why do you think that's happening?\"/pause 500/end"
             },
             "When": {
                 "SebTroubleshootAndAbbyEconToken": "SebTroubleshootYes, SebTroubleshootYesAbbyEconNo"
