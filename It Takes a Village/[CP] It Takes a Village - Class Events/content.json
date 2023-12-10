@@ -584,14 +584,14 @@
 				"HasSeenEvent |contains=31032030": true,
 			}
 		},
-		/*Maru Electronics and Demetrius Botany Progression Mode Off*/ {
+		/*Maru Electronics and Demetrius Botany Progression Mode Off (note that even when this is set to off, for Maru Electronics, must have seen Demetrius Botany, Harvey Anatomy, Sam Music, and Clint Metalworking first)*/ {
 			"Name": "ElectronicsandBotanyProgressionToken",
 			"Value": "A ItTakesAVillage_Beginning",
 			"When": {
 				"ProgressionMode": "false"
 			},
 		},
-		/*Maru Electronics and Demetrius Botany Progression Mode On (temporarily: for Maru Electronics, must have seen Demetrius Botany, Harvey Anatomy, Sam Music, and Clint Metalworking first, so not using this token. For Demetrius Botany, must have seen Sam Music and Shane Animal Care.)*/ {
+		/*Maru Electronics and Demetrius Botany Progression Mode On (must have seen Sam Music and Shane Animal Care first)*/ {
 			"Name": "ElectronicsandBotanyProgressionToken",
 			"Value": "e 31032035/e 31032036/A ItTakesAVillage_Beginning",
 			"When": {
