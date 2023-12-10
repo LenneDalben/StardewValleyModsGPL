@@ -26,7 +26,7 @@ Refer to the spoiler guide for details on activating the other events (a few hav
 
 Config Options
 
-* Minimum Days Between Lessons: After kicking off the lessons, at least 7 days must pass between the lessons by default. That's how long you have to talk to the villagers after each lesson to hear their thoughts. This also means it'd take at least 18 weeks in-game to see all the lessons and the wrap up event. If you'd like to reduce the time between lessons to see them faster, or increase the time to spread out the lessons even more, you can! You can select a number between 1 day and 28 days for minimum days between lessons.
+* Minimum Days Between Lessons: After kicking off the lessons, at least 7 days must pass between the lessons by default. That's how long you have to talk to the villagers after each lesson to hear their thoughts. This also means it'd take at least 19 weeks in-game to see all the lessons and the wrap up event. If you'd like to reduce the time between lessons to see them faster, or increase the time to spread out the lessons even more, you can! You can select a number between 1 day and 28 days for minimum days between lessons.
 
 * Skippable Config: Specify if you want the events in the series to be skippable (true, false). Default is true. Useful if you're worried about getting stuck during an event due to a mod that changes maps.
 

@@ -2,7 +2,7 @@
 	"Format": "1.21.0",
 	"ConfigSchema": {
 		"MinimumDaysBetweenLessons": {
-			"Description": "After kicking off the lessons, at least 7 days must pass between the lessons by default. That's how long you have to talk to the villagers after each lesson to hear their thoughts. This also means it'd take at least 18 weeks in-game to see all the lessons and the wrap up event. If you'd like to reduce the time between lessons to see them faster, or increase the time to spread out the lessons even more, you can! You can select a number between 1 day and 28 days for minimum days between lessons.",
+			"Description": "After kicking off the lessons, at least 7 days must pass between the lessons by default. That's how long you have to talk to the villagers after each lesson to hear their thoughts. This also means it'd take at least 19 weeks in-game to see all the lessons and the wrap up event. If you'd like to reduce the time between lessons to see them faster, or increase the time to spread out the lessons even more, you can! You can select a number between 1 day and 28 days for minimum days between lessons.",
 			"AllowValues": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28",
 			"Default": "7",
 			"AllowBlank": false,
