@@ -2122,8 +2122,9 @@
         },
         //
         // Sebastian Troubleshooting - IN PROGRESS
-        // the list of todos is getting long here:
-        // // create the tokens for "have seen Sebastian Programming and at least 2 Abigail": drafted, need testing
+        // create the tokens for "have seen Sebastian Programming and at least 2 Abigail": drafted, need testing.
+        // // Testing: right now, what values do we get in the dynamic token and patch parse. Then what happens if you've seen Seb programming and no Abigail lessons. Then what happens if you've seen Seb programming and 1 Abigail lesson. Then what happens if you've seen Seb programming and 2 Abigail lessons. Take into consideration the CTs as well (have the CTs expired? change in config to expire after 1 day if needed).
+        // once this testing is done, writing CTs, I think
         /*Event proper*/ {
             "LogName": "Sebastian Troubleshooting Lesson",
             "Action": "EditData",
