@@ -1,6 +1,5 @@
 {
-    "Changes": [ // 11275 words ()
-        // don't forget to i18n as you go!
+    "Changes": [
         // Thoughts on how to nest the dynamic dialog via dynamic tokens and i18n: some of the dialog for default.json is written here. Within the dynamic tokens, put the i18n tokens. Then in the patches for the CTs, put the dynamic token name. The actual dialog lines go in the default.json. That should work.
         //
         // Events and CTs
