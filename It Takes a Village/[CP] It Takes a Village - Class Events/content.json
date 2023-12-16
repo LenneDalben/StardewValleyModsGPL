@@ -125,7 +125,7 @@
 		},
 		/*random token to choose which event plays first, when neither's been seen*/ {
 			"Name": "AlexPEAndGusCookingToken",
-			"Value": "{{Random: GusCookingYes, AlexPEYes}}",
+			"Value": "{{Random: GusCookingStart, AlexPEStart}}",
 			"When": {
 				"HasSeenEvent |contains=31032022": true, // Penny kickstarts lessons
 				"HasSeenEvent |contains=31032024": false,
@@ -254,7 +254,7 @@
 		},
 		/*random token to choose which event plays first, when neither's been seen*/ {
 			"Name": "HaleyLeahArtAndElliottStoriesToken",
-			"Value": "{{Random: ElliottStoriesYes, HaleyLeahArtYes}}",
+			"Value": "{{Random: ElliottStoriesStart, HaleyLeahArtStart}}",
 			"When": {
 				"HasSeenEvent |contains=31032022": true, // Penny kickstarts lessons
 				"HasSeenEvent |contains=31032025": false,
@@ -411,7 +411,7 @@
 		},
 		/*random token to choose which event plays first, when neither's been seen*/ {
 			"Name": "SebProgramAndAbbyEconToken",
-			"Value": "{{Random: AbbyEconYes, SebProgramYes}}",
+			"Value": "{{Random: AbbyEconStart, SebProgramStart}}",
 			"When": {
 				"HasSeenEvent |contains=31032022": true, // Penny kickstarts lessons
 				"HasSeenEvent |contains=31032027": false,
@@ -568,7 +568,7 @@
 		},
 		/*saw Demetrius Botany but not Maru electronics*/ {
 			"Name": "MaruElectronicsAndDemetriusBotanyToken",
-			"Value": "MaruElectronicsYesDemetriusBotanyNo",
+			"Value": "DemetriusBotanyYesMaruElectronicsNo",
 			"When": {
 				"HasSeenEvent |contains=31032022": true,
 				"HasSeenEvent |contains=31032029, 31032042": true,
@@ -768,7 +768,7 @@
 		},
 		/*random token to choose which event plays first, when neither's been seen*/ {
 			"Name": "EmilyEmotionalDanceAndHarveyAnatomyToken",
-			"Value": "{{Random: HarveyAnatomyYes, EmilyEmotionalDanceYes}}",
+			"Value": "{{Random: HarveyAnatomyStart, EmilyEmotionalDanceStart}}",
 			"When": {
 				"HasSeenEvent |contains=31032022": true, // Penny kickstarts lessons
 				"HasSeenEvent |contains=31032032": false,
@@ -958,7 +958,7 @@
 		},
 		/*random token to choose which event plays first, when neither's been seen*/ {
 			"Name": "ClintMetalworkAndAbbyGamesToken",
-			"Value": "{{Random: AbbyGamesYes, ClintMetalworkYes}}",
+			"Value": "{{Random: AbbyGamesStart, ClintMetalworkStart}}",
 			"When": {
 				"HasSeenEvent |contains=31032022": true, // Penny kickstarts lessons
 				"HasSeenEvent |contains=31032033": false,
@@ -1240,7 +1240,7 @@
 		},
 		/*random token to choose which event plays first, when neither's been seen*/ {
 			"Name": "SamMusicAndShaneAnimalCareToken",
-			"Value": "{{Random: ShaneAnimalCareYes, SamMusicYes}}",
+			"Value": "{{Random: ShaneAnimalCareStart, SamMusicStart}}",
 			"When": {
 				"HasSeenEvent |contains=31032022": true, // Penny kickstarts lessons
 				"HasSeenEvent |contains=31032036": false,
@@ -1791,7 +1791,7 @@
 		},
 		/*random token to choose which event plays first, when neither's been seen*/ {
 			"Name": "RobinWoodworkAndAbbySelfDefenseToken",
-			"Value": "{{Random: AbbySelfDefenseYes, RobinWoodworkYes}}",
+			"Value": "{{Random: AbbySelfDefenseStart, RobinWoodworkStart}}",
 			"When": {
 				"HasSeenEvent |contains=31032022": true, // Penny kickstarts lessons
 				"HasSeenEvent |contains=31032037": false,
