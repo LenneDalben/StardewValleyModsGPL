@@ -2435,7 +2435,7 @@
             "Entries": {
                 "ItTakesAVillage_End": "{{i18n:ItTakesAVillage_EndCT_Pam}}"
             }
-        }, // Penny really outdid herself organizin' the lessons.
+        },
         /*Marnie CT*/ {
             "LogName": "Lesson wrap up CT - Marnie",
             "Action": "EditData",
@@ -2459,6 +2459,6 @@
             "Entries": {
                 "ItTakesAVillage_End": "{{i18n:ItTakesAVillage_EndCT_Penny}}"
             }
-        }, // I'm so grateful that everyone stepped up to help.#$b#It really does take a village to raise kids.
+        }
     ]
 }
