@@ -842,19 +842,19 @@
   "event-31032045.39": "There's a lesson in everything, then. Thanks, Shane!",
   //Shane Kid Egg Care End CTs
   // Both safe route
-  "ItTakesAVillage_KidEggCareEndCT_bothsafe_Shane": "",
+  "ItTakesAVillage_KidEggCareEndCT_bothsafe_Shane": "Both Jas and Vincent took good care of their eggs. You love to see it!",
   "ItTakesAVillage_KidEggCareEndCT_bothsafe_Sam": "",
-  "ItTakesAVillage_KidEggCareEndCT_bothsafe_Jas": "",
-  "ItTakesAVillage_KidEggCareEndCT_bothsafe_Vincent": "",
+  "ItTakesAVillage_KidEggCareEndCT_bothsafe_Jas": "I was hoping my eggie would hatch.$3", 
+  "ItTakesAVillage_KidEggCareEndCT_bothsafe_Vincent": "Yay, Mr. Eggie is safe~!$h", // SOMETHING ABOUT MR. EGGIE
   "ItTakesAVillage_KidEggCareEndCT_bothsafe_Jodi": "I'm relieved Vincent kept Mr. Eggie safe.",
   "ItTakesAVillage_KidEggCareEndCT_bothsafe_Kent": "I'm proud of Vincent! He's learning to look after something other than himself.$h",
   "ItTakesAVillage_KidEggCareEndCT_bothsafe_Marnie": "",
   "ItTakesAVillage_KidEggCareEndCT_bothsafe_Penny": "",
   // Hatch safe route
-  "ItTakesAVillage_KidEggCareEndCT_ hatchsafe_Shane": "",
+  "ItTakesAVillage_KidEggCareEndCT_ hatchsafe_Shane": "Jas took excellent care of her egg! I'm sure she'll do well looking after Waddles, with Marnie and I's help.$h#$b#Vincent took good care of his egg, too.",
   "ItTakesAVillage_KidEggCareEndCT_ hatchsafe_Sam": "",
-  "ItTakesAVillage_KidEggCareEndCT_ hatchsafe_Jas": "",
-  "ItTakesAVillage_KidEggCareEndCT_ hatchsafe_Vincent": "Mr. Eggie is safe~!$h#$b#Jas' Waddles is also safe!",
+  "ItTakesAVillage_KidEggCareEndCT_ hatchsafe_Jas": "Waddles is SO CUTE!$h", // SOMETHING ABOUT MR. EGGIE
+  "ItTakesAVillage_KidEggCareEndCT_ hatchsafe_Vincent": "Yay, Mr. Eggie is safe~!$h#$b#Jas' Waddles is also safe!",
   "ItTakesAVillage_KidEggCareEndCT_ hatchsafe_Jodi": "I'm relieved Vincent kept Mr. Eggie safe.",
   "ItTakesAVillage_KidEggCareEndCT_ hatchsafe_Kent": "I'm proud of Vincent! He's learning to look after something other than himself.$h",
   "ItTakesAVillage_KidEggCareEndCT_ hatchsafe_Marnie": "",
@@ -862,7 +862,7 @@
   // Safe splat route
   "ItTakesAVillage_KidEggCareEndCT_safesplat_Shane": "Jas took good care of her egg!#$b#It's a shame about Vincent's. I hope he's not too hard on himself.#$b#What?",
   "ItTakesAVillage_KidEggCareEndCT_safesplat_Sam": "Vincent seems bummed. I should offer to have a jam session to distract him.",
-  "ItTakesAVillage_KidEggCareEndCT_safesplat_Jas": "",
+  "ItTakesAVillage_KidEggCareEndCT_safesplat_Jas": "I was hoping my eggie would hatch.$3", // SOMETHING ABOUT MR. EGGIE
   "ItTakesAVillage_KidEggCareEndCT_safesplat_Vincent": "%Vincent is still sniffing a little.#$b#At least Jas' eggie is safe!$3",
   "ItTakesAVillage_KidEggCareEndCT_safesplat_Jodi": "There was a strange smell coming from Vincent's room. He asked about doing his own laundry, including his sheets.#$b#I wish Sam would take the same initiative.$s",
   "ItTakesAVillage_KidEggCareEndCT_safesplat_Kent": "I tried asking Vincent about Mr. Eggie and he started crying.$5#$b#Hopefully he learned something out of this, poor kid.#$b#At least he took responsibility to clean it up himself.",
@@ -871,8 +871,8 @@
   // Hatch splat route
   "ItTakesAVillage_KidEggCareEndCT_hatchsplat_Shane": "Jas took excellent care of her egg! I'm sure she'll do well looking after Waddles, with Marnie and I's help.$h#$b#It's a shame about Vincent's. I hope he's not too hard on himself.#$b#What?",
   "ItTakesAVillage_KidEggCareEndCT_hatchsplat_Sam": "Vincent seems bummed. I should offer to have a jam session to distract him.",
-  "ItTakesAVillage_KidEggCareEndCT_hatchsplat_Jas": "",
-  "ItTakesAVillage_KidEggCareEndCT_hatchsplat_Vincent": "%Vincent is still sniffing a little.#$b#At least Jas' eggie hatched! Waddles is so cute.$3",
+  "ItTakesAVillage_KidEggCareEndCT_hatchsplat_Jas": "Waddles is SO CUTE!$h", // SOMETHING ABOUT MR. EGGIE
+  "ItTakesAVillage_KidEggCareEndCT_hatchsplat_Vincent": "%Vincent is still sniffing a little.#$b#At least Jas' Waddles is cute.$3",
   "ItTakesAVillage_KidEggCareEndCT_hatchsplat_Jodi": "There was a strange smell coming from Vincent's room. He asked about doing his own laundry, including his sheets.#$b#I wish Sam would take the same initiative.$s",
   "ItTakesAVillage_KidEggCareEndCT_hatchsplat_Kent": "I tried asking Vincent about Mr. Eggie and he started crying.$5#$b#Hopefully he learned something out of this, poor kid.#$b#At least he took responsibility to clean it up himself.",
   "ItTakesAVillage_KidEggCareEndCT_hatchsplat_Marnie": "",
