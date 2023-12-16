@@ -844,8 +844,8 @@
   // Both safe route
   "ItTakesAVillage_KidEggCareEndCT_bothsafe_Shane": "Both Jas and Vincent took good care of their eggs. You love to see it!",
   "ItTakesAVillage_KidEggCareEndCT_bothsafe_Sam": "",
-  "ItTakesAVillage_KidEggCareEndCT_bothsafe_Jas": "I was hoping my eggie would hatch.$3", 
-  "ItTakesAVillage_KidEggCareEndCT_bothsafe_Vincent": "Yay, Mr. Eggie is safe~!$h", // SOMETHING ABOUT MR. EGGIE
+  "ItTakesAVillage_KidEggCareEndCT_bothsafe_Jas": "I was hoping my eggie would hatch.$3#$b#",   // SOMETHING ABOUT MR. EGGIE
+  "ItTakesAVillage_KidEggCareEndCT_bothsafe_Vincent": "Yay, Mr. Eggie is safe~!$h#$b#I wasn't sure he would be.$3#$b#",  // SOMETHING ABOUT JAS' EGGIE
   "ItTakesAVillage_KidEggCareEndCT_bothsafe_Jodi": "I'm relieved Vincent kept Mr. Eggie safe.",
   "ItTakesAVillage_KidEggCareEndCT_bothsafe_Kent": "I'm proud of Vincent! He's learning to look after something other than himself.$h",
   "ItTakesAVillage_KidEggCareEndCT_bothsafe_Marnie": "",
@@ -853,8 +853,8 @@
   // Hatch safe route
   "ItTakesAVillage_KidEggCareEndCT_ hatchsafe_Shane": "Jas took excellent care of her egg! I'm sure she'll do well looking after Waddles, with Marnie and I's help.$h#$b#Vincent took good care of his egg, too.",
   "ItTakesAVillage_KidEggCareEndCT_ hatchsafe_Sam": "",
-  "ItTakesAVillage_KidEggCareEndCT_ hatchsafe_Jas": "Waddles is SO CUTE!$h", // SOMETHING ABOUT MR. EGGIE
-  "ItTakesAVillage_KidEggCareEndCT_ hatchsafe_Vincent": "Yay, Mr. Eggie is safe~!$h#$b#Jas' Waddles is also safe!",
+  "ItTakesAVillage_KidEggCareEndCT_ hatchsafe_Jas": "Waddles is SO CUTE!$h#$b#", // SOMETHING ABOUT MR. EGGIE
+  "ItTakesAVillage_KidEggCareEndCT_ hatchsafe_Vincent": "Yay, Mr. Eggie is safe~!$h#$b#I wasn't sure he would be.$3#$b#Jas' Waddles is also safe!",
   "ItTakesAVillage_KidEggCareEndCT_ hatchsafe_Jodi": "I'm relieved Vincent kept Mr. Eggie safe.",
   "ItTakesAVillage_KidEggCareEndCT_ hatchsafe_Kent": "I'm proud of Vincent! He's learning to look after something other than himself.$h",
   "ItTakesAVillage_KidEggCareEndCT_ hatchsafe_Marnie": "",
