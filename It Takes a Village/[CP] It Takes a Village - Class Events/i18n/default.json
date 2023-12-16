@@ -792,7 +792,7 @@
   "ItTakesAVillage_KidEggCheckInCT_Kent": "",
   "ItTakesAVillage_KidEggCheckInCT_Marnie": "",
   "ItTakesAVillage_KidEggCheckInCT_Penny": "",
-  // SuggestShane Kid Egg Care End event
+  // Suggest Shane Kid Egg Care End event
   "event-31032044.01": "It's been a week since Vincent and Jas got their eggs. I should head over to Marnie's shop and see how they did.",
   //Shane Kid Egg Care End event
   "event-31032045.01": "Hi @! We were just about to hear how Jas and Vincent did with taking care of their eggs.$h",
@@ -1038,8 +1038,21 @@
   "event-31032049.43": "You got it! Checking the documentation we have is always a great step.$7#$b#For the parentheses, which neither of you could remember, someone else was able to help! Obviously you won't always have someone knowledgeable around to answer questions.#$b#You don't want to rely on this as your go-to step, especially if there's documentation available. It's good to be self-sufficient.$7",
   "event-31032049.44": "While we were specifically troubleshooting issues with a computer, learning how to approach problems or puzzles is a valuable life skill in general!$7#$b#Applying knowledge from a different situation, referring to the documents, and asking for help if you get stuck are great tips to help you solve most problems in life.",
   "event-31032049.45": "Thanks for the lesson, Sebastian!",
+  // Sebastian Troubleshooting CTs
+  "ItTakesAVillage_SebTroubleshootCT_Sebastian": "",
+  "ItTakesAVillage_SebTroubleshootCT_Abigail": "",
+  "ItTakesAVillage_SebTroubleshootCT_Jas": "",
+  "ItTakesAVillage_SebTroubleshootCT_Vincent": "",
+  "ItTakesAVillage_SebTroubleshootCT_Robin": "",
+  "ItTakesAVillage_SebTroubleshootCT_Maru": "",
+  "ItTakesAVillage_SebTroubleshootCT_Jodi": "",
+  "ItTakesAVillage_SebTroubleshootCT_Kent": "",
+  "ItTakesAVillage_SebTroubleshootCT_Sam": "",
+  "ItTakesAVillage_SebTroubleshootCT_Marnie": "",
+  "ItTakesAVillage_SebTroubleshootCT_Shane": "",
+  "ItTakesAVillage_SebTroubleshootCT_Penny": "",
   //
-  // Wrap up event
+  // Lesson wrap up event
   "event-31032041.01": "That cake looks yummy!$h",
   "event-31032041.02": "Now now, Vincent, remember what Mr. Alex taught you. Healthy foods first.",
   "event-31032041.03": "Oi Gus, Penny's going to be here any minute!",
@@ -1063,5 +1076,32 @@
   "event-31032041.21": "Sounds like it was an exciting night at the Saloon!$8",
   "event-31032041.22": "Hmm... I suppose it does.#$b#I wouldn't have volunteered to teach the youth the ways of the arcane.",
   "event-31032041.23": "Well, my friend, did Penny ask you?",
-  "event-31032041.24": "That's neither here nor there."
+  "event-31032041.24": "That's neither here nor there.",
+  // Lesson wrap up CTs
+  "ItTakesAVillage_EndCT_George": "",
+  "ItTakesAVillage_EndCT_Evelyn": "",
+  "ItTakesAVillage_EndCT_Wizard": "",
+  "ItTakesAVillage_EndCT_Krobus": "",
+  "ItTakesAVillage_EndCT_Linus": "",
+  "ItTakesAVillage_EndCT_Lewis": "",
+  "ItTakesAVillage_EndCT_Robin": "",
+  "ItTakesAVillage_EndCT_Clint": "",
+  "ItTakesAVillage_EndCT_Harvey": "",
+  "ItTakesAVillage_EndCT_Emily": "",
+  "ItTakesAVillage_EndCT_Demetrius": "",
+  "ItTakesAVillage_EndCT_Maru": "",
+  "ItTakesAVillage_EndCT_Abigail": "",
+  "ItTakesAVillage_EndCT_Sebastian": "",
+  "ItTakesAVillage_EndCT_Elliott": "",
+  "ItTakesAVillage_EndCT_Leah": "",
+  "ItTakesAVillage_EndCT_Haley": "",
+  "ItTakesAVillage_EndCT_Gus": "",
+  "ItTakesAVillage_EndCT_Alex": "",
+  "ItTakesAVillage_EndCT_Jodi": "",
+  "ItTakesAVillage_EndCT_Kent": "",
+  "ItTakesAVillage_EndCT_Sam": "",
+  "ItTakesAVillage_EndCT_Pam": "",
+  "ItTakesAVillage_EndCT_Marnie": "",
+  "ItTakesAVillage_EndCT_Shane": "",
+  "ItTakesAVillage_EndCT_Penny": ""
 }

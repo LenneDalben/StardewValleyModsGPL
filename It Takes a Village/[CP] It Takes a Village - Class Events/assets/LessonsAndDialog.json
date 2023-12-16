@@ -2233,7 +2233,7 @@
         },
         //
         // Lesson wrap up! - IN PROGRESS
-        /*Event proper*/ /*{
+        /*Event proper*/ {
             "LogName": "Lesson wrap up",
             "Action": "EditData",
             "Target": "Data/Events/Saloon",
@@ -2251,8 +2251,159 @@
                 "RobinWoodworkAndAbbySelfDefenseToken": "RobinWoodworkAndAbbySelfDefenseDone",
                 "SebTroubleshootPlay": "Done"
             }
-        },*/
-        // Alex, Gus, Haley, Leah, Elliot, Sebastian, Abigail, Maru, Demetrius, Emily, Harvey, Clint, Sam, Robin, Lewis, Linus, Krobus, Wizard, Evelyn, George
+        },
+        /*George CT*/ {
+            "LogName": "Lesson wrap up CT - George",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/George",
+            "Entries": {
+                "ItTakesAVillage_End": "{{i18n:ItTakesAVillage_EndCT_George}}"
+            }
+        },
+        /*Evelyn CT*/ {
+            "LogName": "Lesson wrap up CT - Evelyn",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Evelyn",
+            "Entries": {
+                "ItTakesAVillage_End": "{{i18n:ItTakesAVillage_EndCT_Evelyn}}"
+            }
+        },
+        /*Wizard CT*/ {
+            "LogName": "Lesson wrap up CT - Wizard",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Wizard",
+            "Entries": {
+                "ItTakesAVillage_End": "{{i18n:ItTakesAVillage_EndCT_Wizard}}"
+            }
+        },
+        /*Krobus CT*/ {
+            "LogName": "Lesson wrap up CT - Krobus",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Krobus",
+            "Entries": {
+                "ItTakesAVillage_End": "{{i18n:ItTakesAVillage_EndCT_Krobus}}"
+            }
+        },
+        /*Linus CT*/ {
+            "LogName": "Lesson wrap up CT - Linus",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Linus",
+            "Entries": {
+                "ItTakesAVillage_End": "{{i18n:ItTakesAVillage_EndCT_Linus}}"
+            }
+        },
+        /*Lewis CT*/ {
+            "LogName": "Lesson wrap up CT - Lewis",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Lewis",
+            "Entries": {
+                "ItTakesAVillage_End": "{{i18n:ItTakesAVillage_EndCT_Lewis}}"
+            }
+        },
+        /*Robin CT*/ {
+            "LogName": "Lesson wrap up CT - Robin",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Robin",
+            "Entries": {
+                "ItTakesAVillage_End": "{{i18n:ItTakesAVillage_EndCT_Robin}}"
+            }
+        },
+        /*Clint CT*/ {
+            "LogName": "Lesson wrap up CT - Clint",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Clint",
+            "Entries": {
+                "ItTakesAVillage_End": "{{i18n:ItTakesAVillage_EndCT_Clint}}"
+            }
+        },
+        /*Harvey CT*/ {
+            "LogName": "Lesson wrap up CT - Harvey",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Harvey",
+            "Entries": {
+                "ItTakesAVillage_End": "{{i18n:ItTakesAVillage_EndCT_Harvey}}"
+            }
+        },
+        /*Emily CT*/ {
+            "LogName": "Lesson wrap up CT - Emily",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Emily",
+            "Entries": {
+                "ItTakesAVillage_End": "{{i18n:ItTakesAVillage_EndCT_Emily}}"
+            }
+        },
+        /*Demetrius CT*/ {
+            "LogName": "Lesson wrap up CT - Demetrius",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "ItTakesAVillage_End": "{{i18n:ItTakesAVillage_EndCT_Demetrius}}"
+            }
+        },
+        /*Maru CT*/ {
+            "LogName": "Lesson wrap up CT - Maru",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Maru",
+            "Entries": {
+                "ItTakesAVillage_End": "{{i18n:ItTakesAVillage_EndCT_Maru}}"
+            }
+        },
+        /*Abigail CT*/ {
+            "LogName": "Lesson wrap up CT - Abigail",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Abigail",
+            "Entries": {
+                "ItTakesAVillage_End": "{{i18n:ItTakesAVillage_EndCT_Abigail}}"
+            }
+        },
+        /*Sebastian CT*/ {
+            "LogName": "Lesson wrap up CT - Sebastian",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sebastian",
+            "Entries": {
+                "ItTakesAVillage_End": "{{i18n:ItTakesAVillage_EndCT_Sebastian}}"
+            }
+        },
+        /*Elliott CT*/ {
+            "LogName": "Lesson wrap up CT - Elliott",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Elliott",
+            "Entries": {
+                "ItTakesAVillage_End": "{{i18n:ItTakesAVillage_EndCT_Elliott}}"
+            }
+        },
+        /*Leah CT*/ {
+            "LogName": "Lesson wrap up CT - Leah",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Leah",
+            "Entries": {
+                "ItTakesAVillage_End": "{{i18n:ItTakesAVillage_EndCT_Leah}}"
+            }
+        },
+        /*Haley CT*/ {
+            "LogName": "Lesson wrap up CT - Haley",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Haley",
+            "Entries": {
+                "ItTakesAVillage_End": "{{i18n:ItTakesAVillage_EndCT_Haley}}"
+            }
+        },
+        /*Gus CT*/ {
+            "LogName": "Lesson wrap up CT - Gus",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Gus",
+            "Entries": {
+                "ItTakesAVillage_End": "{{i18n:ItTakesAVillage_EndCT_Gus}}"
+            }
+        },
+        /*Alex CT*/ {
+            "LogName": "Lesson wrap up CT - Alex",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Alex",
+            "Entries": {
+                "ItTakesAVillage_End": "{{i18n:ItTakesAVillage_EndCT_Alex}}"
+            }
+        },
         /*Jodi CT*/ {
             "LogName": "Lesson wrap up CT - Jodi",
             "Action": "EditData",
