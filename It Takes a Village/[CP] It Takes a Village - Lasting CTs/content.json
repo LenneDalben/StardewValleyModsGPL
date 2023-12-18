@@ -166,6 +166,39 @@
 				"HasConversationTopic": "ItTakesAVillage_ShaneAnimalCare"
 			}
 		},
+		/*ITAV Shane Kid Egg Care Start*/ {
+			"LogName": "ITAV Shane Kid Egg Care Start CT Lasts",
+			"Action": "EditData",
+			"Target": "sophie.ConversationTopics",
+			"Entries": {
+				"ItTakesAVillage_KidEggCareStart": "true"
+			},
+			"When": {
+				"HasConversationTopic": "ItTakesAVillage_KidEggCareStart"
+			}
+		},
+		/*ITAV Shane Kid Egg Check In*/ {
+			"LogName": "ITAV Shane Kid Egg Check In CT Lasts",
+			"Action": "EditData",
+			"Target": "sophie.ConversationTopics",
+			"Entries": {
+				"ItTakesAVillage_KidEggCheckIn": "true"
+			},
+			"When": {
+				"HasConversationTopic": "ItTakesAVillage_KidEggCheckIn"
+			}
+		},
+		/*ITAV Shane Kid Egg Care End*/ {
+			"LogName": "ITAV Shane Kid Egg Care End CT Lasts",
+			"Action": "EditData",
+			"Target": "sophie.ConversationTopics",
+			"Entries": {
+				"ItTakesAVillage_KidEggCareEnd": "true"
+			},
+			"When": {
+				"HasConversationTopic": "ItTakesAVillage_KidEggCareEnd"
+			}
+		},
 		/*ITAV Robin Woodworking*/ {
 			"LogName": "ITAV Robin Woodworking CT Lasts",
 			"Action": "EditData",
@@ -188,26 +221,15 @@
 				"HasConversationTopic": "ItTakesAVillage_AbigailSelfDefense"
 			}
 		},
-		/*ITAV Willy & Linus Fishing*/ {
-			"LogName": "ITAV Willy and Linus Fishing CT Lasts",
+		/*ITAV Sebastian Troubleshooting*/ {
+			"LogName": "ITAV Sebastian Troubleshooting CT Lasts",
 			"Action": "EditData",
 			"Target": "sophie.ConversationTopics",
 			"Entries": {
-				"ItTakesAVillage_WillyLinusFishing": "true"
+				"ItTakesAVillage_SebTroubleshoot": "true"
 			},
 			"When": {
-				"HasConversationTopic": "ItTakesAVillage_WillyLinusFishing"
-			}
-		},
-		/*ITAV Caroline & Evelyn Gardening*/ {
-			"LogName": "ITAV Caroline and Evelyn Gardening CT Lasts",
-			"Action": "EditData",
-			"Target": "sophie.ConversationTopics",
-			"Entries": {
-				"ItTakesAVillage_CarolineEvelynGardening": "true"
-			},
-			"When": {
-				"HasConversationTopic": "ItTakesAVillage_CarolineEvelynGardening"
+				"HasConversationTopic": "ItTakesAVillage_SebTroubleshoot"
 			}
 		},
 		/*ITAV Lesson Wrap Up*/ {
