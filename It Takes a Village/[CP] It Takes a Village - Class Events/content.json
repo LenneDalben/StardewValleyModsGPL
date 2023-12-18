@@ -1783,6 +1783,13 @@
 				"HasSeenEvent |contains= 31032048": true
 			}
 		},
+		/*Saw Shane Kid Egg Care End Event*/ {
+			"Name": "ShaneKidEggCareEndToken",
+			"Value": "Done",
+			"When": {
+				"HasSeenEvent |contains= 31032045, 31032046, 31032047, 31032048": true
+			}
+		},
 		// Robin Woodworking and Abigail Self-Defense
 		// HasSeenEvent tokens
 		/*have not seen either event in the pair*/ {
