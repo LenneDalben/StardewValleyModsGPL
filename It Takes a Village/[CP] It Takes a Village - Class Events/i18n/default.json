@@ -755,14 +755,14 @@
   "ItTakesAVillage_ShaneAnimalCareCT_Shane_NoMusic": "I'm glad Jas had a nice time.$6",
   "ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusicYesCrow": "I'm glad to hear this big bird was nothing like the one from the mountains.#$b#Maybe the duck would dance if I played some classical music?",
   "ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusicYesCrow": "I'm glad to hear this big bird was nothing like the one from the mountains.",
-  "ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusicNoCrow": "I guess I could look up some sheet music for classical songs. I doubt there will be rad guitar solos.$2#$b#Or rockin' drum solos for Vincent.$2",
-  "ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusicNoCrow": "Vincent was excited about petting chickens, and kept rambling about washing hands.#$b#Also, apparently a huge duck that visits the forest?$8",
+  "ItTakesAVillage_ShaneAnimalCareCT_Sam_YesMusicNoCrow": "I guess I could look up some sheet music for classical songs. I doubt there will be rad guitar solos.$2#$b#Or rockin' drum solos for Vincent.$2#$b#I can't imagine a duck that big though. Vincent might have been exaggerating.",
+  "ItTakesAVillage_ShaneAnimalCareCT_Sam_NoMusicNoCrow": "Vincent was excited about petting chickens, and kept rambling about washing hands.#$b#Also, apparently a huge duck that visits the forest? I can't imagine a duck that big though. Vincent might have been exaggerating.$8",
   "ItTakesAVillage_ShaneAnimalCareCT_Jas_YesCrow": "Blossom was... less scary than the... *shudders$3",
   "ItTakesAVillage_ShaneAnimalCareCT_Jas_NoCrow": "%Jas looks pleased.",
   "ItTakesAVillage_ShaneAnimalCareCT_Vincent_YesCrow": "Maybe Blossom would be friends with the other big bird in town!$h",
-  "ItTakesAVillage_ShaneAnimalCareCT_Vincent_NoCrow": "It was so cool to hang out with the animals.$h",
+  "ItTakesAVillage_ShaneAnimalCareCT_Vincent_NoCrow": "It was so cool to hang out with the animals, especially Blossom!$h",
   "ItTakesAVillage_ShaneAnimalCareCT_Jodi_YesCrow": "What is with this valley and killer birds now?$s",
-  "ItTakesAVillage_ShaneAnimalCareCT_Jodi_NoCrow": "I appreciate that Shane reinforced good hygiene around animals.#$b#I didn't expect that from him.$h",
+  "ItTakesAVillage_ShaneAnimalCareCT_Jodi_NoCrow": "I appreciate that Shane reinforced good hygiene around animals.#$b#I didn't expect that from him.$h#$b#I hope Vincent was mistaken about a massive duck though.",
   "ItTakesAVillage_ShaneAnimalCareCT_Kent_YesCrow": "Jodi needed time to come to terms to the new big bird in the neighborhood.#$b#I'm not sure I'm as trusting as Shane that it's friendly.#$b#I guess I'll need more time too.$h",
   "ItTakesAVillage_ShaneAnimalCareCT_Kent_NoCrow": "What an unusual creature the kids saw.",
   "ItTakesAVillage_ShaneAnimalCareCT_Marnie_Yes6Heart": "%Marnie is looking proud.",
@@ -771,15 +771,16 @@
   "ItTakesAVillage_ShaneAnimalCareCT_Sterling_Yes8Heart": "A lesson for the kids huh? I'm happy Shane is doing more positive stuff.",
   "ItTakesAVillage_ShaneAnimalCareCT_Sterling_No8Heart": "Well, well, look who's maybe finally getting his life together. Good for Shane.$10",
   "ItTakesAVillage_ShaneAnimalCareCT_Penny_YesCrow": "I really would have appreciated a heads up from Shane.$5#$b#Blossom was a calmer big bird, at least.$3",
-  "ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow": "I was surprised to see Shane interested in giving a lesson, let alone one so gentle. It's a good side to him!#$b#Plus, Vincent was happy to see more of what Jas talks about with the animals.",
+  "ItTakesAVillage_ShaneAnimalCareCT_Penny_NoCrow": "I was surprised to see Shane interested in giving a lesson, let alone one so gentle. It's a good side to him!#$b#Plus, Vincent was happy to see more of what Jas talks about with the animals.#$b#The big duck was also a surprise.$h",
   //Shane Kid Egg Care Start CTs
-  "ItTakesAVillage_KidEggCareStartCT_Shane": "I'm curious how Jas and Vincent will do.#$b#I'm sure Jas will make Marnie and I proud!$h",
+  "ItTakesAVillage_KidEggCareStartCT_Shane": "I'm curious how Jas and Vincent will do with their eggs.#$b#I'm sure Jas will make Marnie and I proud!$6",
   "ItTakesAVillage_KidEggCareStartCT_Sam": "Vincent's been raving about Mr. Eggie. I hope he handles it ok.",
+  "ItTakesAVillage_KidEggCareStartCT_Harvey": "Taking care of eggs is a good lesson. I remember having to do that as well.#$b#Hopefully if the worst happens and they break an egg, they remember to wash their hands.$2",
   "ItTakesAVillage_KidEggCareStartCT_Jas": "I have a special spot picked out for my egg!$h",
   "ItTakesAVillage_KidEggCareStartCT_Vincent": "I hope I can keep Mr. Eggie warm enough.$3",
   "ItTakesAVillage_KidEggCareStartCT_Jodi": "Taking care of an egg is an interesting way to teach Vincent to look after something.",
   "ItTakesAVillage_KidEggCareStartCT_Kent": "I offered to help Vincent make a case or container for the egg, but he insisted he had it taken care of.",
-  "ItTakesAVillage_KidEggCareStartCT_Marnie": "I think this is a great exercise for the kids. I'm looking forward to seeing how they do.$h",
+  "ItTakesAVillage_KidEggCareStartCT_Marnie": "I think this is a great exercise for the kids. I'm looking forward to seeing how they do with their eggs.$h",
   "ItTakesAVillage_KidEggCareStartCT_Penny": "Here's hoping the kids do well with their eggs.",
   // Suggest Egg Check In event
   "event-31032043.01": "Hmm, I wonder how Jas and Vincent are doing with their eggs, maybe I should ask. Their families might also have some thoughts.",
@@ -844,8 +845,8 @@
   // Both safe route
   "ItTakesAVillage_KidEggCareEndCT_bothsafe_Shane": "Both Jas and Vincent took good care of their eggs. You love to see it!",
   "ItTakesAVillage_KidEggCareEndCT_bothsafe_Sam": "",
-  "ItTakesAVillage_KidEggCareEndCT_bothsafe_Jas": "I was hoping my eggie would hatch.$3#$b#",   // SOMETHING ABOUT MR. EGGIE
-  "ItTakesAVillage_KidEggCareEndCT_bothsafe_Vincent": "Yay, Mr. Eggie is safe~!$h#$b#I wasn't sure he would be.$3#$b#",  // SOMETHING ABOUT JAS' EGGIE
+  "ItTakesAVillage_KidEggCareEndCT_bothsafe_Jas": "I was hoping my eggie would hatch.$3#$b#", // SOMETHING ABOUT MR. EGGIE
+  "ItTakesAVillage_KidEggCareEndCT_bothsafe_Vincent": "Yay, Mr. Eggie is safe~!$h#$b#I wasn't sure he would be.$3#$b#", // SOMETHING ABOUT JAS' EGGIE
   "ItTakesAVillage_KidEggCareEndCT_bothsafe_Jodi": "I'm relieved Vincent kept Mr. Eggie safe.",
   "ItTakesAVillage_KidEggCareEndCT_bothsafe_Kent": "I'm proud of Vincent! He's learning to look after something other than himself.$h",
   "ItTakesAVillage_KidEggCareEndCT_bothsafe_Marnie": "",
@@ -1070,7 +1071,7 @@
   "event-31032041.15": "It was a lot to coordinate. Thank you, Penny!",
   "event-31032041.16": "Indeed! I'm impressed you took on the challenge. I heard good things about the lessons.$h",
   "event-31032041.17": "That's my girl!$h",
-  "event-31032041.18": "Our teachers should get credit as well.$l#$b#Thank you all for your dedication!$h",
+  "event-31032041.18": "Our teachers should get credit as well.$l#$b#Thank you all for your efforts!$h",
   "event-31032041.19": "Love you Penny!",
   "event-31032041.20": "With that, let's eat!$h",
   "event-31032041.21": "Sounds like it was an exciting night at the Saloon!$8",
