@@ -2051,7 +2051,61 @@
 				"HasSeenEvent |contains=31032032": "false"
 			}
 		},
-		// Wrap up event
+		// Sebastian Troubleshooting
+		// HasSeenEvent token
+		/*Have not seen Sebastian Programming Basics or at least 2 Abby lessons*/ {
+			"Name": "SebTroubleshootPlay",
+			"Value": "No"
+		},
+		/*Saw Sebastian Programming Basics, Abigail Economics and Abigail Video Games*/ {
+			"Name": "SebTroubleshootPlay",
+			"Value": "Yes",
+			"When": {
+				"HasSeenEvent |contains=31032028": true, // Sebastian Programming Basics
+				"HasSeenEvent |contains=31032027": true, // Abigail Economics
+				"HasSeenEvent |contains=31032033": true, // Abigail Video Games
+			}
+		},
+		/*Saw Sebastian Programming Basics, Abigail Video Games and Abigail Self-Defense*/ {
+			"Name": "SebTroubleshootPlay",
+			"Value": "Yes",
+			"When": {
+				"HasSeenEvent |contains=31032028": true, // Sebastian Programming Basics
+				"HasSeenEvent |contains=31032033": true, // Abigail Video Games
+				"HasSeenEvent |contains=31032037": true, // Abigail Self-Defense
+			}
+		},
+		/*Saw Sebastian Programming Basics, Abigail Economics and Abigail Self-Defense*/ {
+			"Name": "SebTroubleshootPlay",
+			"Value": "Yes",
+			"When": {
+				"HasSeenEvent |contains=31032028": true, // Sebastian Programming Basics
+				"HasSeenEvent |contains=31032027": true, // Abigail Economics
+				"HasSeenEvent |contains=31032037": true, // Abigail Self-Defense
+			}
+		},
+		/*Saw Sebastian Troubleshooting*/ {
+			"Name": "SebTroubleshootPlay",
+			"Value": "Done",
+			"When": {
+				"HasSeenEvent |contains=31032049": true
+			}
+		},
+		/*Sebastian Troubleshooting Progression Mode Off*/ {
+			"Name": "SebastianTroubleshootProgressionToken",
+			"Value": "A ItTakesAVillage_Beginning",
+			"When": {
+				"ProgressionMode": "false"
+			},
+		},
+		/*Sebastian Troubleshooting Progression Mode On (must have seen Robin Woodworking and Abigail Self-Defense first)*/ {
+			"Name": "SebastianTroubleshootProgressionToken",
+			"Value": "e 31032037/e 31032038/A ItTakesAVillage_Beginning",
+			"When": {
+				"ProgressionMode": "true"
+			},
+		},
+		// Lesson wrap up
 		/*Character placement, have met Kent*/ {
 			"Name": "WrapUpEventNPCPlacement",
 			"Value": "Wizard -100 -100 1 Krobus -100 -100 3 Linus -100 -100 2 Kent 21 20 0 Jodi 21 19 2 Vincent 20 20 0 Jas 20 19 3 Shane 21 17 2 Marnie 21 18 0 Pam 7 18 1 Abigail 25 18 2 Sebastian 26 18 3 Sam 26 19 0 Robin 22 18 1 Demetrius 23 18 3 Maru 16 21 2 Harvey 16 22 0 Caroline 9 23 0 Pierre 9 22 2 Evelyn 10 23 0 George 11 23 3 Willy 17 22 1 Clint 18 22 3 Elliott 4 19 2 Leah 2 20 1 Haley 2 21 1 Alex 3 21 3 Gus 13 18 2 Emily 17 18 2 Lewis 12 20 0 Penny -100 -100 0 farmer 12 21 3",
