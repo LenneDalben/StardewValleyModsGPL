@@ -2249,7 +2249,7 @@
 			"PatchMode": "Overlay",
 			"When": {
 				"HasSeenEvent |contains= 31032030": false,
-				"MaruElectronicsAndDemetriusBotanyToken": "MaruElectronicsYesDemetriusBotanyNo",
+				"MaruElectronicsAndDemetriusBotanyToken": "DemetriusBotanyYesMaruElectronicsNo",
 				"HasSeenEvent |contains=31032032": true, // Harvey Anatomy, for temp map shenanigans
 				"HasSeenEvent |contains=31032035": true, // Sam Music, for temp map shenanigans
 				"HasConversationTopic |contains= ItTakesAVillage_Beginning, ItTakesAVillage_AlexPE, ItTakesAVillage_GusCooking, ItTakesAVillage_ElliottStories, ItTakesAVillage_HaleyLeahArt, ItTakesAVillage_AbigailEconomics, ItTakesAVillage_SebProgram, ItTakesAVillage_DemetriusBotany, ItTakesAVillage_EmilyDance, ItTakesAVillage_HarveyAnatomy, ItTakesAVillage_AbigailVideoGames, ItTakesAVillage_ClintMetalworking, ItTakesAVillage_SamMusic, ItTakesAVillage_ShaneAnimalCare, ItTakesAVillage_AbigailSelfDefense, ItTakesAVillage_RobinWoodworking": false,
