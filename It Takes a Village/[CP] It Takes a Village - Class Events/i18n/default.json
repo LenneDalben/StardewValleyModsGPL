@@ -3,7 +3,7 @@
   //
   // Minimum Days Between Lessons
   "config.MinimumDaysBetweenLessons.name": "MinimumDaysBetweenLessons",
-  "config.MinimumDaysBetweenLessons.description": "After kicking off the lessons, at least 7 days must pass between the lessons by default. That's how long you have to talk to the villagers after each lesson to hear their thoughts. This also means it'd take at least 20 weeks in-game to see all the lessons and the wrap up event. If you'd like to reduce the time between lessons to see them faster, or increase the time to spread out the lessons even more, you can! You can select a number between 1 day and 28 days for minimum days between lessons.",
+  "config.MinimumDaysBetweenLessons.description": "After starting the lessons, at least 7 days must pass between each one by default. That's how long you have to talk to the villagers after each lesson to hear their thoughts. To see all the lessons and the final event, it'll take a minimum of 20 in-game weeks. If you'd like, you can adjust this interval between 1 and 28 days to speed up or extend the lesson schedule.",
   "config.MinimumDaysBetweenLessons.values.1": "1",
   "config.MinimumDaysBetweenLessons.values.2": "2",
   "config.MinimumDaysBetweenLessons.values.3": "3",
@@ -47,19 +47,19 @@
   //
   // Load Blacksmith
   "config.LoadBlacksmithConfig.name": "LoadBlacksmithConfig",
-  "config.LoadBlacksmithConfig.description": "Set this to false to avoid a Load error if you have a mod that adds events to the Blacksmith shop besides Clint Marriage Mod, Looking for Love, or Lucikiel. Default is true. ITAV automatically detects Clint Marriage Mod, Looking for Love, and Lucikiel so adjusting this setting is not needed for those mods.",
+  "config.LoadBlacksmithConfig.description": "Default is true. Set this to false to avoid a Load error if you have a mod that adds events to the Blacksmith shop besides Clint Marriage Mod, Looking for Love, Lucikiel, or East Scarp. ITAV automatically detects Clint Marriage Mod, Looking for Love, Lucikiel, and East Scarp, so adjusting this setting is not needed for those mods.",
   "config.LoadBlacksmithConfig.values.true": "true",
   "config.LoadBlacksmithConfig.values.false": "false",
   //
   // Edit Penny 8 Heart Event
   "config.EditPenny8HeartEvent.name": "EditPenny8HeartEvent",
-  "config.EditPenny8HeartEvent.description": "The first question in Penny's 8 heart event is tweaked to include a reference to the lessons. Default is true. This edit is compatible with atravita's Penny 8 Heart Event Adjusted, Hanatsuki's Gender Neutrality Mod, Hanatsuki's Fix Dialog Differences, Not a Farmer - Job Title Replacer, and Villager Name Replacer. Set this to false if you have another mod that edits Penny's 8 heart event.",
+  "config.EditPenny8HeartEvent.description": "Default is true. The first question in Penny's 8 heart event is adjusted to mention the lessons. This edit is compatible with atravita's Penny 8 Heart Event Adjusted, Hanatsuki's Gender Neutrality Mod, Hanatsuki's Fix Dialog Differences, Not a Farmer - Job Title Replacer, and Villager Name Replacer. Set this to false if you have a different mod editing Penny's 8 heart event.",
   "config.EditPenny8HeartEvent.values.true": "true",
   "config.EditPenny8HeartEvent.values.false": "false",
   //
   // Progression Mode
   "config.ProgressionMode.name": "ProgressionMode",
-  "config.ProgressionMode.description": "By default, this is set to false. This means the order of the lessons will be completely random and you'll have a chance of seeing wider variety of bonus dynamic dialog. Set this to true if you want events to be grouped and play in a semi-randomized sequence according to the bracket grouping (see spoiler guide for the bracket groupings), but see a smaller variety of dynamic dialog.",
+  "config.ProgressionMode.description": "Default is false. This leads to a completely random lesson order and you'll have a chance of seeing more varied bonus dynamic dialog. Set this to true if you want events to be grouped and play in a semi-randomized sequence following bracket grouping (check the spoiler guide), but see a smaller variety of dynamic dialog.",
   "config.ProgressionMode.values.true": "true",
   "config.ProgressionMode.values.false": "false",
   //

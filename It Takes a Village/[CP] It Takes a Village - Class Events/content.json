@@ -2,7 +2,7 @@
 	"Format": "1.21.0",
 	"ConfigSchema": {
 		"MinimumDaysBetweenLessons": {
-			"Description": "After kicking off the lessons, at least 7 days must pass between the lessons by default. That's how long you have to talk to the villagers after each lesson to hear their thoughts. This also means it'd take at least 20 weeks in-game to see all the lessons and the wrap up event. If you'd like to reduce the time between lessons to see them faster, or increase the time to spread out the lessons even more, you can! You can select a number between 1 day and 28 days for minimum days between lessons.",
+			"Description": "After starting the lessons, at least 7 days must pass between each one by default. That's how long you have to talk to the villagers after each lesson to hear their thoughts. To see all the lessons and the final event, it'll take a minimum of 20 in-game weeks. If you'd like, you can adjust this interval between 1 and 28 days to speed up or extend the lesson schedule..",
 			"AllowValues": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28",
 			"Default": "7",
 			"AllowBlank": false,
@@ -23,21 +23,21 @@
 			"AllowMultiple": false
 		},
 		"LoadBlacksmithConfig": {
-			"Description": "Set this to false to avoid a Load error if you have a mod that adds events to the Blacksmith shop besides Clint Marriage Mod, Looking for Love, or Lucikiel. Default is true. ITAV automatically detects Clint Marriage Mod, Looking for Love, and Lucikiel so adjusting this setting is not needed for those mods.",
+			"Description": "Default is true. Set this to false to avoid a Load error if you have a mod that adds events to the Blacksmith shop besides Clint Marriage Mod, Looking for Love, Lucikiel, or East Scarp. ITAV automatically detects Clint Marriage Mod, Looking for Love, Lucikiel, and East Scarp, so adjusting this setting is not needed for those mods.",
 			"AllowValues": "true, false",
 			"Default": "true",
 			"AllowBlank": false,
 			"AllowMultiple": false
 		},
 		"EditPenny8HeartEvent": {
-			"Description": "The first question in Penny's 8 heart event is tweaked to include a reference to the lessons. Default is true. This edit is compatible with atravita's Penny 8 Heart Event Adjusted, Hanatsuki's Gender Neutrality Mod, Hanatsuki's Fix Dialog Differences, Not a Farmer - Job Title Replacer, and Villager Name Replacer. Set this to false if you have another mod that edits Penny's 8 heart event.",
+			"Description": "Default is true. The first question in Penny's 8 heart event is adjusted to mention the lessons. This edit is compatible with atravita's Penny 8 Heart Event Adjusted, Hanatsuki's Gender Neutrality Mod, Hanatsuki's Fix Dialog Differences, Not a Farmer - Job Title Replacer, and Villager Name Replacer. Set this to false if you have a different mod editing Penny's 8 heart event.",
 			"AllowValues": "true, false",
 			"Default": "true",
 			"AllowBlank": false,
 			"AllowMultiple": false
 		},
 		"ProgressionMode": {
-			"Description": "By default, this is set to false. This means the order of the lessons will be completely random and you'll have a chance of seeing wider variety of bonus dynamic dialog. Set this to true if you want events to be grouped and play in a semi-randomized sequence according to the bracket grouping (see spoiler guide for the bracket groupings), but see a smaller variety of dynamic dialog.",
+			"Description": "Default is false. This leads to a completely random lesson order and you'll have a chance of seeing more varied bonus dynamic dialog. Set this to true if you want events to be grouped and play in a semi-randomized sequence following bracket grouping (check the spoiler guide), but see a smaller variety of dynamic dialog.",
 			"AllowValues": "true, false",
 			"Default": "false",
 			"AllowBlank": false,
