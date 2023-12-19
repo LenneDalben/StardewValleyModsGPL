@@ -56,6 +56,8 @@ Note that if the game was going to include special orders from TNAG in the next 
 
 ||Shout Outs||
 
+My SO, wonderful soul who proofread my work and provided emotional support <3
+
 <a href="https://www.moddrop.com/stardew-valley/profile/182160/mods">Airyn</a>, for so many ideas and lots of support.
 
 <a href="https://www.nexusmods.com/users/108706758">JeweledNebula</a>, for so many ideas and lots of support.

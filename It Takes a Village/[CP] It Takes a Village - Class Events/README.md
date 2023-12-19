@@ -67,6 +67,8 @@ A note on Stardew Valley Expanded (SVE): I don’t use it and never will, so I w
 
 ||Shout Outs||
 
+My SO, wonderful soul who proofread my work and provided emotional support <3
+
 <a href="https://www.nexusmods.com/stardewvalley/users/70148453?tab=user+files">Airyn</a>, fantastic modder and friend. You provided the initial idea, created most of the custom sprites, and provided so much support and editing guidance on wording, in-character-ness, dynamic token magic, random token magic, etc. Without you, this mod would never have happened. Thank you so much <3
 
 <a href ="https://www.nexusmods.com/stardewvalley/users/116553368?tab=user+files">Atravita</a>, for helping me out with event forks and lighting

@@ -68,6 +68,8 @@ Note that if the game was going to include special orders from TNF in the next r
 
 ||Shout Outs||
 
+My SO, wonderful soul who proofread my work and provided emotional support <3
+
 <a href="https://www.nexusmods.com/stardewvalley/users/88107803?tab=user+files">Jonqora</a>, for ideas and suggestions that were incorporated in this mod. Jonqora was also INSTRUMENTAL in the dynamic token component of this mod. Jonqora, you are a legend <3
 
 <a href="https://www.nexusmods.com/stardewvalley/users/5575844?tab=user+files">Lumina / Lumisteria</a>, for their Lumisteria Special Orders mods, which helped me in writing this mod. Extra thanks to Lumina for their help in the Stardew Valley Discord.
