@@ -6,7 +6,7 @@ Features include randomized order of lessons and semi-dynamic dialog based on wh
 
 ||Background||
 
-As a novice eventsmith, I was looking for event modding ideas that would be relatively simple but interesting to implement, and Airyn, who has many wonderful ideas, suggested a lessons series! The idea was "it takes a village to raise a child", so Penny will recruit fellow townspeople to teach Vincent and Jas something they know. This mod has been an incredibly fun labor of love, so I hope you enjoy :)
+As a novice eventsmith, I was looking for event modding ideas that would be relatively simple but interesting to implement, and Airyn, who has many wonderful ideas, suggested a lessons series! The idea was "it takes a village to raise a child", so Penny will recruit fellow townspeople to teach Vincent and Jas something they know. This mod has been an incredibly fun labor of love over 1 year and 9 months, so I hope you enjoy :)
 
 Each lesson or class is an event, taking place somewhere in Pelican Town. After each class, the townspeople will share their thoughts on the topic or how the lesson went. Some are supportive, some are judgmental, etc. Check out the screenshots for some examples! The Minimum Days Between Lessons config setting is how long the townspeople will share their thoughts for (for modders, these are Conversation Topics).
 
@@ -17,9 +17,9 @@ Translations are welcome! You can submit either the language.json to me or the s
 
 ||Getting started||
 
-To begin the lesson series, reach 6 hearts with Penny, then visit the town on a sunny day between 9:30am and 6:00pm. An event will play with Penny outside the Library. By default, at least 7 days later, a lesson event will happen somewhere in town! Refer to the Configuration section on how to customize the Minimum Days Between Lessons.
+To begin the lesson series, reach 6 hearts with Penny, then visit the town on a sunny day between 8:50am and 6:10pm. An event will play with Penny outside the Library. By default, at least 7 days later, a lesson event will happen somewhere in town! Refer to the Configuration section on how to customize the Minimum Days Between Lessons.
 
-Refer to the spoiler guide for details on activating the other events (a few have weather and/or time conditions).
+Refer to the spoiler guide for details on activating the other lessons (a few have weather and/or time conditions).
 
 
 ||Configuration||
@@ -89,7 +89,7 @@ A note on Stardew Valley Expanded (SVE): I don’t use it and never will, so I w
 
 <a href="https://www.nexusmods.com/stardewvalley/users/92060238?tab=user+files">Taiyo</a>, <a href ="https://www.nexusmods.com/stardewvalley/users/112768378?tab=user+files">tiakall</a>, and <a href="https://www.nexusmods.com/stardewvalley/users/2893756?tab=user+files">Yri</a> for some art feedback and encouragement on sprites I drew. Tiakall was also a beta tester.
 
-<a href="https://www.nexusmods.com/stardewvalley/users/104804993?tab=user+files">nicole / beyondrecovery</a>, for help with figuring out the "walking off screen while fading out" effect, encouragement / accountability, wording help, and being a beta tester
+<a href="https://www.nexusmods.com/stardewvalley/users/104804993?tab=user+files">nicole / beyondrecovery</a>, for help with figuring out the "walking off screen while fading out" effect, advancedMove, encouragement / accountability, wording help, and being a beta tester
 
 <a href="https://www.nexusmods.com/stardewvalley/users/69153238?tab=user+files">shekurika</a>, for help with figuring out Clint's hammering animation and fades
 
