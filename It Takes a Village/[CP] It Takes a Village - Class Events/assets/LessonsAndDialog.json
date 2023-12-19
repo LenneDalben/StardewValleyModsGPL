@@ -1,6 +1,5 @@
 {
     "Changes": [
-        // Thoughts on how to nest the dynamic dialog via dynamic tokens and i18n: some of the dialog for default.json is written here. Within the dynamic tokens, put the i18n tokens. Then in the patches for the CTs, put the dynamic token name. The actual dialog lines go in the default.json. That should work.
         //
         // Events and CTs
         // Penny kickstarts the lessons - Done!
@@ -1779,7 +1778,7 @@
                 "HasSeenEvent |contains=31032043": true
             }
         },
-        // Shane Kid Egg Care End Event - IN PROGRESS
+        // Shane Kid Egg Care End Event - Done!
         /*Event proper i18n'd - extra copy just in case {
             "LogName": "Shane Kid Egg Care End Event",
             "Action": "EditData",
@@ -2131,7 +2130,7 @@
             }
         },
         //
-        // Sebastian Troubleshooting - IN PROGRESS
+        // Sebastian Troubleshooting - Done!
         /*Event proper*/ {
             "LogName": "Sebastian Troubleshooting Lesson",
             "Action": "EditData",
