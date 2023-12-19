@@ -27,6 +27,7 @@ Refer to the spoiler guide for details on activating the other events (a few hav
 Config Options
 
 * Minimum Days Between Lessons: After kicking off the lessons, at least 7 days must pass between the lessons by default. That's how long you have to talk to the villagers after each lesson to hear their thoughts. This also means it'd take at least 20 weeks in-game to see all the lessons and the wrap up event. If you'd like to reduce the time between lessons to see them faster, or increase the time to spread out the lessons even more, you can! You can select a number between 1 day and 28 days for minimum days between lessons.
+* * Author recommendation: if you're like me and it's an achievement if you make it to year 2 but you want to see all the events, set this to 4 days. Then it will take you ~12 weeks instead of 20 weeks. The downsides are you won't see Kent's content, and you'll need to be quick to talk to the right people after the events (refer to spoiler guide).
 
 * Skippable Config: Specify if you want the events in the series to be skippable (true, false). Default is true. Useful if you're worried about getting stuck during an event due to a mod that changes maps.
 
