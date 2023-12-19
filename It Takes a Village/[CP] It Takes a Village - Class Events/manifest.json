@@ -27,17 +27,5 @@
             "IsRequired": false
         }
     ]
-    /*
-    Updates and fixes 0.9.10:
-    * Fixed a few typos throughout the CTs
-    * Updated Jas' position during Sebastian Programming (scooched her down 1 tile)
-    * Updated conditions for Sebastian's CTs in Abigail Video Games lesson (dynamic token shenanigans). Should now be more accurate of whether you saw at least 1 Abigail other lesson or not
-    * Added Shane egg care lesson! This begins at the end of the Shane animal care lesson, so if you've already seen that event in your current save, you'll have to play it again unfortunately (debug ebi 31032036). After that, you'll have additional CTs about it. Then you'll see a quick reminder event with different CTs about how the egg care is going. After 7 days total, you'll see another reminder event to check on the final progress. Go to Marnie's ranch to see the end result! The egg care "series" is completely detached from ProgressionMode, so you can see these even while other lessons are going on.
-    * Added Sebastian troubleshooting lesson! Will he be redeemed? To see this lesson, you must have seen Sebastian programming and at least 2 other Abigail lessons. If you're using ProgressionMode, you must also see X.
-
-    Updates and fixes 0.9.9:
-    * Updated readme to reflect change in plans: I will not add kids from other mods or add lessons led by custom NPCs. If custom NPC mod authors want to add lessons for their NPCs in a similar format, they're welcome to do so in their own mod!
-    * Added East Scarp to the list of mods supported by the automatic Load Blacksmith Token
-    * Fixed issue with Shane Animal Care CTs that were missing some underscores (thanks tia for reporting!)
-    */
+    // Began 04Mar2022, how time flies
 }
