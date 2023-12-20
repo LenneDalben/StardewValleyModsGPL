@@ -79,7 +79,7 @@
   "event-31032022.11": "I'm glad you agree! It'll spice things up to have different teachers.$h",
   "event-31032022.12": "Yes, I think this will work!",
   "event-31032022.13": "I don't think that's fair to say.$a#$b#They love new topics in class. I really think that they would enjoy hearing from other people too.$3",
-  "event-31032022.14": "Well, I better get going. I have a lot of people to convince to give lessons!$l",
+  "event-31032022.14": "Well, I'd better get going. I have a lot of people to convince to give lessons!$l",
   // Penny Kickstarts Lessons CTs
   "ItTakesAVillage_BeginningCT_Jodi": "Hmm. I hope Vincent doesn't come home with strange facts.$2",
   "ItTakesAVillage_BeginningCT_Kent": "Vincent said Penny's getting the townspeople involved in classes.#$b#It's good she's taking their education seriously.$h",
@@ -173,7 +173,7 @@
   "ItTakesAVillage_GusCookingCT_Jas": "%Jas looks a little embarrassed. Best to leave her be.",
   "ItTakesAVillage_GusCookingCT_Vincent": "I love cooking! You get to try all sorts of flavors!$h#$b#It's ok if Jas doesn't like it too much, I can help cook for her!",
   "ItTakesAVillage_GusCookingCT_Jodi": "I'm glad to hear Vincent enjoyed cooking, and that Gus chose such a smart and healthy choice.#$b#I think I'll ask Vincent to make that salad as an accompaniment for dinner.#$b#Hopefully Sam learns something from his brother on this.$h",
-  "ItTakesAVillage_GusCookingCT_Kent": "It's great the salad the kids made is out of forage. I wonder if it'll get Vincent thinking more about living off the land.$h",
+  "ItTakesAVillage_GusCookingCT_Kent": "It's great the salad ingredients were foraged. I wonder if it'll get Vincent thinking more about living off the land.$h",
   "ItTakesAVillage_GusCookingCT_Sam": "Mom's really proud of Vincent learning to make a salad. Me, I still love pizza!$h#$b#We should have a bro cooking night and make one with our own toppings.",
   "ItTakesAVillage_GusCookingCT_Marnie": "Poor Jas.$s#$b#I'll try to include her in meal prep more often, see if that helps her feel more comfortable in the kitchen.",
   "ItTakesAVillage_GusCookingCT_Shane": "I'll be sure to remind Jas she has options and there's no shame in microwaving food.",
@@ -191,7 +191,7 @@
   "event-31032025.09": "That was absolutely brilliant, Jas! I could picture all of it in my mind!$h",
   "event-31032025.10": "Now it's Vincent's turn!",
   "event-31032025.11": "The cracks in the ground finally split open into a big hole, and the heroes were trapped!#$b#They were never heard from again...$3",
-  "event-31032025.12": "The horror!$8#$b#Well done, Vincent! You surprised me, but you planted the seeds of the outcome well with the cracks.$h",
+  "event-31032025.12": "The horror!$8#$b#Well done, Vincent! You surprised me, but you planted the seeds of the outcome well, with the cracks.$h",
   "event-31032025.13": "Thanks for all the positive feedback, Elliott! I think you've really inspired the kids.$h",
   // Elliott Stories CTs
   "ItTakesAVillage_ElliottStoriesCT_Elliott_NoArt": "I only did what I wish teachers would have done for me at their age: helped me 'play to my strengths', or interests, so to speak.$h#$b#Hopefully Leah and Haley encourage them as well in their lesson.",
