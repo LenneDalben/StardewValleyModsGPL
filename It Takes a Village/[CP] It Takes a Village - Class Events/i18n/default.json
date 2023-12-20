@@ -85,7 +85,7 @@
   "ItTakesAVillage_BeginningCT_Kent": "Vincent said Penny's getting the townspeople involved in classes.#$b#It's good she's taking their education seriously.$h",
   "ItTakesAVillage_BeginningCT_Sam": "I hope Penny asks me about teaching a class. I'm stoked to 'dispense knowledge'.$h",
   "ItTakesAVillage_BeginningCT_Pam": "Penny means well, but getting everyone in this town to help out will be tough.",
-  "ItTakesAVillage_BeginningCT_Marnie": "I'm glad Jas will learning different things in class. It'll be good to get her thinking.$h",
+  "ItTakesAVillage_BeginningCT_Marnie": "I'm glad Jas will learn different things in class. It'll be good to get her thinking.$h",
   "ItTakesAVillage_BeginningCT_Shane": "Jas has been talking up a storm about guest lecturers. If Penny's asking everyone in town, it could go badly.#$b#What? Not everyone is suited for teaching.$3",
   //
   // Edit Penny 8 Heart Event
@@ -96,7 +96,7 @@
   //
   // Alex PE and Healthy Eating event
   "event-31032023.01": "Hi there @! Join our class!",
-  "event-31032023.02": "Ok, first up: who knows what are some healthy foods?",
+  "event-31032023.02": "Ok, first up: who knows what some healthy foods are?",
   "event-31032023.03": "Think back to Gus' lesson on cooking.",
   "event-31032023.04": "Does mayonnaise count?$3",
   "event-31032023.05": "What? No bud, unfortunately it doesn't.$7",
@@ -173,7 +173,7 @@
   "ItTakesAVillage_GusCookingCT_Jas": "%Jas looks a little embarrassed. Best to leave her be.",
   "ItTakesAVillage_GusCookingCT_Vincent": "I love cooking! You get to try all sorts of flavors!$h#$b#It's ok if Jas doesn't like it too much, I can help cook for her!",
   "ItTakesAVillage_GusCookingCT_Jodi": "I'm glad to hear Vincent enjoyed cooking, and that Gus chose such a smart and healthy choice.#$b#I think I'll ask Vincent to make that salad as an accompaniment for dinner.#$b#Hopefully Sam learns something from his brother on this.$h",
-  "ItTakesAVillage_GusCookingCT_Kent": "It's great the salad the kids made is out of forage. I wonder if it'll get them thinking more about living off the land.$h",
+  "ItTakesAVillage_GusCookingCT_Kent": "It's great the salad the kids made is out of forage. I wonder if it'll get Vincent thinking more about living off the land.$h",
   "ItTakesAVillage_GusCookingCT_Sam": "Mom's really proud of Vincent learning to make a salad. Me, I still love pizza!$h#$b#We should have a bro cooking night and make one with our own toppings.",
   "ItTakesAVillage_GusCookingCT_Marnie": "Poor Jas.$s#$b#I'll try to include her in meal prep more often, see if that helps her feel more comfortable in the kitchen.",
   "ItTakesAVillage_GusCookingCT_Shane": "I'll be sure to remind Jas she has options and there's no shame in microwaving food.",
@@ -181,7 +181,7 @@
   //
   // Elliott Stories event
   "event-31032025.01": "Hello everyone! Today we'll start with reading a short story, and then you'll work on a little exercise.#$b#I've provided a copy of the story so you can follow along to my illustrious narration. Please, sit.",
-  "event-31032025.02": "There once was a band of misfits: Nuru the quick and cunning bard, Makena the strong and bold warrior, and Amari the steady and wise mage.#$b#They were thrust together by happenstance, united only by a common goal: to find the treasure of the great Ashanti...",
+  "event-31032025.02": "There once was a band of misfits: Nuru the quick and cunning bard, Makena the strong and bold warrior, and Amari the steady and wise mage.#$b#They were propelled together by happenstance, united only by a common goal: to find the treasure of the great Ashanti...",
   "event-31032025.03": "Standing in the empty tomb, they looked at each other and realized that the real treasure was the friends they made along the way.$h#$b#The end.$h",
   "event-31032025.04": "What did you each like about the story?",
   "event-31032025.05": "Hmm... I really liked learning the new words in the story, through synonyms.",
@@ -212,7 +212,7 @@
   // Haley & Leah Art event
   "event-31032026.01": "Hey y'all! Welcome to your art class!$h",
   "event-31032026.02": "I'll kick us off with a composition principle: the rule of thirds.",
-  "event-31032026.03": "The rule of thirds is key to designs, films, paintings and photographs. Basically, imagine your canvas, divided into nine equal parts by a three by three grid.#$b#You want to put the important elements along the lines or the intersections of the grid.#$b#The idea is that by having the important elements divided into thirds, you create more visual interest than you would by centering the subject.",
+  "event-31032026.03": "The rule of thirds is key to designs, films, paintings and photographs. Basically, imagine your canvas divided into nine equal parts by a three by three grid.#$b#You want to put the important elements along the lines or the intersections of the grid.#$b#The idea is that by having the important elements divided into thirds, you create more visual interest than you would by centering the subject.",
   "event-31032026.04": "While it is a 'rule', you can still break away from it if it's better for the piece.",
   "event-31032026.05": "You should learn how to follow the rule before you try to break it though.$3",
   "event-31032026.06": "I'm just saying it's a flexible rule. The kids have room for creativity, after all.$3",
@@ -324,9 +324,9 @@
   "event-31032028.21": "That's a different kind of computer.$a",
   // Sebastian Programming Basics CTs
   "ItTakesAVillage_SebProgramCT_Sebastian": "I'm... not really sure how that class went, to be honest.",
-  "ItTakesAVillage_SebProgramCT_Abigail_NoEconYesVG": "Pff, as if Seb's programming had a chance after I introduced the kiddos to gaming.$h",
+  "ItTakesAVillage_SebProgramCT_Abigail_NoEconYesVG": "Pff, as if Sebastian's programming had a chance after I introduced the kiddos to gaming.$h",
   "ItTakesAVillage_SebProgramCT_Abigail_NoEconNoVG": "Hehe, I think my interactive math class will go over better.",
-  "ItTakesAVillage_SebProgramCT_Abigail_YesEconYesVG": "Pff, as if Seb's programming had a chance after I wowed the kids with an interactive math class AND introduced them to gaming.$h",
+  "ItTakesAVillage_SebProgramCT_Abigail_YesEconYesVG": "Pff, as if Sebastian's programming had a chance after I wowed the kids with an interactive math class AND introduced them to gaming.$h",
   "ItTakesAVillage_SebProgramCT_Abigail_YesEconNoVG": "Hehe, the kids definitely had more fun in my interactive math class.",
   "ItTakesAVillage_SebProgramCT_Jas": "Controlling a computer doesn't seem fun.$3",
   "ItTakesAVillage_SebProgramCT_Vincent": "I guess Mr. Sebastian plays with a turtle in the computer. It doesn't look like a turtle though.$3",
@@ -334,7 +334,7 @@
   "ItTakesAVillage_SebProgramCT_Maru": "It's a shame Jas and Vincent weren't all that interested in programming.#$b#Still, their interests may lie elsewhere.",
   "ItTakesAVillage_SebProgramCT_Jodi": "I'm glad Vincent wasn't enthused about computers.#$b#Don't need his brain rotting with screen time.$3",
   "ItTakesAVillage_SebProgramCT_Kent": "I'm not proud to admit it, but I'm relieved Vincent wasn't interested in Sebastian's class.#$b#I wouldn't be able to help him operate that doohickey.",
-  "ItTakesAVillage_SebProgramCT_Sam": "Don't tell Seb, but I'm pumped I'll stay number one in Vincent's heart.",
+  "ItTakesAVillage_SebProgramCT_Sam": "Don't tell Sebastian, but I'm pumped I'll stay number one in Vincent's heart.",
   "ItTakesAVillage_SebProgramCT_Marnie": "Jas didn't seem very excited about Sebastian's class. I wonder what happened.$3",
   "ItTakesAVillage_SebProgramCT_Shane": "Pff, of course that recluse didn't do well with kids.$3#$b#What are you looking at?",
   "ItTakesAVillage_SebProgramCT_Penny": "The kids were not very talkative about this lesson...$3",
