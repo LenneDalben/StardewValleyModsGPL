@@ -744,7 +744,7 @@
   "event-31032036.27": "Maybe we'll see Blossom around more often!",
   "event-31032036.28": "Hi there!",
   "event-31032036.29": "EEEP!",
-  "event-31032036.30": "Wait, y'all, it's not dangerous!$h#$b#Sorry, I should have given you a heads up after what you went through in the mountains.$3",
+  "event-31032036.30": "Wait, y'all, it's not dangerous!$10#$b#Sorry, I should have given you a heads up after what you went through in the mountains.$3",
   "event-31032036.31": "What a cute duck!",
   "event-31032036.32": "It is cute.$3",
   "event-31032036.33": "I just had an idea!#$b#Why don't you and Vincent take a little egg here, and see if you can keep it safe for a week?",
@@ -798,7 +798,7 @@
   //Shane Kid Egg Care End event
   "event-31032045.01": "Hi @! We were just about to hear how Jas and Vincent did with taking care of their eggs.$h",
   "event-31032045.02": "That's right! Who wants to go first?",
-  "event-31032045.03": "Go ahead, Jas!$h",
+  "event-31032045.03": "Go ahead, Jas!$6",
   // Jas egg is safe route
   "event-31032045.04": "My eggie did great!#$b#It's safe and sound.",
   "event-31032045.05": "Very nice, Jas!$6",
@@ -808,14 +808,14 @@
   "event-31032045.08": "Woah, that's great, Jas! We'll need to bring it into the barn with the other animals.$h",
   "event-31032045.09": "I'm so proud, Jas.$h",
   "event-31032045.10": "I want to name it Waddles!$h",
-  "event-31032045.11": "That's a great name!$h",
+  "event-31032045.11": "That's a great name!$6",
   // question in the middle
   "event-31032045.12": "How about you, Vincent? How did it go with your egg?",
   // Vincent egg is safe route
   "event-31032045.13": "Mr. Eggie is safe!",
   "event-31032045.14": "That's good, Vincent!#$b#It's nice to see both our students did well.",
   "event-31032045.15": "I'm also glad to see neither of you broke your egg.",
-  // Vincent egg splat route ***LEFT OFF READING HERE***
+  // Vincent egg splat route
   "event-31032045.16": "Well...$3",
   "event-31032045.17": "I just wanted to keep Mr. Eggie warm!$s",
   "event-31032045.18": "*sob*",
@@ -834,7 +834,7 @@
   "event-31032045.31": "Confirmed. See? Learning about yourself is good!",
   // forks rejoin for the end
   "event-31032045.32": "Shane, have you ever broken an egg?$3",
-  "event-31032045.33": "I sure have.$h#$b#When I was younger and in school, we did the same exercise of taking care of an egg for a week.",
+  "event-31032045.33": "I sure have.#$b#When I was younger and in school, we did the same exercise of taking care of an egg for a week.",
   "event-31032045.34": "We called it 'reality strikes'. We had a 'day care' set up so you could leave your egg there while you went to class.#$b#I forgot it at daycare the first day!",
   "event-31032045.35": "The horror!$3",
   "event-31032045.36": "It was. Imagine if it was a real baby!$10",
@@ -843,7 +843,7 @@
   "event-31032045.39": "There's a lesson in everything, then. Thanks, Shane!",
   //Shane Kid Egg Care End CTs
   // Both safe route
-  "ItTakesAVillage_KidEggCareEndCT_bothsafe_Shane": "Both Jas and Vincent took good care of their eggs. You love to see it!",
+  "ItTakesAVillage_KidEggCareEndCT_bothsafe_Shane": "Both Jas and Vincent took good care of their eggs. You love to see it!$6",
   "ItTakesAVillage_KidEggCareEndCT_bothsafe_Sam": "Vincent seemed stoked about being an 'egg dad'.",
   "ItTakesAVillage_KidEggCareEndCT_bothsafe_Jas": "I was hoping my eggie would hatch.$3#$b#Vincent?$3#$b#Yea, he did well too.$3",
   "ItTakesAVillage_KidEggCareEndCT_bothsafe_Vincent": "Yay, Mr. Eggie is safe~!$h#$b#I wasn't sure he would be.$3#$b#Jas' eggie is also safe! She's really good with animals.",
@@ -852,7 +852,7 @@
   "ItTakesAVillage_KidEggCareEndCT_bothsafe_Marnie": "Jas and Vincent took very nice care of her egg. It's nice to see they're learning quickly.$h",
   "ItTakesAVillage_KidEggCareEndCT_bothsafe_Penny": "I think Jas and Vincent learned a lot about caretaking. This was a great lesson from Shane.",
   // Hatch safe route
-  "ItTakesAVillage_KidEggCareEndCT_ hatchsafe_Shane": "Jas took excellent care of her egg! I'm sure she'll do well looking after Waddles, with Marnie and I's help.$h#$b#Vincent took good care of his egg, too.",
+  "ItTakesAVillage_KidEggCareEndCT_ hatchsafe_Shane": "Jas took excellent care of her egg! I'm sure she'll do well looking after Waddles, with Marnie and I's help.$6#$b#Vincent took good care of his egg, too.",
   "ItTakesAVillage_KidEggCareEndCT_ hatchsafe_Sam": "Vincent seemed stoked about being an 'egg dad'.",
   "ItTakesAVillage_KidEggCareEndCT_ hatchsafe_Jas": "Waddles is SO CUTE!$h#$b#Vincent?$3#$b#Yea, he did well too.$3",
   "ItTakesAVillage_KidEggCareEndCT_ hatchsafe_Vincent": "Yay, Mr. Eggie is safe~!$h#$b#I wasn't sure he would be.$3#$b#Jas' Waddles is also safe!",
@@ -867,10 +867,10 @@
   "ItTakesAVillage_KidEggCareEndCT_safesplat_Vincent": "%Vincent is still sniffing a little.#$b#At least Jas' eggie is safe!$3",
   "ItTakesAVillage_KidEggCareEndCT_safesplat_Jodi": "There was a strange smell coming from Vincent's room. He asked about doing his own laundry, including his sheets.#$b#I wish Sam would take the same initiative.$s",
   "ItTakesAVillage_KidEggCareEndCT_safesplat_Kent": "I tried asking Vincent about Mr. Eggie and he started crying.$5#$b#Hopefully he learned something out of this, poor kid.#$b#At least he took responsibility to clean it up himself.",
-  "ItTakesAVillage_KidEggCareEndCT_safesplat_Marnie": "At least Jas had a good time with this lesson.$2",
+  "ItTakesAVillage_KidEggCareEndCT_safesplat_Marnie": "At least Jas had a good time with this lesson, even if Vincent didn't.$2",
   "ItTakesAVillage_KidEggCareEndCT_safesplat_Penny": "It's a shame Vincent struggled, but Jas did well.",
   // Hatch splat route
-  "ItTakesAVillage_KidEggCareEndCT_hatchsplat_Shane": "Jas took excellent care of her egg! I'm sure she'll do well looking after Waddles, with Marnie and I's help.$h#$b#It's a shame about Vincent's. I hope he's not too hard on himself.#$b#What?",
+  "ItTakesAVillage_KidEggCareEndCT_hatchsplat_Shane": "Jas took excellent care of her egg! I'm sure she'll do well looking after Waddles, with Marnie and I's help.$6#$b#It's a shame about Vincent's. I hope he's not too hard on himself.#$b#What?",
   "ItTakesAVillage_KidEggCareEndCT_hatchsplat_Sam": "Vincent seems bummed. I should offer to have a jam session to distract him.",
   "ItTakesAVillage_KidEggCareEndCT_hatchsplat_Jas": "Waddles is SO CUTE!$h#$b#Vincent?$3#$b#Poor Mr. Eggie.$2",
   "ItTakesAVillage_KidEggCareEndCT_hatchsplat_Vincent": "%Vincent is still sniffing a little.#$b#At least Jas' Waddles is cute.$3",
@@ -925,7 +925,7 @@
   "ItTakesAVillage_RobinWoodworkingCT_Kent": "Carpentry isn't my strong suit, but it can't be much more difficult than setting up a tent.#$b#Can it?$s",
   "ItTakesAVillage_RobinWoodworkingCT_Sam": "Vincent's little tune could fit as a riff in my band's new song.#$b#Don't worry, I'll be sure to credit him.#$b#He gets compensated in chocolate cake, though.",
   "ItTakesAVillage_RobinWoodworkingCT_Marnie": "Jas has been scribbling some designs, looks like a new dollhouse. I'm glad Robin inspired her.$h",
-  "ItTakesAVillage_RobinWoodworkingCT_Shane": "Assembling a dollhouse shouldn't be too difficult.$3#$b#Gotta consult with the 'architect' to make sure it meets the specifications.$h",
+  "ItTakesAVillage_RobinWoodworkingCT_Shane": "Assembling a dollhouse shouldn't be too difficult.$3#$b#Gotta consult with the 'architect' to make sure it meets the specifications.$6",
   "ItTakesAVillage_RobinWoodworkingCT_Penny_YesClintMetalworking": "It's nice that the kids get to see how to work with both metal and wood.",
   "ItTakesAVillage_RobinWoodworkingCT_Penny_NoClintMetalworking": "Hopefully the kids enjoy the contrast of Robin's lesson, compared to working with metal with Clint.",
   //
