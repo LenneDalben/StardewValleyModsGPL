@@ -449,7 +449,7 @@
   "ItTakesAVillage_DemetriusBotanyCT_Bug_Shane": "Jas came home chattering about 'pinecone flour'. I don't think that will work for Marnie.$h",
   "ItTakesAVillage_DemetriusBotanyCT_Bug_Penny": "Vincent had trouble with saying the technical names, but both he and Jas had fun taking in nature.",
   //
-  // Emily Emotional Health and Dance event // ***SO LEFT OFF HERE***
+  // Emily Emotional Health and Dance event
   "event-31032031.01": "Thanks for joining me today, everyone!$h",
   "event-31032031.02": "I want to talk with you about something near and dear to my heart: emotional health.",
   "event-31032031.03": "Can anyone tell me what emotional health means?",
@@ -588,7 +588,7 @@
   "ItTakesAVillage_AbigailVideoGamesCT_Shane": "Maybe Jas can share some tips she learned from Abigail.$6",
   "ItTakesAVillage_AbigailVideoGamesCT_Penny": "That's an interesting choice...$3#$b#At least, um... they're learning about having good reflexes?$3#$b#%Penny lets out a puff of air.",
   //
-  // Clint Metalworking event
+  // Clint Metalworking event // ***SO LEFT OFF HERE***
   "event-31032034.01": "HithereI'mClint nicetoseeyoutoday I'mdoingsomeworkwithmetal-$4",
   "event-31032034.02": "Uh, Clint? Are you okay?$3",
   "event-31032034.03": "Justfinewhydoyouask?$4",
@@ -879,7 +879,7 @@
   "ItTakesAVillage_KidEggCareEndCT_hatchsplat_Marnie": "At least Jas had a good time with this lesson.$2",
   "ItTakesAVillage_KidEggCareEndCT_hatchsplat_Penny": "It's a shame Vincent struggled, but Jas did exceedingly well. I don't think anyone expected the egg to hatch!",
   // 
-  // Robin Woodworking event
+  // Robin Woodworking event // ***LENNE LEFT OFF HERE***
   "event-31032038.01": "Welcome one and all to Robin's woodshop!$h",
   "event-31032038.02": "Hey @, you're just in time to see our lesson.",
   "event-31032038.03": "I love building things myself instead of paying someone else to do it.#$b#From these columns holding up the roof, to the counter on my left, I crafted everything by hand.#$b#It's a type of creativity, and I'm happy seeing my creations be useful.$h",
@@ -909,7 +909,7 @@
   "event-31032038.27": "That's so cool!$h#$b#I wanna try!",
   "event-31032038.28": "Well come on up here!$h",
   "event-31032038.29": "I'll try it too!",
-  // Robin Woodworking CTs // ***LEFT OFF HERE***
+  // Robin Woodworking CTs
   "ItTakesAVillage_RobinWoodworkingCT_Robin_YesDefenseYesMetalwork": "No offense to Abigail, but I feel woodworking is a more constructive outlet for kids",
   "ItTakesAVillage_RobinWoodworkingCT_Robin_YesDefenseNoMetalwork": "No offense to Abigail, but I feel woodworking is a more constructive outlet for kids.",
   "ItTakesAVillage_RobinWoodworkingCT_Robin_NoDefenseYesMetalwork": "Well, I didn't have something for the kids to take home, unlike Clint, but they still had fun.#$b#Besides, as a fellow parent, no way I'd give them a present that makes noise.$4#$b#Unlike some people.$6", // #BlameNicole for the cursed hand smile instead of just smile
