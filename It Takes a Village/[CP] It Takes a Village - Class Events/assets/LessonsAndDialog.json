@@ -2,7 +2,7 @@
     "Changes": [
         //
         // Events and CTs
-        // Penny kickstarts the lessons - Done!
+        // Penny kickstarts the lessons
         /*Event proper*/ {
             "LogName": "Penny Kickstarts Lessons",
             "Action": "EditData",
@@ -64,7 +64,7 @@
             }
         },
         //
-        // Alex PE and Healthy Eating - Done!
+        // Alex PE and Healthy Eating
         /*Event proper*/ {
             "LogName": "Alex PE and Healthy Eating Lesson",
             "Action": "EditData",
@@ -175,7 +175,7 @@
             }
         },
         //
-        // Gus Cooking - Done!
+        // Gus Cooking
         /*Event proper*/ {
             "LogName": "Gus Cooking Lesson",
             "Action": "EditData",
@@ -276,7 +276,7 @@
             }
         },
         //
-        // Haley and Leah Art - Done!
+        // Haley and Leah Art
         /*Event proper*/ {
             "LogName": "Haley & Leah Art Lesson",
             "Action": "EditData",
@@ -395,7 +395,7 @@
             }
         },
         //
-        // Elliott Stories  - Done!
+        // Elliott Stories 
         /*Event proper*/ {
             "LogName": "Elliott Stories Lesson",
             "Action": "EditData",
@@ -496,7 +496,7 @@
             }
         },
         //
-        // Sebastian Programming Basics - Done!
+        // Sebastian Programming Basics
         /*Event proper*/ {
             "LogName": "Sebastian Programming Basics Lesson",
             "Action": "EditData",
@@ -605,7 +605,7 @@
             }
         },
         //
-        // Abigail Economics - Done!
+        // Abigail Economics
         /*Event proper*/ {
             "LogName": "Abigail Economics Lesson",
             "Action": "EditData",
@@ -714,7 +714,7 @@
             }
         },
         //
-        // Maru Electronics - Done!
+        // Maru Electronics
         /*Event proper*/ {
             "LogName": "Maru Electronics Lesson",
             "Action": "EditData",
@@ -818,7 +818,7 @@
             }
         },
         //
-        // Demetrius Botany - Done!
+        // Demetrius Botany
         /*Event proper - Extra Copy just in case {
             "LogName": "Demetrius Botany Lesson",
             "Action": "EditData",
@@ -957,7 +957,7 @@
             }
         },
         //
-        // Emily Emotional Health and Dance - Done!
+        // Emily Emotional Health and Dance
         /*Event proper*/ {
             "LogName": "Emily Emotional Health and Dance Lesson",
             "Action": "EditData",
@@ -1067,7 +1067,7 @@
             }
         },
         //
-        // Harvey Anatomy - Done!
+        // Harvey Anatomy
         /*Event proper*/ {
             "LogName": "Harvey Anatomy Lesson",
             "Action": "EditData",
@@ -1192,7 +1192,7 @@
             }
         },
         //
-        // Abigail Video Games - Done!
+        // Abigail Video Games
         /*Event proper*/ {
             "LogName": "Abigail Video Games Lesson",
             "Action": "EditData",
@@ -1309,7 +1309,7 @@
             }
         },
         //
-        // Clint Metalworking - Done!
+        // Clint Metalworking
         /*Event proper*/ {
             "LogName": "Clint Metalworking Lesson",
             "Action": "EditData",
@@ -1410,7 +1410,7 @@
             }
         },
         //
-        // Sam Music - Done!
+        // Sam Music
         /*Event proper*/ {
             "LogName": "Sam Music Lesson",
             "Action": "EditData",
@@ -1513,7 +1513,7 @@
             }
         },
         //
-        // Shane Animal Care - Done!
+        // Shane Animal Care
         /*Event proper*/ {
             "LogName": "Shane Animal Care Lesson",
             "Action": "EditData",
@@ -1689,7 +1689,7 @@
                 "ItTakesAVillage_KidEggCareStart": "{{i18n:ItTakesAVillage_KidEggCareStartCT_Penny}}"
             }
         },
-        // Shane Kid Egg Check In - Done!
+        // Shane Kid Egg Check In
         /*Event proper*/ {
             "LogName": "Suggest Shane Kid Egg Check In Event",
             "Action": "EditData",
@@ -1766,7 +1766,7 @@
                 "ItTakesAVillage_KidEggCheckIn": "{{i18n:ItTakesAVillage_KidEggCheckInCT_Penny}}"
             }
         },
-        // Suggest Shane Kid Egg Care End - Done!
+        // Suggest Shane Kid Egg Care End
         /*Event proper for reminder*/ {
             "LogName": "Suggest Shane Kid Egg Care End Event",
             "Action": "EditData",
@@ -1778,7 +1778,7 @@
                 "HasSeenEvent |contains=31032043": true
             }
         },
-        // Shane Kid Egg Care End Event - Done!
+        // Shane Kid Egg Care End Event
         /*Event proper i18n'd - extra copy just in case {
             "LogName": "Shane Kid Egg Care End Event",
             "Action": "EditData",
@@ -1901,7 +1901,7 @@
             }
         },
         //
-        // Robin Woodworking - Done!
+        // Robin Woodworking
         /*Event proper*/ {
             "LogName": "Robin Woodworking Lesson",
             "Action": "EditData",
@@ -2018,7 +2018,7 @@
             }
         },
         //
-        // Abigail Self Defense - Done!
+        // Abigail Self Defense
         /*Event proper*/ {
             "LogName": "Abigail Self-Defense Lesson",
             "Action": "EditData",
@@ -2130,7 +2130,7 @@
             }
         },
         //
-        // Sebastian Troubleshooting - Done!
+        // Sebastian Troubleshooting
         /*Event proper*/ {
             "LogName": "Sebastian Troubleshooting Lesson",
             "Action": "EditData",
@@ -2239,7 +2239,7 @@
             }
         },
         //
-        // Lesson wrap up! - IN PROGRESS
+        // Lesson wrap up!
         /*Event proper*/ {
             "LogName": "Lesson wrap up",
             "Action": "EditData",
