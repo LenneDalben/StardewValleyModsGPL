@@ -8,6 +8,7 @@
 		},
 		},
   "Changes": [
+	  // BEFORE 1.6
        //A Stable Option (easier), 75 wood and 3 iron bars, 7500 gold
 	   {
           "Action": "EditData",
@@ -36,5 +37,34 @@
 			"StableOption": "B",
 			},
        },
+	   // AFTER 1.6
+		//A Stable Option (easier), 75 wood and 3 iron bars, 7500 gold
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Buildings",
+		   "Fields": {
+			  "Stable": {
+				 "BuildMaterials": "709 75 335 3",
+				 "BuildCost": "7500",
+			  }
+		   },
+			 "When": {
+			 "StableOption": "A",
+			 },
+		},
+		//B Stable Option (easiest), 50 wood and 2 iron bars, 5000 gold
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Buildings",
+		   "Fields": {
+			  "Stable": {
+			  "BuildMaterials": "709 50 335 2",
+			  "BuildCost": "5000",
+			  },
+		   },
+			 "When": {
+			 "StableOption": "B",
+			 },
+		},
     ]
 }
