@@ -4,7 +4,7 @@
    "Description": "NPCs help out Penny teach the kiddos by giving lessons.",
    "Version": "0.9.9",
    "UniqueID": "LenneDalben.CP.ItTakesaVillage",
-   "UpdateKeys": [ "" ],
+   "UpdateKeys": [ "ModDrop:1489386" ],
    "ContentPackFor": {
        "UniqueID": "Pathoschild.ContentPatcher",
 	   "MinimumVersion": "1.21.0"
