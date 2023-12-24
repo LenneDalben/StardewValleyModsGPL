@@ -4,7 +4,7 @@
     "Version": "1.0.0",
     "Description": "Pack of Lasting CTs for It Takes a Village.",
     "UniqueID": "LenneDalben.CP.ItTakesaVillageLastingCTs",
-    "UpdateKeys": [],
+    "UpdateKeys": [ "ModDrop:???" ],
     "ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher"
     },
