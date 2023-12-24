@@ -8,7 +8,7 @@ Features include randomized lesson orders and semi-dynamic dialog based on which
 
 As a novice eventsmith, I was looking for simple-yet-interesting mod ideas to implement, and Airyn suggested a lessons series! The idea was "it takes a village to raise a child". Penny will recruit fellow townspeople to teach Vincent and Jas something they know. This year-and-9-months labor of love has been incredibly fun, so I hope you enjoy :)
 
-Each lesson is an event in Pelican Town where t will share their thoughts townspeople react afterward. Some are supportive, some are judgmental, etc. Check out the screenshots for some examples! The Minimum Days Between Lessons config determines the duration for townspeople to share thoughts (known as Conversation Topics or CTs by modders).
+Each lesson is an event in Pelican Town where townspeople will share their thoughts afterward. Some are supportive, some are judgmental, etc. Check out the screenshots for some examples! The Minimum Days Between Lessons config determines the duration for townspeople to share thoughts (known as Conversation Topics or CTs by modders).
 
 Fair warning: most of the events have the player being passive or just not there, so if that's not your thing, give the mod a pass.
 
