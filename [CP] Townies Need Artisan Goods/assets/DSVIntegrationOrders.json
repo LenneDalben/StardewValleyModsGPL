@@ -49,7 +49,7 @@
         "OrderType": "juice",
         "HasCraftingRecipe": "Keg",
         "EasyMode": "false",
-        "PlayerHasDSVModdedGus": "true"
+        "Query: '{{HasMod |contains= DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.HarveyGusLewis}}' = 'true' OR ('{{HasMod |contains= DSV.Core}}' = 'true' AND '{{DSV.Core/ConfigValue:GusVariant |contains=Modded}}' = 'true')": true
       }
     },
     // Gus Drinks for the Fair - Easy Mode - DSV is installed, it's tomato juice
@@ -242,7 +242,7 @@
       },
       "When": {
         "EasyMode": "false",
-        "PlayerHasDSVModdedGus": "true"
+        "Query: '{{HasMod |contains= DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.HarveyGusLewis}}' = 'true' OR ('{{HasMod |contains= DSV.Core}}' = 'true' AND '{{DSV.Core/ConfigValue:GusVariant |contains=Modded}}' = 'true')": true
       }
     },
     // Strings Gus Drinks for the Fair - Easy Mode - DSV is installed
@@ -256,7 +256,7 @@
       },
       "When": {
         "EasyMode": "true",
-        "PlayerHasDSVModdedGus": "true"
+        "Query: '{{HasMod |contains= DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.HarveyGusLewis}}' = 'true' OR ('{{HasMod |contains= DSV.Core}}' = 'true' AND '{{DSV.Core/ConfigValue:GusVariant |contains=Modded}}' = 'true')": true
       }
     },
     // Strings Sam Game Night - DSV is installed
@@ -272,7 +272,7 @@
         "TowniesNeedArtisanGoods_Sam_GameNight_Message_1_DSV": "{{i18n:TowniesNeedArtisanGoods_Sam_GameNight_Message_1_DSV}}"
       },
       "When": {
-        "PlayerHasModdedSam": "true"
+        "Query: '{{HasMod |contains= DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.SamVincentJodiKent}}' = 'true' OR ('{{HasMod |contains= DSV.Core}}' = 'true' AND '{{DSV.Core/ConfigValue:JodiVariant |contains=Modded}}' = 'true')": true
       }
     },
     // Strings Sandy Light Beverage - DSV is installed
@@ -285,7 +285,7 @@
         "TowniesNeedArtisanGoods_Sandy_LightBeverage_Juice_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Sandy_LightBeverage_Juice_Objective_Text_0}}"
       },
       "When": {
-        "PlayerHasDSVModdedSandy": "true"
+        "Query: '{{HasMod |contains= DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.EmilyHaleySandy}}' = 'true' OR ('{{HasMod |contains= DSV.Core}}' = 'true' AND '{{DSV.Core/ConfigValue:SandyVariant |contains=Modded}}' = 'true')": true
       }
     }
   ]
