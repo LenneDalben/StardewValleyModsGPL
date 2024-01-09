@@ -161,15 +161,21 @@
   "TowniesNeedArtisanGoods_George_HealthyRoe_Objective_Text_0": "Deliver 10 Aged Roe jars (sunfish, sardine, or anchovy) to George",
   "TowniesNeedArtisanGoods_George_HealthyRoe_Message_0": "Hmph, I hope this tastes ok.#$b#Thank you @!$h",
   //
-  // Gus Drinks for the Fair Default Order Strings
+  // Gust Drinks for the Fair - Always
   "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Name": "Drinks for the Fair",
+  "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Message_0": "Thank you @! This will really help with the Fair.$h",
+  // Gus Drinks for the Fair Default Order Strings - No DSV installed, so it's ale
   "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Text": "It's never too early to start preparing for the Fair. Could someone bring me 30 bottles of pale ale?",
   "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Objective_Text_0": "Deliver 30 Pale Ales to Gus",
-  "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Message_0": "Thank you @! This will really help with the Fair.$h",
-  //
-  // Gus Drinks for the Fair Easy Mode Order Strings
+  // Gus Drinks for the Fair Easy Mode Order Strings - No DSV installed, so it's ale
   "TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Text": "It's never too early to start preparing for the Fair. Could someone bring me 10 bottles of pale ale?",
   "TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Objective_Text_0": "Deliver 10 Pale Ales to Gus",
+  // Gus Drinks for the Fair Default Order Strings - DSV is installed, so it's tomato juice
+  "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Text_DSV": "It's never too early to start preparing for the Fair. Could someone bring me 30 bottles of tomato juice?",
+  "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Objective_Text_0_DSV": "Deliver 30 Tomato Juice bottles to Gus",
+  // Gus Drinks for the Fair Easy Mode Order Strings
+  "TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Text_DSV": "It's never too early to start preparing for the Fair. Could someone bring me 10 bottles of tomato juice?",
+  "TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Objective_Text_0_DSV": "Deliver 10 Tomato Juice bottles to Gus",
   //
   // Gus Special Ingredient Order Strings
   "TowniesNeedArtisanGoods_Gus_SpecialIngredient_Name": "Special Ingredient",
@@ -297,13 +303,20 @@
   "TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Objective_Text_0": "Deliver 3 Strawberry Wine bottles to Robin",
   "TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Message_0": "Thanks @! I'm looking forward to this.$h#$b#Reminds me of a hot July moon...$4",
   //
-  // Sam Game Night Order Strings
+  // Sam Game Night Order Strings - Always
   "TowniesNeedArtisanGoods_Sam_GameNight_Name": "Game Night",
+  // Sam Game Night Order Strings - No DSV installed
   "TowniesNeedArtisanGoods_Sam_GameNight_Text": "We're having a session of Solarion Chronicles and could use some drinks. Could someone bring me 2 bottles of mead and 2 coffees?",
   "TowniesNeedArtisanGoods_Sam_GameNight_Objective_Text_0": "Deliver 2 Mead bottles to Sam",
   "TowniesNeedArtisanGoods_Sam_GameNight_Objective_Text_1": "Deliver 2 Coffees to Sam",
   "TowniesNeedArtisanGoods_Sam_GameNight_Message_0": "Thanks, Abby and I will enjoy these!$h",
   "TowniesNeedArtisanGoods_Sam_GameNight_Message_1": "Thanks, gotta have something for Sebastian to drink too.$h",
+  // Sam Game Night Order Strings - DSV is installed
+  "TowniesNeedArtisanGoods_Sam_GameNight_Text_DSV": "We're having a session of Solarion Chronicles and could use some drinks. Could someone bring me 1 bottle of mead and 3 coffees?",
+  "TowniesNeedArtisanGoods_Sam_GameNight_Objective_Text_0_DSV": "Deliver 1 Mead bottle to Sam",
+  "TowniesNeedArtisanGoods_Sam_GameNight_Objective_Text_1_DSV": "Deliver 3 Coffees to Sam",
+  "TowniesNeedArtisanGoods_Sam_GameNight_Message_0_DSV": "Thanks, Abby will enjoy this!$h",
+  "TowniesNeedArtisanGoods_Sam_GameNight_Message_1_DSV": "Thanks, gotta have something for Sebastian and I to drink too.$h",
   //
   // Sam Grease for Wheels Order Strings
   "TowniesNeedArtisanGoods_Sam_GreaseforWheels_Name": "Grease for Wheels",
@@ -317,7 +330,7 @@
   "TowniesNeedArtisanGoods_Sam_SweetandSoothing_Objective_Text_0": "Deliver 3 Honey jars (blue jazz or tulip) to Sam",
   "TowniesNeedArtisanGoods_Sam_SweetandSoothing_Message_0": "Awesome, thanks @!$h#$b# It's that time of the year again, you know? My allergies are acting up.",
   //
-  // Sandy Light Beverage Order Strings - Default
+  // Sandy Light Beverage Order Strings - Always
   "TowniesNeedArtisanGoods_Sandy_LightBeverage_Name": "Light Beverage",
   "TowniesNeedArtisanGoods_Sandy_LightBeverage_Message_0": "Emily asked you to bring these to me?#$b# I guess I'll keep these until she visits, and then we can drink them together!$h",
   //

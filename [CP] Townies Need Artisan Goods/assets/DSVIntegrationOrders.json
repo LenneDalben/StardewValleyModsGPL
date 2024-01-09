@@ -1,0 +1,292 @@
+{
+  "Changes": [
+    // DSV Integration Orders
+    // Gus Drinks for the Fair - Default - DSV is installed, it's tomato juice
+    {
+      "LogName": "Gus Drinks for the Fair - Default - DSV",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Gus_DrinksfortheFair": {
+          "Name": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Name]",
+          "Requester": "Gus",
+          "Duration": "Month",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "season_summer",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Text_DSV]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Objective_Text_0_DSV]",
+              "RequiredCount": "30",
+              "Data": {
+                "AcceptedContextTags": "item_tomato_juice",
+                "Message": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Message_0]",
+                "TargetName": "Gus"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "5670"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "juice",
+        "HasCraftingRecipe": "Keg",
+        "EasyMode": "false",
+        "PlayerHasDSVModdedGus": "true"
+      }
+    },
+    // Gus Drinks for the Fair - Easy Mode - DSV is installed, it's tomato juice
+    {
+      "LogName": "Gus Drinks for the Fair - Easy Mode - DSV",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Gus_DrinksfortheFair": {
+          "Name": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Name]",
+          "Requester": "Gus",
+          "Duration": "TwoWeeks",
+          "Repeatable": "{{RepeatableConfig}}",
+          "RequiredTags": "season_summer",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Text_DSV]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Objective_Text_0_DSV]",
+              "RequiredCount": "10",
+              "Data": {
+                "AcceptedContextTags": "item_tomato_juice",
+                "Message": "[TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Message_0]",
+                "TargetName": "Gus"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1890"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "juice",
+        "HasCraftingRecipe": "Keg",
+        "EasyMode": "true",
+        "PlayerHasDSVModdedGus": "true"
+      }
+    },
+    // Sam Game Night - DSV is installed, it's 1 mead and 3 coffees
+    {
+      "LogName": "Sam Game Night - DSV",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Sam_GameNight": {
+          "Name": "[TowniesNeedArtisanGoods_Sam_GameNight_Name]",
+          "Requester": "Sam",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Sam_GameNight_Text_DSV]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Sam_GameNight_Objective_Text_0_DSV]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_mead",
+                "Message": "[TowniesNeedArtisanGoods_Sam_GameNight_Message_0_DSV]",
+                "TargetName": "Sam"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Sam_GameNight_Objective_Text_1_DSV]",
+              "RequiredCount": "3",
+              "Data": {
+                "AcceptedContextTags": "item_coffee",
+                "Message": "[TowniesNeedArtisanGoods_Sam_GameNight_Message_1_DSV]",
+                "TargetName": "Sam"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1460"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "TowniesNeedArtisanGoods_Sam_GameNight_Completed",
+                "NoLetter": "true"
+              }
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "mead",
+        "HasCraftingRecipe": "Keg",
+        "HasSeenEvent": "27",
+        "PlayerHasModdedSam": "true"
+      }
+    },
+    // Sandy Light Beverage - DSV is installed, so it's beet juice
+    {
+      "LogName": "Sandy Light Beverage - Juice - DSV",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Sandy_LightBeverage": {
+          "Name": "[TowniesNeedArtisanGoods_Sandy_LightBeverage_Name]",
+          "Requester": "Emily",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "!season_spring, !season_winter",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[TowniesNeedArtisanGoods_Sandy_LightBeverage_Juice_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedArtisanGoods_Sandy_LightBeverage_Juice_Objective_Text_0]",
+              "RequiredCount": "2",
+              "Data": {
+                "AcceptedContextTags": "item_beet_juice",
+                "Message": "[TowniesNeedArtisanGoods_Sandy_LightBeverage_Message_0]",
+                "TargetName": "Sandy"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1260"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "TowniesNeedArtisanGoods_Sandy_LightBeverage_Juice_Letter",
+                "NoLetter": "false"
+              }
+            }
+          ]
+        }
+      },
+      "When": {
+        "OrderType": "juice",
+        "HasCraftingRecipe": "Keg",
+        "HasSeenEvent": "67",
+        "PlayerHasDSVModdedSandy": "true",
+        "EasterEgg": "true"
+      }
+    },
+    // DSV Integration Strings    
+    // Strings Gus Drinks for the Fair - Default - DSV is installed
+    {
+      "LogName": "Strings Gus Drinks for the Fair - Default - DSV",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Text_DSV": "{{i18n:TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Text_DSV}}",
+        "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Objective_Text_0_DSV": "{{i18n:TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Objective_Text_0_DSV}}"
+      },
+      "When": {
+        "EasyMode": "false",
+        "PlayerHasDSVModdedGus": "true"
+      }
+    },
+    // Strings Gus Drinks for the Fair - Easy Mode - DSV is installed
+    {
+      "LogName": "Strings Gus Drinks for the Fair - Easy Mode - DSV",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Text_DSV": "{{i18n:TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Text_DSV}}",
+        "TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Objective_Text_0_DSV": "{{i18n:TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Objective_Text_0_DSV}}"
+      },
+      "When": {
+        "EasyMode": "true",
+        "PlayerHasDSVModdedGus": "true"
+      }
+    },
+    // Strings Sam Game Night - DSV is installed
+    {
+      "LogName": "Strings Sam Game Night - DSV",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Sam_GameNight_Text_DSV": "{{i18n:TowniesNeedArtisanGoods_Sam_GameNight_Text_DSV}}",
+        "TowniesNeedArtisanGoods_Sam_GameNight_Objective_Text_0_DSV": "{{i18n:TowniesNeedArtisanGoods_Sam_GameNight_Objective_Text_0_DSV}}",
+        "TowniesNeedArtisanGoods_Sam_GameNight_Objective_Text_1_DSV": "{{i18n:TowniesNeedArtisanGoods_Sam_GameNight_Objective_Text_1_DSV}}",
+        "TowniesNeedArtisanGoods_Sam_GameNight_Message_0_DSV": "{{i18n:TowniesNeedArtisanGoods_Sam_GameNight_Message_0_DSV}}",
+        "TowniesNeedArtisanGoods_Sam_GameNight_Message_1_DSV": "{{i18n:TowniesNeedArtisanGoods_Sam_GameNight_Message_1_DSV}}"
+      },
+      "When": {
+        "PlayerHasModdedSam": "true"
+      }
+    },
+    // Strings Sandy Light Beverage - DSV is installed
+    {
+      "LogName": "Strings Sandy Light Beverage - Juice - DSV",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "TowniesNeedArtisanGoods_Sandy_LightBeverage_Juice_Text": "{{i18n:TowniesNeedArtisanGoods_Sandy_LightBeverage_Juice_Text}}",
+        "TowniesNeedArtisanGoods_Sandy_LightBeverage_Juice_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Sandy_LightBeverage_Juice_Objective_Text_0}}"
+      },
+      "When": {
+        "PlayerHasDSVModdedSandy": "true"
+      }
+    }
+  ]
+}

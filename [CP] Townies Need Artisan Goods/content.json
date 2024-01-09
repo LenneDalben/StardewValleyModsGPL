@@ -64,6 +64,67 @@
         "HasMod": "Wingheart.VanillaQualityPFM"
       }
     },
+    // Check if player has DSV
+    {
+      "Name": "PlayerHasDSV",
+      "Value": "false"
+    },
+    {
+      "Name": "PlayerHasDSV",
+      "Value": "true",
+      "When": {
+        "HasMod": "DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.SamVincentJodiKent, DSVTeam.DiverseSeasonalOutfits.EmilyHaleySandy, DSVTeam.DiverseSeasonalOutfits.HarveyGusLewis, DSV.Core"
+      }
+    },
+    // If player has DSV Core, do they have the modded variants of Sandy, Gus, and/or Sam
+    // Player Has DSV Modded Sandy
+    {
+      "Name": "PlayerHasDSVModdedSandy",
+      "Value": "true",
+      "When": {
+        "HasMod": "DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.EmilyHaleySandy"
+      }
+    },
+    {
+      "Name": "PlayerHasDSVModdedSandy",
+      "Value": "true",
+      "When": {
+        "HasMod |contains=DSV.Core": "true",
+        "DSV.Core/ConfigValue:SandyVariant |contains=Modded": true
+      }
+    },
+    // Player Has DSV Modded Gus
+    {
+      "Name": "PlayerHasDSVModdedGus",
+      "Value": "true",
+      "When": {
+        "HasMod": "DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.HarveyGusLewis"
+      }
+    },
+    {
+      "Name": "PlayerHasDSVModdedGus",
+      "Value": "true",
+      "When": {
+        "HasMod |contains=DSV.Core": "true",
+        "DSV.Core/ConfigValue:GusVariant |contains=Modded": true,
+      }
+    },
+    // Player Has DSV Modded Sam
+    {
+      "Name": "PlayerHasDSVModdedSam",
+      "Value": "true",
+      "When": {
+        "HasMod": "DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.SamVincentJodiKent"
+      }
+    },
+    {
+      "Name": "PlayerHasDSVModdedSam",
+      "Value": "true",
+      "When": {
+        "HasMod |contains=DSV.Core": "true",
+        "DSV.Core/ConfigValue:JodiVariant |contains=Modded": true
+      }
+    },
     // Loading Adventurer Guild
     {
       "Name": "LoadAdventurerGuildToken",
@@ -134,6 +195,15 @@
       "FromFile": "assets/ModIntegrationRewards.json",
       "When": {
         "HasMod |contains=Himetarts.ARV.CP, tiakall.jortsandjean, ZoeDoll.NPCAlecto": "true"
+      }
+    },
+    // Include DSV Integration Orders and Strings Patches
+    {
+      "LogName": "Include DSV Integration Orders",
+      "Action": "Include",
+      "FromFile": "assets/DSVIntegrationOrders.json",
+      "When": {
+        "PlayerHasDSV": "true"
       }
     },
     // Leah's House DropBox Patch
@@ -400,9 +470,9 @@
         "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Message_0": "{{i18n:TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Message_0}}"
       }
     },
-    // Strings Gus Drinks for the Fair - Default
+    // Strings Gus Drinks for the Fair - Default - No DSV installed
     {
-      "LogName": "Strings Gus Drinks for the Fair - Default",
+      "LogName": "Strings Gus Drinks for the Fair - Default - No DSV",
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
@@ -410,12 +480,13 @@
         "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Objective_Text_0}}"
       },
       "When": {
-        "EasyMode": "false"
+        "EasyMode": "false",
+        "PlayerHasDSV": "false"
       }
     },
-    // Strings Gus Drinks for the Fair - Easy Mode
+    // Strings Gus Drinks for the Fair - Easy Mode - No DSV installed
     {
-      "LogName": "Strings Gus Drinks for the Fair - Easy Mode",
+      "LogName": "Strings Gus Drinks for the Fair - Easy Mode - No DSV",
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
@@ -423,7 +494,8 @@
         "TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Objective_Text_0}}"
       },
       "When": {
-        "EasyMode": "true"
+        "EasyMode": "true",
+        "PlayerHasDSV": "false"
       }
     },
     // Strings Gus Special Ingredient
@@ -686,18 +758,29 @@
         "TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Message_0": "{{i18n:TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Message_0}}"
       }
     },
-    // Strings Sam Game Night
+    // Strings Sam Game Night - Always
     {
-      "LogName": "Strings Sam Game Night",
+      "LogName": "Strings Sam Game Night - Always",
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
-        "TowniesNeedArtisanGoods_Sam_GameNight_Name": "{{i18n:TowniesNeedArtisanGoods_Sam_GameNight_Name}}",
+        "TowniesNeedArtisanGoods_Sam_GameNight_Name": "{{i18n:TowniesNeedArtisanGoods_Sam_GameNight_Name}}"
+      }
+    },
+    // Strings Sam Game Night - No DSV installed
+    {
+      "LogName": "Strings Sam Game Night - No DSV",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
         "TowniesNeedArtisanGoods_Sam_GameNight_Text": "{{i18n:TowniesNeedArtisanGoods_Sam_GameNight_Text}}",
         "TowniesNeedArtisanGoods_Sam_GameNight_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Sam_GameNight_Objective_Text_0}}",
         "TowniesNeedArtisanGoods_Sam_GameNight_Objective_Text_1": "{{i18n:TowniesNeedArtisanGoods_Sam_GameNight_Objective_Text_1}}",
         "TowniesNeedArtisanGoods_Sam_GameNight_Message_0": "{{i18n:TowniesNeedArtisanGoods_Sam_GameNight_Message_0}}",
         "TowniesNeedArtisanGoods_Sam_GameNight_Message_1": "{{i18n:TowniesNeedArtisanGoods_Sam_GameNight_Message_1}}"
+      },
+      "When": {
+        "PlayerHasDSV": "false"
       }
     },
     // Strings Sam Grease for Wheels
@@ -736,7 +819,7 @@
     },
     // Strings Sandy Light Beverage - No DSV installed
     {
-      "LogName": "Strings Sandy Light Beverage - Beer",
+      "LogName": "Strings Sandy Light Beverage - Beer - No DSV",
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
@@ -744,22 +827,7 @@
         "TowniesNeedArtisanGoods_Sandy_LightBeverage_Beer_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Sandy_LightBeverage_Beer_Objective_Text_0}}"
       },
       "When": {
-        "HasMod |contains=DSVTeam.DiverseSeasonalOutfits": "false",
-        "HasMod |contains=DSVTeam.DSVLightweightSeasonal": "false",
-        "HasMod |contains=DSVTeam.DiverseSeasonalOutfits.EmilyHaleySandy": "false"
-      }
-    },
-    // Strings Sandy Light Beverage - DSV installed
-    {
-      "LogName": "Strings Sandy Light Beverage - Juice",
-      "Action": "EditData",
-      "Target": "Strings/SpecialOrderStrings",
-      "Entries": {
-        "TowniesNeedArtisanGoods_Sandy_LightBeverage_Juice_Text": "{{i18n:TowniesNeedArtisanGoods_Sandy_LightBeverage_Juice_Text}}",
-        "TowniesNeedArtisanGoods_Sandy_LightBeverage_Juice_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Sandy_LightBeverage_Juice_Objective_Text_0}}"
-      },
-      "When": {
-        "HasMod |contains=DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.EmilyHaleySandy": "true"
+        "PlayerHasDSV": "false"
       }
     },
     // Strings Sebastian Side for Sushi
