@@ -76,55 +76,6 @@
         "HasMod": "DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.SamVincentJodiKent, DSVTeam.DiverseSeasonalOutfits.EmilyHaleySandy, DSVTeam.DiverseSeasonalOutfits.HarveyGusLewis, DSV.Core"
       }
     },
-    // If player has DSV Core, do they have the modded variants of Sandy, Gus, and/or Sam
-    // Player Has DSV Modded Sandy
-    {
-      "Name": "PlayerHasDSVModdedSandy",
-      "Value": "true",
-      "When": {
-        "HasMod": "DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.EmilyHaleySandy"
-      }
-    },
-    {
-      "Name": "PlayerHasDSVModdedSandy",
-      "Value": "true",
-      "When": {
-        "HasMod |contains=DSV.Core": "true",
-        "DSV.Core/ConfigValue:SandyVariant |contains=Modded": true
-      }
-    },
-    // Player Has DSV Modded Gus
-    {
-      "Name": "PlayerHasDSVModdedGus",
-      "Value": "true",
-      "When": {
-        "HasMod": "DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.HarveyGusLewis"
-      }
-    },
-    {
-      "Name": "PlayerHasDSVModdedGus",
-      "Value": "true",
-      "When": {
-        "HasMod |contains=DSV.Core": "true",
-        "DSV.Core/ConfigValue:GusVariant |contains=Modded": true,
-      }
-    },
-    // Player Has DSV Modded Sam
-    {
-      "Name": "PlayerHasDSVModdedSam",
-      "Value": "true",
-      "When": {
-        "HasMod": "DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.SamVincentJodiKent"
-      }
-    },
-    {
-      "Name": "PlayerHasDSVModdedSam",
-      "Value": "true",
-      "When": {
-        "HasMod |contains=DSV.Core": "true",
-        "DSV.Core/ConfigValue:JodiVariant |contains=Modded": true
-      }
-    },
     // Loading Adventurer Guild
     {
       "Name": "LoadAdventurerGuildToken",

@@ -100,7 +100,7 @@
         "OrderType": "juice",
         "HasCraftingRecipe": "Keg",
         "EasyMode": "true",
-        "PlayerHasDSVModdedGus": "true"
+        "Query: '{{HasMod |contains= DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.HarveyGusLewis}}' = 'true' OR ('{{HasMod |contains= DSV.Core}}' = 'true' AND '{{DSV.Core/ConfigValue:GusVariant |contains=Modded}}' = 'true')": true
       }
     },
     // Sam Game Night - DSV is installed, it's 1 mead and 3 coffees
@@ -168,7 +168,7 @@
         "OrderType": "mead",
         "HasCraftingRecipe": "Keg",
         "HasSeenEvent": "27",
-        "PlayerHasModdedSam": "true"
+        "Query: '{{HasMod |contains= DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.SamVincentJodiKent}}' = 'true' OR ('{{HasMod |contains= DSV.Core}}' = 'true' AND '{{DSV.Core/ConfigValue:JodiVariant |contains=Modded}}' = 'true')": true
       }
     },
     // Sandy Light Beverage - DSV is installed, so it's beet juice
@@ -226,7 +226,7 @@
         "OrderType": "juice",
         "HasCraftingRecipe": "Keg",
         "HasSeenEvent": "67",
-        "PlayerHasDSVModdedSandy": "true",
+        "Query: '{{HasMod |contains= DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.EmilyHaleySandy}}' = 'true' OR ('{{HasMod |contains= DSV.Core}}' = 'true' AND '{{DSV.Core/ConfigValue:SandyVariant |contains=Modded}}' = 'true')": true,
         "EasterEgg": "true"
       }
     },
