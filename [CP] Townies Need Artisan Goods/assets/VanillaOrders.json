@@ -932,7 +932,7 @@
         "OrderType": "beer",
         "HasCraftingRecipe": "Keg",
         "EasyMode": "false",
-        "PlayerHasDSV": "false"
+        "HasMod |contains=DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.HarveyGusLewis": "false"
       }
     },
     // Gus Drinks for the Fair - Easy Mode - No DSV installed, it's ale
@@ -983,7 +983,7 @@
         "OrderType": "beer",
         "HasCraftingRecipe": "Keg",
         "EasyMode": "true",
-        "PlayerHasDSV": "false"
+        "HasMod |contains=DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.HarveyGusLewis": "false"
       }
     },
     // Gus Special Ingredient
@@ -2174,7 +2174,7 @@
         "OrderType": "mead",
         "HasCraftingRecipe": "Keg",
         "HasSeenEvent": "27",
-        "PlayerHasDSV": "false"
+        "HasMod |contains=DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.SamVincentJodiKent": false
       }
     },
     // Sam Grease for Wheels
@@ -2338,7 +2338,7 @@
         "OrderType": "beer",
         "HasCraftingRecipe": "Keg",
         "HasSeenEvent": "67",
-        "PlayerHasDSV": "false",
+        "HasMod |contains=DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.EmilyHaleySandy": false,
         "EasterEgg": "true"
       }
     },

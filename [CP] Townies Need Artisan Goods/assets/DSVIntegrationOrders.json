@@ -1,9 +1,9 @@
 {
   "Changes": [
-    // DSV Integration Orders
-    // Gus Drinks for the Fair - Default - DSV is installed, it's tomato juice
+    // Core DSV Integration Orders
+    // Gus Drinks for the Fair - Default - Core DSV is installed, it's tomato juice
     {
-      "LogName": "Gus Drinks for the Fair - Default - DSV",
+      "LogName": "Gus Drinks for the Fair - Default - Core DSV",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -49,12 +49,13 @@
         "OrderType": "juice",
         "HasCraftingRecipe": "Keg",
         "EasyMode": "false",
-        "Query: '{{HasMod |contains= DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.HarveyGusLewis}}' = 'true' OR ('{{HasMod |contains= DSV.Core}}' = 'true' AND '{{DSV.Core/ConfigValue:GusVariant |contains=Modded}}' = 'true')": true
+        "HasMod |contains=DSV.Core": "true",
+        "DSV.Core/ConfigValue:GusVariant |contains=Modded": true
       }
     },
-    // Gus Drinks for the Fair - Easy Mode - DSV is installed, it's tomato juice
+    // Gus Drinks for the Fair - Easy Mode - Core DSV is installed, it's tomato juice
     {
-      "LogName": "Gus Drinks for the Fair - Easy Mode - DSV",
+      "LogName": "Gus Drinks for the Fair - Easy Mode - Core DSV",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -100,12 +101,13 @@
         "OrderType": "juice",
         "HasCraftingRecipe": "Keg",
         "EasyMode": "true",
-        "Query: '{{HasMod |contains= DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.HarveyGusLewis}}' = 'true' OR ('{{HasMod |contains= DSV.Core}}' = 'true' AND '{{DSV.Core/ConfigValue:GusVariant |contains=Modded}}' = 'true')": true
+        "HasMod |contains=DSV.Core": "true",
+        "DSV.Core/ConfigValue:GusVariant |contains=Modded": true
       }
     },
-    // Sam Game Night - DSV is installed, it's 1 mead and 3 coffees
+    // Sam Game Night - Core DSV is installed, it's 1 mead and 3 coffees
     {
-      "LogName": "Sam Game Night - DSV",
+      "LogName": "Sam Game Night - Core DSV",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -168,12 +170,13 @@
         "OrderType": "mead",
         "HasCraftingRecipe": "Keg",
         "HasSeenEvent": "27",
-        "Query: '{{HasMod |contains= DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.SamVincentJodiKent}}' = 'true' OR ('{{HasMod |contains= DSV.Core}}' = 'true' AND '{{DSV.Core/ConfigValue:JodiVariant |contains=Modded}}' = 'true')": true
+        "HasMod |contains=DSV.Core": "true",
+        "DSV.Core/ConfigValue:SamVariant |contains=Modded": true
       }
     },
-    // Sandy Light Beverage - DSV is installed, so it's beet juice
+    // Sandy Light Beverage - Core DSV is installed, so it's beet juice
     {
-      "LogName": "Sandy Light Beverage - Juice - DSV",
+      "LogName": "Sandy Light Beverage - Juice - Core DSV",
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
       "Entries": {
@@ -226,14 +229,15 @@
         "OrderType": "juice",
         "HasCraftingRecipe": "Keg",
         "HasSeenEvent": "67",
-        "Query: '{{HasMod |contains= DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.EmilyHaleySandy}}' = 'true' OR ('{{HasMod |contains= DSV.Core}}' = 'true' AND '{{DSV.Core/ConfigValue:SandyVariant |contains=Modded}}' = 'true')": true,
+        "HasMod |contains=DSV.Core": "true",
+        "DSV.Core/ConfigValue:SandyVariant |contains=Modded": true,
         "EasterEgg": "true"
       }
     },
-    // DSV Integration Strings    
-    // Strings Gus Drinks for the Fair - Default - DSV is installed
+    // Core DSV Integration Strings
+    // Strings Gus Drinks for the Fair - Default - Core DSV is installed
     {
-      "LogName": "Strings Gus Drinks for the Fair - Default - DSV",
+      "LogName": "Strings Gus Drinks for the Fair - Default - Core DSV",
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
@@ -242,12 +246,13 @@
       },
       "When": {
         "EasyMode": "false",
-        "Query: '{{HasMod |contains= DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.HarveyGusLewis}}' = 'true' OR ('{{HasMod |contains= DSV.Core}}' = 'true' AND '{{DSV.Core/ConfigValue:GusVariant |contains=Modded}}' = 'true')": true
+        "HasMod |contains=DSV.Core": "true",
+        "DSV.Core/ConfigValue:GusVariant |contains=Modded": true
       }
     },
-    // Strings Gus Drinks for the Fair - Easy Mode - DSV is installed
+    // Strings Gus Drinks for the Fair - Easy Mode - Core DSV is installed
     {
-      "LogName": "Strings Gus Drinks for the Fair - Easy Mode - DSV",
+      "LogName": "Strings Gus Drinks for the Fair - Easy Mode - Core DSV",
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
@@ -256,12 +261,13 @@
       },
       "When": {
         "EasyMode": "true",
-        "Query: '{{HasMod |contains= DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.HarveyGusLewis}}' = 'true' OR ('{{HasMod |contains= DSV.Core}}' = 'true' AND '{{DSV.Core/ConfigValue:GusVariant |contains=Modded}}' = 'true')": true
+        "HasMod |contains=DSV.Core": "true",
+        "DSV.Core/ConfigValue:GusVariant |contains=Modded": true
       }
     },
-    // Strings Sam Game Night - DSV is installed
+    // Strings Sam Game Night - Core DSV is installed
     {
-      "LogName": "Strings Sam Game Night - DSV",
+      "LogName": "Strings Sam Game Night - Core DSV",
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
@@ -272,12 +278,13 @@
         "TowniesNeedArtisanGoods_Sam_GameNight_Message_1_DSV": "{{i18n:TowniesNeedArtisanGoods_Sam_GameNight_Message_1_DSV}}"
       },
       "When": {
-        "Query: '{{HasMod |contains= DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.SamVincentJodiKent}}' = 'true' OR ('{{HasMod |contains= DSV.Core}}' = 'true' AND '{{DSV.Core/ConfigValue:JodiVariant |contains=Modded}}' = 'true')": true
+        "HasMod |contains=DSV.Core": "true",
+        "DSV.Core/ConfigValue:SamVariant |contains=Modded": true
       }
     },
-    // Strings Sandy Light Beverage - DSV is installed
+    // Strings Sandy Light Beverage - Core DSV is installed
     {
-      "LogName": "Strings Sandy Light Beverage - Juice - DSV",
+      "LogName": "Strings Sandy Light Beverage - Juice - Core DSV",
       "Action": "EditData",
       "Target": "Strings/SpecialOrderStrings",
       "Entries": {
@@ -285,7 +292,8 @@
         "TowniesNeedArtisanGoods_Sandy_LightBeverage_Juice_Objective_Text_0": "{{i18n:TowniesNeedArtisanGoods_Sandy_LightBeverage_Juice_Objective_Text_0}}"
       },
       "When": {
-        "Query: '{{HasMod |contains= DSVTeam.DiverseSeasonalOutfits, DSVTeam.DSVLightweightSeasonal, DSVTeam.DiverseSeasonalOutfits.EmilyHaleySandy}}' = 'true' OR ('{{HasMod |contains= DSV.Core}}' = 'true' AND '{{DSV.Core/ConfigValue:SandyVariant |contains=Modded}}' = 'true')": true
+        "HasMod |contains=DSV.Core": "true",
+        "DSV.Core/ConfigValue:SandyVariant |contains=Modded": true
       }
     }
   ]
