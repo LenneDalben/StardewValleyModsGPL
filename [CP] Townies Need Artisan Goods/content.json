@@ -140,7 +140,7 @@
     {
       "LogName": "Include Core DSV Integration Orders",
       "Action": "Include",
-      "FromFile": "assets/DSVIntegrationOrders.json",
+      "FromFile": "assets/CoreDSVIntegrationOrders.json",
       "When": {
         "HasMod |contains=DSV.Core": "true",
       }
