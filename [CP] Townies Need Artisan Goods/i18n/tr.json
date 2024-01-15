@@ -154,15 +154,22 @@
   "TowniesNeedArtisanGoods_George_HealthyRoe_Objective_Text_0": "George'a 10 kavanoz Olgun Yumurta (sadece güneşbalığı, sardalya ya da hamsi) ver ",
   "TowniesNeedArtisanGoods_George_HealthyRoe_Message_0": "Hmph, umarım tadı iyidir.#$b#Teşekkür ederim @!$h",
   //
-  // Gus Drinks for the Fair Default Order Strings
+  // Gus Drinks for the Fair - Always
   "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Name": "Fuar İçin İçecek",
+  "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Message_0": "Teşekkür ederim @! Bu harbiden Fuar için yardımcı olacak.$h",
+  // Gus Drinks for the Fair Default Order Strings - No DSV installed, so it's ale
   "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Text": "Fuara hazırlanmak için asla erken değil. Biri bana 30 şişe Soluk Bira getirir mi?",
   "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Objective_Text_0": "Gus'a 30 Soluk Bira ver",
-  "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Message_0": "Teşekkür ederim @! Bu harbiden Fuar için yardımcı olacak.$h",
   //
-  // Gus Drinks for the Fair Easy Mode Order Strings
+  // Gus Drinks for the Fair Easy Mode Order Strings - No DSV installed, so it's ale
   "TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Text": "Fuara hazırlanmak için asla erken değil. Biri bana 10 şişe Soluk Bira getirir mi?",
   "TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Objective_Text_0": "Gus'a 10 Soluk Bira ver",
+  // Gus Drinks for the Fair Default Order Strings - DSV is installed, so it's tomato juice
+  "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Text_DSV": "Fuara hazırlanmak için hiçbir zaman erken değildir. Biri bana 30 şişe Domates Suyu getirebilir mi?",
+  "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Objective_Text_0_DSV": "Gus'a 30 şişe Domates Suyu ver.",
+  // Gus Drinks for the Fair Easy Mode Order Strings - DSV is installed, so it's tomato juice
+  "TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Text_DSV": "Fuara hazırlanmak için hiçbir zaman erken değildir. Biri bana 10 şişe Domates Suyu getirebilir mi?",
+  "TowniesNeedArtisanGoods_Gus_DrinksfortheFairE_Objective_Text_0_DSV": "Gus'a 10 şişe Domates Suyu ver.",
   //
   // Gus Special Ingredient Order Strings
   "TowniesNeedArtisanGoods_Gus_SpecialIngredient_Name": "Özel Malzeme",
@@ -290,13 +297,20 @@
   "TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Objective_Text_0": "Robin'e 3 şişe Çilek Şarabı ver",
   "TowniesNeedArtisanGoods_Robin_LikeStrawberryWine_Message_0": "Teşekkürler @! Bunun için sabırsızlanıyorum.$h#$b#Bana sıcak bir temmuz ayını hatırlatıyor bayağı...$4",
   //
-  // Sam Game Night Order Strings
+  // Sam Game Night Order Strings - Always
   "TowniesNeedArtisanGoods_Sam_GameNight_Name": "Oyun Gecesi",
+  // Same Game Night ORder Strings - No DSV installed
   "TowniesNeedArtisanGoods_Sam_GameNight_Text": "Bir Solaryon Günlükleri toplantısı yapacağız ve içecekler işimizi görür. Biri bana 2 şişe likör ve 2 kahve getirir mi?",
   "TowniesNeedArtisanGoods_Sam_GameNight_Objective_Text_0": "Sam'e 2 şişe Likör ver",
   "TowniesNeedArtisanGoods_Sam_GameNight_Objective_Text_1": "Sam'e 2 Kahve ver",
   "TowniesNeedArtisanGoods_Sam_GameNight_Message_0": "Sağol, Abby ve ben tadını çıkaracağız!$h",
   "TowniesNeedArtisanGoods_Sam_GameNight_Message_1": "Sağol, Seb'e de içecek bir şey lazım.$h",
+  // Same Game Night Order Strings - DSV is installed
+  "TowniesNeedArtisanGoods_Sam_GameNight_Text_DSV": "Bir tur Solaryon Günlükleri oynayacağız ve içecek bir şeyler işimize yarar. Biri bana 1 şişe likör ve 3 kahve getirebilir mi?",
+  "TowniesNeedArtisanGoods_Sam_GameNight_Objective_Text_0_DSV": "Sam'e 1 şişe Likör ver.",
+  "TowniesNeedArtisanGoods_Sam_GameNight_Objective_Text_1_DSV": "Sam'e 3 Kahve ver.",
+  "TowniesNeedArtisanGoods_Sam_GameNight_Message_0_DSV": "Sağol, Abby buna bayılacak!$h",
+  "TowniesNeedArtisanGoods_Sam_GameNight_Message_1_DSV": "Sağol, Sebastian'la bana da içecek bir şeyler lazım sonuçta.$h",  
   //
   // Sam Grease for Wheels Order Strings
   "TowniesNeedArtisanGoods_Sam_GreaseforWheels_Name": "Tekerler İçin Yağ",
