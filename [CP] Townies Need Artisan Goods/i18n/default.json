@@ -2,21 +2,21 @@
   // ***Config Options***
   // Repeatable
   "config.RepeatableConfig.name": "RepeatableConfig",
-	"config.RepeatableConfig.description": "Specify if you want the special orders to be repeatable (true, false). Default is true. Note that some orders are not repeatable by design.",
-	"config.RepeatableConfig.values.true": "true",
-	"config.RepeatableConfig.values.false": "false",
+  "config.RepeatableConfig.description": "Specify if you want the special orders to be repeatable (true, false). Default is true. Note that some orders are not repeatable by design.",
+  "config.RepeatableConfig.values.true": "true",
+  "config.RepeatableConfig.values.false": "false",
   //
   // Include Island Content
   "config.IncludeIslandContent.name": "IncludeIslandContent",
-	"config.IncludeIslandContent.description": "Specify if you want the special orders to include recipes from the island (true, false). Default is true.",
-	"config.IncludeIslandContent.values.true": "true",
-	"config.IncludeIslandContent.values.false": "false",
+  "config.IncludeIslandContent.description": "Specify if you want the special orders to include recipes from the island (true, false). Default is true.",
+  "config.IncludeIslandContent.values.true": "true",
+  "config.IncludeIslandContent.values.false": "false",
   //
   // Order Type
   "config.OrderType.name": "OrderType",
-	"config.OrderType.description": "Specify which types of special orders you'd like (jelly, pickle, beer, wine, honey, mead, juice, roe, animal, machine, misc). By default, all are toggled.",
-	"config.OrderType.values.jelly": "jelly",
-	"config.OrderType.values.pickle": "pickle",
+  "config.OrderType.description": "Specify which types of special orders you'd like (jelly, pickle, beer, wine, honey, mead, juice, roe, animal, machine, misc). By default, all are toggled.",
+  "config.OrderType.values.jelly": "jelly",
+  "config.OrderType.values.pickle": "pickle",
   "config.OrderType.values.beer": "beer",
   "config.OrderType.values.wine": "wine",
   "config.OrderType.values.honey": "honey",
@@ -29,28 +29,28 @@
   //
   // Easy Mode
   "config.EasyMode.name": "EasyMode",
-	"config.EasyMode.description": "Specify if you want the 3 biggest special orders to be easier (require less items). The rewards and duration are adjusted accordingly. Default is false.",
-	"config.EasyMode.values.true": "true",
-	"config.EasyMode.values.false": "false",
+  "config.EasyMode.description": "Specify if you want the 3 biggest special orders to be easier (require less items). The rewards and duration are adjusted accordingly. Default is false.",
+  "config.EasyMode.values.true": "true",
+  "config.EasyMode.values.false": "false",
   //
   // Easter Egg
   "config.EasterEgg.name": "EasterEgg",
-	"config.EasterEgg.description": "With this set to true, you will see slightly joke-y, slightly not lore-friendly rewards as part of the regular rewards for some orders. If you don't think you can briefly suspend disbelief, set it to false, and you won't see the orders with those rewards. Default is true.",
-	"config.EasterEgg.values.true": "true",
-	"config.EasterEgg.values.false": "false",
+  "config.EasterEgg.description": "With this set to true, you will see slightly joke-y, slightly not lore-friendly rewards as part of the regular rewards for some orders. If you don't think you can briefly suspend disbelief, set it to false, and you won't see the orders with those rewards. Default is true.",
+  "config.EasterEgg.values.true": "true",
+  "config.EasterEgg.values.false": "false",
   //
   // Rewards
   "config.Rewards.name": "Rewards",
-	"config.Rewards.description": "By default, special orders with only gold rewards as well as event rewards are toggled. The options are both, eventsonly, goldonly. Default is both.",
-	"config.Rewards.values.both": "both",
-	"config.Rewards.values.eventsonly": "eventsonly",
+  "config.Rewards.description": "By default, special orders with only gold rewards as well as event rewards are toggled. The options are both, eventsonly, goldonly. Default is both.",
+  "config.Rewards.values.both": "both",
+  "config.Rewards.values.eventsonly": "eventsonly",
   "config.Rewards.values.goldonly": "goldonly",
   //
   //Load Adventurer Guild
   "config.LoadAdventurerGuildConfig.name": "LoadAdventurerGuildConfig",
-	"config.LoadAdventurerGuildConfig.description": "Set this to false if you have a mod besides Make Marlon Real that adds events to the Adventurer's Guild. TNAG automatically detects Make Marlon Real so adjusting this setting is not needed for it. Default is true.",
-	"config.LoadAdventurerGuildConfig.values.true": "true",
-	"config.LoadAdventurerGuildConfig.values.false": "false",
+  "config.LoadAdventurerGuildConfig.description": "Set this to false if you have a mod besides Make Marlon Real that adds events to the Adventurer's Guild. TNAG automatically detects Make Marlon Real so adjusting this setting is not needed for it. Default is true.",
+  "config.LoadAdventurerGuildConfig.values.true": "true",
+  "config.LoadAdventurerGuildConfig.values.false": "false",
   //
   //
   // ***Vanilla Order strings***
@@ -161,7 +161,7 @@
   "TowniesNeedArtisanGoods_George_HealthyRoe_Objective_Text_0": "Deliver 10 Aged Roe jars (sunfish, sardine, or anchovy) to George",
   "TowniesNeedArtisanGoods_George_HealthyRoe_Message_0": "Hmph, I hope this tastes ok.#$b#Thank you @!$h",
   //
-  // Gust Drinks for the Fair - Always
+  // Gust Drinks for the Fair Order Strings - Always
   "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Name": "Drinks for the Fair",
   "TowniesNeedArtisanGoods_Gus_DrinksfortheFair_Message_0": "Thank you @! This will really help with the Fair.$h",
   // Gus Drinks for the Fair Default Order Strings - No DSV installed, so it's ale
@@ -337,7 +337,7 @@
   // Sandy Light Beverage Order Strings - No DSV installed, so it's beer  
   "TowniesNeedArtisanGoods_Sandy_LightBeverage_Beer_Text": "Could someone bring Sandy 2 beers? I think that would help her cheer up.     -Emily",
   "TowniesNeedArtisanGoods_Sandy_LightBeverage_Beer_Objective_Text_0": "Deliver 2 Beers to Sandy",
-    //
+  //
   // Sandy Light Beverage Order Strings - DSV is installed, so it's beet juice
   "TowniesNeedArtisanGoods_Sandy_LightBeverage_Juice_Text": "Could someone bring Sandy 2 beet juice bottles? I think that would help her cheer up.     -Emily",
   "TowniesNeedArtisanGoods_Sandy_LightBeverage_Juice_Objective_Text_0": "Deliver 2 Beet Juice bottles to Sandy",
