@@ -1,7 +1,7 @@
 {
   "Name": "Townies Need Artisan Goods",
   "Author": "LenneDalben",
-  "Version": "2.2.0",
+  "Version": "2.2.1",
   "Description": "NPCs in town request artisan goods in the special orders board!",
   "UniqueID": "LenneDalben.TowniesNeedArtisanGoods",
   "MinimumApiVersion": "3.13.0",
