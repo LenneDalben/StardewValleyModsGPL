@@ -32,6 +32,20 @@ Note that the mod does not come packaged with a config file. The config file wil
 
 TNAG will recognize if you have <a href="https://www.moddrop.com/stardew-valley/mods/707502-quality-artisan-products">Quality Artisan Products by Wingheart</a> installed, so special orders requiring quality wine and/or cheese will show up on the special orders board before you have the cellar upgrade.
 
+You will also only see these orders if you have these mods installed:
+* Integration with Diverse Stardew (DSV): there are non-alcoholic alternative orders for Sam, Gus, and Sandy, for both pre-Core and post-Core. The reward was adjusted accordingly.
+* tiakall’s <a href="https://www.nexusmods.com/stardewvalley/mods/9002">Host Trees</a> (7 orders).
+* tiakall’s <a href="https://www.nexusmods.com/stardewvalley/mods/10950">Jean and Jorts</a> (2 orders, 1 which requires Host Trees).
+* Himetart’s <a href="https://www.nexusmods.com/stardewvalley/mods/9999">Always Raining in the Valley</a> (ARV, 4 orders).
+* ZoeDoll’s <a href="https://www.nexusmods.com/stardewvalley/mods/10671">Alecto the Witch</a> (1 order).
+
+Walk of Life and Skill Prestige: resetting a skill using one of these 2 mods combined with forgetting a recipe may cause issues. If you reset your skills with using one of those mods and set the config to forget a recipe, you will risk a crash. If you want to use those mods with TNAG, set those mods' config so that you don’t forget recipes when you reset a skill.
+
+If you're using <a href="https://www.nexusmods.com/stardewvalley/mods/2778">Dinosaur Replacement - Turtle</a>, the dinosaur mayonnaise special order can't be completed. This is because that mod changes the internal name of the item.
+
+A note on Stardew Valley Expanded (SVE): I don't use it and never will, so I will not add compatibility for it. Use TNAG and SVE together at your own risk.
+Similarly, any mod that changes the town interior maps will be incompatible with TNAG. Airyn noted Less Ugly Town Interior works fine though!
+
 
 ||Installation||
 
