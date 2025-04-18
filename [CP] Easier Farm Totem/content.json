@@ -1,5 +1,5 @@
 {
-	"Format": "1.19.0",
+	"Format": "2.6.0",
 	"ConfigSchema": {
 		"ModToggled": {
 			"Description": "Choose whether this mod is toggled on (true) or off (false).",
