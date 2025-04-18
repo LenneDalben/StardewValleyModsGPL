@@ -6,7 +6,10 @@
 			"LogName": "Artisan Equipment - Lightning Rod at Clint's",
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Blacksmith", "Items"],
+			"TargetField": [
+				"Blacksmith",
+				"Items"
+			],
 			"Entries": {
 				"LenneDalben.ArtisanEquipmentforSale_LightningRod": {
 					"Id": "LenneDalben.ArtisanEquipmentforSale_LightningRod",
@@ -15,11 +18,16 @@
 					"AvailableStock": 2
 				}
 			},
+			"MoveEntries": [
+				{
+					"Id": "LenneDalben.ArtisanEquipmentforSale_LightningRod",
+					"BeforeId": "(O)378"
+				}
+			],
 			"When": {
 				"DayOfWeek": "Thursday",
 				"HasCraftingRecipe": "Lightning Rod",
-				"Hearts:Clint": "{{Range: 3, {{MaxHearts}}}}",
-				// available `every Thursday` AND `you've learned the Lightning Rod recipe` AND `3 hearts with Clint`
+				"Hearts:Clint": "{{Range: 3, 10}}",
 			},
 		},
 	]
