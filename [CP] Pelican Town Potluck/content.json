@@ -131,6 +131,7 @@
 			}
 		},
 		// Decorations changes (provided by Airyn!)
+		/*the blanket is currently a lil borked*/
 		// Decoration Blanket Middle
 		{
 			"LogName": "Pelican Town Potluck Blanket Middle",
@@ -191,7 +192,7 @@
 			"Target": "Data/Furniture",
 			"Fields": {
 				"1295": {
-					"0": "Summer Flower Tower",
+					"7": "{{i18n:PTPFurnitureName}}",
 				}
 			}
 		},

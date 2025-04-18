@@ -19,6 +19,8 @@
 	// Festival name
 	"FestivalName": "Pelican Town Potluck",
 	//
+	// Renaming totem pole to Summer Flower Tower
+	"PTPFurnitureName": "Summer Flower Tower",
 	// All responses
 	"GovernorReactionAll-1": "Now... who else wants some soup?",
 	"GovernorReactionAll-2": "Time to head home.",
