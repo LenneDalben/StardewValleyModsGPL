@@ -2,13 +2,13 @@
    "Name": "[CP] Something's Rotten in the State of Ferngill",
    "Author": "LenneDalben",
    "Description": "Dream event with dialog after, a map edit, and a resolution event, for the Mod Jam.",
-   "Version": "1.0.2",
+   "Version": "2.0.0",
    "UniqueID": "LenneDalben.CP.SomethingRotteninFerngill",
-   "MinimumApiVersion": "3.9.3",
+   "MinimumApiVersion": "4.2.1",
    "UpdateKeys": [ "ModDrop:1308573" ],
    "ContentPackFor": {
       "UniqueID": "Pathoschild.ContentPatcher",
-      "MinimumVersion": "1.21.0"
+      "MinimumVersion": "2.6.0"
    },
    "Dependencies": [
       {
