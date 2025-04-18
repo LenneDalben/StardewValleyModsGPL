@@ -1,0 +1,26 @@
+{
+	"Format": "2.6.0",
+	"Changes": [
+		//Artisan Equipment at Clint's
+		{
+			"LogName": "Artisan Equipment - Lightning Rod at Clint's",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Blacksmith", "Items"],
+			"Entries": {
+				"LenneDalben.ArtisanEquipmentforSale_LightningRod": {
+					"Id": "LenneDalben.ArtisanEquipmentforSale_LightningRod",
+					"ItemId": "(BC)9",
+					"Price": 2500,
+					"AvailableStock": 2
+				}
+			},
+			"When": {
+				"DayOfWeek": "Thursday",
+				"HasCraftingRecipe": "Lightning Rod",
+				"Hearts:Clint": "{{Range: 3, {{MaxHearts}}}}",
+				// available `every Thursday` AND `you've learned the Lightning Rod recipe` AND `3 hearts with Clint`
+			},
+		},
+	]
+}
