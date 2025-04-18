@@ -2,7 +2,7 @@
    "Name": "[CP] Easier Bee House, Oil Maker, Preserves Jar, and Lightning Rod",
    "Author": "LenneDalben",
    "Description": "Craft the following machines with fewer resources: oil maker, bee house, preserve jars, and lightning rod.",
-   "Version": "1.0.3",
+   "Version": "2.0.0",
    "UniqueID": "LenneDalben.equipt",
    "UpdateKeys": [ "ModDrop:1036763" ],
    "MinimumApiVersion": "4.2.1",

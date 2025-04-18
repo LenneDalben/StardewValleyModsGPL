@@ -2,7 +2,7 @@
    "Name": "[CP] Easier Farm Totem",
    "Author": "LenneDalben",
    "Description": "Craft the farm totem with Foraging skill 3, 20 fiber, 10 wood, and 1 red mushroom (or 10 stone), instead of Foraging skill 8, 20 fiber, 1 hardwood, and 1 honey.",
-   "Version": "1.0.3",
+   "Version": "2.0.0",
    "UniqueID": "LenneDalben.easierfarmtotem",
    "UpdateKeys": [ "ModDrop:1033033" ],
    "MinimumApiVersion": "4.2.1",
