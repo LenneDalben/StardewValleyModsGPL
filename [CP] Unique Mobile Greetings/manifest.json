@@ -2,19 +2,18 @@
    "Name": "[CP] Unique Mobile Greetings",
    "Author": "LenneDalben",
    "Description": "NPCs use unique in-character greetings when contacted by phone.",
-   "Version": "1.1.0",
+   "Version": "2.0.0",
    "UniqueID": "LenneDalben.CP.UniqueMobileGreetings",
-   "MinimumApiVersion": "3.9.2",
+   "MinimumApiVersion": "4.2.1",
    "UpdateKeys": [ "ModDrop:1032953" ],
    "ContentPackFor": {
        "UniqueID": "Pathoschild.ContentPatcher",
-	   "MinimumVersion": "1.20.0"
+	   "MinimumVersion": "2.6.0"
     },
     "Dependencies": [
         {
-            "UniqueID": "aedenthorn.MobilePhone",
-            "IsRequired": true,
-            "MinimumVersion": "2.2.2"
+            "UniqueID": "JoXW.MobilePhone",
+            "IsRequired": true
         }
     ]
 }
