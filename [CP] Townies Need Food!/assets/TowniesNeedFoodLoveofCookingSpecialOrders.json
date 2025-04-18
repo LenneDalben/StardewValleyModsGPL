@@ -926,7 +926,8 @@
       "When": {
         "PlayerHasKitchen": true,
         "IncludeIslandContent": true,
-        "HasCookingRecipe |contains=blueberry.cac.tropicalsalad": "true"
+        "HasCookingRecipe |contains=blueberry.cac.tropicalsalad": "true",
+        "HasSeenEvent": "67"
       }
     },
     // Willy Lunch & Dinner Leftovers LoC
