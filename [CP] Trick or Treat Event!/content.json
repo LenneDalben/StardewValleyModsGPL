@@ -8,13 +8,6 @@
 			"AllowBlank": false,
 			"AllowMultiple": false
 		},
-		"YearOneOrLater": {
-			"Description": "By default, the trick or treat event can happen in year 1 if you install it in your first year and visit the town on the appropriate days (YearOnePossible). However, Kent won't attend. If you'd like to delay this event to only happen after year 1 so that Kent can attend, set this to Later.",
-			"AllowValues": "YearOnePossible, Later",
-			"Default": "YearOnePossible",
-			"AllowBlank": false,
-			"AllowMultiple": false
-		},
 	},
 	"CustomLocations": [
 		{
@@ -23,21 +16,6 @@
 		}
 	],
 	"DynamicTokens": [
-		/*Can happen in year 1*/ {
-			"Name": "YearDetermination",
-			"Value": "z spring",
-			"When": {
-				"YearOneOrLater": "YearOnePossible"
-			}
-		},
-		/*Can only happen in year 1 or later*/ {
-			"Name": "YearDetermination",
-			"Value": "y 2/z spring",
-			"When": {
-				"YearOneOrLater": "Later"
-
-			}
-		},
 		/*Character placement, have met Kent*/ {
 			"Name": "TrickorTreatNPCPlacement",
 			"Value": "farmer 29 71 0 Jas 28 61 1 Vincent 33 61 3 Abigail 26 69 1 Sebastian 27 69 3 Sam 28 69 0 Penny 28 68 2 Maru 30 68 3 Shane 29 66 0 Marnie 30 65 1 Jodi 31 65 3 Robin 33 65 1 Demetrius 34 65 3 Emily 35 66 2 Gus 36 67 3 Willy 35 68 0 Clint 34 67 1 Elliott 32 67 0 Leah 32 66 2 Haley 34 68 3 Alex 33 68 0 Lewis 37 64 2 Harvey 37 65 0 Caroline 27 67 1 Pierre 28 67 3 Evelyn 26 65 1 George 26 66 1 Kent 32 64 0",
@@ -74,10 +52,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/Town",
 			"Entries": {
-				"29102022/{{YearDetermination}}/z summer/z winter/u 22 23 24 25 26 28/t 1850 2150": "spirits_eve/-1000 -1000/{{TrickorTreatNPCPlacement}}/changeToTemporaryMap Custom_TrickorTreatEvent_Map/viewport -1000 -1000/{{TrickorTreatNPCWarp}}/addLantern 735 31 61 2/pause 50/positionOffset Jas 0 -30/positionOffset Vincent 0 -30/viewport 31 65/addConversationTopic TrickorTreatEvent_CT {{DaysTalkingAboutEvent}}/pause 2500/skippable/emote farmer 8/faceDirection Sam 2/textAboveHead Sam \"{{i18n:event-29102022.01}}\"/move farmer 0 -2 3/pause 200/faceDirection Sam 1/speak Sam \"{{i18n:event-29102022.02}}\"/emote Penny 20 true/faceDirection Alex 1/faceDirection Pierre 1/faceDirection Caroline 3/emote Vincent 8/faceDirection Robin 3/emote Jas 36/pause 200/faceDirection Alex 3/faceDirection Jodi 3/faceDirection Caroline 1/faceDirection Robin 1/faceDirection Pierre 3/emote Vincent 32 true/emote Jas 32 true/faceDirection Alex 1 false/pause 600/faceDirection Jas 2 true/faceDirection Vincent 2 false/pause 50/speak Jas \"{{i18n:event-29102022.03}}\"/faceDirection farmer 0 true/faceDirection Sam 0 true/faceDirection Abigail 0 true/faceDirection Alex 0 true/faceDirection Sebastian 0 false/pause 200/faceDirection Penny 0 true/faceDirection Maru 0 true/faceDirection Marnie 0 true/faceDirection Jodi 0 false/pause 200/faceDirection Robin 0 true/faceDirection Demetrius 0 true/faceDirection Emily 0 false/pause 200/faceDirection Gus 0 true/faceDirection Clint 0 true/faceDirection Leah 0 true/faceDirection Haley 0 true/faceDirection Lewis 0 false/pause 200/faceDirection Caroline 0 true/faceDirection Pierre 0 true/faceDirection Evelyn 0 true/faceDirection George 0 false/speak Jas \"{{i18n:event-29102022.04}}\"/stopMusic/playMusic playful/pause 500/textAboveHead Abigail \"{{i18n:event-29102022.05}}\"/pause 1500/textAboveHead Sebastian \"{{i18n:event-29102022.06}}\"/pause 1500/textAboveHead Demetrius \"{{i18n:event-29102022.07}}\"/pause 1500/textAboveHead Maru \"{{i18n:event-29102022.08}}\"/pause 1500/textAboveHead George \"{{i18n:event-29102022.09}}\"/pause 1500/speak Vincent \"{{i18n:event-29102022.10}}\"/pause 100/emote Shane 32 true/shake Shane 500/pause 50/emote Jodi 28 true/emote Marnie 28 false/pause 900/textAboveHead Vincent \"{{i18n:event-29102022.11}}\"/pause 950/speak Harvey \"{{i18n:event-29102022.12}}\"/pause 200/jump Vincent 4/speak Vincent \"{{i18n:event-29102022.13}}\"/emote Jas 32 true/emote Vincent 32 true/emote Shane 20 true/emote Abigail 56 true/emote Penny 20 true/emote Leah 56 true/emote Emily 56 true/pause 50/move Shane 0 -3 0 true/move Demetrius 0 -2 0 true/move Leah -3 0 0 false/move Leah 0 -2 0 true/move Emily -1 0 0 false/move Emily 0 -2 0 false/pause 400/playSound dwop/textAboveHead Shane \"{{i18n:event-29102022.14}}\"/pause 600/playSound dwop/textAboveHead Demetrius \"{{i18n:event-29102022.15}}\"/pause 200/move Demetrius 3 0 2 true/move Shane -4 0 2 true/move Leah 0 -1 0 true/move Emily 0 -1 0 false/pause 400/emote Shane 32 true/emote Demetrius 32/playSound dwop/pause 600/playSound dwop/pause 600/textAboveHead Emily \"{{i18n:event-29102022.16}}\"/textAboveHead Leah \"{{i18n:event-29102022.17}}\"/pause 800/fade/viewport -1000 -1000/pause 800/playSound getNewSpecialItem/speak {{Random: Jas, Vincent}} \"{{Random: {{i18n:event-29102022.18}} %% {{i18n:event-29102022.19}} %% {{i18n:event-29102022.20}} | inputSeparator=%%}}{{Random: [612] %% [279] %% [243] |inputSeparator=%%}}\"/end"
-			},
-			"When": {
-
+				"2910202{{Year}}/z spring/z summer/z winter/u 22 23 24 25 26 28/t 1850 2150": "spirits_eve/-1000 -1000/{{TrickorTreatNPCPlacement}}/changeToTemporaryMap Custom_TrickorTreatEvent_Map/viewport -1000 -1000/{{TrickorTreatNPCWarp}}/addLantern 735 31 61 2/pause 50/positionOffset Jas 0 -30/positionOffset Vincent 0 -30/viewport 31 65/addConversationTopic TrickorTreatEvent_CT {{DaysTalkingAboutEvent}}/pause 2500/skippable/emote farmer 8/faceDirection Sam 2/textAboveHead Sam \"{{i18n:event-29102022.01}}\"/move farmer 0 -2 3/pause 200/faceDirection Sam 1/speak Sam \"{{i18n:event-29102022.02}}\"/emote Penny 20 true/faceDirection Alex 1/faceDirection Pierre 1/faceDirection Caroline 3/emote Vincent 8/faceDirection Robin 3/emote Jas 36/pause 200/faceDirection Alex 3/faceDirection Jodi 3/faceDirection Caroline 1/faceDirection Robin 1/faceDirection Pierre 3/emote Vincent 32 true/emote Jas 32 true/faceDirection Alex 1 false/pause 600/faceDirection Jas 2 true/faceDirection Vincent 2 false/pause 50/speak Jas \"{{i18n:event-29102022.03}}\"/faceDirection farmer 0 true/faceDirection Sam 0 true/faceDirection Abigail 0 true/faceDirection Alex 0 true/faceDirection Sebastian 0 false/pause 200/faceDirection Penny 0 true/faceDirection Maru 0 true/faceDirection Marnie 0 true/faceDirection Jodi 0 false/pause 200/faceDirection Robin 0 true/faceDirection Demetrius 0 true/faceDirection Emily 0 false/pause 200/faceDirection Gus 0 true/faceDirection Clint 0 true/faceDirection Leah 0 true/faceDirection Haley 0 true/faceDirection Lewis 0 false/pause 200/faceDirection Caroline 0 true/faceDirection Pierre 0 true/faceDirection Evelyn 0 true/faceDirection George 0 false/speak Jas \"{{i18n:event-29102022.04}}\"/stopMusic/playMusic playful/pause 500/textAboveHead Abigail \"{{i18n:event-29102022.05}}\"/pause 1500/textAboveHead Sebastian \"{{i18n:event-29102022.06}}\"/pause 1500/textAboveHead Demetrius \"{{i18n:event-29102022.07}}\"/pause 1500/textAboveHead Maru \"{{i18n:event-29102022.08}}\"/pause 1500/textAboveHead George \"{{i18n:event-29102022.09}}\"/pause 1500/speak Vincent \"{{i18n:event-29102022.10}}\"/pause 100/emote Shane 32 true/shake Shane 500/pause 50/emote Jodi 28 true/emote Marnie 28 false/pause 900/textAboveHead Vincent \"{{i18n:event-29102022.11}}\"/pause 950/speak Harvey \"{{i18n:event-29102022.12}}\"/pause 200/jump Vincent 4/speak Vincent \"{{i18n:event-29102022.13}}\"/emote Jas 32 true/emote Vincent 32 true/emote Shane 20 true/emote Abigail 56 true/emote Penny 20 true/emote Leah 56 true/emote Emily 56 true/pause 50/move Shane 0 -3 0 true/move Demetrius 0 -2 0 true/move Leah -3 0 0 false/move Leah 0 -2 0 true/move Emily -1 0 0 false/move Emily 0 -2 0 false/pause 400/playSound dwop/textAboveHead Shane \"{{i18n:event-29102022.14}}\"/pause 600/playSound dwop/textAboveHead Demetrius \"{{i18n:event-29102022.15}}\"/pause 200/move Demetrius 3 0 2 true/move Shane -4 0 2 true/move Leah 0 -1 0 true/move Emily 0 -1 0 false/pause 400/emote Shane 32 true/emote Demetrius 32/playSound dwop/pause 600/playSound dwop/pause 600/textAboveHead Emily \"{{i18n:event-29102022.16}}\"/textAboveHead Leah \"{{i18n:event-29102022.17}}\"/pause 800/fade/viewport -1000 -1000/pause 800/playSound getNewSpecialItem/speak {{Random: Jas, Vincent}} \"{{Random: {{i18n:event-29102022.18}} %% {{i18n:event-29102022.19}} %% {{i18n:event-29102022.20}} | inputSeparator=%%}}{{Random: [612] %% [279] %% [243] |inputSeparator=%%}}\"/end"
 			}
 		},
 		// CTs
