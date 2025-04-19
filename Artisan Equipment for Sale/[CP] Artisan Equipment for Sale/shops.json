@@ -5,7 +5,6 @@
 			"ShopName": "ClintShop",
 			"AddStockAboveVanilla": "True",
 			"ItemStocks": [
-				
 				{
 					"ItemType": "BigCraftable",
 					"StockPrice": "2500",
