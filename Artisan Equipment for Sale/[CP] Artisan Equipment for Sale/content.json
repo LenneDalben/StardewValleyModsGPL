@@ -98,5 +98,30 @@
 				}
 			],
 		},
+		//Artisan Equipment at Dwarf's
+		{
+			"LogName": "Artisan Equipment - Crystalarium at Dwarf's",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Dwarf",
+				"Items"
+			],
+			"Entries": {
+				"{{ModID}}_Crystalarium": {
+					"Id": "{{ModID}}_Crystalarium",
+					"ItemId": "(BC)21",
+					"Price": 47400,
+					"AvailableStock": 2,
+					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Crystalarium, PLAYER_FRIENDSHIP_POINTS Current Dwarf 2000" // available on Thursdays if player knows the Crystalarium recipe AND has 8 hearts with Dwarf
+				}
+			},
+			"MoveEntries": [
+				{
+					"ID": "{{ModID}}_Crystalarium",
+					"ToPosition": "Top"
+				}
+			],
+		},
 	]
 }
