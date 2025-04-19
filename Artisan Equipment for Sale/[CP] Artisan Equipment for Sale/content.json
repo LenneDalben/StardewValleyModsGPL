@@ -175,7 +175,7 @@
 			],
 		},
 		{
-			"LogName": "Artisan Equipment - Slime Egg Press at Marlon's with friendship",
+			"LogName": "Artisan Equipment - Slime Egg-Press at Marlon's with friendship",
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -188,7 +188,7 @@
 					"ItemId": "(BC)158",
 					"Price": 2180,
 					"AvailableStock": 1,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Slime Egg Press, {{HasMod |contains=Yoshimax.BefriendMarlon, YWolf.Marlon}}, PLAYER_FRIENDSHIP_POINTS Current Marlon 1500" // available on Thursdays if player knows the Slime Egg Press recipe AND has 6 hearts with Marlon
+					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Slime Egg-Press, {{HasMod |contains=Yoshimax.BefriendMarlon, YWolf.Marlon}}, PLAYER_FRIENDSHIP_POINTS Current Marlon 1500" // available on Thursdays if player knows the Slime Egg-Press recipe AND has 6 hearts with Marlon
 				}
 			},
 			"MoveEntries": [
@@ -248,7 +248,7 @@
 			],
 		},
 		{
-			"LogName": "Artisan Equipment - Slime Egg Press at Marlon's with mine exploration",
+			"LogName": "Artisan Equipment - Slime Egg-Press at Marlon's with mine exploration",
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -261,7 +261,7 @@
 					"ItemId": "(BC)158",
 					"Price": 2180,
 					"AvailableStock": 1,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Slime Egg Press, !{{HasMod |contains=Yoshimax.BefriendMarlon, YWolf.Marlon}}, MINE_LOWEST_LEVEL_REACHED 120" // available on Thursdays if player knows the Slime Egg Press recipe AND player has reached the bottom of the mines once
+					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Slime Egg-Press, !{{HasMod |contains=Yoshimax.BefriendMarlon, YWolf.Marlon}}, MINE_LOWEST_LEVEL_REACHED 120" // available on Thursdays if player knows the Slime Egg-Press recipe AND player has reached the bottom of the mines once
 				}
 			},
 			"MoveEntries": [
