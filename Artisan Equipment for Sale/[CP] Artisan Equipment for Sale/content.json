@@ -15,7 +15,8 @@
 					"Id": "{{ModID}}_LightningRod",
 					"ItemId": "(BC)9",
 					"Price": 2500,
-					"AvailableStock": 2
+					"AvailableStock": 2,
+					"Condition": "DAY_OF_WEEK Thursday,PLAYER_HAS_CRAFTING_RECIPE Current Lightning Rod,PLAYER_FRIENDSHIP_POINTS Current Clint 750"
 				}
 			},
 			"MoveEntries": [
@@ -24,11 +25,6 @@
 					"ToPosition": "Top"
 				}
 			],
-			"When": {
-				"DayOfWeek": "Thursday",
-				"HasCraftingRecipe": "Lightning Rod",
-				"Hearts:Clint": "{{Range: 3, 10}}",
-			},
 		},
 	]
 }
