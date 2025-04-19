@@ -123,5 +123,30 @@
 				}
 			],
 		},
+		//Artisan Equipment at Krobus's
+		{
+			"LogName": "Artisan Equipment - Bee House at Krobus's",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"ShadowShop",
+				"Items"
+			], 
+			"Entries": {
+				"{{ModID}}_BeeHouse": {
+					"Id": "{{ModID}}_BeeHouse",
+					"ItemId": "(BC)10",
+					"Price": 5750,
+					"AvailableStock": 2,
+					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Bee House, PLAYER_FRIENDSHIP_POINTS Current Krobus 1250" // available on Thursdays if player knows the Bee House recipe AND has 5 hearts with Krobus
+				}
+			},
+			"MoveEntries": [
+				{
+					"ID": "{{ModID}}_BeeHouse",
+					"ToPosition": "Top"
+				}
+			],
+		},
 	]
 }
