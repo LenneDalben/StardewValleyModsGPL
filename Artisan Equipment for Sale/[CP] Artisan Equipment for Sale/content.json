@@ -11,17 +11,17 @@
 				"Items"
 			],
 			"Entries": {
-				"LenneDalben.ArtisanEquipmentforSale_LightningRod": {
-					"Id": "LenneDalben.ArtisanEquipmentforSale_LightningRod",
-					"ItemId": "(BC)9",
+				"{{ModID}}_LightningRod": {
+					"ID": "{{ModID}}_LightningRod",
+					"ItemID": "(BC)9",
 					"Price": 2500,
 					"AvailableStock": 2
 				}
 			},
 			"MoveEntries": [
 				{
-					"Id": "LenneDalben.ArtisanEquipmentforSale_LightningRod",
-					"BeforeId": "(O)378"
+					"ID": "{{ModID}}_LightningRod",
+					"BeforeID": "(O)378"
 				}
 			],
 			"When": {
