@@ -151,7 +151,7 @@
 		// Artisan Equipment at Marlon's
 		// Block for Yoshimax's Befriend Marlon or YWolf's Make Marlon Real
 		{
-			"LogName": "Artisan Equipment - Bone Mill at Marlon's",
+			"LogName": "Artisan Equipment - Bone Mill at Marlon's with friendship",
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -175,7 +175,7 @@
 			],
 		},
 		{
-			"LogName": "Artisan Equipment - Slime Egg Press at Marlon's",
+			"LogName": "Artisan Equipment - Slime Egg Press at Marlon's with friendship",
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -199,7 +199,7 @@
 			],
 		},
 		{
-			"LogName": "Artisan Equipment - Slime Incubator at Marlon's",
+			"LogName": "Artisan Equipment - Slime Incubator at Marlon's with friendship",
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -224,7 +224,7 @@
 		},
 		// Marlon block for vanilla (don't have those)
 		{
-			"LogName": "Artisan Equipment - Bone Mill at Marlon's",
+			"LogName": "Artisan Equipment - Bone Mill at Marlon's with mine exploration",
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -248,7 +248,7 @@
 			],
 		},
 		{
-			"LogName": "Artisan Equipment - Slime Egg Press at Marlon's",
+			"LogName": "Artisan Equipment - Slime Egg Press at Marlon's with mine exploration",
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -272,7 +272,7 @@
 			],
 		},
 		{
-			"LogName": "Artisan Equipment - Slime Incubator at Marlon's",
+			"LogName": "Artisan Equipment - Slime Incubator at Marlon's with mine exploration",
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
