@@ -12,8 +12,8 @@
 			],
 			"Entries": {
 				"{{ModID}}_LightningRod": {
-					"ID": "{{ModID}}_LightningRod",
-					"ItemID": "(BC)9",
+					"Id": "{{ModID}}_LightningRod",
+					"ItemId": "(BC)9",
 					"Price": 2500,
 					"AvailableStock": 2
 				}
@@ -21,7 +21,7 @@
 			"MoveEntries": [
 				{
 					"ID": "{{ModID}}_LightningRod",
-					"BeforeID": "(O)378"
+					"ToPosition": "Top"
 				}
 			],
 			"When": {
