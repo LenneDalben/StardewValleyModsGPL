@@ -393,5 +393,102 @@
 				}
 			],
 		},
+		// Artisan Equipment at Pierre's
+		{
+			"LogName": "Artisan Equipment - Scarecrow at Pierre's",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"Entries": {
+				"{{ModID}}_Scarecrow": {
+					"Id": "{{ModID}}_Scarecrow",
+					"ItemId": "(BC)8",
+					"Price": 3000,
+					"AvailableStock": 2,
+					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Scarecrow, PLAYER_FRIENDSHIP_POINTS Current Pierre 500" // available on Thursdays if player knows the Scarecrow recipe AND has 2 hearts with Pierre
+				}
+			},
+			"MoveEntries": [
+				{
+					"ID": "{{ModID}}_Scarecrow",
+					"ToPosition": "Top"
+				}
+			],
+		},
+		{
+			"LogName": "Artisan Equipment - Quality Sprinkler at Pierre's",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"Entries": {
+				"{{ModID}}_SeedMaker": {
+					"Id": "{{ModID}}_QualitySprinkler",
+					"ItemId": "(O)621",
+					"Price": 3500,
+					"AvailableStock": 2,
+					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Seed Maker, PLAYER_FRIENDSHIP_POINTS Current Pierre 750" // available on Thursdays if player knows the Seed Maker recipe AND has 3 hearts with Pierre
+				}
+			},
+			"MoveEntries": [
+				{
+					"ID": "{{ModID}}_QualitySprinkler",
+					"ToPosition": "Top"
+				}
+			],
+		},
+		{
+			"LogName": "Artisan Equipment - Seed Maker at Pierre's",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"Entries": {
+				"{{ModID}}_SeedMaker": {
+					"Id": "{{ModID}}_SeedMaker",
+					"ItemId": "(BC)25",
+					"Price": 10000,
+					"AvailableStock": 1,
+					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Seed Maker, PLAYER_FRIENDSHIP_POINTS Current Pierre 1250" // available on Thursdays if player knows the Seed Maker recipe AND has 5 hearts with Pierre
+				}
+			},
+			"MoveEntries": [
+				{
+					"ID": "{{ModID}}_SeedMaker",
+					"ToPosition": "Top"
+				}
+			],
+		},
+		{
+			"LogName": "Artisan Equipment - Solar Panel at Pierre's",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"Entries": {
+				"{{ModID}}_SolarPanel": {
+					"Id": "{{ModID}}_SolarPanel",
+					"ItemId": "(BC)231",
+					"Price": 30500,
+					"AvailableStock": 1,
+					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Solar Panel, PLAYER_FRIENDSHIP_POINTS Current Pierre 2250" // available on Thursdays if player knows the Solar Panel recipe AND has 9 hearts with Pierre
+				}
+			},
+			"MoveEntries": [
+				{
+					"ID": "{{ModID}}_SolarPanel",
+					"ToPosition": "Top"
+				}
+			],
+		},
 	]
 }
