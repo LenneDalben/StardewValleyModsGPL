@@ -296,5 +296,102 @@
 				}
 			],
 		},
+		// Artisan Equipment at Marnie's
+		{
+			"LogName": "Artisan Equipment - Mayonnaise Machine at Marnie's",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"AnimalShop",
+				"Items"
+			],
+			"Entries": {
+				"{{ModID}}_MayonnaiseMachine": {
+					"Id": "{{ModID}}_MayonnaiseMachine",
+					"ItemId": "(BC)24",
+					"Price": 6630,
+					"AvailableStock": 2,
+					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Mayonnaise Machine, PLAYER_FRIENDSHIP_POINTS Current Marnie 1000" // available on Thursdays if player knows the Mayonnaise Machine recipe AND has 4 hearts with Marnie
+				}
+			},
+			"MoveEntries": [
+				{
+					"ID": "{{ModID}}_MayonnaiseMachine",
+					"ToPosition": "Top"
+				}
+			],
+		},
+		{
+			"LogName": "Artisan Equipment - Cheese Press at Marnie's",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"AnimalShop",
+				"Items"
+			],
+			"Entries": {
+				"{{ModID}}_CheesePress": {
+					"Id": "{{ModID}}_CheesePress",
+					"ItemId": "(BC)16",
+					"Price": 8300,
+					"AvailableStock": 2,
+					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Cheese Press, PLAYER_FRIENDSHIP_POINTS Current Marnie 1250" // available on Thursdays if player knows the Cheese Press recipe AND has 5 hearts with Marnie
+				}
+			},
+			"MoveEntries": [
+				{
+					"ID": "{{ModID}}_MayonnaiseMachine",
+					"ToPosition": "Top"
+				}
+			],
+		},
+		{
+			"LogName": "Artisan Equipment - Loom at Marnie's",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"AnimalShop",
+				"Items"
+			],
+			"Entries": {
+				"{{ModID}}_Loom": {
+					"Id": "{{ModID}}_Loom",
+					"ItemId": "(BC)17",
+					"Price": 3200,
+					"AvailableStock": 2,
+					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Loom, PLAYER_FRIENDSHIP_POINTS Current Marnie 1750" // available on Thursdays if player knows the Loom recipe AND has 7 hearts with Marnie
+				}
+			},
+			"MoveEntries": [
+				{
+					"ID": "{{ModID}}_Loom",
+					"ToPosition": "Top"
+				}
+			],
+		},
+		{
+			"LogName": "Artisan Equipment - Ostrich Incubator at Marnie's",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"AnimalShop",
+				"Items"
+			],
+			"Entries": {
+				"{{ModID}}_OstrichIncubator": {
+					"Id": "{{ModID}}_OstrichIncubator",
+					"ItemId": "(BC)254",
+					"Price": 26600,
+					"AvailableStock": 1,
+					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Ostrich Incubator, PLAYER_FRIENDSHIP_POINTS Current Marnie 2250" // available on Thursdays if player knows the Ostrich Incubator recipe AND has 9 hearts with Marnie
+				}
+			},
+			"MoveEntries": [
+				{
+					"ID": "{{ModID}}_OstrichIncubator",
+					"ToPosition": "Top"
+				}
+			],
+		},
 	]
 }
