@@ -719,7 +719,7 @@
 			"Entries": {
 				"{{ModID}}_OilMaker": {
 					"Id": "{{ModID}}_OilMaker",
-					"ItemId": "(BC)62",
+					"ItemId": "(BC)19",
 					"Price": 10000,
 					"AvailableStock": 2,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Oil Maker, PLAYER_FRIENDSHIP_POINTS Current Sandy 1250" // available on Thursdays if player knows the Oil Maker recipe AND has 5 hearts with Sandy
