@@ -672,7 +672,7 @@
 					"Id": "{{ModID}}_MushroomLog",
 					"ItemId": "(BC)MushroomLog",
 					"Price": 2000,
-					"AvailableStock": 2,
+					"AvailableStock": 1,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Mushroom Log, PLAYER_FRIENDSHIP_POINTS Current Robin 1500" // available on Thursdays if player knows the Mushroom Log recipe AND has 6 hearts with Robin
 				}
 			},
@@ -728,6 +728,127 @@
 			"MoveEntries": [
 				{
 					"ID": "{{ModID}}_OilMaker",
+					"ToPosition": "Top"
+				}
+			],
+		},
+		// Artisan Equipment at Willy's
+		{
+			"LogName": "Artisan Equipment - Recycling Machine at Willy's",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"FishShop",
+				"Items"
+			],
+			"Entries": {
+				"{{ModID}}_RecyclingMachine": {
+					"Id": "{{ModID}}_RecyclingMachine",
+					"ItemId": "(BC)20",
+					"Price": 5500,
+					"AvailableStock": 2,
+					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Recycling Machine, PLAYER_FRIENDSHIP_POINTS Current Willy 750" // available on Thursdays if player knows the Recycling Machine recipe AND has 3 hearts with Willy
+				}
+			},
+			"MoveEntries": [
+				{
+					"ID": "{{ModID}}_RecyclingMachine",
+					"ToPosition": "Top"
+				}
+			],
+		},
+		{
+			"LogName": "Artisan Equipment - Fish Smoker at Willy's",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"FishShop",
+				"Items"
+			],
+			"Entries": {
+				"{{ModID}}_FishSmoker": {
+					"Id": "{{ModID}}_FishSmoker",
+					"ItemId": "(BC)FishSmoker",
+					"Price": 5000,
+					"AvailableStock": 1,
+					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Fish Smoker, PLAYER_FRIENDSHIP_POINTS Current Willy 100" // available on Thursdays if player knows the Fish Smoker recipe AND has 4 hearts with Willy
+				}
+			},
+			"MoveEntries": [
+				{
+					"ID": "{{ModID}}_FishSmoker",
+					"ToPosition": "Top"
+				}
+			],
+		},
+		{
+			"LogName": "Artisan Equipment - Worm Bin at Willy's",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"FishShop",
+				"Items"
+			],
+			"Entries": {
+				"{{ModID}}_WormBin": {
+					"Id": "{{ModID}}_WormBin",
+					"ItemId": "(BC)154",
+					"Price": 6925,
+					"AvailableStock": 2,
+					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Worm Bin, PLAYER_FRIENDSHIP_POINTS Current Willy 1250" // available on Thursdays if player knows the Worm Bin recipe AND has 5 hearts with Willy
+				}
+			},
+			"MoveEntries": [
+				{
+					"ID": "{{ModID}}_WormBin",
+					"ToPosition": "Top"
+				}
+			],
+		},
+		{
+			"LogName": "Artisan Equipment - Bait Maker at Willy's",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"FishShop",
+				"Items"
+			],
+			"Entries": {
+				"{{ModID}}_BaitMaker": {
+					"Id": "{{ModID}}_BaitMaker",
+					"ItemId": "(BC)BaitMaker",
+					"Price": 8000,
+					"AvailableStock": 1,
+					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Bait Maker, PLAYER_FRIENDSHIP_POINTS Current Willy 1750" // available on Thursdays if player knows the Bait Maker recipe AND has 7 hearts with Willy
+				}
+			},
+			"MoveEntries": [
+				{
+					"ID": "{{ModID}}_BaitMaker",
+					"ToPosition": "Top"
+				}
+			],
+		},
+		{
+			"LogName": "Artisan Equipment - Deluxe Worm Bin at Willy's",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"FishShop",
+				"Items"
+			],
+			"Entries": {
+				"{{ModID}}_DeluxeWormBin": {
+					"Id": "{{ModID}}_DeluxeWormBin",
+					"ItemId": "(BC)154",
+					"Price": 10000,
+					"AvailableStock":1,
+					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Deluxe Worm Bin, PLAYER_FRIENDSHIP_POINTS Current Willy 2250" // available on Thursdays if player knows the Deluxe Worm Bin recipe AND has 9 hearts with Willy
+				}
+			},
+			"MoveEntries": [
+				{
+					"ID": "{{ModID}}_DeluxeWormBin",
 					"ToPosition": "Top"
 				}
 			],
