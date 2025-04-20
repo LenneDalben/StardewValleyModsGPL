@@ -351,6 +351,8 @@
 			] //end of Pierre item stock
 		},
 		//Artisan Equipment at Robin's!
+		// Dehydrator: 3000 6 hearts
+		// Mushroom Log: 2000 8 hearts
 		{
 			"ShopName": "RobinShop",
 			"AddStockAboveVanilla": "True",
@@ -442,6 +444,9 @@
 			] //end of Sandy item stock
 		},
 		//Artisan Equipment at Willy's!
+		// Fish smoker: 5000
+		// Bait maker: 8000
+		// Deluxe worm bin: 10000
 		{
 			"ShopName": "WillyShop",
 			"AddStockAboveVanilla": "True",
