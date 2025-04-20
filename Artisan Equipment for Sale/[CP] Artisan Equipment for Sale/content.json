@@ -309,7 +309,7 @@
 				"{{ModID}}_MayonnaiseMachine": {
 					"Id": "{{ModID}}_MayonnaiseMachine",
 					"ItemId": "(BC)24",
-					"Price": 6630,
+					"Price": 8300,
 					"AvailableStock": 2,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Mayonnaise Machine, PLAYER_FRIENDSHIP_POINTS Current Marnie 1000" // available on Thursdays if player knows the Mayonnaise Machine recipe AND has 4 hearts with Marnie
 				}
