@@ -364,7 +364,7 @@
 			},
 			"MoveEntries": [
 				{
-					"ID": "{{ModID}}_MayonnaiseMachine",
+					"ID": "{{ModID}}_CheesePress",
 					"ToPosition": "Top"
 				}
 			],
@@ -520,7 +520,7 @@
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
-				"RobinShop",
+				"Carpenter",
 				"Items"
 			],
 			"Entries": {
@@ -544,7 +544,7 @@
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
-				"RobinShop",
+				"Carpenter",
 				"Items"
 			],
 			"Entries": {
@@ -568,7 +568,7 @@
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
-				"RobinShop",
+				"Carpenter",
 				"Items"
 			],
 			"Entries": {
@@ -592,7 +592,7 @@
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
-				"RobinShop",
+				"Carpenter",
 				"Items"
 			],
 			"Entries": {
@@ -616,7 +616,7 @@
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
-				"RobinShop",
+				"Carpenter",
 				"Items"
 			],
 			"Entries": {
@@ -640,7 +640,7 @@
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
-				"RobinShop",
+				"Carpenter",
 				"Items"
 			],
 			"Entries": {
@@ -664,7 +664,7 @@
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
-				"RobinShop",
+				"Carpenter",
 				"Items"
 			],
 			"Entries": {
