@@ -491,6 +491,30 @@
 			],
 		},
 		{
+			"LogName": "Artisan Equipment - Dehydrator at Pierre's",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"Entries": {
+				"{{ModID}}_Dehydrator": {
+					"Id": "{{ModID}}_Dehydrator",
+					"ItemId": "(BC)Dehydrator",
+					"Price": 3000,
+					"AvailableStock": 1,
+					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Dehydrator, PLAYER_FRIENDSHIP_POINTS Current Pierre 1500" // available on Thursdays if player knows the Dehydrator recipe AND has 6 hearts with Pierre
+				}
+			},
+			"MoveEntries": [
+				{
+					"ID": "{{ModID}}_Dehydrator",
+					"ToPosition": "Top"
+				}
+			],
+		},
+		{
 			"LogName": "Artisan Equipment - Solar Panel at Pierre's",
 			"Action": "EditData",
 			"Target": "Data/Shops",
