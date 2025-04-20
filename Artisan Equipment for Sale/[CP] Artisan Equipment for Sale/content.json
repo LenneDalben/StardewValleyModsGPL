@@ -864,7 +864,7 @@
 			"Entries": {
 				"{{ModID}}_DeluxeWormBin": {
 					"Id": "{{ModID}}_DeluxeWormBin",
-					"ItemId": "(BC)154",
+					"ItemId": "(BC)DeluxeWormBin",
 					"Price": 10000,
 					"AvailableStock":1,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Deluxe Worm Bin, PLAYER_FRIENDSHIP_POINTS Current Willy 2250" // available on Thursdays if player knows the Deluxe Worm Bin recipe AND has 9 hearts with Willy
