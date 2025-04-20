@@ -4,17 +4,15 @@
   <property name="DayTiles" value="Front 14 1 256 Front 14 2 288 Front 21 1 256 Front 21 2 288"/>
   <property name="Doors" value="5 9 1 120 5 13 1 120 10 13 1 120 9 5 1 120 10 5 1 120"/>
   <property name="NightTiles" value="Front 14 1 1253 Front 14 2 1254 Front 21 1 1253 Front 21 2 1254"/>
-  <property name="UniquePortrait" value="Maru"/>
-  <property name="UniqueSprite" value="Maru"/>
   <property name="Warp" value="10 20 Town 36 56 10 1 HarveyRoom 6 12 9 1 HarveyRoom 6 12"/>
  </properties>
  <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
   <image source="townInterior" width="512" height="1088"/>
  </tileset>
- <tileset firstgid="2177" name="p" tilewidth="16" tileheight="16" tilecount="36" columns="4">
-  <image source="paths" width="64" height="144"/>
+ <tileset firstgid="2177" name="p" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths" width="64" height="256"/>
  </tileset>
- <tileset firstgid="2213" name="z_Skeleton" tilewidth="16" tileheight="16" tilecount="2" columns="1">
+ <tileset firstgid="2241" name="z_Skeleton" tilewidth="16" tileheight="16" tilecount="2" columns="1">
   <image source="Skeleton.png" width="16" height="32"/>
  </tileset>
  <layer id="1" name="Back" width="24" height="20">
@@ -57,8 +55,8 @@
 1,1430,1427,1427,735,0,736,1427,1427,735,0,736,1427,1427,1427,1429,1,1,1036,1037,0,0,843,1,
 1,0,0,0,735,0,736,0,0,735,0,736,0,841,0,0,1,1,1068,1069,0,0,843,1,
 1,49,908,909,767,839,768,43,43,767,839,768,43,43,43,148,1,1,1100,1101,0,0,496,1,
-1,1009,940,941,0,0,0,402,976,0,0,875,0,2213,535,1008,1,1,0,0,940,941,0,1,
-1,0,845,0,0,0,0,0,975,0,0,0,0,2214,0,844,1,1,1,1,1,1,1,1,
+1,1009,940,941,0,0,0,402,976,0,0,875,0,2241,535,1008,1,1,0,0,940,941,0,1,
+1,0,845,0,0,0,0,0,975,0,0,0,0,2242,0,844,1,1,1,1,1,1,1,1,
 1,1006,1006,1006,1006,1006,1006,972,1007,0,0,0,0,0,0,844,1,0,0,0,0,0,0,0,
 1,843,0,0,0,0,0,0,845,0,0,0,0,0,0,844,1,0,0,0,0,0,0,0,
 1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,875,1,0,0,0,0,0,0,0,
