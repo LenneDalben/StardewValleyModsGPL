@@ -1,5 +1,5 @@
 {
-	"Format": "1.21.0",
+	"Format": "2.6.0",
 	"ConfigSchema": {
 		"MinimumDaysBetweenLessons": {
 			"Description": "After starting the lessons, at least 7 days must pass between each one by default. That's how long you have to talk to the villagers after each lesson to hear their thoughts. To see all the lessons and the final event, it'll take a minimum of 20 in-game weeks. If you'd like, you can adjust this interval between 1 and 28 days to speed up or extend the lesson schedule..",
