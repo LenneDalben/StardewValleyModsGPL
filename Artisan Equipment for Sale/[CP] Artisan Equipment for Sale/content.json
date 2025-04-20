@@ -98,6 +98,30 @@
 				}
 			],
 		},
+		{
+			"LogName": "Artisan Equipment - Heavy Furnace at Clint's",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Blacksmith",
+				"Items"
+			],
+			"Entries": {
+				"{{ModID}}_HeavyFurnace": {
+					"Id": "{{ModID}}_HeavyFurnace",
+					"ItemId": "(BC)HeavyFurnace",
+					"Price": 20000,
+					"AvailableStock": 2,
+					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Heavy Furnace, PLAYER_FRIENDSHIP_POINTS Current Clint 1750" // available on Thursdays if player knows the Heavy Furnace recipe AND has 7 hearts with Clint
+				}
+			},
+			"MoveEntries": [
+				{
+					"ID": "{{ModID}}_HeavyFurnace",
+					"ToPosition": "Top"
+				}
+			],
+		},
 		// Artisan Equipment at Dwarf's
 		{
 			"LogName": "Artisan Equipment - Crystalarium at Dwarf's",
