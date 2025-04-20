@@ -1,6 +1,20 @@
 {
 	"Format": "2.6.0",
 	"ConfigSchema": {
+		"PotluckStyle": {
+			"Description": "Select between picnic blankets, plain sand, or the vanilla leaves for the Potluck flooring. Default is blankets.",
+			"AllowValues": "blanket, sand, leaves",
+			"Default": "blanket",
+			"AllowBlank": false,
+			"AllowMultiple": false
+		},
+		"PotluckMapEdits": {
+			"Description": "Select whether to edit the Luau map directly (true) or only edit the festival tilesheets (false). Editing the map directly allows more detail and cohesion, but may have compatibility issues if you have other mods that also edit the Luau map. If you have Potluck Style set to 'leaves', this setting doesn't do anything.",
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false,
+			"AllowMultiple": false
+		},
 		"RSVRailing": {
 			"Description": "Select between colorful or green bunting for the Ridgeside Village (RSV) railing. Default is colorful. If you don't have RSV installed, this setting doesn't do anything.",
 			"AllowValues": "colorful, green",
@@ -131,26 +145,28 @@
 			}
 		},
 		// Decorations changes (provided by Airyn!)
-		/*the blanket is currently a lil borked*/
-		// Decoration Blanket Middle
+		// Decoration Flooring Middle
 		{
-			"LogName": "Pelican Town Potluck Blanket Middle",
+			"LogName": "Pelican Town Potluck Flooring Middle",
 			"Action": "EditImage",
 			"Target": "Maps/Festivals",
-			"FromFile": "assets/Blanket_middle.png",
+			"FromFile": "assets/{{PotluckStyle}}_middle.png",
 			"ToArea": {
 				"X": 96,
 				"Y": 112,
 				"Width": 32,
 				"Height": 32
 			},
+			"When": {
+				"PotluckStyle |contains=leaves": false
+			}
 		},
-		// Decoration Blanket Edges
+		// Decoration Flooring Edges
 		{
-			"LogName": "Pelican Town Potluck Blanket Edges",
+			"LogName": "Pelican Town Potluck Flooring Edges",
 			"Action": "EditImage",
 			"Target": "Maps/Festivals",
-			"FromFile": "assets/Blanket_edges.png",
+			"FromFile": "assets/{{PotluckStyle}}_edges.png",
 			"PatchMode": "Overlay",
 			"ToArea": {
 				"X": 48,
@@ -158,6 +174,9 @@
 				"Width": 48,
 				"Height": 48
 			},
+			"When": {
+				"PotluckStyle |contains=leaves": false
+			}
 		},
 		// Decoration Lantern
 		{
@@ -184,6 +203,23 @@
 				"Width": 16,
 				"Height": 48
 			},
+		},
+		// Map patch
+		{
+			"LogName": "Pelican Town Potluck Luau Map Patch",
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Luau, Maps/Beach-Luau2",
+			"FromFile": "assets/PotluckMap_{{TargetWithoutPath}}_{{PotluckStyle}}.tmx",
+			"ToArea": {
+				"X": 9,
+				"Y": 3,
+				"Width": 47,
+				"Height": 22
+			},
+			"When": {
+				"PotluckStyle |contains=leaves": false,
+				"PotluckMapEdits": "true"
+			}
 		},
 		// Furniture rename (Summer Flower Tower)
 		{
@@ -212,21 +248,6 @@
 		//
 		// Compatibility Patches
 		//
-		// Immersive Festival Dialog Compatibility Patch
-		//
-		{
-			"LogName": "Pelican Town Potluck Immersive Festival Dialog Elliott Patch",
-			"Action": "EditData",
-			"Target": "Data/Festivals/summer11",
-			"Entries": {
-				"Elliott": "{{i18n:IFD_ElliottSummer11}}",
-			},
-			"When": {
-				"HasMod": "tangeriney.FestivalDialogue",
-				"Language": "en",
-				"Hearts:Elliott": "6, 7, 8, 9, 10"
-			}
-		},
 		//
 		// Ridgeside Village (RSV) Compatibility Patches
 		//
@@ -450,9 +471,9 @@
 			}
 		},
 		// RSV Decorations changes (provided by Airyn!)
-		// RSV Decoration Blanket Middle
+		// RSV Decoration Flooring Middle
 		{
-			"LogName": "Pelican Town Potluck RSV Blanket Middle",
+			"LogName": "Pelican Town Potluck RSV Flooring Middle",
 			"Action": "EditImage",
 			"Target": "Maps/zrsvfestivals",
 			"FromFile": "assets/Blanket_middle.png",
@@ -463,12 +484,13 @@
 				"Height": 32
 			},
 			"When": {
-				"HasMod": "Rafseazz.RSVCP, Rafseazz.RidgesideMobileCP"
+				"HasMod": "Rafseazz.RSVCP, Rafseazz.RidgesideMobileCP",
+				"PotluckStyle |contains=leaves": false
 			}
 		},
-		// RSV Decoration Blanket Edges
+		// RSV Decoration Flooring Edges
 		{
-			"LogName": "Pelican Town Potluck RSV Blanket Edges",
+			"LogName": "Pelican Town Potluck RSV Flooring Edges",
 			"Action": "EditImage",
 			"Target": "Maps/zrsvfestivals",
 			"FromFile": "assets/Blanket_edges.png",
@@ -480,7 +502,8 @@
 				"Height": 48
 			},
 			"When": {
-				"HasMod": "Rafseazz.RSVCP, Rafseazz.RidgesideMobileCP"
+				"HasMod": "Rafseazz.RSVCP, Rafseazz.RidgesideMobileCP",
+				"PotluckStyle |contains=leaves": false
 			}
 		},
 		// RSV Decoration Bunting - Colorful or Green
@@ -498,6 +521,59 @@
 			},
 			"When": {
 				"HasMod": "Rafseazz.RSVCP, Rafseazz.RidgesideMobileCP"
+			}
+		},
+		//
+		// Sunberry Village (SBV) Compatibility Patches
+		//
+		// SBV Decoration Flooring Middle
+		{
+			"LogName": "Pelican Town Potluck SBV Flooring Middle",
+			"Action": "EditImage",
+			"Target": "Maps/SBVFestivals",
+			"FromFile": "assets/Blanket_middle.png",
+			"ToArea": {
+				"X": 64,
+				"Y": 48,
+				"Width": 32,
+				"Height": 32
+			},
+			"When": {
+				"HasMod": "skellady.SBVCP",
+				"PotluckStyle |contains=leaves": false
+			}
+		},
+		// SBV Decoration Flooring Edges
+		{
+			"LogName": "Pelican Town Potluck SBV Flooring Edges",
+			"Action": "EditImage",
+			"Target": "Maps/SBVFestivals",
+			"FromFile": "assets/Blanket_edges.png",
+			"PatchMode": "Overlay",
+			"ToArea": {
+				"X": 64,
+				"Y": 80,
+				"Width": 48,
+				"Height": 48
+			},
+			"When": {
+				"HasMod": "skellady.SBVCP",
+				"PotluckStyle |contains=leaves": false
+			}
+		},
+		//
+		// Immersive Festival Dialog Compatibility Patch
+		{
+			"LogName": "Pelican Town Potluck Immersive Festival Dialog Elliott Patch",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"Entries": {
+				"Elliott": "{{i18n:IFD_ElliottSummer11}}",
+			},
+			"When": {
+				"HasMod": "tangeriney.FestivalDialogue",
+				"Language": "en",
+				"Hearts:Elliott": "6, 7, 8, 9, 10"
 			}
 		},
 		//
