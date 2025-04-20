@@ -442,9 +442,6 @@
 			] //end of Sandy item stock
 		},
 		//Artisan Equipment at Willy's!
-		// Fish smoker: 5000
-		// Bait maker: 8000
-		// Deluxe worm bin: 10000
 		{
 			"ShopName": "WillyShop",
 			"AddStockAboveVanilla": "True",
@@ -468,7 +465,7 @@
 					],
 					"Stock": 2,
 					"When": [
-						"u 4 11 18 25/HasCraftingRecipe Worm-Bin/f Willy 1500" //available if `every Thursday` AND `you've learned the Worm Bin recipe` AND `6 hearts with Willy`
+						"u 4 11 18 25/HasCraftingRecipe Worm-Bin/f Willy 1250" //available if `every Thursday` AND `you've learned the Worm Bin recipe` AND `5 hearts with Willy`
 					]
 				}
 			] //end of Willy item stock
