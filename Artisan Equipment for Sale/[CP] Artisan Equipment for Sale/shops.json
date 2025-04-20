@@ -351,8 +351,6 @@
 			] //end of Pierre item stock
 		},
 		//Artisan Equipment at Robin's!
-		// Dehydrator: 3000 6 hearts
-		// Mushroom Log: 2000 8 hearts
 		{
 			"ShopName": "RobinShop",
 			"AddStockAboveVanilla": "True",
