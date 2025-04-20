@@ -671,7 +671,7 @@
 				"{{ModID}}_MushroomLog": {
 					"Id": "{{ModID}}_MushroomLog",
 					"ItemId": "(BC)MushroomLog",
-					"Price": 6150,
+					"Price": 2000,
 					"AvailableStock": 2,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Mushroom Log, PLAYER_FRIENDSHIP_POINTS Current Robin 1500" // available on Thursdays if player knows the Mushroom Log recipe AND has 6 hearts with Robin
 				}
@@ -679,6 +679,55 @@
 			"MoveEntries": [
 				{
 					"ID": "{{ModID}}_MushroomLog",
+					"ToPosition": "Top"
+				}
+			],
+		},
+		// Artisan Equipment at Sandy's
+		{
+			"LogName": "Artisan Equipment - Garden Pot at Sandy's",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Sandy",
+				"Items"
+			],
+			"Entries": {
+				"{{ModID}}_GardenPot": {
+					"Id": "{{ModID}}_GardenPot",
+					"ItemId": "(BC)62",
+					"Price": 1320,
+					"AvailableStock": 3,
+					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Garden Pot, PLAYER_FRIENDSHIP_POINTS Current Sandy 750" // available on Thursdays if player knows the Garden Pot recipe AND has 3 hearts with Sandy
+				}
+			},
+			"MoveEntries": [
+				{
+					"ID": "{{ModID}}_GardenPot",
+					"ToPosition": "Top"
+				}
+			],
+		},
+		{
+			"LogName": "Artisan Equipment - Oil Maker at Sandy's",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Sandy",
+				"Items"
+			],
+			"Entries": {
+				"{{ModID}}_OilMaker": {
+					"Id": "{{ModID}}_OilMaker",
+					"ItemId": "(BC)62",
+					"Price": 10000,
+					"AvailableStock": 2,
+					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Oil Maker, PLAYER_FRIENDSHIP_POINTS Current Sandy 1250" // available on Thursdays if player knows the Oil Maker recipe AND has 5 hearts with Sandy
+				}
+			},
+			"MoveEntries": [
+				{
+					"ID": "{{ModID}}_OilMaker",
 					"ToPosition": "Top"
 				}
 			],
