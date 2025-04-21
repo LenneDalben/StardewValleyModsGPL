@@ -1291,56 +1291,56 @@
 		// Tokens for Sam Music
 		/*Event dialog intro, season is spring*/ {
 			"Name": "SamMusicSeasonalIntroDialog",
-			"Value": "speak Sam \"{{i18n:event-31032035.01}}\"/faceDirection Penny 0/shake Sam 500/textAboveHead Sam \"{{i18n:event-31032035.02}}\"/faceDirection Jas 0/faceDirection Vincent 0/pause 400/speak Sam \"{{i18n:event-31032035.03}}\"",
+			"Value": "speak Sam \"{{i18n:event-31032035.01}}\"/faceDirection Penny 0/shake Sam 500/textAboveHead Sam \"{{i18n:event-31032035.02}}\"/faceDirection Jas 0/faceDirection Vincent 0/pause 3000/speak Sam \"{{i18n:event-31032035.03}}\"",
 			"When": {
 				"Season": "Spring"
 			}
 		},
 		/*Event dialog intro, season is summer*/ {
 			"Name": "SamMusicSeasonalIntroDialog",
-			"Value": "speak Sam \"{{i18n:event-31032035.04}}\"/faceDirection Penny 0/textAboveHead Penny \"{{i18n:event-31032035.05}}\"/faceDirection Jas 0/faceDirection Vincent 0/pause 400/speak Sam \"{{i18n:event-31032035.06}}\"/textAboveHead Penny \"{{i18n:event-31032035.07}}\"/speak Vincent \"{{i18n:event-31032035.08}}\"/speak Sam \"{{i18n:event-31032035.09}}\"",
+			"Value": "speak Sam \"{{i18n:event-31032035.04}}\"/faceDirection Penny 0/textAboveHead Penny \"{{i18n:event-31032035.05}}\"/faceDirection Jas 0/faceDirection Vincent 0/pause 3000/speak Sam \"{{i18n:event-31032035.06}}\"/textAboveHead Penny \"{{i18n:event-31032035.07}}\"/pause 3000/speak Vincent \"{{i18n:event-31032035.08}}\"/speak Sam \"{{i18n:event-31032035.09}}\"",
 			"When": {
 				"Season": "Summer"
 			}
 		},
 		/*Event dialog intro, season is fall*/ {
 			"Name": "SamMusicSeasonalIntroDialog",
-			"Value": "faceDirection Penny 0/textAboveHead Penny \"{{i18n:event-31032035.10}}\"/pause 400/speak Sam \"{{i18n:event-31032035.11}}\"/emote Penny 28/speak Sam \"{{i18n:event-31032035.12}}\"",
+			"Value": "faceDirection Penny 0/textAboveHead Penny \"{{i18n:event-31032035.10}}\"/pause 3000/speak Sam \"{{i18n:event-31032035.11}}\"/emote Penny 28/speak Sam \"{{i18n:event-31032035.12}}\"",
 			"When": {
 				"Season": "Fall"
 			}
 		},
 		/*Event dialog intro, season is winter*/ {
 			"Name": "SamMusicSeasonalIntroDialog",
-			"Value": "speak Sam \"{{i18n:event-31032035.13}}\"/faceDirection Penny 0/shake Sam 500/faceDirection Jas 0/faceDirection Vincent 0/pause 400/speak Sam \"{{i18n:event-31032035.14}}\"",
+			"Value": "speak Sam \"{{i18n:event-31032035.13}}\"/faceDirection Penny 0/shake Sam 500/faceDirection Jas 0/faceDirection Vincent 0/pause 3000/speak Sam \"{{i18n:event-31032035.14}}\"",
 			"When": {
 				"Season": "Winter"
 			}
 		},
 		/*Event dialog later, season is spring*/ {
 			"Name": "SamMusicSeasonalLaterDialog",
-			"Value": "shake Sam 500/textAboveHead Sam \"{{i18n:event-31032035.24}}\"/textAboveHead Sam \"{{i18n:event-31032035.25}}\"/pause 200",
+			"Value": "shake Sam 500/textAboveHead Sam \"{{i18n:event-31032035.24}}\"/textAboveHead Sam \"{{i18n:event-31032035.25}}\"/pause 3000",
 			"When": {
 				"Season": "Spring"
 			}
 		},
 		/*Event dialog later, season is summer*/ {
 			"Name": "SamMusicSeasonalLaterDialog",
-			"Value": "textAboveHead Sam \"{{i18n:event-31032035.26}}\"/emote Penny 28",
+			"Value": "textAboveHead Sam \"{{i18n:event-31032035.26}}\"/emote Penny 28/pause 3000",
 			"When": {
 				"Season": "Summer"
 			}
 		},
 		/*Event dialog later, season is fall*/ {
 			"Name": "SamMusicSeasonalLaterDialog",
-			"Value": "shake Penny 500/jump Penny 3/pause 400/jump Penny 3/pause 400/textAboveHead Sam \"{{i18n:event-31032035.27}}\"/emote Penny 28/pause 400",
+			"Value": "shake Penny 500/jump Penny 3/pause 400/jump Penny 3/pause 400/textAboveHead Sam \"{{i18n:event-31032035.27}}\"/emote Penny 28/pause 3000",
 			"When": {
 				"Season": "Fall"
 			}
 		},
 		/*Event dialog later, season is winter*/ {
 			"Name": "SamMusicSeasonalLaterDialog",
-			"Value": "jump Sam 3/pause 400/jump Sam 3/textAboveHead Sam \"{{i18n:event-31032035.28}}\"",
+			"Value": "jump Sam 3/pause 400/jump Sam 3/textAboveHead Sam \"{{i18n:event-31032035.28}}\"/pause 3000",
 			"When": {
 				"Season": "Winter"
 			}
