@@ -48,43 +48,43 @@
 					"Id": "{{ModID}}_JazzSeeds",
 					"ItemId": "(O)429",
 					"Price": 37,
-					"Condition": "SEASON !spring" // available when it's not spring, because vanilla Joja already offers it in spring
+					"Condition": "SEASON !Spring" // available when it's not spring, because vanilla Joja already offers it in spring
 				},
 				"{{ModID}}_TulipBulbs": {
 					"Id": "{{ModID}}_TulipBulb",
 					"ItemId": "(O)427",
 					"Price": 25,
-					"Condition": "SEASON !spring" // available when it's not spring, because vanilla Joja already offers it in spring
+					"Condition": "SEASON !Spring" // available when it's not spring, because vanilla Joja already offers it in spring
 				},
 				"{{ModID}}_CauliflowerSeeds": {
 					"Id": "{{ModID}}_CauliflowerSeeds",
 					"ItemId": "(O)474",
 					"Price": 100,
-					"Condition": "SEASON !spring" // available when it's not spring, because vanilla Joja already offers it in spring
+					"Condition": "SEASON !Spring" // available when it's not spring, because vanilla Joja already offers it in spring
 				},
 				"{{ModID}}_BeanStarter": {
 					"Id": "{{ModID}}_BeanStarter",
 					"ItemId": "(O)473",
 					"Price": 75,
-					"Condition": "SEASON !spring" // available when it's not spring, because vanilla Joja already offers it in spring
+					"Condition": "SEASON !Spring" // available when it's not spring, because vanilla Joja already offers it in spring
 				},
 				"{{ModID}}_KaleSeeds": {
 					"Id": "{{ModID}}_KaleSeeds",
 					"ItemId": "(O)477",
 					"Price": 87,
-					"Condition": "SEASON !spring" // available when it's not spring, because vanilla Joja already offers it in spring
+					"Condition": "SEASON !Spring" // available when it's not spring, because vanilla Joja already offers it in spring
 				},
 				"{{ModID}}_ParsnipSeeds": {
 					"Id": "{{ModID}}_ParsnipSeeds",
 					"ItemId": "(O)472",
 					"Price": 25,
-					"Condition": "SEASON !spring" // available when it's not spring, because vanilla Joja already offers it in spring
+					"Condition": "SEASON !Spring" // available when it's not spring, because vanilla Joja already offers it in spring
 				},
 				"{{ModID}}_PotatoSeeds": {
 					"Id": "{{ModID}}_PotatoSeeds",
 					"ItemId": "(O)475",
 					"Price": 62,
-					"Condition": "SEASON !spring" // available when it's not spring, because vanilla Joja already offers it in spring
+					"Condition": "SEASON !Spring" // available when it's not spring, because vanilla Joja already offers it in spring
 				},
 			},
 			"MoveEntries": [
