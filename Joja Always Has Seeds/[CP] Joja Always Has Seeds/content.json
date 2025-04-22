@@ -1,881 +1,122 @@
 {
 	"Format": "2.6.0",
 	"Changes": [
-		// Artisan Equipment at Clint's
+		// Spring seeds offered all year round
 		{
-			"LogName": "Artisan Equipment - Lightning Rod at Clint's",
+			"LogName": "Joja Always Has Seeds - Garlic and Rice",
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
-				"Blacksmith",
+				"Joja",
 				"Items"
 			],
 			"Entries": {
-				"{{ModID}}_LightningRod": {
-					"Id": "{{ModID}}_LightningRod",
-					"ItemId": "(BC)9",
-					"Price": 2500,
-					"AvailableStock": 2,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Lightning Rod, PLAYER_FRIENDSHIP_POINTS Current Clint 750" // available on Thursdays if player knows the lightning rod recipe AND has 3 hearts with Clint
-				}
+				"{{ModID}}_GarlicSeeds": {
+					"Id": "{{ModID}}_GarlicSeeds",
+					"ItemId": "(O)476",
+					"Price": 50,
+					"Condition": "DATE_RANGE Spring 1 2" // available after year 2
+				},
+				"{{ModID}}_RiceShoot": {
+					"Id": "{{ModID}}_RiceShoot",
+					"ItemId": "(O)273",
+					"Price": 50,
+					"Condition": "DATE_RANGE Spring 1 2" // available after year 2
+				},
 			},
 			"MoveEntries": [
 				{
-					"ID": "{{ModID}}_LightningRod",
+					"ID": "{{ModID}}_GarlicSeeds",
 					"ToPosition": "Top"
-				}
+				},
+				{
+					"ID": "{{ModID}}_RiceShoot",
+					"ToPosition": "Top"
+				},
 			],
 		},
 		{
-			"LogName": "Artisan Equipment - Furnace at Clint's",
+			"LogName": "Joja Always Has Seeds - Year 1 Spring",
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
-				"Blacksmith",
+				"Joja",
 				"Items"
 			],
 			"Entries": {
-				"{{ModID}}_Furnace": {
-					"Id": "{{ModID}}_Furnace",
-					"ItemId": "(BC)13",
-					"Price": 5000,
-					"AvailableStock": 2,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Furnace, PLAYER_FRIENDSHIP_POINTS Current Clint 1000" // available on Thursdays if player knows the furnace recipe AND has 4 hearts with Clint
-				}
+				"{{ModID}}_JazzSeeds": {
+					"Id": "{{ModID}}_JazzSeeds",
+					"ItemId": "(O)429",
+					"Price": 37,
+					"Condition": "SEASON !spring" // available when it's not spring, because vanilla Joja already offers it in spring
+				},
+				"{{ModID}}_TulipBulbs": {
+					"Id": "{{ModID}}_TulipBulb",
+					"ItemId": "(O)427",
+					"Price": 25,
+					"Condition": "SEASON !spring" // available when it's not spring, because vanilla Joja already offers it in spring
+				},
+				"{{ModID}}_CauliflowerSeeds": {
+					"Id": "{{ModID}}_CauliflowerSeeds",
+					"ItemId": "(O)474",
+					"Price": 100,
+					"Condition": "SEASON !spring" // available when it's not spring, because vanilla Joja already offers it in spring
+				},
+				"{{ModID}}_BeanStarter": {
+					"Id": "{{ModID}}_BeanStarter",
+					"ItemId": "(O)473",
+					"Price": 75,
+					"Condition": "SEASON !spring" // available when it's not spring, because vanilla Joja already offers it in spring
+				},
+				"{{ModID}}_KaleSeeds": {
+					"Id": "{{ModID}}_KaleSeeds",
+					"ItemId": "(O)477",
+					"Price": 87,
+					"Condition": "SEASON !spring" // available when it's not spring, because vanilla Joja already offers it in spring
+				},
+				"{{ModID}}_ParsnipSeeds": {
+					"Id": "{{ModID}}_ParsnipSeeds",
+					"ItemId": "(O)472",
+					"Price": 25,
+					"Condition": "SEASON !spring" // available when it's not spring, because vanilla Joja already offers it in spring
+				},
+				"{{ModID}}_PotatoSeeds": {
+					"Id": "{{ModID}}_PotatoSeeds",
+					"ItemId": "(O)475",
+					"Price": 62,
+					"Condition": "SEASON !spring" // available when it's not spring, because vanilla Joja already offers it in spring
+				},
 			},
 			"MoveEntries": [
 				{
-					"ID": "{{ModID}}_Furnace",
+					"ID": "{{ModID}}_JazzSeeds",
 					"ToPosition": "Top"
-				}
-			],
-		},
-		{
-			"LogName": "Artisan Equipment - Geode Crusher at Clint's",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"Blacksmith",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_GeodeCrusher": {
-					"Id": "{{ModID}}_GeodeCrusher",
-					"ItemId": "(BC)182",
-					"Price": 13975,
-					"AvailableStock": 2,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Geode Crusher, PLAYER_FRIENDSHIP_POINTS Current Clint 1000" // available on Thursdays if player knows the Geode Crusher recipe AND has 4 hearts with Clint
-				}
-			},
-			"MoveEntries": [
+				},
 				{
-					"ID": "{{ModID}}_GeodeCrusher",
+					"ID": "{{ModID}}_TulipBulb",
 					"ToPosition": "Top"
-				}
-			],
-		},
-		{
-			"LogName": "Artisan Equipment - Charcoal Kiln at Clint's",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"Blacksmith",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_CharcoalKiln": {
-					"Id": "{{ModID}}_CharcoalKiln",
-					"ItemId": "(BC)114",
-					"Price": 3000,
-					"AvailableStock": 2,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Charcoal Kiln, PLAYER_FRIENDSHIP_POINTS Current Clint 1250" // available on Thursdays if player knows the charcoal kiln recipe AND has 5 hearts with Clint
-				}
-			},
-			"MoveEntries": [
+				},
 				{
-					"ID": "{{ModID}}_CharcoalKiln",
+					"ID": "{{ModID}}_CauliflowerSeeds",
 					"ToPosition": "Top"
-				}
-			],
-		},
-		{
-			"LogName": "Artisan Equipment - Heavy Furnace at Clint's",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"Blacksmith",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_HeavyFurnace": {
-					"Id": "{{ModID}}_HeavyFurnace",
-					"ItemId": "(BC)HeavyFurnace",
-					"Price": 20000,
-					"AvailableStock": 2,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Heavy Furnace, PLAYER_FRIENDSHIP_POINTS Current Clint 1750" // available on Thursdays if player knows the Heavy Furnace recipe AND has 7 hearts with Clint
-				}
-			},
-			"MoveEntries": [
+				},
 				{
-					"ID": "{{ModID}}_HeavyFurnace",
+					"ID": "{{ModID}}_BeanStarter",
 					"ToPosition": "Top"
-				}
-			],
-		},
-		// Artisan Equipment at Dwarf's
-		{
-			"LogName": "Artisan Equipment - Crystalarium at Dwarf's",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"Dwarf",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_Crystalarium": {
-					"Id": "{{ModID}}_Crystalarium",
-					"ItemId": "(BC)21",
-					"Price": 47400,
-					"AvailableStock": 2,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Crystalarium, PLAYER_FRIENDSHIP_POINTS Current Dwarf 2000" // available on Thursdays if player knows the Crystalarium recipe AND has 8 hearts with Dwarf
-				}
-			},
-			"MoveEntries": [
+				},
 				{
-					"ID": "{{ModID}}_Crystalarium",
+					"ID": "{{ModID}}_KaleSeeds",
 					"ToPosition": "Top"
-				}
-			],
-		},
-		// Artisan Equipment at Krobus'
-		{
-			"LogName": "Artisan Equipment - Bee House at Krobus's",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"ShadowShop",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_BeeHouse": {
-					"Id": "{{ModID}}_BeeHouse",
-					"ItemId": "(BC)10",
-					"Price": 5750,
-					"AvailableStock": 2,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Bee House, PLAYER_FRIENDSHIP_POINTS Current Krobus 1250" // available on Thursdays if player knows the Bee House recipe AND has 5 hearts with Krobus
-				}
-			},
-			"MoveEntries": [
+				},
 				{
-					"ID": "{{ModID}}_BeeHouse",
+					"ID": "{{ModID}}_ParsnipSeeds",
 					"ToPosition": "Top"
-				}
-			],
-		},
-		// Artisan Equipment at Marlon's
-		// Block for Yoshimax's Befriend Marlon or YWolf's Make Marlon Real
-		// NEED TO TEST WITH THOSE MODS
-		{
-			"LogName": "Artisan Equipment - Bone Mill at Marlon's with friendship",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"AdventureShop",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_BoneMill": {
-					"Id": "{{ModID}}_BoneMill",
-					"ItemId": "(BC)90",
-					"Price": 2180,
-					"AvailableStock": 1,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Bone Mill, {{HasMod |contains=Yoshimax.BefriendMarlon, YWolf.Marlon}}, PLAYER_FRIENDSHIP_POINTS Current Marlon 750" // available on Thursdays if player knows the Bone Mill recipe AND has 3 hearts with Marlon
-				}
-			},
-			"MoveEntries": [
+				},
 				{
-					"ID": "{{ModID}}_BoneMill",
+					"ID": "{{ModID}}_PotatoSeeds",
 					"ToPosition": "Top"
-				}
+				},
 			],
-		},
-		{
-			"LogName": "Artisan Equipment - Slime Egg-Press at Marlon's with friendship",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"AdventureShop",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_SlimeEggPress": {
-					"Id": "{{ModID}}_SlimeEggPress",
-					"ItemId": "(BC)158",
-					"Price": 2180,
-					"AvailableStock": 1,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Slime Egg-Press, {{HasMod |contains=Yoshimax.BefriendMarlon, YWolf.Marlon}}, PLAYER_FRIENDSHIP_POINTS Current Marlon 1500" // available on Thursdays if player knows the Slime Egg-Press recipe AND has 6 hearts with Marlon
-				}
-			},
-			"MoveEntries": [
-				{
-					"ID": "{{ModID}}_SlimeEggPress",
-					"ToPosition": "Top"
-				}
-			],
-		},
-		{
-			"LogName": "Artisan Equipment - Slime Incubator at Marlon's with friendship",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"AdventureShop",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_SlimeIncubator": {
-					"Id": "{{ModID}}_SlimeIncubator",
-					"ItemId": "(BC)156",
-					"Price": 20000,
-					"AvailableStock": 1,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Slime Incubator, {{HasMod |contains=Yoshimax.BefriendMarlon, YWolf.Marlon}}, PLAYER_FRIENDSHIP_POINTS Current Marlon 1750" // available on Thursdays if player knows the Slime Incubator recipe AND has 7 hearts with Marlon
-				}
-			},
-			"MoveEntries": [
-				{
-					"ID": "{{ModID}}_SlimeIncubator",
-					"ToPosition": "Top"
-				}
-			],
-		},
-		// Marlon block for vanilla (don't have those)
-		{
-			"LogName": "Artisan Equipment - Bone Mill at Marlon's with mine exploration",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"AdventureShop",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_BoneMill": {
-					"Id": "{{ModID}}_BoneMill",
-					"ItemId": "(BC)90",
-					"Price": 2180,
-					"AvailableStock": 1,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Bone Mill, !{{HasMod |contains=Yoshimax.BefriendMarlon, YWolf.Marlon}}, MINE_LOWEST_LEVEL_REACHED 120" // available on Thursdays if player knows the Bone Mill recipe AND player has reached the bottom of the mines once
-				}
-			},
-			"MoveEntries": [
-				{
-					"ID": "{{ModID}}_BoneMill",
-					"ToPosition": "Top"
-				}
-			],
-		},
-		{
-			"LogName": "Artisan Equipment - Slime Egg-Press at Marlon's with mine exploration",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"AdventureShop",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_SlimeEggPress": {
-					"Id": "{{ModID}}_SlimeEggPress",
-					"ItemId": "(BC)158",
-					"Price": 2180,
-					"AvailableStock": 1,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Slime Egg-Press, !{{HasMod |contains=Yoshimax.BefriendMarlon, YWolf.Marlon}}, MINE_LOWEST_LEVEL_REACHED 120" // available on Thursdays if player knows the Slime Egg-Press recipe AND player has reached the bottom of the mines once
-				}
-			},
-			"MoveEntries": [
-				{
-					"ID": "{{ModID}}_SlimeEggPress",
-					"ToPosition": "Top"
-				}
-			],
-		},
-		{
-			"LogName": "Artisan Equipment - Slime Incubator at Marlon's with mine exploration",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"AdventureShop",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_SlimeIncubator": {
-					"Id": "{{ModID}}_SlimeIncubator",
-					"ItemId": "(BC)156",
-					"Price": 20000,
-					"AvailableStock": 1,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Slime Incubator, !{{HasMod |contains=Yoshimax.BefriendMarlon, YWolf.Marlon}}, MINE_LOWEST_LEVEL_REACHED 120" // available on Thursdays if player knows the Slime Incubator recipe AND player has reached the bottom of the mines once
-				}
-			},
-			"MoveEntries": [
-				{
-					"ID": "{{ModID}}_SlimeIncubator",
-					"ToPosition": "Top"
-				}
-			],
-		},
-		// Artisan Equipment at Marnie's
-		{
-			"LogName": "Artisan Equipment - Mayonnaise Machine at Marnie's",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"AnimalShop",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_MayonnaiseMachine": {
-					"Id": "{{ModID}}_MayonnaiseMachine",
-					"ItemId": "(BC)24",
-					"Price": 8300,
-					"AvailableStock": 2,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Mayonnaise Machine, PLAYER_FRIENDSHIP_POINTS Current Marnie 1000" // available on Thursdays if player knows the Mayonnaise Machine recipe AND has 4 hearts with Marnie
-				}
-			},
-			"MoveEntries": [
-				{
-					"ID": "{{ModID}}_MayonnaiseMachine",
-					"ToPosition": "Top"
-				}
-			],
-		},
-		{
-			"LogName": "Artisan Equipment - Cheese Press at Marnie's",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"AnimalShop",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_CheesePress": {
-					"Id": "{{ModID}}_CheesePress",
-					"ItemId": "(BC)16",
-					"Price": 8300,
-					"AvailableStock": 2,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Cheese Press, PLAYER_FRIENDSHIP_POINTS Current Marnie 1250" // available on Thursdays if player knows the Cheese Press recipe AND has 5 hearts with Marnie
-				}
-			},
-			"MoveEntries": [
-				{
-					"ID": "{{ModID}}_CheesePress",
-					"ToPosition": "Top"
-				}
-			],
-		},
-		{
-			"LogName": "Artisan Equipment - Loom at Marnie's",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"AnimalShop",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_Loom": {
-					"Id": "{{ModID}}_Loom",
-					"ItemId": "(BC)17",
-					"Price": 3200,
-					"AvailableStock": 2,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Loom, PLAYER_FRIENDSHIP_POINTS Current Marnie 1750" // available on Thursdays if player knows the Loom recipe AND has 7 hearts with Marnie
-				}
-			},
-			"MoveEntries": [
-				{
-					"ID": "{{ModID}}_Loom",
-					"ToPosition": "Top"
-				}
-			],
-		},
-		{
-			"LogName": "Artisan Equipment - Ostrich Incubator at Marnie's",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"AnimalShop",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_OstrichIncubator": {
-					"Id": "{{ModID}}_OstrichIncubator",
-					"ItemId": "(BC)254",
-					"Price": 26600,
-					"AvailableStock": 1,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Ostrich Incubator, PLAYER_FRIENDSHIP_POINTS Current Marnie 2250" // available on Thursdays if player knows the Ostrich Incubator recipe AND has 9 hearts with Marnie
-				}
-			},
-			"MoveEntries": [
-				{
-					"ID": "{{ModID}}_OstrichIncubator",
-					"ToPosition": "Top"
-				}
-			],
-		},
-		// Artisan Equipment at Pierre's
-		{
-			"LogName": "Artisan Equipment - Scarecrow at Pierre's",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"SeedShop",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_Scarecrow": {
-					"Id": "{{ModID}}_Scarecrow",
-					"ItemId": "(BC)8",
-					"Price": 3000,
-					"AvailableStock": 2,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Scarecrow, PLAYER_FRIENDSHIP_POINTS Current Pierre 500" // available on Thursdays if player knows the Scarecrow recipe AND has 2 hearts with Pierre
-				}
-			},
-			"MoveEntries": [
-				{
-					"ID": "{{ModID}}_Scarecrow",
-					"ToPosition": "Top"
-				}
-			],
-		},
-		{
-			"LogName": "Artisan Equipment - Quality Sprinkler at Pierre's",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"SeedShop",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_SeedMaker": {
-					"Id": "{{ModID}}_QualitySprinkler",
-					"ItemId": "(O)621",
-					"Price": 3500,
-					"AvailableStock": 2,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Quality Sprinkler, PLAYER_FRIENDSHIP_POINTS Current Pierre 750" // available on Thursdays if player knows the Quality Sprinkler recipe AND has 3 hearts with Pierre
-				}
-			},
-			"MoveEntries": [
-				{
-					"ID": "{{ModID}}_QualitySprinkler",
-					"ToPosition": "Top"
-				}
-			],
-		},
-		{
-			"LogName": "Artisan Equipment - Seed Maker at Pierre's",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"SeedShop",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_SeedMaker": {
-					"Id": "{{ModID}}_SeedMaker",
-					"ItemId": "(BC)25",
-					"Price": 10000,
-					"AvailableStock": 1,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Seed Maker, PLAYER_FRIENDSHIP_POINTS Current Pierre 1250" // available on Thursdays if player knows the Seed Maker recipe AND has 5 hearts with Pierre
-				}
-			},
-			"MoveEntries": [
-				{
-					"ID": "{{ModID}}_SeedMaker",
-					"ToPosition": "Top"
-				}
-			],
-		},
-		{
-			"LogName": "Artisan Equipment - Dehydrator at Pierre's",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"SeedShop",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_Dehydrator": {
-					"Id": "{{ModID}}_Dehydrator",
-					"ItemId": "(BC)Dehydrator",
-					"Price": 3000,
-					"AvailableStock": 1,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Dehydrator, PLAYER_FRIENDSHIP_POINTS Current Pierre 1500" // available on Thursdays if player knows the Dehydrator recipe AND has 6 hearts with Pierre
-				}
-			},
-			"MoveEntries": [
-				{
-					"ID": "{{ModID}}_Dehydrator",
-					"ToPosition": "Top"
-				}
-			],
-		},
-		{
-			"LogName": "Artisan Equipment - Solar Panel at Pierre's",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"SeedShop",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_SolarPanel": {
-					"Id": "{{ModID}}_SolarPanel",
-					"ItemId": "(BC)231",
-					"Price": 30500,
-					"AvailableStock": 1,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Solar Panel, PLAYER_FRIENDSHIP_POINTS Current Pierre 2250" // available on Thursdays if player knows the Solar Panel recipe AND has 9 hearts with Pierre
-				}
-			},
-			"MoveEntries": [
-				{
-					"ID": "{{ModID}}_SolarPanel",
-					"ToPosition": "Top"
-				}
-			],
-		},
-		// Artisan Equipment at Robin's
-		{
-			"LogName": "Artisan Equipment - Preserves Jar at Robin's",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"Carpenter",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_PreservesJar": {
-					"Id": "{{ModID}}_PreservesJar",
-					"ItemId": "(BC)15",
-					"Price": 7500,
-					"AvailableStock": 2,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Preserves Jar, PLAYER_FRIENDSHIP_POINTS Current Robin 750" // available on Thursdays if player knows the Preserves Jar recipe AND has 3 hearts with Robin
-				}
-			},
-			"MoveEntries": [
-				{
-					"ID": "{{ModID}}_PreservesJar",
-					"ToPosition": "Top"
-				}
-			],
-		},
-		{
-			"LogName": "Artisan Equipment - Tapper at Robin's",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"Carpenter",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_Tapper": {
-					"Id": "{{ModID}}_Tapper",
-					"ItemId": "(BC)105",
-					"Price": 4000,
-					"AvailableStock": 2,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Tapper, PLAYER_FRIENDSHIP_POINTS Current Robin 1000" // available on Thursdays if player knows the Tapper recipe AND has 4 hearts with Robin
-				}
-			},
-			"MoveEntries": [
-				{
-					"ID": "{{ModID}}_Tapper",
-					"ToPosition": "Top"
-				}
-			],
-		},
-		{
-			"LogName": "Artisan Equipment - Keg at Robin's",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"Carpenter",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_Keg": {
-					"Id": "{{ModID}}_Keg",
-					"ItemId": "(BC)12",
-					"Price": 7500,
-					"AvailableStock": 2,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Keg, PLAYER_FRIENDSHIP_POINTS Current Robin 1250" // available on Thursdays if player knows the Keg recipe AND has 5 hearts with Robin
-				}
-			},
-			"MoveEntries": [
-				{
-					"ID": "{{ModID}}_Keg",
-					"ToPosition": "Top"
-				}
-			],
-		},
-		{
-			"LogName": "Artisan Equipment - Cask at Robin's",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"Carpenter",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_Cask": {
-					"Id": "{{ModID}}_Cask",
-					"ItemId": "(BC)163",
-					"Price": 2500,
-					"AvailableStock": 2,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Cask, PLAYER_FRIENDSHIP_POINTS Current Robin 1750" // available on Thursdays if player knows the Cask recipe AND has 7 hearts with Robin
-				}
-			},
-			"MoveEntries": [
-				{
-					"ID": "{{ModID}}_Cask",
-					"ToPosition": "Top"
-				}
-			],
-		},
-		{
-			"LogName": "Artisan Equipment - Heavy Tapper at Robin's",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"Carpenter",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_HeavyTapper": {
-					"Id": "{{ModID}}_HeavyTapper",
-					"ItemId": "(BC)264",
-					"Price": 6150,
-					"AvailableStock": 2,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Heavy Tapper, PLAYER_FRIENDSHIP_POINTS Current Robin 2250" // available on Thursdays if player knows the Heavy Tapper recipe AND has 9 hearts with Robin
-				}
-			},
-			"MoveEntries": [
-				{
-					"ID": "{{ModID}}_HeavyTapper",
-					"ToPosition": "Top"
-				}
-			],
-		},
-		{
-			"LogName": "Artisan Equipment - Dehydrator at Robin's",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"Carpenter",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_Dehydrator": {
-					"Id": "{{ModID}}_Dehydrator",
-					"ItemId": "(BC)Dehydrator",
-					"Price": 3000,
-					"AvailableStock": 1,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Dehydrator, PLAYER_FRIENDSHIP_POINTS Current Robin 1500" // available on Thursdays if player knows the Dehydrator recipe AND has 6 hearts with Robin
-				}
-			},
-			"MoveEntries": [
-				{
-					"ID": "{{ModID}}_Dehydrator",
-					"ToPosition": "Top"
-				}
-			],
-		},
-		{
-			"LogName": "Artisan Equipment - Mushroom Log at Robin's",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"Carpenter",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_MushroomLog": {
-					"Id": "{{ModID}}_MushroomLog",
-					"ItemId": "(BC)MushroomLog",
-					"Price": 2000,
-					"AvailableStock": 1,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Mushroom Log, PLAYER_FRIENDSHIP_POINTS Current Robin 1500" // available on Thursdays if player knows the Mushroom Log recipe AND has 6 hearts with Robin
-				}
-			},
-			"MoveEntries": [
-				{
-					"ID": "{{ModID}}_MushroomLog",
-					"ToPosition": "Top"
-				}
-			],
-		},
-		// Artisan Equipment at Sandy's
-		{
-			"LogName": "Artisan Equipment - Garden Pot at Sandy's",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"Sandy",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_GardenPot": {
-					"Id": "{{ModID}}_GardenPot",
-					"ItemId": "(BC)62",
-					"Price": 1320,
-					"AvailableStock": 3,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Garden Pot, PLAYER_FRIENDSHIP_POINTS Current Sandy 750" // available on Thursdays if player knows the Garden Pot recipe AND has 3 hearts with Sandy
-				}
-			},
-			"MoveEntries": [
-				{
-					"ID": "{{ModID}}_GardenPot",
-					"ToPosition": "Top"
-				}
-			],
-		},
-		{
-			"LogName": "Artisan Equipment - Oil Maker at Sandy's",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"Sandy",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_OilMaker": {
-					"Id": "{{ModID}}_OilMaker",
-					"ItemId": "(BC)19",
-					"Price": 10000,
-					"AvailableStock": 2,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Oil Maker, PLAYER_FRIENDSHIP_POINTS Current Sandy 1250" // available on Thursdays if player knows the Oil Maker recipe AND has 5 hearts with Sandy
-				}
-			},
-			"MoveEntries": [
-				{
-					"ID": "{{ModID}}_OilMaker",
-					"ToPosition": "Top"
-				}
-			],
-		},
-		// Artisan Equipment at Willy's
-		{
-			"LogName": "Artisan Equipment - Recycling Machine at Willy's",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"FishShop",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_RecyclingMachine": {
-					"Id": "{{ModID}}_RecyclingMachine",
-					"ItemId": "(BC)20",
-					"Price": 5500,
-					"AvailableStock": 2,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Recycling Machine, PLAYER_FRIENDSHIP_POINTS Current Willy 750" // available on Thursdays if player knows the Recycling Machine recipe AND has 3 hearts with Willy
-				}
-			},
-			"MoveEntries": [
-				{
-					"ID": "{{ModID}}_RecyclingMachine",
-					"ToPosition": "Top"
-				}
-			],
-		},
-		{
-			"LogName": "Artisan Equipment - Fish Smoker at Willy's",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"FishShop",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_FishSmoker": {
-					"Id": "{{ModID}}_FishSmoker",
-					"ItemId": "(BC)FishSmoker",
-					"Price": 5000,
-					"AvailableStock": 1,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Fish Smoker, PLAYER_FRIENDSHIP_POINTS Current Willy 100" // available on Thursdays if player knows the Fish Smoker recipe AND has 4 hearts with Willy
-				}
-			},
-			"MoveEntries": [
-				{
-					"ID": "{{ModID}}_FishSmoker",
-					"ToPosition": "Top"
-				}
-			],
-		},
-		{
-			"LogName": "Artisan Equipment - Worm Bin at Willy's",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"FishShop",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_WormBin": {
-					"Id": "{{ModID}}_WormBin",
-					"ItemId": "(BC)154",
-					"Price": 6925,
-					"AvailableStock": 2,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Worm Bin, PLAYER_FRIENDSHIP_POINTS Current Willy 1250" // available on Thursdays if player knows the Worm Bin recipe AND has 5 hearts with Willy
-				}
-			},
-			"MoveEntries": [
-				{
-					"ID": "{{ModID}}_WormBin",
-					"ToPosition": "Top"
-				}
-			],
-		},
-		{
-			"LogName": "Artisan Equipment - Bait Maker at Willy's",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"FishShop",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_BaitMaker": {
-					"Id": "{{ModID}}_BaitMaker",
-					"ItemId": "(BC)BaitMaker",
-					"Price": 8000,
-					"AvailableStock": 1,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Bait Maker, PLAYER_FRIENDSHIP_POINTS Current Willy 1750" // available on Thursdays if player knows the Bait Maker recipe AND has 7 hearts with Willy
-				}
-			},
-			"MoveEntries": [
-				{
-					"ID": "{{ModID}}_BaitMaker",
-					"ToPosition": "Top"
-				}
-			],
-		},
-		{
-			"LogName": "Artisan Equipment - Deluxe Worm Bin at Willy's",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"FishShop",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_DeluxeWormBin": {
-					"Id": "{{ModID}}_DeluxeWormBin",
-					"ItemId": "(BC)DeluxeWormBin",
-					"Price": 10000,
-					"AvailableStock":1,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Deluxe Worm Bin, PLAYER_FRIENDSHIP_POINTS Current Willy 2250" // available on Thursdays if player knows the Deluxe Worm Bin recipe AND has 9 hearts with Willy
-				}
-			},
-			"MoveEntries": [
-				{
-					"ID": "{{ModID}}_DeluxeWormBin",
-					"ToPosition": "Top"
-				}
-			],
-		},
+		}
 	]
 }
