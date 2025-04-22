@@ -1,0 +1,9 @@
+{
+  "Name": "[CP] Joja Always Has Seeds",
+  "Author": "LenneDalben",
+  "Version": "2.0.0",
+  "Description": "Exactly what it says on the tin - JojaMart sells seeds all year round.",
+  "UniqueID": "LenneDalben.JojaAlwaysHasSeeds",
+  "MinimumApiVersion": "3.6.1",
+  "UpdateKeys": [ "ModDrop:1036749" ]
+}
