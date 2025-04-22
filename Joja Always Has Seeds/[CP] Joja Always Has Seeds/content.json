@@ -151,6 +151,24 @@
 				"Items"
 			],
 			"Entries": {
+				"{{ModID}}_PoppySeeds": {
+					"Id": "{{ModID}}_PoppySeeds",
+					"ItemId": "(O)453",
+					"Price": 125,
+					"Condition": "SEASON Spring Fall Winter" // available when it's not summer, because vanilla Joja already offers it in spring
+				},
+				"{{ModID}}_SpangleSeeds": {
+					"Id": "{{ModID}}_SpangleSeeds",
+					"ItemId": "(O)455",
+					"Price": 62,
+					"Condition": "SEASON Spring Fall Winter" // available when it's not summer, because vanilla Joja already offers it in spring
+				},
+				"{{ModID}}_SunflowerSeeds": {
+					"Id": "{{ModID}}_SunflowerSeeds",
+					"ItemId": "(O)431",
+					"Price": 125,
+					"Condition": "SEASON Spring Fall Winter" // available when it's not summer, because vanilla Joja already offers it in spring
+				},
 				"{{ModID}}_MelonSeeds": {
 					"Id": "{{ModID}}_MelonSeeds",
 					"ItemId": "(O)479",
@@ -181,24 +199,6 @@
 					"Price": 50,
 					"Condition": "SEASON Spring Fall Winter" // available when it's not summer, because vanilla Joja already offers it in spring
 				},
-				"{{ModID}}_PoppySeeds": {
-					"Id": "{{ModID}}_PoppySeeds",
-					"ItemId": "(O)453",
-					"Price": 125,
-					"Condition": "SEASON Spring Fall Winter" // available when it's not summer, because vanilla Joja already offers it in spring
-				},
-				"{{ModID}}_SpangleSeeds": {
-					"Id": "{{ModID}}_SpangleSeeds",
-					"ItemId": "(O)455",
-					"Price": 62,
-					"Condition": "SEASON Spring Fall Winter" // available when it's not summer, because vanilla Joja already offers it in spring
-				},
-				"{{ModID}}_SunflowerSeeds": {
-					"Id": "{{ModID}}_SunflowerSeeds",
-					"ItemId": "(O)431",
-					"Price": 125,
-					"Condition": "SEASON Spring Fall Winter" // available when it's not summer, because vanilla Joja already offers it in spring
-				},
 				"{{ModID}}_TomatoSeeds": {
 					"Id": "{{ModID}}_TomatoSeeds",
 					"ItemId": "(O)480",
@@ -213,6 +213,18 @@
 				},
 			},
 			"MoveEntries": [
+				{
+					"ID": "{{ModID}}_PoppySeeds",
+					"ToPosition": "Top"
+				},
+				{
+					"ID": "{{ModID}}_SpangleSeeds",
+					"ToPosition": "Top"
+				},
+				{
+					"ID": "{{ModID}}_SunflowerSeeds",
+					"ToPosition": "Top"
+				},
 				{
 					"ID": "{{ModID}}_MelonSeeds",
 					"ToPosition": "Top"
@@ -231,18 +243,6 @@
 				},
 				{
 					"ID": "{{ModID}}_RadishSeeds",
-					"ToPosition": "Top"
-				},
-				{
-					"ID": "{{ModID}}_PoppySeeds",
-					"ToPosition": "Top"
-				},
-				{
-					"ID": "{{ModID}}_SpangleSeeds",
-					"ToPosition": "Top"
-				},
-				{
-					"ID": "{{ModID}}_SunflowerSeeds",
 					"ToPosition": "Top"
 				},
 				{
