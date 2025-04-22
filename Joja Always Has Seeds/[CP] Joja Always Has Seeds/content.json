@@ -50,7 +50,7 @@
 					"Price": 37,
 					"Condition": "SEASON Summer Fall Winter" // available when it's not spring, because vanilla Joja already offers it in spring
 				},
-				"{{ModID}}_TulipBulbs": {
+				"{{ModID}}_TulipBulb": {
 					"Id": "{{ModID}}_TulipBulb",
 					"ItemId": "(O)427",
 					"Price": 25,
@@ -114,6 +114,143 @@
 				},
 				{
 					"ID": "{{ModID}}_PotatoSeeds",
+					"ToPosition": "Top"
+				},
+			],
+		},
+		// Summer seeds offered all year round
+		{
+			"LogName": "Joja Always Has Seeds - Red Cabbage",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
+			"Entries": {
+				"{{ModID}}_GarlicSeeds": {
+					"Id": "{{ModID}}_RedCabbageSeeds",
+					"ItemId": "(O)485",
+					"Price": 100,
+					"Condition": "DATE_RANGE Spring 1 2" // available after year 2
+				}
+			},
+			"MoveEntries": [
+				{
+					"ID": "{{ModID}}_RedCabbageSeeds",
+					"ToPosition": "Top"
+				}
+			],
+		},
+		{
+			"LogName": "Joja Always Has Seeds - Year 1 Summer",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
+			"Entries": {
+				"{{ModID}}_MelonSeeds": {
+					"Id": "{{ModID}}_MelonSeeds",
+					"ItemId": "(O)479",
+					"Price": 100,
+					"Condition": "SEASON Spring Fall Winter" // available when it's not summer, because vanilla Joja already offers it in spring
+				},
+				"{{ModID}}_CornSeeds": {
+					"Id": "{{ModID}}_CornSeeds",
+					"ItemId": "(O)487",
+					"Price": 187,
+					"Condition": "SEASON Spring Fall Winter" // available when it's not summer, because vanilla Joja already offers it in spring
+				},
+				"{{ModID}}_HopsStarter": {
+					"Id": "{{ModID}}_HopsStarter",
+					"ItemId": "(O)302",
+					"Price": 75,
+					"Condition": "SEASON Spring Fall Winter" // available when it's not summer, because vanilla Joja already offers it in spring
+				},
+				"{{ModID}}_PepperSeeds": {
+					"Id": "{{ModID}}_PepperSeeds",
+					"ItemId": "(O)482",
+					"Price": 50,
+					"Condition": "SEASON Spring Fall Winter" // available when it's not summer, because vanilla Joja already offers it in spring
+				},
+				"{{ModID}}_RadishSeeds": {
+					"Id": "{{ModID}}_RadishSeeds",
+					"ItemId": "(O)484",
+					"Price": 50,
+					"Condition": "SEASON Spring Fall Winter" // available when it's not summer, because vanilla Joja already offers it in spring
+				},
+				"{{ModID}}_PoppySeeds": {
+					"Id": "{{ModID}}_PoppySeeds",
+					"ItemId": "(O)453",
+					"Price": 125,
+					"Condition": "SEASON Spring Fall Winter" // available when it's not summer, because vanilla Joja already offers it in spring
+				},
+				"{{ModID}}_SpangleSeeds": {
+					"Id": "{{ModID}}_SpangleSeeds",
+					"ItemId": "(O)455",
+					"Price": 62,
+					"Condition": "SEASON Spring Fall Winter" // available when it's not summer, because vanilla Joja already offers it in spring
+				},
+				"{{ModID}}_SunflowerSeeds": {
+					"Id": "{{ModID}}_SunflowerSeeds",
+					"ItemId": "(O)431",
+					"Price": 125,
+					"Condition": "SEASON Spring Fall Winter" // available when it's not summer, because vanilla Joja already offers it in spring
+				},
+				"{{ModID}}_TomatoSeeds": {
+					"Id": "{{ModID}}_TomatoSeeds",
+					"ItemId": "(O)480",
+					"Price": 62,
+					"Condition": "SEASON Spring Fall Winter" // available when it's not summer, because vanilla Joja already offers it in spring
+				},
+				"{{ModID}}_WheatSeeds": {
+					"Id": "{{ModID}}_WheatSeeds",
+					"ItemId": "(O)483",
+					"Price": 12,
+					"Condition": "SEASON Spring Fall Winter" // available when it's not summer, because vanilla Joja already offers it in spring
+				},
+			},
+			"MoveEntries": [
+				{
+					"ID": "{{ModID}}_MelonSeeds",
+					"ToPosition": "Top"
+				},
+				{
+					"ID": "{{ModID}}_CornSeeds",
+					"ToPosition": "Top"
+				},
+				{
+					"ID": "{{ModID}}_HopsStarter",
+					"ToPosition": "Top"
+				},
+				{
+					"ID": "{{ModID}}_PepperSeeds",
+					"ToPosition": "Top"
+				},
+				{
+					"ID": "{{ModID}}_RadishSeeds",
+					"ToPosition": "Top"
+				},
+				{
+					"ID": "{{ModID}}_PoppySeeds",
+					"ToPosition": "Top"
+				},
+				{
+					"ID": "{{ModID}}_SpangleSeeds",
+					"ToPosition": "Top"
+				},
+				{
+					"ID": "{{ModID}}_SunflowerSeeds",
+					"ToPosition": "Top"
+				},
+				{
+					"ID": "{{ModID}}_TomatoSeeds",
+					"ToPosition": "Top"
+				},
+				{
+					"ID": "{{ModID}}_WheatSeeds",
 					"ToPosition": "Top"
 				},
 			],
