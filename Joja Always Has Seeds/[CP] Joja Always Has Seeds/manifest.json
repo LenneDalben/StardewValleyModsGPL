@@ -4,6 +4,10 @@
   "Version": "2.0.0",
   "Description": "Exactly what it says on the tin - JojaMart sells seeds all year round.",
   "UniqueID": "LenneDalben.JojaAlwaysHasSeeds",
-  "MinimumApiVersion": "3.6.1",
-  "UpdateKeys": [ "ModDrop:1036749" ]
+  "MinimumApiVersion": "4.2.1",
+  "UpdateKeys": [ "ModDrop:1036749" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+	   "MinimumVersion": "2.6.0"
+  }
 }
