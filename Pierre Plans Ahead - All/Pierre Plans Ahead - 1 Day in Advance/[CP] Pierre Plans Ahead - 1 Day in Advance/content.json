@@ -1,0 +1,117 @@
+{
+	"Format": "2.6.0",
+	"Changes": [
+		// Last Day of Spring, Summer Seeds
+		{
+			"LogName": "Pierre Plans Ahead - Red Cabbage in Spring",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"Entries": {
+				"{{ModID}}_RedCabbageSeeds": {
+					"Id": "{{ModID}}_RedCabbageSeeds",
+					"ItemId": "(O)476",
+					"Price": 50,
+					"Condition": "YEAR 2, SEASON_DAY Spring 28, WORLD_STATE_ID PierreStocklist" // available after year 2 AND it's spring 28
+					// l PierreStocklist "player doesn't have the PierreStocklist flag"
+				}
+			},
+			"MoveEntries": [
+				{
+					"ID": "{{ModID}}_GarlicSeeds",
+					"ToPosition": "Top"
+				},
+				{
+					"ID": "{{ModID}}_RiceShoot",
+					"ToPosition": "Top"
+				},
+			],
+		},
+		{
+			"LogName": "Joja Always Has Seeds - Year 1 Spring",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
+			"Entries": {
+				"{{ModID}}_JazzSeeds": {
+					"Id": "{{ModID}}_JazzSeeds",
+					"ItemId": "(O)429",
+					"Price": 37,
+					"Condition": "SEASON Summer Fall Winter" // available when it's not spring, because vanilla Joja already offers it in spring
+				},
+				"{{ModID}}_TulipBulb": {
+					"Id": "{{ModID}}_TulipBulb",
+					"ItemId": "(O)427",
+					"Price": 25,
+					"Condition": "SEASON Summer Fall Winter" // available when it's not spring, because vanilla Joja already offers it in spring
+				},
+				"{{ModID}}_CauliflowerSeeds": {
+					"Id": "{{ModID}}_CauliflowerSeeds",
+					"ItemId": "(O)474",
+					"Price": 100,
+					"Condition": "SEASON Summer Fall Winter" // available when it's not spring, because vanilla Joja already offers it in spring
+				},
+				"{{ModID}}_BeanStarter": {
+					"Id": "{{ModID}}_BeanStarter",
+					"ItemId": "(O)473",
+					"Price": 75,
+					"Condition": "SEASON Summer Fall Winter" // available when it's not spring, because vanilla Joja already offers it in spring
+				},
+				"{{ModID}}_KaleSeeds": {
+					"Id": "{{ModID}}_KaleSeeds",
+					"ItemId": "(O)477",
+					"Price": 87,
+					"Condition": "SEASON Summer Fall Winter" // available when it's not spring, because vanilla Joja already offers it in spring
+				},
+				"{{ModID}}_ParsnipSeeds": {
+					"Id": "{{ModID}}_ParsnipSeeds",
+					"ItemId": "(O)472",
+					"Price": 25,
+					"Condition": "SEASON Summer Fall Winter" // available when it's not spring, because vanilla Joja already offers it in spring
+				},
+				"{{ModID}}_PotatoSeeds": {
+					"Id": "{{ModID}}_PotatoSeeds",
+					"ItemId": "(O)475",
+					"Price": 62,
+					"Condition": "SEASON Summer Fall Winter" // available when it's not spring, because vanilla Joja already offers it in spring
+				},
+			},
+			"MoveEntries": [
+				{
+					"ID": "{{ModID}}_JazzSeeds",
+					"ToPosition": "Top"
+				},
+				{
+					"ID": "{{ModID}}_TulipBulb",
+					"ToPosition": "Top"
+				},
+				{
+					"ID": "{{ModID}}_CauliflowerSeeds",
+					"ToPosition": "Top"
+				},
+				{
+					"ID": "{{ModID}}_BeanStarter",
+					"ToPosition": "Top"
+				},
+				{
+					"ID": "{{ModID}}_KaleSeeds",
+					"ToPosition": "Top"
+				},
+				{
+					"ID": "{{ModID}}_ParsnipSeeds",
+					"ToPosition": "Top"
+				},
+				{
+					"ID": "{{ModID}}_PotatoSeeds",
+					"ToPosition": "Top"
+				},
+			],
+		},
+	]
+}
