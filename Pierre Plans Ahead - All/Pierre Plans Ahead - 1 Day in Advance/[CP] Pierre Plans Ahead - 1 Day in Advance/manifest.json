@@ -1,13 +1,13 @@
 {
-  "Name": "[STF] Pierre Plans Ahead - 1 Day in Advance",
+  "Name": "[CP] Pierre Plans Ahead - 1 Day in Advance",
   "Author": "LenneDalben",
-  "Version": "1.3.0",
+  "Version": "2.0.0",
   "Description": "Pierre sells the next season's seeds 1 day in advance.",
   "UniqueID": "LenneDalben.PierrePlansAhead",
-  "MinimumApiVersion": "3.8.1",
+  "MinimumApiVersion": "4.2.1",
   "UpdateKeys": [ "ModDrop:1036738" ],
   "ContentPackFor": {
-    "UniqueID": "Cherry.ShopTileFramework",
-    "MinimumVersion": "1.0.9"
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "2.6.0"
   }
 }
