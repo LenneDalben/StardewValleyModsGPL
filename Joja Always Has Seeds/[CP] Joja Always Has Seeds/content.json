@@ -294,6 +294,12 @@
 					"Price": 250,
 					"Condition": "SEASON Spring Summer Winter" // available when it's not fall, because vanilla Joja already offers it in fall
 				},
+				"{{ModID}}_AmaranthSeeds": {
+					"Id": "{{ModID}}_AmaranthSeeds",
+					"ItemId": "(O)299",
+					"Price": 87,
+					"Condition": "SEASON Spring Summer Winter" // available when it's not fall, because vanilla Joja already offers it in fall
+				},
 				"{{ModID}}_BokChoySeeds": {
 					"Id": "{{ModID}}_BokChoySeeds",
 					"ItemId": "(O)491",
@@ -334,6 +340,10 @@
 			"MoveEntries": [
 				{
 					"ID": "{{ModID}}_FairySeeds",
+					"ToPosition": "Top"
+				},
+				{
+					"ID": "{{ModID}}_AmaranthSeeds",
 					"ToPosition": "Top"
 				},
 				{
