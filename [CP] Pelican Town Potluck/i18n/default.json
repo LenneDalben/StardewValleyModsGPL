@@ -1,6 +1,18 @@
 {
 	// ***Config Options***
 	//
+	// Potluck Style
+	"config.PotluckStyle.name": "PotluckStyle",
+	"config.PotluckStyle.description": "Choose the Potluck flooring - blanket (default), sand, or leaves (vanilla). To use blanket without visual glitches, set PotluckMapEdits to 'true'.",
+	"config.PotluckStyle.values.blanket": "blanket",
+	"config.PotluckStyle.values.sand": "sand",
+	"config.PotluckStyle.values.leaves": "leaves",
+	// Potluck Map Edits
+	"config.PotluckMapEdits.name": "PotluckMapEdits",
+	"config.PotluckMapEdits.description": "Choose whether to edit the Luau map (true, default) or only the festival tilesheets (false). Set to true if you're using 'blanket' for PotluckMapEdits to prevent visual glitches. If you use another mod that edits the Luau map (excluding RSV and SBV which are already compatible), you may want to set this to false and use 'sand' or 'leaves' for 'PotluckMapEdits' to avoid conflicts. If PotluckMapEdits is set to 'leaves', this setting doesn't do anything.",
+	"config.PotluckMapEdits.values.true": "true",
+	"config.PotluckMapEdits.values.false": "false",
+	// RSV Railing
 	"config.RSVRailing.name": "RSVRailing",
 	"config.RSVRailing.description": "Select between colorful or green bunting for the Ridgeside Village (RSV) railing. Default is colorful. If you don't have RSV installed, this setting doesn't do anything.",
 	"config.RSVRailing.values.colorful": "colorful",
