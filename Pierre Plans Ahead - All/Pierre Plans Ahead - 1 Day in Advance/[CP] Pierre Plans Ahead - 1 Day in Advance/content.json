@@ -1,6 +1,9 @@
 {
 	"Format": "2.6.0",
 	"Changes": [
+		// NOTE FOR LATER: write the first set of patches here, then later put into Includes. Have the Include patches with the When condition for the config file.
+		// Plans Ahead: 1, 3, 7 days
+		// 'May' Plan Ahead: 1, Draylon Edition, and up to 7 days in advance. Idk how the random portion will work
 		// Last Day of Spring, Summer Seeds
 		{
 			"LogName": "Pierre Plans Ahead - Red Cabbage in Spring",
@@ -15,7 +18,7 @@
 					"Id": "{{ModID}}_RedCabbageSeeds",
 					"ItemId": "(O)476",
 					"Price": 50,
-					"Condition": "YEAR 2, SEASON_DAY Spring 28, WORLD_STATE_ID PierreStocklist" // available after year 2 AND it's spring 28
+					"Condition": "YEAR 2, SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available after year 2 AND it's spring 28
 					// l PierreStocklist "player doesn't have the PierreStocklist flag"
 				}
 			},
