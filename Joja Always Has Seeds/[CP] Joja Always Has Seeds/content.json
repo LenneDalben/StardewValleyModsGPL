@@ -15,13 +15,13 @@
 					"Id": "{{ModID}}_GarlicSeeds",
 					"ItemId": "(O)476",
 					"Price": 50,
-					"Condition": "DATE_RANGE Spring 1 2" // available after year 2
+					"Condition": "YEAR 2" // available after year 2
 				},
 				"{{ModID}}_RiceShoot": {
 					"Id": "{{ModID}}_RiceShoot",
 					"ItemId": "(O)273",
 					"Price": 50,
-					"Condition": "DATE_RANGE Spring 1 2" // available after year 2
+					"Condition": "YEAR 2" // available after year 2
 				},
 			},
 			"MoveEntries": [
@@ -132,7 +132,7 @@
 					"Id": "{{ModID}}_RedCabbageSeeds",
 					"ItemId": "(O)485",
 					"Price": 100,
-					"Condition": "DATE_RANGE Spring 1 2" // available after year 2
+					"Condition": "YEAR 2" // available after year 2
 				}
 			},
 			"MoveEntries": [
@@ -269,7 +269,7 @@
 					"Id": "{{ModID}}_ArtichokeSeeds",
 					"ItemId": "(O)489",
 					"Price": 38,
-					"Condition": "DATE_RANGE Spring 1 2" // available after year 2
+					"Condition": "YEAR 2" // available after year 2
 				}
 			},
 			"MoveEntries": [
