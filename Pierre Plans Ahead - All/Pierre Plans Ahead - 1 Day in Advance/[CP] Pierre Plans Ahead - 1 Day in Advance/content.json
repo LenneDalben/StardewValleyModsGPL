@@ -18,8 +18,7 @@
 					"Id": "{{ModID}}_RedCabbageSeeds",
 					"ItemId": "(O)476",
 					"Price": 50,
-					"Condition": "YEAR 2, SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available after year 2 AND it's spring 28
-					// l PierreStocklist "player doesn't have the PierreStocklist flag"
+					"Condition": "YEAR 2, SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available after year 2 AND it's spring 28 AND player doesn't have the PierreStocklist flag
 				}
 			},
 			"MoveEntries": [
