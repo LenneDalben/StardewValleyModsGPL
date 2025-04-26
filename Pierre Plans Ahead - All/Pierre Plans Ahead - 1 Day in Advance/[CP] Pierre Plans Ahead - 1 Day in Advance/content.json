@@ -4,7 +4,7 @@
 		// NOTE FOR LATER: write the first set of patches here, then later put into Includes. Have the Include patches with the When condition for the config file.
 		// Plans Ahead: 1, 3, 7 days
 		// 'May' Plan Ahead: 1, Draylon Edition, and up to 7 days in advance. Idk how the random portion will work
-		// Last Day of Spring, Summer Seeds
+		// End of Spring, Summer Seeds
 		{
 			"LogName": "Pierre Plans Ahead - Red Cabbage in Spring",
 			"Action": "EditData",
@@ -17,103 +17,130 @@
 				"{{ModID}}_RedCabbageSeeds": {
 					"Id": "{{ModID}}_RedCabbageSeeds",
 					"ItemId": "(O)476",
-					"Price": 50,
+					"Price": 100,
 					"Condition": "YEAR 2, SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available after year 2 AND it's spring 28 AND player doesn't have the PierreStocklist flag
 				}
 			},
 			"MoveEntries": [
 				{
-					"ID": "{{ModID}}_GarlicSeeds",
+					"ID": "{{ModID}}_RedCabbageSeeds",
 					"ToPosition": "Top"
-				},
-				{
-					"ID": "{{ModID}}_RiceShoot",
-					"ToPosition": "Top"
-				},
-			],
+				}
+			]
 		},
 		{
-			"LogName": "Joja Always Has Seeds - Year 1 Spring",
+			"LogName": "Pierre Plans Ahead - Year 1 Summer Seeds in Spring",
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
-				"Joja",
+				"SeedShop",
 				"Items"
 			],
 			"Entries": {
-				"{{ModID}}_JazzSeeds": {
-					"Id": "{{ModID}}_JazzSeeds",
-					"ItemId": "(O)429",
-					"Price": 37,
-					"Condition": "SEASON Summer Fall Winter" // available when it's not spring, because vanilla Joja already offers it in spring
-				},
-				"{{ModID}}_TulipBulb": {
-					"Id": "{{ModID}}_TulipBulb",
-					"ItemId": "(O)427",
-					"Price": 25,
-					"Condition": "SEASON Summer Fall Winter" // available when it's not spring, because vanilla Joja already offers it in spring
-				},
-				"{{ModID}}_CauliflowerSeeds": {
-					"Id": "{{ModID}}_CauliflowerSeeds",
-					"ItemId": "(O)474",
+				"{{ModID}}_PoppySeeds": {
+					"Id": "{{ModID}}_PoppySeeds",
+					"ItemId": "(O)453",
 					"Price": 100,
-					"Condition": "SEASON Summer Fall Winter" // available when it's not spring, because vanilla Joja already offers it in spring
+					"Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available on spring 28 AND player doesn't have the PierreStocklist flag
 				},
-				"{{ModID}}_BeanStarter": {
-					"Id": "{{ModID}}_BeanStarter",
-					"ItemId": "(O)473",
-					"Price": 75,
-					"Condition": "SEASON Summer Fall Winter" // available when it's not spring, because vanilla Joja already offers it in spring
+				"{{ModID}}_SpangleSeeds": {
+					"Id": "{{ModID}}_SpangleSeeds",
+					"ItemId": "(O)455",
+					"Price": 50,
+					"Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available on spring 28 AND player doesn't have the PierreStocklist flag
 				},
-				"{{ModID}}_KaleSeeds": {
-					"Id": "{{ModID}}_KaleSeeds",
-					"ItemId": "(O)477",
-					"Price": 87,
-					"Condition": "SEASON Summer Fall Winter" // available when it's not spring, because vanilla Joja already offers it in spring
+				"{{ModID}}_SunflowerSeeds": {
+					"Id": "{{ModID}}_SunflowerSeeds",
+					"ItemId": "(O)431",
+					"Price": 200,
+					"Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available on spring 28 AND player doesn't have the PierreStocklist flag
 				},
-				"{{ModID}}_ParsnipSeeds": {
-					"Id": "{{ModID}}_ParsnipSeeds",
-					"ItemId": "(O)472",
-					"Price": 25,
-					"Condition": "SEASON Summer Fall Winter" // available when it's not spring, because vanilla Joja already offers it in spring
+				"{{ModID}}_MelonSeeds": {
+					"Id": "{{ModID}}_MelonSeeds",
+					"ItemId": "(O)479",
+					"Price": 80,
+					"Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available on spring 28 AND player doesn't have the PierreStocklist flag
 				},
-				"{{ModID}}_PotatoSeeds": {
-					"Id": "{{ModID}}_PotatoSeeds",
-					"ItemId": "(O)475",
-					"Price": 62,
-					"Condition": "SEASON Summer Fall Winter" // available when it's not spring, because vanilla Joja already offers it in spring
+				"{{ModID}}_CornSeeds": {
+					"Id": "{{ModID}}_CornSeeds",
+					"ItemId": "(O)487",
+					"Price": 150,
+					"Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available on spring 28 AND player doesn't have the PierreStocklist flag
+				},
+				"{{ModID}}_HopsStarter": {
+					"Id": "{{ModID}}_HopsStarter",
+					"ItemId": "(O)302",
+					"Price": 60,
+					"Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available on spring 28 AND player doesn't have the PierreStocklist flag
+				},
+				"{{ModID}}_PepperSeeds": {
+					"Id": "{{ModID}}_PepperSeeds",
+					"ItemId": "(O)482",
+					"Price": 40,
+					"Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available on spring 28 AND player doesn't have the PierreStocklist flag
+				},
+				"{{ModID}}_RadishSeeds": {
+					"Id": "{{ModID}}_RadishSeeds",
+					"ItemId": "(O)484",
+					"Price": 40,
+					"Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available on spring 28 AND player doesn't have the PierreStocklist flag
+				},
+				"{{ModID}}_TomatoSeeds": {
+					"Id": "{{ModID}}_TomatoSeeds",
+					"ItemId": "(O)480",
+					"Price": 50,
+					"Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available on spring 28 AND player doesn't have the PierreStocklist flag
+				},
+				"{{ModID}}_WheatSeeds": {
+					"Id": "{{ModID}}_WheatSeeds",
+					"ItemId": "(O)483",
+					"Price": 10,
+					"Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available on spring 28 AND player doesn't have the PierreStocklist flag
 				},
 			},
 			"MoveEntries": [
 				{
-					"ID": "{{ModID}}_JazzSeeds",
+					"ID": "{{ModID}}_PoppySeeds",
 					"ToPosition": "Top"
 				},
 				{
-					"ID": "{{ModID}}_TulipBulb",
+					"ID": "{{ModID}}_SpangleSeeds",
 					"ToPosition": "Top"
 				},
 				{
-					"ID": "{{ModID}}_CauliflowerSeeds",
+					"ID": "{{ModID}}_SunflowerSeeds",
 					"ToPosition": "Top"
 				},
 				{
-					"ID": "{{ModID}}_BeanStarter",
+					"ID": "{{ModID}}_MelonSeeds",
 					"ToPosition": "Top"
 				},
 				{
-					"ID": "{{ModID}}_KaleSeeds",
+					"ID": "{{ModID}}_CornSeeds",
 					"ToPosition": "Top"
 				},
 				{
-					"ID": "{{ModID}}_ParsnipSeeds",
+					"ID": "{{ModID}}_HopsStarter",
 					"ToPosition": "Top"
 				},
 				{
-					"ID": "{{ModID}}_PotatoSeeds",
+					"ID": "{{ModID}}_PepperSeeds",
 					"ToPosition": "Top"
 				},
-			],
+				{
+					"ID": "{{ModID}}_RadishSeeds",
+					"ToPosition": "Top"
+				},
+				{
+					"ID": "{{ModID}}_TomatoSeeds",
+					"ToPosition": "Top"
+				},
+				{
+					"ID": "{{ModID}}_WheatSeeds",
+					"ToPosition": "Top"
+				}
+			]
 		},
+		// End of Summer, Fall Seeds
 	]
 }
