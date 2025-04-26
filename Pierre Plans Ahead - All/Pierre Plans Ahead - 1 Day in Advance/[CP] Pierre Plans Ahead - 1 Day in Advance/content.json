@@ -258,5 +258,122 @@
 				}
 			],
 		},
+		// End of Winter, Spring Seeds
+		{
+			"LogName": "Pierre Plans Ahead - Garlic and Rice in Winter",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"Entries": {
+				"{{ModID}}_GarlicSeeds": {
+					"Id": "{{ModID}}_GarlicSeeds",
+					"ItemId": "(O)476",
+					"Price": 40,
+					"Condition": "YEAR 2, SEASON_DAY Winter 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available after year 2 AND it's winter 28 AND player doesn't have the PierreStocklist flag
+				},
+				"{{ModID}}_RiceShoot": {
+					"Id": "{{ModID}}_RiceShoot",
+					"ItemId": "(O)273",
+					"Price": 40,
+					"Condition": "YEAR 2, SEASON_DAY Winter 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available after year 2 AND it's winter 28 AND player doesn't have the PierreStocklist flag
+				},
+			},
+			"MoveEntries": [
+				{
+					"ID": "{{ModID}}_GarlicSeeds",
+					"ToPosition": "Top"
+				},
+				{
+					"ID": "{{ModID}}_RiceShoot",
+					"ToPosition": "Top"
+				},
+			],
+		},
+		{
+			"LogName": "Pierre Plans Ahead - Year 1 Spring Seeds in Winter",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"Entries": {
+				"{{ModID}}_JazzSeeds": {
+					"Id": "{{ModID}}_JazzSeeds",
+					"ItemId": "(O)429",
+					"Price": 30,
+					"Condition": "SEASON_DAY Winter 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available on winter 28 AND player doesn't have the PierreStocklist flag
+				},
+				"{{ModID}}_TulipBulb": {
+					"Id": "{{ModID}}_TulipBulb",
+					"ItemId": "(O)427",
+					"Price": 20,
+					"Condition": "SEASON_DAY Winter 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available on winter 28 AND player doesn't have the PierreStocklist flag
+				},
+				"{{ModID}}_CauliflowerSeeds": {
+					"Id": "{{ModID}}_CauliflowerSeeds",
+					"ItemId": "(O)474",
+					"Price": 80,
+					"Condition": "SEASON_DAY Winter 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available on winter 28 AND player doesn't have the PierreStocklist flag
+				},
+				"{{ModID}}_BeanStarter": {
+					"Id": "{{ModID}}_BeanStarter",
+					"ItemId": "(O)473",
+					"Price": 60,
+					"Condition": "SEASON_DAY Winter 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available on winter 28 AND player doesn't have the PierreStocklist flag
+				},
+				"{{ModID}}_KaleSeeds": {
+					"Id": "{{ModID}}_KaleSeeds",
+					"ItemId": "(O)477",
+					"Price": 70,
+					"Condition": "SEASON_DAY Winter 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available on winter 28 AND player doesn't have the PierreStocklist flag
+				},
+				"{{ModID}}_ParsnipSeeds": {
+					"Id": "{{ModID}}_ParsnipSeeds",
+					"ItemId": "(O)472",
+					"Price": 20,
+					"Condition": "SEASON_DAY Winter 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available on winter 28 AND player doesn't have the PierreStocklist flag
+				},
+				"{{ModID}}_PotatoSeeds": {
+					"Id": "{{ModID}}_PotatoSeeds",
+					"ItemId": "(O)475",
+					"Price": 50,
+					"Condition": "SEASON_DAY Winter 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available on winter 28 AND player doesn't have the PierreStocklist flag
+				},
+			},
+			"MoveEntries": [
+				{
+					"ID": "{{ModID}}_JazzSeeds",
+					"ToPosition": "Top"
+				},
+				{
+					"ID": "{{ModID}}_TulipBulb",
+					"ToPosition": "Top"
+				},
+				{
+					"ID": "{{ModID}}_CauliflowerSeeds",
+					"ToPosition": "Top"
+				},
+				{
+					"ID": "{{ModID}}_BeanStarter",
+					"ToPosition": "Top"
+				},
+				{
+					"ID": "{{ModID}}_KaleSeeds",
+					"ToPosition": "Top"
+				},
+				{
+					"ID": "{{ModID}}_ParsnipSeeds",
+					"ToPosition": "Top"
+				},
+				{
+					"ID": "{{ModID}}_PotatoSeeds",
+					"ToPosition": "Top"
+				},
+			],
+		},
 	]
 }
