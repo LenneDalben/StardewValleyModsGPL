@@ -147,7 +147,7 @@
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
-				"Joja",
+				"SeedShop",
 				"Items"
 			],
 			"Entries": {
@@ -170,57 +170,57 @@
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
-				"Joja",
+				"SeedShop",
 				"Items"
 			],
 			"Entries": {
 				"{{ModID}}_FairySeeds": {
 					"Id": "{{ModID}}_FairySeeds",
 					"ItemId": "(O)425",
-					"Price": 250,
-					"Condition": "!SEASON Fall" // available when it's not fall, because vanilla Joja already offers it in fall
+					"Price": 200,
+					"Condition": "SEASON_DAY Summer 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available on summer 28 AND player doesn't have the PierreStocklist flag
 				},
 				"{{ModID}}_AmaranthSeeds": {
 					"Id": "{{ModID}}_AmaranthSeeds",
 					"ItemId": "(O)299",
-					"Price": 87,
-					"Condition": "!SEASON Fall" // available when it's not fall, because vanilla Joja already offers it in fall
+					"Price": 70,
+					"Condition": "SEASON_DAY Summer 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available on summer 28 AND player doesn't have the PierreStocklist flag
 				},
 				"{{ModID}}_BokChoySeeds": {
 					"Id": "{{ModID}}_BokChoySeeds",
 					"ItemId": "(O)491",
-					"Price": 62,
-					"Condition": "!SEASON Fall" // available when it's not fall, because vanilla Joja already offers it in fall
+					"Price": 50,
+					"Condition": "SEASON_DAY Summer 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available on summer 28 AND player doesn't have the PierreStocklist flag
 				},
 				"{{ModID}}_CranberrySeeds": {
 					"Id": "{{ModID}}_CranberrySeeds",
 					"ItemId": "(O)493",
-					"Price": 300,
-					"Condition": "!SEASON Fall" // available when it's not fall, because vanilla Joja already offers it in fall
+					"Price": 240,
+					"Condition": "SEASON_DAY Summer 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available on summer 28 AND player doesn't have the PierreStocklist flag
 				},
 				"{{ModID}}_EggplantSeeds": {
 					"Id": "{{ModID}}_EggplantSeeds",
 					"ItemId": "(O)488",
-					"Price": 25,
-					"Condition": "!SEASON Fall" // available when it's not fall, because vanilla Joja already offers it in fall
+					"Price": 20,
+					"Condition": "SEASON_DAY Summer 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available on summer 28 AND player doesn't have the PierreStocklist flag
 				},
 				"{{ModID}}_GrapeStarter": {
 					"Id": "{{ModID}}_GrapeStarter",
 					"ItemId": "(O)301",
-					"Price": 75,
-					"Condition": "!SEASON Fall" // available when it's not fall, because vanilla Joja already offers it in fall
+					"Price": 60,
+					"Condition": "SEASON_DAY Summer 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available on summer 28 AND player doesn't have the PierreStocklist flag
 				},
 				"{{ModID}}_YamSeeds": {
 					"Id": "{{ModID}}_YamSeeds",
 					"ItemId": "(O)492",
-					"Price": 75,
-					"Condition": "!SEASON Fall" // available when it's not fall, because vanilla Joja already offers it in fall
+					"Price": 60,
+					"Condition": "SEASON_DAY Summer 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available on summer 28 AND player doesn't have the PierreStocklist flag
 				},
 				"{{ModID}}_PumpkinSeeds": {
 					"Id": "{{ModID}}_PumpkinSeeds",
 					"ItemId": "(O)490",
-					"Price": 125,
-					"Condition": "!SEASON Fall" // available when it's not fall, because vanilla Joja already offers it in fall
+					"Price": 100,
+					"Condition": "SEASON_DAY Summer 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available on summer 28 AND player doesn't have the PierreStocklist flag
 				}
 			},
 			"MoveEntries": [
