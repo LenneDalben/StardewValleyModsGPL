@@ -128,7 +128,7 @@
 				"Items"
 			],
 			"Entries": {
-				"{{ModID}}_GarlicSeeds": {
+				"{{ModID}}_RedCabbageSeeds": {
 					"Id": "{{ModID}}_RedCabbageSeeds",
 					"ItemId": "(O)485",
 					"Price": 100,
