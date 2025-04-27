@@ -6,7 +6,7 @@
             "Action": "EditData",
             "Target": "Data/mail",
             "Entries": {
-                "{{ModID}}_Letter": "{{i18n:MaybeSevenDaysAhead.{{Season}}Letter.Text}} [#]{{i18n:PPA.Letter.Title}}"
+                "{{ModID}}_Letter": "{{i18n:MaybeSevenDaysAhead.{{Season}}Letter.Text}} [#]{{i18n:PMPA.Letter.Title}}"
             }
         },
         /*Letter Trigger Action*/ {
