@@ -1,5 +1,6 @@
 {
 	"Format": "2.6.0",
+	// Instead of having the fake event, we can do the trigger actions instead YAY
 	"ConfigSchema": {
 		"DaysTalkingAboutEvent": {
 			"Description": "By default, after the dream event, the villagers will talk about it for 4 days. If you'd like to reduce how long people talk about the event for, or make them talk about it even longer, you can! You can select a number between 1 day and 28 days for the days people will talk about the event.",
