@@ -2,11 +2,27 @@
     "Changes": [
         // Planning Ahead 1 Day
         /*Letter*/ {
-            "LogName": "Pierre Plans Ahead 1 Day - Letter",
+            "LogName": "Pierre Plans Ahead 1 Day - Letter Content",
             "Action": "EditData",
             "Target": "Data/mail",
             "Entries": {
                 "{{ModID}}_Letter": "{{PPALetterText}} [#]{{i18n:PPA.Letter.Title}}"
+            }
+        },
+        /*Letter Trigger Action - 26 and 22 for the other 2 days*/ {
+            "LogName": "Pierre Plans Ahead 1 Day - Letter Text",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_LetterTrigger": {
+                    "Id": "{{ModId}}_LetterTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "DAY_OF_MONTH 28, !PLAYER_HAS_MAIL PierreStocklist Received",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_Letter"
+                    ],
+                    "MarkActionApplied": false // this is the part that makes it repeat WOOT WOOT THANK YOU AIRYN
+                }
             }
         },
         // End of Spring, Summer Seeds
