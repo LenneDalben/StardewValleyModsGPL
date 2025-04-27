@@ -1,5 +1,6 @@
 {
 	"Format": "2.6.0",
+	// NOTE FOR MOD DESCRIPTION: Call out the 1.6 update requires deleting the old folder, and then installing the new folder.
 	"Changes": [
 		// Spring seeds offered all year round
 		{
