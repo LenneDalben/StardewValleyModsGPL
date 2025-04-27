@@ -6,7 +6,7 @@
             "Action": "EditData",
             "Target": "Data/mail",
             "Entries": {
-                "{{ModID}}_Letter": "{{PPALetterText}} [#]{{i18n:PPA.Letter.Title}}"
+                "{{ModID}}_Letter": "{{i18n:OneDayAhead.{{Season}}Letter.Text}} [#]{{i18n:PPA.Letter.Title}}"
             }
         },
         /*Letter Trigger Action - 26 and 22 for the other 2 days*/ {
@@ -19,7 +19,7 @@
                     "Trigger": "DayStarted",
                     "Condition": "DAY_OF_MONTH 28, !PLAYER_HAS_MAIL PierreStocklist Received",
                     "Actions": [
-                        "AddMail Current {{ModID}}_Letter"
+                        "AddMail Current {{ModID}}_Letter Now"
                     ],
                     "MarkActionApplied": false // this is the part that makes it repeat WOOT WOOT THANK YOU AIRYN
                 }

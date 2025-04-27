@@ -10,30 +10,6 @@
 		}
 	},
 	"DynamicTokens": [
-		/*1 Day Ahead Letter - Spring*/ {
-			"Name": "PPALetterText",
-			"Value": "{{i18n:OneDayAhead.SpringLetter.Text}}",
-			"When": {
-				"Season": "Spring",
-				"NumberOfDaysAhead": "1"
-			}
-		},
-		/*1 Day Ahead Letter - Summer*/ {
-			"Name": "PPALetterText",
-			"Value": "{{i18n:OneDayAhead.SummerLetter.Text}}",
-			"When": {
-				"Season": "Summer",
-				"NumberOfDaysAhead": "1"
-			}
-		},
-		/*1 Day Ahead Letter - Winter*/ {
-			"Name": "PPALetterText",
-			"Value": "{{i18n:OneDayAhead.WinterLetter.Text}}",
-			"When": {
-				"Season": "Winter",
-				"NumberOfDaysAhead": "1"
-			}
-		},
 		/*3 Days Ahead Letter - Spring*/ {
 			"Name": "PPALetterText",
 			"Value": "{{i18n:ThreeDaysAhead.SpringLetter.Text}}",
