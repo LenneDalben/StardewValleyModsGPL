@@ -1,0 +1,13 @@
+{
+  "Name": "[CP] Pierre Plans Ahead",
+  "Author": "LenneDalben",
+  "Version": "2.0.0",
+  "Description": "Pierre sells the next season's seeds in advance.",
+  "UniqueID": "LenneDalben.PierrePlansAhead",
+  "MinimumApiVersion": "4.2.1",
+  "UpdateKeys": [ "ModDrop:1036738" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "2.6.0"
+  }
+}
