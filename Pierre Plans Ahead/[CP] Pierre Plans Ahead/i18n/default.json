@@ -31,5 +31,9 @@
 		// Maybe 1 day ahead
 		"MaybeOneDayAhead.springLetter.Text": "Hey @,^^I have a new deal with my suppliers this month, so if I'm lucky, they might deliver the summer seeds a day early! Isn't that great?^^Come on down the shop tomorrow to check, so you can plan ahead!^^-Pierre",
 		"MaybeOneDayAhead.summerLetter.Text": "Hey @,^^I have a new deal with my suppliers this month, so if I'm lucky, they might deliver the fall seeds a day early! Isn't that great?^^Come on down the shop tomorrow to check, so you can plan ahead!^^-Pierre",
-		"MaybeOneDayAhead.winterLetter.Text": "Hey @,^^I have a new deal with my suppliers this month, so if I'm lucky, they might deliver the spring seeds a day early! Isn't that great?^^Come on down the shop tomorrow to check, so you can plan ahead!^^-Pierre"
+		"MaybeOneDayAhead.winterLetter.Text": "Hey @,^^I have a new deal with my suppliers this month, so if I'm lucky, they might deliver the spring seeds a day early! Isn't that great?^^Come on down the shop tomorrow to check, so you can plan ahead!^^-Pierre",
+		// Maybe 7 days ahead
+		"MaybeSevenDaysAhead.springLetter.Text": "Hey @,^^I have a new deal with my suppliers this month, so if I'm lucky, they might deliver the summer seeds up to a week early! Isn't that great?^^Come on down the shop this week to check, so you can plan ahead!^^-Pierre",
+		"MaybeSevenDaysAhead.summerLetter.Text": "Hey @,^^I have a new deal with my suppliers this month, so if I'm lucky, they might deliver the fall seeds up to a week early! Isn't that great?^^Come on down the shop this week to check, so you can plan ahead!^^-Pierre",
+		"MaybeSevenDaysAhead.winterLetter.Text": "Hey @,^^I have a new deal with my suppliers this month, so if I'm lucky, they might deliver the spring seeds up to a week early! Isn't that great?^^Come on down the shop this week to check, so you can plan ahead!^^-Pierre"
 	}
