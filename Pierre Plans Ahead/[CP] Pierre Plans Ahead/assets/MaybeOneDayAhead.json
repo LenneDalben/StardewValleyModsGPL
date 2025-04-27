@@ -111,12 +111,6 @@
                     "ItemId": "(O)480",
                     "Price": 50,
                     "Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on spring 28 AND player doesn't have the PierreStocklist flag
-                },
-                "{{ModID}}_WheatSeeds": {
-                    "Id": "{{ModID}}_WheatSeeds",
-                    "ItemId": "(O)483",
-                    "Price": 10,
-                    "Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on spring 28 AND player doesn't have the PierreStocklist flag
                 }
             },
             "MoveEntries": [
@@ -154,10 +148,6 @@
                 },
                 {
                     "ID": "{{ModID}}_TomatoSeeds",
-                    "ToPosition": "Top"
-                },
-                {
-                    "ID": "{{ModID}}_WheatSeeds",
                     "ToPosition": "Top"
                 }
             ]

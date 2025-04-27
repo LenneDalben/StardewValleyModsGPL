@@ -111,12 +111,6 @@
                     "ItemId": "(O)480",
                     "Price": 50,
                     "Condition": "DATE_RANGE Spring 26 1 Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available if it's between spring 26-28 AND player doesn't have the PierreStocklist flag
-                },
-                "{{ModID}}_WheatSeeds": {
-                    "Id": "{{ModID}}_WheatSeeds",
-                    "ItemId": "(O)483",
-                    "Price": 10,
-                    "Condition": "DATE_RANGE Spring 26 1 Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available if it's between spring 26-28 AND player doesn't have the PierreStocklist flag
                 }
             },
             "MoveEntries": [
@@ -154,10 +148,6 @@
                 },
                 {
                     "ID": "{{ModID}}_TomatoSeeds",
-                    "ToPosition": "Top"
-                },
-                {
-                    "ID": "{{ModID}}_WheatSeeds",
                     "ToPosition": "Top"
                 }
             ]
