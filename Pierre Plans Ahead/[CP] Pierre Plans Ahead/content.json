@@ -9,6 +9,16 @@
 			"AllowMultiple": false
 		}
 	},
+	"DynamicTokens": [
+		// May Plan 7 Days Ahead Random Date Range Selection
+		/*Doesn't add skip button to the beginning of events when Skippable config is false*/ {
+			"Name": "Maybe7Token",
+			"Value": "{{Random: DATE_RANGE Spring 22 1 Spring 28, DATE_RANGE Spring 26 1 Spring 28, SEASON_DAY Spring 28}}",
+			// DATE_RANGE Spring 22 1 Spring 28
+			// DATE_RANGE Spring 26 1 Spring 28
+			// SEASON_DAY Spring 28
+		},
+	],
 	"Changes": [
 		// 'May' Plan Ahead: 1, Draylon Edition, and up to 7 days in advance. Idk how the random portion will work
 		/*Include 1 Day Ahead*/ {
