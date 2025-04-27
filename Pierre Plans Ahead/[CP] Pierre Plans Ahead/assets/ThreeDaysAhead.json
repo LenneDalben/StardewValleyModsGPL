@@ -1,6 +1,30 @@
 {
     "Changes": [
         // Planning Ahead 3 Days
+        /*Letter*/ {
+            "LogName": "Pierre Plans Ahead 3 Days - Letter Content",
+            "Action": "EditData",
+            "Target": "Data/mail",
+            "Entries": {
+                "{{ModID}}_Letter": "{{i18n:ThreeDaysAhead.{{Season}}Letter.Text}} [#]{{i18n:PPA.Letter.Title}}"
+            }
+        },
+        /*Letter Trigger Action*/ {
+            "LogName": "Pierre Plans Ahead 3 Days - Letter Text",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_LetterTrigger": {
+                    "Id": "{{ModId}}_LetterTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "DAY_OF_MONTH 26, !SEASON Fall, !PLAYER_HAS_MAIL PierreStocklist Received",
+                    "Actions": [
+                        "AddMail Current {{ModID}}_Letter Now"
+                    ],
+                    "MarkActionApplied": false // this is the part that makes it repeat WOOT WOOT THANK YOU AIRYN
+                }
+            }
+        },
         // End of Spring, Summer Seeds
         /*Red cabbage*/ {
             "LogName": "Pierre Plans Ahead - Red Cabbage in Spring",
