@@ -1,6 +1,14 @@
 {
     "Changes": [
         // Planning Ahead 1 Day
+        /*Letter*/ {
+            "LogName": "Pierre Plans Ahead 1 Day - Letter",
+            "Action": "EditData",
+            "Target": "Data/mail",
+            "Entries": {
+                "{{ModID}}_Letter": "{{PPALetterText}} [#]{{i18n:PPAlettertitle}}"
+            }
+        },
         // End of Spring, Summer Seeds
         /*Red cabbage*/ {
             "LogName": "Pierre Plans Ahead - Red Cabbage in Spring",

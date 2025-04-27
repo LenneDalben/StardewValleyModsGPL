@@ -9,6 +9,32 @@
 			"AllowMultiple": false
 		}
 	},
+	"DynamicTokens": [
+		/*1 Day Ahead Letter - Spring*/ {
+			"Name": "PPALetterText",
+			"Value": "{{i18n:onedayaheadspringletter.text}}",
+			"When": {
+				"Season": "Spring",
+				"NumberOfDaysAhead": "1"
+			}
+		},
+		/*1 Day Ahead Letter - Summer*/ {
+			"Name": "PPALetterText",
+			"Value": "{{i18n:onedayaheadsummerletter.text}}",
+			"When": {
+				"Season": "Summer",
+				"NumberOfDaysAhead": "1"
+			}
+		},
+		/*1 Day Ahead Letter - Winter*/ {
+			"Name": "PPALetterText",
+			"Value": "{{i18n:onedayaheadwinterletter.text}}",
+			"When": {
+				"Season": "Winter",
+				"NumberOfDaysAhead": "1"
+			}
+		},
+	],
 	"Changes": [
 		// 'May' Plan Ahead: 1, Draylon Edition, and up to 7 days in advance. Idk how the random portion will work
 		/*Include 1 Day Ahead*/ {

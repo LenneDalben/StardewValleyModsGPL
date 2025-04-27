@@ -1,7 +1,7 @@
 	{
 		// ***Config Options***
 		//
-		// Minimum Days Between Lessons
+		// Number of Days Ahead
 		"config.NumberOfDaysAhead.name": "NumberOfDaysAhead",
 		"config.NumberOfDaysAhead.description": "For guaranteed Pierre planning, choose between 1 (default), 3, or 7 days. For random Pierre 'maybe' planning, choose between Maybe1, Maybe7, or Draylon.",
 		"config.NumberOfDaysAhead.values.1": "1",
@@ -10,8 +10,11 @@
 		"config.NumberOfDaysAhead.values.Maybe1": "Maybe1",
 		"config.NumberOfDaysAhead.values.Maybe7": "Maybe7",
 		"config.NumberOfDaysAhead.values.Draylon": "Draylon",
-		// Letters for 1 day in advance
-		"pierreplansaheadspringletter.text": "Hey @,^^I have a special offer: I managed to get the summer seeds a day in advance! Isn't that great?^^Come on down today, plan ahead!^^-Pierre",
-		"pierreplansaheadsummerletter.text": "Hey @,^^I have a special offer: I managed to get the fall seeds a day in advance! Isn't that great?^^Come on down today, plan ahead!^^-Pierre",
-		"pierreplansaheadwinterletter.text": "Hey @,^^I have a special offer: I managed to get the spring seeds a day in advance! Isn't that great?^^Come on down today, plan ahead!^^-Pierre"
+		// Letters for guaranteed seeds
+		"PPAlettertitle": "Pierre Plans Ahead",
+		"onedayaheadspringletter.text": "Hey @,^^I have a special offer: I managed to get the summer seeds a day in advance! Isn't that great?^^Come on down today, plan ahead!^^-Pierre",
+		"onedayaheadsummerletter.text": "Hey @,^^I have a special offer: I managed to get the fall seeds a day in advance! Isn't that great?^^Come on down today, plan ahead!^^-Pierre",
+		"onedayaheadwinterletter.text": "Hey @,^^I have a special offer: I managed to get the spring seeds a day in advance! Isn't that great?^^Come on down today, plan ahead!^^-Pierre",
+		// letters for random chance seeds
+		"PMPAlettertitle": "Pierre May Plan Ahead"
 	}
