@@ -2,7 +2,7 @@
 	"Format": "2.6.0",
 	"Changes": [
 		// Artisan Equipment at Clint's
-		{
+		/*Lightning rod*/ {
 			"LogName": "Artisan Equipment - Lightning Rod at Clint's",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -26,7 +26,7 @@
 				}
 			],
 		},
-		{
+		/*Furnace*/ {
 			"LogName": "Artisan Equipment - Furnace at Clint's",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -50,7 +50,7 @@
 				}
 			],
 		},
-		{
+		/*Geode Crusher*/ {
 			"LogName": "Artisan Equipment - Geode Crusher at Clint's",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -74,7 +74,7 @@
 				}
 			],
 		},
-		{
+		/*Charcoal Kiln*/ {
 			"LogName": "Artisan Equipment - Charcoal Kiln at Clint's",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -98,7 +98,7 @@
 				}
 			],
 		},
-		{
+		/*Heavy Furnace*/ {
 			"LogName": "Artisan Equipment - Heavy Furnace at Clint's",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -123,7 +123,7 @@
 			],
 		},
 		// Artisan Equipment at Dwarf's
-		{
+		/*Crystalarium*/ {
 			"LogName": "Artisan Equipment - Crystalarium at Dwarf's",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -148,7 +148,7 @@
 			],
 		},
 		// Artisan Equipment at Krobus'
-		{
+		/*Bee House*/ {
 			"LogName": "Artisan Equipment - Bee House at Krobus's",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -175,7 +175,7 @@
 		// Artisan Equipment at Marlon's
 		// Block for Yoshimax's Befriend Marlon or YWolf's Make Marlon Real
 		// NEED TO TEST WITH THOSE MODS
-		{
+		/*Bone Mill*/ {
 			"LogName": "Artisan Equipment - Bone Mill at Marlon's with friendship",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -199,7 +199,7 @@
 				}
 			],
 		},
-		{
+		/*Slime Egg Press*/ {
 			"LogName": "Artisan Equipment - Slime Egg-Press at Marlon's with friendship",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -223,7 +223,7 @@
 				}
 			],
 		},
-		{
+		/*Slime Incubator*/ {
 			"LogName": "Artisan Equipment - Slime Incubator at Marlon's with friendship",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -248,7 +248,7 @@
 			],
 		},
 		// Marlon block for vanilla (don't have those)
-		{
+		/*Bone Mill*/ {
 			"LogName": "Artisan Equipment - Bone Mill at Marlon's with mine exploration",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -272,7 +272,7 @@
 				}
 			],
 		},
-		{
+		/*Slime Egg Press*/ {
 			"LogName": "Artisan Equipment - Slime Egg-Press at Marlon's with mine exploration",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -296,7 +296,7 @@
 				}
 			],
 		},
-		{
+		/*Slime Incubator*/ {
 			"LogName": "Artisan Equipment - Slime Incubator at Marlon's with mine exploration",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -321,7 +321,7 @@
 			],
 		},
 		// Artisan Equipment at Marnie's
-		{
+		/*Mayonnaise Machine*/ {
 			"LogName": "Artisan Equipment - Mayonnaise Machine at Marnie's",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -345,7 +345,7 @@
 				}
 			],
 		},
-		{
+		/*Cheese Press*/ {
 			"LogName": "Artisan Equipment - Cheese Press at Marnie's",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -369,7 +369,7 @@
 				}
 			],
 		},
-		{
+		/*Loom*/ {
 			"LogName": "Artisan Equipment - Loom at Marnie's",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -393,7 +393,7 @@
 				}
 			],
 		},
-		{
+		/*Ostrich Incubator*/ {
 			"LogName": "Artisan Equipment - Ostrich Incubator at Marnie's",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -418,7 +418,7 @@
 			],
 		},
 		// Artisan Equipment at Pierre's
-		{
+		/*Scarecrow*/ {
 			"LogName": "Artisan Equipment - Scarecrow at Pierre's",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -442,7 +442,7 @@
 				}
 			],
 		},
-		{
+		/*Quality Sprinkler*/ {
 			"LogName": "Artisan Equipment - Quality Sprinkler at Pierre's",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -466,7 +466,7 @@
 				}
 			],
 		},
-		{
+		/*Seed Maker*/ {
 			"LogName": "Artisan Equipment - Seed Maker at Pierre's",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -490,7 +490,7 @@
 				}
 			],
 		},
-		{
+		/*Dehydrator*/ {
 			"LogName": "Artisan Equipment - Dehydrator at Pierre's",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -514,7 +514,7 @@
 				}
 			],
 		},
-		{
+		/*Solar Panel*/ {
 			"LogName": "Artisan Equipment - Solar Panel at Pierre's",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -539,7 +539,7 @@
 			],
 		},
 		// Artisan Equipment at Robin's
-		{
+		/*Preserves Jar*/ {
 			"LogName": "Artisan Equipment - Preserves Jar at Robin's",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -563,7 +563,7 @@
 				}
 			],
 		},
-		{
+		/*Tapper*/ {
 			"LogName": "Artisan Equipment - Tapper at Robin's",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -587,7 +587,7 @@
 				}
 			],
 		},
-		{
+		/*Keg*/ {
 			"LogName": "Artisan Equipment - Keg at Robin's",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -611,7 +611,7 @@
 				}
 			],
 		},
-		{
+		/*Cask*/ {
 			"LogName": "Artisan Equipment - Cask at Robin's",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -635,7 +635,7 @@
 				}
 			],
 		},
-		{
+		/*Heavy Tapper*/ {
 			"LogName": "Artisan Equipment - Heavy Tapper at Robin's",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -659,31 +659,7 @@
 				}
 			],
 		},
-		{
-			"LogName": "Artisan Equipment - Dehydrator at Robin's",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"Carpenter",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_Dehydrator": {
-					"Id": "{{ModID}}_Dehydrator",
-					"ItemId": "(BC)Dehydrator",
-					"Price": 3000,
-					"AvailableStock": 1,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Dehydrator, PLAYER_FRIENDSHIP_POINTS Current Robin 1500" // available on Thursdays if player knows the Dehydrator recipe AND has 6 hearts with Robin
-				}
-			},
-			"MoveEntries": [
-				{
-					"ID": "{{ModID}}_Dehydrator",
-					"ToPosition": "Top"
-				}
-			],
-		},
-		{
+		/*Mushroom Log*/ {
 			"LogName": "Artisan Equipment - Mushroom Log at Robin's",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -708,7 +684,7 @@
 			],
 		},
 		// Artisan Equipment at Sandy's
-		{
+		/*Garden Pot*/ {
 			"LogName": "Artisan Equipment - Garden Pot at Sandy's",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -732,7 +708,7 @@
 				}
 			],
 		},
-		{
+		/*Oil Maker*/ {
 			"LogName": "Artisan Equipment - Oil Maker at Sandy's",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -757,7 +733,7 @@
 			],
 		},
 		// Artisan Equipment at Willy's
-		{
+		/*Recycling Machine*/ {
 			"LogName": "Artisan Equipment - Recycling Machine at Willy's",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -781,7 +757,7 @@
 				}
 			],
 		},
-		{
+		/*Fish Smoker*/ {
 			"LogName": "Artisan Equipment - Fish Smoker at Willy's",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -805,7 +781,7 @@
 				}
 			],
 		},
-		{
+		/*Worm Bin*/ {
 			"LogName": "Artisan Equipment - Worm Bin at Willy's",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -829,7 +805,7 @@
 				}
 			],
 		},
-		{
+		/*Bait Maker*/ {
 			"LogName": "Artisan Equipment - Bait Maker at Willy's",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -853,7 +829,7 @@
 				}
 			],
 		},
-		{
+		/*Deluxe Worm Bin*/ {
 			"LogName": "Artisan Equipment - Deluxe Worm Bin at Willy's",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -866,7 +842,7 @@
 					"Id": "{{ModID}}_DeluxeWormBin",
 					"ItemId": "(BC)DeluxeWormBin",
 					"Price": 10000,
-					"AvailableStock":1,
+					"AvailableStock": 1,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Deluxe Worm Bin, PLAYER_FRIENDSHIP_POINTS Current Willy 2250" // available on Thursdays if player knows the Deluxe Worm Bin recipe AND has 9 hearts with Willy
 				}
 			},
