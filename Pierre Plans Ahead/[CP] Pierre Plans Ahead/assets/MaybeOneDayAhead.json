@@ -27,7 +27,7 @@
         },
         // End of Spring, Summer Seeds
         /*Red cabbage*/ {
-            "LogName": "Pierre Plans Ahead - Red Cabbage in Spring",
+            "LogName": "Pierre May Plan Ahead 1 Day - Red Cabbage in Spring",
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [
@@ -50,7 +50,7 @@
             ]
         },
         /*The other summer seeds*/ {
-            "LogName": "Pierre Plans Ahead - Year 1 Summer Seeds in Spring",
+            "LogName": "Pierre May Plan Ahead 1 Day - Year 1 Summer Seeds in Spring",
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [
@@ -62,61 +62,61 @@
                     "Id": "{{ModID}}_PoppySeeds",
                     "ItemId": "(O)453",
                     "Price": 100,
-                    "Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available on spring 28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available MAYBE on spring 28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_SpangleSeeds": {
                     "Id": "{{ModID}}_SpangleSeeds",
                     "ItemId": "(O)455",
                     "Price": 50,
-                    "Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available on spring 28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available MAYBE on spring 28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_SunflowerSeeds": {
                     "Id": "{{ModID}}_SunflowerSeeds",
                     "ItemId": "(O)431",
                     "Price": 200,
-                    "Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available on spring 28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available MAYBE on spring 28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_MelonSeeds": {
                     "Id": "{{ModID}}_MelonSeeds",
                     "ItemId": "(O)479",
                     "Price": 80,
-                    "Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available on spring 28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available MAYBE on spring 28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_CornSeeds": {
                     "Id": "{{ModID}}_CornSeeds",
                     "ItemId": "(O)487",
                     "Price": 150,
-                    "Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available on spring 28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available MAYBE on spring 28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_HopsStarter": {
                     "Id": "{{ModID}}_HopsStarter",
                     "ItemId": "(O)302",
                     "Price": 60,
-                    "Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available on spring 28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available MAYBE on spring 28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_PepperSeeds": {
                     "Id": "{{ModID}}_PepperSeeds",
                     "ItemId": "(O)482",
                     "Price": 40,
-                    "Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available on spring 28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available MAYBE on spring 28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_RadishSeeds": {
                     "Id": "{{ModID}}_RadishSeeds",
                     "ItemId": "(O)484",
                     "Price": 40,
-                    "Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available on spring 28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available MAYBE on spring 28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_TomatoSeeds": {
                     "Id": "{{ModID}}_TomatoSeeds",
                     "ItemId": "(O)480",
                     "Price": 50,
-                    "Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available on spring 28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available MAYBE on spring 28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_WheatSeeds": {
                     "Id": "{{ModID}}_WheatSeeds",
                     "ItemId": "(O)483",
                     "Price": 10,
-                    "Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available on spring 28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available MAYBE on spring 28 AND player doesn't have the PierreStocklist flag
                 }
             },
             "MoveEntries": [
@@ -164,7 +164,7 @@
         },
         // End of Summer, Fall Seeds
         /*Artichoke*/ {
-            "LogName": "Pierre Plans Ahead - Artichoke in Summer",
+            "LogName": "Pierre May Plan Ahead 1 Day - Artichoke in Summer",
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [
@@ -187,7 +187,7 @@
             ]
         },
         /*The other fall seeds*/ {
-            "LogName": "Pierre Plans Ahead - Year 1 Fall Seeds in Summer",
+            "LogName": "Pierre May Plan Ahead 1 Day - Year 1 Fall Seeds in Summer",
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [
@@ -199,49 +199,49 @@
                     "Id": "{{ModID}}_FairySeeds",
                     "ItemId": "(O)425",
                     "Price": 200,
-                    "Condition": "SEASON_DAY Summer 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available on summer 28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON_DAY Summer 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on summer 28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_AmaranthSeeds": {
                     "Id": "{{ModID}}_AmaranthSeeds",
                     "ItemId": "(O)299",
                     "Price": 70,
-                    "Condition": "SEASON_DAY Summer 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available on summer 28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON_DAY Summer 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on summer 28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_BokChoySeeds": {
                     "Id": "{{ModID}}_BokChoySeeds",
                     "ItemId": "(O)491",
                     "Price": 50,
-                    "Condition": "SEASON_DAY Summer 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available on summer 28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON_DAY Summer 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on summer 28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_CranberrySeeds": {
                     "Id": "{{ModID}}_CranberrySeeds",
                     "ItemId": "(O)493",
                     "Price": 240,
-                    "Condition": "SEASON_DAY Summer 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available on summer 28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON_DAY Summer 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on summer 28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_EggplantSeeds": {
                     "Id": "{{ModID}}_EggplantSeeds",
                     "ItemId": "(O)488",
                     "Price": 20,
-                    "Condition": "SEASON_DAY Summer 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available on summer 28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON_DAY Summer 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on summer 28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_GrapeStarter": {
                     "Id": "{{ModID}}_GrapeStarter",
                     "ItemId": "(O)301",
                     "Price": 60,
-                    "Condition": "SEASON_DAY Summer 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available on summer 28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON_DAY Summer 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on summer 28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_YamSeeds": {
                     "Id": "{{ModID}}_YamSeeds",
                     "ItemId": "(O)492",
                     "Price": 60,
-                    "Condition": "SEASON_DAY Summer 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available on summer 28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON_DAY Summer 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on summer 28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_PumpkinSeeds": {
                     "Id": "{{ModID}}_PumpkinSeeds",
                     "ItemId": "(O)490",
                     "Price": 100,
-                    "Condition": "SEASON_DAY Summer 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available on summer 28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON_DAY Summer 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on summer 28 AND player doesn't have the PierreStocklist flag
                 }
             },
             "MoveEntries": [
@@ -281,7 +281,7 @@
         },
         // End of Winter, Spring Seeds
         /*Rice and garlic*/ {
-            "LogName": "Pierre Plans Ahead - Garlic and Rice in Winter",
+            "LogName": "Pierre May Plan Ahead 1 Day - Garlic and Rice in Winter",
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [
@@ -314,7 +314,7 @@
             ]
         },
         /*The other spring seeds*/ {
-            "LogName": "Pierre Plans Ahead - Year 1 Spring Seeds in Winter",
+            "LogName": "Pierre May Plan Ahead 1 Day - Year 1 Spring Seeds in Winter",
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [
@@ -326,43 +326,43 @@
                     "Id": "{{ModID}}_JazzSeeds",
                     "ItemId": "(O)429",
                     "Price": 30,
-                    "Condition": "SEASON_DAY Winter 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available on winter 28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON_DAY Winter 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on winter 28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_TulipBulb": {
                     "Id": "{{ModID}}_TulipBulb",
                     "ItemId": "(O)427",
                     "Price": 20,
-                    "Condition": "SEASON_DAY Winter 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available on winter 28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON_DAY Winter 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on winter 28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_CauliflowerSeeds": {
                     "Id": "{{ModID}}_CauliflowerSeeds",
                     "ItemId": "(O)474",
                     "Price": 80,
-                    "Condition": "SEASON_DAY Winter 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available on winter 28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON_DAY Winter 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on winter 28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_BeanStarter": {
                     "Id": "{{ModID}}_BeanStarter",
                     "ItemId": "(O)473",
                     "Price": 60,
-                    "Condition": "SEASON_DAY Winter 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available on winter 28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON_DAY Winter 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on winter 28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_KaleSeeds": {
                     "Id": "{{ModID}}_KaleSeeds",
                     "ItemId": "(O)477",
                     "Price": 70,
-                    "Condition": "SEASON_DAY Winter 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available on winter 28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON_DAY Winter 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on winter 28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_ParsnipSeeds": {
                     "Id": "{{ModID}}_ParsnipSeeds",
                     "ItemId": "(O)472",
                     "Price": 20,
-                    "Condition": "SEASON_DAY Winter 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available on winter 28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON_DAY Winter 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on winter 28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_PotatoSeeds": {
                     "Id": "{{ModID}}_PotatoSeeds",
                     "ItemId": "(O)475",
                     "Price": 50,
-                    "Condition": "SEASON_DAY Winter 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available on winter 28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON_DAY Winter 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on winter 28 AND player doesn't have the PierreStocklist flag
                 }
             },
             "MoveEntries": [
