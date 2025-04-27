@@ -29,5 +29,13 @@
 				"NumberOfDaysAhead": "3"
 			}
 		},
+		/*Include 7 Days Ahead*/ {
+			"LogName": "Include Pierre Plans 7 Days Ahead",
+			"Action": "Include",
+			"FromFile": "assets/SevenDaysAhead.json",
+			"When": {
+				"NumberOfDaysAhead": "7"
+			}
+		}
 	]
 }
