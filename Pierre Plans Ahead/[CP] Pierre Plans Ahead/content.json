@@ -61,5 +61,13 @@
 				"NumberOfDaysAhead": "Maybe7"
 			}
 		},
+		/*Include May Plan 7 Days Ahead*/ {
+			"LogName": "Include Pierre May Plan Ahead Draylon Edition",
+			"Action": "Include",
+			"FromFile": "assets/DraylonEdition.json",
+			"When": {
+				"NumberOfDaysAhead": "Draylon"
+			}
+		},
 	]
 }
