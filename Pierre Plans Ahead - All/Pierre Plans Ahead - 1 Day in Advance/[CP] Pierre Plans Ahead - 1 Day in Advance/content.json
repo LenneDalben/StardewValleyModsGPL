@@ -13,12 +13,20 @@
 		// NOTE FOR LATER: write the first set of patches here, then later put into Includes. Have the Include patches with the When condition for the config file.
 		// Plans Ahead: 1, 3, 7 days
 		// 'May' Plan Ahead: 1, Draylon Edition, and up to 7 days in advance. Idk how the random portion will work
-		/*Include*/ {
+		/*Include 1 Day Ahead*/ {
 			"LogName": "Include Pierre Plans 1 Day Ahead",
 			"Action": "Include",
 			"FromFile": "assets/OneDayAhead.json",
 			"When": {
 				"NumberOfDaysAhead": "1"
+			}
+		},
+		/*Include 3 Days Ahead*/ {
+			"LogName": "Include Pierre Plans 3 Days Ahead",
+			"Action": "Include",
+			"FromFile": "assets/ThreeDayAhead.json",
+			"When": {
+				"NumberOfDaysAhead": "3"
 			}
 		},
 	]
