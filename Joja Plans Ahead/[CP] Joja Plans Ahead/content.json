@@ -1,0 +1,63 @@
+{
+	"Format": "2.6.0",
+	// remember to specify in mod description they need to delete old mod folders then edit config (which will generate later). Add blurb about config generating later
+	"ConfigSchema": {
+		"PierreNumberOfDaysAhead": {
+			"Description": "For guaranteed Pierre planning, choose between 1 (default), 3, or 7 days. For random Pierre 'maybe' planning, choose between Maybe1, Maybe7, or Draylon.",
+			"AllowValues": "1, 3, 7, Maybe1, Maybe7, Draylon",
+			"Default": "1",
+			"AllowBlank": false,
+			"AllowMultiple": false
+		}
+	},
+	"Changes": [
+		/*Include 1 Day Ahead*/ {
+			"LogName": "Include Pierre Plans 1 Day Ahead",
+			"Action": "Include",
+			"FromFile": "assets/OneDayAhead.json",
+			"When": {
+				"PierreNumberOfDaysAhead": "1"
+			}
+		},
+		/*Include 3 Days Ahead*/ {
+			"LogName": "Include Pierre Plans 3 Days Ahead",
+			"Action": "Include",
+			"FromFile": "assets/ThreeDaysAhead.json",
+			"When": {
+				"PierreNumberOfDaysAhead": "3"
+			}
+		},
+		/*Include 7 Days Ahead*/ {
+			"LogName": "Include Pierre Plans 7 Days Ahead",
+			"Action": "Include",
+			"FromFile": "assets/SevenDaysAhead.json",
+			"When": {
+				"PierreNumberOfDaysAhead": "7"
+			}
+		},
+		/*Include May Plan 1 Day Ahead*/ {
+			"LogName": "Include Pierre May Plan 1 Day Ahead",
+			"Action": "Include",
+			"FromFile": "assets/MaybeOneDayAhead.json",
+			"When": {
+				"PierreNumberOfDaysAhead": "Maybe1"
+			}
+		},
+		/*Include May Plan 7 Days Ahead*/ {
+			"LogName": "Include Pierre May Plan 7 Days Ahead",
+			"Action": "Include",
+			"FromFile": "assets/MaybeSevenDaysAhead.json",
+			"When": {
+				"PierreNumberOfDaysAhead": "Maybe7"
+			}
+		},
+		/*Include Draylon Edition*/ {
+			"LogName": "Include Pierre May Plan Ahead Draylon Edition",
+			"Action": "Include",
+			"FromFile": "assets/DraylonEdition.json",
+			"When": {
+				"PierreNumberOfDaysAhead": "Draylon"
+			}
+		},
+	]
+}

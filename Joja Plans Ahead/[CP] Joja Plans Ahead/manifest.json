@@ -1,0 +1,13 @@
+{
+  "Name": "[CP] Joja Plans Ahead",
+  "Author": "LenneDalben",
+  "Version": "2.0.0",
+  "Description": "JojaMart sells the next season's seeds in advance.",
+  "UniqueID": "LenneDalben.JojaPlansAhead",
+  "MinimumApiVersion": "4.2.1",
+  "UpdateKeys": [ "ModDrop:1036583" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "2.6.0"
+  }
+}
