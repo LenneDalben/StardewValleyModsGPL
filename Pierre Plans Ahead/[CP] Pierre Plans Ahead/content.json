@@ -43,5 +43,13 @@
 				"NumberOfDaysAhead": "Maybe1"
 			}
 		},
+		/*Include May Plan 7 Days Ahead*/ {
+			"LogName": "Include Pierre May Plan 7 Days Ahead",
+			"Action": "Include",
+			"FromFile": "assets/MaybeSevenDaysAhead.json",
+			"When": {
+				"NumberOfDaysAhead": "Maybe7"
+			}
+		},
 	]
 }
