@@ -27,5 +27,9 @@
 		"SevenDaysAhead.winterLetter.Text": "Hey @,^^I have a special offer: I managed to get the spring seeds 7 days in advance! Isn't that great?^^Come on down starting today, or any time the rest of this week, and plan ahead!^^-Pierre",
 		//
 		// letters for random chance seeds
-		"PMPA.Letter.Title": "Pierre May Plan Ahead"
+		"PMPA.Letter.Title": "Pierre May Plan Ahead",
+		// Maybe 1 day ahead
+		"MaybeOneDayAhead.springLetter.Text": "Hey @,^^I have a new deal with my suppliers this month, so if I'm lucky, they might deliver the summer seeds a day early! Isn't that great?^^Come on down the shop tomorrow to check, so you can plan ahead!^^-Pierre",
+		"MaybeOneDayAhead.summerLetter.Text": "Hey @,^^I have a new deal with my suppliers this month, so if I'm lucky, they might deliver the fall seeds a day early! Isn't that great?^^Come on down the shop tomorrow to check, so you can plan ahead!^^-Pierre",
+		"MaybeOneDayAhead.winterLetter.Text": "Hey @,^^I have a new deal with my suppliers this month, so if I'm lucky, they might deliver the spring seeds a day early! Isn't that great?^^Come on down the shop tomorrow to check, so you can plan ahead!^^-Pierre"
 	}

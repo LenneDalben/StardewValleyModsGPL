@@ -34,6 +34,14 @@
 			"When": {
 				"NumberOfDaysAhead": "7"
 			}
-		}
+		},
+		/*Include May Plan 1 Day Ahead*/ {
+			"LogName": "Include Pierre May Plan 1 Day Ahead",
+			"Action": "Include",
+			"FromFile": "assets/MaybeOneDayAhead.json",
+			"When": {
+				"NumberOfDaysAhead": "Maybe1"
+			}
+		},
 	]
 }
