@@ -24,7 +24,7 @@
 		/*Include 3 Days Ahead*/ {
 			"LogName": "Include Pierre Plans 3 Days Ahead",
 			"Action": "Include",
-			"FromFile": "assets/ThreeDayAhead.json",
+			"FromFile": "assets/ThreeDaysAhead.json",
 			"When": {
 				"NumberOfDaysAhead": "3"
 			}
