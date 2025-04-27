@@ -34,6 +34,54 @@
 				"NumberOfDaysAhead": "1"
 			}
 		},
+		/*3 Days Ahead Letter - Spring*/ {
+			"Name": "PPALetterText",
+			"Value": "{{i18n:ThreeDaysAhead.SpringLetter.Text}}",
+			"When": {
+				"Season": "Spring",
+				"NumberOfDaysAhead": "3"
+			}
+		},
+		/*3 Days Ahead Letter - Summer*/ {
+			"Name": "PPALetterText",
+			"Value": "{{i18n:ThreeDaysAhead.SummerLetter.Text}}",
+			"When": {
+				"Season": "Summer",
+				"NumberOfDaysAhead": "3"
+			}
+		},
+		/*3 Days Ahead Letter - Winter*/ {
+			"Name": "PPALetterText",
+			"Value": "{{i18n:ThreeDaysAhead.WinterLetter.Text}}",
+			"When": {
+				"Season": "Winter",
+				"NumberOfDaysAhead": "3"
+			}
+		},
+		/*7 Days Ahead Letter - Spring*/ {
+			"Name": "PPALetterText",
+			"Value": "{{i18n:SevenDaysAhead.SpringLetter.Text}}",
+			"When": {
+				"Season": "Spring",
+				"NumberOfDaysAhead": "7"
+			}
+		},
+		/*7 Days Ahead Letter - Summer*/ {
+			"Name": "PPALetterText",
+			"Value": "{{i18n:SevenDaysAhead.SummerLetter.Text}}",
+			"When": {
+				"Season": "Summer",
+				"NumberOfDaysAhead": "7"
+			}
+		},
+		/*7 Days Ahead Letter - Winter*/ {
+			"Name": "PPALetterText",
+			"Value": "{{i18n:SevenDaysAhead.WinterLetter.Text}}",
+			"When": {
+				"Season": "Winter",
+				"NumberOfDaysAhead": "7"
+			}
+		},
 	],
 	"Changes": [
 		// 'May' Plan Ahead: 1, Draylon Edition, and up to 7 days in advance. Idk how the random portion will work

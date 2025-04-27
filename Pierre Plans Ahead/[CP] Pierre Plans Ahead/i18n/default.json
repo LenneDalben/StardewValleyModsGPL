@@ -10,11 +10,22 @@
 		"config.NumberOfDaysAhead.values.Maybe1": "Maybe1",
 		"config.NumberOfDaysAhead.values.Maybe7": "Maybe7",
 		"config.NumberOfDaysAhead.values.Draylon": "Draylon",
+		//
 		// Letters for guaranteed seeds
 		"PPA.Letter.Title": "Pierre Plans Ahead",
+		// 1 day ahead
 		"OneDayAhead.SpringLetter.Text": "Hey @,^^I have a special offer: I managed to get the summer seeds a day in advance! Isn't that great?^^Come on down today, plan ahead!^^-Pierre",
 		"OneDayAhead.SummerLetter.Text": "Hey @,^^I have a special offer: I managed to get the fall seeds a day in advance! Isn't that great?^^Come on down today, plan ahead!^^-Pierre",
 		"OneDayAhead.WinterLetter.Text": "Hey @,^^I have a special offer: I managed to get the spring seeds a day in advance! Isn't that great?^^Come on down today, plan ahead!^^-Pierre",
+		// 3 days ahead
+		"ThreeDaysAhead.SpringLetter.Text": "Hey @,^^I have a special offer: I managed to get the summer seeds 3 days in advance! Isn't that great?^^Come on down today, plan ahead! But of course, you can also come tomorrow or on the 28th, the new seeds will still be here!^^-Pierre",
+		"ThreeDaysAhead.SummerLetter.Text": "Hey @,^^I have a special offer: I managed to get the fall seeds 3 days in advance! Isn't that great?^^Come on down today, plan ahead! But of course, you can also come tomorrow or on the 28th, the new seeds will still be here!^^-Pierre",
+		"ThreeDaysAhead.WinterLetter.Text": "Hey @,^^I have a special offer: I managed to get the spring seeds 3 days in advance! Isn't that great?^^Come on down today, plan ahead! But of course, you can also come tomorrow or on the 28th, the new seeds will still be here!^^-Pierre",
+		// 7 days ahead
+		"SevenDaysAhead.SpringLetter.Text": "Hey @,^^I have a special offer: I managed to get the summer seeds 7 days in advance! Isn't that great?^^Come on down starting today, or any time the rest of this week, and plan ahead!^^-Pierre",
+		"SevenDaysAhead.SummerLetter.Text": "Hey @,^^I have a special offer: I managed to get the fall seeds 7 days in advance! Isn't that great?^^Come on down starting today, or any time the rest of this week, and plan ahead!^^-Pierre",
+		"SevenDaysAhead.WinterLetter.Text": "Hey @,^^I have a special offer: I managed to get the spring seeds 7 days in advance! Isn't that great?^^Come on down starting today, or any time the rest of this week, and plan ahead!^^-Pierre",
+		//
 		// letters for random chance seeds
 		"PMPA.Letter.Title": "Pierre May Plan Ahead"
 	}
