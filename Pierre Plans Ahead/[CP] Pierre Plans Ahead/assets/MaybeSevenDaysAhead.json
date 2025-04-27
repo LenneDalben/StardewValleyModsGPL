@@ -62,61 +62,61 @@
                     "Id": "{{ModID}}_PoppySeeds",
                     "ItemId": "(O)453",
                     "Price": 100,
-                    "Condition": "DATE_RANGE Spring 22 1 Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on spring 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "{{Maybe7Token}}, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on spring 22-28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_SpangleSeeds": {
                     "Id": "{{ModID}}_SpangleSeeds",
                     "ItemId": "(O)455",
                     "Price": 50,
-                    "Condition": "DATE_RANGE Spring 22 1 Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on spring 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "{{Maybe7Token}}, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on spring 22-28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_SunflowerSeeds": {
                     "Id": "{{ModID}}_SunflowerSeeds",
                     "ItemId": "(O)431",
                     "Price": 200,
-                    "Condition": "DATE_RANGE Spring 22 1 Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on spring 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "{{Maybe7Token}}, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on spring 22-28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_MelonSeeds": {
                     "Id": "{{ModID}}_MelonSeeds",
                     "ItemId": "(O)479",
                     "Price": 80,
-                    "Condition": "DATE_RANGE Spring 22 1 Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on spring 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "{{Maybe7Token}}, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on spring 22-28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_CornSeeds": {
                     "Id": "{{ModID}}_CornSeeds",
                     "ItemId": "(O)487",
                     "Price": 150,
-                    "Condition": "DATE_RANGE Spring 22 1 Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on spring 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "{{Maybe7Token}}, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on spring 22-28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_HopsStarter": {
                     "Id": "{{ModID}}_HopsStarter",
                     "ItemId": "(O)302",
                     "Price": 60,
-                    "Condition": "DATE_RANGE Spring 22 1 Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on spring 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "{{Maybe7Token}}, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on spring 22-28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_PepperSeeds": {
                     "Id": "{{ModID}}_PepperSeeds",
                     "ItemId": "(O)482",
                     "Price": 40,
-                    "Condition": "DATE_RANGE Spring 22 1 Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on spring 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "{{Maybe7Token}}, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on spring 22-28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_RadishSeeds": {
                     "Id": "{{ModID}}_RadishSeeds",
                     "ItemId": "(O)484",
                     "Price": 40,
-                    "Condition": "DATE_RANGE Spring 22 1 Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on spring 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "{{Maybe7Token}}, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on spring 22-28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_TomatoSeeds": {
                     "Id": "{{ModID}}_TomatoSeeds",
                     "ItemId": "(O)480",
                     "Price": 50,
-                    "Condition": "DATE_RANGE Spring 22 1 Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on spring 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "{{Maybe7Token}}, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on spring 22-28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_WheatSeeds": {
                     "Id": "{{ModID}}_WheatSeeds",
                     "ItemId": "(O)483",
                     "Price": 10,
-                    "Condition": "DATE_RANGE Spring 22 1 Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on spring 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "{{Maybe7Token}}, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on spring 22-28 AND player doesn't have the PierreStocklist flag
                 }
             },
             "MoveEntries": [
