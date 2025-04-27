@@ -9,7 +9,7 @@
                 "{{ModID}}_Letter": "{{i18n:OneDayAhead.{{Season}}Letter.Text}} [#]{{i18n:PPA.Letter.Title}}"
             }
         },
-        /*Letter Trigger Action - 26 and 22 for the other 2 days*/ {
+        /*Letter Trigger Action*/ {
             "LogName": "Pierre Plans Ahead 1 Day - Letter Text",
             "Action": "EditData",
             "Target": "Data/TriggerActions",
