@@ -2,8 +2,8 @@
 	"Format": "2.6.0",
 	"ConfigSchema": {
 		"NumberOfDaysAhead": {
-			"Description": "Choose between Pierre planning ahead by 1 (default), 3, or 7 days.",
-			"AllowValues": "1, 3, 7",
+			"Description": "For guaranteed Pierre planning, choose between 1 (default), 3, or 7 days. For random Pierre 'maybe' planning, choose between Maybe1, Maybe7, or Draylon.",
+			"AllowValues": "1, 3, 7, Maybe1, Maybe7, Draylon",
 			"Default": "1",
 			"AllowBlank": false,
 			"AllowMultiple": false
