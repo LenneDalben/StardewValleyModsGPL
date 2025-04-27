@@ -6,7 +6,7 @@
             "Action": "EditData",
             "Target": "Data/mail",
             "Entries": {
-                "{{ModID}}_Letter": "{{PPALetterText}} [#]{{i18n:PPAlettertitle}}"
+                "{{ModID}}_Letter": "{{PPALetterText}} [#]{{i18n:PPA.Letter.Title}}"
             }
         },
         // End of Spring, Summer Seeds

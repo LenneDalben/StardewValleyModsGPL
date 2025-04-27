@@ -11,10 +11,10 @@
 		"config.NumberOfDaysAhead.values.Maybe7": "Maybe7",
 		"config.NumberOfDaysAhead.values.Draylon": "Draylon",
 		// Letters for guaranteed seeds
-		"PPAlettertitle": "Pierre Plans Ahead",
-		"onedayaheadspringletter.text": "Hey @,^^I have a special offer: I managed to get the summer seeds a day in advance! Isn't that great?^^Come on down today, plan ahead!^^-Pierre",
-		"onedayaheadsummerletter.text": "Hey @,^^I have a special offer: I managed to get the fall seeds a day in advance! Isn't that great?^^Come on down today, plan ahead!^^-Pierre",
-		"onedayaheadwinterletter.text": "Hey @,^^I have a special offer: I managed to get the spring seeds a day in advance! Isn't that great?^^Come on down today, plan ahead!^^-Pierre",
+		"PPA.Letter.Title": "Pierre Plans Ahead",
+		"OneDayAhead.SpringLetter.Text": "Hey @,^^I have a special offer: I managed to get the summer seeds a day in advance! Isn't that great?^^Come on down today, plan ahead!^^-Pierre",
+		"OneDayAhead.SummerLetter.Text": "Hey @,^^I have a special offer: I managed to get the fall seeds a day in advance! Isn't that great?^^Come on down today, plan ahead!^^-Pierre",
+		"OneDayAhead.WinterLetter.Text": "Hey @,^^I have a special offer: I managed to get the spring seeds a day in advance! Isn't that great?^^Come on down today, plan ahead!^^-Pierre",
 		// letters for random chance seeds
-		"PMPAlettertitle": "Pierre May Plan Ahead"
+		"PMPA.Letter.Title": "Pierre May Plan Ahead"
 	}
