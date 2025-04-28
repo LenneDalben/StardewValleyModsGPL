@@ -2,15 +2,15 @@
     "Changes": [
         // May Plan Ahead 1 Day
         /*Letter*/ {
-            "LogName": "Pierre May Plan Ahead 1 Day - Letter Content",
+            "LogName": "Joja May Plan Ahead 1 Day - Letter Content",
             "Action": "EditData",
             "Target": "Data/mail",
             "Entries": {
-                "{{ModID}}_Letter": "{{i18n:MaybeOneDayAhead.{{Season}}Letter.Text}} [#]{{i18n:PMPA.Letter.Title}}"
+                "{{ModID}}_Letter": "{{i18n:JMPA.MaybeOneDayAhead.{{Season}}Letter.Text}} [#]{{i18n:PMPA.Letter.Title}}"
             }
         },
         /*Letter Trigger Action*/ {
-            "LogName": "Pierre May Plan Ahead 1 Day - Letter Text",
+            "LogName": "Joja May Plan Ahead 1 Day - Letter Text",
             "Action": "EditData",
             "Target": "Data/TriggerActions",
             "Entries": {
@@ -27,11 +27,11 @@
         },
         // End of Spring, Summer Seeds
         /*Red cabbage*/ {
-            "LogName": "Pierre May Plan Ahead 1 Day - Red Cabbage in Spring",
+            "LogName": "Joja May Plan Ahead 1 Day - Red Cabbage in Spring",
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [
-                "SeedShop",
+                "Joja",
                 "Items"
             ],
             "Entries": {
@@ -50,66 +50,66 @@
             ]
         },
         /*The other summer seeds*/ {
-            "LogName": "Pierre May Plan Ahead 1 Day - Year 1 Summer Seeds in Spring",
+            "LogName": "Joja May Plan Ahead 1 Day - Year 1 Summer Seeds in Spring",
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [
-                "SeedShop",
+                "Joja",
                 "Items"
             ],
             "Entries": {
                 "{{ModID}}_PoppySeeds": {
                     "Id": "{{ModID}}_PoppySeeds",
                     "ItemId": "(O)453",
-                    "Price": 100,
+                    "Price": 125,
                     "Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on spring 28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_SpangleSeeds": {
                     "Id": "{{ModID}}_SpangleSeeds",
                     "ItemId": "(O)455",
-                    "Price": 50,
+                    "Price": 62,
                     "Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on spring 28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_SunflowerSeeds": {
                     "Id": "{{ModID}}_SunflowerSeeds",
                     "ItemId": "(O)431",
-                    "Price": 200,
+                    "Price": 125,
                     "Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on spring 28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_MelonSeeds": {
                     "Id": "{{ModID}}_MelonSeeds",
                     "ItemId": "(O)479",
-                    "Price": 80,
+                    "Price": 100,
                     "Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on spring 28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_CornSeeds": {
                     "Id": "{{ModID}}_CornSeeds",
                     "ItemId": "(O)487",
-                    "Price": 150,
+                    "Price": 187,
                     "Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on spring 28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_HopsStarter": {
                     "Id": "{{ModID}}_HopsStarter",
                     "ItemId": "(O)302",
-                    "Price": 60,
+                    "Price": 75,
                     "Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on spring 28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_PepperSeeds": {
                     "Id": "{{ModID}}_PepperSeeds",
                     "ItemId": "(O)482",
-                    "Price": 40,
+                    "Price": 50,
                     "Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on spring 28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_RadishSeeds": {
                     "Id": "{{ModID}}_RadishSeeds",
                     "ItemId": "(O)484",
-                    "Price": 40,
+                    "Price": 50,
                     "Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on spring 28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_TomatoSeeds": {
                     "Id": "{{ModID}}_TomatoSeeds",
                     "ItemId": "(O)480",
-                    "Price": 50,
+                    "Price": 62,
                     "Condition": "SEASON_DAY Spring 28, !PLAYER_HAS_MAIL PierreStocklist Received, RANDOM 0.33 @addDailyLuck" // available MAYBE on spring 28 AND player doesn't have the PierreStocklist flag
                 }
             },
@@ -154,11 +154,11 @@
         },
         // End of Summer, Fall Seeds
         /*Artichoke*/ {
-            "LogName": "Pierre May Plan Ahead 1 Day - Artichoke in Summer",
+            "LogName": "Joja May Plan Ahead 1 Day - Artichoke in Summer",
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [
-                "SeedShop",
+                "Joja",
                 "Items"
             ],
             "Entries": {
@@ -177,11 +177,11 @@
             ]
         },
         /*The other fall seeds*/ {
-            "LogName": "Pierre May Plan Ahead 1 Day - Year 1 Fall Seeds in Summer",
+            "LogName": "Joja May Plan Ahead 1 Day - Year 1 Fall Seeds in Summer",
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [
-                "SeedShop",
+                "Joja",
                 "Items"
             ],
             "Entries": {
@@ -271,11 +271,11 @@
         },
         // End of Winter, Spring Seeds
         /*Rice and garlic*/ {
-            "LogName": "Pierre May Plan Ahead 1 Day - Garlic and Rice in Winter",
+            "LogName": "Joja May Plan Ahead 1 Day - Garlic and Rice in Winter",
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [
-                "SeedShop",
+                "Joja",
                 "Items"
             ],
             "Entries": {
@@ -304,11 +304,11 @@
             ]
         },
         /*The other spring seeds*/ {
-            "LogName": "Pierre May Plan Ahead 1 Day - Year 1 Spring Seeds in Winter",
+            "LogName": "Joja May Plan Ahead 1 Day - Year 1 Spring Seeds in Winter",
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [
-                "SeedShop",
+                "Joja",
                 "Items"
             ],
             "Entries": {
