@@ -2,14 +2,14 @@
 		// ***Config Options***
 		//
 		// Number of Days Ahead
-		"config.PierreNumberOfDaysAhead.name": "PierreNumberOfDaysAhead",
-		"config.PierreNumberOfDaysAhead.description": "For guaranteed Pierre planning, choose between 1 (default), 3, or 7 days. For random Pierre 'maybe' planning, choose between Maybe1, Maybe7, or Draylon.",
-		"config.PierreNumberOfDaysAhead.values.1": "1",
-		"config.PierreNumberOfDaysAhead.values.3": "3",
-		"config.PierreNumberOfDaysAhead.values.7": "7",
-		"config.PierreNumberOfDaysAhead.values.Maybe1": "Maybe1",
-		"config.PierreNumberOfDaysAhead.values.Maybe7": "Maybe7",
-		"config.PierreNumberOfDaysAhead.values.Draylon": "Draylon",
+		"config.PPA.NumberOfDaysAhead.name": "PierreNumberOfDaysAhead",
+		"config.PPA.NumberOfDaysAhead.description": "For guaranteed Pierre planning, choose between 1 (default), 3, or 7 days. For random Pierre 'maybe' planning, choose between Maybe1, Maybe7, or Draylon.",
+		"config.PPA.NumberOfDaysAhead.values.1": "1",
+		"config.PPA.NumberOfDaysAhead.values.3": "3",
+		"config.PPA.NumberOfDaysAhead.values.7": "7",
+		"config.PPA.NumberOfDaysAhead.values.Maybe1": "Maybe1",
+		"config.PPA.NumberOfDaysAhead.values.Maybe7": "Maybe7",
+		"config.PPA.NumberOfDaysAhead.values.Draylon": "Draylon",
 		//
 		// Letters for guaranteed seeds
 		"PPA.Letter.Title": "Pierre Plans Ahead",
