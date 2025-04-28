@@ -2,14 +2,14 @@
 		// ***Config Options***
 		//
 		// Number of Days Ahead
-		"config.NumberOfDaysAhead.name": "NumberOfDaysAhead",
-		"config.NumberOfDaysAhead.description": "For guaranteed Joja planning, choose between 1 (default), 3, or 7 days. For random Joja 'maybe' planning, choose between Maybe1, Maybe7, or Draylon.",
-		"config.NumberOfDaysAhead.values.1": "1",
-		"config.NumberOfDaysAhead.values.3": "3",
-		"config.NumberOfDaysAhead.values.7": "7",
-		"config.NumberOfDaysAhead.values.Maybe1": "Maybe1",
-		"config.NumberOfDaysAhead.values.Maybe7": "Maybe7",
-		"config.NumberOfDaysAhead.values.Draylon": "Draylon",
+		"config.JPA.NumberOfDaysAhead.name": "JojaNumberOfDaysAhead",
+		"config.JPA.NumberOfDaysAhead.description": "For guaranteed Joja planning, choose between 1 (default), 3, or 7 days. For random Joja 'maybe' planning, choose between Maybe1, Maybe7, or Draylon.",
+		"config.JPA.NumberOfDaysAhead.values.1": "1",
+		"config.JPA.NumberOfDaysAhead.values.3": "3",
+		"config.JPA.NumberOfDaysAhead.values.7": "7",
+		"config.JPA.NumberOfDaysAhead.values.Maybe1": "Maybe1",
+		"config.JPA.NumberOfDaysAhead.values.Maybe7": "Maybe7",
+		"config.JPA.NumberOfDaysAhead.values.Draylon": "Draylon",
 		//
 		// Letters for guaranteed seeds
 		"JPA.Letter.Title": "Joja Plans Ahead",
