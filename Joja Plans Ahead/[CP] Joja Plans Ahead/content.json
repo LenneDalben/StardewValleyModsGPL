@@ -1,5 +1,6 @@
 {
 	"Format": "2.6.0",
+	// Maybe add prefix to all the synced random keys for P and J so they don't sync up if you have both installed lol
 	// remember to specify in mod description they need to delete old mod folders then edit config (which will generate later). Add blurb about config generating later
 	"ConfigSchema": {
 		"JojaNumberOfDaysAhead": {
