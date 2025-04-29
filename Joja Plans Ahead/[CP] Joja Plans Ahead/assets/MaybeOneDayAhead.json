@@ -6,7 +6,7 @@
             "Action": "EditData",
             "Target": "Data/mail",
             "Entries": {
-                "{{ModID}}_Letter": "{{i18n:JMPA.MaybeOneDayAhead.{{Season}}Letter.Text}} [#]{{i18n:PMPA.Letter.Title}}"
+                "{{ModID}}_Letter": "{{i18n:JMPA.MaybeOneDayAhead.{{Season}}Letter.Text}} [#]{{i18n:JMPA.Letter.Title}}"
             }
         },
         /*Letter Trigger Action*/ {
@@ -17,7 +17,7 @@
                 "{{ModId}}_LetterTrigger": {
                     "Id": "{{ModId}}_LetterTrigger",
                     "Trigger": "DayStarted",
-                    "Condition": "DAY_OF_MONTH 27, !SEASON Fall, !PLAYER_HAS_MAIL PierreStocklist Received",
+                    "Condition": "DAY_OF_MONTH 27, !SEASON Fall",
                     "Actions": [
                         "AddMail Current {{ModID}}_Letter Now"
                     ],

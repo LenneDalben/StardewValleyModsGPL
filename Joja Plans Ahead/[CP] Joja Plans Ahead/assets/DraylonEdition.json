@@ -6,7 +6,7 @@
             "Action": "EditData",
             "Target": "Data/mail",
             "Entries": {
-                "{{ModID}}_Letter": "{{i18n:JMPA.DraylonEdition.{{Season}}Letter.Text}} [#]{{i18n:PMPA.Letter.Title}}"
+                "{{ModID}}_Letter": "{{i18n:JMPA.DraylonEdition.{{Season}}Letter.Text}} [#]{{i18n:JMPA.Letter.Title}}"
             }
         },
         /*Letter Trigger Action*/ {
