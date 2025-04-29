@@ -39,7 +39,7 @@
                     "Id": "{{ModID}}_RedCabbageSeeds",
                     "ItemId": "(O)476",
                     "Price": 100,
-                    "Condition": "YEAR 2, SEASON Spring, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season RedCabbage 0.33 @addDailyLuck" // available after year 2 AND MAYBE between spring 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "YEAR 2, SEASON Spring, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season PMPARedCabbage 0.33 @addDailyLuck" // available after year 2 AND MAYBE between spring 22-28 AND player doesn't have the PierreStocklist flag
                 }
             },
             "MoveEntries": [
@@ -62,55 +62,55 @@
                     "Id": "{{ModID}}_PoppySeeds",
                     "ItemId": "(O)453",
                     "Price": 100,
-                    "Condition": "SEASON Spring, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season Poppy 0.33 @addDailyLuck" // available MAYBE between spring 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON Spring, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season PMPAPoppy 0.33 @addDailyLuck" // available MAYBE between spring 22-28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_SpangleSeeds": {
                     "Id": "{{ModID}}_SpangleSeeds",
                     "ItemId": "(O)455",
                     "Price": 50,
-                    "Condition": "SEASON Spring, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season Spangle 0.33 @addDailyLuck" // available MAYBE between spring 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON Spring, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season PMPASpangle 0.33 @addDailyLuck" // available MAYBE between spring 22-28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_SunflowerSeeds": {
                     "Id": "{{ModID}}_SunflowerSeeds",
                     "ItemId": "(O)431",
                     "Price": 200,
-                    "Condition": "SEASON Spring, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season Sunflower 0.33 @addDailyLuck" // available MAYBE between spring 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON Spring, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season PMPASunflower 0.33 @addDailyLuck" // available MAYBE between spring 22-28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_MelonSeeds": {
                     "Id": "{{ModID}}_MelonSeeds",
                     "ItemId": "(O)479",
                     "Price": 80,
-                    "Condition": "SEASON Spring, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season Melon 0.33 @addDailyLuck" // available MAYBE between spring 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON Spring, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season PMPAMelon 0.33 @addDailyLuck" // available MAYBE between spring 22-28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_CornSeeds": {
                     "Id": "{{ModID}}_CornSeeds",
                     "ItemId": "(O)487",
                     "Price": 150,
-                    "Condition": "SEASON Spring, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season Corn 0.33 @addDailyLuck" // available MAYBE between spring 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON Spring, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season PMPACorn 0.33 @addDailyLuck" // available MAYBE between spring 22-28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_HopsStarter": {
                     "Id": "{{ModID}}_HopsStarter",
                     "ItemId": "(O)302",
                     "Price": 60,
-                    "Condition": "SEASON Spring, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season Hops 0.33 @addDailyLuck" // available MAYBE between spring 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON Spring, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season PMPAHops 0.33 @addDailyLuck" // available MAYBE between spring 22-28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_PepperSeeds": {
                     "Id": "{{ModID}}_PepperSeeds",
                     "ItemId": "(O)482",
                     "Price": 40,
-                    "Condition": "SEASON Spring, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season Pepper 0.33 @addDailyLuck" // available MAYBE between spring 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON Spring, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season PMPAPepper 0.33 @addDailyLuck" // available MAYBE between spring 22-28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_RadishSeeds": {
                     "Id": "{{ModID}}_RadishSeeds",
                     "ItemId": "(O)484",
                     "Price": 40,
-                    "Condition": "SEASON Spring, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season Radish 0.33 @addDailyLuck" // available MAYBE between spring 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON Spring, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season PMPARadish 0.33 @addDailyLuck" // available MAYBE between spring 22-28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_TomatoSeeds": {
                     "Id": "{{ModID}}_TomatoSeeds",
                     "ItemId": "(O)480",
                     "Price": 50,
-                    "Condition": "SEASON Spring, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season Tomato 0.33 @addDailyLuck" // available MAYBE between spring 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON Spring, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season PMPATomato 0.33 @addDailyLuck" // available MAYBE between spring 22-28 AND player doesn't have the PierreStocklist flag
                 }
             },
             "MoveEntries": [
@@ -166,7 +166,7 @@
                     "Id": "{{ModID}}_ArtichokeSeeds",
                     "ItemId": "(O)489",
                     "Price": 38,
-                    "Condition": "YEAR 2, SEASON Summer, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season Artichoke 0.33 @addDailyLuck" // available after year 2 AND MAYBE between summer 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "YEAR 2, SEASON Summer, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season PMPAArtichoke 0.33 @addDailyLuck" // available after year 2 AND MAYBE between summer 22-28 AND player doesn't have the PierreStocklist flag
                 }
             },
             "MoveEntries": [
@@ -189,49 +189,49 @@
                     "Id": "{{ModID}}_FairySeeds",
                     "ItemId": "(O)425",
                     "Price": 200,
-                    "Condition": "SEASON Summer, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season Fairy 0.33 @addDailyLuck" // available MAYBE between summer 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON Summer, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season PMPAFairy 0.33 @addDailyLuck" // available MAYBE between summer 22-28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_AmaranthSeeds": {
                     "Id": "{{ModID}}_AmaranthSeeds",
                     "ItemId": "(O)299",
                     "Price": 70,
-                    "Condition": "SEASON Summer, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season Amaranth 0.33 @addDailyLuck" // available MAYBE between summer 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON Summer, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season PMPAAmaranth 0.33 @addDailyLuck" // available MAYBE between summer 22-28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_BokChoySeeds": {
                     "Id": "{{ModID}}_BokChoySeeds",
                     "ItemId": "(O)491",
                     "Price": 50,
-                    "Condition": "SEASON Summer, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season BokChoy 0.33 @addDailyLuck" // available MAYBE between summer 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON Summer, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season PMPABokChoy 0.33 @addDailyLuck" // available MAYBE between summer 22-28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_CranberrySeeds": {
                     "Id": "{{ModID}}_CranberrySeeds",
                     "ItemId": "(O)493",
                     "Price": 240,
-                    "Condition": "SEASON Summer, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season Cranberry 0.33 @addDailyLuck" // available MAYBE between summer 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON Summer, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season PMPACranberry 0.33 @addDailyLuck" // available MAYBE between summer 22-28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_EggplantSeeds": {
                     "Id": "{{ModID}}_EggplantSeeds",
                     "ItemId": "(O)488",
                     "Price": 20,
-                    "Condition": "SEASON Summer, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season Eggplant 0.33 @addDailyLuck" // available MAYBE between summer 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON Summer, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season PMPAEggplant 0.33 @addDailyLuck" // available MAYBE between summer 22-28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_GrapeStarter": {
                     "Id": "{{ModID}}_GrapeStarter",
                     "ItemId": "(O)301",
                     "Price": 60,
-                    "Condition": "SEASON Summer, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season Grape 0.33 @addDailyLuck" // available MAYBE between summer 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON Summer, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season PMPAGrape 0.33 @addDailyLuck" // available MAYBE between summer 22-28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_YamSeeds": {
                     "Id": "{{ModID}}_YamSeeds",
                     "ItemId": "(O)492",
                     "Price": 60,
-                    "Condition": "SEASON Summer, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season Yam 0.33 @addDailyLuck" // available MAYBE between summer 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON Summer, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season PMPAYam 0.33 @addDailyLuck" // available MAYBE between summer 22-28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_PumpkinSeeds": {
                     "Id": "{{ModID}}_PumpkinSeeds",
                     "ItemId": "(O)490",
                     "Price": 100,
-                    "Condition": "SEASON Summer, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season Pumpkin 0.33 @addDailyLuck" // available MAYBE between summer 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON Summer, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season PMPAPumpkin 0.33 @addDailyLuck" // available MAYBE between summer 22-28 AND player doesn't have the PierreStocklist flag
                 }
             },
             "MoveEntries": [
@@ -283,13 +283,13 @@
                     "Id": "{{ModID}}_GarlicSeeds",
                     "ItemId": "(O)476",
                     "Price": 40,
-                    "Condition": "YEAR 2, SEASON Winter, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season Garlic 0.33 @addDailyLuck" // available after year 2 AND MAYBE between winter 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "YEAR 2, SEASON Winter, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season PMPAGarlic 0.33 @addDailyLuck" // available after year 2 AND MAYBE between winter 22-28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_RiceShoot": {
                     "Id": "{{ModID}}_RiceShoot",
                     "ItemId": "(O)273",
                     "Price": 40,
-                    "Condition": "YEAR 2, SEASON Winter, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season Rice 0.33 @addDailyLuck" // available after year 2 AND MAYBE between winter 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "YEAR 2, SEASON Winter, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season PMPARice 0.33 @addDailyLuck" // available after year 2 AND MAYBE between winter 22-28 AND player doesn't have the PierreStocklist flag
                 }
             },
             "MoveEntries": [
@@ -316,43 +316,43 @@
                     "Id": "{{ModID}}_JazzSeeds",
                     "ItemId": "(O)429",
                     "Price": 30,
-                    "Condition": "SEASON Winter, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season Jazz 0.33 @addDailyLuck" // available MAYBE between winter 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON Winter, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season PMPAJazz 0.33 @addDailyLuck" // available MAYBE between winter 22-28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_TulipBulb": {
                     "Id": "{{ModID}}_TulipBulb",
                     "ItemId": "(O)427",
                     "Price": 20,
-                    "Condition": "SEASON Winter, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season Tulip 0.33 @addDailyLuck" // available MAYBE between winter 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON Winter, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season PMPATulip 0.33 @addDailyLuck" // available MAYBE between winter 22-28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_CauliflowerSeeds": {
                     "Id": "{{ModID}}_CauliflowerSeeds",
                     "ItemId": "(O)474",
                     "Price": 80,
-                    "Condition": "SEASON Winter, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season Cauliflower 0.33 @addDailyLuck" // available MAYBE between winter 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON Winter, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season PMPACauliflower 0.33 @addDailyLuck" // available MAYBE between winter 22-28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_BeanStarter": {
                     "Id": "{{ModID}}_BeanStarter",
                     "ItemId": "(O)473",
                     "Price": 60,
-                    "Condition": "SEASON Winter, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season Bean 0.33 @addDailyLuck" // available MAYBE between winter 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON Winter, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season PMPABean 0.33 @addDailyLuck" // available MAYBE between winter 22-28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_KaleSeeds": {
                     "Id": "{{ModID}}_KaleSeeds",
                     "ItemId": "(O)477",
                     "Price": 70,
-                    "Condition": "SEASON Winter, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season Kale 0.33 @addDailyLuck" // available MAYBE between winter 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON Winter, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season PMPAKale 0.33 @addDailyLuck" // available MAYBE between winter 22-28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_ParsnipSeeds": {
                     "Id": "{{ModID}}_ParsnipSeeds",
                     "ItemId": "(O)472",
                     "Price": 20,
-                    "Condition": "SEASON Winter, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season Parsnip 0.33 @addDailyLuck" // available MAYBE between winter 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON Winter, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season PMPAParsnip 0.33 @addDailyLuck" // available MAYBE between winter 22-28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_PotatoSeeds": {
                     "Id": "{{ModID}}_PotatoSeeds",
                     "ItemId": "(O)475",
                     "Price": 50,
-                    "Condition": "SEASON Winter, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season Potato 0.33 @addDailyLuck" // available MAYBE between winter 22-28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "SEASON Winter, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received, SYNCED_RANDOM season PMPAPotato 0.33 @addDailyLuck" // available MAYBE between winter 22-28 AND player doesn't have the PierreStocklist flag
                 }
             },
             "MoveEntries": [

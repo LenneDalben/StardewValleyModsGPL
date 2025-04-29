@@ -1,6 +1,5 @@
 {
 	"Format": "2.6.0",
-	// Maybe add prefix to all the synced random keys for P and J so they don't sync up if you have both installed lol. Might be able to add it with find and replace by taking the synced_random key thing plus space and J versus P. That way not manually typing that into every key, which is different 
 	// remember to specify in mod description they need to delete old mod folders then edit config (which will generate later). Add blurb about config generating later
 	"ConfigSchema": {
 		"PierreNumberOfDaysAhead": {
