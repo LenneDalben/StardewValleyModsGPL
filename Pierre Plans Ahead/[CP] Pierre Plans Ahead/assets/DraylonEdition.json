@@ -28,7 +28,7 @@
         },
         // End of Spring, Summer Seeds
         /*Red cabbage*/ {
-            "LogName": "Pierre May Plan Ahead 7 Days - Red Cabbage in Spring",
+            "LogName": "Pierre May Plan Ahead Draylon Edition - Red Cabbage in Spring",
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [
@@ -51,7 +51,7 @@
             ]
         },
         /*The other summer seeds*/ {
-            "LogName": "Pierre May Plan Ahead 7 Days - Year 1 Summer Seeds in Spring",
+            "LogName": "Pierre May Plan Ahead Draylon Edition - Year 1 Summer Seeds in Spring",
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [
@@ -155,7 +155,7 @@
         },
         // End of Summer, Fall Seeds
         /*Artichoke*/ {
-            "LogName": "Pierre May Plan Ahead 7 Days - Artichoke in Summer",
+            "LogName": "Pierre May Plan Ahead Draylon Edition - Artichoke in Summer",
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [
@@ -178,7 +178,7 @@
             ]
         },
         /*The other fall seeds*/ {
-            "LogName": "Pierre May Plan Ahead 7 Days - Year 1 Fall Seeds in Summer",
+            "LogName": "Pierre May Plan Ahead Draylon Edition - Year 1 Fall Seeds in Summer",
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [
@@ -272,7 +272,7 @@
         },
         // End of Winter, Spring Seeds
         /*Rice and garlic*/ {
-            "LogName": "Pierre May Plan Ahead 7 Days - Garlic and Rice in Winter",
+            "LogName": "Pierre May Plan Ahead Draylon Edition - Garlic and Rice in Winter",
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [
@@ -305,7 +305,7 @@
             ]
         },
         /*The other spring seeds*/ {
-            "LogName": "Pierre May Plan Ahead 7 Days - Year 1 Spring Seeds in Winter",
+            "LogName": "Pierre May Plan Ahead Draylon Edition - Year 1 Spring Seeds in Winter",
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [
