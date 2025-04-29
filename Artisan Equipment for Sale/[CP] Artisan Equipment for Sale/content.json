@@ -1,5 +1,7 @@
 {
 	"Format": "2.6.0",
+	// NOTE: convert the MFM to CP mail
+	// add note to the mod page to delete old folders first
 	"Changes": [
 		// Artisan Equipment at Clint's
 		/*Lightning rod*/ {
