@@ -17,7 +17,7 @@
                 "{{ModId}}_LetterTrigger": {
                     "Id": "{{ModId}}_LetterTrigger",
                     "Trigger": "DayStarted",
-                    "Condition": "DAY_OF_MONTH 22, !SEASON Fall, !PLAYER_HAS_MAIL PierreStocklist Received",
+                    "Condition": "DAY_OF_MONTH 22, !SEASON Fall",
                     "Actions": [
                         "AddMail Current {{ModID}}_Letter Now"
                     ],
