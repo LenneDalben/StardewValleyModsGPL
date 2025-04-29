@@ -2,13 +2,22 @@
 	"Format": "2.6.0",
 	// NOTE: convert the MFM to CP mail. Add config for repeatable (the mark applied field true/false, make it a token it fills in. Test out that it works, because fun with quotations mate)
 	// add note to the mod page to delete old folders first
+	"ConfigSchema": {
+		"ArtisanEquipmentLetterRepeatable": {
+			"Description": "Choose whether you want the letter to send every Thursday (default true).",
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false,
+			"AllowMultiple": false
+		}
+	},
 	"Changes": [
 		/*Letter*/ {
 			"LogName": "Artisan Equipment - Letter Content",
 			"Action": "EditData",
 			"Target": "Data/mail",
 			"Entries": {
-				"{{ModID}}_Letter": "{{i18n:ArtisanEquipment.Letter.Text}} [#]{{i18n:ArtisanEquipment..Letter.Title}}"
+				"{{ModID}}_Letter": "{{i18n:ArtisanEquipment.Letter.Text}} [#]{{i18n:ArtisanEquipment.Letter.Title}}"
 			}
 		},
 		/*Letter Trigger Action*/ {
