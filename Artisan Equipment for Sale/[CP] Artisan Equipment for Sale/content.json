@@ -3,6 +3,30 @@
 	// NOTE: convert the MFM to CP mail. Add config for repeatable (the mark applied field true/false, make it a token it fills in. Test out that it works, because fun with quotations mate)
 	// add note to the mod page to delete old folders first
 	"Changes": [
+		/*Letter*/ {
+			"LogName": "Artisan Equipment - Letter Content",
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				"{{ModID}}_Letter": "{{i18n:ArtisanEquipment.Letter.Text}} [#]{{i18n:ArtisanEquipment..Letter.Title}}"
+			}
+		},
+		/*Letter Trigger Action*/ {
+			"LogName": "Artisan Equipment - Letter Trigger",
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_LetterTrigger": {
+					"Id": "{{ModId}}_LetterTrigger",
+					"Trigger": "DayStarted",
+					"Condition": "DAY_OF_WEEK Thursday",
+					"Actions": [
+						"AddMail Current {{ModID}}_Letter Now"
+					],
+					"MarkActionApplied": false // this is the part that makes it repeat WOOT WOOT THANK YOU AIRYN
+				}
+			}
+		},
 		// Artisan Equipment at Clint's
 		/*Lightning rod*/ {
 			"LogName": "Artisan Equipment - Lightning Rod at Clint's",
