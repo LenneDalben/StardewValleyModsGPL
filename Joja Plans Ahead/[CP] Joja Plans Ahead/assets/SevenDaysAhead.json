@@ -6,7 +6,7 @@
             "Action": "EditData",
             "Target": "Data/mail",
             "Entries": {
-                "{{ModID}}_Letter": "{{i18n:JPA.OneDayAhead.{{Season}}Letter.Text}} [#]{{i18n:PPA.Letter.Title}}"
+                "{{ModID}}_Letter": "{{i18n:JPA.OneDayAhead.{{Season}}Letter.Text}} [#]{{i18n:JPA.Letter.Title}}"
             }
         },
         /*Letter Trigger Action*/ {
@@ -61,55 +61,55 @@
                 "{{ModID}}_PoppySeeds": {
                     "Id": "{{ModID}}_PoppySeeds",
                     "ItemId": "(O)453",
-                    "Price": 100,
+                    "Price": 125,
                     "Condition": "DATE_RANGE Spring 22 1 Spring 28" // available if it's between spring 22-28
                 },
                 "{{ModID}}_SpangleSeeds": {
                     "Id": "{{ModID}}_SpangleSeeds",
                     "ItemId": "(O)455",
-                    "Price": 50,
+                    "Price": 62,
                     "Condition": "DATE_RANGE Spring 22 1 Spring 28" // available if it's between spring 22-28
                 },
                 "{{ModID}}_SunflowerSeeds": {
                     "Id": "{{ModID}}_SunflowerSeeds",
                     "ItemId": "(O)431",
-                    "Price": 200,
+                    "Price": 125,
                     "Condition": "DATE_RANGE Spring 22 1 Spring 28" // available if it's between spring 22-28
                 },
                 "{{ModID}}_MelonSeeds": {
                     "Id": "{{ModID}}_MelonSeeds",
                     "ItemId": "(O)479",
-                    "Price": 80,
+                    "Price": 100,
                     "Condition": "DATE_RANGE Spring 22 1 Spring 28" // available if it's between spring 22-28
                 },
                 "{{ModID}}_CornSeeds": {
                     "Id": "{{ModID}}_CornSeeds",
                     "ItemId": "(O)487",
-                    "Price": 150,
+                    "Price": 187,
                     "Condition": "DATE_RANGE Spring 22 1 Spring 28" // available if it's between spring 22-28
                 },
                 "{{ModID}}_HopsStarter": {
                     "Id": "{{ModID}}_HopsStarter",
                     "ItemId": "(O)302",
-                    "Price": 60,
+                    "Price": 75,
                     "Condition": "DATE_RANGE Spring 22 1 Spring 28" // available if it's between spring 22-28
                 },
                 "{{ModID}}_PepperSeeds": {
                     "Id": "{{ModID}}_PepperSeeds",
                     "ItemId": "(O)482",
-                    "Price": 40,
+                    "Price": 50,
                     "Condition": "DATE_RANGE Spring 22 1 Spring 28" // available if it's between spring 22-28
                 },
                 "{{ModID}}_RadishSeeds": {
                     "Id": "{{ModID}}_RadishSeeds",
                     "ItemId": "(O)484",
-                    "Price": 40,
+                    "Price": 50,
                     "Condition": "DATE_RANGE Spring 22 1 Spring 28" // available if it's between spring 22-28
                 },
                 "{{ModID}}_TomatoSeeds": {
                     "Id": "{{ModID}}_TomatoSeeds",
                     "ItemId": "(O)480",
-                    "Price": 50,
+                    "Price": 62,
                     "Condition": "DATE_RANGE Spring 22 1 Spring 28" // available if it's between spring 22-28
                 }
             },
@@ -188,49 +188,49 @@
                 "{{ModID}}_FairySeeds": {
                     "Id": "{{ModID}}_FairySeeds",
                     "ItemId": "(O)425",
-                    "Price": 200,
+                    "Price": 250,
                     "Condition": "DATE_RANGE Summer 22 1 Summer 28" // available if it's between summer 22-28
                 },
                 "{{ModID}}_AmaranthSeeds": {
                     "Id": "{{ModID}}_AmaranthSeeds",
                     "ItemId": "(O)299",
-                    "Price": 70,
+                    "Price": 87,
                     "Condition": "DATE_RANGE Summer 22 1 Summer 28" // available if it's between summer 22-28
                 },
                 "{{ModID}}_BokChoySeeds": {
                     "Id": "{{ModID}}_BokChoySeeds",
                     "ItemId": "(O)491",
-                    "Price": 50,
+                    "Price": 62,
                     "Condition": "DATE_RANGE Summer 22 1 Summer 28" // available if it's between summer 22-28
                 },
                 "{{ModID}}_CranberrySeeds": {
                     "Id": "{{ModID}}_CranberrySeeds",
                     "ItemId": "(O)493",
-                    "Price": 240,
+                    "Price": 300,
                     "Condition": "DATE_RANGE Summer 22 1 Summer 28" // available if it's between summer 22-28
                 },
                 "{{ModID}}_EggplantSeeds": {
                     "Id": "{{ModID}}_EggplantSeeds",
                     "ItemId": "(O)488",
-                    "Price": 20,
+                    "Price": 25,
                     "Condition": "DATE_RANGE Summer 22 1 Summer 28" // available if it's between summer 22-28
                 },
                 "{{ModID}}_GrapeStarter": {
                     "Id": "{{ModID}}_GrapeStarter",
                     "ItemId": "(O)301",
-                    "Price": 60,
+                    "Price": 75,
                     "Condition": "DATE_RANGE Summer 22 1 Summer 28" // available if it's between summer 22-28
                 },
                 "{{ModID}}_YamSeeds": {
                     "Id": "{{ModID}}_YamSeeds",
                     "ItemId": "(O)492",
-                    "Price": 60,
+                    "Price": 75,
                     "Condition": "DATE_RANGE Summer 22 1 Summer 28" // available if it's between summer 22-28
                 },
                 "{{ModID}}_PumpkinSeeds": {
                     "Id": "{{ModID}}_PumpkinSeeds",
                     "ItemId": "(O)490",
-                    "Price": 100,
+                    "Price": 125,
                     "Condition": "DATE_RANGE Summer 22 1 Summer 28" // available if it's between summer 22-28
                 }
             },
@@ -315,43 +315,43 @@
                 "{{ModID}}_JazzSeeds": {
                     "Id": "{{ModID}}_JazzSeeds",
                     "ItemId": "(O)429",
-                    "Price": 30,
+                    "Price": 37,
                     "Condition": "DATE_RANGE Winter 22 1 Winter 28" // available if it's between winter 22-28
                 },
                 "{{ModID}}_TulipBulb": {
                     "Id": "{{ModID}}_TulipBulb",
                     "ItemId": "(O)427",
-                    "Price": 20,
+                    "Price": 25,
                     "Condition": "DATE_RANGE Winter 22 1 Winter 28" // available if it's between winter 22-28
                 },
                 "{{ModID}}_CauliflowerSeeds": {
                     "Id": "{{ModID}}_CauliflowerSeeds",
                     "ItemId": "(O)474",
-                    "Price": 80,
+                    "Price": 100,
                     "Condition": "DATE_RANGE Winter 22 1 Winter 28" // available if it's between winter 22-28
                 },
                 "{{ModID}}_BeanStarter": {
                     "Id": "{{ModID}}_BeanStarter",
                     "ItemId": "(O)473",
-                    "Price": 60,
+                    "Price": 75,
                     "Condition": "DATE_RANGE Winter 22 1 Winter 28" // available if it's between winter 22-28
                 },
                 "{{ModID}}_KaleSeeds": {
                     "Id": "{{ModID}}_KaleSeeds",
                     "ItemId": "(O)477",
-                    "Price": 70,
+                    "Price": 87,
                     "Condition": "DATE_RANGE Winter 22 1 Winter 28" // available if it's between winter 22-28
                 },
                 "{{ModID}}_ParsnipSeeds": {
                     "Id": "{{ModID}}_ParsnipSeeds",
                     "ItemId": "(O)472",
-                    "Price": 20,
+                    "Price": 25,
                     "Condition": "DATE_RANGE Winter 22 1 Winter 28" // available if it's between winter 22-28
                 },
                 "{{ModID}}_PotatoSeeds": {
                     "Id": "{{ModID}}_PotatoSeeds",
                     "ItemId": "(O)475",
-                    "Price": 50,
+                    "Price": 62,
                     "Condition": "DATE_RANGE Winter 22 1 Winter 28" // available if it's between winter 22-28
                 }
             },
