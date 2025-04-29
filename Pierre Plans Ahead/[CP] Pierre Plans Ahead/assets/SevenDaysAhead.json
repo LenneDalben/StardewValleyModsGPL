@@ -166,7 +166,7 @@
                     "Id": "{{ModID}}_ArtichokeSeeds",
                     "ItemId": "(O)489",
                     "Price": 38,
-                    "Condition": "YEAR 2, SEASON Summer, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available after year 2 AND it's summer 28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "YEAR 2, SEASON Summer, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available after year 2 AND it's between summer 22-28 AND player doesn't have the PierreStocklist flag
                 }
             },
             "MoveEntries": [
@@ -283,13 +283,13 @@
                     "Id": "{{ModID}}_GarlicSeeds",
                     "ItemId": "(O)476",
                     "Price": 40,
-                    "Condition": "YEAR 2, SEASON Winter, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available after year 2 AND it's winter 28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "YEAR 2, SEASON Winter, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available after year 2 AND it's between winter 22-28 AND player doesn't have the PierreStocklist flag
                 },
                 "{{ModID}}_RiceShoot": {
                     "Id": "{{ModID}}_RiceShoot",
                     "ItemId": "(O)273",
                     "Price": 40,
-                    "Condition": "YEAR 2, SEASON Winter, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available after year 2 AND it's winter 28 AND player doesn't have the PierreStocklist flag
+                    "Condition": "YEAR 2, SEASON Winter, DAY_OF_MONTH 22 23 24 25 26 27 28, !PLAYER_HAS_MAIL PierreStocklist Received" // available after year 2 AND it's between winter 22-28 AND player doesn't have the PierreStocklist flag
                 }
             },
             "MoveEntries": [
