@@ -10,7 +10,7 @@
             }
         },
         /*Letter Trigger Action*/ {
-            "LogName": "Joja May Plan Ahead 1 Day - Letter Text",
+            "LogName": "Joja May Plan Ahead 1 Day - Letter Trigger",
             "Action": "EditData",
             "Target": "Data/TriggerActions",
             "Entries": {
