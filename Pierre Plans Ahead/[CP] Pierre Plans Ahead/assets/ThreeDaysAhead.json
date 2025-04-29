@@ -1,6 +1,7 @@
 {
     "Changes": [
         // Planning Ahead 3 Days
+        // update the date ranges
         /*Letter*/ {
             "LogName": "Pierre Plans Ahead 3 Days - Letter Content",
             "Action": "EditData",
