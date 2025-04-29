@@ -2,7 +2,7 @@
     "Changes": [
         // Planning Ahead 7 Days
         /*Letter*/ {
-            "LogName": "Joja Plans Ahead 7 Days - Letter Content",
+            "LogName": "Joja Plans Ahead 7 Days 7 Days - Letter Content",
             "Action": "EditData",
             "Target": "Data/mail",
             "Entries": {
@@ -10,7 +10,7 @@
             }
         },
         /*Letter Trigger Action*/ {
-            "LogName": "Joja Plans Ahead 7 Days - Letter Text",
+            "LogName": "Joja Plans Ahead 7 Days 7 Days - Letter Text",
             "Action": "EditData",
             "Target": "Data/TriggerActions",
             "Entries": {
@@ -27,7 +27,7 @@
         },
         // End of Spring, Summer Seeds
         /*Red cabbage*/ {
-            "LogName": "Joja Plans Ahead - Red Cabbage in Spring",
+            "LogName": "Joja Plans Ahead 7 Days - Red Cabbage in Spring",
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [
@@ -50,7 +50,7 @@
             ]
         },
         /*The other summer seeds*/ {
-            "LogName": "Joja Plans Ahead - Year 1 Summer Seeds in Spring",
+            "LogName": "Joja Plans Ahead 7 Days - Year 1 Summer Seeds in Spring",
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [
@@ -154,7 +154,7 @@
         },
         // End of Summer, Fall Seeds
         /*Artichoke*/ {
-            "LogName": "Joja Plans Ahead - Artichoke in Summer",
+            "LogName": "Joja Plans Ahead 7 Days - Artichoke in Summer",
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [
@@ -177,7 +177,7 @@
             ]
         },
         /*The other fall seeds*/ {
-            "LogName": "Joja Plans Ahead - Year 1 Fall Seeds in Summer",
+            "LogName": "Joja Plans Ahead 7 Days - Year 1 Fall Seeds in Summer",
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [
@@ -271,7 +271,7 @@
         },
         // End of Winter, Spring Seeds
         /*Rice and garlic*/ {
-            "LogName": "Joja Plans Ahead - Garlic and Rice in Winter",
+            "LogName": "Joja Plans Ahead 7 Days - Garlic and Rice in Winter",
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [
@@ -304,7 +304,7 @@
             ]
         },
         /*The other spring seeds*/ {
-            "LogName": "Joja Plans Ahead - Year 1 Spring Seeds in Winter",
+            "LogName": "Joja Plans Ahead 7 Days - Year 1 Spring Seeds in Winter",
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [
