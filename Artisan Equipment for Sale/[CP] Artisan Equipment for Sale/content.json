@@ -1,6 +1,6 @@
 {
 	"Format": "2.6.0",
-	// NOTE: convert the MFM to CP mail
+	// NOTE: convert the MFM to CP mail. Add config for repeatable (the mark applied field true/false, make it a token it fills in. Test out that it works, because fun with quotations mate)
 	// add note to the mod page to delete old folders first
 	"Changes": [
 		// Artisan Equipment at Clint's
