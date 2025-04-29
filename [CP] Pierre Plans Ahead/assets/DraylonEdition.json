@@ -10,7 +10,7 @@
             }
         },
         /*Letter Trigger Action*/ {
-            "LogName": "Pierre May Plan Ahead Draylon Edition - Letter Text",
+            "LogName": "Pierre May Plan Ahead Draylon Edition - Letter Trigger",
             "Action": "EditData",
             "Target": "Data/TriggerActions",
             "Entries": {

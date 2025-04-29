@@ -11,7 +11,7 @@
             }
         },
         /*Letter Trigger Action*/ {
-            "LogName": "Pierre Plans Ahead 3 Days - Letter Text",
+            "LogName": "Pierre Plans Ahead 3 Days - Letter Trigger",
             "Action": "EditData",
             "Target": "Data/TriggerActions",
             "Entries": {
