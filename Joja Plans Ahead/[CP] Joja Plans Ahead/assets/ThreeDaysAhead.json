@@ -2,7 +2,7 @@
     "Changes": [
         // Planning Ahead 3 Days
         /*Letter*/ {
-            "LogName": "Joja Plans Ahead 3 Days 3 Days - Letter Content",
+            "LogName": "Joja Plans Ahead 3 Days - Letter Content",
             "Action": "EditData",
             "Target": "Data/mail",
             "Entries": {
@@ -10,7 +10,7 @@
             }
         },
         /*Letter Trigger Action*/ {
-            "LogName": "Joja Plans Ahead 3 Days 3 Days - Letter Text",
+            "LogName": "Joja Plans Ahead 3 Days - Letter Text",
             "Action": "EditData",
             "Target": "Data/TriggerActions",
             "Entries": {
