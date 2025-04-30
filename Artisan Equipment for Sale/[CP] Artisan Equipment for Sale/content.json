@@ -3,10 +3,10 @@
 	// NOTE: convert the MFM to CP mail. Add config for repeatable (the mark applied field true/false, make it a token it fills in. Test out that it works, because fun with quotations mate)
 	// add note to the mod page to delete old folders first
 	"ConfigSchema": {
-		"ArtisanEquipmentLetterRepeatable": {
-			"Description": "Choose whether you receive the letter every Thursday (default: true).",
+		"ArtisanEquipmentLetterOnlySendsOnce": {
+			"Description": "Choose whether to receive the letter reminder only once (default: false). NOTE: if you set this to 'true', the reminder won't repeat, even if you set this to 'false' later. Choose wisely!",
 			"AllowValues": "true, false",
-			"Default": "true",
+			"Default": "false",
 			"AllowBlank": false,
 			"AllowMultiple": false
 		}
