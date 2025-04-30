@@ -1,9 +1,0 @@
-[
-	{
-		"Id": "artisanequipmentforsaleletter",
-		"Text": "artisanequipmentforsaleletter.text",
-		"Repeatable": "false",
-		//Conditions for delivery
-		"RandomChance": 1
-	}
-]
