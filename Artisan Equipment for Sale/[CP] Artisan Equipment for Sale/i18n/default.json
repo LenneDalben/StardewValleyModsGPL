@@ -4,6 +4,7 @@
 		"config.ArtisanEquipmentLetterRepeatable.description": "Choose whether you receive the letter every Thursday (default: true).",		
 		"config.ArtisanEquipmentLetterRepeatable.values.true": "true",
 		"config.ArtisanEquipmentLetterRepeatable.values.false": "false",
+		//
 		// Letter
 		"ArtisanEquipment.Letter.Text": "Hi @,^It's a machinery mall, a machinery plaza, a cluster of-oh, I should quit while I'm ahead, shouldn't I? @, I'm writing to let you know that the shop owners in town (even in the desert!) may have special stock every Thursday! They have all sorts of equipment for sale, but I hear they only sell their special stock to their friends.^^Check out the shops on Thursdays!^-Mayor Lewis",
 		"ArtisanEquipment.Letter.Title": "Artisan Equipment for Sale"
