@@ -1,17 +1,17 @@
 	{
 		// ***Config Options***
 		"config.FarmTotemRecipeChange.name": "FarmTotemRecipeChange",
-		"config.FarmTotemRecipeChange.description": "Choose whether the farm totem recipe is changed (true) or not (false).",		
+		"config.FarmTotemRecipeChange.description": "Choose whether the farm totem recipe is changed (true, default) or not (false).",		
 		"config.FarmTotemRecipeChange.values.true": "true",
 		"config.FarmTotemRecipeChange.values.false": "false",
 		//
 		"config.SurvivalBurgerRecipeChange.name": "SurvivalBurgerRecipeChange",
-		"config.SurvivalBurgerRecipeChange.description": "Choose whether the survival burger recipe is changed (true) or not (false).",		
+		"config.SurvivalBurgerRecipeChange.description": "Choose whether the survival burger recipe is changed (true, default) or not (false).",		
 		"config.SurvivalBurgerRecipeChange.values.true": "true",
 		"config.SurvivalBurgerRecipeChange.values.false": "false",
 		//
 		"config.FarmTotemOption.name": "FarmTotemOption",
-		"config.FarmTotemOption.description": "Choose whether the recipe requires 10 stone or 1 red mushroom. If you set FarmTotemRecipeChange to 'false', this setting doesn't do anything.",		
+		"config.FarmTotemOption.description": "Choose whether the recipe requires 10 stone or 1 red mushroom (default). If you set FarmTotemRecipeChange to 'false', this setting doesn't do anything.",		
 		"config.FarmTotemOption.values.redmushroom": "redmushroom",
 		"config.FarmTotemOption.values.stone": "stone"
 	}
