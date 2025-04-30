@@ -1,20 +1,40 @@
 {
 	"Format": "2.6.0",
 	"ConfigSchema": {
-		"ModToggled": {
-			"Description": "Choose whether this mod is toggled on (true) or off (false).",
+		"FarmTotemRecipeChange": {
+			"Description": "Choose whether the farm totem recipe is changed (true) or not (false).",
 			"AllowValues": "true, false",
 			"Default": "true",
 			"AllowBlank": false
 		},
-		"Option": {
-			"Description": "Choose whether the recipe requires 10 stone or 1 red mushroom.",
+		"SurvivalBurgerRecipeChange": {
+			"Description": "Choose whether the survival burger recipe is changed (true) or not (false).",
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false
+		},
+		"FarmTotemOption": {
+			"Description": "Choose whether the recipe requires 10 stone or 1 red mushroom. If you set FarmTotemRecipeChange to 'false', this setting doesn't do anything.",
 			"AllowValues": "redmushroom, stone",
 			"Default": "redmushroom",
 			"AllowBlank": false
 		}
 	},
 	"Changes": [
+		//Survival Burger requires Foraging skill 2 instead of 8
+		{
+			"LogName": "Survival Burger Recipe - Skill Change",
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"Fields": {
+				"Survival Burger": {
+					"3": "Foraging 2"
+				},
+			},
+			"When": {
+				"SurvivalBurgerRecipeChange": "true"
+			}
+		},
 		//Farm Totem requires Foraging skill 3, 10 wood and 10 stone, instead of Foraging skill 8, 1 hardwood and 1 honey (still requires 20 fiber)
 		{
 			"LogName": "Farm Totem Recipe - Stone",
@@ -24,8 +44,8 @@
 				"Warp Totem: Farm": "390 10 388 10 771 20/Field/688/false/Foraging 3"
 			},
 			"When": {
-				"ModToggled": "true",
-				"Option": "stone"
+				"FarmTotemRecipeChange": "true",
+				"FarmTotemOption": "stone"
 			}
 		},
 		//Farm Totem requires Foraging skill 3, 10 wood and 1 red mushroom, instead of Foraging skill 8, 1 hardwood and 1 honey (still requires 20 fiber)
@@ -37,8 +57,8 @@
 				"Warp Totem: Farm": "420 1 388 10 771 20/Field/688/false/Foraging 3"
 			},
 			"When": {
-				"ModToggled": "true",
-				"Option": "redmushroom"
+				"FarmTotemRecipeChange": "true",
+				"FarmTotemOption": "redmushroom"
 			}
 		}
 	]
