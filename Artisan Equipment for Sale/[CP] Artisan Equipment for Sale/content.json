@@ -4,7 +4,7 @@
 	// add note to the mod page to delete old folders first
 	"ConfigSchema": {
 		"ArtisanEquipmentLetterRepeatable": {
-			"Description": "Choose whether you want the letter to send every Thursday (default true).",
+			"Description": "Choose whether you receive the letter every Thursday (default: true).",
 			"AllowValues": "true, false",
 			"Default": "true",
 			"AllowBlank": false,
@@ -32,7 +32,7 @@
 					"Actions": [
 						"AddMail Current {{ModID}}_Letter Now"
 					],
-					"MarkActionApplied": false // this is the part that makes it repeat WOOT WOOT THANK YOU AIRYN
+					"MarkActionApplied": "{{ArtisanEquipmentLetterRepeatable}}" // this is the part that makes it repeat WOOT WOOT THANK YOU AIRYN
 				}
 			}
 		},
@@ -282,7 +282,7 @@
 				}
 			],
 		},
-		// Marlon block for vanilla (don't have those)
+		// Marlon block for vanilla (don't have Yoshimax's Befriend Marlon or YWolf's Make Marlon Real)
 		/*Bone Mill*/ {
 			"LogName": "Artisan Equipment - Bone Mill at Marlon's with mine exploration",
 			"Action": "EditData",
