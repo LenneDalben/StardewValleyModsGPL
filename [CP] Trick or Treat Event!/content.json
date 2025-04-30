@@ -8,6 +8,13 @@
 			"AllowBlank": false,
 			"AllowMultiple": false
 		},
+		"TrickorTreatEventRepeats": {
+			"Description": "By default, the event is repeatable, so in following years, it will happen again. If you don't want the event to repeat, set this to false.",
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false,
+			"AllowMultiple": false
+		},
 	},
 	"CustomLocations": [
 		{
@@ -55,28 +62,30 @@
 				"2910202{{Year}}/z spring/z summer/z winter/u 22 23 24 25 26 28/t 1850 2150": "spirits_eve/-1000 -1000/{{TrickorTreatNPCPlacement}}/changeToTemporaryMap Custom_TrickorTreatEvent_Map/viewport -1000 -1000/{{TrickorTreatNPCWarp}}/addLantern 735 31 61 2/pause 50/positionOffset Jas 0 -30/positionOffset Vincent 0 -30/viewport 31 65/addConversationTopic TrickorTreatEvent_CT {{DaysTalkingAboutEvent}}/pause 2500/skippable/emote farmer 8/faceDirection Sam 2/textAboveHead Sam \"{{i18n:event-29102022.01}}\"/move farmer 0 -2 3/pause 200/faceDirection Sam 1/speak Sam \"{{i18n:event-29102022.02}}\"/emote Penny 20 true/faceDirection Alex 1/faceDirection Pierre 1/faceDirection Caroline 3/emote Vincent 8/faceDirection Robin 3/emote Jas 36/pause 200/faceDirection Alex 3/faceDirection Jodi 3/faceDirection Caroline 1/faceDirection Robin 1/faceDirection Pierre 3/emote Vincent 32 true/emote Jas 32 true/faceDirection Alex 1 false/pause 600/faceDirection Jas 2 true/faceDirection Vincent 2 false/pause 50/speak Jas \"{{i18n:event-29102022.03}}\"/faceDirection farmer 0 true/faceDirection Sam 0 true/faceDirection Abigail 0 true/faceDirection Alex 0 true/faceDirection Sebastian 0 false/pause 200/faceDirection Penny 0 true/faceDirection Maru 0 true/faceDirection Marnie 0 true/faceDirection Jodi 0 false/pause 200/faceDirection Robin 0 true/faceDirection Demetrius 0 true/faceDirection Emily 0 false/pause 200/faceDirection Gus 0 true/faceDirection Clint 0 true/faceDirection Leah 0 true/faceDirection Haley 0 true/faceDirection Lewis 0 false/pause 200/faceDirection Caroline 0 true/faceDirection Pierre 0 true/faceDirection Evelyn 0 true/faceDirection George 0 false/speak Jas \"{{i18n:event-29102022.04}}\"/stopMusic/playMusic playful/pause 500/textAboveHead Abigail \"{{i18n:event-29102022.05}}\"/pause 1500/textAboveHead Sebastian \"{{i18n:event-29102022.06}}\"/pause 1500/textAboveHead Demetrius \"{{i18n:event-29102022.07}}\"/pause 1500/textAboveHead Maru \"{{i18n:event-29102022.08}}\"/pause 1500/textAboveHead George \"{{i18n:event-29102022.09}}\"/pause 1500/speak Vincent \"{{i18n:event-29102022.10}}\"/pause 100/emote Shane 32 true/shake Shane 500/pause 50/emote Jodi 28 true/emote Marnie 28 false/pause 900/textAboveHead Vincent \"{{i18n:event-29102022.11}}\"/pause 950/speak Harvey \"{{i18n:event-29102022.12}}\"/pause 200/jump Vincent 4/speak Vincent \"{{i18n:event-29102022.13}}\"/emote Jas 32 true/emote Vincent 32 true/emote Shane 20 true/emote Abigail 56 true/emote Penny 20 true/emote Leah 56 true/emote Emily 56 true/pause 50/move Shane 0 -3 0 true/move Demetrius 0 -2 0 true/move Leah -3 0 0 false/move Leah 0 -2 0 true/move Emily -1 0 0 false/move Emily 0 -2 0 false/pause 400/playSound dwop/textAboveHead Shane \"{{i18n:event-29102022.14}}\"/pause 600/playSound dwop/textAboveHead Demetrius \"{{i18n:event-29102022.15}}\"/pause 200/move Demetrius 3 0 2 true/move Shane -4 0 2 true/move Leah 0 -1 0 true/move Emily 0 -1 0 false/pause 400/emote Shane 32 true/emote Demetrius 32/playSound dwop/pause 600/playSound dwop/pause 600/textAboveHead Emily \"{{i18n:event-29102022.16}}\"/textAboveHead Leah \"{{i18n:event-29102022.17}}\"/pause 800/fade/viewport -1000 -1000/pause 800/playSound getNewSpecialItem/speak {{Random: Jas, Vincent}} \"{{Random: {{i18n:event-29102022.18}} %% {{i18n:event-29102022.19}} %% {{i18n:event-29102022.20}} | inputSeparator=%%}}{{Random: [612] %% [279] %% [243] |inputSeparator=%%}}\"/end"
 			}
 		},
+		// "On Winter 1, set the event to unseen and then mark yourself as unapplied as well"
+		{
+			"LogName": "Trick or Treat Event - Repeat Trigger",
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_Repeat": {
+					"Id": "{{ModId}}_Repeat",
+					"Trigger": "DayStarted",
+					"Condition": "SEASON_DAY winter 1",
+					"Actions": [
+						"MarkEventSeen Current 29102022 false",
+					],
+					"MarkActionApplied": false
+				},
+				"When": {
+					"TrickorTreatEventRepeats": "true"
+				}
+			}
+		},
 		/*
-		{ // "On Winter 1, set the event to unseen and then mark yourself as unapplied as well"
-            "LogName": "Repeat Event Trigger",
-            "Action": "EditData",
-            "Target": "Data/TriggerActions",
-            "Entries": {
-                "{{ModId}}_TrickOrTreatRepeat": {
-                    "Id": "{{ModId}}_TrickOrTreatRepeat",
-                    "Trigger": "DayStarted",
-                    "Condition": "SEASON_DAY winter 1",
-                    "Actions": [
-                        "MarkEventSeen Current 29102022 false",
-                    ],
-                    "MarkActionApplied": false
-                },
-            }
-        },
-		*/
-		/*
-		To break it down line-by-line:
-"{{ModId}}_TrickOrTreatRepeat" - this is the ID of the trigger action block as a whole. {{ModID}} is a new built-in token in 1.6 that automatically fills in your manifest ID, so standard practise now for making NPCs/event IDs/etc unique is to use {{ModID}}_[thing you want to call it]  (feel free to change the name of this one if you like!)
-"Id": "{{ModId}}_TrickOrTreatRepeat", - also the ID of the trigger action but not as a whole? To be honest, I don't 100% get why it needs an ID inside the block as well as outside it, but oh well. They can have the same ID without issues
+		Airyn's explanation line-by-line:
+"{{ModId}}_tRepeat" - this is the ID of the trigger action block as a whole. {{ModID}} is a new built-in token in 1.6 that automatically fills in your manifest ID, so standard practise now for making NPCs/event IDs/etc unique is to use {{ModID}}_[thing you want to call it]  (feel free to change the name of this one if you like!)
+"Id": "{{ModId}}_Repeat", - also the ID of the trigger action but not as a whole? To be honest, I don't 100% get why it needs an ID inside the block as well as outside it, but oh well. They can have the same ID without issues
 "Trigger": "DayStarted", - At what point the action will trigger - think of it like "Update": "OnLocationChange". In base CP, there's only DayStarted, DayEnding, and LocationChanged, but BETAS adds a lot of cool new custom triggers and actions if you're interested for future projects
 "Condition": "SEASON_DAY winter 1", - the conditions when this action will trigger, which uses game state queries (GSQs). For this one, it's Winter 1, but there's a whole bunch of different conditions available on the wiki, plus you can have multiple conditions that are needed or create "Any" sets where it'll trigger if this OR that condition is met
 "Actions": [ "MarkEventSeen Current 29102022 false", ], - the actions that are being taken. You can use Action (with no s) if you only want one action like here, but I tend to forget it exists and just always use Actions which can have multiple actions. There's a list of different actions available on the wiki, plus BETAS has a bunch more as well. For this one, it's telling the game "Mark event 29102022 to seen:false for the current player"
