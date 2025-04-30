@@ -9,7 +9,7 @@
 			"AllowMultiple": false
 		},
 		"TrickorTreatEventRepeats": {
-			"Description": "By default, the event is repeatable, so in following years, it will happen again. If you don't want the event to repeat, set this to false.",
+			"Description": "By default, the event repeats every year. If you don't want the event to repeat, set this to false.",
 			"AllowValues": "true, false",
 			"Default": "true",
 			"AllowBlank": false,
