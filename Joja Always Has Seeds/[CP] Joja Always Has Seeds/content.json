@@ -2,8 +2,31 @@
 	"Format": "2.6.0",
 	// NOTE FOR MOD DESCRIPTION: Call out the 1.6 update requires deleting the old folder, and then installing the new folder.
 	"Changes": [
+		/*Letter*/ {
+			"LogName": "Joja Always Has Seeds - Letter Content",
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				"{{ModID}}_Letter": "{{i18n:JojaAlwaysHasSeeds.Letter.Text}} [#]{{i18n:JojaAlwaysHasSeeds.Letter.Title}}"
+			}
+		},
+		/*Letter Trigger Action*/ {
+			"LogName": "Joja Always Has Seeds - Letter Trigger",
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_LetterTrigger": {
+					"Id": "{{ModId}}_LetterTrigger",
+					"Trigger": "DayStarted",
+					"Actions": [
+						"AddMail Current {{ModID}}_Letter Now"
+					],
+					// "MarkActionApplied": "true"
+				}
+			}
+		},
 		// Spring seeds offered all year round
-		{
+		/*Garlic and rice*/ {
 			"LogName": "Joja Always Has Seeds - Garlic and Rice",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -36,7 +59,7 @@
 				},
 			],
 		},
-		{
+		/*The other spring seeds*/ {
 			"LogName": "Joja Always Has Seeds - Year 1 Spring",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -120,7 +143,7 @@
 			],
 		},
 		// Summer seeds offered all year round
-		{
+		/*Red cabbage*/ {
 			"LogName": "Joja Always Has Seeds - Red Cabbage",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -143,7 +166,7 @@
 				}
 			],
 		},
-		{
+		/*The other summer seeds*/ {
 			"LogName": "Joja Always Has Seeds - Year 1 Summer",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -257,7 +280,7 @@
 			],
 		},
 		// Fall seeds offered all year round
-		{
+		/*Artichoke*/ {
 			"LogName": "Joja Always Has Seeds - Artichoke",
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -280,7 +303,7 @@
 				}
 			],
 		},
-		{
+		/*The other fall seeds*/ {
 			"LogName": "Joja Always Has Seeds - Year 1 Fall",
 			"Action": "EditData",
 			"Target": "Data/Shops",

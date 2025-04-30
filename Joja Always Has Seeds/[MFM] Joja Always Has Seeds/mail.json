@@ -1,9 +1,0 @@
-[
-	{
-		"Id": "jojahasallseedsallyearroundletter",
-		"Text": "jojahasallseedsallyearroundletter.text",
-		"Repeatable": "false",
-		//Conditions for delivery
-		"RandomChance": 1
-	}
-]
