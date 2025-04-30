@@ -1,5 +1,5 @@
 	{
-		// Config Options
+		// ***Config Options***
 		"config.ArtisanEquipmentLetterRepeatable.name": "ArtisanEquipmentLetterRepeatable",
 		"config.ArtisanEquipmentLetterRepeatable.description": "Choose whether you receive the letter every Thursday (default: true).",		
 		"config.ArtisanEquipmentLetterRepeatable.values.true": "true",
