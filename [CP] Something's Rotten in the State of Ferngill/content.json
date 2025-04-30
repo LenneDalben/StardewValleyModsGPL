@@ -252,8 +252,9 @@
 				"SomethingRotteninFerngillLetter_Trigger": {
 					"Id": "SomethingRotteninFerngillLetter_Trigger",
 					"Trigger": "DayStarted",
+					"Condition": "PLAYER_HAS_SEEN_EVENT Current 270120231, !PLAYER_HAS_CONVERSATION_TOPIC SomethingRotteninFerngill_CT",
 					"Actions": [
-						"AddMail Current {{ModID}}_Letter Now"
+						"AddMail Current SomethingRotteninFerngillLetter_Wizard Now"
 					]
 				}
 			}
