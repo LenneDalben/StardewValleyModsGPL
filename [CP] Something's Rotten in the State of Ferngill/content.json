@@ -236,20 +236,26 @@
 			}
 		},
 		// Letter
-		{
-			"LogName": "Something Rotten in Ferngill event to send letter",
-			"Action": "EditData",
-			"Target": "Data/Events/Farm",
-			"Entries": {
-					"270120232/e 270120231/A SomethingRotteninFerngill_CT/x SomethingRotteninFerngillLetter_Wizard true": "null",
-			}    
-		},
-		{
-			"LogName": "Something Rotten in Ferngill Letter",
+		/*Letter*/ {
+			"LogName": "Something Rotten in Ferngill - Letter Content",
 			"Action": "EditData",
 			"Target": "Data/mail",
 			"Entries": {
 				"SomethingRotteninFerngillLetter_Wizard": "{{i18n:SomethingRotteninFerngillLetter_Wizard.01}} [letterbg 2] [#]{{i18n:SomethingRotteninFerngillLetter_Wizard.02}}"
+			}
+		},
+		/*Letter Trigger Action*/ {
+			"LogName": "Something Rotten in Ferngill - Letter Trigger",
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"SomethingRotteninFerngillLetter_Trigger": {
+					"Id": "SomethingRotteninFerngillLetter_Trigger",
+					"Trigger": "DayStarted",
+					"Actions": [
+						"AddMail Current {{ModID}}_Letter Now"
+					]
+				}
 			}
 		},
 		// Wrap Up Event
