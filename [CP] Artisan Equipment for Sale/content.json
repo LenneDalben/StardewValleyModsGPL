@@ -501,7 +501,7 @@
 				"Items"
 			],
 			"Entries": {
-				"{{ModID}}_SeedMaker": {
+				"{{ModID}}_QualitySprinkler": {
 					"Id": "{{ModID}}_QualitySprinkler",
 					"ItemId": "(O)621",
 					"Price": 3500,
