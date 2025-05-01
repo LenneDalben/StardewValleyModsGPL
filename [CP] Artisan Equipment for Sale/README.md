@@ -1,4 +1,4 @@
-# (STF) Artisan Equipment for Sale
+# (CP) Artisan Equipment for Sale
 
 Have you ever been rolling in the gold, flooded with cash, or just had some extra money, but you can't craft mayo machines because you don't have enough earth crystals, and you thought to yourself, "it would be great if I could just buy some mayo machines with all this money"? Well, now you can!
 
@@ -9,18 +9,17 @@ Translations are welcome! You can submit either the language.json to me or the s
 German translation courtesy of Nexus user kupiqo.
 
 
-||Compatibility||
+||Compatibility - Integration||
 
-For the machines Marlon sells, there's compatibility built in. If you use <a href="https://www.nexusmods.com/stardewvalley/mods/2569">Befriend Marlon and Gunther</a>, <a href="https://www.nexusmods.com/stardewvalley/mods/7018">Make Marlon Real</a>, or <a href="https://www.nexusmods.com/stardewvalley/mods/3753">Stardew Valley Expanded (SVE)</a>, then there is a friendship requirement. If you use none of those mods, there's a different requirement.
+For the machines Marlon sells, there's built-in integration. If you use <a href="https://www.nexusmods.com/stardewvalley/mods/2569">Befriend Marlon and Gunther</a> or <a href="https://www.nexusmods.com/stardewvalley/mods/7018">Make Marlon Real</a>, then there is a friendship requirement. If you use none of those mods, there's a different requirement.
 
 
 ||Installation||
 
-1. Install <a href="https://smapi.io/">SMAPI</a> (version 3.9.0 or higher)
-2. Install <a href="https://www.nexusmods.com/stardewvalley/mods/5005">Shop Tile Framework (STF)</a> (version 1.0.9 or higher)
-3. OPTIONAL: If you'd like to receive the letters, do this step. If you don't want to receive the letters or don't use MFM, ignore this step. Install <a href="https://www.nexusmods.com/stardewvalley/mods/1536">Mail Framework Mod (MFM)</a> (version 1.10.2 or higher)
-4. <a href="https://www.moddrop.com/stardew-valley/mods/1034704">Download the mod from ModDrop</a> and unzip the mod folders into Stardew Valley/Mods (if you don't want the letters or don't use MFM, delete the folder beginning with [MFM]).
-5. Play the game using SMAPI!
+1. Install <a href="https://smapi.io/">SMAPI</a> (version 4.2.1 or higher)
+2. Install <a href="https://www.nexusmods.com/stardewvalley/mods/5005">Content Patcher (CP)</a> (version 2.6.0 or higher)
+3. <a href="https://www.moddrop.com/stardew-valley/mods/1034704">Download the mod from ModDrop</a> and unzip the mod folders into Stardew Valley/Mods.
+4. Play the game using SMAPI!
 
 
 ||Uninstallation||
@@ -37,9 +36,9 @@ Nexus user kupiqo for providing the German translation for the letter.
 
 <a href="https://www.nexusmods.com/stardewvalley/users/34250790?tab=user+files">spacechase0</a>, who gave me some ideas about what to include in the letter.
 
-HUGE thanks to <a href="https://www.nexusmods.com/stardewvalley/users/3590100?tab=user+files">CherryChain</a>, author of Shop Tile Framework (STF), without them, this mod wouldn't be possible either. Extra thanks to CherryChain for their continued help in the Stardew Valley Discord with troubleshooting. 
+HUGE thanks to <a href="https://www.nexusmods.com/stardewvalley/users/3590100?tab=user+files">CherryChain</a>, author of Shop Tile Framework (STF) for the old version of the mod. Without them, this mod wouldn't be possible either. Extra thanks to CherryChain for their continued help in the Stardew Valley Discord with troubleshooting. 
 
-<a href="https://www.nexusmods.com/stardewvalley/users/2186381?tab=user+files">Digus</a>, author of Mail Framework Mod (MFM), without them, the letter component of this mod wouldn't be possible.
+<a href="https://www.nexusmods.com/stardewvalley/users/2186381?tab=user+files">Digus</a>, author of Mail Framework Mod (MFM) for the old version of the mod. Without them, the letter component of this mod wouldn't be possible.
 
 
 Equipment available for sale (who sells what and for how much):
@@ -52,9 +51,11 @@ Lightning Rod      |      2500      |
 
 Furnace            |      5000      |
 
+Geode Crusher      |      13975     |
+
 Charcoal Kiln      |      3000      |
 
-Geode Crusher      |      13975     |
+Heavy Furnace      |      20000     |
 
                  Dwarf
 
@@ -82,7 +83,7 @@ Slime Incubator    |     20000      |
 
 |   Machine        | Purchase Price |
 
-Mayonnaise Machine |      6630      |
+Mayonnaise Machine |      8300      |
 
 Cheese Press       |      8300      |
 
@@ -94,9 +95,13 @@ Ostrich Incubator  |      26600     |
 
 |   Machine        | Purchase Price |
 
+Scarecrow          |      3000      |
+
 Quality Sprinkler  |      3500      |
 
 Seed Maker         |     10000      |
+
+Dehydrator         |      3000      |
 
 Solar Panel        |     30500      |
 
@@ -109,6 +114,8 @@ Preserves Jar      |      7500      |
 Tapper             |      4000      |
 
 Keg                |      7500      |
+
+Mushroom Log       |      2000      |
 
 Cask               |      2500      |
 
@@ -128,7 +135,13 @@ Oil Maker          |     10000      |
 
 Recycling Machine  |      5500      |
 
+Fish Smoker        |      5000      |
+
 Worm Bin           |      6925      |
+
+Bait Maker         |      8000      |
+
+Deluxe Worm Bin    |     10000      |
 
 
 
@@ -142,9 +155,11 @@ Lightning Rod      |      2500      | Learn recipe and 3 hearts with Clint
 
 Furnace            |      5000      | Learn recipe and 4 hearts with Clint
 
+Geode Crusher      |     13975      | Learn recipe and 4 hearts with Clint
+
 Charcoal Kiln      |      3000      | Learn recipe and 5 hearts with Clint
 
-Geode Crusher      |      13975     | Learn recipe and 4 hearts with Clint
+Heavy Furnace      |     20000      | Learn recipe and 7 hearts with Clint
 
                  Dwarf
 
@@ -162,31 +177,35 @@ Bee House          |      5750      | Learn recipe and 5 hearts with Krobus
 
 |   Machine        | Purchase Price | Requirements
 
-Bone Mill          |      2180      | Learn recipe, and if using Befriend Marlon and Gunther, Stardew Valley Expanded (SVE) or Make Marlon Real, 3 hearts with Marlon. 
+Bone Mill          |      2180      | Learn recipe, and if using Befriend Marlon and Gunther or Make Marlon Real, 3 hearts with Marlon. 
 
-Slime Egg-Press    |      8000      | Learn recipe, and if using Befriend Marlon and Gunther, Stardew Valley Expanded (SVE) or Make Marlon Real, 6 hearts with Marlon. If you're not using any of those mods, then getting to the bottom of the mines once
+Slime Egg-Press    |      8000      | Learn recipe, and if using Befriend Marlon and Gunther or Make Marlon Real, 6 hearts with Marlon. If you're not using any of those mods, then getting to the bottom of the mines once
 
-Slime Incubator    |     20000      | Learn recipe, and if using Befriend Marlon and Gunther, Stardew Valley Expanded (SVE) or Make Marlon Real, 7 hearts with Marlon. If you're not using any of those mods, then getting to the bottom of the mines once
+Slime Incubator    |     20000      | Learn recipe, and if using Befriend Marlon and Gunther or Make Marlon Real, 7 hearts with Marlon. If you're not using any of those mods, then getting to the bottom of the mines once
 
                  Marnie
 
 |   Machine        | Purchase Price | Requirements
 
-Mayonnaise Machine |      6630      | Learn recipe and 4 hearts with Marnie
+Mayonnaise Machine |      8300      | Learn recipe and 4 hearts with Marnie
 
 Cheese Press       |      8300      | Learn recipe and 5 hearts with Marnie
 
 Loom               |      3200      | Learn recipe and 7 hearts with Marnie
 
-Ostrich Incubator  |      26600     | Learn recipe and 9 hearts with Marnie
+Ostrich Incubator  |     26600      | Learn recipe and 9 hearts with Marnie
 
                  Pierre
 
 |   Machine        | Purchase Price | Requirements
 
+Scarecrow          |      3000      | Learn recipe and 2 hearts with Pierre
+
 Quality Sprinkler  |      3500      | Learn recipe and 3 hearts with Pierre
 
 Seed Maker         |     10000      | Learn recipe and 5 hearts with Pierre
+
+Dehydrator         |      3000      | Learn recipe and 6 hearts with Pierre
 
 Solar Panel        |     30500      | Learn recipe and 9 hearts with Pierre
 
@@ -194,11 +213,13 @@ Solar Panel        |     30500      | Learn recipe and 9 hearts with Pierre
 
 |   Machine        | Purchase Price | Requirements
 
-Preserves Jar      |      7500      | Learn recipe and 4 hearts with Robin
+Preserves Jar      |      7500      | Learn recipe and 3 hearts with Robin
 
 Tapper             |      4000      | Learn recipe and 4 hearts with Robin
 
 Keg                |      7500      | Learn recipe and 5 hearts with Robin
+
+Mushroom Log       |      2000      | Learn recipe and 6 hearts with Robin
 
 Cask               |      2500      | Learn recipe and 7 hearts with Robin
 
@@ -216,6 +237,20 @@ Oil Maker          |     10000      | Learn recipe and 5 hearts with Sandy
 
 |   Machine        | Purchase Price | Requirements
 
-Recycling Machine  |      5500      | Learn recipe and 5 hearts with Willy
+Recycling Machine  |      5500      | Learn recipe and 3 hearts with Willy
 
-Worm Bin           |      6925      | Learn recipe and 6 hearts with Willy
+Fish Smoker        |      5000      | Learn recipe and 4 hearts with Willy
+
+Worm Bin           |      6925      | Learn recipe and 5 hearts with Willy
+
+Bait Maker         |      8000      | Learn recipe and 7 hearts with Willy
+
+Deluxe Worm Bin    |     10000      | Learn recipe and 9 hearts with Willy
+
+
+||2.0.0 Changelog||
+- Updated for 1.6. Now requires SMAPI version 4.2.1+ and CP version 2.6.0+. No longer requires STF or MFM. If updating from previous version, delete all previous mod folders before installing the update.
+- Removed specific check for SVE for Marlon's machines. SVE users can still buy items from Marlon by unlocking recipes and getting to the bottom of the mines once.
+- Added new machines: heavy furnace, dehydrator, mushroom log, heavy tapper, fish smoker, bait maker, and deluxe worm bin.
+- Updated mayonnaise machine price to match cheese press price.
+- Fixed oil maker price typo (it's 10,000g, not 1,000g).
