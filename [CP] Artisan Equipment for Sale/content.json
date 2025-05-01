@@ -213,9 +213,7 @@
 				}
 			],
 		},
-		// Artisan Equipment at Marlon's
-		// Block for Yoshimax's Befriend Marlon or YWolf's Make Marlon Real
-		// NEED TO TEST WITH THOSE MODS
+		// Artisan Equipment at Marlon's (Befriend Marlon is good. Need to confirm Make Marlon Real)
 		/*Bone Mill*/ {
 			"LogName": "Artisan Equipment - Bone Mill at Marlon's with friendship",
 			"Action": "EditData",
