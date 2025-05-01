@@ -214,6 +214,84 @@
 			],
 		},
 		// Artisan Equipment at Marlon's
+		// Block for Yoshimax's Befriend Marlon or YWolf's Make Marlon Real
+		// NEED TO TEST WITH THOSE MODS
+		/*Bone Mill*/ {
+			"LogName": "Artisan Equipment - Bone Mill at Marlon's with friendship",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"AdventureShop",
+				"Items"
+			],
+			"Entries": {
+				"{{ModID}}_BoneMill": {
+					"Id": "{{ModID}}_BoneMill",
+					"ItemId": "(BC)90",
+					"Price": 2180,
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStock": 1,
+					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Bone Mill, {{HasMod |contains=Yoshimax.BefriendMarlon, YWolf.Marlon}}, PLAYER_FRIENDSHIP_POINTS Current Marlon 750" // available on Thursdays if player knows the Bone Mill recipe AND has 3 hearts with Marlon
+				}
+			},
+			"MoveEntries": [
+				{
+					"ID": "{{ModID}}_BoneMill",
+					"ToPosition": "Top"
+				}
+			],
+		},
+		/*Slime Egg Press*/ {
+			"LogName": "Artisan Equipment - Slime Egg-Press at Marlon's with friendship",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"AdventureShop",
+				"Items"
+			],
+			"Entries": {
+				"{{ModID}}_SlimeEggPress": {
+					"Id": "{{ModID}}_SlimeEggPress",
+					"ItemId": "(BC)158",
+					"Price": 2180,
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStock": 1,
+					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Slime Egg-Press, {{HasMod |contains=Yoshimax.BefriendMarlon, YWolf.Marlon}}, PLAYER_FRIENDSHIP_POINTS Current Marlon 1500" // available on Thursdays if player knows the Slime Egg-Press recipe AND has 6 hearts with Marlon
+				}
+			},
+			"MoveEntries": [
+				{
+					"ID": "{{ModID}}_SlimeEggPress",
+					"ToPosition": "Top"
+				}
+			],
+		},
+		/*Slime Incubator*/ {
+			"LogName": "Artisan Equipment - Slime Incubator at Marlon's with friendship",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"AdventureShop",
+				"Items"
+			],
+			"Entries": {
+				"{{ModID}}_SlimeIncubator": {
+					"Id": "{{ModID}}_SlimeIncubator",
+					"ItemId": "(BC)156",
+					"Price": 20000,
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStock": 1,
+					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Slime Incubator, {{HasMod |contains=Yoshimax.BefriendMarlon, YWolf.Marlon}}, PLAYER_FRIENDSHIP_POINTS Current Marlon 1750" // available on Thursdays if player knows the Slime Incubator recipe AND has 7 hearts with Marlon
+				}
+			},
+			"MoveEntries": [
+				{
+					"ID": "{{ModID}}_SlimeIncubator",
+					"ToPosition": "Top"
+				}
+			],
+		},
+		// Marlon block for vanilla (don't have Yoshimax's Befriend Marlon or YWolf's Make Marlon Real)
 		/*Bone Mill*/ {
 			"LogName": "Artisan Equipment - Bone Mill at Marlon's with mine exploration",
 			"Action": "EditData",
