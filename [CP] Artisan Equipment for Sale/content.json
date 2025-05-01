@@ -31,7 +31,7 @@
 					"Actions": [
 						"AddMail Current {{ModID}}_Letter Now"
 					],
-					"MarkActionApplied": "{{ArtisanEquipmentLetterRepeatable}}" // this is the part that makes it repeat WOOT WOOT THANK YOU AIRYN
+					"MarkActionApplied": "{{ArtisanEquipmentLetterOnlySendsOnce}}" // this is the part that makes it repeat WOOT WOOT THANK YOU AIRYN
 				}
 			}
 		},
