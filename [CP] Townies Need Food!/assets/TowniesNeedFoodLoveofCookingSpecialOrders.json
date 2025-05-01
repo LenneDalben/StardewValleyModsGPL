@@ -831,7 +831,7 @@
         "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_loadedpotato": "true"
       }
     },
-    // Sandy Refreshing Salad LoC tropical missing Side note should this be 2 of them? It's only 1 right now.
+    // Sandy Refreshing Salad and Parfait LoC
     {
       "LogName": "Sandy Refreshing Salad LoC",
       "Action": "EditData",
@@ -842,7 +842,7 @@
           "Requester": "Emily",
           "Duration": "Week",
           "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "island",
+          "RequiredTags": "",
           "OrderType": "",
           "SpecialRule": "",
           "Text": "[TowniesNeedFood_Sandy_RefreshingSaladLoC_Text]",
@@ -855,8 +855,18 @@
               "Text": "[TowniesNeedFood_Sandy_RefreshingSaladLoC_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_tropicalsalad", // missing
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_summersalad",
                 "Message": "[TowniesNeedFood_Sandy_RefreshingSaladLoC_Message_0]",
+                "TargetName": "Sandy"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[TowniesNeedFood_Sandy_RefreshingSaladLoC_Objective_Text_1]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_parfait",
+                "Message": "[TowniesNeedFood_Sandy_RefreshingSaladLoC_Message_1]",
                 "TargetName": "Sandy"
               }
             }
@@ -865,7 +875,7 @@
             {
               "Type": "Money",
               "Data": {
-                "Amount": "1275"
+                "Amount": "1500"
               }
             },
             {
@@ -877,8 +887,8 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "IncludeIslandContent": true,
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_tropicalsalad": "true",
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_summersalad": "true",
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_parfait": "true",
         "HasSeenEvent": "67"
       }
     },
@@ -1189,7 +1199,7 @@
         "TowniesNeedFood_Pam_RichFoodLoC_Message_1": "{{i18n:TowniesNeedFood_Pam_RichFoodLoC_Message_1}}"
       }
     },
-    // Strings Sandy Refreshing Salad LoC
+    // Strings Sandy Refreshing Salad and Parfait LoC
     {
       "LogName": "Strings Sandy Refreshing Salad LoC",
       "Action": "EditData",
@@ -1198,7 +1208,9 @@
         "TowniesNeedFood_Sandy_RefreshingSaladLoC_Name": "{{i18n:TowniesNeedFood_Sandy_RefreshingSaladLoC_Name}}",
         "TowniesNeedFood_Sandy_RefreshingSaladLoC_Text": "{{i18n:TowniesNeedFood_Sandy_RefreshingSaladLoC_Text}}",
         "TowniesNeedFood_Sandy_RefreshingSaladLoC_Objective_Text_0": "{{i18n:TowniesNeedFood_Sandy_RefreshingSaladLoC_Objective_Text_0}}",
-        "TowniesNeedFood_Sandy_RefreshingSaladLoC_Message_0": "{{i18n:TowniesNeedFood_Sandy_RefreshingSaladLoC_Message_0}}"
+        "TowniesNeedFood_Sandy_RefreshingSaladLoC_Objective_Text_1": "{{i18n:TowniesNeedFood_Sandy_RefreshingSaladLoC_Objective_Text_1}}",
+        "TowniesNeedFood_Sandy_RefreshingSaladLoC_Message_0": "{{i18n:TowniesNeedFood_Sandy_RefreshingSaladLoC_Message_0}}",
+        "TowniesNeedFood_Sandy_RefreshingSaladLoC_Message_1": "{{i18n:TowniesNeedFood_Sandy_RefreshingSaladLoC_Message_1}}"
       }
     },
     // Strings Willy Lunch & Dinner Leftovers LoC
