@@ -668,6 +668,31 @@
 				}
 			],
 		},
+		/*Mushroom Log*/ {
+			"LogName": "Artisan Equipment - Mushroom Log at Robin's",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Carpenter",
+				"Items"
+			],
+			"Entries": {
+				"{{ModID}}_MushroomLog": {
+					"Id": "{{ModID}}_MushroomLog",
+					"ItemId": "(BC)MushroomLog",
+					"Price": 2000,
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStock": 1,
+					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Mushroom Log, PLAYER_FRIENDSHIP_POINTS Current Robin 1500" // available on Thursdays if player knows the Mushroom Log recipe AND has 6 hearts with Robin
+				}
+			},
+			"MoveEntries": [
+				{
+					"ID": "{{ModID}}_MushroomLog",
+					"ToPosition": "Top"
+				}
+			],
+		},
 		/*Cask*/ {
 			"LogName": "Artisan Equipment - Cask at Robin's",
 			"Action": "EditData",
@@ -714,31 +739,6 @@
 			"MoveEntries": [
 				{
 					"ID": "{{ModID}}_HeavyTapper",
-					"ToPosition": "Top"
-				}
-			],
-		},
-		/*Mushroom Log*/ {
-			"LogName": "Artisan Equipment - Mushroom Log at Robin's",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"Carpenter",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_MushroomLog": {
-					"Id": "{{ModID}}_MushroomLog",
-					"ItemId": "(BC)MushroomLog",
-					"Price": 2000,
-					"IgnoreShopPriceModifiers": true,
-					"AvailableStock": 1,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Mushroom Log, PLAYER_FRIENDSHIP_POINTS Current Robin 1500" // available on Thursdays if player knows the Mushroom Log recipe AND has 6 hearts with Robin
-				}
-			},
-			"MoveEntries": [
-				{
-					"ID": "{{ModID}}_MushroomLog",
 					"ToPosition": "Top"
 				}
 			],
@@ -835,7 +835,7 @@
 					"Price": 5000,
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 1,
-					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Fish Smoker, PLAYER_FRIENDSHIP_POINTS Current Willy 100" // available on Thursdays if player knows the Fish Smoker recipe AND has 4 hearts with Willy
+					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Fish Smoker, PLAYER_FRIENDSHIP_POINTS Current Willy 1000" // available on Thursdays if player knows the Fish Smoker recipe AND has 4 hearts with Willy
 				}
 			},
 			"MoveEntries": [
