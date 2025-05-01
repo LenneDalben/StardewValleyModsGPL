@@ -44,15 +44,6 @@
       "Action": "Include",
       "FromFile": "assets/TowniesNeedFoodSpecialOrders.json"
     },
-    // Include Love of Cooking Orders and Strings Patches
-    {
-      "LogName": "Include Townies Need Food LoC Orders",
-      "Action": "Include",
-      "FromFile": "assets/TowniesNeedFoodLoveofCookingSpecialOrders.json",
-      "When": {
-        "HasMod": "blueberry.LoveOfCooking"
-      }
-    },
     // Strings below
     // Strings Abigail Sweet and Spicy
     {
@@ -582,7 +573,6 @@
         "TowniesNeedFood_Wizard_ProtectivePasta_Message_0": "{{i18n:TowniesNeedFood_Wizard_ProtectivePasta_Message_0}}"
       }
     },
-    //
     //
     // Mod Integrations~
     //
