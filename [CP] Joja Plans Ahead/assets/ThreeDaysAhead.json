@@ -17,7 +17,8 @@
                 "{{ModId}}_LetterTrigger": {
                     "Id": "{{ModId}}_LetterTrigger",
                     "Trigger": "DayStarted",
-                    "Condition": "DAY_OF_MONTH 26, !SEASON Fall",
+					"IgnoreShopPriceModifiers": true,
+					"Condition": "DAY_OF_MONTH 26, !SEASON Fall",
                     "Actions": [
                         "AddMail Current {{ModID}}_Letter Now"
                     ],
@@ -39,7 +40,8 @@
                     "Id": "{{ModID}}_RedCabbageSeeds",
                     "ItemId": "(O)476",
                     "Price": 100,
-                    "Condition": "YEAR 2, SEASON Spring, DAY_OF_MONTH 26 27 28" // available after year 2 AND it's between spring 26-28
+					"IgnoreShopPriceModifiers": true,
+					"Condition": "YEAR 2, SEASON Spring, DAY_OF_MONTH 26 27 28" // available after year 2 AND it's between spring 26-28
                 }
             },
             "MoveEntries": [
@@ -62,55 +64,64 @@
                     "Id": "{{ModID}}_PoppySeeds",
                     "ItemId": "(O)453",
                     "Price": 125,
-                    "Condition": "SEASON Spring, DAY_OF_MONTH 26 27 28" // available if it's between spring 26-28
+					"IgnoreShopPriceModifiers": true,
+					"Condition": "SEASON Spring, DAY_OF_MONTH 26 27 28" // available if it's between spring 26-28
                 },
                 "{{ModID}}_SpangleSeeds": {
                     "Id": "{{ModID}}_SpangleSeeds",
                     "ItemId": "(O)455",
                     "Price": 62,
-                    "Condition": "SEASON Spring, DAY_OF_MONTH 26 27 28" // available if it's between spring 26-28
+					"IgnoreShopPriceModifiers": true,
+					"Condition": "SEASON Spring, DAY_OF_MONTH 26 27 28" // available if it's between spring 26-28
                 },
                 "{{ModID}}_SunflowerSeeds": {
                     "Id": "{{ModID}}_SunflowerSeeds",
                     "ItemId": "(O)431",
                     "Price": 125,
-                    "Condition": "SEASON Spring, DAY_OF_MONTH 26 27 28" // available if it's between spring 26-28
+					"IgnoreShopPriceModifiers": true,
+					"Condition": "SEASON Spring, DAY_OF_MONTH 26 27 28" // available if it's between spring 26-28
                 },
                 "{{ModID}}_MelonSeeds": {
                     "Id": "{{ModID}}_MelonSeeds",
                     "ItemId": "(O)479",
                     "Price": 100,
-                    "Condition": "SEASON Spring, DAY_OF_MONTH 26 27 28" // available if it's between spring 26-28
+					"IgnoreShopPriceModifiers": true,
+					"Condition": "SEASON Spring, DAY_OF_MONTH 26 27 28" // available if it's between spring 26-28
                 },
                 "{{ModID}}_CornSeeds": {
                     "Id": "{{ModID}}_CornSeeds",
                     "ItemId": "(O)487",
                     "Price": 187,
-                    "Condition": "SEASON Spring, DAY_OF_MONTH 26 27 28" // available if it's between spring 26-28
+					"IgnoreShopPriceModifiers": true,
+					"Condition": "SEASON Spring, DAY_OF_MONTH 26 27 28" // available if it's between spring 26-28
                 },
                 "{{ModID}}_HopsStarter": {
                     "Id": "{{ModID}}_HopsStarter",
                     "ItemId": "(O)302",
                     "Price": 75,
-                    "Condition": "SEASON Spring, DAY_OF_MONTH 26 27 28" // available if it's between spring 26-28
+					"IgnoreShopPriceModifiers": true,
+					"Condition": "SEASON Spring, DAY_OF_MONTH 26 27 28" // available if it's between spring 26-28
                 },
                 "{{ModID}}_PepperSeeds": {
                     "Id": "{{ModID}}_PepperSeeds",
                     "ItemId": "(O)482",
                     "Price": 50,
-                    "Condition": "SEASON Spring, DAY_OF_MONTH 26 27 28" // available if it's between spring 26-28
+					"IgnoreShopPriceModifiers": true,
+					"Condition": "SEASON Spring, DAY_OF_MONTH 26 27 28" // available if it's between spring 26-28
                 },
                 "{{ModID}}_RadishSeeds": {
                     "Id": "{{ModID}}_RadishSeeds",
                     "ItemId": "(O)484",
                     "Price": 50,
-                    "Condition": "SEASON Spring, DAY_OF_MONTH 26 27 28" // available if it's between spring 26-28
+					"IgnoreShopPriceModifiers": true,
+					"Condition": "SEASON Spring, DAY_OF_MONTH 26 27 28" // available if it's between spring 26-28
                 },
                 "{{ModID}}_TomatoSeeds": {
                     "Id": "{{ModID}}_TomatoSeeds",
                     "ItemId": "(O)480",
                     "Price": 62,
-                    "Condition": "SEASON Spring, DAY_OF_MONTH 26 27 28" // available if it's between spring 26-28
+					"IgnoreShopPriceModifiers": true,
+					"Condition": "SEASON Spring, DAY_OF_MONTH 26 27 28" // available if it's between spring 26-28
                 }
             },
             "MoveEntries": [
@@ -166,7 +177,8 @@
                     "Id": "{{ModID}}_ArtichokeSeeds",
                     "ItemId": "(O)489",
                     "Price": 38,
-                    "Condition": "YEAR 2, SEASON Summer, DAY_OF_MONTH 26 27 28" // available after year 2 AND it's summer 28
+					"IgnoreShopPriceModifiers": true,
+					"Condition": "YEAR 2, SEASON Summer, DAY_OF_MONTH 26 27 28" // available after year 2 AND it's summer 28
                 }
             },
             "MoveEntries": [
@@ -189,49 +201,57 @@
                     "Id": "{{ModID}}_FairySeeds",
                     "ItemId": "(O)425",
                     "Price": 250,
-                    "Condition": "SEASON Summer, DAY_OF_MONTH 26 27 28" // available if it's between summer 26-28
+					"IgnoreShopPriceModifiers": true,
+					"Condition": "SEASON Summer, DAY_OF_MONTH 26 27 28" // available if it's between summer 26-28
                 },
                 "{{ModID}}_AmaranthSeeds": {
                     "Id": "{{ModID}}_AmaranthSeeds",
                     "ItemId": "(O)299",
                     "Price": 87,
-                    "Condition": "SEASON Summer, DAY_OF_MONTH 26 27 28" // available if it's between summer 26-28
+					"IgnoreShopPriceModifiers": true,
+					"Condition": "SEASON Summer, DAY_OF_MONTH 26 27 28" // available if it's between summer 26-28
                 },
                 "{{ModID}}_BokChoySeeds": {
                     "Id": "{{ModID}}_BokChoySeeds",
                     "ItemId": "(O)491",
                     "Price": 62,
-                    "Condition": "SEASON Summer, DAY_OF_MONTH 26 27 28" // available if it's between summer 26-28
+					"IgnoreShopPriceModifiers": true,
+					"Condition": "SEASON Summer, DAY_OF_MONTH 26 27 28" // available if it's between summer 26-28
                 },
                 "{{ModID}}_CranberrySeeds": {
                     "Id": "{{ModID}}_CranberrySeeds",
                     "ItemId": "(O)493",
                     "Price": 300,
-                    "Condition": "SEASON Summer, DAY_OF_MONTH 26 27 28" // available if it's between summer 26-28
+					"IgnoreShopPriceModifiers": true,
+					"Condition": "SEASON Summer, DAY_OF_MONTH 26 27 28" // available if it's between summer 26-28
                 },
                 "{{ModID}}_EggplantSeeds": {
                     "Id": "{{ModID}}_EggplantSeeds",
                     "ItemId": "(O)488",
                     "Price": 25,
-                    "Condition": "SEASON Summer, DAY_OF_MONTH 26 27 28" // available if it's between summer 26-28
+					"IgnoreShopPriceModifiers": true,
+					"Condition": "SEASON Summer, DAY_OF_MONTH 26 27 28" // available if it's between summer 26-28
                 },
                 "{{ModID}}_GrapeStarter": {
                     "Id": "{{ModID}}_GrapeStarter",
                     "ItemId": "(O)301",
                     "Price": 75,
-                    "Condition": "SEASON Summer, DAY_OF_MONTH 26 27 28" // available if it's between summer 26-28
+					"IgnoreShopPriceModifiers": true,
+					"Condition": "SEASON Summer, DAY_OF_MONTH 26 27 28" // available if it's between summer 26-28
                 },
                 "{{ModID}}_YamSeeds": {
                     "Id": "{{ModID}}_YamSeeds",
                     "ItemId": "(O)492",
                     "Price": 75,
-                    "Condition": "SEASON Summer, DAY_OF_MONTH 26 27 28" // available if it's between summer 26-28
+					"IgnoreShopPriceModifiers": true,
+					"Condition": "SEASON Summer, DAY_OF_MONTH 26 27 28" // available if it's between summer 26-28
                 },
                 "{{ModID}}_PumpkinSeeds": {
                     "Id": "{{ModID}}_PumpkinSeeds",
                     "ItemId": "(O)490",
                     "Price": 125,
-                    "Condition": "SEASON Summer, DAY_OF_MONTH 26 27 28" // available if it's between summer 26-28
+					"IgnoreShopPriceModifiers": true,
+					"Condition": "SEASON Summer, DAY_OF_MONTH 26 27 28" // available if it's between summer 26-28
                 }
             },
             "MoveEntries": [
@@ -283,13 +303,15 @@
                     "Id": "{{ModID}}_GarlicSeeds",
                     "ItemId": "(O)476",
                     "Price": 40,
-                    "Condition": "YEAR 2, SEASON Winter, DAY_OF_MONTH 26 27 28" // available after year 2 AND it's winter 28
+					"IgnoreShopPriceModifiers": true,
+					"Condition": "YEAR 2, SEASON Winter, DAY_OF_MONTH 26 27 28" // available after year 2 AND it's winter 28
                 },
                 "{{ModID}}_RiceShoot": {
                     "Id": "{{ModID}}_RiceShoot",
                     "ItemId": "(O)273",
                     "Price": 40,
-                    "Condition": "YEAR 2, SEASON Winter, DAY_OF_MONTH 26 27 28" // available after year 2 AND it's winter 28
+					"IgnoreShopPriceModifiers": true,
+					"Condition": "YEAR 2, SEASON Winter, DAY_OF_MONTH 26 27 28" // available after year 2 AND it's winter 28
                 }
             },
             "MoveEntries": [
@@ -316,43 +338,50 @@
                     "Id": "{{ModID}}_JazzSeeds",
                     "ItemId": "(O)429",
                     "Price": 37,
-                    "Condition": "SEASON Winter, DAY_OF_MONTH 26 27 28" // available if it's between winter 26-28
+					"IgnoreShopPriceModifiers": true,
+					"Condition": "SEASON Winter, DAY_OF_MONTH 26 27 28" // available if it's between winter 26-28
                 },
                 "{{ModID}}_TulipBulb": {
                     "Id": "{{ModID}}_TulipBulb",
                     "ItemId": "(O)427",
                     "Price": 25,
-                    "Condition": "SEASON Winter, DAY_OF_MONTH 26 27 28" // available if it's between winter 26-28
+					"IgnoreShopPriceModifiers": true,
+					"Condition": "SEASON Winter, DAY_OF_MONTH 26 27 28" // available if it's between winter 26-28
                 },
                 "{{ModID}}_CauliflowerSeeds": {
                     "Id": "{{ModID}}_CauliflowerSeeds",
                     "ItemId": "(O)474",
                     "Price": 100,
-                    "Condition": "SEASON Winter, DAY_OF_MONTH 26 27 28" // available if it's between winter 26-28
+					"IgnoreShopPriceModifiers": true,
+					"Condition": "SEASON Winter, DAY_OF_MONTH 26 27 28" // available if it's between winter 26-28
                 },
                 "{{ModID}}_BeanStarter": {
                     "Id": "{{ModID}}_BeanStarter",
                     "ItemId": "(O)473",
                     "Price": 75,
-                    "Condition": "SEASON Winter, DAY_OF_MONTH 26 27 28" // available if it's between winter 26-28
+					"IgnoreShopPriceModifiers": true,
+					"Condition": "SEASON Winter, DAY_OF_MONTH 26 27 28" // available if it's between winter 26-28
                 },
                 "{{ModID}}_KaleSeeds": {
                     "Id": "{{ModID}}_KaleSeeds",
                     "ItemId": "(O)477",
                     "Price": 87,
-                    "Condition": "SEASON Winter, DAY_OF_MONTH 26 27 28" // available if it's between winter 26-28
+					"IgnoreShopPriceModifiers": true,
+					"Condition": "SEASON Winter, DAY_OF_MONTH 26 27 28" // available if it's between winter 26-28
                 },
                 "{{ModID}}_ParsnipSeeds": {
                     "Id": "{{ModID}}_ParsnipSeeds",
                     "ItemId": "(O)472",
                     "Price": 25,
-                    "Condition": "SEASON Winter, DAY_OF_MONTH 26 27 28" // available if it's between winter 26-28
+					"IgnoreShopPriceModifiers": true,
+					"Condition": "SEASON Winter, DAY_OF_MONTH 26 27 28" // available if it's between winter 26-28
                 },
                 "{{ModID}}_PotatoSeeds": {
                     "Id": "{{ModID}}_PotatoSeeds",
                     "ItemId": "(O)475",
                     "Price": 62,
-                    "Condition": "SEASON Winter, DAY_OF_MONTH 26 27 28" // available if it's between winter 26-28
+					"IgnoreShopPriceModifiers": true,
+					"Condition": "SEASON Winter, DAY_OF_MONTH 26 27 28" // available if it's between winter 26-28
                 }
             },
             "MoveEntries": [
