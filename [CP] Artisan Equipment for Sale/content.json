@@ -1,9 +1,8 @@
 {
 	"Format": "2.6.0",
-	// add note to the mod page to delete old folders first and the blurb about config
 	"ConfigSchema": {
 		"ArtisanEquipmentLetterOnlySendsOnce": {
-			"Description": "Choose whether to receive the letter reminder only once (default: false). NOTE: if you set this to 'true', the reminder won't repeat, even if you set this to 'false' later. Choose wisely!",
+			"Description": "Choose whether to receive the letter reminder only once (default: false). NOTE: if you set this to 'true', the reminder won't repeat, even if you set this to 'false' later. You'll need a console command (refer to ModDrop mod description or the readme file for details). Choose wisely!",
 			"AllowValues": "true, false",
 			"Default": "false",
 			"AllowBlank": false,

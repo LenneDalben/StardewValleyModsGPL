@@ -1,7 +1,7 @@
 	{
 		// ***Config Options***
 		"config.ArtisanEquipmentLetterOnlySendsOnce.name": "ArtisanEquipmentLetterOnlySendsOnce",
-		"config.ArtisanEquipmentLetterOnlySendsOnce.description": "Choose whether to receive the letter reminder only once (default: false). NOTE: if you set this to 'true', the reminder won't repeat, even if you set this to 'false' later. Choose wisely!",		
+		"config.ArtisanEquipmentLetterOnlySendsOnce.description": "Choose whether to receive the letter reminder only once (default: false). NOTE: if you set this to 'true', the reminder won't repeat, even if you set this to 'false' later. You'll need a console command (refer to ModDrop mod description or the readme file for details). Choose wisely!",		
 		"config.ArtisanEquipmentLetterOnlySendsOnce.values.true": "true",
 		"config.ArtisanEquipmentLetterOnlySendsOnce.values.false": "false",
 		//
