@@ -1,13 +1,13 @@
 {
-  "Name": "[STF] Joja Has Extra Stock",
+  "Name": "[CP] Joja Has Extra Stock",
   "Author": "LenneDalben",
-  "Version": "1.1.4",
+  "Version": "2.0.0",
   "Description": "Joja's inventory is expanded to include basic cooking ingredients, some fishing gear, and coal.",
   "UniqueID": "LenneDalben.JojaExtraStock",
-  "MinimumApiVersion": "3.4.0",
+  "MinimumApiVersion": "4.2.1",
   "UpdateKeys": [ "ModDrop:1033080" ],
   "ContentPackFor": {
-    "UniqueID": "Cherry.ShopTileFramework",
-    "MinimumVersion": "1.0.4"
+    "UniqueID": "Pathoschild.ContentPatcher",
+	   "MinimumVersion": "2.6.0"
   }
 }
