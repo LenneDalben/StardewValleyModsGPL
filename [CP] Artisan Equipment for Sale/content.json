@@ -49,6 +49,7 @@
 					"Id": "{{ModID}}_LightningRod",
 					"ItemId": "(BC)9",
 					"Price": 2500,
+					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 2,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Lightning Rod, PLAYER_FRIENDSHIP_POINTS Current Clint 750" // available on Thursdays if player knows the lightning rod recipe AND has 3 hearts with Clint
 				}
@@ -73,6 +74,7 @@
 					"Id": "{{ModID}}_Furnace",
 					"ItemId": "(BC)13",
 					"Price": 5000,
+					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 2,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Furnace, PLAYER_FRIENDSHIP_POINTS Current Clint 1000" // available on Thursdays if player knows the furnace recipe AND has 4 hearts with Clint
 				}
@@ -97,6 +99,7 @@
 					"Id": "{{ModID}}_GeodeCrusher",
 					"ItemId": "(BC)182",
 					"Price": 13975,
+					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 2,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Geode Crusher, PLAYER_FRIENDSHIP_POINTS Current Clint 1000" // available on Thursdays if player knows the Geode Crusher recipe AND has 4 hearts with Clint
 				}
@@ -121,6 +124,7 @@
 					"Id": "{{ModID}}_CharcoalKiln",
 					"ItemId": "(BC)114",
 					"Price": 3000,
+					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 2,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Charcoal Kiln, PLAYER_FRIENDSHIP_POINTS Current Clint 1250" // available on Thursdays if player knows the charcoal kiln recipe AND has 5 hearts with Clint
 				}
@@ -145,6 +149,7 @@
 					"Id": "{{ModID}}_HeavyFurnace",
 					"ItemId": "(BC)HeavyFurnace",
 					"Price": 20000,
+					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 2,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Heavy Furnace, PLAYER_FRIENDSHIP_POINTS Current Clint 1750" // available on Thursdays if player knows the Heavy Furnace recipe AND has 7 hearts with Clint
 				}
@@ -170,6 +175,7 @@
 					"Id": "{{ModID}}_Crystalarium",
 					"ItemId": "(BC)21",
 					"Price": 47400,
+					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 2,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Crystalarium, PLAYER_FRIENDSHIP_POINTS Current Dwarf 2000" // available on Thursdays if player knows the Crystalarium recipe AND has 8 hearts with Dwarf
 				}
@@ -195,6 +201,7 @@
 					"Id": "{{ModID}}_BeeHouse",
 					"ItemId": "(BC)10",
 					"Price": 5750,
+					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 2,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Bee House, PLAYER_FRIENDSHIP_POINTS Current Krobus 1250" // available on Thursdays if player knows the Bee House recipe AND has 5 hearts with Krobus
 				}
@@ -222,6 +229,7 @@
 					"Id": "{{ModID}}_BoneMill",
 					"ItemId": "(BC)90",
 					"Price": 2180,
+					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 1,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Bone Mill, {{HasMod |contains=Yoshimax.BefriendMarlon, YWolf.Marlon}}, PLAYER_FRIENDSHIP_POINTS Current Marlon 750" // available on Thursdays if player knows the Bone Mill recipe AND has 3 hearts with Marlon
 				}
@@ -246,6 +254,7 @@
 					"Id": "{{ModID}}_SlimeEggPress",
 					"ItemId": "(BC)158",
 					"Price": 2180,
+					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 1,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Slime Egg-Press, {{HasMod |contains=Yoshimax.BefriendMarlon, YWolf.Marlon}}, PLAYER_FRIENDSHIP_POINTS Current Marlon 1500" // available on Thursdays if player knows the Slime Egg-Press recipe AND has 6 hearts with Marlon
 				}
@@ -270,6 +279,7 @@
 					"Id": "{{ModID}}_SlimeIncubator",
 					"ItemId": "(BC)156",
 					"Price": 20000,
+					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 1,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Slime Incubator, {{HasMod |contains=Yoshimax.BefriendMarlon, YWolf.Marlon}}, PLAYER_FRIENDSHIP_POINTS Current Marlon 1750" // available on Thursdays if player knows the Slime Incubator recipe AND has 7 hearts with Marlon
 				}
@@ -295,6 +305,7 @@
 					"Id": "{{ModID}}_BoneMill",
 					"ItemId": "(BC)90",
 					"Price": 2180,
+					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 1,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Bone Mill, !{{HasMod |contains=Yoshimax.BefriendMarlon, YWolf.Marlon}}, MINE_LOWEST_LEVEL_REACHED 120" // available on Thursdays if player knows the Bone Mill recipe AND player has reached the bottom of the mines once
 				}
@@ -319,6 +330,7 @@
 					"Id": "{{ModID}}_SlimeEggPress",
 					"ItemId": "(BC)158",
 					"Price": 2180,
+					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 1,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Slime Egg-Press, !{{HasMod |contains=Yoshimax.BefriendMarlon, YWolf.Marlon}}, MINE_LOWEST_LEVEL_REACHED 120" // available on Thursdays if player knows the Slime Egg-Press recipe AND player has reached the bottom of the mines once
 				}
@@ -343,6 +355,7 @@
 					"Id": "{{ModID}}_SlimeIncubator",
 					"ItemId": "(BC)156",
 					"Price": 20000,
+					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 1,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Slime Incubator, !{{HasMod |contains=Yoshimax.BefriendMarlon, YWolf.Marlon}}, MINE_LOWEST_LEVEL_REACHED 120" // available on Thursdays if player knows the Slime Incubator recipe AND player has reached the bottom of the mines once
 				}
@@ -368,6 +381,7 @@
 					"Id": "{{ModID}}_MayonnaiseMachine",
 					"ItemId": "(BC)24",
 					"Price": 8300,
+					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 2,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Mayonnaise Machine, PLAYER_FRIENDSHIP_POINTS Current Marnie 1000" // available on Thursdays if player knows the Mayonnaise Machine recipe AND has 4 hearts with Marnie
 				}
@@ -392,6 +406,7 @@
 					"Id": "{{ModID}}_CheesePress",
 					"ItemId": "(BC)16",
 					"Price": 8300,
+					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 2,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Cheese Press, PLAYER_FRIENDSHIP_POINTS Current Marnie 1250" // available on Thursdays if player knows the Cheese Press recipe AND has 5 hearts with Marnie
 				}
@@ -416,6 +431,7 @@
 					"Id": "{{ModID}}_Loom",
 					"ItemId": "(BC)17",
 					"Price": 3200,
+					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 2,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Loom, PLAYER_FRIENDSHIP_POINTS Current Marnie 1750" // available on Thursdays if player knows the Loom recipe AND has 7 hearts with Marnie
 				}
@@ -440,6 +456,7 @@
 					"Id": "{{ModID}}_OstrichIncubator",
 					"ItemId": "(BC)254",
 					"Price": 26600,
+					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 1,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Ostrich Incubator, PLAYER_FRIENDSHIP_POINTS Current Marnie 2250" // available on Thursdays if player knows the Ostrich Incubator recipe AND has 9 hearts with Marnie
 				}
@@ -465,6 +482,7 @@
 					"Id": "{{ModID}}_Scarecrow",
 					"ItemId": "(BC)8",
 					"Price": 3000,
+					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 2,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Scarecrow, PLAYER_FRIENDSHIP_POINTS Current Pierre 500" // available on Thursdays if player knows the Scarecrow recipe AND has 2 hearts with Pierre
 				}
@@ -489,6 +507,7 @@
 					"Id": "{{ModID}}_QualitySprinkler",
 					"ItemId": "(O)621",
 					"Price": 3500,
+					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 2,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Quality Sprinkler, PLAYER_FRIENDSHIP_POINTS Current Pierre 750" // available on Thursdays if player knows the Quality Sprinkler recipe AND has 3 hearts with Pierre
 				}
@@ -513,6 +532,7 @@
 					"Id": "{{ModID}}_SeedMaker",
 					"ItemId": "(BC)25",
 					"Price": 10000,
+					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 1,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Seed Maker, PLAYER_FRIENDSHIP_POINTS Current Pierre 1250" // available on Thursdays if player knows the Seed Maker recipe AND has 5 hearts with Pierre
 				}
@@ -537,6 +557,7 @@
 					"Id": "{{ModID}}_Dehydrator",
 					"ItemId": "(BC)Dehydrator",
 					"Price": 3000,
+					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 1,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Dehydrator, PLAYER_FRIENDSHIP_POINTS Current Pierre 1500" // available on Thursdays if player knows the Dehydrator recipe AND has 6 hearts with Pierre
 				}
@@ -561,6 +582,7 @@
 					"Id": "{{ModID}}_SolarPanel",
 					"ItemId": "(BC)231",
 					"Price": 30500,
+					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 1,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Solar Panel, PLAYER_FRIENDSHIP_POINTS Current Pierre 2250" // available on Thursdays if player knows the Solar Panel recipe AND has 9 hearts with Pierre
 				}
@@ -586,6 +608,7 @@
 					"Id": "{{ModID}}_PreservesJar",
 					"ItemId": "(BC)15",
 					"Price": 7500,
+					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 2,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Preserves Jar, PLAYER_FRIENDSHIP_POINTS Current Robin 750" // available on Thursdays if player knows the Preserves Jar recipe AND has 3 hearts with Robin
 				}
@@ -610,6 +633,7 @@
 					"Id": "{{ModID}}_Tapper",
 					"ItemId": "(BC)105",
 					"Price": 4000,
+					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 2,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Tapper, PLAYER_FRIENDSHIP_POINTS Current Robin 1000" // available on Thursdays if player knows the Tapper recipe AND has 4 hearts with Robin
 				}
@@ -634,6 +658,7 @@
 					"Id": "{{ModID}}_Keg",
 					"ItemId": "(BC)12",
 					"Price": 7500,
+					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 2,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Keg, PLAYER_FRIENDSHIP_POINTS Current Robin 1250" // available on Thursdays if player knows the Keg recipe AND has 5 hearts with Robin
 				}
@@ -658,6 +683,7 @@
 					"Id": "{{ModID}}_Cask",
 					"ItemId": "(BC)163",
 					"Price": 2500,
+					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 2,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Cask, PLAYER_FRIENDSHIP_POINTS Current Robin 1750" // available on Thursdays if player knows the Cask recipe AND has 7 hearts with Robin
 				}
@@ -682,6 +708,7 @@
 					"Id": "{{ModID}}_HeavyTapper",
 					"ItemId": "(BC)264",
 					"Price": 6150,
+					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 2,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Heavy Tapper, PLAYER_FRIENDSHIP_POINTS Current Robin 2250" // available on Thursdays if player knows the Heavy Tapper recipe AND has 9 hearts with Robin
 				}
@@ -706,6 +733,7 @@
 					"Id": "{{ModID}}_MushroomLog",
 					"ItemId": "(BC)MushroomLog",
 					"Price": 2000,
+					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 1,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Mushroom Log, PLAYER_FRIENDSHIP_POINTS Current Robin 1500" // available on Thursdays if player knows the Mushroom Log recipe AND has 6 hearts with Robin
 				}
@@ -731,6 +759,7 @@
 					"Id": "{{ModID}}_GardenPot",
 					"ItemId": "(BC)62",
 					"Price": 1320,
+					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 3,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Garden Pot, PLAYER_FRIENDSHIP_POINTS Current Sandy 750" // available on Thursdays if player knows the Garden Pot recipe AND has 3 hearts with Sandy
 				}
@@ -755,6 +784,7 @@
 					"Id": "{{ModID}}_OilMaker",
 					"ItemId": "(BC)19",
 					"Price": 10000,
+					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 2,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Oil Maker, PLAYER_FRIENDSHIP_POINTS Current Sandy 1250" // available on Thursdays if player knows the Oil Maker recipe AND has 5 hearts with Sandy
 				}
@@ -780,6 +810,7 @@
 					"Id": "{{ModID}}_RecyclingMachine",
 					"ItemId": "(BC)20",
 					"Price": 5500,
+					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 2,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Recycling Machine, PLAYER_FRIENDSHIP_POINTS Current Willy 750" // available on Thursdays if player knows the Recycling Machine recipe AND has 3 hearts with Willy
 				}
@@ -804,6 +835,7 @@
 					"Id": "{{ModID}}_FishSmoker",
 					"ItemId": "(BC)FishSmoker",
 					"Price": 5000,
+					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 1,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Fish Smoker, PLAYER_FRIENDSHIP_POINTS Current Willy 100" // available on Thursdays if player knows the Fish Smoker recipe AND has 4 hearts with Willy
 				}
@@ -828,6 +860,7 @@
 					"Id": "{{ModID}}_WormBin",
 					"ItemId": "(BC)154",
 					"Price": 6925,
+					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 2,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Worm Bin, PLAYER_FRIENDSHIP_POINTS Current Willy 1250" // available on Thursdays if player knows the Worm Bin recipe AND has 5 hearts with Willy
 				}
@@ -852,6 +885,7 @@
 					"Id": "{{ModID}}_BaitMaker",
 					"ItemId": "(BC)BaitMaker",
 					"Price": 8000,
+					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 1,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Bait Maker, PLAYER_FRIENDSHIP_POINTS Current Willy 1750" // available on Thursdays if player knows the Bait Maker recipe AND has 7 hearts with Willy
 				}
@@ -876,6 +910,7 @@
 					"Id": "{{ModID}}_DeluxeWormBin",
 					"ItemId": "(BC)DeluxeWormBin",
 					"Price": 10000,
+					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 1,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Deluxe Worm Bin, PLAYER_FRIENDSHIP_POINTS Current Willy 2250" // available on Thursdays if player knows the Deluxe Worm Bin recipe AND has 9 hearts with Willy
 				}
