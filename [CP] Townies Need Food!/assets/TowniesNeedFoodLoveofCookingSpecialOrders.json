@@ -1,7 +1,5 @@
 {
   "Changes": [
-    // blueberry.LoveOfCooking.CP_XDISHNAMEX
-    // check the conditions for known reipes, gonna need to update that
     // Caroline Side Dishes LoC (ok!)
     {
       "LogName": "Caroline Side Dishes LoC",
@@ -711,7 +709,7 @@
         "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_seafoodsando": "true"
       }
     },
-    // Maru Veggies & a Mystery LoC fritters missing, kebab ok
+    // Maru Veggies & a Mystery LoC (ok!)
     {
       "LogName": "Maru Veggies & a Mystery LoC",
       "Action": "EditData",
@@ -735,7 +733,7 @@
               "Text": "[TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_fritters", // missing
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_leeks",
                 "Message": "[TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Message_0]",
                 "TargetName": "Maru"
               }
@@ -767,71 +765,11 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_fritters": "true",
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_leeks": "true",
         "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_kebab": "true"
       }
     },
-    // Pam Rich Food LoC both porridge and loaded potato missing
-    {
-      "LogName": "Pam Rich Food LoC",
-      "Action": "EditData",
-      "Target": "Data/SpecialOrders",
-      "Entries": {
-        "TowniesNeedFood_Pam_RichFoodLoC": {
-          "Name": "[TowniesNeedFood_Pam_RichFoodLoC_Name]",
-          "Requester": "Pam",
-          "Duration": "Week",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "season_winter",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedFood_Pam_RichFoodLoC_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Pam_RichFoodLoC_Objective_Text_0]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_porridge", // missing
-                "Message": "[TowniesNeedFood_Pam_RichFoodLoC_Message_0]",
-                "TargetName": "Pam"
-              }
-            },
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Pam_RichFoodLoC_Objective_Text_1]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_loadedpotato", // missing
-                "Message": "[TowniesNeedFood_Pam_RichFoodLoC_Message_1]",
-                "TargetName": "Pam"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "1200"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_porridge": "true",
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_loadedpotato": "true"
-      }
-    },
-    // Sandy Refreshing Salad and Parfait LoC
+    // Sandy Refreshing Salad and Parfait LoC (ok!)
     {
       "LogName": "Sandy Refreshing Salad LoC",
       "Action": "EditData",
@@ -950,56 +888,6 @@
         "PlayerHasKitchen": true,
         "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_lobster": "true",
         "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_oceanplatter": "true"
-      }
-    },
-    // Wizard Special Dinner & Dessert LoC I don't have a dessert patch! wat. Check the default.json. Dwarf stew missing. got rid of 2nd patch, but it should be 2 dishes come on now.
-    {
-      "LogName": "Wizard Special Dinner Sans Dessert LoC",
-      "Action": "EditData",
-      "Target": "Data/SpecialOrders",
-      "Entries": {
-        "TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC": {
-          "Name": "[TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Name]",
-          "Requester": "Wizard",
-          "Duration": "Week",
-          "Repeatable": "{{RepeatableConfig}}",
-          "RequiredTags": "season_winter",
-          "OrderType": "",
-          "SpecialRule": "",
-          "Text": "[TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Text]",
-          "ItemToRemoveOnEnd": null,
-          "MailToRemoveOnEnd": null,
-          "RandomizedElements": null,
-          "Objectives": [
-            {
-              "Type": "Deliver",
-              "Text": "[TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Objective_Text_0]",
-              "RequiredCount": "1",
-              "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_dwarfstew", // missing
-                "Message": "[TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Message_0]",
-                "TargetName": "Wizard"
-              }
-            }
-          ],
-          "Rewards": [
-            {
-              "Type": "Money",
-              "Data": {
-                "Amount": "780"
-              }
-            },
-            {
-              "Type": "Friendship",
-              "Data": {}
-            }
-          ]
-        }
-      },
-      "When": {
-        "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_dwarfstew": "true",
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_redberrypie": "true"
       }
     },
     //
@@ -1185,20 +1073,6 @@
         "TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Message_1": "{{i18n:TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Message_1}}"
       }
     },
-    // Strings Pam Rich Food LoC
-    {
-      "LogName": "Strings Pam Rich Food LoC",
-      "Action": "EditData",
-      "Target": "Strings/SpecialOrderStrings",
-      "Entries": {
-        "TowniesNeedFood_Pam_RichFoodLoC_Name": "{{i18n:TowniesNeedFood_Pam_RichFoodLoC_Name}}",
-        "TowniesNeedFood_Pam_RichFoodLoC_Text": "{{i18n:TowniesNeedFood_Pam_RichFoodLoC_Text}}",
-        "TowniesNeedFood_Pam_RichFoodLoC_Objective_Text_0": "{{i18n:TowniesNeedFood_Pam_RichFoodLoC_Objective_Text_0}}",
-        "TowniesNeedFood_Pam_RichFoodLoC_Objective_Text_1": "{{i18n:TowniesNeedFood_Pam_RichFoodLoC_Objective_Text_1}}",
-        "TowniesNeedFood_Pam_RichFoodLoC_Message_0": "{{i18n:TowniesNeedFood_Pam_RichFoodLoC_Message_0}}",
-        "TowniesNeedFood_Pam_RichFoodLoC_Message_1": "{{i18n:TowniesNeedFood_Pam_RichFoodLoC_Message_1}}"
-      }
-    },
     // Strings Sandy Refreshing Salad and Parfait LoC
     {
       "LogName": "Strings Sandy Refreshing Salad LoC",
@@ -1225,18 +1099,6 @@
         "TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Objective_Text_1": "{{i18n:TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Objective_Text_1}}",
         "TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Message_0": "{{i18n:TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Message_0}}",
         "TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Message_1": "{{i18n:TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Message_1}}"
-      }
-    },
-    // Strings Wizard Special Dinner & Dessert LoC
-    {
-      "LogName": "Strings Wizard Special Dinner & Dessert LoC",
-      "Action": "EditData",
-      "Target": "Strings/SpecialOrderStrings",
-      "Entries": {
-        "TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Name": "{{i18n:TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Name}}",
-        "TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Text": "{{i18n:TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Text}}",
-        "TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Objective_Text_0": "{{i18n:TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Objective_Text_0}}",
-        "TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Message_0": "{{i18n:TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Message_0}}"
       }
     }
   ]
