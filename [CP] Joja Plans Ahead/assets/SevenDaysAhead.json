@@ -17,7 +17,6 @@
                 "{{ModId}}_LetterTrigger": {
                     "Id": "{{ModId}}_LetterTrigger",
                     "Trigger": "DayStarted",
-					"IgnoreShopPriceModifiers": true,
 					"Condition": "DAY_OF_MONTH 22, !SEASON Fall",
                     "Actions": [
                         "AddMail Current {{ModID}}_Letter Now"
