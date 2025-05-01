@@ -302,7 +302,7 @@
         "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_carrotcake": "true"
       }
     },
-    // Evelyn Variety Lunch LoC craymornay changed names, garden pie missing (couldreplace with cherry pie)
+    // Evelyn Variety Lunch LoC (ok!)
     {
       "LogName": "Evelyn Variety Lunch LoC",
       "Action": "EditData",
@@ -336,7 +336,7 @@
               "Text": "[TowniesNeedFood_Evelyn_VarietyLunchLoC_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_gardenpie", // missing
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_cherrypie",
                 "Message": "[TowniesNeedFood_Evelyn_VarietyLunchLoC_Message_1]",
                 "TargetName": "Evelyn"
               }
@@ -359,7 +359,7 @@
       "When": {
         "PlayerHasKitchen": true,
         "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_craymornay": "true",
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_gardenpie": "true"
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_cherrypie": "true"
       }
     },
     // George Fall Classics LoC stew gone, apple pie ok

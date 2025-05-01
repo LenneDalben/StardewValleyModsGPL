@@ -377,11 +377,11 @@
   //
   // Evelyn Variety Lunch LoC Strings
   "TowniesNeedFood_Evelyn_VarietyLunchLoC_Name": "Variety Lunch",
-  "TowniesNeedFood_Evelyn_VarietyLunchLoC_Text": "I need some assistance with lunch. Could anyone make me cray mornay and garden pie? Thanks!",
+  "TowniesNeedFood_Evelyn_VarietyLunchLoC_Text": "I need some assistance with lunch. Could anyone make me cray mornay and cherry pie? Thanks!",
   "TowniesNeedFood_Evelyn_VarietyLunchLoC_Objective_Text_0": "Deliver Cray Mornay to Evelyn",
-  "TowniesNeedFood_Evelyn_VarietyLunchLoC_Objective_Text_1": "Deliver Garden Pie to Evelyn",
+  "TowniesNeedFood_Evelyn_VarietyLunchLoC_Objective_Text_1": "Deliver Cherry Pie to Evelyn",
   "TowniesNeedFood_Evelyn_VarietyLunchLoC_Message_0": "The sauce smells delicious! Thanks, dear.$h",
-  "TowniesNeedFood_Evelyn_VarietyLunchLoC_Message_1": "Well, Alex will eat this.#$b#Thanks @!$h",
+  "TowniesNeedFood_Evelyn_VarietyLunchLoC_Message_1": "This is one of my favorites. Thanks @!$h",
   //
   // George Fall Classics LoC Strings
   "TowniesNeedFood_George_FallClassicsLoC_Name": "Fall Classics",
