@@ -337,17 +337,17 @@
   // Love of Cooking (LoC) Integration
   // Caroline Side Dishes LoC Strings
   "TowniesNeedFood_Caroline_SideDishesLoC_Name": "Side Dishes",
-  "TowniesNeedFood_Caroline_SideDishesLoC_Text": "I think stuffed potatoes and onion soup will go well with dinner. Could anyone bring me some?",
-  "TowniesNeedFood_Caroline_SideDishesLoC_Objective_Text_0": "Deliver Stuffed Potato to Caroline",
-  "TowniesNeedFood_Caroline_SideDishesLoC_Objective_Text_1": "Deliver Onion Soup to Caroline",
-  "TowniesNeedFood_Caroline_SideDishesLoC_Message_0": "The mushrooms are a nice touch aren't they? Thank you @!",
-  "TowniesNeedFood_Caroline_SideDishesLoC_Message_1": "Thank you @! I really like the earthy flavor of onion soup.",
+  "TowniesNeedFood_Caroline_SideDishesLoC_Text": "I think arancini and pilaf will go well with dinner. Could anyone bring me some?",
+  "TowniesNeedFood_Caroline_SideDishesLoC_Objective_Text_0": "Deliver Arancini to Caroline",
+  "TowniesNeedFood_Caroline_SideDishesLoC_Objective_Text_1": "Deliver Pilaf to Caroline",
+  "TowniesNeedFood_Caroline_SideDishesLoC_Message_0": "The spring onion is a nice touch isn't it? Thank you @!",
+  "TowniesNeedFood_Caroline_SideDishesLoC_Message_1": "Thank you @! I really like the earthy flavor of pilaf.",
   //
   // Clint Quick Start LoC Strings
   "TowniesNeedFood_Clint_QuickStartLoC_Name": "Quick Start",
-  "TowniesNeedFood_Clint_QuickStartLoC_Text": "I'm trying to prepare for breakfast. Can someone make me a burrito and a quick breakfast?",
+  "TowniesNeedFood_Clint_QuickStartLoC_Text": "I'm trying to prepare for breakfast. Can someone make me a burrito and a breakfast?",
   "TowniesNeedFood_Clint_QuickStartLoC_Objective_Text_0": "Deliver Burrito to Clint",
-  "TowniesNeedFood_Clint_QuickStartLoC_Objective_Text_1": "Deliver Quick Breakfast to Clint",
+  "TowniesNeedFood_Clint_QuickStartLoC_Objective_Text_1": "Deliver Breakfast to Clint",
   "TowniesNeedFood_Clint_QuickStartLoC_Message_0": "It's a good wrap, isn't it? Thanks @!$h",
   "TowniesNeedFood_Clint_QuickStartLoC_Message_1": "Thanks @! The jump start I needed.$h",
   //

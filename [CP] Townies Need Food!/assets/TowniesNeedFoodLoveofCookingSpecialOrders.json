@@ -1,6 +1,8 @@
 {
   "Changes": [
-    // Caroline Side Dishes LoC
+    // blueberry.LoveOfCooking.CP_XDISHNAMEX
+    // check the conditions for known reipes, gonna need to update that
+    // Caroline Side Dishes LoC (ok!)
     {
       "LogName": "Caroline Side Dishes LoC",
       "Action": "EditData",
@@ -24,7 +26,7 @@
               "Text": "[TowniesNeedFood_Caroline_SideDishesLoC_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_blueberry.cac.stuffedpotato",
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_arancini",
                 "Message": "[TowniesNeedFood_Caroline_SideDishesLoC_Message_0]",
                 "TargetName": "Caroline"
               }
@@ -34,7 +36,7 @@
               "Text": "[TowniesNeedFood_Caroline_SideDishesLoC_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_blueberry.cac.onionsoup",
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_pilaf",
                 "Message": "[TowniesNeedFood_Caroline_SideDishesLoC_Message_1]",
                 "TargetName": "Caroline"
               }
@@ -56,11 +58,11 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.cac.stuffedpotato": "true",
-        "HasCookingRecipe |contains=blueberry.cac.onionsoup": "true"
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_arancini": "true",
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_pilaf": "true"
       }
     },
-    // Clint Quick Start LoC
+    // Clint Quick Start LoC (ok!)
     {
       "LogName": "Clint Quick Start LoC",
       "Action": "EditData",
@@ -84,7 +86,7 @@
               "Text": "[TowniesNeedFood_Clint_QuickStartLoC_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_blueberry.cac.burrito",
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_burrito",
                 "Message": "[TowniesNeedFood_Clint_QuickStartLoC_Message_0]",
                 "TargetName": "Clint"
               }
@@ -94,7 +96,7 @@
               "Text": "[TowniesNeedFood_Clint_QuickStartLoC_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_blueberry.cac.quickbreakfast",
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_breakfast",
                 "Message": "[TowniesNeedFood_Clint_QuickStartLoC_Message_1]",
                 "TargetName": "Clint"
               }
@@ -116,11 +118,11 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.cac.burrito": "true",
-        "HasCookingRecipe |contains=blueberry.cac.quickbreakfast": "true"
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_burrito": "true",
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_breakfast": "true"
       }
     },
-    // Demetrius Breakfast and Lunch LoC
+    // Demetrius Breakfast and Lunch LoC (ok!)
     {
       "LogName": "Demetrius Breakfast and Lunch LoC",
       "Action": "EditData",
@@ -144,7 +146,7 @@
               "Text": "[TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_blueberry.cac.waffles",
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_waffles",
                 "Message": "[TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Message_0]",
                 "TargetName": "Demetrius"
               }
@@ -154,7 +156,7 @@
               "Text": "[TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_blueberry.cac.eggsando",
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_eggsando",
                 "Message": "[TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Message_1]",
                 "TargetName": "Demetrius"
               }
@@ -176,11 +178,11 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.cac.waffles": "true",
-        "HasCookingRecipe |contains=blueberry.cac.eggsando": "true"
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_waffles": "true",
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_eggsando": "true"
       }
     },
-    // Elliott Dinner Variety LoC
+    // Elliott Dinner Variety LoC cabbage pot gone, admiral pie ok
     {
       "LogName": "Elliott Dinner Variety LoC",
       "Action": "EditData",
@@ -204,7 +206,7 @@
               "Text": "[TowniesNeedFood_Elliott_DinnerVarietyLoC_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_blueberry.cac.cabbagepot",
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_cabbagepot", // missing
                 "Message": "[TowniesNeedFood_Elliott_DinnerVarietyLoC_Message_0]",
                 "TargetName": "Elliott"
               }
@@ -214,7 +216,7 @@
               "Text": "[TowniesNeedFood_Elliott_DinnerVarietyLoC_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_blueberry.cac.admiralpie",
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_admiralpie",
                 "Message": "[TowniesNeedFood_Elliott_DinnerVarietyLoC_Message_1]",
                 "TargetName": "Elliott"
               }
@@ -236,11 +238,11 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.cac.cabbagepot": "true",
-        "HasCookingRecipe |contains=blueberry.cac.admiralpie": "true"
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_cabbagepot": "true",
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_admiralpie": "true"
       }
     },
-    // Emily Lunch and Dessert LoC
+    // Emily Lunch and Dessert LoC cake gone (could replace with carrot cake), burger ok
     {
       "LogName": "Emily Lunch and Dessert LoC",
       "Action": "EditData",
@@ -264,7 +266,7 @@
               "Text": "[TowniesNeedFood_Emily_LunchandDessertLoC_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_blueberry.cac.burger",
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_burger",
                 "Message": "[TowniesNeedFood_Emily_LunchandDessertLoC_Message_0]",
                 "TargetName": "Emily"
               }
@@ -274,7 +276,7 @@
               "Text": "[TowniesNeedFood_Emily_LunchandDessertLoC_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_blueberry.cac.cake",
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_cake", // missing
                 "Message": "[TowniesNeedFood_Emily_LunchandDessertLoC_Message_1]",
                 "TargetName": "Emily"
               }
@@ -296,11 +298,11 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.cac.burger": "true",
-        "HasCookingRecipe |contains=blueberry.cac.cake": "true"
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_burger": "true",
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_cake": "true"
       }
     },
-    // Evelyn Variety Lunch LoC
+    // Evelyn Variety Lunch LoC craymornay changed names, garden pie missing (couldreplace with cherry pie)
     {
       "LogName": "Evelyn Variety Lunch LoC",
       "Action": "EditData",
@@ -324,7 +326,7 @@
               "Text": "[TowniesNeedFood_Evelyn_VarietyLunchLoC_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_blueberry.cac.mornay",
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_craymornay",
                 "Message": "[TowniesNeedFood_Evelyn_VarietyLunchLoC_Message_0]",
                 "TargetName": "Evelyn"
               }
@@ -334,7 +336,7 @@
               "Text": "[TowniesNeedFood_Evelyn_VarietyLunchLoC_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_blueberry.cac.gardenpie",
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_gardenpie", // missing
                 "Message": "[TowniesNeedFood_Evelyn_VarietyLunchLoC_Message_1]",
                 "TargetName": "Evelyn"
               }
@@ -356,11 +358,11 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.cac.mornay": "true",
-        "HasCookingRecipe |contains=blueberry.cac.gardenpie": "true"
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_craymornay": "true",
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_gardenpie": "true"
       }
     },
-    // George Fall Classics LoC
+    // George Fall Classics LoC stew gone, apple pie ok
     {
       "LogName": "George Fall Classics LoC",
       "Action": "EditData",
@@ -384,7 +386,7 @@
               "Text": "[TowniesNeedFood_George_FallClassicsLoC_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_blueberry.cac.stew",
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_stew", // missing
                 "Message": "[TowniesNeedFood_George_FallClassicsLoC_Message_0]",
                 "TargetName": "George"
               }
@@ -394,7 +396,7 @@
               "Text": "[TowniesNeedFood_George_FallClassicsLoC_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_blueberry.cac.applepie/item_apple_pie",
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_applepie",
                 "Message": "[TowniesNeedFood_George_FallClassicsLoC_Message_1]",
                 "TargetName": "George"
               }
@@ -416,11 +418,11 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.cac.stew": "true",
-        "HasCookingRecipe |contains=blueberry.cac.applepie": "true"
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_stew": "true",
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_applepie": "true"
       }
     },
-    // Gus Hot & Calm Combo LoC
+    // Gus Hot & Calm Combo LoC (ok!)
     {
       "LogName": "Gus Hot & Calm Combo LoC",
       "Action": "EditData",
@@ -444,7 +446,7 @@
               "Text": "[TowniesNeedFood_Gus_HotandCalmComboLoC_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_blueberry.cac.curry",
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_curry",
                 "Message": "[TowniesNeedFood_Gus_HotandCalmComboLoC_Message_0]",
                 "TargetName": "Gus"
               }
@@ -454,7 +456,7 @@
               "Text": "[TowniesNeedFood_Gus_HotandCalmComboLoC_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_blueberry.cac.bakedpotato",
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_bakedpotato",
                 "Message": "[TowniesNeedFood_Gus_HotandCalmComboLoC_Message_1]",
                 "TargetName": "Gus"
               }
@@ -476,11 +478,11 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.cac.curry": "true",
-        "HasCookingRecipe |contains=blueberry.cac.bakedpotato": "true"
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_curry": "true",
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_bakedpotato": "true"
       }
     },
-    // Jas Sweet and Warm LoC
+    // Jas Sweet and Warm LoC (ok!)
     {
       "LogName": "Jas Sweet and Warm LoC",
       "Action": "EditData",
@@ -504,7 +506,7 @@
               "Text": "[TowniesNeedFood_Jas_SweetandWarmLoC_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_blueberry.cac.hotcocoa",
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_hotcocoa",
                 "Message": "[TowniesNeedFood_Jas_SweetandWarmLoC_Message_0]",
                 "TargetName": "Jas"
               }
@@ -514,7 +516,7 @@
               "Text": "[TowniesNeedFood_Jas_SweetandWarmLoC_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_blueberry.cac.hotcocoa",
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_hotcocoa",
                 "Message": "[TowniesNeedFood_Jas_SweetandWarmLoC_Message_1]",
                 "TargetName": "Vincent"
               }
@@ -536,10 +538,10 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.cac.hotcocoa": "true"
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_hotcocoa": "true"
       }
     },
-    // Jodi Dinner Combo LoC
+    // Jodi Dinner Combo LoC (ok!)
     {
       "LogName": "Jodi Dinner Combo LoC",
       "Action": "EditData",
@@ -563,7 +565,7 @@
               "Text": "[TowniesNeedFood_Jodi_DinnerComboLoC_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_blueberry.cac.roast",
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_roast",
                 "Message": "[TowniesNeedFood_Jodi_DinnerComboLoC_Message_0]",
                 "TargetName": "Jodi"
               }
@@ -573,7 +575,7 @@
               "Text": "[TowniesNeedFood_Jodi_DinnerComboLoC_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_blueberry.cac.unagi",
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_unagi",
                 "Message": "[TowniesNeedFood_Jodi_DinnerComboLoC_Message_1]",
                 "TargetName": "Jodi"
               }
@@ -595,11 +597,11 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.cac.roast": "true",
-        "HasCookingRecipe |contains=blueberry.cac.unagi": "true"
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_roast": "true",
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_unagi": "true"
       }
     },
-    // Kent Classic Vegetables LoC
+    // Kent Classic Vegetables LoC (ok!)
     {
       "LogName": "Kent Classic Vegetables LoC",
       "Action": "EditData",
@@ -623,7 +625,7 @@
               "Text": "[TowniesNeedFood_Kent_ClassicVegetablesLoC_Objective_Text_0]",
               "RequiredCount": "2",
               "Data": {
-                "AcceptedContextTags": "item_blueberry.cac.hunters",
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_hunters",
                 "Message": "[TowniesNeedFood_Kent_ClassicVegetablesLoC_Message_0]",
                 "TargetName": "Kent"
               }
@@ -645,11 +647,11 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.cac.hunters": "true",
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_hunters": "true",
         "HasSeenEvent": "63"
       }
     },
-    // Leah Sandos LoC
+    // Leah Sandos LoC (ok!)
     {
       "LogName": "Leah Sandos LoC",
       "Action": "EditData",
@@ -673,7 +675,7 @@
               "Text": "[TowniesNeedFood_Leah_SandosLoC_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_blueberry.cac.saladsando",
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_saladsando",
                 "Message": "[TowniesNeedFood_Leah_SandosLoC_Message_0]",
                 "TargetName": "Leah"
               }
@@ -683,7 +685,7 @@
               "Text": "[TowniesNeedFood_Leah_SandosLoC_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_blueberry.cac.seafoodsando",
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_seafoodsando",
                 "Message": "[TowniesNeedFood_Leah_SandosLoC_Message_1]",
                 "TargetName": "Leah"
               }
@@ -705,11 +707,11 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.cac.saladsando": "true",
-        "HasCookingRecipe |contains=blueberry.cac.seafoodsando": "true"
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_saladsando": "true",
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_seafoodsando": "true"
       }
     },
-    // Lewis Shish Kebab LoC
+    // Lewis Shish Kebab LoC changed skewers (missing) to kebab. Side note should this be 2 of them? It's only 1 right now. Kebab already in use in Maru veggies & a mystery
     {
       "LogName": "Lewis Shish Kebab LoC",
       "Action": "EditData",
@@ -733,7 +735,7 @@
               "Text": "[TowniesNeedFood_Lewis_ShishKebabLoC_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_blueberry.cac.skewers",
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_kebab",
                 "Message": "[TowniesNeedFood_Lewis_ShishKebabLoC_Message_0]",
                 "TargetName": "Lewis"
               }
@@ -756,10 +758,10 @@
       "When": {
         "PlayerHasKitchen": true,
         "IncludeIslandContent": true,
-        "HasCookingRecipe |contains=blueberry.cac.skewers": "true"
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_skewers": "true"
       }
     },
-    // Maru Veggies & a Mystery LoC
+    // Maru Veggies & a Mystery LoC fritters missing, kebab ok
     {
       "LogName": "Maru Veggies & a Mystery LoC",
       "Action": "EditData",
@@ -783,7 +785,7 @@
               "Text": "[TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_blueberry.cac.fritters",
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_fritters", // missing
                 "Message": "[TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Message_0]",
                 "TargetName": "Maru"
               }
@@ -793,7 +795,7 @@
               "Text": "[TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_blueberry.cac.kebab",
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_kebab",
                 "Message": "[TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Message_1]",
                 "TargetName": "Maru"
               }
@@ -815,11 +817,11 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.cac.fritters": "true",
-        "HasCookingRecipe |contains=blueberry.cac.kebab": "true"
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_fritters": "true",
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_kebab": "true"
       }
     },
-    // Pam Rich Food LoC
+    // Pam Rich Food LoC both porridge and loaded potato missing
     {
       "LogName": "Pam Rich Food LoC",
       "Action": "EditData",
@@ -843,7 +845,7 @@
               "Text": "[TowniesNeedFood_Pam_RichFoodLoC_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_blueberry.cac.porridge",
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_porridge", // missing
                 "Message": "[TowniesNeedFood_Pam_RichFoodLoC_Message_0]",
                 "TargetName": "Pam"
               }
@@ -853,7 +855,7 @@
               "Text": "[TowniesNeedFood_Pam_RichFoodLoC_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_blueberry.cac.loadedpotato",
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_loadedpotato", // missing
                 "Message": "[TowniesNeedFood_Pam_RichFoodLoC_Message_1]",
                 "TargetName": "Pam"
               }
@@ -875,11 +877,11 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.cac.porridge": "true",
-        "HasCookingRecipe |contains=blueberry.cac.loadedpotato": "true"
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_porridge": "true",
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_loadedpotato": "true"
       }
     },
-    // Sandy Refreshing Salad LoC
+    // Sandy Refreshing Salad LoC tropical missing Side note should this be 2 of them? It's only 1 right now.
     {
       "LogName": "Sandy Refreshing Salad LoC",
       "Action": "EditData",
@@ -903,7 +905,7 @@
               "Text": "[TowniesNeedFood_Sandy_RefreshingSaladLoC_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_blueberry.cac.tropicalsalad",
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_tropicalsalad", // missing
                 "Message": "[TowniesNeedFood_Sandy_RefreshingSaladLoC_Message_0]",
                 "TargetName": "Sandy"
               }
@@ -926,11 +928,11 @@
       "When": {
         "PlayerHasKitchen": true,
         "IncludeIslandContent": true,
-        "HasCookingRecipe |contains=blueberry.cac.tropicalsalad": "true",
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_tropicalsalad": "true",
         "HasSeenEvent": "67"
       }
     },
-    // Willy Lunch & Dinner Leftovers LoC
+    // Willy Lunch & Dinner Leftovers LoC (ok!)
     {
       "LogName": "Willy Lunch & Dinner Leftovers LoC",
       "Action": "EditData",
@@ -954,7 +956,7 @@
               "Text": "[TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_blueberry.cac.lobster",
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_lobster",
                 "Message": "[TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Message_0]",
                 "TargetName": "Willy"
               }
@@ -964,7 +966,7 @@
               "Text": "[TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_blueberry.cac.oceanplatter",
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_oceanplatter",
                 "Message": "[TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Message_1]",
                 "TargetName": "Willy"
               }
@@ -986,11 +988,11 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.cac.lobster": "true",
-        "HasCookingRecipe |contains=blueberry.cac.oceanplatter": "true"
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_lobster": "true",
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_oceanplatter": "true"
       }
     },
-    // Wizard Special Dinner & Dessert LoC
+    // Wizard Special Dinner & Dessert LoC I don't have a dessert patch! wat. Check the default.json. Dwarf stew missing. got rid of 2nd patch, but it should be 2 dishes come on now.
     {
       "LogName": "Wizard Special Dinner Sans Dessert LoC",
       "Action": "EditData",
@@ -1014,7 +1016,7 @@
               "Text": "[TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "item_blueberry.cac.dwarfstew",
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_dwarfstew", // missing
                 "Message": "[TowniesNeedFood_Wizard_SpecialDinnerandDessertLoC_Message_0]",
                 "TargetName": "Wizard"
               }
@@ -1036,8 +1038,8 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.cac.dwarfstew": "true",
-        "HasCookingRecipe |contains=blueberry.cac.redberrypie": "true"
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_dwarfstew": "true",
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_redberrypie": "true"
       }
     },
     //
