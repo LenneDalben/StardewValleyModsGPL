@@ -24,7 +24,7 @@
               "Text": "[TowniesNeedFood_Caroline_SideDishesLoC_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_arancini",
+                "AcceptedContextTags": "blueberry.LoveOfCooking_arancini",
                 "Message": "[TowniesNeedFood_Caroline_SideDishesLoC_Message_0]",
                 "TargetName": "Caroline"
               }
@@ -34,7 +34,7 @@
               "Text": "[TowniesNeedFood_Caroline_SideDishesLoC_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_pilaf",
+                "AcceptedContextTags": "blueberry.LoveOfCooking_pilaf",
                 "Message": "[TowniesNeedFood_Caroline_SideDishesLoC_Message_1]",
                 "TargetName": "Caroline"
               }
@@ -56,8 +56,8 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_arancini": "true",
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_pilaf": "true"
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking_arancini": "true",
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking_pilaf": "true"
       }
     },
     // Clint Quick Start LoC (ok!)
@@ -84,7 +84,7 @@
               "Text": "[TowniesNeedFood_Clint_QuickStartLoC_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_burrito",
+                "AcceptedContextTags": "blueberry.LoveOfCooking_burrito",
                 "Message": "[TowniesNeedFood_Clint_QuickStartLoC_Message_0]",
                 "TargetName": "Clint"
               }
@@ -94,7 +94,7 @@
               "Text": "[TowniesNeedFood_Clint_QuickStartLoC_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_breakfast",
+                "AcceptedContextTags": "blueberry.LoveOfCooking_breakfast",
                 "Message": "[TowniesNeedFood_Clint_QuickStartLoC_Message_1]",
                 "TargetName": "Clint"
               }
@@ -116,8 +116,8 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_burrito": "true",
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_breakfast": "true"
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking_burrito": "true",
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking_breakfast": "true"
       }
     },
     // Demetrius Breakfast and Lunch LoC (ok!)
@@ -144,7 +144,7 @@
               "Text": "[TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_waffles",
+                "AcceptedContextTags": "blueberry.LoveOfCooking_waffles",
                 "Message": "[TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Message_0]",
                 "TargetName": "Demetrius"
               }
@@ -154,7 +154,7 @@
               "Text": "[TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_eggsando",
+                "AcceptedContextTags": "blueberry.LoveOfCooking_eggsando",
                 "Message": "[TowniesNeedFood_Demetrius_BreakfastandLunchLoC_Message_1]",
                 "TargetName": "Demetrius"
               }
@@ -176,8 +176,8 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_waffles": "true",
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_eggsando": "true"
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking_waffles": "true",
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking_eggsando": "true"
       }
     },
     // Elliott Dinner Variety LoC (ok!)
@@ -204,7 +204,7 @@
               "Text": "[TowniesNeedFood_Elliott_DinnerVarietyLoC_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_quiche",
+                "AcceptedContextTags": "blueberry.LoveOfCooking_quiche",
                 "Message": "[TowniesNeedFood_Elliott_DinnerVarietyLoC_Message_0]",
                 "TargetName": "Elliott"
               }
@@ -214,7 +214,7 @@
               "Text": "[TowniesNeedFood_Elliott_DinnerVarietyLoC_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_admiralpie",
+                "AcceptedContextTags": "blueberry.LoveOfCooking_admiralpie",
                 "Message": "[TowniesNeedFood_Elliott_DinnerVarietyLoC_Message_1]",
                 "TargetName": "Elliott"
               }
@@ -236,8 +236,8 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_quiche": "true",
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_admiralpie": "true"
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking_quiche": "true",
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking_admiralpie": "true"
       }
     },
     // Emily Lunch and Dessert LoC (ok!)
@@ -264,7 +264,7 @@
               "Text": "[TowniesNeedFood_Emily_LunchandDessertLoC_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_burger",
+                "AcceptedContextTags": "blueberry.LoveOfCooking_burger",
                 "Message": "[TowniesNeedFood_Emily_LunchandDessertLoC_Message_0]",
                 "TargetName": "Emily"
               }
@@ -274,7 +274,7 @@
               "Text": "[TowniesNeedFood_Emily_LunchandDessertLoC_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_carrotcake", // missing
+                "AcceptedContextTags": "blueberry.LoveOfCooking_carrotcake", // missing
                 "Message": "[TowniesNeedFood_Emily_LunchandDessertLoC_Message_1]",
                 "TargetName": "Emily"
               }
@@ -296,8 +296,8 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_burger": "true",
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_carrotcake": "true"
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking_burger": "true",
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking_carrotcake": "true"
       }
     },
     // Evelyn Variety Lunch LoC (ok!)
@@ -324,7 +324,7 @@
               "Text": "[TowniesNeedFood_Evelyn_VarietyLunchLoC_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_craymornay",
+                "AcceptedContextTags": "blueberry.LoveOfCooking_craymornay",
                 "Message": "[TowniesNeedFood_Evelyn_VarietyLunchLoC_Message_0]",
                 "TargetName": "Evelyn"
               }
@@ -334,7 +334,7 @@
               "Text": "[TowniesNeedFood_Evelyn_VarietyLunchLoC_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_cherrypie",
+                "AcceptedContextTags": "blueberry.LoveOfCooking_cherrypie",
                 "Message": "[TowniesNeedFood_Evelyn_VarietyLunchLoC_Message_1]",
                 "TargetName": "Evelyn"
               }
@@ -356,8 +356,8 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_craymornay": "true",
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_cherrypie": "true"
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking_craymornay": "true",
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking_cherrypie": "true"
       }
     },
     // George Fall Classics LoC (ok!)
@@ -384,7 +384,7 @@
               "Text": "[TowniesNeedFood_George_FallClassicsLoC_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_roast", // missing
+                "AcceptedContextTags": "blueberry.LoveOfCooking_roast", // missing
                 "Message": "[TowniesNeedFood_George_FallClassicsLoC_Message_0]",
                 "TargetName": "George"
               }
@@ -394,7 +394,7 @@
               "Text": "[TowniesNeedFood_George_FallClassicsLoC_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_applepie",
+                "AcceptedContextTags": "blueberry.LoveOfCooking_applepie",
                 "Message": "[TowniesNeedFood_George_FallClassicsLoC_Message_1]",
                 "TargetName": "George"
               }
@@ -416,8 +416,8 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_roast": "true",
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_applepie": "true"
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking_roast": "true",
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking_applepie": "true"
       }
     },
     // Gus Hot & Calm Combo LoC (ok!)
@@ -444,7 +444,7 @@
               "Text": "[TowniesNeedFood_Gus_HotandCalmComboLoC_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_curry",
+                "AcceptedContextTags": "blueberry.LoveOfCooking_curry",
                 "Message": "[TowniesNeedFood_Gus_HotandCalmComboLoC_Message_0]",
                 "TargetName": "Gus"
               }
@@ -454,7 +454,7 @@
               "Text": "[TowniesNeedFood_Gus_HotandCalmComboLoC_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_bakedpotato",
+                "AcceptedContextTags": "blueberry.LoveOfCooking_bakedpotato",
                 "Message": "[TowniesNeedFood_Gus_HotandCalmComboLoC_Message_1]",
                 "TargetName": "Gus"
               }
@@ -476,8 +476,8 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_curry": "true",
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_bakedpotato": "true"
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking_curry": "true",
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking_bakedpotato": "true"
       }
     },
     // Jas Sweet and Warm LoC (ok!)
@@ -504,7 +504,7 @@
               "Text": "[TowniesNeedFood_Jas_SweetandWarmLoC_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_hotcocoa",
+                "AcceptedContextTags": "blueberry.LoveOfCooking_hotcocoa",
                 "Message": "[TowniesNeedFood_Jas_SweetandWarmLoC_Message_0]",
                 "TargetName": "Jas"
               }
@@ -514,7 +514,7 @@
               "Text": "[TowniesNeedFood_Jas_SweetandWarmLoC_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_hotcocoa",
+                "AcceptedContextTags": "blueberry.LoveOfCooking_hotcocoa",
                 "Message": "[TowniesNeedFood_Jas_SweetandWarmLoC_Message_1]",
                 "TargetName": "Vincent"
               }
@@ -536,7 +536,7 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_hotcocoa": "true"
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking_hotcocoa": "true"
       }
     },
     // Jodi Dinner Combo LoC (ok!)
@@ -563,7 +563,7 @@
               "Text": "[TowniesNeedFood_Jodi_DinnerComboLoC_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_roast",
+                "AcceptedContextTags": "blueberry.LoveOfCooking_roast",
                 "Message": "[TowniesNeedFood_Jodi_DinnerComboLoC_Message_0]",
                 "TargetName": "Jodi"
               }
@@ -573,7 +573,7 @@
               "Text": "[TowniesNeedFood_Jodi_DinnerComboLoC_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_unagi",
+                "AcceptedContextTags": "blueberry.LoveOfCooking_unagi",
                 "Message": "[TowniesNeedFood_Jodi_DinnerComboLoC_Message_1]",
                 "TargetName": "Jodi"
               }
@@ -595,8 +595,8 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_roast": "true",
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_unagi": "true"
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking_roast": "true",
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking_unagi": "true"
       }
     },
     // Kent Classic Vegetables LoC (ok!)
@@ -623,7 +623,7 @@
               "Text": "[TowniesNeedFood_Kent_ClassicVegetablesLoC_Objective_Text_0]",
               "RequiredCount": "2",
               "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_hunters",
+                "AcceptedContextTags": "blueberry.LoveOfCooking_hunters",
                 "Message": "[TowniesNeedFood_Kent_ClassicVegetablesLoC_Message_0]",
                 "TargetName": "Kent"
               }
@@ -645,7 +645,7 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_hunters": "true",
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking_hunters": "true",
         "HasSeenEvent": "63"
       }
     },
@@ -673,7 +673,7 @@
               "Text": "[TowniesNeedFood_Leah_SandosLoC_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_saladsando",
+                "AcceptedContextTags": "blueberry.LoveOfCooking_saladsando",
                 "Message": "[TowniesNeedFood_Leah_SandosLoC_Message_0]",
                 "TargetName": "Leah"
               }
@@ -683,7 +683,7 @@
               "Text": "[TowniesNeedFood_Leah_SandosLoC_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_seafoodsando",
+                "AcceptedContextTags": "blueberry.LoveOfCooking_seafoodsando",
                 "Message": "[TowniesNeedFood_Leah_SandosLoC_Message_1]",
                 "TargetName": "Leah"
               }
@@ -705,8 +705,8 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_saladsando": "true",
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_seafoodsando": "true"
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking_saladsando": "true",
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking_seafoodsando": "true"
       }
     },
     // Maru Veggies & a Mystery LoC (ok!)
@@ -733,7 +733,7 @@
               "Text": "[TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_leeks",
+                "AcceptedContextTags": "blueberry.LoveOfCooking_leeks",
                 "Message": "[TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Message_0]",
                 "TargetName": "Maru"
               }
@@ -743,7 +743,7 @@
               "Text": "[TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_kebab",
+                "AcceptedContextTags": "blueberry.LoveOfCooking_kebab",
                 "Message": "[TowniesNeedFood_Maru_VeggiesandaMysteryLoC_Message_1]",
                 "TargetName": "Maru"
               }
@@ -765,8 +765,8 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_leeks": "true",
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_kebab": "true"
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking_leeks": "true",
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking_kebab": "true"
       }
     },
     // Sandy Refreshing Salad and Parfait LoC (ok!)
@@ -793,7 +793,7 @@
               "Text": "[TowniesNeedFood_Sandy_RefreshingSaladLoC_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_summersalad",
+                "AcceptedContextTags": "blueberry.LoveOfCooking_summersalad",
                 "Message": "[TowniesNeedFood_Sandy_RefreshingSaladLoC_Message_0]",
                 "TargetName": "Sandy"
               }
@@ -803,7 +803,7 @@
               "Text": "[TowniesNeedFood_Sandy_RefreshingSaladLoC_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_parfait",
+                "AcceptedContextTags": "blueberry.LoveOfCooking_parfait",
                 "Message": "[TowniesNeedFood_Sandy_RefreshingSaladLoC_Message_1]",
                 "TargetName": "Sandy"
               }
@@ -825,8 +825,8 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_summersalad": "true",
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_parfait": "true",
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking_summersalad": "true",
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking_parfait": "true",
         "HasSeenEvent": "67"
       }
     },
@@ -854,7 +854,7 @@
               "Text": "[TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_lobster",
+                "AcceptedContextTags": "blueberry.LoveOfCooking_lobster",
                 "Message": "[TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Message_0]",
                 "TargetName": "Willy"
               }
@@ -864,7 +864,7 @@
               "Text": "[TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_oceanplatter",
+                "AcceptedContextTags": "blueberry.LoveOfCooking_oceanplatter",
                 "Message": "[TowniesNeedFood_Willy_LunchandDinnerLeftoversLoC_Message_1]",
                 "TargetName": "Willy"
               }
@@ -886,8 +886,8 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_lobster": "true",
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_oceanplatter": "true"
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking_lobster": "true",
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking_oceanplatter": "true"
       }
     },
     //
