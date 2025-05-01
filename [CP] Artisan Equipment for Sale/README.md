@@ -9,7 +9,7 @@ Translations are welcome! You can submit either the language.json to me or the s
 German translation courtesy of Nexus user kupiqo.
 
 
-||Compatibility * Integration||
+||Compatibility - Integration||
 
 For the machines Marlon sells, there's built-in integration. If you use <a href="https://www.nexusmods.com/stardewvalley/mods/2569">Befriend Marlon and Gunther</a> or <a href="https://www.nexusmods.com/stardewvalley/mods/7018">Make Marlon Real</a>, then there is a friendship requirement. If you use none of those mods, there's a different requirement.
 
