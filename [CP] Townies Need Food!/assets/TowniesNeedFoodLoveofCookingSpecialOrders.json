@@ -362,7 +362,7 @@
         "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_cherrypie": "true"
       }
     },
-    // George Fall Classics LoC stew gone, apple pie ok
+    // George Fall Classics LoC (ok!)
     {
       "LogName": "George Fall Classics LoC",
       "Action": "EditData",
@@ -386,7 +386,7 @@
               "Text": "[TowniesNeedFood_George_FallClassicsLoC_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_stew", // missing
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_roast", // missing
                 "Message": "[TowniesNeedFood_George_FallClassicsLoC_Message_0]",
                 "TargetName": "George"
               }
@@ -418,7 +418,7 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_stew": "true",
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_roast": "true",
         "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_applepie": "true"
       }
     },
