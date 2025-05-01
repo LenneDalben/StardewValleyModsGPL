@@ -213,7 +213,7 @@
 				}
 			],
 		},
-		// Artisan Equipment at Marlon's (Befriend Marlon is good. Need to confirm Make Marlon Real)
+		// Artisan Equipment at Marlon's (Befriend Marlon and Gunther or Make Marlon Real)
 		/*Bone Mill*/ {
 			"LogName": "Artisan Equipment - Bone Mill at Marlon's with friendship",
 			"Action": "EditData",
@@ -251,7 +251,7 @@
 				"{{ModID}}_SlimeEggPress": {
 					"Id": "{{ModID}}_SlimeEggPress",
 					"ItemId": "(BC)158",
-					"Price": 2180,
+					"Price": 8000,
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 1,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Slime Egg-Press, {{HasMod |contains=Yoshimax.BefriendMarlon, Wolf.Marlon}}, PLAYER_FRIENDSHIP_POINTS Current Marlon 1500" // available on Thursdays if player knows the Slime Egg-Press recipe AND has 6 hearts with Marlon
@@ -327,7 +327,7 @@
 				"{{ModID}}_SlimeEggPress": {
 					"Id": "{{ModID}}_SlimeEggPress",
 					"ItemId": "(BC)158",
-					"Price": 2180,
+					"Price": 8000,
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStock": 1,
 					"Condition": "DAY_OF_WEEK Thursday, PLAYER_HAS_CRAFTING_RECIPE Current Slime Egg-Press, !{{HasMod |contains=Yoshimax.BefriendMarlon, Wolf.Marlon}}, MINE_LOWEST_LEVEL_REACHED 120" // available on Thursdays if player knows the Slime Egg-Press recipe AND player has reached the bottom of the mines once
