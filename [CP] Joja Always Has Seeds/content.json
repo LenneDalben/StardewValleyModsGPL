@@ -38,12 +38,14 @@
 					"Id": "{{ModID}}_GarlicSeeds",
 					"ItemId": "(O)476",
 					"Price": 50,
+					"IgnoreShopPriceModifiers": true,
 					"Condition": "YEAR 2" // available after year 2
 				},
 				"{{ModID}}_RiceShoot": {
 					"Id": "{{ModID}}_RiceShoot",
 					"ItemId": "(O)273",
 					"Price": 50,
+					"IgnoreShopPriceModifiers": true,
 					"Condition": "YEAR 2" // available after year 2
 				},
 			},
@@ -71,42 +73,49 @@
 					"Id": "{{ModID}}_JazzSeeds",
 					"ItemId": "(O)429",
 					"Price": 37,
+					"IgnoreShopPriceModifiers": true,
 					"Condition": "!SEASON Spring" // available when it's not spring, because vanilla Joja already offers it in spring
 				},
 				"{{ModID}}_TulipBulb": {
 					"Id": "{{ModID}}_TulipBulb",
 					"ItemId": "(O)427",
 					"Price": 25,
+					"IgnoreShopPriceModifiers": true,
 					"Condition": "!SEASON Spring" // available when it's not spring, because vanilla Joja already offers it in spring
 				},
 				"{{ModID}}_CauliflowerSeeds": {
 					"Id": "{{ModID}}_CauliflowerSeeds",
 					"ItemId": "(O)474",
 					"Price": 100,
+					"IgnoreShopPriceModifiers": true,
 					"Condition": "!SEASON Spring" // available when it's not spring, because vanilla Joja already offers it in spring
 				},
 				"{{ModID}}_BeanStarter": {
 					"Id": "{{ModID}}_BeanStarter",
 					"ItemId": "(O)473",
 					"Price": 75,
+					"IgnoreShopPriceModifiers": true,
 					"Condition": "!SEASON Spring" // available when it's not spring, because vanilla Joja already offers it in spring
 				},
 				"{{ModID}}_KaleSeeds": {
 					"Id": "{{ModID}}_KaleSeeds",
 					"ItemId": "(O)477",
 					"Price": 87,
+					"IgnoreShopPriceModifiers": true,
 					"Condition": "!SEASON Spring" // available when it's not spring, because vanilla Joja already offers it in spring
 				},
 				"{{ModID}}_ParsnipSeeds": {
 					"Id": "{{ModID}}_ParsnipSeeds",
 					"ItemId": "(O)472",
 					"Price": 25,
+					"IgnoreShopPriceModifiers": true,
 					"Condition": "!SEASON Spring" // available when it's not spring, because vanilla Joja already offers it in spring
 				},
 				"{{ModID}}_PotatoSeeds": {
 					"Id": "{{ModID}}_PotatoSeeds",
 					"ItemId": "(O)475",
 					"Price": 62,
+					"IgnoreShopPriceModifiers": true,
 					"Condition": "!SEASON Spring" // available when it's not spring, because vanilla Joja already offers it in spring
 				},
 			},
@@ -155,6 +164,7 @@
 					"Id": "{{ModID}}_RedCabbageSeeds",
 					"ItemId": "(O)485",
 					"Price": 100,
+					"IgnoreShopPriceModifiers": true,
 					"Condition": "YEAR 2" // available after year 2
 				}
 			},
@@ -178,60 +188,70 @@
 					"Id": "{{ModID}}_PoppySeeds",
 					"ItemId": "(O)453",
 					"Price": 125,
+					"IgnoreShopPriceModifiers": true,
 					"Condition": "!SEASON Summer" // available when it's not summer, because vanilla Joja already offers it in spring
 				},
 				"{{ModID}}_SpangleSeeds": {
 					"Id": "{{ModID}}_SpangleSeeds",
 					"ItemId": "(O)455",
 					"Price": 62,
+					"IgnoreShopPriceModifiers": true,
 					"Condition": "!SEASON Summer" // available when it's not summer, because vanilla Joja already offers it in summer
 				},
 				"{{ModID}}_SunflowerSeeds": {
 					"Id": "{{ModID}}_SunflowerSeeds",
 					"ItemId": "(O)431",
 					"Price": 125,
+					"IgnoreShopPriceModifiers": true,
 					"Condition": "!SEASON Summer" // available when it's not summer, because vanilla Joja already offers it in summer
 				},
 				"{{ModID}}_MelonSeeds": {
 					"Id": "{{ModID}}_MelonSeeds",
 					"ItemId": "(O)479",
 					"Price": 100,
+					"IgnoreShopPriceModifiers": true,
 					"Condition": "!SEASON Summer" // available when it's not summer, because vanilla Joja already offers it in summer
 				},
 				"{{ModID}}_CornSeeds": {
 					"Id": "{{ModID}}_CornSeeds",
 					"ItemId": "(O)487",
 					"Price": 187,
+					"IgnoreShopPriceModifiers": true,
 					"Condition": "!SEASON Summer" // available when it's not summer, because vanilla Joja already offers it in summer
 				},
 				"{{ModID}}_HopsStarter": {
 					"Id": "{{ModID}}_HopsStarter",
 					"ItemId": "(O)302",
 					"Price": 75,
+					"IgnoreShopPriceModifiers": true,
 					"Condition": "!SEASON Summer" // available when it's not summer, because vanilla Joja already offers it in summer
 				},
 				"{{ModID}}_PepperSeeds": {
 					"Id": "{{ModID}}_PepperSeeds",
 					"ItemId": "(O)482",
 					"Price": 50,
+					"IgnoreShopPriceModifiers": true,
 					"Condition": "!SEASON Summer" // available when it's not summer, because vanilla Joja already offers it in summer
 				},
 				"{{ModID}}_RadishSeeds": {
 					"Id": "{{ModID}}_RadishSeeds",
 					"ItemId": "(O)484",
 					"Price": 50,
+					"IgnoreShopPriceModifiers": true,
 					"Condition": "!SEASON Summer" // available when it's not summer, because vanilla Joja already offers it in summer
 				},
 				"{{ModID}}_TomatoSeeds": {
 					"Id": "{{ModID}}_TomatoSeeds",
 					"ItemId": "(O)480",
 					"Price": 62,
+					"IgnoreShopPriceModifiers": true,
 					"Condition": "!SEASON Summer" // available when it's not summer, because vanilla Joja already offers it in summer
 				},
 				"{{ModID}}_WheatSeeds": {
 					"Id": "{{ModID}}_WheatSeeds",
 					"ItemId": "(O)483",
 					"Price": 12,
+					"IgnoreShopPriceModifiers": true,
 					"Condition": "!SEASON Summer" // available when it's not summer, because vanilla Joja already offers it in summer
 				},
 			},
@@ -292,6 +312,7 @@
 					"Id": "{{ModID}}_ArtichokeSeeds",
 					"ItemId": "(O)489",
 					"Price": 38,
+					"IgnoreShopPriceModifiers": true,
 					"Condition": "YEAR 2" // available after year 2
 				}
 			},
@@ -315,48 +336,56 @@
 					"Id": "{{ModID}}_FairySeeds",
 					"ItemId": "(O)425",
 					"Price": 250,
+					"IgnoreShopPriceModifiers": true,
 					"Condition": "!SEASON Fall" // available when it's not fall, because vanilla Joja already offers it in fall
 				},
 				"{{ModID}}_AmaranthSeeds": {
 					"Id": "{{ModID}}_AmaranthSeeds",
 					"ItemId": "(O)299",
 					"Price": 87,
+					"IgnoreShopPriceModifiers": true,
 					"Condition": "!SEASON Fall" // available when it's not fall, because vanilla Joja already offers it in fall
 				},
 				"{{ModID}}_BokChoySeeds": {
 					"Id": "{{ModID}}_BokChoySeeds",
 					"ItemId": "(O)491",
 					"Price": 62,
+					"IgnoreShopPriceModifiers": true,
 					"Condition": "!SEASON Fall" // available when it's not fall, because vanilla Joja already offers it in fall
 				},
 				"{{ModID}}_CranberrySeeds": {
 					"Id": "{{ModID}}_CranberrySeeds",
 					"ItemId": "(O)493",
 					"Price": 300,
+					"IgnoreShopPriceModifiers": true,
 					"Condition": "!SEASON Fall" // available when it's not fall, because vanilla Joja already offers it in fall
 				},
 				"{{ModID}}_EggplantSeeds": {
 					"Id": "{{ModID}}_EggplantSeeds",
 					"ItemId": "(O)488",
 					"Price": 25,
+					"IgnoreShopPriceModifiers": true,
 					"Condition": "!SEASON Fall" // available when it's not fall, because vanilla Joja already offers it in fall
 				},
 				"{{ModID}}_GrapeStarter": {
 					"Id": "{{ModID}}_GrapeStarter",
 					"ItemId": "(O)301",
 					"Price": 75,
+					"IgnoreShopPriceModifiers": true,
 					"Condition": "!SEASON Fall" // available when it's not fall, because vanilla Joja already offers it in fall
 				},
 				"{{ModID}}_YamSeeds": {
 					"Id": "{{ModID}}_YamSeeds",
 					"ItemId": "(O)492",
 					"Price": 75,
+					"IgnoreShopPriceModifiers": true,
 					"Condition": "!SEASON Fall" // available when it's not fall, because vanilla Joja already offers it in fall
 				},
 				"{{ModID}}_PumpkinSeeds": {
 					"Id": "{{ModID}}_PumpkinSeeds",
 					"ItemId": "(O)490",
 					"Price": 125,
+					"IgnoreShopPriceModifiers": true,
 					"Condition": "!SEASON Fall" // available when it's not fall, because vanilla Joja already offers it in fall
 				}
 			},
