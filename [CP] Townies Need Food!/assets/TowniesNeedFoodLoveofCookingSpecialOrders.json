@@ -182,7 +182,7 @@
         "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_eggsando": "true"
       }
     },
-    // Elliott Dinner Variety LoC cabbage pot gone, admiral pie ok
+    // Elliott Dinner Variety LoC (ok!)
     {
       "LogName": "Elliott Dinner Variety LoC",
       "Action": "EditData",
@@ -206,7 +206,7 @@
               "Text": "[TowniesNeedFood_Elliott_DinnerVarietyLoC_Objective_Text_0]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_cabbagepot", // missing
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_quiche",
                 "Message": "[TowniesNeedFood_Elliott_DinnerVarietyLoC_Message_0]",
                 "TargetName": "Elliott"
               }
@@ -238,11 +238,11 @@
       },
       "When": {
         "PlayerHasKitchen": true,
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_cabbagepot": "true",
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_quiche": "true",
         "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_admiralpie": "true"
       }
     },
-    // Emily Lunch and Dessert LoC cake gone (could replace with carrot cake), burger ok
+    // Emily Lunch and Dessert LoC (ok!)
     {
       "LogName": "Emily Lunch and Dessert LoC",
       "Action": "EditData",
@@ -276,7 +276,7 @@
               "Text": "[TowniesNeedFood_Emily_LunchandDessertLoC_Objective_Text_1]",
               "RequiredCount": "1",
               "Data": {
-                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_cake", // missing
+                "AcceptedContextTags": "blueberry.LoveOfCooking.CP_carrotcake", // missing
                 "Message": "[TowniesNeedFood_Emily_LunchandDessertLoC_Message_1]",
                 "TargetName": "Emily"
               }
@@ -299,7 +299,7 @@
       "When": {
         "PlayerHasKitchen": true,
         "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_burger": "true",
-        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_cake": "true"
+        "HasCookingRecipe |contains=blueberry.LoveOfCooking.CP_carrotcake": "true"
       }
     },
     // Evelyn Variety Lunch LoC craymornay changed names, garden pie missing (couldreplace with cherry pie)

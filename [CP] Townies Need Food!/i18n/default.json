@@ -361,19 +361,19 @@
   //
   // Elliott Dinner Variety LoC Strings
   "TowniesNeedFood_Elliott_DinnerVarietyLoC_Name": "Dinner Variety",
-  "TowniesNeedFood_Elliott_DinnerVarietyLoC_Text": "I'd love to have some variety for dinner. Could anyone make me cabbage pot and admiral pie?",
-  "TowniesNeedFood_Elliott_DinnerVarietyLoC_Objective_Text_0": "Deliver Cabbage Pot to Elliott",
+  "TowniesNeedFood_Elliott_DinnerVarietyLoC_Text": "I'd love to have some variety for dinner. Could anyone make me quiche and admiral pie?",
+  "TowniesNeedFood_Elliott_DinnerVarietyLoC_Objective_Text_0": "Deliver Quiche to Elliott",
   "TowniesNeedFood_Elliott_DinnerVarietyLoC_Objective_Text_1": "Deliver Admiral Pie to Elliott",
-  "TowniesNeedFood_Elliott_DinnerVarietyLoC_Message_0": "Don't let cabbage fool you, it is a fine vegetable.#$b#This will work for several meals, thanks @!",
+  "TowniesNeedFood_Elliott_DinnerVarietyLoC_Message_0": "Don't let quiche fool you, it's high in protein. Thanks @!",
   "TowniesNeedFood_Elliott_DinnerVarietyLoC_Message_1": "The pie is not just saucy, it's scrumptious!$h",
   //
   // Emily Lunch and Dessert LoC Strings
   "TowniesNeedFood_Emily_LunchandDessertLoC_Name": "Lunch and Dessert",
-  "TowniesNeedFood_Emily_LunchandDessertLoC_Text": "I'm interested in the sweet combination of beet burger and cake!",
+  "TowniesNeedFood_Emily_LunchandDessertLoC_Text": "I'm interested in the sweet combination of beet burger and carrot cake!",
   "TowniesNeedFood_Emily_LunchandDessertLoC_Objective_Text_0": "Deliver Beet Burger to Emily",
-  "TowniesNeedFood_Emily_LunchandDessertLoC_Objective_Text_1": "Deliver Cake to Emily",
+  "TowniesNeedFood_Emily_LunchandDessertLoC_Objective_Text_1": "Deliver Carrot Cake to Emily",
   "TowniesNeedFood_Emily_LunchandDessertLoC_Message_0": "This is a delicious flavor blend with dazzling color!",
-  "TowniesNeedFood_Emily_LunchandDessertLoC_Message_1": "This is a lovely sponge cake. Thanks @!",
+  "TowniesNeedFood_Emily_LunchandDessertLoC_Message_1": "This is a lovely carrot cake. Thanks @!",
   //
   // Evelyn Variety Lunch LoC Strings
   "TowniesNeedFood_Evelyn_VarietyLunchLoC_Name": "Variety Lunch",
