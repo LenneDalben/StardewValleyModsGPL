@@ -7,7 +7,7 @@
 			"Action": "EditData",
 			"Target": "Data/mail",
 			"Entries": {
-				"{{ModID}}_Letter": "{{i18n:JojaHasExtraStock.Letter.Text}} [#]{{i18n:JojaHasExtraStock.Letter.Title}}"
+				"{{ModID}}_NotMemberLetter": "{{i18n:JojaHasExtraStock.Letter.Text}} [#]{{i18n:JojaHasExtraStock.Letter.Title}}"
 			}
 		},
 		/*Letter Trigger Action*/ {
@@ -15,18 +15,17 @@
 			"Action": "EditData",
 			"Target": "Data/TriggerActions",
 			"Entries": {
-				"{{ModId}}_LetterTrigger": {
-					"Id": "{{ModId}}_LetterTrigger",
+				"{{ModID}}_NotMemberLetterTrigger": {
+					"Id": "{{ModID}}_NotMemberLetterTrigger",
 					"Trigger": "DayStarted",
 					"Actions": [
-						"AddMail Current {{ModID}}_Letter Now"
+						"AddMail Current {{ModID}}_NotMemberLetter Now"
 					]
 				}
 			}
 		},
-		// Spring seeds offered all year round
-		/*Garlic and rice*/ {
-			"LogName": "Joja Has Extra Stock - Garlic and Rice",
+		/*Stock with Non-Member Prices*/ {
+			"LogName": "Joja Has Extra Stock - Non-Member Prices",
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -34,116 +33,94 @@
 				"Items"
 			],
 			"Entries": {
-				"{{ModID}}_GarlicSeeds": {
-					"Id": "{{ModID}}_GarlicSeeds",
-					"ItemId": "(O)476",
-					"Price": 50,
-					"Condition": "YEAR 2" // available after year 2
-				},
-				"{{ModID}}_RiceShoot": {
-					"Id": "{{ModID}}_RiceShoot",
-					"ItemId": "(O)273",
-					"Price": 50,
-					"Condition": "YEAR 2" // available after year 2
-				},
-			},
-			"MoveEntries": [
-				{
-					"ID": "{{ModID}}_GarlicSeeds",
-					"ToPosition": "Top"
-				},
-				{
-					"ID": "{{ModID}}_RiceShoot",
-					"ToPosition": "Top"
-				},
-			],
-		},
-		/*The other spring seeds*/ {
-			"LogName": "Joja Has Extra Stock - Year 1 Spring",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"Joja",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_JazzSeeds": {
-					"Id": "{{ModID}}_JazzSeeds",
-					"ItemId": "(O)429",
-					"Price": 37,
-					"Condition": "!SEASON Spring" // available when it's not spring, because vanilla Joja already offers it in spring
-				},
-				"{{ModID}}_TulipBulb": {
-					"Id": "{{ModID}}_TulipBulb",
-					"ItemId": "(O)427",
-					"Price": 25,
-					"Condition": "!SEASON Spring" // available when it's not spring, because vanilla Joja already offers it in spring
-				},
-				"{{ModID}}_CauliflowerSeeds": {
-					"Id": "{{ModID}}_CauliflowerSeeds",
-					"ItemId": "(O)474",
-					"Price": 100,
-					"Condition": "!SEASON Spring" // available when it's not spring, because vanilla Joja already offers it in spring
-				},
-				"{{ModID}}_BeanStarter": {
-					"Id": "{{ModID}}_BeanStarter",
-					"ItemId": "(O)473",
+				"{{ModID}}_NotMemberTortilla": {
+					"Id": "{{ModID}}_NotMemberTortilla",
+					"ItemId": "(O)229",
 					"Price": 75,
-					"Condition": "!SEASON Spring" // available when it's not spring, because vanilla Joja already offers it in spring
+					"Condition": "!PLAYER_HAS_MAIL JojaMember Received" // available at this price when player is not a Joja member
 				},
-				"{{ModID}}_KaleSeeds": {
-					"Id": "{{ModID}}_KaleSeeds",
-					"ItemId": "(O)477",
-					"Price": 87,
-					"Condition": "!SEASON Spring" // available when it's not spring, because vanilla Joja already offers it in spring
+				"{{ModID}}_NotMemberOil": {
+					"Id": "{{ModID}}_NotMemberOil",
+					"ItemId": "(O)247",
+					"Price": 150,
+					"Condition": "!PLAYER_HAS_MAIL JojaMember Received" // available at this price when player is not a Joja member
 				},
-				"{{ModID}}_ParsnipSeeds": {
-					"Id": "{{ModID}}_ParsnipSeeds",
-					"ItemId": "(O)472",
-					"Price": 25,
-					"Condition": "!SEASON Spring" // available when it's not spring, because vanilla Joja already offers it in spring
+				"{{ModID}}_NotMemberVinegar": {
+					"Id": "{{ModID}}_NotMemberVinegar",
+					"ItemId": "(O)419",
+					"Price": 150,
+					"Condition": "!PLAYER_HAS_MAIL JojaMember Received" // available at this price when player is not a Joja member
 				},
-				"{{ModID}}_PotatoSeeds": {
-					"Id": "{{ModID}}_PotatoSeeds",
-					"ItemId": "(O)475",
-					"Price": 62,
-					"Condition": "!SEASON Spring" // available when it's not spring, because vanilla Joja already offers it in spring
+				"{{ModID}}_NotMemberCoalYear1": {
+					"Id": "{{ModID}}_NotMemberCoalYear1",
+					"ItemId": "(O)382",
+					"Price": 113,
+					"Condition": "!PLAYER_HAS_MAIL JojaMember Received, DATE_RANGE spring 1 1 winter 28 1" // available at this price when player is not a Joja member AND it's year 1
 				},
-			},
-			"MoveEntries": [
-				{
-					"ID": "{{ModID}}_JazzSeeds",
-					"ToPosition": "Top"
+				"{{ModID}}_NotMemberCoalYear2": {
+					"Id": "{{ModID}}_NotMemberCoalYear2",
+					"ItemId": "(O)382",
+					"Price": 188,
+					"Condition": "!PLAYER_HAS_MAIL JojaMember Received, YEAR 2" // available at this price when player is not a Joja member AND it's year 2 or later
 				},
-				{
-					"ID": "{{ModID}}_TulipBulb",
-					"ToPosition": "Top"
+				"{{ModID}}_NotMemberBait": {
+					"Id": "{{ModID}}_NotMemberBait",
+					"ItemId": "(O)685",
+					"Price": 4,
+					"Condition": "!PLAYER_HAS_MAIL JojaMember Received, PLAYER_HAS_CRAFTING_RECIPE Current Bait" // available at this price when player is not a Joja member AND player knows bait recipe
 				},
-				{
-					"ID": "{{ModID}}_CauliflowerSeeds",
-					"ToPosition": "Top"
+				"{{ModID}}_NotMemberSpinner": {
+					"Id": "{{ModID}}_NotMemberSpinner",
+					"ItemId": "(O)686",
+					"Price": 375,
+					"Condition": "!PLAYER_HAS_MAIL JojaMember Received, PLAYER_HAS_CRAFTING_RECIPE Current Spinner" // available at this price when player is not a Joja member AND player knows spinner recipe
 				},
-				{
-					"ID": "{{ModID}}_BeanStarter",
-					"ToPosition": "Top"
+				"{{ModID}}_NotMemberTrapBobber": {
+					"Id": "{{ModID}}_NotMemberTrapBobber",
+					"ItemId": "(O)694",
+					"Price": 375,
+					"Condition": "!PLAYER_HAS_MAIL JojaMember Received, PLAYER_HAS_CRAFTING_RECIPE Current Trap Bobber" // available at this price when player is not a Joja member AND player knows trap bobber recipe
 				},
-				{
-					"ID": "{{ModID}}_KaleSeeds",
-					"ToPosition": "Top"
+				"{{ModID}}_NotMemberLeadBobber": {
+					"Id": "{{ModID}}_NotMemberLeadBobber",
+					"ItemId": "(O)692",
+					"Price": 375,
+					"Condition": "!PLAYER_HAS_MAIL JojaMember Received, PLAYER_HAS_CRAFTING_RECIPE Current Lead Bobber" // available at this price when player is not a Joja member AND player knows lead bobber recipe
 				},
-				{
-					"ID": "{{ModID}}_ParsnipSeeds",
-					"ToPosition": "Top"
+				"{{ModID}}_NotMemberTreasureHunter": {
+					"Id": "{{ModID}}_NotMemberTreasureHunter",
+					"ItemId": "(O)693",
+					"Price": 563,
+					"Condition": "!PLAYER_HAS_MAIL JojaMember Received, PLAYER_HAS_CRAFTING_RECIPE Current Treasure Hunter" // available at this price when player is not a Joja member AND player knows treasure hunter recipe
 				},
-				{
-					"ID": "{{ModID}}_PotatoSeeds",
-					"ToPosition": "Top"
+				"{{ModID}}_NotMemberCorkBobber": {
+					"Id": "{{ModID}}_NotMemberCorkBobber",
+					"ItemId": "(O)695",
+					"Price": 563,
+					"Condition": "!PLAYER_HAS_MAIL JojaMember Received, PLAYER_HAS_CRAFTING_RECIPE Current Cork Bobber" // available at this price when player is not a Joja member AND player knows cork bobber recipe
 				},
-			],
+				"{{ModID}}_NotMemberBarbedHook": {
+					"Id": "{{ModID}}_NotMemberBarbedHook",
+					"ItemId": "(O)691",
+					"Price": 750,
+					"Condition": "!PLAYER_HAS_MAIL JojaMember Received, PLAYER_HAS_CRAFTING_RECIPE Current Barbed Hook" // available at this price when player is not a Joja member AND player knows barbed hook recipe
+				},
+				"{{ModID}}_NotMemberDressedSpinner": {
+					"Id": "{{ModID}}_NotMemberDressedSpinner",
+					"ItemId": "(O)697",
+					"Price": 750,
+					"Condition": "!PLAYER_HAS_MAIL JojaMember Received, PLAYER_HAS_CRAFTING_RECIPE Current Dressed Spinner" // available at this price when player is not a Joja member AND player knows dressed spinner recipe
+				},
+				"{{ModID}}_NotMemberMagnet": {
+					"Id": "{{ModID}}_NotMemberMagnet",
+					"ItemId": "(O)703",
+					"Price": 750,
+					"Condition": "!PLAYER_HAS_MAIL JojaMember Received, PLAYER_HAS_CRAFTING_RECIPE Current Magnet" // available at this price when player is not a Joja member AND player knows magnet recipe
+				}
+			}
 		},
-		// Summer seeds offered all year round
-		/*Red cabbage*/ {
-			"LogName": "Joja Has Extra Stock - Red Cabbage",
+		/*Stock with Member Prices*/ {
+			"LogName": "Joja Has Extra Stock - Member Prices",
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -151,249 +128,91 @@
 				"Items"
 			],
 			"Entries": {
-				"{{ModID}}_RedCabbageSeeds": {
-					"Id": "{{ModID}}_RedCabbageSeeds",
-					"ItemId": "(O)485",
+				"{{ModID}}_MemberTortilla": {
+					"Id": "{{ModID}}_MemberTortilla",
+					"ItemId": "(O)229",
+					"Price": 50,
+					"Condition": "PLAYER_HAS_MAIL JojaMember Received" // available at this price when player is a Joja member
+				},
+				"{{ModID}}_MemberOil": {
+					"Id": "{{ModID}}_MemberOil",
+					"ItemId": "(O)247",
 					"Price": 100,
-					"Condition": "YEAR 2" // available after year 2
-				}
-			},
-			"MoveEntries": [
-				{
-					"ID": "{{ModID}}_RedCabbageSeeds",
-					"ToPosition": "Top"
-				}
-			],
-		},
-		/*The other summer seeds*/ {
-			"LogName": "Joja Has Extra Stock - Year 1 Summer",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"Joja",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_PoppySeeds": {
-					"Id": "{{ModID}}_PoppySeeds",
-					"ItemId": "(O)453",
-					"Price": 125,
-					"Condition": "!SEASON Summer" // available when it's not summer, because vanilla Joja already offers it in spring
+					"Condition": "PLAYER_HAS_MAIL JojaMember Received" // available at this price when player is a Joja member
 				},
-				"{{ModID}}_SpangleSeeds": {
-					"Id": "{{ModID}}_SpangleSeeds",
-					"ItemId": "(O)455",
-					"Price": 62,
-					"Condition": "!SEASON Summer" // available when it's not summer, because vanilla Joja already offers it in summer
-				},
-				"{{ModID}}_SunflowerSeeds": {
-					"Id": "{{ModID}}_SunflowerSeeds",
-					"ItemId": "(O)431",
-					"Price": 125,
-					"Condition": "!SEASON Summer" // available when it's not summer, because vanilla Joja already offers it in summer
-				},
-				"{{ModID}}_MelonSeeds": {
-					"Id": "{{ModID}}_MelonSeeds",
-					"ItemId": "(O)479",
+				"{{ModID}}_MemberVinegar": {
+					"Id": "{{ModID}}_MemberVinegar",
+					"ItemId": "(O)419",
 					"Price": 100,
-					"Condition": "!SEASON Summer" // available when it's not summer, because vanilla Joja already offers it in summer
+					"Condition": "PLAYER_HAS_MAIL JojaMember Received" // available at this price when player is a Joja member
 				},
-				"{{ModID}}_CornSeeds": {
-					"Id": "{{ModID}}_CornSeeds",
-					"ItemId": "(O)487",
-					"Price": 187,
-					"Condition": "!SEASON Summer" // available when it's not summer, because vanilla Joja already offers it in summer
-				},
-				"{{ModID}}_HopsStarter": {
-					"Id": "{{ModID}}_HopsStarter",
-					"ItemId": "(O)302",
+				"{{ModID}}_MemberCoalYear1": {
+					"Id": "{{ModID}}_MemberCoalYear1",
+					"ItemId": "(O)382",
 					"Price": 75,
-					"Condition": "!SEASON Summer" // available when it's not summer, because vanilla Joja already offers it in summer
+					"Condition": "PLAYER_HAS_MAIL JojaMember Received, DATE_RANGE spring 1 1 winter 28 1" // available at this price when player is a Joja member AND it's year 1
 				},
-				"{{ModID}}_PepperSeeds": {
-					"Id": "{{ModID}}_PepperSeeds",
-					"ItemId": "(O)482",
-					"Price": 50,
-					"Condition": "!SEASON Summer" // available when it's not summer, because vanilla Joja already offers it in summer
+				"{{ModID}}_MemberCoalYear2": {
+					"Id": "{{ModID}}_MemberCoalYear2",
+					"ItemId": "(O)382",
+					"Price": 125,
+					"Condition": "PLAYER_HAS_MAIL JojaMember Received, YEAR 2" // available at this price when player is a Joja member AND it's year 2 or later
 				},
-				"{{ModID}}_RadishSeeds": {
-					"Id": "{{ModID}}_RadishSeeds",
-					"ItemId": "(O)484",
-					"Price": 50,
-					"Condition": "!SEASON Summer" // available when it's not summer, because vanilla Joja already offers it in summer
+				"{{ModID}}_MemberBait": {
+					"Id": "{{ModID}}_MemberBait",
+					"ItemId": "(O)685",
+					"Price": 3,
+					"Condition": "PLAYER_HAS_MAIL JojaMember Received, PLAYER_HAS_CRAFTING_RECIPE Current Bait" // available at this price when player is a Joja member AND player knows bait recipe
 				},
-				"{{ModID}}_TomatoSeeds": {
-					"Id": "{{ModID}}_TomatoSeeds",
-					"ItemId": "(O)480",
-					"Price": 62,
-					"Condition": "!SEASON Summer" // available when it's not summer, because vanilla Joja already offers it in summer
-				},
-				"{{ModID}}_WheatSeeds": {
-					"Id": "{{ModID}}_WheatSeeds",
-					"ItemId": "(O)483",
-					"Price": 12,
-					"Condition": "!SEASON Summer" // available when it's not summer, because vanilla Joja already offers it in summer
-				},
-			},
-			"MoveEntries": [
-				{
-					"ID": "{{ModID}}_PoppySeeds",
-					"ToPosition": "Top"
-				},
-				{
-					"ID": "{{ModID}}_SpangleSeeds",
-					"ToPosition": "Top"
-				},
-				{
-					"ID": "{{ModID}}_SunflowerSeeds",
-					"ToPosition": "Top"
-				},
-				{
-					"ID": "{{ModID}}_MelonSeeds",
-					"ToPosition": "Top"
-				},
-				{
-					"ID": "{{ModID}}_CornSeeds",
-					"ToPosition": "Top"
-				},
-				{
-					"ID": "{{ModID}}_HopsStarter",
-					"ToPosition": "Top"
-				},
-				{
-					"ID": "{{ModID}}_PepperSeeds",
-					"ToPosition": "Top"
-				},
-				{
-					"ID": "{{ModID}}_RadishSeeds",
-					"ToPosition": "Top"
-				},
-				{
-					"ID": "{{ModID}}_TomatoSeeds",
-					"ToPosition": "Top"
-				},
-				{
-					"ID": "{{ModID}}_WheatSeeds",
-					"ToPosition": "Top"
-				},
-			],
-		},
-		// Fall seeds offered all year round
-		/*Artichoke*/ {
-			"LogName": "Joja Has Extra Stock - Artichoke",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"Joja",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_ArtichokeSeeds": {
-					"Id": "{{ModID}}_ArtichokeSeeds",
-					"ItemId": "(O)489",
-					"Price": 38,
-					"Condition": "YEAR 2" // available after year 2
-				}
-			},
-			"MoveEntries": [
-				{
-					"ID": "{{ModID}}_ArtichokeSeeds",
-					"ToPosition": "Top"
-				}
-			],
-		},
-		/*The other fall seeds*/ {
-			"LogName": "Joja Has Extra Stock - Year 1 Fall",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"Joja",
-				"Items"
-			],
-			"Entries": {
-				"{{ModID}}_FairySeeds": {
-					"Id": "{{ModID}}_FairySeeds",
-					"ItemId": "(O)425",
+				"{{ModID}}_MemberSpinner": {
+					"Id": "{{ModID}}_MemberSpinner",
+					"ItemId": "(O)686",
 					"Price": 250,
-					"Condition": "!SEASON Fall" // available when it's not fall, because vanilla Joja already offers it in fall
+					"Condition": "PLAYER_HAS_MAIL JojaMember Received, PLAYER_HAS_CRAFTING_RECIPE Current Spinner" // available at this price when player is a Joja member AND player knows spinner recipe
 				},
-				"{{ModID}}_AmaranthSeeds": {
-					"Id": "{{ModID}}_AmaranthSeeds",
-					"ItemId": "(O)299",
-					"Price": 87,
-					"Condition": "!SEASON Fall" // available when it's not fall, because vanilla Joja already offers it in fall
+				"{{ModID}}_MemberTrapBobber": {
+					"Id": "{{ModID}}_MemberTrapBobber",
+					"ItemId": "(O)694",
+					"Price": 250,
+					"Condition": "PLAYER_HAS_MAIL JojaMember Received, PLAYER_HAS_CRAFTING_RECIPE Current Trap Bobber" // available at this price when player is a Joja member AND player knows trap bobber recipe
 				},
-				"{{ModID}}_BokChoySeeds": {
-					"Id": "{{ModID}}_BokChoySeeds",
-					"ItemId": "(O)491",
-					"Price": 62,
-					"Condition": "!SEASON Fall" // available when it's not fall, because vanilla Joja already offers it in fall
+				"{{ModID}}_MemberLeadBobber": {
+					"Id": "{{ModID}}_MemberLeadBobber",
+					"ItemId": "(O)692",
+					"Price": 100,
+					"Condition": "PLAYER_HAS_MAIL JojaMember Received, PLAYER_HAS_CRAFTING_RECIPE Current Lead Bobber" // available at this price when player is a Joja member AND player knows lead bobber recipe
 				},
-				"{{ModID}}_CranberrySeeds": {
-					"Id": "{{ModID}}_CranberrySeeds",
-					"ItemId": "(O)493",
-					"Price": 300,
-					"Condition": "!SEASON Fall" // available when it's not fall, because vanilla Joja already offers it in fall
+				"{{ModID}}_MemberTreasureHunter": {
+					"Id": "{{ModID}}_MemberTreasureHunter",
+					"ItemId": "(O)693",
+					"Price": 375,
+					"Condition": "PLAYER_HAS_MAIL JojaMember Received, PLAYER_HAS_CRAFTING_RECIPE Current Treasure Hunter" // available at this price when player is a Joja member AND player knows treasure hunter recipe
 				},
-				"{{ModID}}_EggplantSeeds": {
-					"Id": "{{ModID}}_EggplantSeeds",
-					"ItemId": "(O)488",
-					"Price": 25,
-					"Condition": "!SEASON Fall" // available when it's not fall, because vanilla Joja already offers it in fall
+				"{{ModID}}_MemberCorkBobber": {
+					"Id": "{{ModID}}_MemberCorkBobber",
+					"ItemId": "(O)695",
+					"Price": 375,
+					"Condition": "PLAYER_HAS_MAIL JojaMember Received, PLAYER_HAS_CRAFTING_RECIPE Current Cork Bobber" // available at this price when player is a Joja member AND player knows cork bobber recipe
 				},
-				"{{ModID}}_GrapeStarter": {
-					"Id": "{{ModID}}_GrapeStarter",
-					"ItemId": "(O)301",
-					"Price": 75,
-					"Condition": "!SEASON Fall" // available when it's not fall, because vanilla Joja already offers it in fall
+				"{{ModID}}_MemberBarbedHook": {
+					"Id": "{{ModID}}_MemberBarbedHook",
+					"ItemId": "(O)691",
+					"Price": 500,
+					"Condition": "PLAYER_HAS_MAIL JojaMember Received, PLAYER_HAS_CRAFTING_RECIPE Current Barbed Hook" // available at this price when player is a Joja member AND player knows barbed hook recipe
 				},
-				"{{ModID}}_YamSeeds": {
-					"Id": "{{ModID}}_YamSeeds",
-					"ItemId": "(O)492",
-					"Price": 75,
-					"Condition": "!SEASON Fall" // available when it's not fall, because vanilla Joja already offers it in fall
+				"{{ModID}}_MemberDressedSpinner": {
+					"Id": "{{ModID}}_MemberDressedSpinner",
+					"ItemId": "(O)697",
+					"Price": 500,
+					"Condition": "PLAYER_HAS_MAIL JojaMember Received, PLAYER_HAS_CRAFTING_RECIPE Current Dressed Spinner" // available at this price when player is a Joja member AND player knows dressed spinner recipe
 				},
-				"{{ModID}}_PumpkinSeeds": {
-					"Id": "{{ModID}}_PumpkinSeeds",
-					"ItemId": "(O)490",
-					"Price": 125,
-					"Condition": "!SEASON Fall" // available when it's not fall, because vanilla Joja already offers it in fall
+				"{{ModID}}_MemberMagnet": {
+					"Id": "{{ModID}}_MemberMagnet",
+					"ItemId": "(O)703",
+					"Price": 500,
+					"Condition": "PLAYER_HAS_MAIL JojaMember Received, PLAYER_HAS_CRAFTING_RECIPE Current Magnet" // available at this price when player is a Joja member AND player knows magnet recipe
 				}
-			},
-			"MoveEntries": [
-				{
-					"ID": "{{ModID}}_FairySeeds",
-					"ToPosition": "Top"
-				},
-				{
-					"ID": "{{ModID}}_AmaranthSeeds",
-					"ToPosition": "Top"
-				},
-				{
-					"ID": "{{ModID}}_BokChoySeeds",
-					"ToPosition": "Top"
-				},
-				{
-					"ID": "{{ModID}}_CranberrySeeds",
-					"ToPosition": "Top"
-				},
-				{
-					"ID": "{{ModID}}_EggplantSeeds",
-					"ToPosition": "Top"
-				},
-				{
-					"ID": "{{ModID}}_GrapeStarter",
-					"ToPosition": "Top"
-				},
-				{
-					"ID": "{{ModID}}_YamSeeds",
-					"ToPosition": "Top"
-				},
-				{
-					"ID": "{{ModID}}_PumpkinSeeds",
-					"ToPosition": "Top"
-				}
-			],
-		},
+			}
+		}
 	]
 }
