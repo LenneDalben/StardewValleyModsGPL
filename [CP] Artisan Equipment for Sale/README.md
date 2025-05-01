@@ -9,9 +9,19 @@ Translations are welcome! You can submit either the language.json to me or the s
 German translation courtesy of Nexus user kupiqo.
 
 
-||Compatibility - Integration||
+||Compatibility * Integration||
 
 For the machines Marlon sells, there's built-in integration. If you use <a href="https://www.nexusmods.com/stardewvalley/mods/2569">Befriend Marlon and Gunther</a> or <a href="https://www.nexusmods.com/stardewvalley/mods/7018">Make Marlon Real</a>, then there is a friendship requirement. If you use none of those mods, there's a different requirement.
+
+
+||Configuration||
+
+Config Option:
+* Artisan Equipment Letter Only Sends Once: Choose whether to receive the letter reminder only once (default: false).
+* * NOTE: if you set this to 'true', the reminder won't repeat, even if you set this to 'false' later. If you change your mind, you will need to use the SMAPI console command "debug action MarkActionApplied Current LenneDalben.ArtisanEquipmentforSale_LetterTrigger false"
+* * If you don't know how to use console commands, you can join the <a href="https://discord.gg/stardewvalley">Stardew Valley Discord community</a> to ask for help.
+
+Note that the mod does not come packaged with a config file. The config file will be generated after you run the game with the mod installed at least once.
 
 
 ||Installation||
@@ -249,8 +259,8 @@ Deluxe Worm Bin    |     10000      | Learn recipe and 9 hearts with Willy
 
 
 ||2.0.0 Changelog||
-- Updated for 1.6. Now requires SMAPI version 4.2.1+ and CP version 2.6.0+. No longer requires STF or MFM. If updating from previous version, delete all previous mod folders before installing the update.
-- Removed specific check for SVE for Marlon's machines. SVE users can still buy items from Marlon by unlocking recipes and getting to the bottom of the mines once.
-- Added new machines: heavy furnace, dehydrator, mushroom log, heavy tapper, fish smoker, bait maker, and deluxe worm bin.
-- Updated mayonnaise machine price to match cheese press price.
-- Fixed oil maker price typo (it's 10,000g, not 1,000g).
+* Updated for 1.6. Now requires SMAPI version 4.2.1+ and CP version 2.6.0+. No longer requires STF or MFM. If updating from previous version, delete all previous mod folders before installing the update.
+* Removed specific check for SVE for Marlon's machines. SVE users can still buy items from Marlon by unlocking recipes and getting to the bottom of the mines once.
+* Added new machines: heavy furnace, dehydrator, mushroom log, heavy tapper, fish smoker, bait maker, and deluxe worm bin.
+* Updated mayonnaise machine price to match cheese press price.
+* Fixed oil maker price typo (it's 10,000g, not 1,000g).
