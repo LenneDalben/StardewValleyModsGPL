@@ -67,7 +67,6 @@ Similarly, any mod that changes the town interior maps will be incompatible with
 Note that if the game was going to include special orders from TNAG in the next round of special orders, you may still see some special orders listed from this mod. They will reset the following week. Do not accept a special order from TNAG after uninstalling it in order to avoid the crash.
 
 
-
 ||Shout Outs||
 
 My SO, wonderful soul who proofread my work and provided emotional support <3
@@ -94,3 +93,6 @@ existentialdread, for their help in the DSV server.
 <a href="https://www.nexusmods.com/stardewvalley/users/92469153?tab=user+files">Arknir</a>, for fantastic mods like Lucikiel and Lavril. I referred to Lucikiel to figure out event works. Arknir, you're a legend~
 
 The DSV server, the SMC server, and the #making-mods channel of the main Stardew Valley server as a whole.
+
+||3.0.0 Changelog||
+* Updated for 1.6. Fixed move commands in Sam game night event
