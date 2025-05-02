@@ -22,7 +22,7 @@ Config Option
 
 * DaysTalkingAboutEvent: By default, after the trick or treat event, the villagers will talk about it for 7 days. If you'd like to reduce how long people talk about the event for, or make them talk about it even longer, you can! You can select a number between 1 day and 28 days for the days people will talk about the event.
 
-* YearOneOrLater: By default, the trick or treat event can happen in year 1 if you install it in your first year and visit the town on the appropriate days (YearOnePossible). However, Kent won't attend. If you'd like to delay this event to only happen after year 1 so that Kent can attend, set this to Later.
+* TrickorTreatEventRepeats: By default, the event repeats every year. If you don't want the event to repeat, set this to false.
 
 Note that the mod does not come packaged with a config file. The config file will be generated after you run the game with the mod installed at least once. 
 
@@ -51,3 +51,6 @@ This mod uses a custom temporary map for the event, so it should not conflict wi
 <a href="https://www.nexusmods.com/stardewvalley/users/104804993?tab=user+files">nicole / beyondrecovery</a>, for help me figure out the year config
 
 <a href="https://www.nexusmods.com/stardewvalley/users/1552317?tab=user+files">Pathoschild</a>, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible.
+
+||2.0.0 Changelog||
+* Update for 1.6. Replaced YearOneOrLater config option with TrickorTreatEventRepeats
