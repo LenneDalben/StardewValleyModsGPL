@@ -561,6 +561,30 @@
 				"PotluckStyle |contains=leaves": false
 			}
 		},
+		// SBV Elias Marriage Dialog
+		{
+			"LogName": "Pelican Town Potluck SBV Elias Marriage Dialog",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueEliasSBV",
+			"Entries": {
+				"summer_10": "{{i18n:SBV_Elias.Marriage.Dialogue.summer_10}}"
+			},
+			"When": {
+				"HasMod": "skellady.SBVCP"
+			}
+		},
+		// SBV Nadia Dialog
+		{
+			"LogName": "Pelican Town Potluck SBV Nadia Dialog",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/NadiaSBV",
+			"Entries": {
+				"summer_10": "{{i18n:SBV_Nadia.Dialogue.summer_10}}"
+			},
+			"When": {
+				"HasMod": "skellady.SBVCP"
+			}
+		},
 		//
 		// Immersive Festival Dialog Compatibility Patch
 		{

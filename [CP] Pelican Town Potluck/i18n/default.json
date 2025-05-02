@@ -158,6 +158,11 @@
 	"RSV_Sean.MarriageDialogue.summer10": "The Potluck is nice and all, but you know what the best part is?#$b#A good luck pat, because it's Pat-luck day!$h#$b#Hey, you know potluck puns are hard!",
 	"RSV_SeanSummer11_spouse": "A potluck in summer is expensive, you know. It costs a lot of hot-bucks!$h#$b#Aww yeah, double pun!$h",
 	//
+	// Sunberry Village (SBV) Compatibility Patches
+	//
+	"SBV_Elias.Marriage.Dialogue.summer_10": "I try to avoid the soup at the Potluck, but if you're addin' somethin' from %farm to it I'll have to give it a shot.$h",
+	"SBV_Nadia.Dialogue.summer_10": "Hmm, I haven't had the Potluck soup in so long.#$b#Last time I did, I think I got food poisoning.$s#$b#BUT... the year before that, it was delicious. I'll take my chances tomorrow.$6",
+	//
 	// Canon Friendly Dialog Expansion (CFDE) Compatibility Patches
 	//
 	// CFDE Abigail Dialog
