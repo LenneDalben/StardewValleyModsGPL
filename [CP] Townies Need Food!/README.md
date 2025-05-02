@@ -99,4 +99,4 @@ Thanks very much to <a href="https://kayainsdv.postype.com/">jina2ya (Kaya)</a> 
 ![Abigail Sweet and Spicy Order Reward in Journal](Preview%20Images/Abigail%20Sweet%20and%20Spicy%20Order%20Reward%20in%20Journal.png)
 
 ||4.0.0 Changelog||
-* Updated for 1.6. Removed the Love of Cooking (LOC) orders because the latest edition changed the method to complete them (context tags).  If updating from version 3.3.4 or lower, delete all previous mod folders before installing the update.
+* Updated for 1.6. Removed the Love of Cooking (LOC) orders because the latest edition changed the method to complete them (context tags). If updating from version 3.3.4 or lower, delete all previous mod folders before installing the update.
