@@ -8,12 +8,8 @@ Foraging skill 3, 20 fiber, 10 wood, and 1 red mushroom (or 10 stone), instead o
 
 Config Options:
 * Farm Totem Recipe Change: Choose whether the farm totem recipe is changed (true, default) or not (false).
-* Farm Totem Option: Choose whether the recipe requires 10 stone or 1 red mushroom (default). If you set Farm Totem Recipe Change to "false", this setting doesn't do anything.
+* Farm Totem Option: Choose whether the recipe requires 10 stone (stone) or 1 red mushroom (redmushroom, default). If you set Farm Totem Recipe Change to "false", this setting doesn't do anything.
 * Survival Burger Recipe Change: Choose whether the survival burger recipe is changed (true, default) or not (false).
-
-There is a ModToggled option to turn the mod on or off. Default is on.
-
-There is also an Option where you can select 1 red mushroom (redmushroom) or 10 stone (stone). Default is 1 red mushroom.
 
 Note that the mod does not come packaged with a config file. The config file will be generated after you run the game with the mod installed at least once. 
 
