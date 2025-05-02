@@ -1,9 +1,15 @@
-# (CP) Easier Farm Totem
+# (CP) Easier Farm Totem and Survival Burger 
 This mod allows you to craft the farm totem with lower foraging skill and different resources:
 Foraging skill 3, 20 fiber, 10 wood, and 1 red mushroom (or 10 stone), instead of Foraging skill 8, 20 fiber, 1 hardwood, and 1 honey
+ Also optionally reverts Survival Burger foraging skill level requirement to 2.
 
 
 ||Configuration||
+
+Config Options:
+* Farm Totem Recipe Change: Choose whether the farm totem recipe is changed (true, default) or not (false).
+* Farm Totem Option: Choose whether the recipe requires 10 stone or 1 red mushroom (default). If you set Farm Totem Recipe Change to "false", this setting doesn't do anything.
+* Survival Burger Recipe Change: Choose whether the survival burger recipe is changed (true, default) or not (false).
 
 There is a ModToggled option to turn the mod on or off. Default is on.
 
@@ -28,3 +34,5 @@ Delete the folder from this mod.
 <a href="https://www.moddrop.com/stardew-valley/profile/182160/mods">Airyn</a>, who gave me the idea!
 
 <a href="https://www.nexusmods.com/stardewvalley/users/1552317?tab=user+files">Pathoschild</a>, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible.
+
+||2.0.0 Changelog||
