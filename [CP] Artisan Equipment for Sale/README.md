@@ -260,7 +260,7 @@ Deluxe Worm Bin    |     10000      | Learn recipe and 9 hearts with Willy
 ||2.0.0 Changelog||
 * Updated for 1.6. Now requires SMAPI version 4.2.1+ and CP version 2.6.0+. No longer requires STF or MFM. If updating from previous version, delete all previous mod folders before installing the update.
 * Removed specific check for SVE for Marlon's machines. SVE users can still buy items from Marlon by unlocking recipes and getting to the bottom of the mines once.
-* Added config option Artisan Equipment Letter Only Sends Once: Choose whether to receive the letter reminder only once (default: false). This means the letter repeats every week on Thursdays.
+* Added config option Artisan Equipment Letter Only Sends Once: Choose whether to receive the letter reminder only once (default: false). This means the letter repeats every week on Thursdays. German translation doesn't include the config strings.
 * Added new machines: heavy furnace, dehydrator, mushroom log, heavy tapper, fish smoker, bait maker, and deluxe worm bin.
 * Adjusted some of the heart requirements; refer to spoiler section in readme or mod decription.
 * Updated mayonnaise machine price to match cheese press price.
