@@ -13,6 +13,11 @@ Beer takes half the time to make, so instead of ~29 hours in-game (1750 min), it
 Delete the folder from this mod.
 
 
+||Permissions||
+
+This mod is licensed under [GPL](https://github.com/LenneDalben/StardewValleyModsGPL/blob/main/LICENSE). Source is on [my GitHub](https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/%5BPFM%5D%20Beer%20in%20Half%20the%20Time).
+
+
 ||Shout Outs||
 
 <a href="https://www.nexusmods.com/stardewvalley/users/6110197?tab=user+files">NordKitten</a>, author of (PFM) Wine to Vinegar, who inspired me to research other ways to make vinegar in real life!
@@ -22,3 +27,6 @@ Delete the folder from this mod.
 <a href="https://www.nexusmods.com/stardewvalley/users/1552317?tab=user+files">Pathoschild</a>, author of SMAPI, without them, this mod wouldn't be possible.
 
 <a href="https://www.nexusmods.com/stardewvalley/users/2186381?tab=user+files">Digus</a>, author of Producer Framework (PFM) mod, without them, this mod wouldn't be possible either.
+
+||2.0.0 Changelog||
+* Updated version number requirements for 1.6. No other changes needed.
