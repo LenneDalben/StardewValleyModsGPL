@@ -37,6 +37,11 @@ Each NPCs changes can be toggled on or off. By default all NPC changes are on (t
 Delete the folder from this mod.
 
 
+||Permissions||
+
+This mod is licensed under [GPL](https://github.com/LenneDalben/StardewValleyModsGPL/blob/main/LICENSE). Source is on [my GitHub](https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/%5BCP%5D%20Unique%20Mobile%20Greetings).
+
+
 ||Shout Outs||
 
 <a href="https://www.nexusmods.com/stardewvalley/users/18901754?tab=user+files">Aedenthorn</a>, author of Mobile Phone, without them, this mod wouldn't be possible.
