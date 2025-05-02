@@ -28,7 +28,7 @@ Each NPCs changes can be toggled on or off. By default all NPC changes are on (t
 ||Installation||
 1. Install <a href="https://smapi.io/">SMAPI</a> (version 4.2.1 or higher)
 2. Install <a href="https://www.nexusmods.com/stardewvalley/mods/1915">Content Patcher (CP)</a> (version 2.6.0 or higher)
-3. Install <a href="https://www.nexusmods.com/stardewvalley/mods/6523">Mobile Phone</a> (version 2.2.2 or higher)
+3. Install <a href="https://www.nexusmods.com/stardewvalley/mods/6523">Mobile Phone</a> (version 3.3.2 or higher) OR <a href ="https://www.nexusmods.com/stardewvalley/mods/21017">Mobile Phone Continued</a>
 4. <a href="https://www.moddrop.com/stardew-valley/mods/1032953-unique-mobile-greetings">Download the mod from ModDrop</a> and unzip the mod folder into Stardew Valley/Mods.
 5. Play the game using SMAPI!
 
