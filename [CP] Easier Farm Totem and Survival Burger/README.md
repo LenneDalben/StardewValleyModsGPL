@@ -25,11 +25,18 @@ Note that the mod does not come packaged with a config file. The config file wil
 Delete the folder from this mod.
 
 
+||Permissions||
+
+This mod is licensed under [GPL](https://github.com/LenneDalben/StardewValleyModsGPL/blob/main/LICENSE). Source is on [my GitHub](https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/%5BCP%5D%20Easier%20Farm%20Totem%20and%20Survival%20Burger).
+
+
 ||Shout Outs||
 
-<a href="https://www.moddrop.com/stardew-valley/profile/182160/mods">Airyn</a>, who gave me the idea!
+<a href="https://www.nexusmods.com/stardewvalley/users/70148453?tab=user+files">Airyn</a>, who gave me the idea!
 
 <a href="https://www.nexusmods.com/stardewvalley/users/1552317?tab=user+files">Pathoschild</a>, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible.
+
+<a href="https://next.nexusmods.com/profile/beyondrecovery/mods?gameId=1303">beyondrecovery</a>, who gave me the idea to add the survival burger recipe change!
 
 ||2.0.0 Changelog||
 * Updated config name from ModToggled to Farm Totem Recipe Change
