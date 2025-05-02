@@ -100,5 +100,5 @@ existentialdread, for their help in the DSV server.
 The DSV server, the SMC server, and the #making-mods channel of the main Stardew Valley server as a whole.
 
 ||3.0.0 Changelog||
-* Updated for 1.6. Fixed move commands in Sam game night event
+* Updated for 1.6. Fixed move commands in Sam game night event.
 * Note: I tested the vanilla orders for 1.6, but not the mod integration. I know Host Trees is broken for 1.6 so those orders will not work properly. Please drop a comment on ModDrop if you run into any other issues!
