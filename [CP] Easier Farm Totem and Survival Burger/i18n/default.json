@@ -6,7 +6,7 @@
 		"config.FarmTotemRecipeChange.values.false": "false",
 		//
 		"config.FarmTotemOption.name": "FarmTotemOption",
-		"config.FarmTotemOption.description": "Choose whether the recipe requires 10 stone or 1 red mushroom (default). If you set FarmTotemRecipeChange to 'false', this setting doesn't do anything.",		
+		"config.FarmTotemOption.description": "Choose whether the recipe requires 10 stone (stone) or 1 red mushroom (redmushroom, default). If you set FarmTotemRecipeChange to 'false', this setting doesn't do anything.",		
 		"config.FarmTotemOption.values.redmushroom": "redmushroom",
 		"config.FarmTotemOption.values.stone": "stone",
 		//

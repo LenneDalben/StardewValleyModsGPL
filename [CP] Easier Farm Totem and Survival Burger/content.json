@@ -8,7 +8,7 @@
 			"AllowBlank": false
 		},
 		"FarmTotemOption": {
-			"Description": "Choose whether the recipe requires 10 stone or 1 red mushroom (default). If you set FarmTotemRecipeChange to 'false', this setting doesn't do anything.",
+			"Description": "Choose whether the recipe requires 10 stone (stone) or 1 red mushroom (redmushroom, default). If you set FarmTotemRecipeChange to 'false', this setting doesn't do anything.",
 			"AllowValues": "redmushroom, stone",
 			"Default": "redmushroom",
 			"AllowBlank": true
