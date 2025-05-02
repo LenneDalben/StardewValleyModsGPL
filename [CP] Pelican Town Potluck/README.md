@@ -13,12 +13,14 @@ Turkish translation provided by <a href="https://www.moddrop.com/stardew-valley/
 
 ||Configuration||
 
-Config Option
-RSVRailing: Select between colorful or green bunting for the Ridgeside Village (RSV) railing. Default is colorful. If you don't have RSV installed, this setting doesn't do anything.
+Config Options:
+* Potluck Style: Choose the Potluck flooring - blanket (default), sand, or leaves (vanilla). To use blanket without visual glitches, set PotluckMapEdits to 'true'.
+* Potluck Map Edits: Choose whether to edit the Luau map (true, default) or only the festival tilesheets (false). Set to true if you're using 'blanket' for PotluckStyle to prevent visual glitches. If you use another mod that edits the Luau map (excluding RSV and SBV which are already compatible), you may want to set this to false and use 'sand' or 'leaves' for 'PotluckStyle' to avoid conflicts. If PotluckStyle is set to 'leaves', this setting doesn't do anything.
+* RSVRailing: Select between colorful or green bunting for the Ridgeside Village (RSV) railing. Default is colorful. If you don't have RSV installed, this setting doesn't do anything.
 
 ||Compatibility||
 
-Pelican Town Potluck has built-in compatibility with <a href="https://www.nexusmods.com/stardewvalley/mods/9972">FarmerJack's Dialog Expansions</a>, <a href="https://www.nexusmods.com/stardewvalley/mods/2612">Immersive Festival Dialog by tangeriney</a> and <a href="https://www.nexusmods.com/stardewvalley/mods/7286">Ridgeside Village (RSV)</a>. For RSV, the compatibility applies to the latest version as well as the Android version!
+Pelican Town Potluck has built-in compatibility with <a href="https://www.nexusmods.com/stardewvalley/mods/9972">FarmerJack's Dialog Expansions</a>, <a href="https://www.nexusmods.com/stardewvalley/mods/2612">Immersive Festival Dialog by tangeriney</a>, <a href="https://www.nexusmods.com/stardewvalley/mods/7286">Ridgeside Village (RSV)</a>, and <a href="https://www.nexusmods.com/stardewvalley/mods/11111">Sunberry Village (SBV)</a>. For RSV, the compatibility applies to the latest version as well as the Android version!
 
 In version 1.1.0 there is now built-in compatibility with <a href="https://www.nexusmods.com/stardewvalley/mods/2544">Canon-Friendly Dialogue Expansion (CFDE) by gizzymo</a>!
 
@@ -69,3 +71,9 @@ The DSV server as a whole, folks there have the best mod suggestions! <3
 ![Decorations Changes](Preview%20Images/Decoration%20Changes.png)
 
 ![Furniture Change](Preview%20Images/Furniture%20Change.png)
+
+||2.0.0 Changelog||
+* Updated for 1.6 to fix visual glitches with festival map and totem pole furniture rename to Summer Flower Tower.
+* Added new config option to customize the decorations at the festival
+* Added new config option to choose the map edit
+* Added SBV compatibility
