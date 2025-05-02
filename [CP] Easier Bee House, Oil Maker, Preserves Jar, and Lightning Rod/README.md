@@ -34,6 +34,11 @@ Note that the mod does not come packaged with a config file. The config file wil
 Delete the folder from this mod.
 
 
+||Permissions||
+
+This mod is licensed under [GPL](https://github.com/LenneDalben/StardewValleyModsGPL/blob/main/LICENSE). Source is on [my GitHub](https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/%5BCP%5D%20Easier%20Bee%20House%2C%20Oil%20Maker%2C%20Preserves%20Jar%2C%20and%20Lightning%20Rod).
+
+
 ||Shout Outs||
 
 <a href="https://www.nexusmods.com/stardewvalley/users/78204103?tab=user+files">Carlesama</a>, whose mod More Valuable Diamond was how I learned how easy it could be to modify attributes for items, and inspired me to investigate modifying crafting recipes!
