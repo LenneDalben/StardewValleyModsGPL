@@ -49,22 +49,28 @@ TNF will also auto-detect if you have Friendship Without Talk or CJB Cheats Menu
 
 ||Installation||
 
-1. Install <a href="https://smapi.io/">SMAPI</a> (version 3.9.0 or higher)
-2. Install <a href="https://www.nexusmods.com/stardewvalley/mods/1915">Content Patcher (CP)</a>  (version 1.20.0 or higher)
+1. Install <a href="https://smapi.io/">SMAPI</a> (version 4.2.1 or higher)
+2. Install <a href="https://www.nexusmods.com/stardewvalley/mods/1915">Content Patcher (CP)</a>  (version 2.6.0 or higher)
 3. <a href="https://www.moddrop.com/stardew-valley/mods/1032940-townies-need-food">Download the mod from ModDrop</a> and unzip the mod folder into Stardew Valley/Mods.
 4. Play the game using SMAPI!
 
 
 ||Updating||
 
-⚠️⚠️⚠️ATTENTION: Version 2.0.0 of TNF is a COMPLETE REWRITE. If you're updating from a 1.x version, make sure you complete or cancel any quests you had in your journal from TNF first. Then, completely delete all the folders for TNF (you cannot overwrite).⚠️⚠️⚠️Once you've done that, then you can update TNF by following the install instructions above.
+⚠️⚠️⚠️Make sure you complete or cancel any special orders you had in your journal from TNF first.⚠️⚠️⚠️Once you've done that, then you can update TNF by following the install instructions above.
 
 
 ||Un-installation||
 
-⚠️⚠️⚠️Make sure you complete or cancel any quests (from versions 1.x) or special orders (from versions 2.x) you had in your journal from TNF first.⚠️⚠️⚠️Once you've done that, delete the folders for this mod from your Stardew Valley/Mods folder.
+⚠️⚠️⚠️Make sure you complete or cancel any special orders you had in your journal from TNF first.⚠️⚠️⚠️Once you've done that, delete the folders for this mod from your Stardew Valley/Mods folder.
 
 Note that if the game was going to include special orders from TNF in the next round of special orders, you may still see some special orders listed from this mod. They will reset the following week. User stardewswag confirmed they uninstalled TNF and accepted the special order that still showed, and they crashed. Do not accept a special order from TNF after uninstalling it in order to avoid the crash.
+
+
+||Permissions||
+
+This mod is licensed under [GPL](https://github.com/LenneDalben/StardewValleyModsGPL/blob/main/LICENSE). Source is on [my GitHub](https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/%5BCP%5D%20Townies%20Need%20Food!).
+
 
 ||Shout Outs||
 
@@ -91,3 +97,6 @@ Thanks very much to <a href="https://kayainsdv.postype.com/">jina2ya (Kaya)</a> 
 ![Abigail Sweet and Spicy Order Reaction Text](Preview%20Images/Abigail%20Sweet%20and%20Spicy%20Order%20Reaction%20Text.png)
 
 ![Abigail Sweet and Spicy Order Reward in Journal](Preview%20Images/Abigail%20Sweet%20and%20Spicy%20Order%20Reward%20in%20Journal.png)
+
+||4.0.0 Changelog||
+* Updated for 1.6. Removed the Love of Cooking (LOC) orders because the latest edition changed the method to complete them (context tags).  If updating from version 3.3.4 or lower, delete all previous mod folders before installing the update.
