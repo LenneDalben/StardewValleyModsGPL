@@ -33,3 +33,6 @@ HUGE thanks to <a href="https://www.nexusmods.com/stardewvalley/users/3590100?ta
 <a href="https://www.nexusmods.com/stardewvalley/users/1552317?tab=user+files">Pathoschild</a>, author of SMAPI, without them, this mod wouldn't be possible.
 
 Everyone in #making-mods in the Stardew Valley Discord, who are a helpful and friendly lot!
+
+||2.0.0 Changelog||
+* Updated for 1.6. Now requires SMAPI version 4.2.1+ and CP version 2.6.0+. No longer requires STF or MFM. If updating from version 1.1.4 or lower, delete all previous mod folders before installing the update.
