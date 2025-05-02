@@ -75,7 +75,7 @@ The DSV server as a whole, folks there have the best mod suggestions! <3
 ![Furniture Change](Preview%20Images/Furniture%20Change.png)
 
 ||2.0.0 Changelog||
-* Updated for 1.6 to fix visual glitches with festival map and totem pole furniture rename to Summer Flower Tower.
+* Updated for 1.6 to fix visual glitches with festival map and totem pole furniture rename to Summer Flower Tower. If updating from version 1.3.0 or lower, delete all previous mod folders before installing the update.
 * Added new config option to customize the decorations at the festival
 * Added new config option to choose the map edit
 * Added Sunberry Village (SBV) compatibility
