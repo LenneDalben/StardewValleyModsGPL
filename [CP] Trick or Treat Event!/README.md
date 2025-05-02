@@ -40,6 +40,16 @@ This mod uses a custom temporary map for the event, so it should not conflict wi
 4. Play the game using SMAPI!
 
 
+||Uninstallation||
+
+Delete the folder for this mod from your Stardew Valley/Mods folder.
+
+
+||Permissions||
+
+This mod is licensed under [GPL](https://github.com/LenneDalben/StardewValleyModsGPL/blob/main/LICENSE). Source is on [my GitHub](https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/%5BCP%5D%20Trick%20or%20Treat%20Event!).
+
+
 ||Shout Outs||
 
 <a href="https://www.nexusmods.com/stardewvalley/users/34250790?tab=user+files">casey</a>, for the initial idea <3
