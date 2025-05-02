@@ -42,6 +42,11 @@ If you're interested in adding a compatibility patch for your mod (say you make 
 Delete the folder from this mod.
 
 
+||Permissions||
+
+This mod is licensed under [GPL](https://github.com/LenneDalben/StardewValleyModsGPL/blob/main/LICENSE). Source is on [my GitHub](https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/%5BCP%5D%20Pelican%20Town%20Potluck).
+
+
 ||Shout Outs||
 
 K.S.P Forever on the Diverse Stardew (DSV) Discord server, who suggested the mod!
