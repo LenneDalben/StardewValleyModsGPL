@@ -11,12 +11,11 @@ German translation courtesy of Nexus user kupiqo.
 
 ||Compatibility - Integration||
 
-For the machines Marlon sells, there's built-in integration. If you use <a href="https://www.nexusmods.com/stardewvalley/mods/2569">Befriend Marlon and Gunther</a> or <a href="https://www.nexusmods.com/stardewvalley/mods/7018">Make Marlon Real</a>, then there is a friendship requirement. If you use none of those mods, there's a different requirement.
+For the machines Marlon sells, there's built-in integration. If you use <a href="https://www.nexusmods.com/stardewvalley/mods/2569">Befriend Marlon and Gunther</a> or <a href="https://www.nexusmods.com/stardewvalley/mods/7018">Make Marlon Real</a>, there is a friendship requirement. If you use none of those mods, there's a different requirement.
 
 
 ||Configuration||
 
-Config Option:
 * Artisan Equipment Letter Only Sends Once: Choose whether to receive the letter reminder only once (default: false).
 * * NOTE: if you set this to 'true', the reminder won't repeat, even if you set this to 'false' later. If you change your mind, you will need to use the SMAPI console command "debug action MarkActionApplied Current LenneDalben.ArtisanEquipmentforSale_LetterTrigger false"
 * * If you don't know how to use console commands, you can join the <a href="https://discord.gg/stardewvalley">Stardew Valley Discord community</a> to ask for help.
@@ -27,7 +26,7 @@ Note that the mod does not come packaged with a config file. The config file wil
 ||Installation||
 
 1. Install <a href="https://smapi.io/">SMAPI</a> (version 4.2.1 or higher)
-2. Install <a href="https://www.nexusmods.com/stardewvalley/mods/5005">Content Patcher (CP)</a> (version 2.6.0 or higher)
+2. Install <a href="https://www.nexusmods.com/stardewvalley/mods/1915">Content Patcher (CP)</a> (version 2.6.0 or higher)
 3. <a href="https://www.moddrop.com/stardew-valley/mods/1034704">Download the mod from ModDrop</a> and unzip the mod folders into Stardew Valley/Mods.
 4. Play the game using SMAPI!
 
