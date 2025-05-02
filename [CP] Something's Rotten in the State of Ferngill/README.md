@@ -41,6 +41,16 @@ A note on Stardew Valley Expanded (SVE): I don’t use it and never will, so I w
 4. Play the game using SMAPI!
 
 
+||Uninstallation||
+
+Delete the folder from this mod.
+
+
+||Permissions||
+
+This mod is licensed under [GPL](https://github.com/LenneDalben/StardewValleyModsGPL/blob/main/LICENSE). Source is on [my GitHub](https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/%5BCP%5D%20Something's%20Rotten%20in%20the%20State%20of%20Ferngill).
+
+
 ||Shout Outs||
 
 
