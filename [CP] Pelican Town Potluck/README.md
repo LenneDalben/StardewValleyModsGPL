@@ -18,11 +18,13 @@ Config Options:
 * Potluck Map Edits: Choose whether to edit the Luau map (true, default) or only the festival tilesheets (false). Set to true if you're using 'blanket' for PotluckStyle to prevent visual glitches. If you use another mod that edits the Luau map (excluding RSV and SBV which are already compatible), you may want to set this to false and use 'sand' or 'leaves' for 'PotluckStyle' to avoid conflicts. If PotluckStyle is set to 'leaves', this setting doesn't do anything.
 * RSVRailing: Select between colorful or green bunting for the Ridgeside Village (RSV) railing. Default is colorful. If you don't have RSV installed, this setting doesn't do anything.
 
-||Compatibility||
+||Compatibility - Integration||
 
 Pelican Town Potluck has built-in compatibility with <a href="https://www.nexusmods.com/stardewvalley/mods/9972">FarmerJack's Dialog Expansions</a>, <a href="https://www.nexusmods.com/stardewvalley/mods/2612">Immersive Festival Dialog by tangeriney</a>, <a href="https://www.nexusmods.com/stardewvalley/mods/7286">Ridgeside Village (RSV)</a>, and <a href="https://www.nexusmods.com/stardewvalley/mods/11111">Sunberry Village (SBV)</a>. For RSV, the compatibility applies to the latest version as well as the Android version!
 
 In version 1.1.0 there is now built-in compatibility with <a href="https://www.nexusmods.com/stardewvalley/mods/2544">Canon-Friendly Dialogue Expansion (CFDE) by gizzymo</a>!
+
+There's also integration with <a href="https://www.nexusmods.com/stardewvalley/mods/11111">Sunberry Village (SBV)</a>.
 
 If you're interested in adding a compatibility patch for your mod (say you make custom NPCs or dialog mods), it's easy enough to do! I personally searched the RSV and Immersive Festival Dialog mod folders for the word Luau using VS Code to easily see where the word was used. Then I modified the relevant dialog lines in my mod and made sure the Target matched the location of the line. For more informal speech I just used Potluck. For RSV adults, I had them refer to it by the full name, Pelican Town Potluck, since they're from out of town.
 
