@@ -33,7 +33,7 @@ Note that the mod does not come packaged with a config file. The config file wil
 TNAG will recognize if you have <a href="https://www.moddrop.com/stardew-valley/mods/707502-quality-artisan-products">Quality Artisan Products by Wingheart</a> installed, so special orders requiring quality wine and/or cheese will show up on the special orders board before you have the cellar upgrade.
 
 You will also only see these orders if you have these mods installed:
-* Integration with Diverse Stardew (DSV): there are non-alcoholic alternative orders for Sam, Gus, and Sandy, for both pre-Core and post-Core. The reward was adjusted accordingly.
+* Integration with [Diverse Stardew (DSV)](https://www.nexusmods.com/stardewvalley/mods/17059): there are non-alcoholic alternative orders for Sam, Gus, and Sandy, for both pre-Core and post-Core. The reward was adjusted accordingly.
 * tiakall’s <a href="https://www.nexusmods.com/stardewvalley/mods/9002">Host Trees</a> (7 orders).
 * tiakall’s <a href="https://www.nexusmods.com/stardewvalley/mods/10950">Jean and Jorts</a> (2 orders, 1 which requires Host Trees).
 * Himetart’s <a href="https://www.nexusmods.com/stardewvalley/mods/9999">Always Raining in the Valley</a> (ARV, 4 orders).
@@ -49,8 +49,8 @@ Similarly, any mod that changes the town interior maps will be incompatible with
 
 ||Installation||
 
-1. Install <a href="https://www.nexusmods.com/stardewvalley/mods/2400">SMAPI</a> (version 3.13.0 or higher)
-2. Install <a href="https://www.nexusmods.com/stardewvalley/mods/1915">Content Patcher (CP)</a> (version 1.24.0 or higher)
+1. Install <a href="https://www.nexusmods.com/stardewvalley/mods/2400">SMAPI</a> (version 4.2.1 or higher)
+2. Install <a href="https://www.nexusmods.com/stardewvalley/mods/1915">Content Patcher (CP)</a> (version 2.6.0 or higher)
 3. <a href="https://www.moddrop.com/stardew-valley/mods/1077711-townies-need-artisan-goods">Download the mod from ModDrop</a> and unzip the mod folder into Stardew Valley/Mods.
 4. Play the game using SMAPI!
 
@@ -65,6 +65,11 @@ Similarly, any mod that changes the town interior maps will be incompatible with
 ⚠️⚠️⚠️Make sure you complete or cancel any special orders you had in your journal from TNAG first.⚠️⚠️⚠️Once you've done that, delete the folders for this mod from your Stardew Valley/Mods folder.
 
 Note that if the game was going to include special orders from TNAG in the next round of special orders, you may still see some special orders listed from this mod. They will reset the following week. Do not accept a special order from TNAG after uninstalling it in order to avoid the crash.
+
+
+||Permissions||
+
+This mod is licensed under [GPL](https://www.gnu.org/licenses/gpl-3.0.html). Source is on [my GitHub](https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/%5BCP%5D%20Townies%20Need%20Artisan%20Goods).
 
 
 ||Shout Outs||
@@ -96,3 +101,4 @@ The DSV server, the SMC server, and the #making-mods channel of the main Stardew
 
 ||3.0.0 Changelog||
 * Updated for 1.6. Fixed move commands in Sam game night event
+* Note: I tested the vanilla orders for 1.6, but not the mod integration. I know Host Trees is broken for 1.6 so those orders will not work properly. Please drop a comment on ModDrop if you run into any other issues!
