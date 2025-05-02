@@ -37,98 +37,84 @@
 					"Id": "{{ModID}}_NotMemberTortilla",
 					"ItemId": "(O)229",
 					"Price": 75,
-					"IgnoreShopPriceModifiers": true,
 					"Condition": "!PLAYER_HAS_MAIL JojaMember Received" // available at this price when player is not a Joja member
 				},
 				"{{ModID}}_NotMemberOil": {
 					"Id": "{{ModID}}_NotMemberOil",
 					"ItemId": "(O)247",
 					"Price": 150,
-					"IgnoreShopPriceModifiers": true,
 					"Condition": "!PLAYER_HAS_MAIL JojaMember Received" // available at this price when player is not a Joja member
 				},
 				"{{ModID}}_NotMemberVinegar": {
 					"Id": "{{ModID}}_NotMemberVinegar",
 					"ItemId": "(O)419",
 					"Price": 150,
-					"IgnoreShopPriceModifiers": true,
 					"Condition": "!PLAYER_HAS_MAIL JojaMember Received" // available at this price when player is not a Joja member
 				},
 				"{{ModID}}_NotMemberCoalYear1": {
 					"Id": "{{ModID}}_NotMemberCoalYear1",
 					"ItemId": "(O)382",
 					"Price": 113,
-					"IgnoreShopPriceModifiers": true,
 					"Condition": "!PLAYER_HAS_MAIL JojaMember Received, DATE_RANGE spring 1 1 winter 28 1" // available at this price when player is not a Joja member AND it's year 1
 				},
 				"{{ModID}}_NotMemberCoalYear2": {
 					"Id": "{{ModID}}_NotMemberCoalYear2",
 					"ItemId": "(O)382",
 					"Price": 188,
-					"IgnoreShopPriceModifiers": true,
 					"Condition": "!PLAYER_HAS_MAIL JojaMember Received, YEAR 2" // available at this price when player is not a Joja member AND it's year 2 or later
 				},
 				"{{ModID}}_NotMemberBait": {
 					"Id": "{{ModID}}_NotMemberBait",
 					"ItemId": "(O)685",
 					"Price": 4,
-					"IgnoreShopPriceModifiers": true,
 					"Condition": "!PLAYER_HAS_MAIL JojaMember Received, PLAYER_HAS_CRAFTING_RECIPE Current Bait" // available at this price when player is not a Joja member AND player knows bait recipe
 				},
 				"{{ModID}}_NotMemberSpinner": {
 					"Id": "{{ModID}}_NotMemberSpinner",
 					"ItemId": "(O)686",
 					"Price": 375,
-					"IgnoreShopPriceModifiers": true,
 					"Condition": "!PLAYER_HAS_MAIL JojaMember Received, PLAYER_HAS_CRAFTING_RECIPE Current Spinner" // available at this price when player is not a Joja member AND player knows spinner recipe
 				},
 				"{{ModID}}_NotMemberTrapBobber": {
 					"Id": "{{ModID}}_NotMemberTrapBobber",
 					"ItemId": "(O)694",
 					"Price": 375,
-					"IgnoreShopPriceModifiers": true,
 					"Condition": "!PLAYER_HAS_MAIL JojaMember Received, PLAYER_HAS_CRAFTING_RECIPE Current Trap Bobber" // available at this price when player is not a Joja member AND player knows trap bobber recipe
 				},
 				"{{ModID}}_NotMemberLeadBobber": {
 					"Id": "{{ModID}}_NotMemberLeadBobber",
 					"ItemId": "(O)692",
 					"Price": 375,
-					"IgnoreShopPriceModifiers": true,
 					"Condition": "!PLAYER_HAS_MAIL JojaMember Received, PLAYER_HAS_CRAFTING_RECIPE Current Lead Bobber" // available at this price when player is not a Joja member AND player knows lead bobber recipe
 				},
 				"{{ModID}}_NotMemberTreasureHunter": {
 					"Id": "{{ModID}}_NotMemberTreasureHunter",
 					"ItemId": "(O)693",
 					"Price": 563,
-					"IgnoreShopPriceModifiers": true,
 					"Condition": "!PLAYER_HAS_MAIL JojaMember Received, PLAYER_HAS_CRAFTING_RECIPE Current Treasure Hunter" // available at this price when player is not a Joja member AND player knows treasure hunter recipe
 				},
 				"{{ModID}}_NotMemberCorkBobber": {
 					"Id": "{{ModID}}_NotMemberCorkBobber",
 					"ItemId": "(O)695",
 					"Price": 563,
-					"IgnoreShopPriceModifiers": true,
 					"Condition": "!PLAYER_HAS_MAIL JojaMember Received, PLAYER_HAS_CRAFTING_RECIPE Current Cork Bobber" // available at this price when player is not a Joja member AND player knows cork bobber recipe
 				},
 				"{{ModID}}_NotMemberBarbedHook": {
 					"Id": "{{ModID}}_NotMemberBarbedHook",
 					"ItemId": "(O)691",
 					"Price": 750,
-					"IgnoreShopPriceModifiers": true,
 					"Condition": "!PLAYER_HAS_MAIL JojaMember Received, PLAYER_HAS_CRAFTING_RECIPE Current Barbed Hook" // available at this price when player is not a Joja member AND player knows barbed hook recipe
 				},
 				"{{ModID}}_NotMemberDressedSpinner": {
 					"Id": "{{ModID}}_NotMemberDressedSpinner",
 					"ItemId": "(O)697",
 					"Price": 750,
-					"IgnoreShopPriceModifiers": true,
 					"Condition": "!PLAYER_HAS_MAIL JojaMember Received, PLAYER_HAS_CRAFTING_RECIPE Current Dressed Spinner" // available at this price when player is not a Joja member AND player knows dressed spinner recipe
 				},
 				"{{ModID}}_NotMemberMagnet": {
 					"Id": "{{ModID}}_NotMemberMagnet",
 					"ItemId": "(O)703",
 					"Price": 750,
-					"IgnoreShopPriceModifiers": true,
 					"Condition": "!PLAYER_HAS_MAIL JojaMember Received, PLAYER_HAS_CRAFTING_RECIPE Current Magnet" // available at this price when player is not a Joja member AND player knows magnet recipe
 				}
 			}
@@ -146,98 +132,84 @@
 					"Id": "{{ModID}}_MemberTortilla",
 					"ItemId": "(O)229",
 					"Price": 50,
-					"IgnoreShopPriceModifiers": true,
 					"Condition": "PLAYER_HAS_MAIL JojaMember Received" // available at this price when player is a Joja member
 				},
 				"{{ModID}}_MemberOil": {
 					"Id": "{{ModID}}_MemberOil",
 					"ItemId": "(O)247",
 					"Price": 100,
-					"IgnoreShopPriceModifiers": true,
 					"Condition": "PLAYER_HAS_MAIL JojaMember Received" // available at this price when player is a Joja member
 				},
 				"{{ModID}}_MemberVinegar": {
 					"Id": "{{ModID}}_MemberVinegar",
 					"ItemId": "(O)419",
 					"Price": 100,
-					"IgnoreShopPriceModifiers": true,
 					"Condition": "PLAYER_HAS_MAIL JojaMember Received" // available at this price when player is a Joja member
 				},
 				"{{ModID}}_MemberCoalYear1": {
 					"Id": "{{ModID}}_MemberCoalYear1",
 					"ItemId": "(O)382",
 					"Price": 75,
-					"IgnoreShopPriceModifiers": true,
 					"Condition": "PLAYER_HAS_MAIL JojaMember Received, DATE_RANGE spring 1 1 winter 28 1" // available at this price when player is a Joja member AND it's year 1
 				},
 				"{{ModID}}_MemberCoalYear2": {
 					"Id": "{{ModID}}_MemberCoalYear2",
 					"ItemId": "(O)382",
 					"Price": 125,
-					"IgnoreShopPriceModifiers": true,
 					"Condition": "PLAYER_HAS_MAIL JojaMember Received, YEAR 2" // available at this price when player is a Joja member AND it's year 2 or later
 				},
 				"{{ModID}}_MemberBait": {
 					"Id": "{{ModID}}_MemberBait",
 					"ItemId": "(O)685",
 					"Price": 3,
-					"IgnoreShopPriceModifiers": true,
 					"Condition": "PLAYER_HAS_MAIL JojaMember Received, PLAYER_HAS_CRAFTING_RECIPE Current Bait" // available at this price when player is a Joja member AND player knows bait recipe
 				},
 				"{{ModID}}_MemberSpinner": {
 					"Id": "{{ModID}}_MemberSpinner",
 					"ItemId": "(O)686",
 					"Price": 250,
-					"IgnoreShopPriceModifiers": true,
 					"Condition": "PLAYER_HAS_MAIL JojaMember Received, PLAYER_HAS_CRAFTING_RECIPE Current Spinner" // available at this price when player is a Joja member AND player knows spinner recipe
 				},
 				"{{ModID}}_MemberTrapBobber": {
 					"Id": "{{ModID}}_MemberTrapBobber",
 					"ItemId": "(O)694",
 					"Price": 250,
-					"IgnoreShopPriceModifiers": true,
 					"Condition": "PLAYER_HAS_MAIL JojaMember Received, PLAYER_HAS_CRAFTING_RECIPE Current Trap Bobber" // available at this price when player is a Joja member AND player knows trap bobber recipe
 				},
 				"{{ModID}}_MemberLeadBobber": {
 					"Id": "{{ModID}}_MemberLeadBobber",
 					"ItemId": "(O)692",
 					"Price": 100,
-					"IgnoreShopPriceModifiers": true,
 					"Condition": "PLAYER_HAS_MAIL JojaMember Received, PLAYER_HAS_CRAFTING_RECIPE Current Lead Bobber" // available at this price when player is a Joja member AND player knows lead bobber recipe
 				},
 				"{{ModID}}_MemberTreasureHunter": {
 					"Id": "{{ModID}}_MemberTreasureHunter",
 					"ItemId": "(O)693",
 					"Price": 375,
-					"IgnoreShopPriceModifiers": true,
 					"Condition": "PLAYER_HAS_MAIL JojaMember Received, PLAYER_HAS_CRAFTING_RECIPE Current Treasure Hunter" // available at this price when player is a Joja member AND player knows treasure hunter recipe
 				},
 				"{{ModID}}_MemberCorkBobber": {
 					"Id": "{{ModID}}_MemberCorkBobber",
 					"ItemId": "(O)695",
 					"Price": 375,
-					"IgnoreShopPriceModifiers": true,
 					"Condition": "PLAYER_HAS_MAIL JojaMember Received, PLAYER_HAS_CRAFTING_RECIPE Current Cork Bobber" // available at this price when player is a Joja member AND player knows cork bobber recipe
 				},
 				"{{ModID}}_MemberBarbedHook": {
 					"Id": "{{ModID}}_MemberBarbedHook",
 					"ItemId": "(O)691",
 					"Price": 500,
-					"IgnoreShopPriceModifiers": true,
 					"Condition": "PLAYER_HAS_MAIL JojaMember Received, PLAYER_HAS_CRAFTING_RECIPE Current Barbed Hook" // available at this price when player is a Joja member AND player knows barbed hook recipe
 				},
 				"{{ModID}}_MemberDressedSpinner": {
 					"Id": "{{ModID}}_MemberDressedSpinner",
 					"ItemId": "(O)687",
 					"Price": 500,
-					"IgnoreShopPriceModifiers": true,
 					"Condition": "PLAYER_HAS_MAIL JojaMember Received, PLAYER_HAS_CRAFTING_RECIPE Current Dressed Spinner" // available at this price when player is a Joja member AND player knows dressed spinner recipe
 				},
 				"{{ModID}}_MemberMagnet": {
 					"Id": "{{ModID}}_MemberMagnet",
 					"ItemId": "(O)703",
 					"Price": 500,
-					"IgnoreShopPriceModifiers": true,
 					"Condition": "PLAYER_HAS_MAIL JojaMember Received, PLAYER_HAS_CRAFTING_RECIPE Current Magnet" // available at this price when player is a Joja member AND player knows magnet recipe
 				}
 			}
