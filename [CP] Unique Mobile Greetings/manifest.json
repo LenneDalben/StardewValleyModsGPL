@@ -13,7 +13,12 @@
     "Dependencies": [
         {
             "UniqueID": "JoXW.MobilePhone",
-            "IsRequired": true
+            "IsRequired": false
+        },
+        
+        {
+            "UniqueID": "aedenthorn.MobilePhone",
+            "IsRequired": false
         }
     ]
 }
