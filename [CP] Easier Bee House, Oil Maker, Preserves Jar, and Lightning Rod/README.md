@@ -46,3 +46,6 @@ This mod is licensed under [GPL](https://github.com/LenneDalben/StardewValleyMod
 <a href="https://www.nexusmods.com/stardewvalley/users/80928528?tab=user+files">kdau</a>, who helped me set up the code for this mod in the SDV Discord!
 
 <a href="https://www.nexusmods.com/stardewvalley/users/1552317?tab=user+files">Pathoschild</a>, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible.
+
+||2.0.0 Changelog||
+* Updated version number requirements for 1.6. No other changes needed.
