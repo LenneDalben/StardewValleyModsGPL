@@ -63,13 +63,23 @@ A note on Stardew Valley Expanded (SVE): I don’t use it and never will, so I w
 
 ||Installation||
 
-1. Install <a href="https://www.nexusmods.com/stardewvalley/mods/2400">SMAPI</a> (version 3.9.3 or higher)
-2. Install <a href="https://www.nexusmods.com/stardewvalley/mods/1915">Content Patcher (CP)</a> (version 1.21.0 or higher)
-- Optional: Install <a href="https://www.nexusmods.com/stardewvalley/mods/8626">Custom Companions (CC)</a> (version 1.4.3 or higher)
+1. Install <a href="https://www.nexusmods.com/stardewvalley/mods/2400">SMAPI</a> (version 4.2.1 or higher)
+2. Install <a href="https://www.nexusmods.com/stardewvalley/mods/1915">Content Patcher (CP)</a> (version 2.6.0 or higher)
+- Optional: Install <a href="https://www.nexusmods.com/stardewvalley/mods/8626">Custom Companions (CC)</a> (version 5.0.0 or higher)
 3. Download the mod from <a href="https://www.moddrop.com/stardew-valley/mods/1489386-it-takes-a-village-class-events">ModDrop</a> and unzip the mod folders into Stardew Valley/Mods.
 - If you do not use CC, you can delete that folder from your Mods folder.
 - If you use Lasting Conversation Topics and want the add-on to override the Minimum Days Between Lessons setting, download and unzip the add-on.
 4. Play the game using SMAPI!
+
+
+||Uninstallation||
+
+Delete the folders from this mod.
+
+
+||Permissions||
+
+This mod is licensed under [GPL](https://github.com/LenneDalben/StardewValleyModsGPL/blob/main/LICENSE). Source is on [my GitHub](https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/It%20Takes%20a%20Village).
 
 
 ||Shout Outs||
@@ -107,3 +117,11 @@ My SO, wonderful soul who proofread my work and provided emotional support <3
 <a href="https://www.kdau.com/scrollish/">kdau's scroll generator</a>, for the scroll captions in the preview images
 
 <a href="https://www.nexusmods.com/stardewvalley/users/1552317?tab=user+files">Pathoschild</a>, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible
+
+||2.0.0 Changelog||
+* Updated to 1.6.
+* Fixed visual glitch in Clint Metalworking lesson
+* Fixed visual glitch in Gus Cooking lesson
+* Fixed warning message for Maru's portrait in Harvey Anatomy
+* adjusted the timing of pauses in Alex PE and Healthy Eating, Harvey Anatomy, Abigail Video Games, Sam Music, Robin Woodworking, Abigail Self-Defense, and the final wrap up event
+* Updated wording in Sebastian Troubleshooting lesson
