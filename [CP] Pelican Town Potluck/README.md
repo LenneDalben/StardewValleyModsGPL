@@ -29,8 +29,8 @@ If you're interested in adding a compatibility patch for your mod (say you make 
 
 ||Installation||
 
-1. Install <a href="https://smapi.io/">SMAPI</a> (version 3.4.0 or higher)
-2. Install <a href="https://www.nexusmods.com/stardewvalley/mods/1915">Content Patcher (CP)</a> (version 1.19.0 or higher)
+1. Install <a href="https://smapi.io/">SMAPI</a> (version 4.2.1 or higher)
+2. Install <a href="https://www.nexusmods.com/stardewvalley/mods/1915">Content Patcher (CP)</a> (version 2.6.0 or higher)
 3. <a href="https://www.moddrop.com/stardew-valley/mods/1032927-pelican-town-potluck">Download the mod from ModDrop</a> and unzip the mod folder into Stardew Valley/Mods.
 4. Play the game using SMAPI!
 
