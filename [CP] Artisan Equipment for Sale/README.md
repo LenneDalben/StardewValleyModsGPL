@@ -35,6 +35,11 @@ Note that the mod does not come packaged with a config file. The config file wil
 Delete the folders from this mod.
 
 
+||Permissions||
+
+This mod is licensed under <a href="https://github.com/LenneDalben/StardewValleyModsGPL/blob/main/LICENSE">GPL</a>. Source is on <a href="https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/Artisan%20Equipment%20for%20Sale">my GitHub</a>.
+
+
 ||Shout Outs||
 
 Nexus user kupiqo for providing the German translation for the letter.
@@ -258,7 +263,7 @@ Deluxe Worm Bin    |     10000      | Learn recipe and 9 hearts with Willy
 
 
 ||2.0.0 Changelog||
-* Updated for 1.6. Now requires SMAPI version 4.2.1+ and CP version 2.6.0+. No longer requires STF or MFM. If updating from previous version, delete all previous mod folders before installing the update.
+* Updated for 1.6. Now requires SMAPI version 4.2.1+ and CP version 2.6.0+. No longer requires STF or MFM. If updating from version 1.1.2 or lower, delete all previous mod folders before installing the update.
 * Removed specific check for SVE for Marlon's machines. SVE users can still buy items from Marlon by unlocking recipes and getting to the bottom of the mines once.
 * Added config option Artisan Equipment Letter Only Sends Once: Choose whether to receive the letter reminder only once (default: false). This means the letter repeats every week on Thursdays. German translation doesn't include the config strings.
 * Added new machines: heavy furnace, dehydrator, mushroom log, heavy tapper, fish smoker, bait maker, and deluxe worm bin.
