@@ -14,16 +14,20 @@ If you use Stardew Valley Expanded (SVE), you don't need this mod. If you use Jo
 
 
 ||Installation||
-1. Install <a href="https://smapi.io/">SMAPI</a> (version 3.9.0 or higher)
-2. Install <a href="https://www.nexusmods.com/stardewvalley/mods/5005">Shop Tile Framework (STF)</a> (version 1.0.9 or higher)
-3. OPTIONAL: If you'd like to receive the letters, do this step. If you don't want to receive the letters or don't use MFM, ignore this step. Install <a href="https://www.nexusmods.com/stardewvalley/mods/1536">Mail Framework Mod (MFM)</a> (version 1.10.2 or higher)
-4. <a href="https://www.moddrop.com/stardew-valley/mods/1036749-joja-always-has-seeds">Download the mod from ModDrop</a> and unzip the mod folders into Stardew Valley/Mods (if you don't want the letters or don't use MFM, delete the folder beginning with [MFM]).
-5. Play the game using SMAPI!
+1. Install <a href="https://smapi.io/">SMAPI</a> (version 4.2.1 or higher)
+2. Install <a href="https://www.nexusmods.com/stardewvalley/mods/1915">Content Patcher (CP)</a> (version 2.6.0 or higher)
+3. <a href="https://www.moddrop.com/stardew-valley/mods/1036749-joja-always-has-seeds">Download the mod from ModDrop</a> and unzip the mod folders into Stardew Valley/Mods.
+4. Play the game using SMAPI!
 
 
 ||Uninstallation||
 
 Delete the folders from this mod.
+
+
+||Permissions||
+
+This mod is licensed under [GPL](https://github.com/LenneDalben/StardewValleyModsGPL/blob/main/LICENSE). Source is on [my GitHub](https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/Joja%20Always%20Has%20Seeds).
 
 
 ||Shout Outs||
@@ -36,8 +40,8 @@ Nexus user keepsyou, who requested the mod!
 
 <a href="https://www.nexusmods.com/stardewvalley/users/1552317?tab=user+files">Pathoschild</a>, author of SMAPI, without them, this mod wouldn't be possible.
 
-<a href="https://www.nexusmods.com/stardewvalley/users/3590100?tab=user+files">CherryChain</a>, author of Shop Tile Framework (STF), without them, this mod wouldn't be possible either.
+<a href="https://www.nexusmods.com/stardewvalley/users/3590100?tab=user+files">CherryChain</a>, author of Shop Tile Framework (STF) for the old version of this mod. Without them, this mod wouldn't be possible either.
 
-<a href="https://www.nexusmods.com/stardewvalley/users/2186381?tab=user+files">Digus</a>, author of Mail Framework Mod (MFM), without them, the letter component of this mod wouldn't be possible.
+<a href="https://www.nexusmods.com/stardewvalley/users/2186381?tab=user+files">Digus</a>, author of Mail Framework Mod (MFM) for the old version of this mod. Without them, the letter component of this mod wouldn't be possible.
 
 Everyone in #making-mods in the Stardew Valley Discord, who are a helpful and friendly lot!
