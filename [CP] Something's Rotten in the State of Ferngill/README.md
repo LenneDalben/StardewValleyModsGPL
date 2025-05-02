@@ -34,9 +34,9 @@ A note on Stardew Valley Expanded (SVE): I don’t use it and never will, so I w
 
 ||Installation||
 
-1. Install <a href="https://www.nexusmods.com/stardewvalley/mods/2400">SMAPI</a> (version 3.9.3 or higher)
-2. Install <a href="https://www.nexusmods.com/stardewvalley/mods/1915">Content Patcher (CP)</a> (version 1.21.0 or higher)
-- Optional: for the full features, install <a href="https://www.nexusmods.com/stardewvalley/mods/14566">Dynamic Map Tiles (DMT)</a> (version 0.9.4 or higher)
+1. Install <a href="https://www.nexusmods.com/stardewvalley/mods/2400">SMAPI</a> (version 4.2.1 or higher)
+2. Install <a href="https://www.nexusmods.com/stardewvalley/mods/1915">Content Patcher (CP)</a> (version 2.6.0 or higher)
+- Optional: for the full features, install <a href="https://www.nexusmods.com/stardewvalley/mods/14566">Dynamic Map Tiles (DMT)</a> (version 0.9.7 or higher)
 3. Download the mod from <a href="https://www.moddrop.com/stardew-valley/mods/1308573-somethings-rotten-in-the-state-of-ferngill">ModDrop</a> and unzip the mod folder into Stardew Valley/Mods.
 4. Play the game using SMAPI!
 
@@ -53,3 +53,6 @@ A note on Stardew Valley Expanded (SVE): I don’t use it and never will, so I w
 <a href="https://www.nexusmods.com/stardewvalley/users/18901754?tab=user+files">aedenthorn / Lucy</a>, author of Dynamic Map Tiles, for their quick support. Without them, the extra effects on map tiles in this mod wouldn't be possible.
 
 <a href="https://www.nexusmods.com/stardewvalley/users/1552317?tab=user+files">Pathoschild</a>, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible.
+
+||2.0.0 Changelog||
+* Updated to 1.6 for the letter format.
