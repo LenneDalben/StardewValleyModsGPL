@@ -13,6 +13,8 @@ Thanks to game version 1.6, there's now a config to easily select between all th
 * 'May' Plan Ahead Up to 7 Days in Advance (Maybe7): Pierre has a random chance to sell the next season's seeds from the 22nd-28th of the month, from the 26th-28th of the month, only on the 28th of the month, or not at all. Pierre will send you a letter on the 22nd of the month to let you know to check his shop that week
 * 'May' Plan Ahead Draylon Edition (Draylon): Pierre has a random chance to sell some of the next season's seeds, so it's not guaranteed he'll sell all types of the next season's seeds (or any seeds, if all of the random checks roll false!). Pierre has a random chance to sell the next season's seeds on any, some, or none of the days between the 22nd-28th. He could sell a seed on the 22nd that he doesn't sell the rest of the week, or he could sell it only on some of those days, or not at all! Pierre will send you a letter on the 22nd of the month to let you know to check his shop that week
 
+Note that the mod does not come packaged with a config file. The config file will be generated after you run the game with the mod installed at least once. 
+
 
 ||Installation||
 

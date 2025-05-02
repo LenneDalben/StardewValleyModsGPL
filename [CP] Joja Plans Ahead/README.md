@@ -12,6 +12,8 @@ Thanks to game version 1.6, there's now a config to easily select between all th
 * 'May' Plan Ahead Up to 7 Days in Advance (Maybe7): JojaMart has a random chance to sell the next season's seeds from the 22nd-28th of the month, from the 26th-28th of the month, only on the 28th of the month, or not at all. Morris will send you a letter on the 22nd of the month to let you know to check JojaMart that week
 * 'May' Plan Ahead Draylon Edition (Draylon): JojaMart has a random chance to sell some of the next season's seeds, so it's not guaranteed they will sell all types of the next season's seeds (or any seeds, if all of the random checks roll false!). JojaMart has a random chance to sell the next season's seeds on any, some, or none of the days between the 22nd-28th. They could sell a seed on the 22nd that they don't sell the rest of the week, or they could sell it only on some of those days, or not at all! Morris will send you a letter on the 22nd of the month to let you know to check JojaMart that week
 
+Note that the mod does not come packaged with a config file. The config file will be generated after you run the game with the mod installed at least once. 
+
 
 ||Compatibility||
 
