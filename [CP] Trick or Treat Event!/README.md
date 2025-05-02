@@ -64,3 +64,4 @@ This mod is licensed under [GPL](https://github.com/LenneDalben/StardewValleyMod
 
 ||2.0.0 Changelog||
 * Update for 1.6. Replaced YearOneOrLater config option with TrickorTreatEventRepeats
+* Note: I tested the event for 1.6, but not the mod integration. Please drop a comment on ModDrop if you run into any issues!
