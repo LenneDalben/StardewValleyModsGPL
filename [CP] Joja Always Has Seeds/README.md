@@ -45,3 +45,6 @@ Nexus user keepsyou, who requested the mod!
 <a href="https://www.nexusmods.com/stardewvalley/users/2186381?tab=user+files">Digus</a>, author of Mail Framework Mod (MFM) for the old version of this mod. Without them, the letter component of this mod wouldn't be possible.
 
 Everyone in #making-mods in the Stardew Valley Discord, who are a helpful and friendly lot!
+
+||2.0.0 Changelog||
+* Updated for 1.6. Now requires SMAPI version 4.2.1+ and CP version 2.6.0+. No longer requires STF or MFM. If updating from version 1.0.7 or lower, delete all previous mod folders before installing the update.
