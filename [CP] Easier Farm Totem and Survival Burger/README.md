@@ -32,3 +32,5 @@ Delete the folder from this mod.
 <a href="https://www.nexusmods.com/stardewvalley/users/1552317?tab=user+files">Pathoschild</a>, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible.
 
 ||2.0.0 Changelog||
+* Updated config name from ModToggled to Farm Totem Recipe Change
+* Added Survival Burger recipe skill requirement change back to Foraging 2
