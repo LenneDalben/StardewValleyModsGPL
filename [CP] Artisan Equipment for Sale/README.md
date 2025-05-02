@@ -262,6 +262,6 @@ Deluxe Worm Bin    |     10000      | Learn recipe and 9 hearts with Willy
 * Removed specific check for SVE for Marlon's machines. SVE users can still buy items from Marlon by unlocking recipes and getting to the bottom of the mines once.
 * Added config option Artisan Equipment Letter Only Sends Once: Choose whether to receive the letter reminder only once (default: false). This means the letter repeats every week on Thursdays.
 * Added new machines: heavy furnace, dehydrator, mushroom log, heavy tapper, fish smoker, bait maker, and deluxe worm bin.
-* Adjusted some of the heart requirements; refer to readme above.
+* Adjusted some of the heart requirements; refer to spoiler section in readme or mod decription.
 * Updated mayonnaise machine price to match cheese press price.
 * Fixed oil maker price typo (it's 10,000g, not 1,000g).
