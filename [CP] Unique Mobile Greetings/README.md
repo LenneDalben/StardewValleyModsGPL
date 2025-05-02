@@ -42,3 +42,6 @@ Delete the folder from this mod.
 <a href="https://www.nexusmods.com/stardewvalley/users/18901754?tab=user+files">Aedenthorn</a>, author of Mobile Phone, without them, this mod wouldn't be possible.
 
 <a href="https://www.nexusmods.com/stardewvalley/users/1552317?tab=user+files">Pathoschild</a>, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible either.
+
+||2.0.0 Changelog||
+* Updated for 1.6. Now works with either aedenthorn's Mobile Phone or JoXW's Mobile Phone Continued.
