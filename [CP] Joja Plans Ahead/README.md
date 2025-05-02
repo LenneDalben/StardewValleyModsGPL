@@ -33,6 +33,10 @@ I've been informed that Stardew Valley Expanded (SVE) modifies JojaMart so that 
 Delete the folders for this mod from your Stardew Valley/Mods folder.
 
 
+||Permissions||
+This mod is licensed under [GPL](https://github.com/LenneDalben/StardewValleyModsGPL/blob/main/LICENSE). Source is on [my Github](https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/%5BCP%5D%20Joja%20Plans%20Ahead).
+
+
 ||Shout Outs||
 
 <a href="https://www.nexusmods.com/stardewvalley/users/88107803?tab=user+files">Jonqora</a>, who gave me the idea to use Shop Tile Framework (STF) to make this mod, and many other ideas implemented in the mod.
