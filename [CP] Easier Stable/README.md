@@ -28,6 +28,11 @@ Note that the mod does not come packaged with a config file. The config file wil
 Delete the folder from this mod.
 
 
+||Permissions||
+
+This mod is licensed under [GPL](https://github.com/LenneDalben/StardewValleyModsGPL/blob/main/LICENSE). Source is on [my GitHub](https://github.com/LenneDalben/StardewValleyModsGPL/tree/main/%5BCP%5D%20Easier%20Stable).
+
+
 ||Shout Outs||
 
 Nywuh | Lu(cie) on the #using-mods channel of the Stardew Valley Discord, who requested the mod!
@@ -35,3 +40,6 @@ Nywuh | Lu(cie) on the #using-mods channel of the Stardew Valley Discord, who re
 <a href="https://www.nexusmods.com/stardewvalley/users/3590100?tab=user+files">CherryChain</a> and <a href="https://www.nexusmods.com/stardewvalley/users/26612284?tab=user+files">paradigmnomad</a>, who pointed me in the right direction to get started on this mod!
 
 <a href="https://www.nexusmods.com/stardewvalley/users/1552317?tab=user+files">Pathoschild</a>, author of SMAPI and Content Patcher, without them, this mod wouldn't be possible.
+
+||2.0.0 Changelog||
+* Updated to new 1.6 format, since it changed significantly
