@@ -38,6 +38,6 @@ This mod is licensed under [GPL](https://github.com/LenneDalben/StardewValleyMod
 
 <a href="https://next.nexusmods.com/profile/beyondrecovery/mods?gameId=1303">beyondrecovery</a>, who gave me the idea to add the survival burger recipe change!
 
-||2.0.0 Changelog||
+||2.0.1 Changelog||
 * Updated config name from ModToggled to Farm Totem Recipe Change and Option to Farm Totem Option
-* Added Survival Burger recipe skill requirement change back to Foraging 2
+* Added Survival Burger recipe skill requirement change back to Foraging 2. Since folder name changed, delete the old folder before updating from version 1.0.2 or lower
