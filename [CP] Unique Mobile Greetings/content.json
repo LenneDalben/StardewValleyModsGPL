@@ -885,8 +885,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Shane",
 			"Entries": {
-				"MobilePhoneGreeting": "{{i18n:ShaneGreetingFriendly}}...Hey.",
-				"MobilePhoneGoodBye": "{{i18n:ShaneGoodbyeFriendly}}*click*"
+				"MobilePhoneGreeting": "{{i18n:ShaneGreetingFriendly}}",
+				"MobilePhoneGoodBye": "{{i18n:ShaneGoodbyeFriendly}}"
 			},
 			"When": {
 				"Relationship:Shane": "Friendly",
@@ -899,8 +899,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Shane",
 			"Entries": {
-				"MobilePhoneGreeting": "{{i18n:ShaneGreetingLove}}Hey babe.",
-				"MobilePhoneGoodBye": "{{i18n:ShaneGoodbyeLove}}See ya."
+				"MobilePhoneGreeting": "{{i18n:ShaneGreetingLove}}",
+				"MobilePhoneGoodBye": "{{i18n:ShaneGoodbyeLove}}"
 			},
 			"When": {
 				"Relationship:Shane": "Dating, Engaged, Married",
@@ -913,8 +913,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Shane",
 			"Entries": {
-				"MobilePhoneGreeting": "{{i18n:ShaneGreetingDivorced}}...Why are you bothering me?",
-				"MobilePhoneGoodBye": "{{i18n:ShaneGoodbyeDivorced}}Don't call again. *click*$a"
+				"MobilePhoneGreeting": "{{i18n:ShaneGreetingDivorced}}",
+				"MobilePhoneGoodBye": "{{i18n:ShaneGoodbyeDivorced}}"
 			},
 			"When": {
 				"Relationship:Shane": "Divorced",
