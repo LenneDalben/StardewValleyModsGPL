@@ -954,9 +954,9 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Wizard",
 			"Entries": {
-				"MobilePhoneGreeting": "{{i18n:WizardGreeting}}Can you feel the energy today, {0}?",
-				"MobilePhoneInvite": "{{i18n:WizardInvite}}Hmm... I suppose I could accompany you, what do you want to do?",
-				"MobilePhoneGoodBye": "{{i18n:WizardGoodbye}}Farewell."
+				"MobilePhoneGreeting": "{{i18n:WizardGreeting}}",
+				"MobilePhoneInvite": "{{i18n:WizardInvite}}",
+				"MobilePhoneGoodBye": "{{i18n:WizardGoodbye}}"
 			},
 			"When": {
 				"WizardChanges": true
