@@ -1331,7 +1331,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Clint",
             "Entries": {
-                "ItTakesAVillage_ClintMetalworking": "{{ClintMetalworkingAbigailCT}}"
+                "ItTakesAVillage_ClintMetalworking": "{{ClintMetalworkingClintCT}}"
             }
         },
         /*Abigail CT*/ {
