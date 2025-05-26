@@ -2,7 +2,7 @@
    "Name": "[CP] It Takes a Village - Class Events",
    "Author": "LenneDalben",
    "Description": "NPCs help out Penny teach the kiddos by giving lessons.",
-   "Version": "2.0.0",
+   "Version": "2.0.1",
    "UniqueID": "LenneDalben.CP.ItTakesaVillage",
    "UpdateKeys": [ "ModDrop:1489386" ],
    "ContentPackFor": {
