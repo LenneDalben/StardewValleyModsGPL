@@ -1310,7 +1310,6 @@
         },
         //
         // Clint Metalworking
-        // shek looking into the animation
         /*Event proper*/ {
             "LogName": "Clint Metalworking Lesson",
             "Action": "EditData",
